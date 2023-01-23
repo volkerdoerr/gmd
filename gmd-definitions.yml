@@ -1,15 +1,15 @@
 
 tags:
-  afo: 
-    name: "afo"
-    ends-at-eol: true
-  meta:
+  tag: 
+    name: "afo"                # <afo> XXXX XXXXXXXXX XXXXXXXXXXXX
+    ends-at-eol: true 
+  tag:
     name: "meta"
-    tag:
+    attribute:
       name: "id"
-      values: |
-        "doc-version"
-        "doc-revision"
-        "doc-name"
+      allowed-values: |                
+        "doc-version"          # <meta id="doc-version"> XXXXXXXXX
+        "doc-revision"         # <meta id="doc-revision"> XXXXXXXX
+        "doc-name"             # <meta id="doc-name"> XXXXXXXXXXXX
     ends-at-eol: true
     
