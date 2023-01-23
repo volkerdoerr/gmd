@@ -1,5 +1,5 @@
 [![license: CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![](https://github.com/volkerdoerr/gmd/actions/workflows/ci.yml/badge.svg)](https://github.com/volkerdoerr/gmd/actions)
+[![](https://github.com/volkerdoerr/gmd/actions/workflows/continous-integration.yml/badge.svg)](https://github.com/volkerdoerr/gmd/actions)
 
 # gMD
 
