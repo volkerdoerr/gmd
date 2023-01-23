@@ -15,6 +15,6 @@ Es gibt leider keinen (modernen) Markdown-Standard; [CommonMark](https://commonm
 
 ## Tooling (to be implemented)
 
-[xml2gmd](#tooling-to-be-implemeted) wird vom [Konvertierungsjob](.github/workflows/converter.yml) aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input/](input) vorgenommen wurden. Die resultierenden Dateien werden im Verzeichnis [output/](output) abgelegt und automatisch gepushed. ⸾ _The Cascade xml2gmd tool is called by the conversion job, which is started automatically whenever changes are made in the input directory. The resulting files are placed in the output directory and are automatically pushed._
+[xml2gmd](#tooling-to-be-implemeted) wird vom Konvertierungsjob [converter.yml](.github/workflows/converter.yml) aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input](input) vorgenommen wurden. Die resultierenden Dateien werden im Ausgabeverzeichnis [output](output) abgelegt und automatisch gepushed. ⸾ _The Cascade xml2gmd tool is called by the conversion job converter.yml, which is started automatically whenever changes are made in the input directory. The resulting files are placed in the output directory and are automatically pushed._
 
 ---
