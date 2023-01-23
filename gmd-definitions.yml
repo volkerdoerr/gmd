@@ -1,0 +1,15 @@
+
+tags:
+  afo: 
+    name: "afo"
+    ends-at-eol: true
+  meta:
+    name: "meta"
+    tag:
+      name: "id"
+      values: |
+        "doc-version"
+        "doc-revision"
+        "doc-name"
+    ends-at-eol: true
+    
