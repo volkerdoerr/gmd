@@ -7,7 +7,7 @@ gematik markdown flavor prototype
 
 Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den Prototyp eines freien menschen- und maschinenlesbaren Formats für die zulassungsrelevanten Dokumente der [gematik](https://www.gematik.de). ⸾ _This repository is for development of the initial syntax definition for certification-relevant gematik documents._
 
-basiert auf [CommonMark](https://commonmark.org)
+gMD basiert auf [CommonMark](https://commonmark.org)
 
 Es gibt leider keinen (modernen) Markdown-Standard; CommonMark ist aber ein allgemein anerkannter Dialekt mit Unterstützung durch GitHub, GitLab, Reddit, Qt, Stack Overflow und anderen. Parser-Implementierungen existieren für nahezu alle gängigen Programmiersprachen: [List-of-CommonMark-Implementations](https://github.com/commonmark/commonmark-spec/wiki/List-of-CommonMark-Implementations). ⸾ _Unfortunately there is no (modern) markdown standard; but CommonMark is a widely accepted dialect, supported by GitHub, GitLab, Reddit, Qt, Stack Overflow and others. Parser implementations exist for almost all common programming languages._
 
