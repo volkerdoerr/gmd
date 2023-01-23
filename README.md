@@ -11,7 +11,7 @@ Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den 
 
 ## Tooling
 
-[xml2gmd](https://www.to-be-implemeted.com) wird vom Konvertierungsjob [converter.yml](.github/workflows/converter.yml) aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input](input) vorgenommen wurden. Die resultierenden Dateien werden auf die [Github-Seiten dieses Repositorys](https://volkerdoerr.github.io/gmd/) hochgeladen und für Releases auch in das Ausgabeverzeichnis [output](output) gepusht. ⸾ _The xml2gmd tool is called by the conversion job converter.yml, which is started automatically whenever changes are made in the input directory. The resulting files are uploaded onto the github pages of this repository and for releases also pushed into the output directory._
+[xml2gmd](https://www.to-be-implemeted.com) wird vom Konvertierungsjob [converter.yml](.github/workflows/converter.yml) aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input](input) vorgenommen wurden. Die resultierenden Dateien werden automatisch auf die [Github-Seiten dieses Repositorys](https://volkerdoerr.github.io/gmd/) hochgeladen und auch in das Ausgabeverzeichnis [output](output) gepusht. ⸾ _The xml2gmd tool is called by the conversion job converter.yml, which is started automatically whenever changes are made in the input directory. The resulting files are uploaded automatically to the github pages of this repository and also pushed into the output directory._
 
 ---
 
