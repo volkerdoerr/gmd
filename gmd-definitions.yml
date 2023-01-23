@@ -1,15 +1,19 @@
 
 tags:
   tag: 
-    name: "afo"                # <afo> XXXX XXXXXXXXX XXXXXXXXXXXX
-    ends-at-eol: true 
+    name: "afo"                # <afo> TIP1-A_4549 - Initialisierung Kartenterminaldienst
+    ends-at-eol: true          # default: true
   tag:
-    name: "meta"
+    name: "meta"               # <meta> Produkttyp Version: 2.50.1-1
+    key-value-pair: true       # default: false
+  tag:
+    name: "data"
     attribute:
-      name: "id"
+      name: "state" 
       allowed-values: |                
-        "doc-version"          # <meta id="doc-version"> XXXXXXXXX
-        "doc-revision"         # <meta id="doc-revision"> XXXXXXXX
-        "doc-name"             # <meta id="doc-name"> XXXXXXXXXXXX
-    ends-at-eol: true
-    
+        "A"                    # <data state = "A"> 
+        "B"                    # <data state = "B"> 
+        "C"                    # <data state = "C"> 
+
+
+
