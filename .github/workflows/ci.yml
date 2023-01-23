@@ -2,7 +2,7 @@ name: ci
 
 on:
   workflow_dispatch:       # tmp: run manually from the actions tab
-
+  
 jobs:    
 
   # converter job
@@ -24,6 +24,10 @@ jobs:
   build-website:
     runs-on: ubuntu-latest
     needs: convert-files
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/configure-pages@v2
@@ -40,6 +44,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build-website
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - id: deployment
         uses: actions/deploy-pages@v1
