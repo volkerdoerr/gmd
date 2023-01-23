@@ -1,4 +1,4 @@
-name: ci
+name: continous-integration
 
 on:
   workflow_dispatch:       # tmp: run manually from the actions tab
