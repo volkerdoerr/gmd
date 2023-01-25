@@ -51,3 +51,26 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v1
+                
+  # tagging job
+  set-wip-tag:
+    runs-on: ubuntu-latest
+    needs: deploy-website
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - run: wget https://github.com/volkerdoerr/gmd/releases/download/wip/xml2gmd
+      - uses: ncipollo/release-action@v1    
+        with:
+          tag: "wip"
+          name: "work in progress"
+          body: |
+            ## rolling release
+            tied to tag 'wip' that always represents the
+            state after the latest successful ci run
+          prerelease: true
+          allowUpdates: true
+          removeArtifacts: true
+          artifacts: "xml2gmd"
