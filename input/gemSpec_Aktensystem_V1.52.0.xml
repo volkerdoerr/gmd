@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="A_17865" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-04" technicalID="ML-94658" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Rollenausschluss für Anbieter eines ePA-Aktensystems]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS unabhängig von Anbietern von 
+Signaturdiensten und vom Anbieter des Schlüsselgenerierungsdienstes SGD2 der 
+zentralen TI-Plattform sein, d.h. es sind mindestens jeweils eigenständige 
+Rechtspersönlichkeiten mit eigenständigen operativen Geschäfts- und 
+Betriebsführungen und es ist eine strikte Vermeidung von 
+Personenidentitäten bzw. Doppelrollen in den Funktionen Geschäftsführung, 
+leitende Mitarbeiter und Zugangsberechtigte zum Betriebsort des 
+Signaturdienstes, Schlüsselgenerierungsdienstes SGD2 bzw. ePA-Aktensystems 
+gewährleistet.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS unabhängig von Anbietern von Signaturdiensten und vom Anbieter des Schlüsselgenerierungsdienstes SGD2 der zentralen TI-Plattform sein, d.h. es sind mindestens jeweils eigenständige Rechtspersönlichkeiten mit eigenständigen operativen Geschäfts- und Betriebsführungen und es ist eine strikte Vermeidung von Personenidentitäten bzw. Doppelrollen in den Funktionen Geschäftsführung, leitende Mitarbeiter und Zugangsberechtigte zum Betriebsort des Signaturdienstes, Schlüsselgenerierungsdienstes SGD2 bzw. ePA-Aktensystems gewährleistet. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21248-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-02-17" technicalID="ML-116685" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Unabhängigkeit des Betreibers eines ePA-Aktensystems vom Betreiber eines KTR-Consumers]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems und der Anbieter des KTR-Consumers MÜSSEN 
+dafür Sorge tragen, dass ihr beauftragter Betreiber für das 
+ePA-Aktensystem unabhängig vom beauftragten Betreiber des KTR-Consumers ist, 
+d.h. es sind mindestens jeweils eigenständige Rechtspersönlichkeiten mit 
+eigenständigen operativen Geschäfts- und Betriebsführungen und es ist eine 
+strikte Vermeidung von Personenidentitäten bzw. 
+Doppelrollen in den Funktionen Geschäftsführung, leitende Mitarbeiter und 
+Zugangsberechtigte zum Betriebsort des KTR-Consumers bzw. des ePA-Aktensystems 
+gewährleistet.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems und der Anbieter des KTR-Consumers MÜSSEN dafür Sorge tragen, dass ihr beauftragter Betreiber für das ePA-Aktensystem unabhängig vom beauftragten Betreiber des KTR-Consumers ist, d.h. es sind mindestens jeweils eigenständige Rechtspersönlichkeiten mit eigenständigen operativen Geschäfts- und Betriebsführungen und es ist eine strikte Vermeidung von Personenidentitäten bzw. Doppelrollen in den Funktionen Geschäftsführung, leitende Mitarbeiter und Zugangsberechtigte zum Betriebsort des KTR-Consumers bzw. des ePA-Aktensystems gewährleistet.]]></description_html>
+  </requirement>
+  <requirement id="A_18765" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-101335" revision="529807">
+    <title><![CDATA[Gemeinsame Kontaktstelle von Signaturdienst und ePA-Aktensystem]]></title>
+    <description><![CDATA[Falls ein Anbieter eines ePA-Aktensystems und ein Anbieter eines 
+Signaturdienstes den Versicherten eine gemeinsame Kontaktstelle (z.B. 
+User-Help-Desk) sowohl für Anfragen zum ePA-Aktensystem als auch zum 
+Signaturdienst anbieten, MÜSSEN sowohl der Anbieter des ePA-Aktensystems als 
+auch der Anbieter des Signaturdienstes sicherstellen, dass
+
+ * die Kontaktstelle die Erstellung oder Änderungen von 
+Authentifizierungsmerkmalen beim Signaturdienst und die Erstellung oder 
+Änderungen der Mailadresse für die Geräteverwaltung im ePA-Aktensystem nur im 
+4-Augen-Prinzip beauftragt,
+ * die Kontaktstelle die Erstellung oder Änderungen von 
+Authentifizierungsmerkmalen beim Signaturdienst und die Erstellung oder 
+Änderungen der Mailadresse für die Geräteverwaltung im ePA-Aktensystem nur auf 
+Verlangen des Versicherten beauftragt und
+
+ * nachträglich von Dritten nachvollzogen werden kann, dass eine Erstellung 
+oder eine Änderung durch den Versicherten beauftragt wurde und welche 
+Mitarbeiter der Kontaktstelle die Erstellung oder Änderungen bzw. Aufträge zur 
+Erstellung oder Änderung  ausgelöst haben.]]></description>
+    <description_html><![CDATA[Falls ein Anbieter eines ePA-Aktensystems und ein Anbieter eines Signaturdienstes den Versicherten eine gemeinsame Kontaktstelle (z.B. User-Help-Desk) sowohl für Anfragen zum ePA-Aktensystem als auch zum Signaturdienst anbieten, MÜSSEN sowohl der Anbieter des ePA-Aktensystems als auch der Anbieter des Signaturdienstes sicherstellen, dass<br/><ul><li>die Kontaktstelle die Erstellung oder Änderungen von Authentifizierungsmerkmalen beim Signaturdienst und die Erstellung oder Änderungen der Mailadresse für die Geräteverwaltung im ePA-Aktensystem nur im 4-Augen-Prinzip beauftragt,</li><li>die Kontaktstelle die Erstellung oder Änderungen von Authentifizierungsmerkmalen beim Signaturdienst und die Erstellung oder Änderungen der Mailadresse für die Geräteverwaltung im ePA-Aktensystem nur auf Verlangen des Versicherten beauftragt und<br/></li><li>nachträglich von Dritten nachvollzogen werden kann, dass eine Erstellung oder eine Änderung durch den Versicherten beauftragt wurde und welche Mitarbeiter der Kontaktstelle die Erstellung oder Änderungen bzw. Aufträge zur Erstellung oder Änderung  ausgelöst haben.<br/></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_19124" type="leafRequirement" severity="MUSS" lastUpdate="2020-07-14" technicalID="ML-102964" revision="529807">
+    <title><![CDATA[Mitarbeiter der Kontaktstelle haben keinen Zugriff auf das ePA-Aktensystem und Signaturdienst]]></title>
+    <description><![CDATA[Falls ein Anbieter eines ePA-Aktensystems und ein Anbieter eines 
+Signaturdienstes den Versicherten eine gemeinsame Kontaktstelle (z.B. 
+User-Help-Desk) sowohl für Anfragen zum ePA-Aktensystem als auch zum 
+Signaturdienst anbieten, MÜSSEN sowohl der Anbieter des ePA-Aktensystems als 
+auch der Anbieter des Signaturdienstes sicherstellen, dass die Mitarbeiter der 
+Kontaktstelle die Anfragen der Versicherten lediglich an das ePA-Aktensystem 
+bzw. den Signaturdienst weiterleiten können und technisch verhindert wird, dass 
+die Mitarbeiter der Kontaktstelle Änderungen an den Systemen des 
+ePA-Aktensystems bzw. des Signaturdienstes selbstständig durchführen können.
+ ]]></description>
+    <description_html><![CDATA[Falls ein Anbieter eines ePA-Aktensystems und ein Anbieter eines Signaturdienstes den Versicherten eine gemeinsame Kontaktstelle (z.B. User-Help-Desk) sowohl für Anfragen zum ePA-Aktensystem als auch zum Signaturdienst anbieten, MÜSSEN sowohl der Anbieter des ePA-Aktensystems als auch der Anbieter des Signaturdienstes sicherstellen, dass die Mitarbeiter der Kontaktstelle die Anfragen der Versicherten lediglich an das ePA-Aktensystem bzw. den Signaturdienst weiterleiten können und technisch verhindert wird, dass die Mitarbeiter der Kontaktstelle Änderungen an den Systemen des ePA-Aktensystems bzw. des Signaturdienstes selbstständig durchführen können.<br/> ]]></description_html>
+  </requirement>
+  <requirement id="A_19123" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-01" technicalID="ML-102962" revision="529807">
+    <title><![CDATA[Dokumentationspflicht zur gemeinsamen Kontaktstelle]]></title>
+    <description><![CDATA[Falls ein Anbieter eines ePA-Aktensystems und ein Anbieter eines 
+Signaturdienstes den Versicherten eine gemeinsame Kontaktstelle (z.B. 
+User-Help-Desk) sowohl für Anfragen zum ePA-Aktensystem als auch zum 
+Signaturdienst anbieten, MÜSSEN sowohl der Anbieter des ePA-Aktensystems als 
+auch der Anbieter des Signaturdienstes folgendes dokumentieren:
+
+ * Art und Umfang der Aufgaben der Kontaktstelle sowie der dafür erforderliche 
+Systemzugriff
+
+ * die betrieblichen Prozesse der Kontaktstelle und deren Absicherung 
+ * wie die Systemschnittstellen zwischen der Kontaktstelle und Aktensystem 
+sowie Signaturdienst abgesichert sind 
+ * eine umfassende Risikoanalyse mit Fokus auf Angriffe von Innentätern sowie 
+Sozial-Engineering-Angriffe von Kunden.]]></description>
+    <description_html><![CDATA[<br/>
+Falls ein Anbieter eines ePA-Aktensystems und ein Anbieter eines Signaturdienstes den Versicherten eine gemeinsame Kontaktstelle (z.B. User-Help-Desk) sowohl für Anfragen zum ePA-Aktensystem als auch zum Signaturdienst anbieten, MÜSSEN sowohl der Anbieter des ePA-Aktensystems als auch der Anbieter des Signaturdienstes folgendes dokumentieren:<br/>
+ 
+<ul>
+  <li>Art und Umfang der Aufgaben der Kontaktstelle sowie der dafür erforderliche Systemzugriff<br/>
+  </li>
+  <li>die betrieblichen Prozesse der Kontaktstelle und deren Absicherung</li>
+  <li>wie die Systemschnittstellen zwischen der Kontaktstelle und Aktensystem sowie Signaturdienst abgesichert sind</li>
+  <li>eine umfassende Risikoanalyse mit Fokus auf Angriffe von Innentätern sowie Sozial-Engineering-Angriffe von Kunden.</li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="A_15246" type="leafRequirement" severity="MUSS" lastUpdate="2020-07-20" technicalID="ML-88445" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - OID als homeCommunityID für Aktenanbieter]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS als homeCommunityID 
+[gemSpec_DM_ePA#2.1.4.6] eine OID verwenden, die er beim DIMDI beantragt.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS als homeCommunityID [gemSpec_DM_ePA#2.1.4.6] eine OID verwenden, die er beim DIMDI beantragt.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_14127-04" type="leafRequirement" severity="MUSS" lastUpdate="2022-02-03" technicalID="ML-126340" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - PTR für Anbieterliste (RFC Service-Discovery)]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS DNS A, PTR und SRV Resource Records für 
+sein Aktensystem im Namensraum der TI gemäß folgender Tabelle verwalten.
+
+Tabelle #: Tab_ePA_Service Discovery
+
+Resource Record Bezeichner
+Resource Record Type
+Beschreibung
+
+FQDN des authn ServiceAA Resource Records zur Namensauflösung von FQDN des 
+authn Services ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen
+FQDN des authz ServiceAA Resource Records zur Namensauflösung von FQDN des 
+authz Services ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen
+FQDN des docv ServiceAA Resource Records zur Namensauflösung von FQDN des docv 
+Services ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen
+FQDN des sgd1 ServiceAA Resource Records zur Namensauflösung von FQDN des sgd1 
+Services ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen
+ _authn._tcp.epa.telematik
+PTR
+Ermittlung aller ePA-Authentisierungs-Dienste “<hcid> authn Service“
+
+_authz._tcp.epa.telematik 
+PTR
+Ermittlung aller ePA-Autorisierungs-Dienste “<hcid> authz Service“ 
+
+ _docv._tcp.epa.telematik
+PTR
+Ermittlung aller ePA-Dokumentenverwaltungs-Dienste “<hcid> docv Service“ 
+
+_sgd1._tcp.epa.telematik
+PTR
+Ermittlung des zum ePA-Aktensystem gehörigen Schlüsselgenerierungsdienstes 
+(Typ 1) "<hcid> sgd1 Service"
+
+_gwvers._tcp.epa.telematikPTRErmittlung aller Internet-FQDN aller 
+ePA-Aktensysteme
+
+_amcre._tcp.epa.telematikPTRErmittlung aller ePA-Autorisierungs-Dienste für 
+mandantenübergreifende Anfragen „<hcid> authz Service“
+ “<hcid> authn Service“
+SRV und TXT
+SRV Resource Record zur Ermittlung des  FQDN des authn-Dienstes;
+TXT Resource Record zur Ermittlung des Pfades der URL zum authn-Dienst 
+"txtvers=1" "hcid=<hcid>" "path=<Bezeichner der Komponente als Pfadbestandteil>"
+
+ “<hcid> authz Service“
+SRV und TXT
+SRV Resource Record zur Ermittlung des  FQDN des authz-Dienstes;
+TXT Resource Record zur Ermittlung des Pfades der URL zum authz-Dienst 
+"txtvers=1" "hcid=<hcid>" "path=<Bezeichner der Komponente als Pfadbestandteil
+>" 
+
+ “<hcid> docv Service“
+SRV und TXT
+SRV Resource Record zur Ermittlung des  FQDN des docv-Dienstes;
+TXT Resource Record zur Ermittlung des Pfades der URL zum docv-Dienst  
+"txtvers=1" "hcid=<hcid>" "path=<Bezeichner der Komponente als Pfadbestandteil
+>" 
+
+ “<hcid> sgd1 Service“
+SRV und TXT
+
+SRV Resource Record zur Ermittlung des FQDN des sgd_typ1-Dienstes;
+TXT Resource Record zur Ermittlung des Pfades der URL zum sgd_typ1-Dienst 
+"txtvers=1" "hcid=<hcid>" "path=<Bezeichner der Komponente als Pfadbestandteil>"
+
+“<hcid> gwvers Service“SRV und TXTSRV Resource Record zur Ermittlung des FQDN 
+des Aktensystems;
+TXT Resource Record zur Ermittlung des Namens des Anbieters des Aktensystems 
+"txtvers=1" "hcid=<hcid>" "name =<Name Anbieter>"]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS DNS A, PTR und SRV Resource Records für sein Aktensystem im Namensraum der TI gemäß folgender Tabelle verwalten. <br/> <p class="polarion-rte-caption-paragraph" data-keep-next="true">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: Tab_ePA_Service Discovery</p><table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%"><tbody><tr><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 179px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Resource Record Bezeichner</span><br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 70px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Resource Record Type</span><br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 470px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beschreibung</span><br/></th></tr><tr><td style="width: 179px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">FQDN des authn Service</td><td style="width: 70px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">A</td><td style="width: 470px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">A Resource Records zur Namensauflösung von FQDN des authn Services ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen</span></td></tr><tr><td style="width: 179px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">FQDN des authz Service</td><td style="width: 70px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">A</td><td style="width: 470px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">A Resource Records zur Namensauflösung von FQDN des authz Services ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen</td></tr><tr><td style="width: 179px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">FQDN des docv Service</td><td style="width: 70px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">A</td><td style="width: 470px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">A Resource Records zur Namensauflösung von FQDN des docv Services ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen</td></tr><tr><td style="width: 179px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">FQDN des sgd1 Service</td><td style="width: 70px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">A</td><td style="width: 470px;height: 38.2407px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">A Resource Records zur Namensauflösung von FQDN des sgd1 Services ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen</td></tr><tr><td style="width: 179px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"> _authn._tcp.epa.telematik</span><br/></td><td style="width: 70px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">PTR</span><br/></td><td style="width: 470px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Ermittlung aller ePA-Authentisierungs-Dienste “&lt;hcid&gt; authn Service“</span><br/></td></tr><tr><td style="width: 179px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">_authz._tcp.epa.telematik </span><br/></td><td style="width: 70px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">PTR</span><br/></td><td style="width: 470px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Ermittlung aller ePA-Autorisierungs-Dienste “&lt;hcid&gt; authz Service“ </span><br/></td></tr><tr><td style="width: 179px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"> _docv._tcp.epa.telematik</span><br/></td><td style="width: 70px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">PTR</span><br/></td><td style="width: 470px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Ermittlung aller ePA-Dokumentenverwaltungs-Dienste “&lt;hcid&gt; docv Service“ </span><br/></td></tr><tr><td style="width: 179px;height: 29px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">_sgd1._tcp.epa.telematik</span><br/></td><td style="width: 70px;height: 29px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">PTR</span><br/></td><td style="width: 470px;height: 29px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Ermittlung des zum ePA-Aktensystem gehörigen Schlüsselgenerierungsdienstes (Typ 1) &quot;&lt;hcid&gt; sgd1 Service&quot;</span><br/></td></tr><tr><td style="width: 179px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">_gwvers._tcp.epa.telematik</span></td><td style="width: 70px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">PTR</td><td style="width: 470px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ermittlung aller Internet-FQDN aller ePA-Aktensysteme<br/></td></tr><tr><td style="width: 179px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">_amcre._tcp.epa.telematik</td><td style="width: 70px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">PTR</td><td style="width: 470px;height: 15px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ermittlung aller ePA-Autorisierungs-Dienste für mandantenübergreifende Anfragen „&lt;hcid&gt; authz Service“</td></tr><tr><td style="width: 179px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"> “&lt;hcid&gt; authn Service“</span><br/></td><td style="width: 70px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV und TXT</span><br/></td><td style="width: 470px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV Resource Record zur Ermittlung des  FQDN des authn-Dienstes;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">TXT Resource Record zur Ermittlung des Pfades der URL zum authn-Dienst &quot;txtvers=1&quot; &quot;hcid=&lt;hcid&gt;&quot; &quot;path=&lt;</span><span style="font-size: 10pt;color: #1F497D;line-height: 1.5;">Bezeichner der Komponente als Pfadbestandteil</span><span style="font-size: 10pt;line-height: 1.5;">&gt;&quot;</span><br/></td></tr><tr><td style="width: 179px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"> “&lt;hcid&gt; authz Service“</span><br/></td><td style="width: 70px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV und TXT</span><br/></td><td style="width: 470px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV Resource Record zur Ermittlung des  FQDN des authz-Dienstes;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">TXT Resource Record zur Ermittlung des Pfades der URL zum authz-Dienst &quot;txtvers=1&quot; &quot;hcid=&lt;hcid&gt;&quot; &quot;path=&lt;</span><span style="font-size: 10pt;color: #1F497D;line-height: 1.5;">Bezeichner der Komponente als Pfadbestandteil</span><span style="font-size: 10pt;line-height: 1.5;">&gt;&quot; </span><br/></td></tr><tr><td style="width: 179px;height: 76.7593px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"> “&lt;hcid&gt; docv Service“</span><br/></td><td style="width: 70px;height: 76.7593px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV und TXT</span><br/></td><td style="width: 470px;height: 76.7593px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV Resource Record zur Ermittlung des  FQDN des docv-Dienstes;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">TXT Resource Record zur Ermittlung des Pfades der URL zum docv-Dienst  &quot;txtvers=1&quot; &quot;hcid=&lt;hcid&gt;&quot; &quot;path=&lt;</span><span style="font-size: 10pt;color: #1F497D;line-height: 1.5;">Bezeichner der Komponente als Pfadbestandteil</span><span style="font-size: 10pt;line-height: 1.5;">&gt;&quot; </span><br/></td></tr><tr><td style="width: 179px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"> “&lt;hcid&gt; sgd1 Service“</span><br/></td><td style="width: 70px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV und TXT</span><br/><br/></td><td style="width: 470px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV Resource Record zur Ermittlung des FQDN des sgd_typ1-Dienstes;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">TXT Resource Record zur Ermittlung des Pfades der URL zum sgd_typ1-Dienst &quot;txtvers=1&quot; &quot;hcid=&lt;hcid&gt;&quot; &quot;path=&lt;</span><span style="font-size: 10pt;color: #1F497D;line-height: 1.5;">Bezeichner der Komponente als Pfadbestandteil</span><span style="font-size: 10pt;line-height: 1.5;">&gt;&quot;</span><br/></td></tr><tr><td style="width: 179px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">“&lt;hcid&gt; gwvers Service“</td><td style="width: 70px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">SRV und TXT</td><td style="width: 470px;height: 57.5px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">SRV Resource Record zur Ermittlung des FQDN des Aktensystems;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">TXT Resource Record zur Ermittlung des Namens des Anbieters des Aktensystems &quot;txtvers=1&quot; &quot;hcid=&lt;hcid&gt;&quot; &quot;name =&lt;</span><span style="font-size: 10pt;color: #1F497D;line-height: 1.5;">Name Anbieter</span><span style="font-size: 10pt;line-height: 1.5;">&gt;&quot;</span></td></tr></tbody></table><br/>]]></description_html>
+  </requirement>
+  <requirement id="A_14128-03" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-05" technicalID="ML-128206" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Resource Records FQDN ePA]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in den Nameservern Internet die Resource 
+Records gemäß nachstehender Tabelle verwalten.
+
+
+Tabelle #: Tab_ePA_FQDN
+
+Resource Record Type
+ Beschreibung
+
+A
+A Resource Records zur Namensauflösung von FQDN des ePA-Aktensystems des 
+jeweiligen Anbieters in IP-Adressen
+
+TXT
+TXT Resource Records zur Ermittlung der Aufruf-Schnittstellen der jeweiligen 
+Module des ePA-Aktensystems. Alle für die Adressierung dieser Module benötigten 
+Resource Records MÜSSEN bereitgestellt werden und deren Zugehörigkeit zum 
+Aktensystem des Anbieters durch Clients (ePA-Frontend des Versicherten) 
+eindeutig zu erkennen sein. Die in den Klammern angegebenen Kürzel MÜSSEN für 
+das jeweilige Modul verwendet werden.
+
+ * HomeCommunityID (hcid)
+
+ * Authentisierung (authn)
+
+ * Abfrage Verzeichnisdienst (avzd) 
+
+ * Autorisierung (authz)
+
+ * Dokumentenverwaltung (docv)
+
+ * Status-Proxy (ocspf)
+
+ * Schlüsselgenerierungsdienst SGD 1 (im Aktensystem)
+
+ * Schlüsselgenerierungsdienst SGD 2 (unabhängig vom Aktensystem)
+ * Transport-Proxy (proxy)Die key/value-Paare der TXT-Records haben folgende 
+Struktur (die spitzen Klammern dienen der Abgrenzung eines Wertes):
+"txtvers=1"
+"hcid=<HomeCommunityID>"
+"authn=/<pfad_authentisierung>/"
+"authz=/<pfad_autorisierung>/"
+"avzd=/<pfad_verzeichnisdienst_proxy>/"
+"docv=/<pfad_dokumentenverwaltung>/"
+"ocspf=/<pfad_status_proxy>/"
+"sgd1=/<pfad_Schlüsselgenerierungsdienst_typ1>/"
+"sgd2=/<pfad_Schlüsselgenerierungsdienst_typ2>/"
+ "proxy=/<pfad_transport_proxy>/"]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in den Nameservern Internet die Resource Records gemäß nachstehender Tabelle verwalten.<br/> <br/> <p class="polarion-rte-caption-paragraph" data-keep-next="true">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: Tab_ePA_FQDN</p><table style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;"><tbody><tr><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 347pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">Resource Record Type</span><br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 605pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;"> Beschreibung</span><br/></th></tr><tr><td style="width: 347pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">A</span><br/></td><td style="width: 605pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">A Resource Records zur Namensauflösung von FQDN des ePA-Aktensystems des jeweiligen Anbieters in IP-Adressen</span><br/></td></tr><tr><td style="width: 347pt;height: 196pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">TXT</span><br/></td><td style="width: 605pt;height: 196pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">TXT Resource Records zur Ermittlung der Aufruf-Schnittstellen der jeweiligen Module des ePA-Aktensystems. Alle für die Adressierung dieser Module benötigten Resource Records MÜSSEN bereitgestellt werden und deren Zugehörigkeit zum Aktensystem des Anbieters durch Clients (ePA-Frontend des Versicherten) eindeutig zu erkennen sein. Die in den Klammern angegebenen Kürzel MÜSSEN für das jeweilige Modul verwendet werden.</span><br/> <ul><li><span style="font-size: 10pt;line-height: 1.5;">HomeCommunityID (hcid)</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Authentisierung (authn)</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Abfrage Verzeichnisdienst (avzd)</span> <br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Autorisierung (authz)</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Dokumentenverwaltung (docv)</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Status-Proxy (ocspf)</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Schlüsselgenerierungsdienst SGD 1 (im Aktensystem)</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Schlüsselgenerierungsdienst SGD 2 (unabhängig vom Aktensystem)</span></li><li>Transport-Proxy (proxy)</li></ul><span style="font-size: 10pt;line-height: 1.5;">Die key/value-Paare der TXT-Records haben folgende Struktur (die spitzen Klammern dienen der Abgrenzung eines Wertes):</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;txtvers=1&quot;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;hcid=&lt;HomeCommunityID&gt;&quot;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;authn=/&lt;pfad_authentisierung&gt;/&quot;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;authz=/&lt;pfad_autorisierung&gt;/&quot;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;avzd=/&lt;pfad_verzeichnisdienst_proxy&gt;/&quot;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;docv=/&lt;pfad_dokumentenverwaltung&gt;/&quot;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;ocspf=/&lt;pfad_status_proxy&gt;/&quot;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;sgd1=/&lt;pfad_Schlüsselgenerierungsdienst_typ1&gt;/&quot;</span><br/> <span style="font-size: 10pt;line-height: 1.5;">&quot;sgd2=/&lt;pfad_Schlüsselgenerierungsdienst_typ2&gt;/&quot;<br/> &quot;proxy=/&lt;pfad_transport_proxy&gt;/&quot;</span><br/></td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="A_22688" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-25" technicalID="ML-128516" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem, Konfiguration Schnittstellen über /.well-known/]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS an seinen Zugangsgateway des 
+Versicherten die Schnittstellenkonfiguration aus A_14128-* über den 
+URL-Pfadnamen (bwz. die Datei) /.well-known/epa-configuration.json eine 
+JSON-Repräsentation aller dieser Attribute (vgl. A_14128-*) verfügbar machen.
+ D. h. der Aufrufende (ePA-FdV) MUSS wenn er diesen Pfad per HTTP-GET abfragt 
+ein JSON-Objekt (also Content-Type "application/json") vom Zugangsgateway des 
+Versicherten erhalten der Art
+
+{
+     "ocspf" : "...Wert1...",
+     "hcid"  : "...Wert2...",
+     "authn" : "...Wert3...",
+     "authz" : "...Wert4...",
+     ....
+ }]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS an seinen Zugangsgateway des Versicherten die Schnittstellenkonfiguration aus A_14128-* über den URL-Pfadnamen (bwz. die Datei) /.well-known/epa-<span style="font-size: 11pt;color: #172B4D;line-height: 1.5;">configuration</span>.json eine JSON-Repräsentation aller dieser Attribute (vgl. A_14128-*) verfügbar machen.<br/> D. h. der Aufrufende (ePA-FdV) MUSS wenn er diesen Pfad per HTTP-GET abfragt ein JSON-Objekt (also Content-Type &quot;application/json&quot;) vom Zugangsgateway des Versicherten erhalten der Art<br/><br/> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">{<br/>     &quot;ocspf&quot; : &quot;...Wert1...&quot;,<br/>     &quot;hcid&quot;  : &quot;...Wert2...&quot;,<br/>     &quot;authn&quot; : &quot;...Wert3...&quot;,<br/>     &quot;authz&quot; : &quot;...Wert4...&quot;,<br/>     ....<br/> }</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22687" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-25" technicalID="ML-128515" revision="529807">
+    <title><![CDATA[Aktensystem, Konfiguration Schnittstellen über /.well-known/]]></title>
+    <description><![CDATA[Das ePA-Aktensystem MUSS sicherstellen, dass dem Anbieter des ePA-Aktensystems 
+die technische Möglichkeit bereitgestellt wird A_22688-* umzusetzen.]]></description>
+    <description_html><![CDATA[Das ePA-Aktensystem MUSS sicherstellen, dass dem Anbieter des ePA-Aktensystems die technische Möglichkeit bereitgestellt wird A_22688-* umzusetzen.]]></description_html>
+  </requirement>
+  <requirement id="A_17969-04" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-05" technicalID="ML-121518" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schnittstellenadressierung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS alle nach außen angebotenen Dienste der 
+Komponenten Autorisierung, Zugangsgateway (Authentisierung) sowie 
+ePA-Dokumentenverwaltung unter den folgenden URLs zur Verfügung stellen und 
+eingehende SOAP- und REST-Nachrichten entsprechend verarbeiten:
+https://<FQDN aus DNS Lookup>:443/<Komponente aus DNS Lookup>/<Fester Wert der 
+Schnittstelle gemäß [gemSysL_ePA#4.2]>
+Daraus ergeben sich folgende Konstellationen für den Aufbau von 
+komponentenspezifischen URLs (in spitzen Klammern dargestellte Werte sind 
+dynamisch)für den Aufruf des Aktensystem vom
+
+ * ePA-Fachmodul:
+
+ * 
+ * https://<FQDN des authn-Dienstes aus DNS Lookup>:443/<authn-Komponente aus 
+DNS Lookup>/I_Authentication_Insurant
+
+ * https://<FQDN des authz-Dienstes aus DNS Lookup>:443/<authz-Komponente aus 
+DNS Lookup>/I_Authorization
+
+ * https://<FQDN des authz-Dienstes aus DNS Lookup>:443/<authz-Komponente aus 
+DNS Lookup>/I_Authorization_Management
+
+ * https://<FQDN des docv-Dienstes aus DNS Lookup>:443/<docv-Komponente aus 
+DNS Lookup>/I_Document_Management
+
+ * https://<FQDN des docv-Dienstes aus DNS Lookup>:443/<docv-Komponente aus 
+DNS Lookup>/I_Document_Management_Connect
+
+ * ePA-Fachmodul KTR-Consumer:
+
+ * 
+ * https://<FQDN des authz-Dienstes aus DNS Lookup>:443/<authz-Komponente aus 
+DNS Lookup>/I_Authorization
+
+ * https://<FQDN des docv-Dienstes aus DNS Lookup>:443/<docv-Komponente aus 
+DNS Lookup>/I_Document_Management_Insurance
+
+ * https://<FQDN des docv-Dienstes aus DNS Lookup>:443/<docv-Komponente aus 
+DNS Lookup>/I_Document_Management_Connect
+
+ * ePA-Frontend des Versicherten:
+
+ * 
+ * https://<FQDN des ePA-Aktensystems>:443/<authn-Komponente aus DNS 
+Lookup>/I_Authentication_Insurant
+
+ * https://<FQDN des ePA-Aktensystems>:443/<avzd-Komponente aus DNS 
+Lookup>/I_Proxy_Directory_Query
+
+ * https://<FQDN des ePA-Aktensystems>:443/<authz-Komponente aus DNS 
+Lookup>/I_Authorization_Insurant
+
+ * https://<FQDN des ePA-Aktensystems>:443/<authz-Komponente aus DNS 
+Lookup>/I_Authorization_Management_Insurant
+
+ * https://<FQDN des ePA-Aktensystems>:443/<docv-Komponente aus DNS 
+Lookup>/I_Document_Management_Insurant
+
+ * https://<FQDN des ePA-Aktensystems>:443/<docv-Komponente aus DNS 
+Lookup>/I_Account_Management_Insurant
+
+ * https://<FQDN des ePA-Aktensystems>:443/<docv-Komponente aus DNS 
+Lookup>/I_Document_Management_Connect
+ * https://<FQDN des ePA-Aktensystems>:443/<docv-Komponente aus DNS 
+Lookup>/I_Key_Management_Insurant
+ * https://<FQDN des ePA-Aktensystems>:443/<authz-Komponente aus DNS 
+Lookup>/I_Authorization_Management_Insurant
+ * https://<FQDN des ePA-Aktensystems>:443/<authz-Komponente aus DNS 
+Lookup>/devices]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS alle nach außen angebotenen Dienste der Komponenten Autorisierung, Zugangsgateway (Authentisierung) sowie ePA-Dokumentenverwaltung unter den folgenden URLs zur Verfügung stellen und eingehende SOAP- und REST-Nachrichten entsprechend verarbeiten:<br/>https://&lt;FQDN aus DNS Lookup&gt;:443/&lt;Komponente aus DNS Lookup&gt;/&lt;Fester Wert der Schnittstelle gemäß [gemSysL_ePA#4.2]&gt;<br/>Daraus ergeben sich folgende Konstellationen für den Aufbau von komponentenspezifischen URLs (in spitzen Klammern dargestellte Werte sind dynamisch)für den Aufruf des Aktensystem vom<br/> <ul><li>ePA-Fachmodul:<br/></li><li style="list-style: none"><ul><li>https://&lt;FQDN des authn-Dienstes aus DNS Lookup&gt;:443/&lt;authn-Komponente aus DNS Lookup&gt;/I_Authentication_Insurant<br/></li><li>https://&lt;FQDN des authz-Dienstes aus DNS Lookup&gt;:443/&lt;authz-Komponente aus DNS Lookup&gt;/I_Authorization<br/></li><li>https://&lt;FQDN des authz-Dienstes aus DNS Lookup&gt;:443/&lt;authz-Komponente aus DNS Lookup&gt;/I_Authorization_Management<br/></li><li>https://&lt;FQDN des docv-Dienstes aus DNS Lookup&gt;:443/&lt;docv-Komponente aus DNS Lookup&gt;/I_Document_Management<br/></li><li>https://&lt;FQDN des docv-Dienstes aus DNS Lookup&gt;:443/&lt;docv-Komponente aus DNS Lookup&gt;/I_Document_Management_Connect<br/></li></ul></li><li>ePA-Fachmodul KTR-Consumer:<br/></li><li style="list-style: none"><ul><li>https://&lt;FQDN des authz-Dienstes aus DNS Lookup&gt;:443/&lt;authz-Komponente aus DNS Lookup&gt;/I_Authorization<br/></li><li>https://&lt;FQDN des docv-Dienstes aus DNS Lookup&gt;:443/&lt;docv-Komponente aus DNS Lookup&gt;/I_Document_Management_Insurance<br/></li><li>https://&lt;FQDN des docv-Dienstes aus DNS Lookup&gt;:443/&lt;docv-Komponente aus DNS Lookup&gt;/I_Document_Management_Connect<br/></li></ul></li><li>ePA-Frontend des Versicherten:<br/></li><li style="list-style: none"><ul><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;authn-Komponente aus DNS Lookup&gt;/I_Authentication_Insurant<br/></li><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;avzd-Komponente aus DNS Lookup&gt;/I_Proxy_Directory_Query<br/></li><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;authz-Komponente aus DNS Lookup&gt;/I_Authorization_Insurant<br/></li><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;authz-Komponente aus DNS Lookup&gt;/I_Authorization_Management_Insurant<br/></li><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;docv-Komponente aus DNS Lookup&gt;/I_Document_Management_Insurant<br/></li><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;docv-Komponente aus DNS Lookup&gt;/I_Account_Management_Insurant<br/></li><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;docv-Komponente aus DNS Lookup&gt;/I_Document_Management_Connect</li><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;docv-Komponente aus DNS Lookup&gt;/I_Key_Management_Insurant</li><li>https://&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;authz-Komponente aus DNS Lookup&gt;/I_Authorization_Management_Insurant</li><li>https:<span style="font-size: 10pt;line-height: 1.5;">//&lt;FQDN des ePA-Aktensystems&gt;:443/&lt;authz-Komponente aus DNS Lookup&gt;/devices</span></li></ul></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_14513-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-21" technicalID="ML-120243" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schutz der Protokolldaten]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die 
+Verwaltungsprotokolldaten und die Daten der Zugriffsprotokolle nach § 291a SGB 
+V der Versicherten gegen unberechtigte Veränderung und unberechtigtes Löschen 
+geschützt sind.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die Verwaltungsprotokolldaten und die Daten der Zugriffsprotokolle nach § 291a SGB V der Versicherten gegen unberechtigte Veränderung und unberechtigtes Löschen geschützt sind.]]></description_html>
+  </requirement>
+  <requirement id="A_14512" type="leafRequirement" severity="MUSS" lastUpdate="2022-02-03" technicalID="ML-88451" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Anbieterkennung im Protokolleintrag für Verwaltungsprotokoll]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Einträge des Verwaltungsprotokolls um 
+seine HomeCommunityID sowie um seinen Namen, mit dem er gegenüber den 
+Versicherten auftritt, gemäß den Festlegungen in A_14471-* ergänzen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Einträge des Verwaltungsprotokolls um seine HomeCommunityID sowie um seinen Namen, mit dem er gegenüber den Versicherten auftritt, gemäß den Festlegungen in A_14471-* ergänzen.]]></description_html>
+  </requirement>
+  <requirement id="A_15141" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88452" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Verwaltungsprotokolle zur Problemlösung mit Zustimmung des Versicherten]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass ein Zugriff auf 
+Verwaltungsprotokolle des Versicherten in den Komponenten des ePA-Aktensystems 
+durch den Anbieter ausgeschlossen ist, außer für den Fall, dass die Zugriffe 
+zur Lösung eines durch den Versicherten gemeldeten Problems erforderlich sind 
+und der Versicherte dem Zugriff explizit zugestimmt hat. ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass ein Zugriff auf Verwaltungsprotokolle des Versicherten in den Komponenten des ePA-Aktensystems durch den Anbieter ausgeschlossen ist, außer für den Fall, dass die Zugriffe zur Lösung eines durch den Versicherten gemeldeten Problems erforderlich sind und der Versicherte dem Zugriff explizit zugestimmt hat. ]]></description_html>
+  </requirement>
+  <requirement id="A_19051" type="leafRequirement" severity="MUSS" lastUpdate="2020-08-31" technicalID="ML-102720" revision="529807">
+    <title><![CDATA[Löschen von Protokolldaten]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass das ePA-Aktensystem 
+die zum Zwecke der Datenschutzkontrolle für den Versicherten erstellten 
+Verwaltungsprotokolldaten und Protokolldaten von Zugriffen und 
+Zugriffsversuchen auf Daten der elektronischen Patientenakte des Versicherten 
+in der Komponente Dokumentenverwaltung nicht früher als nach drei Jahren löscht.
+Nach dieser Frist MUSS unverzüglich eine automatisierte Löschung durch das 
+ePA-Aktensystem erfolgen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass das ePA-Aktensystem die zum Zwecke der Datenschutzkontrolle für den Versicherten erstellten Verwaltungsprotokolldaten und Protokolldaten von Zugriffen und Zugriffsversuchen auf Daten der elektronischen Patientenakte des Versicherten in der Komponente Dokumentenverwaltung nicht früher als nach drei Jahren löscht. <span style="color: #00000A;">Nach dieser Frist MUSS unverzüglich eine automatisierte Löschung durch das ePA-Aktensystem erfolgen.</span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_21108" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-25" technicalID="ML-114146" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Aufbewahren der Verwaltungsprotokolle bei Schließen der Akte]]></title>
+    <description><![CDATA[Falls das Aktenkonto eines Versicherten geschlossen wird, MUSS der Anbieter des 
+ePA-Aktensystems sicherstellen, dass die Verwaltungsprotokolle des Versicherten 
+bis Ablauf der gesetzlich geforderten Aufbewahrungsfrist von drei Jahren für 
+den ausschließlichen Zweck der Auskunft des Versicherten oder 
+aufsichtsrechtlicher Kontrollen noch zur Verfügung stehen und den Versicherten 
+hierüber informieren.]]></description>
+    <description_html><![CDATA[Falls das Aktenkonto eines Versicherten geschlossen wird, MUSS der Anbieter des ePA-Aktensystems sicherstellen, dass die Verwaltungsprotokolle des Versicherten bis Ablauf der gesetzlich geforderten Aufbewahrungsfrist von drei Jahren für den ausschließlichen Zweck der Auskunft des Versicherten oder aufsichtsrechtlicher Kontrollen noch zur Verfügung stehen und den Versicherten hierüber informieren.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21109" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-25" technicalID="ML-114145" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Hinweis zur selbstständigen Sicherung der Protokolle bei Schließen der Akte]]></title>
+    <description><![CDATA[Falls das Aktenkonto eines Versicherten geschlossen wird, MUSS der Anbieter des 
+ePA-Aktensystems den Versicherten darauf hinweisen, seine Protokolldaten aus 
+der Akte für eine weitere Verwendung selbstständig zu exportieren, da diese 
+nach Schließen der Akte im Aktensystem nur eingeschränkt und nicht mehr 
+vollständig für datenschutzrechtliche Auskünfte zur Verfügung stehen.]]></description>
+    <description_html><![CDATA[Falls das Aktenkonto eines Versicherten geschlossen wird, MUSS der Anbieter des ePA-Aktensystems den Versicherten darauf hinweisen, seine Protokolldaten aus der Akte für eine weitere Verwendung selbstständig zu exportieren, da diese nach Schließen der Akte im Aktensystem nur eingeschränkt und nicht mehr vollständig für datenschutzrechtliche Auskünfte zur Verfügung stehen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21204" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-01" technicalID="ML-114414" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - PAdES-Signatur in getSignedAuditEvents]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems MÜSSEN beim Signieren eines Protokolls im 
+PDF/A-Format eine PAdES-Signatur gemäß [PAdES-3] und [PAdES Baseline Profile] 
+erstellen. Bei der Signaturerstellung ist das Attribut signing certificate 
+reference gemäß den Vorgaben aus [PAdES-3] Kapitel 4.4.3 „Signing Certificate 
+Reference Attribute“ anzulegen.]]></description>
+    <description_html><![CDATA[Die Komponenten des ePA-Aktensystems MÜSSEN beim Signieren eines Protokolls im PDF/A-Format eine PAdES-Signatur gemäß [PAdES-3] und [PAdES Baseline Profile] erstellen. Bei der Signaturerstellung ist das Attribut signing certificate reference gemäß den Vorgaben aus [PAdES-3] Kapitel 4.4.3 „Signing Certificate Reference Attribute“ anzulegen.]]></description_html>
+  </requirement>
+  <requirement id="A_21303-04" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-08" technicalID="ML-132878" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Suchparameter beim Abruf von Protokollen]]></title>
+    <description><![CDATA[Beim Abrufen von Protokollen über die Schnittstellen 
+I_Authentication_Insurant::getAuditEvents,I_Authentication_Insurant::getSignedAuditEvents, 
+I_Authorization_Management_Insurant::getAuditEvents,I_Authorization_Management_Insurant::getSignedAuditEvents, 
+I_Account_Management_Insurant::GetAuditEvents und 
+I_Account_Management_Insurant::GetSignedAuditEvents MÜSSEN die Komponenten 
+Authentisierung, Autorisierung und ePA-Dokumentenverwaltung die folgenden Ein- 
+und Ausgabeparameter (Suchparameter) unterstützen:
+
+
+
+
+Parameter
+Semantik
+Opt.
+Format
+Request
+Response
+
+PageSize
+Legt die Zahl der Einträge je Seite fest. Muss immer zusammen mit Parameter 
+PageNumber verwendet werden.
+R
+Integer (> 0)
+X
+X
+PageNumber
+Legt die Seite fest, die von der aufgerufenen Komponente ausgeliefert werden 
+soll. Muss immer zusammen mit ParameterPageSize verwendet werden.
+R
+Integer (> 0)
+X
+X
+
+LastDay
+Legt den letzten Tag (inclusive)/Zeitpunkt fest, für den Audit logs 
+ausgeliefert werden sollen
+O
+YYYY-MM-DD oder
+ YYYY-MM-DDThh:mm:ssZ
+X
+ 
+
+TotalPages
+Gibt die Anzahl der vorhandenen Seiten an. Darf nur bei Verwendung des 
+Client-Parameters PageSize/PageNumber zurückgegeben werden.
+R
+Integer (>= 0)
+ 
+X
+
+TotalEntries
+Gibt die Anzahl der vorhandenen Audit Logs an. Darf nur bei Verwendung des 
+Client-Parameters PageSize/PageNumber zurückge-geben werden.
+R
+Integer (>=0)
+ 
+X]]></description>
+    <description_html><![CDATA[Beim Abrufen von Protokollen über die Schnittstellen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Authentication_Insurant::getAuditEvents,I_Authentication_Insurant::getSignedAuditEvents, I_Authorization_Management_Insurant::getAuditEvents,I_Authorization_Management_Insurant::getSignedAuditEvents, I_Account_Management_Insurant::GetAuditEvents und I_Account_Management_Insurant::GetSignedAuditEvents</span> MÜSSEN die Komponenten Authentisierung, Autorisierung und ePA-Dokumentenverwaltung die folgenden Ein- und Ausgabeparameter (Suchparameter) unterstützen:<br/> <br/> <br/> <br/> <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%"><tbody><tr><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 86px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Parameter</span><br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 301px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Semantik</span><br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 27px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Opt.</span><br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 155px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Format</span><br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 53px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Request</span><br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 64px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Response</span><br/></th></tr><tr><td style="width: 86px;height: 63.9531px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">PageSize</span><br/></td><td style="width: 301px;height: 63.9531px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Legt die Zahl der Einträge je Seite fest. Muss immer zusammen mit Parameter</span> <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">PageNumber</span> <span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">verwendet werden.</span><br/></td><td style="width: 27px;height: 63.9531px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">R</span><br/></td><td style="width: 155px;height: 63.9531px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Integer (&gt; 0)</span><br/></td><td style="width: 53px;height: 63.9531px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">X</span><br/></td><td style="width: 64px;height: 63.9531px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">X</td></tr><tr><td style="width: 86px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">PageNumber</span><br/></td><td style="width: 301px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Legt die Seite fest, die von der aufgerufenen Komponente ausgeliefert werden soll. Muss immer zusammen mit Parameter <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">PageSize</span> verwendet werden.</span><br/></td><td style="width: 27px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">R</span><br/></td><td style="width: 155px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Integer (&gt; 0)</span><br/></td><td style="width: 53px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">X</span><br/></td><td style="width: 64px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">X</span><br/></td></tr><tr><td style="width: 86px;height: 41.9688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">LastDay</span><br/></td><td style="width: 301px;height: 41.9688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Legt den letzten Tag (inclusive)/Zeitpunkt fest, für den Audit logs ausgeliefert werden sollen</span><br/></td><td style="width: 27px;height: 41.9688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">O</span><br/></td><td style="width: 155px;height: 41.9688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">YYYY-MM-DD oder<br/> YYYY-MM-DDThh:mm:ssZ</span><br/></td><td style="width: 53px;height: 41.9688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">X</span><br/></td><td style="width: 64px;height: 41.9688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> </span><br/></td></tr><tr><td style="width: 86px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">TotalPages</span><br/></td><td style="width: 301px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Gibt die Anzahl der vorhandenen Seiten an. Darf nur bei Verwendung des Client-Parameters <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">PageSize/PageNumber</span> zurückgegeben werden.</span><br/></td><td style="width: 27px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">R</span><br/></td><td style="width: 155px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Integer (&gt;= 0)</span><br/></td><td style="width: 53px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> </span><br/></td><td style="width: 64px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">X</span><br/></td></tr><tr><td style="width: 86px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">TotalEntries</span><br/></td><td style="width: 301px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Gibt die Anzahl der vorhandenen Audit Logs an. Darf nur bei Verwendung des Client-Parameters <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">PageSize/PageNumber </span>zurückge-geben werden.</span><br/></td><td style="width: 27px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">R</span><br/></td><td style="width: 155px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Integer (&gt;=0)</span><br/></td><td style="width: 53px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> </span><br/></td><td style="width: 64px;height: 84.9375px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">X</span><br/></td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="A_21304-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-02-03" technicalID="ML-118604" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Rückgabe vollständiger Protokolle als Standardeinstellung]]></title>
+    <description><![CDATA[Falls das ePA-Frontend des Versicherten keine Parameter gemäß A_21303-* sendet, 
+MÜSSEN die Komponenten Authentisierung Versicherter, Autorisierung und 
+ePA-Dokumentenverwaltung immer das vollständige Protokoll zurück liefern.]]></description>
+    <description_html><![CDATA[Falls das ePA-Frontend des Versicherten keine Parameter gemäß A_21303-* sendet, MÜSSEN die Komponenten Authentisierung Versicherter, Autorisierung und ePA-Dokumentenverwaltung immer das vollständige Protokoll zurück liefern.]]></description_html>
+  </requirement>
+  <requirement id="A_21329-01" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-02-03" technicalID="ML-118605" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Keine Suchparameter ohne entsprechende Anfrage bei Abruf von Protokollen]]></title>
+    <description><![CDATA[Falls das ePA-Frontend des Versicherten keine Parameter gemäß A_21303-* sendet, 
+DÜRFEN die Komponenten Authentisierung Versicherter, Autorisierung und 
+ePA-Dokumentenverwaltung ebenfalls keine Parameter gemäß A_21303-* übertragen.]]></description>
+    <description_html><![CDATA[Falls das ePA-Frontend des Versicherten keine Parameter gemäß A_21303-* sendet, DÜRFEN die Komponenten Authentisierung Versicherter, Autorisierung und ePA-Dokumentenverwaltung ebenfalls keine Parameter gemäß A_21303-* übertragen.]]></description_html>
+  </requirement>
+  <requirement id="A_21310" type="leafRequirement" severity="KANN" lastUpdate="2022-02-03" technicalID="ML-116316" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Sortieren von Protokolleinträgen beim Abruf von Protokollen mit Suchparametern]]></title>
+    <description><![CDATA[Die Komponenten Authentisierung, Autorisierung und ePA-Dokumentenverwaltung 
+MÜSSEN bei Verwendung der Parameter gemäß A_21303-* die resultierenden Einträge 
+in zeitlich absteigend sortierter Reihenfolge zurückgeben, wobei der aktuellste 
+Eintrag auf Seite 1 an Position 1 steht, also zuerst übertragen wird.]]></description>
+    <description_html><![CDATA[Die Komponenten Authentisierung, Autorisierung und ePA-Dokumentenverwaltung MÜSSEN bei Verwendung der Parameter gemäß A_21303-* die resultierenden Einträge in zeitlich absteigend sortierter Reihenfolge zurückgeben, wobei der aktuellste Eintrag auf Seite 1 an Position 1 steht, also zuerst übertragen wird.]]></description_html>
+  </requirement>
+  <requirement id="A_21306" type="leafRequirement" severity="MUSS" lastUpdate="2022-02-03" technicalID="ML-116310" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Rückgabe unvollständiger Seiten beim Abruf von Protokollen mit Suchparametern]]></title>
+    <description><![CDATA[Werden vom Client beim Filtern gemäß A_21303-* mehr Einträge pro Seite 
+angefragt, als vorhanden sind, MUSS die angefragte Komponente (Authentisierung, 
+Autorisierung oder ePA-Dokumentenverwaltung) so viele Einträge zurückgegeben, 
+wie für diese Seite vorhanden sind.]]></description>
+    <description_html><![CDATA[Werden vom Client beim Filtern gemäß A_21303-* mehr Einträge pro Seite angefragt, als vorhanden sind, MUSS die angefragte Komponente (Authentisierung, Autorisierung oder ePA-Dokumentenverwaltung) so viele Einträge zurückgegeben, wie für diese Seite vorhanden sind.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21307-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-02-03" technicalID="ML-126025" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Fehlerbehandlung beim Abruf von Protokollen mit Suchparametern]]></title>
+    <description><![CDATA[Werden vom Client ungültige Parameterwerte beim Filtern gemäß A_21303-* gesetzt 
+(z. B. angeforderte Seite > maximal verfügbare Seitenzahl oder fehlende 
+Parameterangaben), MUSS die angefragte Komponente (Authentisierung, 
+Autorisierung oder ePA-Dokumentenverwaltung) einen Fehler (SYNTAX_ERROR) 
+zurückgeben. Eine Ausnahme hiervon ist der Spezialfall, dass keine 
+Protokolleinträge vorhanden sind. In diesem Fall wird die Anfrage nicht mit 
+einem Fehler abgebrochen, sondern die Antwort enthält dann eine leere 
+AuditMessage, die Werte für PageSize und PageNumber werden wie im Request 
+angegeben, TotalPages und TotalEntries werden auf 0 gesetzt.]]></description>
+    <description_html><![CDATA[Werden vom Client ungültige Parameterwerte beim Filtern gemäß A_21303-* gesetzt (z. B. angeforderte Seite &gt; maximal verfügbare Seitenzahl oder fehlende Parameterangaben), MUSS die angefragte Komponente (Authentisierung, Autorisierung oder ePA-Dokumentenverwaltung) einen Fehler (SYNTAX_ERROR) zurückgeben. Eine Ausnahme hiervon ist der Spezialfall, dass keine Protokolleinträge vorhanden sind. In diesem Fall wird die Anfrage nicht mit einem Fehler abgebrochen, sondern die Antwort enthält dann eine leere AuditMessage, die Werte für PageSize und PageNumber werden wie im Request angegeben, TotalPages und TotalEntries werden auf 0 gesetzt. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21308-02" type="leafRequirement" severity="KANN" lastUpdate="2022-02-03" technicalID="ML-120292" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Begrenzung der Treffermenge beim Protokollabruf aus technischen Gründen]]></title>
+    <description><![CDATA[Die Komponenten Authentisierung, Autorisierung und ePA-Dokumentenverwaltung 
+DÜRFEN beim Protokollabruf gemäß A_21303-* oder auch beim Abruf des gesamten 
+Protokolls die angeforderte Anzahl Treffer pro Seite bei sehr großen 
+Seitenangaben (PageSize) des Clients einschränken, also weniger Treffer 
+zurückgeben als angefordert (jedoch nicht weniger als 100), sofern dies zum 
+Schutz vor DoS-Angriffen notwendig ist.]]></description>
+    <description_html><![CDATA[Die Komponenten Authentisierung, Autorisierung und ePA-Dokumentenverwaltung DÜRFEN beim Protokollabruf gemäß A_21303-* oder auch beim Abruf des gesamten Protokolls die angeforderte Anzahl Treffer pro Seite bei sehr großen Seitenangaben (<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PageSize</span>) des Clients einschränken, also weniger Treffer zurückgeben als angefordert (jedoch nicht weniger als 100), sofern dies zum Schutz vor DoS-Angriffen notwendig ist.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15064" type="leafRequirement" severity="KANN" lastUpdate="2019-10-15" technicalID="ML-88454" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Debugprotokoll]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems KÖNNEN im Testbetrieb ein Debug-Protokoll 
+schreiben, welches eine erweiterte Protokollierung für Testzwecke ermöglicht.]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Die Komponenten des ePA-Aktensystems K&Ouml;NNEN im Testbetrieb ein Debug-Protokoll schreib</span><span>en,</span> <span>welches eine erweiterte Protokollierung f&uuml;r Testzwecke erm&ouml;glich</span><span>t.</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="A_15065" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88455" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Verlaufsprotokoll]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems, mit Ausnahme der VAU der Komponente 
+ePA-Dokumentenverwaltung, MÜSSEN ein Verlaufsprotokoll schreiben, das geeignet 
+ist, die aufgerufenen Operationen und internen Abläufe der Komponente 
+nachzuvollziehen. Die Komponente MUSS im Verlaufsprotokoll Einträge mit 
+folgendem Inhalt erfassen:
+ [Vorgangsbezeichner, Datum und Uhrzeit des Beginns des Vorgangs, Ergebnis des 
+Vorgangs z.B. Erfolg/Misserfolg].]]></description>
+    <description_html><![CDATA[Die Komponenten des ePA-Aktensystems, mit Ausnahme der VAU der Komponente ePA-Dokumentenverwaltung, MÜSSEN ein Verlaufsprotokoll schreiben, das geeignet ist, die aufgerufenen Operationen und internen Abläufe der Komponente nachzuvollziehen. Die Komponente MUSS im Verlaufsprotokoll Einträge mit folgendem Inhalt erfassen:<br/>
+[Vorgangsbezeichner, Datum und Uhrzeit des Beginns des Vorgangs, Ergebnis des Vorgangs z.B. Erfolg/Misserfolg].<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15066" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88456" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Zugriff auf Verlaufs- und Debugprotokoll]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems MÜSSEN den Zugriff auf Protokolldateien 
+auf autorisierte Nutzer beschränken.]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Die Komponenten des ePA-Aktensystems M&Uuml;SSEN den Zugr</span><span>iff</span> <span>auf Protokolldateien auf autorisierte Nutzer&nbsp;beschr&auml;nken</span><span>.</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="A_15067" type="leafRequirement" severity="DARF NICHT" lastUpdate="2019-10-15" technicalID="ML-88457" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Personenbezug im Verlaufs- und Debugprotokoll]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems DÜRFEN personenbezogene Informationen, 
+medizinische Informationen und kryptografisches Schlüsselmaterial NICHT 
+protokollieren.]]></description>
+    <description_html><![CDATA[Die Komponenten des ePA-Aktensystems DÜRFEN personenbezogene<span style="text-decoration: line-through;background-color: #99FF99;"></span> Informationen, medizinische<span style="text-decoration: line-through;"></span> Informationen und kryptografisches Schlüsselmaterial NICHT protokollieren.]]></description_html>
+  </requirement>
+  <requirement id="A_15185" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88459" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Festlegungen für Fehlermeldungen auf Basis TelematikError.xsd]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems MÜSSEN für Fehlermeldungen, die auf dem 
+XML-Schema [TelematikError.xsd] basieren, die unten aufgeführten Elemente wie 
+folgt belegen:
+ * EventID = Spalte Name aus den Fehlertabellen der Operationen in den 
+Spezifikationen der Komponenten des ePA-Aktensystems
+ * CompType = „AktensystemEPA“
+ * Code = Spalte Code aus den Fehlertabellen der Operationen in den 
+Spezifikationen der Komponenten des ePA-Aktensystems
+ * ErrorText = Spalte Fehlertext aus den Fehlertabellen der Operationen in den 
+Spezifikationen der Komponenten des ePA-Aktensystems
+ * ErrorType = „Business“
+ * Severity = „Error“
+ * Detail = Spalte Detail aus den Fehlertabellen der Operationen in den 
+Spezifikationen der Komponenten des ePA-AktensystemsFür alle übrigen Elemente 
+gelten die Festlegungen aus [gemSpec_OM].]]></description>
+    <description_html><![CDATA[Die Komponenten des ePA-Aktensystems MÜSSEN für Fehlermeldungen, die auf dem XML-Schema [TelematikError.xsd] basieren, die unten aufgeführten Elemente wie folgt belegen: <ul><li>EventID = Spalte Name aus den Fehlertabellen der Operationen in den Spezifikationen der Komponenten des ePA-Aktensystems</li><li>CompType = „AktensystemEPA“</li><li>Code = Spalte Code aus den Fehlertabellen der Operationen in den Spezifikationen der Komponenten des ePA-Aktensystems</li><li>ErrorText = Spalte Fehlertext aus den Fehlertabellen der Operationen in den Spezifikationen der Komponenten des ePA-Aktensystems</li><li>ErrorType = „Business“</li><li>Severity = „Error“</li><li>Detail = Spalte Detail aus den Fehlertabellen der Operationen in den Spezifikationen der Komponenten des ePA-Aktensystems</li></ul>Für alle übrigen Elemente gelten die Festlegungen aus [gemSpec_OM].]]></description_html>
+  </requirement>
+  <requirement id="A_14921" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88461" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - lokale Redundanz im Standort des ePA-Aktensystems]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass bei Ausfall einer 
+oder mehrerer Komponenten des ePA-Aktensystems die verbleibenden Komponenten 
+des ePA-Aktensystems in demselben Standort den Datenverkehr aller Clients der 
+ausgefallenen Komponente zusätzlich übernehmen, die Konsistenz der persistenten 
+Daten erhalten bleibt und die Verfügbarkeit der Komponenten gemäß den 
+geforderten SLAs in [gemSpec_Perf] weiterhin gegeben ist.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass bei Ausfall einer oder mehrerer Komponenten des ePA-Aktensystems die verbleibenden Komponenten des ePA-Aktensystems in demselben Standort den Datenverkehr aller Clients der ausgefallenen Komponente zusätzlich übernehmen, die Konsistenz der persistenten Daten erhalten bleibt und die Verfügbarkeit der Komponenten gemäß den geforderten SLAs in [gemSpec_Perf] weiterhin gegeben ist.]]></description_html>
+  </requirement>
+  <requirement id="A_14922" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88462" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - standortübergreifende Redundanz der Komponenten des ePA-Aktensystems]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass bei Ausfall eines 
+Rechenzentrums ein anderes Rechenzentrum an einem gemäß [BSI-Redundanz] 
+entfernten Standort den Datenverkehr des ausgefallenen Standortes übernehmen 
+kann.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass bei Ausfall eines Rechenzentrums ein anderes Rechenzentrum an einem gemäß [BSI-Redundanz] entfernten Standort den Datenverkehr des ausgefallenen Standortes übernehmen kann.]]></description_html>
+  </requirement>
+  <requirement id="A_15245" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88463" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - standortübergreifende Redundanz und Verfügbarkeit]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass bei Ausfall eines 
+Standorts (Rechenzentrum) die Konsistenz der persistenten Daten erhalten bleibt 
+und die Verfügbarkeit der Komponenten gemäß der geforderten SLAs in 
+[gemSpec_Perf] gegeben ist.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass bei Ausfall eines Standorts (Rechenzentrum) die Konsistenz der persistenten Daten erhalten bleibt und die Verfügbarkeit der Komponenten gemäß der geforderten SLAs in [gemSpec_Perf] gegeben ist.]]></description_html>
+  </requirement>
+  <requirement id="A_15151" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88465" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Implementierungsspezifische Sicherheitsanforderungen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS während der Entwicklung des 
+ePA-Aktensystems implementierungsspezifische Sicherheitsanforderungen 
+dokumentieren und umsetzen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS während der Entwicklung des ePA-Aktensystems implementierungsspezifische Sicherheitsanforderungen dokumentieren und umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="A_15146" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88466" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Verwendung eines sicheren Entwicklungsprozesses]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS während der Entwicklung des 
+ePA-Aktensystems einen sicheren Entwicklungsprozess verwenden. ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS während der Entwicklung des ePA-Aktensystems einen sicheren Entwicklungsprozess verwenden. ]]></description_html>
+  </requirement>
+  <requirement id="A_15147" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88467" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Sicherheitsrelevantes Softwarearchitektur-Review]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein sicherheitsrelevantes Software- und 
+Sicherheitsarchitektur-Review durchführen und identifizierte 
+Architekturschwachstellen beheben.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein sicherheitsrelevantes Software- und Sicherheitsarchitektur-Review durchführen und identifizierte Architekturschwachstellen beheben.]]></description_html>
+  </requirement>
+  <requirement id="A_15148" type="leafRequirement" severity="MUSS" lastUpdate="2020-12-04" technicalID="ML-88468" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Durchführung einer Bedrohungsanalyse]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS eine Bedrohungsanalyse durchführen und 
+Maßnahmen gegen die identifizierten Bedrohungen implementieren.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS eine Bedrohungsanalyse durchführen und Maßnahmen gegen die identifizierten Bedrohungen implementieren.]]></description_html>
+  </requirement>
+  <requirement id="A_15149" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88469" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Durchführung regelmäßiger sicherheitsrelevanter Quellcode-Reviews]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS während der Entwicklung des 
+ePA-Aktensystems regelmäßige sicherheitsrelevante Quellcode-Reviews oder 
+automatisierte sicherheitsrelevante Quellcode-Scans durchführen und alle 
+identifizierten kritischen Schwachstellen der Stufen "medium" oder "hoch" 
+beheben.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS während der Entwicklung des ePA-Aktensystems regelmäßige sicherheitsrelevante Quellcode-Reviews oder automatisierte sicherheitsrelevante Quellcode-Scans durchführen und alle identifizierten kritischen Schwachstellen der Stufen &quot;medium&quot; oder &quot;hoch&quot; beheben.]]></description_html>
+  </requirement>
+  <requirement id="A_15150" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88470" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Durchführung regelmäßiger Sicherheitstests]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS während der Entwicklung des 
+ePA-Aktensystems regelmäßige automatisierte Sicherheitstests durchführen und 
+alle identifizierten kritischen Schwachstellen der Stufen "medium" oder "hoch" 
+beheben. ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS während der Entwicklung des ePA-Aktensystems regelmäßige automatisierte Sicherheitstests durchführen und alle identifizierten kritischen Schwachstellen der Stufen &quot;medium&quot; oder &quot;hoch&quot; beheben. ]]></description_html>
+  </requirement>
+  <requirement id="A_15152" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-11" technicalID="ML-88471" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Sicherheitsschulung für Entwickler]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS alle Entwickler des ePA-Aktensystems in 
+sicherer Entwicklung und Secure Coding-Techniken schulen. ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS alle Entwickler des ePA-Aktensystems in sicherer Entwicklung und Secure Coding-Techniken schulen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15128" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88473" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schutz der transportierten Daten im ePA-Aktensystem]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die Vertraulichkeit 
+und Integrität der innerhalb des ePA-Aktensystems transportierten 
+Daten gewährleistet ist.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die Vertraulichkeit und Integrität der innerhalb des ePA-Aktensystems transportierten Daten gewährleistet ist.]]></description_html>
+  </requirement>
+  <requirement id="A_15103" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88474" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Konzept zur Verhinderung von Profilbildung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein Konzept erstellen und umsetzen, dass 
+sicherstellt, dass Mitarbeiter des Anbieters die im ePA-Aktensystem 
+verarbeiteten Daten nicht für Profilbildungen über Versicherte oder 
+Leistungserbringer(-institutionen) nutzen können.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein Konzept erstellen und umsetzen, dass sicherstellt, dass Mitarbeiter des Anbieters die im ePA-Aktensystem verarbeiteten Daten nicht für Profilbildungen über Versicherte oder Leistungserbringer(-institutionen) nutzen können.]]></description_html>
+  </requirement>
+  <requirement id="A_15104" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88475" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Ordnungsgemäße IT-Administration]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Maßnahmen für erhöhten Schutzbedarf 
+des BSI-Bausteins „OPS.1.1.2 Ordnungsgemäße 
+IT-Administration“ [BSI-Grundschutz] während des gesamten Betriebs des 
+ePA-Aktensystems umsetzen.   ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Maßnahmen für erhöhten Schutzbedarf des BSI-Bausteins „OPS.1.1.2 Ordnungsgemäße IT-Administration“ [BSI-Grundschutz] während des gesamten Betriebs des ePA-Aktensystems umsetzen.   ]]></description_html>
+  </requirement>
+  <requirement id="A_15824" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88476" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Sichere Speicherung von Daten]]></title>
+    <description><![CDATA[Unabhängig davon, ob die Daten schon verschlüsselt vorliegen, MUSS der Anbieter 
+des ePA-Aktensystems  die Daten des ePA-Aktensystems bei der Speicherung 
+verschlüsseln.  ]]></description>
+    <description_html><![CDATA[Unabhängig davon, ob die Daten schon verschlüsselt vorliegen, MUSS der Anbieter des ePA-Aktensystems  die Daten des ePA-Aktensystems bei der Speicherung verschlüsseln.  ]]></description_html>
+  </requirement>
+  <requirement id="A_15105" type="leafRequirement" severity="SOLL" lastUpdate="2019-10-15" technicalID="ML-88477" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Zwei-Faktor-Authentisierung von Administratoren]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems SOLL sicherstellen, dass sich Administratoren 
+mindestens mit einer Zwei-Faktor-Authentisierung anmelden.
+ Eine Zwei-Faktor-Authentisierung ist nur zwingend notwendig, wenn die 
+Administratoren einen Zugriff auf Daten haben, die zur Profilbildung 
+missbraucht werden könnten. Dies ist z. B. bei der Komponente Autorisierung 
+(Profile anhand der Berechtigungen) oder den Komponenten zur Authentifizierung 
+der Fall.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems SOLL sicherstellen, dass sich Administratoren mindestens mit einer Zwei-Faktor-Authentisierung anmelden.<br/>
+ Eine Zwei-Faktor-Authentisierung ist nur zwingend notwendig, wenn die Administratoren einen Zugriff auf Daten haben, die zur Profilbildung missbraucht werden könnten. Dies ist z. B. bei der Komponente Autorisierung (Profile anhand der Berechtigungen) oder den Komponenten zur Authentifizierung der Fall.]]></description_html>
+  </requirement>
+  <requirement id="A_15107-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-29" technicalID="ML-134298" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Keine unzulässige Weitergabe von Daten]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die in seinem 
+Aktensystem verarbeiteten Daten nicht weitergegeben werden, auch nicht in 
+pseudonymisierter oder anonymisierter Form. Davon ausgenommen sind Weitergaben 
+an berechtigte Nutzer der Aktenkonten, an einen durch den Versicherten 
+gewählten Anbieter beim Anbieterwechsel sowie Übermittlungen an das 
+Forschungsdatenzentrum nach Freigabe durch den Versicherten oder einen 
+Vertreter.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die in seinem Aktensystem verarbeiteten Daten nicht weitergegeben werden, auch nicht in pseudonymisierter oder anonymisierter Form. Davon ausgenommen sind Weitergaben an berechtigte Nutzer der Aktenkonten, an einen durch den Versicherten gewählten Anbieter beim Anbieterwechsel sowie Übermittlungen an das Forschungsdatenzentrum nach Freigabe durch den Versicherten oder einen Vertreter.<span id="polarion-comment:290"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_15109" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88479" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Unterschiedliche Mitarbeiter für Vertragsverwaltung und ePA-Aktensystem]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die Mitarbeiter, die 
+die Vertragsdaten verarbeiten, andere sind als jene mit Zugriff auf die 
+Komponenten Autorisierung, Authentisierung, Zugangsgateway und 
+Dokumentenverwaltung.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die Mitarbeiter, die die Vertragsdaten verarbeiten, andere sind als jene mit Zugriff auf die Komponenten Autorisierung, Authentisierung, Zugangsgateway und Dokumentenverwaltung.]]></description_html>
+  </requirement>
+  <requirement id="A_15119" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88480" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Löschkonzept]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in einem Löschkonzept für die im 
+ePA-Aktensystem verarbeiteten personenbezogenen Daten mindestens folgende 
+Aspekte beschreiben:
+
+ * die umgesetzten organisatorischen und technischen Löschmaßnahmen (dies 
+beinhaltet insbesondere auch die Löschung von Backups, Protokollen etc.), 
+ * die Löschregeln und Löschfristen zusammen mit einer nachvollziehbaren 
+Begründung für die getroffenen Fristfestlegungen, 
+ * wie sichergestellt wird, dass alle Auftragnehmer die Löschpflichten 
+ihrerseits umsetzen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in einem Löschkonzept für die im ePA-Aktensystem verarbeiteten personenbezogenen Daten mindestens folgende Aspekte beschreiben:<br/>
+ 
+<ul>
+  <li>die umgesetzten organisatorischen und technischen Löschmaßnahmen (dies beinhaltet insbesondere auch die Löschung von Backups, Protokollen etc.),</li>
+  <li>die Löschregeln und Löschfristen zusammen mit einer nachvollziehbaren Begründung für die getroffenen Fristfestlegungen,</li>
+  <li>wie sichergestellt wird, dass alle Auftragnehmer die Löschpflichten ihrerseits umsetzen.</li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="A_15125" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88481" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Information des Versicherten zur Wahrnehmung der Betroffenenrechte bei der Aktenkontoeröffnung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Versicherte bei der Aktenkontoeröffnung 
+in einfacher und verständlicher Form darüber informieren, wie sie ihre 
+Betroffenenrechte nach DSGVO in Verbindung mit BDSG gegenüber dem Anbieter 
+wahrnehmen können, insbesondere auch, an welche datenschutzrechtliche 
+Aufsichtsbehörde sie sich bei Datenschutzbeschwerden bzgl. des Anbieters wenden 
+müssen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Versicherte bei der Aktenkontoeröffnung in einfacher und verständlicher Form darüber informieren, wie sie ihre Betroffenenrechte nach DSGVO in Verbindung mit BDSG gegenüber dem Anbieter wahrnehmen können, insbesondere auch, an welche datenschutzrechtliche Aufsichtsbehörde sie sich bei Datenschutzbeschwerden bzgl. des Anbieters wenden müssen.]]></description_html>
+  </requirement>
+  <requirement id="A_15126" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88482" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Ausreichende Informationen für eine informierte Einwilligung bei der Aktenkontoeröffnung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass den Versicherten bei 
+der Akteneröffnung Informationen zum ePA-Aktensystem in allgemein 
+verständlicher Form bereitgestellt werden, die für eine informierte 
+Einwilligung notwendig sind; neben den Informationen gemäß Art. 13 DSGVO sind 
+dies insbesondere die Funktionsweise der ePA und die wesentlichen Datenschutz- 
+und Sicherheitsmaßnahmen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass den Versicherten bei der Akteneröffnung Informationen zum ePA-Aktensystem in allgemein verständlicher Form bereitgestellt werden, die für eine informierte Einwilligung notwendig sind; neben den Informationen gemäß Art. 13 DSGVO sind dies insbesondere die Funktionsweise der ePA und die wesentlichen Datenschutz- und Sicherheitsmaßnahmen.]]></description_html>
+  </requirement>
+  <requirement id="A_17075-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-11-24" technicalID="ML-112364" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Information über Verwendung eines zugelassenen ePA-Frontend des Versicherten]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS den Versicherten mindestens im Rahmen 
+der Einwilligung empfehlen, das Aktensystem nur mit einem zugelassenen ePA-FdV 
+zu benutzen und den Versicherten informieren, wo er dieses ePA-FdV beziehen 
+kann.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS den Versicherten mindestens im Rahmen der Einwilligung empfehlen, das Aktensystem nur mit einem zugelassenen ePA-FdV zu benutzen und den Versicherten informieren, wo er dieses ePA-FdV beziehen kann.]]></description_html>
+  </requirement>
+  <requirement id="A_15127" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88483" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Information der Versicherten und Leistungserbringer zur Wahrnehmung der Betroffenenrechte während der Aktennutzung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass sich Versicherte und 
+Leistungserbringer jederzeit in einfacher Weise beim Anbieter darüber 
+informieren können, wie sie ihre Betroffenenrechte nach DSGVO in Verbindung mit 
+BDSG gegenüber dem Anbieter wahrnehmen können.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass sich Versicherte und Leistungserbringer jederzeit in einfacher Weise beim Anbieter darüber informieren können, wie sie ihre Betroffenenrechte nach DSGVO in Verbindung mit BDSG gegenüber dem Anbieter wahrnehmen können.]]></description_html>
+  </requirement>
+  <requirement id="A_15169" type="leafRequirement" severity="DARF NICHT" lastUpdate="2019-10-15" technicalID="ML-88484" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Verbot von Werbe- und Usability-Tracking]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems DÜRFEN im Produktivbetrieb ein Werbe- und 
+Usability-Tracking NICHT verwenden.
+ Davon ausgenommen ist das Erfassen des standardmäßigen quantitativen 
+Nutzerverhaltens zur Ermittlung der Standard-Aktennutzung entsprechend der 
+Anforderung A_15154.]]></description>
+    <description_html><![CDATA[Die Komponenten des ePA-Aktensystems DÜRFEN im Produktivbetrieb ein Werbe- und Usability-Tracking NICHT verwenden.<br/>
+ Davon ausgenommen ist das Erfassen des standardmäßigen quantitativen Nutzerverhaltens zur Ermittlung der Standard-Aktennutzung entsprechend der Anforderung A_15154.]]></description_html>
+  </requirement>
+  <requirement id="A_15154" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88485" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Ermittlung von Standard-Aktennutzung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS mindestens einmal im Jahr Werte zu einer 
+Standard-Aktennutzung von LE und Versicherten durch die Profilierung anonymer 
+Zugriffsstatistiken auf das ePA-Aktensystem zum Zweck der Erkennung von 
+Zugriffen gemäß A_15155 ermitteln.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS mindestens einmal im Jahr Werte zu einer Standard-Aktennutzung von LE und Versicherten durch die Profilierung anonymer Zugriffsstatistiken auf das ePA-Aktensystem <span style="font-size: 10pt;line-height: 1.5;"></span>zum Zweck der Erkennung von Zugriffen gemäß A_15155 ermitteln.]]></description_html>
+  </requirement>
+  <requirement id="A_15155" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88486" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Abweichung von Standard-Aktennutzung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Zugriffe und Zugriffsmuster, die nicht 
+einer Standard-Aktennutzung entsprechen, erkennen und Maßnahmen zur 
+Schadensreduzierung umsetzen. ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Zugriffe und Zugriffsmuster, die nicht einer Standard-Aktennutzung entsprechen, erkennen und Maßnahmen zur Schadensreduzierung umsetzen. ]]></description_html>
+  </requirement>
+  <requirement id="A_15156" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88487" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Einsatz zertifizierter HSM]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS beim Einsatz eines HSM sicherstellen, 
+dass dessen Eignung durch eine erfolgreiche Evaluierung nachgewiesen wurde. Als 
+Evaluierungsschemata kommen dabei Common Criteria, ITSEC oder Federal 
+Information Processing Standard (FIPS) in Frage.     
+ Die Prüftiefe MUSS mindestens  
+ * FIPS 140-2 Level 3,     
+ * Common Criteria EAL 4+ mit hohem Angriffspotenzial oder 
+ * ITSEC E3 der Stärke „hoch“ entsprechen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS beim Einsatz eines HSM sicherstellen, dass dessen Eignung durch eine erfolgreiche Evaluierung nachgewiesen wurde. Als Evaluierungsschemata kommen dabei Common Criteria, ITSEC oder Federal Information Processing Standard (FIPS) in Frage.     <br/>
+ Die Prüftiefe MUSS mindestens  
+<ol>
+  <li>FIPS 140-2 Level 3,    </li>
+  <li>Common Criteria EAL 4+ mit hohem Angriffspotenzial oder</li>
+  <li>ITSEC E3 der Stärke „hoch“ entsprechen.</li>
+</ol>]]></description_html>
+  </requirement>
+  <requirement id="A_15157" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88488" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Sicherer Betrieb und Nutzung eines HSMs]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die auf dem HSM 
+verarbeiteten privaten Schlüssel, Konfigurationen und eingesetzte Software 
+nicht unautorisiert ausgelesen, unautorisiert verändert, unautorisiert ersetzt 
+oder in anderer Weise unautorisiert benutzt werden können.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die auf dem HSM verarbeiteten privaten Schlüssel, Konfigurationen und eingesetzte Software nicht unautorisiert ausgelesen, unautorisiert verändert, unautorisiert ersetzt oder in anderer Weise unautorisiert benutzt werden können.]]></description_html>
+  </requirement>
+  <requirement id="A_15158" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88489" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Informationstechnische Trennung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass nicht miteinander 
+kommunizierende Komponenten des ePA-Aktensystems informationstechnisch 
+voneinander getrennt sind.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass nicht miteinander kommunizierende Komponenten des ePA-Aktensystems informationstechnisch voneinander getrennt sind.]]></description_html>
+  </requirement>
+  <requirement id="A_15159" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88490" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schutzmaßnahmen gegen die OWASP Top 10 Risiken]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in allen Komponenten des 
+ePA-Aktensystems technische Maßnahmen zum Schutz vor den in der aktuellen 
+Version genannten OWASP-Top-10-Risiken umsetzen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in allen Komponenten des ePA-Aktensystems technische Maßnahmen zum Schutz vor den in der aktuellen Version genannten OWASP-Top-10-Risiken umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="A_15160-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-01" technicalID="ML-110755" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Zusätzliche Autorisierung von sensiblen Anwendungsfällen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass für den Beginn der 
+folgenden Anwendungsfälle eine nochmalige Authentifizierung erfolgt, wenn die 
+letzte Authentifizierung mehr als 10 Minuten zurückliegt.
+
+ * Vertragsdaten ändern
+ * Aktenkonto schließen
+ * Geräte verwalten
+ * Umschlüsselung (Operation startKeyChange an der Autorisierung).]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass für den Beginn der folgenden Anwendungsfälle eine nochmalige Authentifizierung erfolgt, wenn die letzte Authentifizierung mehr als 10 Minuten zurückliegt. <br/> <ul><li>Vertragsdaten ändern</li><li>Aktenkonto schließen</li><li>Geräte verwalten</li><li>Umschlüsselung (Operation startKeyChange an der Autorisierung).</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_15823-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-132560" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Versicherte über sensible Änderungen informieren.]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über 
+Änderungen in den folgenden Anwendungsfällen informiert wird,  
+
+ * Vertragsdaten ändern
+ * Aktenkonto schließen
+ * Geräte verwaltenund wenn der Anbieter des Aktensystems eine manuelle 
+Änderung bezüglich einer Akte (Aktenverwaltung) im Auftrag eines Versicherten 
+durchführt.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über Änderungen in den folgenden Anwendungsfällen informiert wird,  <br/> <ul><li>Vertragsdaten ändern</li><li>Aktenkonto schließen</li><li>Geräte verwalten</li></ul>und wenn der Anbieter des Aktensystems eine manuelle Änderung bezüglich einer Akte (Aktenverwaltung) im Auftrag eines Versicherten durchführt.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15163" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88493" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Angriffen entgegenwirken]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Maßnahmen zur Erkennung von Angriffen 
+und zur Reduzierung bzw. Verhinderung von Schäden aufgrund von Angriffen in 
+allen Komponenten des ePA-Aktensystems umsetzen.]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Der Anbieter des ePA-Aktensystems MUSS Ma&szlig;nahmen zur Erkennung&nbsp;</span><span>von Angriffen</span> <span>und zur R</span><span>eduzierung bzw. Verhinderung von Sch&auml;den aufgrund&nbsp;</span><span>von Angriffen in allen Komponenten des ePA-Aktensystems umsetzen.</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="A_15167" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88494" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Social Engineering Angriffen entgegenwirken]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Maßnahmen zur Erkennung und Verhinderung 
+von Social Engineering Angriffen umsetzen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Maßnahmen zur Erkennung und Verhinderung von Social Engineering Angriffen umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="A_15168" type="leafRequirement" severity="DARF NICHT" lastUpdate="2019-10-15" technicalID="ML-88495" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Verbot vom dynamischen Inhalt]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems DÜRFEN dynamischen Inhalt von 
+Drittanbietern NICHT herunterladen und verwenden. ]]></description>
+    <description_html><![CDATA[Die Komponenten des ePA-Aktensystems DÜRFEN dynamischen Inhalt von Drittanbietern NICHT herunterladen und verwenden.  <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_17080" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-92437" revision="529807">
+    <title><![CDATA[Verhindern von Session Hijacking]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems MÜSSEN geeignete Schutzmaßnahmen gegen 
+Session-Hijacking implementieren.]]></description>
+    <description_html><![CDATA[Die Komponenten des ePA-Aktensystems MÜSSEN geeignete Schutzmaßnahmen gegen Session-Hijacking implementieren.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_16323-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-11-24" technicalID="ML-112436" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Verbot von medizinisch irrelevantem Inhalt]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS der Ablage von Dokumenten, die für die 
+medizinische Versorgung oder für die Eigenorganisation medizinischer Belange 
+des Versicherten oder zur Erstattung der Behandlungskosten irrelevant sind, 
+mittels AGB auf Anbieterseite entgegenwirken.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS der Ablage von Dokumenten, die für die medizinische Versorgung oder für die Eigenorganisation medizinischer Belange des Versicherten <span style="font-size: 10pt;line-height: 1.5;">oder zur Erstattung der Behandlungskosten</span> irrelevant sind, mittels AGB auf Anbieterseite entgegenwirken.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_18954" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-102056" revision="529807">
+    <title><![CDATA[Sicherer Betrieb des Produkts nach Handbuch]]></title>
+    <description><![CDATA[Der Anbieter eines ePA-Aktensystems MUSS die im Handbuch des eingesetzten 
+ePA-Aktensystems und des eingesetzten Schlüsselgenerierungsdiensts 
+beschriebenen Voraussetzungen für den sicheren Betrieb des Produktes 
+gewährleisten.]]></description>
+    <description_html><![CDATA[Der Anbieter eines ePA-Aktensystems MUSS die im Handbuch des eingesetzten ePA-Aktensystems und des eingesetzten Schlüsselgenerierungsdiensts beschriebenen Voraussetzungen für den sicheren Betrieb des Produktes gewährleisten.]]></description_html>
+  </requirement>
+  <requirement id="A_18953" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-102055" revision="529807">
+    <title><![CDATA[Darstellen der Voraussetzungen für sicheren Betrieb des Produkts im Handbuch]]></title>
+    <description><![CDATA[Der Hersteller des ePA-Aktensystems MUSS für sein Produkt im dazugehörigen 
+Handbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber 
+und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des 
+Produktes gewährleistet werden kann.]]></description>
+    <description_html><![CDATA[Der Hersteller des ePA-Aktensystems MUSS für sein Produkt im dazugehörigen Handbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des Produktes gewährleistet werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_19118" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-102955" revision="529807">
+    <title><![CDATA[Komponenten des Aktensystems, Schutz vor XSW-Angriffen]]></title>
+    <description><![CDATA[Die Komponenten des ePA-Aktensystems, die XML-Signaturen -- insbesondere 
+Signaturen von SAML-Token -- prüfen, MÜSSEN geeignete Maßnahmen gegen 
+XSW-Angriffe umsetzen. Mindestens MÜSSEN sie die FastXPath-Auswertung der 
+XML-Daten und XML-Signaturen gemäß [GJLS-2009] (vgl. auch [BSI-XSpRES]) 
+umsetzen (vgl. „Hinweise zu “).]]></description>
+    <description_html><![CDATA[Die Komponenten des ePA-Aktensystems, die XML-Signaturen -- insbesondere Signaturen von SAML-Token -- prüfen, MÜSSEN geeignete Maßnahmen gegen XSW-Angriffe umsetzen. Mindestens MÜSSEN sie die FastXPath-Auswertung der XML-Daten und XML-Signaturen gemäß [GJLS-2009] (vgl. auch [BSI-XSpRES]) umsetzen (vgl. „Hinweise zu <span data-option-id="custom" data-item-id="ML-102955" data-custom-label="A_19118" id="fake" data-type="crossReference" class="polarion-rte-link"></span> “).]]></description_html>
+  </requirement>
+  <requirement id="A_19122" type="leafRequirement" severity="MUSS" lastUpdate="2020-11-21" technicalID="ML-102961" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Trennung zu anderen Mandanten]]></title>
+    <description><![CDATA[Falls ein Anbieter eines ePA-Aktensystems einen Betreiber eines ePA-Aktensystem 
+beauftragt, MUSS der Anbieter des ePA-Aktensystems sicherstellen, dass seine 
+Daten von anderen Mandanten des Betreibers des ePA-Aktensystems organisatorisch 
+und technisch getrennt sind. ]]></description>
+    <description_html><![CDATA[Falls ein Anbieter eines ePA-Aktensystems einen Betreiber eines ePA-Aktensystem beauftragt, MUSS der Anbieter des ePA-Aktensystems sicherstellen, dass seine Daten von anderen Mandanten des Betreibers des ePA-Aktensystems organisatorisch und technisch getrennt sind. ]]></description_html>
+  </requirement>
+  <requirement id="A_21106" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-25" technicalID="ML-114144" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Signaturschlüssel für Protokolle]]></title>
+    <description><![CDATA[Das ePA-Aktensystem MUSS für die Signatur von Listen von Protokollen des 
+Versicherten Schlüsselmaterial der Ausstelleridentität ID.FD.SIG mit einem 
+zugehörigen Zertifikat C.FD.SIG mit der Rolle oid_epa_logging gemäß 
+[gemSpec_OID] besitzen.]]></description>
+    <description_html><![CDATA[Das ePA-Aktensystem MUSS für die Signatur von Listen von Protokollen des Versicherten Schlüsselmaterial der Ausstelleridentität ID.FD.SIG mit einem zugehörigen Zertifikat C.FD.SIG mit der Rolle oid_epa_logging gemäß [gemSpec_OID] besitzen.]]></description_html>
+  </requirement>
+  <requirement id="A_21107" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-25" technicalID="ML-114143" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Speicherung Signaturschlüssel für Protokolle im  HSM]]></title>
+    <description><![CDATA[Das ePA-Aktensystem MUSS das private Schlüsselmaterial der Ausstelleridentität 
+ID.FD.SIG für die Signatur von Listen von Protokollen des Versicherten in einem 
+HSM speichern.]]></description>
+    <description_html><![CDATA[Das ePA-Aktensystem MUSS das private Schlüsselmaterial der Ausstelleridentität ID.FD.SIG für die Signatur von Listen von Protokollen des Versicherten in einem HSM speichern.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_22409" type="leafRequirement" severity="MUSS" lastUpdate="2022-01-26" technicalID="ML-125923" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - CA-Anbieterwechsel]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS mindestens drei Monate vor dem Wechsel 
+des CA-Anbieters für die Ausstellung der TLS_Zertifikate des Zugangsgateways 
+die gematik darüber informieren, wer der alte Anbieter war und wer der neue 
+Anbieter wird.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS mindestens drei Monate vor dem Wechsel des CA-Anbieters für die Ausstellung der TLS_Zertifikate des Zugangsgateways die gematik darüber informieren, wer der alte Anbieter war und wer der neue Anbieter wird.]]></description_html>
+  </requirement>
+  <requirement id="A_18168-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-04" technicalID="ML-127142" revision="529807">
+    <title><![CDATA[Anbieter des ePA-Aktensystem - Validierungsaktenkonto für gematik]]></title>
+    <description><![CDATA[Nach Aufforderung durch die gematik MUSS der Anbieter des ePA-Aktensystems 
+
+ * für die gematik ein Validierungsaktenkonto im ePA-Aktensystem für die von 
+der gematik übergebene KVNR anlegen, wobei die KVNR die Festlegungen für die 
+Versichertennummer aus [gemSpec_PK_eGK#Card-G2-A_3820] erfüllen muss.
+ * das durch die gematik angegebene Validierungsaktenkonto löschen, sofern die 
+gematik dessen Anlage beantragt hatte.]]></description>
+    <description_html><![CDATA[Nach Aufforderung durch die gematik MUSS der Anbieter des ePA-Aktensystems <br/> <ul><li>für die gematik ein Validierungsaktenkonto im ePA-Aktensystem für die von der gematik übergebene KVNR anlegen, wobei die KVNR die Festlegungen für die Versichertennummer aus [gemSpec_PK_eGK#<span style="font-size: 10pt;line-height: 1.5;">Card-G2-A_3820</span>] erfüllen muss.</li><li>das durch die gematik angegebene Validierungsaktenkonto löschen, sofern die gematik dessen Anlage beantragt hatte.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_18169-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-11" technicalID="ML-129703" revision="529807">
+    <title><![CDATA[Anbieter des ePA-Aktensystem - Validierungsaktenkonto für eigene Zwecke]]></title>
+    <description><![CDATA[Falls sich der Anbieter des ePA-Aktensystems ein Validierungsaktenkonto für 
+eigene Zwecke anlegen möchte, MUSS er sicherstellen, dass nur eine 
+Versichertennummer aus dem von der gematik für diesen Anbieter freigegebenen 
+Nummernkreis [gem. gemSpec_PK_eGK] verwendet wird.]]></description>
+    <description_html><![CDATA[Falls sich der Anbieter des ePA-Aktensystems ein Validierungsaktenkonto für eigene Zwecke anlegen möchte, MUSS er sicherstellen, dass nur eine Versichertennummer aus dem von der gematik für diesen Anbieter freigegebenen Nummernkreis [gem. gemSpec_PK_eGK] verwendet wird.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_22522-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-11" technicalID="ML-129704" revision="529807">
+    <title><![CDATA[Anbieter des ePA-Aktensystems - Validierungskonto für Dritte]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS auf Antrag der gematik 
+
+ * Validierungsaktenkonten für Dritte (z.B. DVO, PS-Hersteller) für eine vom 
+Antragsteller übermittelte KVNR anlegen, sofern die KVNR die Festlegungen für 
+die Versichertennummer aus [gemSpec_PK_eGK] erfüllt ist.
+ * das durch einen Antragsteller angegebene Validierungsaktenkonto löschen, 
+sofern der Antragsteller dessen Anlage beantragt hatte.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS auf Antrag der gematik <br/> <ul><li>Validierungsaktenkonten für Dritte (z.B. DVO, PS-Hersteller) für eine vom Antragsteller übermittelte KVNR anlegen, sofern die KVNR die Festlegungen für die Versichertennummer aus [gemSpec_PK_eGK] erfüllt ist.</li></ul><ul><li>das durch einen Antragsteller angegebene Validierungsaktenkonto löschen, sofern der Antragsteller dessen Anlage beantragt hatte.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_22524" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-04" technicalID="ML-127141" revision="529807">
+    <title><![CDATA[Anbieter des ePA-Aktensystems - Löschen von Validierungsaktenkonten nach 5 Jahren]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein Validierungsaktenkonto fünf Jahre 
+nach Anlage des Validierungsaktenkontos löschen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein Validierungsaktenkonto fünf Jahre nach Anlage des Validierungsaktenkontos löschen.]]></description_html>
+  </requirement>
+  <requirement id="A_22684-01" type="leafRequirement" severity="KANN" lastUpdate="2022-04-11" technicalID="ML-129705" revision="529807">
+    <title><![CDATA[Validierungsaktenkonten im Store-Review der FdVs]]></title>
+    <description><![CDATA[Der Anbieter/Hersteller des ePA-Aktensystems bzw. Hersteller des ePA-FdVs KANN 
+- ausschließlich für dedizierte KVNRn von Validierungsaktenkonten zum Zwecke 
+der Verwendung im Store-Review der FdVs – Vorkehrungen treffen, die es 
+ermöglichen auf Gerätebindung, Mailvalidierung oder andere Aktivitäten des 
+Registrierungs-/Anmeldeprozesses zu verzichten, um eine Prüfung der FdVs durch 
+die App-Store-Betreiber zu ermöglichen. ]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Anbieter/Hersteller des ePA-Aktensystems bzw. Hersteller des ePA-FdVs KANN - ausschließlich für dedizierte KVNRn von Validierungsaktenkonten zum Zwecke der Verwendung im Store-Review der FdVs – Vorkehrungen treffen, die es ermöglichen auf Gerätebindung, Mailvalidierung oder andere Aktivitäten des Registrierungs-/Anmeldeprozesses zu verzichten, um eine Prüfung der FdVs durch die App-Store-Betreiber zu ermöglichen. </span>]]></description_html>
+  </requirement>
+  <requirement id="A_22942" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-18" technicalID="ML-132549" revision="529807">
+    <title><![CDATA[Besonderheiten bei Validierungaktenkonten für StoreReviews]]></title>
+    <description><![CDATA[Bei Validierungsaktenkonten, für die die Regelung gem. A_22684-* gilt 
+[Validierungsaktenkonten im StoreReview der FdVs], MÜSSEN folgende 
+Besonderheiten berücksichtigt werden:
+
+ * die entsprechenden Validierungsaktenkonten dürfen nur für den Zeitpunkt des 
+Reviews aktiviert und erreichbar sein, 
+ * die entsprechenden Validierungsaktenkonten sind unmittelbar nach den Review 
+zu leeren, 
+ * es sind Zeitraum der Erreichbarkeit und eine eindeutige Referenz auf den 
+Review (z.B. Vorgangsnummer) zu dokumentieren und auf Anforderung an die 
+gematik zu übertragen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Bei Validierungsaktenkonten, für die die Regelung gem. A_22684-* gilt [Validierungsaktenkonten im StoreReview der FdVs], MÜSSEN folgende Besonderheiten berücksichtigt werden:</span><br/>
+<ul>
+  <li><span style="font-size: 10pt;line-height: 1.5;">die entsprechenden Validierungsaktenkonten dürfen nur für den Zeitpunkt des Reviews aktiviert und erreichbar sein,</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">die entsprechenden Validierungsaktenkonten sind unmittelbar nach den Review zu leeren,</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">es sind Zeitraum der Erreichbarkeit und eine eindeutige Referenz auf den Review (z.B. Vorgangsnummer) zu dokumentieren und auf Anforderung an die gematik zu übertragen.</span></li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="A_21887-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-04" technicalID="ML-128376" revision="529807">
+    <title><![CDATA[Tracing, Sensorpunkt nahe vor den VAU-Instanzen (Nichtproduktivumgebungen)]]></title>
+    <description><![CDATA[Ein Aktensystem MUSS sicherstellen, dass genau in Nichtproduktivumgebungen der 
+Datenverkehr zur und von den VAU-Instanzen auf TCP-Ebene mitgeschnitten wird 
+(Sensorpunkt). Der aktuell mitgeschnittene Datenverkehr MUSS auf einen TCP-Port 
+im ZGdV gestreamt werden (vgl. [gemSpec_Zugangsgateway_Vers#A_21890-*]. D. h. 
+wenn ein Client sich zu diesem TCP-Port verbindet, MUSS er die aktuell auf dem 
+Interface durchlaufenden Daten gestreamt lesen können.]]></description>
+    <description_html><![CDATA[Ein Aktensystem MUSS sicherstellen, dass genau in Nichtproduktivumgebungen der Datenverkehr zur und von den VAU-Instanzen auf TCP-Ebene mitgeschnitten wird (Sensorpunkt). Der aktuell mitgeschnittene Datenverkehr MUSS auf einen TCP-Port im ZGdV gestreamt werden (vgl. [gemSpec_Zugangsgateway_Vers#A_21890-*]. D. h. wenn ein Client sich zu diesem TCP-Port verbindet, MUSS er die aktuell auf dem Interface durchlaufenden Daten gestreamt lesen können. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21891-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-04" technicalID="ML-128377" revision="529807">
+    <title><![CDATA[Tracing, Tiger-Standalone-Proxy]]></title>
+    <description><![CDATA[Ein Aktensystem MUSS zum Mitschneiden und Streamen der Testdaten in 
+Nichtproduktivumgebungen nach A_21887-* den von der gematik bereitgestellten 
+aggregierenden Tiger-Standalone-Proxy (mindestens der Version 0.20) verwenden.]]></description>
+    <description_html><![CDATA[Ein Aktensystem MUSS zum Mitschneiden und Streamen der Testdaten in Nichtproduktivumgebungen nach A_21887-* den von der gematik bereitgestellten aggregierenden Tiger-Standalone-Proxy (mindestens der Version 0.20) verwenden.]]></description_html>
+  </requirement>
+  <requirement id="A_22581" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-04" technicalID="ML-127881" revision="529807">
+    <title><![CDATA[Tracing, Abschaltbarkeit]]></title>
+    <description><![CDATA[Ein Aktensystem MUSS den Tiger-Standalone-Proxy (und die damit verbunden 
+Sensorpunkte) gemäß A_21891-* im Rahmen der Zulassungstests auf Wunsch der 
+gematik aktivieren und insbesondere deaktivieren können.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Ein Aktensystem MUSS den Tiger-Standalone-Proxy (und die damit verbunden Sensorpunkte) gemäß A_21891-* im Rahmen der Zulassungstests auf Wunsch der gematik aktivieren und insbesondere deaktivieren können.</span><span style="font-size: 10pt;background-color: #FFFF00;line-height: 1.5;"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_15037-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-08" technicalID="ML-133333" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Status Konto initialisieren]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS beim Initialisieren (Beantragen) des 
+Kontos durch den Versicherten einen Datensatz KeyChain in der Komponente 
+Autorisierung mit dem Status RecordState = REGISTERED_FOR_MIGRATION anlegen, 
+wenn der Versicherte bei einen anderen Anbieter ein gekündigtes Konto besitzt 
+von dem die Daten übernommen werden sollen (siehe auch A_15617-*). Sofern kein 
+Konto existiert, ist die KeyChain mit dem RecordState = REGISTERED anzulegen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS beim Initialisieren (Beantragen) des Kontos durch den Versicherten einen Datensatz KeyChain in der Komponente Autorisierung mit dem Status RecordState = REGISTERED_FOR_MIGRATION anlegen, wenn der Versicherte bei einen anderen Anbieter ein gekündigtes Konto besitzt von dem die Daten übernommen werden sollen (siehe auch A_15617-*). Sofern kein Konto existiert, ist die KeyChain mit dem RecordState = REGISTERED anzulegen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21737" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-21" technicalID="ML-119670" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Start  Datenübernahme initialisiertes Konto]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein initial angelegtes Konto (
+RecordState = REGISTERED_FOR_MIGRATION)  den Status RecordState im Datensatz 
+KeyChain des Versicherten in der Komponente Autorisierung auf den Wert 
+RecordState = DL_IN_PROGRESS setzen, sobald für den Versicherten in der 
+Komponente Dokumentenverwaltung der Import eines Migrationspaketes für den 
+Versicherten gestartet wurde.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein initial angelegtes Konto (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">RecordState = REGISTERED_FOR_MIGRATION</span>)  den Status RecordState im Datensatz KeyChain des Versicherten in der Komponente Autorisierung auf den Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">RecordState = DL_IN_PROGRESS </span>setzen, sobald für den Versicherten in der Komponente Dokumentenverwaltung der Import eines Migrationspaketes für den Versicherten gestartet wurde.]]></description_html>
+  </requirement>
+  <requirement id="A_21738" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-21" technicalID="ML-119676" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Abschluss Download Migrationspaket]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein in der Datenübernahme 
+befindliches Konto (RecordState = DL_IN_PROGRESS)  den Status RecordState im 
+Datensatz KeyChain des Versicherten in der Komponente Autorisierung auf den 
+Wert RecordState = READY_FOR_IMPORT setzen, sobald für den Versicherten in der 
+Komponente Dokumentenverwaltung der Download eines Migrationspaketes für den 
+Versicherten abgeschlossen wurde.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein in der Datenübernahme befindliches Konto (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">RecordState = DL_IN_PROGRESS</span>)  den Status RecordState im Datensatz KeyChain des Versicherten in der Komponente Autorisierung auf den Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">RecordState = READY_FOR_IMPORT </span>setzen, sobald für den Versicherten in der Komponente Dokumentenverwaltung der Download eines Migrationspaketes für den Versicherten abgeschlossen wurde.]]></description_html>
+  </requirement>
+  <requirement id="A_21739" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-21" technicalID="ML-119680" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Erfolgreicher  Import Migrationspaket]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein im Import befindliches Konto (
+RecordState =READY_FOR_IMPORT)  den Status RecordState im Datensatz KeyChain 
+des Versicherten in der Komponente Autorisierung auf den Wert RecordState = 
+ACTIVATED setzen, sobald für den Versicherten in der Komponente 
+Dokumentenverwaltung der Import eines Migrationspaketes für den Versicherten 
+erfolgreich abgeschlossen wurde.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein im Import befindliches Konto (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">RecordState = <span style="font-size: 10pt;line-height: 1.5;">READY_FOR_IMPORT</span></span>)  den Status RecordState im Datensatz KeyChain des Versicherten in der Komponente Autorisierung auf den Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">RecordState = ACTIVATED </span>setzen, sobald für den Versicherten in der Komponente Dokumentenverwaltung der Import eines Migrationspaketes für den Versicherten erfolgreich abgeschlossen wurde.]]></description_html>
+  </requirement>
+  <requirement id="A_15038" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88502" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Initialisiertes Konto löschen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein initialisiertes Konto (RecordState = 
+REGISTERED oder RecordState = REGISTERED_FOR_MIGRATION) schließen, wenn der 
+Versicherte dieses nicht innerhalb einer geeigneten Frist aktiviert oder seine 
+Einwilligung in die Nutzung der ePA oder in die Datenverarbeitung durch den 
+Anbieter entzieht.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein initialisiertes Konto (<span style="font-family: &#39;Courier New&#39;, Courier, monospace;">RecordState = REGISTERED</span> <span style="font-family: Arial, Helvetica, sans-serif;">oder </span><span style="font-family: &#39;Courier New&#39;, Courier, monospace;">RecordState = REGISTERED_FOR_MIGRATION</span>) schließen, wenn der Versicherte dieses nicht innerhalb einer geeigneten Frist aktiviert oder seine Einwilligung in die Nutzung der ePA oder in die Datenverarbeitung durch den Anbieter entzieht.]]></description_html>
+  </requirement>
+  <requirement id="A_15039-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-11-24" technicalID="ML-110758" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Aktives Konto löschen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein aktives Konto (RecordState = 
+ACTIVATED oder KEY_CHANGE) schließen, wenn der Versicherte sein Konto schließen 
+möchte oder seine Einwilligung in die Nutzung der ePA oder in die 
+Datenverarbeitung durch den Anbieter entzieht.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein aktives Konto (<span style="font-family: 'Courier New', Courier, monospace;">RecordState = ACTIVATED</span> oder <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">KEY_CHAN</span><span style="font-family: 'Courier New', Courier, monospace;">GE</span>) schließen, wenn der Versicherte sein Konto schließen möchte oder seine Einwilligung in die Nutzung der ePA oder in die Datenverarbeitung durch den Anbieter entzieht.]]></description_html>
+  </requirement>
+  <requirement id="A_15040" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88504" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Aktives Konto kündigen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS bei Kündigung des Versicherten mit der 
+Absicht die Daten zu migrieren, den Status RecordState im Datensatz KeyChain 
+des Versicherten in der Komponente Autorisierung auf den Wert RecordState = 
+DISMISSEDsetzen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS bei Kündigung des Versicherten mit der Absicht die Daten zu migrieren, den Status RecordState im Datensatz KeyChain des Versicherten in der Komponente Autorisierung auf den Wert <span style="font-family: &#39;Courier New&#39;, Courier, monospace;">RecordState = DISMISSED </span>setzen.]]></description_html>
+  </requirement>
+  <requirement id="A_20176" type="leafRequirement" severity="KANN" lastUpdate="2020-06-08" technicalID="ML-109360" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Kündigung Konto zurücknehmen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems KANN eine Kündigung des Versicherten 
+zurücknehmen, die dazu geführt hat, dass der Status RecordState im Datensatz 
+KeyChain des Versicherten in der Komponente Autorisierung auf dem Wert 
+RecordState = DISMISSEDsteht, indem dieser Wert wieder auf  RecordState = 
+ACTIVATED gesetzt wird, wenn sicher gestellt ist, dass der Versicherte nicht 
+bei einem anderen Aktenanbieter ein Konto eröffnet hat.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems KANN eine Kündigung des Versicherten zurücknehmen, die dazu geführt hat, dass der Status RecordState im Datensatz KeyChain des Versicherten in der Komponente Autorisierung auf dem Wert <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">RecordState = DISMISSED </span>steht, indem dieser Wert wieder auf  <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">RecordState = ACTIVATED</span> gesetzt wird, wenn sicher gestellt ist, dass der Versicherte nicht bei einem anderen Aktenanbieter ein Konto eröffnet hat.]]></description_html>
+  </requirement>
+  <requirement id="A_15041" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88505" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Gekündigtes Konto löschen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein gekündigtes Konto (RecordState = 
+DISMISSED) schließen, wenn der Versicherte sein Konto schließen möchte oder 
+seine Einwilligung in die Nutzung der ePA oder in die Datenverarbeitung durch 
+den Anbieter entzieht.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein gekündigtes Konto (<span style="font-family: &#39;Courier New&#39;, Courier, monospace;">RecordState = DISMISSED</span>) schließen, wenn der Versicherte sein Konto schließen möchte oder seine Einwilligung in die Nutzung der ePA oder in die Datenverarbeitung durch den Anbieter entzieht.]]></description_html>
+  </requirement>
+  <requirement id="A_21735" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-21" technicalID="ML-119666" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Starten Datenmigration gekündigtes Konto]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein gekündigtes Konto (RecordState = 
+DISMISSED)  den Status RecordState im Datensatz KeyChain des Versicherten in 
+der Komponente Autorisierung auf den Wert RecordState = START_MIGRATION setzen, 
+sobald für den Versicherten in der Komponente Dokumentenverwaltung die 
+Erstellung eines Migrationspaketes für den Versicherten gestartet wurde.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein gekündigtes Konto (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">RecordState = DISMISSED</span>)  den Status RecordState im Datensatz KeyChain des Versicherten in der Komponente Autorisierung auf den Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">RecordState = START_MIGRATION </span>setzen, sobald für den Versicherten in der Komponente Dokumentenverwaltung die Erstellung eines Migrationspaketes für den Versicherten gestartet wurde.]]></description_html>
+  </requirement>
+  <requirement id="A_15042-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-21" technicalID="ML-119665" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Gekündigtes Konto einfrieren]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein gekündigtes Konto im Zustand (
+RecordState = START_MIGRATION)  den Status RecordState im Datensatz KeyChain 
+des Versicherten in der Komponente Autorisierung auf den Wert RecordState = 
+SUSPENDED setzen, sobald für den Versicherten in der Komponente 
+Dokumentenverwaltung ein Migrationspaket für den Versicherten erfolgreich 
+erstellt wurde.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS für ein gekündigtes Konto im Zustand (<span style="font-family: 'Courier New', Courier, monospace;">RecordState = START_MIGRATION</span>)  den Status RecordState im Datensatz KeyChain des Versicherten in der Komponente Autorisierung auf den Wert <span style="font-family: 'Courier New', Courier, monospace;">RecordState = SUSPENDED </span>setzen, sobald für den Versicherten in der Komponente Dokumentenverwaltung ein Migrationspaket für den Versicherten erfolgreich erstellt wurde.]]></description_html>
+  </requirement>
+  <requirement id="A_15043" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88507" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Eingefrorenes Konto löschen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein gekündigtes und eingefrorenes Konto (
+RecordState = SUSPENDED) schließen, wenn der Versicherte sein Konto schließen 
+möchte, seine Einwilligung in die Datenverarbeitung durch den Anbieter entzieht 
+oder eine angemessene Aufbewahrungsfrist für die Daten des Versicherten 
+abgelaufen ist.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein gekündigtes und eingefrorenes Konto (<span style="font-family: &#39;Courier New&#39;, Courier, monospace;">RecordState = SUSPENDED</span>) schließen, wenn der Versicherte sein Konto schließen möchte, seine Einwilligung in die Datenverarbeitung durch den Anbieter entzieht oder eine angemessene Aufbewahrungsfrist für die Daten des Versicherten abgelaufen ist.]]></description_html>
+  </requirement>
+  <requirement id="A_15187" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88508" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Vertragsdaten ändern]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, seine 
+Vertragsdaten zu ändern.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, seine Vertragsdaten zu ändern.]]></description_html>
+  </requirement>
+  <requirement id="A_15188" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88509" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Ausschluss einer Änderung der KVNR im Aktenkonto]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS verhindern, dass die KVNR des 
+Versicherten im ePA-Aktensystem geändert werden kann.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS verhindern, dass die KVNR des Versicherten im ePA-Aktensystem geändert werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_18083" type="leafRequirement" severity="MUSS" lastUpdate="2019-07-02" technicalID="ML-96773" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Validierung Mailadresse vor Übernahme]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS jede Änderung einer Mailadresse vor der 
+Übernahme der Änderung validieren, sodass ausgeschlossen wird, dass eine 
+ungültige Mailadresse eine gültige Mailadresse überschreibt.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS jede Änderung einer Mailadresse vor der Übernahme der Änderung validieren, sodass ausgeschlossen wird, dass eine ungültige Mailadresse eine gültige Mailadresse überschreibt.]]></description_html>
+  </requirement>
+  <requirement id="A_18782" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-101477" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - E-Mail-Notifikation an alte Mailadresse]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS vor der Übernahme der Änderung einer 
+Mailadresse eine Notifikation an die alte Mailadresse senden.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des ePA-Aktensystems MUSS vor der Übernahme der Änderung einer Mailadresse eine Notifikation an die alte Mailadresse senden.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_18084-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-109584" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Benachrichtigung bei Identitätswechsel]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS den Versicherten über einen 
+Identitätswechsel (Einsatz einer neuen, bisher nicht verwendeten eGK des 
+Versicherten) gemäß [gemSpec_Autorisierung#A_17840] informieren. Wenn eine 
+automatische Benachrichtigung mangels hinterlegter oder wegen ungültiger 
+Mailadresse nicht möglich ist, muss eine alternative Methode gewählt werden. 
+Eine Benachrichtigung bei Identitätswechsel eines berechtigten Vertreters ist 
+nicht erforderlich.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS den Versicherten über einen Identitätswechsel (Einsatz einer neuen, bisher nicht verwendeten eGK des Versicherten) gemäß [gemSpec_Autorisierung#A_17840] informieren. Wenn eine automatische Benachrichtigung mangels hinterlegter oder wegen ungültiger Mailadresse nicht möglich ist, muss eine alternative Methode gewählt werden. Eine Benachrichtigung bei Identitätswechsel eines berechtigten Vertreters ist nicht erforderlich.]]></description_html>
+  </requirement>
+  <requirement id="A_14993" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88511" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Mailadresse validieren]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS im Rahmen der Beantragung eines 
+Aktenkontos durch einen Versicherten eine mitgeteilte Mailadresse auf 
+Gültigkeit hin validieren. ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS im Rahmen der Beantragung eines Aktenkontos durch einen Versicherten eine mitgeteilte Mailadresse auf Gültigkeit hin validieren. ]]></description_html>
+  </requirement>
+  <requirement id="A_15545" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88512" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Mailadresse für Gerätefreischaltung zur Kontoaktivierung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS eine im Rahmen der Beantragung eines 
+Aktenkontos durch einen Versicherten mitgeteilte und gültige Mailadresse in der 
+Komponente Autorisierung als Benachrichtigungsadresse für die 
+Gerätefreischaltung durch den Versicherten hinterlegen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS eine im Rahmen der Beantragung eines Aktenkontos durch einen Versicherten mitgeteilte und gültige Mailadresse in der Komponente Autorisierung als Benachrichtigungsadresse für die Gerätefreischaltung durch den Versicherten hinterlegen.]]></description_html>
+  </requirement>
+  <requirement id="A_14994" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88513" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schriftliche Kontoeröffnung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS einem Versicherten erlauben, ein 
+Aktenkonto schriftlich zu beantragen. ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS einem Versicherten erlauben, ein Aktenkonto schriftlich zu beantragen. ]]></description_html>
+  </requirement>
+  <requirement id="A_15024" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88514" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Elektronische Kontoeröffnung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS einem Versicherten erlauben, ein 
+Aktenkonto auf elektronischem Weg zu beantragen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS einem Versicherten erlauben, ein Aktenkonto auf elektronischem Weg zu beantragen.]]></description_html>
+  </requirement>
+  <requirement id="A_15896" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-11" technicalID="ML-88515" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Ausschluss automatisierte Computerprogramme bei der Kontoinitialisierung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS bei der elektronischen Kontoeröffnung 
+durch technische Maßnahmen sicherstellen, dass ein Konto nicht durch ein 
+Computerprogramm (z.B. Bot) automatisch ohne Mitwirkung des Versicherten 
+eröffnet werden kann.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS bei der elektronischen Kontoeröffnung durch technische Maßnahmen sicherstellen, dass ein Konto nicht durch ein Computerprogramm (z.B. Bot) automatisch ohne Mitwirkung des Versicherten eröffnet werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_14996" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88516" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Manuelle Ergänzung Mailadresse]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten auf geeignetem Weg 
+ermöglichen, die Registrierung einer Mailadresse für die Geräteverwaltung der 
+Komponente Autorisierung auch nachträglich vorzunehmen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten auf geeignetem Weg ermöglichen, die Registrierung einer Mailadresse für die Geräteverwaltung der Komponente Autorisierung auch nachträglich vorzunehmen.]]></description_html>
+  </requirement>
+  <requirement id="A_15025" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88517" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Übernahme Mailadresse für Geräteverwaltung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS eine vom Versicherten genutzte valide 
+Mailadresse als Benachrichtigungsadresse der Geräteverwaltung in die Komponente 
+Autorisierung übernehmen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS eine vom Versicherten genutzte valide Mailadresse als Benachrichtigungsadresse der Geräteverwaltung in die Komponente Autorisierung übernehmen.]]></description_html>
+  </requirement>
+  <requirement id="A_14997" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88518" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Einwilligung dokumentieren]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Einwilligung des Versicherten
+
+ * zur Datenverarbeitung gegenüber dem Anbieter
+ * in die Nutzung von ePA gegenüber dem Anbieterim Rahmen der Kontoeröffnung 
+einholen und dokumentieren.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Einwilligung des Versicherten<br/> <ul><li>zur Datenverarbeitung gegenüber dem Anbieter</li><li>in die Nutzung von ePA gegenüber dem Anbieter</li></ul>im Rahmen der Kontoeröffnung einholen und dokumentieren.]]></description_html>
+  </requirement>
+  <requirement id="A_15433" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88519" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Einsicht der Einwilligung durch Versicherten]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, die 
+Dokumentation der Einwilligung jederzeit einsehen zu können, bei einer 
+elektronischen Einwilligung auf elektronischem Wege.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, die Dokumentation der Einwilligung jederzeit einsehen zu können, bei einer elektronischen Einwilligung auf elektronischem Wege.]]></description_html>
+  </requirement>
+  <requirement id="A_15026" type="leafRequirement" severity="MUSS" lastUpdate="2020-07-08" technicalID="ML-88520" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Keine Kontoeröffnung bei Nicht-Einwilligung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Kontoeröffnung durch einen 
+Versicherten abbrechen und alle bisher erfassten Daten löschen, wenn der 
+Versicherte gegenüber dem Anbieter
+
+ * nicht in die Datenverarbeitung einwilligt oder 
+ * nicht in die Nutzung von ePA einwilligt.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Kontoeröffnung durch einen Versicherten abbrechen und alle bisher erfassten Daten löschen, wenn der Versicherte gegenüber dem Anbieter<br/>
+ 
+<ul>
+  <li>nicht in die Datenverarbeitung einwilligt oder</li>
+  <li>nicht in die Nutzung von ePA einwilligt.</li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="A_21546" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-21" technicalID="ML-118319" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Telematik-ID für KTR-Berechtigung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in der Initialisierungsphase der 
+Aktenkontoeröffnung die Telematik-ID der Kasse des Versicherten für die spätere 
+KTR-Berechtigung in die Komponente Autorisierung übernehmen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in der Initialisierungsphase der Aktenkontoeröffnung die Telematik-ID der Kasse des Versicherten für die spätere KTR-Berechtigung in die Komponente Autorisierung übernehmen.]]></description_html>
+  </requirement>
+  <requirement id="A_15002-02" type="leafRequirement" severity="MUSS" lastUpdate="2021-07-29" technicalID="ML-120989" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Abbruch bei existierendem Konto]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in der Initialisierungsphase die 
+OperationI_Authorization_Management::checkRecordExists bei allen anderen 
+Anbietern von ePA-Aktensystemen mit der KVNR des beantragenden Versicherten 
+aufrufen und die Kontobeantragung abbrechen, sobald ein Anbieter mit einem 
+StatusREGISTERED, REGISTERED_FOR_MIGRATION, DL_IN_PROGRESS, READY_FOR_IMPORT, 
+KEY_CHANGE oder ACTIVATED antwortet.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in der Initialisierungsphase die Operation <span style="font-family: 'Courier New', Courier, monospace;">I_Authorization_Management::checkRecordExists</span> bei allen anderen Anbietern von ePA-Aktensystemen mit der KVNR des beantragenden Versicherten aufrufen und die Kontobeantragung abbrechen, sobald ein Anbieter mit einem Status <span style="font-family: 'Courier New', Courier, monospace;">REGISTERED, REGISTERED_FOR_MIGRATION, DL_IN_PROGRESS, READY_FOR_IMPORT, KEY_CHANGE </span>oder <span style="font-family: 'Courier New', Courier, monospace;">ACTIVATED</span> antwortet.]]></description_html>
+  </requirement>
+  <requirement id="A_15897" type="leafRequirement" severity="DARF NICHT" lastUpdate="2019-10-11" technicalID="ML-88522" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Ausschluss automatisierter Computerprogramme bei der Prüfung auf existierenden Konten]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems DARF es NICHT ermöglichen, die Existenz 
+einer Akte durch alleinige Eingabe der KVNR im Registrierungsprozess 
+automatisch ohne Mitwirkung des Versicherten am ePA-Aktensystem zu erfragen 
+(z.B. Ein Bot fragt im Aktensystem eine große Anzahl von KVNR an).]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Der Anbieter des ePA-Aktensystems DARF es NICHT erm&ouml;glichen, die Existenz einer Akte durch alleinige Eingabe der KVNR im Registrierungsprozess automatisch ohne Mitwirkung des Versicherten am ePA-Aktensystem zu erfragen (z.B.</span> <span></span><span>Ein Bot&nbsp;fragt im Aktensystem eine gro&szlig;e Anzahl von KVNR an).</span><span><br></span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="A_15870" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88523" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Abbruch bei Nichtverfügbarkeit anderer Anbieter]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Kontobeantragung abbrechen, wenn die 
+OperationI_Authorization_Management::checkRecordExists mindestens eines anderen 
+Anbieters eines ePA-Aktensystems eine technische Fehlermeldung liefert oder 
+nicht erreichbar ist.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Kontobeantragung abbrechen, wenn die Operation <span style="font-family: &#39;Courier New&#39;, Courier, monospace;">I_Authorization_Management::checkRecordExists</span> mindestens eines anderen Anbieters eines ePA-Aktensystems eine technische Fehlermeldung liefert oder nicht erreichbar ist.]]></description_html>
+  </requirement>
+  <requirement id="A_15617-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-07-29" technicalID="ML-120988" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Berücksichtigung Datenübernahme aus Altsystem bei Kontoinitialisierung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in der Initialisierungsphase den Wunsch 
+des Versicherten zur Datenübernahme berücksichtigen. Liefert die Operation 
+I_Authorization_Management::checkRecordExists bei einem anderen Anbieter eines 
+ePA-Aktensystems den StatusDISMISSED, START_MIGRATION oder SUSPENDED zurück, 
+MUSS das neue Konto mit dem Status REGISTERED_FOR_MIGRATION initialisiert 
+werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in der Initialisierungsphase den Wunsch des Versicherten zur Datenübernahme  <span style="font-size: 10pt;line-height: 1.5;">berücksichtigen.</span> Liefert die Operation <span style="font-family: 'Courier New', Courier, monospace;">I_Authorization_Management::checkRecordExists</span> bei einem anderen Anbieter eines ePA-Aktensystems den Status <span style="font-family: 'Courier New', Courier, monospace;">DISMISSED, START_MIGRATION</span> oder <span style="font-family: 'Courier New', Courier, monospace;">SUSPENDED</span> zurück, <span style="font-size: 10pt;line-height: 1.5;">MUSS das neue Konto mit dem Status REGISTERED_FOR_MIGRATION initialisiert werden.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_15028" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88528" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Kündigung Schriftform]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, sein 
+Konto auf schriftlichem Weg zu kündigen, sodass es innerhalb einer 
+Kündigungsfrist weiterhin nutzbar ist, ohne automatisch geschlossen zu werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, sein Konto auf schriftlichem Weg zu kündigen, sodass es innerhalb einer Kündigungsfrist weiterhin nutzbar ist, ohne automatisch geschlossen zu werden.]]></description_html>
+  </requirement>
+  <requirement id="A_15029" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88529" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schließen des Aktenkontos elektronisch]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, sein 
+Konto auf elektronischem Weg zu kündigen, sodass es innerhalb einer 
+Kündigungsfrist weiterhin nutzbar ist, ohne automatisch geschlossen zu werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, sein Konto auf elektronischem Weg zu kündigen, sodass es innerhalb einer Kündigungsfrist weiterhin nutzbar ist, ohne automatisch geschlossen zu werden.]]></description_html>
+  </requirement>
+  <requirement id="A_15434" type="leafRequirement" severity="MUSS" lastUpdate="2021-04-12" technicalID="ML-88530" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schließen des Kontos nach Ablauf der Kündigungsfrist]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein gekündigtes Aktenkonto nach Ablauf 
+der Kündigungsfrist schließen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein gekündigtes Aktenkonto nach Ablauf der Kündigungsfrist schließen.]]></description_html>
+  </requirement>
+  <requirement id="A_14995" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88531" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schließen des Aktenkontos Schriftform]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, seine 
+Einwilligung in die Datenverarbeitung schriftlich zu widerrufen und sein Konto 
+damit zu schließen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, seine Einwilligung in die Datenverarbeitung schriftlich zu widerrufen und sein Konto damit zu schließen.]]></description_html>
+  </requirement>
+  <requirement id="A_15822" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88532" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schließung der Akte nur durch den Besitzer]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass eine Schließung der 
+Akte nur durch den Besitzer der Akte erfolgen kann.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass eine Schließung der Akte nur durch den Besitzer der Akte erfolgen kann.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15027" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88533" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schließen des Aktenkontos elektronisch]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, seine 
+Einwilligung in die Datenverarbeitung auf elektronischem Weg zu widerrufen und 
+sein Konto damit zu schließen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS es dem Versicherten ermöglichen, seine Einwilligung in die Datenverarbeitung auf elektronischem Weg zu widerrufen und sein Konto damit zu schließen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15780" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88534" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Widerspruchsfrist bei Kontolöschung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS den Versicherten über das beabsichtigte 
+Löschen der Daten des Versicherten im Rahmen der Kontoschließung informieren 
+und diesem eine angemessene Widerspruchsfrist einräumen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS den Versicherten über das beabsichtigte Löschen der Daten des Versicherten im Rahmen der Kontoschließung informieren und diesem eine angemessene Widerspruchsfrist einräumen.]]></description_html>
+  </requirement>
+  <requirement id="A_15435" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88535" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Löschen aller Daten beim Schließen des Aktenkontos]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass beim Schließen eines 
+Aktenkontos eines Versicherten alle zu diesem Aktenkonto gehörenden Daten in 
+den Systemen des Anbieters unter Beachtung der eingeräumten Widerspruchsfrist 
+und der gesetzlichen Aufbewahrungsfristen gelöscht werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass beim Schließen eines Aktenkontos eines Versicherten alle zu diesem Aktenkonto gehörenden Daten in den Systemen des Anbieters unter Beachtung der eingeräumten Widerspruchsfrist und der gesetzlichen Aufbewahrungsfristen gelöscht werden.]]></description_html>
+  </requirement>
+  <requirement id="A_15436" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88536" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Kündigung durch Anbieter ePA-Aktensystem]]></title>
+    <description><![CDATA[Falls der Anbieter des ePA-Aktensystems dem Versicherten kündigt, MUSS der 
+Anbieter dem Versicherten die Möglichkeit geben, in angemessener Zeit seinen 
+Anbieter zu wechseln bzw. seine Daten lokal zu sichern.]]></description>
+    <description_html><![CDATA[Falls der Anbieter des ePA-Aktensystems dem Versicherten kündigt, MUSS der Anbieter dem Versicherten die Möglichkeit geben, in angemessener Zeit seinen Anbieter zu wechseln bzw. seine Daten lokal zu sichern.]]></description_html>
+  </requirement>
+  <requirement id="A_22836" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-05" technicalID="ML-129504" revision="529807">
+    <title><![CDATA[ePA-Aktensystem: Hinweis auf Widerruf der Forschungsdatenfreigabe bei Schließung des Aktenkontos]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Versicherte, die Ihre Akte schließen 
+wollen, darauf hinweisen, gegebenenfalls für die Forschung freigegebene Daten 
+vor dem Schließen der Akte zu widerrufen, da diese ansonsten nicht mehr 
+widerrufen werden können.  ]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS Versicherte, die Ihre Akte schließen wollen, darauf hinweisen, gegebenenfalls für die Forschung freigegebene Daten vor dem Schließen der Akte zu widerrufen, da diese ansonsten nicht mehr widerrufen werden können.  ]]></description_html>
+  </requirement>
+  <requirement id="A_16411" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88538" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Information  des Versicherten  über die Erstellung des Exportpakets]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über 
+die Bereitstellung des Exportpakets über den 
+gemäß [gemSpec_Autorisierung#A_15752] definierten Benachrichtigungskanal 
+informiert wird.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über die Bereitstellung des Exportpakets über den gemäß [gemSpec_Autorisierung#A_15752] definierten Benachrichtigungskanal informiert wird. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21237" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-25" technicalID="ML-115854" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Information des Versicherten bei Fehlschlagen der Erstellung des Exportpakets]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über 
+den gemäß [gemSpec_Autorisierung#A_15752] definierten Benachrichtigungskanal 
+spätestens nach zwei Tagen darüber informiert wird, wenn die Erstellung des 
+Exportpakets fehlschlägt.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte</span> <span style="font-size: 10pt;line-height: 1.5;">über den gemäß [gemSpec_Autorisierung#A_15752] definierten Benachrichtigungskanal spätestens nach zwei Tagen</span> <span style="font-size: 12pt;font-family: 'Times New Roman', Times;line-height: 1.5;">darüber</span> <span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">informiert wird, wenn die Erstellung des Exportpakets fehlschlägt.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_16412" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88539" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Information des Versicherten nach Abschluss des Imports des Exportpakets]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über 
+den Abschluss des Imports des Exportpakets über den 
+gemäß [gemSpec_Autorisierung#A_15752] definierten Benachrichtigungskanal 
+informiert wird.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über den Abschluss des Imports des Exportpakets über den gemäß [gemSpec_Autorisierung#A_15752] definierten Benachrichtigungskanal informiert wird.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21238" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-25" technicalID="ML-115855" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Information des Versicherten bei Fehlschlagen des Imports des Exportpakets]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über 
+den gemäß [gemSpec_Autorisierung#A_15752] definierten Benachrichtigungskanal 
+nach spätestens 3 Tagen darüber informiert wird, wenn der Import des 
+Exportpakets bei neuen Anbieter fehlschlägt.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über den </span><span style="font-size: 10pt;line-height: 1.5;">gemäß [gemSpec_Autorisierung#A_15752] definierten Benachrichtigungskanal nach spätestens 3 Tagen darüber</span> <span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">informiert wird, wenn der Import des Exportpakets bei neuen Anbieter fehlschlägt.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21548" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-21" technicalID="ML-118321" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Information der Vertreter über neuen FQDN nach Abschluss des Aktenumzugs]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass alle Vertreter nach 
+erfolgreichem Import des Exportpakets und somit Abschluss des Aktenumzugs 
+mittels dem in der Komponente Autorisierung definierten Benachrichtigungskanal 
+über den FQDN des neuen Aktensystems des Versicherten informiert werden, so 
+dass sie in der Lage sind, die erforderliche initiale Anmeldung durchzuführen, 
+mit der eine neue Device-ID im Aktensystem hinterlegt wird.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass alle Vertreter nach erfolgreichem Import des Exportpakets und somit Abschluss des Aktenumzugs mittels dem in der Komponente Autorisierung definierten Benachrichtigungskanal über den FQDN des neuen Aktensystems des Versicherten informiert werden, so dass sie in der Lage sind, die erforderliche initiale Anmeldung durchzuführen, mit der eine neue Device-ID im Aktensystem hinterlegt wird.]]></description_html>
+  </requirement>
+  <requirement id="A_15659-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-11-24" technicalID="ML-112365" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Exportpaket unter URL verfügbar machen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS das erstellte Exportpaket unter der als 
+Rückgabeparameter der OperationI_Account_Management_Insurant::SuspendAccount an 
+das ePA-Frontend des Versicherten übermitteltenPackageURL für die anderen 
+Anbieter ePA-Aktensystem mittels HTTPS abrufbar machen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS das erstellte Exportpaket unter der als Rückgabeparameter der Operation <span style="font-family: 'Courier New', Courier, monospace;">I_Account_Management_Insurant::SuspendAccount</span> an das ePA-Frontend des Versicherten übermittelten <span style="font-family: 'Courier New', Courier, monospace;">PackageURL</span> für die anderen Anbieter ePA-Aktensystem mittels HTTPS abrufbar machen.]]></description_html>
+  </requirement>
+  <requirement id="A_21750" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-06" technicalID="ML-119734" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Integritätsschutz Exportpaket]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS das erstellte Exportpaket mit einem 
+"Digest" HTTP Response Header (https://tools.ietf.org/html/rfc5843 
+<https://tools.ietf.org/html/rfc5843>) als Integritätsschutz  versehen und 
+dabei als Digest Algorithmus SHA-256 verwenden.
+ Beispiel Digest-Header:
+ Digest: 
+SHA-256=MWVkMWQxYTRiMzk5MDQ0MzI3NGU5NDEyZTk5OWY1ZGFmNzgyZTJlODYzYjRjYzFhOTlmNTQwYzI2M2QwM2U2MQ==]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS das erstellte Exportpaket mit einem &quot;Digest&quot; HTTP Response Header (<a href="https://tools.ietf.org/html/rfc5843" target="_top" class="sc-bMvGRv klaQFc" title="https://tools.ietf.org/html/rfc5843">https://tools.ietf.org/html/rfc5843</a>) als Integritätsschutz  versehen und dabei als Digest Algorithmus SHA-256 <span style="font-size: 10pt;color: #172B4D;line-height: 1.5;">verwenden.<br/>
+  Beispiel Digest-Header:<br/>
+  Digest: SHA-256=MWVkMWQxYTRiMzk5MDQ0MzI3NGU5NDEyZTk5OWY1ZGFmNzgyZTJlODYzYjRjYzFhOTlmNTQwYzI2M2QwM2U2MQ==<br/>
+  </span>]]></description_html>
+  </requirement>
+  <requirement id="A_15051" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88541" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Authentisierung gegenüber einem neuen Aktenanbieter]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems, welches das Migrationspaket zur Verfügung 
+stellt, MUSS sich beim Abruf des Migrationspakets durch ein anderes 
+ePA-Aktensystem mit der TLS-Identität der Dokumentenverwaltungoid_epa_mgmt 
+mittels des Zertifikats C.FD-TLS-S authentisieren.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems, welches das Migrationspaket zur Verfügung stellt, MUSS sich beim Abruf des Migrationspakets durch ein anderes ePA-Aktensystem mit der TLS-Identität der Dokumentenverwaltung <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">oid_epa_mgmt</span> mittels des Zertifikats C.FD-TLS-S authentisieren. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15048" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88542" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Authentifizierung des neuen Aktenanbieters]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS den Abruf des Migrationspakets durch ein 
+anderes ePA-Aktensystem ablehnen, wenn sich der abrufende Client nicht als 
+ePA-Aktensystem in der Rolleoid_epa_mgmt in einem TLS-Zertifikat C.FD.TLS-C 
+authentisiert.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS den Abruf des Migrationspakets durch ein anderes ePA-Aktensystem ablehnen, wenn sich der abrufende Client nicht als ePA-Aktensystem in der Rolle <span style="font-family: 'Courier New', Courier, monospace;">oid_epa_mgmt </span>in einem TLS-Zertifikat C.FD.TLS-C authentisiert.]]></description_html>
+  </requirement>
+  <requirement id="A_17236" type="leafRequirement" severity="MUSS" lastUpdate="2022-01-26" technicalID="ML-93133" revision="529807">
+    <title><![CDATA[ePA-Aktensystem - Prüfung der TLS-Zertifikate]]></title>
+    <description><![CDATA[Das ePA-Aktenystem MUSS bei der Authentifizierung eines anderen Aktensystems 
+beim Abruf des Migrationspakets die Prüfung der verwendeten TLS-Zertifikate 
+entsprechend TUC_PKI_018 durchführen. Zur Prüfung des TLS-Zertifikats 
+C.FD-TLS-S sind dabei die Parameter PolicyList=oid_fd_tls_s, 
+IntendedKeyUsage=digitalSignature, intendedExtendedKeyUsage=id-kp-serverAuth, 
+OCSP-Graceperiod=60 Minuten, Offline-Modus=nein zu verwenden. Zur Prüfung 
+des TLS-Zertifikats C.FD-TLS-C sind dabei die 
+Parameter PolicyList=oid_fd_tls_c, IntendedKeyUsage=digitalSignature, 
+intendedExtendedKeyUsage=id-kp-clientAuth, OCSP-Graceperiod=60 Minuten, 
+Offline-Modus=nein  zu verwenden.]]></description>
+    <description_html><![CDATA[Das ePA-Aktenystem MUSS bei der Authentifizierung eines anderen Aktensystems beim Abruf des Migrationspakets die Prüfung der verwendeten TLS-Zertifikate entsprechend TUC_PKI_018 durchführen. Zur Prüfung des TLS-Zertifikats C.FD-TLS-S sind dabei die Parameter PolicyList=oid_fd_tls_s, IntendedKeyUsage=digitalSignature, intendedExtendedKeyUsage=id-kp-serverAuth, OCSP-Graceperiod=60 Minuten, Offline-Modus=nein zu verwenden. Zur Prüfung des TLS-Zertifikats C.FD-TLS-C sind dabei die Parameter PolicyList=oid_fd_tls_c, IntendedKeyUsage=digitalSignature, intendedExtendedKeyUsage=id-kp-clientAuth, OCSP-Graceperiod=60 Minuten, Offline-Modus=nein  zu verwenden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15703" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88544" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Verfügbarkeit Export-Paket]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein erstelltes Export-Paket für 
+mindestens sieben Tage zum Abruf durch einen anderen Anbieter eines 
+ePA-Aktensystems bereithalten.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS ein erstelltes Export-Paket für mindestens sieben Tage zum Abruf durch einen anderen Anbieter eines ePA-Aktensystems bereithalten.]]></description_html>
+  </requirement>
+  <requirement id="A_21239" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-25" technicalID="ML-115856" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Verhalten bei Nichtabholen des Exportpakets]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS nach Ablauf des Bereithaltungszeitraums 
+entsprechend A_15703 ein erstelltes Export-Paket löschen und den Status des 
+Aktensystems von  SUSPENDED auf DISMISSED zurücksetzen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Der Anbieter des ePA-Aktensystems MUSS nach Ablauf des Bereithaltungszeitraums entsprechend A_15703 ein erstelltes Export-Paket löschen und den Status des Aktensystems von </span> <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">SUSPENDED</span> <span style="font-size: 12pt;font-family: 'Times New Roman', Times;line-height: 1.5;">auf</span> <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">DISMISSED </span><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">zurücksetzen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_15660" type="leafRequirement" severity="MUSS" lastUpdate="2021-02-08" technicalID="ML-88545" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Verantwortlichkeit für das Exportpaket]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Verfügbarkeit und Integrität des 
+Exportpakets bis zum vollständigen Abschluss des Abrufs des Exportpakets durch 
+den neuen Anbieter ePA-Aktensystem des Versicherten sicherstellen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS die Verfügbarkeit und Integrität des Exportpakets bis zum vollständigen Abschluss des Abrufs des Exportpakets durch den neuen Anbieter ePA-Aktensystem des Versicherten sicherstellen.]]></description_html>
+  </requirement>
+  <requirement id="A_21240-01" type="leafRequirement" severity="DARF NICHT" lastUpdate="2021-06-21" technicalID="ML-120577" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Löschen der Daten des alten Aktensystems erst nach erfolgreicher Migration]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems DARF die Daten im alten Aktensystem solange 
+NICHT löschen, bis der Abruf des Exportpakets durch das neue Aktensystem 
+erfolgreich war. Falls die Migration auch bis zum Ablauf der Kündigungsfrist 
+nicht erfolgte muss der Nutzer darüber informiert werden, dass die Daten des 
+Aktenkontos nach Ablauf einer Frist von mindestens 4 Wochen gelöscht werden und 
+nur noch innerhalb dieser Frist die Möglichkeit besteht, die Daten beim neuen 
+Anbieter zu übernehmen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Der Anbieter des ePA-Aktensystems DARF die Daten im alten Aktensystem solange NICHT löschen, bis der Abruf des Exportpakets durch das neue Aktensystem erfolgreich war. Falls die Migration auch bis zum Ablauf der Kündigungsfrist nicht erfolgte muss der Nutzer darüber informiert werden, dass die Daten des Aktenkontos nach Ablauf einer Frist von mindestens 4 Wochen gelöscht werden und nur noch innerhalb dieser Frist die Möglichkeit besteht, die Daten beim neuen Anbieter zu übernehmen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21755" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-119766" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Information über erfolgreichen Import des Exportpakets]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sich in regelmäßigen Abständen (z.B. ein 
+bis zwei Mal täglich) über den den erfolgreichen Import des Exportpakets beim 
+neuen Anbieter des ePA-Aktensystems des Versicherten unter Verwendung der 
+Operation I_Authorization_Management::checkRecordExists informieren. Der Import 
+war erfolgreich wenn checkRecordExists für das neue ePA-Aktensystem den 
+RecordState "ACTIVATED" liefert.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des ePA-Aktensystems MUSS sich in regelmäßigen Abständen (z.B. ein bis zwei Mal täglich) über den den erfolgreichen Import des Exportpakets beim neuen Anbieter des ePA-Aktensystems des Versicherten unter Verwendung der Operation I_Authorization_Management::checkRecordExists informieren. Der Import war erfolgreich wenn checkRecordExists für das neue ePA-Aktensystem den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">RecordState</span> &quot;ACTIVATED&quot; liefert.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21740-01" type="leafRequirement" severity="KANN" lastUpdate="2021-07-29" technicalID="ML-120990" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Schnittstelle zur Ermittlung des abgebenden Aktensystem]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems KANN in seiner Aktenkontoverwaltung eine 
+Schnittstelle zur Verfügung stellen, die es dem FdV ermöglicht, den FQDN des 
+abgebenden Aktensystems zu ermitteln. Die Schnittstelle kann sich hierbei der 
+Operation I_Authorization_Management::checkRecordExists bedienen (Ermittlung 
+einer Akte im Zustand DISMISSED).]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems KANN in seiner Aktenkontoverwaltung eine Schnittstelle zur Verfügung stellen, die es dem FdV ermöglicht, den FQDN des abgebenden Aktensystems zu ermitteln. Die Schnittstelle kann sich hierbei der Operation I_Authorization_Management::checkRecordExists bedienen (Ermittlung einer Akte im Zustand DISMISSED).]]></description_html>
+  </requirement>
+  <requirement id="A_21827" type="leafRequirement" severity="MUSS" lastUpdate="2022-02-03" technicalID="ML-121012" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem – Logische Operation getRecordProviderList zur Verfügung stellen]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in seiner Aktenkontoverwaltung die 
+logische OperationgetRecordProviderList seinem FdV zur Verfügung stellen. Die 
+Operation soll eine Liste der Internet-FQDN aller ePA-Aktensysteme liefern und 
+dabei die Informationen der DNS PTR, SRV und TXT Resource Records alle 
+ePA-Aktensysteme im Namensraum der TI [gemSpec_Aktensystem#A_14127-*] nutzen. 
+Das FdV kann diese Operation im Rahmen der Ausübung einer Vertretung zur 
+Auswahl des Aktensystems des zu Vertretenen oder im Rahmen des Anbieterwechsels 
+zur Auswahl des abgebenden Aktensystems verwenden.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS in seiner Aktenkontoverwaltung die logische Operation <span style="font-size: 10pt;line-height: 1.5;">getRecordProviderList seinem FdV zur Verfügung stellen. Die Operation soll</span> eine Liste der Internet-FQDN aller ePA-Aktensysteme liefern und dabei die Informationen der DNS PTR, SRV und TXT Resource Records alle ePA-Aktensysteme im Namensraum der TI [gemSpec_Aktensystem#A_14127-*] nutzen. Das FdV kann diese Operation im Rahmen der Ausübung einer Vertretung zur Auswahl des Aktensystems des zu Vertretenen oder im Rahmen des Anbieterwechsels zur Auswahl des abgebenden Aktensystems verwenden.]]></description_html>
+  </requirement>
+  <requirement id="A_22579" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-05" technicalID="ML-127875" revision="529807">
+    <title><![CDATA[Konfigurierbarkeit von DocumentEntry.originalURI beim Export]]></title>
+    <description><![CDATA[Das Aktensystem MUSS die Verwendung von DocumentEntry.originalURI beim Export 
+konfigurierbar machen. Der Defaultwert ist "deaktiviert" und bedeutet, dass 
+DocumentEntry.originalURI beim Export nicht erzeugt und nicht in METADATA.XML 
+geschrieben wird. Der Wert "aktiviert" bedeutet, dass DocumentEntry.originalURI 
+beim Export erzeugt und in METADATA.XML geschrieben wird. Die Konfiguration ist 
+nicht wirksam für den Import, d.h. falls DocumentEntry.originalURI beim Import 
+in METADATA.XML enthalten ist, MUSS der Wert in das Metadatum DocumentEntry.URI 
+übernommen werden.]]></description>
+    <description_html><![CDATA[Das Aktensystem MUSS die Verwendung von DocumentEntry.originalURI beim Export konfigurierbar machen. Der Defaultwert ist &quot;deaktiviert&quot; und bedeutet, dass DocumentEntry.originalURI beim Export nicht erzeugt und nicht in METADATA.XML geschrieben wird. Der Wert &quot;aktiviert&quot; bedeutet, dass DocumentEntry.originalURI beim Export erzeugt und in METADATA.XML geschrieben wird. Die Konfiguration ist nicht wirksam für den Import, d.h. falls DocumentEntry.originalURI beim Import in METADATA.XML enthalten ist, MUSS der Wert in das Metadatum DocumentEntry.URI übernommen werden.]]></description_html>
+  </requirement>
+  <requirement id="A_22580" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-05" technicalID="ML-127876" revision="529807">
+    <title><![CDATA[Prozess beim Konfigurieren von DocumentEntry.originalURI beim Export]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die Aktivierung der 
+Verwendung von DocumentEntry.originalURI beim Export per Konfiguration durch 
+einen geordneten Prozess gesteuert durch die gematik erfolgt.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die Aktivierung der Verwendung von DocumentEntry.originalURI beim Export per Konfiguration durch einen geordneten Prozess gesteuert durch die gematik erfolgt.]]></description_html>
+  </requirement>
+  <requirement id="A_15842" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-88547" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Ergonomie der Benutzerführung]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems MUSS eine ergonomisch 
+gestaltete Benutzerführung nach den Vorgaben zur Ergonomie in [DIN EN ISO 
+9241-171] anbieten.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems MUSS eine ergonomisch gestaltete Benutzerführung nach den Vorgaben zur Ergonomie in [DIN EN ISO 9241-171] anbieten.]]></description_html>
+  </requirement>
+  <requirement id="A_15846" type="leafRequirement" severity="SOLL" lastUpdate="2019-10-15" technicalID="ML-88548" revision="529807">
+    <title><![CDATA[Anbieter ePA-Aktensystem - Schnittstellen für die Unterstützung der barrierefreien Bedienungsmöglichkeit]]></title>
+    <description><![CDATA[Der Anbieter des ePA-Aktensystems SOLL die Schnittstellen für die Unterstützung 
+der barrierefreien Bedienungsmöglichkeit, welche vom Betriebssystem zur 
+Verfügung gestellt werden, unterstützen.]]></description>
+    <description_html><![CDATA[Der Anbieter des ePA-Aktensystems SOLL die Schnittstellen für die Unterstützung der barrierefreien Bedienungsmöglichkeit, welche vom Betriebssystem zur Verfügung gestellt werden, unterstützen.]]></description_html>
+  </requirement>
+</requirements>
