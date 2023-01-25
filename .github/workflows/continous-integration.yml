@@ -27,7 +27,34 @@ jobs:
       #    commit_author: converter[job]
       #    commit_options: '--signoff'
   
-  # ----------------------------------------------------------------------
+  # ----------------------------------------------------------------------       
+  
+  tag-wip-rolling-release:
+    runs-on: ubuntu-latest
+    needs: convert-files
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+      - uses: rickstaa/action-create-tag@v1
+        with:
+          tag: "wip"
+          message: "rolling: work in progress"
+          force_push_tag: true
+      - run: wget https://github.com/volkerdoerr/gmd/releases/download/wip/xml2gmd
+      - uses: ncipollo/release-action@v1    
+        with:
+          tag: "wip"
+          name: "work in progress"
+          body: |
+            ## rolling release
+            tied to tag 'wip' that always represents the
+            state after the latest successful ci run
+          prerelease: true
+          allowUpdates: true
+          removeArtifacts: true
+          artifacts: "xml2gmd"
+          
+# ----------------------------------------------------------------------
   
   build-website:
     runs-on: ubuntu-latest
@@ -61,29 +88,3 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v1
          
-  # ----------------------------------------------------------------------       
-  
-  set-wip-tag:
-    runs-on: ubuntu-latest
-    needs: convert-files
-    permissions: write-all
-    steps:
-      - uses: actions/checkout@v3
-      - uses: rickstaa/action-create-tag@v1
-        with:
-          tag: "wip"
-          message: "rolling: work in progress"
-          force_push_tag: true
-      - run: wget https://github.com/volkerdoerr/gmd/releases/download/wip/xml2gmd
-      - uses: ncipollo/release-action@v1    
-        with:
-          tag: "wip"
-          name: "work in progress"
-          body: |
-            ## rolling release
-            tied to tag 'wip' that always represents the
-            state after the latest successful ci run
-          prerelease: true
-          allowUpdates: true
-          removeArtifacts: true
-          artifacts: "xml2gmd"
