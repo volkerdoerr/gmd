@@ -11,7 +11,7 @@ Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den 
 
 ## Continous-Integration
 
-[xml2gmd](https://www.to-be-implemeted.com) wird vom Continuous-Integration-Job [ci.yml](.github/workflows/converter.yml) aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input](input) vorgenommen wurden. Die resultierenden Dateien werden automatisch in das Ausgabeverzeichnis [output](output) gepusht und auch (mittels [Jekyll](https://jekyllrb.com/)) als [Html-Seiten](https://volkerdoerr.github.io/gmd/) hochgeladen. ⸾ _The xml2gmd tool is called by the continous integration job ci.yml, which is started automatically whenever changes are made in the input directory. The resulting files are automatically pushed into the output directory and (using Jekyll) also uploaded as html-pages. _
+[xml2gmd](https://github.com/volkerdoerr/gmd/releases/tag/wip) wird vom Continuous-Integration-Job [ci.yml](.github/workflows/converter.yml) aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input](input) vorgenommen wurden. Die resultierenden Dateien werden automatisch in das Ausgabeverzeichnis [output](output) gepusht und auch (mittels [Jekyll](https://jekyllrb.com/)) als [Html-Seiten](https://volkerdoerr.github.io/gmd/) hochgeladen. ⸾ _The xml2gmd tool is called by the continous integration job ci.yml, which is started automatically whenever changes are made in the input directory. The resulting files are automatically pushed into the output directory and (using Jekyll) also uploaded as html-pages. _
 
 ---
 
