@@ -1,5 +1,6 @@
 
 tags:
+  self-closing-tags: true      # default: true
   tag: 
     name: "afo"                # <afo/> TIP1-A_4549 - Initialisierung Kartenterminaldienst
     ends-at-eol: true          # default: true
@@ -14,6 +15,3 @@ tags:
         "A"                    # <data state = "A"/> 
         "B"                    # <data state = "B"/> 
         "C"                    # <data state = "C"/> 
-
-
-
