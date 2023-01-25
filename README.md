@@ -3,7 +3,7 @@
 
 # gMD
 
-gematik Markdown
+gematik Markdown Prototyp
 
 Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den Prototyp eines freien menschen- und maschinenlesbaren Formats für die zulassungsrelevanten Dokumente der [gematik](https://www.gematik.de). gMD basiert auf [CommonMark](https://commonmark.org)* und wird durch die Definitionen in [gmd-definitions.yml](gmd-definitions.yml) erweitert. ⸾ _This repository is for development of the initial syntax definition for certification-relevant gematik documents. gMD is based on CommonMark* and is extended by the definitions found in gmd-definitions.yml._
 
