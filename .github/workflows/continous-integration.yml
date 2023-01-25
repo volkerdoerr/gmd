@@ -1,7 +1,13 @@
 name: continous-integration
 
 on:
-  workflow_dispatch:       # tmp: run manually from the actions tab
+  workflow_dispatch:       
+  push:
+    branches: [ "main" ]   
+    paths: [ "input/**" ]  
+  pull_request:
+    branches: [ "main" ]
+    paths: [ "input/**" ]
   
 jobs:    
   
