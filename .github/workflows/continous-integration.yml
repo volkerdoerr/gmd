@@ -4,8 +4,9 @@ on:
   workflow_dispatch:       # tmp: run manually from the actions tab
   
 jobs:    
+  
+  # ----------------------------------------------------------------------
 
-  # converter job
   convert-files:
     runs-on: ubuntu-latest
     permissions: write-all
@@ -19,8 +20,9 @@ jobs:
       #    commit_user_email: converter[job]@cascade.de
       #    commit_author: converter[job]
       #    commit_options: '--signoff'
-
-  # website job
+  
+  # ----------------------------------------------------------------------
+  
   build-website:
     runs-on: ubuntu-latest
     needs: convert-files
@@ -36,8 +38,9 @@ jobs:
           source: output
           destination: ./_site
       - uses: actions/upload-pages-artifact@v1
-
-  # deployment job
+  
+  # ----------------------------------------------------------------------
+  
   deploy-website:
     environment:
       name: github-pages
@@ -51,13 +54,20 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v1
-                
-  # tagging job
+         
+  # ----------------------------------------------------------------------       
+  
   set-wip-tag:
     runs-on: ubuntu-latest
     needs: deploy-website
     permissions: write-all
     steps:
+      - uses: actions/checkout@v3
+      - uses: rickstaa/action-create-tag@v1
+        with:
+          tag: "wip"
+          message: "rolling: work in progress"
+          force_push_tag: true
       - run: wget https://github.com/volkerdoerr/gmd/releases/download/wip/xml2gmd
       - uses: ncipollo/release-action@v1    
         with:
