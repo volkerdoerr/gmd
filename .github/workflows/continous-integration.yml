@@ -56,10 +56,7 @@ jobs:
   set-wip-tag:
     runs-on: ubuntu-latest
     needs: deploy-website
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
+    permissions: write-all
     steps:
       - run: wget https://github.com/volkerdoerr/gmd/releases/download/wip/xml2gmd
       - uses: ncipollo/release-action@v1    
