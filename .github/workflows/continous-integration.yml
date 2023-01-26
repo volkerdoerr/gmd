@@ -20,8 +20,8 @@ jobs:
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v3
-      - run: gh release download wip --pattern 'xml2gmd' --repo https://github.com/volkerdoerr/test
-      # - run: xml2gmd xml-input gmd-output comments
+      - run: gh release download wip --pattern 'xml2gmd'
+      - run: xml2gmd # xml-input gmd-output comments
       # - uses: stefanzweifel/git-auto-commit-action@v4
       # with:
       #    commit_message: generated output from xml2gmd
@@ -43,7 +43,7 @@ jobs:
           tag: "wip"
           message: "rolling: work in progress"
           force_push_tag: true
-      - run: wget https://github.com/volkerdoerr/gmd/releases/download/wip/xml2gmd
+      - run: gh release download wip --pattern 'xml2gmd'
       - uses: ncipollo/release-action@v1    
         with:
           tag: "wip"
