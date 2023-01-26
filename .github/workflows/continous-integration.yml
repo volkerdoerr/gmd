@@ -20,7 +20,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v3
-      - run: gh release download --pattern 'xml2gmd'
+      - run: gh release download wip --pattern 'xml2gmd'
       # - run: xml2gmd xml-input gmd-output comments
       # - uses: stefanzweifel/git-auto-commit-action@v4
       # with:
