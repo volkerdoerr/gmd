@@ -9,11 +9,11 @@ on:
     branches: [ "main" ]
     paths: [ "input/**" ]
   
+env:
+  GH_TOKEN: ${{ github.token }}
+
 jobs:    
   
-    env:
-      GH_TOKEN: ${{ github.token }}
-
   # ----------------------------------------------------------------------
 
   convert-files:
