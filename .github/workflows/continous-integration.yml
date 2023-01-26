@@ -54,6 +54,7 @@ jobs:
             ## rolling release
             tied to tag 'wip' that always represents the
             state after the latest successful ci run
+            Attention: xml2gmd is injected here from outside!
           prerelease: true
           allowUpdates: true
           removeArtifacts: true
