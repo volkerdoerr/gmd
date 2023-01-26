@@ -45,20 +45,6 @@ jobs:
           tag: "wip"
           message: "rolling: work in progress"
           force_push_tag: true
-      - run: gh release download wip --pattern 'xml2gmd'
-      - uses: ncipollo/release-action@v1    
-        with:
-          tag: "wip"
-          name: "work in progress"
-          body: |
-            ## rolling release
-            tied to tag 'wip' that always represents the
-            state after the latest successful ci run
-            Attention: xml2gmd is injected here from outside!
-          prerelease: true
-          allowUpdates: true
-          removeArtifacts: true
-          artifacts: "xml2gmd"
           
 # ----------------------------------------------------------------------
   
