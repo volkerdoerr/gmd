@@ -21,8 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: gh release download wip --pattern 'xml2gmd'
-      - run: ls -l
-      - run: xml2gmd # xml-input gmd-output comments
+      - run: ./xml2gmd # xml-input gmd-output comments
       # - uses: stefanzweifel/git-auto-commit-action@v4
       # with:
       #    commit_message: generated output from xml2gmd
