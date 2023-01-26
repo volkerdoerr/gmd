@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
+      - run: wget https://github.com/volkerdoerr/test/releases/download/wip/xml2gmd
       - uses: actions/checkout@v3
       # - run: xml2gmd xml-input gmd-output comments
       # - uses: stefanzweifel/git-auto-commit-action@v4
