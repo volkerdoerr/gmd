@@ -6,7 +6,7 @@ tags:
     ends-at-eol: true          # default: true
   tag:
     name: "meta"               # <meta/> Produkttyp Version: 2.50.1-1
-    key-value-pair: true       # default: false
+    is-key-value-pair: true       # default: false
   tag:
     name: "data"
     attribute:
