@@ -11,7 +11,7 @@ tags:
     name: "data"
     attribute:
       name: "state" 
-      value_constraints: |                
+      value_constraints: | 
         "A"                    # <data state = "A"/> 
         "B"                    # <data state = "B"/> 
         "C"                    # <data state = "C"/> 
