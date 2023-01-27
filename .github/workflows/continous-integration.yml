@@ -24,13 +24,13 @@ jobs:
       - run: gh release download wip --pattern 'xml2gmd'
       - run: chmod +x xml2gmd
       - run: ./xml2gmd # xml-input gmd-output comments
-      # - uses: stefanzweifel/git-auto-commit-action@v4
-      # with:
-      #    commit_message: generated output from xml2gmd
-      #    commit_user_name: converter[job]
-      #    commit_user_email: converter[job]@cascade.de
-      #    commit_author: converter[job]
-      #    commit_options: '--signoff'
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: generated output from xml2gmd
+          commit_user_name: converter[job]
+          commit_user_email: converter[job]@cascade.de
+          commit_author: converter[job]
+          commit_options: '--signoff'
   
   # ----------------------------------------------------------------------       
   
