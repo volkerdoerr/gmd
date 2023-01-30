@@ -12,6 +12,6 @@ tags:
     attribute:
       name: "state" 
       value_constraints:
-        - AAA                  # <data state = "AAA"/> 
-        - BB                   # <data state = "BB"/> 
-        - C                    # <data state = "C"/> 
+        - "AAA"                # <data state = "AAA"/> 
+        - "BB"                 # <data state = "BB"/> 
+        - "C"                  # <data state = "C"/> 
