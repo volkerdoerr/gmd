@@ -11,7 +11,9 @@ Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den 
 
 ## Continous-Integration
 
-[xml2gmd] wird vom [Continuous-Integration-Job] aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. Die resultierenden Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht und können manuell (mittels [Export-Job]) als Html auf die [Github-Pages] (dieses Projektes) hochgeladen werden. ⸾ _The xml2gmd tool is called by the continous integration job ci.yml, which is started automatically whenever changes are made in the input directory. The resulting files are automatically pushed into the output directory and can also manually (using the export-job) be uploaded as html to this projects github-pages. _
+[xml2gmd] wird vom [Continuous-Integration-Job] aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. Die resultierenden Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht und können manuell (mittels [Export-Job]) als Html auf die [Github-Pages] (dieses Projektes) hochgeladen werden. ⸾ _The xml2gmd tool is called by the continous integration job ci.yml, which is started automatically whenever changes are made in the input directory. The resulting files are automatically pushed into the output directory and can also manually (using the export-job) be uploaded as html to this projects github-pages._
+
+Eine Übersicht der generierten Dokumente findet sich in [output/README.md]. ⸾ _An overview of the generated documents can be found in output/README.md._
 
 ---
 
@@ -25,6 +27,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 [input]: input
 [output]: output
+[output/README.md]: output/README.md
 [gematik]: https://www.gematik.de
 [commonmark]: https://commonmark.org
 [gmd-definitions.yml]: input/gmd-definitions.yml
