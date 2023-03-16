@@ -4,7 +4,7 @@ Polarion Export, Version 2:
 
 HTML including
 - metadata
-- linked Images
+- embedded Images
 - requirements
 - clickable chapter headings
 
