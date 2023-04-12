@@ -1,15 +1,45 @@
 
 # attention: xml2gmd generator will not yet apply these settings!
 
+links:
+
+  toc-link-type: 1             # 1: [3.1] Festlegungen zur funktionalen Eignung
+                               # 2: [3.1 Festlegungen zur funktionalen Eignung]
+                               # 3: [3.1 Festlegungen zur funktionalen Eignung](3.1)
+                               # 4: [3.1 Festlegungen zur funktionalen Eignung](https://www.gematik.de/specs/...)
+  
+  afo-link-type: 1             # 1: [TIP1-A_4549] - Initialisierung Kartenterminaldienst
+                               # 2: [TIP1-A_4549 - Initialisierung Kartenterminaldienst]
+                               # 3: [TIP1-A_4549 - Initialisierung Kartenterminaldienst](TIP1-A_4549)
+                               # 4: [TIP1-A_4549 - Initialisierung Kartenterminaldienst](https://www.gematik.de/specs/...)
 tags:
+
   self_closing_tags: true      # default: true
+  enclosing-tags: false        # default: false
+  uppercase-tags: false        # default: false
+  
+  tag:
+    id: "meta-data"
+    name: "meta"               # <meta/> Produkttyp Version: 2.50.1-1
+    is_key_value_pair: true    # default: false
+    
   tag: 
     name: "afo"                # <afo/> TIP1-A_4549 - Initialisierung Kartenterminaldienst
     ends_at_eol: true          # default: true
+    id: "requirement"
+    
   tag:
-    name: "meta"               # <meta/> Produkttyp Version: 2.50.1-1
-    is_key_value_pair: true    # default: false
+    name: "abb"                # <abb/> Abbildung 11: PIC_KON_022 Grundsätzlicher Aufbau der Ereignisnachricht"
+    id: "image"
+    
   tag:
+    name: "tab"                # <tab/> Tabelle 134: TAB_KON_030 Ereignisnachricht"
+    id: "table"
+    
+  # ---------------------------------------------------------------------------- 
+  # experimental only:
+  
+  tag:                        
     name: "data"
     attribute:
       name: "state" 
