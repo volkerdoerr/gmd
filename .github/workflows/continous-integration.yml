@@ -22,6 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: gh release download wip --pattern 'xml2gmd' 
+      - run: gh release download wip --pattern 'liblexbor.so.2' 
       - run: chmod +x xml2gmd
       - run: ./xml2gmd # xml-input gmd-output comments
       - run: rm xml2gmd 
