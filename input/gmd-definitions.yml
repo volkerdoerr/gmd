@@ -14,30 +14,41 @@ links:
                                # 4: [TIP1-A_4549 - Initialisierung Kartenterminaldienst](https://www.gematik.de/specs/...)
 tags:
 
-  self_closing_tags: true      # default: true
   enclosing-tags: false        # default: false
   uppercase-tags: false        # default: false
   
   tag:
-    id: "meta-data"
-    name: "meta"               # <meta/> Produkttyp Version: 2.50.1-1
+    id: meta-tag
+    name: "<meta>"             # <meta> Produkttyp Version: 2.50.1-1
     is_key_value_pair: true    # default: false
     
   tag: 
-    name: "afo"                # <afo/> TIP1-A_4549 - Initialisierung Kartenterminaldienst
+    id: requirement-tag
+    name: "<afo>"              # <afo> TIP1-A_4549 - Initialisierung Kartenterminaldienst
     ends_at_eol: true          # default: true
-    id: "requirement"
     
   tag:
-    name: "abb"                # <abb/> Abbildung 11: PIC_KON_022 Grundsätzlicher Aufbau der Ereignisnachricht"
-    id: "image"
+    id: image-tag
+    name: "<abb>"              # <abb> Abbildung 11: PIC_KON_022 Grundsätzlicher Aufbau der Ereignisnachricht"
     
   tag:
-    name: "tab"                # <tab/> Tabelle 134: TAB_KON_030 Ereignisnachricht"
-    id: "table"
+    id: table-tag
+    name: "<tab>"              # <tab> Tabelle 134: TAB_KON_030 Ereignisnachricht"
     
+  tag:
+    id: heading-tag    
+    h1: "###"                  # ### 4 Funktionsmerkmale
+    h2: "###"                  # ### 4.1 Anwendungskonnektor
+    h3: "###"                  # ### 4.1.1 Zugriffsberechtigungsdienst
+    h4: "###"                  # ### 4.1.1.4 Interne TUCs, auch durch Fachmodule nutzbar
+    h5: "###"                  # ### 4.1.1.4.1 TUC_KON_000 „Prüfe Zugriffsberechtigung“
+    h6: "###"                  # ### 4.1.1.4.1.1 TUC_KON_000 „Prüfe Zugriffsberechtigung“ Details
+
+
+
   # ---------------------------------------------------------------------------- 
   # experimental only:
+  # ---------------------------------------------------------------------------- 
   
   tag:                        
     name: "data"
