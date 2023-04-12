@@ -25,6 +25,8 @@ jobs:
       - run: gh release download wip --pattern 'liblexbor.so.2' 
       - run: chmod +x xml2gmd
       - run: export LD_LIBRARY_PATH=.
+      - run: ls -l
+      - run: echo $LD_LIBRARY_PATH
       - run: ./xml2gmd # xml-input gmd-output comments
       - run: rm xml2gmd 
       - run: rm liblexbor.so.2 
