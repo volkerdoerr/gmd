@@ -33,8 +33,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [gmd-definitions.yml]: input/gmd-definitions.yml
 [xml2gmd]: https://github.com/volkerdoerr/gmd/releases/tag/wip
 [ci.yml]: https://github.com/volkerdoerr/gmd/actions/workflows/ci.yml
-[ci-badge]: https://github.com/volkerdoerr/gmd/actions/workflows/continous-integration.yml/badge.svg
-[export-job]: https://github.com/volkerdoerr/gmd/actions/workflows/export-to-github-pages.yml
+[ci-badge]: https://github.com/volkerdoerr/gmd/actions/workflows/ci.yml/badge.svg
 [github-pages]: https://volkerdoerr.github.io/gmd/
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
