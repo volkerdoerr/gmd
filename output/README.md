@@ -5,14 +5,8 @@
  - tag 'data', ends_at_eol:1, is_key_value-pair:0
    - attribute: 'state', value_constraints: AAA BB C
 # xml2gmd input files
- - gemSpec_Net_V1.23.0.html
  - gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.html
- - gemSpec_Kon_V5.18.0.html
 # xml2gmd output files
  - README.md (this)
- - gemSpec_Net_V1.23.0.md
- - gemSpec_Net_V1.23.0.debug.txt
  - gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.md
  - gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.debug.txt
- - gemSpec_Kon_V5.18.0.md
- - gemSpec_Kon_V5.18.0.debug.txt
