@@ -1,17 +1,6 @@
 # xml2gmd
 
-run: Thu Apr 13 14:50:56 2023
-
-### config:
-
-self_closing_tags: 1
- - tag '<meta>', ends_at_eol:1, is_key_value-pair:1
- - tag '<afo>', ends_at_eol:1, is_key_value-pair:0
- - tag '<abb>', ends_at_eol:1, is_key_value-pair:0
- - tag '<tab>', ends_at_eol:1, is_key_value-pair:0
- - tag '', ends_at_eol:1, is_key_value-pair:0
- - tag 'data', ends_at_eol:1, is_key_value-pair:0
-   - attribute: 'state', value_constraints: AAA BB C
+run: Thu Apr 13 15:00:42 2023
 
 ### input:
 
