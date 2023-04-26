@@ -27,857 +27,857 @@ SECTIONS REFERENCE LIST
 -----------------------
 
 [Dokumentinformationen]: #dokumentinformationen
-[Inhaltsverzeichnis]:   #inhaltsverzeichnis
-[1]:                    #1-einordnung-des-dokumentes
-[1.1]:                  #11-zielsetzung
-[1.2]:                  #12-zielgruppe
-[1.3]:                  #13-geltungsbereich
-[1.4]:                  #14-abgrenzung-des-dokuments
-[1.5]:                  #15-methodik
-[1.5.1]:                #151-anforderungen
-[1.5.2]:                #152-offene-punkte
-[1.5.3]:                #153-erläuterungen-zur-spezifikation-des-außenverhaltens
-[1.5.4]:                #154-erläuterungen-zur-dokumentenstruktur-und-dokumentenmechanismen
-[1.5.4.1]:              #1541-modulare-spezifikation-über-funktionsmerkmale
-[1.5.4.2]:              #1542-technische-use-cases---tucs
-[1.5.4.3]:              #1543-event-mechanismus
-[1.5.4.4]:              #1544-konfigurationsparameter-und-zustandswerte
-[2]:                    #2-systemüberblick
-[2.1]:                  #21-logische-struktur
-[2.2]:                  #22-sicherer-datenspeicher
-[2.3]:                  #23-überblick-konnektoridentität
-[2.4]:                  #24-mandantenfähigkeit
-[2.5]:                  #25-versionierung
-[2.6]:                  #26-fachanwendungen
-[2.7]:                  #27-netzseitige-einsatzszenarien
-[2.7.1]:                #271-parameter-anlw_anbindungs_modus
-[2.7.2]:                #272-parameter-anlw_internet_modus
-[2.8]:                  #28-lokale-und-entfernte-kartenterminals
-[2.9]:                  #29-standalone-szenario
-[3]:                    #3-übergreifende-festlegungen
-[3.1]:                  #31-allgemeine-übergreifende-festlegungen
-[3.1.1]:                #311-dokumentformate
-[3.1.2]:                #312-kartentypen
-[3.1.3]:                #313-übergreifende-festlegungen-zum-aufbau-von-sicheren-verbindungen
-[3.2]:                  #32-konnektoridentität-und-gsmc-k
-[3.2.1]:                #321-organisatorische-anforderungen-und-sperrprozesse
-[3.3]:                  #33-bootup-phase
-[3.4]:                  #34-betriebszustand
-[3.4.1]:                #341-betriebsaspekte
-[3.5]:                  #35-fachliche-anbindung-der-clientsysteme
-[3.5.1]:                #351-betriebsaspekte
-[3.6]:                  #36-clientsystemschnittstelle
-[3.6.1]:                #361-soap-schnittstelle
-[3.6.2]:                #362-statusrückmeldung-und-fehlerbehandlung
-[3.6.3]:                #363-transport-großer-dokumente
-[3.7]:                  #37-verwendung-manuell-importierter-ca-zertifikate
-[3.8]:                  #38-testunterstützung
-[4]:                    #4-funktionsmerkmale
-[4.1]:                  #41-anwendungskonnektor
-[4.1.1]:                #411-zugriffsberechtigungsdienst
-[4.1.1.1]:              #4111-funktionsmerkmalweite-aspekte
-[4.1.1.2]:              #4112-durch-ereignisse-ausgelöste-reaktionen
-[4.1.1.3]:              #4113-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.1.4]:              #4114-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.1.4.1]:            #41141-tuc_kon_000-prüfe-zugriffsberechtigung
-[4.1.1.5]:              #4115-operationen-an-der-außenschnittstelle
-[4.1.1.6]:              #4116-betriebsaspekte
-[4.1.2]:                #412-dokumentvalidierungsdienst
-[4.1.2.1]:              #4121-funktionsmerkmalweite-aspekte
-[4.1.2.2]:              #4122-durch-ereignisse-ausgelöste-reaktionen
-[4.1.2.3]:              #4123-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.2.4]:              #4124-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.2.4.1]:            #41241-tuc_kon_080-dokument-validieren”
-[4.1.2.5]:              #4125-operationen-an-der-außenschnittstelle
-[4.1.2.6]:              #4126-betriebsaspekte
-[4.1.3]:                #413-dienstverzeichnisdienst
-[4.1.3.1]:              #4131-funktionsmerkmalweite-aspekte
-[4.1.3.2]:              #4132-durch-ereignisse-ausgelöste-reaktionen
-[4.1.3.3]:              #4133-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.3.4]:              #4134-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.3.4.1]:            #41341-tuc_kon_041-einbringen-der-endpunktinformationen-während-der-bootup-phase
-[4.1.3.5]:              #4135-operationen-an-der-außenschnittstelle
-[4.1.3.6]:              #4136-betriebsaspekte
-[4.1.4]:                #414-kartenterminaldienst
-[4.1.4.1]:              #4141-funktionsmerkmalweite-aspekte
-[4.1.4.2]:              #4142-durch-ereignisse-ausgelöste-reaktionen
-[4.1.4.3]:              #4143-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.4.3.1]:            #41431-tuc_kon_050-beginne-kartenterminalsitzung
-[4.1.4.3.2]:            #41432-tuc_kon_054-kartenterminal-hinzufügen
-[4.1.4.3.3]:            #41433-tuc_kon_053-paire-kartenterminal
-[4.1.4.3.4]:            #41434-tuc_kon_055-befülle-ct-object
-[4.1.4.4]:              #4144-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.4.4.1]:            #41441-tuc_kon_051-mit-anwender-über-kartenterminal-interagieren
-[4.1.4.4.2]:            #41442-tuc_kon_056-karte-anfordern
-[4.1.4.4.3]:            #41443-tuc_kon_057-karte-auswerfen
-[4.1.4.4.4]:            #41444-tuc_kon_058-displaygröße-ermitteln
-[4.1.4.5]:              #4145-operationen-an-der-außenschnittstelle
-[4.1.4.5.1]:            #41451-requestcard
-[4.1.4.5.2]:            #41452-ejectcard
-[4.1.4.6]:              #4146-betriebsaspekte
-[4.1.4.6.1]:            #41461-allgemeine-betriebsaspekte
-[4.1.4.6.2]:            #41462-kartenterminals-pflegen
-[4.1.4.6.3]:            #41463-import-der-kartenterminal-informationen
-[4.1.5]:                #415-kartendienst
-[4.1.5.1]:              #4151-funktionsmerkmalweite-aspekte
-[4.1.5.2]:              #4152-durch-ereignisse-ausgelöste-reaktionen
-[4.1.5.3]:              #4153-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.5.3.1]:            #41531-tuc_kon_001-karte-öffnen
-[4.1.5.4]:              #4154-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.5.4.1]:            #41541-tuc_kon_026-liefere-cardsession
-[4.1.5.4.2]:            #41542-tuc_kon_012-pin-verifizieren
-[4.1.5.4.3]:            #41543-tuc_kon_019-pin-ändern
-[4.1.5.4.4]:            #41544-tuc_kon_021-pin-entsperren
-[4.1.5.4.5]:            #41545-tuc_kon_022-liefere-pin-status
-[4.1.5.4.6]:            #41546-tuc_kon_027-pin-schutz-ein-/ausschalten
-[4.1.5.4.7]:            #41547-tuc_kon_023-karte-reservieren
-[4.1.5.4.8]:            #41548-tuc_kon_005-card-to-card-authentisieren
-[4.1.5.4.9]:            #41549-tuc_kon_202-lesedatei
-[4.1.5.4.10]:           #415410-tuc_kon_203-schreibedatei
-[4.1.5.4.11]:           #415411-tuc_kon_204-löschedateiinhalt
-[4.1.5.4.12]:           #415412-tuc_kon_209-leserecord
-[4.1.5.4.13]:           #415413-tuc_kon_210-schreiberecord
-[4.1.5.4.14]:           #415414-tuc_kon_211-löscherecordinhalt
-[4.1.5.4.15]:           #415415-tuc_kon_214-fügehinzurecord
-[4.1.5.4.16]:           #415416-tuc_kon_215-sucherecord
-[4.1.5.4.17]:           #415417-tuc_kon_018-egk-sperrung-prüfen
-[4.1.5.4.18]:           #415418-tuc_kon_006-datenzugriffsaudit-egk-schreiben
-[4.1.5.4.19]:           #415419-tuc_kon_218-signiere
-[4.1.5.4.20]:           #415420-tuc_kon_219-entschlüssele
-[4.1.5.4.21]:           #415421-tuc_kon_200-sendeapdu
-[4.1.5.4.22]:           #415422-tuc_kon_024-karte-zurücksetzen
-[4.1.5.4.23]:           #415423-tuc_kon_216-lesezertifikat
-[4.1.5.4.24]:           #415424-tuc_kon_036-lieferefachlicherolle
-[4.1.5.5]:              #4155-operationen-an-der-außenschnittstelle
-[4.1.5.5.1]:            #41551-verifypin
-[4.1.5.5.2]:            #41552-changepin
-[4.1.5.5.3]:            #41553-getpinstatus
-[4.1.5.5.4]:            #41554-unblockpin
-[4.1.5.5.5]:            #41555-enablepin
-[4.1.5.5.6]:            #41556-disablepin
-[4.1.5.6]:              #4156-betriebsaspekte
-[4.1.5.6.1]:            #41561-tuc_kon_025-initialisierung-kartendienst
-[4.1.5.6.2]:            #41562-kartenübersicht-und-pin-management
-[4.1.6]:                #416-systeminformationsdienst
-[4.1.6.1]:              #4161-funktionsmerkmalweite-aspekte
-[4.1.6.2]:              #4162-durch-ereignisse-ausgelöste-reaktionen
-[4.1.6.3]:              #4163-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.6.4]:              #4164-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.6.4.1]:            #41641-tuc_kon_256-systemereignis-absetzen
-[4.1.6.4.2]:            #41642-tuc_kon_252-liefere-kt_liste
-[4.1.6.4.3]:            #41643-tuc_kon_253-liefere-karten_liste
-[4.1.6.4.4]:            #41644-tuc_kon_254-liefere-ressourcendetails
-[4.1.6.5]:              #4165-operationen-an-der-außenschnittstelle
-[4.1.6.5.1]:            #41651-getcardterminals
-[4.1.6.5.2]:            #41652-getcards
-[4.1.6.5.3]:            #41653-getresourceinformation
-[4.1.6.5.4]:            #41654-subscribe
-[4.1.6.5.5]:            #41655-unsubscribe
-[4.1.6.5.6]:            #41656-renewsubscriptions
-[4.1.6.5.7]:            #41657-getsubscription
-[4.1.6.6]:              #4166-betriebsaspekte
-[4.1.7]:                #417-verschlüsselungsdienst
-[4.1.7.1]:              #4171-funktionsmerkmalweite-aspekte
-[4.1.7.2]:              #4172-durch-ereignisse-ausgelöste-reaktionen
-[4.1.7.3]:              #4173-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.7.4]:              #4174-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.7.4.1]:            #41741-tuc_kon_070-daten-hybrid-verschlüsseln”
-[4.1.7.4.2]:            #41742-tuc_kon_071-daten-hybrid-entschlüsseln”
-[4.1.7.4.3]:            #41743-tuc_kon_072-daten-symmetrisch-verschlüsseln”
-[4.1.7.4.4]:            #41744-tuc_kon_073-daten-symmetrisch-entschlüsseln”
-[4.1.7.4.5]:            #41745-tuc_kon_075-symmetrisch-verschlüsseln
-[4.1.7.4.6]:            #41746-tuc_kon_076-symmetrisch-entschlüsseln
-[4.1.7.5]:              #4175-operationen-an-der-außenschnittstelle
-[4.1.7.5.1]:            #41751-encryptdocument
-[4.1.7.5.2]:            #41752-decryptdocument
-[4.1.7.6]:              #4176-betriebsaspekte
-[4.1.8]:                #418-signaturdienst
-[4.1.8.1]:              #4181-funktionsmerkmalweite-aspekte
-[4.1.8.1.1]:            #41811-dokumentensignatur
-[4.1.8.1.2]:            #41812-signaturrichtlinien
-[4.1.8.1.3]:            #41813-signaturzeitpunkt
-[4.1.8.1.4]:            #41814-jobnummer
-[4.1.8.1.5]:            #41815-komfortsignatur
-[4.1.8.2]:              #4182-durch-ereignisse-ausgelöste-reaktionen
-[4.1.8.3]:              #4183-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.8.3.1]:            #41831-tuc_kon_155-dokumente-zur-signatur-vorbereiten”
-[4.1.8.3.2]:            #41832-tuc_kon_165-signaturvoraussetzungen-für-nonqes-prüfen
-[4.1.8.3.3]:            #41833-tuc_kon_166-nonqes-signaturen-erstellen
-[4.1.8.3.4]:            #41834-tuc_kon_152-signaturvoraussetzungen-für-qes-prüfen
-[4.1.8.3.5]:            #41835-tuc_kon_154-qes-signaturen-erstellen
-[4.1.8.3.6]:            #41836-tuc_kon_168-einzelsignatur-qes-erstellen
-[4.1.8.3.7]:            #41837-tuc_kon_158-komfortsignaturen-erstellen
-[4.1.8.4]:              #4184-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.8.4.1]:            #41841-tuc_kon_160-dokumente-nonqes-signieren”
-[4.1.8.4.2]:            #41842-tuc_kon_161-nonqes-dokumentsignatur-prüfen”
-[4.1.8.4.3]:            #41843-tuc_kon_162-kryptographische-prüfung-der-xml-dokumentensignatur”
-[4.1.8.4.4]:            #41844-tuc_kon_150-dokumente-qes-signieren”
-[4.1.8.4.5]:            #41845-anforderungen-an-die-stapelsignatur
-[4.1.8.4.6]:            #41846-tuc_kon_151-qes-dokumentensignatur-prüfen
-[4.1.8.4.7]:            #41847-tuc_kon_170-dokumente-mit-komfort-signieren”
-[4.1.8.4.8]:            #41848-tuc_kon_171-komfortsignatur-einschalten”
-[4.1.8.4.9]:            #41849-tuc_kon_172-komfortsignatur-ausschalten”
-[4.1.8.4.10]:           #418410-tuc_kon_173-liefere-signaturmodus”
-[4.1.8.5]:              #4185-operationen-an-der-außenschnittstelle
-[4.1.8.5.1]:            #41851-signdocument-(nonqes-und-qes)
-[4.1.8.5.2]:            #41852-verifydocument-(nonqes-und-qes)
-[4.1.8.5.3]:            #41853-stopsignature
-[4.1.8.5.4]:            #41854-getjobnumber
-[4.1.8.5.5]:            #41855-activatecomfortsignature
-[4.1.8.5.6]:            #41856-deactivatecomfortsignature
-[4.1.8.5.7]:            #41857-getsignaturemode
-[4.1.8.6]:              #4186-betriebsaspekte
-[4.1.9]:                #419-zertifikatsdienst
-[4.1.9.1]:              #4191-funktionsmerkmalweite-aspekte
-[4.1.9.2]:              #4192-durch-ereignisse-ausgelöste-reaktionen
-[4.1.9.3]:              #4193-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.9.3.1]:            #41931-tuc_kon_032-tsl-aktualisieren
-[4.1.9.3.2]:            #41932-tuc_kon_031-bnetza-vl-aktualisieren
-[4.1.9.3.3]:            #41933-tuc_kon_040-crl-aktualisieren
-[4.1.9.3.4]:            #41934-tuc_kon_033-zertifikatsablauf-prüfen
-[4.1.9.4]:              #4194-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.9.4.1]:            #41941-tuc_kon_037-zertifikat-prüfen
-[4.1.9.4.2]:            #41942-tuc_kon_042-cv-zertifikat-prüfen
-[4.1.9.4.3]:            #41943-tuc_kon_034-zertifikatsinformationen-extrahieren
-[4.1.9.5]:              #4195-operationen-an-der-außenschnittstelle
-[4.1.9.5.1]:            #41951-checkcertificateexpiration
-[4.1.9.5.2]:            #41952-readcardcertificate
-[4.1.9.5.3]:            #41953-verifycertificate
-[4.1.9.6]:              #4196-betriebsaspekte
-[4.1.9.6.1]:            #41961-tuc_kon_035-zertifikatsdienst-initialisieren
-[4.1.10]:               #4110-protokollierungsdienst
-[4.1.10.1]:             #41101-funktionsmerkmalweite-aspekte
-[4.1.10.2]:             #41102-durch-ereignisse-ausgelöste-reaktionen
-[4.1.10.3]:             #41103-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.10.4]:             #41104-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.10.4.1]:           #411041-tuc_kon_271-schreibe-protokolleintrag
-[4.1.10.5]:             #41105-operationen-an-der-außenschnittstelle
-[4.1.10.6]:             #41106-betriebsaspekte
-[4.1.10.6.1]:           #411061-tuc_kon_272-initialisierung-protokollierungsdienst
-[4.1.11]:               #4111-tls-dienst
-[4.1.11.1]:             #41111-funktionsmerkmalweite-aspekte
-[4.1.11.2]:             #41112-durch-ereignisse-ausgelöste-reaktionen
-[4.1.11.3]:             #41113-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.11.4]:             #41114-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.11.4.1]:           #411141-tuc_kon_110-kartenbasierte-tls-verbindung-aufbauen
-[4.1.11.4.2]:           #411142-tuc_kon_111-kartenbasierte-tls-verbindung-abbauen
-[4.1.11.5]:             #41115-operationen-an-der-außenschnittstelle
-[4.1.11.6]:             #41116-betriebsaspekte
-[4.1.12]:               #4112-ldap-proxy
-[4.1.12.1]:             #41121-funktionsmerkmalweite-aspekte
-[4.1.12.2]:             #41122-durch-ereignisse-ausgelöste-reaktionen
-[4.1.12.3]:             #41123-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.1.12.4]:             #41124-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.1.12.4.1]:           #411241-tuc_kon_290-ldap-verbindung-aufbauen
-[4.1.12.4.2]:           #411242-tuc_kon_291-verzeichnis-abfragen
-[4.1.12.4.3]:           #411243-tuc_kon_292-ldap-verbindung-trennen
-[4.1.12.4.4]:           #411244-tuc_kon_293-verzeichnisabfrage-abbrechen
-[4.1.12.5]:             #41125-operationen-an-der-außenschnittstelle
-[4.1.12.5.1]:           #411251-unterstützte-ldapv3-operationen
-[4.1.12.6]:             #41126-betriebsaspekte
-[4.1.13]:               #4113-authentifizierungsdienst
-[4.1.13.1]:             #41131-funktionsmerkmalweite-aspekte
-[4.1.13.1.1]:           #411311-externe-authentisierung
-[4.1.13.2]:             #41132-durch-ereignisse-ausgelöste-reaktionen
-[4.1.13.3]:             #41133-interne-tucs
-[4.1.13.4]:             #41134-operationen-an-der-außenschnittstelle
-[4.1.13.4.1]:           #411341-externalauthenticate
-[4.1.13.5]:             #41135-betriebsaspekte
-[4.1.14]:               #4114-betriebsdatenmeldedienst
-[4.2]:                  #42-netzkonnektor
-[4.2.1]:                #421-anbindung-lan/wan
-[4.2.1.1]:              #4211-funktionsmerkmalweite-aspekte
-[4.2.1.1.1]:            #42111-netzwerksegmentierung
-[4.2.1.1.2]:            #42112-routing-und-firewall
-[4.2.1.2]:              #4212-durch-ereignisse-ausgelöste-reaktionen
-[4.2.1.3]:              #4213-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.2.1.3.1]:            #42131-tuc_kon_305-lan-adapter-initialisieren
-[4.2.1.3.2]:            #42132-tuc_kon_306-wan-adapter-initialisieren
-[4.2.1.3.3]:            #42133-tuc_kon_304-netzwerk-routen-einrichten
-[4.2.1.4]:              #4214-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.2.1.5]:              #4215-operationen-an-der-außenschnittstelle
-[4.2.1.6]:              #4216-betriebsaspekte
-[4.2.2]:                #422-dhcp-server
-[4.2.2.1]:              #4221-funktionsmerkmalweite-aspekte
-[4.2.2.2]:              #4222-durch-ereignisse-ausgelöste-reaktionen
-[4.2.2.3]:              #4223-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.2.2.4]:              #4224-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.2.2.5]:              #4225-operationen-an-der-außenschnittstelle
-[4.2.2.5.1]:            #42251-liefere-netzwerkinformationen-über-dhcp
-[4.2.2.6]:              #4226-betriebsaspekte
-[4.2.2.6.1]:            #42261-tuc_kon_343-initialisierung-dhcp-server
-[4.2.3]:                #423-dhcp-client
-[4.2.3.1]:              #4231-funktionsmerkmalweite-aspekte
-[4.2.3.2]:              #4232-durch-ereignisse-ausgelöste-reaktionen
-[4.2.3.3]:              #4233-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.2.3.3.1]:            #42331-tuc_kon_341-dhcp-informationen-beziehen
-[4.2.3.4]:              #4234-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.2.3.5]:              #4235-operationen-an-der-außenschnittstelle
-[4.2.3.6]:              #4236-betriebsaspekte
-[4.2.4]:                #424-vpn-client
-[4.2.4.1]:              #4241-funktionsmerkmalweite-aspekte
-[4.2.4.2]:              #4242-durch-ereignisse-ausgelöste-reaktionen
-[4.2.4.3]:              #4243-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.2.4.3.1]:            #42431-tuc_kon_321-verbindung-zu-dem-vpn-konzentrator-der-ti-aufbauen
-[4.2.4.3.2]:            #42432-tuc_kon_322-verbindung-zu-dem-vpn-konzentrator-des-sis-aufbauen
-[4.2.4.4]:              #4244-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.2.4.5]:              #4245-operationen-an-der-außenschnittstelle
-[4.2.4.6]:              #4246-betriebsaspekte
-[4.2.5]:                #425-zeitdienst
-[4.2.5.1]:              #4251-funktionsmerkmalweite-aspekte
-[4.2.5.2]:              #4252-durch-ereignisse-ausgelöste-reaktionen
-[4.2.5.3]:              #4253-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.2.5.4]:              #4254-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.2.5.4.1]:            #42541-tuc_kon_351-liefere-systemzeit”
-[4.2.5.5]:              #4255-operationen-an-der-außenschnittstelle
-[4.2.5.5.1]:            #42551-sync_time
-[4.2.5.6]:              #4256-betriebsaspekte
-[4.2.5.6.1]:            #42561-tuc_kon_352-initialisierung-zeitdienst
-[4.2.6]:                #426-namensdienst-und-dienstlokalisierung
-[4.2.6.1]:              #4261-funktionsmerkmalweite-aspekte
-[4.2.6.2]:              #4262-durch-ereignisse-ausgelöste-reaktionen
-[4.2.6.3]:              #4263-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.2.6.4]:              #4264-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.2.6.4.1]:            #42641-tuc_kon_361-dns-namen-auflösen
-[4.2.6.4.2]:            #42642-tuc_kon_362-liste-der-dienste-abrufen
-[4.2.6.4.3]:            #42643-tuc_kon_363-dienstdetails-abrufen
-[4.2.6.5]:              #4265-operationen-an-der-außenschnittstelle
-[4.2.6.5.1]:            #42651-getipaddress
-[4.2.6.6]:              #4266-betriebsaspekte
-[4.2.7]:                #427-optionale-verwendung-von-ipv6
-[4.3]:                  #43-konnektormanagement
-[4.3.1]:                #431-zugang-und-benutzerverwaltung-des-konnektormanagements
-[4.3.2]:                #432-konnektorname-und-versionsinformationen
-[4.3.3]:                #433-konfigurationsdaten-persistieren-sowie-export-import
-[4.3.4]:                #434-administration-von-fachmodulen
-[4.3.5]:                #435-neustart-und-werksreset
-[4.3.6]:                #436-leistungsumfänge-und-standalone-szenarios
-[4.3.7]:                #437-online-anbindung-verwalten
-[4.3.8]:                #438-re-registrierung-des-konnektors-mit-weiterem-nk-zertifikat
-[4.3.9]:                #439-remote-management-(optional)
-[4.3.10]:               #4310-software--und-konfigurationsaktualisierung-(ksr-client)
-[4.3.10.1]:             #43101-funktionsmerkmalweite-aspekte
-[4.3.10.2]:             #43102-durch-ereignisse-ausgelöste-reaktionen
-[4.3.10.3]:             #43103-interne-tucs-nicht-durch-fachmodule-nutzbar
-[4.3.10.3.1]:           #431031-tuc_kon_280-konnektoraktualisierung-durchführen
-[4.3.10.3.2]:           #431032-tuc_kon_281-kartenterminalaktualisierung-anstoßen
-[4.3.10.3.3]:           #431033-tuc_kon_282-updateinformationen-beziehen
-[4.3.10.3.4]:           #431034-tuc_kon_283-infrastruktur-konfiguration-aktualisieren
-[4.3.10.4]:             #43104-interne-tucs-auch-durch-fachmodule-nutzbar
-[4.3.10.4.1]:           #431041-tuc_kon_285-updateinformationen-für-fachmodul-beziehen
-[4.3.10.4.2]:           #431042-tuc_kon_286-paket-für-fachmodul-laden
-[4.3.10.5]:             #43105-operationen-an-der-außenschnittstelle
-[4.3.10.6]:             #43106-betriebsaspekte
-[4.3.10.6.1]:           #431061-tuc_kon_284-ksr-client-initialisieren
-[4.3.11]:               #4311-konnektorstatus
-[4.4]:                  #44-hardware-merkmale-des-konnektors
-[5]:                    #5-anhang-a-–-verzeichnisse
-[5.1]:                  #51-abkürzungen
-[5.2]:                  #52-glossar
-[5.3]:                  #53-abbildungsverzeichnis
-[5.4]:                  #54-tabellenverzeichnis
-[5.5]:                  #55-referenzierte-dokumente
-[5.5.1]:                #551-dokumente-der-gematik
-[5.5.2]:                #552-weitere-dokumente
-[6]:                    #6-anhang-b-–-profilierung-der-signatur--und-verschlüsselungsformate-(normativ)
-[6.1]:                  #61-profilierung-der-verschlüsselungsformate
-[6.2]:                  #62-profilierung-der-signaturformate
-[6.3]:                  #63-profilierung-verificationreport
-[6.4]:                  #64-profilierung-der-dokumentenformate-und-nachrichten
-[7]:                    #7-anhang-f-–-übersicht-events
-[8]:                    #8-anhang-h-–-mapping-von-architektur-der-ti-plattform-auf-konnektorspezifikation
-[9]:                    #9-anhang-i-–-umsetzungshinweise-(informativ)
-[9.1]:                  #91-systemüberblick
-[9.1.1]:                #911-–-hinweise-zur-sicherheitsevaluierung-nach-common-criteria
-[9.1.1.1]:              #9111-separationsmechanismen-des-konnektors
-[9.1.1.2]:              #9112-granularität-der-tsf
-[9.2]:                  #92-übergreifende-festlegungen
-[9.2.1]:                #921-interne-mechanismen
-[9.2.1.1]:              #9211-zufallszahlen-und-schlüssel
-[9.3]:                  #93-funktionsmerkmale
-[9.3.1]:                #931-anwendungskonnektor
-[9.3.1.1]:              #9311-administration-des-informationsmodells
-[9.3.1.2]:              #9312-vorgehensvariante-für-das-handling-von-cardsessions
-[9.3.1.3]:              #9313-darstellung-von-terminal-anzeigen-auf-einem-kartenterminal
-[10]:                   #10-anhang-k-–-szenarien-im-dezentralen-umfeld
-[10.1]:                 #101-szenario-1-einfache-installation-ohne-spezielle-anforderungen-und-ohne-bestehende-infrastruktur
-[10.1.1]:               #1011-beschreibung-des-szenarios
-[10.1.2]:               #1012-voraussetzungen
-[10.1.3]:               #1013-auswirkungen
-[10.2]:                 #102-szenario-2-installation-mit-mehreren-behandlungsräumen
-[10.2.1]:               #1021-beschreibung-des-szenarios
-[10.2.2]:               #1022-voraussetzungen
-[10.2.3]:               #1023-auswirkungen
-[10.3]:                 #103-szenario-3-integration-in-bestehende-infrastruktur-ohne-netzsegmentierung
-[10.3.1]:               #1031-beschreibung-des-szenarios
-[10.3.2]:               #1032-voraussetzungen
-[10.3.3]:               #1033-auswirkungen
-[10.4]:                 #104-szenario-4-integration-in-bestehende-infrastruktur-mit-netzsegmentierung
-[10.4.1]:               #1041-beschreibung-des-szenarios
-[10.4.2]:               #1042-voraussetzungen
-[10.4.3]:               #1043-auswirkungen
-[10.5]:                 #105-szenario-5-zentral-gesteckter-hba
-[10.5.1]:               #1051-beschreibung-des-szenarios
-[10.5.2]:               #1052-voraussetzungen
-[10.5.3]:               #1053-auswirkung
-[10.6]:                 #106-szenario-6-installation-mit-zentralem-ps
-[10.6.1]:               #1061-beschreibung-des-szenarios
-[10.6.2]:               #1062-voraussetzungen
-[10.6.3]:               #1063-auswirkungen
-[10.7]:                 #107-szenario-7-mehrere-mandanten
-[10.7.1]:               #1071-beschreibung-des-szenarios
-[10.7.2]:               #1072-voraussetzungen
-[10.7.3]:               #1073-auswirkungen
-[10.8]:                 #108-szenario-9-standalone-konnektor---physische-trennung
-[10.8.1]:               #1081-beschreibung-des-szenarios
-[10.8.2]:               #1082-voraussetzungen
-[10.8.3]:               #1083-auswirkung
-[11]:                   #11-anhang-l-–-datentypen-von-eingangs--und-ausgangsdaten
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokuments
+[1.5]:                   #15-methodik
+[1.5.1]:                 #151-anforderungen
+[1.5.2]:                 #152-offene-punkte
+[1.5.3]:                 #153-erläuterungen-zur-spezifikation-des-außenverhaltens
+[1.5.4]:                 #154-erläuterungen-zur-dokumentenstruktur-und-dokumentenmechanismen
+[1.5.4.1]:               #1541-modulare-spezifikation-über-funktionsmerkmale
+[1.5.4.2]:               #1542-technische-use-cases---tucs
+[1.5.4.3]:               #1543-event-mechanismus
+[1.5.4.4]:               #1544-konfigurationsparameter-und-zustandswerte
+[2]:                     #2-systemüberblick
+[2.1]:                   #21-logische-struktur
+[2.2]:                   #22-sicherer-datenspeicher
+[2.3]:                   #23-überblick-konnektoridentität
+[2.4]:                   #24-mandantenfähigkeit
+[2.5]:                   #25-versionierung
+[2.6]:                   #26-fachanwendungen
+[2.7]:                   #27-netzseitige-einsatzszenarien
+[2.7.1]:                 #271-parameter-anlw_anbindungs_modus
+[2.7.2]:                 #272-parameter-anlw_internet_modus
+[2.8]:                   #28-lokale-und-entfernte-kartenterminals
+[2.9]:                   #29-standalone-szenario
+[3]:                     #3-übergreifende-festlegungen
+[3.1]:                   #31-allgemeine-übergreifende-festlegungen
+[3.1.1]:                 #311-dokumentformate
+[3.1.2]:                 #312-kartentypen
+[3.1.3]:                 #313-übergreifende-festlegungen-zum-aufbau-von-sicheren-verbindungen
+[3.2]:                   #32-konnektoridentität-und-gsmc-k
+[3.2.1]:                 #321-organisatorische-anforderungen-und-sperrprozesse
+[3.3]:                   #33-bootup-phase
+[3.4]:                   #34-betriebszustand
+[3.4.1]:                 #341-betriebsaspekte
+[3.5]:                   #35-fachliche-anbindung-der-clientsysteme
+[3.5.1]:                 #351-betriebsaspekte
+[3.6]:                   #36-clientsystemschnittstelle
+[3.6.1]:                 #361-soap-schnittstelle
+[3.6.2]:                 #362-statusrückmeldung-und-fehlerbehandlung
+[3.6.3]:                 #363-transport-großer-dokumente
+[3.7]:                   #37-verwendung-manuell-importierter-ca-zertifikate
+[3.8]:                   #38-testunterstützung
+[4]:                     #4-funktionsmerkmale
+[4.1]:                   #41-anwendungskonnektor
+[4.1.1]:                 #411-zugriffsberechtigungsdienst
+[4.1.1.1]:               #4111-funktionsmerkmalweite-aspekte
+[4.1.1.2]:               #4112-durch-ereignisse-ausgelöste-reaktionen
+[4.1.1.3]:               #4113-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.1.4]:               #4114-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.1.4.1]:             #41141-tuc_kon_000-prüfe-zugriffsberechtigung
+[4.1.1.5]:               #4115-operationen-an-der-außenschnittstelle
+[4.1.1.6]:               #4116-betriebsaspekte
+[4.1.2]:                 #412-dokumentvalidierungsdienst
+[4.1.2.1]:               #4121-funktionsmerkmalweite-aspekte
+[4.1.2.2]:               #4122-durch-ereignisse-ausgelöste-reaktionen
+[4.1.2.3]:               #4123-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.2.4]:               #4124-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.2.4.1]:             #41241-tuc_kon_080-dokument-validieren”
+[4.1.2.5]:               #4125-operationen-an-der-außenschnittstelle
+[4.1.2.6]:               #4126-betriebsaspekte
+[4.1.3]:                 #413-dienstverzeichnisdienst
+[4.1.3.1]:               #4131-funktionsmerkmalweite-aspekte
+[4.1.3.2]:               #4132-durch-ereignisse-ausgelöste-reaktionen
+[4.1.3.3]:               #4133-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.3.4]:               #4134-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.3.4.1]:             #41341-tuc_kon_041-einbringen-der-endpunktinformationen-während-der-bootup-phase
+[4.1.3.5]:               #4135-operationen-an-der-außenschnittstelle
+[4.1.3.6]:               #4136-betriebsaspekte
+[4.1.4]:                 #414-kartenterminaldienst
+[4.1.4.1]:               #4141-funktionsmerkmalweite-aspekte
+[4.1.4.2]:               #4142-durch-ereignisse-ausgelöste-reaktionen
+[4.1.4.3]:               #4143-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.4.3.1]:             #41431-tuc_kon_050-beginne-kartenterminalsitzung
+[4.1.4.3.2]:             #41432-tuc_kon_054-kartenterminal-hinzufügen
+[4.1.4.3.3]:             #41433-tuc_kon_053-paire-kartenterminal
+[4.1.4.3.4]:             #41434-tuc_kon_055-befülle-ct-object
+[4.1.4.4]:               #4144-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.4.4.1]:             #41441-tuc_kon_051-mit-anwender-über-kartenterminal-interagieren
+[4.1.4.4.2]:             #41442-tuc_kon_056-karte-anfordern
+[4.1.4.4.3]:             #41443-tuc_kon_057-karte-auswerfen
+[4.1.4.4.4]:             #41444-tuc_kon_058-displaygröße-ermitteln
+[4.1.4.5]:               #4145-operationen-an-der-außenschnittstelle
+[4.1.4.5.1]:             #41451-requestcard
+[4.1.4.5.2]:             #41452-ejectcard
+[4.1.4.6]:               #4146-betriebsaspekte
+[4.1.4.6.1]:             #41461-allgemeine-betriebsaspekte
+[4.1.4.6.2]:             #41462-kartenterminals-pflegen
+[4.1.4.6.3]:             #41463-import-der-kartenterminal-informationen
+[4.1.5]:                 #415-kartendienst
+[4.1.5.1]:               #4151-funktionsmerkmalweite-aspekte
+[4.1.5.2]:               #4152-durch-ereignisse-ausgelöste-reaktionen
+[4.1.5.3]:               #4153-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.5.3.1]:             #41531-tuc_kon_001-karte-öffnen
+[4.1.5.4]:               #4154-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.5.4.1]:             #41541-tuc_kon_026-liefere-cardsession
+[4.1.5.4.2]:             #41542-tuc_kon_012-pin-verifizieren
+[4.1.5.4.3]:             #41543-tuc_kon_019-pin-ändern
+[4.1.5.4.4]:             #41544-tuc_kon_021-pin-entsperren
+[4.1.5.4.5]:             #41545-tuc_kon_022-liefere-pin-status
+[4.1.5.4.6]:             #41546-tuc_kon_027-pin-schutz-ein-/ausschalten
+[4.1.5.4.7]:             #41547-tuc_kon_023-karte-reservieren
+[4.1.5.4.8]:             #41548-tuc_kon_005-card-to-card-authentisieren
+[4.1.5.4.9]:             #41549-tuc_kon_202-lesedatei
+[4.1.5.4.10]:            #415410-tuc_kon_203-schreibedatei
+[4.1.5.4.11]:            #415411-tuc_kon_204-löschedateiinhalt
+[4.1.5.4.12]:            #415412-tuc_kon_209-leserecord
+[4.1.5.4.13]:            #415413-tuc_kon_210-schreiberecord
+[4.1.5.4.14]:            #415414-tuc_kon_211-löscherecordinhalt
+[4.1.5.4.15]:            #415415-tuc_kon_214-fügehinzurecord
+[4.1.5.4.16]:            #415416-tuc_kon_215-sucherecord
+[4.1.5.4.17]:            #415417-tuc_kon_018-egk-sperrung-prüfen
+[4.1.5.4.18]:            #415418-tuc_kon_006-datenzugriffsaudit-egk-schreiben
+[4.1.5.4.19]:            #415419-tuc_kon_218-signiere
+[4.1.5.4.20]:            #415420-tuc_kon_219-entschlüssele
+[4.1.5.4.21]:            #415421-tuc_kon_200-sendeapdu
+[4.1.5.4.22]:            #415422-tuc_kon_024-karte-zurücksetzen
+[4.1.5.4.23]:            #415423-tuc_kon_216-lesezertifikat
+[4.1.5.4.24]:            #415424-tuc_kon_036-lieferefachlicherolle
+[4.1.5.5]:               #4155-operationen-an-der-außenschnittstelle
+[4.1.5.5.1]:             #41551-verifypin
+[4.1.5.5.2]:             #41552-changepin
+[4.1.5.5.3]:             #41553-getpinstatus
+[4.1.5.5.4]:             #41554-unblockpin
+[4.1.5.5.5]:             #41555-enablepin
+[4.1.5.5.6]:             #41556-disablepin
+[4.1.5.6]:               #4156-betriebsaspekte
+[4.1.5.6.1]:             #41561-tuc_kon_025-initialisierung-kartendienst
+[4.1.5.6.2]:             #41562-kartenübersicht-und-pin-management
+[4.1.6]:                 #416-systeminformationsdienst
+[4.1.6.1]:               #4161-funktionsmerkmalweite-aspekte
+[4.1.6.2]:               #4162-durch-ereignisse-ausgelöste-reaktionen
+[4.1.6.3]:               #4163-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.6.4]:               #4164-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.6.4.1]:             #41641-tuc_kon_256-systemereignis-absetzen
+[4.1.6.4.2]:             #41642-tuc_kon_252-liefere-kt_liste
+[4.1.6.4.3]:             #41643-tuc_kon_253-liefere-karten_liste
+[4.1.6.4.4]:             #41644-tuc_kon_254-liefere-ressourcendetails
+[4.1.6.5]:               #4165-operationen-an-der-außenschnittstelle
+[4.1.6.5.1]:             #41651-getcardterminals
+[4.1.6.5.2]:             #41652-getcards
+[4.1.6.5.3]:             #41653-getresourceinformation
+[4.1.6.5.4]:             #41654-subscribe
+[4.1.6.5.5]:             #41655-unsubscribe
+[4.1.6.5.6]:             #41656-renewsubscriptions
+[4.1.6.5.7]:             #41657-getsubscription
+[4.1.6.6]:               #4166-betriebsaspekte
+[4.1.7]:                 #417-verschlüsselungsdienst
+[4.1.7.1]:               #4171-funktionsmerkmalweite-aspekte
+[4.1.7.2]:               #4172-durch-ereignisse-ausgelöste-reaktionen
+[4.1.7.3]:               #4173-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.7.4]:               #4174-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.7.4.1]:             #41741-tuc_kon_070-daten-hybrid-verschlüsseln”
+[4.1.7.4.2]:             #41742-tuc_kon_071-daten-hybrid-entschlüsseln”
+[4.1.7.4.3]:             #41743-tuc_kon_072-daten-symmetrisch-verschlüsseln”
+[4.1.7.4.4]:             #41744-tuc_kon_073-daten-symmetrisch-entschlüsseln”
+[4.1.7.4.5]:             #41745-tuc_kon_075-symmetrisch-verschlüsseln
+[4.1.7.4.6]:             #41746-tuc_kon_076-symmetrisch-entschlüsseln
+[4.1.7.5]:               #4175-operationen-an-der-außenschnittstelle
+[4.1.7.5.1]:             #41751-encryptdocument
+[4.1.7.5.2]:             #41752-decryptdocument
+[4.1.7.6]:               #4176-betriebsaspekte
+[4.1.8]:                 #418-signaturdienst
+[4.1.8.1]:               #4181-funktionsmerkmalweite-aspekte
+[4.1.8.1.1]:             #41811-dokumentensignatur
+[4.1.8.1.2]:             #41812-signaturrichtlinien
+[4.1.8.1.3]:             #41813-signaturzeitpunkt
+[4.1.8.1.4]:             #41814-jobnummer
+[4.1.8.1.5]:             #41815-komfortsignatur
+[4.1.8.2]:               #4182-durch-ereignisse-ausgelöste-reaktionen
+[4.1.8.3]:               #4183-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.8.3.1]:             #41831-tuc_kon_155-dokumente-zur-signatur-vorbereiten”
+[4.1.8.3.2]:             #41832-tuc_kon_165-signaturvoraussetzungen-für-nonqes-prüfen
+[4.1.8.3.3]:             #41833-tuc_kon_166-nonqes-signaturen-erstellen
+[4.1.8.3.4]:             #41834-tuc_kon_152-signaturvoraussetzungen-für-qes-prüfen
+[4.1.8.3.5]:             #41835-tuc_kon_154-qes-signaturen-erstellen
+[4.1.8.3.6]:             #41836-tuc_kon_168-einzelsignatur-qes-erstellen
+[4.1.8.3.7]:             #41837-tuc_kon_158-komfortsignaturen-erstellen
+[4.1.8.4]:               #4184-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.8.4.1]:             #41841-tuc_kon_160-dokumente-nonqes-signieren”
+[4.1.8.4.2]:             #41842-tuc_kon_161-nonqes-dokumentsignatur-prüfen”
+[4.1.8.4.3]:             #41843-tuc_kon_162-kryptographische-prüfung-der-xml-dokumentensignatur”
+[4.1.8.4.4]:             #41844-tuc_kon_150-dokumente-qes-signieren”
+[4.1.8.4.5]:             #41845-anforderungen-an-die-stapelsignatur
+[4.1.8.4.6]:             #41846-tuc_kon_151-qes-dokumentensignatur-prüfen
+[4.1.8.4.7]:             #41847-tuc_kon_170-dokumente-mit-komfort-signieren”
+[4.1.8.4.8]:             #41848-tuc_kon_171-komfortsignatur-einschalten”
+[4.1.8.4.9]:             #41849-tuc_kon_172-komfortsignatur-ausschalten”
+[4.1.8.4.10]:            #418410-tuc_kon_173-liefere-signaturmodus”
+[4.1.8.5]:               #4185-operationen-an-der-außenschnittstelle
+[4.1.8.5.1]:             #41851-signdocument-(nonqes-und-qes)
+[4.1.8.5.2]:             #41852-verifydocument-(nonqes-und-qes)
+[4.1.8.5.3]:             #41853-stopsignature
+[4.1.8.5.4]:             #41854-getjobnumber
+[4.1.8.5.5]:             #41855-activatecomfortsignature
+[4.1.8.5.6]:             #41856-deactivatecomfortsignature
+[4.1.8.5.7]:             #41857-getsignaturemode
+[4.1.8.6]:               #4186-betriebsaspekte
+[4.1.9]:                 #419-zertifikatsdienst
+[4.1.9.1]:               #4191-funktionsmerkmalweite-aspekte
+[4.1.9.2]:               #4192-durch-ereignisse-ausgelöste-reaktionen
+[4.1.9.3]:               #4193-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.9.3.1]:             #41931-tuc_kon_032-tsl-aktualisieren
+[4.1.9.3.2]:             #41932-tuc_kon_031-bnetza-vl-aktualisieren
+[4.1.9.3.3]:             #41933-tuc_kon_040-crl-aktualisieren
+[4.1.9.3.4]:             #41934-tuc_kon_033-zertifikatsablauf-prüfen
+[4.1.9.4]:               #4194-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.9.4.1]:             #41941-tuc_kon_037-zertifikat-prüfen
+[4.1.9.4.2]:             #41942-tuc_kon_042-cv-zertifikat-prüfen
+[4.1.9.4.3]:             #41943-tuc_kon_034-zertifikatsinformationen-extrahieren
+[4.1.9.5]:               #4195-operationen-an-der-außenschnittstelle
+[4.1.9.5.1]:             #41951-checkcertificateexpiration
+[4.1.9.5.2]:             #41952-readcardcertificate
+[4.1.9.5.3]:             #41953-verifycertificate
+[4.1.9.6]:               #4196-betriebsaspekte
+[4.1.9.6.1]:             #41961-tuc_kon_035-zertifikatsdienst-initialisieren
+[4.1.10]:                #4110-protokollierungsdienst
+[4.1.10.1]:              #41101-funktionsmerkmalweite-aspekte
+[4.1.10.2]:              #41102-durch-ereignisse-ausgelöste-reaktionen
+[4.1.10.3]:              #41103-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.10.4]:              #41104-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.10.4.1]:            #411041-tuc_kon_271-schreibe-protokolleintrag
+[4.1.10.5]:              #41105-operationen-an-der-außenschnittstelle
+[4.1.10.6]:              #41106-betriebsaspekte
+[4.1.10.6.1]:            #411061-tuc_kon_272-initialisierung-protokollierungsdienst
+[4.1.11]:                #4111-tls-dienst
+[4.1.11.1]:              #41111-funktionsmerkmalweite-aspekte
+[4.1.11.2]:              #41112-durch-ereignisse-ausgelöste-reaktionen
+[4.1.11.3]:              #41113-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.11.4]:              #41114-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.11.4.1]:            #411141-tuc_kon_110-kartenbasierte-tls-verbindung-aufbauen
+[4.1.11.4.2]:            #411142-tuc_kon_111-kartenbasierte-tls-verbindung-abbauen
+[4.1.11.5]:              #41115-operationen-an-der-außenschnittstelle
+[4.1.11.6]:              #41116-betriebsaspekte
+[4.1.12]:                #4112-ldap-proxy
+[4.1.12.1]:              #41121-funktionsmerkmalweite-aspekte
+[4.1.12.2]:              #41122-durch-ereignisse-ausgelöste-reaktionen
+[4.1.12.3]:              #41123-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.1.12.4]:              #41124-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.1.12.4.1]:            #411241-tuc_kon_290-ldap-verbindung-aufbauen
+[4.1.12.4.2]:            #411242-tuc_kon_291-verzeichnis-abfragen
+[4.1.12.4.3]:            #411243-tuc_kon_292-ldap-verbindung-trennen
+[4.1.12.4.4]:            #411244-tuc_kon_293-verzeichnisabfrage-abbrechen
+[4.1.12.5]:              #41125-operationen-an-der-außenschnittstelle
+[4.1.12.5.1]:            #411251-unterstützte-ldapv3-operationen
+[4.1.12.6]:              #41126-betriebsaspekte
+[4.1.13]:                #4113-authentifizierungsdienst
+[4.1.13.1]:              #41131-funktionsmerkmalweite-aspekte
+[4.1.13.1.1]:            #411311-externe-authentisierung
+[4.1.13.2]:              #41132-durch-ereignisse-ausgelöste-reaktionen
+[4.1.13.3]:              #41133-interne-tucs
+[4.1.13.4]:              #41134-operationen-an-der-außenschnittstelle
+[4.1.13.4.1]:            #411341-externalauthenticate
+[4.1.13.5]:              #41135-betriebsaspekte
+[4.1.14]:                #4114-betriebsdatenmeldedienst
+[4.2]:                   #42-netzkonnektor
+[4.2.1]:                 #421-anbindung-lan/wan
+[4.2.1.1]:               #4211-funktionsmerkmalweite-aspekte
+[4.2.1.1.1]:             #42111-netzwerksegmentierung
+[4.2.1.1.2]:             #42112-routing-und-firewall
+[4.2.1.2]:               #4212-durch-ereignisse-ausgelöste-reaktionen
+[4.2.1.3]:               #4213-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.2.1.3.1]:             #42131-tuc_kon_305-lan-adapter-initialisieren
+[4.2.1.3.2]:             #42132-tuc_kon_306-wan-adapter-initialisieren
+[4.2.1.3.3]:             #42133-tuc_kon_304-netzwerk-routen-einrichten
+[4.2.1.4]:               #4214-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.2.1.5]:               #4215-operationen-an-der-außenschnittstelle
+[4.2.1.6]:               #4216-betriebsaspekte
+[4.2.2]:                 #422-dhcp-server
+[4.2.2.1]:               #4221-funktionsmerkmalweite-aspekte
+[4.2.2.2]:               #4222-durch-ereignisse-ausgelöste-reaktionen
+[4.2.2.3]:               #4223-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.2.2.4]:               #4224-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.2.2.5]:               #4225-operationen-an-der-außenschnittstelle
+[4.2.2.5.1]:             #42251-liefere-netzwerkinformationen-über-dhcp
+[4.2.2.6]:               #4226-betriebsaspekte
+[4.2.2.6.1]:             #42261-tuc_kon_343-initialisierung-dhcp-server
+[4.2.3]:                 #423-dhcp-client
+[4.2.3.1]:               #4231-funktionsmerkmalweite-aspekte
+[4.2.3.2]:               #4232-durch-ereignisse-ausgelöste-reaktionen
+[4.2.3.3]:               #4233-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.2.3.3.1]:             #42331-tuc_kon_341-dhcp-informationen-beziehen
+[4.2.3.4]:               #4234-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.2.3.5]:               #4235-operationen-an-der-außenschnittstelle
+[4.2.3.6]:               #4236-betriebsaspekte
+[4.2.4]:                 #424-vpn-client
+[4.2.4.1]:               #4241-funktionsmerkmalweite-aspekte
+[4.2.4.2]:               #4242-durch-ereignisse-ausgelöste-reaktionen
+[4.2.4.3]:               #4243-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.2.4.3.1]:             #42431-tuc_kon_321-verbindung-zu-dem-vpn-konzentrator-der-ti-aufbauen
+[4.2.4.3.2]:             #42432-tuc_kon_322-verbindung-zu-dem-vpn-konzentrator-des-sis-aufbauen
+[4.2.4.4]:               #4244-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.2.4.5]:               #4245-operationen-an-der-außenschnittstelle
+[4.2.4.6]:               #4246-betriebsaspekte
+[4.2.5]:                 #425-zeitdienst
+[4.2.5.1]:               #4251-funktionsmerkmalweite-aspekte
+[4.2.5.2]:               #4252-durch-ereignisse-ausgelöste-reaktionen
+[4.2.5.3]:               #4253-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.2.5.4]:               #4254-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.2.5.4.1]:             #42541-tuc_kon_351-liefere-systemzeit”
+[4.2.5.5]:               #4255-operationen-an-der-außenschnittstelle
+[4.2.5.5.1]:             #42551-sync_time
+[4.2.5.6]:               #4256-betriebsaspekte
+[4.2.5.6.1]:             #42561-tuc_kon_352-initialisierung-zeitdienst
+[4.2.6]:                 #426-namensdienst-und-dienstlokalisierung
+[4.2.6.1]:               #4261-funktionsmerkmalweite-aspekte
+[4.2.6.2]:               #4262-durch-ereignisse-ausgelöste-reaktionen
+[4.2.6.3]:               #4263-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.2.6.4]:               #4264-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.2.6.4.1]:             #42641-tuc_kon_361-dns-namen-auflösen
+[4.2.6.4.2]:             #42642-tuc_kon_362-liste-der-dienste-abrufen
+[4.2.6.4.3]:             #42643-tuc_kon_363-dienstdetails-abrufen
+[4.2.6.5]:               #4265-operationen-an-der-außenschnittstelle
+[4.2.6.5.1]:             #42651-getipaddress
+[4.2.6.6]:               #4266-betriebsaspekte
+[4.2.7]:                 #427-optionale-verwendung-von-ipv6
+[4.3]:                   #43-konnektormanagement
+[4.3.1]:                 #431-zugang-und-benutzerverwaltung-des-konnektormanagements
+[4.3.2]:                 #432-konnektorname-und-versionsinformationen
+[4.3.3]:                 #433-konfigurationsdaten-persistieren-sowie-export-import
+[4.3.4]:                 #434-administration-von-fachmodulen
+[4.3.5]:                 #435-neustart-und-werksreset
+[4.3.6]:                 #436-leistungsumfänge-und-standalone-szenarios
+[4.3.7]:                 #437-online-anbindung-verwalten
+[4.3.8]:                 #438-re-registrierung-des-konnektors-mit-weiterem-nk-zertifikat
+[4.3.9]:                 #439-remote-management-(optional)
+[4.3.10]:                #4310-software--und-konfigurationsaktualisierung-(ksr-client)
+[4.3.10.1]:              #43101-funktionsmerkmalweite-aspekte
+[4.3.10.2]:              #43102-durch-ereignisse-ausgelöste-reaktionen
+[4.3.10.3]:              #43103-interne-tucs-nicht-durch-fachmodule-nutzbar
+[4.3.10.3.1]:            #431031-tuc_kon_280-konnektoraktualisierung-durchführen
+[4.3.10.3.2]:            #431032-tuc_kon_281-kartenterminalaktualisierung-anstoßen
+[4.3.10.3.3]:            #431033-tuc_kon_282-updateinformationen-beziehen
+[4.3.10.3.4]:            #431034-tuc_kon_283-infrastruktur-konfiguration-aktualisieren
+[4.3.10.4]:              #43104-interne-tucs-auch-durch-fachmodule-nutzbar
+[4.3.10.4.1]:            #431041-tuc_kon_285-updateinformationen-für-fachmodul-beziehen
+[4.3.10.4.2]:            #431042-tuc_kon_286-paket-für-fachmodul-laden
+[4.3.10.5]:              #43105-operationen-an-der-außenschnittstelle
+[4.3.10.6]:              #43106-betriebsaspekte
+[4.3.10.6.1]:            #431061-tuc_kon_284-ksr-client-initialisieren
+[4.3.11]:                #4311-konnektorstatus
+[4.4]:                   #44-hardware-merkmale-des-konnektors
+[5]:                     #5-anhang-a-–-verzeichnisse
+[5.1]:                   #51-abkürzungen
+[5.2]:                   #52-glossar
+[5.3]:                   #53-abbildungsverzeichnis
+[5.4]:                   #54-tabellenverzeichnis
+[5.5]:                   #55-referenzierte-dokumente
+[5.5.1]:                 #551-dokumente-der-gematik
+[5.5.2]:                 #552-weitere-dokumente
+[6]:                     #6-anhang-b-–-profilierung-der-signatur--und-verschlüsselungsformate-(normativ)
+[6.1]:                   #61-profilierung-der-verschlüsselungsformate
+[6.2]:                   #62-profilierung-der-signaturformate
+[6.3]:                   #63-profilierung-verificationreport
+[6.4]:                   #64-profilierung-der-dokumentenformate-und-nachrichten
+[7]:                     #7-anhang-f-–-übersicht-events
+[8]:                     #8-anhang-h-–-mapping-von-architektur-der-ti-plattform-auf-konnektorspezifikation
+[9]:                     #9-anhang-i-–-umsetzungshinweise-(informativ)
+[9.1]:                   #91-systemüberblick
+[9.1.1]:                 #911-–-hinweise-zur-sicherheitsevaluierung-nach-common-criteria
+[9.1.1.1]:               #9111-separationsmechanismen-des-konnektors
+[9.1.1.2]:               #9112-granularität-der-tsf
+[9.2]:                   #92-übergreifende-festlegungen
+[9.2.1]:                 #921-interne-mechanismen
+[9.2.1.1]:               #9211-zufallszahlen-und-schlüssel
+[9.3]:                   #93-funktionsmerkmale
+[9.3.1]:                 #931-anwendungskonnektor
+[9.3.1.1]:               #9311-administration-des-informationsmodells
+[9.3.1.2]:               #9312-vorgehensvariante-für-das-handling-von-cardsessions
+[9.3.1.3]:               #9313-darstellung-von-terminal-anzeigen-auf-einem-kartenterminal
+[10]:                    #10-anhang-k-–-szenarien-im-dezentralen-umfeld
+[10.1]:                  #101-szenario-1-einfache-installation-ohne-spezielle-anforderungen-und-ohne-bestehende-infrastruktur
+[10.1.1]:                #1011-beschreibung-des-szenarios
+[10.1.2]:                #1012-voraussetzungen
+[10.1.3]:                #1013-auswirkungen
+[10.2]:                  #102-szenario-2-installation-mit-mehreren-behandlungsräumen
+[10.2.1]:                #1021-beschreibung-des-szenarios
+[10.2.2]:                #1022-voraussetzungen
+[10.2.3]:                #1023-auswirkungen
+[10.3]:                  #103-szenario-3-integration-in-bestehende-infrastruktur-ohne-netzsegmentierung
+[10.3.1]:                #1031-beschreibung-des-szenarios
+[10.3.2]:                #1032-voraussetzungen
+[10.3.3]:                #1033-auswirkungen
+[10.4]:                  #104-szenario-4-integration-in-bestehende-infrastruktur-mit-netzsegmentierung
+[10.4.1]:                #1041-beschreibung-des-szenarios
+[10.4.2]:                #1042-voraussetzungen
+[10.4.3]:                #1043-auswirkungen
+[10.5]:                  #105-szenario-5-zentral-gesteckter-hba
+[10.5.1]:                #1051-beschreibung-des-szenarios
+[10.5.2]:                #1052-voraussetzungen
+[10.5.3]:                #1053-auswirkung
+[10.6]:                  #106-szenario-6-installation-mit-zentralem-ps
+[10.6.1]:                #1061-beschreibung-des-szenarios
+[10.6.2]:                #1062-voraussetzungen
+[10.6.3]:                #1063-auswirkungen
+[10.7]:                  #107-szenario-7-mehrere-mandanten
+[10.7.1]:                #1071-beschreibung-des-szenarios
+[10.7.2]:                #1072-voraussetzungen
+[10.7.3]:                #1073-auswirkungen
+[10.8]:                  #108-szenario-9-standalone-konnektor---physische-trennung
+[10.8.1]:                #1081-beschreibung-des-szenarios
+[10.8.2]:                #1082-voraussetzungen
+[10.8.3]:                #1083-auswirkung
+[11]:                    #11-anhang-l-–-datentypen-von-eingangs--und-ausgangsdaten
 
 --------------------
 IMAGE REFERENCE LIST
 --------------------
 
-[Abbildung-1]:          PIC_KON_116 Schnittstellen des Konnektors von und.. (&94867376797496) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAs8AAAN7CAIAAAA1PO...
-[Abbildung-2]:          PIC_KON_117 Logische Zerlegung des Konnektors in .. (&94867386208824) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABBgAAASQCAYAAABWAv...
-[Abbildung-3]:          PIC_KON_107 XML-Struktur des Status-Elements eine.. (&94867378779160) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAApUAAAGBCAMAAAAAIL...
-[Abbildung-4]:          PIC_Kon_100 Informationsmodell des Konnektors       (&94867378972328) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAO2EAYAAADH7s...
-[Abbildung-5]:          PIC_KON_101 Aufrufkontext der Operation             (&94867380576992) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAADCCAMAAABjR7...
-[Abbildung-6]:          PIC_KON_118 Aktivitätsdiagramm zu „TUC_KON_000 Pr.. (&94867381068120) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAPGEAYAAADMzM...
-[Img-007]:                                                                  (&94867382616816) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAgAAAJxCAIAAABABh...
-[Abbildung-7]:          PIC_KON_071 Korrelationszustände eines eHealth-KT   (&94867383383456) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAZAEAYAAABWHR...
-[Img-009]:                                                                  (&94867384446768) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAARhEAYAAAANct...
-[Abbildung-9]:          PIC_KON_057 Aktivitätsdiagramm zu „PaireKartenter.. (&94867385575304) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAP2EAYAAADIts...
-[Img-011]:                                                                  (&94867391100920) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAPqEAYAAAC8og...
-[Img-012]:                                                                  (&94867397696544) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAR/EAYAAAA0rr...
-[Abbildung-13]:         PIC_KON_058 Aktivitätsdiagramm „Daten hybrid vers.. (&94867400959904) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAy0AAAS2CAIAAACvdN...
-[Img-014]:                                                                  (&94867401211480) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAVoEAYAAACMCo...
-[Abbildung-15]:         PIC_KON_103 Use Case Diagramm Signaturdienst (non.. (&94867403436088) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvgAAAIcCAIAAAAMlU...
-[Abbildung-16]:         PIC_KON_104 Use Case Diagramm Signaturdienst (QES)  (&94867403440152) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAGdEAYAAAA9Gi...
-[Abbildung-17]:         PIC_KON_102                                         (&94867403443920) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA2gAAAGTCAIAAADSvq...
-[Img-018]:                                                                  (&94867404558328) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAQFEAYAAACeF5...
-[Img-019]:                                                                  (&94867406442488) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAREEAYAAABaE0...
-[Abbildung-20]:         PIC_KON_118 Aufbau und Struktur der Protokolldate.. (&94867412278408) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJNEAYAAAAezC...
-[Abbildung-21]:         PIC_KON_115 Kommunikationsregeln Konnektor          (&94867413860984) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+4AAAZKCAYAAABGUT...
-[Img-022]:                                                                  (&94867418010624) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxIAAAQDCAIAAAB8i4...
-[Abbildung-23]:         PIC_KON_120 Abbildung von CardSessions auf logisc.. (&94867423949944) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAFvEAYAAABlQJ...
-[Abbildung-24]:          Szenario einer einfachen Installation              (&94867423966032) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAG3EAYAAACbLQ...
-[Abbildung-25]:         Szenario einer Installation mit mehreren Behandlu.. (&94867424621600) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAH1EAYAAADZva...
-[Abbildung-26]:         Szenario einer Integration der TI Produkte in ein.. (&94867424633784) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIiEAYAAADnbp...
-[Abbildung-27]:         Szenario einer Integration der TI Produkte in ein.. (&94867424646928) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIxEAYAAABiLO...
-[Abbildung-28]:         Szenario mit zentral gesteckten HBA und SMC-B       (&94867426615616) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJeEAYAAACbjl...
-[Abbildung-29]:         Szenario mit zentralem Primärsystem als Clientsys.. (&94867426629120) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJhEAYAAABuou...
-[Abbildung-30]:         Szenario für den Zugriff                            (&94867427927216) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAHjEAYAAAAMMk...
-[Abbildung-31]:           Standalone-Szenario mit physischer Trennung im .. (&94867427941296) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAHvEAYAAAB78I...
+[Abbildung-1]:           PIC_KON_116 Schnittstellen des Konnektors von und.. (&93836986799928) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAs8AAAN7CAIAAAA1PO...
+[Abbildung-2]:           PIC_KON_117 Logische Zerlegung des Konnektors in .. (&93836996213480) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABBgAAASQCAYAAABWAv...
+[Abbildung-3]:           PIC_KON_107 XML-Struktur des Status-Elements eine.. (&93836988772248) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAApUAAAGBCAMAAAAAIL...
+[Abbildung-4]:           PIC_Kon_100 Informationsmodell des Konnektors       (&93836988965416) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAO2EAYAAADH7s...
+[Abbildung-5]:           PIC_KON_101 Aufrufkontext der Operation             (&93836990570080) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAADCCAMAAABjR7...
+[Abbildung-6]:           PIC_KON_118 Aktivitätsdiagramm zu „TUC_KON_000 Pr.. (&93836991061208) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAPGEAYAAADMzM...
+[Img-007]:                                                                   (&93836992609904) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAgAAAJxCAIAAABABh...
+[Abbildung-7]:           PIC_KON_071 Korrelationszustände eines eHealth-KT   (&93836993376544) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAZAEAYAAABWHR...
+[Img-009]:                                                                   (&93836994439856) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAARhEAYAAAANct...
+[Abbildung-9]:           PIC_KON_057 Aktivitätsdiagramm zu „PaireKartenter.. (&93836995568392) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAP2EAYAAADIts...
+[Img-011]:                                                                   (&93837001071256) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAPqEAYAAAC8og...
+[Img-012]:                                                                   (&93837007666880) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAR/EAYAAAA0rr...
+[Abbildung-13]:          PIC_KON_058 Aktivitätsdiagramm „Daten hybrid vers.. (&93837010930240) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAy0AAAS2CAIAAACvdN...
+[Img-014]:                                                                   (&93837011181816) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAVoEAYAAACMCo...
+[Abbildung-15]:          PIC_KON_103 Use Case Diagramm Signaturdienst (non.. (&93837013406424) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvgAAAIcCAIAAAAMlU...
+[Abbildung-16]:          PIC_KON_104 Use Case Diagramm Signaturdienst (QES)  (&93837013410488) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAGdEAYAAAA9Gi...
+[Abbildung-17]:          PIC_KON_102                                         (&93837013414256) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA2gAAAGTCAIAAADSvq...
+[Img-018]:                                                                   (&93837014528664) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAQFEAYAAACeF5...
+[Img-019]:                                                                   (&93837016412824) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAREEAYAAABaE0...
+[Abbildung-20]:          PIC_KON_118 Aufbau und Struktur der Protokolldate.. (&93837022248744) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJNEAYAAAAezC...
+[Abbildung-21]:          PIC_KON_115 Kommunikationsregeln Konnektor          (&93837023831320) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+4AAAZKCAYAAABGUT...
+[Img-022]:                                                                   (&93837027980960) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxIAAAQDCAIAAAB8i4...
+[Abbildung-23]:          PIC_KON_120 Abbildung von CardSessions auf logisc.. (&93837033920280) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAFvEAYAAABlQJ...
+[Abbildung-24]:           Szenario einer einfachen Installation              (&93837033936368) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAG3EAYAAACbLQ...
+[Abbildung-25]:          Szenario einer Installation mit mehreren Behandlu.. (&93837034591936) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAH1EAYAAADZva...
+[Abbildung-26]:          Szenario einer Integration der TI Produkte in ein.. (&93837034604120) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIiEAYAAADnbp...
+[Abbildung-27]:          Szenario einer Integration der TI Produkte in ein.. (&93837034617264) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIxEAYAAABiLO...
+[Abbildung-28]:          Szenario mit zentral gesteckten HBA und SMC-B       (&93837036585952) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJeEAYAAACbjl...
+[Abbildung-29]:          Szenario mit zentralem Primärsystem als Clientsys.. (&93837036599456) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJhEAYAAABuou...
+[Abbildung-30]:          Szenario für den Zugriff                            (&93837037897552) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAHjEAYAAAAMMk...
+[Abbildung-31]:            Standalone-Szenario mit physischer Trennung im .. (&93837037911632) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAHvEAYAAAB78I...
 
 --------------------
 TABLE REFERENCE LIST
 --------------------
 
-[Tbl-001]:              #Tbl-001 (&94867385875784)
-[Tbl-002]:              #Tbl-002 (&94867376719208)
-[Tbl-003]:              #Tbl-003 (&94867376760464)
-[Tabelle-1]:            #Tabelle-1 (&94867376834904)
-[Tabelle-2]:            #Tabelle-2 (&94867376847224)
-[Tabelle-3]:            #Tabelle-3 (&94867376865288)
-[Tabelle-4]:            #Tabelle-4 (&94867386693944)
-[Tabelle-5]:            #Tabelle-5 (&94867386857744)
-[Tabelle-6]:            #Tabelle-6 (&94867387480720)
-[Tabelle-7]:            #Tabelle-7 (&94867378329760)
-[Tbl-011]:              #Tbl-011 (&94867378349608)
-[Tabelle-9]:            #Tabelle-9 (&94867378407064)
-[Tabelle-10]:           #Tabelle-10 (&94867378574032)
-[Tabelle-11]:           #Tabelle-11 (&94867378633376)
-[Tabelle-12]:           #Tabelle-12 (&94867378831008)
-[Tabelle-13]:           #Tabelle-13 (&94867378977048)
-[Tabelle-14]:           #Tabelle-14 (&94867386320264)
-[Tabelle-15]:           #Tabelle-15 (&94867386369568)
-[Tabelle-16]:           #Tabelle-16 (&94867380384800)
-[Tabelle-17]:           #Tabelle-17 (&94867380583912)
-[Tabelle-18]:           #Tabelle-18 (&94867380659472)
-[Tabelle-19]:           #Tabelle-19 (&94867381075480)
-[Tabelle-20]:           #Tabelle-20 (&94867381761312)
-[Tabelle-21]:           #Tabelle-21 (&94867382205536)
-[Tabelle-22]:           #Tabelle-22 (&94867382400088)
-[Tabelle-23]:           #Tabelle-23 (&94867382487984)
-[Tabelle-24]:           #Tabelle-24 (&94867382544208)
-[Tbl-028]:              #Tbl-028 (&94867382618136)
-[Tabelle-26]:           #Tabelle-26 (&94867382846208)
-[Tabelle-27]:           #Tabelle-27 (&94867382898656)
-[Tabelle-28]:           #Tabelle-28 (&94867382989632)
-[Tbl-032]:              #Tbl-032 (&94867383008944)
-[Tabelle-30]:           #Tabelle-30 (&94867383261024)
-[Tabelle-31]:           #Tabelle-31 (&94867384076296)
-[Tabelle-32]:           #Tabelle-32 (&94867384102536)
-[Tabelle-33]:           #Tabelle-33 (&94867384238080)
-[Tabelle-34]:           #Tabelle-34 (&94867384451064)
-[Tabelle-35]:           #Tabelle-35 (&94867385252208)
-[Tabelle-36]:           #Tabelle-36 (&94867385342128)
-[Tabelle-37]:           #Tabelle-37 (&94867385377376)
-[Tabelle-38]:           #Tabelle-38 (&94867385546904)
-[Tabelle-39]:           #Tabelle-39 (&94867385583344)
-[Tabelle-40]:           #Tabelle-40 (&94867385660816)
-[Tabelle-41]:           #Tabelle-41 (&94867385753144)
-[Tabelle-42]:           #Tabelle-42 (&94867388666304)
-[Tabelle-43]:           #Tabelle-43 (&94867388745752)
-[Tabelle-44]:           #Tabelle-44 (&94867388852872)
-[Tabelle-45]:           #Tabelle-45 (&94867388927000)
-[Tabelle-46]:           #Tabelle-46 (&94867388984792)
-[Tabelle-47]:           #Tabelle-47 (&94867389092536)
-[Tabelle-48]:           #Tabelle-48 (&94867389112152)
-[Tabelle-49]:           #Tabelle-49 (&94867389147312)
-[Tabelle-50]:           #Tabelle-50 (&94867389205928)
-[Tabelle-51]:           #Tabelle-51 (&94867389240080)
-[Tabelle-52]:           #Tabelle-52 (&94867389313760)
-[Tabelle-53]:           #Tabelle-53 (&94867389364336)
-[Tabelle-54]:           #Tabelle-54 (&94867389401144)
-[Tabelle-55]:           #Tabelle-55 (&94867389438760)
-[Tabelle-56]:           #Tabelle-56 (&94867389492704)
-[Tabelle-57]:           #Tabelle-57 (&94867389566400)
-[Tabelle-58]:           #Tabelle-58 (&94867389671144)
-[Tabelle-59]:           #Tabelle-59 (&94867389805000)
-[Tabelle-60]:           #Tabelle-60 (&94867390288888)
-[Tabelle-61]:           #Tabelle-61 (&94867390789648)
-[Tabelle-62]:           #Tabelle-62 (&94867390859408)
-[Tabelle-63]:           #Tabelle-63 (&94867390916072)
-[Tabelle-64]:           #Tabelle-64 (&94867390935096)
-[Tabelle-65]:           #Tabelle-65 (&94867391105040)
-[Tabelle-66]:           #Tabelle-66 (&94867391929800)
-[Tabelle-67]:           #Tabelle-67 (&94867392062352)
-[Tabelle-68]:           #Tabelle-68 (&94867392196952)
-[Tabelle-69]:           #Tabelle-69 (&94867392337248)
-[Tabelle-70]:           #Tabelle-70 (&94867392465424)
-[Tabelle-71]:           #Tabelle-71 (&94867392525336)
-[Tabelle-72]:           #Tabelle-72 (&94867392549592)
-[Tabelle-73]:           #Tabelle-73 (&94867392741488)
-[Tabelle-74]:           #Tabelle-74 (&94867392759064)
-[Tabelle-75]:           #Tabelle-75 (&94867392807000)
-[Tabelle-76]:           #Tabelle-76 (&94867392871264)
-[Tabelle-77]:           #Tabelle-77 (&94867392902192)
-[Tabelle-78]:           #Tabelle-78 (&94867393042144)
-[Tabelle-79]:           #Tabelle-79 (&94867393057144)
-[Tabelle-80]:           #Tabelle-80 (&94867393136640)
-[Tabelle-81]:           #Tabelle-81 (&94867393194312)
-[Tabelle-82]:           #Tabelle-82 (&94867393314928)
-[Tabelle-83]:           #Tabelle-83 (&94867393350896)
-[Tabelle-84]:           #Tabelle-84 (&94867393431976)
-[Tabelle-85]:           #Tabelle-85 (&94867393484200)
-[Tabelle-86]:           #Tabelle-86 (&94867393604008)
-[Tabelle-87]:           #Tabelle-87 (&94867393656528)
-[Tabelle-88]:           #Tabelle-88 (&94867393726552)
-[Tabelle-89]:           #Tabelle-89 (&94867393773624)
-[Tabelle-90]:           #Tabelle-90 (&94867393893536)
-[Tabelle-91]:           #Tabelle-91 (&94867393940368)
-[Tabelle-92]:           #Tabelle-92 (&94867394012280)
-[Tabelle-93]:           #Tabelle-93 (&94867394064144)
-[Tabelle-94]:           #Tabelle-94 (&94867394183496)
-[Tabelle-95]:           #Tabelle-95 (&94867394224336)
-[Tabelle-96]:           #Tabelle-96 (&94867394297000)
-[Tabelle-97]:           #Tabelle-97 (&94867394338640)
-[Tabelle-98]:           #Tabelle-98 (&94867394456632)
-[Tabelle-99]:           #Tabelle-99 (&94867394476408)
-[Tabelle-100]:          #Tabelle-100 (&94867394538584)
-[Tabelle-101]:          #Tabelle-101 (&94867394563296)
-[Tabelle-102]:          #Tabelle-102 (&94867394628496)
-[Tabelle-103]:          #Tabelle-103 (&94867395035016)
-[Tabelle-104]:          #Tabelle-104 (&94867395107440)
-[Tabelle-105]:          #Tabelle-105 (&94867395148504)
-[Tabelle-106]:          #Tabelle-106 (&94867395215456)
-[Tabelle-107]:          #Tabelle-107 (&94867395294976)
-[Tabelle-108]:          #Tabelle-108 (&94867395356104)
-[Tabelle-109]:          #Tabelle-109 (&94867395380976)
-[Tabelle-110]:          #Tabelle-110 (&94867395436592)
-[Tabelle-111]:          #Tabelle-111 (&94867395461688)
-[Tabelle-112]:          #Tabelle-112 (&94867395580576)
-[Tabelle-113]:          #Tabelle-113 (&94867395611320)
-[Tabelle-114]:          #Tabelle-114 (&94867395660888)
-[Tabelle-115]:          #Tabelle-115 (&94867395791640)
-[Tabelle-116]:          #Tabelle-116 (&94867395843784)
-[Tabelle-117]:          #Tabelle-117 (&94867395874000)
-[Tabelle-118]:          #Tabelle-118 (&94867396106176)
-[Tabelle-119]:          #Tabelle-119 (&94867396152608)
-[Tabelle-120]:          #Tabelle-120 (&94867396183688)
-[Tabelle-121]:          #Tabelle-121 (&94867396428896)
-[Tabelle-122]:          #Tabelle-122 (&94867396469760)
-[Tabelle-123]:          #Tabelle-123 (&94867396506408)
-[Tabelle-124]:          #Tabelle-124 (&94867396635152)
-[Tabelle-125]:          #Tabelle-125 (&94867396682944)
-[Tabelle-126]:          #Tabelle-126 (&94867396707656)
-[Tabelle-127]:          #Tabelle-127 (&94867396834984)
-[Tabelle-128]:          #Tabelle-128 (&94867396883896)
-[Tabelle-129]:          #Tabelle-129 (&94867396914688)
-[Tabelle-130]:          #Tabelle-130 (&94867396991856)
-[Tabelle-131]:          #Tabelle-131 (&94867397091120)
-[Tabelle-132]:          #Tabelle-132 (&94867397122288)
-[Tabelle-133]:          #Tabelle-133 (&94867397137840)
-[Tbl-137]:              #Tbl-137 (&94867397236400)
-[Tabelle-135]:          #Tabelle-135 (&94867397561104)
-[Tabelle-136]:          #Tabelle-136 (&94867398443792)
-[Tabelle-137]:          #Tabelle-137 (&94867398462872)
-[Tabelle-138]:          #Tabelle-138 (&94867398527080)
-[Tabelle-139]:          #Tabelle-139 (&94867398604912)
-[Tabelle-140]:          #Tabelle-140 (&94867398624784)
-[Tabelle-141]:          #Tabelle-141 (&94867398757224)
-[Tabelle-142]:          #Tabelle-142 (&94867398798568)
-[Tbl-146]:              #Tbl-146 (&94867398850904)
-[Tbl-147]:              #Tbl-147 (&94867398981248)
-[Tbl-148]:              #Tbl-148 (&94867399022768)
-[Tabelle-146]:          #Tabelle-146 (&94867399041016)
-[Tabelle-147]:          #Tabelle-147 (&94867399251880)
-[Tabelle-148]:          #Tabelle-148 (&94867399344624)
-[Tabelle-149]:          #Tabelle-149 (&94867399363528)
-[Tabelle-150]:          #Tabelle-150 (&94867399533928)
-[Tabelle-151]:          #Tabelle-151 (&94867399586336)
-[Tbl-155]:              #Tbl-155 (&94867399607840)
-[Tbl-156]:              #Tbl-156 (&94867399681584)
-[Tbl-157]:              #Tbl-157 (&94867399777640)
-[Tbl-158]:              #Tbl-158 (&94867399798256)
-[Tbl-159]:              #Tbl-159 (&94867399851096)
-[Tbl-160]:              #Tbl-160 (&94867400209224)
-[Tbl-161]:              #Tbl-161 (&94867400234856)
-[Tbl-162]:              #Tbl-162 (&94867400342136)
-[Tbl-163]:              #Tbl-163 (&94867400385968)
-[Tbl-164]:              #Tbl-164 (&94867400411600)
-[Tbl-165]:              #Tbl-165 (&94867400533192)
-[Tbl-166]:              #Tbl-166 (&94867400569400)
-[Tbl-167]:              #Tbl-167 (&94867400596864)
-[Tbl-168]:              #Tbl-168 (&94867400636280)
-[Tabelle-166]:          #Tabelle-166 (&94867400663584)
-[Tabelle-167]:          #Tabelle-167 (&94867400807016)
-[Tabelle-168]:          #Tabelle-168 (&94867400830296)
-[Tabelle-169]:          #Tabelle-169 (&94867400965872)
-[Tabelle-170]:          #Tabelle-170 (&94867401104472)
-[Tabelle-171]:          #Tabelle-171 (&94867401149016)
-[Tabelle-172]:          #Tabelle-172 (&94867401215472)
-[Tabelle-173]:          #Tabelle-173 (&94867401984296)
-[Tabelle-174]:          #Tabelle-174 (&94867402040280)
-[Tabelle-175]:          #Tabelle-175 (&94867402059760)
-[Tabelle-176]:          #Tabelle-176 (&94867402106640)
-[Tabelle-177]:          #Tabelle-177 (&94867402125864)
-[Tabelle-178]:          #Tabelle-178 (&94867402234280)
-[Tabelle-179]:          #Tabelle-179 (&94867402289032)
-[Tabelle-180]:          #Tabelle-180 (&94867402323000)
-[Tabelle-181]:          #Tabelle-181 (&94867402502864)
-[Tabelle-182]:          #Tabelle-182 (&94867402538816)
-[Tabelle-183]:          #Tabelle-183 (&94867402622552)
-[Tabelle-184]:          #Tabelle-184 (&94867402689136)
-[Tabelle-185]:          #Tabelle-185 (&94867402720576)
-[Tabelle-186]:          #Tabelle-186 (&94867402815440)
-[Tabelle-187]:          #Tabelle-187 (&94867402865696)
-[Tabelle-188]:          #Tabelle-188 (&94867403013400)
-[Tabelle-189]:          #Tabelle-189 (&94867403106640)
-[Tbl-193]:              #Tbl-193 (&94867403138280)
-[Tabelle-191]:          #Tabelle-191 (&94867403234328)
-[Tabelle-192]:          #Tabelle-192 (&94867403252888)
-[Tabelle-193]:          #Tabelle-193 (&94867403451888)
-[Tabelle-194]:          #Tabelle-194 (&94867404198024)
-[Tabelle-195]:          #Tabelle-195 (&94867404215776)
-[Tabelle-196]:          #Tabelle-196 (&94867404278496)
-[Tabelle-197]:          #Tabelle-197 (&94867404291920)
-[Tabelle-198]:          #Tabelle-198 (&94867404399624)
-[Tabelle-199]:          #Tabelle-199 (&94867404418880)
-[Tabelle-200]:          #Tabelle-200 (&94867404476912)
-[Tabelle-201]:          #Tabelle-201 (&94867404491600)
-[Tabelle-202]:          #Tabelle-202 (&94867404562808)
-[Tabelle-203]:          #Tabelle-203 (&94867405118408)
-[Tabelle-204]:          #Tabelle-204 (&94867405173048)
-[Tabelle-205]:          #Tabelle-205 (&94867405193040)
-[Tabelle-206]:          #Tabelle-206 (&94867405276616)
-[Tabelle-207]:          #Tabelle-207 (&94867405305864)
-[Tabelle-208]:          #Tabelle-208 (&94867405424792)
-[Tabelle-209]:          #Tabelle-209 (&94867405455136)
-[Tabelle-210]:          #Tabelle-210 (&94867405528112)
-[Tabelle-211]:          #Tabelle-211 (&94867405559992)
-[Tabelle-212]:          #Tabelle-212 (&94867406088664)
-[Tabelle-213]:          #Tabelle-213 (&94867406131936)
-[Tabelle-214]:          #Tabelle-214 (&94867406186336)
-[Tabelle-215]:          #Tabelle-215 (&94867406220640)
-[Tabelle-216]:          #Tabelle-216 (&94867406327840)
-[Tabelle-217]:          #Tabelle-217 (&94867406347408)
-[Tabelle-218]:          #Tabelle-218 (&94867406447688)
-[Tabelle-219]:          #Tabelle-219 (&94867407140576)
-[Tabelle-220]:          #Tabelle-220 (&94867407200344)
-[Tabelle-221]:          #Tabelle-221 (&94867407321504)
-[Tabelle-222]:          #Tabelle-222 (&94867407418064)
-[Tabelle-223]:          #Tabelle-223 (&94867407477072)
-[Tabelle-224]:          #Tabelle-224 (&94867407580888)
-[Tabelle-225]:          #Tabelle-225 (&94867407684120)
-[Tabelle-226]:          #Tabelle-226 (&94867407748416)
-[Tabelle-227]:          #Tabelle-227 (&94867407794224)
-[Tabelle-228]:          #Tabelle-228 (&94867407869776)
-[Tabelle-229]:          #Tabelle-229 (&94867407953632)
-[Tabelle-230]:          #Tabelle-230 (&94867408017336)
-[Tabelle-231]:          #Tabelle-231 (&94867408033464)
-[Tabelle-232]:          #Tabelle-232 (&94867408083264)
-[Tabelle-233]:          #Tabelle-233 (&94867408436896)
-[Tabelle-234]:          #Tabelle-234 (&94867408479248)
-[Tabelle-235]:          #Tabelle-235 (&94867408577696)
-[Tabelle-236]:          #Tabelle-236 (&94867408806544)
-[Tabelle-237]:          #Tabelle-237 (&94867408897816)
-[Tabelle-238]:          #Tabelle-238 (&94867408930632)
-[Tabelle-239]:          #Tabelle-239 (&94867408965064)
-[Tabelle-240]:          #Tabelle-240 (&94867408980280)
-[Tabelle-241]:          #Tabelle-241 (&94867409004328)
-[Tabelle-242]:          #Tabelle-242 (&94867409088152)
-[Tabelle-243]:          #Tabelle-243 (&94867409105240)
-[Tabelle-244]:          #Tabelle-244 (&94867409125416)
-[Tabelle-245]:          #Tabelle-245 (&94867409165288)
-[Tabelle-246]:          #Tabelle-246 (&94867409197744)
-[Tabelle-247]:          #Tabelle-247 (&94867409227232)
-[Tabelle-248]:          #Tabelle-248 (&94867409314720)
-[Tabelle-249]:          #Tabelle-249 (&94867409332792)
-[Tabelle-250]:          #Tabelle-250 (&94867409352776)
-[Tabelle-251]:          #Tabelle-251 (&94867409414208)
-[Tabelle-252]:          #Tabelle-252 (&94867409445000)
-[Tabelle-253]:          #Tabelle-253 (&94867409512072)
-[Tabelle-254]:          #Tabelle-254 (&94867409554784)
-[Tabelle-255]:          #Tabelle-255 (&94867409612736)
-[Tabelle-256]:          #Tabelle-256 (&94867409715536)
-[Tbl-260]:              #Tbl-260 (&94867409787192)
-[Tabelle-258]:          #Tabelle-258 (&94867409837872)
-[Tabelle-259]:          #Tabelle-259 (&94867409859936)
-[Tabelle-260]:          #Tabelle-260 (&94867409937976)
-[Tabelle-261]:          #Tabelle-261 (&94867409992232)
-[Tabelle-262]:          #Tabelle-262 (&94867410103592)
-[Tabelle-263]:          #Tabelle-263 (&94867410128352)
-[Tabelle-264]:          #Tabelle-264 (&94867410525256)
-[Tabelle-265]:          #Tabelle-265 (&94867410543264)
-[Tabelle-266]:          #Tabelle-266 (&94867410644048)
-[Tabelle-267]:          #Tabelle-267 (&94867410723912)
-[Tabelle-268]:          #Tabelle-268 (&94867410836712)
-[Tabelle-269]:          #Tabelle-269 (&94867410860056)
-[Tabelle-270]:          #Tabelle-270 (&94867410977096)
-[Tabelle-271]:          #Tabelle-271 (&94867410999920)
-[Tabelle-272]:          #Tabelle-272 (&94867411080368)
-[Tabelle-273]:          #Tabelle-273 (&94867411116256)
-[Tabelle-274]:          #Tabelle-274 (&94867411156512)
-[Tabelle-275]:          #Tabelle-275 (&94867411249056)
-[Tabelle-276]:          #Tabelle-276 (&94867411291744)
-[Tabelle-277]:          #Tabelle-277 (&94867411321208)
-[Tabelle-278]:          #Tabelle-278 (&94867411502752)
-[Tabelle-279]:          #Tabelle-279 (&94867411544440)
-[Tbl-283]:              #Tbl-283 (&94867411581048)
-[Tbl-284]:              #Tbl-284 (&94867411686592)
-[Tbl-285]:              #Tbl-285 (&94867411759248)
-[Tabelle-283]:          #Tabelle-283 (&94867411778248)
-[Tabelle-284]:          #Tabelle-284 (&94867411884656)
-[Tabelle-285]:          #Tabelle-285 (&94867411897784)
-[Tabelle-286]:          #Tabelle-286 (&94867411957408)
-[Tabelle-287]:          #Tabelle-287 (&94867412028568)
-[Tabelle-288]:          #Tabelle-288 (&94867412150408)
-[Tabelle-289]:          #Tabelle-289 (&94867412240104)
-[Tabelle-290]:          #Tabelle-290 (&94867412714936)
-[Tabelle-291]:          #Tabelle-291 (&94867412763808)
-[Tabelle-292]:          #Tabelle-292 (&94867412823680)
-[Tabelle-293]:          #Tabelle-293 (&94867412874376)
-[Tabelle-294]:          #Tabelle-294 (&94867412996016)
-[Tabelle-295]:          #Tabelle-295 (&94867413024064)
-[Tabelle-296]:          #Tabelle-296 (&94867413071416)
-[Tabelle-297]:          #Tabelle-297 (&94867413108344)
-[Tabelle-298]:          #Tabelle-298 (&94867413152992)
-[Tabelle-299]:          #Tabelle-299 (&94867413203344)
-[Tabelle-300]:          #Tabelle-300 (&94867413305608)
-[Tabelle-301]:          #Tabelle-301 (&94867413369528)
-[Tabelle-302]:          #Tabelle-302 (&94867413399304)
-[Tabelle-303]:          #Tabelle-303 (&94867413432912)
-[Tabelle-304]:          #Tabelle-304 (&94867413599672)
-[Tabelle-305]:          #Tabelle-305 (&94867413633512)
-[Tabelle-306]:          #Tabelle-306 (&94867413654896)
-[Tabelle-307]:          #Tabelle-307 (&94867413780832)
-[Tabelle-308]:          #Tabelle-308 (&94867413833096)
-[Tabelle-309]:          #Tabelle-309 (&94867413845360)
-[Tabelle-310]:          #Tabelle-310 (&94867414331416)
-[Tabelle-311]:          #Tabelle-311 (&94867414389480)
-[Tabelle-312]:          #Tabelle-312 (&94867414413888)
-[Tabelle-313]:          #Tabelle-313 (&94867414511008)
-[Tabelle-314]:          #Tabelle-314 (&94867414535416)
-[Tabelle-315]:          #Tabelle-315 (&94867414632112)
-[Tabelle-316]:          #Tabelle-316 (&94867414671504)
-[Tabelle-317]:          #Tabelle-317 (&94867414701792)
-[Tabelle-318]:          #Tabelle-318 (&94867414725000)
-[Tabelle-319]:          #Tabelle-319 (&94867414807832)
-[Tabelle-320]:          #Tabelle-320 (&94867414828456)
-[Tabelle-321]:          #Tabelle-321 (&94867414944312)
-[Tabelle-322]:          #Tabelle-322 (&94867414971560)
-[Tbl-326]:              #Tbl-326 (&94867415050208)
-[Tabelle-324]:          #Tabelle-324 (&94867415114688)
-[Tabelle-325]:          #Tabelle-325 (&94867415472272)
-[Tabelle-326]:          #Tabelle-326 (&94867415554816)
-[Tabelle-327]:          #Tabelle-327 (&94867415600696)
-[Tabelle-328]:          #Tabelle-328 (&94867415637000)
-[Tabelle-329]:          #Tabelle-329 (&94867415741152)
-[Tabelle-330]:          #Tabelle-330 (&94867415768648)
-[Tabelle-331]:          #Tabelle-331 (&94867415834136)
-[Tabelle-332]:          #Tabelle-332 (&94867415897496)
-[Tabelle-333]:          #Tabelle-333 (&94867415933824)
-[Tabelle-334]:          #Tabelle-334 (&94867416044696)
-[Tabelle-335]:          #Tabelle-335 (&94867416089608)
-[Tabelle-336]:          #Tabelle-336 (&94867416181584)
-[Tabelle-337]:          #Tabelle-337 (&94867416209552)
-[Tabelle-338]:          #Tabelle-338 (&94867416303232)
-[Tabelle-339]:          #Tabelle-339 (&94867416321480)
-[Tabelle-340]:          #Tabelle-340 (&94867416355368)
-[Tabelle-341]:          #Tabelle-341 (&94867416371864)
-[Tabelle-342]:          #Tabelle-342 (&94867416391416)
-[Tabelle-343]:          #Tabelle-343 (&94867416449912)
-[Tabelle-344]:          #Tabelle-344 (&94867416478888)
-[Tabelle-345]:          #Tabelle-345 (&94867416585928)
-[Tabelle-346]:          #Tabelle-346 (&94867416627088)
-[Tabelle-347]:          #Tabelle-347 (&94867416650128)
-[Tabelle-348]:          #Tabelle-348 (&94867416697168)
-[Tabelle-349]:          #Tabelle-349 (&94867416721712)
-[Tabelle-350]:          #Tabelle-350 (&94867416766048)
-[Tabelle-351]:          #Tabelle-351 (&94867416840728)
-[Tabelle-352]:          #Tabelle-352 (&94867416891240)
-[Tabelle-353]:          #Tabelle-353 (&94867416917216)
-[Tabelle-354]:          #Tabelle-354 (&94867416949568)
-[Tabelle-355]:          #Tabelle-355 (&94867416987616)
-[Tabelle-356]:          #Tabelle-356 (&94867417075104)
-[Tabelle-357]:          #Tabelle-357 (&94867417184744)
-[Tabelle-358]:          #Tabelle-358 (&94867417209096)
-[Tabelle-359]:          #Tabelle-359 (&94867417224216)
-[Tabelle-360]:          #Tabelle-360 (&94867417363504)
-[Tabelle-361]:          #Tabelle-361 (&94867417398016)
-[Tbl-365]:              #Tbl-365 (&94867417431096)
-[Tbl-366]:              #Tbl-366 (&94867417456680)
-[Tbl-367]:              #Tbl-367 (&94867417473064)
-[Tbl-368]:              #Tbl-368 (&94867417486096)
-[Tabelle -366]:         #Tabelle -366 (&94867417558992)
-[Tbl-370]:              #Tbl-370 (&94867417660288)
-[Tabelle-368]:          #Tabelle-368 (&94867417711312)
-[Tbl-372]:              #Tbl-372 (&94867417761672)
-[Tabelle-370]:          #Tabelle-370 (&94867417835096)
-[Tabelle-371]:          #Tabelle-371 (&94867417977336)
-[Tabelle-372]:          #Tabelle-372 (&94867418019504)
-[Tabelle-373]:          #Tabelle-373 (&94867418211352)
-[Tabelle-374]:          #Tabelle-374 (&94867418236240)
-[Tabelle-375]:          #Tabelle-375 (&94867418303128)
-[Tabelle-376]:          #Tabelle-376 (&94867418333328)
-[Tabelle-377]:          #Tabelle-377 (&94867418463984)
-[Tabelle-378]:          #Tabelle-378 (&94867418485184)
-[Tabelle-379]:          #Tabelle-379 (&94867418558832)
-[Tabelle-380]:          #Tabelle-380 (&94867418589080)
-[Tabelle-381]:          #Tabelle-381 (&94867418701528)
-[Tabelle-382]:          #Tabelle-382 (&94867418743176)
-[Tabelle-383]:          #Tabelle-383 (&94867418790680)
-[Tabelle-384]:          #Tabelle-384 (&94867418803504)
-[Tabelle-385]:          #Tabelle-385 (&94867418835840)
-[Tabelle-386]:          #Tabelle-386 (&94867419041952)
-[Tabelle-387]:          #Tabelle-387 (&94867419056952)
-[Tabelle-388]:          #Tabelle-388 (&94867419071560)
-[Tbl-392]:              #Tbl-392 (&94867419084280)
-[Tbl-393]:              #Tbl-393 (&94867419286256)
-[Tbl-394]:              #Tbl-394 (&94867420014176)
-[Tbl-395]:              #Tbl-395 (&94867420094064)
-[Tabelle-389]:          #Tabelle-389 (&94867420542952)
-[Tabelle-390]:          #Tabelle-390 (&94867420749840)
-[Tabelle-391]:          #Tabelle-391 (&94867420763904)
-[Tabelle-392]:          #Tabelle-392 (&94867420776192)
-[Tabelle-393]:          #Tabelle-393 (&94867422719720)
-[Tabelle-394]:          #Tabelle-394 (&94867423535312)
-[Tabelle-395]:          #Tabelle-395 (&94867423767696)
-[Tabelle-396]:          #Tabelle-396 (&94867423791160)
-[Tabelle-397]:          #Tabelle-397 (&94867427958296)
+[Tbl-001]:               #Tbl-001 (&93836995980344)
+[Tbl-002]:               #Tbl-002 (&93836986721640)
+[Tbl-003]:               #Tbl-003 (&93836986762896)
+[Tabelle-1]:             #Tabelle-1 (&93836986837336)
+[Tabelle-2]:             #Tabelle-2 (&93836986849656)
+[Tabelle-3]:             #Tabelle-3 (&93836986867720)
+[Tabelle-4]:             #Tabelle-4 (&93836996698600)
+[Tabelle-5]:             #Tabelle-5 (&93836996862400)
+[Tabelle-6]:             #Tabelle-6 (&93836997485376)
+[Tabelle-7]:             #Tabelle-7 (&93836988322848)
+[Tbl-011]:               #Tbl-011 (&93836988342696)
+[Tabelle-9]:             #Tabelle-9 (&93836988400152)
+[Tabelle-10]:            #Tabelle-10 (&93836988567120)
+[Tabelle-11]:            #Tabelle-11 (&93836988626464)
+[Tabelle-12]:            #Tabelle-12 (&93836988824096)
+[Tabelle-13]:            #Tabelle-13 (&93836988970136)
+[Tabelle-14]:            #Tabelle-14 (&93836996324920)
+[Tabelle-15]:            #Tabelle-15 (&93836996374224)
+[Tabelle-16]:            #Tabelle-16 (&93836990377888)
+[Tabelle-17]:            #Tabelle-17 (&93836990577000)
+[Tabelle-18]:            #Tabelle-18 (&93836990652560)
+[Tabelle-19]:            #Tabelle-19 (&93836991068568)
+[Tabelle-20]:            #Tabelle-20 (&93836991754400)
+[Tabelle-21]:            #Tabelle-21 (&93836992198624)
+[Tabelle-22]:            #Tabelle-22 (&93836992393176)
+[Tabelle-23]:            #Tabelle-23 (&93836992481072)
+[Tabelle-24]:            #Tabelle-24 (&93836992537296)
+[Tbl-028]:               #Tbl-028 (&93836992611224)
+[Tabelle-26]:            #Tabelle-26 (&93836992839296)
+[Tabelle-27]:            #Tabelle-27 (&93836992891744)
+[Tabelle-28]:            #Tabelle-28 (&93836992982720)
+[Tbl-032]:               #Tbl-032 (&93836993002032)
+[Tabelle-30]:            #Tabelle-30 (&93836993254112)
+[Tabelle-31]:            #Tabelle-31 (&93836994069384)
+[Tabelle-32]:            #Tabelle-32 (&93836994095624)
+[Tabelle-33]:            #Tabelle-33 (&93836994231168)
+[Tabelle-34]:            #Tabelle-34 (&93836994444152)
+[Tabelle-35]:            #Tabelle-35 (&93836995245296)
+[Tabelle-36]:            #Tabelle-36 (&93836995335216)
+[Tabelle-37]:            #Tabelle-37 (&93836995370464)
+[Tabelle-38]:            #Tabelle-38 (&93836995539992)
+[Tabelle-39]:            #Tabelle-39 (&93836995576432)
+[Tabelle-40]:            #Tabelle-40 (&93836995653904)
+[Tabelle-41]:            #Tabelle-41 (&93836995746232)
+[Tabelle-42]:            #Tabelle-42 (&93836995765632)
+[Tabelle-43]:            #Tabelle-43 (&93836998716088)
+[Tabelle-44]:            #Tabelle-44 (&93836998823208)
+[Tabelle-45]:            #Tabelle-45 (&93836998897336)
+[Tabelle-46]:            #Tabelle-46 (&93836998955128)
+[Tabelle-47]:            #Tabelle-47 (&93836999062872)
+[Tabelle-48]:            #Tabelle-48 (&93836999082488)
+[Tabelle-49]:            #Tabelle-49 (&93836999117648)
+[Tabelle-50]:            #Tabelle-50 (&93836999176264)
+[Tabelle-51]:            #Tabelle-51 (&93836999210416)
+[Tabelle-52]:            #Tabelle-52 (&93836999284096)
+[Tabelle-53]:            #Tabelle-53 (&93836999334672)
+[Tabelle-54]:            #Tabelle-54 (&93836999371480)
+[Tabelle-55]:            #Tabelle-55 (&93836999409096)
+[Tabelle-56]:            #Tabelle-56 (&93836999463040)
+[Tabelle-57]:            #Tabelle-57 (&93836999536736)
+[Tabelle-58]:            #Tabelle-58 (&93836999641480)
+[Tabelle-59]:            #Tabelle-59 (&93836999775336)
+[Tabelle-60]:            #Tabelle-60 (&93837000259224)
+[Tabelle-61]:            #Tabelle-61 (&93837000759984)
+[Tabelle-62]:            #Tabelle-62 (&93837000829744)
+[Tabelle-63]:            #Tabelle-63 (&93837000886408)
+[Tabelle-64]:            #Tabelle-64 (&93837000905432)
+[Tabelle-65]:            #Tabelle-65 (&93837001075376)
+[Tabelle-66]:            #Tabelle-66 (&93837001900136)
+[Tabelle-67]:            #Tabelle-67 (&93837002032688)
+[Tabelle-68]:            #Tabelle-68 (&93837002167288)
+[Tabelle-69]:            #Tabelle-69 (&93837002307584)
+[Tabelle-70]:            #Tabelle-70 (&93837002435760)
+[Tabelle-71]:            #Tabelle-71 (&93837002495672)
+[Tabelle-72]:            #Tabelle-72 (&93837002519928)
+[Tabelle-73]:            #Tabelle-73 (&93837002711824)
+[Tabelle-74]:            #Tabelle-74 (&93837002729400)
+[Tabelle-75]:            #Tabelle-75 (&93837002777336)
+[Tabelle-76]:            #Tabelle-76 (&93837002841600)
+[Tabelle-77]:            #Tabelle-77 (&93837002872528)
+[Tabelle-78]:            #Tabelle-78 (&93837003012480)
+[Tabelle-79]:            #Tabelle-79 (&93837003027480)
+[Tabelle-80]:            #Tabelle-80 (&93837003106976)
+[Tabelle-81]:            #Tabelle-81 (&93837003164648)
+[Tabelle-82]:            #Tabelle-82 (&93837003285264)
+[Tabelle-83]:            #Tabelle-83 (&93837003321232)
+[Tabelle-84]:            #Tabelle-84 (&93837003402312)
+[Tabelle-85]:            #Tabelle-85 (&93837003454536)
+[Tabelle-86]:            #Tabelle-86 (&93837003574344)
+[Tabelle-87]:            #Tabelle-87 (&93837003626864)
+[Tabelle-88]:            #Tabelle-88 (&93837003696888)
+[Tabelle-89]:            #Tabelle-89 (&93837003743960)
+[Tabelle-90]:            #Tabelle-90 (&93837003863872)
+[Tabelle-91]:            #Tabelle-91 (&93837003910704)
+[Tabelle-92]:            #Tabelle-92 (&93837003982616)
+[Tabelle-93]:            #Tabelle-93 (&93837004034480)
+[Tabelle-94]:            #Tabelle-94 (&93837004153832)
+[Tabelle-95]:            #Tabelle-95 (&93837004194672)
+[Tabelle-96]:            #Tabelle-96 (&93837004267336)
+[Tabelle-97]:            #Tabelle-97 (&93837004308976)
+[Tabelle-98]:            #Tabelle-98 (&93837004426968)
+[Tabelle-99]:            #Tabelle-99 (&93837004446744)
+[Tabelle-100]:           #Tabelle-100 (&93837004508920)
+[Tabelle-101]:           #Tabelle-101 (&93837004533632)
+[Tabelle-102]:           #Tabelle-102 (&93837004598832)
+[Tabelle-103]:           #Tabelle-103 (&93837005005352)
+[Tabelle-104]:           #Tabelle-104 (&93837005077776)
+[Tabelle-105]:           #Tabelle-105 (&93837005118840)
+[Tabelle-106]:           #Tabelle-106 (&93837005185792)
+[Tabelle-107]:           #Tabelle-107 (&93837005265312)
+[Tabelle-108]:           #Tabelle-108 (&93837005326440)
+[Tabelle-109]:           #Tabelle-109 (&93837005351312)
+[Tabelle-110]:           #Tabelle-110 (&93837005406928)
+[Tabelle-111]:           #Tabelle-111 (&93837005432024)
+[Tabelle-112]:           #Tabelle-112 (&93837005550912)
+[Tabelle-113]:           #Tabelle-113 (&93837005581656)
+[Tabelle-114]:           #Tabelle-114 (&93837005631224)
+[Tabelle-115]:           #Tabelle-115 (&93837005761976)
+[Tabelle-116]:           #Tabelle-116 (&93837005814120)
+[Tabelle-117]:           #Tabelle-117 (&93837005844336)
+[Tabelle-118]:           #Tabelle-118 (&93837006076512)
+[Tabelle-119]:           #Tabelle-119 (&93837006122944)
+[Tabelle-120]:           #Tabelle-120 (&93837006154024)
+[Tabelle-121]:           #Tabelle-121 (&93837006399232)
+[Tabelle-122]:           #Tabelle-122 (&93837006440096)
+[Tabelle-123]:           #Tabelle-123 (&93837006476744)
+[Tabelle-124]:           #Tabelle-124 (&93837006605488)
+[Tabelle-125]:           #Tabelle-125 (&93837006653280)
+[Tabelle-126]:           #Tabelle-126 (&93837006677992)
+[Tabelle-127]:           #Tabelle-127 (&93837006805320)
+[Tabelle-128]:           #Tabelle-128 (&93837006854232)
+[Tabelle-129]:           #Tabelle-129 (&93837006885024)
+[Tabelle-130]:           #Tabelle-130 (&93837006962192)
+[Tabelle-131]:           #Tabelle-131 (&93837007061456)
+[Tabelle-132]:           #Tabelle-132 (&93837007092624)
+[Tabelle-133]:           #Tabelle-133 (&93837007108176)
+[Tbl-137]:               #Tbl-137 (&93837007206736)
+[Tabelle-135]:           #Tabelle-135 (&93837007531440)
+[Tabelle-136]:           #Tabelle-136 (&93837008414128)
+[Tabelle-137]:           #Tabelle-137 (&93837008433208)
+[Tabelle-138]:           #Tabelle-138 (&93837008497416)
+[Tabelle-139]:           #Tabelle-139 (&93837008575248)
+[Tabelle-140]:           #Tabelle-140 (&93837008595120)
+[Tabelle-141]:           #Tabelle-141 (&93837008727560)
+[Tabelle-142]:           #Tabelle-142 (&93837008768904)
+[Tbl-146]:               #Tbl-146 (&93837008821240)
+[Tbl-147]:               #Tbl-147 (&93837008951584)
+[Tbl-148]:               #Tbl-148 (&93837008993104)
+[Tabelle-146]:           #Tabelle-146 (&93837009011352)
+[Tabelle-147]:           #Tabelle-147 (&93837009222216)
+[Tabelle-148]:           #Tabelle-148 (&93837009314960)
+[Tabelle-149]:           #Tabelle-149 (&93837009333864)
+[Tabelle-150]:           #Tabelle-150 (&93837009504264)
+[Tabelle-151]:           #Tabelle-151 (&93837009556672)
+[Tbl-155]:               #Tbl-155 (&93837009578176)
+[Tbl-156]:               #Tbl-156 (&93837009651920)
+[Tbl-157]:               #Tbl-157 (&93837009747976)
+[Tbl-158]:               #Tbl-158 (&93837009768592)
+[Tbl-159]:               #Tbl-159 (&93837009821432)
+[Tbl-160]:               #Tbl-160 (&93837010179560)
+[Tbl-161]:               #Tbl-161 (&93837010205192)
+[Tbl-162]:               #Tbl-162 (&93837010312472)
+[Tbl-163]:               #Tbl-163 (&93837010356304)
+[Tbl-164]:               #Tbl-164 (&93837010381936)
+[Tbl-165]:               #Tbl-165 (&93837010503528)
+[Tbl-166]:               #Tbl-166 (&93837010539736)
+[Tbl-167]:               #Tbl-167 (&93837010567200)
+[Tbl-168]:               #Tbl-168 (&93837010606616)
+[Tabelle-166]:           #Tabelle-166 (&93837010633920)
+[Tabelle-167]:           #Tabelle-167 (&93837010777352)
+[Tabelle-168]:           #Tabelle-168 (&93837010800632)
+[Tabelle-169]:           #Tabelle-169 (&93837010936208)
+[Tabelle-170]:           #Tabelle-170 (&93837011074808)
+[Tabelle-171]:           #Tabelle-171 (&93837011119352)
+[Tabelle-172]:           #Tabelle-172 (&93837011185808)
+[Tabelle-173]:           #Tabelle-173 (&93837011954632)
+[Tabelle-174]:           #Tabelle-174 (&93837012010616)
+[Tabelle-175]:           #Tabelle-175 (&93837012030096)
+[Tabelle-176]:           #Tabelle-176 (&93837012076976)
+[Tabelle-177]:           #Tabelle-177 (&93837012096200)
+[Tabelle-178]:           #Tabelle-178 (&93837012204616)
+[Tabelle-179]:           #Tabelle-179 (&93837012259368)
+[Tabelle-180]:           #Tabelle-180 (&93837012293336)
+[Tabelle-181]:           #Tabelle-181 (&93837012473200)
+[Tabelle-182]:           #Tabelle-182 (&93837012509152)
+[Tabelle-183]:           #Tabelle-183 (&93837012592888)
+[Tabelle-184]:           #Tabelle-184 (&93837012659472)
+[Tabelle-185]:           #Tabelle-185 (&93837012690912)
+[Tabelle-186]:           #Tabelle-186 (&93837012785776)
+[Tabelle-187]:           #Tabelle-187 (&93837012836032)
+[Tabelle-188]:           #Tabelle-188 (&93837012983736)
+[Tabelle-189]:           #Tabelle-189 (&93837013076976)
+[Tbl-193]:               #Tbl-193 (&93837013108616)
+[Tabelle-191]:           #Tabelle-191 (&93837013204664)
+[Tabelle-192]:           #Tabelle-192 (&93837013223224)
+[Tabelle-193]:           #Tabelle-193 (&93837013422224)
+[Tabelle-194]:           #Tabelle-194 (&93837014168360)
+[Tabelle-195]:           #Tabelle-195 (&93837014186112)
+[Tabelle-196]:           #Tabelle-196 (&93837014248832)
+[Tabelle-197]:           #Tabelle-197 (&93837014262256)
+[Tabelle-198]:           #Tabelle-198 (&93837014369960)
+[Tabelle-199]:           #Tabelle-199 (&93837014389216)
+[Tabelle-200]:           #Tabelle-200 (&93837014447248)
+[Tabelle-201]:           #Tabelle-201 (&93837014461936)
+[Tabelle-202]:           #Tabelle-202 (&93837014533144)
+[Tabelle-203]:           #Tabelle-203 (&93837015088744)
+[Tabelle-204]:           #Tabelle-204 (&93837015143384)
+[Tabelle-205]:           #Tabelle-205 (&93837015163376)
+[Tabelle-206]:           #Tabelle-206 (&93837015246952)
+[Tabelle-207]:           #Tabelle-207 (&93837015276200)
+[Tabelle-208]:           #Tabelle-208 (&93837015395128)
+[Tabelle-209]:           #Tabelle-209 (&93837015425472)
+[Tabelle-210]:           #Tabelle-210 (&93837015498448)
+[Tabelle-211]:           #Tabelle-211 (&93837015530328)
+[Tabelle-212]:           #Tabelle-212 (&93837016059000)
+[Tabelle-213]:           #Tabelle-213 (&93837016102272)
+[Tabelle-214]:           #Tabelle-214 (&93837016156672)
+[Tabelle-215]:           #Tabelle-215 (&93837016190976)
+[Tabelle-216]:           #Tabelle-216 (&93837016298176)
+[Tabelle-217]:           #Tabelle-217 (&93837016317744)
+[Tabelle-218]:           #Tabelle-218 (&93837016418024)
+[Tabelle-219]:           #Tabelle-219 (&93837017110912)
+[Tabelle-220]:           #Tabelle-220 (&93837017170680)
+[Tabelle-221]:           #Tabelle-221 (&93837017291840)
+[Tabelle-222]:           #Tabelle-222 (&93837017388400)
+[Tabelle-223]:           #Tabelle-223 (&93837017447408)
+[Tabelle-224]:           #Tabelle-224 (&93837017551224)
+[Tabelle-225]:           #Tabelle-225 (&93837017654456)
+[Tabelle-226]:           #Tabelle-226 (&93837017718752)
+[Tabelle-227]:           #Tabelle-227 (&93837017764560)
+[Tabelle-228]:           #Tabelle-228 (&93837017840112)
+[Tabelle-229]:           #Tabelle-229 (&93837017923968)
+[Tabelle-230]:           #Tabelle-230 (&93837017987672)
+[Tabelle-231]:           #Tabelle-231 (&93837018003800)
+[Tabelle-232]:           #Tabelle-232 (&93837018053600)
+[Tabelle-233]:           #Tabelle-233 (&93837018407232)
+[Tabelle-234]:           #Tabelle-234 (&93837018449584)
+[Tabelle-235]:           #Tabelle-235 (&93837018548032)
+[Tabelle-236]:           #Tabelle-236 (&93837018776880)
+[Tabelle-237]:           #Tabelle-237 (&93837018868152)
+[Tabelle-238]:           #Tabelle-238 (&93837018900968)
+[Tabelle-239]:           #Tabelle-239 (&93837018935400)
+[Tabelle-240]:           #Tabelle-240 (&93837018950616)
+[Tabelle-241]:           #Tabelle-241 (&93837018974664)
+[Tabelle-242]:           #Tabelle-242 (&93837019058488)
+[Tabelle-243]:           #Tabelle-243 (&93837019075576)
+[Tabelle-244]:           #Tabelle-244 (&93837019095752)
+[Tabelle-245]:           #Tabelle-245 (&93837019135624)
+[Tabelle-246]:           #Tabelle-246 (&93837019168080)
+[Tabelle-247]:           #Tabelle-247 (&93837019197568)
+[Tabelle-248]:           #Tabelle-248 (&93837019285056)
+[Tabelle-249]:           #Tabelle-249 (&93837019303128)
+[Tabelle-250]:           #Tabelle-250 (&93837019323112)
+[Tabelle-251]:           #Tabelle-251 (&93837019384544)
+[Tabelle-252]:           #Tabelle-252 (&93837019415336)
+[Tabelle-253]:           #Tabelle-253 (&93837019482408)
+[Tabelle-254]:           #Tabelle-254 (&93837019525120)
+[Tabelle-255]:           #Tabelle-255 (&93837019583072)
+[Tabelle-256]:           #Tabelle-256 (&93837019685872)
+[Tbl-260]:               #Tbl-260 (&93837019757528)
+[Tabelle-258]:           #Tabelle-258 (&93837019808208)
+[Tabelle-259]:           #Tabelle-259 (&93837019830272)
+[Tabelle-260]:           #Tabelle-260 (&93837019908312)
+[Tabelle-261]:           #Tabelle-261 (&93837019962568)
+[Tabelle-262]:           #Tabelle-262 (&93837020073928)
+[Tabelle-263]:           #Tabelle-263 (&93837020098688)
+[Tabelle-264]:           #Tabelle-264 (&93837020495592)
+[Tabelle-265]:           #Tabelle-265 (&93837020513600)
+[Tabelle-266]:           #Tabelle-266 (&93837020614384)
+[Tabelle-267]:           #Tabelle-267 (&93837020694248)
+[Tabelle-268]:           #Tabelle-268 (&93837020807048)
+[Tabelle-269]:           #Tabelle-269 (&93837020830392)
+[Tabelle-270]:           #Tabelle-270 (&93837020947432)
+[Tabelle-271]:           #Tabelle-271 (&93837020970256)
+[Tabelle-272]:           #Tabelle-272 (&93837021050704)
+[Tabelle-273]:           #Tabelle-273 (&93837021086592)
+[Tabelle-274]:           #Tabelle-274 (&93837021126848)
+[Tabelle-275]:           #Tabelle-275 (&93837021219392)
+[Tabelle-276]:           #Tabelle-276 (&93837021262080)
+[Tabelle-277]:           #Tabelle-277 (&93837021291544)
+[Tabelle-278]:           #Tabelle-278 (&93837021473088)
+[Tabelle-279]:           #Tabelle-279 (&93837021514776)
+[Tbl-283]:               #Tbl-283 (&93837021551384)
+[Tbl-284]:               #Tbl-284 (&93837021656928)
+[Tbl-285]:               #Tbl-285 (&93837021729584)
+[Tabelle-283]:           #Tabelle-283 (&93837021748584)
+[Tabelle-284]:           #Tabelle-284 (&93837021854992)
+[Tabelle-285]:           #Tabelle-285 (&93837021868120)
+[Tabelle-286]:           #Tabelle-286 (&93837021927744)
+[Tabelle-287]:           #Tabelle-287 (&93837021998904)
+[Tabelle-288]:           #Tabelle-288 (&93837022120744)
+[Tabelle-289]:           #Tabelle-289 (&93837022210440)
+[Tabelle-290]:           #Tabelle-290 (&93837022685272)
+[Tabelle-291]:           #Tabelle-291 (&93837022734144)
+[Tabelle-292]:           #Tabelle-292 (&93837022794016)
+[Tabelle-293]:           #Tabelle-293 (&93837022844712)
+[Tabelle-294]:           #Tabelle-294 (&93837022966352)
+[Tabelle-295]:           #Tabelle-295 (&93837022994400)
+[Tabelle-296]:           #Tabelle-296 (&93837023041752)
+[Tabelle-297]:           #Tabelle-297 (&93837023078680)
+[Tabelle-298]:           #Tabelle-298 (&93837023123328)
+[Tabelle-299]:           #Tabelle-299 (&93837023173680)
+[Tabelle-300]:           #Tabelle-300 (&93837023275944)
+[Tabelle-301]:           #Tabelle-301 (&93837023339864)
+[Tabelle-302]:           #Tabelle-302 (&93837023369640)
+[Tabelle-303]:           #Tabelle-303 (&93837023403248)
+[Tabelle-304]:           #Tabelle-304 (&93837023570008)
+[Tabelle-305]:           #Tabelle-305 (&93837023603848)
+[Tabelle-306]:           #Tabelle-306 (&93837023625232)
+[Tabelle-307]:           #Tabelle-307 (&93837023751168)
+[Tabelle-308]:           #Tabelle-308 (&93837023803432)
+[Tabelle-309]:           #Tabelle-309 (&93837023815696)
+[Tabelle-310]:           #Tabelle-310 (&93837024301752)
+[Tabelle-311]:           #Tabelle-311 (&93837024359816)
+[Tabelle-312]:           #Tabelle-312 (&93837024384224)
+[Tabelle-313]:           #Tabelle-313 (&93837024481344)
+[Tabelle-314]:           #Tabelle-314 (&93837024505752)
+[Tabelle-315]:           #Tabelle-315 (&93837024602448)
+[Tabelle-316]:           #Tabelle-316 (&93837024641840)
+[Tabelle-317]:           #Tabelle-317 (&93837024672128)
+[Tabelle-318]:           #Tabelle-318 (&93837024695336)
+[Tabelle-319]:           #Tabelle-319 (&93837024778168)
+[Tabelle-320]:           #Tabelle-320 (&93837024798792)
+[Tabelle-321]:           #Tabelle-321 (&93837024914648)
+[Tabelle-322]:           #Tabelle-322 (&93837024941896)
+[Tbl-326]:               #Tbl-326 (&93837025020544)
+[Tabelle-324]:           #Tabelle-324 (&93837025085024)
+[Tabelle-325]:           #Tabelle-325 (&93837025442608)
+[Tabelle-326]:           #Tabelle-326 (&93837025525152)
+[Tabelle-327]:           #Tabelle-327 (&93837025571032)
+[Tabelle-328]:           #Tabelle-328 (&93837025607336)
+[Tabelle-329]:           #Tabelle-329 (&93837025711488)
+[Tabelle-330]:           #Tabelle-330 (&93837025738984)
+[Tabelle-331]:           #Tabelle-331 (&93837025804472)
+[Tabelle-332]:           #Tabelle-332 (&93837025867832)
+[Tabelle-333]:           #Tabelle-333 (&93837025904160)
+[Tabelle-334]:           #Tabelle-334 (&93837026015032)
+[Tabelle-335]:           #Tabelle-335 (&93837026059944)
+[Tabelle-336]:           #Tabelle-336 (&93837026151920)
+[Tabelle-337]:           #Tabelle-337 (&93837026179888)
+[Tabelle-338]:           #Tabelle-338 (&93837026273568)
+[Tabelle-339]:           #Tabelle-339 (&93837026291816)
+[Tabelle-340]:           #Tabelle-340 (&93837026325704)
+[Tabelle-341]:           #Tabelle-341 (&93837026342200)
+[Tabelle-342]:           #Tabelle-342 (&93837026361752)
+[Tabelle-343]:           #Tabelle-343 (&93837026420248)
+[Tabelle-344]:           #Tabelle-344 (&93837026449224)
+[Tabelle-345]:           #Tabelle-345 (&93837026556264)
+[Tabelle-346]:           #Tabelle-346 (&93837026597424)
+[Tabelle-347]:           #Tabelle-347 (&93837026620464)
+[Tabelle-348]:           #Tabelle-348 (&93837026667504)
+[Tabelle-349]:           #Tabelle-349 (&93837026692048)
+[Tabelle-350]:           #Tabelle-350 (&93837026736384)
+[Tabelle-351]:           #Tabelle-351 (&93837026811064)
+[Tabelle-352]:           #Tabelle-352 (&93837026861576)
+[Tabelle-353]:           #Tabelle-353 (&93837026887552)
+[Tabelle-354]:           #Tabelle-354 (&93837026919904)
+[Tabelle-355]:           #Tabelle-355 (&93837026957952)
+[Tabelle-356]:           #Tabelle-356 (&93837027045440)
+[Tabelle-357]:           #Tabelle-357 (&93837027155080)
+[Tabelle-358]:           #Tabelle-358 (&93837027179432)
+[Tabelle-359]:           #Tabelle-359 (&93837027194552)
+[Tabelle-360]:           #Tabelle-360 (&93837027333840)
+[Tabelle-361]:           #Tabelle-361 (&93837027368352)
+[Tbl-365]:               #Tbl-365 (&93837027401432)
+[Tbl-366]:               #Tbl-366 (&93837027427016)
+[Tbl-367]:               #Tbl-367 (&93837027443400)
+[Tbl-368]:               #Tbl-368 (&93837027456432)
+[Tabelle -366]:          #Tabelle -366 (&93837027529328)
+[Tbl-370]:               #Tbl-370 (&93837027630624)
+[Tabelle-368]:           #Tabelle-368 (&93837027681648)
+[Tbl-372]:               #Tbl-372 (&93837027732008)
+[Tabelle-370]:           #Tabelle-370 (&93837027805432)
+[Tabelle-371]:           #Tabelle-371 (&93837027947672)
+[Tabelle-372]:           #Tabelle-372 (&93837027989840)
+[Tabelle-373]:           #Tabelle-373 (&93837028181688)
+[Tabelle-374]:           #Tabelle-374 (&93837028206576)
+[Tabelle-375]:           #Tabelle-375 (&93837028273464)
+[Tabelle-376]:           #Tabelle-376 (&93837028303664)
+[Tabelle-377]:           #Tabelle-377 (&93837028434320)
+[Tabelle-378]:           #Tabelle-378 (&93837028455520)
+[Tabelle-379]:           #Tabelle-379 (&93837028529168)
+[Tabelle-380]:           #Tabelle-380 (&93837028559416)
+[Tabelle-381]:           #Tabelle-381 (&93837028671864)
+[Tabelle-382]:           #Tabelle-382 (&93837028713512)
+[Tabelle-383]:           #Tabelle-383 (&93837028761016)
+[Tabelle-384]:           #Tabelle-384 (&93837028773840)
+[Tabelle-385]:           #Tabelle-385 (&93837028806176)
+[Tabelle-386]:           #Tabelle-386 (&93837029012288)
+[Tabelle-387]:           #Tabelle-387 (&93837029027288)
+[Tabelle-388]:           #Tabelle-388 (&93837029041896)
+[Tbl-392]:               #Tbl-392 (&93837029054616)
+[Tbl-393]:               #Tbl-393 (&93837029256592)
+[Tbl-394]:               #Tbl-394 (&93837029984512)
+[Tbl-395]:               #Tbl-395 (&93837030064400)
+[Tabelle-389]:           #Tabelle-389 (&93837030513288)
+[Tabelle-390]:           #Tabelle-390 (&93837030720176)
+[Tabelle-391]:           #Tabelle-391 (&93837030734240)
+[Tabelle-392]:           #Tabelle-392 (&93837030746528)
+[Tabelle-393]:           #Tabelle-393 (&93837032690056)
+[Tabelle-394]:           #Tabelle-394 (&93837033505648)
+[Tabelle-395]:           #Tabelle-395 (&93837033738032)
+[Tabelle-396]:           #Tabelle-396 (&93837033761496)
+[Tabelle-397]:           #Tabelle-397 (&93837037928632)
 
 -------------------
 LINK REFERENCE LIST

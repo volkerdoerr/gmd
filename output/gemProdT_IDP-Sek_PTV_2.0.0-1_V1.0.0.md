@@ -3,14 +3,14 @@ Elektronische Gesundheitskarte und Telematikinfrastruktur
 
 ### Produkttypsteckbrief<br>Prüfvorschrift<br>Sektoraler Identity Provider
 
-Klassifizierung: öffentlich  
-Produkttyp Status: freigegeben  
-Produkttyp Version: 2.0.0-1  
-Referenzierung: gemProdT_IDP-Sek_PTV_2.0.0-1  
-Revision: 570106  
-Stand: 10.02.23  
-Status: freigegeben  
-Version: 1.0.0
+- Klassifizierung: öffentlich
+- Produkttyp Status: freigegeben
+- Produkttyp Version: 2.0.0-1
+- Referenzierung: gemProdT_IDP-Sek_PTV_2.0.0-1
+- Revision: 570106
+- Stand: 10.02.23
+- Status: freigegeben
+- Version: 1.0.0
 
 ### Historie Produkttypversion und Produkttypsteckbrief
 
@@ -212,43 +212,46 @@ Es liegen keine optionalen Ausprägungen des Produkttyps vor.
 
 ### 5.2 Tabellenverzeichnis
 
-  - [Tabelle-1] - Dokumente mit normativen Festlegungen
-  - [Tabelle-2] - Informative Dokumente und Web-Inhalte
-  - [Tabelle-3] - Festlegungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test"
-  - [Tabelle-4] - Festlegungen zur funktionalen Eignung "Herstellererklärung"
-  - [Tabelle-5] - Festlegungen zur sicherheitstechnischen Eignung "Herstellererklärung"
-  - [Tabelle-6] - Festlegungen zur sicherheitstechnischen Eignung "Sicherheitsgutachten"
-  - [Tabelle-7] - Festlegungen zur sicherheitstechnischen Eignung "Produktgutachten"
+- [Tabelle-1] - Dokumente mit normativen Festlegungen
+- [Tabelle-2] - Informative Dokumente und Web-Inhalte
+- [Tabelle-3] - Festlegungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test"
+- [Tabelle-4] - Festlegungen zur funktionalen Eignung "Herstellererklärung"
+- [Tabelle-5] - Festlegungen zur sicherheitstechnischen Eignung "Herstellererklärung"
+- [Tabelle-6] - Festlegungen zur sicherheitstechnischen Eignung "Sicherheitsgutachten"
+- [Tabelle-7] - Festlegungen zur sicherheitstechnischen Eignung "Produktgutachten"
 
-[Historie]:             #historie-produkttypversion-und-produkttypsteckbrief
-[Inhaltsverzeichnis]:   #inhaltsverzeichnis
-[1]:                    #1-einführung
-[1.1]:                  #11-zielsetzung-und-einordnung-des-dokumentes
-[1.2]:                  #12-zielgruppe
-[1.3]:                  #13-geltungsbereich
-[1.4]:                  #14-abgrenzung-des-dokumentes
-[1.5]:                  #15-methodik
-[2]:                    #2-dokumente
-[3]:                    #3-normative-festlegungen
-[3.1]:                  #31-festlegungen-zur-funktionalen-eignung
-[3.1.1]:                #311-produkttest/produktübergreifender-test
-[3.1.2]:                #312-herstellererklärung-funktionale-eignung
-[3.2]:                  #32-festlegungen-zur-sicherheitstechnischen-eignung
-[3.2.1]:                #321-herstellererklärung-sicherheitstechnische-eignung
-[3.2.2]:                #322-sicherheitsgutachten
-[3.2.3]:                #323-produktgutachten
-[4]:                    #4-produkttypspezifische-merkmale
-[5]:                    #5-anhang-–-verzeichnisse
-[5.1]:                  #51-abkürzungen
-[5.2]:                  #52-tabellenverzeichnis
-[Tbl-001]:              #Tbl-001 (&94867376420520)
-[Tbl-002]:              #Tbl-002 (&94867376438912)
-[Tabelle-1]:            #Tabelle-1 (&94867376492784)
-[Tabelle-2]:            #Tabelle-2 (&94867376519936)
-[Tabelle-3]:            #Tabelle-3 (&94867376554848)
-[Tabelle-4]:            #Tabelle-4 (&94867376654872)
-[Tabelle-5]:            #Tabelle-5 (&94867376863280)
-[Tabelle-6]:            #Tabelle-6 (&94867376903616)
-[Tabelle-7]:            #Tabelle-7 (&94867376946088)
-[Tbl-010]:              #Tbl-010 (&94867377016472)
-[https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen]: https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen (&94867376482008)
+
+[//]: # --------------------------------------------------------- (not rendered)
+
+[Historie]:              #historie-produkttypversion-und-produkttypsteckbrief
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einführung
+[1.1]:                   #11-zielsetzung-und-einordnung-des-dokumentes
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokumentes
+[1.5]:                   #15-methodik
+[2]:                     #2-dokumente
+[3]:                     #3-normative-festlegungen
+[3.1]:                   #31-festlegungen-zur-funktionalen-eignung
+[3.1.1]:                 #311-produkttest/produktübergreifender-test
+[3.1.2]:                 #312-herstellererklärung-funktionale-eignung
+[3.2]:                   #32-festlegungen-zur-sicherheitstechnischen-eignung
+[3.2.1]:                 #321-herstellererklärung-sicherheitstechnische-eignung
+[3.2.2]:                 #322-sicherheitsgutachten
+[3.2.3]:                 #323-produktgutachten
+[4]:                     #4-produkttypspezifische-merkmale
+[5]:                     #5-anhang-–-verzeichnisse
+[5.1]:                   #51-abkürzungen
+[5.2]:                   #52-tabellenverzeichnis
+[Tbl-001]:               #Tbl-001 (&93836986422952)
+[Tbl-002]:               #Tbl-002 (&93836986441344)
+[Tabelle-1]:             #Tabelle-1 (&93836986495216)
+[Tabelle-2]:             #Tabelle-2 (&93836986522368)
+[Tabelle-3]:             #Tabelle-3 (&93836986557280)
+[Tabelle-4]:             #Tabelle-4 (&93836986657304)
+[Tabelle-5]:             #Tabelle-5 (&93836986865712)
+[Tabelle-6]:             #Tabelle-6 (&93836986906048)
+[Tabelle-7]:             #Tabelle-7 (&93836986948520)
+[Tbl-010]:               #Tbl-010 (&93836987018904)
+[https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen]: https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen (&93836986484440)
