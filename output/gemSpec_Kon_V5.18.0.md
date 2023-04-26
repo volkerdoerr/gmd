@@ -1002,6 +1002,18 @@ wird durch [gemKPT_Arch_TIP] nicht für die nonQES verlangt. Die Unterstützung
 dieses Formats für nonQES bedeutet jedoch keinen Mehraufwand, da die Routinen
 durch QES bereits implementiert sind und nachgenutzt werden können.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 3.1.2 Kartentypen
 
 Der Konnektor unterstützt eine Reihe von Kartentypen. Die folgende Tabelle
@@ -1017,11 +1029,17 @@ werden.
 
 ### 3.1.3 Übergreifende Festlegungen zum Aufbau von sicheren Verbindungen
 
+  ---> AFO 
+
 In [gemSpec_Krypt#6] wird das Kommunikationsprotokoll zwischen einem Client und
 einer Vertrauenswürdigen Ausführungsumgebung (VAU) spezifiziert. Dabei wird
 ein sicherer Kanal auf HTTP-Anwendungsschicht zwischen dem Client und der VAU
 (Server) aufgebaut. Der Client ist hier ein Fachmodul des Konnektors; der
 Server ist ein Fachdienst.
+
+  ---> AFO 
+
+  ---> AFO 
 
 Der Gesamtablauf der Schlüsselableitungsfunktionalität gemäß
 [gemSpec_SGD#2.3] für den Konnektor als Client ist aufgeteilt zwischen
@@ -1032,8 +1050,16 @@ realisiert.
 
 ### 3.2 Konnektoridentität und gSMC-K
 
+  ---> AFO 
+
 Die Notwendigkeit, den Konnektor mit mehr als einer gSMC-K zu bestücken, kann
 sich aus den Lastanforderungen aus [gemSpec_Perf#4.1.2] ergeben.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 gSMC-Ks gemäß [gemSpec_gSMC-K_ObjSys] verfügen über die Möglichkeit zur
 nachträglichen Generierung von Schlüsselpaaren und dem Nachladen der
@@ -1041,7 +1067,19 @@ zugehörigen Zertifikate. Dieser Mechanismus wird erst in kommenden Releases
 durch den Konnektor unterstützt. Initial sind alle Identitäten bereits einmal
 auf der gSMC-K vorhanden.
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 3.2.1 Organisatorische Anforderungen und Sperrprozesse
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Die Anforderung ist für die Anwendungsfälle Registrierung,
 IPsec-Authentisierung und Autorisierung beim VPN-Zugangsdienst,
@@ -1049,22 +1087,38 @@ TLS-Authentisierung zum eHealth-Kartenterminal, TLS-Authentisierung zum
 Primärsystem nachzuweisen. Wenn RSA-2048 in der TI abgekündigt wird,
 entfällt dadurch die Anforderung.
 
+  ---> AFO 
+
 Das bedeutet, dass der Konnektorhersteller je Konnektor die für die
 Identifikation des C.NK.VPN-Zertifikates relevanten Daten wie z. B.
 Seriennummer des Konnektors und Art der verbauten Komponenten, Seriennummer der
 gSMC-K, etc. für seinen Sperrprozesse dokumentieren muss.
 
+  ---> AFO 
+
 Sperrberechtigt ist die gematik im Rahmen des Change-Verfahrens (siehe
 [gemRL_Betr_TI#5.4).
 
+  ---> AFO 
+
 Dazu bedient er die standardmäßige Schnittstelle zum TSP (siehe
 [gemSpec_X.509_TSP#TIP1-A_3643]).
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Der Hersteller des Konnektors übernimmt im Rahmen der organisatorischen
 Sperrung die Aufgabe der Anwenderkommunikation gegenüber den betroffenen
 Anwendern. Die Eckpunkte zur Kommunikation sind Bestandteil des Beschlusses zur
 Außerbetriebnahme einer Konnektor-Baureihe und im Rahmen des Change-Verfahrens
 zwischen den Beteiligten abgestimmt.
+
+  ---> AFO 
 
 Dies kann bspw. durch Übertragung der Aufgabe an einen Dritten realisiert
 werden. Dabei sind die Zuordnungen Konnektor zu Zertifikat gemäß Anforderung
@@ -1075,7 +1129,15 @@ Bei der Schlüsselerzeugung für die gSMC-K muss insbesondere auch mit
 technischen Maßnahmen die Vertraulichkeit der relevanten Schlüssel
 sichergestellt werden:
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 3.3 Bootup-Phase
+
+  ---> AFO 
+
+  ---> AFO 
 
 Die hier gelisteten TUCs bilden nicht die abschließende Menge der während der
 Bootup-Phase zu erfüllenden Anforderungen. In den einzelnen Funktionsmerkmalen
@@ -1085,12 +1147,28 @@ Funktionsmerkmal-Kapiteln, sowie Kapitel 4.3 Konnektormanagement).
 
 ### 3.4 Betriebszustand
 
+  ---> AFO 
+
+  ---> AFO 
+
 Erklärung „Minütlich gleitende 10-Minuten-Summe“: Für die jeweilige
 Operation wird die Summe aller OK_Val und NOK_Val der letzten 10 Minuten
 gebildet. Diese Summe wird jede Minute neu berechnet.
 
+  ---> AFO 
+
 Unter „kartenbasiert“ sind nicht nur Lösungen mit Smartcards sondern auch
 solche mit HSMs (Hardware Security Modules) zu verstehen.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
  ---> TABLE
 
@@ -1109,6 +1187,8 @@ Bestandsnetze nicht erreichbar.
 Bezüglich der Administration des Konnektors im Zustand EC_FIREWALL_NOT_RELIABLE
 ist eine Abstimmung mit der Prüfstelle und der Zertifizierungsstelle notwendig.
 
+  ---> AFO 
+
 Die Architektur der TI ist so angelegt, dass die Fehlerzustände mit
 Severity=Fatal in den Tabellen TAB_KON_504 und TAB_KON_503 mit
 vernachlässigbarer Wahrscheinlichkeit von externen Einflüssen abhängen. Die
@@ -1124,14 +1204,20 @@ Um die konnektorinternen Fehlerquellen zu erfassen, die dazu führen, dass ein
 Fehlerzustand mit Severity=Fatal eintritt oder ein anderer Zustand, in dem der
 Konnektor nicht verwendbar ist, wird Folgendes gefordert:
 
+  ---> AFO 
+
 Bei einem mittleren Zeitabstand zwischen Ausfällen (MTBF) von 50 Jahren ist die
 Wahrscheinlichkeit, dass ein Fehlerzustand mit Severity=Fatal auftritt, kleiner
 2 % pro Jahr.
+
+  ---> AFO 
 
 ### 3.4.1 Betriebsaspekte
 
 Der Konnektor soll per Signaleinrichtung am Konnektor die Fehlerzustände mit
 Severity „Error“ und „Fatal“ anzeigen (siehe [TIP1-A_4843]).
+
+  ---> AFO 
 
 ### 3.5 Fachliche Anbindung der Clientsysteme
 
@@ -1155,12 +1241,20 @@ Die seitens des Administrators einstellbaren Werte und Listen sind, der
 allgemeinen Struktur dieses Dokuments folgend, im Unterkapitel 3.4.1
 Betriebsaspekte beschrieben.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Bei der Authentisierung des Clientsystems geht es um eine Authentisierung in
 zwei Richtungen:
 
  ---> OL
 
 Für beide Richtungen kann das Clientsystem dasselbe Zertifikat verwenden.
+
+  ---> AFO 
 
 Für die Anbindung der Clientsysteme ergeben sich verschiedene
 Konfigurationsvarianten bezüglich der Absicherung der Verbindungen zwischen
@@ -1180,6 +1274,8 @@ Client-Authentisierung anbieten. Um die Nutzung des LDAP-Proxy und somit des
 VZD der TI dennoch zu ermöglichen, ohne dabei auf eine verpflichtende
 Client-Authentisierung für SOAP-Aufrufe zu verzichten, werden für LDAP
 gesonderte Regelungen getroffen.
+
+  ---> AFO 
 
 Aus A_21224 resultiert direkt, dass als Client-Authentisierung für LDAPS nur
 Client-Zertifikate unterstützt werden müssen. Die Authentisierung mit
@@ -1203,6 +1299,10 @@ Schlüsselspeichern auf Clientsystemseite erhoben. Auch hinsichtlich der
 außerhalb des Konnektors erzeugten Zertifikate gelten keine weiteren Vorgaben.
 Ferner ist eine Online-Prüfung dieser Zertifikate nicht erforderlich.
 
+  ---> AFO 
+
+  ---> AFO 
+
 Damit sich der Konnektor mittels X.509 gegenüber Clientsystemen authentisieren
 kann, muss er über ein entsprechendes Zertifikat und dazu passendes
 Schlüsselmaterial verfügen. Dieses Zertifikat und Schlüsselmaterial befinden
@@ -1219,7 +1319,25 @@ Erstellung und Handhabung in der LE-Umgebung der außerhalb des Konnektors
 erzeugten Zertifikate und Schlüssel erhoben. Eine Online-Status-Prüfung
 dieser Zertifikate ist nicht erforderlich und nicht vorgesehen.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 3.6 Clientsystemschnittstelle
+
+  ---> AFO 
 
 ### 3.6.1 SOAP-Schnittstelle
 
@@ -1227,6 +1345,14 @@ Für die Beschreibung der SOAP-Schnittstelle zum Clientsystem wird in dieser
 Spezifikation WSDL Version 1.1 [WSDL1.1] eingesetzt. Die Interoperabilität
 zwischen verschiedenen SOAP-Implementierungen wird durch die Vorgaben des WS-I
 Basic Profile erreicht.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Da der Konnektor UTF-16 nicht unterstützt, muss das Clientsystem den Request in
 UTF-8 kodieren. Diese Festlegungen gelten nur für die eigentliche
@@ -1240,6 +1366,12 @@ entweder [SOAP1.1] mit [BasicProfile1.2] oder [SOAP1.2] mit [BasicProfile2.0]
 verwenden. Die genaue Ausprägung erfolgt in der jeweiligen
 Interfacebeschreibung des Web-Services für das Fachmodul.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 3.6.2 Statusrückmeldung und Fehlerbehandlung
 
 Der Konnektor bietet Operationen an der Außenschnittstelle über
@@ -1248,6 +1380,10 @@ werden diese an das aufrufende System gemeldet. Die von den Basisdiensten des
 Konnektors angebotenen SOAP-Webservices melden Fehler, die bei der Ausführung
 einer Operation auftreten, über eine SOAP-Fault-Nachricht (siehe auch
 [gemSpec_OM#3.2.3]).
+
+  ---> AFO 
+
+  ---> AFO 
 
 Treten bei konnektorinternen Operationen (TUCs) Fehler auf, so werden diese an
 den Aufrufer (aufrufender TUC oder aufrufende Operation) zurückgegeben. Der
@@ -1274,6 +1410,10 @@ Antwortnachricht an das Clientsystem aufgenommen. Ist der Fehler-Trace leer
 (Element GERROR:Error ist nicht vorhanden), so wird CONN:Result auf OK gesetzt.
 Andernfalls, d. h. wenn in GERROR:Trace Fehler der Schwere Info oder Warning
 (zu Informationszwecken) enthalten sind, wird CONN:Result auf Warning gesetzt.
+
+  ---> AFO 
+
+  ---> AFO 
 
 In der Regel ist es ausreichend, wenn die GERROR-Struktur an der
 Außenschnittstelle nur ein Element „GERROR:Trace“ mit einem gematik-Fehler
@@ -1302,6 +1442,18 @@ Message Transmission Optimization Mechanism (MTOM) anstoßen. In den
 WSDL-Dateien werden keine MTOM Serialization Policy Assertion [WS-MTOMPolicy]
 eingebettet.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 3.7 Verwendung manuell importierter CA-Zertifikate
 
 TI-fremde X.509-Zertifikate werden im Rahmen des Verschlüsselungsdienstes
@@ -1314,6 +1466,8 @@ Schlüssel empfängerspezifisch mit dessem TI-fremden X.509-Zertifikat
 verschlüsseln. Die TI-fremden Zertifikate dürfen nicht zu einem anderen Zweck
 als diesem eingesetzt werden.
 
+  ---> AFO 
+
 Die Berücksichtigung der CA-Zertifikate aus CERT_IMPORTED_CA_LIST muss auf
 folgende Anwendungsfälle beschränkt werden:
 
@@ -1321,6 +1475,8 @@ folgende Anwendungsfälle beschränkt werden:
 
 2. Prüfung eines Zertifikates im Rahmen eines Aufrufes der Operation
 "VerifyCertificate"
+
+  ---> AFO 
 
 ### 3.8 Testunterstützung
 
@@ -1334,6 +1490,12 @@ gebunden. Die Konnektor-Firmware muss zwischen den Umgebungen PU und RU/TU
 unterscheiden. Die gSMC-K besitzt hierzu den Datencontainer
 MF/EF.EnvironmentSettings, der die jeweilige Umgebungskennung enthält (PU bzw.
 TU/RU). Die Umgebungskennung wird read-only auf der gSMC-K gespeichert.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4 Funktionsmerkmale
 
@@ -1377,6 +1539,8 @@ werden mittels Object Constraint Language (OCL) definiert.
 
 ### 4.1.1.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
 Hinweis zu den Bezeichnern der Entitäten und ihrer Attribute: Im Folgenden
 beginnen Entitäten mit einem Großbuchstaben, Attribute mit einem
 Kleinbuchstaben. Werden die Entitäten und Attribute in XML-Dokumenten
@@ -1399,6 +1563,8 @@ Hinweis zur Remote-PIN-Eingabe: Constraints C14 und C15 legen fest, dass auch im
 Fall mehrerer lokaler Kartenterminals an einem Arbeitsplatz nur eines (oder
 keines) dieser Kartenterminals pro Mandant für die Remote-PIN-Eingabe im
 Informationsmodell konfiguriert wird.
+
+  ---> AFO 
 
 ### 4.1.1.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -1429,6 +1595,8 @@ Mandanten für das angegebene Clientsystem erreichbaren Kartenterminals
 erfolgen soll.
 
 ![Abbildung-5][Abbildung-5]
+
+  ---> AFO 
 
 Eine Beschreibung aller Zugriffsregeln gibt Tabelle TAB_KON_512.
 
@@ -1490,6 +1658,10 @@ Keine
 
 ### 4.1.1.6 Betriebsaspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
 Im Anhang I „Umsetzungshinweise“ werden Empfehlungen zur Umsetzung der
 Administration des Informationsmodells gegeben.
 
@@ -1507,6 +1679,8 @@ gematik bereitgestellt.
 
 ### 4.1.2.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
 ### 4.1.2.2 Durch Ereignisse ausgelöste Reaktionen
 
 Keine.
@@ -1518,6 +1692,8 @@ Keine
 ### 4.1.2.4 Interne TUCs, auch durch Fachmodule nutzbar
 
 ### 4.1.2.4.1 TUC_KON_080 „Dokument validieren”
+
+  ---> AFO 
 
 ### 4.1.2.5 Operationen an der Außenschnittstelle
 
@@ -1558,6 +1734,12 @@ Das Clientsystem prüft, ob die gewünschten Dienste und Versionen unterstützt
 werden und merkt sich die Endpunkte der Dienste für die späteren Aufrufe.
 Danach kann das Clientsystem diese Dienstendpunkte nach Bedarf aufrufen.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.1.3.2 Durch Ereignisse ausgelöste Reaktionen
 
 Keine.
@@ -1575,9 +1757,15 @@ Konnektorspezifikation dar:
 
 ### 4.1.3.4.1 TUC_KON_041 „Einbringen der Endpunktinformationen während der Bootup-Phase“
 
+  ---> AFO 
+
 ### 4.1.3.5 Operationen an der Außenschnittstelle
 
+  ---> AFO 
+
 ### 4.1.3.6 Betriebsaspekte
+
+  ---> AFO 
 
 ### 4.1.4 Kartenterminaldienst
 
@@ -1617,12 +1805,20 @@ kann, im nachfolgenden Zustandsdiagramm PIC_KON_071 dargestellt.
 
 ### 4.1.4.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
 Zur Unterstützung von HSM-Bs benötigt der Konnektor virtuelle Kartenterminals
 (CT.IS_PHYSICAL=Nein), in denen virtuelle SMC-Bs „stecken“ können (siehe
 Kapitel 4.1.4). Diese Kartenterminals werden innerhalb des
 Zugriffsberechtigungsdienstes sowie des Systeminformationsdienstes wie normale
 Kartenterminals berücksichtigt. Weitere Details zu den logischen
 Kartenterminals finden sich im Kapitel Betriebsaspekte.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Ziel der Textanzeigen am Kartenterminal ist die Kommunikation mit dem Benutzer
 zur Unterstützung der Anwendungsfälle. Die Anzeige am Kartenterminal muss
@@ -1639,43 +1835,93 @@ müssen eine vordefinierte Lebensdauer erhalten, die per Konfiguration an die
 Bedürfnisse der Leistungserbringer anpassbar sein sollte. Das gilt für
 Ergebnisanzeigen oder Anzeigen von Fehlern.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
  ---> TABLE
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.1.4.2 Durch Ereignisse ausgelöste Reaktionen
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.4.3 Interne TUCs, nicht durch Fachmodule nutzbar
 
 ### 4.1.4.3.1 TUC_KON_050 „Beginne Kartenterminalsitzung“
 
+  ---> AFO 
+
 ### 4.1.4.3.2 TUC_KON_054 „Kartenterminal hinzufügen“
+
+  ---> AFO 
 
 ### 4.1.4.3.3 TUC_KON_053 „Paire Kartenterminal“
 
+  ---> AFO 
+
 ### 4.1.4.3.4 TUC_KON_055 „Befülle CT-Object“
+
+  ---> AFO 
 
 ### 4.1.4.4 Interne TUCs, auch durch Fachmodule nutzbar
 
 ### 4.1.4.4.1 TUC_KON_051 „Mit Anwender über Kartenterminal interagieren“
 
+  ---> AFO 
+
 ### 4.1.4.4.2 TUC_KON_056 „Karte anfordern“
+
+  ---> AFO 
 
 ### 4.1.4.4.3 TUC_KON_057 „Karte auswerfen“
 
+  ---> AFO 
+
 ### 4.1.4.4.4 TUC_KON_058 „Displaygröße ermitteln“
+
+  ---> AFO 
 
 ### 4.1.4.5 Operationen an der Außenschnittstelle
 
+  ---> AFO 
+
 ### 4.1.4.5.1 RequestCard
 
+  ---> AFO 
+
 ### 4.1.4.5.2 EjectCard
+
+  ---> AFO 
 
 ### 4.1.4.6 Betriebsaspekte
 
 ### 4.1.4.6.1 Allgemeine Betriebsaspekte
 
+  ---> AFO 
+
 Hinweis: Bei der Initialiserung des Kartenterminaldienstes liest der Konnektor
 noch nicht die Karten, um zu ermitteln, welche Karten gesteckt sind. Dies
 erfolgt erst bei Initialisierung des Kartendienstes.
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.4.6.2 Kartenterminals pflegen
 
@@ -1684,11 +1930,29 @@ Hinzufügen, Pairen, Bearbeiten und Löschen von Kartenterminals innerhalb der
 CTM_CT_LIST angeboten werden müssen. Eine Aktualisierung der Kartenterminals
 mit neuer Firmware wird in Kapitel 4.3.9 beschrieben.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Als Sicherung gegen den unbemerkten Austausch von Kartenterminals oder deren
 Identitäten wird das gSMC-KT über den Konnektor logisch an das
 eHealth-Kartenterminal gebunden. Dieser Vorgang wird als Pairing von
 Kartenterminal und gSMC-KT bezeichnet und ist ausführlich in [gemSpec_KT]
 beschrieben.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.4.6.3 Import der Kartenterminal-Informationen
 
@@ -1697,6 +1961,8 @@ Konnektors ex- und importiert werden können (siehe Kapitel 4.3.3). Eine
 Sonderstellung nimmt dabei der Import von Kartenterminalinformationen ein, da
 hier im Rahmen des Imports folgende Interaktion mit dem Administrator
 erforderlich ist:
+
+  ---> AFO 
 
 ### 4.1.5 Kartendienst
 
@@ -1734,14 +2000,26 @@ werden, erfolgt in den folgenden Abschnitten und Unterkapiteln.
 
 ### 4.1.5.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
 Es kann notwendig sein, Karten der Generation 2 (G2) näher zu bezeichnen. In
 diesem Fall wird in G2.0- und G2.1-Karten unterschieden. Wird von Karten der
 Generation 2 gesprochen, so gilt die Festlegung für G2.x (G2.0, G2.1 und
 höher) des betrachteten Kartentyps.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Für die TUCs zur PIN-Eingabe, Änderung und Entsperrung sind Festlegungen
 hinsichtlich der auf dem Kartenterminal anzuzeigenden Meldungen erforderlich.
 Die folgende Tabelle definiert diese Terminalanzeigen gemäß [SICCT#5.5.10.19].
+
+  ---> AFO 
 
 Hinweise zu den Terminalanzeigen bei PIN-Eingaben und zu obiger Tabelle:
 
@@ -1755,6 +2033,8 @@ Relation [7]). In diesem Fall erfolgt die Nutzerinteraktion am Remote-PIN-KT
 von workplaceId (PinInputKT). Dabei wendet der Konnektor das folgende Verfahren
 an:
 
+  ---> AFO 
+
 Hinweis: Derzeit schlägt die Freischaltung der SMC-B durch
 Card-2-Card-Authentisierung ohne Fehlermeldung fehl. Der Sicherheitszustand der
 SMC-B wird nicht verändert. Diese Einschränkung betrifft TUC_KON_005
@@ -1762,13 +2042,21 @@ SMC-B wird nicht verändert. Diese Einschränkung betrifft TUC_KON_005
 
 ### 4.1.5.2 Durch Ereignisse ausgelöste Reaktionen
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.1.5.3 Interne TUCs, nicht durch Fachmodule nutzbar
 
 ### 4.1.5.3.1 TUC_KON_001 „Karte öffnen“
 
+  ---> AFO 
+
 ### 4.1.5.4 Interne TUCs, auch durch Fachmodule nutzbar
 
 ### 4.1.5.4.1 TUC_KON_026 „Liefere CardSession“
+
+  ---> AFO 
 
 Hinweis zu TAB_KON_735 - TUC_KON_026: Die WorkplaceId wird als
 Eingangsparameter nicht benötigt. Bereits TUC_KON_000 stellt sicher, dass eine
@@ -1776,15 +2064,27 @@ eGK jeweils nur von einem einzigen Arbeitsplatz aus angesprochen werden kann.
 
 ### 4.1.5.4.2 TUC_KON_012 „PIN verifizieren“
 
+  ---> AFO 
+
 ### 4.1.5.4.3 TUC_KON_019 „PIN ändern“
+
+  ---> AFO 
 
 ### 4.1.5.4.4 TUC_KON_021 „PIN entsperren“
 
+  ---> AFO 
+
 ### 4.1.5.4.5 TUC_KON_022 „Liefere PIN-Status“
+
+  ---> AFO 
 
 ### 4.1.5.4.6 TUC_KON_027 „PIN-Schutz ein-/ausschalten“
 
+  ---> AFO 
+
 ### 4.1.5.4.7 TUC_KON_023 „Karte reservieren“
+
+  ---> AFO 
 
 ### 4.1.5.4.8 TUC_KON_005 „Card-to-Card authentisieren“
 
@@ -1809,57 +2109,113 @@ Quellkarte diejenige, die die SM-APDUs produzieren kann, also die SMC (-KT oder
 
 Die Zielkarte ist jeweils die Karte, die nicht die Quellkarte ist.
 
+  ---> AFO 
+
 ### 4.1.5.4.9 TUC_KON_202 „LeseDatei“
+
+  ---> AFO 
 
 ### 4.1.5.4.10 TUC_KON_203 „SchreibeDatei“
 
+  ---> AFO 
+
 ### 4.1.5.4.11 TUC_KON_204 „LöscheDateiInhalt“
+
+  ---> AFO 
 
 ### 4.1.5.4.12 TUC_KON_209 „LeseRecord“
 
+  ---> AFO 
+
 ### 4.1.5.4.13 TUC_KON_210 „SchreibeRecord“
+
+  ---> AFO 
 
 ### 4.1.5.4.14 TUC_KON_211 „LöscheRecordInhalt“
 
+  ---> AFO 
+
 ### 4.1.5.4.15 TUC_KON_214 „FügeHinzuRecord“
+
+  ---> AFO 
 
 ### 4.1.5.4.16 TUC_KON_215 „SucheRecord“
 
+  ---> AFO 
+
 ### 4.1.5.4.17 TUC_KON_018 „eGK-Sperrung prüfen“
+
+  ---> AFO 
 
 ### 4.1.5.4.18 TUC_KON_006 „Datenzugriffsaudit eGK schreiben“
 
+  ---> AFO 
+
 ### 4.1.5.4.19 TUC_KON_218 „Signiere“
+
+  ---> AFO 
 
 ### 4.1.5.4.20 TUC_KON_219 „Entschlüssele“
 
+  ---> AFO 
+
 ### 4.1.5.4.21 TUC_KON_200 „SendeAPDU“
+
+  ---> AFO 
 
 ### 4.1.5.4.22 TUC_KON_024 „Karte zurücksetzen“
 
+  ---> AFO 
+
 ### 4.1.5.4.23 TUC_KON_216 „LeseZertifikat“
+
+  ---> AFO 
 
 ### 4.1.5.4.24 TUC_KON_036 „LiefereFachlicheRolle“
 
+  ---> AFO 
+
 ### 4.1.5.5 Operationen an der Außenschnittstelle
+
+  ---> AFO 
 
 ### 4.1.5.5.1 VerifyPin
 
+  ---> AFO 
+
 ### 4.1.5.5.2 ChangePin
+
+  ---> AFO 
 
 ### 4.1.5.5.3 GetPinStatus
 
+  ---> AFO 
+
 ### 4.1.5.5.4 UnblockPin
+
+  ---> AFO 
 
 ### 4.1.5.5.5 EnablePin
 
+  ---> AFO 
+
 ### 4.1.5.5.6 DisablePin
+
+  ---> AFO 
 
 ### 4.1.5.6 Betriebsaspekte
 
+  ---> AFO 
+
 ### 4.1.5.6.1 TUC_KON_025 "Initialisierung Kartendienst"
 
+  ---> AFO 
+
 ### 4.1.5.6.2 Kartenübersicht und PIN-Management
+
+  ---> AFO 
+
+  ---> AFO 
 
 Der Konnektor kann den Administrator zur Laufzeit entscheiden lassen, an welchem
 Kartenterminal die PIN eingegeben werden soll, indem er ihn wählen lässt, ob
@@ -1917,8 +2273,16 @@ Die folgenden Unterkapitel regeln:
 
 ### 4.1.6.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Für die Übermittlung der Ereignisse wurde ein leichtgewichtiges Protokoll
 gewählt, da vom Clientsystem keine Antwort auf Anwendungsebene erwartet wird.
+
+  ---> AFO 
 
 ### 4.1.6.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -1932,29 +2296,59 @@ Keine.
 
 ### 4.1.6.4.1 TUC_KON_256 „Systemereignis absetzen“
 
+  ---> AFO 
+
 ### 4.1.6.4.2 TUC_KON_252 „Liefere KT_Liste“
+
+  ---> AFO 
 
 ### 4.1.6.4.3 TUC_KON_253 „Liefere Karten_Liste“
 
+  ---> AFO 
+
 ### 4.1.6.4.4 TUC_KON_254 „Liefere Ressourcendetails“
+
+  ---> AFO 
 
 ### 4.1.6.5 Operationen an der Außenschnittstelle
 
+  ---> AFO 
+
 ### 4.1.6.5.1 GetCardTerminals
+
+  ---> AFO 
 
 ### 4.1.6.5.2 GetCards
 
+  ---> AFO 
+
 ### 4.1.6.5.3 GetResourceInformation
+
+  ---> AFO 
 
 ### 4.1.6.5.4 Subscribe
 
+  ---> AFO 
+
 ### 4.1.6.5.5 Unsubscribe
+
+  ---> AFO 
 
 ### 4.1.6.5.6 RenewSubscriptions
 
+  ---> AFO 
+
 ### 4.1.6.5.7 GetSubscription
 
+  ---> AFO 
+
 ### 4.1.6.6 Betriebsaspekte
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.7 Verschlüsselungsdienst
 
@@ -1985,6 +2379,12 @@ sowie in [gemSpec_Krypt#3.1.5] und hinsichtlich ECC-Migration die Vorgaben aus
 
 ### 4.1.7.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
  ---> TABLE
 
  ---> TABLE
@@ -2007,21 +2407,39 @@ symmetrischen Ver-/Entschlüsselung.
 
 ### 4.1.7.4.1 TUC_KON_070 „Daten hybrid verschlüsseln”
 
+  ---> AFO 
+
 ### 4.1.7.4.2 TUC_KON_071 „Daten hybrid entschlüsseln”
+
+  ---> AFO 
 
 ### 4.1.7.4.3 TUC_KON_072 „Daten symmetrisch verschlüsseln”
 
+  ---> AFO 
+
 ### 4.1.7.4.4 TUC_KON_073 „Daten symmetrisch entschlüsseln”
+
+  ---> AFO 
 
 ### 4.1.7.4.5 TUC_KON_075 „Symmetrisch verschlüsseln“
 
+  ---> AFO 
+
 ### 4.1.7.4.6 TUC_KON_076 „Symmetrisch entschlüsseln“
+
+  ---> AFO 
 
 ### 4.1.7.5 Operationen an der Außenschnittstelle
 
+  ---> AFO 
+
 ### 4.1.7.5.1 EncryptDocument
 
+  ---> AFO 
+
 ### 4.1.7.5.2 DecryptDocument
+
+  ---> AFO 
 
 ### 4.1.7.6 Betriebsaspekte
 
@@ -2057,16 +2475,44 @@ Konnektor unterstützt ausschließlich eine dokumentexkludierende
 Gegensignatur, bei der alle Signaturen gegensigniert werden, aber nicht der
 fachliche Inhalt des Dokumentes selbst.
 
+  ---> AFO 
+
+  ---> AFO 
+
  ---> TABLE
 
 Zu den Begriffen detached, enveloping und enveloped Signaturen siehe
 beispielsweise auch [HüKo06#Abs. 4.3.3. und 4.3.1.5].
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Durch die Baseline-Profilierung der AdES-BES-Profile wird festgelegt, wie der
 Signaturzeitpunkt, gemessen als Systemzeit des Konnektors, in die Signatur
 eingebracht wird.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
  ---> TABLE
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
  ---> TABLE
 
@@ -2084,6 +2530,8 @@ QES_DocFormate können die nachfolgenden Aspekte über eine Signaturrichtlinie
 gekapselt festgelegt werden:
 
  ---> UL
+
+  ---> AFO 
 
 ### 4.1.8.1.3 Signaturzeitpunkt
 
@@ -2125,6 +2573,20 @@ abgerufen werden. Der Konnektor stellt jedoch keine Verbindung zwischen
 erzeugten und verwendeten Jobnummern her. Es wird also nicht geprüft, ob nur
 Jobnummern verwendet werden, die vorher vom Konnektor erzeugt wurden, oder ob
 alle Jobnummern verwendet werden, die vom Konnektor erzeugt wurden.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Beispiele für eine Jobnummer sind ABC-475 und HZF-696.
 
@@ -2184,6 +2646,10 @@ deaktiviert.
 ·       Die Komfortsignaturfunktion wurde für den Konnektor durch den
 Administrator deaktiviert.
 
+  ---> AFO 
+
+  ---> AFO 
+
 A_18597 kann z. B. umgesetzt werden, indem
 
 ·       ein dedizierter logischer Kanal des HBA für die Komfortsignatur
@@ -2192,6 +2658,22 @@ verwendet wird und
 ·       im dedizierten logischen Kanal des HBA die Selektion von DF.QES
 solange beibehalten wird, bis ein Verlassen von DF.QES durch die Spezifikation
 explizit gefordert wird.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Es kann davon ausgegangen werden, dass in den Einsatzumgebungen des Konnektors
 fachlicher Bedarf an mehr als zwei parallelen Komfortsignatursessions
@@ -2207,6 +2689,10 @@ von unterschiedlichen Clientsystemen aus eintreffen, während vorherige
 Signaturaufträge noch nicht vollständig abgearbeitet sind. Nach Möglichkeit
 sollen gleichzeitig eintreffende Signaturaufträge angenommen und abgearbeitet
 werden.
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.8.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -2234,11 +2720,19 @@ Komfortsignatur.
 
 ### 4.1.8.3.1 TUC_KON_155 „Dokumente zur Signatur vorbereiten”
 
+  ---> AFO 
+
 ### 4.1.8.3.2 TUC_KON_165 „Signaturvoraussetzungen für nonQES prüfen“
+
+  ---> AFO 
 
 ### 4.1.8.3.3 TUC_KON_166 „nonQES Signaturen erstellen“
 
+  ---> AFO 
+
 ### 4.1.8.3.4 TUC_KON_152 "Signaturvoraussetzungen für QES prüfen"
+
+  ---> AFO 
 
 ### 4.1.8.3.5 TUC_KON_154 "QES Signaturen erstellen"
 
@@ -2248,7 +2742,11 @@ passende CVC voraussetzt, die auf den HBA-Vorläuferkarten nicht vorhanden
 sind, kann dieser TUC nur den HBA unterstützen. Für HBA-Vorläuferkarten kann
 TUC_KON_168 verwendet werden.
 
+  ---> AFO 
+
 ### 4.1.8.3.6 TUC_KON_168 „Einzelsignatur QES erstellen“
+
+  ---> AFO 
 
 ### 4.1.8.3.7 TUC_KON_158 "Komfortsignaturen erstellen"
 
@@ -2257,7 +2755,11 @@ Dokumente eines Stapels aus. Da die Komfortsignatur auf der Zielkarte passende
 CVC voraussetzt, die auf den HBA-Vorläuferkarten nicht vorhanden sind,
 unterstützt dieser TUC nur den HBA.
 
+  ---> AFO 
+
 ### 4.1.8.4 Interne TUCs, auch durch Fachmodule nutzbar
+
+  ---> AFO 
 
 Die in der obigen Anforderung benannten Signaturen von Dokumentenformaten
 umfassen beispielsweise die Signatur von Token nach SAML2 für das Fachmodul
@@ -2265,11 +2767,23 @@ ePA entsprechend [gemSpec_FM_ePA#A_14927].
 
 ### 4.1.8.4.1 TUC_KON_160 „Dokumente nonQES signieren”
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.1.8.4.2 TUC_KON_161 „nonQES Dokumentsignatur prüfen”
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.8.4.3 TUC_KON_162 „Kryptographische Prüfung der XML-Dokumentensignatur”
 
+  ---> AFO 
+
 ### 4.1.8.4.4 TUC_KON_150 „Dokumente QES signieren”
+
+  ---> AFO 
 
 ### 4.1.8.4.5 Anforderungen an die Stapelsignatur
 
@@ -2279,33 +2793,71 @@ Anzeige der zu signierenden Daten und der einmaligen Authentisierung des
 Signaturschlüssel-Inhabers gegenüber der qualifizierten elektronischen
 Signaturerstellungseinheit“ (siehe [BSI-TR03114]).
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.1.8.4.6 TUC_KON_151 „QES Dokumentensignatur prüfen“
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.8.4.7 TUC_KON_170 „Dokumente mit Komfort signieren”
 
+  ---> AFO 
+
 ### 4.1.8.4.8 TUC_KON_171 „Komfortsignatur einschalten”
+
+  ---> AFO 
 
 ### 4.1.8.4.9 TUC_KON_172 „Komfortsignatur ausschalten”
 
+  ---> AFO 
+
 ### 4.1.8.4.10 TUC_KON_173 „Liefere Signaturmodus”
+
+  ---> AFO 
 
 ### 4.1.8.5 Operationen an der Außenschnittstelle
 
+  ---> AFO 
+
 ### 4.1.8.5.1 SignDocument (nonQES und QES)
+
+  ---> AFO 
 
 ### 4.1.8.5.2 VerifyDocument (nonQES und QES)
 
+  ---> AFO 
+
 ### 4.1.8.5.3 StopSignature
+
+  ---> AFO 
 
 ### 4.1.8.5.4 GetJobNumber
 
+  ---> AFO 
+
 ### 4.1.8.5.5 ActivateComfortSignature
+
+  ---> AFO 
 
 ### 4.1.8.5.6 DeactivateComfortSignature
 
+  ---> AFO 
+
 ### 4.1.8.5.7 GetSignatureMode
 
+  ---> AFO 
+
 ### 4.1.8.6 Betriebsaspekte
+
+  ---> AFO 
 
 ### 4.1.9 Zertifikatsdienst
 
@@ -2344,6 +2896,8 @@ welchem das Zertifikat basiert. Die Parametrisierung von intendedKeyUsage wird
 in TAB_KON_853 in Abhängigkeit vom zu prüfenden Zertifikat, dem
 Anwendungsfall und dem kryptographischen Verfahren definiert.
 
+  ---> AFO 
+
 Bei der Zertifikatsprüfung wird ein übergebenes Zertifikat oder ein Zertifikat
 einer referenzierten Karte geprüft. Das konkrete Zertifikatsobjekt einer Karte
 ist abhängig vom Kartentyp und dem gewählten kryptographischen Verfahren. Die
@@ -2353,7 +2907,47 @@ Zertifikatsreferenz ausgewählt werden.
 
  ---> TABLE
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Dadurch wird gleichzeitig die Spitzenlast bei OCSP-Anfragen begrenzt.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.9.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -2362,6 +2956,8 @@ Keine.
 ### 4.1.9.3 Interne TUCs, nicht durch Fachmodule nutzbar
 
 ### 4.1.9.3.1 TUC_KON_032 „TSL aktualisieren“
+
+  ---> AFO 
 
 Für den Download der TSL über einen HTTP-Server im Internet wird zusätzlich
 zu der bereits mit einer XML-Signatur versehenen TSL eine detached-Signatur
@@ -2378,34 +2974,64 @@ modifiziert sein könnte - nicht ausgewertet werden. Deshalb wird der Weg
 gewählt, der auch für die Signatur von X.509-Zertifikaten und OCSP-Responses
 verwendet wird.
 
+  ---> AFO 
+
 Eine erweiterte Übersicht zum Aufbau der detached-Signatur-Datei inkl. Beispiel
 finden sie unter [gemGitHub_tslSig].
 
+  ---> AFO 
+
 ### 4.1.9.3.2 TUC_KON_031 „BNetzA-VL aktualisieren“
+
+  ---> AFO 
 
 ### 4.1.9.3.3 TUC_KON_040 „CRL aktualisieren“
 
+  ---> AFO 
+
 ### 4.1.9.3.4 TUC_KON_033 „Zertifikatsablauf prüfen“
+
+  ---> AFO 
 
 ### 4.1.9.4 Interne TUCs, auch durch Fachmodule nutzbar
 
 ### 4.1.9.4.1 TUC_KON_037 „Zertifikat prüfen"
 
+  ---> AFO 
+
 ### 4.1.9.4.2 TUC_KON_042 „CV-Zertifikat prüfen“
+
+  ---> AFO 
 
 ### 4.1.9.4.3 TUC_KON_034 „Zertifikatsinformationen extrahieren“
 
+  ---> AFO 
+
 ### 4.1.9.5 Operationen an der Außenschnittstelle
+
+  ---> AFO 
 
 ### 4.1.9.5.1 CheckCertificateExpiration
 
+  ---> AFO 
+
 ### 4.1.9.5.2 ReadCardCertificate
 
+  ---> AFO 
+
 ### 4.1.9.5.3 VerifyCertificate
+
+  ---> AFO 
 
 ### 4.1.9.6 Betriebsaspekte
 
 ### 4.1.9.6.1 TUC_KON_035 „Zertifikatsdienst initialisieren“
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Der Typ der TSL liefert dem Administrator die Information, ob es sich um eine
 TSL handelt, die den TI-Vertrauensraum ausschließlich für Zertifikate mit
@@ -2413,8 +3039,24 @@ kryptographischen Verfahren nach RSA-2048 (TSL(RSA)) oder für Zertifikate mit
 kryptographischen Verfahren nach RSA-2048 und ECC-256 (TSL(ECC-RSA))
 bereitstellt. Die Information kann aus der Signatur der TSL ermittelt werden.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Auch im Fall des automatischen Imports der TSL muss dies im kritischen
 Betriebszustand EC_TSL_Out_Of_Date_Beyond_Grace_Period unterstützt werden.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Für die ECC-Migration ist es notwendig den ECC-RSA-Vertrauensraum zu
 etablieren. Dies erfolgt durch das Einspielen eines TSL-Signer-CA
@@ -2429,6 +3071,24 @@ ECC-Vertrauensraum automatisiert und im Rahmen des Upgrades auf PTV4
 etablieren. Manuelle Schritte durch den Administrator sind für den Regelfall
 zu vermeiden und sollten nur im Fehlerfall nötig werden. Als Fallback-Lösung
 muss das manuelle Verfahren dennoch unterstützt werden.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.10 Protokollierungsdienst
 
@@ -2461,9 +3121,27 @@ verwendet:
 
 ### 4.1.10.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Da sich die Menge an Einträgen nach der Größe der Einsatzumgebung richtet,
 ist die Speichergröße nach den in [gemSpec_Perf#3.1.1] beschriebenen
 Einsatzumgebungen (LE-Ux, x=1,2,3,4) ausreichend zu wählen.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.1.10.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -2477,6 +3155,8 @@ Keine.
 
 ### 4.1.10.4.1 TUC_KON_271 „Schreibe Protokolleintrag“
 
+  ---> AFO 
+
 Die Darstellung PIC_KON_118 veranschaulicht den Aufbau der Protokolle für
 Plattform und Fachmodule und die Steuerung der Protokolleinträge in
 TUC_KON_271 „Schreibe Protokolleintrag“.
@@ -2489,7 +3169,15 @@ Keine
 
 ### 4.1.10.6 Betriebsaspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.1.10.6.1 TUC_KON_272 „Initialisierung Protokollierungsdienst
+
+  ---> AFO 
 
 ### 4.1.11 TLS-Dienst
 
@@ -2507,6 +3195,8 @@ Die Funktionalität steht nur zur Verfügung, wenn MGM_LU_ONLINE aktiv ist
 
 ### 4.1.11.2 Durch Ereignisse ausgelöste Reaktionen
 
+  ---> AFO 
+
 ### 4.1.11.3 Interne TUCs, nicht durch Fachmodule nutzbar
 
 Keine.
@@ -2515,13 +3205,19 @@ Keine.
 
 ### 4.1.11.4.1 TUC_KON_110 „Kartenbasierte TLS-Verbindung aufbauen“
 
+  ---> AFO 
+
 ### 4.1.11.4.2 TUC_KON_111 „Kartenbasierte TLS-Verbindung abbauen“
+
+  ---> AFO 
 
 ### 4.1.11.5 Operationen an der Außenschnittstelle
 
 Keine.
 
 ### 4.1.11.6 Betriebsaspekte
+
+  ---> AFO 
 
 ### 4.1.12 LDAP-Proxy
 
@@ -2538,6 +3234,8 @@ Keine.
 
 ### 4.1.12.2 Durch Ereignisse ausgelöste Reaktionen
 
+  ---> AFO 
+
 ### 4.1.12.3 Interne TUCs, nicht durch Fachmodule nutzbar
 
 Keine.
@@ -2546,15 +3244,25 @@ Keine.
 
 ### 4.1.12.4.1 TUC_KON_290 „LDAP-Verbindung aufbauen“
 
+  ---> AFO 
+
 ### 4.1.12.4.2 TUC_KON_291 „Verzeichnis abfragen“
+
+  ---> AFO 
 
 ### 4.1.12.4.3 TUC_KON_292 „LDAP-Verbindung trennen"
 
+  ---> AFO 
+
 ### 4.1.12.4.4 TUC_KON_293 „Verzeichnisabfrage abbrechen"
+
+  ---> AFO 
 
 ### 4.1.12.5 Operationen an der Außenschnittstelle
 
 ### 4.1.12.5.1 Unterstützte LDAPv3 Operationen
+
+  ---> AFO 
 
 ### 4.1.12.6 Betriebsaspekte
 
@@ -2577,6 +3285,10 @@ Eine Prüfung der Signatur bietet der Konnektor nicht an.
 
 ### 4.1.13.1.1 Externe Authentisierung
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.1.13.2 Durch Ereignisse ausgelöste Reaktionen
 
 keine
@@ -2587,13 +3299,31 @@ keine
 
 ### 4.1.13.4 Operationen an der Außenschnittstelle
 
+  ---> AFO 
+
 ### 4.1.13.4.1 ExternalAuthenticate
+
+  ---> AFO 
 
 ### 4.1.13.5 Betriebsaspekte
 
 Keine
 
 ### 4.1.14 Betriebsdatenmeldedienst
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.2 Netzkonnektor
 
@@ -2611,7 +3341,27 @@ Bezeichner verwendet:
 
 ### 4.2.1.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
 In der folgenden Anforderung wird die Terminologie gemäß [RFC2663] verwendet.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.2.1.1.1 Netzwerksegmentierung
 
@@ -2633,18 +3383,70 @@ Kommunikationsregeln welche in den nachfolgenden Afo definiert werden.
 
 ![Abbildung-21][Abbildung-21]
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Umsetzungshinweis für den Hersteller: Es können zwei getrennten
 Firewall-Regelsets für den LAN- bzw. für den WAN-Adapter verwendet werden.
 
+  ---> AFO 
+
 ### 4.2.1.2 Durch Ereignisse ausgelöste Reaktionen
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.2.1.3 Interne TUCs, nicht durch Fachmodule nutzbar
 
 ### 4.2.1.3.1 TUC_KON_305 „LAN-Adapter initialisieren“
 
+  ---> AFO 
+
 ### 4.2.1.3.2 TUC_KON_306 „WAN-Adapter initialisieren“
 
+  ---> AFO 
+
 ### 4.2.1.3.3 TUC_KON_304 „Netzwerk-Routen einrichten“
+
+  ---> AFO 
 
 ### 4.2.1.4 Interne TUCs, auch durch Fachmodule nutzbar
 
@@ -2656,6 +3458,18 @@ Keine
 
 ### 4.2.1.6 Betriebsaspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.2.2 DHCP-Server
 
 Innerhalb des Kapitels DHCP-Servers werden folgende Präfixe für Bezeichner
@@ -2664,6 +3478,8 @@ verwendet:
  ---> UL
 
 ### 4.2.2.1 Funktionsmerkmalweite Aspekte
+
+  ---> AFO 
 
 ### 4.2.2.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -2681,9 +3497,17 @@ Keine.
 
 ### 4.2.2.5.1 Liefere Netzwerkinformationen über DHCP
 
+  ---> AFO 
+
 ### 4.2.2.6 Betriebsaspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.2.2.6.1 TUC_KON_343 „Initialisierung DHCP-Server“
+
+  ---> AFO 
 
 ### 4.2.3 DHCP-Client
 
@@ -2694,11 +3518,17 @@ verwendet:
 
 ### 4.2.3.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
 ### 4.2.3.2 Durch Ereignisse ausgelöste Reaktionen
+
+  ---> AFO 
 
 ### 4.2.3.3 Interne TUCs, nicht durch Fachmodule nutzbar
 
 ### 4.2.3.3.1 TUC_KON_341 „DHCP-Informationen beziehen“
+
+  ---> AFO 
 
 ### 4.2.3.4 Interne TUCs, auch durch Fachmodule nutzbar
 
@@ -2709,6 +3539,12 @@ Keine.
 Keine.
 
 ### 4.2.3.6 Betriebsaspekte
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.2.4 VPN-Client
 
@@ -2726,7 +3562,19 @@ verwendet:
 
 ### 4.2.4.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.2.4.2 Durch Ereignisse ausgelöste Reaktionen
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Hinweis: Wenn der IPsec-Tunnel VPN_SIS aufgebaut ist, zeigt die Default Route im
 Konnektor auf die innere Tunnel-IP-Adresse des VPN-Konzentrators SIS. Dies ist
@@ -2736,7 +3584,11 @@ bei einer Trennung und dem Wiederaufbau der Verbindung VPN_TI zu beachten.
 
 ### 4.2.4.3.1 TUC_KON_321 „Verbindung zu dem VPN-Konzentrator der TI aufbauen“
 
+  ---> AFO 
+
 ### 4.2.4.3.2 TUC_KON_322 „Verbindung zu dem VPN-Konzentrator des SIS aufbauen“
+
+  ---> AFO 
 
 ### 4.2.4.4 Interne TUCs, auch durch Fachmodule nutzbar
 
@@ -2747,6 +3599,10 @@ Keine
 Keine
 
 ### 4.2.4.6 Betriebsaspekte
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.2.5 Zeitdienst
 
@@ -2763,13 +3619,21 @@ Innerhalb des Zeitdienstes werden folgende Präfixe für Bezeichner verwendet:
 
 ### 4.2.5.1 Funktionsmerkmalweite Aspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
 Falls die Systemzeit des Konnektors zu stark von der Zeit der zentralen
 TI-Plattform abweicht, deutet dies auf ein schwerwiegendes Problem im Konnektor
 oder der Umgebung hin, da dies im ordnungsgemäßen Betrieb nicht auftreten
 sollte.
 
+  ---> AFO 
+
 Der kritische Betriebszustand kann anschließend über einen manuellen Eingriff
 (z. B. Reboot) behoben werden (siehe 3.3 Betriebszustand).
+
+  ---> AFO 
 
 ### 4.2.5.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -2783,13 +3647,25 @@ Keine.
 
 ### 4.2.5.4.1 TUC_KON_351 “Liefere Systemzeit”
 
+  ---> AFO 
+
 ### 4.2.5.5 Operationen an der Außenschnittstelle
 
 ### 4.2.5.5.1 Sync_Time
 
+  ---> AFO 
+
 ### 4.2.5.6 Betriebsaspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.2.5.6.1 TUC_KON_352 Initialisierung Zeitdienst
+
+  ---> AFO 
 
 ### 4.2.6 Namensdienst und Dienstlokalisierung
 
@@ -2798,6 +3674,16 @@ Innerhalb des Namensdienstes werden folgende Präfixe für Bezeichner verwendet:
  ---> UL
 
 ### 4.2.6.1 Funktionsmerkmalweite Aspekte
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.2.6.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -2811,15 +3697,31 @@ Keine.
 
 ### 4.2.6.4.1 TUC_KON_361 „DNS-Namen auflösen“
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.2.6.4.2 TUC_KON_362 „Liste der Dienste abrufen“
+
+  ---> AFO 
 
 ### 4.2.6.4.3 TUC_KON_363 „Dienstdetails abrufen“
 
+  ---> AFO 
+
 ### 4.2.6.5 Operationen an der Außenschnittstelle
+
+  ---> AFO 
 
 ### 4.2.6.5.1 GetIPAddress
 
+  ---> AFO 
+
 ### 4.2.6.6 Betriebsaspekte
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.2.7 Optionale Verwendung von IPv6
 
@@ -2830,6 +3732,12 @@ Anforderungen dieses Kapitels umzusetzen. Einhergehend mit der Entscheidung,
 IPv6 an diesem Interface zu konfigurieren, ist der spätere VPN-Tunnelaufbau
 zur TI und SIS über das IPv6 Interface möglich. Die durch den jeweiligen
 IPv6-Tunnel zu transportierenden IP-Pakete sind IPv4 adressierte Pakete.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.3 Konnektormanagement
 
@@ -2848,6 +3756,8 @@ Eine Ausnahme hiervon bildet der Anteil der Software-Aktualisierung
 
  ---> UL
 
+  ---> AFO 
+
 Die über die Managementschnittstelle zu erreichenden und zu verändernden
 Inhalte werden erhoben in:
 
@@ -2855,6 +3765,14 @@ Inhalte werden erhoben in:
 
 Eine Ergänzung um weitere, herstellerspezifische Konfigurationsinhalte ist
 möglich.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.3.1 Zugang und Benutzerverwaltung des Konnektormanagements
 
@@ -2865,17 +3783,39 @@ Administrator-Rollen unterschieden:
 
  ---> OL
 
+  ---> AFO 
+
 Näheres hierzu regeln die Schutzprofile des Konnektors.
 
+  ---> AFO 
+
 ### 4.3.2 Konnektorname und Versionsinformationen
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Fachmodulversionsinformationen sind nicht Bestandteil der Selbstauskunft gemäß
 ProductInformation.xsd.
 
 ### 4.3.3 Konfigurationsdaten: Persistieren sowie Export-Import
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Nähere Vorgaben zum Ablauf des Imports der Kartenterminalinformationen finden
 sich im Kapitel 4.1.4.6.3.
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.3.4 Administration von Fachmodulen
 
@@ -2887,7 +3827,15 @@ werden in den jeweiligen Fachmodulspezifikationen getroffen. Der Konnektor muss
 aber für jedes Fachmodul hinsichtlich der Administrierbarkeit des Fachmoduls
 die folgende Basisfunktionalität zur Verfügung stellen:
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.3.5 Neustart und Werksreset
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.3.6 Leistungsumfänge und Standalone-Szenarios
 
@@ -2896,6 +3844,8 @@ aufweisen muss, die gemäß Produkttypssteckbrief gefordert werden, so soll es
 dem Administrator doch ermöglicht werden grundsätzliche Leistungsumfänge
 gezielt deaktivieren zu können, um den Konnektor so besser in die
 organisatorische/technische Struktur der Betriebsstätte eingliedern zu können.
+
+  ---> AFO 
 
 Der Konfigurationsparameter MGM_LU_SAK wirkt hauptsächlich in dem
 Funktionsmerkmal „Signaturdienst“ (siehe Kapitel 4.1.8).
@@ -2909,6 +3859,8 @@ hauptsächlich in den Funktionsmerkmalen:
 Ob es sich bei einem Konnektor um den losgelöst (stand alone) vom Netz der
 Einsatzumgebung betriebenen handelt, also einen Konnektor, auf welchen kein
 Clientsystem zugreift, muss diesem mitgeteilt werden:
+
+  ---> AFO 
 
 Das Setzen von MGM_STANDALONE_KON auf Enabled dient dem Konnektor als Anzeige,
 dass dieser ohne angeschlossenes Clientsystem (Primärsystem) betrieben wird.
@@ -2937,9 +3889,29 @@ Soll ein Konnektor außer Betrieb genommen werden oder wird der Vertrag mit
 einem ZGDP gekündigt, muss der Administrator den Konnektor über den
 Registrierungsdienst des ZGDP abmelden.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Möchte ein Konnektoreigentümer das Gerät weiterveräußern oder vollständig
 außer Betrieb nehmen, so sollte er eine vorhandene Freischaltung zuvor
 rückgängig machen.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Es können separate Konfigurationsschalter für einzelne TLS-Strecken umgesetzt
 werden.
@@ -2953,6 +3925,12 @@ Es gelten darüber hinaus:
 Eine Re-Registrierung eines Konnektors am VPN-Zugangsdienst mit einem neuen
 NK-Zertifikat wird im Rahmen der ECC-Migration der IPsec-Kommunikation zum
 VPN-Zugangsdienst mit einem ECC-Zertifikat notwendig
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 4.3.9 Remote Management (Optional)
 
@@ -2973,8 +3951,26 @@ Software des Konnektors. Im Rahmen des Remote Managements kann der Konnektor
 Remote Monitoring unterstützen. Dazu übermittelt der Konnektor
 Betriebszustandsdaten an das Remote- Management-System.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 Das Remote-Management-System authentisiert sich auf Transportebene
 zertifikatsbasiert gegenüber dem Konnektor.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 Die Authentifizierung des Remote-Management-Systems durch den Konnektor auf
 Transportebene ist verpflichtend gefordert.
@@ -2992,7 +3988,15 @@ Rolle Remote-Administrator ausgeführt. Das Remote-Management-System muss die
 Authentisierung der Remote-Administratoren und die Nachvollziehbarkeit der
 Zugriffe sicherstellen.
 
+  ---> AFO 
+
+  ---> AFO 
+
  ---> TABLE
+
+  ---> AFO 
+
+  ---> AFO 
 
 Ein Softwareupdate gemäß TIP1-A_5657 kann auch über das Remote Management
 initiiert, aktiviert und freigeschaltet werden.
@@ -3019,11 +4023,27 @@ kann.
 Weiterhin muss über den KSR-Client eine Aktualisierung von ausgewählten
 Konfigurationsdaten möglich sein.
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.3.10.2 Durch Ereignisse ausgelöste Reaktionen
+
+  ---> AFO 
 
 ### 4.3.10.3 Interne TUCs, nicht durch Fachmodule nutzbar
 
 ### 4.3.10.3.1 TUC_KON_280 „Konnektoraktualisierung durchführen“
+
+  ---> AFO 
 
 ### 4.3.10.3.2 TUC_KON_281 „Kartenterminalaktualisierung anstoßen“
 
@@ -3033,15 +4053,25 @@ liefert dem Kartenterminal das Updatefile, der eigentliche Updatevorgang
 (inklusive der Prüfung des Updatepakets auf Integrität und Authentizität)
 erfolgt ausschließlich und eigenverantwortlich auf Seiten des Kartenterminals.
 
+  ---> AFO 
+
 ### 4.3.10.3.3 TUC_KON_282 „UpdateInformationen beziehen“
 
+  ---> AFO 
+
 ### 4.3.10.3.4 TUC_KON_283 „Infrastruktur Konfiguration aktualisieren“
+
+  ---> AFO 
 
 ### 4.3.10.4 Interne TUCs, auch durch Fachmodule nutzbar
 
 ### 4.3.10.4.1 TUC_KON_285 „UpdateInformationen für Fachmodul beziehen“
 
+  ---> AFO 
+
 ### 4.3.10.4.2 TUC_KON_286 „Paket für Fachmodul laden“
+
+  ---> AFO 
 
 ### 4.3.10.5 Operationen an der Außenschnittstelle
 
@@ -3049,21 +4079,71 @@ Keine.
 
 ### 4.3.10.6 Betriebsaspekte
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.3.10.6.1 TUC_KON_284 KSR-Client initialisieren
+
+  ---> AFO 
+
+  ---> AFO 
 
 Hinweis: Die Adressen des Konfigurationsdienstes werden im Rahmen des
 VPN-Verbindungsaufbaus ermittelt (siehe [gemSpec_VPN_ZugD#5.1.1.2
 TUC_VPN-ZD_0001])
 
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.3.11 Konnektorstatus
 
+  ---> AFO 
+
+  ---> AFO 
+
 ### 4.4 Hardware-Merkmale des Konnektors
+
+  ---> AFO 
 
 Diese Anforderung verlangt keinen Schutz gegen Stromausfall in den
 Betriebsräumen.
 
+  ---> AFO 
+
 Die Prüfung auf Einhaltung der Versiegelungsvorgaben erfolgt nicht im Rahmen
 der CC-Evaluierung, sondern im Zuge der Prüfung auf funktionale Eignung.
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
+
+  ---> AFO 
 
 ### 5 Anhang A – Verzeichnisse
 
@@ -4408,7 +5488,8 @@ umzusetzen:
  ---> TABLE
 
 
-[//]: # --------------------------------------------------------- (not rendered)
+
+
 
 [Dokumentinformationen]: #dokumentinformationen
 [Inhaltsverzeichnis]:    #inhaltsverzeichnis
@@ -4848,407 +5929,407 @@ umzusetzen:
 [Abbildung-29]:          gemSpec_Kon_V5.18.0.attachments/7972339229766263266.emf
 [Abbildung-30]:          gemSpec_Kon_V5.18.0.attachments/3336173011312695993.png
 [Abbildung-31]:          gemSpec_Kon_V5.18.0.attachments/7031299863855507289.emf
-[Tbl-001]:               #Tbl-001 (&93836995980344)
-[Tbl-002]:               #Tbl-002 (&93836986721640)
-[Tbl-003]:               #Tbl-003 (&93836986762896)
-[Tabelle-1]:             #Tabelle-1 (&93836986837336)
-[Tabelle-2]:             #Tabelle-2 (&93836986849656)
-[Tabelle-3]:             #Tabelle-3 (&93836986867720)
-[Tabelle-4]:             #Tabelle-4 (&93836996698600)
-[Tabelle-5]:             #Tabelle-5 (&93836996862400)
-[Tabelle-6]:             #Tabelle-6 (&93836997485376)
-[Tabelle-7]:             #Tabelle-7 (&93836988322848)
-[Tbl-011]:               #Tbl-011 (&93836988342696)
-[Tabelle-9]:             #Tabelle-9 (&93836988400152)
-[Tabelle-10]:            #Tabelle-10 (&93836988567120)
-[Tabelle-11]:            #Tabelle-11 (&93836988626464)
-[Tabelle-12]:            #Tabelle-12 (&93836988824096)
-[Tabelle-13]:            #Tabelle-13 (&93836988970136)
-[Tabelle-14]:            #Tabelle-14 (&93836996324920)
-[Tabelle-15]:            #Tabelle-15 (&93836996374224)
-[Tabelle-16]:            #Tabelle-16 (&93836990377888)
-[Tabelle-17]:            #Tabelle-17 (&93836990577000)
-[Tabelle-18]:            #Tabelle-18 (&93836990652560)
-[Tabelle-19]:            #Tabelle-19 (&93836991068568)
-[Tabelle-20]:            #Tabelle-20 (&93836991754400)
-[Tabelle-21]:            #Tabelle-21 (&93836992198624)
-[Tabelle-22]:            #Tabelle-22 (&93836992393176)
-[Tabelle-23]:            #Tabelle-23 (&93836992481072)
-[Tabelle-24]:            #Tabelle-24 (&93836992537296)
-[Tbl-028]:               #Tbl-028 (&93836992611224)
-[Tabelle-26]:            #Tabelle-26 (&93836992839296)
-[Tabelle-27]:            #Tabelle-27 (&93836992891744)
-[Tabelle-28]:            #Tabelle-28 (&93836992982720)
-[Tbl-032]:               #Tbl-032 (&93836993002032)
-[Tabelle-30]:            #Tabelle-30 (&93836993254112)
-[Tabelle-31]:            #Tabelle-31 (&93836994069384)
-[Tabelle-32]:            #Tabelle-32 (&93836994095624)
-[Tabelle-33]:            #Tabelle-33 (&93836994231168)
-[Tabelle-34]:            #Tabelle-34 (&93836994444152)
-[Tabelle-35]:            #Tabelle-35 (&93836995245296)
-[Tabelle-36]:            #Tabelle-36 (&93836995335216)
-[Tabelle-37]:            #Tabelle-37 (&93836995370464)
-[Tabelle-38]:            #Tabelle-38 (&93836995539992)
-[Tabelle-39]:            #Tabelle-39 (&93836995576432)
-[Tabelle-40]:            #Tabelle-40 (&93836995653904)
-[Tabelle-41]:            #Tabelle-41 (&93836995746232)
-[Tabelle-42]:            #Tabelle-42 (&93836995765632)
-[Tabelle-43]:            #Tabelle-43 (&93836998716088)
-[Tabelle-44]:            #Tabelle-44 (&93836998823208)
-[Tabelle-45]:            #Tabelle-45 (&93836998897336)
-[Tabelle-46]:            #Tabelle-46 (&93836998955128)
-[Tabelle-47]:            #Tabelle-47 (&93836999062872)
-[Tabelle-48]:            #Tabelle-48 (&93836999082488)
-[Tabelle-49]:            #Tabelle-49 (&93836999117648)
-[Tabelle-50]:            #Tabelle-50 (&93836999176264)
-[Tabelle-51]:            #Tabelle-51 (&93836999210416)
-[Tabelle-52]:            #Tabelle-52 (&93836999284096)
-[Tabelle-53]:            #Tabelle-53 (&93836999334672)
-[Tabelle-54]:            #Tabelle-54 (&93836999371480)
-[Tabelle-55]:            #Tabelle-55 (&93836999409096)
-[Tabelle-56]:            #Tabelle-56 (&93836999463040)
-[Tabelle-57]:            #Tabelle-57 (&93836999536736)
-[Tabelle-58]:            #Tabelle-58 (&93836999641480)
-[Tabelle-59]:            #Tabelle-59 (&93836999775336)
-[Tabelle-60]:            #Tabelle-60 (&93837000259224)
-[Tabelle-61]:            #Tabelle-61 (&93837000759984)
-[Tabelle-62]:            #Tabelle-62 (&93837000829744)
-[Tabelle-63]:            #Tabelle-63 (&93837000886408)
-[Tabelle-64]:            #Tabelle-64 (&93837000905432)
-[Tabelle-65]:            #Tabelle-65 (&93837001075376)
-[Tabelle-66]:            #Tabelle-66 (&93837001900136)
-[Tabelle-67]:            #Tabelle-67 (&93837002032688)
-[Tabelle-68]:            #Tabelle-68 (&93837002167288)
-[Tabelle-69]:            #Tabelle-69 (&93837002307584)
-[Tabelle-70]:            #Tabelle-70 (&93837002435760)
-[Tabelle-71]:            #Tabelle-71 (&93837002495672)
-[Tabelle-72]:            #Tabelle-72 (&93837002519928)
-[Tabelle-73]:            #Tabelle-73 (&93837002711824)
-[Tabelle-74]:            #Tabelle-74 (&93837002729400)
-[Tabelle-75]:            #Tabelle-75 (&93837002777336)
-[Tabelle-76]:            #Tabelle-76 (&93837002841600)
-[Tabelle-77]:            #Tabelle-77 (&93837002872528)
-[Tabelle-78]:            #Tabelle-78 (&93837003012480)
-[Tabelle-79]:            #Tabelle-79 (&93837003027480)
-[Tabelle-80]:            #Tabelle-80 (&93837003106976)
-[Tabelle-81]:            #Tabelle-81 (&93837003164648)
-[Tabelle-82]:            #Tabelle-82 (&93837003285264)
-[Tabelle-83]:            #Tabelle-83 (&93837003321232)
-[Tabelle-84]:            #Tabelle-84 (&93837003402312)
-[Tabelle-85]:            #Tabelle-85 (&93837003454536)
-[Tabelle-86]:            #Tabelle-86 (&93837003574344)
-[Tabelle-87]:            #Tabelle-87 (&93837003626864)
-[Tabelle-88]:            #Tabelle-88 (&93837003696888)
-[Tabelle-89]:            #Tabelle-89 (&93837003743960)
-[Tabelle-90]:            #Tabelle-90 (&93837003863872)
-[Tabelle-91]:            #Tabelle-91 (&93837003910704)
-[Tabelle-92]:            #Tabelle-92 (&93837003982616)
-[Tabelle-93]:            #Tabelle-93 (&93837004034480)
-[Tabelle-94]:            #Tabelle-94 (&93837004153832)
-[Tabelle-95]:            #Tabelle-95 (&93837004194672)
-[Tabelle-96]:            #Tabelle-96 (&93837004267336)
-[Tabelle-97]:            #Tabelle-97 (&93837004308976)
-[Tabelle-98]:            #Tabelle-98 (&93837004426968)
-[Tabelle-99]:            #Tabelle-99 (&93837004446744)
-[Tabelle-100]:           #Tabelle-100 (&93837004508920)
-[Tabelle-101]:           #Tabelle-101 (&93837004533632)
-[Tabelle-102]:           #Tabelle-102 (&93837004598832)
-[Tabelle-103]:           #Tabelle-103 (&93837005005352)
-[Tabelle-104]:           #Tabelle-104 (&93837005077776)
-[Tabelle-105]:           #Tabelle-105 (&93837005118840)
-[Tabelle-106]:           #Tabelle-106 (&93837005185792)
-[Tabelle-107]:           #Tabelle-107 (&93837005265312)
-[Tabelle-108]:           #Tabelle-108 (&93837005326440)
-[Tabelle-109]:           #Tabelle-109 (&93837005351312)
-[Tabelle-110]:           #Tabelle-110 (&93837005406928)
-[Tabelle-111]:           #Tabelle-111 (&93837005432024)
-[Tabelle-112]:           #Tabelle-112 (&93837005550912)
-[Tabelle-113]:           #Tabelle-113 (&93837005581656)
-[Tabelle-114]:           #Tabelle-114 (&93837005631224)
-[Tabelle-115]:           #Tabelle-115 (&93837005761976)
-[Tabelle-116]:           #Tabelle-116 (&93837005814120)
-[Tabelle-117]:           #Tabelle-117 (&93837005844336)
-[Tabelle-118]:           #Tabelle-118 (&93837006076512)
-[Tabelle-119]:           #Tabelle-119 (&93837006122944)
-[Tabelle-120]:           #Tabelle-120 (&93837006154024)
-[Tabelle-121]:           #Tabelle-121 (&93837006399232)
-[Tabelle-122]:           #Tabelle-122 (&93837006440096)
-[Tabelle-123]:           #Tabelle-123 (&93837006476744)
-[Tabelle-124]:           #Tabelle-124 (&93837006605488)
-[Tabelle-125]:           #Tabelle-125 (&93837006653280)
-[Tabelle-126]:           #Tabelle-126 (&93837006677992)
-[Tabelle-127]:           #Tabelle-127 (&93837006805320)
-[Tabelle-128]:           #Tabelle-128 (&93837006854232)
-[Tabelle-129]:           #Tabelle-129 (&93837006885024)
-[Tabelle-130]:           #Tabelle-130 (&93837006962192)
-[Tabelle-131]:           #Tabelle-131 (&93837007061456)
-[Tabelle-132]:           #Tabelle-132 (&93837007092624)
-[Tabelle-133]:           #Tabelle-133 (&93837007108176)
-[Tbl-137]:               #Tbl-137 (&93837007206736)
-[Tabelle-135]:           #Tabelle-135 (&93837007531440)
-[Tabelle-136]:           #Tabelle-136 (&93837008414128)
-[Tabelle-137]:           #Tabelle-137 (&93837008433208)
-[Tabelle-138]:           #Tabelle-138 (&93837008497416)
-[Tabelle-139]:           #Tabelle-139 (&93837008575248)
-[Tabelle-140]:           #Tabelle-140 (&93837008595120)
-[Tabelle-141]:           #Tabelle-141 (&93837008727560)
-[Tabelle-142]:           #Tabelle-142 (&93837008768904)
-[Tbl-146]:               #Tbl-146 (&93837008821240)
-[Tbl-147]:               #Tbl-147 (&93837008951584)
-[Tbl-148]:               #Tbl-148 (&93837008993104)
-[Tabelle-146]:           #Tabelle-146 (&93837009011352)
-[Tabelle-147]:           #Tabelle-147 (&93837009222216)
-[Tabelle-148]:           #Tabelle-148 (&93837009314960)
-[Tabelle-149]:           #Tabelle-149 (&93837009333864)
-[Tabelle-150]:           #Tabelle-150 (&93837009504264)
-[Tabelle-151]:           #Tabelle-151 (&93837009556672)
-[Tbl-155]:               #Tbl-155 (&93837009578176)
-[Tbl-156]:               #Tbl-156 (&93837009651920)
-[Tbl-157]:               #Tbl-157 (&93837009747976)
-[Tbl-158]:               #Tbl-158 (&93837009768592)
-[Tbl-159]:               #Tbl-159 (&93837009821432)
-[Tbl-160]:               #Tbl-160 (&93837010179560)
-[Tbl-161]:               #Tbl-161 (&93837010205192)
-[Tbl-162]:               #Tbl-162 (&93837010312472)
-[Tbl-163]:               #Tbl-163 (&93837010356304)
-[Tbl-164]:               #Tbl-164 (&93837010381936)
-[Tbl-165]:               #Tbl-165 (&93837010503528)
-[Tbl-166]:               #Tbl-166 (&93837010539736)
-[Tbl-167]:               #Tbl-167 (&93837010567200)
-[Tbl-168]:               #Tbl-168 (&93837010606616)
-[Tabelle-166]:           #Tabelle-166 (&93837010633920)
-[Tabelle-167]:           #Tabelle-167 (&93837010777352)
-[Tabelle-168]:           #Tabelle-168 (&93837010800632)
-[Tabelle-169]:           #Tabelle-169 (&93837010936208)
-[Tabelle-170]:           #Tabelle-170 (&93837011074808)
-[Tabelle-171]:           #Tabelle-171 (&93837011119352)
-[Tabelle-172]:           #Tabelle-172 (&93837011185808)
-[Tabelle-173]:           #Tabelle-173 (&93837011954632)
-[Tabelle-174]:           #Tabelle-174 (&93837012010616)
-[Tabelle-175]:           #Tabelle-175 (&93837012030096)
-[Tabelle-176]:           #Tabelle-176 (&93837012076976)
-[Tabelle-177]:           #Tabelle-177 (&93837012096200)
-[Tabelle-178]:           #Tabelle-178 (&93837012204616)
-[Tabelle-179]:           #Tabelle-179 (&93837012259368)
-[Tabelle-180]:           #Tabelle-180 (&93837012293336)
-[Tabelle-181]:           #Tabelle-181 (&93837012473200)
-[Tabelle-182]:           #Tabelle-182 (&93837012509152)
-[Tabelle-183]:           #Tabelle-183 (&93837012592888)
-[Tabelle-184]:           #Tabelle-184 (&93837012659472)
-[Tabelle-185]:           #Tabelle-185 (&93837012690912)
-[Tabelle-186]:           #Tabelle-186 (&93837012785776)
-[Tabelle-187]:           #Tabelle-187 (&93837012836032)
-[Tabelle-188]:           #Tabelle-188 (&93837012983736)
-[Tabelle-189]:           #Tabelle-189 (&93837013076976)
-[Tbl-193]:               #Tbl-193 (&93837013108616)
-[Tabelle-191]:           #Tabelle-191 (&93837013204664)
-[Tabelle-192]:           #Tabelle-192 (&93837013223224)
-[Tabelle-193]:           #Tabelle-193 (&93837013422224)
-[Tabelle-194]:           #Tabelle-194 (&93837014168360)
-[Tabelle-195]:           #Tabelle-195 (&93837014186112)
-[Tabelle-196]:           #Tabelle-196 (&93837014248832)
-[Tabelle-197]:           #Tabelle-197 (&93837014262256)
-[Tabelle-198]:           #Tabelle-198 (&93837014369960)
-[Tabelle-199]:           #Tabelle-199 (&93837014389216)
-[Tabelle-200]:           #Tabelle-200 (&93837014447248)
-[Tabelle-201]:           #Tabelle-201 (&93837014461936)
-[Tabelle-202]:           #Tabelle-202 (&93837014533144)
-[Tabelle-203]:           #Tabelle-203 (&93837015088744)
-[Tabelle-204]:           #Tabelle-204 (&93837015143384)
-[Tabelle-205]:           #Tabelle-205 (&93837015163376)
-[Tabelle-206]:           #Tabelle-206 (&93837015246952)
-[Tabelle-207]:           #Tabelle-207 (&93837015276200)
-[Tabelle-208]:           #Tabelle-208 (&93837015395128)
-[Tabelle-209]:           #Tabelle-209 (&93837015425472)
-[Tabelle-210]:           #Tabelle-210 (&93837015498448)
-[Tabelle-211]:           #Tabelle-211 (&93837015530328)
-[Tabelle-212]:           #Tabelle-212 (&93837016059000)
-[Tabelle-213]:           #Tabelle-213 (&93837016102272)
-[Tabelle-214]:           #Tabelle-214 (&93837016156672)
-[Tabelle-215]:           #Tabelle-215 (&93837016190976)
-[Tabelle-216]:           #Tabelle-216 (&93837016298176)
-[Tabelle-217]:           #Tabelle-217 (&93837016317744)
-[Tabelle-218]:           #Tabelle-218 (&93837016418024)
-[Tabelle-219]:           #Tabelle-219 (&93837017110912)
-[Tabelle-220]:           #Tabelle-220 (&93837017170680)
-[Tabelle-221]:           #Tabelle-221 (&93837017291840)
-[Tabelle-222]:           #Tabelle-222 (&93837017388400)
-[Tabelle-223]:           #Tabelle-223 (&93837017447408)
-[Tabelle-224]:           #Tabelle-224 (&93837017551224)
-[Tabelle-225]:           #Tabelle-225 (&93837017654456)
-[Tabelle-226]:           #Tabelle-226 (&93837017718752)
-[Tabelle-227]:           #Tabelle-227 (&93837017764560)
-[Tabelle-228]:           #Tabelle-228 (&93837017840112)
-[Tabelle-229]:           #Tabelle-229 (&93837017923968)
-[Tabelle-230]:           #Tabelle-230 (&93837017987672)
-[Tabelle-231]:           #Tabelle-231 (&93837018003800)
-[Tabelle-232]:           #Tabelle-232 (&93837018053600)
-[Tabelle-233]:           #Tabelle-233 (&93837018407232)
-[Tabelle-234]:           #Tabelle-234 (&93837018449584)
-[Tabelle-235]:           #Tabelle-235 (&93837018548032)
-[Tabelle-236]:           #Tabelle-236 (&93837018776880)
-[Tabelle-237]:           #Tabelle-237 (&93837018868152)
-[Tabelle-238]:           #Tabelle-238 (&93837018900968)
-[Tabelle-239]:           #Tabelle-239 (&93837018935400)
-[Tabelle-240]:           #Tabelle-240 (&93837018950616)
-[Tabelle-241]:           #Tabelle-241 (&93837018974664)
-[Tabelle-242]:           #Tabelle-242 (&93837019058488)
-[Tabelle-243]:           #Tabelle-243 (&93837019075576)
-[Tabelle-244]:           #Tabelle-244 (&93837019095752)
-[Tabelle-245]:           #Tabelle-245 (&93837019135624)
-[Tabelle-246]:           #Tabelle-246 (&93837019168080)
-[Tabelle-247]:           #Tabelle-247 (&93837019197568)
-[Tabelle-248]:           #Tabelle-248 (&93837019285056)
-[Tabelle-249]:           #Tabelle-249 (&93837019303128)
-[Tabelle-250]:           #Tabelle-250 (&93837019323112)
-[Tabelle-251]:           #Tabelle-251 (&93837019384544)
-[Tabelle-252]:           #Tabelle-252 (&93837019415336)
-[Tabelle-253]:           #Tabelle-253 (&93837019482408)
-[Tabelle-254]:           #Tabelle-254 (&93837019525120)
-[Tabelle-255]:           #Tabelle-255 (&93837019583072)
-[Tabelle-256]:           #Tabelle-256 (&93837019685872)
-[Tbl-260]:               #Tbl-260 (&93837019757528)
-[Tabelle-258]:           #Tabelle-258 (&93837019808208)
-[Tabelle-259]:           #Tabelle-259 (&93837019830272)
-[Tabelle-260]:           #Tabelle-260 (&93837019908312)
-[Tabelle-261]:           #Tabelle-261 (&93837019962568)
-[Tabelle-262]:           #Tabelle-262 (&93837020073928)
-[Tabelle-263]:           #Tabelle-263 (&93837020098688)
-[Tabelle-264]:           #Tabelle-264 (&93837020495592)
-[Tabelle-265]:           #Tabelle-265 (&93837020513600)
-[Tabelle-266]:           #Tabelle-266 (&93837020614384)
-[Tabelle-267]:           #Tabelle-267 (&93837020694248)
-[Tabelle-268]:           #Tabelle-268 (&93837020807048)
-[Tabelle-269]:           #Tabelle-269 (&93837020830392)
-[Tabelle-270]:           #Tabelle-270 (&93837020947432)
-[Tabelle-271]:           #Tabelle-271 (&93837020970256)
-[Tabelle-272]:           #Tabelle-272 (&93837021050704)
-[Tabelle-273]:           #Tabelle-273 (&93837021086592)
-[Tabelle-274]:           #Tabelle-274 (&93837021126848)
-[Tabelle-275]:           #Tabelle-275 (&93837021219392)
-[Tabelle-276]:           #Tabelle-276 (&93837021262080)
-[Tabelle-277]:           #Tabelle-277 (&93837021291544)
-[Tabelle-278]:           #Tabelle-278 (&93837021473088)
-[Tabelle-279]:           #Tabelle-279 (&93837021514776)
-[Tbl-283]:               #Tbl-283 (&93837021551384)
-[Tbl-284]:               #Tbl-284 (&93837021656928)
-[Tbl-285]:               #Tbl-285 (&93837021729584)
-[Tabelle-283]:           #Tabelle-283 (&93837021748584)
-[Tabelle-284]:           #Tabelle-284 (&93837021854992)
-[Tabelle-285]:           #Tabelle-285 (&93837021868120)
-[Tabelle-286]:           #Tabelle-286 (&93837021927744)
-[Tabelle-287]:           #Tabelle-287 (&93837021998904)
-[Tabelle-288]:           #Tabelle-288 (&93837022120744)
-[Tabelle-289]:           #Tabelle-289 (&93837022210440)
-[Tabelle-290]:           #Tabelle-290 (&93837022685272)
-[Tabelle-291]:           #Tabelle-291 (&93837022734144)
-[Tabelle-292]:           #Tabelle-292 (&93837022794016)
-[Tabelle-293]:           #Tabelle-293 (&93837022844712)
-[Tabelle-294]:           #Tabelle-294 (&93837022966352)
-[Tabelle-295]:           #Tabelle-295 (&93837022994400)
-[Tabelle-296]:           #Tabelle-296 (&93837023041752)
-[Tabelle-297]:           #Tabelle-297 (&93837023078680)
-[Tabelle-298]:           #Tabelle-298 (&93837023123328)
-[Tabelle-299]:           #Tabelle-299 (&93837023173680)
-[Tabelle-300]:           #Tabelle-300 (&93837023275944)
-[Tabelle-301]:           #Tabelle-301 (&93837023339864)
-[Tabelle-302]:           #Tabelle-302 (&93837023369640)
-[Tabelle-303]:           #Tabelle-303 (&93837023403248)
-[Tabelle-304]:           #Tabelle-304 (&93837023570008)
-[Tabelle-305]:           #Tabelle-305 (&93837023603848)
-[Tabelle-306]:           #Tabelle-306 (&93837023625232)
-[Tabelle-307]:           #Tabelle-307 (&93837023751168)
-[Tabelle-308]:           #Tabelle-308 (&93837023803432)
-[Tabelle-309]:           #Tabelle-309 (&93837023815696)
-[Tabelle-310]:           #Tabelle-310 (&93837024301752)
-[Tabelle-311]:           #Tabelle-311 (&93837024359816)
-[Tabelle-312]:           #Tabelle-312 (&93837024384224)
-[Tabelle-313]:           #Tabelle-313 (&93837024481344)
-[Tabelle-314]:           #Tabelle-314 (&93837024505752)
-[Tabelle-315]:           #Tabelle-315 (&93837024602448)
-[Tabelle-316]:           #Tabelle-316 (&93837024641840)
-[Tabelle-317]:           #Tabelle-317 (&93837024672128)
-[Tabelle-318]:           #Tabelle-318 (&93837024695336)
-[Tabelle-319]:           #Tabelle-319 (&93837024778168)
-[Tabelle-320]:           #Tabelle-320 (&93837024798792)
-[Tabelle-321]:           #Tabelle-321 (&93837024914648)
-[Tabelle-322]:           #Tabelle-322 (&93837024941896)
-[Tbl-326]:               #Tbl-326 (&93837025020544)
-[Tabelle-324]:           #Tabelle-324 (&93837025085024)
-[Tabelle-325]:           #Tabelle-325 (&93837025442608)
-[Tabelle-326]:           #Tabelle-326 (&93837025525152)
-[Tabelle-327]:           #Tabelle-327 (&93837025571032)
-[Tabelle-328]:           #Tabelle-328 (&93837025607336)
-[Tabelle-329]:           #Tabelle-329 (&93837025711488)
-[Tabelle-330]:           #Tabelle-330 (&93837025738984)
-[Tabelle-331]:           #Tabelle-331 (&93837025804472)
-[Tabelle-332]:           #Tabelle-332 (&93837025867832)
-[Tabelle-333]:           #Tabelle-333 (&93837025904160)
-[Tabelle-334]:           #Tabelle-334 (&93837026015032)
-[Tabelle-335]:           #Tabelle-335 (&93837026059944)
-[Tabelle-336]:           #Tabelle-336 (&93837026151920)
-[Tabelle-337]:           #Tabelle-337 (&93837026179888)
-[Tabelle-338]:           #Tabelle-338 (&93837026273568)
-[Tabelle-339]:           #Tabelle-339 (&93837026291816)
-[Tabelle-340]:           #Tabelle-340 (&93837026325704)
-[Tabelle-341]:           #Tabelle-341 (&93837026342200)
-[Tabelle-342]:           #Tabelle-342 (&93837026361752)
-[Tabelle-343]:           #Tabelle-343 (&93837026420248)
-[Tabelle-344]:           #Tabelle-344 (&93837026449224)
-[Tabelle-345]:           #Tabelle-345 (&93837026556264)
-[Tabelle-346]:           #Tabelle-346 (&93837026597424)
-[Tabelle-347]:           #Tabelle-347 (&93837026620464)
-[Tabelle-348]:           #Tabelle-348 (&93837026667504)
-[Tabelle-349]:           #Tabelle-349 (&93837026692048)
-[Tabelle-350]:           #Tabelle-350 (&93837026736384)
-[Tabelle-351]:           #Tabelle-351 (&93837026811064)
-[Tabelle-352]:           #Tabelle-352 (&93837026861576)
-[Tabelle-353]:           #Tabelle-353 (&93837026887552)
-[Tabelle-354]:           #Tabelle-354 (&93837026919904)
-[Tabelle-355]:           #Tabelle-355 (&93837026957952)
-[Tabelle-356]:           #Tabelle-356 (&93837027045440)
-[Tabelle-357]:           #Tabelle-357 (&93837027155080)
-[Tabelle-358]:           #Tabelle-358 (&93837027179432)
-[Tabelle-359]:           #Tabelle-359 (&93837027194552)
-[Tabelle-360]:           #Tabelle-360 (&93837027333840)
-[Tabelle-361]:           #Tabelle-361 (&93837027368352)
-[Tbl-365]:               #Tbl-365 (&93837027401432)
-[Tbl-366]:               #Tbl-366 (&93837027427016)
-[Tbl-367]:               #Tbl-367 (&93837027443400)
-[Tbl-368]:               #Tbl-368 (&93837027456432)
-[Tabelle -366]:          #Tabelle -366 (&93837027529328)
-[Tbl-370]:               #Tbl-370 (&93837027630624)
-[Tabelle-368]:           #Tabelle-368 (&93837027681648)
-[Tbl-372]:               #Tbl-372 (&93837027732008)
-[Tabelle-370]:           #Tabelle-370 (&93837027805432)
-[Tabelle-371]:           #Tabelle-371 (&93837027947672)
-[Tabelle-372]:           #Tabelle-372 (&93837027989840)
-[Tabelle-373]:           #Tabelle-373 (&93837028181688)
-[Tabelle-374]:           #Tabelle-374 (&93837028206576)
-[Tabelle-375]:           #Tabelle-375 (&93837028273464)
-[Tabelle-376]:           #Tabelle-376 (&93837028303664)
-[Tabelle-377]:           #Tabelle-377 (&93837028434320)
-[Tabelle-378]:           #Tabelle-378 (&93837028455520)
-[Tabelle-379]:           #Tabelle-379 (&93837028529168)
-[Tabelle-380]:           #Tabelle-380 (&93837028559416)
-[Tabelle-381]:           #Tabelle-381 (&93837028671864)
-[Tabelle-382]:           #Tabelle-382 (&93837028713512)
-[Tabelle-383]:           #Tabelle-383 (&93837028761016)
-[Tabelle-384]:           #Tabelle-384 (&93837028773840)
-[Tabelle-385]:           #Tabelle-385 (&93837028806176)
-[Tabelle-386]:           #Tabelle-386 (&93837029012288)
-[Tabelle-387]:           #Tabelle-387 (&93837029027288)
-[Tabelle-388]:           #Tabelle-388 (&93837029041896)
-[Tbl-392]:               #Tbl-392 (&93837029054616)
-[Tbl-393]:               #Tbl-393 (&93837029256592)
-[Tbl-394]:               #Tbl-394 (&93837029984512)
-[Tbl-395]:               #Tbl-395 (&93837030064400)
-[Tabelle-389]:           #Tabelle-389 (&93837030513288)
-[Tabelle-390]:           #Tabelle-390 (&93837030720176)
-[Tabelle-391]:           #Tabelle-391 (&93837030734240)
-[Tabelle-392]:           #Tabelle-392 (&93837030746528)
-[Tabelle-393]:           #Tabelle-393 (&93837032690056)
-[Tabelle-394]:           #Tabelle-394 (&93837033505648)
-[Tabelle-395]:           #Tabelle-395 (&93837033738032)
-[Tabelle-396]:           #Tabelle-396 (&93837033761496)
-[Tabelle-397]:           #Tabelle-397 (&93837037928632)
+[Tbl-001]:               #Tbl-001 (&94123923210120)
+[Tbl-002]:               #Tbl-002 (&94123915052488)
+[Tbl-003]:               #Tbl-003 (&94123913409168)
+[Tabelle-1]:             #Tabelle-1 (&94123913483608)
+[Tabelle-2]:             #Tabelle-2 (&94123913495928)
+[Tabelle-3]:             #Tabelle-3 (&94123913513992)
+[Tabelle-4]:             #Tabelle-4 (&94123923604952)
+[Tabelle-5]:             #Tabelle-5 (&94123923768752)
+[Tabelle-6]:             #Tabelle-6 (&94123925092864)
+[Tabelle-7]:             #Tabelle-7 (&94123926168544)
+[Tbl-011]:               #Tbl-011 (&94123926188392)
+[Tabelle-9]:             #Tabelle-9 (&94123926245848)
+[Tabelle-10]:            #Tabelle-10 (&94123915173040)
+[Tabelle-11]:            #Tabelle-11 (&94123915232384)
+[Tabelle-12]:            #Tabelle-12 (&94123915430016)
+[Tabelle-13]:            #Tabelle-13 (&94123915576056)
+[Tabelle-14]:            #Tabelle-14 (&94123913816040)
+[Tabelle-15]:            #Tabelle-15 (&94123913865344)
+[Tabelle-16]:            #Tabelle-16 (&94123916983808)
+[Tabelle-17]:            #Tabelle-17 (&94123917182920)
+[Tabelle-18]:            #Tabelle-18 (&94123917258480)
+[Tabelle-19]:            #Tabelle-19 (&94123917674488)
+[Tabelle-20]:            #Tabelle-20 (&94123918360320)
+[Tabelle-21]:            #Tabelle-21 (&94123918804544)
+[Tabelle-22]:            #Tabelle-22 (&94123918999096)
+[Tabelle-23]:            #Tabelle-23 (&94123919086992)
+[Tabelle-24]:            #Tabelle-24 (&94123919143216)
+[Tbl-028]:               #Tbl-028 (&94123919217144)
+[Tabelle-26]:            #Tabelle-26 (&94123919445216)
+[Tabelle-27]:            #Tabelle-27 (&94123919497664)
+[Tabelle-28]:            #Tabelle-28 (&94123919588640)
+[Tbl-032]:               #Tbl-032 (&94123919607952)
+[Tabelle-30]:            #Tabelle-30 (&94123919860032)
+[Tabelle-31]:            #Tabelle-31 (&94123920675304)
+[Tabelle-32]:            #Tabelle-32 (&94123920701544)
+[Tabelle-33]:            #Tabelle-33 (&94123920837088)
+[Tabelle-34]:            #Tabelle-34 (&94123921050072)
+[Tabelle-35]:            #Tabelle-35 (&94123921851216)
+[Tabelle-36]:            #Tabelle-36 (&94123921941136)
+[Tabelle-37]:            #Tabelle-37 (&94123921976384)
+[Tabelle-38]:            #Tabelle-38 (&94123922145912)
+[Tabelle-39]:            #Tabelle-39 (&94123922182352)
+[Tabelle-40]:            #Tabelle-40 (&94123922833600)
+[Tabelle-41]:            #Tabelle-41 (&94123922925928)
+[Tabelle-42]:            #Tabelle-42 (&94123922945328)
+[Tabelle-43]:            #Tabelle-43 (&94123923024776)
+[Tabelle-44]:            #Tabelle-44 (&94123926537864)
+[Tabelle-45]:            #Tabelle-45 (&94123926611992)
+[Tabelle-46]:            #Tabelle-46 (&94123926669784)
+[Tabelle-47]:            #Tabelle-47 (&94123926777528)
+[Tabelle-48]:            #Tabelle-48 (&94123926797144)
+[Tabelle-49]:            #Tabelle-49 (&94123926832304)
+[Tabelle-50]:            #Tabelle-50 (&94123926890920)
+[Tabelle-51]:            #Tabelle-51 (&94123926925072)
+[Tabelle-52]:            #Tabelle-52 (&94123926998752)
+[Tabelle-53]:            #Tabelle-53 (&94123927049328)
+[Tabelle-54]:            #Tabelle-54 (&94123927086136)
+[Tabelle-55]:            #Tabelle-55 (&94123927123752)
+[Tabelle-56]:            #Tabelle-56 (&94123927177696)
+[Tabelle-57]:            #Tabelle-57 (&94123927251392)
+[Tabelle-58]:            #Tabelle-58 (&94123927356136)
+[Tabelle-59]:            #Tabelle-59 (&94123927489992)
+[Tabelle-60]:            #Tabelle-60 (&94123927973880)
+[Tabelle-61]:            #Tabelle-61 (&94123928474640)
+[Tabelle-62]:            #Tabelle-62 (&94123928544400)
+[Tabelle-63]:            #Tabelle-63 (&94123928601064)
+[Tabelle-64]:            #Tabelle-64 (&94123928620088)
+[Tabelle-65]:            #Tabelle-65 (&94123928790032)
+[Tabelle-66]:            #Tabelle-66 (&94123929614792)
+[Tabelle-67]:            #Tabelle-67 (&94123929747344)
+[Tabelle-68]:            #Tabelle-68 (&94123929881944)
+[Tabelle-69]:            #Tabelle-69 (&94123930022240)
+[Tabelle-70]:            #Tabelle-70 (&94123930150416)
+[Tabelle-71]:            #Tabelle-71 (&94123930210328)
+[Tabelle-72]:            #Tabelle-72 (&94123930234584)
+[Tabelle-73]:            #Tabelle-73 (&94123930426480)
+[Tabelle-74]:            #Tabelle-74 (&94123930444056)
+[Tabelle-75]:            #Tabelle-75 (&94123930491992)
+[Tabelle-76]:            #Tabelle-76 (&94123930556256)
+[Tabelle-77]:            #Tabelle-77 (&94123930587184)
+[Tabelle-78]:            #Tabelle-78 (&94123930727136)
+[Tabelle-79]:            #Tabelle-79 (&94123930742136)
+[Tabelle-80]:            #Tabelle-80 (&94123930821632)
+[Tabelle-81]:            #Tabelle-81 (&94123930879304)
+[Tabelle-82]:            #Tabelle-82 (&94123930999920)
+[Tabelle-83]:            #Tabelle-83 (&94123931035888)
+[Tabelle-84]:            #Tabelle-84 (&94123931116968)
+[Tabelle-85]:            #Tabelle-85 (&94123931169192)
+[Tabelle-86]:            #Tabelle-86 (&94123931289000)
+[Tabelle-87]:            #Tabelle-87 (&94123931341520)
+[Tabelle-88]:            #Tabelle-88 (&94123931411544)
+[Tabelle-89]:            #Tabelle-89 (&94123931458616)
+[Tabelle-90]:            #Tabelle-90 (&94123931578528)
+[Tabelle-91]:            #Tabelle-91 (&94123931625360)
+[Tabelle-92]:            #Tabelle-92 (&94123931697272)
+[Tabelle-93]:            #Tabelle-93 (&94123931749136)
+[Tabelle-94]:            #Tabelle-94 (&94123931868488)
+[Tabelle-95]:            #Tabelle-95 (&94123931909328)
+[Tabelle-96]:            #Tabelle-96 (&94123931981992)
+[Tabelle-97]:            #Tabelle-97 (&94123932023632)
+[Tabelle-98]:            #Tabelle-98 (&94123932141624)
+[Tabelle-99]:            #Tabelle-99 (&94123932161400)
+[Tabelle-100]:           #Tabelle-100 (&94123932223576)
+[Tabelle-101]:           #Tabelle-101 (&94123932248288)
+[Tabelle-102]:           #Tabelle-102 (&94123932313488)
+[Tabelle-103]:           #Tabelle-103 (&94123932720008)
+[Tabelle-104]:           #Tabelle-104 (&94123932792432)
+[Tabelle-105]:           #Tabelle-105 (&94123932833496)
+[Tabelle-106]:           #Tabelle-106 (&94123932900448)
+[Tabelle-107]:           #Tabelle-107 (&94123932979968)
+[Tabelle-108]:           #Tabelle-108 (&94123933041096)
+[Tabelle-109]:           #Tabelle-109 (&94123933065968)
+[Tabelle-110]:           #Tabelle-110 (&94123933121584)
+[Tabelle-111]:           #Tabelle-111 (&94123933146680)
+[Tabelle-112]:           #Tabelle-112 (&94123933265568)
+[Tabelle-113]:           #Tabelle-113 (&94123933296312)
+[Tabelle-114]:           #Tabelle-114 (&94123933345880)
+[Tabelle-115]:           #Tabelle-115 (&94123933476632)
+[Tabelle-116]:           #Tabelle-116 (&94123933528776)
+[Tabelle-117]:           #Tabelle-117 (&94123933558992)
+[Tabelle-118]:           #Tabelle-118 (&94123933791168)
+[Tabelle-119]:           #Tabelle-119 (&94123933837600)
+[Tabelle-120]:           #Tabelle-120 (&94123933868680)
+[Tabelle-121]:           #Tabelle-121 (&94123934113888)
+[Tabelle-122]:           #Tabelle-122 (&94123934154752)
+[Tabelle-123]:           #Tabelle-123 (&94123934191400)
+[Tabelle-124]:           #Tabelle-124 (&94123934320144)
+[Tabelle-125]:           #Tabelle-125 (&94123934367936)
+[Tabelle-126]:           #Tabelle-126 (&94123934392648)
+[Tabelle-127]:           #Tabelle-127 (&94123934519976)
+[Tabelle-128]:           #Tabelle-128 (&94123934568888)
+[Tabelle-129]:           #Tabelle-129 (&94123934599680)
+[Tabelle-130]:           #Tabelle-130 (&94123934676848)
+[Tabelle-131]:           #Tabelle-131 (&94123934776112)
+[Tabelle-132]:           #Tabelle-132 (&94123934807280)
+[Tabelle-133]:           #Tabelle-133 (&94123934822832)
+[Tbl-137]:               #Tbl-137 (&94123934921392)
+[Tabelle-135]:           #Tabelle-135 (&94123935246096)
+[Tabelle-136]:           #Tabelle-136 (&94123936128784)
+[Tabelle-137]:           #Tabelle-137 (&94123936147864)
+[Tabelle-138]:           #Tabelle-138 (&94123936212072)
+[Tabelle-139]:           #Tabelle-139 (&94123936289904)
+[Tabelle-140]:           #Tabelle-140 (&94123936309776)
+[Tabelle-141]:           #Tabelle-141 (&94123936442216)
+[Tabelle-142]:           #Tabelle-142 (&94123936483560)
+[Tbl-146]:               #Tbl-146 (&94123936535896)
+[Tbl-147]:               #Tbl-147 (&94123936666240)
+[Tbl-148]:               #Tbl-148 (&94123936707760)
+[Tabelle-146]:           #Tabelle-146 (&94123936726008)
+[Tabelle-147]:           #Tabelle-147 (&94123936936872)
+[Tabelle-148]:           #Tabelle-148 (&94123937029616)
+[Tabelle-149]:           #Tabelle-149 (&94123937048520)
+[Tabelle-150]:           #Tabelle-150 (&94123937218920)
+[Tabelle-151]:           #Tabelle-151 (&94123937271328)
+[Tbl-155]:               #Tbl-155 (&94123937292832)
+[Tbl-156]:               #Tbl-156 (&94123937366576)
+[Tbl-157]:               #Tbl-157 (&94123937462632)
+[Tbl-158]:               #Tbl-158 (&94123937483248)
+[Tbl-159]:               #Tbl-159 (&94123937536088)
+[Tbl-160]:               #Tbl-160 (&94123937894216)
+[Tbl-161]:               #Tbl-161 (&94123937919848)
+[Tbl-162]:               #Tbl-162 (&94123938027128)
+[Tbl-163]:               #Tbl-163 (&94123938070960)
+[Tbl-164]:               #Tbl-164 (&94123938096592)
+[Tbl-165]:               #Tbl-165 (&94123938218184)
+[Tbl-166]:               #Tbl-166 (&94123938254392)
+[Tbl-167]:               #Tbl-167 (&94123938281856)
+[Tbl-168]:               #Tbl-168 (&94123938321272)
+[Tabelle-166]:           #Tabelle-166 (&94123938348576)
+[Tabelle-167]:           #Tabelle-167 (&94123938492008)
+[Tabelle-168]:           #Tabelle-168 (&94123938515288)
+[Tabelle-169]:           #Tabelle-169 (&94123938650864)
+[Tabelle-170]:           #Tabelle-170 (&94123938789464)
+[Tabelle-171]:           #Tabelle-171 (&94123938834008)
+[Tabelle-172]:           #Tabelle-172 (&94123938900464)
+[Tabelle-173]:           #Tabelle-173 (&94123939669288)
+[Tabelle-174]:           #Tabelle-174 (&94123939725272)
+[Tabelle-175]:           #Tabelle-175 (&94123939744752)
+[Tabelle-176]:           #Tabelle-176 (&94123939791632)
+[Tabelle-177]:           #Tabelle-177 (&94123939810856)
+[Tabelle-178]:           #Tabelle-178 (&94123939919272)
+[Tabelle-179]:           #Tabelle-179 (&94123939974024)
+[Tabelle-180]:           #Tabelle-180 (&94123940007992)
+[Tabelle-181]:           #Tabelle-181 (&94123940187856)
+[Tabelle-182]:           #Tabelle-182 (&94123940223808)
+[Tabelle-183]:           #Tabelle-183 (&94123940307544)
+[Tabelle-184]:           #Tabelle-184 (&94123940374128)
+[Tabelle-185]:           #Tabelle-185 (&94123940405568)
+[Tabelle-186]:           #Tabelle-186 (&94123940500432)
+[Tabelle-187]:           #Tabelle-187 (&94123940550688)
+[Tabelle-188]:           #Tabelle-188 (&94123940698392)
+[Tabelle-189]:           #Tabelle-189 (&94123940791632)
+[Tbl-193]:               #Tbl-193 (&94123940823272)
+[Tabelle-191]:           #Tabelle-191 (&94123940919320)
+[Tabelle-192]:           #Tabelle-192 (&94123940937880)
+[Tabelle-193]:           #Tabelle-193 (&94123941136880)
+[Tabelle-194]:           #Tabelle-194 (&94123941883016)
+[Tabelle-195]:           #Tabelle-195 (&94123941900768)
+[Tabelle-196]:           #Tabelle-196 (&94123941963488)
+[Tabelle-197]:           #Tabelle-197 (&94123941976912)
+[Tabelle-198]:           #Tabelle-198 (&94123942084616)
+[Tabelle-199]:           #Tabelle-199 (&94123942103872)
+[Tabelle-200]:           #Tabelle-200 (&94123942161904)
+[Tabelle-201]:           #Tabelle-201 (&94123942176592)
+[Tabelle-202]:           #Tabelle-202 (&94123942247800)
+[Tabelle-203]:           #Tabelle-203 (&94123942803400)
+[Tabelle-204]:           #Tabelle-204 (&94123942858040)
+[Tabelle-205]:           #Tabelle-205 (&94123942878032)
+[Tabelle-206]:           #Tabelle-206 (&94123942961608)
+[Tabelle-207]:           #Tabelle-207 (&94123942990856)
+[Tabelle-208]:           #Tabelle-208 (&94123943109784)
+[Tabelle-209]:           #Tabelle-209 (&94123943140128)
+[Tabelle-210]:           #Tabelle-210 (&94123943213104)
+[Tabelle-211]:           #Tabelle-211 (&94123943244984)
+[Tabelle-212]:           #Tabelle-212 (&94123943773656)
+[Tabelle-213]:           #Tabelle-213 (&94123943816928)
+[Tabelle-214]:           #Tabelle-214 (&94123943871328)
+[Tabelle-215]:           #Tabelle-215 (&94123943905632)
+[Tabelle-216]:           #Tabelle-216 (&94123944012832)
+[Tabelle-217]:           #Tabelle-217 (&94123944032400)
+[Tabelle-218]:           #Tabelle-218 (&94123944132680)
+[Tabelle-219]:           #Tabelle-219 (&94123944825568)
+[Tabelle-220]:           #Tabelle-220 (&94123944885336)
+[Tabelle-221]:           #Tabelle-221 (&94123945006496)
+[Tabelle-222]:           #Tabelle-222 (&94123945103056)
+[Tabelle-223]:           #Tabelle-223 (&94123945162064)
+[Tabelle-224]:           #Tabelle-224 (&94123945265880)
+[Tabelle-225]:           #Tabelle-225 (&94123945369112)
+[Tabelle-226]:           #Tabelle-226 (&94123945433408)
+[Tabelle-227]:           #Tabelle-227 (&94123945479216)
+[Tabelle-228]:           #Tabelle-228 (&94123945554768)
+[Tabelle-229]:           #Tabelle-229 (&94123945638624)
+[Tabelle-230]:           #Tabelle-230 (&94123945702328)
+[Tabelle-231]:           #Tabelle-231 (&94123945718456)
+[Tabelle-232]:           #Tabelle-232 (&94123945768256)
+[Tabelle-233]:           #Tabelle-233 (&94123946121888)
+[Tabelle-234]:           #Tabelle-234 (&94123946164240)
+[Tabelle-235]:           #Tabelle-235 (&94123946262688)
+[Tabelle-236]:           #Tabelle-236 (&94123946491536)
+[Tabelle-237]:           #Tabelle-237 (&94123946582808)
+[Tabelle-238]:           #Tabelle-238 (&94123946615624)
+[Tabelle-239]:           #Tabelle-239 (&94123946650056)
+[Tabelle-240]:           #Tabelle-240 (&94123946665272)
+[Tabelle-241]:           #Tabelle-241 (&94123946689320)
+[Tabelle-242]:           #Tabelle-242 (&94123946773144)
+[Tabelle-243]:           #Tabelle-243 (&94123946790232)
+[Tabelle-244]:           #Tabelle-244 (&94123946810408)
+[Tabelle-245]:           #Tabelle-245 (&94123946850280)
+[Tabelle-246]:           #Tabelle-246 (&94123946882736)
+[Tabelle-247]:           #Tabelle-247 (&94123946912224)
+[Tabelle-248]:           #Tabelle-248 (&94123946999712)
+[Tabelle-249]:           #Tabelle-249 (&94123947017784)
+[Tabelle-250]:           #Tabelle-250 (&94123947037768)
+[Tabelle-251]:           #Tabelle-251 (&94123947099200)
+[Tabelle-252]:           #Tabelle-252 (&94123947129992)
+[Tabelle-253]:           #Tabelle-253 (&94123947197064)
+[Tabelle-254]:           #Tabelle-254 (&94123947239776)
+[Tabelle-255]:           #Tabelle-255 (&94123947297728)
+[Tabelle-256]:           #Tabelle-256 (&94123947400528)
+[Tbl-260]:               #Tbl-260 (&94123947472184)
+[Tabelle-258]:           #Tabelle-258 (&94123947522864)
+[Tabelle-259]:           #Tabelle-259 (&94123947544928)
+[Tabelle-260]:           #Tabelle-260 (&94123947622968)
+[Tabelle-261]:           #Tabelle-261 (&94123947677224)
+[Tabelle-262]:           #Tabelle-262 (&94123947788584)
+[Tabelle-263]:           #Tabelle-263 (&94123947813344)
+[Tabelle-264]:           #Tabelle-264 (&94123948210248)
+[Tabelle-265]:           #Tabelle-265 (&94123948228256)
+[Tabelle-266]:           #Tabelle-266 (&94123948329040)
+[Tabelle-267]:           #Tabelle-267 (&94123948408904)
+[Tabelle-268]:           #Tabelle-268 (&94123948521704)
+[Tabelle-269]:           #Tabelle-269 (&94123948545048)
+[Tabelle-270]:           #Tabelle-270 (&94123948662088)
+[Tabelle-271]:           #Tabelle-271 (&94123948684912)
+[Tabelle-272]:           #Tabelle-272 (&94123948765360)
+[Tabelle-273]:           #Tabelle-273 (&94123948801248)
+[Tabelle-274]:           #Tabelle-274 (&94123948841504)
+[Tabelle-275]:           #Tabelle-275 (&94123948934048)
+[Tabelle-276]:           #Tabelle-276 (&94123948976736)
+[Tabelle-277]:           #Tabelle-277 (&94123949006200)
+[Tabelle-278]:           #Tabelle-278 (&94123949187744)
+[Tabelle-279]:           #Tabelle-279 (&94123949229432)
+[Tbl-283]:               #Tbl-283 (&94123949266040)
+[Tbl-284]:               #Tbl-284 (&94123949371584)
+[Tbl-285]:               #Tbl-285 (&94123949444240)
+[Tabelle-283]:           #Tabelle-283 (&94123949463240)
+[Tabelle-284]:           #Tabelle-284 (&94123949569648)
+[Tabelle-285]:           #Tabelle-285 (&94123949582776)
+[Tabelle-286]:           #Tabelle-286 (&94123949642400)
+[Tabelle-287]:           #Tabelle-287 (&94123949713560)
+[Tabelle-288]:           #Tabelle-288 (&94123949835400)
+[Tabelle-289]:           #Tabelle-289 (&94123949925096)
+[Tabelle-290]:           #Tabelle-290 (&94123950399928)
+[Tabelle-291]:           #Tabelle-291 (&94123950448800)
+[Tabelle-292]:           #Tabelle-292 (&94123950508672)
+[Tabelle-293]:           #Tabelle-293 (&94123950559368)
+[Tabelle-294]:           #Tabelle-294 (&94123950681008)
+[Tabelle-295]:           #Tabelle-295 (&94123950709056)
+[Tabelle-296]:           #Tabelle-296 (&94123950756408)
+[Tabelle-297]:           #Tabelle-297 (&94123950793336)
+[Tabelle-298]:           #Tabelle-298 (&94123950837984)
+[Tabelle-299]:           #Tabelle-299 (&94123950888336)
+[Tabelle-300]:           #Tabelle-300 (&94123950990600)
+[Tabelle-301]:           #Tabelle-301 (&94123951054520)
+[Tabelle-302]:           #Tabelle-302 (&94123951084296)
+[Tabelle-303]:           #Tabelle-303 (&94123951117904)
+[Tabelle-304]:           #Tabelle-304 (&94123951284664)
+[Tabelle-305]:           #Tabelle-305 (&94123951318504)
+[Tabelle-306]:           #Tabelle-306 (&94123951339888)
+[Tabelle-307]:           #Tabelle-307 (&94123951465824)
+[Tabelle-308]:           #Tabelle-308 (&94123951518088)
+[Tabelle-309]:           #Tabelle-309 (&94123951530352)
+[Tabelle-310]:           #Tabelle-310 (&94123952016408)
+[Tabelle-311]:           #Tabelle-311 (&94123952074472)
+[Tabelle-312]:           #Tabelle-312 (&94123952098880)
+[Tabelle-313]:           #Tabelle-313 (&94123952196000)
+[Tabelle-314]:           #Tabelle-314 (&94123952220408)
+[Tabelle-315]:           #Tabelle-315 (&94123952317104)
+[Tabelle-316]:           #Tabelle-316 (&94123952356496)
+[Tabelle-317]:           #Tabelle-317 (&94123952386784)
+[Tabelle-318]:           #Tabelle-318 (&94123952409992)
+[Tabelle-319]:           #Tabelle-319 (&94123952492824)
+[Tabelle-320]:           #Tabelle-320 (&94123952513448)
+[Tabelle-321]:           #Tabelle-321 (&94123952629304)
+[Tabelle-322]:           #Tabelle-322 (&94123952656552)
+[Tbl-326]:               #Tbl-326 (&94123952735200)
+[Tabelle-324]:           #Tabelle-324 (&94123952799680)
+[Tabelle-325]:           #Tabelle-325 (&94123953157264)
+[Tabelle-326]:           #Tabelle-326 (&94123953239808)
+[Tabelle-327]:           #Tabelle-327 (&94123953285688)
+[Tabelle-328]:           #Tabelle-328 (&94123953321992)
+[Tabelle-329]:           #Tabelle-329 (&94123953426144)
+[Tabelle-330]:           #Tabelle-330 (&94123953453640)
+[Tabelle-331]:           #Tabelle-331 (&94123953519128)
+[Tabelle-332]:           #Tabelle-332 (&94123953582488)
+[Tabelle-333]:           #Tabelle-333 (&94123953618816)
+[Tabelle-334]:           #Tabelle-334 (&94123953729688)
+[Tabelle-335]:           #Tabelle-335 (&94123953774600)
+[Tabelle-336]:           #Tabelle-336 (&94123953866576)
+[Tabelle-337]:           #Tabelle-337 (&94123953894544)
+[Tabelle-338]:           #Tabelle-338 (&94123953988224)
+[Tabelle-339]:           #Tabelle-339 (&94123954006472)
+[Tabelle-340]:           #Tabelle-340 (&94123954040360)
+[Tabelle-341]:           #Tabelle-341 (&94123954056856)
+[Tabelle-342]:           #Tabelle-342 (&94123954076408)
+[Tabelle-343]:           #Tabelle-343 (&94123954134904)
+[Tabelle-344]:           #Tabelle-344 (&94123954163880)
+[Tabelle-345]:           #Tabelle-345 (&94123954270920)
+[Tabelle-346]:           #Tabelle-346 (&94123954312080)
+[Tabelle-347]:           #Tabelle-347 (&94123954335120)
+[Tabelle-348]:           #Tabelle-348 (&94123954382160)
+[Tabelle-349]:           #Tabelle-349 (&94123954406704)
+[Tabelle-350]:           #Tabelle-350 (&94123954451040)
+[Tabelle-351]:           #Tabelle-351 (&94123954525720)
+[Tabelle-352]:           #Tabelle-352 (&94123954576232)
+[Tabelle-353]:           #Tabelle-353 (&94123954602208)
+[Tabelle-354]:           #Tabelle-354 (&94123954634560)
+[Tabelle-355]:           #Tabelle-355 (&94123954672608)
+[Tabelle-356]:           #Tabelle-356 (&94123954760096)
+[Tabelle-357]:           #Tabelle-357 (&94123954869736)
+[Tabelle-358]:           #Tabelle-358 (&94123954894088)
+[Tabelle-359]:           #Tabelle-359 (&94123954909208)
+[Tabelle-360]:           #Tabelle-360 (&94123955048496)
+[Tabelle-361]:           #Tabelle-361 (&94123955083008)
+[Tbl-365]:               #Tbl-365 (&94123955116088)
+[Tbl-366]:               #Tbl-366 (&94123955141672)
+[Tbl-367]:               #Tbl-367 (&94123955158056)
+[Tbl-368]:               #Tbl-368 (&94123955171088)
+[Tabelle -366]:          #Tabelle -366 (&94123955243984)
+[Tbl-370]:               #Tbl-370 (&94123955345280)
+[Tabelle-368]:           #Tabelle-368 (&94123955396304)
+[Tbl-372]:               #Tbl-372 (&94123955446664)
+[Tabelle-370]:           #Tabelle-370 (&94123955520088)
+[Tabelle-371]:           #Tabelle-371 (&94123955662328)
+[Tabelle-372]:           #Tabelle-372 (&94123955704496)
+[Tabelle-373]:           #Tabelle-373 (&94123955896344)
+[Tabelle-374]:           #Tabelle-374 (&94123955921232)
+[Tabelle-375]:           #Tabelle-375 (&94123955988120)
+[Tabelle-376]:           #Tabelle-376 (&94123956018320)
+[Tabelle-377]:           #Tabelle-377 (&94123956148976)
+[Tabelle-378]:           #Tabelle-378 (&94123956170176)
+[Tabelle-379]:           #Tabelle-379 (&94123956243824)
+[Tabelle-380]:           #Tabelle-380 (&94123956274072)
+[Tabelle-381]:           #Tabelle-381 (&94123956386520)
+[Tabelle-382]:           #Tabelle-382 (&94123956428168)
+[Tabelle-383]:           #Tabelle-383 (&94123956475672)
+[Tabelle-384]:           #Tabelle-384 (&94123956488496)
+[Tabelle-385]:           #Tabelle-385 (&94123956520832)
+[Tabelle-386]:           #Tabelle-386 (&94123956726944)
+[Tabelle-387]:           #Tabelle-387 (&94123956741944)
+[Tabelle-388]:           #Tabelle-388 (&94123956756552)
+[Tbl-392]:               #Tbl-392 (&94123956769272)
+[Tbl-393]:               #Tbl-393 (&94123956971248)
+[Tbl-394]:               #Tbl-394 (&94123957699168)
+[Tbl-395]:               #Tbl-395 (&94123957779056)
+[Tabelle-389]:           #Tabelle-389 (&94123958227944)
+[Tabelle-390]:           #Tabelle-390 (&94123958434832)
+[Tabelle-391]:           #Tabelle-391 (&94123958448896)
+[Tabelle-392]:           #Tabelle-392 (&94123958461184)
+[Tabelle-393]:           #Tabelle-393 (&94123960404712)
+[Tabelle-394]:           #Tabelle-394 (&94123961220304)
+[Tabelle-395]:           #Tabelle-395 (&94123961452688)
+[Tabelle-396]:           #Tabelle-396 (&94123961476152)
+[Tabelle-397]:           #Tabelle-397 (&94123965643288)

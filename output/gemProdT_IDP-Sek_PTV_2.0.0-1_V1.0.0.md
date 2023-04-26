@@ -131,6 +131,8 @@ Festlegungen.
 
  ---> TABLE
 
+
+
 Die Bestätigungs-/Zulassungsbedingungen für das
 Bestätigungs-/Zulassungsobjekt "Sektoraler Identity Provider" werden im
 Dokument [gemZul_Prod_IDP_Sek] im Downloadcenter der gematik im Abschnitt
@@ -164,6 +166,8 @@ Zulassungstests durch die gematik geprüft wird.
 
  ---> TABLE
 
+
+
 ### 3.1.2 Herstellererklärung funktionale Eignung
 
 In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an
@@ -172,6 +176,8 @@ geplante Umsetzung und Beachtung der Hersteller bzw. der Anbieter durch eine
 Herstellererklärung bestätigt bzw. zusagt.
 
  ---> TABLE
+
+
 
 ### 3.2 Festlegungen zur sicherheitstechnischen Eignung
 
@@ -184,6 +190,8 @@ zusagen.
 
  ---> TABLE
 
+
+
 ### 3.2.2 Sicherheitsgutachten
 
 Die in diesem Abschnitt verzeichneten Festlegungen sind Gegenstand der Prüfung
@@ -192,6 +200,8 @@ Sicherheitsgutachten ist der gematik vorzulegen.
 
  ---> TABLE
 
+
+
 ### 3.2.3 Produktgutachten
 
 Die in diesem Abschnitt verzeichneten Festlegungen sind Gegenstand der Prüfung
@@ -199,6 +209,8 @@ der Sicherheitseignung gemäß [gemRL_PruefSichEig_DS]. Das entsprechende
 Produktgutachten ist der gematik vorzulegen.
 
  ---> TABLE
+
+
 
 ### 4 Produkttypspezifische Merkmale
 
@@ -221,7 +233,8 @@ Es liegen keine optionalen Ausprägungen des Produkttyps vor.
 - [Tabelle-7] - Festlegungen zur sicherheitstechnischen Eignung "Produktgutachten"
 
 
-[//]: # --------------------------------------------------------- (not rendered)
+
+
 
 [Historie]:              #historie-produkttypversion-und-produkttypsteckbrief
 [Inhaltsverzeichnis]:    #inhaltsverzeichnis
@@ -244,14 +257,14 @@ Es liegen keine optionalen Ausprägungen des Produkttyps vor.
 [5]:                     #5-anhang-–-verzeichnisse
 [5.1]:                   #51-abkürzungen
 [5.2]:                   #52-tabellenverzeichnis
-[Tbl-001]:               #Tbl-001 (&93836986422952)
-[Tbl-002]:               #Tbl-002 (&93836986441344)
-[Tabelle-1]:             #Tabelle-1 (&93836986495216)
-[Tabelle-2]:             #Tabelle-2 (&93836986522368)
-[Tabelle-3]:             #Tabelle-3 (&93836986557280)
-[Tabelle-4]:             #Tabelle-4 (&93836986657304)
-[Tabelle-5]:             #Tabelle-5 (&93836986865712)
-[Tabelle-6]:             #Tabelle-6 (&93836986906048)
-[Tabelle-7]:             #Tabelle-7 (&93836986948520)
-[Tbl-010]:               #Tbl-010 (&93836987018904)
-[https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen]: https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen (&93836986484440)
+[Tbl-001]:               #Tbl-001 (&94123924783112)
+[Tbl-002]:               #Tbl-002 (&94123924801504)
+[Tabelle-1]:             #Tabelle-1 (&94123924855376)
+[Tabelle-2]:             #Tabelle-2 (&94123924882528)
+[Tabelle-3]:             #Tabelle-3 (&94123924917440)
+[Tabelle-4]:             #Tabelle-4 (&94123914728776)
+[Tabelle-5]:             #Tabelle-5 (&94123914936896)
+[Tabelle-6]:             #Tabelle-6 (&94123914977184)
+[Tabelle-7]:             #Tabelle-7 (&94123915019608)
+[Tbl-010]:               #Tbl-010 (&94123913405320)
+[https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen]: https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen (&94123924844600)
