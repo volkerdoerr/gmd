@@ -1,6 +1,6 @@
 # xml2gmd
 
-run: Wed Apr 26 10:54:12 2023
+run: Wed Apr 26 11:05:46 2023
 
 ### input:
 
@@ -10,7 +10,7 @@ run: Wed Apr 26 10:54:12 2023
 
 ### output:
 
-[gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.md](https://github.com/volkerdoerr/gmd/blob/main/output/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.md) ([.debug.txt](https://github.com/volkerdoerr/gmd/blob/main/output/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.debug.txt))  
-[gemSpec_Net_V1.23.0.md](https://github.com/volkerdoerr/gmd/blob/main/output/gemSpec_Net_V1.23.0.md) ([.debug.txt](https://github.com/volkerdoerr/gmd/blob/main/output/gemSpec_Net_V1.23.0.debug.txt))  
-[gemSpec_Kon_V5.18.0.md](https://github.com/volkerdoerr/gmd/blob/main/output/gemSpec_Kon_V5.18.0.md) ([.debug.txt](https://github.com/volkerdoerr/gmd/blob/main/output/gemSpec_Kon_V5.18.0.debug.txt))  
+[gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.md](https://github.com/volkerdoerr/gmd/blob/main/output/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.md) ([.debug.txt](https://github.com/volkerdoerr/gmd/blob/main/output/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.attachments/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.debug.txt))  
+[gemSpec_Net_V1.23.0.md](https://github.com/volkerdoerr/gmd/blob/main/output/gemSpec_Net_V1.23.0.md) ([.debug.txt](https://github.com/volkerdoerr/gmd/blob/main/output/gemSpec_Net_V1.23.0.attachments/gemSpec_Net_V1.23.0.debug.txt))  
+[gemSpec_Kon_V5.18.0.md](https://github.com/volkerdoerr/gmd/blob/main/output/gemSpec_Kon_V5.18.0.md) ([.debug.txt](https://github.com/volkerdoerr/gmd/blob/main/output/gemSpec_Kon_V5.18.0.attachments/gemSpec_Kon_V5.18.0.debug.txt))  
 [README.md](https://github.com/volkerdoerr/gmd/blob/main/README.md) (this)
