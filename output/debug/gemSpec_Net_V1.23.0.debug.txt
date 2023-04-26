@@ -1,0 +1,188 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+### Übergreifende Spezifikation<br> Netzwerk
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_Net
+Revision: 566842
+Stand: 16.12.22
+Status: freigegeben
+Version: 1.23.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:   #inhaltsverzeichnis
+[1]:                    #1-einordnung-des-dokuments
+[1.1]:                  #11-zielsetzung
+[1.2]:                  #12-zielgruppe
+[1.3]:                  #13-geltungsbereich
+[1.4]:                  #14-abgrenzung-des-dokuments
+[1.5]:                  #15-methodik
+[2]:                    #2-übergreifende-netzwerk-festlegungen
+[2.1]:                  #21-netztopologie
+[2.2]:                  #22-netzwerkprotokolle
+[2.2.1]:                #221-osi-schicht-1-und-2-(physical/data-link)
+[2.2.2]:                #222-osi-schicht-3-(network)
+[2.2.2.1]:              #2221-ip-version-4
+[2.2.2.2]:              #2222-ip-version-6
+[2.2.3]:                #223-osi-schicht-4-(transport)
+[2.2.3.1]:              #2231-transmission-control-protocol-(tcp)-und-user-datagram-protocol-(udp)
+[2.2.3.2]:              #2232-udp/tcp-portbereiche
+[2.2.3.3]:              #2233-transport-layer-security-(tls)
+[2.3]:                  #23-ip-adresskonzept-der-ti
+[2.3.1]:                #231-adressblöcke
+[2.3.2]:                #232-prozesse-zur-ip-adressvergabe
+[2.3.3]:                #233-adresskonzept-ipv4
+[2.3.4]:                #234-adresskonzept-ipv6
+[2.3.5]:                #235-adressen-sis-systeme
+[2.4]:                  #24-ip-routingkonzept
+[2.5]:                  #25-priorisierung-auf-netzwerkebene
+[2.5.1]:                #251-architektur
+[2.5.2]:                #252-definition-und-zuordnung-von-dienstklassen
+[2.5.3]:                #253-markierung
+[2.5.3.1]:              #2531-dscp-markierung-netzkonnektor
+[2.5.3.2]:              #2532-dscp-markierung-zentrales-netz-ti
+[2.5.3.3]:              #2533-dscp-markierung-fremdnetze
+[2.5.4]:                #254-priorisierung-des-markierten-datenverkehrs
+[2.5.4.1]:              #2541-zentrales-netz
+[2.5.4.2]:              #2542-konnektor
+[2.5.4.3]:              #2543-vpn-zugangsdienst
+[2.6]:                  #26-sicherheitskomponenten-im-netzwerk
+[2.6.1]:                #261-typen-von-sicherheitskomponenten
+[2.6.2]:                #262-anforderungen-an-sicherheitskomponenten
+[2.6.3]:                #263-platzierung-von-sicherheitskomponenten
+[2.6.4]:                #264-prozesse-zu-regeln-für-sicherheitsgateways
+[2.6.5]:                #265-erlaubter-verkehr
+[2.7]:                  #27-ip-configuration-management
+[3]:                    #3-zentrales-netz-der-ti
+[3.1]:                  #31-zerlegung-des-produkttyps
+[3.1.1]:                #311-sicherer-zentraler-zugangspunkt-(szzp)
+[3.1.1.1]:              #3111-netzkomponente
+[3.1.1.2]:              #3112-sicherheitsgateway
+[3.1.1.3]:              #3113-anbindungen
+[3.1.2]:                #312-netzwerk
+[3.1.2.1]:              #3121-backbone-(zentrales-transportnetz-provider)
+[3.2]:                  #32-übergreifende-festlegungen
+[3.3]:                  #33-funktionsmerkmale
+[3.3.1]:                #331-osi-schicht-1-und-2-(physical/data-link)
+[3.3.1.1]:              #3311-schnittstelle-cpe-produkttyp
+[3.3.1.2]:              #3312-hardwaremerkmale
+[3.3.2]:                #332-osi-schicht-3-(network)
+[3.3.2.1]:              #3321-schnittstelle-i_ip_transport
+[3.3.3]:                #333-adressierung
+[3.3.3.1]:              #3331-schnittstelle-szzp-backbone-(ce-pe)-und-szzp-intern
+[3.3.4]:                #334-routing
+[3.3.5]:                #335-abstimmung-mit-angeschlossenen-produkttypen
+[3.4]:                  #34-verteilungssicht
+[3.4.1]:                #341-zugangsstellen
+[4]:                    #4-anforderungen-an-das-sicherheitsgateway-bestandsnetze
+[4.1]:                  #41-zerlegung-des-produkttyps
+[5]:                    #5-namensdienst
+[5.1]:                  #51-hostnamen
+[5.2]:                  #52-namensräume
+[5.3]:                  #53-domainnamen--und-hierarchie
+[5.4]:                  #54-dns-topologie
+[5.5]:                  #55-dienstlokalisierung
+[5.6]:                  #56-schnittstellen-i_dns_name_resolution-und-i_dns_service_localization
+[5.6.1]:                #561-umsetzung
+[5.6.2]:                #562-nutzung
+[5.7]:                  #57-anforderungen-an-den-produkttyp-namensdienst
+[5.7.1]:                #571-schnittstellen-p_dns_name_entry_announcement-und-p_dns_service_entry_announcement
+[5.7.2]:                #572-schnittstelle-p_dnssec_key_distribution
+[5.7.3]:                #573-schnittstelle-p_dns_zone_delegation
+[5.7.4]:                #574-sonstige-anforderungen
+[6]:                    #6-zeitdienst
+[6.1]:                  #61-ntp-topologie
+[6.2]:                  #62-schnittstelle-i_ntp_time_information
+[6.2.1]:                #621-umsetzung
+[6.2.2]:                #622-nutzung
+[6.3]:                  #63-anforderungen-an-den-produkttyp-zeitdienst
+[7]:                    #7-hosting
+[8]:                    #8-anhang-a-–-verzeichnisse
+[8.1]:                  #81-abkürzungen
+[8.2]:                  #82-glossar
+[8.3]:                  #83-abbildungsverzeichnis
+[8.4]:                  #84-tabellenverzeichnis
+[8.5]:                  #85-referenzierte-dokumente
+[8.5.1]:                #851-dokumente-der-gematik
+[8.5.2]:                #852-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:          Abb_NetzTopologie_Schema, Netztopologie der TI      (&93861659509808) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAILEAYAAADHzc...
+[Abbildung-2]:          Abb_NetzTopologie_Detail, Netzwerktopologie der T.. (&93861659515552) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAHkEAYAAAARN3...
+[Abbildung-3]:          DSCP-Markierung (Beispiel)                          (&93861662798248) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAEKEAYAAAA9eQ...
+[Abbildung-4]:          Abb_SichKomp_Platzierung, Platzierung von Sicherh.. (&93861663337376) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIJEAYAAACKBW...
+[Abbildung-5]:          Abb_IP-Config_Mgmt_Datenmodell                      (&93861663844704) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwQAAAL2CAYAAAD/1l...
+[Abbildung-6]:          Abb_ZentrNetz_Zerlegung, Zerlegung Zentrales Netz   (&93861663868784) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIlEAYAAAD6a6...
+[Abbildung-7]:          Abb_ZentrNetz_Anbindungsvarianten SZZP              (&93861664468016) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA5wAAAERCAYAAAAXA6...
+[Abbildung-8]:          Abb_zentrNetz_SZZP-light                            (&93861664493976) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA2cAAAEdCAIAAAAHD4...
+[Abbildung-9]:          Abb_zentrNetz_SZZP-light-plus                       (&93861664704176) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA6QAAAEdCAIAAACUhz...
+[Abbildung-11]:         Sicherheitsgateway_Bestandsnetze                    (&93861665112480) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkYAAAC/CAYAAAAb3x...
+[Abbildung-13]:         Abb_DNS_Topologie_der_TI (GS-A_3932)                (&93861665790136) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAALNEAYAAAAAfD...
+[Abbildung-14]:         NTP-Topologie der TI                                (&93861666613408) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAALvEAYAAABKGJ...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:              #Tbl-001 (&93861658117512)
+[Tabelle-1]:            #Tabelle-1 (&93861659527344)
+[Tbl-003]:              #Tbl-003 (&93861659663984)
+[Tabelle-3]:            #Tabelle-3 (&93861659827840)
+[Tabelle-4]:            #Tabelle-4 (&93861661909504)
+[Tabelle-5]:            #Tabelle-5 (&93861662007664)
+[Tabelle-6]:            #Tabelle-6 (&93861662150264)
+[Tbl-008]:              #Tbl-008 (&93861662358240)
+[Tabelle-8]:            #Tabelle-8 (&93861662584120)
+[Tabelle-9]:            #Tabelle-9 (&93861662721712)
+[Tabelle-10]:           #Tabelle-10 (&93861662762504)
+[Tabelle-11]:           #Tabelle-11 (&93861663089040)
+[Tabelle-12]:           #Tabelle-12 (&93861663115528)
+[Tabelle-13]:           #Tabelle-13 (&93861663162928)
+[Tbl-015]:              #Tbl-015 (&93861664907536)
+[Tbl-016]:              #Tbl-016 (&93861665030904)
+[Tabelle-16]:           #Tabelle-16 (&93861665760960)
+[Tbl-018]:              #Tbl-018 (&93861666313368)
+[Tabelle-18]:           #Tabelle-18 (&93861666339304)
+[Tbl-020]:              #Tbl-020 (&93861666436064)
+[Tbl-021]:              #Tbl-021 (&93861666923976)
+[Tabelle-21]:           #Tabelle-21 (&93861666988936)
+[Tabelle-22]:           #Tabelle-22 (&93861667025896)
+[Tabelle-23]:           #Tabelle-23 (&93861667044816)
+[Tbl-025]:              #Tbl-025 (&93861667115224)
+[Tbl-026]:              #Tbl-026 (&93861667221776)
+[Tbl-027]:              #Tbl-027 (&93861667240584)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+
