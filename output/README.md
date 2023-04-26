@@ -1,12 +1,12 @@
 # xml2gmd
 
-run: Wed Apr 26 16:59:05 2023
+run: Wed Apr 26 17:10:12 2023
 
 ### input:
 
-[gemSpec_Net_V1.23.0](https://github.com/volkerdoerr/gmd/blob/main/input/gemSpec_Net_V1.23.0.html) ([➜view](https://htmlpreview.github.io/?https://github.com/volkerdoerr/gmd/blob/main/input/gemSpec_Net_V1.23.0.html))  
-[gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0](https://github.com/volkerdoerr/gmd/blob/main/input/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.html) ([➜view](https://htmlpreview.github.io/?https://github.com/volkerdoerr/gmd/blob/main/input/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.html))  
-[gemSpec_Kon_V5.18.0](https://github.com/volkerdoerr/gmd/blob/main/input/gemSpec_Kon_V5.18.0.html) ([➜view](https://htmlpreview.github.io/?https://github.com/volkerdoerr/gmd/blob/main/input/gemSpec_Kon_V5.18.0.html))  
+[gemSpec_Net_V1.23.0.html](https://htmlpreview.github.io/?https://github.com/volkerdoerr/gmd/blob/main/input/gemSpec_Net_V1.23.0.html) ([in repo](https://github.com/volkerdoerr/gmd/blob/main/input/gemSpec_Net_V1.23.0.html))  
+[gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.html](https://htmlpreview.github.io/?https://github.com/volkerdoerr/gmd/blob/main/input/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.html) ([in repo](https://github.com/volkerdoerr/gmd/blob/main/input/gemProdT_IDP-Sek_PTV_2.0.0-1_V1.0.0.html))  
+[gemSpec_Kon_V5.18.0.html](https://htmlpreview.github.io/?https://github.com/volkerdoerr/gmd/blob/main/input/gemSpec_Kon_V5.18.0.html) ([in repo](https://github.com/volkerdoerr/gmd/blob/main/input/gemSpec_Kon_V5.18.0.html))  
 
 ### output:
 
