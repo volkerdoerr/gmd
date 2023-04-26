@@ -3080,396 +3080,396 @@ gestellt.
 
 ### 5.3 Abbildungsverzeichnis
 
-  - [Abbildung-1]: PIC_KON_116 Schnittstellen des Konnektors von und zu anderen Produkttypen
-  - [Abbildung-2]: PIC_KON_117 Logische Zerlegung des Konnektors in Anwendungs- und Netzkonnektor
-  - [Abbildung-3]: PIC_KON_107 XML-Struktur des Status-Elements einer SOAP-Antwort
-  - [Abbildung-4]: PIC_Kon_100 Informationsmodell des Konnektors
-  - [Abbildung-5]: PIC_KON_101 Aufrufkontext der Operation
-  - [Abbildung-6]: PIC_KON_118 Aktivitätsdiagramm zu „TUC_KON_000 Prüfe Zugriffsberechtigung“
-  - [Abbildung-7]: PIC_KON_071 Korrelationszustände eines eHealth-KT
-  - [Abbildung-9]: PIC_KON_057 Aktivitätsdiagramm zu „PaireKartenterminal“
-  - [Abbildung-13]: PIC_KON_058 Aktivitätsdiagramm „Daten hybrid verschlüsseln“
-  - [Abbildung-15]: PIC_KON_103 Use Case Diagramm Signaturdienst (nonQES)
-  - [Abbildung-16]: PIC_KON_104 Use Case Diagramm Signaturdienst (QES)
-  - [Abbildung-17]: PIC_KON_102
-  - [Abbildung-20]: PIC_KON_118 Aufbau und Struktur der Protokolldateien für Plattform und Fachmodule
-  - [Abbildung-21]: PIC_KON_115 Kommunikationsregeln Konnektor
-  - [Abbildung-23]: PIC_KON_120 Abbildung von CardSessions auf logische Kanäle
-  - [Abbildung-24]:  Szenario einer einfachen Installation
-  - [Abbildung-25]: Szenario einer Installation mit mehreren Behandlungsräumen
-  - [Abbildung-26]: Szenario einer Integration der TI Produkte in eine bestehende Infrastruktur
-  - [Abbildung-27]: Szenario einer Integration der TI Produkte in eine bestehende Infrastruktur mit existierendem Router
-  - [Abbildung-28]: Szenario mit zentral gesteckten HBA und SMC-B
-  - [Abbildung-29]: Szenario mit zentralem Primärsystem als Clientsystem
-  - [Abbildung-30]: Szenario für den Zugriff
-  - [Abbildung-31]:   Standalone-Szenario mit physischer Trennung im Konnektor
+  - [Abbildung-1] - PIC_KON_116 Schnittstellen des Konnektors von und zu anderen Produkttypen
+  - [Abbildung-2] - PIC_KON_117 Logische Zerlegung des Konnektors in Anwendungs- und Netzkonnektor
+  - [Abbildung-3] - PIC_KON_107 XML-Struktur des Status-Elements einer SOAP-Antwort
+  - [Abbildung-4] - PIC_Kon_100 Informationsmodell des Konnektors
+  - [Abbildung-5] - PIC_KON_101 Aufrufkontext der Operation
+  - [Abbildung-6] - PIC_KON_118 Aktivitätsdiagramm zu „TUC_KON_000 Prüfe Zugriffsberechtigung“
+  - [Abbildung-7] - PIC_KON_071 Korrelationszustände eines eHealth-KT
+  - [Abbildung-9] - PIC_KON_057 Aktivitätsdiagramm zu „PaireKartenterminal“
+  - [Abbildung-13] - PIC_KON_058 Aktivitätsdiagramm „Daten hybrid verschlüsseln“
+  - [Abbildung-15] - PIC_KON_103 Use Case Diagramm Signaturdienst (nonQES)
+  - [Abbildung-16] - PIC_KON_104 Use Case Diagramm Signaturdienst (QES)
+  - [Abbildung-17] - PIC_KON_102
+  - [Abbildung-20] - PIC_KON_118 Aufbau und Struktur der Protokolldateien für Plattform und Fachmodule
+  - [Abbildung-21] - PIC_KON_115 Kommunikationsregeln Konnektor
+  - [Abbildung-23] - PIC_KON_120 Abbildung von CardSessions auf logische Kanäle
+  - [Abbildung-24] -  Szenario einer einfachen Installation
+  - [Abbildung-25] - Szenario einer Installation mit mehreren Behandlungsräumen
+  - [Abbildung-26] - Szenario einer Integration der TI Produkte in eine bestehende Infrastruktur
+  - [Abbildung-27] - Szenario einer Integration der TI Produkte in eine bestehende Infrastruktur mit existierendem Router
+  - [Abbildung-28] - Szenario mit zentral gesteckten HBA und SMC-B
+  - [Abbildung-29] - Szenario mit zentralem Primärsystem als Clientsystem
+  - [Abbildung-30] - Szenario für den Zugriff
+  - [Abbildung-31] -   Standalone-Szenario mit physischer Trennung im Konnektor
 
 ### 5.4 Tabellenverzeichnis
 
-  - [Tabelle-1]: Fehlercodes TAB_KON_890 Mindestanforderungen an Dokumente und Nachrichten
-  - [Tabelle-2]: Fehlercodes TAB_KON_891 Unerlaubte Inhalte in Dokumenten und Nachrichten
-  - [Tabelle-3]: TAB_KON_500 Wertetabelle Kartentypen
-  - [Tabelle-4]: TAB_KON_856: Identitäten des Konnektors auf der gSMC-K
-  - [Tabelle-5]: TAB_KON_503 Betriebszustand_Fehlerzustandsliste
-  - [Tabelle-6]: TAB_KON_504 Ausführungserlaubnis für Dienste in kritischen Fehlerzuständen
-  - [Tabelle-7]: TAB_KON_502 Fehlercodes „Betriebszustand“
-  - [Tabelle-9]: TAB_KON_852 Konfigurationsvarianten der Verbindungen zwischen Konnektor und Clientsystemen
-  - [Tabelle-10]: TAB_KON_865-01 Konfigurationsvarianten der Verbindungen zwischen Konnektor und Clientsystemen bei LDAP
-  - [Tabelle-11]: TAB_KON_506-01 Konfigurationsparameter der Clientsystem-Authentisierung
-  - [Tabelle-12]: TAB_KON_812 Umgebungsabhängige Konfigurationsparameter
-  - [Tabelle-13]: TAB_KON_507 Informationsmodell Entitäten
-  - [Tabelle-14]: TAB_KON_508 Informationsmodell Attribute
-  - [Tabelle-15]: TAB_KON_509 Informationsmodell Entitätenbeziehungen
-  - [Tabelle-16]: TAB_KON_510 Informationsmodell Constraints
-  - [Tabelle-17]: TAB_KON_511-01 – TUC_KON_000 „Prüfe Zugriffsberechtigung“
-  - [Tabelle-18]: TAB_KON_512 Zugriffsregeln Beschreibung
-  - [Tabelle-19]: TAB_KON_513 Zugriffsregeln Regelzuordnung
-  - [Tabelle-20]: TAB_KON_514-01 Zugriffsregeln Definition
-  - [Tabelle-21]: TAB_KON_515 Fehlercodes TUC_KON_000 „Prüfe Zugriffsberechtigung“
-  - [Tabelle-22]: TAB_KON_143 – TUC_KON_080 „Dokument validieren“
-  - [Tabelle-23]: TAB_KON_144 Fehlercodes TUC_KON_080 „Dokument validieren“
-  - [Tabelle-24]: TAB_KON_516 Basisanwendung Dienstverzeichnisdienst
-  - [Tabelle-26]: TAB_KON_518 Schemabeschreibung Serviceinformation (Serviceinformation.xsd)
-  - [Tabelle-27]: TAB_KON_519 - TUC_KON_041 „Einbringen der Endpunktinformationen während der Bootup-Phase“
-  - [Tabelle-28]: TAB_KON_520 Fehlercodes TUC_KON_041 „Einbringen der Endpunktinformationen während der Bootup-Phase“
-  - [Tabelle-30]: TAB_KON_522 Parameterübersicht des Kartenterminaldienstes
-  - [Tabelle-31]: TAB_KON_785 Erlaubte SICCT-Kommandos bei CT.CONNECTED=Nein
-  - [Tabelle-32]: TAB_KON_727 Terminalanzeigen beim Anfordern und Auswerfen von Karten
-  - [Tabelle-33]: TAB_KON_039 – TUC_KON_050 „Beginne Kartenterminalsitzung“
-  - [Tabelle-34]: TAB_KON_523 Fehlercodes TUC_KON_050 „Beginne Kartenterminalsitzung“
-  - [Tabelle-35]: TAB_KON_524 – TUC_KON_054 „Kartenterminal hinzufügen“
-  - [Tabelle-36]: TAB_KON_525 Fehlercodes TUC_KON_054 „Kartenterminal hinzufügen“
-  - [Tabelle-37]: TAB_KON_041 – TUC_KON_053 „Paire Kartenterminal“
-  - [Tabelle-38]: TAB_KON_113 Fehlercodes TUC_KON_053 „Paire Kartenterminal“
-  - [Tabelle-39]: TAB_KON_526 – TUC_KON_055 „Befülle CT-Object“
-  - [Tabelle-40]: TAB_KON_112 – TUC_KON_051 „Mit Anwender über Kartenterminal interagieren“
-  - [Tabelle-41]: TAB_KON_114 Fehlercodes TUC_KON_051 „Mit Anwender über Kartenterminal interagieren“
-  - [Tabelle-42]: TAB_KON_723 - TUC_KON_056 „Karte anfordern“
-  - [Tabelle-43]: TAB_KON_724 Fehlercodes TUC_KON_056 „Karte anfordern“
-  - [Tabelle-44]: TAB_KON_725 – TUC_KON_057 „Karte auswerfen“
-  - [Tabelle-45]: TAB_KON_796 Fehlercodes TUC_KON_057 „Karte auswerfen“
-  - [Tabelle-46]: TAB_KON_854 – TUC_KON_058 „Displaygröße ermitteln“
-  - [Tabelle-47]: TAB_KON_855 Fehlercodes TUC_KON_058 „Displaygröße ermitteln“
-  - [Tabelle-48]: TAB_KON_722 Basisdienst Kartenterminaldienst
-  - [Tabelle-49]: TAB_KON_716 Operation RequestCard
-  - [Tabelle-50]: TAB_KON_717 Ablauf RequestCard
-  - [Tabelle-51]: TAB_KON_718 Fehlercodes „RequestCard“
-  - [Tabelle-52]: TAB_KON_719 Operation EjectCard
-  - [Tabelle-53]: TAB_KON_720 Ablauf EjectCard
-  - [Tabelle-54]: TAB_KON_721 Fehlercodes Operation „EjectCard“
-  - [Tabelle-55]: TAB_KON_527 Konfigurationswerte eines Kartenterminalobjekts
-  - [Tabelle-56]: TAB_KON_528 Informationsparamter des Kartenterminaldienstes
-  - [Tabelle-57]: TAB_KON_529 Anzeigewerte zu einem Kartenterminalobjekt
-  - [Tabelle-58]: TAB_KON_530 Konfigurationswerte eines Kartenterminalobjekts
-  - [Tabelle-59]: TAB_KON_531 Parameterübersicht des Kartendienstes
-  - [Tabelle-60]: TAB_KON_090 Terminalanzeigen beim Eingeben der PIN am Kartenterminal
-  - [Tabelle-61]: TAB_KON_734 – TUC_KON_001 „Karte öffnen“
-  - [Tabelle-62]: TAB_KON_735 - TUC_KON_026
-  - [Tabelle-63]: TAB_KON_824 Fehlercodes TUC_KON_026 „Liefere CardSession“
-  - [Tabelle-64]: TAB_KON_087 – TUC_KON_012 „PIN verifizieren“
-  - [Tabelle-65]: TAB_KON_089 Fehlercodes TUC_KON_012 „PIN verifizieren“
-  - [Tabelle-66]: TAB_KON_736 – TUC_KON_019 „PIN ändern“
-  - [Tabelle-67]: TAB_KON_093 Fehlercodes TUC_KON_019 „PIN ändern“
-  - [Tabelle-68]: TAB_KON_236 – TUC_KON_021 „PIN entsperren“
-  - [Tabelle-69]: TAB_KON_193 Fehlercodes TUC_KON_021 „PIN entsperren“
-  - [Tabelle-70]: TAB_KON_532 – TUC_KON_022 „Liefere PIN-Status“
-  - [Tabelle-71]: TAB_KON_091 Fehlercodes TUC_KON_022 „Liefere PIN-Status“
-  - [Tabelle-72]: TAB_KON_240 - TUC_KON_027 „PIN-Schutz ein-/ausschalten”
-  - [Tabelle-73]: TAB_KON_838 Mapping von pinRef auf ANW
-  - [Tabelle-74]: TAB_KON_241 Fehlercodes TUC_KON_027 „PIN-Schutz ein/ausschalten“
-  - [Tabelle-75]: TAB_KON_533 - TUC_KON_023 „Karte reservieren”
-  - [Tabelle-76]: TAB_KON_534 Fehlercodes TUC_KON_023 „Karte reservieren“
-  - [Tabelle-77]: TAB_KON_096 – TUC_KON_005 „Card-to-Card authentisieren”
-  - [Tabelle-78]: TAB_KON_673 AuthMode für C2C
-  - [Tabelle-79]: TAB_KON_674 Erlaubte Parameterkombinationen und resultierende CV-Zertifikate für C2C
-  - [Tabelle-80]: TAB_KON_535 Fehlercodes TUC_KON_005 „Card-to-Card authentisieren“
-  - [Tabelle-81]: TAB_KON_218 – TUC_KON_202 „LeseDatei“
-  - [Tabelle-82]: TAB_KON_536 Fehlercodes TUC_KON_202 „LeseDatei“
-  - [Tabelle-83]: TAB_KON_219 – TUC_KON_203 „SchreibeDatei“
-  - [Tabelle-84]: TAB_KON_537 Fehlercodes TUC_KON_203 „Schreibe Datei“
-  - [Tabelle-85]: TAB_KON_204 – TUC_KON_204 „LöscheDateiInhalt“
-  - [Tabelle-86]: TAB_KON_785 Fehlercodes TUC_KON_204 „LöscheDateiInhalt“
-  - [Tabelle-87]: TAB_KON_538 – TUC_KON_209 „LeseRecord“
-  - [Tabelle-88]: TAB_KON_539 Fehlercodes TUC_KON_209 „LeseRecord“
-  - [Tabelle-89]: TAB_KON_224 – TUC_KON_210 „SchreibeRecord“
-  - [Tabelle-90]: TAB_KON_540 Fehlercodes TUC_KON_210 „SchreibeRecord“
-  - [Tabelle-91]: TAB_KON_211 – TUC_KON_211 „LöscheRecordInhalt“
-  - [Tabelle-92]: TAB_KON_786 Fehlercodes TUC_KON_211 „LöscheRecordInhalt“
-  - [Tabelle-93]: TAB_KON_228 – TUC_KON_214 „FügeHinzuRecord“
-  - [Tabelle-94]: TAB_KON_541 Fehlercodes TUC_KON_214 „FügeHinzuRecord“
-  - [Tabelle-95]: TAB_KON_229 – TUC_KON_215 „SucheRecord“
-  - [Tabelle-96]: TAB_KON_542 Fehlercodes TUC_KON_215 „SucheRecord“
-  - [Tabelle-97]: TAB_KON_110 - TUC_KON_018 „eGK-Sperrung prüfen“
-  - [Tabelle-98]: TAB_KON_239 Fehlercodes TUC_KON_018 „eGK-Sperrung prüfen“
-  - [Tabelle-99]: TAB_KON_108 - TUC_KON_006 „Datenzugriffsaudit eGK schreiben“
-  - [Tabelle-100]: TAB_KON_238 Fehlercodes TUC_KON_006 „Datenzugriffsaudit eGK schreiben“
-  - [Tabelle-101]: TAB_KON_231 – TUC_KON_218 „Signiere“
-  - [Tabelle-102]: TAB_KON_543 Fehlercodes TUC_KON_218 „Signiere“
-  - [Tabelle-103]: TAB_KON_232 – TUC_KON_219 „Entschlüssele“
-  - [Tabelle-104]: TAB_KON_210 Fehlercodes TUC_KON_219 „Entschlüssele“
-  - [Tabelle-105]: TAB_KON_215 TUC_KON_200 „SendeAPDU“
-  - [Tabelle-106]: TAB_KON_216 Fehlercodes TUC_KON_200 „SendeAPDU“
-  - [Tabelle-107]: TAB_KON_737 – TUC_KON_024 „Karte zurücksetzen“
-  - [Tabelle-108]: TAB_KON_544 Fehlercodes TUC_KON_024 „Karte zurücksetzen“
-  - [Tabelle-109]: TAB_KON_230 – TUC_KON_216 „LeseZertifikat“
-  - [Tabelle-110]: TAB_KON_209 Fehlercodes TUC_KON_216 „LeseZertifikat“
-  - [Tabelle-111]: TAB_KON_827 TUC_KON_036 „LiefereFachlicheRolle“
-  - [Tabelle-112]: TAB_KON_829 Fehlercodes TUC_KON_036 „LiefereFachlicheRolle“
-  - [Tabelle-113]: TAB_KON_038 Basisanwendung Karten- und Kartenterminaldienst
-  - [Tabelle-114]: TAB_KON_047 Operation VerifyPin
-  - [Tabelle-115]: TAB_KON_738 Ablauf VerifyPin
-  - [Tabelle-116]: TAB_KON_545 Fehlercodes „VerifyPin“
-  - [Tabelle-117]: TAB_KON_049 Operation ChangePin
-  - [Tabelle-118]: TAB_KON_546 Ablauf ChangePin
-  - [Tabelle-119]: TAB_KON_547 Fehlercodes „ChangePin“
-  - [Tabelle-120]: TAB_KON_051 Operation GetPinStatus
-  - [Tabelle-121]: TAB_KON_548 Ablauf GetPinStatus
-  - [Tabelle-122]: TAB_KON_549 Fehlercodes „GetPinStatus“
-  - [Tabelle-123]: TAB_KON_053 Operation UnblockPin
-  - [Tabelle-124]: TAB_KON_550 Ablauf UnblockPIN
-  - [Tabelle-125]: TAB_KON_551 Fehlercodes „UnblockPin“
-  - [Tabelle-126]: TAB_KON_242 Operation EnablePin
-  - [Tabelle-127]: TAB_KON_243 Ablauf EnablePin
-  - [Tabelle-128]: TAB_KON_244 Fehlercodes „EnablePin“
-  - [Tabelle-129]: TAB_KON_245 Operation DisablePin
-  - [Tabelle-130]: TAB_KON_246 Ablauf DisablePin
-  - [Tabelle-131]: TAB_KON_247 Fehlercodes „DisablePin“
-  - [Tabelle-132]: TAB_KON_554 Konfiguration des Kartendienstes
-  - [Tabelle-133]: TAB_KON_555 - TUC_KON_025 „Initialisierung Kartendienst“
-  - [Tabelle-135]: TAB_KON_556 - TUC_KON_256 „Systemereignis absetzen“
-  - [Tabelle-136]: TAB_KON_557 Fehlercodes TUC_KON_256 „Systemereignis absetzen“
-  - [Tabelle-137]: TAB_KON_558 – TUC_KON_252 „Liefere KT_Liste“
-  - [Tabelle-138]: TAB_KON_559 – TUC_KON_253 „Liefere Karten_Liste“
-  - [Tabelle-139]: TAB_KON_560 Fehlercodes TUC_KON_253 „Liefere Karten_Liste“
-  - [Tabelle-140]: TAB_KON_561 - TUC_KON_254 „Liefere Ressourcendetails“
-  - [Tabelle-141]: TAB_KON_562 Fehlercodes TUC_KON_254 „Liefere Ressourcendetails“
-  - [Tabelle-142]: TAB_KON_029 Basisanwendung Systeminformationsdienst
-  - [Tabelle-146]: TAB_KON_565 Operation GetCards
-  - [Tabelle-147]: TAB_KON_566 Ablauf GetCards
-  - [Tabelle-148]: TAB_KON_567 Fehlercodes „GetCards“
-  - [Tabelle-149]: TAB_KON_568 Operation GetResourceInformation
-  - [Tabelle-150]: TAB_KON_569 Ablauf GetResourceInformation
-  - [Tabelle-151]: TAB_KON_570 Fehlercodes „GetResourceInformation“
-  - [Tabelle-166]: TAB_KON_747 KeyReference für Encrypt-/DecryptDocument
-  - [Tabelle-167]: TAB_KON_859 Werteliste und Defaultwert des Parameters crypt bei hybrider Verschlüsselung
-  - [Tabelle-168]: TAB_KON_739 - TUC_KON_070 „Daten hybrid verschlüsseln“
-  - [Tabelle-169]: TAB_KON_073 Vorgaben zum Format verschlüsselter XML-Dokumente
-  - [Tabelle-170]: TAB_KON_740 Fehlercodes TUC_KON_070 „Daten hybrid verschlüsseln“
-  - [Tabelle-171]: TAB_KON_140 – TUC_KON_071 „Daten hybrid entschlüsseln“
-  - [Tabelle-172]: TAB_KON_142 Fehlercodes TUC_KON_071 „Daten hybrid entschlüsseln“
-  - [Tabelle-173]: TAB_KON_741 – TUC_KON_072 „Daten symmetrisch verschlüsseln“
-  - [Tabelle-174]: TAB_KON_742 Fehlercodes TUC_KON_072 „Daten symmetrisch verschlüsseln“
-  - [Tabelle-175]: TAB_KON_743 - TUC_KON_073 „Daten symmetrisch entschlüsseln“
-  - [Tabelle-176]: TAB_KON_744 Fehlercodes TUC_KON_073 „Daten symmetrisch entschlüsseln“
-  - [Tabelle-177]: TAB_KON_860 – TUC_KON_075 „Symmetrisch verschlüsseln“
-  - [Tabelle-178]: TAB_KON_861 - TUC_KON_076 „Symmetrisch entschlüsseln“
-  - [Tabelle-179]: TAB_KON_745 Basisdienst Verschlüsselungsdienst
-  - [Tabelle-180]: TAB_KON_071 Operation EncryptDocument
-  - [Tabelle-181]: TAB_KON_746 Ablauf EncryptDocument
-  - [Tabelle-182]: TAB_KON_141 Fehlercodes „EncryptDocument“
-  - [Tabelle-183]: TAB_KON_075 Operation DecryptDocument
-  - [Tabelle-184]: TAB_KON_076 Ablauf DecryptDocument
-  - [Tabelle-185]: TAB_KON_145 Fehlercodes „DecryptDocument“
-  - [Tabelle-186]: TAB_KON_582 – Signaturverfahren Dokumentensignatur
-  - [Tabelle-187]: TAB_KON_778 – Einsatzbereich der Signaturvarianten für XAdES, CAdES und PAdES
-  - [Tabelle-188]: TAB_KON_583 – Default-Signaturverfahren
-  - [Tabelle-189]: TAB_KON_584 nonQES-Operationen für EVT_MONITOR_OPERATIONS
-  - [Tabelle-191]: TAB_KON_862-01 Werteliste und Defaultwert des Parameters crypt bei QES-Erzeugung
-  - [Tabelle-192]: TAB_KON_863 Werteliste und Defaultwert des Parameters crypt bei nonQES-Erzeugung
-  - [Tabelle-193]: TAB_KON_748 - TUC_KON_155 „Dokumente zur Signatur vorbereiten“
-  - [Tabelle-194]: TAB_KON_586 Fehlercodes TUC_KON_155 „Dokumente zur Signatur vorbereiten“
-  - [Tabelle-195]: TAB_KON_749 – TUC_KON_165 „Signaturvoraussetzungen für nonQES prüfen“
-  - [Tabelle-196]: TAB_KON_587 Fehlercodes TUC_KON_165 „Signaturvoraussetzungen für nonQES prüfen“
-  - [Tabelle-197]: TAB_KON_750 – TUC_KON_166 „nonQES Signaturen erstellen“
-  - [Tabelle-198]: TAB_KON_120 Fehlercodes TUC_KON_166 „nonQES Signaturen erstellen“
-  - [Tabelle-199]: TAB_KON_751 – TUC_KON_152 „Signaturvoraussetzungen für QES prüfen“
-  - [Tabelle-200]: TAB_KON_588 Fehlercodes TUC_KON_152 „Signaturvoraussetzungen für QES prüfen“
-  - [Tabelle-201]: TAB_KON_752 – TUC_KON_154 „QES Signaturen erstellen"
-  - [Tabelle-202]: TAB_KON_126 Fehlercodes TUC_KON_154 „QES Signaturen erstellen“
-  - [Tabelle-203]: TAB_KON_293 - TUC_KON_168 „Einzelsignatur QES erstellen“
-  - [Tabelle-204]: TAB_KON_590 Fehlercodes TUC_KON_168 „Einzelsignatur QES erstellen“
-  - [Tabelle-205]: TAB_KON_870 – TUC_KON_158 „Komfortsignaturen erstellen"
-  - [Tabelle-206]: TAB_KON_873 Fehlercodes TUC_KON_158 „Komfortsignaturen erstellen“
-  - [Tabelle-207]: TAB_KON_753 – TUC_KON_160 „Dokumente nonQES signieren“
-  - [Tabelle-208]: TAB_KON_127 Fehlercodes TUC_KON_160 „Dokumente nonQES signieren“
-  - [Tabelle-209]: TAB_KON_753 – TUC_KON_160 „Dokumente nonQES signieren“
-  - [Tabelle-210]: TAB_KON_127 Fehlercodes TUC_KON_160 „Dokumente nonQES signieren“
-  - [Tabelle-211]: TAB_KON_121 - TUC_KON_161 „nonQES Dokumentsignatur prüfen“
-  - [Tabelle-212]: TAB_KON_124 Fehlercodes TUC_KON_161 „nonQES Dokumentensignatur prüfen“
-  - [Tabelle-213]: TAB_KON_754 Übersicht Status für Prüfung einer Dokumentensignatur
-  - [Tabelle-214]: TAB_KON_786 Übersicht unterstützte Zertifikatstyp-OIDs
-  - [Tabelle-215]: TAB_KON_430 – TUC_KON_162 „Kryptographische Prüfung der XML-Dokumentensignatur“
-  - [Tabelle-216]: TAB_KON_431 Fehlercodes TUC_KON_162 „Kryptographische Prüfung der XML-Dokumentensignatur“
-  - [Tabelle-217]: TAB_KON_755 – TUC_KON_150 „Dokumente QES signieren“
-  - [Tabelle-218]: TAB_KON_128 Fehlercodes TUC_KON_150 „Dokument QES signieren“
-  - [Tabelle-219]: TAB_KON_192 Verhalten des Konnektors beim Abbruch einer Stapelsignatur
-  - [Tabelle-220]: TAB_KON_591 - TUC_KON_151 „QES-Dokumentensignatur prüfen“
-  - [Tabelle-221]: TAB_KON_592 Fehlercodes TUC_KON_151 „QES Dokumentensignatur prüfen“
-  - [Tabelle-222]: TAB_KON_593 Übersicht Status für Prüfung einer Dokumentensignatur
-  - [Tabelle-223]: TAB_KON_871 – TUC_KON_170 „Dokumente mit Komfort signieren“
-  - [Tabelle-224]: TAB_KON_872 Fehlercodes TUC_KON_170 „Dokumente mit Komfort signieren“
-  - [Tabelle-225]: TAB_KON_883 – TUC_KON_171 „Komfortsignatur einschalten“
-  - [Tabelle-226]: TAB_KON_886 Fehlercodes TUC_KON_171 „Komfortsignatur einschalten“
-  - [Tabelle-227]: TAB_KON_884 – TUC_KON_172 „Komfortsignatur ausschalten“
-  - [Tabelle-228]: TAB_KON_887 Fehlercodes TUC_KON_172 „Komfortsignatur ausschalten“
-  - [Tabelle-229]: TAB_KON_885 – TUC_KON_173 „Liefere Signaturmodus“
-  - [Tabelle-230]: TAB_KON_888 Fehlercodes TUC_KON_173 „Liefere Signaturmodus“
-  - [Tabelle-231]: TAB_KON_197 Basisdienst Signaturdienst (nonQES und QES)
-  - [Tabelle-232]: TAB_KON_065 Operation SignDocument (nonQES und QES)
-  - [Tabelle-233]: TAB_KON_756 Ablauf Operation SignDocument (nonQES und QES)
-  - [Tabelle-234]: TAB_KON_757 Fehlercodes „SignDocument (nonQES und QES)“
-  - [Tabelle-235]: TAB_KON_066 Operation VerifyDocument (nonQES und QES)
-  - [Tabelle-236]: TAB_KON_760 Ablauf Operation VerifyDocument (nonQES und QES)
-  - [Tabelle-237]: TAB_KON_761 Fehlercodes „VerifyDocument (nonQES und QES)“
-  - [Tabelle-238]: TAB_KON_840 Operation StopSignature
-  - [Tabelle-239]: TAB_KON_841 Ablauf Operation StopSignature
-  - [Tabelle-240]: TAB_KON_842 Fehlercodes „StopSignature“
-  - [Tabelle-241]: TAB_KON_843 Operation GetJobNumber
-  - [Tabelle-242]: TAB_KON_844 Ablauf Operation GetJobNumber
-  - [Tabelle-243]: TAB_KON_845 Fehlercodes „GetJobNumber“
-  - [Tabelle-244]: TAB_KON_874 ActivateComfortSignature
-  - [Tabelle-245]: TAB_KON_877 Ablauf ActivateComfortSignature
-  - [Tabelle-246]: TAB_KON_879 Fehlercodes ActivateComfortSignature
-  - [Tabelle-247]: TAB_KON_875 DeactivateComfortSignature
-  - [Tabelle-248]: TAB_KON_878 Ablauf DeactivateComfortSignature
-  - [Tabelle-249]: TAB_KON_880 Fehlercodes DeactivateComfortSignature
-  - [Tabelle-250]: TAB_KON_876 GetSignatureMode
-  - [Tabelle-251]: TAB_KON_882 Ablauf GetSignatureMode
-  - [Tabelle-252]: TAB_KON_881 Fehlercodes GetSignatureMode
-  - [Tabelle-253]: TAB_KON_596 Konfigurationswerte des Signaturdienstes (Administrator)
-  - [Tabelle-254]: TAB_KON_853- intendedKeyUsage bei Zertifikatsprüfung
-  - [Tabelle-255]: TAB_KON_858 Kartenobjekt in Abhängigkeit vom kryptographischen Verfahren
-  - [Tabelle-256]: TAB_KON_825 Fehlercodes „TLS-Verbindungsaufbau zum TSL-Dienst“
-  - [Tabelle-258]: TAB_KON_597 Operationen in EVT_MONITOR_OPERATIONS
-  - [Tabelle-259]: TAB_KON_766 TUC_KON_032 „TSL aktualisieren“
-  - [Tabelle-260]: TAB_KON_598 Fehlercodes TUC_KON_032 „TSL aktualisieren“
-  - [Tabelle-261]: TAB_KON_618 TUC_KON_031 „BNetzA-VL aktualisieren“
-  - [Tabelle-262]: TAB_KON_619 Fehlercodes TUC_KON_031 „BNetzA-VL aktualisieren“
-  - [Tabelle-263]: TAB_KON_767 TUC_KON_040 „CRL aktualisieren“
-  - [Tabelle-264]: TAB_KON_599 Fehlercodes TUC_KON_040 „CRL aktualisieren“
-  - [Tabelle-265]: TAB_KON_768 TUC_KON_033 „Zertifikatsablauf prüfen“
-  - [Tabelle-266]: TAB_KON_600 Fehlercodes TUC_KON_033 „Zertifikatsablauf prüfen“
-  - [Tabelle-267]: TAB_KON_769 TUC_KON_037 „Zertifikat prüfen“
-  - [Tabelle-268]: TAB_KON_601 Fehlercodes TUC_KON_037 „Zertifikat prüfen“
-  - [Tabelle-269]:  TAB_KON_818 TUC_KON_042 „CV-Zertifikat prüfen“ 
-  - [Tabelle-270]: TAB_KON_819 Fehlercodes TUC_KON_042 „CV-Zertifikat prüfen“
-  - [Tabelle-271]: TAB_KON_770 TUC_KON_034 „Zertifikatsinformationen extrahieren“
-  - [Tabelle-272]: TAB_KON_602 Fehlercodes TUC_KON_034 „Zertifikatsinformationen extrahieren“
-  - [Tabelle-273]: TAB_KON_771 Basisanwendung Zertifikatsdienst
-  - [Tabelle-274]: TAB_KON_676 Operation CheckCertificateExpiration
-  - [Tabelle-275]: TAB_KON_677 Ablauf CheckCertificateExpiration
-  - [Tabelle-276]: TAB_KON_603 Fehlercodes „CheckCertificateExpiration“
-  - [Tabelle-277]: TAB_KON_678 Operation ReadCardCertificate
-  - [Tabelle-278]: TAB_KON_679 Ablauf ReadCardCertificate
-  - [Tabelle-279]: TAB_KON_604 Fehlercodes „ReadCardCertificate“
-  - [Tabelle-283]: TAB_KON_772 TUC_KON_035 „Zertifikatsdienst initialisieren“
-  - [Tabelle-284]: TAB_KON_605 Fehlercodes TUC_KON_035 „Zertifikatsdienst initialisieren“
-  - [Tabelle-285]: TAB_KON_606 Konfiguration des Zertifikatsdienstes
-  - [Tabelle-286]: TAB_KON_733 Einsehbare Konfigurationsparameter des Zertifikatsdienstes
-  - [Tabelle-287]: TAB_KON_857 - Fehlercodes beim Import des Cross-Zertifikats für TI-Vertrauensanker ECC
-  - [Tabelle-288]: TAB_KON_607 – TUC_KON_271 „Schreibe Protokolleintrag“
-  - [Tabelle-289]: TAB_KON_608 Fehlercodes TUC_KON_271 „Schreibe Protokolleintrag“
-  - [Tabelle-290]: TAB_KON_609 Konfigurationswerte des Protokollierungsdienstes (Administrator)
-  - [Tabelle-291]: TAB_KON_610 – TUC_KON_272 „Initialisierung Protokollierungsdienst“
-  - [Tabelle-292]: TAB_KON_611 Fehlercodes TUC_KON_272 „Initialisiere Protokollierungsdienst“
-  - [Tabelle-293]: TAB_KON_773 – TUC_KON_110 „Kartenbasierte TLS-Verbindung aufbauen“
-  - [Tabelle-294]: TAB_KON_612 Fehlercodes TUC_KON_110 „Kartenbasierte TLS-Verbindung aufbauen“
-  - [Tabelle-295]: TAB_KON_774 - TUC_KON_111 „Kartenbasierte TLS-Verbindung abbauen“
-  - [Tabelle-296]: TAB_KON_613 Fehlercodes TUC_KON_111 „Kartenbasierte TLS-Verbindung abbauen“
-  - [Tabelle-297]: TAB_KON_805 - TUC_KON_290 „LDAP-Verbindung aufbauen“
-  - [Tabelle-298]: TAB_KON_815 – TUC_KON_291 „Verzeichnis abfragen“
-  - [Tabelle-299]: TAB_KON_816 – TUC_KON_292 „LDAP-Verbindung trennen"
-  - [Tabelle-300]: TAB_KON_817 – TUC_KON_293 „Verzeichnisabfrage abbrechen“
-  - [Tabelle-301]: TAB_KON_780 – Signaturverfahren Externe Authentisierung
-  - [Tabelle-302]: TAB_KON_839 Basisdienst Authentifizierungsdienst
-  - [Tabelle-303]: TAB_KON_781 Operation ExternalAuthenticate
-  - [Tabelle-304]: TAB_KON_782 Ablauf Operation ExternalAuthenticate
-  - [Tabelle-305]: TAB_KON_783 Übersicht Fehler Operation ExternalAuthenticate
-  - [Tabelle-306]: TAB_KON_784 Privater Schlüssel je Karte für ExternalAuthenticate
-  - [Tabelle-307]: TAB_KON_680 Mapping der Netzwerksegmente
-  - [Tabelle-308]: TAB_KON_681 Definition der vom Konnektor verwendeten VPN-Tunnel
-  - [Tabelle-309]: TAB_KON_682 Definition der Konnektor IP-Adressen
-  - [Tabelle-310]: TAB_KON_614 - TUC_KON_305 „LAN-Adapter initialisieren“
-  - [Tabelle-311]: TAB_KON_615 Fehlercodes TUC_KON_305 „LAN-Adapter initialisieren“
-  - [Tabelle-312]: TAB_KON_616 - TUC_KON_306 „WAN-Adapter initialisieren“
-  - [Tabelle-313]: TAB_KON_617 Fehlercodes TUC_KON_306 „WAN-Adapter initialisieren“
-  - [Tabelle-314]: TAB_KON_622 - TUC_KON_304 „Netzwerk-Routen einrichten“
-  - [Tabelle-315]: TAB_KON_623 Fehlercodes TUC_KON_304 „Netzwerk-Routen einrichten“
-  - [Tabelle-316]: TAB_KON_683 LAN-Adapter IP-Konfiguration
-  - [Tabelle-317]: TAB_KON_684 LAN-Adapter Erweiterte Parameter
-  - [Tabelle-318]: TAB_KON_685 WAN-Adapter IP-Konfiguration
-  - [Tabelle-319]: TAB_KON_686 WAN-Adapter Erweiterte Parameter
-  - [Tabelle-320]: TAB_KON_624 – „Konfigurationsparameter der Anbindung LAN/WAN“
-  - [Tabelle-321]: TAB_KON_625 - Konfigurationsparameter Firewall-Schnittstelle
-  - [Tabelle-322]: TAB_KON_626 „Liefere Netzwerkinformationen über DHCP“
-  - [Tabelle-324]: TAB_KON_628 „Basiskonfiguration des DHCP-Servers“
-  - [Tabelle-325]: TAB_KON_629 „Client-Gruppenspezifische Konfigurationsoptionen des Konnektor-DHCP-Servers“
-  - [Tabelle-326]: TAB_KON_630 - TUC_KON_343 „Initialisierung DHCP-Server“
-  - [Tabelle-327]: TAB_KON_631 Fehlercodes TUC_KON_343 „Initialisierung DHCP-Server“
-  - [Tabelle-328]: TAB_KON_632 – TUC_KON_341 „DHCP Informationen beziehen“
-  - [Tabelle-329]: TAB_KON_633 Fehlercodes TUC_KON_341 „DHCP-Informationen beziehen“
-  - [Tabelle-330]: TAB_KON_634 „Konfiguration des DHCP-Clients“
-  - [Tabelle-331]: TAB_KON_635 – TUC_KON_321 „Verbindung zu dem VPN-Konzentrator der TI aufbauen“
-  - [Tabelle-332]: TAB_KON_636 Fehlercodes TUC_KON_321 „Verbindung zu dem VPN-Konzentrator der TI aufbauen“
-  - [Tabelle-333]: TAB_KON_637 – TUC_KON_322 „Verbindung zu dem VPN-Konzentrator der SIS aufbauen“
-  - [Tabelle-334]: TAB_KON_638 Fehlercodes TUC_KON_322 „Verbindung zu dem VPN-Konzentrator der SIS aufbauen“
-  - [Tabelle-335]: TAB_KON_639 – Konfigurationsparameter VPN-Client
-  - [Tabelle-336]: TAB_KON_640 Zustandswerte für Konnektor NTP-Server
-  - [Tabelle-337]: TAB_KON_776 TUC_KON_351 „Liefere Systemzeit“
-  - [Tabelle-338]: TAB_KON_641 Fehlercodes TUC_KON_351 „Liefere Systemzeit“
-  - [Tabelle-339]: TAB_KON_642 Operation sync_Time
-  - [Tabelle-340]: TAB_KON_643 Konfiguration des Konnektor NTP-Servers
-  - [Tabelle-341]: TAB_KON_730 Einsehbare Konfigurationsparameter des Konnektor NTP-Servers
-  - [Tabelle-342]: TAB_KON_644 – TUC_KON_352 „Initialisierung Zeitdienst“
-  - [Tabelle-343]: TAB_KON_645 Fehlercodes TUC_KON_352 „Initialisierung Zeitdienst“
-  - [Tabelle-344]: TAB_KON_687 DNS-Forwards des DNS-Servers
-  - [Tabelle-345]: TAB_KON_646 – TUC_KON_361 „DNS-Namen auflösen“
-  - [Tabelle-346]: TAB_KON_647 Fehlercodes TUC_KON_361 „DNS Namen auflösen“
-  - [Tabelle-347]: TAB_KON_646 – TUC_KON_361 „DNS-Namen auflösen“
-  - [Tabelle-348]: TAB_KON_647 Fehlercodes TUC_KON_361 „DNS Namen auflösen“
-  - [Tabelle-349]: TAB_KON_648 – TUC_KON_362 „Liste der Dienste abrufen“
-  - [Tabelle-350]: TAB_KON_649 Fehlercodes TUC_KON_362 „Liste der Dienste abrufen“
-  - [Tabelle-351]: TAB_KON_650 - TUC_KON_363 „Dienstdetails abrufen“
-  - [Tabelle-352]: TAB_KON_651 Fehlercodes TUC_KON_363 „Dienstdetails abrufen“
-  - [Tabelle-353]: TAB_KON_652 Basisanwendung Namensdienst
-  - [Tabelle-354]: TAB_KON_653 Operation GetIPAddress
-  - [Tabelle-355]: TAB_KON_654 - Konfigurationsparameter Namensdienst
-  - [Tabelle-356]: TAB_KON_731 Einsehbare Konfigurationsparameter Namensdienst
-  - [Tabelle-357]: TAB_KON_655 Konfigurationen der Benutzerverwaltung (Super-Administrator)
-  - [Tabelle-358]: TAB_KON_656 Konfigurationen der Benutzerverwaltung
-  - [Tabelle-359]: TAB_KON_657 Konfigurationsparameter des Konnektornamens
-  - [Tabelle-360]: TAB_KON_833 Bezeichner für persistente Konfigurationsdaten für Fachmodule
-  - [Tabelle-361]: TAB_KON_658 Aktivieren/Deaktivieren von Leistungsumfängen
-  - [Tabelle -366]: TAB_KON_932 – TUC_KON_411 „Konnektor mit neuem NK-Zertifikat registrieren“
-  - [Tabelle-368]: TAB_KON_851 Einschränkung der Rechte des Remote-Administrators (Denylist)
-  - [Tabelle-370]: TAB_KON_664 – TUC_KON_280 „Konnektoraktualisierung durchführen“
-  - [Tabelle-371]: TAB_KON_665 Fehlercodes TUC_KON_280 „Konnektoraktualisierung durchführen“
-  - [Tabelle-372]: TAB_KON_666 – TUC_KON_281 „Kartenterminalaktualisierung anstoßen“
-  - [Tabelle-373]: TAB_KON_667 Fehlercodes TUC_KON_281 „Kartenterminalaktualisierung anstoßen“
-  - [Tabelle-374]: TAB_KON_668 – TUC_KON_282 „UpdateInformationen beziehen“
-  - [Tabelle-375]: TAB_KON_669 Fehlercodes TUC_KON_282 „UpdateInformationen beziehen“
-  - [Tabelle-376]: TAB_KON_799 – TUC_KON_283 „Infrastruktur Konfiguration aktualisieren“
-  - [Tabelle-377]: Tab_Kon_726 Fehlercodes TUC_KON_283 „Infrastruktur Konfiguration aktualisieren“
-  - [Tabelle-378]: TAB_KON_833 – TUC_KON_285 „UpdateInformationen für Fachmodul beziehen“
-  - [Tabelle-379]: TAB_KON_834 Fehlercodes TUC_KON_285 „UpdateInformationen für Fachmodul beziehen“
-  - [Tabelle-380]: TAB_KON_835 – TUC_KON_286 „Paket für Fachmodul laden“
-  - [Tabelle-381]: TAB_KON_836 Fehlercodes TUC_KON_286 „Paket für Fachmodul laden“
-  - [Tabelle-382]: TAB_KON_864 – TUC_KON_284 „KSR-Client initialisieren“
-  - [Tabelle-383]: TAB_KON_822 Fehlercodes TUC_KON_284 „KSR-Client initialisieren“
-  - [Tabelle-384]: TAB_KON_670 Konfigurationsparameter der Software-Aktualisierung
-  - [Tabelle-385]: TAB_KON_820 Einsehbare Konfigurationsparameter der Software-Aktualisierung
-  - [Tabelle-386]: TAB_KON_671 Anforderungen Klima
-  - [Tabelle-387]: TAB_KON_672 Anforderungen Vibration
-  - [Tabelle-388]: TAB_KON_672 Anforderungen Vibration
-  - [Tabelle-389]: TAB_KON_779-01 „Profilierung der Signaturformate“
-  - [Tabelle-390]: TAB_KON_775 „Mindestanforderungen an Dimensionierung von Dokumenten und Nachrichten“
-  - [Tabelle-391]: TAB_KON_889 „Unerlaubte Inhalte in Dokumenten und Nachrichten“
-  - [Tabelle-392]: TAB_KON_777 Events Interne Mechanismen
-  - [Tabelle-393]: TAB_KON_711 Architektur der TI-Plattform, Berechtigt Fachmodule
-  - [Tabelle-394]: TAB_KON_712 Architektur der TI-Plattform, Berechtigt Clientsysteme
-  - [Tabelle-395]: TAB_KON_713 Architektur der TI-Plattform, Berechtigt eHealth-KT
-  - [Tabelle-396]: TAB_KON_714 Architektur der TI-Plattform, Berechtigt Administrator
-  - [Tabelle-397]: Aufzähltypen
+  - [Tabelle-1] - Fehlercodes TAB_KON_890 Mindestanforderungen an Dokumente und Nachrichten
+  - [Tabelle-2] - Fehlercodes TAB_KON_891 Unerlaubte Inhalte in Dokumenten und Nachrichten
+  - [Tabelle-3] - TAB_KON_500 Wertetabelle Kartentypen
+  - [Tabelle-4] - TAB_KON_856: Identitäten des Konnektors auf der gSMC-K
+  - [Tabelle-5] - TAB_KON_503 Betriebszustand_Fehlerzustandsliste
+  - [Tabelle-6] - TAB_KON_504 Ausführungserlaubnis für Dienste in kritischen Fehlerzuständen
+  - [Tabelle-7] - TAB_KON_502 Fehlercodes „Betriebszustand“
+  - [Tabelle-9] - TAB_KON_852 Konfigurationsvarianten der Verbindungen zwischen Konnektor und Clientsystemen
+  - [Tabelle-10] - TAB_KON_865-01 Konfigurationsvarianten der Verbindungen zwischen Konnektor und Clientsystemen bei LDAP
+  - [Tabelle-11] - TAB_KON_506-01 Konfigurationsparameter der Clientsystem-Authentisierung
+  - [Tabelle-12] - TAB_KON_812 Umgebungsabhängige Konfigurationsparameter
+  - [Tabelle-13] - TAB_KON_507 Informationsmodell Entitäten
+  - [Tabelle-14] - TAB_KON_508 Informationsmodell Attribute
+  - [Tabelle-15] - TAB_KON_509 Informationsmodell Entitätenbeziehungen
+  - [Tabelle-16] - TAB_KON_510 Informationsmodell Constraints
+  - [Tabelle-17] - TAB_KON_511-01 – TUC_KON_000 „Prüfe Zugriffsberechtigung“
+  - [Tabelle-18] - TAB_KON_512 Zugriffsregeln Beschreibung
+  - [Tabelle-19] - TAB_KON_513 Zugriffsregeln Regelzuordnung
+  - [Tabelle-20] - TAB_KON_514-01 Zugriffsregeln Definition
+  - [Tabelle-21] - TAB_KON_515 Fehlercodes TUC_KON_000 „Prüfe Zugriffsberechtigung“
+  - [Tabelle-22] - TAB_KON_143 – TUC_KON_080 „Dokument validieren“
+  - [Tabelle-23] - TAB_KON_144 Fehlercodes TUC_KON_080 „Dokument validieren“
+  - [Tabelle-24] - TAB_KON_516 Basisanwendung Dienstverzeichnisdienst
+  - [Tabelle-26] - TAB_KON_518 Schemabeschreibung Serviceinformation (Serviceinformation.xsd)
+  - [Tabelle-27] - TAB_KON_519 - TUC_KON_041 „Einbringen der Endpunktinformationen während der Bootup-Phase“
+  - [Tabelle-28] - TAB_KON_520 Fehlercodes TUC_KON_041 „Einbringen der Endpunktinformationen während der Bootup-Phase“
+  - [Tabelle-30] - TAB_KON_522 Parameterübersicht des Kartenterminaldienstes
+  - [Tabelle-31] - TAB_KON_785 Erlaubte SICCT-Kommandos bei CT.CONNECTED=Nein
+  - [Tabelle-32] - TAB_KON_727 Terminalanzeigen beim Anfordern und Auswerfen von Karten
+  - [Tabelle-33] - TAB_KON_039 – TUC_KON_050 „Beginne Kartenterminalsitzung“
+  - [Tabelle-34] - TAB_KON_523 Fehlercodes TUC_KON_050 „Beginne Kartenterminalsitzung“
+  - [Tabelle-35] - TAB_KON_524 – TUC_KON_054 „Kartenterminal hinzufügen“
+  - [Tabelle-36] - TAB_KON_525 Fehlercodes TUC_KON_054 „Kartenterminal hinzufügen“
+  - [Tabelle-37] - TAB_KON_041 – TUC_KON_053 „Paire Kartenterminal“
+  - [Tabelle-38] - TAB_KON_113 Fehlercodes TUC_KON_053 „Paire Kartenterminal“
+  - [Tabelle-39] - TAB_KON_526 – TUC_KON_055 „Befülle CT-Object“
+  - [Tabelle-40] - TAB_KON_112 – TUC_KON_051 „Mit Anwender über Kartenterminal interagieren“
+  - [Tabelle-41] - TAB_KON_114 Fehlercodes TUC_KON_051 „Mit Anwender über Kartenterminal interagieren“
+  - [Tabelle-42] - TAB_KON_723 - TUC_KON_056 „Karte anfordern“
+  - [Tabelle-43] - TAB_KON_724 Fehlercodes TUC_KON_056 „Karte anfordern“
+  - [Tabelle-44] - TAB_KON_725 – TUC_KON_057 „Karte auswerfen“
+  - [Tabelle-45] - TAB_KON_796 Fehlercodes TUC_KON_057 „Karte auswerfen“
+  - [Tabelle-46] - TAB_KON_854 – TUC_KON_058 „Displaygröße ermitteln“
+  - [Tabelle-47] - TAB_KON_855 Fehlercodes TUC_KON_058 „Displaygröße ermitteln“
+  - [Tabelle-48] - TAB_KON_722 Basisdienst Kartenterminaldienst
+  - [Tabelle-49] - TAB_KON_716 Operation RequestCard
+  - [Tabelle-50] - TAB_KON_717 Ablauf RequestCard
+  - [Tabelle-51] - TAB_KON_718 Fehlercodes „RequestCard“
+  - [Tabelle-52] - TAB_KON_719 Operation EjectCard
+  - [Tabelle-53] - TAB_KON_720 Ablauf EjectCard
+  - [Tabelle-54] - TAB_KON_721 Fehlercodes Operation „EjectCard“
+  - [Tabelle-55] - TAB_KON_527 Konfigurationswerte eines Kartenterminalobjekts
+  - [Tabelle-56] - TAB_KON_528 Informationsparamter des Kartenterminaldienstes
+  - [Tabelle-57] - TAB_KON_529 Anzeigewerte zu einem Kartenterminalobjekt
+  - [Tabelle-58] - TAB_KON_530 Konfigurationswerte eines Kartenterminalobjekts
+  - [Tabelle-59] - TAB_KON_531 Parameterübersicht des Kartendienstes
+  - [Tabelle-60] - TAB_KON_090 Terminalanzeigen beim Eingeben der PIN am Kartenterminal
+  - [Tabelle-61] - TAB_KON_734 – TUC_KON_001 „Karte öffnen“
+  - [Tabelle-62] - TAB_KON_735 - TUC_KON_026
+  - [Tabelle-63] - TAB_KON_824 Fehlercodes TUC_KON_026 „Liefere CardSession“
+  - [Tabelle-64] - TAB_KON_087 – TUC_KON_012 „PIN verifizieren“
+  - [Tabelle-65] - TAB_KON_089 Fehlercodes TUC_KON_012 „PIN verifizieren“
+  - [Tabelle-66] - TAB_KON_736 – TUC_KON_019 „PIN ändern“
+  - [Tabelle-67] - TAB_KON_093 Fehlercodes TUC_KON_019 „PIN ändern“
+  - [Tabelle-68] - TAB_KON_236 – TUC_KON_021 „PIN entsperren“
+  - [Tabelle-69] - TAB_KON_193 Fehlercodes TUC_KON_021 „PIN entsperren“
+  - [Tabelle-70] - TAB_KON_532 – TUC_KON_022 „Liefere PIN-Status“
+  - [Tabelle-71] - TAB_KON_091 Fehlercodes TUC_KON_022 „Liefere PIN-Status“
+  - [Tabelle-72] - TAB_KON_240 - TUC_KON_027 „PIN-Schutz ein-/ausschalten”
+  - [Tabelle-73] - TAB_KON_838 Mapping von pinRef auf ANW
+  - [Tabelle-74] - TAB_KON_241 Fehlercodes TUC_KON_027 „PIN-Schutz ein/ausschalten“
+  - [Tabelle-75] - TAB_KON_533 - TUC_KON_023 „Karte reservieren”
+  - [Tabelle-76] - TAB_KON_534 Fehlercodes TUC_KON_023 „Karte reservieren“
+  - [Tabelle-77] - TAB_KON_096 – TUC_KON_005 „Card-to-Card authentisieren”
+  - [Tabelle-78] - TAB_KON_673 AuthMode für C2C
+  - [Tabelle-79] - TAB_KON_674 Erlaubte Parameterkombinationen und resultierende CV-Zertifikate für C2C
+  - [Tabelle-80] - TAB_KON_535 Fehlercodes TUC_KON_005 „Card-to-Card authentisieren“
+  - [Tabelle-81] - TAB_KON_218 – TUC_KON_202 „LeseDatei“
+  - [Tabelle-82] - TAB_KON_536 Fehlercodes TUC_KON_202 „LeseDatei“
+  - [Tabelle-83] - TAB_KON_219 – TUC_KON_203 „SchreibeDatei“
+  - [Tabelle-84] - TAB_KON_537 Fehlercodes TUC_KON_203 „Schreibe Datei“
+  - [Tabelle-85] - TAB_KON_204 – TUC_KON_204 „LöscheDateiInhalt“
+  - [Tabelle-86] - TAB_KON_785 Fehlercodes TUC_KON_204 „LöscheDateiInhalt“
+  - [Tabelle-87] - TAB_KON_538 – TUC_KON_209 „LeseRecord“
+  - [Tabelle-88] - TAB_KON_539 Fehlercodes TUC_KON_209 „LeseRecord“
+  - [Tabelle-89] - TAB_KON_224 – TUC_KON_210 „SchreibeRecord“
+  - [Tabelle-90] - TAB_KON_540 Fehlercodes TUC_KON_210 „SchreibeRecord“
+  - [Tabelle-91] - TAB_KON_211 – TUC_KON_211 „LöscheRecordInhalt“
+  - [Tabelle-92] - TAB_KON_786 Fehlercodes TUC_KON_211 „LöscheRecordInhalt“
+  - [Tabelle-93] - TAB_KON_228 – TUC_KON_214 „FügeHinzuRecord“
+  - [Tabelle-94] - TAB_KON_541 Fehlercodes TUC_KON_214 „FügeHinzuRecord“
+  - [Tabelle-95] - TAB_KON_229 – TUC_KON_215 „SucheRecord“
+  - [Tabelle-96] - TAB_KON_542 Fehlercodes TUC_KON_215 „SucheRecord“
+  - [Tabelle-97] - TAB_KON_110 - TUC_KON_018 „eGK-Sperrung prüfen“
+  - [Tabelle-98] - TAB_KON_239 Fehlercodes TUC_KON_018 „eGK-Sperrung prüfen“
+  - [Tabelle-99] - TAB_KON_108 - TUC_KON_006 „Datenzugriffsaudit eGK schreiben“
+  - [Tabelle-100] - TAB_KON_238 Fehlercodes TUC_KON_006 „Datenzugriffsaudit eGK schreiben“
+  - [Tabelle-101] - TAB_KON_231 – TUC_KON_218 „Signiere“
+  - [Tabelle-102] - TAB_KON_543 Fehlercodes TUC_KON_218 „Signiere“
+  - [Tabelle-103] - TAB_KON_232 – TUC_KON_219 „Entschlüssele“
+  - [Tabelle-104] - TAB_KON_210 Fehlercodes TUC_KON_219 „Entschlüssele“
+  - [Tabelle-105] - TAB_KON_215 TUC_KON_200 „SendeAPDU“
+  - [Tabelle-106] - TAB_KON_216 Fehlercodes TUC_KON_200 „SendeAPDU“
+  - [Tabelle-107] - TAB_KON_737 – TUC_KON_024 „Karte zurücksetzen“
+  - [Tabelle-108] - TAB_KON_544 Fehlercodes TUC_KON_024 „Karte zurücksetzen“
+  - [Tabelle-109] - TAB_KON_230 – TUC_KON_216 „LeseZertifikat“
+  - [Tabelle-110] - TAB_KON_209 Fehlercodes TUC_KON_216 „LeseZertifikat“
+  - [Tabelle-111] - TAB_KON_827 TUC_KON_036 „LiefereFachlicheRolle“
+  - [Tabelle-112] - TAB_KON_829 Fehlercodes TUC_KON_036 „LiefereFachlicheRolle“
+  - [Tabelle-113] - TAB_KON_038 Basisanwendung Karten- und Kartenterminaldienst
+  - [Tabelle-114] - TAB_KON_047 Operation VerifyPin
+  - [Tabelle-115] - TAB_KON_738 Ablauf VerifyPin
+  - [Tabelle-116] - TAB_KON_545 Fehlercodes „VerifyPin“
+  - [Tabelle-117] - TAB_KON_049 Operation ChangePin
+  - [Tabelle-118] - TAB_KON_546 Ablauf ChangePin
+  - [Tabelle-119] - TAB_KON_547 Fehlercodes „ChangePin“
+  - [Tabelle-120] - TAB_KON_051 Operation GetPinStatus
+  - [Tabelle-121] - TAB_KON_548 Ablauf GetPinStatus
+  - [Tabelle-122] - TAB_KON_549 Fehlercodes „GetPinStatus“
+  - [Tabelle-123] - TAB_KON_053 Operation UnblockPin
+  - [Tabelle-124] - TAB_KON_550 Ablauf UnblockPIN
+  - [Tabelle-125] - TAB_KON_551 Fehlercodes „UnblockPin“
+  - [Tabelle-126] - TAB_KON_242 Operation EnablePin
+  - [Tabelle-127] - TAB_KON_243 Ablauf EnablePin
+  - [Tabelle-128] - TAB_KON_244 Fehlercodes „EnablePin“
+  - [Tabelle-129] - TAB_KON_245 Operation DisablePin
+  - [Tabelle-130] - TAB_KON_246 Ablauf DisablePin
+  - [Tabelle-131] - TAB_KON_247 Fehlercodes „DisablePin“
+  - [Tabelle-132] - TAB_KON_554 Konfiguration des Kartendienstes
+  - [Tabelle-133] - TAB_KON_555 - TUC_KON_025 „Initialisierung Kartendienst“
+  - [Tabelle-135] - TAB_KON_556 - TUC_KON_256 „Systemereignis absetzen“
+  - [Tabelle-136] - TAB_KON_557 Fehlercodes TUC_KON_256 „Systemereignis absetzen“
+  - [Tabelle-137] - TAB_KON_558 – TUC_KON_252 „Liefere KT_Liste“
+  - [Tabelle-138] - TAB_KON_559 – TUC_KON_253 „Liefere Karten_Liste“
+  - [Tabelle-139] - TAB_KON_560 Fehlercodes TUC_KON_253 „Liefere Karten_Liste“
+  - [Tabelle-140] - TAB_KON_561 - TUC_KON_254 „Liefere Ressourcendetails“
+  - [Tabelle-141] - TAB_KON_562 Fehlercodes TUC_KON_254 „Liefere Ressourcendetails“
+  - [Tabelle-142] - TAB_KON_029 Basisanwendung Systeminformationsdienst
+  - [Tabelle-146] - TAB_KON_565 Operation GetCards
+  - [Tabelle-147] - TAB_KON_566 Ablauf GetCards
+  - [Tabelle-148] - TAB_KON_567 Fehlercodes „GetCards“
+  - [Tabelle-149] - TAB_KON_568 Operation GetResourceInformation
+  - [Tabelle-150] - TAB_KON_569 Ablauf GetResourceInformation
+  - [Tabelle-151] - TAB_KON_570 Fehlercodes „GetResourceInformation“
+  - [Tabelle-166] - TAB_KON_747 KeyReference für Encrypt-/DecryptDocument
+  - [Tabelle-167] - TAB_KON_859 Werteliste und Defaultwert des Parameters crypt bei hybrider Verschlüsselung
+  - [Tabelle-168] - TAB_KON_739 - TUC_KON_070 „Daten hybrid verschlüsseln“
+  - [Tabelle-169] - TAB_KON_073 Vorgaben zum Format verschlüsselter XML-Dokumente
+  - [Tabelle-170] - TAB_KON_740 Fehlercodes TUC_KON_070 „Daten hybrid verschlüsseln“
+  - [Tabelle-171] - TAB_KON_140 – TUC_KON_071 „Daten hybrid entschlüsseln“
+  - [Tabelle-172] - TAB_KON_142 Fehlercodes TUC_KON_071 „Daten hybrid entschlüsseln“
+  - [Tabelle-173] - TAB_KON_741 – TUC_KON_072 „Daten symmetrisch verschlüsseln“
+  - [Tabelle-174] - TAB_KON_742 Fehlercodes TUC_KON_072 „Daten symmetrisch verschlüsseln“
+  - [Tabelle-175] - TAB_KON_743 - TUC_KON_073 „Daten symmetrisch entschlüsseln“
+  - [Tabelle-176] - TAB_KON_744 Fehlercodes TUC_KON_073 „Daten symmetrisch entschlüsseln“
+  - [Tabelle-177] - TAB_KON_860 – TUC_KON_075 „Symmetrisch verschlüsseln“
+  - [Tabelle-178] - TAB_KON_861 - TUC_KON_076 „Symmetrisch entschlüsseln“
+  - [Tabelle-179] - TAB_KON_745 Basisdienst Verschlüsselungsdienst
+  - [Tabelle-180] - TAB_KON_071 Operation EncryptDocument
+  - [Tabelle-181] - TAB_KON_746 Ablauf EncryptDocument
+  - [Tabelle-182] - TAB_KON_141 Fehlercodes „EncryptDocument“
+  - [Tabelle-183] - TAB_KON_075 Operation DecryptDocument
+  - [Tabelle-184] - TAB_KON_076 Ablauf DecryptDocument
+  - [Tabelle-185] - TAB_KON_145 Fehlercodes „DecryptDocument“
+  - [Tabelle-186] - TAB_KON_582 – Signaturverfahren Dokumentensignatur
+  - [Tabelle-187] - TAB_KON_778 – Einsatzbereich der Signaturvarianten für XAdES, CAdES und PAdES
+  - [Tabelle-188] - TAB_KON_583 – Default-Signaturverfahren
+  - [Tabelle-189] - TAB_KON_584 nonQES-Operationen für EVT_MONITOR_OPERATIONS
+  - [Tabelle-191] - TAB_KON_862-01 Werteliste und Defaultwert des Parameters crypt bei QES-Erzeugung
+  - [Tabelle-192] - TAB_KON_863 Werteliste und Defaultwert des Parameters crypt bei nonQES-Erzeugung
+  - [Tabelle-193] - TAB_KON_748 - TUC_KON_155 „Dokumente zur Signatur vorbereiten“
+  - [Tabelle-194] - TAB_KON_586 Fehlercodes TUC_KON_155 „Dokumente zur Signatur vorbereiten“
+  - [Tabelle-195] - TAB_KON_749 – TUC_KON_165 „Signaturvoraussetzungen für nonQES prüfen“
+  - [Tabelle-196] - TAB_KON_587 Fehlercodes TUC_KON_165 „Signaturvoraussetzungen für nonQES prüfen“
+  - [Tabelle-197] - TAB_KON_750 – TUC_KON_166 „nonQES Signaturen erstellen“
+  - [Tabelle-198] - TAB_KON_120 Fehlercodes TUC_KON_166 „nonQES Signaturen erstellen“
+  - [Tabelle-199] - TAB_KON_751 – TUC_KON_152 „Signaturvoraussetzungen für QES prüfen“
+  - [Tabelle-200] - TAB_KON_588 Fehlercodes TUC_KON_152 „Signaturvoraussetzungen für QES prüfen“
+  - [Tabelle-201] - TAB_KON_752 – TUC_KON_154 „QES Signaturen erstellen"
+  - [Tabelle-202] - TAB_KON_126 Fehlercodes TUC_KON_154 „QES Signaturen erstellen“
+  - [Tabelle-203] - TAB_KON_293 - TUC_KON_168 „Einzelsignatur QES erstellen“
+  - [Tabelle-204] - TAB_KON_590 Fehlercodes TUC_KON_168 „Einzelsignatur QES erstellen“
+  - [Tabelle-205] - TAB_KON_870 – TUC_KON_158 „Komfortsignaturen erstellen"
+  - [Tabelle-206] - TAB_KON_873 Fehlercodes TUC_KON_158 „Komfortsignaturen erstellen“
+  - [Tabelle-207] - TAB_KON_753 – TUC_KON_160 „Dokumente nonQES signieren“
+  - [Tabelle-208] - TAB_KON_127 Fehlercodes TUC_KON_160 „Dokumente nonQES signieren“
+  - [Tabelle-209] - TAB_KON_753 – TUC_KON_160 „Dokumente nonQES signieren“
+  - [Tabelle-210] - TAB_KON_127 Fehlercodes TUC_KON_160 „Dokumente nonQES signieren“
+  - [Tabelle-211] - TAB_KON_121 - TUC_KON_161 „nonQES Dokumentsignatur prüfen“
+  - [Tabelle-212] - TAB_KON_124 Fehlercodes TUC_KON_161 „nonQES Dokumentensignatur prüfen“
+  - [Tabelle-213] - TAB_KON_754 Übersicht Status für Prüfung einer Dokumentensignatur
+  - [Tabelle-214] - TAB_KON_786 Übersicht unterstützte Zertifikatstyp-OIDs
+  - [Tabelle-215] - TAB_KON_430 – TUC_KON_162 „Kryptographische Prüfung der XML-Dokumentensignatur“
+  - [Tabelle-216] - TAB_KON_431 Fehlercodes TUC_KON_162 „Kryptographische Prüfung der XML-Dokumentensignatur“
+  - [Tabelle-217] - TAB_KON_755 – TUC_KON_150 „Dokumente QES signieren“
+  - [Tabelle-218] - TAB_KON_128 Fehlercodes TUC_KON_150 „Dokument QES signieren“
+  - [Tabelle-219] - TAB_KON_192 Verhalten des Konnektors beim Abbruch einer Stapelsignatur
+  - [Tabelle-220] - TAB_KON_591 - TUC_KON_151 „QES-Dokumentensignatur prüfen“
+  - [Tabelle-221] - TAB_KON_592 Fehlercodes TUC_KON_151 „QES Dokumentensignatur prüfen“
+  - [Tabelle-222] - TAB_KON_593 Übersicht Status für Prüfung einer Dokumentensignatur
+  - [Tabelle-223] - TAB_KON_871 – TUC_KON_170 „Dokumente mit Komfort signieren“
+  - [Tabelle-224] - TAB_KON_872 Fehlercodes TUC_KON_170 „Dokumente mit Komfort signieren“
+  - [Tabelle-225] - TAB_KON_883 – TUC_KON_171 „Komfortsignatur einschalten“
+  - [Tabelle-226] - TAB_KON_886 Fehlercodes TUC_KON_171 „Komfortsignatur einschalten“
+  - [Tabelle-227] - TAB_KON_884 – TUC_KON_172 „Komfortsignatur ausschalten“
+  - [Tabelle-228] - TAB_KON_887 Fehlercodes TUC_KON_172 „Komfortsignatur ausschalten“
+  - [Tabelle-229] - TAB_KON_885 – TUC_KON_173 „Liefere Signaturmodus“
+  - [Tabelle-230] - TAB_KON_888 Fehlercodes TUC_KON_173 „Liefere Signaturmodus“
+  - [Tabelle-231] - TAB_KON_197 Basisdienst Signaturdienst (nonQES und QES)
+  - [Tabelle-232] - TAB_KON_065 Operation SignDocument (nonQES und QES)
+  - [Tabelle-233] - TAB_KON_756 Ablauf Operation SignDocument (nonQES und QES)
+  - [Tabelle-234] - TAB_KON_757 Fehlercodes „SignDocument (nonQES und QES)“
+  - [Tabelle-235] - TAB_KON_066 Operation VerifyDocument (nonQES und QES)
+  - [Tabelle-236] - TAB_KON_760 Ablauf Operation VerifyDocument (nonQES und QES)
+  - [Tabelle-237] - TAB_KON_761 Fehlercodes „VerifyDocument (nonQES und QES)“
+  - [Tabelle-238] - TAB_KON_840 Operation StopSignature
+  - [Tabelle-239] - TAB_KON_841 Ablauf Operation StopSignature
+  - [Tabelle-240] - TAB_KON_842 Fehlercodes „StopSignature“
+  - [Tabelle-241] - TAB_KON_843 Operation GetJobNumber
+  - [Tabelle-242] - TAB_KON_844 Ablauf Operation GetJobNumber
+  - [Tabelle-243] - TAB_KON_845 Fehlercodes „GetJobNumber“
+  - [Tabelle-244] - TAB_KON_874 ActivateComfortSignature
+  - [Tabelle-245] - TAB_KON_877 Ablauf ActivateComfortSignature
+  - [Tabelle-246] - TAB_KON_879 Fehlercodes ActivateComfortSignature
+  - [Tabelle-247] - TAB_KON_875 DeactivateComfortSignature
+  - [Tabelle-248] - TAB_KON_878 Ablauf DeactivateComfortSignature
+  - [Tabelle-249] - TAB_KON_880 Fehlercodes DeactivateComfortSignature
+  - [Tabelle-250] - TAB_KON_876 GetSignatureMode
+  - [Tabelle-251] - TAB_KON_882 Ablauf GetSignatureMode
+  - [Tabelle-252] - TAB_KON_881 Fehlercodes GetSignatureMode
+  - [Tabelle-253] - TAB_KON_596 Konfigurationswerte des Signaturdienstes (Administrator)
+  - [Tabelle-254] - TAB_KON_853- intendedKeyUsage bei Zertifikatsprüfung
+  - [Tabelle-255] - TAB_KON_858 Kartenobjekt in Abhängigkeit vom kryptographischen Verfahren
+  - [Tabelle-256] - TAB_KON_825 Fehlercodes „TLS-Verbindungsaufbau zum TSL-Dienst“
+  - [Tabelle-258] - TAB_KON_597 Operationen in EVT_MONITOR_OPERATIONS
+  - [Tabelle-259] - TAB_KON_766 TUC_KON_032 „TSL aktualisieren“
+  - [Tabelle-260] - TAB_KON_598 Fehlercodes TUC_KON_032 „TSL aktualisieren“
+  - [Tabelle-261] - TAB_KON_618 TUC_KON_031 „BNetzA-VL aktualisieren“
+  - [Tabelle-262] - TAB_KON_619 Fehlercodes TUC_KON_031 „BNetzA-VL aktualisieren“
+  - [Tabelle-263] - TAB_KON_767 TUC_KON_040 „CRL aktualisieren“
+  - [Tabelle-264] - TAB_KON_599 Fehlercodes TUC_KON_040 „CRL aktualisieren“
+  - [Tabelle-265] - TAB_KON_768 TUC_KON_033 „Zertifikatsablauf prüfen“
+  - [Tabelle-266] - TAB_KON_600 Fehlercodes TUC_KON_033 „Zertifikatsablauf prüfen“
+  - [Tabelle-267] - TAB_KON_769 TUC_KON_037 „Zertifikat prüfen“
+  - [Tabelle-268] - TAB_KON_601 Fehlercodes TUC_KON_037 „Zertifikat prüfen“
+  - [Tabelle-269] -  TAB_KON_818 TUC_KON_042 „CV-Zertifikat prüfen“ 
+  - [Tabelle-270] - TAB_KON_819 Fehlercodes TUC_KON_042 „CV-Zertifikat prüfen“
+  - [Tabelle-271] - TAB_KON_770 TUC_KON_034 „Zertifikatsinformationen extrahieren“
+  - [Tabelle-272] - TAB_KON_602 Fehlercodes TUC_KON_034 „Zertifikatsinformationen extrahieren“
+  - [Tabelle-273] - TAB_KON_771 Basisanwendung Zertifikatsdienst
+  - [Tabelle-274] - TAB_KON_676 Operation CheckCertificateExpiration
+  - [Tabelle-275] - TAB_KON_677 Ablauf CheckCertificateExpiration
+  - [Tabelle-276] - TAB_KON_603 Fehlercodes „CheckCertificateExpiration“
+  - [Tabelle-277] - TAB_KON_678 Operation ReadCardCertificate
+  - [Tabelle-278] - TAB_KON_679 Ablauf ReadCardCertificate
+  - [Tabelle-279] - TAB_KON_604 Fehlercodes „ReadCardCertificate“
+  - [Tabelle-283] - TAB_KON_772 TUC_KON_035 „Zertifikatsdienst initialisieren“
+  - [Tabelle-284] - TAB_KON_605 Fehlercodes TUC_KON_035 „Zertifikatsdienst initialisieren“
+  - [Tabelle-285] - TAB_KON_606 Konfiguration des Zertifikatsdienstes
+  - [Tabelle-286] - TAB_KON_733 Einsehbare Konfigurationsparameter des Zertifikatsdienstes
+  - [Tabelle-287] - TAB_KON_857 - Fehlercodes beim Import des Cross-Zertifikats für TI-Vertrauensanker ECC
+  - [Tabelle-288] - TAB_KON_607 – TUC_KON_271 „Schreibe Protokolleintrag“
+  - [Tabelle-289] - TAB_KON_608 Fehlercodes TUC_KON_271 „Schreibe Protokolleintrag“
+  - [Tabelle-290] - TAB_KON_609 Konfigurationswerte des Protokollierungsdienstes (Administrator)
+  - [Tabelle-291] - TAB_KON_610 – TUC_KON_272 „Initialisierung Protokollierungsdienst“
+  - [Tabelle-292] - TAB_KON_611 Fehlercodes TUC_KON_272 „Initialisiere Protokollierungsdienst“
+  - [Tabelle-293] - TAB_KON_773 – TUC_KON_110 „Kartenbasierte TLS-Verbindung aufbauen“
+  - [Tabelle-294] - TAB_KON_612 Fehlercodes TUC_KON_110 „Kartenbasierte TLS-Verbindung aufbauen“
+  - [Tabelle-295] - TAB_KON_774 - TUC_KON_111 „Kartenbasierte TLS-Verbindung abbauen“
+  - [Tabelle-296] - TAB_KON_613 Fehlercodes TUC_KON_111 „Kartenbasierte TLS-Verbindung abbauen“
+  - [Tabelle-297] - TAB_KON_805 - TUC_KON_290 „LDAP-Verbindung aufbauen“
+  - [Tabelle-298] - TAB_KON_815 – TUC_KON_291 „Verzeichnis abfragen“
+  - [Tabelle-299] - TAB_KON_816 – TUC_KON_292 „LDAP-Verbindung trennen"
+  - [Tabelle-300] - TAB_KON_817 – TUC_KON_293 „Verzeichnisabfrage abbrechen“
+  - [Tabelle-301] - TAB_KON_780 – Signaturverfahren Externe Authentisierung
+  - [Tabelle-302] - TAB_KON_839 Basisdienst Authentifizierungsdienst
+  - [Tabelle-303] - TAB_KON_781 Operation ExternalAuthenticate
+  - [Tabelle-304] - TAB_KON_782 Ablauf Operation ExternalAuthenticate
+  - [Tabelle-305] - TAB_KON_783 Übersicht Fehler Operation ExternalAuthenticate
+  - [Tabelle-306] - TAB_KON_784 Privater Schlüssel je Karte für ExternalAuthenticate
+  - [Tabelle-307] - TAB_KON_680 Mapping der Netzwerksegmente
+  - [Tabelle-308] - TAB_KON_681 Definition der vom Konnektor verwendeten VPN-Tunnel
+  - [Tabelle-309] - TAB_KON_682 Definition der Konnektor IP-Adressen
+  - [Tabelle-310] - TAB_KON_614 - TUC_KON_305 „LAN-Adapter initialisieren“
+  - [Tabelle-311] - TAB_KON_615 Fehlercodes TUC_KON_305 „LAN-Adapter initialisieren“
+  - [Tabelle-312] - TAB_KON_616 - TUC_KON_306 „WAN-Adapter initialisieren“
+  - [Tabelle-313] - TAB_KON_617 Fehlercodes TUC_KON_306 „WAN-Adapter initialisieren“
+  - [Tabelle-314] - TAB_KON_622 - TUC_KON_304 „Netzwerk-Routen einrichten“
+  - [Tabelle-315] - TAB_KON_623 Fehlercodes TUC_KON_304 „Netzwerk-Routen einrichten“
+  - [Tabelle-316] - TAB_KON_683 LAN-Adapter IP-Konfiguration
+  - [Tabelle-317] - TAB_KON_684 LAN-Adapter Erweiterte Parameter
+  - [Tabelle-318] - TAB_KON_685 WAN-Adapter IP-Konfiguration
+  - [Tabelle-319] - TAB_KON_686 WAN-Adapter Erweiterte Parameter
+  - [Tabelle-320] - TAB_KON_624 – „Konfigurationsparameter der Anbindung LAN/WAN“
+  - [Tabelle-321] - TAB_KON_625 - Konfigurationsparameter Firewall-Schnittstelle
+  - [Tabelle-322] - TAB_KON_626 „Liefere Netzwerkinformationen über DHCP“
+  - [Tabelle-324] - TAB_KON_628 „Basiskonfiguration des DHCP-Servers“
+  - [Tabelle-325] - TAB_KON_629 „Client-Gruppenspezifische Konfigurationsoptionen des Konnektor-DHCP-Servers“
+  - [Tabelle-326] - TAB_KON_630 - TUC_KON_343 „Initialisierung DHCP-Server“
+  - [Tabelle-327] - TAB_KON_631 Fehlercodes TUC_KON_343 „Initialisierung DHCP-Server“
+  - [Tabelle-328] - TAB_KON_632 – TUC_KON_341 „DHCP Informationen beziehen“
+  - [Tabelle-329] - TAB_KON_633 Fehlercodes TUC_KON_341 „DHCP-Informationen beziehen“
+  - [Tabelle-330] - TAB_KON_634 „Konfiguration des DHCP-Clients“
+  - [Tabelle-331] - TAB_KON_635 – TUC_KON_321 „Verbindung zu dem VPN-Konzentrator der TI aufbauen“
+  - [Tabelle-332] - TAB_KON_636 Fehlercodes TUC_KON_321 „Verbindung zu dem VPN-Konzentrator der TI aufbauen“
+  - [Tabelle-333] - TAB_KON_637 – TUC_KON_322 „Verbindung zu dem VPN-Konzentrator der SIS aufbauen“
+  - [Tabelle-334] - TAB_KON_638 Fehlercodes TUC_KON_322 „Verbindung zu dem VPN-Konzentrator der SIS aufbauen“
+  - [Tabelle-335] - TAB_KON_639 – Konfigurationsparameter VPN-Client
+  - [Tabelle-336] - TAB_KON_640 Zustandswerte für Konnektor NTP-Server
+  - [Tabelle-337] - TAB_KON_776 TUC_KON_351 „Liefere Systemzeit“
+  - [Tabelle-338] - TAB_KON_641 Fehlercodes TUC_KON_351 „Liefere Systemzeit“
+  - [Tabelle-339] - TAB_KON_642 Operation sync_Time
+  - [Tabelle-340] - TAB_KON_643 Konfiguration des Konnektor NTP-Servers
+  - [Tabelle-341] - TAB_KON_730 Einsehbare Konfigurationsparameter des Konnektor NTP-Servers
+  - [Tabelle-342] - TAB_KON_644 – TUC_KON_352 „Initialisierung Zeitdienst“
+  - [Tabelle-343] - TAB_KON_645 Fehlercodes TUC_KON_352 „Initialisierung Zeitdienst“
+  - [Tabelle-344] - TAB_KON_687 DNS-Forwards des DNS-Servers
+  - [Tabelle-345] - TAB_KON_646 – TUC_KON_361 „DNS-Namen auflösen“
+  - [Tabelle-346] - TAB_KON_647 Fehlercodes TUC_KON_361 „DNS Namen auflösen“
+  - [Tabelle-347] - TAB_KON_646 – TUC_KON_361 „DNS-Namen auflösen“
+  - [Tabelle-348] - TAB_KON_647 Fehlercodes TUC_KON_361 „DNS Namen auflösen“
+  - [Tabelle-349] - TAB_KON_648 – TUC_KON_362 „Liste der Dienste abrufen“
+  - [Tabelle-350] - TAB_KON_649 Fehlercodes TUC_KON_362 „Liste der Dienste abrufen“
+  - [Tabelle-351] - TAB_KON_650 - TUC_KON_363 „Dienstdetails abrufen“
+  - [Tabelle-352] - TAB_KON_651 Fehlercodes TUC_KON_363 „Dienstdetails abrufen“
+  - [Tabelle-353] - TAB_KON_652 Basisanwendung Namensdienst
+  - [Tabelle-354] - TAB_KON_653 Operation GetIPAddress
+  - [Tabelle-355] - TAB_KON_654 - Konfigurationsparameter Namensdienst
+  - [Tabelle-356] - TAB_KON_731 Einsehbare Konfigurationsparameter Namensdienst
+  - [Tabelle-357] - TAB_KON_655 Konfigurationen der Benutzerverwaltung (Super-Administrator)
+  - [Tabelle-358] - TAB_KON_656 Konfigurationen der Benutzerverwaltung
+  - [Tabelle-359] - TAB_KON_657 Konfigurationsparameter des Konnektornamens
+  - [Tabelle-360] - TAB_KON_833 Bezeichner für persistente Konfigurationsdaten für Fachmodule
+  - [Tabelle-361] - TAB_KON_658 Aktivieren/Deaktivieren von Leistungsumfängen
+  - [Tabelle -366] - TAB_KON_932 – TUC_KON_411 „Konnektor mit neuem NK-Zertifikat registrieren“
+  - [Tabelle-368] - TAB_KON_851 Einschränkung der Rechte des Remote-Administrators (Denylist)
+  - [Tabelle-370] - TAB_KON_664 – TUC_KON_280 „Konnektoraktualisierung durchführen“
+  - [Tabelle-371] - TAB_KON_665 Fehlercodes TUC_KON_280 „Konnektoraktualisierung durchführen“
+  - [Tabelle-372] - TAB_KON_666 – TUC_KON_281 „Kartenterminalaktualisierung anstoßen“
+  - [Tabelle-373] - TAB_KON_667 Fehlercodes TUC_KON_281 „Kartenterminalaktualisierung anstoßen“
+  - [Tabelle-374] - TAB_KON_668 – TUC_KON_282 „UpdateInformationen beziehen“
+  - [Tabelle-375] - TAB_KON_669 Fehlercodes TUC_KON_282 „UpdateInformationen beziehen“
+  - [Tabelle-376] - TAB_KON_799 – TUC_KON_283 „Infrastruktur Konfiguration aktualisieren“
+  - [Tabelle-377] - Tab_Kon_726 Fehlercodes TUC_KON_283 „Infrastruktur Konfiguration aktualisieren“
+  - [Tabelle-378] - TAB_KON_833 – TUC_KON_285 „UpdateInformationen für Fachmodul beziehen“
+  - [Tabelle-379] - TAB_KON_834 Fehlercodes TUC_KON_285 „UpdateInformationen für Fachmodul beziehen“
+  - [Tabelle-380] - TAB_KON_835 – TUC_KON_286 „Paket für Fachmodul laden“
+  - [Tabelle-381] - TAB_KON_836 Fehlercodes TUC_KON_286 „Paket für Fachmodul laden“
+  - [Tabelle-382] - TAB_KON_864 – TUC_KON_284 „KSR-Client initialisieren“
+  - [Tabelle-383] - TAB_KON_822 Fehlercodes TUC_KON_284 „KSR-Client initialisieren“
+  - [Tabelle-384] - TAB_KON_670 Konfigurationsparameter der Software-Aktualisierung
+  - [Tabelle-385] - TAB_KON_820 Einsehbare Konfigurationsparameter der Software-Aktualisierung
+  - [Tabelle-386] - TAB_KON_671 Anforderungen Klima
+  - [Tabelle-387] - TAB_KON_672 Anforderungen Vibration
+  - [Tabelle-388] - TAB_KON_672 Anforderungen Vibration
+  - [Tabelle-389] - TAB_KON_779-01 „Profilierung der Signaturformate“
+  - [Tabelle-390] - TAB_KON_775 „Mindestanforderungen an Dimensionierung von Dokumenten und Nachrichten“
+  - [Tabelle-391] - TAB_KON_889 „Unerlaubte Inhalte in Dokumenten und Nachrichten“
+  - [Tabelle-392] - TAB_KON_777 Events Interne Mechanismen
+  - [Tabelle-393] - TAB_KON_711 Architektur der TI-Plattform, Berechtigt Fachmodule
+  - [Tabelle-394] - TAB_KON_712 Architektur der TI-Plattform, Berechtigt Clientsysteme
+  - [Tabelle-395] - TAB_KON_713 Architektur der TI-Plattform, Berechtigt eHealth-KT
+  - [Tabelle-396] - TAB_KON_714 Architektur der TI-Plattform, Berechtigt Administrator
+  - [Tabelle-397] - Aufzähltypen
 
 ### 5.5 Referenzierte Dokumente
 
@@ -4845,407 +4845,407 @@ umzusetzen:
 [Abbildung-29]:         gemSpec_Kon_V5.18.0.attachments/7972339229766263266.emf
 [Abbildung-30]:         gemSpec_Kon_V5.18.0.attachments/3336173011312695993.png
 [Abbildung-31]:         gemSpec_Kon_V5.18.0.attachments/7031299863855507289.emf
-[Tbl-001]:              #Tbl-001 (&93939850046664)
-[Tbl-002]:              #Tbl-002 (&93939840841080)
-[Tbl-003]:              #Tbl-003 (&93939840882336)
-[Tabelle-1]:            #Tabelle-1 (&93939841099128)
-[Tabelle-2]:            #Tabelle-2 (&93939841111448)
-[Tabelle-3]:            #Tabelle-3 (&93939840921592)
-[Tabelle-4]:            #Tabelle-4 (&93939850778424)
-[Tabelle-5]:            #Tabelle-5 (&93939850973104)
-[Tabelle-6]:            #Tabelle-6 (&93939851596080)
-[Tabelle-7]:            #Tabelle-7 (&93939842435792)
-[Tbl-011]:              #Tbl-011 (&93939842455640)
-[Tabelle-9]:            #Tabelle-9 (&93939842513096)
-[Tabelle-10]:           #Tabelle-10 (&93939842680064)
-[Tabelle-11]:           #Tabelle-11 (&93939842739408)
-[Tabelle-12]:           #Tabelle-12 (&93939842937040)
-[Tabelle-13]:           #Tabelle-13 (&93939843083080)
-[Tabelle-14]:           #Tabelle-14 (&93939850470312)
-[Tabelle-15]:           #Tabelle-15 (&93939850519616)
-[Tabelle-16]:           #Tabelle-16 (&93939844490832)
-[Tabelle-17]:           #Tabelle-17 (&93939844689944)
-[Tabelle-18]:           #Tabelle-18 (&93939844765504)
-[Tabelle-19]:           #Tabelle-19 (&93939845181512)
-[Tabelle-20]:           #Tabelle-20 (&93939845867344)
-[Tabelle-21]:           #Tabelle-21 (&93939846311568)
-[Tabelle-22]:           #Tabelle-22 (&93939846506120)
-[Tabelle-23]:           #Tabelle-23 (&93939846594016)
-[Tabelle-24]:           #Tabelle-24 (&93939846650240)
-[Tbl-028]:              #Tbl-028 (&93939846724168)
-[Tabelle-26]:           #Tabelle-26 (&93939846952240)
-[Tabelle-27]:           #Tabelle-27 (&93939847004688)
-[Tabelle-28]:           #Tabelle-28 (&93939847095664)
-[Tbl-032]:              #Tbl-032 (&93939847114976)
-[Tabelle-30]:           #Tabelle-30 (&93939847367056)
-[Tabelle-31]:           #Tabelle-31 (&93939848182328)
-[Tabelle-32]:           #Tabelle-32 (&93939848208568)
-[Tabelle-33]:           #Tabelle-33 (&93939848344112)
-[Tabelle-34]:           #Tabelle-34 (&93939848557096)
-[Tabelle-35]:           #Tabelle-35 (&93939849358240)
-[Tabelle-36]:           #Tabelle-36 (&93939849448160)
-[Tabelle-37]:           #Tabelle-37 (&93939849483408)
-[Tabelle-38]:           #Tabelle-38 (&93939849652936)
-[Tabelle-39]:           #Tabelle-39 (&93939849689376)
-[Tabelle-40]:           #Tabelle-40 (&93939849766848)
-[Tabelle-41]:           #Tabelle-41 (&93939852753288)
-[Tabelle-42]:           #Tabelle-42 (&93939852772688)
-[Tabelle-43]:           #Tabelle-43 (&93939852852136)
-[Tabelle-44]:           #Tabelle-44 (&93939852959256)
-[Tabelle-45]:           #Tabelle-45 (&93939853033384)
-[Tabelle-46]:           #Tabelle-46 (&93939853091176)
-[Tabelle-47]:           #Tabelle-47 (&93939853198920)
-[Tabelle-48]:           #Tabelle-48 (&93939853218536)
-[Tabelle-49]:           #Tabelle-49 (&93939853253696)
-[Tabelle-50]:           #Tabelle-50 (&93939853312312)
-[Tabelle-51]:           #Tabelle-51 (&93939853346464)
-[Tabelle-52]:           #Tabelle-52 (&93939853420144)
-[Tabelle-53]:           #Tabelle-53 (&93939853470720)
-[Tabelle-54]:           #Tabelle-54 (&93939853507528)
-[Tabelle-55]:           #Tabelle-55 (&93939853545144)
-[Tabelle-56]:           #Tabelle-56 (&93939853599088)
-[Tabelle-57]:           #Tabelle-57 (&93939853672784)
-[Tabelle-58]:           #Tabelle-58 (&93939853777528)
-[Tabelle-59]:           #Tabelle-59 (&93939853911384)
-[Tabelle-60]:           #Tabelle-60 (&93939854395272)
-[Tabelle-61]:           #Tabelle-61 (&93939854896032)
-[Tabelle-62]:           #Tabelle-62 (&93939854965792)
-[Tabelle-63]:           #Tabelle-63 (&93939855022456)
-[Tabelle-64]:           #Tabelle-64 (&93939855041480)
-[Tabelle-65]:           #Tabelle-65 (&93939855211424)
-[Tabelle-66]:           #Tabelle-66 (&93939856036184)
-[Tabelle-67]:           #Tabelle-67 (&93939856168736)
-[Tabelle-68]:           #Tabelle-68 (&93939856303336)
-[Tabelle-69]:           #Tabelle-69 (&93939856443632)
-[Tabelle-70]:           #Tabelle-70 (&93939856571808)
-[Tabelle-71]:           #Tabelle-71 (&93939856631720)
-[Tabelle-72]:           #Tabelle-72 (&93939856655976)
-[Tabelle-73]:           #Tabelle-73 (&93939856847872)
-[Tabelle-74]:           #Tabelle-74 (&93939856865448)
-[Tabelle-75]:           #Tabelle-75 (&93939856913384)
-[Tabelle-76]:           #Tabelle-76 (&93939856977648)
-[Tabelle-77]:           #Tabelle-77 (&93939857008576)
-[Tabelle-78]:           #Tabelle-78 (&93939857148528)
-[Tabelle-79]:           #Tabelle-79 (&93939857163528)
-[Tabelle-80]:           #Tabelle-80 (&93939857243024)
-[Tabelle-81]:           #Tabelle-81 (&93939857300696)
-[Tabelle-82]:           #Tabelle-82 (&93939857421312)
-[Tabelle-83]:           #Tabelle-83 (&93939857457280)
-[Tabelle-84]:           #Tabelle-84 (&93939857538360)
-[Tabelle-85]:           #Tabelle-85 (&93939857590584)
-[Tabelle-86]:           #Tabelle-86 (&93939857710392)
-[Tabelle-87]:           #Tabelle-87 (&93939857762912)
-[Tabelle-88]:           #Tabelle-88 (&93939857832936)
-[Tabelle-89]:           #Tabelle-89 (&93939857880008)
-[Tabelle-90]:           #Tabelle-90 (&93939857999920)
-[Tabelle-91]:           #Tabelle-91 (&93939858046752)
-[Tabelle-92]:           #Tabelle-92 (&93939858118664)
-[Tabelle-93]:           #Tabelle-93 (&93939858170528)
-[Tabelle-94]:           #Tabelle-94 (&93939858289880)
-[Tabelle-95]:           #Tabelle-95 (&93939858330720)
-[Tabelle-96]:           #Tabelle-96 (&93939858403384)
-[Tabelle-97]:           #Tabelle-97 (&93939858445024)
-[Tabelle-98]:           #Tabelle-98 (&93939858563016)
-[Tabelle-99]:           #Tabelle-99 (&93939858582792)
-[Tabelle-100]:          #Tabelle-100 (&93939858644968)
-[Tabelle-101]:          #Tabelle-101 (&93939858669680)
-[Tabelle-102]:          #Tabelle-102 (&93939858734880)
-[Tabelle-103]:          #Tabelle-103 (&93939859141400)
-[Tabelle-104]:          #Tabelle-104 (&93939859213824)
-[Tabelle-105]:          #Tabelle-105 (&93939859254888)
-[Tabelle-106]:          #Tabelle-106 (&93939859321840)
-[Tabelle-107]:          #Tabelle-107 (&93939859401360)
-[Tabelle-108]:          #Tabelle-108 (&93939859462488)
-[Tabelle-109]:          #Tabelle-109 (&93939859487360)
-[Tabelle-110]:          #Tabelle-110 (&93939859542976)
-[Tabelle-111]:          #Tabelle-111 (&93939859568072)
-[Tabelle-112]:          #Tabelle-112 (&93939859686960)
-[Tabelle-113]:          #Tabelle-113 (&93939859717704)
-[Tabelle-114]:          #Tabelle-114 (&93939859767272)
-[Tabelle-115]:          #Tabelle-115 (&93939859898024)
-[Tabelle-116]:          #Tabelle-116 (&93939859950168)
-[Tabelle-117]:          #Tabelle-117 (&93939859980384)
-[Tabelle-118]:          #Tabelle-118 (&93939860212560)
-[Tabelle-119]:          #Tabelle-119 (&93939860258992)
-[Tabelle-120]:          #Tabelle-120 (&93939860290072)
-[Tabelle-121]:          #Tabelle-121 (&93939860535280)
-[Tabelle-122]:          #Tabelle-122 (&93939860576144)
-[Tabelle-123]:          #Tabelle-123 (&93939860612792)
-[Tabelle-124]:          #Tabelle-124 (&93939860741536)
-[Tabelle-125]:          #Tabelle-125 (&93939860789328)
-[Tabelle-126]:          #Tabelle-126 (&93939860814040)
-[Tabelle-127]:          #Tabelle-127 (&93939860941368)
-[Tabelle-128]:          #Tabelle-128 (&93939860990280)
-[Tabelle-129]:          #Tabelle-129 (&93939861021072)
-[Tabelle-130]:          #Tabelle-130 (&93939861098240)
-[Tabelle-131]:          #Tabelle-131 (&93939861197504)
-[Tabelle-132]:          #Tabelle-132 (&93939861228672)
-[Tabelle-133]:          #Tabelle-133 (&93939861244224)
-[Tbl-137]:              #Tbl-137 (&93939861342784)
-[Tabelle-135]:          #Tabelle-135 (&93939861667488)
-[Tabelle-136]:          #Tabelle-136 (&93939862550176)
-[Tabelle-137]:          #Tabelle-137 (&93939862569256)
-[Tabelle-138]:          #Tabelle-138 (&93939862633464)
-[Tabelle-139]:          #Tabelle-139 (&93939862711296)
-[Tabelle-140]:          #Tabelle-140 (&93939862731168)
-[Tabelle-141]:          #Tabelle-141 (&93939862863608)
-[Tabelle-142]:          #Tabelle-142 (&93939862904952)
-[Tbl-146]:              #Tbl-146 (&93939862957288)
-[Tbl-147]:              #Tbl-147 (&93939863087632)
-[Tbl-148]:              #Tbl-148 (&93939863129152)
-[Tabelle-146]:          #Tabelle-146 (&93939863147400)
-[Tabelle-147]:          #Tabelle-147 (&93939863358264)
-[Tabelle-148]:          #Tabelle-148 (&93939863451008)
-[Tabelle-149]:          #Tabelle-149 (&93939863469912)
-[Tabelle-150]:          #Tabelle-150 (&93939863640312)
-[Tabelle-151]:          #Tabelle-151 (&93939863692720)
-[Tbl-155]:              #Tbl-155 (&93939863714224)
-[Tbl-156]:              #Tbl-156 (&93939863787968)
-[Tbl-157]:              #Tbl-157 (&93939863884024)
-[Tbl-158]:              #Tbl-158 (&93939863904640)
-[Tbl-159]:              #Tbl-159 (&93939863957480)
-[Tbl-160]:              #Tbl-160 (&93939864315608)
-[Tbl-161]:              #Tbl-161 (&93939864341240)
-[Tbl-162]:              #Tbl-162 (&93939864448520)
-[Tbl-163]:              #Tbl-163 (&93939864492352)
-[Tbl-164]:              #Tbl-164 (&93939864517984)
-[Tbl-165]:              #Tbl-165 (&93939864639576)
-[Tbl-166]:              #Tbl-166 (&93939864675784)
-[Tbl-167]:              #Tbl-167 (&93939864703248)
-[Tbl-168]:              #Tbl-168 (&93939864742664)
-[Tabelle-166]:          #Tabelle-166 (&93939864769968)
-[Tabelle-167]:          #Tabelle-167 (&93939864913400)
-[Tabelle-168]:          #Tabelle-168 (&93939864936680)
-[Tabelle-169]:          #Tabelle-169 (&93939865072256)
-[Tabelle-170]:          #Tabelle-170 (&93939865210856)
-[Tabelle-171]:          #Tabelle-171 (&93939865255400)
-[Tabelle-172]:          #Tabelle-172 (&93939865321856)
-[Tabelle-173]:          #Tabelle-173 (&93939866090680)
-[Tabelle-174]:          #Tabelle-174 (&93939866146664)
-[Tabelle-175]:          #Tabelle-175 (&93939866166144)
-[Tabelle-176]:          #Tabelle-176 (&93939866213024)
-[Tabelle-177]:          #Tabelle-177 (&93939866232248)
-[Tabelle-178]:          #Tabelle-178 (&93939866340664)
-[Tabelle-179]:          #Tabelle-179 (&93939866395416)
-[Tabelle-180]:          #Tabelle-180 (&93939866429384)
-[Tabelle-181]:          #Tabelle-181 (&93939866609248)
-[Tabelle-182]:          #Tabelle-182 (&93939866645200)
-[Tabelle-183]:          #Tabelle-183 (&93939866728936)
-[Tabelle-184]:          #Tabelle-184 (&93939866795520)
-[Tabelle-185]:          #Tabelle-185 (&93939866826960)
-[Tabelle-186]:          #Tabelle-186 (&93939866921824)
-[Tabelle-187]:          #Tabelle-187 (&93939866972080)
-[Tabelle-188]:          #Tabelle-188 (&93939867119784)
-[Tabelle-189]:          #Tabelle-189 (&93939867213024)
-[Tbl-193]:              #Tbl-193 (&93939867244664)
-[Tabelle-191]:          #Tabelle-191 (&93939867340712)
-[Tabelle-192]:          #Tabelle-192 (&93939867359272)
-[Tabelle-193]:          #Tabelle-193 (&93939867558272)
-[Tabelle-194]:          #Tabelle-194 (&93939868304408)
-[Tabelle-195]:          #Tabelle-195 (&93939868322160)
-[Tabelle-196]:          #Tabelle-196 (&93939868384880)
-[Tabelle-197]:          #Tabelle-197 (&93939868398304)
-[Tabelle-198]:          #Tabelle-198 (&93939868506008)
-[Tabelle-199]:          #Tabelle-199 (&93939868525264)
-[Tabelle-200]:          #Tabelle-200 (&93939868583296)
-[Tabelle-201]:          #Tabelle-201 (&93939868597984)
-[Tabelle-202]:          #Tabelle-202 (&93939868669192)
-[Tabelle-203]:          #Tabelle-203 (&93939869224792)
-[Tabelle-204]:          #Tabelle-204 (&93939869279432)
-[Tabelle-205]:          #Tabelle-205 (&93939869299424)
-[Tabelle-206]:          #Tabelle-206 (&93939869383000)
-[Tabelle-207]:          #Tabelle-207 (&93939869412248)
-[Tabelle-208]:          #Tabelle-208 (&93939869531176)
-[Tabelle-209]:          #Tabelle-209 (&93939869561520)
-[Tabelle-210]:          #Tabelle-210 (&93939869634496)
-[Tabelle-211]:          #Tabelle-211 (&93939869666376)
-[Tabelle-212]:          #Tabelle-212 (&93939870195048)
-[Tabelle-213]:          #Tabelle-213 (&93939870238320)
-[Tabelle-214]:          #Tabelle-214 (&93939870292720)
-[Tabelle-215]:          #Tabelle-215 (&93939870327024)
-[Tabelle-216]:          #Tabelle-216 (&93939870434224)
-[Tabelle-217]:          #Tabelle-217 (&93939870453792)
-[Tabelle-218]:          #Tabelle-218 (&93939870554072)
-[Tabelle-219]:          #Tabelle-219 (&93939871246960)
-[Tabelle-220]:          #Tabelle-220 (&93939871306728)
-[Tabelle-221]:          #Tabelle-221 (&93939871427888)
-[Tabelle-222]:          #Tabelle-222 (&93939871524448)
-[Tabelle-223]:          #Tabelle-223 (&93939871583456)
-[Tabelle-224]:          #Tabelle-224 (&93939871687272)
-[Tabelle-225]:          #Tabelle-225 (&93939871790504)
-[Tabelle-226]:          #Tabelle-226 (&93939871854800)
-[Tabelle-227]:          #Tabelle-227 (&93939871900608)
-[Tabelle-228]:          #Tabelle-228 (&93939871976160)
-[Tabelle-229]:          #Tabelle-229 (&93939872060016)
-[Tabelle-230]:          #Tabelle-230 (&93939872123720)
-[Tabelle-231]:          #Tabelle-231 (&93939872139848)
-[Tabelle-232]:          #Tabelle-232 (&93939872189648)
-[Tabelle-233]:          #Tabelle-233 (&93939872543280)
-[Tabelle-234]:          #Tabelle-234 (&93939872585632)
-[Tabelle-235]:          #Tabelle-235 (&93939872684080)
-[Tabelle-236]:          #Tabelle-236 (&93939872912928)
-[Tabelle-237]:          #Tabelle-237 (&93939873004200)
-[Tabelle-238]:          #Tabelle-238 (&93939873037016)
-[Tabelle-239]:          #Tabelle-239 (&93939873071448)
-[Tabelle-240]:          #Tabelle-240 (&93939873086664)
-[Tabelle-241]:          #Tabelle-241 (&93939873110712)
-[Tabelle-242]:          #Tabelle-242 (&93939873194536)
-[Tabelle-243]:          #Tabelle-243 (&93939873211624)
-[Tabelle-244]:          #Tabelle-244 (&93939873231800)
-[Tabelle-245]:          #Tabelle-245 (&93939873271672)
-[Tabelle-246]:          #Tabelle-246 (&93939873304128)
-[Tabelle-247]:          #Tabelle-247 (&93939873333616)
-[Tabelle-248]:          #Tabelle-248 (&93939873421104)
-[Tabelle-249]:          #Tabelle-249 (&93939873439176)
-[Tabelle-250]:          #Tabelle-250 (&93939873459160)
-[Tabelle-251]:          #Tabelle-251 (&93939873520592)
-[Tabelle-252]:          #Tabelle-252 (&93939873551384)
-[Tabelle-253]:          #Tabelle-253 (&93939873618456)
-[Tabelle-254]:          #Tabelle-254 (&93939873661168)
-[Tabelle-255]:          #Tabelle-255 (&93939873719120)
-[Tabelle-256]:          #Tabelle-256 (&93939873821920)
-[Tbl-260]:              #Tbl-260 (&93939873893576)
-[Tabelle-258]:          #Tabelle-258 (&93939873944256)
-[Tabelle-259]:          #Tabelle-259 (&93939873966320)
-[Tabelle-260]:          #Tabelle-260 (&93939874044360)
-[Tabelle-261]:          #Tabelle-261 (&93939874098616)
-[Tabelle-262]:          #Tabelle-262 (&93939874209976)
-[Tabelle-263]:          #Tabelle-263 (&93939874234736)
-[Tabelle-264]:          #Tabelle-264 (&93939874631640)
-[Tabelle-265]:          #Tabelle-265 (&93939874649648)
-[Tabelle-266]:          #Tabelle-266 (&93939874750432)
-[Tabelle-267]:          #Tabelle-267 (&93939874830296)
-[Tabelle-268]:          #Tabelle-268 (&93939874943096)
-[Tabelle-269]:          #Tabelle-269 (&93939874966440)
-[Tabelle-270]:          #Tabelle-270 (&93939875083480)
-[Tabelle-271]:          #Tabelle-271 (&93939875106304)
-[Tabelle-272]:          #Tabelle-272 (&93939875186752)
-[Tabelle-273]:          #Tabelle-273 (&93939875222640)
-[Tabelle-274]:          #Tabelle-274 (&93939875262896)
-[Tabelle-275]:          #Tabelle-275 (&93939875355440)
-[Tabelle-276]:          #Tabelle-276 (&93939875398128)
-[Tabelle-277]:          #Tabelle-277 (&93939875427592)
-[Tabelle-278]:          #Tabelle-278 (&93939875609136)
-[Tabelle-279]:          #Tabelle-279 (&93939875650824)
-[Tbl-283]:              #Tbl-283 (&93939875687432)
-[Tbl-284]:              #Tbl-284 (&93939875792976)
-[Tbl-285]:              #Tbl-285 (&93939875865632)
-[Tabelle-283]:          #Tabelle-283 (&93939875884632)
-[Tabelle-284]:          #Tabelle-284 (&93939875991040)
-[Tabelle-285]:          #Tabelle-285 (&93939876004168)
-[Tabelle-286]:          #Tabelle-286 (&93939876063792)
-[Tabelle-287]:          #Tabelle-287 (&93939876134952)
-[Tabelle-288]:          #Tabelle-288 (&93939876256792)
-[Tabelle-289]:          #Tabelle-289 (&93939876346488)
-[Tabelle-290]:          #Tabelle-290 (&93939876821320)
-[Tabelle-291]:          #Tabelle-291 (&93939876870192)
-[Tabelle-292]:          #Tabelle-292 (&93939876930064)
-[Tabelle-293]:          #Tabelle-293 (&93939876980760)
-[Tabelle-294]:          #Tabelle-294 (&93939877102400)
-[Tabelle-295]:          #Tabelle-295 (&93939877130448)
-[Tabelle-296]:          #Tabelle-296 (&93939877177800)
-[Tabelle-297]:          #Tabelle-297 (&93939877214728)
-[Tabelle-298]:          #Tabelle-298 (&93939877259376)
-[Tabelle-299]:          #Tabelle-299 (&93939877309728)
-[Tabelle-300]:          #Tabelle-300 (&93939877411992)
-[Tabelle-301]:          #Tabelle-301 (&93939877475912)
-[Tabelle-302]:          #Tabelle-302 (&93939877505688)
-[Tabelle-303]:          #Tabelle-303 (&93939877539296)
-[Tabelle-304]:          #Tabelle-304 (&93939877706056)
-[Tabelle-305]:          #Tabelle-305 (&93939877739896)
-[Tabelle-306]:          #Tabelle-306 (&93939877761280)
-[Tabelle-307]:          #Tabelle-307 (&93939877887216)
-[Tabelle-308]:          #Tabelle-308 (&93939877939480)
-[Tabelle-309]:          #Tabelle-309 (&93939877951744)
-[Tabelle-310]:          #Tabelle-310 (&93939878437800)
-[Tabelle-311]:          #Tabelle-311 (&93939878495864)
-[Tabelle-312]:          #Tabelle-312 (&93939878520272)
-[Tabelle-313]:          #Tabelle-313 (&93939878617392)
-[Tabelle-314]:          #Tabelle-314 (&93939878641800)
-[Tabelle-315]:          #Tabelle-315 (&93939878738496)
-[Tabelle-316]:          #Tabelle-316 (&93939878777888)
-[Tabelle-317]:          #Tabelle-317 (&93939878808176)
-[Tabelle-318]:          #Tabelle-318 (&93939878831384)
-[Tabelle-319]:          #Tabelle-319 (&93939878914216)
-[Tabelle-320]:          #Tabelle-320 (&93939878934840)
-[Tabelle-321]:          #Tabelle-321 (&93939879050696)
-[Tabelle-322]:          #Tabelle-322 (&93939879077944)
-[Tbl-326]:              #Tbl-326 (&93939879156592)
-[Tabelle-324]:          #Tabelle-324 (&93939879221072)
-[Tabelle-325]:          #Tabelle-325 (&93939879578656)
-[Tabelle-326]:          #Tabelle-326 (&93939879661200)
-[Tabelle-327]:          #Tabelle-327 (&93939879707080)
-[Tabelle-328]:          #Tabelle-328 (&93939879743384)
-[Tabelle-329]:          #Tabelle-329 (&93939879847536)
-[Tabelle-330]:          #Tabelle-330 (&93939879875032)
-[Tabelle-331]:          #Tabelle-331 (&93939879940520)
-[Tabelle-332]:          #Tabelle-332 (&93939880003880)
-[Tabelle-333]:          #Tabelle-333 (&93939880040208)
-[Tabelle-334]:          #Tabelle-334 (&93939880151080)
-[Tabelle-335]:          #Tabelle-335 (&93939880195992)
-[Tabelle-336]:          #Tabelle-336 (&93939880287968)
-[Tabelle-337]:          #Tabelle-337 (&93939880315936)
-[Tabelle-338]:          #Tabelle-338 (&93939880409616)
-[Tabelle-339]:          #Tabelle-339 (&93939880427864)
-[Tabelle-340]:          #Tabelle-340 (&93939880461752)
-[Tabelle-341]:          #Tabelle-341 (&93939880478248)
-[Tabelle-342]:          #Tabelle-342 (&93939880497800)
-[Tabelle-343]:          #Tabelle-343 (&93939880556296)
-[Tabelle-344]:          #Tabelle-344 (&93939880585272)
-[Tabelle-345]:          #Tabelle-345 (&93939880692312)
-[Tabelle-346]:          #Tabelle-346 (&93939880733472)
-[Tabelle-347]:          #Tabelle-347 (&93939880756512)
-[Tabelle-348]:          #Tabelle-348 (&93939880803552)
-[Tabelle-349]:          #Tabelle-349 (&93939880828096)
-[Tabelle-350]:          #Tabelle-350 (&93939880872432)
-[Tabelle-351]:          #Tabelle-351 (&93939880947112)
-[Tabelle-352]:          #Tabelle-352 (&93939880997624)
-[Tabelle-353]:          #Tabelle-353 (&93939881023600)
-[Tabelle-354]:          #Tabelle-354 (&93939881055952)
-[Tabelle-355]:          #Tabelle-355 (&93939881094000)
-[Tabelle-356]:          #Tabelle-356 (&93939881181488)
-[Tabelle-357]:          #Tabelle-357 (&93939881291128)
-[Tabelle-358]:          #Tabelle-358 (&93939881315480)
-[Tabelle-359]:          #Tabelle-359 (&93939881330600)
-[Tabelle-360]:          #Tabelle-360 (&93939881469888)
-[Tabelle-361]:          #Tabelle-361 (&93939881504400)
-[Tbl-365]:              #Tbl-365 (&93939881537480)
-[Tbl-366]:              #Tbl-366 (&93939881563064)
-[Tbl-367]:              #Tbl-367 (&93939881579448)
-[Tbl-368]:              #Tbl-368 (&93939881592480)
-[Tabelle -366]:         #Tabelle -366 (&93939881665376)
-[Tbl-370]:              #Tbl-370 (&93939881766672)
-[Tabelle-368]:          #Tabelle-368 (&93939881817696)
-[Tbl-372]:              #Tbl-372 (&93939881868056)
-[Tabelle-370]:          #Tabelle-370 (&93939881941480)
-[Tabelle-371]:          #Tabelle-371 (&93939882083720)
-[Tabelle-372]:          #Tabelle-372 (&93939882125888)
-[Tabelle-373]:          #Tabelle-373 (&93939882317736)
-[Tabelle-374]:          #Tabelle-374 (&93939882342624)
-[Tabelle-375]:          #Tabelle-375 (&93939882409512)
-[Tabelle-376]:          #Tabelle-376 (&93939882439712)
-[Tabelle-377]:          #Tabelle-377 (&93939882570368)
-[Tabelle-378]:          #Tabelle-378 (&93939882591568)
-[Tabelle-379]:          #Tabelle-379 (&93939882665216)
-[Tabelle-380]:          #Tabelle-380 (&93939882695464)
-[Tabelle-381]:          #Tabelle-381 (&93939882807912)
-[Tabelle-382]:          #Tabelle-382 (&93939882849560)
-[Tabelle-383]:          #Tabelle-383 (&93939882897064)
-[Tabelle-384]:          #Tabelle-384 (&93939882909888)
-[Tabelle-385]:          #Tabelle-385 (&93939882942224)
-[Tabelle-386]:          #Tabelle-386 (&93939883148336)
-[Tabelle-387]:          #Tabelle-387 (&93939883163336)
-[Tabelle-388]:          #Tabelle-388 (&93939883177944)
-[Tbl-392]:              #Tbl-392 (&93939883190664)
-[Tbl-393]:              #Tbl-393 (&93939883392640)
-[Tbl-394]:              #Tbl-394 (&93939884120560)
-[Tbl-395]:              #Tbl-395 (&93939884200448)
-[Tabelle-389]:          #Tabelle-389 (&93939884649336)
-[Tabelle-390]:          #Tabelle-390 (&93939884856224)
-[Tabelle-391]:          #Tabelle-391 (&93939884870288)
-[Tabelle-392]:          #Tabelle-392 (&93939884882576)
-[Tabelle-393]:          #Tabelle-393 (&93939886826104)
-[Tabelle-394]:          #Tabelle-394 (&93939887641696)
-[Tabelle-395]:          #Tabelle-395 (&93939887874080)
-[Tabelle-396]:          #Tabelle-396 (&93939887897544)
-[Tabelle-397]:          #Tabelle-397 (&93939892064680)
+[Tbl-001]:              #Tbl-001 (&94867385875784)
+[Tbl-002]:              #Tbl-002 (&94867376719208)
+[Tbl-003]:              #Tbl-003 (&94867376760464)
+[Tabelle-1]:            #Tabelle-1 (&94867376834904)
+[Tabelle-2]:            #Tabelle-2 (&94867376847224)
+[Tabelle-3]:            #Tabelle-3 (&94867376865288)
+[Tabelle-4]:            #Tabelle-4 (&94867386693944)
+[Tabelle-5]:            #Tabelle-5 (&94867386857744)
+[Tabelle-6]:            #Tabelle-6 (&94867387480720)
+[Tabelle-7]:            #Tabelle-7 (&94867378329760)
+[Tbl-011]:              #Tbl-011 (&94867378349608)
+[Tabelle-9]:            #Tabelle-9 (&94867378407064)
+[Tabelle-10]:           #Tabelle-10 (&94867378574032)
+[Tabelle-11]:           #Tabelle-11 (&94867378633376)
+[Tabelle-12]:           #Tabelle-12 (&94867378831008)
+[Tabelle-13]:           #Tabelle-13 (&94867378977048)
+[Tabelle-14]:           #Tabelle-14 (&94867386320264)
+[Tabelle-15]:           #Tabelle-15 (&94867386369568)
+[Tabelle-16]:           #Tabelle-16 (&94867380384800)
+[Tabelle-17]:           #Tabelle-17 (&94867380583912)
+[Tabelle-18]:           #Tabelle-18 (&94867380659472)
+[Tabelle-19]:           #Tabelle-19 (&94867381075480)
+[Tabelle-20]:           #Tabelle-20 (&94867381761312)
+[Tabelle-21]:           #Tabelle-21 (&94867382205536)
+[Tabelle-22]:           #Tabelle-22 (&94867382400088)
+[Tabelle-23]:           #Tabelle-23 (&94867382487984)
+[Tabelle-24]:           #Tabelle-24 (&94867382544208)
+[Tbl-028]:              #Tbl-028 (&94867382618136)
+[Tabelle-26]:           #Tabelle-26 (&94867382846208)
+[Tabelle-27]:           #Tabelle-27 (&94867382898656)
+[Tabelle-28]:           #Tabelle-28 (&94867382989632)
+[Tbl-032]:              #Tbl-032 (&94867383008944)
+[Tabelle-30]:           #Tabelle-30 (&94867383261024)
+[Tabelle-31]:           #Tabelle-31 (&94867384076296)
+[Tabelle-32]:           #Tabelle-32 (&94867384102536)
+[Tabelle-33]:           #Tabelle-33 (&94867384238080)
+[Tabelle-34]:           #Tabelle-34 (&94867384451064)
+[Tabelle-35]:           #Tabelle-35 (&94867385252208)
+[Tabelle-36]:           #Tabelle-36 (&94867385342128)
+[Tabelle-37]:           #Tabelle-37 (&94867385377376)
+[Tabelle-38]:           #Tabelle-38 (&94867385546904)
+[Tabelle-39]:           #Tabelle-39 (&94867385583344)
+[Tabelle-40]:           #Tabelle-40 (&94867385660816)
+[Tabelle-41]:           #Tabelle-41 (&94867385753144)
+[Tabelle-42]:           #Tabelle-42 (&94867388666304)
+[Tabelle-43]:           #Tabelle-43 (&94867388745752)
+[Tabelle-44]:           #Tabelle-44 (&94867388852872)
+[Tabelle-45]:           #Tabelle-45 (&94867388927000)
+[Tabelle-46]:           #Tabelle-46 (&94867388984792)
+[Tabelle-47]:           #Tabelle-47 (&94867389092536)
+[Tabelle-48]:           #Tabelle-48 (&94867389112152)
+[Tabelle-49]:           #Tabelle-49 (&94867389147312)
+[Tabelle-50]:           #Tabelle-50 (&94867389205928)
+[Tabelle-51]:           #Tabelle-51 (&94867389240080)
+[Tabelle-52]:           #Tabelle-52 (&94867389313760)
+[Tabelle-53]:           #Tabelle-53 (&94867389364336)
+[Tabelle-54]:           #Tabelle-54 (&94867389401144)
+[Tabelle-55]:           #Tabelle-55 (&94867389438760)
+[Tabelle-56]:           #Tabelle-56 (&94867389492704)
+[Tabelle-57]:           #Tabelle-57 (&94867389566400)
+[Tabelle-58]:           #Tabelle-58 (&94867389671144)
+[Tabelle-59]:           #Tabelle-59 (&94867389805000)
+[Tabelle-60]:           #Tabelle-60 (&94867390288888)
+[Tabelle-61]:           #Tabelle-61 (&94867390789648)
+[Tabelle-62]:           #Tabelle-62 (&94867390859408)
+[Tabelle-63]:           #Tabelle-63 (&94867390916072)
+[Tabelle-64]:           #Tabelle-64 (&94867390935096)
+[Tabelle-65]:           #Tabelle-65 (&94867391105040)
+[Tabelle-66]:           #Tabelle-66 (&94867391929800)
+[Tabelle-67]:           #Tabelle-67 (&94867392062352)
+[Tabelle-68]:           #Tabelle-68 (&94867392196952)
+[Tabelle-69]:           #Tabelle-69 (&94867392337248)
+[Tabelle-70]:           #Tabelle-70 (&94867392465424)
+[Tabelle-71]:           #Tabelle-71 (&94867392525336)
+[Tabelle-72]:           #Tabelle-72 (&94867392549592)
+[Tabelle-73]:           #Tabelle-73 (&94867392741488)
+[Tabelle-74]:           #Tabelle-74 (&94867392759064)
+[Tabelle-75]:           #Tabelle-75 (&94867392807000)
+[Tabelle-76]:           #Tabelle-76 (&94867392871264)
+[Tabelle-77]:           #Tabelle-77 (&94867392902192)
+[Tabelle-78]:           #Tabelle-78 (&94867393042144)
+[Tabelle-79]:           #Tabelle-79 (&94867393057144)
+[Tabelle-80]:           #Tabelle-80 (&94867393136640)
+[Tabelle-81]:           #Tabelle-81 (&94867393194312)
+[Tabelle-82]:           #Tabelle-82 (&94867393314928)
+[Tabelle-83]:           #Tabelle-83 (&94867393350896)
+[Tabelle-84]:           #Tabelle-84 (&94867393431976)
+[Tabelle-85]:           #Tabelle-85 (&94867393484200)
+[Tabelle-86]:           #Tabelle-86 (&94867393604008)
+[Tabelle-87]:           #Tabelle-87 (&94867393656528)
+[Tabelle-88]:           #Tabelle-88 (&94867393726552)
+[Tabelle-89]:           #Tabelle-89 (&94867393773624)
+[Tabelle-90]:           #Tabelle-90 (&94867393893536)
+[Tabelle-91]:           #Tabelle-91 (&94867393940368)
+[Tabelle-92]:           #Tabelle-92 (&94867394012280)
+[Tabelle-93]:           #Tabelle-93 (&94867394064144)
+[Tabelle-94]:           #Tabelle-94 (&94867394183496)
+[Tabelle-95]:           #Tabelle-95 (&94867394224336)
+[Tabelle-96]:           #Tabelle-96 (&94867394297000)
+[Tabelle-97]:           #Tabelle-97 (&94867394338640)
+[Tabelle-98]:           #Tabelle-98 (&94867394456632)
+[Tabelle-99]:           #Tabelle-99 (&94867394476408)
+[Tabelle-100]:          #Tabelle-100 (&94867394538584)
+[Tabelle-101]:          #Tabelle-101 (&94867394563296)
+[Tabelle-102]:          #Tabelle-102 (&94867394628496)
+[Tabelle-103]:          #Tabelle-103 (&94867395035016)
+[Tabelle-104]:          #Tabelle-104 (&94867395107440)
+[Tabelle-105]:          #Tabelle-105 (&94867395148504)
+[Tabelle-106]:          #Tabelle-106 (&94867395215456)
+[Tabelle-107]:          #Tabelle-107 (&94867395294976)
+[Tabelle-108]:          #Tabelle-108 (&94867395356104)
+[Tabelle-109]:          #Tabelle-109 (&94867395380976)
+[Tabelle-110]:          #Tabelle-110 (&94867395436592)
+[Tabelle-111]:          #Tabelle-111 (&94867395461688)
+[Tabelle-112]:          #Tabelle-112 (&94867395580576)
+[Tabelle-113]:          #Tabelle-113 (&94867395611320)
+[Tabelle-114]:          #Tabelle-114 (&94867395660888)
+[Tabelle-115]:          #Tabelle-115 (&94867395791640)
+[Tabelle-116]:          #Tabelle-116 (&94867395843784)
+[Tabelle-117]:          #Tabelle-117 (&94867395874000)
+[Tabelle-118]:          #Tabelle-118 (&94867396106176)
+[Tabelle-119]:          #Tabelle-119 (&94867396152608)
+[Tabelle-120]:          #Tabelle-120 (&94867396183688)
+[Tabelle-121]:          #Tabelle-121 (&94867396428896)
+[Tabelle-122]:          #Tabelle-122 (&94867396469760)
+[Tabelle-123]:          #Tabelle-123 (&94867396506408)
+[Tabelle-124]:          #Tabelle-124 (&94867396635152)
+[Tabelle-125]:          #Tabelle-125 (&94867396682944)
+[Tabelle-126]:          #Tabelle-126 (&94867396707656)
+[Tabelle-127]:          #Tabelle-127 (&94867396834984)
+[Tabelle-128]:          #Tabelle-128 (&94867396883896)
+[Tabelle-129]:          #Tabelle-129 (&94867396914688)
+[Tabelle-130]:          #Tabelle-130 (&94867396991856)
+[Tabelle-131]:          #Tabelle-131 (&94867397091120)
+[Tabelle-132]:          #Tabelle-132 (&94867397122288)
+[Tabelle-133]:          #Tabelle-133 (&94867397137840)
+[Tbl-137]:              #Tbl-137 (&94867397236400)
+[Tabelle-135]:          #Tabelle-135 (&94867397561104)
+[Tabelle-136]:          #Tabelle-136 (&94867398443792)
+[Tabelle-137]:          #Tabelle-137 (&94867398462872)
+[Tabelle-138]:          #Tabelle-138 (&94867398527080)
+[Tabelle-139]:          #Tabelle-139 (&94867398604912)
+[Tabelle-140]:          #Tabelle-140 (&94867398624784)
+[Tabelle-141]:          #Tabelle-141 (&94867398757224)
+[Tabelle-142]:          #Tabelle-142 (&94867398798568)
+[Tbl-146]:              #Tbl-146 (&94867398850904)
+[Tbl-147]:              #Tbl-147 (&94867398981248)
+[Tbl-148]:              #Tbl-148 (&94867399022768)
+[Tabelle-146]:          #Tabelle-146 (&94867399041016)
+[Tabelle-147]:          #Tabelle-147 (&94867399251880)
+[Tabelle-148]:          #Tabelle-148 (&94867399344624)
+[Tabelle-149]:          #Tabelle-149 (&94867399363528)
+[Tabelle-150]:          #Tabelle-150 (&94867399533928)
+[Tabelle-151]:          #Tabelle-151 (&94867399586336)
+[Tbl-155]:              #Tbl-155 (&94867399607840)
+[Tbl-156]:              #Tbl-156 (&94867399681584)
+[Tbl-157]:              #Tbl-157 (&94867399777640)
+[Tbl-158]:              #Tbl-158 (&94867399798256)
+[Tbl-159]:              #Tbl-159 (&94867399851096)
+[Tbl-160]:              #Tbl-160 (&94867400209224)
+[Tbl-161]:              #Tbl-161 (&94867400234856)
+[Tbl-162]:              #Tbl-162 (&94867400342136)
+[Tbl-163]:              #Tbl-163 (&94867400385968)
+[Tbl-164]:              #Tbl-164 (&94867400411600)
+[Tbl-165]:              #Tbl-165 (&94867400533192)
+[Tbl-166]:              #Tbl-166 (&94867400569400)
+[Tbl-167]:              #Tbl-167 (&94867400596864)
+[Tbl-168]:              #Tbl-168 (&94867400636280)
+[Tabelle-166]:          #Tabelle-166 (&94867400663584)
+[Tabelle-167]:          #Tabelle-167 (&94867400807016)
+[Tabelle-168]:          #Tabelle-168 (&94867400830296)
+[Tabelle-169]:          #Tabelle-169 (&94867400965872)
+[Tabelle-170]:          #Tabelle-170 (&94867401104472)
+[Tabelle-171]:          #Tabelle-171 (&94867401149016)
+[Tabelle-172]:          #Tabelle-172 (&94867401215472)
+[Tabelle-173]:          #Tabelle-173 (&94867401984296)
+[Tabelle-174]:          #Tabelle-174 (&94867402040280)
+[Tabelle-175]:          #Tabelle-175 (&94867402059760)
+[Tabelle-176]:          #Tabelle-176 (&94867402106640)
+[Tabelle-177]:          #Tabelle-177 (&94867402125864)
+[Tabelle-178]:          #Tabelle-178 (&94867402234280)
+[Tabelle-179]:          #Tabelle-179 (&94867402289032)
+[Tabelle-180]:          #Tabelle-180 (&94867402323000)
+[Tabelle-181]:          #Tabelle-181 (&94867402502864)
+[Tabelle-182]:          #Tabelle-182 (&94867402538816)
+[Tabelle-183]:          #Tabelle-183 (&94867402622552)
+[Tabelle-184]:          #Tabelle-184 (&94867402689136)
+[Tabelle-185]:          #Tabelle-185 (&94867402720576)
+[Tabelle-186]:          #Tabelle-186 (&94867402815440)
+[Tabelle-187]:          #Tabelle-187 (&94867402865696)
+[Tabelle-188]:          #Tabelle-188 (&94867403013400)
+[Tabelle-189]:          #Tabelle-189 (&94867403106640)
+[Tbl-193]:              #Tbl-193 (&94867403138280)
+[Tabelle-191]:          #Tabelle-191 (&94867403234328)
+[Tabelle-192]:          #Tabelle-192 (&94867403252888)
+[Tabelle-193]:          #Tabelle-193 (&94867403451888)
+[Tabelle-194]:          #Tabelle-194 (&94867404198024)
+[Tabelle-195]:          #Tabelle-195 (&94867404215776)
+[Tabelle-196]:          #Tabelle-196 (&94867404278496)
+[Tabelle-197]:          #Tabelle-197 (&94867404291920)
+[Tabelle-198]:          #Tabelle-198 (&94867404399624)
+[Tabelle-199]:          #Tabelle-199 (&94867404418880)
+[Tabelle-200]:          #Tabelle-200 (&94867404476912)
+[Tabelle-201]:          #Tabelle-201 (&94867404491600)
+[Tabelle-202]:          #Tabelle-202 (&94867404562808)
+[Tabelle-203]:          #Tabelle-203 (&94867405118408)
+[Tabelle-204]:          #Tabelle-204 (&94867405173048)
+[Tabelle-205]:          #Tabelle-205 (&94867405193040)
+[Tabelle-206]:          #Tabelle-206 (&94867405276616)
+[Tabelle-207]:          #Tabelle-207 (&94867405305864)
+[Tabelle-208]:          #Tabelle-208 (&94867405424792)
+[Tabelle-209]:          #Tabelle-209 (&94867405455136)
+[Tabelle-210]:          #Tabelle-210 (&94867405528112)
+[Tabelle-211]:          #Tabelle-211 (&94867405559992)
+[Tabelle-212]:          #Tabelle-212 (&94867406088664)
+[Tabelle-213]:          #Tabelle-213 (&94867406131936)
+[Tabelle-214]:          #Tabelle-214 (&94867406186336)
+[Tabelle-215]:          #Tabelle-215 (&94867406220640)
+[Tabelle-216]:          #Tabelle-216 (&94867406327840)
+[Tabelle-217]:          #Tabelle-217 (&94867406347408)
+[Tabelle-218]:          #Tabelle-218 (&94867406447688)
+[Tabelle-219]:          #Tabelle-219 (&94867407140576)
+[Tabelle-220]:          #Tabelle-220 (&94867407200344)
+[Tabelle-221]:          #Tabelle-221 (&94867407321504)
+[Tabelle-222]:          #Tabelle-222 (&94867407418064)
+[Tabelle-223]:          #Tabelle-223 (&94867407477072)
+[Tabelle-224]:          #Tabelle-224 (&94867407580888)
+[Tabelle-225]:          #Tabelle-225 (&94867407684120)
+[Tabelle-226]:          #Tabelle-226 (&94867407748416)
+[Tabelle-227]:          #Tabelle-227 (&94867407794224)
+[Tabelle-228]:          #Tabelle-228 (&94867407869776)
+[Tabelle-229]:          #Tabelle-229 (&94867407953632)
+[Tabelle-230]:          #Tabelle-230 (&94867408017336)
+[Tabelle-231]:          #Tabelle-231 (&94867408033464)
+[Tabelle-232]:          #Tabelle-232 (&94867408083264)
+[Tabelle-233]:          #Tabelle-233 (&94867408436896)
+[Tabelle-234]:          #Tabelle-234 (&94867408479248)
+[Tabelle-235]:          #Tabelle-235 (&94867408577696)
+[Tabelle-236]:          #Tabelle-236 (&94867408806544)
+[Tabelle-237]:          #Tabelle-237 (&94867408897816)
+[Tabelle-238]:          #Tabelle-238 (&94867408930632)
+[Tabelle-239]:          #Tabelle-239 (&94867408965064)
+[Tabelle-240]:          #Tabelle-240 (&94867408980280)
+[Tabelle-241]:          #Tabelle-241 (&94867409004328)
+[Tabelle-242]:          #Tabelle-242 (&94867409088152)
+[Tabelle-243]:          #Tabelle-243 (&94867409105240)
+[Tabelle-244]:          #Tabelle-244 (&94867409125416)
+[Tabelle-245]:          #Tabelle-245 (&94867409165288)
+[Tabelle-246]:          #Tabelle-246 (&94867409197744)
+[Tabelle-247]:          #Tabelle-247 (&94867409227232)
+[Tabelle-248]:          #Tabelle-248 (&94867409314720)
+[Tabelle-249]:          #Tabelle-249 (&94867409332792)
+[Tabelle-250]:          #Tabelle-250 (&94867409352776)
+[Tabelle-251]:          #Tabelle-251 (&94867409414208)
+[Tabelle-252]:          #Tabelle-252 (&94867409445000)
+[Tabelle-253]:          #Tabelle-253 (&94867409512072)
+[Tabelle-254]:          #Tabelle-254 (&94867409554784)
+[Tabelle-255]:          #Tabelle-255 (&94867409612736)
+[Tabelle-256]:          #Tabelle-256 (&94867409715536)
+[Tbl-260]:              #Tbl-260 (&94867409787192)
+[Tabelle-258]:          #Tabelle-258 (&94867409837872)
+[Tabelle-259]:          #Tabelle-259 (&94867409859936)
+[Tabelle-260]:          #Tabelle-260 (&94867409937976)
+[Tabelle-261]:          #Tabelle-261 (&94867409992232)
+[Tabelle-262]:          #Tabelle-262 (&94867410103592)
+[Tabelle-263]:          #Tabelle-263 (&94867410128352)
+[Tabelle-264]:          #Tabelle-264 (&94867410525256)
+[Tabelle-265]:          #Tabelle-265 (&94867410543264)
+[Tabelle-266]:          #Tabelle-266 (&94867410644048)
+[Tabelle-267]:          #Tabelle-267 (&94867410723912)
+[Tabelle-268]:          #Tabelle-268 (&94867410836712)
+[Tabelle-269]:          #Tabelle-269 (&94867410860056)
+[Tabelle-270]:          #Tabelle-270 (&94867410977096)
+[Tabelle-271]:          #Tabelle-271 (&94867410999920)
+[Tabelle-272]:          #Tabelle-272 (&94867411080368)
+[Tabelle-273]:          #Tabelle-273 (&94867411116256)
+[Tabelle-274]:          #Tabelle-274 (&94867411156512)
+[Tabelle-275]:          #Tabelle-275 (&94867411249056)
+[Tabelle-276]:          #Tabelle-276 (&94867411291744)
+[Tabelle-277]:          #Tabelle-277 (&94867411321208)
+[Tabelle-278]:          #Tabelle-278 (&94867411502752)
+[Tabelle-279]:          #Tabelle-279 (&94867411544440)
+[Tbl-283]:              #Tbl-283 (&94867411581048)
+[Tbl-284]:              #Tbl-284 (&94867411686592)
+[Tbl-285]:              #Tbl-285 (&94867411759248)
+[Tabelle-283]:          #Tabelle-283 (&94867411778248)
+[Tabelle-284]:          #Tabelle-284 (&94867411884656)
+[Tabelle-285]:          #Tabelle-285 (&94867411897784)
+[Tabelle-286]:          #Tabelle-286 (&94867411957408)
+[Tabelle-287]:          #Tabelle-287 (&94867412028568)
+[Tabelle-288]:          #Tabelle-288 (&94867412150408)
+[Tabelle-289]:          #Tabelle-289 (&94867412240104)
+[Tabelle-290]:          #Tabelle-290 (&94867412714936)
+[Tabelle-291]:          #Tabelle-291 (&94867412763808)
+[Tabelle-292]:          #Tabelle-292 (&94867412823680)
+[Tabelle-293]:          #Tabelle-293 (&94867412874376)
+[Tabelle-294]:          #Tabelle-294 (&94867412996016)
+[Tabelle-295]:          #Tabelle-295 (&94867413024064)
+[Tabelle-296]:          #Tabelle-296 (&94867413071416)
+[Tabelle-297]:          #Tabelle-297 (&94867413108344)
+[Tabelle-298]:          #Tabelle-298 (&94867413152992)
+[Tabelle-299]:          #Tabelle-299 (&94867413203344)
+[Tabelle-300]:          #Tabelle-300 (&94867413305608)
+[Tabelle-301]:          #Tabelle-301 (&94867413369528)
+[Tabelle-302]:          #Tabelle-302 (&94867413399304)
+[Tabelle-303]:          #Tabelle-303 (&94867413432912)
+[Tabelle-304]:          #Tabelle-304 (&94867413599672)
+[Tabelle-305]:          #Tabelle-305 (&94867413633512)
+[Tabelle-306]:          #Tabelle-306 (&94867413654896)
+[Tabelle-307]:          #Tabelle-307 (&94867413780832)
+[Tabelle-308]:          #Tabelle-308 (&94867413833096)
+[Tabelle-309]:          #Tabelle-309 (&94867413845360)
+[Tabelle-310]:          #Tabelle-310 (&94867414331416)
+[Tabelle-311]:          #Tabelle-311 (&94867414389480)
+[Tabelle-312]:          #Tabelle-312 (&94867414413888)
+[Tabelle-313]:          #Tabelle-313 (&94867414511008)
+[Tabelle-314]:          #Tabelle-314 (&94867414535416)
+[Tabelle-315]:          #Tabelle-315 (&94867414632112)
+[Tabelle-316]:          #Tabelle-316 (&94867414671504)
+[Tabelle-317]:          #Tabelle-317 (&94867414701792)
+[Tabelle-318]:          #Tabelle-318 (&94867414725000)
+[Tabelle-319]:          #Tabelle-319 (&94867414807832)
+[Tabelle-320]:          #Tabelle-320 (&94867414828456)
+[Tabelle-321]:          #Tabelle-321 (&94867414944312)
+[Tabelle-322]:          #Tabelle-322 (&94867414971560)
+[Tbl-326]:              #Tbl-326 (&94867415050208)
+[Tabelle-324]:          #Tabelle-324 (&94867415114688)
+[Tabelle-325]:          #Tabelle-325 (&94867415472272)
+[Tabelle-326]:          #Tabelle-326 (&94867415554816)
+[Tabelle-327]:          #Tabelle-327 (&94867415600696)
+[Tabelle-328]:          #Tabelle-328 (&94867415637000)
+[Tabelle-329]:          #Tabelle-329 (&94867415741152)
+[Tabelle-330]:          #Tabelle-330 (&94867415768648)
+[Tabelle-331]:          #Tabelle-331 (&94867415834136)
+[Tabelle-332]:          #Tabelle-332 (&94867415897496)
+[Tabelle-333]:          #Tabelle-333 (&94867415933824)
+[Tabelle-334]:          #Tabelle-334 (&94867416044696)
+[Tabelle-335]:          #Tabelle-335 (&94867416089608)
+[Tabelle-336]:          #Tabelle-336 (&94867416181584)
+[Tabelle-337]:          #Tabelle-337 (&94867416209552)
+[Tabelle-338]:          #Tabelle-338 (&94867416303232)
+[Tabelle-339]:          #Tabelle-339 (&94867416321480)
+[Tabelle-340]:          #Tabelle-340 (&94867416355368)
+[Tabelle-341]:          #Tabelle-341 (&94867416371864)
+[Tabelle-342]:          #Tabelle-342 (&94867416391416)
+[Tabelle-343]:          #Tabelle-343 (&94867416449912)
+[Tabelle-344]:          #Tabelle-344 (&94867416478888)
+[Tabelle-345]:          #Tabelle-345 (&94867416585928)
+[Tabelle-346]:          #Tabelle-346 (&94867416627088)
+[Tabelle-347]:          #Tabelle-347 (&94867416650128)
+[Tabelle-348]:          #Tabelle-348 (&94867416697168)
+[Tabelle-349]:          #Tabelle-349 (&94867416721712)
+[Tabelle-350]:          #Tabelle-350 (&94867416766048)
+[Tabelle-351]:          #Tabelle-351 (&94867416840728)
+[Tabelle-352]:          #Tabelle-352 (&94867416891240)
+[Tabelle-353]:          #Tabelle-353 (&94867416917216)
+[Tabelle-354]:          #Tabelle-354 (&94867416949568)
+[Tabelle-355]:          #Tabelle-355 (&94867416987616)
+[Tabelle-356]:          #Tabelle-356 (&94867417075104)
+[Tabelle-357]:          #Tabelle-357 (&94867417184744)
+[Tabelle-358]:          #Tabelle-358 (&94867417209096)
+[Tabelle-359]:          #Tabelle-359 (&94867417224216)
+[Tabelle-360]:          #Tabelle-360 (&94867417363504)
+[Tabelle-361]:          #Tabelle-361 (&94867417398016)
+[Tbl-365]:              #Tbl-365 (&94867417431096)
+[Tbl-366]:              #Tbl-366 (&94867417456680)
+[Tbl-367]:              #Tbl-367 (&94867417473064)
+[Tbl-368]:              #Tbl-368 (&94867417486096)
+[Tabelle -366]:         #Tabelle -366 (&94867417558992)
+[Tbl-370]:              #Tbl-370 (&94867417660288)
+[Tabelle-368]:          #Tabelle-368 (&94867417711312)
+[Tbl-372]:              #Tbl-372 (&94867417761672)
+[Tabelle-370]:          #Tabelle-370 (&94867417835096)
+[Tabelle-371]:          #Tabelle-371 (&94867417977336)
+[Tabelle-372]:          #Tabelle-372 (&94867418019504)
+[Tabelle-373]:          #Tabelle-373 (&94867418211352)
+[Tabelle-374]:          #Tabelle-374 (&94867418236240)
+[Tabelle-375]:          #Tabelle-375 (&94867418303128)
+[Tabelle-376]:          #Tabelle-376 (&94867418333328)
+[Tabelle-377]:          #Tabelle-377 (&94867418463984)
+[Tabelle-378]:          #Tabelle-378 (&94867418485184)
+[Tabelle-379]:          #Tabelle-379 (&94867418558832)
+[Tabelle-380]:          #Tabelle-380 (&94867418589080)
+[Tabelle-381]:          #Tabelle-381 (&94867418701528)
+[Tabelle-382]:          #Tabelle-382 (&94867418743176)
+[Tabelle-383]:          #Tabelle-383 (&94867418790680)
+[Tabelle-384]:          #Tabelle-384 (&94867418803504)
+[Tabelle-385]:          #Tabelle-385 (&94867418835840)
+[Tabelle-386]:          #Tabelle-386 (&94867419041952)
+[Tabelle-387]:          #Tabelle-387 (&94867419056952)
+[Tabelle-388]:          #Tabelle-388 (&94867419071560)
+[Tbl-392]:              #Tbl-392 (&94867419084280)
+[Tbl-393]:              #Tbl-393 (&94867419286256)
+[Tbl-394]:              #Tbl-394 (&94867420014176)
+[Tbl-395]:              #Tbl-395 (&94867420094064)
+[Tabelle-389]:          #Tabelle-389 (&94867420542952)
+[Tabelle-390]:          #Tabelle-390 (&94867420749840)
+[Tabelle-391]:          #Tabelle-391 (&94867420763904)
+[Tabelle-392]:          #Tabelle-392 (&94867420776192)
+[Tabelle-393]:          #Tabelle-393 (&94867422719720)
+[Tabelle-394]:          #Tabelle-394 (&94867423535312)
+[Tabelle-395]:          #Tabelle-395 (&94867423767696)
+[Tabelle-396]:          #Tabelle-396 (&94867423791160)
+[Tabelle-397]:          #Tabelle-397 (&94867427958296)

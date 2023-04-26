@@ -212,13 +212,13 @@ Es liegen keine optionalen Ausprägungen des Produkttyps vor.
 
 ### 5.2 Tabellenverzeichnis
 
-  - [Tabelle-1]: Dokumente mit normativen Festlegungen
-  - [Tabelle-2]: Informative Dokumente und Web-Inhalte
-  - [Tabelle-3]: Festlegungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test"
-  - [Tabelle-4]: Festlegungen zur funktionalen Eignung "Herstellererklärung"
-  - [Tabelle-5]: Festlegungen zur sicherheitstechnischen Eignung "Herstellererklärung"
-  - [Tabelle-6]: Festlegungen zur sicherheitstechnischen Eignung "Sicherheitsgutachten"
-  - [Tabelle-7]: Festlegungen zur sicherheitstechnischen Eignung "Produktgutachten"
+  - [Tabelle-1] - Dokumente mit normativen Festlegungen
+  - [Tabelle-2] - Informative Dokumente und Web-Inhalte
+  - [Tabelle-3] - Festlegungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test"
+  - [Tabelle-4] - Festlegungen zur funktionalen Eignung "Herstellererklärung"
+  - [Tabelle-5] - Festlegungen zur sicherheitstechnischen Eignung "Herstellererklärung"
+  - [Tabelle-6] - Festlegungen zur sicherheitstechnischen Eignung "Sicherheitsgutachten"
+  - [Tabelle-7] - Festlegungen zur sicherheitstechnischen Eignung "Produktgutachten"
 
 [Historie]:             #historie-produkttypversion-und-produkttypsteckbrief
 [Inhaltsverzeichnis]:   #inhaltsverzeichnis
@@ -241,14 +241,14 @@ Es liegen keine optionalen Ausprägungen des Produkttyps vor.
 [5]:                    #5-anhang-–-verzeichnisse
 [5.1]:                  #51-abkürzungen
 [5.2]:                  #52-tabellenverzeichnis
-[Tbl-001]:              #Tbl-001 (&93939840493224)
-[Tbl-002]:              #Tbl-002 (&93939840511616)
-[Tabelle-1]:            #Tabelle-1 (&93939840565488)
-[Tabelle-2]:            #Tabelle-2 (&93939840592640)
-[Tabelle-3]:            #Tabelle-3 (&93939840627552)
-[Tabelle-4]:            #Tabelle-4 (&93939840727576)
-[Tabelle-5]:            #Tabelle-5 (&93939840935984)
-[Tabelle-6]:            #Tabelle-6 (&93939840976320)
-[Tabelle-7]:            #Tabelle-7 (&93939841018792)
-[Tbl-010]:              #Tbl-010 (&93939841089176)
-[https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen]: https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen (&93939840554712)
+[Tbl-001]:              #Tbl-001 (&94867376420520)
+[Tbl-002]:              #Tbl-002 (&94867376438912)
+[Tabelle-1]:            #Tabelle-1 (&94867376492784)
+[Tabelle-2]:            #Tabelle-2 (&94867376519936)
+[Tabelle-3]:            #Tabelle-3 (&94867376554848)
+[Tabelle-4]:            #Tabelle-4 (&94867376654872)
+[Tabelle-5]:            #Tabelle-5 (&94867376863280)
+[Tabelle-6]:            #Tabelle-6 (&94867376903616)
+[Tabelle-7]:            #Tabelle-7 (&94867376946088)
+[Tbl-010]:              #Tbl-010 (&94867377016472)
+[https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen]: https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen (&94867376482008)
