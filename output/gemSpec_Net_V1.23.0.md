@@ -1,7 +1,7 @@
 
 Elektronische Gesundheitskarte und Telematikinfrastruktur
 
-### Übergreifende SpezifikationNetzwerk
+### Übergreifende Spezifikation<br>Netzwerk
 
 - Klassifizierung: öffentlich
 - Referenzierung: gemSpec_Net
@@ -3029,30 +3029,30 @@ Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 [Abbildung-11]:          gemSpec_Net_V1.23.0.attachments/16375713540687609086.png
 [Abbildung-13]:          gemSpec_Net_V1.23.0.attachments/2067806594367866547.emf
 [Abbildung-14]:          gemSpec_Net_V1.23.0.attachments/6115700746777642708.emf
-[Tbl-001]:               #Tbl-001 (&94494945581464)
-[Tabelle-1]:             #Tabelle-1 (&94494946177488)
-[Tbl-003]:               #Tbl-003 (&94494946314128)
-[Tabelle-3]:             #Tabelle-3 (&94494946477984)
-[Tabelle-4]:             #Tabelle-4 (&94494948559648)
-[Tabelle-5]:             #Tabelle-5 (&94494948657808)
-[Tabelle-6]:             #Tabelle-6 (&94494948800408)
-[Tbl-008]:               #Tbl-008 (&94494949008384)
-[Tabelle-8]:             #Tabelle-8 (&94494949234264)
-[Tabelle-9]:             #Tabelle-9 (&94494949371856)
-[Tabelle-10]:            #Tabelle-10 (&94494949412648)
-[Tabelle-11]:            #Tabelle-11 (&94494949739184)
-[Tabelle-12]:            #Tabelle-12 (&94494949765672)
-[Tabelle-13]:            #Tabelle-13 (&94494949813072)
-[Tbl-015]:               #Tbl-015 (&94494951557680)
-[Tbl-016]:               #Tbl-016 (&94494951681048)
-[Tabelle-16]:            #Tabelle-16 (&94494952411104)
-[Tbl-018]:               #Tbl-018 (&94494952963512)
-[Tabelle-18]:            #Tabelle-18 (&94494952989448)
-[Tbl-020]:               #Tbl-020 (&94494953086208)
-[Tbl-021]:               #Tbl-021 (&94494953574120)
-[Tabelle-21]:            #Tabelle-21 (&94494953639080)
-[Tabelle-22]:            #Tabelle-22 (&94494953676040)
-[Tabelle-23]:            #Tabelle-23 (&94494953694960)
-[Tbl-025]:               #Tbl-025 (&94494953765368)
-[Tbl-026]:               #Tbl-026 (&94494953871920)
-[Tbl-027]:               #Tbl-027 (&94494953890728)
+[Tbl-001]:               #Tbl-001 (&94498795014552)
+[Tabelle-1]:             #Tabelle-1 (&94498795610576)
+[Tbl-003]:               #Tbl-003 (&94498795747216)
+[Tabelle-3]:             #Tabelle-3 (&94498795911072)
+[Tabelle-4]:             #Tabelle-4 (&94498797992736)
+[Tabelle-5]:             #Tabelle-5 (&94498798090896)
+[Tabelle-6]:             #Tabelle-6 (&94498798233496)
+[Tbl-008]:               #Tbl-008 (&94498798441472)
+[Tabelle-8]:             #Tabelle-8 (&94498798667352)
+[Tabelle-9]:             #Tabelle-9 (&94498798804944)
+[Tabelle-10]:            #Tabelle-10 (&94498798845736)
+[Tabelle-11]:            #Tabelle-11 (&94498799172272)
+[Tabelle-12]:            #Tabelle-12 (&94498799198760)
+[Tabelle-13]:            #Tabelle-13 (&94498799246160)
+[Tbl-015]:               #Tbl-015 (&94498800990768)
+[Tbl-016]:               #Tbl-016 (&94498801114136)
+[Tabelle-16]:            #Tabelle-16 (&94498801844192)
+[Tbl-018]:               #Tbl-018 (&94498802396600)
+[Tabelle-18]:            #Tabelle-18 (&94498802422536)
+[Tbl-020]:               #Tbl-020 (&94498802519296)
+[Tbl-021]:               #Tbl-021 (&94498803007208)
+[Tabelle-21]:            #Tabelle-21 (&94498803072168)
+[Tabelle-22]:            #Tabelle-22 (&94498803109128)
+[Tabelle-23]:            #Tabelle-23 (&94498803128048)
+[Tbl-025]:               #Tbl-025 (&94498803198456)
+[Tbl-026]:               #Tbl-026 (&94498803305008)
+[Tbl-027]:               #Tbl-027 (&94498803323816)
