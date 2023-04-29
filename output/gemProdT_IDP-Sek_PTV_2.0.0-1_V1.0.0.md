@@ -113,15 +113,14 @@ entnommen werden.
 Die im Dokument verzeichneten normativen Festlegungen werden tabellarisch
 dargestellt. Die Tabellenspalten haben die folgende Bedeutung:
 
-ID: Identifiziert die normative Festlegung eindeutig im Gesamtbestand aller
+ID:Identifiziert die normative Festlegung eindeutig im Gesamtbestand aller
 Festlegungen der gematik.
 
-Bezeichnung: Gibt den Titel einer normativen Festlegung informativ wieder, um
-die thematische Einordnung zu erleichtern. Der vollständige Inhalt der
-normativen Festlegung ist dem Dokument zu entnehmen, auf das die Quellenangabe
-verweist.
+Bezeichnung:Gibt den Titel einer normativen Festlegung informativ wieder, um die
+thematische Einordnung zu erleichtern. Der vollständige Inhalt der normativen
+Festlegung ist dem Dokument zu entnehmen, auf das die Quellenangabe verweist.
 
-Quelle (Referenz): Verweist auf das Dokument, das die normative Festlegung
+Quelle (Referenz):Verweist auf das Dokument, das die normative Festlegung
 definiert.
 
 ### 2 Dokumente
@@ -130,8 +129,6 @@ Die nachfolgenden Dokumente enthalten alle für den Produkttyp normativen
 Festlegungen.
 
  ---> TABLE
-
-
 
 Die Bestätigungs-/Zulassungsbedingungen für das
 Bestätigungs-/Zulassungsobjekt "Sektoraler Identity Provider" werden im
@@ -166,8 +163,6 @@ Zulassungstests durch die gematik geprüft wird.
 
  ---> TABLE
 
-
-
 ### 3.1.2 Herstellererklärung funktionale Eignung
 
 In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an
@@ -176,8 +171,6 @@ geplante Umsetzung und Beachtung der Hersteller bzw. der Anbieter durch eine
 Herstellererklärung bestätigt bzw. zusagt.
 
  ---> TABLE
-
-
 
 ### 3.2 Festlegungen zur sicherheitstechnischen Eignung
 
@@ -190,8 +183,6 @@ zusagen.
 
  ---> TABLE
 
-
-
 ### 3.2.2 Sicherheitsgutachten
 
 Die in diesem Abschnitt verzeichneten Festlegungen sind Gegenstand der Prüfung
@@ -200,8 +191,6 @@ Sicherheitsgutachten ist der gematik vorzulegen.
 
  ---> TABLE
 
-
-
 ### 3.2.3 Produktgutachten
 
 Die in diesem Abschnitt verzeichneten Festlegungen sind Gegenstand der Prüfung
@@ -209,8 +198,6 @@ der Sicherheitseignung gemäß [gemRL_PruefSichEig_DS]. Das entsprechende
 Produktgutachten ist der gematik vorzulegen.
 
  ---> TABLE
-
-
 
 ### 4 Produkttypspezifische Merkmale
 
@@ -257,14 +244,14 @@ Es liegen keine optionalen Ausprägungen des Produkttyps vor.
 [5]:                     #5-anhang-–-verzeichnisse
 [5.1]:                   #51-abkürzungen
 [5.2]:                   #52-tabellenverzeichnis
-[Tbl-001]:               #Tbl-001 (&94027076300808)
-[Tbl-002]:               #Tbl-002 (&94027076319200)
-[Tabelle-1]:             #Tabelle-1 (&94027076373072)
-[Tabelle-2]:             #Tabelle-2 (&94027076400224)
-[Tabelle-3]:             #Tabelle-3 (&94027076435136)
-[Tabelle-4]:             #Tabelle-4 (&94027066246472)
-[Tabelle-5]:             #Tabelle-5 (&94027066454592)
-[Tabelle-6]:             #Tabelle-6 (&94027066494880)
-[Tabelle-7]:             #Tabelle-7 (&94027066537304)
-[Tbl-010]:               #Tbl-010 (&94027064923016)
-[https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen]: https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen (&94027076362296)
+[Tbl-001]:               #Tbl-001 (&94359744044664)
+[Tbl-002]:               #Tbl-002 (&94359744063056)
+[Tabelle-1]:             #Tabelle-1 (&94359744116928)
+[Tabelle-2]:             #Tabelle-2 (&94359753376320)
+[Tabelle-3]:             #Tabelle-3 (&94359753411232)
+[Tabelle-4]:             #Tabelle-4 (&94359753511112)
+[Tabelle-5]:             #Tabelle-5 (&94359753719232)
+[Tabelle-6]:             #Tabelle-6 (&94359753759520)
+[Tabelle-7]:             #Tabelle-7 (&94359753801944)
+[Tbl-010]:               #Tbl-010 (&94359753872232)
+[https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen]: https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen (&94359744106152)

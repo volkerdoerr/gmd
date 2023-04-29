@@ -1,7 +1,7 @@
 
 Elektronische Gesundheitskarte und Telematikinfrastruktur
 
-### Übergreifende Spezifikation<br> Netzwerk
+### Übergreifende SpezifikationNetzwerk
 
 - Klassifizierung: öffentlich
 - Referenzierung: gemSpec_Net
@@ -182,9 +182,7 @@ KANN gekennzeichnet.
 
 Sie werden im Dokument wie folgt dargestellt:
 
-‹AFO-ID› - ‹Titel der Afo›  
- Text / Beschreibung  
- [‹=]
+\<AFO-ID\> - \<Titel der Afo\>Text / Beschreibung[ \<=]
 
 Dabei umfasst die Anforderung sämtliche zwischen Afo-ID und Textmarke
 angeführten Inhalte.
@@ -222,7 +220,12 @@ der TI“ durch die Anwendungskategorie WANDA Basic beschrieben.
 
 ### 2.2.1 OSI-Schicht 1 und 2 (Physical/Data Link)
 
-  ---> AFO 
+##### GS-A_4009
+
+Alle Produkttypen der TI und Anbieter weiterer Anwendungen des Gesundheitswesens
+mit Zugriff auf Dienste der TI MÜSSEN beim Einsatz des Ethernet-Protokolls an
+Schnittstellen zwischen Produkttypen der TI die Einhaltung der [IEEE 802.3]
+sicherstellen. **[\<=]**
 
 ### 2.2.2 OSI-Schicht 3 (Network)
 
@@ -235,19 +238,54 @@ Vorgaben zum Protokoll Encapsulation Security Payload (ESP) werden in
 
 ### 2.2.2.1 IP-Version 4
 
-  ---> AFO 
+##### GS-A_4831
 
-  ---> AFO 
+Produkttypen der TI und weitere Anwendungen des Gesundheitswesens MÜSSEN
+mindestens die in Tab_Standards_IPv4 aufgeführten Standards unterstützen.
+
+Tabelle1: Tab_Standards_IPv4, Standards IPv4
+
+ ---> TABLE
+
+**[\<=]**
+
+##### GS-A_4832
+
+Produkttypender TI und andere Anwendungen des Gesundheitswesens MÜSSEN
+sicherstellen, dass Path MTU Discovery (PMTUD) gemäß [RFC1191] im gesamten
+Netzwerk funktioniert. Insbesondere MÜSSEN Router und Gateways die
+erforderlichen ICMP-Messages erzeugen, und Sicherheitsgateways MÜSSEN diese
+ICMP-Messages passieren lassen. Anfragen durch einen ICMP-Request MÜSSEN mit
+einem ICMP-Reply beantwortet werden. **[\<=]**
 
 ### 2.2.2.2 IP-Version 6
 
-  ---> AFO 
+##### GS-A_4010
 
-  ---> AFO 
+Produkttypen, die zentrale Dienste der TI-Plattform bereitstellen, MÜSSEN die
+in [RIPE-772]  für die jeweilige Geräteklasse unter Mandatory Support
+aufgeführten Anforderungen erfüllen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4011
 
-  ---> AFO 
+Zentrale Dienste der TI-Plattform MÜSSEN IPv4 und IPv6 parallel als Protokoll
+(Dual-Stack-Mode) unterstützen. Die TSP X.509 SOLLEN IPv4 und IPv6 parallel
+unterstützen. **[\<=]**
+
+##### GS-A_4012
+
+Produkttypen, die zentrale Dienste der TI-Plattform bereitstellen, MÜSSEN IPv4
+und IPv6 als Protokoll unterstützen, wobei für beide Protokolle eine
+vergleichbare Leistung vorhanden sein muss, d. h. weniger als 15% Unterschied
+zwischen den beiden Protokollen bei Input, Output, Durchsatz, Weiterleitung und
+Verarbeitung.​​ **[\<=]**
+
+##### A_17824
+
+Zentrale Dienste der TI-Plattform MÜSSEN an ihren Außenschnittstellen zu
+anderen Komponenten und Diensten der TI sowie WANDA Basic und WANDA Smart im
+zentralen Netz der TI und im Internet IPv4 und IPv6 parallel als Protokoll im
+Dual-Stack-Mode nutzen. **[\<=]**
 
 ### 2.2.3 OSI-Schicht 4 (Transport)
 
@@ -268,21 +306,66 @@ wird.
 In den folgenden Anforderungen werden die Verantwortlichkeiten und weitere
 Vorgaben zum Prozess „Verwaltung von UDP/TCP-Portbereichen“ definiert.
 
-  ---> AFO 
+##### GS-A_4833
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS den Prozess „Verwaltung von
+UDP/TCP-Portbereichen“ mit den folgenden Inhalten definieren und
+implementieren:
 
-  ---> AFO 
+ ---> UL
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI ist der Verantwortliche für den gesamten Prozess. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4886
 
-  ---> AFO 
+Der GBV MUSS den vom Anbieter Zentrales Netz TI definierten Prozess
+„Verwaltung von UDP/TCP-Portbereichen“ freigeben. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4014
 
-  ---> AFO 
+Der GBV MUSS für die Zuteilung von UDP/TCP-Portbereichen ein Vergabeschema
+unter Berücksichtung der Dienstklassen zur Netzwerkpriorisierung erstellen und
+dem Anbieter Zentrales Netz TI zur Verfügung stellen.Der GBV MUSS das
+Vergabeschema für UDP/TCP-Portbereiche auf Grundlage des [RFC6335] erstellen.
+Der GBV MUSS für die Vergabe von UDP/TCP-Portbereichen den in [RFC6335]
+definierten Bereich von 49152-65535 (Dynamic/Private Ports) nutzen. Hiervon
+ausgenommen sind Anwendungen die in [RFC6335] definierte Bereiche der System
+Ports (Well-Known Ports) bzw. User Ports (Registered Ports) nutzen. **[\<=]**
+
+##### GS-A_4016
+
+Der Anbieter Zentrales Netz TI MUSS UDP/TCP-Portbereiche nach den Vorgaben des
+Vergabeschemas an die einzelnen Anbieter der Produkttypen der TI bedarfsgerecht
+zuweisen. Die Vergabe der UDP/TCP-Portbereiche erfolgt im Rahmen des Test- und
+Zulassungsverfahrens von Anbietern eines Produkttyps. **[\<=]**
+
+##### GS-A_4013
+
+Produkttypen von Fachanwendungen und Zentralen Diensten der TI-Plattform und
+Anbieter weiterer Anwendungen des Gesundheitswesens mit Zugriff auf Dienste der
+TI MÜSSEN die zugeordneten bzw. abgestimmten UDP/TCP-Portbereiche für die
+Kommunikation in der TI nutzen. **[\<=]**
+
+##### GS-A_4753
+
+Der GBV MUSS in Abstimmung mit dem Anbieter Zentrales Netz TI das
+Dokumentationsformat für die UDP/TCP-Portbereiche festlegen und dem Anbieter
+von Produkttypen der TI zur Verfügung stellen. **[\<=]**
+
+##### GS-A_4017
+
+Der Anbieter Zentrales Netz TI MUSS die Vergabe der UDP/TCP-Portbereiche
+dokumentieren und diese Dokumentation dem GBV bei Änderungen und auf
+Anforderung zur Verfügung stellen. **[\<=]**
+
+##### GS-A_4018
+
+Die Anbieter von Produkttypen der TI und Anbieter weiterer Anwendungen des
+Gesundheitswesens mit Zugriff auf Dienste der TI MÜSSEN die Nutzung der
+zugeteilten und mit den Anbietern weiterer Anwendungen des Gesundheitswesens
+mit Zugriff auf Dienste der TI abgestimmten UDP/TCP-Portbereiche dokumentieren
+und diese Dokumentation dem Anbieter Zentrales Netz TI bei Änderungen und auf
+Anforderung zur Verfügung stellen. **[\<=]**
 
 ### 2.2.3.3 Transport Layer Security (TLS)
 
@@ -335,31 +418,104 @@ aus den spezifizierten Bereichen an Anbieter von TI-Produkttypen.
 In den folgenden Anforderungen werden die Verantwortlichkeiten und weitere
 Vorgaben zum Prozess „Verwaltung von IP-Adressbereichen“ definiert.
 
-  ---> AFO 
+##### GS-A_4834
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS den Prozess „Verwaltung von
+IP-Adressbereichen“ mit den folgenden Inhalten definieren und implementieren:
 
-  ---> AFO 
+ ---> UL
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI ist der Verantwortliche für den gesamten Prozess. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4888
 
-  ---> AFO 
+Der GBV MUSS den vom Anbieter Zentrales Netz TI definierten Prozess
+„Verwaltung von IP-Adressbereichen“ freigeben. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4021
 
-  ---> AFO 
+Der GBV MUSS für die Nutzung erlaubte IP-Adressbereiche und deren Vergabe in
+der TI freigeben. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4022
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS die Adressvergabe operativ mit dem GBV und
+den Anbietern der Produkttypen in der TI koordinieren. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4023
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS im Rahmen des Test- und Zulassungsverfahrens
+IP-Adressbereiche an die einzelnen Anbieter der Produkttypen bedarfsgerecht
+zuweisen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4754
+
+Der Anbieter Zentrales Netz TI SOLL den IP-Adressbereich als zusammenhängendes
+Subnetz (IPv4) an die einzelnen Anbieter der Produkttypen vergeben. Als
+Reservenetz soll er das darauf folgende, gleich große Subnetz vergeben, das
+jedoch nur nach Freigabe durch den Anbieter Zentrales Netz TI genutzt werden
+darf. **[\<=]**
+
+##### GS-A_4024-01
+
+Alle Anbieter von Diensten in der TI undWANDA-Smart-Anbieter MÜSSEN für ihre
+über die TI erreichbaren Systeme die zugewiesenen IP-Bereiche nutzen. Bei
+einem WANDA-Smart-Anbieter können es vom Anbieter bereitgestellte
+öffentliche IP-Adressen sein. Änderungen an diesen Bereichen MÜSSEN die
+Anbieter einzelner TI-Dienste bei dem Anbieter Zentrales Netz TI beantragen und
+bei Verwendung eigener öffentlicher IP-Adressen mit dem Anbieter Zentrales
+Netz TI abstimmen.WANDA-Basic-Anbieter mit zugewiesenen TI-IPv4-Adressen
+MÜSSEN für ihre über die TI erreichbaren Systeme die TI-IPv4-Adressen
+nutzen. **[\<=]**
+
+##### GS-A_4026
+
+Der Anbieter Zentrales Netz TI MUSS die Vergabe der IP-Adressbereiche
+dokumentieren und diese Dokumentation dem GBV bei Änderungen und auf
+Anforderung zur Verfügung stellen. **[\<=]**
+
+##### GS-A_4756
+
+Der Anbieter Zentrales Netz TI MUSS das Format zum Reporting der
+IP-Adressbereiche festgelegen. **[\<=]**
+
+##### GS-A_4027
+
+Alle Anbieter von Diensten in der TI und Anbieter weiterer Anwendungen des
+Gesundheitswesens mit Zugriff auf Dienste der TI MÜSSEN dem Anbieter Zentrales
+Netz TI die Vergabe der IP-Adressbereiche dokumentieren und Änderungen an den
+Anbieter Zentrales Netz TI melden. Die Anbieter MÜSSEN jeweils sowohl die
+Änderungen als auch die Gesamtübersicht zum zugewiesenen Adressblock melden.
+Die Dokumentation der Nutzung von dynamisch vergebenen IP-Adressen soll nicht
+erfolgen. **[\<=]**
+
+##### GS-A_4028
+
+Der GBV MUSS die in Tabelle Tab_Adrkonzept_Produktiv mit "Reserve" markierten
+IP-Adressbereiche im Bedarfsfall freigeben und an den Anbieter Zentrales Netz
+TI zur operativen Verteilung vergeben. **[\<=]**
+
+##### GS-A_4758-01
+
+Der Anbieter Zentrales Netz MUSS für die Adressierung der SZZPs in Richtung
+Produkttyp IP-Adressen aus dem zugewiesenen /26 IP-Bereich des angeschlossenen
+Produkttyps nutzen.Die Adressierung für den Produkttyp Highspeed Konnektor ist
+von dieser Regelung ausgenommen und der Anbieter Zentrales Netz SOLL in
+Absprache mit dem Betreiber der Highspeed Konnektoren /28, /29 oder /30
+IP-Bereiche nutzen. **[\<=]**
+
+##### GS-A_4759-01
+
+Anbieter von an das Zentrale Netz der TI angeschlossenen Produkttypen MÜSSEN
+für die Adressierung ihrer Systeme in Richtung SZZP IP-Adressen aus dem ihnen
+zugewiesenen /26 IP-Bereich nutzen.  
+Die Betreiber von Highspeed Konnektoren,
+die an das Zentrale Netz der TI angeschlossen sind, MÜSSEN für die
+Adressierung ihrer Systeme in Richtung SZZP-light-plus IP-Adressen aus dem
+ihnen zugewiesenen /28, /29 oder /30 IP-Bereich nutzen.Ein Anbieter weiterer
+Anwendungen des Gesundheitswesens mit Zugriff auf Dienste der TI MUSS für die
+Adressierung ihrer Systeme in Richtung SZZP die mit dem Anbieter Zentrales Netz
+TI abgestimmten IP-Adressen nutzen. **[\<=]**
 
 ### 2.3.3 Adresskonzept IPv4
 
@@ -372,7 +528,17 @@ Nutzung des in [RFC6598] definierten Adressbereiches wird ein Konflikt mit
 bereits genutzten privaten Adressbereichen vermieden. Die Testumgebung ist
 getrennt und nutzt den Adressraum 172.16.0.0/12.
 
-  ---> AFO 
+##### GS-A_4029-06
+
+Der Anbieter Zentrales Netz TI MUSS den Adressbereich 100.64.0.0/10 nach dem in
+der Tab_Adrkonzept_Produktiv definierten Schema zur Vergabe von IPv4-Adressen
+an Produkttypen der TI in der Produktivumgebung verwenden.
+
+Tabelle2: Tab_Adrkonzept_Produktiv, Adressräume IPv4 TI Produktivumgebung
+
+ ---> TABLE
+
+**[\<=]**
 
 Erläuterung:
 
@@ -385,7 +551,17 @@ Für den dezentralen SIS-Zugang muss dem Anbieter des VPN-Zugangsdienstes der
 IP-Adressblock 100.104.0.0/15 zugewiesen werden. Somit ist der IP-Adressblock
 TI_Dezentral_SIS für jeden VPN-Zugangsdienstanbieter identisch.
 
-  ---> AFO 
+##### GS-A_4850-04
+
+Der Anbieter Zentrales Netz TI MUSS den Adressbereich 172.16.0.0/12 nach dem in
+Tab_Adrkonzept_Test definierten Schema zur Vergabe von IPv4-Adressen an
+Produkttypen der TI in der Testumgebung verwenden.
+
+Tabelle3: Tab_Adrkonzept_Test, Adressräume IPv4 TI-Testumgebung
+
+ ---> TABLE
+
+**[\<=]**
 
 Erläuterung:
 
@@ -402,14 +578,26 @@ Die Netzwerkbereiche 172.31.0.0/17 und 172.31.128.0/17 sind den gesicherten bzw.
 offenen Fachdiensten zugewiesen worden, um weitere QoS-Klassen auf IP-Ebene
 abbilden zu können.
 
-  ---> AFO 
+##### GS-A_4851
+
+In der Referenzumgebung DÜRFEN die Adressbereiche aus der Produktivumgebung und
+Testumgebung NICHT genutzt werden. Für die Vergabe von IPv4-Adressen in der
+Referenzumgebung SOLL das in Tab_Adrkonzept_Test definierte Schema (nicht der
+IP-Adressbereich) genutzt werden. **[\<=]**
 
 In Tabelle 4 wird informativ die Nutzung von IPv4-Adressbereichen aus
 Netzbereich TI_Extern dargestellt.
 
  ---> TABLE
 
-  ---> AFO 
+##### GS-A_4760-01
+
+Bestandsnetze und Anbieter weiterer Anwendungen des Gesundheitswesens ohne
+Zugriff auf Dienste der TISOLLEN bei Anschluss an die TI für diesen Anschluss
+und Kommunikation mit der TI eigene, öffentliche IPv4-Adressbereiche
+nutzen.Ausgenommen sind Anbieter weiterer Anwendungen des Gesundheitswesens
+ohne Zugriff auf Dienste der TI, die zugewiesene TI-IPv4-Adressen verwenden.
+**[\<=]**
 
 ### 2.3.4 Adresskonzept IPv6
 
@@ -421,13 +609,46 @@ Adressbereiche aus dem IPv6-Adressraum 2A10:1982:0000::/32. Die Testumgebung
 nutzt den IPv6-Adressraum 2A10:1981:0000::/32 und die Referenzumgebung nutzt
 den IPv6-Adressraum 2A10:1980::/32.
 
-  ---> AFO 
+##### A_19403
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS den Adressbereich2A10:1982:0000::/32nach dem
+in der Tab_Adrkonzept_Ipv6_Produktiv definierten Schema zur Vergabe von
+IPv6-Adressen an Produkttypen der TI in der Produktivumgebung verwenden.
 
-  ---> AFO 
+Tabelle5: Tab_Adrkonzept_IPv6_Produktiv, Adressräume IPv6 TI Produktivumgebung
 
-  ---> AFO 
+ ---> TABLE
+
+**[\<=]**
+
+##### A_19404
+
+Der Anbieter Zentrales Netz TI MUSS den Adressbereich 2A10:1981:0000::/32 nach
+dem in der Tab_Adrkonzept_IPv6_Test definierten Schema zur Vergabe von
+IPv6-Adressen an Produkttypen der TI in der Testumgebung verwenden.
+
+Tabelle6: Tab_Adrkonzept_IPv6_Test, Adressräume IPv6 TI-Testumgebung
+
+ ---> TABLE
+
+**[\<=]**
+
+##### A_19407
+
+Der Anbieter Zentrales Netz TI MUSS den Adressbereich 2A10:1980:0000::/32 nach
+dem in der Tab_Adrkonzept_Ipv6_Refug definierten Schema zur Vergabe von
+IPv6-Adressen an Produkttypen der TI in der Referenzumgebung verwenden.
+
+ ---> TABLE
+
+**[\<=]**
+
+##### A_19409
+
+Bestandsnetze und Anbieter weiterer Anwendungen des Gesundheitswesens ohne
+Zugriff auf Dienste der TI MÜSSEN bei Anschluss an die TI für diesen
+Anschluss und Kommunikation mit der TI eigene, öffentliche IPv6-Adressbereiche
+nutzen. **[\<=]**
 
 ### 2.3.5 Adressen SIS-Systeme
 
@@ -443,11 +664,23 @@ Anschlusspunkte der einzelnen Produkttypen an das Zentrale Netz TI fest.
 Routing-Methoden in den lokalen Netzwerken der einzelnen Produkttypen werden
 hier nicht definiert oder vorgegeben.
 
-  ---> AFO 
+##### GS-A_4033
 
-  ---> AFO 
+Der Produkttyp Zentrales Netz der TI MUSS an den Übergabepunkten
+zwischenangeschlossenen Produkttypen der TI statisches Routing nutzen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4036
+
+Fachanwendungsspezifische Dienste und zentrale Dienste KÖNNEN am Anschluss an
+das Zentrale Netz der TI Hochverfügbarkeitsprotokolle (z. B. VRRP, HSRP)
+nutzen. **[\<=]**
+
+##### GS-A_4763
+
+Fachanwendungsspezifische Dienste und zentrale Dienste MÜSSEN bei Nutzung von
+Hochverfügbarkeitsprotokollen am Anschluss an das zentrale Netz TI durch
+geeignete Maßnahmen (z. B. Authentisierung der Kommunikationspartner)
+sicherstellen, dass andere Netzwerkkomponenten nicht beeinflusst werden. **[\<=]**
 
 ### 2.5 Priorisierung auf Netzwerkebene
 
@@ -477,7 +710,10 @@ möglich ist, und zudem das IntServ-Verfahren aufwändig zu implementieren und
 zu betreiben ist, wird eine Priorisierung auf der Basis des DiffServ-Verfahrens
 eingesetzt.
 
-  ---> AFO 
+##### GS-A_4037
+
+Die Produkttypen Konnektor, VPN-Zugangsdienst und Zentrales Netz der TI MÜSSEN
+die DiffServ-Architektur gemäß [RFC2474] und [RFC2475] unterstützen. **[\<=]**
 
 ### 2.5.2 Definition und Zuordnung von Dienstklassen
 
@@ -517,7 +753,10 @@ Die DSCP-Markierungen werden so weit wie möglich am Rand des Netzwerkes
 vorgenommen. Nach der Markierung wird diesen Markierungen durch alle
 Netzelemente vertraut.
 
-  ---> AFO 
+##### GS-A_4765
+
+Die Produkttypen Konnektor, VPN-Zugangsdienst und Zentrales Netz der TI DÜRFEN
+DSCP-Markierungen NICHT unaufgefordert ändern. **[\<=]**
 
 Die folgende Grafik stellt anhand einer beispielhaften Kommunikationsbeziehung
 zwischen Anwendungskonnektor und Fachdienst dar, an welchen Punkten die Pakete
@@ -527,17 +766,40 @@ mit den DSCP markiert werden.
 
 ### 2.5.3.1 DSCP-Markierung Netzkonnektor
 
-  ---> AFO 
+##### GS-A_4766
 
-  ---> AFO 
+Der Produkttyp Konnektor MUSS die paketbasierte, zustandslose Klassifizierung
+unterstützen. Diese Klassifizierung MUSS gemäß zugeordneter Dienstklasse auf
+Grundlage einer Regel erfolgen. Der Konnektor MUSS zur Definition der Regel
+eine beliebige Kombination folgender Informationen aus OSI Layer 3 und 4
+unterstützen: Quell- und Zieladresse, IP-Protokoll sowie Quell- und Zielport. **[\<=]**
+
+##### GS-A_4042
+
+Der Produkttyp Konnektor MUSS durch ihn weitergeleitete IP-Pakete aus dem
+dezentralen Intranet und IP-Pakete der Fachmodule gemäß Klassifizierung mit
+DSCP-Werten markieren. **[\<=]**
 
 ### 2.5.3.2 DSCP-Markierung Zentrales Netz TI
 
-  ---> AFO 
+##### GS-A_4044
 
-  ---> AFO 
+Der Produkttyp Zentrales Netz MUSS den Transport von DSCP-markierten IP-Paketen
+unterstützen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4767
+
+Der SZZP MUSS die paketbasierte, zustandslose Klassifizierung unterstützen.
+Diese Klassifizierung MUSS gemäß zugeordneter Dienstklasse auf Grundlage
+einer Regel erfolgen. Der SZZP MUSS zur Definition der Regel eine beliebige
+Kombination folgender Informationen aus OSI Layer 3 und 4 unterstützen: Quell-
+und Zieladresse, IP-Protokoll, sowie Quell- und Zielport. **[\<=]**
+
+##### GS-A_4043
+
+Der SZZP MUSS durch ihn weitergeleitete IP-Pakete aus dem Netz des Fachdienstes
+oder des Zentralen Dienstes in die TI gemäß Klassifizierung mit DSCP-Werten
+markieren. **[\<=]**
 
 ### 2.5.3.3 DSCP-Markierung Fremdnetze
 
@@ -546,11 +808,33 @@ Maßnahmen genutzt werden:
 
  ---> OL
 
-  ---> AFO 
+##### GS-A_4047
 
-  ---> AFO 
+Produkttypen mit Netzübergängen zu Fremdnetzen oder Bestandsnetzen MÜSSEN die
+paketbasierte, zustandslose Klassifizierung am Netzübergang unterstützen.
+Diese Klassifizierung MUSS gemäß zugeordneter Dienstklasse auf Grundlage
+einer Liste mit Regeln erfolgen. Der Netzübergang MUSS zur Definition der
+Regel eine beliebige Kombination folgender Informationen aus OSI Layer 3 und 4
+unterstützen: Quell- und Zieladresse, IP-Protokoll sowie Quell- und Zielport. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4768
+
+Produkttypen mit Netzübergängen zu Fremdnetzen oder Bestandsnetzen MÜSSEN
+durch den Netzübergang weitergeleitete IP-Pakete aus dem Fremdnetz in die TI
+gemäß Klassifizierung mit DSCP-Werten markieren. **[\<=]**
+
+##### GS-A_4769
+
+Produkttypen mit Netzübergängen zu Fremdnetzen oder Bestandsnetzen MÜSSEN die
+DSCP-Übersetzung („Re-Marking“) von IP-Paketen am Netzübergang
+unterstützen.
+
+Der Netzübergang zu Fremdnetzen MUSS eine Möglichkeit zur DSCP-Übersetzung
+von Paketen aus dem externen Netz vorsehen. Hierzu wird am Netzübergang eine
+mit dem Anbieter des Fremdnetzes abzustimmende Regel hinterlegt, welche die
+gewünschten DSCP-Werte den IP-Paketen anhand einer Übersetzungstabelle
+zuordnet. Diese Funktion muss in beide Richtungen unterstützt und angewendet
+werden. **[\<=]**
 
 ### 2.5.4 Priorisierung des markierten Datenverkehrs
 
@@ -566,7 +850,14 @@ durch steigende Netzlast, hinzukommende Fachdienste, hinzugewonnene
 Betriebserfahrung, sowie den Anschluss weiterer externer Netze und
 Rechenzentren an das Zentrale Netz der TI ergeben.
 
-  ---> AFO 
+##### GS-A_4835-01
+
+Die Produkttypen Konnektor,  und Zentrales Netz der TI MÜSSEN die Zuordnung
+von Dienstklassen zu fachanwendungsspezifischen Diensten und zentralen Diensten
+gemäß Tabellen Tab_QoS_Dienstklassen, Tab_QoS_Mapping_Dienstklasse_Anwendung
+und Tab_QoS_Mapping_Dienstklassen_Bandbreite umsetzen.Die Markierung MUSS
+sowohl bei Requests als auch bei Responses der Dienste umgesetzt werden.
+**[\<=]**
 
  ---> TABLE
 
@@ -574,27 +865,74 @@ Rechenzentren an das Zentrale Netz der TI ergeben.
 
  ---> TABLE
 
-  ---> AFO 
+##### GS-A_4048
 
-  ---> AFO 
+Die Produkttypen Zentrales Netz, VPN-Zugangsdienst und Konnektor MÜSSEN die
+DiffServ-Behandlung von Datenverkehr auf der Grundlage von [RFC4594]
+unterstützen. **[\<=]**
 
-  ---> AFO 
+##### A_16976
+
+Der  Produkttyp KSR KANN Datenverkehr in Richtung Konnektor mit einer
+einheitlichen DSCP-Markierung "KSR Update" versehen. **[\<=]**
+
+##### GS-A_5546
+
+Der Produkttyp Konnektor KANN Datenverkehr in Richtung KSR mit einer
+einheitlichen DSCP-Markierung "KSR Update" versehen. **[\<=]**
 
 ### 2.5.4.1 Zentrales Netz
 
-  ---> AFO 
+##### GS-A_4050
 
-  ---> AFO 
+Der Produkttyp Zentrales Netz TI MUSS innerhalb des Zentralen Netzes die
+differenzierte Behandlung von IP-Paketen auf Grundlage der DSCP-Markierungen
+unterstützen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4051
 
-  ---> AFO 
+Der Produkttyp Zentrales Netz TI SOLL innerhalb des Zentralen Netzes alle vom
+GBV definierten Dienstklassen als Untermenge der in [RFC4594] definierten
+Dienstklassen in vollem Umfang unterstützen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4770
 
-  ---> AFO 
+Der Produkttyp Zentrales Netz TI MUSS innerhalb des Zentralen Netzes mindestens
+4 Behandlungsaggregate einschließlich eines Echtzeit-Aggregates unterstützen,
+auf welche die DSCP-Werte abgebildet werden. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4771
+
+Der Produkttyp Zentrales Netz TI MUSS innerhalb des Zentralen Netzes eine
+gegebenenfalls notwendige Aggregierung von Dienstklassen auf die in seinem Netz
+vorhandenen Behandlungsaggregate gemäß [RFC5127] durchführen. **[\<=]**
+
+##### GS-A_4889
+
+Der Produkttyp Zentrales Netz TI MUSS am Übergang zwischen dem Zugangsrouter
+beim Kunden (CE) und dem Zugangsrouter im Zentralen Netz (PE) die Zuweisung von
+Bandbreiten pro VPN ermöglichen. Diese Bandbreiten sind als Summe über den
+gesamten Datenverkehr eines VPNs zu verstehen. **[\<=]**
+
+##### GS-A_4890
+
+Der Produkttyp Zentrales Netz MUSS am Übergang zwischen dem Zugangsrouter beim
+Kunden (CE) und dem Zugangsrouter im Zentralen Netz (PE) innerhalb jeder
+VPN-eigenen Bandbreitenzuweisung die Behandlung von Datenverkehr gemäß
+DiffServ-Architektur ermöglichen. Dabei MÜSSEN mindestens 8
+Behandlungsaggregate unterstützt werden, auf die die Dienstklassen der TI
+abgebildet werden. **[\<=]**
+
+##### A_17827-01
+
+Der Produkttyp Zentrales Netz TI SOLL am Übergang zwischen dem Zugangsrouter
+beim Kunden (CE) und dem Zugangsrouter im Zentralen Netz (PE) die zur
+Verfügung stehende Bandbreite dynamisch auf die VPNs PU, TU und RU mit
+garantierten Mindestbandbreiten aufteilen.Mindestbandbreite PU = 50%, TU = 20%,
+RU = 10%.Falls die dynamische Aufteilung mit garantierten Mindestbandbreiten
+von den CE nicht unterstützt wird, MUSS die Bandbreite wie folgt aufgeteilt
+werden:PU = 70%, TU = 20%, RU = 10% oder vom Gesamtverantwortlichen TI nach
+Bedarf gemäß Servicekatalog festgelegt. **[\<=]**
 
 ### 2.5.4.2 Konnektor
 
@@ -622,24 +960,58 @@ Uplink-Bandbreite durch den Administrator des Konnektors vorgesehen, wobei in
 späteren Ausbaustufen ein Verfahren zur automatischen Ermittlung der
 verfügbaren Bandbreite implementiert werden soll.
 
-  ---> AFO 
+##### GS-A_4772
 
-  ---> AFO 
+Der Produkttyp Konnektor MUSS die Bandbreitenbegrenzung (Traffic Shaping) der
+Summe des ausgehenden Datenverkehrs in Richtung des Transportnetzes Internet
+unterstützen. Die Bandbreitenbegrenzung muss über die
+Management-Schnittstelle manuell konfigurierbar sein. Die Bandbreitenbegrenzung
+MUSS so gestaltet sein, dass die vorgegebene gesendete Bandbreite zu keiner
+Zeit überschritten wird. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4773
 
-  ---> AFO 
+Der Produkttyp Konnektor MUSS Datenverkehr in Richtung des Transportnetzes
+Internet, welcher die konfigurierte abgehende Bandbreitenbegrenzung
+überschreitet, gemäß DiffServ-Policy behandeln. Hierzu MUSS der Konnektor
+die DSCP-Werte der IP-Pakete heranziehen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4837
+
+Der Produkttyp Konnektor MUSS die differenzierte Behandlung aller vom GBV
+definierten Dienstklassen als Untermenge der in [RFC4594] definierten
+Dienstklassen in vollem Umfang unterstützen. **[\<=]**
+
+##### GS-A_4774
+
+Der Produkttyp Konnektor MUSS klassenbasiertes Queuing (CBQ) oder einen
+vergleichbaren Queuing-Algorithmus, wie zum Beispiel Hierarchical Token Bucket
+(HTB), unterstützen. **[\<=]**
+
+##### GS-A_4891
+
+Der Produkttyp Konnektor MUSS die Zuordnung von garantierten Bandbreiten zu
+Dienstklassen unterstützen. Die Bandbreiten sind dabei als Mindestbandbreiten
+zu verstehen, die der Dienstklasse garantiert werden, aber jederzeit
+überschritten werden können. Diejenigen Bandbreitenanteile, welche von einer
+konfigurierten Dienstklasse nicht verbraucht werden, MÜSSEN anderen
+Dienstklassen zur Verfügung stehen. **[\<=]**
 
 ### 2.5.4.3 VPN-Zugangsdienst
 
 Detaillierte Anforderungen zum Aufbau des VPN-Zugangsdienstes und zur Behandlung
 des Datenverkehrs werden in [gemSpec_VPN_ZugD] gestellt.
 
-  ---> AFO 
+##### GS-A_4840
 
-  ---> AFO 
+Der Produkttyp VPN-Zugangsdienst MUSS die differenzierte Behandlung von
+IP-Paketen auf Grundlage der DSCP-Markierungen unterstützen. **[\<=]**
+
+##### GS-A_4841
+
+Der Produkttyp VPN-Zugangsdienst MUSS alle vom Gesamtbetriebsverantwortlichen
+definierten Dienstklassen als Untermenge der in [RFC4594] definierten
+Dienstklassen in vollem Umfang unterstützen. **[\<=]**
 
 ### 2.6 Sicherheitskomponenten im Netzwerk
 
@@ -678,32 +1050,82 @@ Die Anforderungen an Sicherheitskomponenten orientieren sich an den Vorgaben der
 [BSI ISI-LANA], insbesondere 4.3 und des BSI Kompendiums Baustein [BSI
 NET].3.1, insbesondere NET.3.1.A1 und A9.
 
-  ---> AFO 
+##### GS-A_4052
 
-  ---> AFO 
+Die Produkttypen Zentrales Netz TI und Konnektor MÜSSEN bei der Verwendung von
+Paketfiltern und ALGs den passierenden Verkehr verbindungsbasiert kontrollieren
+(Stateful-Inspection). **[\<=]**
 
-  ---> AFO 
+##### GS-A_4053
 
-  ---> AFO 
+Paketfilter und ALGsaller Anbieter und Hersteller von Produkttypen der TIMÜSSEN
+sowohl eingehenden als auch ausgehenden Verkehr kontrollieren (Ingress und
+Egress Filtering). **[\<=]**
 
-  ---> AFO 
+##### GS-A_4054
 
-  ---> AFO 
+Paketfilter und ALGs aller Anbieter und Hersteller von Produkttypen der TI
+MÜSSEN den passierenden Verkehr ausschließlich auf den spezifizierten und
+erlaubten begrenzen. Jeglicher nicht spezifizierter Verkehr MUSS als
+Standardregel verboten werden (default-deny).Das Regelwerk MUSS die explizit
+erlaubte Kommunikation beinhalten. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4057-01
+
+Der Anbieter Zentrales Netz TI, der Anbieter Sicherheitsgateway Bestandsnetze
+und der Anbieter Zugangsdienst MÜSSEN auf den eingesetzten Komponenten der
+Sicherheitsgateways nur zum Betrieb unbedingt erforderliche Software
+installieren, insbesondere ist die Verwendung eines Betriebssystems mit
+minimalem Funktionsumfang erforderlich. **[\<=]**
+
+##### GS-A_4777-01
+
+Der Anbieter Zentrales Netz TI, der Anbieter Sicherheitsgateway Bestandsnetze
+und der Anbieter Zugangsdienst MÜSSEN auf den eingesetzten Komponenten der
+Sicherheitsgateways die grundlegenden Systemfunktionen des minimalen Systems
+dokumentieren. **[\<=]**
+
+##### GS-A_4778-01
+
+Der Anbieter Zentrales Netz TI, der Anbieter Sicherheitsgateway Bestandsnetze
+und der Anbieter Zugangsdienst MÜSSEN auf den eingesetzten Komponenten der
+Sicherheitsgateways nach der Erstinstallation alle Verbindungen, die nicht
+explizit erlaubt sind, blockieren. **[\<=]**
+
+##### GS-A_4779-01
+
+Der Anbieter Zentrales Netz TI, der Anbieter Sicherheitsgateway Bestandsnetze
+und der Anbieter Zugangsdienst DÜRFEN auf den eingesetzten Komponenten der
+Sicherheitsgateways bei einem völligen Ausfall der Komponente NICHT IP-Pakete
+passieren lassen. **[\<=]**
 
 ### 2.6.3 Platzierung von Sicherheitskomponenten
 
 An folgenden Stellen müssen Sicherheitsgateways in der TI-Plattform eingesetzt
 werden:
 
-  ---> AFO 
+##### GS-A_4058
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS den Verkehr an den Anschlusspunkten zum
+zentralen Netz mit SZZPs sichern. **[\<=]**
+
+##### GS-A_4059
+
+Der Anbieter des Sicherheitsgateway Bestandsnetze MUSS den Netzübergang
+zwischen Bestandsnetzen und TI mit Sicherheitsgateways absichern.
+
+Als geeignete Maßnahmen zur Unterstützung der Absicherung werden angesehen:
+
+ ---> UL
+
+**[\<=]**
 
 Der Konnektor muss den passierenden Verkehr mit einem Paketfilter sichern.
 
-  ---> AFO 
+##### GS-A_4061
+
+Der Anbieter Zugangsdienst MUSS den Verkehr zwischen VPN-Konzentratoren und
+Transportnetz mit einem Paketfilter sichern. **[\<=]**
 
 Die folgende Abbildung Abb_SichKomp_Platzierung stellt die Platzierung von
 Sicherheitskomponenten informativ dar. Die detaillierten Anforderungen werden
@@ -719,9 +1141,23 @@ und Störungsampel), insbesondere zum Internet, müssen besondere Vorkehrungen
 getroffen werden, die sich an die Anforderungen des BSI für Netzübergänge
 anlehnen.
 
-  ---> AFO 
+##### GS-A_4062-01
 
-  ---> AFO 
+Zentrale Produkttypen MÜSSEN den Übergang zu Fremdnetzen mit niedrigerem oder
+unbekanntem Sicherheitsniveau, wie dem Internet mit einem vom BSI
+zertifizierten Sicherheitsgateway oder einem Sicherheitsgateway mit
+dreistufigem Aufbau, wie in [BSI ISI-LANA] beschrieben, sichern.Die
+Produkttypen MÜSSEN Wechselwirkungen zwischen dem Fremdnetz und der TI
+verhindern, und dazu den Verkehr einschränken und kontrollieren.Übergänge
+zum Transportnetz mittels SZZP-light und Sicherheitsgateway Bestandsnetze sind
+von dieser Regelung ausgenommen. **[\<=]**
+
+##### A_20574-01
+
+Zentrale Produkttypen SOLLEN für Übergänge zu Fremdnetzen die Empfehlungen
+der [BSI ISI-LANA] befolgen.Übergänge zum Transportnetz mittels
+SZZP-light,SZZP-light-plus und Sicherheitsgateway Bestandsnetze sind von dieser
+Regelung ausgenommen. **[\<=]**
 
 Hierbei ist zu beachten, dass grundsätzlich nicht von einem normalen
 Schutzbedarf ausgegangen werden darf, sondern dieser immer mindestens hoch
@@ -736,33 +1172,100 @@ Zentrales Netz TI implementiert und vom GBV freigegeben wird.
 In den folgenden Anforderungen werden die Verantwortlichkeiten und weitere
 Vorgaben zum Prozess „Verwaltung von Sicherheitsgateway-Regeln“ definiert.
 
-  ---> AFO 
+##### GS-A_4846
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS den Prozess „Verwaltung von
+Sicherheitsgateway-Regeln“ mit den folgenden Inhalten definieren und
+implementieren:
 
-  ---> AFO 
+ ---> UL
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI ist der Verantwortliche für den gesamten Prozess. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4887
 
-  ---> AFO 
+Der GBV MUSS den vom Anbieter Zentrales Netz TI definierten Prozess
+„Verwaltung von Sicherheitsgateway-Regeln“ freigeben. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4063
 
-  ---> AFO 
+Der GBV MUSS im Rahmen des Test- und Zulassungsverfahrens von neuen Diensten und
+bei Änderungen an bestehenden Diensten die benötigten
+Kommunikationsbeziehungen (Sicherheitsgateway-Regeln) freigeben und an den
+Anbieter Zentrales Netz TI melden. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4064
+
+Der Anbieter Zentrales Netz TI MUSS die Anpassung von Sicherheitsgateway-Regeln
+operativ mit dem GBV und Anbietern von Produkttypen der TI koordinieren. **[\<=]**
+
+##### GS-A_4065
+
+Der Anbieter Zentrales Netz TI MUSS die Umsetzung neuer
+Sicherheitsgateway-Regeln an die Anbieter von Produkttypen der TI melden. **[\<=]**
+
+##### GS-A_4066
+
+Die Anbieter der Produkttypen VPN-Zugangsdienst und Sicherheitsgateway
+Bestandsnetze MÜSSEN Change Requests zur Anpassung von
+Sicherheitsgateway-Regeln vom Anbieter Zentrales Netz TI umsetzen. **[\<=]**
+
+##### GS-A_4780
+
+Der Anbieter Zentrales Netz TI MUSS das Schema für die Dokumentation und das
+Reporting von Sicherheitsgateway-Regeln festlegen. **[\<=]**
+
+##### GS-A_4067
+
+Die Produkttypen VPN-Zugangsdienst und Sicherheitsgateway Bestandsnetze MÜSSEN
+Änderungen an Sicherheitsgateway-Regeln an den Anbieter Zentrales Netz TI
+melden. Die Anbieter MÜSSEN diese Änderungen zusammen mit dem Gesamtsatz an
+Filterregeln melden. **[\<=]**
+
+##### GS-A_4068
+
+Der Anbieter Zentrales Netz TI MUSS den Gesamtsatz an Sicherheitsgateway-Regeln
+in regelmäßigen Zeitintervallen dokumentieren und an den
+Gesamtverantwortlichen der TI melden. Das Zeitintervall muss der Anbieter des
+zentralen Netzes mit dem Gesamtverantwortlichen der TI abstimmen. **[\<=]**
 
 ### 2.6.5 Erlaubter Verkehr
 
-  ---> AFO 
+##### GS-A_4069
 
-  ---> AFO 
+Die Produkttypen Konnektor, Zugangsdienst, Sicherheitsgateway Bestandsnetze
+MÜSSEN bei Einsatz von Sicherheitsgateways den Verkehr mit Sicherheitsgateways
+auf den Verkehr einschränken, der in der Kommunikationsmatrix in der
+Architektur der TI-Plattform[gemKPT_Arch_TIP#Kommunikationsmatrix]aufgeführt
+ist. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4070
 
-  ---> AFO 
+Die Produkttypen Konnektor, Zugangsdienst und Sicherheitsgateway Bestandsnetze
+MÜSSEN bei Einsatz von Sicherheitsgateways Protokolle zur Netzwerksteuerung
+erlauben (mindestens notwendiger Verkehr zur Path MTU Discovery gemäß
+[RFC1191]). **[\<=]**
+
+##### GS-A_4884
+
+Paketfilter und ALGs aller Anbieter von Produkttypen der TI MÜSSEN
+sicherstellen, dass nur die folgend aufgeführten ICMP-Types verarbeitet bzw.
+weitergeleitet werden:
+
+ ---> UL
+
+Eine weitere Einschränkung der erlaubten ICMP-Types kann auf Ebene der
+Spezifikationen des Produkttyps erfolgen. **[\<=]**
+
+##### A_18796
+
+Paketfilter und ALGs aller Anbieter von Produkttypen der TI MÜSSEN
+sicherstellen, dass nur die folgend aufgeführten ICMPv6-Types und Codes
+verarbeitet bzw. weitergeleitet werden:
+
+ ---> UL
+
+**[\<=]**
 
 ### 2.7 IP-Configuration-Management
 
@@ -788,18 +1291,53 @@ mehrfach. Die Produkte können auch in mehreren Produktinstanzen betrieben
 werden. Zusätzlich können durch den Gesamtverantwortlichen der TI (GTI)
 weitere Kommunikationsbeziehungen genehmigt werden.
 
-  ---> AFO 
+##### A_14551
 
-  ---> AFO 
+Der Anbieter des zentralen Netzes der TI MUSS ein IP-Configuration-Management
+implementieren und die Daten der an das Zentrale Netz angeschlossenen Clients
+und Server für die Umgebungen PU, TU und RU pflegen.Zu den Daten gehören
+insbesondere:
+
+ ---> UL
+
+**[\<=]**
+
+##### A_14553
+
+Der Anbieter zentrales Netz der TI MUSS in enger Abstimmung mit dem GTI ein
+Datenmodell für das IP-Configuration Management entwickeln und (wenn
+erforderlich) an Änderungen in der TI anpassen. **[\<=]**
 
 Die folgende Abbildung zeigt beispielhaft eine mögliche Ausprägung des
 Datenmodells.
 
 ![Abbildung-5][Abbildung-5]
 
-  ---> AFO 
+##### A_14554
 
-  ---> AFO 
+Der Anbieter zentrales Netz der TI MUSS für neu an das zentrale Netz
+anzuschließende Clients und Dienste oder für Clients und Dienste deren
+IP-Konfiguration sich ändern wird, selbständig und ohne unangemessene
+Verzögerung alle benötigten Firewall Regeln generieren und über den
+betrieblichen Change Prozess des GTI freigeben lassen sowie nach Freigabe durch
+den GTI in den betroffenen SZZPs und VPN-Anschlusspunkten aktivieren.Der
+Anbieter zentrales Netz MUSS die Anbieter der von den Freischaltungen
+betroffenen Standorte über die geplanten und durchgeführten Änderungen
+informieren, damit sie die Freischaltungen in ihrer Netzwerk-Infrastruktur
+rechtzeitig berücksichtigen können. **[\<=]**
+
+##### A_14555
+
+Der Anbieter zentrales Netz der TI MUSS ermöglichen, dass der GTI die Daten des
+IP-Configuration-Management mittels Reports und zur elektronischen
+Weiterverarbeitung erhält oder automatisiert auslesen kann.Die Reports MÜSSEN
+mit dem GTI abgestimmt werden und MÜSSEN mindestens enthalten:
+
+ ---> UL
+
+Die Reports MÜSSEN ohne unangemessene Verzögerung nach jeder Änderung an der
+IP-Konfiguration der Clients und Dienste erstellt und dem GTI zur Verfügung
+gestellt werden (maximal täglich). **[\<=]**
 
 ### 3 Zentrales Netz der TI
 
@@ -807,7 +1345,7 @@ Datenmodells.
 
 Der Produkttyp Zentrales Netz besteht aus den folgenden Komponenten:
 
-SZZPs (Sicherer Zentraler Zugangspunkt)
+SZZPs(Sicherer Zentraler Zugangspunkt)
 
  ---> UL
 
@@ -833,13 +1371,38 @@ bereit.
 SZZPs werden als CPEs (Customer Premises Equipment) in den Räumen und
 Einrichtungen der Produkttypen vom Anbieter Zentrales Netz betrieben.
 
-  ---> AFO 
+##### GS-A_4781
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS die für den Zugang zum Zentralen Netz
+notwendigen Sicheren Zentralen Zugangspunkte (SZZP) als Netzwerkgeräte
+implementieren, die aus logisch zwei Komponenten bestehen: a) der
+Netzkomponente, die die Transportfunktion übernimmt, und b) dem
+Sicherheitsgateway, das den Verkehr kontrolliert. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4782
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS die für den Zugang zum Zentralen Netz
+notwendigen SZZPs in den Einrichtungen der angeschlossenen Produkttypen
+betreiben. **[\<=]**
+
+##### GS-A_5076
+
+Das Zentrale Netz TI KANN verschiedene Produktinstanzen über einen gemeinsamen
+SZZP anbinden. Dabei sind folgende Bedingungen zu erfüllen:
+
+ ---> UL
+
+Ein Routing zwischen den angebundenen Produktinstanzen über das zentrale
+Transportnetz des Providers für das Zentrale Netz TI muss nicht erfolgen. **[\<=]**
+
+##### A_21142
+
+Ein Hersteller oder Anbieter MUSS wenn verschiedene logische Produktinstanzen
+über einen gemeinsamen SZZP angebunden sind, folgende Bedingungen erfüllen:
+
+ ---> UL
+
+**[\<=]**
 
 ### 3.1.1.1 Netzkomponente
 
@@ -860,7 +1423,10 @@ Netzwerkkomponente (CE) integriert sind.
 SZZPs können verschiedene Arten von Sicherheitsgateways implementieren,
 mindestens jedoch Paketfilter.
 
-  ---> AFO 
+##### GS-A_4783
+
+Das Zentrale Netz TI MUSS an den SZZPs den Verkehr mit Paketfiltern als
+Sicherheitsgateway kontrollieren und einschränken. **[\<=]**
 
 ### 3.1.1.3 Anbindungen
 
@@ -882,9 +1448,25 @@ Für den Anschluss an das Zentrale Netz TI gibt es folgende Varianten:
 
 ![Abbildung-7][Abbildung-7]
 
-  ---> AFO 
+##### GS-A_4784
 
-  ---> AFO 
+Der Anbieter Zentrales Netz MUSS für den Anschluss der Dienste an die SZZPs
+oder an die VPN-Anschlusspunkte die folgenden Anschlussvarianten je
+Rechenzentrum unterstützen:
+
+ ---> UL
+
+Jeder SZZP und jeder VPN-Anschlusspunkt MUSS zwei physikalische Schnittstellen
+pro Umgebung (Produktivumgebung, Testumgebung und Referenzumgebung) in Richtung
+LAN des angeschlossenen Produkttyps bereitstellen und die Schnittstellen bei
+Bedarf zu einer logischen Schnittstelle zusammenfassen (Link aggregation nach
+IEEE 802.1ad). **[\<=]**
+
+##### GS-A_4785
+
+Der Anbieter Zentrales Netz MUSS bei Nutzung einer redundanten Anschlussvariante
+geeignete technische Maßnahmen zum redundanten Betriebund Failover der SZZPs
+implementieren und nutzen. **[\<=]**
 
 Anbindung Provider (CE-PE)
 
@@ -892,9 +1474,29 @@ Die CE-PE Anbindung stellt die Verbindung der SZZPs (CE) in den Räumlichkeiten
 des angeschlossenen Produkttyps mit dem Backbone (PE) des Zentralen Netzes TI
 her.
 
-  ---> AFO 
+##### GS-A_4786
 
-  ---> AFO 
+Das Zentrale Netz MUSS für den Anschluss der SZZPs an das Backbone an der
+CE-PE-Grenze die folgenden Anschlussvarianten je Rechenzentrum
+desangeschlossenen Produkttyps unterstützen:
+
+ ---> UL
+
+**[\<=]**
+
+##### GS-A_4787
+
+Der Anbieter des Zentralen Netzes der TI MUSS für den Anschluss SZZP-Provider
+(CE-PE) die folgenden Typen von skalierbaren Bandbreiten unterstützen:
+
+ ---> UL
+
+Das Zentrale Netz MUSS eine Skalierung innerhalb der Typen ohne den Austausch
+der CE-Hardware und Anschlussleitungen ermöglichen.
+
+Die Skalierung der Bandbreite soll von 1 Mbit/s bis 100 Mbit/s in 1 MBit/s
+Schritten, von 100 MBit/s bis 1GBit/s in 100 MBit/s Schritten und von 1GBit/s
+bis 10 GBit/s in 1 GBit/s Schritten möglich sein. **[\<=]**
 
 Das zentrale Netz kann Anschlüsse mit höherer Bandbreite unterstützen.
 
@@ -943,25 +1545,60 @@ VPN-Konzentrator und das Sicherheitsgateway an zwei Standorten redundant
 implementiert werden (siehe Abbildung unten,
 "Abb_VPN-Konzentrator_und_Paketfilter_Redundanz").
 
-  ---> AFO 
+##### A_14531-01
 
-  ---> AFO 
+Das zentrale Netz der TI MUSS die zentralen Komponenten des SZZP-lightsowie
+SZZP-light-plus entweder an mindestens zwei Standorten als active/standby
+Cluster aus VPN-Konzentratoren und Paketfilter gemäß Abbildung
+"Abb_VPN-Konzentrator_und_Paketfilter_Redundanz" oder als
+stretched active/standby Cluster aus VPN-Konzentratoren und Paketfilter über
+zwei Standorte verteilt implementieren.
 
-  ---> AFO 
+Abbildung10: Abb_VPN-Konzentrator_und_Paketfilter_Redundanz  **[\<=]**
+
+##### A_17946-01
+
+Das zentrale Netz der TI MUSS SZZP-light- sowie SZZP-light-plus-Anschlüsse so
+implementieren, dass die Zugänge zu den Umgebungen PU, TU und RU logisch
+getrennt auf der gleichen Hardware bereitgestellt werden. **[\<=]**
+
+##### A_14533-01
+
+Das zentrale Netz der TI SOLL SZZP-light- sowie SZZP-light-plus-Anschlüsse
+anbieten, die an den VPN-Anschlusspunkten eine Bandbreite (IPSec
+Verschlüsselungsleistung) von 100 Mbit/s bis 1 Gbit/s unterstützen. **[\<=]**
 
 SZZP-light- und SZZP-light-plus-Anschlüsse mit höherer Bandbreite dürfen
 angeboten werden.
 
-  ---> AFO 
+##### A_14534-01
+
+Das zentrale Netz der TI MUSS die zentralen Komponenten der SZZP-light- sowie
+SZZP-light-plus-Anschlüsse so dimensionieren und an sich ändernde
+Lastsituationen anpassen, dass
+
+ ---> UL
+
+**[\<=]**
 
 Bei Anpassungen muss der betriebliche Change-Prozess durchlaufen werden.
 
-  ---> AFO 
+##### A_14535-01
+
+Daszentrale Netz der TI MUSS bei Vorhandensein von redundanten
+VPN-Anschlusspunkten die VPN-Anschlusspunkte so implementieren, dass bei
+Ausfall des aktiven VPN-Anschlusspunktes ein Failover auf den standby
+VPN-Anschlusspunkt erfolgt. **[\<=]**
 
 Die Funktionen des VPN-Anschlusspunktes VPN-Router und Paketfilter können in
 einem Gerät realisiert sein.
 
-  ---> AFO 
+##### A_14536-01
+
+Das zentrale Netz der TI MUSS die zentralen Komponenten derSZZP-light- sowie
+SZZP-light-plus-Anschlüsse (VPN-Konzentratoren und Paketfilter) so
+implementieren, dass bei Ausfall einer aktiven Komponente ein Failover auf die
+Standby-Komponente erfolgt. **[\<=]**
 
 Die Komponenten VPN-Konzentrator und Paketfilter können in einem Gerät
 realisiert sein.
@@ -975,13 +1612,25 @@ Authentisierungsmittel im SZZP-light-plus hinzufügen kann. Somit kann genau
 nur das anzuschließende technische System über den SZZP-light-plus mit den
 genannten Diensten kommunizieren.
 
-  ---> AFO 
+##### A_22355
+
+DerSZZP-light-plus MUSS die mit ihm verbundenen, an das zentrale Netz der TI
+anzuschließenden Systeme sicher authentifizieren, bevor diese mit zentralen
+Diensten und gesicherten Fachdiensten kommunizieren dürfen. Dabei MUSS auch
+das spätere Einschleusen von Daten in die Verbindung zwischen den
+anzuschließenden Systemen und dem SZZP-light-plus durch nicht authentifizierte
+Dritte unterbunden werden. Für die Erreichbarkeit offener Dienste ist diese
+Leistung optional. **[\<=]**
 
 Diese Anforderung kann bspw. durch einen IPsec-Kanal zwischen
 dem anzuschließenden System und SZZP-light-plus mit Authentisierung über
 pre-shared keys erfüllt werden.
 
-  ---> AFO 
+##### A_22356
+
+DerSZZP-light-plus MUSS die Änderung von Konfigurationen für die
+Authentifizierung von anzuschließenden Systemen vor dem Zugriff durch den
+Betreiber dieser angeschlossenen Systeme schützen. **[\<=]**
 
 Bezogen auf die Verwendung eines IPsec-Kanals bedeutet dies, dass gerade nicht
 der Betreiber neue (eigene) pre-shared keys im SZZP-light-plus für
@@ -991,17 +1640,47 @@ anzuschließende Systeme hinterlegen darf.
 
 ### 3.1.2.1 Backbone (zentrales Transportnetz Provider)
 
-  ---> AFO 
+##### GS-A_4788
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS das Zentrale Netz TI als skalierbares
+(Anzahl Anschlüsse und Bandbreite erweiterbar) privates Netz implementieren.
 
-  ---> AFO 
+Das Zentrale Netz TI MUSS private, auf OSI-Schicht 3 logisch getrennte Netzwerke
+(IP-VPN) zwischen den einzelnen SZZPs unterstützen.
 
-  ---> AFO 
+Das Zentrale Netz TI MUSS 3 IP-VPN bereitstellen.
 
-  ---> AFO 
+Das Zentrale Netz TI MUSS eine Erweiterung der nutzbaren IP-VPN unterstützen.
 
-  ---> AFO 
+Die Nutzbarkeit der einzelnen IP-VPN MUSS pro SZZP wählbar sein. **[\<=]**
+
+##### GS-A_4789
+
+Der Anbieter des Produkttyps Zentrales Netzes TI MUSS sicherstellen, dass der
+Transport von Daten der TI zwischen den SZZP der Produkttypen über kein
+öffentliches Transportnetzwerk, wie z. B. dem Internet, erfolgt. **[\<=]**
+
+##### GS-A_4880
+
+Der Anbieter Zentrales Netz MUSS jeweils ein IP-VPN für die Produktivumgebung,
+die Testumgebung und die Referenzumgebung bereitstellen. **[\<=]**
+
+##### GS-A_4881
+
+Der Anbieter Zentrales Netz MUSS die IP-VPN für die Produktivumgebung, die
+Testumgebung und die Referenzumgebung am SZZP auf separaten physischen
+Interfaces in Richtung des angeschlossenen Produkttyps übergeben. **[\<=]**
+
+##### GS-A_4882
+
+Der Anbieter Zentrales Netz MUSS die separate Zuweisung einer vereinbarten
+Bandbreite (Committed Access Rate- CAR) pro bereitgestelltem IP-VPN an einem
+Netzwerkanschluss ermöglichen. **[\<=]**
+
+##### GS-A_4883
+
+Der Anbieter Zentrales Netz MUSS sicherstellen, dass kein Datenaustausch und
+keine gegenseitige Beeinflussung zwischen IP-VPN möglich sind. **[\<=]**
 
 ### 3.2 Übergreifende Festlegungen
 
@@ -1010,35 +1689,85 @@ Zulassung von Diensten in der TI. Der neu aufgenommene Dienst benennt die
 benötigte Kommunikation und der GBV gibt sie frei und beauftragt den Anbieter
 Zentrales Netz mit der Freischaltung in den SZZP.
 
-  ---> AFO 
+##### GS-A_4790
 
-  ---> AFO 
+Das Zentrale Netz MUSS sicherstellen, dass im Zentralen Netz der TI und zwischen
+den angeschlossenen Produkttypen ausschließlich erlaubte IP-Kommunikation in
+Richtung Produkttypen und fachanwendungsspezifischer Dienste gesendet wird.
 
-  ---> AFO 
+Die erlaubte Kommunikation umfasst:
+
+ ---> UL
+
+**[\<=]**
+
+##### GS-A_4791
+
+Das Zentrale Netz TI MUSS neuen erlaubten Datenverkehr in der TI nach Freigabe
+durch den GBV im Zentralen Netz ermöglichen. Nicht mehr erlaubter Verkehr darf
+nach Freigabe durch den GSV nicht mehr weitergeleitet werden. **[\<=]**
+
+##### A_14648
+
+Der Anbieter Zentrales Netz MUSS auf Verlangen der gematik an benannten SZZPs
+zeitnah prüfen, ob bestimmte IP-Pakete weitergeleitet oder verworfen werden.
+**[\<=]**
 
 Das zentrale Netz kann Anschlüsse mit höherer Bandbreite unterstützen.
 
-  ---> AFO 
+##### GS-A_4792
+
+Der Anbieter Zentrales Netz TI MUSS durch organisatorische Maßnahmen
+sicherstellen, dass nur von der gematik zugelassene Fachdienste, zentrale
+Dienste und Bestandsnetze (inkl. KV-SafeNet) an die TI angebunden werden. **[\<=]**
 
 ### 3.3 Funktionsmerkmale
 
-  ---> AFO 
+##### GS-A_4795
+
+Das Zentrale Netz MUSS die Schnittstellen gemäß
+TabelleTab_PT_ZentrNetz_Schnittstellenimplementieren ("bereitgestellte"
+Schnittstellen) und nutzen ("benötigte" Schnittstellen).
+
+Tabelle14:Tab_PT_ZentrNetz_Schnittstellen
+
+ ---> TABLE
+
+​​​​ **[\<=]**
 
 ### 3.3.1 OSI-Schicht 1 und 2 (Physical/Data Link)
 
 ### 3.3.1.1 Schnittstelle CPE-Produkttyp
 
-  ---> AFO 
+##### GS-A_4796
+
+Das Zentrale Netz MUSS die Schnittstelle der SZZPs auf der Customer Edge mit
+mindestens Gigabit Ethernet als 1000Base-T (IEEE 802.3ab) oder IEEE 802.3z
+implementieren. Das Zentrale Netz MUSS logisch getrennte Netzwerke gemäß
+Standard 802.1q bereitstellen. **[\<=]**
 
 ### 3.3.1.2 Hardwaremerkmale
 
-  ---> AFO 
+##### GS-A_4797
+
+Der Anbieter Zentrales Netz TI MUSS die Schnittstellen auf den SZZPs Richtung
+angeschlossenem Produkttyp der TI modular mit Small Form-factor Pluggables
+(SFP) nach den Spezifikationen des SFF [SFF] implementieren.
+
+Der Anbieter Zentrales Netz MUSS sich bei der Art der Schnittstellen und Stecker
+auf den SZZPs Richtung angeschlossenem Produkttyp der TI nach den Vorgaben des
+Anbieters des angeschlossenen Produkttyps richten. **[\<=]**
 
 ### 3.3.2 OSI-Schicht 3 (Network)
 
 ### 3.3.2.1 Schnittstelle I_IP_Transport
 
-  ---> AFO 
+##### GS-A_4798
+
+Das Zentrale Netz MUSS die Schnittstelle I_IP_Transport und die Operation
+I_IP_Transport::send_Data umsetzen, die den Transport, Empfang und Versand von
+IPv4- und IPv6-Paketen gewährleistet ([gemSpec_Net#Tab_Standards_IPv4] und
+[gemSpec_Net#2.2.2.2]). **[\<=]**
 
 ### 3.3.3 Adressierung
 
@@ -1048,23 +1777,64 @@ Adressierung auf der SZZP-Backbone (CE-PE), möglichen SZZP-internen
 Schnittstellen und Anschlüssen hinter dem PE liegen in Verantwortung des
 Anbieters Zentrales Netz.
 
-  ---> AFO 
+##### GS-A_4799
 
-  ---> AFO 
+Der Anbieter Zentrales Netz MUSS für die folgenden IP-Schnittstellen
+IP-Adressen aus seinem eigenen Bestand nutzen:
+
+ ---> UL
+
+**[\<=]**
+
+##### GS-A_4800
+
+Der Anbieter Zentrales Netz TI MUSS mögliche Adresskonflikte zwischen von ihm
+genutzten IP-Adressen (zwischen Sicherheitsgateways und CE, CE-PE und
+PE-Backbone) und TI-Adressen (100.64.0.0/10 [RFC6598]) selbst lösen. **[\<=]**
 
 ### 3.3.4 Routing
 
-  ---> AFO 
+##### GS-A_4801-01
 
-  ---> AFO 
+Das Zentrale Netz MUSS gewährleisten, dass zwischen allen SZZPs alle
+IP-Adressblöcke der Betriebsumgebungen der TI (wie im jeweiligen Adresskonzept
+festgelegt) sowie die angeschlossenen WANDA Basic IP-Adressblöcke erreichbar
+sind. **[\<=]**
+
+##### GS-A_4803
+
+Der GBV MUSS dem Anbieter Zentrales Netz TI die Adressbereiche von
+Bestandsnetzen mit Anschluss an die TI bei Neuanschluss an die TI oder
+Änderungen melden. **[\<=]**
 
 ### 3.3.5 Abstimmung mit angeschlossenen Produkttypen
 
-  ---> AFO 
+##### GS-A_4804
 
-  ---> AFO 
+Der Anbieter Zentrales Netz TI MUSS die vom Produkttyp gemeldeten Parameter nach
+Tab_PT_ZentrNetz_AnschlussParameter umsetzen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4805
+
+Die Anbieter aller Produkttypen der TI mit Anschluss an das Zentrale Netz TI und
+Anbieter weiterer Anwendungen des Gesundheitswesens mit Zugriff auf Dienste der
+TI MÜSSEN mindestens die folgenden Parameter zur Konfiguration ihres
+Anschlusses an das Zentrale Netz TI an den Betreiber des Zentralen Netzes
+melden:
+
+Tabelle15:Tab_PT_ZentrNetz_AnschlussParameter: Anschlussparameter
+
+ ---> TABLE
+
+​​ **[\<=]**
+
+##### GS-A_4895
+
+Der Anbieter Zentrales Netz MUSS Anbietern von Produkttypen der TI bei deren
+Anschluss an das Zentrale Netz TI mindestens die folgenden Informationen über
+die zu installierenden Komponenten des SZZP zur Verfügung stellen:
+Außenmaße, Gewicht, Art und Anzahl Stromzufuhr, Leistungsaufnahme,
+Abwärmeabfuhr oder-abtransport. **[\<=]**
 
 ### 3.4 Verteilungssicht
 
@@ -1072,9 +1842,20 @@ Anbieters Zentrales Netz.
 
 Verteilung der Backbone-Zugangsstellen
 
-  ---> AFO 
+##### GS-A_4806
 
-  ---> AFO 
+Der Point of Presence (PoP, Standort von PE-Routern im Backbone des Anbieters
+des Zentralen Netzes der TI) MUSS an das eigene zentrale Netz des Anbieters
+redundant angeschlossen sein. **[\<=]**
+
+##### GS-A_4807
+
+Der Anbieter Zentrales Netz MUSS in den folgenden Ballungsräumen regionale PoPs
+zu seinem Netzwerk betreiben:
+
+ ---> UL
+
+**[\<=]**
 
 ### 4 Anforderungen an das Sicherheitsgateway Bestandsnetze
 
@@ -1107,7 +1888,14 @@ zentrale Netz der TI. Im Sicherheitsgateway, am VPN-Anschlusspunkt und am SZZP
 erfolgt die Kontrolle und Durchsetzung der erlaubten Kommunikationsbeziehungen.
 Das Accounting erfolgt im VPN-Anschlusspunkt.
 
-  ---> AFO 
+##### GS-A_5507
+
+Der Produkttyp Sicherheitsgateway Bestandsnetze MUSS den Anschluss von
+mindestens 4 Bestandsnetzen gleichzeitig und voneinander unabhängig an einer
+Instanz des Sicherheitsgateways ermöglichen. Das Sicherheitsgateway MUSS
+mindestens als Stateful Inspection Firewall ausgeführt sein. Pro Bestandsnetz
+MUSS ein separates Regelwerk unterstützt werden.Die Umgebungstrennung nach PU,
+TU und RU erfolgt logisch auf der gleichen Hardware. **[\<=]**
 
 Die gematik empfiehlt für den Produkttyp Sicherheitsgateway Bestandsnetze, die
 Verwendung von BSI-zugelassenen IT-Sicherheitsprodukten und -systemen wie in
@@ -1116,31 +1904,85 @@ Verwendung von BSI-zugelassenen IT-Sicherheitsprodukten und -systemen wie in
 Für weitere Informationen zum sicheren Einsatz von Komponenten in
 Sicherheitsgateways wird auf die [BSI ISI-LANA] verwiesen.
 
-  ---> AFO 
+##### A_13477
 
-  ---> AFO 
+Das Sicherheitsgateway Bestandsnetze MUSS jede Verbindung zu einem
+Bestandsnetzbetreiber durch eine Verschlüsselung absichern. Der Produkttyp
+Sicherheitsgateway Bestandsnetze trägt die Verantwortung für die Anbindung
+bis zum Tunnelendpunkt beim Bestandsnetzbetreiber. Soweit dazu eine Mitwirkung
+des Bestandsnetzbetreibers notwendig ist, liegt es in der Verantwortung des
+Sicherheitsgateways Bestandsnetze, dies mit dem Bestandsnetzbetreiber
+abzustimmen. **[\<=]**
 
-  ---> AFO 
+##### A_14199
 
-  ---> AFO 
+Das Sicherheitsgateway Bestandsnetze MUSS entweder an mindestens zwei Standorten
+einen active/standby Cluster aus VPN-Konzentratoren und Sicherheitsgateways
+gemäß Abbildung Abb_VPN-Konzentrator_und_Sicherheitsgateway_Redundanz oder
+einen stretched active/standby Cluster aus VPN-Konzentratoren und
+Sicherheitsgateways über zwei Standorte verteilt implementieren.
 
-  ---> AFO 
+Abbildung12: Abb_VPN-Konzentrator_und_Sicherheitsgateway_Redundanz
+
+  **[\<=]**
+
+##### A_14216
+
+Das Sicherheitsgateway Bestandsnetze MUSS die VPN-Anschlusspunkte als zwei
+separate, redundante Anschlüsse in den Räumlichkeiten des angeschlossenen
+Bestandsnetzes implementieren. **[\<=]**
+
+##### A_14217
+
+Das Sicherheitsgateway Bestandsnetze SOLL VPN-Anschlusspunkte anbieten, die eine
+Bandbreite (IPSec Verschlüsselungsleistung) von 100 Mbit/s bis 1 Gbit/s
+unterstützen. **[\<=]**
+
+##### A_14220
+
+Das Sicherheitsgateway Bestandsnetze MUSS so dimensioniert sein und an sich
+ändernde Lastsituationen angepasst werden, dass
+
+ ---> UL
+
+**[\<=]**
 
 Bei Anpassungen muss der betriebliche Change-Prozess durchlaufen werden.
 
-  ---> AFO 
+##### A_14218
 
-  ---> AFO 
+Das Sicherheitsgateway Bestandsnetze MUSS die redundanten VPN-Anschlusspunkte so
+implementieren, dass bei Ausfall des aktiven VPN-Anschlusspunktes ein Failover
+auf den Standby VPN-Anschlusspunkt erfolgt. **[\<=]**
+
+##### A_14219
+
+Das Sicherheitsgateway Bestandsnetze MUSS die redundanten VPN-Konzentratoren und
+die Sicherheitsgateways so implementieren, dass bei Ausfall der aktiven
+Komponenten ein Failover auf die Standby Komponenten erfolgt. **[\<=]**
 
 Die Komponenten VPN-Konzentrator und Sicherheitsgateway können in einem Gerät
 realisiert sein.
 
-  ---> AFO 
+##### A_18821
+
+Das Sicherheitsgateway Bestandsnetze MUSS die Möglichkeit bieten eine
+Datenvolumenerfassung je aufgerufener Ziel-IP-Adresse im Bestandsnetz in beide
+Richtungen umzusetzen. Diese Volumenerfassung ist der gematik monatlich zu
+überlassen. **[\<=]**
 
 Die Festlegung für welche Zieladresse, im jeweiligen Bestandsnetz, eine
 Datenvolumenerfassung einzurichten ist, erfolgt durch die gematik.
 
-  ---> AFO 
+##### A_14232
+
+Der Anbieter des Sicherheitsgateways Bestandsnetze MUSS für den Anschluss eines
+Bestandsnetzes an die VPN-Anschlusspunkte die folgenden Anschlussvarianten je
+Rechenzentrum unterstützen:
+
+ ---> UL
+
+**[\<=]**
 
 ### 5 Namensdienst
 
@@ -1159,15 +2001,40 @@ Internet) aufgelöst werden.
 
 ### 5.1 Hostnamen
 
-  ---> AFO 
+##### GS-A_3824
+
+Anbieter von Produkttypen der Fachanwendungen sowie der zentralen TI-Plattform
+MÜSSEN, für die netzwerkfähigen und zur Kommunikation innerhalb der TI
+genutzten Außenschnittstellen, Hostnamen verwenden, die konform zu den
+Vorgaben in [RFC1123#2.1] sind.
+
+Die FQDN müssen von den Anbietern vergeben werden. Die einzelnen Label müssen
+so gewählt werden, dass die resultierenden FQDN eindeutig sind.
+
+Die IP-Adressen von Schnittstellen innerhalb der TI müssen per DNS-Abfrage
+aufgelöst werden. IP-Adressen der Nameserver sind hiervon ausgenommen. **[\<=]**
 
 ### 5.2 Namensräume
 
-  ---> AFO 
+##### GS-A_3828
+
+Der Anbieter des Produkttyps Namensdienst MUSS in der TI (Produktivumgebung)
+genau einen internen und geschlossenen Namensraum betreiben. In diesem
+Namensraum MÜSSEN die Ressource Records der, netzwerkfähigen und zur
+Kommunikation innerhalb der TI genutzten, Außenschnittstellen der
+fachanwendungsspezifischen Dienste sowie der zentralen Dienste der TI-Plattform
+verwaltet werden. **[\<=]**
 
 Dieser geschlossene Namensraum wird im Folgenden Namensraum der TI genannt.
 
-  ---> AFO 
+##### GS-A_4071
+
+Der Anbieter des Produkttyps Namensdienst MUSS in der TI-Testumgebung genau
+einen internen und geschlossenen Namensraum bereitstellen. In diesem Namensraum
+MÜSSEN die Ressource Records der, netzwerkfähigen und zur Kommunikation
+innerhalb der TI Testumgebung genutzten, Außenschnittstellen der Testsysteme
+der fachanwendungsspezifischen Dienste sowie der zentralen Dienste der
+TI-Plattform verwaltet werden. **[\<=]**
 
 Für die Referenzumgebung werden hinsichtlich des Namensraums keine weiteren
 Vorgaben getroffen.
@@ -1177,20 +2044,53 @@ Transportnetzes, der Namensraum des Internets sowie die Namensräume der
 Bestandsnetze durch Clientsysteme genutzt. Diese liegen jedoch nicht in der
 Verantwortung der TI.
 
-  ---> AFO 
+##### GS-A_3829
+
+Der Konnektor MUSS Clientsystemen der Leistungserbringer die Namens- und
+Adressauflösung für Namen und Adressen aus den Namensräumen Internet und der
+Bestandsnetze über einen DNS-Forwarderermöglichen. Um dieResourceRecords des
+VPN-Zugangsdienstes und den FQDN des CRL-Downloadpunktes  auflösen zu
+können, MUSS der Konnektor die Nameserver (Transportnetz) abfragen.​​ **[\<=]**
 
 ### 5.3 Domainnamen- und Hierarchie
 
-  ---> AFO 
+##### GS-A_3926-01
+
+Der Anbieter des Produkttyps Namensdienst MUSS eine eigene DNS-Root und die von
+der gematik festgelegten Top Level Domainen für den Namensraum der TI
+bereitstellen. **[\<=]**
 
 Die aktuell von der gematik festgelegten Top Level Domainnamen sind telematik.
 ti-wa. und de.
 
-  ---> AFO 
+##### GS-A_3927-01
 
-  ---> AFO 
+Der Anbieter des Namensdienstes MUSS unter den von der gematik festgelegten Top
+Level Domains für Anbieter von Diensten der TI und für Anbieter von Diensten
+der weiteren Anwendungen des Gesundheitswesens sowie der Gesundheitsforschung
+Second Level Domains und darunterliegende Domains bereitstellen.Der Anbieter
+des Namensdienstes muss es ermöglichen, dass andere Anbieter von Diensten der
+TI und Anbieter von Diensten der weiteren Anwendungen des Gesundheitswesens
+sowie der Gesundheitsforschung eigene Second Level Domains und darunterliegende
+Domains betreiben. **[\<=]**
 
-  ---> AFO 
+##### GS-A_3928
+
+Produkttypen die autoritativ Second Level Domains in der TI unter der Top Level
+Domain „telematik.“betreiben, MÜSSEN gewährleisten, dass sich die Namen
+der Second Level Domains an den Kurzformen der Produkttypnamen bzw. der
+Fachanwendungsnamen orientieren. Unterhalb der Second Level Domains können
+Anbieter der entsprechenden Dienste eigene Subdomains mit selbst gewählten
+Namen verwalten. **[\<=]**
+
+##### GS-A_4072-01
+
+Der Anbieter des Produkttyps Namensdienst MUSS eine eigene DNS-Root und die von
+der gematik festgelegten Top Level Domainen für den Namensraum der TI in der
+Testumgebung und in der Referenzumgebung bereitstellen.Der Anbieter des
+Produkttyps Namensdienst MUSS sicherstellen, dass die übrigen Domainnamen und
+die Hierarchie des Namensraums der Testumgebung und der Referenzumgebung den
+Domainnamen und der Hierarchie der Produktivumgebung entsprechen. **[\<=]**
 
 Wenn Anbieter von fachanwendungsspezifischen Diensten oder von Produkttypen der
 zentralen TI-Plattform eigene Subzonen im Namensraum der TI betreiben, müssen
@@ -1221,16 +2121,57 @@ Nameserver liegt außerhalb der Verantwortung der TI. Die innere Struktur der
 Nameserver-Implementierungen wird in den jeweiligen Produkttypspezifikationen
 definiert. Rekursive queries zwischen Nameservern werden nicht unterstützt.
 
-  ---> AFO 
+##### GS-A_4809
 
-  ---> AFO 
+Die Nameserver-Implementierungen in der TI MÜSSEN, wenn sie eine Zone im
+Namensraum der TI verwalten oder wenn sie als Caching Nameserver implementiert
+sind, physisch redundant durch 2 aktive Nameserver bereitgestellt werden. **[\<=]**
+
+##### GS-A_3932
+
+Produkttypen die innerhalb der TI DNS-Resolver implementieren und Anbieter
+weiterer Anwendungen des Gesundheitswesens mit Zugriff auf Dienste der TI,
+MÜSSEN zur Auflösung von FQDNs im Namensraum der TI die in der DNS-Topologie
+der TI gemäß Abbildung Abb_DNS_Topologie_der_TI am nächsten stehenden
+Nameserver abfragen.Für Stub-Resolver der Clientsysteme in den Organisationen
+des Gesundheitswesens ist dies der Konnektor.Für Resolver der
+fachanwendungsspezifischen Dienste sind dies die Nameserver (TI) des
+Namensdienstes oder, wenn Zone Delegation für die Second Level Domain oder in
+der Hierarchie darunterliegende Domains genutzt wird, die Nameserver (TI), die
+die delegierte Zone verwalten.Für Resolver der zentralen Dienste der
+TI-Plattform sind dies die Nameserver des Namensdienstes.Zur Auflösung von
+FQDN in IP-Adressen verwendet der Stub-Resolver des Konnektors den Nameserver
+(Forwarder) des Konnektors. Dies gilt für die Namensräume TI, Transportnetz
+und Bestandsnetze.Der Nameserver des Konnektors muss für den Namensraum der TI
+die Caching Nameserver (TI) des für ihn zuständigen VPN-Zugangsdienstes
+abfragen. Für die Namensräume von Bestandsnetzen muss der Nameserver die
+Nameserver des entsprechenden Bestandsnetzes abfragen. Für den Namensraum des
+Internet sollen die vom VPN-Zugangsdienst bereitgestellten Nameserver (SIS)
+für den Namensraum des Internet abgefragt werden.Die Caching Nameserver (TI)
+des VPN-Zugangsdienstes müssen die Nameserver (TI) des Namensdienstes und
+Nameserver (TI), die delegierte Zonen im Namensraum der TI verwalten,
+abfragen.In den Resolver-Konfigurationen müssen mindestens 2 zuständige
+Nameserver eingetragen werden. Ausgenommen davon ist der Stub-Resolver des
+Konnektors. **[\<=]**
 
 ### 5.5 Dienstlokalisierung
 
 Um auf die zentralen Dienste KSR und TSL-Dienst zugreifen zu können, wird die
 Lokalisierung über DNS Service Discovery unterstützt.
 
-  ---> AFO 
+##### GS-A_5024
+
+Der Anbieter des KSR MUSS DNS SRVResourceRecords gemäß TabelleTab_KSR_SRV-RR
+im Namensraum TI verwalten. Wenn die Domain „ksr.telematik“ nicht durch den
+Anbieter des KSR verwaltet wird, erfolgt der Betrieb dieser Zone beim Anbieter
+des Namensdienstes und die SRVResourceRecords müssen an den Anbieter des
+Namensdienstes zur Eintragung in die Nameserverkonfiguration übergeben werden.
+
+Tabelle17:Tab_KSR_SRV-RR
+
+ ---> TABLE
+
+**[\<=]**
 
 Weitere Anwendungen des Gesundheitswesens sowie der Gesundheitsforschung können
 im Namensraum der TI die Zugangspunkte zu von ihnen bereitgestellten Diensten
@@ -1238,7 +2179,12 @@ im Namensraum der TI die Zugangspunkte zu von ihnen bereitgestellten Diensten
 machen. Für die Suche nach den Zugangspunkten der Dienste wird die Domain
 „dnssd.ti-wa.“ festgelegt.
 
-  ---> AFO 
+##### GS-A_5623
+
+Der Anbieter des Namensdienstes MUSS die Domain „dnssd.ti-wa.“ betreiben und
+auf Wunsch von Anbietern weiterer Anwendungen des Gesundheitswesens sowie der
+Gesundheitsforschung Einträge zur Dienstlokalisierung gemäß [RFC6763]
+Tab_Namensdienst_DNSSD_für_WA vornehmen. **[\<=]**
 
  ---> TABLE
 
@@ -1252,97 +2198,363 @@ umgesetzt und daher zusammen in einem Abschnitt betrachtet.
 Neben den grundlegenden Funktionen zur Namensauflösung wird für Nameserver im
 Namensraum der TI die Unterstützung von DNSSEC und von DNS-SD gefordert.
 
-  ---> AFO 
+##### GS-A_3834
 
-  ---> AFO 
+Produkttypen die Nameserver implementieren, MÜSSEN [RFC1034], [RFC1035] für
+das DNS-Protokoll und [RFC3596] für IPv6-Anpassungen unterstützen.Zusätzlich
+müssen diese Nameserver-Implementierungen die folgenden Aktualisierungen und
+Ergänzungen zu den oben genannten RFCs unterstützen: [RFC1123] Abschnitt 6.1,
+[RFC1982], [RFC1995], [RFC1996], [RFC2181], [RFC2308], [RFC6891], [RFC2782],
+[RFC2930], [RFC2931], [RFC3225].Die Nameserver-Implementierungen müssen neben
+UDP auch TCP unterstützen.​​ **[\<=]**
 
-  ---> AFO 
+##### GS-A_5199
 
-  ---> AFO 
+Produkte, die DNSSEC im Namensraum Internet nutzen und den Trust Anchor der IANA
+zur Validierung von DNS-Antworten verwenden, MÜSSEN den DNSSEC-Vertrauensanker
+gemäß [RFC5011] aktualisieren. **[\<=]**
 
-  ---> AFO 
+##### GS-A_3842-01
 
-  ---> AFO 
+Anbietervon Produkttypen, die Nameserver implementieren, MÜSSEN zur Abfrage
+anderer Nameserver iterative queries verwenden. Recursive queries DÜRFEN NICHT
+verwendet werden. Der Konnektor, der Basis- und der KTR-Consumer sind von
+dieser Regelung ausgenommen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4849
 
-  ---> AFO 
+Der Nameserver des Konnektors MUSS zur Auflösung von FQDNs die entsprechenden
+Nameserver mit recursive queries anfragen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_3930
 
-  ---> AFO 
+Anbieter, die autoritative Nameserver implementieren, MÜSSEN initial für
+jedenResource Record eine Time To Live (TTL) von 86400 einstellen, wenn es
+keine anderslautenden Festlegungen zur TTL für den jeweiligen Resource Record
+gibt. Die TTL-Werte können im Rahmen des Change-Management geändert werden. **[\<=]**
 
-  ---> AFO 
+##### GS-A_3835
 
-  ---> AFO 
+Produkttypen dieautoritativeNameserver implementieren, MÜSSEN DNS Service
+Discovery (DNS-SD) gemäß dem [RFC6763] unterstützen. **[\<=]**
+
+##### GS-A_4810
+
+Anbieter von Diensten in der TI, die ihren Dienst über DNS-SD lokalisieren
+lassen, MÜSSEN die Vorgaben an das Format von TXT Resource Records
+umsetzen.Der Schlüssel „txtvers“ muss  mit einem Wert angegeben
+sein.Wenn der Dienst über eine URL lokalisiert werden soll, so muss der
+Schlüssel „path“ mit dem Wert des URL-Pfads angegeben sein. Der URL-Pfad
+muss mit einem „/“ beginnen und mit einem „/" terminieren.  Ein leerer
+URL-Pfad muss als „/“ angegeben werden.Weitere Schlüssel=Wert-Strings
+können  angegeben werden. **[\<=]**
+
+##### GS-A_4811
+
+Der Konnektor MUSS TXT Resource Records den Vorgaben entsprechend interpretieren.
+
+Der Schlüssel „txtvers“ ist mit einem Wert angegeben.
+
+Wenn der Dienst über eine URL lokalisiert wird, so ist der Schlüssel
+„path“ mit dem Wert des URL-Pfads angegeben. Der URL-Pfad beginnt mit einem
+„/“. Ein leerer URL-Pfad ist als „/“ angegeben.
+
+Weitere Schlüssel=Wert-Strings können nach Vorgabe des zu lokalisierenden
+Dienstes angegeben sein. **[\<=]**
+
+##### GS-A_3931
+
+Produkttypen die autoritative Nameserver implementieren, MÜSSEN [RFC4033],
+[RFC4034] und [RFC4035] für DNSSEC unterstützen. Der Konnektor ist hiervon
+ausgenommen.Zusätzlich müssen diese Nameserver-Implementierungen
+Aktualisierungen und Ergänzungen zu den oben genannten RFCs unterstützen.
+Dies sind Abschnitt 6.1 in [RFC1123], [RFC1982], [RFC1995], [RFC1996],
+[RFC2181], [RFC2308], [RFC6891], [RFC2782], [RFC2930], [RFC2931], [RFC3225],
+[RFC5155].​​ **[\<=]**
+
+##### GS-A_5132
+
+Der Anbieter des Namensdienstes MUSS den DNSSEC Trust Anchor der TI für die
+Produktionsumgebung basierend auf der Top Level Domain der Produktionsumgebung
+der TI "telematik." erstellen. **[\<=]**
+
+##### GS-A_5133
+
+Der Anbieter des Namensdienstes MUSS den DNSSEC Trust Anchor der TI für die
+Test- und Referenzumgebung basierend auf der Top Level Domain der Test- und
+Referenzumgebung "telematik-test." erstellen. **[\<=]**
+
+##### GS-A_3839
+
+Anbieter von Produkttypen die Zonen im Namensraum der TI bereitstellen, MÜSSEN
+diese Zonen mittels DNSSEC sichern. Die Sicherung MUSS auf Basis des Trust
+Anchors des Anbieters des Produkttyps Namensdienst erfolgen.
+
+DNSSEC Zone Signing Keys (ZSK) im Namensraum der TI müssen nach Ablauf von 120
+Tagen ersetzt werden. Key Signing Keys (KSK) im Namensraum der TI müssen nach
+12 Monaten ausgetauscht werden. Hinsichtlich der zur Generierung der
+asymmetrischen ZSK und KSK Schlüsselpaare in der TI zu verwendenden
+Algorithmen und Schlüssellängen gelten die Festlegungen aus [gemSpec_Krypt].
+
+Die Empfehlungen aus [RFC6781] müssen beachtet werden. **[\<=]**
 
 Es wird empfohlen validierende DNS Resolver so zu konfigurieren, dass DNS
 Responses aus folgenden Domänen (inkl. Subdomänen) validiert werden müssen:
 
  ---> UL
 
-  ---> AFO 
+##### GS-A_4879
 
-  ---> AFO 
+Anbieter von Produkttypen die Zonen im Namensraum Internet bereitstellen,
+MÜSSEN diese Zonen mittels DNSSEC sichern. Die Sicherung MUSS auf Basis des
+Trust Anchors für das Internet (bereitgestellt durch die IANA) erfolgen.
 
-  ---> AFO 
+DNSSEC Zone Signing Keys (ZSK) im Namensraum Internet müssen nach Ablauf von
+120 Tagen ersetzt werden. Key Signing Keys (KSK) im Namensraum Internet müssen
+nach 12 Monaten ausgetauscht werden. Hinsichtlich der, zur Generierung der
+asymmetrischen ZSK und KSK Schlüsselpaare, zu verwendenden Algorithmen und
+Schlüssellängen gelten die Festlegungen aus [gemSpec_Krypt].
 
-  ---> AFO 
+Die Empfehlungen aus [RFC6781] müssen beachtet werden. **[\<=]**
+
+##### GS-A_3841
+
+Anbieter von Produkttypen die Zonen im Namensraum der TI bereitstellen, MÜSSEN
+Zonentransfers mit Transaction Signature (TSIG) gemäß [RFC2845] und [RFC4635]
+absichern.
+
+Je Nameserver-Paar muss ein eigener symmetrischer Schlüssel (1:1 Beziehung)
+verwendet werden. Hinsichtlich des zu verwendenden Algorithmus und der
+Schlüssellänge gelten die Festlegungen aus [gemSpec_Krypt]. **[\<=]**
+
+##### GS-A_5089
+
+Anbieter, die autoritative Nameserver implementieren, MÜSSEN private
+Schlüsselsicher speichern und ihr Auslesen verhindern. **[\<=]**
+
+##### GS-A_5582
+
+Der Produkttyp Namensdienst MUSS mindestens zwei Caching Nameserver TI (full
+service resolver) bereitstellen, die rekursive DNS-Anfragen zur Auflösung von
+Namen im Namensraum TI beantworten, und Antworten entsprechend der TTL
+zwischenspeichern (Caching). Sie MÜSSEN sich netzwerktechnisch im Netzbereich
+„zentrale Dienste“ befinden und an das zentrale Netz der TI angeschlossen
+sein. **[\<=]**
 
 Der Caching Nameserver TI erlaubt rekursive Anfragen. Er leitet die Anfragen an
 die autoritativen Nameserver der TI weiter.
 
 ### 5.6.2 Nutzung
 
-  ---> AFO 
+##### GS-A_3832
+
+Produkttypen die DNS-Resolver implementieren, MÜSSEN [RFC1034], [RFC1035] für
+das DNS-Protokoll und [RFC3596] für IPv6-Anpassungen unterstützen.
+
+Zusätzlich müssen diese Resolver-Implementierungen die folgenden
+Aktualisierungen und Ergänzungen zu den oben genannten RFCs
+unterstützen:[RFC1123] Abschnitt 6.1, [RFC2181], [RFC2308], [RFC6891],
+[RFC6891],[RFC2845], [RFC5452] und [RFC3225].
+
+Der Konnektor ist von dieser Anforderung ausgenommen. **[\<=]**
 
 ### 5.7 Anforderungen an den Produkttyp Namensdienst
 
-  ---> AFO 
+##### GS-A_4812
 
-  ---> AFO 
+Der Produkttyp Namensdienst MUSS die Schnittstellen gemäß
+TabelleTab_PT_Namensdienst_Schnittstellenimplementieren („bereitgestellte“
+Schnittstellen) und nutzen („benötigte“ Schnittstellen).
+
+Tabelle19:Tab_PT_Namensdienst_Schnittstellen
+
+ ---> TABLE
+
+​​​​ **[\<=]**
+
+##### GS-A_5347
+
+Der Namensdienst MUSS DNSSEC Key- und Algorithm-Rollover gemäß den Vorgaben
+des GBV durchführen. Dies betrifft das Setzen der Schlüsselzeitparameter
+(Publicationtime, Activationtime, Revocationtime, Inactivationtime und
+Deletiontime) für den neuen und den alten Schlüssel sowie den
+Änderungszeitpunkt der TSL. **[\<=]**
 
 ### 5.7.1 Schnittstellen P_DNS_Name_Entry_Announcement und P_DNS_Service_Entry_Announcement
 
-  ---> AFO 
+##### GS-A_4814
+
+Der Anbieter des Namensdienstes MUSS einen Prozess implementieren, der es
+Anbietern von fachanwendungsspezifischen Diensten und Anbietern von zentralen
+Diensten der TI-Plattform ermöglicht, DNS Resource Records innerhalb des
+Namensraums der TI bekannt zu machen.
+
+Der Prozess muss dokumentiert sein und dem GBV zur Freigabe vorgelegt werden.
+
+Zusätzlich muss der Anbieter des Namensdienstes alle Anbietern von Diensten in
+der TI informieren, wie sie diesen Prozess nutzen können. **[\<=]**
 
 ### 5.7.2 Schnittstelle P_DNSSEC_Key_Distribution
 
-  ---> AFO 
+##### GS-A_4815
 
-  ---> AFO 
+Der Anbieter des Namensdienstes MUSS einen Prozess implementieren, der es
+ermöglicht den Hash des DNSSEC Trust Anchor für den Namensraum TI an Resolver
+und Nameserver der fachanwendungsspezifischen Dienste und der zentralen Dienste
+der TI-Plattform sowie an Nameserver der Konnektoren und Hersteller von
+Konnektoren zu verteilen.Die Empfehlungen aus [RFC6781] müssen beachtet
+werden.Der Prozess muss dokumentiert sein und dem GBV zur Freigabe vorgelegt
+werden.Nach diesem Prozess muss initial der Hash des DNSSEC Trust Anchor für
+den Namensraum TI an den GBV, an Anbieter von Resolver und Nameserver der
+fachanwendungsspezifischen Dienste und der zentralen Dienste der TI-Plattform
+sowie an Hersteller von Konnektoren verteilt werden. Das Format für die
+Verteilung des DNSSEC Trust Anchor muss dem IANA XML-Format zur Verteilung des
+Internet DNSSEC Trust Anchor entsprechen. Die Aktualisierung des DNSSEC Trust
+Anchor für den Namensraum TI muss gemäß [RFC5011] automatisch
+erfolgen.Zusätzlich muss der Trust Anchor bei Aktualisierungen dem GBV zur
+Verfügung gestellt werden. Die Aktualisierung des Trust Anchor für den
+Namensraum TI muss über einen genehmigungspflichtigen Change gemäß
+[gemRL_Betr_TI] erfolgen.Die beim DNSSEC Trust Anchor Wechsel zu verwendenden
+Timing-Parameter
 
-  ---> AFO 
+ ---> UL
 
-  ---> AFO 
+müssen konfigurierbar sein und mit dem GBV abgestimmt werden.​​ **[\<=]**
 
-  ---> AFO 
+##### GS-A_4885-01
 
-  ---> AFO 
+DerAnbieter des Namensdienstes MUSS den DNSSEC Trust Anchor der TI nach
+Kompromittierung aktualisieren. Der bisherige DNSSEC Trust Anchor MUSS für
+einen abgestimmten Übergangszeit gültig bleiben. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4816
+
+Hersteller von Konnektoren MÜSSEN, wenn der Konnektor DNSSEC Antworten im
+Namensraum TI validiert, initial bei der Herstellung den Hash des aktuellen
+DNSSEC Trust Anchor für den Namensraum TI im DNS Forwarder des Konnektors
+eintragen. Updates der Software des Konnektors müssen den Hash des aktuellen
+DNSSEC Trust Anchor für den Namensraum TI beinhalten.Die Aktualisierung des
+DNSSEC Trust Anchor für den Namensraum TI muss im Konnektor gemäß [RFC5011]
+automatisch erfolgen. **[\<=]**
+
+##### GS-A_4817
+
+Anbieter von Produkttypen der Fachanwendungen sowie der zentralen TI-Plattform
+MÜSSEN initial bei der Inbetriebnahme den Hash des aktuellen DNSSEC Trust
+Anchor für den Namensraum TI in der Konfiguration ihrer Resolver- und
+Nameserver-Implementierungen eintragen und sicher speichern.
+
+Die Aktualisierung des DNSSEC Trust Anchor für den Namensraum TI muss gemäß
+[RFC5011] automatisch erfolgen können. **[\<=]**
+
+##### GS-A_4847
+
+Anbieter von VPN-Zugangsdiensten MÜSSEN den Namensraum Transportnetz per DNSSEC
+sichern. **[\<=]**
+
+##### GS-A_5037
+
+Der Anbieter VPN-Zugangsdienstes MUSS bei Verwendung eines vom Internet
+verschiedenen Transportnetzes einen Prozess implementieren, der es ermöglicht
+den Hash des DNSSEC Trust Anchor für den Namensraum Transportnetz an Betreiber
+von Konnektoren zu verteilen. **[\<=]**
+
+##### GS-A_4848
+
+Wenn der Konnektor DNSSEC-Antworten für den Namensraum Transportnetz validiert,
+dann MUSS der Konnektor ermöglichen, dass der aktuelle DNSSEC Trust Anchor
+für den Namensraum Transportnetz im DNS Forwarder des Konnektors eingetragen
+werden kann. Wenn der DNSSEC Trust Anchor für den Namensraum Transportnetz
+eingetragen ist, dann MÜSSEN die Antworten vom Nameserver Transportnetz durch
+den Konnektor validiert werden.Die Aktualisierung des DNSSEC Trust Anchor für
+den Namensraum Transportnetz muss im Konnektor gemäß [RFC5011] automatisch
+erfolgen. **[\<=]**
 
 ### 5.7.3 Schnittstelle P_DNS_Zone_Delegation
 
-  ---> AFO 
+##### GS-A_4818
+
+Der Anbieter des Namensdienstes MUSS einen Prozess implementieren, der es
+Anbietern von fachanwendungsspezifischen Diensten und Anbietern von zentralen
+Diensten der TI-Plattform ermöglicht, eigene DNS-Subdomains innerhalb des
+Namensraums der TI zu betreiben.
+
+Der Prozess muss dokumentiert sein und dem GBV zur Freigabe vorgelegt werden.
+
+Zusätzlich muss der Anbieter des Namensdienstes alle Anbietern von Diensten in
+der TI informieren, wie sie diesen Prozess nutzen können. **[\<=]**
 
 ### 5.7.4 Sonstige Anforderungen
 
-  ---> AFO 
+##### GS-A_3838
 
-  ---> AFO 
+Der Anbieter des Produkttyps Namensdienst MUSS den Trust Anchor für den
+Namensraum der TI erzeugen und verwalten. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4813
 
-  ---> AFO 
+Der Produkttyp Namensdienst MUSS sicherstellen, dass vom Namensdienst aus, über
+das Zentrale Netz der TI, nur erlaubte IP-Kommunikation in Richtung
+Produkttypen der TI-Plattform und fachanwendungsspezifischer Dienste gesendet
+wird.
 
-  ---> AFO 
+Zur erlaubten Kommunikation des Namensdienstes zählen:
 
-  ---> AFO 
+ ---> UL
 
-  ---> AFO 
+**[\<=]**
 
-  ---> AFO 
+##### GS-A_4808
+
+Die Möglichkeit, Zonentransfers durchzuführen, ohne dass dies in der Topologie
+durch den Anbieter vorgesehen ist, MUSS auf allen Nameserver-Implementierungen
+im Namensraum der TI ausgeschlossen sein. **[\<=]**
+
+##### A_17795
+
+Der Namensdienst MUSS den Betrieb von DNS-Zonen als hidden primary auf
+Test-Instanzen der gematik in den Betriebsumgebungen RU und TU unterstützen
+und auf Anfrage der gematik umsetzen. **[\<=]**
+
+##### GS-A_5583
+
+Ein Anbieter eines an die TI angeschlossenen Netzes des Gesundheitswesens mit
+weiteren Anwendungen des Gesundheitswesens ohne Zugriff auf Dienste der TI MUSS
+den Namensraum des an die TI angeschlossenen Netzes des Gesundheitswesens mit
+anderen Anwendungen des Gesundheitswesens selber verwalten und dafür Caching
+Nameserver (recursion available) im an die TI angeschlossenen Netz des
+Gesundheitswesens mit anderen Anwendungen des Gesundheitswesens bereitstellen.
+**[\<=]**
+
+##### GS-A_5584-01
+
+Ein Anbieter eines an die TI angeschlossenen Netzes des Gesundheitswesens mit
+weiteren Anwendungen des Gesundheitswesens ohne Zugriff auf Dienste der TI MUSS
+dem Anbieter des zentralen Netzes der TI die Informationen über den Namen des
+an die TI angeschlossenen Netzes des Gesundheitswesens mit anderen Anwendungen
+des Gesundheitswesens, den verwendeten öffentlichen IP-Adressraum, den
+Namensraum sowie den Caching Nameserver bereitstellen.Die Meldeflicht
+der öffentlichen IP-Adressen entfällt, wenn der Anbieter eine der WANDA
+Basic zugewiesenen TI-IPv4-Adressen verwendet. **[\<=]**
+
+##### GS-A_5585
+
+Ein Anbieter eines an die TI angeschlossenen Netzes des Gesundheitswesens mit
+weiteren Anwendungen des Gesundheitswesens ohne Zugriff auf Dienste der TI MUSS
+dem Anbieter des Sicherheitsgateways Bestandsnetze, über dass das Netz des
+Anbieters an die TI angebunden wird, Informationen zu den am Sicherheitsgateway
+freizuschaltenden Protokollen und Ports für das an die TI anzuschließende
+Netz des Gesundheitswesens mit anderen Anwendungen des Gesundheitswesens
+bereitstellen. **[\<=]**
+
+##### GS-A_5586
+
+Ein Anbieter eines an die TI angeschlossenen Netzes des Gesundheitswesens mit
+weiteren Anwendungen des Gesundheitswesens ohne Zugriff auf Dienste der TI MUSS
+mit dem Anbieter des Sicherheitsgateways Bestandsnetze, über dass das Netz des
+Anbieters an die TI angebunden wird, abstimmen, wie der netztechnische
+Anschluss an das Sicherheitsgateway erfolgen soll und diesen bereitstellen.
+**[\<=]**
 
 ### 6 Zeitdienst
 
@@ -1368,52 +2580,142 @@ Produkttypspezifikationen definiert.
 
 ![Abbildung-14][Abbildung-14]
 
-  ---> AFO 
+##### GS-A_3940
 
-  ---> AFO 
+Der Produkttyp Zeitdienst MUSS Stratum-1-NTP-Server implementieren.
+Stratum-1-NTP-Server MÜSSEN sich mit der gesetzlichen Zeitquelle
+synchronisieren. **[\<=]**
 
-  ---> AFO 
+##### GS-A_3941
+
+Der Produkttyp VPN-Zugangsdienst MUSS Stratum-2-NTP-Server bereitstellen, die
+sich mit allen Stratum-1-NTP-Servern des Produkttyps Zeitdienst synchronisieren
+MÜSSEN. **[\<=]**
+
+##### GS-A_3942
+
+Der Produkttyp Konnektor MUSS einen Stratum-3-NTP-Server implementieren, der
+sich bei bestehender Verbindung mit Stratum-2-NTP-Servern des Produkttyps
+VPN-Zugangsdienst synchronisieren MUSS. **[\<=]**
 
 ### 6.2 Schnittstelle I_NTP_Time_Information
 
 ### 6.2.1 Umsetzung
 
-  ---> AFO 
+##### GS-A_3933
 
-  ---> AFO 
+Produkttypen die innerhalb der TI NTP-Server implementieren, MÜSSEN das
+NTP-Protokoll Version 4 gemäß [RFC5905] unterstützen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_3935
 
-  ---> AFO 
+Produkttypen die innerhalb der TI NTP-Server implementieren, MÜSSEN zur Abwehr
+von nicht böswilligen NTP-basierten Denial-of-Service bzw.
+Distributed-Denial-of-Service Angriffen das Kiss-o´-Death-Verfahren einsetzen. **[\<=]**
 
-  ---> AFO 
+##### GS-A_3936
 
-  ---> AFO 
+Produkttypen die innerhalb der TI NTP-Server implementieren, DÜRFEN IBURST
+NICHT einsetzen. **[\<=]**
+
+##### GS-A_3938
+
+Produkttypen die innerhalb der TI NTP-Server implementieren, MÜSSEN gemäß
+[RFC5905] den Association Mode Client für NTP-Anfragen bei NTP-Servern mit
+niedrigerem Stratum Wert und den Association Mode Server für Antworten auf
+NTP-Anfragen verwenden. Das Polling-Intervall MUSS nach dem clock discipline
+algorithm dynamisch eingestellt werden. **[\<=]**
+
+##### GS-A_3945
+
+Produkttypen die innerhalb der TI NTP-Server implementieren, DÜRFEN zur Abfrage
+anderer NTP-Server NICHT SNTP einsetzen. **[\<=]**
+
+##### GS-A_4074
+
+Produkttypen die Stratum-1- und -2-NTP-Server in der TI implementieren MÜSSEN
+gewährleisten, dass die durch sie verteilte Zeitinformation nicht mehr als
+330ms von der Zeitinformation der darüber liegenden Stratum Ebene abweicht. **[\<=]**
 
 Da der Konnektor nicht immer online ist oder ggf. auch nie online ist
 (Offline-Szenario), gelten hier andere Anforderungen an die Genauigkeit des
 NTP-Servers.
 
-  ---> AFO 
+##### GS-A_4075
+
+Der Hersteller des Konnektors SOLL für die durch ihn implementierten NTP-Server
+gewährleisten, dass die durch sie verteilte Zeitinformation nicht mehr als
+330ms von der Zeitinformation der darüber liegenden Stratum Ebene abweicht. **[\<=]**
 
 ### 6.2.2 Nutzung
 
-  ---> AFO 
+##### GS-A_3934
+
+Produkttypen die innerhalb der TI NTP-Clients implementieren und Anbieter
+weiterer Anwendungen des Gesundheitswesens mit Zugriff auf Dienste der TI,
+MÜSSEN das NTP-Protokoll Version 4 gemäß [RFC5905] unterstützen. **[\<=]**
 
 Um auf der Clientseite Falseticker gemäß [RFC5905] erkennen zu können,
 müssen alle Stratum-1-NTP-Server abgefragt werden.
 
-  ---> AFO 
+##### GS-A_4819
 
-  ---> AFO 
+Fachanwendungsspezifische Dienste SOLLEN sich mit den Stratum-1-NTP-Servern des
+Produkttyps Zeitdienst synchronisieren. Dies beinhaltet grundsätzlich alle an
+der Diensterbringung des fachanwendungsspezifischen Dienstes beteiligten
+Komponenten.
 
-  ---> AFO 
+Wenn sich Fachanwendungsspezifische Dienste mit den Stratum-1-NTP-Servern des
+Produkttyps Zeitdienst synchronisieren, so müssen immer alle
+Stratum-1-NTP-Server abgefragt werden.
 
-  ---> AFO 
+Fachanwendungsspezifische Dienste können einen oder mehrere
+Stratum-2-NTP-Server betreiben, die sich mit allen Stratum-1-NTP-Servern
+synchronisieren. Die an der Diensterbringung beteiligten Komponenten
+synchronisieren sich dann mit den eigenen Stratum-2-NTP-Servern. **[\<=]**
+
+##### GS-A_4820
+
+Produkttypen, die zentrale Dienste der TI-Plattform bereitstellen, SOLLEN sich
+mit allen Stratum-1-NTP-Servern des Produkttyps Zeitdienst synchronisieren.
+Dies beinhaltet alle an der Diensterbringung des Produkttypen beteiligten
+Komponenten.
+
+Folgende Ausnahmen gelten:
+
+ ---> UL
+
+**[\<=]**
+
+##### GS-A_4821
+
+Produkttypen, die zentrale Dienste der TI-Plattform bereitstellen, MÜSSEN, wenn
+sie sich nicht mit den Stratum-1-NTP-Servern des Produkttyps Zeitdienst
+synchronisieren, ein Ersatzverfahren einsetzen, dass eine maximale Abweichung
+von einer Sekunde gegenüber der gesetzlichen Zeit gewährleistet. **[\<=]**
+
+##### GS-A_3937
+
+Produkttypen die innerhalb der TI NTP-Clients implementieren und Anbieter
+weiterer Anwendungen des Gesundheitswesens mit Zugriff auf Dienste der TI, die
+einen NTP-Client für die TI Implementieren, MÜSSEN gemäß [RFC5905] den
+Association Mode Client verwenden und das Polling-Intervall nach dem clock
+discipline algorithm dynamisch einstellen. **[\<=]**
 
 ### 6.3 Anforderungen an den Produkttyp Zeitdienst
 
-  ---> AFO 
+##### GS-A_4822
+
+Der Produkttyp Zeitdienst MUSS die Schnittstellen gemäß
+TabelleTab_PT_Zeitdienst_Schnittstellenimplementieren („bereitgestellte“
+Schnittstellen) und nutzen („benötigte“ Schnittstellen).
+
+Tabelle20:Tab_PT_Zeitdienst_Schnittstellen
+
+ ---> TABLE
+
+Die Client-Funktionalität von mindestens einer der drei optionalen
+Schnittstellen muss implementiert werden.​​​​ **[\<=]**
 
 Die Synchronisation mit der gesetzlichen Zeit erfolgt über den Zeitsignalsender
 DCF77 der Physikalisch-Technischen Bundesanstalt (PTB). Die dazugehörige
@@ -1423,17 +2725,59 @@ Dokument beschrieben.
 Die Stratum-1-NTP-Server synchronisieren sich mittels jeweils eines
 Standard-DCF77-Empfängers als gesetzliche Zeitquelle.
 
-  ---> AFO 
+##### GS-A_4823
+
+Alle Stratum-1-NTP-Server des Produkttyps Zeitdienst MÜSSEN sich im
+ungestörten Betrieb mit der gesetzlichen Zeit der Bundesrepublik Deutschland
+über den Zeitsignalsender DCF77 synchronisieren.
+
+Bei Ausfall oder Störung des DCF77-Senders MUSS eine Zeitquelle gemäß Tabelle
+Tab_PT_Zeitdienst_vertrauenswürdige_Zeitquellen zur Synchronisierung genutzt
+werden. **[\<=]**
 
  ---> TABLE
 
-  ---> AFO 
+##### GS-A_4824
 
-  ---> AFO 
+Der Produkttyp Zeitdienst MUSS vier aktive Stratum-1-NTP-Server bereitstellen,
+die mit der gesetzlichen Zeitquelle synchronisiert sind. **[\<=]**
 
-  ---> AFO 
+##### GS-A_4825
 
-  ---> AFO 
+Der Produkttyp Zeitdienst MUSS sicherstellen, dass vom Zeitdienst aus, über das
+Zentrales Netz der TI, ausschließlich erlaubte IP-Kommunikation in Richtung
+Produkttypen der TI-Plattform und fachanwendungsspezifischer Dienste gesendet
+wird.
+
+Zur erlaubten Kommunikation des Zeitdienstes zählen:
+
+ ---> UL
+
+**[\<=]**
+
+##### GS-A_4826
+
+Der Anbieter des Zeitdienstes MUSS die Stratum-1-NTP-Server hinsichtlich der
+bereitgestellten Zeitinformation überwachen.
+
+Die Überwachung muss alle 5 Minuten erfolgen. Die von den Stratum-1-NTP-Servern
+bereitgestellten Zeitinformationen dürfen nicht mehr als 100ms voneinander
+abweichen. Wenn die Zeitinformationen 3 Mal hintereinander mehr als 100ms
+voneinander abweichen, gilt dies als Prio-3-Störung gemäß [gemRL_Betr_TI]. **[\<=]**
+
+##### GS-A_4827
+
+Der Anbieter des Zeitdienstes MUSS die von den Stratum-1-NTP-Servern
+bereitgestellten Zeitinformationen mit einer vertrauenswürdigen
+Referenzzeitquelle gemäß Tabelle
+Tab_PT_Zeitdienst_vertrauenswürdige_Zeitquellen vergleichen.
+
+Die Überwachung muss alle 5 Minuten erfolgen. Wenn die Zeitinformation eines
+oder mehrerer Stratum-1-Server der TI mehr als 500ms von der
+vertrauenswürdigen Referenzzeitquelle abweichen, gilt dies als Störung. Tritt
+die Störung 3 Mal hintereinander auf, so muss sie als Prio-3-Störung gemäß
+[gemRL_Betr_TI] behandelt werden. Ab einer Abweichung von 1000ms ist die
+Störung als Prio-2-Störung gemäß [gemRL_Betr_TI] zu behandeln. **[\<=]**
 
 ### 7 Hosting
 
@@ -1458,15 +2802,56 @@ Der Hosting-Nehmer ruft den Hosting-Service des Hosting-Anbieters auf und
 bezahlt entsprechend der vereinbarten Leistungen. Der AZPD ist ein
 Hosting-Anbieter. Es können auch andere Anbieter Hosting-Services anbieten.
 
-  ---> AFO 
+##### A_14503
 
-  ---> AFO 
+Der Anbieter des Hosting-Service MUSS dem Hosting-Nehmer mindestens die
+folgenden Leistungen anbieten und die Preise für die angebotenen
+Leistungsklassen und nutzbaren Bandbreiten in der Servicebeschreibung im
+Servicekatalog dokumentieren:
 
-  ---> AFO 
+Tabelle22: Tab_Hosting_Leistungsumfang
 
-  ---> AFO 
+ ---> TABLE
 
-  ---> AFO 
+**[\<=]**
+
+##### A_14509
+
+Der Anbieter des Hosting Service MUSS die gehosteten Dienste und Client-Software
+nach dem Typ der Anwendungsklasse gemäß Tabelle
+Tab_zentrNetz_Anwendungsklassen physikalisch trennen. Die
+Hosting-Infrastruktur MUSS exklusiv für die TI bereitgestellt werden.
+
+ 
+
+Tabelle23: Tab_zentrNetz_Anwendungsklassen
+
+ ---> TABLE
+
+**[\<=]**
+
+##### A_14539
+
+Der Anbieter des Hosting Service MUSS VMs mit Internetanbindung
+informationstechnisch getrennt von VMs mit Anbindung an die TI, in einer
+gesonderten mittels DMZ gesicherten
+Internet-Zone gemäß IT-Grund­schutz-Ka­ta­lo­ge des BSI betreiben [BSI
+Net1.1]. **[\<=]**
+
+##### A_14507
+
+Der Anbieter des Hosting Service MUSS
+
+ ---> UL
+
+Der Hosting-Nehmer MUSS über geplante und durchgeführte Änderungen an der VM
+in angemessener Vorlaufzeit sowie über Ausfälle oder Einschränkungen im
+Betrieb der VM informiert werden. **[\<=]**
+
+##### A_14508
+
+Der Anbieter des Hosting Service DARF NICHT unbefugt auf die vom Hosting-Nehmer
+gespeicherten, gesendeten und empfangenen Daten zugreifen. **[\<=]**
 
 ### 8 Anhang A – Verzeichnisse
 
@@ -1547,14 +2932,14 @@ Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 [2]:                     #2-übergreifende-netzwerk-festlegungen
 [2.1]:                   #21-netztopologie
 [2.2]:                   #22-netzwerkprotokolle
-[2.2.1]:                 #221-osi-schicht-1-und-2-(physical/data-link)
-[2.2.2]:                 #222-osi-schicht-3-(network)
+[2.2.1]:                 #221-osi-schicht-1-und-2-physical/data-link
+[2.2.2]:                 #222-osi-schicht-3-network
 [2.2.2.1]:               #2221-ip-version-4
 [2.2.2.2]:               #2222-ip-version-6
-[2.2.3]:                 #223-osi-schicht-4-(transport)
-[2.2.3.1]:               #2231-transmission-control-protocol-(tcp)-und-user-datagram-protocol-(udp)
+[2.2.3]:                 #223-osi-schicht-4-transport
+[2.2.3.1]:               #2231-transmission-control-protocol-tcp-und-user-datagram-protocol-udp
 [2.2.3.2]:               #2232-udp/tcp-portbereiche
-[2.2.3.3]:               #2233-transport-layer-security-(tls)
+[2.2.3.3]:               #2233-transport-layer-security-tls
 [2.3]:                   #23-ip-adresskonzept-der-ti
 [2.3.1]:                 #231-adressblöcke
 [2.3.2]:                 #232-prozesse-zur-ip-adressvergabe
@@ -1582,21 +2967,21 @@ Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 [2.7]:                   #27-ip-configuration-management
 [3]:                     #3-zentrales-netz-der-ti
 [3.1]:                   #31-zerlegung-des-produkttyps
-[3.1.1]:                 #311-sicherer-zentraler-zugangspunkt-(szzp)
+[3.1.1]:                 #311-sicherer-zentraler-zugangspunkt-szzp
 [3.1.1.1]:               #3111-netzkomponente
 [3.1.1.2]:               #3112-sicherheitsgateway
 [3.1.1.3]:               #3113-anbindungen
 [3.1.2]:                 #312-netzwerk
-[3.1.2.1]:               #3121-backbone-(zentrales-transportnetz-provider)
+[3.1.2.1]:               #3121-backbone-zentrales-transportnetz-provider
 [3.2]:                   #32-übergreifende-festlegungen
 [3.3]:                   #33-funktionsmerkmale
-[3.3.1]:                 #331-osi-schicht-1-und-2-(physical/data-link)
+[3.3.1]:                 #331-osi-schicht-1-und-2-physical/data-link
 [3.3.1.1]:               #3311-schnittstelle-cpe-produkttyp
 [3.3.1.2]:               #3312-hardwaremerkmale
-[3.3.2]:                 #332-osi-schicht-3-(network)
+[3.3.2]:                 #332-osi-schicht-3-network
 [3.3.2.1]:               #3321-schnittstelle-i_ip_transport
 [3.3.3]:                 #333-adressierung
-[3.3.3.1]:               #3331-schnittstelle-szzp-backbone-(ce-pe)-und-szzp-intern
+[3.3.3.1]:               #3331-schnittstelle-szzp-backbone-ce-pe-und-szzp-intern
 [3.3.4]:                 #334-routing
 [3.3.5]:                 #335-abstimmung-mit-angeschlossenen-produkttypen
 [3.4]:                   #34-verteilungssicht
@@ -1644,30 +3029,30 @@ Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 [Abbildung-11]:          gemSpec_Net_V1.23.0.attachments/16375713540687609086.png
 [Abbildung-13]:          gemSpec_Net_V1.23.0.attachments/2067806594367866547.emf
 [Abbildung-14]:          gemSpec_Net_V1.23.0.attachments/6115700746777642708.emf
-[Tbl-001]:               #Tbl-001 (&94027065694616)
-[Tabelle-1]:             #Tabelle-1 (&94027066290640)
-[Tbl-003]:               #Tbl-003 (&94027066427280)
-[Tabelle-3]:             #Tabelle-3 (&94027066591136)
-[Tabelle-4]:             #Tabelle-4 (&94027068672800)
-[Tabelle-5]:             #Tabelle-5 (&94027068770960)
-[Tabelle-6]:             #Tabelle-6 (&94027068913560)
-[Tbl-008]:               #Tbl-008 (&94027069121536)
-[Tabelle-8]:             #Tabelle-8 (&94027069347416)
-[Tabelle-9]:             #Tabelle-9 (&94027069485008)
-[Tabelle-10]:            #Tabelle-10 (&94027069525800)
-[Tabelle-11]:            #Tabelle-11 (&94027069852336)
-[Tabelle-12]:            #Tabelle-12 (&94027069878824)
-[Tabelle-13]:            #Tabelle-13 (&94027069926224)
-[Tbl-015]:               #Tbl-015 (&94027071670832)
-[Tbl-016]:               #Tbl-016 (&94027071794200)
-[Tabelle-16]:            #Tabelle-16 (&94027072524256)
-[Tbl-018]:               #Tbl-018 (&94027073076664)
-[Tabelle-18]:            #Tabelle-18 (&94027073102600)
-[Tbl-020]:               #Tbl-020 (&94027073199360)
-[Tbl-021]:               #Tbl-021 (&94027073687272)
-[Tabelle-21]:            #Tabelle-21 (&94027073752232)
-[Tabelle-22]:            #Tabelle-22 (&94027073789192)
-[Tabelle-23]:            #Tabelle-23 (&94027073808112)
-[Tbl-025]:               #Tbl-025 (&94027073878520)
-[Tbl-026]:               #Tbl-026 (&94027073985072)
-[Tbl-027]:               #Tbl-027 (&94027074003880)
+[Tbl-001]:               #Tbl-001 (&94359744002456)
+[Tabelle-1]:             #Tabelle-1 (&94359744598480)
+[Tbl-003]:               #Tbl-003 (&94359744735120)
+[Tabelle-3]:             #Tabelle-3 (&94359744898976)
+[Tabelle-4]:             #Tabelle-4 (&94359746980640)
+[Tabelle-5]:             #Tabelle-5 (&94359747078800)
+[Tabelle-6]:             #Tabelle-6 (&94359747221400)
+[Tbl-008]:               #Tbl-008 (&94359747429376)
+[Tabelle-8]:             #Tabelle-8 (&94359747655256)
+[Tabelle-9]:             #Tabelle-9 (&94359747792848)
+[Tabelle-10]:            #Tabelle-10 (&94359747833640)
+[Tabelle-11]:            #Tabelle-11 (&94359748160176)
+[Tabelle-12]:            #Tabelle-12 (&94359748186664)
+[Tabelle-13]:            #Tabelle-13 (&94359748234064)
+[Tbl-015]:               #Tbl-015 (&94359749978672)
+[Tbl-016]:               #Tbl-016 (&94359750102040)
+[Tabelle-16]:            #Tabelle-16 (&94359750832096)
+[Tbl-018]:               #Tbl-018 (&94359751384504)
+[Tabelle-18]:            #Tabelle-18 (&94359751410440)
+[Tbl-020]:               #Tbl-020 (&94359751507200)
+[Tbl-021]:               #Tbl-021 (&94359751995112)
+[Tabelle-21]:            #Tabelle-21 (&94359752060072)
+[Tabelle-22]:            #Tabelle-22 (&94359752097032)
+[Tabelle-23]:            #Tabelle-23 (&94359752115952)
+[Tbl-025]:               #Tbl-025 (&94359752186360)
+[Tbl-026]:               #Tbl-026 (&94359752292912)
+[Tbl-027]:               #Tbl-027 (&94359752311720)
