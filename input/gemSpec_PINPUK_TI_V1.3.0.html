@@ -1,0 +1,543 @@
+<html>
+ <head>
+  <style>
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* ol {
+  list-style-type: none;
+  Remove default numbering
+}
+
+ol > li:before {
+  counter-increment: mycounter;
+  content: counter(mycounter) ". ";
+}
+
+ol:first-of-type {
+  counter-reset: mycounter;
+} */
+
+@media print { h1, h2 { break-before: page; } }
+
+
+</style>
+  <meta charset="utf-8">
+ </head>
+ <body>
+  <p id="polarion_1"> <br> </p>
+  <p id="polarion_2"> <br> </p>
+  <p id="polarion_3"> <br> </p>
+  <p id="polarion_4"> <br> </p>
+  <p id="polarion_5"> <span style="font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;">Elektronische Gesundheitskarte und Telematikinfrastruktur</span> </p>
+  <p id="polarion_6"> <br> </p>
+  <p id="polarion_7"> <br> </p>
+  <p id="polarion_8"> <br> </p>
+  <p id="polarion_9"> <br> </p>
+  <p id="polarion_10" style="text-align: center;"> <span style="font-weight: bold;font-size: 28pt;line-height: 1.2;">Übergreifende Spezifikation PIN/PUK-Policy für Smartcards der Telematikinfrastruktur </span> </p>
+  <p id="polarion_11"> <br> </p>
+  <div id="polarion_editor_html_block1" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div>
+   <pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contenteditable="false">
+    <table>
+     <tr>
+      <td>Version</td>
+      <td>1.3.0</td>
+     </tr>
+     <tr>
+      <td>Revision</td>
+      <td>591017</td>
+     </tr>
+     <tr>
+      <td>Stand</td>
+      <td>14.05.2018</td>
+     </tr>
+     <tr>
+      <td>Status</td>
+      <td>freigegeben</td>
+     </tr>
+     <tr>
+      <td>Klassifizierung</td>
+      <td>öffentlich</td>
+     </tr>
+     <tr>
+      <td>Referenzierung</td>
+      <td>gemSpec_PINPUK_TI</td>
+     </tr>
+    </table></pre> 
+  </div>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-286">Dokumentinformationen</h1>
+  <p id="polarion_18"> <span style="font-weight: bold;">Änderungen zur Vorversion</span> </p>
+  <p id="polarion_19"> Änderungen gemäß Änderungsliste P15.2 sind gelb markiert.<br> </p>
+  <p id="polarion_20"> <span style="font-weight: bold;">Dokumentenhistorie</span> </p>
+  <table id="polarion_21" style="width: 445pt;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Version</span><br> </th> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Stand</span><br> </th> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Kap./ Seite</span><br> </th> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Grund der Änderung, besondere Hinweise</span><br> </th> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Bearbeitung</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">0.0.1</span><br> </td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">22.02.12</span><br> </td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br> </td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Ableitung des Dokumentes aus [gemSiko#AnhE]</span><br> </td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">ITS/SI</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br> </td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">24.02.12</span><br> </td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br> </td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Redaktionelle Überarbeitung im Rahmen des Projektes Online-Rollout Stufe 1, insbesondere die Umnummerierung der Anforderungsnummern entsprechend der Vorgaben des Projektes.</span><br> <span style="font-size: 10pt;line-height: 1.5;">Ergänzen des Anhangs A (Eingangsanforderungen) und Anhangs B (Ausgangsanforderungen)</span><br> </td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">ITS/SI</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">0.9.0</span><br> </td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">27.02.12</span><br> </td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br> </td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">formale QS</span><br> </td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">QM</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">0.10.0</span><br> </td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">20.04.12</span><br> </td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Kap. 2.1,</span><br> <span style="font-size: 10pt;line-height: 1.5;">Kap. 4 </span><br> </td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Ergänzung Kapitel 2.1 und Einführung von Kapitel 4.</span><br> </td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">ITS/SI</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">0.15.0</span><br> </td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">11.01.13</span><br> </td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br> </td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Anpassung an die Inhalte und Struktur der vergaberelevanten Dokumente</span><br> </td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">ITS/SI</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">0.19.0</span><br> </td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">22.04.13</span><br> </td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br> </td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Einarbeitung Gesellschafterkommentare</span><br> </td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">P77</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">1.0.0</span><br> </td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">06.06.13</span><br> </td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br> </td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">freigegeben</span><br> </td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">gematik</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">1.1.0</span><br> </td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">21.02.14</span><br> </td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br> </td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Losübergreifende Synchronisation</span><br> </td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">P77</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">1.2.0<br> </span></td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">28.10.16<br> </span></td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;"><br> </span></td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Einarbeitung lt. Änderungsliste<br> </span></td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">gematik</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">1.3.0<br> </span></td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">14.05.18<br> </span></td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;"><br> </span></td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">freigegeben<br> </span></td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">gematik </span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 48pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"></td> 
+     <td style="vertical-align: top;width: 54pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"></td> 
+     <td style="vertical-align: top;width: 58pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"></td> 
+     <td style="vertical-align: top;width: 212pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"></td> 
+     <td style="vertical-align: top;width: 73pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-287">Inhaltsverzeichnis</h1>
+  <div id="polarion_wiki macro name=toc"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-286">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-287">Inhaltsverzeichnis</a></li>
+   <li> : <a href="#1">1 Einordnung des Dokumentes</a></li>
+   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
+   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
+   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
+   <li> : : <a href="#1.4">1.4 Abgrenzung</a></li>
+   <li> : : <a href="#1.5">1.5 Methodik</a></li>
+   <li> : <a href="#2">2 Mindestanforderungen und Sicherheits-Policies für die Behandlung von PIN/PUK</a></li>
+   <li> : : <a href="#2.1">2.1 PIN/PUK-Erzeugung</a></li>
+   <li> : : <a href="#2.2">2.2 PIN/PUK-Speicherung</a></li>
+   <li> : : <a href="#2.3">2.3 PIN/PUK-Transport</a></li>
+   <li> : : <a href="#2.4">2.4 PIN/PUK-Verwendung</a></li>
+   <li> : : <a href="#2.5">2.5 PIN -Änderung</a></li>
+   <li> : : <a href="#2.6">2.6 PIN/PUK-Löschung</a></li>
+   <li> : <a href="#3">3 Mindestanforderungen und Sicherheits-Policies für die Behandlung der Schlüssel zum Schutz der PIN/PUK</a></li>
+   <li> : <a href="#4">4 Anhang A – Verzeichnisse</a></li>
+   <li> : : <a href="#4.1">4.1 Abkürzungen</a></li>
+   <li> : : <a href="#4.2">4.2 Glossar</a></li>
+   <li> : : <a href="#4.3">4.3 Referenzierte Dokumente</a></li>
+   <li> : : : <a href="#4.3.1">4.3.1 Dokumente der gematik</a></li>
+   <li> : : : <a href="#4.3.2">4.3.2 Weitere Dokumente</a></li>
+  </div>
+  <h2 id="1">1 Einordnung des Dokumentes</h2>
+  <h3 id="1.1">1.1 Zielsetzung</h3>
+  <p id="polarion_26">Die übergreifende PIN/PUK-Policy für Smartcards der TI gilt für den Gesamtbereich Kartenproduktion, Kartenausgabe, Karteneinzug der eGK und der HBA/SMC sowie für die Verwendung von deren PINs und den zugehörigen PUKs an allen betroffenen Komponenten der Telematikinfrastruktur. Die PINs für die qualifizierte elektronische Signatur eines HBA werden von der BNetzA geregelt und sind nicht Gegenstand dieses Dokumentes. Falls die eGK eine qualifizierte elektronische Signatur besitzt, so wird die PIN für diese qualifizierte elektronische Signatur von der BNetzA geregelt und ist ebenfalls nicht Gegenstand dieses Dokumentes.</p>
+  <p id="polarion_27">Die Anforderungen der übergreifenden PIN/PUK-Policy für Smartcards der TI stellen sicher, dass die PINs und zugehörige PUKs in der TI in jedem Verarbeitungsschritt und zu jedem Zeitpunkt auf einem einheitlichen Mindestniveau geschützt werden. Dadurch werden auch die Daten der TI auf einem adäquaten Sicherheitsniveau geschützt, auf die nach erfolgreicher Eingabe der PIN/PUK zugegriffen werden kann.</p>
+  <p id="polarion_28">Durch die übergreifende PIN/PUK-Policy für Smartcards der TI wird auch sichergestellt, dass die PIN/PUK für in der TI hinzukommende Smartcards mit einem einheitlichen Mindestniveau geschützt werden.</p>
+  <h3 id="1.2">1.2 Zielgruppe</h3>
+  <p id="polarion_29">Das Dokument richtet sich an Kartenherausgeber von eGK und HBA/SMC. Kartenherausgeber können Dritte mit der Kartenpersonalisierung beauftragen. In diesem Fall, in dem der Kartenherausgeber operative Aufgaben durch einen Dritten wahrnehmen lässt, muss der beauftragte Auftragnehmer die Anforderungen einhalten. Es bleibt jedoch in der Verantwortung des Kartenherausgebers sicherzustellen, dass der Beauftragte die Anforderungen umsetzt. Bei der Auswahl des Auftragnehmers ist hierauf zu achten.</p>
+  <h3 id="1.3">1.3 Geltungsbereich</h3>
+  <p id="polarion_30">Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des Deutschen Gesundheitswesens. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungsverfahren wird durch die gematik GmbH in gesonderten Dokumenten (z.B. Dokumentenlandkarte, Produkttypsteckbrief, Leistungsbeschreibung) festgelegt und bekannt gegeben.</p>
+  <p id="polarion_31"> <span style="font-weight: bold;font-style: italic;font-size: 10pt;line-height: 1.5;">Wichtiger Schutzrechts-/Patentrechtshinweis:</span> </p>
+  <p id="polarion_32"> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Das vorliegende Sicherheitskonzept ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Spezifikation in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der Spezifikation angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik übernimmt insofern keinerlei Gewährleistungen</span> </p>
+  <h3 id="1.4">1.4 Abgrenzung</h3>
+  <p id="polarion_33">Das Dokument definiert Anforderungen an Produkte und Verfahren, stellt jedoch keine Lösungsbeschreibungen dar.</p>
+  <h3 id="1.5">1.5 Methodik</h3>
+  <p id="polarion_34">Für die genauere Unterscheidung zwischen normativen und informativen Inhalten werden die dem RFC 2119 [RFC2119] entsprechenden in Großbuchstaben geschriebenen, deutschen Schlüsselworte (MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN) verwendet.</p>
+  <p id="polarion_35">Sie werden im Dokument wie folgt dargestellt:</p>
+  <p id="polarion_36" style="text-align: left;"> <span style="font-weight: bold;"><br> &lt;AFO-ID&gt; - &lt;Titel der Afo&gt;<br> </span><span style="font-weight: normal;"> Text / Beschreibung</span><span style="font-weight: bold;"><br> [</span><span style="font-weight: normal;">&lt;=</span><span style="font-weight: bold;">]</span><br> </p>
+  <p id="polarion_37">Dabei umfasst die Anforderung sämtliche innerhalb der Textmarken angeführten Inhalte.</p>
+  <h2 id="2">2 Mindestanforderungen und Sicherheits-Policies für die Behandlung von PIN/PUK</h2>
+  <p id="polarion_39">Der Zugriff auf personenbezogene und medizinische Daten der Telematikinfrastruktur (TI) ist unter anderem durch kryptographische Schlüssel geschützt, die auf Smartcards gespeichert sind und durch die Eingabe von PINs freigeschaltet werden. Um die Daten der TI auf einem adäquaten Sicherheitsniveau zu schützen, sind daher auch diese PINs der Smartcards in der TI in jedem Verarbeitungsschritt und zu jedem Zeitpunkt auf einem einheitlichen Mindestniveau zu schützen. Diese Mindestanforderungen gelten in gleicher Weise für PUKs, die für PIN-Änderungen bzw. für das Zurücksetzen des Fehlbedienungszählers einer PIN benötigt werden. Die Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, die Kartenpersonalisierer müssen bei der Auslieferung der Karten auch für die geschützte Übermittlung der benötigten PINs und PUKs sorgen.</p>
+  <p id="polarion_40">Dieses Kapitel beschreibt die Mindestanforderungen an die Behandlung von PIN/PUK, damit unabhängig von der jeweils gewählten Verfahrensvariante zur Aushändigung der PIN/PUK-Briefe und der Karten (z.B. Transport-PIN-Verfahren oder Echt-PIN-Verfahren) ein einheitliches Sicherheitsniveau für die PIN/PUK in der Telematikinfrastruktur gewährleistet werden kann.</p>
+  <div id="GS-A_2229">
+   <p><b>GS-A_2229 - Prozesse und Maßnahmen zur Aushändigung von Karte und PIN/PUK-Brief</b></p>
+   <p><p style="margin-left: 0px;"><span>Die Erreichung der Schutzziele Vertraulichkeit, Integrität, Authentizität, Verfüg</span><span></span><span>barkeit und Nichtabstreitbarkeit sowie die Wirksamkeit und Konsistenz der gewähl</span><span>ten Maßnahmen und Prozesse zur Aushändigung der PIN/PUK-Briefe sowie der Karten MUSS vom Kartenherausgeber bewertet und gewährleistet werden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_42">Es ist vorgesehen, dass der Karteninhaber seinen persönlichen Willen durch Besitz (der Karte) und Wissen (der PIN) ausdrücken kann. Mit diesen PINs zur Authentifizierung werden kryptographische Schlüssel zugänglich, die einen Zugriff auf personenbezogene und medizinische Daten ermöglichen. Daraus resultieren u. A. die Anforderungen:</p>
+  <div id="GS-A_2227">
+   <p><b>GS-A_2227 - Keine Kartendubletten</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS technisch kontrollieren und zusichern, dass jede Kar</span><span>te mit der zugehörigen PIN/PUK nur einmal existiert (keine Kartendubletten) und auch nur einmal an den Karteninhaber sicher ausgegeben wird.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2228">
+   <p><b>GS-A_2228 - Trennung von Karte und PIN/PUK-Brief</b></p>
+   <p>Der Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer MUSS organisatorisch sicherstellen, dass Karte und PIN/PUK-Brief bis zur Übergabe an den Karteninhaber nie gemeinsam an einer Stelle beim Kartenherausgeber bzw. Kartenpersonalisierer vorhanden sind, z. B. durch den getrennten Versand mit einem Mindestabstand von drei Tagen mit unterschiedlichen Rücksendeadressen.<br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_5387">
+   <p><b>GS-A_5387 - Beachten von Vorgaben bei der Kartenpersonalisierung</b></p>
+   <p>Der Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer MUSS die Vorgaben und Empfehlungen von Kartenherstellern (bspw. Personalisierungsguides) beachten und umsetzen.<br> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_15">In den nachfolgenden Unterkapiteln werden die für HBA, SMC und eGK mindest einzuhaltenden Sicherheitsanforderungen und -policies über den gesamten Lebenszyklus beschrieben. Es werden dabei die folgenden Phasen unterschieden:</p>
+  <ul id="polarion_14"> 
+   <li>PIN/PUK-Erzeugung</li> 
+   <li>PIN/PUK-Speicherung</li> 
+   <li>PIN/PUK-Transport</li> 
+   <li>PIN/PUK-Verwendung</li> 
+   <li>PIN/PUK-Änderung</li> 
+   <li>PIN/PUK-Löschung</li> 
+  </ul>
+  <h3 id="2.1">2.1 PIN/PUK-Erzeugung</h3>
+  <p id="polarion_47">Grundsätzlich sind für die PIN-Erzeugung Verfahren möglich, bei denen die Auswahl einer PIN durch den Karteninhaber erfolgt oder bei dem die PIN dem Karteninhaber durch den Kartenherausgeber bzw. Kartenpersonalisierer zugewiesen wird.</p>
+  <div id="GS-A_2232">
+   <p><b>GS-A_2232 - PIN/PUK-Erzeugung: Verfahren für PIN/PUK-Auswahl</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer</span><span> MUSS sicherstellen, dass die PIN/PUK-Auswahl gemäß einer der folgenden Techniken erfolgt:</span></p>
+    <ul>
+     <li><p><span>zugewiesene zufällige oder pseudozufällige PIN/PUK</span></p></li>
+     <li><p><span>zugewiesene abgeleitete PIN/PUK</span></p></li>
+     <li><p><span>durch </span><span>Karteninhaber </span><span>gewählte PIN.</span></p></li>
+    </ul><p style="margin-left: 0px;"><span>Festlegungen in den Spezifikationen eines Kartentyps können die erlaubten Ver</span><span></span><span>fahren weiter einschränken.</span><span style="font-weight: bolder;"> </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2239">
+   <p><b>GS-A_2239 - PIN/PUK-Erzeugung: Ableitung von PIN im Sicherheitsmodul</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer</span><span> MUSS die PIN/PUK in einem Sicherheitsmodul mit ge</span><span></span><span>prüf</span><span></span><span>t</span><span>en Algorithmen gemäß der </span><span>Mindestst</span><span>andards</span><span> der gematik</span><span> </span><span>entsprechend [gemSpec_Krypt] </span><span>erzeugen oder ab</span><span>leiten, so dass sie nicht von Unbefugten ausgelesen oder manipuliert werden können.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_50">Die Mindestanforderungen der gematik an kryptographische Algorithmen sind in [gemSpec_Krypt] beschrieben.</p>
+  <p id="polarion_51">Falls der Kartenherausgeber bzw. der Kartenpersonalisierer die PINs zuweist, so können die PINs/PUKs entweder (pseudo-)zufällig erzeugt oder aus Kartendaten abgeleitet werden.</p>
+  <p id="polarion_52" style="margin-left: 0px;"> <br> </p>
+  <div id="GS-A_2234">
+   <p><b>GS-A_2234 - PIN/PUK-Erzeugung: Zufallsgenerator für PIN/PUK</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass, falls die PIN/PUK zufällig oder pseudo</span><span></span><span>zufällig erzeugt wird, der dabei ver</span><span></span><span>wen</span><span></span><span>dete Zufalls- oder Pseudozufalls</span><span></span><span>ge</span><span></span><span>ne</span><span></span><span>ra</span><span></span><span>tor die vorgegebenen Mindestan</span><span></span><span>for</span><span></span><span>derungen der gematik </span><span>entsprechend [gemSpec_Krypt] </span><span>erfüllt. </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_54">Die Mindestanforderungen der gematik an einen Zufalls- oder Pseudozufallsgenerator sind in [gemSpec_Krypt] beschrieben.</p>
+  <div id="GS-A_2235">
+   <p><b>GS-A_2235 - PIN/PUK-Erzeugung: Ableitung von PIN</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass, falls die PIN/PUK aus Karten</span><span></span><span>da</span><span></span><span>ten abgeleitet wird, die abgeleitete PIN/PUK ohne Kenntnis des benutzten Schlüs</span><span></span><span>sels nicht einfacher bestimmt werden kann als </span><span>eine zufällig erzeugte PIN/PUK.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_56">Der Kartenherausgeber bzw. Kartenpersonalisierer muss bei der Ableitung der PIN also insbesondere verhindern, dass der Ableitungsprozess spezielle Werte bevorzugt erzeugt und dass zugewiesene PIN/PUK gleich verteilt sind, um das Erraten einer PIN/PUK zu erschweren.</p>
+  <div id="GS-A_2236">
+   <p><b>GS-A_2236 - PIN/PUK-Erzeugung: Ableitung der PIN aus eindeutig dem Versicherten zugeordneten Daten</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>tenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass, falls die PIN/PUK aus Karten</span><span></span><span>daten abgeleitet wird, sie kryptographisch von voll</span><span></span><span>ständigen Kartenidentifikations</span><span></span><span>daten, die eineindeutig dem Versicherten zugeordnet sind, abgeleitet wird. </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2237">
+   <p><b>GS-A_2237 - PIN/PUK-Erzeugung: kein Rückschluss von PIN/PUK auf Schlüssel</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass, falls die PIN/PUK aus Karten</span><span></span><span>da</span><span></span><span>ten abgeleitet wird, aus der Kenntnis der PIN/PUK und der Inputdaten keine Infor</span><span></span><span>ma</span><span></span><span>tionen über den benutzten Schlüssel des </span><span>Kartenheraus</span><span>gebers </span><span>bzw.</span><span> </span><span>Kartenpersonalisierers </span><span>abgeleitet werden kön</span><span></span><span>nen. Der </span><span>Kartenheraus</span><span>geber </span><span>bzw. </span><span>Kartenpersonalisierer</span><span> MUSS sicherstellen, dass die Mindestan</span><span></span><span>for</span><span></span><span>derungen der gematik für die kryptographischen Algorithmen </span><span>entsprechend [gemSpec_Krypt] </span><span>erfüllt werden. </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_59">Die Mindestanforderungen der gematik an kryptographische Algorithmen sind in [gemSpec_Krypt] beschrieben.</p>
+  <p id="polarion_60">Falls die PIN vom Karteninhaber gewählt wird, ist dieser über die Anforderungen an die PIN-Auswahl zu informieren.</p>
+  <div id="GS-A_2230">
+   <p><b>GS-A_2230 - PIN/PUK-Erzeugung: Länge PIN/PUK (Kartenherausgeber)</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>ten</span><span></span><span>personalisierung beauftragt, der Kartenpersonalisierer</span><span> </span><span>MUSS den Karteninhaber bei einer durch den Kartenin</span><span></span><span>haber selbst zu wählenden PIN, über die Länge der PIN informieren. </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2238">
+   <p><b>GS-A_2238 - PIN/PUK-Erzeugung: Informationen an Karteninhaber bei selbstständiger Wahl der PIN</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>tenpersonalisierung beauftragt, der Kartenpersonalisierer</span><span> MUSS, falls die PIN durch die Karteninhaber gewählt wird, dem Karteninhaber entsprechende Auswahl</span><span></span><span>an</span><span></span><span>weisungen </span><span>sowie</span><span> Warnungen geben und dem Karteninhaber bei der </span><span>Karten</span><span></span><span>aus</span><span></span><span>gabe</span><span> zusenden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="2.2">2.2 PIN/PUK-Speicherung</h3>
+  <p id="polarion_63">Eine Speicherung von PINs/PUKs beim Herausgeber für die Nutzung im Produktionsprozess erfolgt nur so lange, bis PIN und PUK auf die Karte und den PIN/PUK-Brief übertragen wurden.</p>
+  <div id="GS-A_5209">
+   <p><b>GS-A_5209 - PIN/PUK-Speicherung: PIN/PUK unverzüglich löschen</b></p>
+   <p><p style="margin-left: 0px;"><span>Der Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer MUSS die PIN/PUK einer Karte in seinen Systemen unverzüglich löschen, nachdem PIN und PUK auf die Karte übertragen und der PIN/PUK-Brief an den Karteninhaber erstellt wurden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_65">Die gespeicherte PIN darf nicht abgehört oder unbemerkt manipuliert werden können. PINs dürfen nur innerhalb von Sicherheitsmodulen (Chip, HSM) und Sicherheitsobjekten (inkl. PIN/PUK-Briefe) im Klartext vorliegen.</p>
+  <div id="GS-A_2240">
+   <p><b>GS-A_2240 - PIN/PUK-Speicherung: Verschlüsselung der PIN außerhalb von Sicherheitsmodulen</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>tenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS die PIN/PUK verschlüsseln, falls die PIN/PUK außer</span><span></span><span>halb eines Sicherheitsmoduls gespeichert wird. Der </span><span>Kartenheraus</span><span>geber </span><span>bzw. </span><span>Kartenpersonalisierer</span><span> MUSS sicherstellen, dass die dabei verwendeten kryptographischen Algorithmen die aktuellen Mindest</span><span></span><span>an</span><span></span><span>for</span><span></span><span>derungen der gematik </span><span>entsprechend [</span><span>gemSpec_Krypt</span><span>] </span><span>erfüllen.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2242">
+   <p><b>GS-A_2242 - PIN/PUK-Speicherung: Integrität der PIN außerhalb von Sicherheitsmodulen</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS die Integrität der PIN/PUK schützen, falls die PIN/PUK außerhalb eines Sicherheitsmoduls ge</span><span></span><span>speichert wird. Der </span><span>Kartenheraus</span><span>geber </span><span>bzw. </span><span>Kartenpersonalisierer</span><span> MUSS sicher</span><span></span><span>stellen, dass die dabei verwendeten kryptographischen Algorith</span><span></span><span>men die aktuellen Mindestanforderungen der gematik </span><span>entsprechend [</span><span>gemSpec_Krypt</span><span>] </span><span>erfüllen.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_68">Die Mindestanforderungen der gematik an kryptographische Algorithmen sind in [gemSpec_Krypt] beschrieben.</p>
+  <div id="GS-A_2244">
+   <p><b>GS-A_2244 - PIN/PUK-Speicherung: Verschlüsselung unterschiedlicher PINs mit unterschiedlichen Schlüsseln</b></p>
+   <p><p style="margin-left: 0px;"><span>Falls PINs bzw. PUKs außerhalb der Karte gespe</span><span>i</span><span>chert werden, dann MUSS der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer</span><span> für den Schutz unterschiedlicher PINs und der PUK einer Karte während der Speicherung verschiedene Verschlüss</span><span>e</span><span>lungsschlüssel verwenden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2246">
+   <p><b>GS-A_2246 - PIN/PUK-Speicherung: Verschlüsselung gleicher PINs führt zu unterschiedlichen verschlüsselten Werten</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>ten</span><span></span><span>personalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass falls zwei PINs zufällig den gleichen Wert aufweisen, diese bei der Ver</span><span></span><span>schlüs</span><span></span><span>selung zur Speicherung beim </span><span>Kartenheraus</span><span>geber </span><span>bzw. </span><span>Kartenper</span><span></span><span>sonalisierer</span><span> nicht auf den gleichen verschlüsselten Wert abgebildet werden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2247">
+   <p><b>GS-A_2247 - PIN/PUK-Speicherung: Wiederholte Verschlüsselung der PIN führt zu unterschiedlichen Werten</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>ten</span><span></span><span>personalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass, falls dieselbe PIN wiederholt ver</span><span></span><span>schlüsselt wird, die entsprechenden ver</span><span></span><span>schlüsselten Werte unterschiedlich sind.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2248">
+   <p><b>GS-A_2248 - PIN/PUK-Speicherung: unterschiedliche Schlüssel für unterschiedliche Zwecke</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass für das Verschlüsseln der PIN zur Speicherung je Verwendungszweck bzw. Empfänger (u. a. PIN-Druck, Chip-Per</span><span></span><span>sonalisierung, Speicherung) unterschiedliche Schlüssel verwendet werden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2249">
+   <p><b>GS-A_2249 - PIN/PUK-Speicherung: Dokumentation der Zwecke</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass für die Schlüssel die ent</span><span></span><span>sprech</span><span></span><span>en</span><span></span><span>den Verwendungszwecke bzw. Empfänger dokumentiert werden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_74">Die Dokumentation dient zum Nachweis der korrekten Schlüsselverwendung und kann u.a. im Falle von Audits herangezogen werden.</p>
+  <div id="GS-A_2250">
+   <p><b>GS-A_2250 - PIN/PUK-Speicherung: Entschlüsselung nur durch berechtigten Empfänger</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>ten</span><span></span><span>personalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS durch ge</span><span></span><span>eignete organisatorische und technische Maß</span><span></span><span>nahmen (z. B. Schlüsseltrennung, getrennte HSMs) sicherstellen, dass nur inner</span><span></span><span>halb der Sicherheitsmodule berechtigter Em</span><span></span><span>pfänger und Komponenten die PIN entschlüsselt und im Klartext vorliegen kann.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="2.3">2.3 PIN/PUK-Transport</h3>
+  <p id="polarion_76">Ein Transport der PIN/PUK innerhalb des Systems ist zu verschiedenen Zwecken notwendig. Dazu gehört z. B. die Mitteilung der PIN durch den Kartenherausgeber bzw. Kartenpersonalisierer an den Karteninhaber oder der Druck des PIN/PUK-Briefes. Die nachfolgenden Mindestanforderungen für den PIN/PUK-Transport müssen für jeden Transport eingehalten werden.</p>
+  <p id="polarion_13">Dieses Unterkapitel betrifft nicht die Verteilung öffentlicher Transport-PINs bzw. Einmal-PINs, die nach der Eingabe durch den Karteninhaber zu ändern sind.</p>
+  <div id="GS-A_2253">
+   <p><b>GS-A_2253 - PIN/PUK-Transport: Sicherer PIN-Transport beim Kartenherausgeber bzw. Kartenpersonalisierer</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass die PIN/PUK in Transport und Speicherung vor nicht autorisierter Aufdeckung und Weitergabe geschützt wird.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2254">
+   <p><b>GS-A_2254 - PIN/PUK-Transport: Schutz außerhalb geschützter Hardware beim Kartenherausgeber bzw. Kartenpersonalisierer</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass PINs/PUKs außerhalb geschütz</span><span></span><span>ter Hardware nicht unverschlüsselt auftreten. Ausnahme ist der einmalige Ausdruck des PIN/PUK-Briefes, der durch gesonderte organisatorische Maßnahmen gesichert ist.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2255">
+   <p><b>GS-A_2255 - PIN/PUK-Transport: Verteilung beschränken</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass die Verteilung der PIN/PUK auf das absolut notwendige Maß eingeschränkt wird, um die Möglichkeiten zur Kom</span><span></span><span>pro</span><span></span><span>mittierung der PIN/PUK zu minimieren und potentielle Schäden zu beschrän</span><span></span><span>ken.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2256">
+   <p><b>GS-A_2256 - PIN/PUK-Transport: einmalige PIN-Erstellung beim Kartenherausgeber bzw. Kartenpersonalisierer</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass eine PIN/PUK </span><span>für den Transport nur erstellt wird, wenn dies erforderlich ist und direkt dem Karteninhaber übermi</span><span>t</span><span>telt wird.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2260">
+   <p><b>GS-A_2260 - PIN/PUK-Transport: Transport außerhalb eines Sicherheitsmoduls</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>ten</span><span></span><span>personalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass während des elektronischen PIN/PUK-Transports außerhalb einer sicheren Um</span><span></span><span>gebung oder eines Sicher</span><span></span><span>heits</span><span></span><span>moduls, die PIN verschlüsselt ist. Der </span><span>Karten</span><span></span><span>heraus</span><span>geber </span><span>bzw. </span><span>Karten</span><span></span><span>personalisierer</span><span> MUSS sicherstellen, dass die dabei verwendeten krypto</span><span></span><span>graphischen Algorithmen die aktuellen Mindest</span><span></span><span>anfor</span><span></span><span>derungen der gematik</span><span> entsprechend [</span><span>gemSpec_Krypt</span><span>]</span><span> </span><span>erfüllen.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2261">
+   <p><b>GS-A_2261 - PIN/PUK-Transport: Transport außerhalb eines Sicherheitsmoduls - kein Klartext</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass eine PIN/PUK außerhalb einer sicheren Umgebung oder eines Sicher</span><span></span><span>heits</span><span></span><span>moduls nicht im Klartext erscheint.</span><span> Ausnahme ist der Ausdruck des PIN/PUK-Briefes, der durch gesonderte organisatorische Maßnahmen </span><span>zu sichern</span><span> ist. </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2264">
+   <p><b>GS-A_2264 - PIN/PUK-Transport: elektronische PIN-Verteilung</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kar</span><span></span><span>ten</span><span></span><span>personalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass während der elektronischen PIN</span><span>/PUK</span><span>-Verteilung außerhalb einer sicheren Um</span><span></span><span>gebung oder eines Sicherheitsmoduls die Integrität der PIN/PUK geschützt wird. Der </span><span>Kartenheraus</span><span>geber </span><span>bzw. </span><span>Kartenpersonalisierer</span><span> MUSS sicherstellen, dass die da</span><span></span><span>bei verwendeten kryptographischen Algorithmen die aktuellen Mindest</span><span></span><span>anfor</span><span></span><span>derungen der gematik</span><span> entsprechend [</span><span>gemSpec_Krypt</span><span>]</span><span> </span><span>erfüllen.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2266">
+   <p><b>GS-A_2266 - PIN/PUK-Transport: Verschlüsselung gleicher PINs muss zu unterschiedlichen Werten führen</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass, falls zwei PINs einer Karte zu</span><span></span><span>fällig den gleichen Wert aufweisen, sie bei der Verschlüsselung zum Transport auf ver</span><span></span><span>schiedene verschlüsselte Werte abgebildet werden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2270">
+   <p><b>GS-A_2270 - PIN/PUK-Transport: Unterschiedliche verschlüsselte Werte auch bei gleichen PINs</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass falls zwei PINs unterschiedlicher Kar</span><span></span><span>ten zufällig den gleichen Wert aufweisen, sie bei der Verschlüsselung zum Trans</span><span></span><span>port auf verschiedene verschlüsselte Werte abgebildet werden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2271">
+   <p><b>GS-A_2271 - PIN/PUK-Transport: kein Rückschluss auf vorher benutzte Schlüssel</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass </span><span>d</span><span>ie Wahl </span><span>der </span><span>Schlüssel </span><span>zum Schutz der PIN/PUK während der Verteilung </span><span>so </span><span>erfolgt</span><span>, dass es nicht möglich ist, bei Kenntnis aller ab einem Zeitpunkt be</span><span></span><span>nutz</span><span></span><span>ten Schlüssel die vorher benutzten Schlüssel abzuleiten.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2274">
+   <p><b>GS-A_2274 - PIN/PUK-Transport: Löschung der PIN nach Transport</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass die PIN/PUK nach der Über</span><span></span><span>tragung in den bei der Übertragung beteiligten und in seiner Verantwortung befind</span><span></span><span>lichen Komponenten sicher gelöscht werden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_88">Im BSI-Grundschutzbaustein M 2.167 „Auswahl geeigneter Verfahren zur Löschung oder Vernichtung von Daten“ oder in der Technischen Leitlinie des BSI "Richtlinien für das Löschen und Vernichten von schutzbedürftigen Informationen auf analogen und digitalen Datenträgern" sind Maßnahmenempfehlungen für sicheres Löschen beschrieben.</p>
+  <div id="GS-A_2276">
+   <p><b>GS-A_2276 - PIN/PUK-Transport: Aktivitäten im Vier-Augen-Prinzip bei der Zuordnung einer PIN/PUK zu einer Karte</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass alle Aktivitäten und die unter</span><span></span><span>stützenden Systemfunktionen der PIN</span><span>/PUK</span><span>-Herausgabe, die die Zuordnung einer PIN</span><span>/PUK</span><span> zu einer Karte oder zu einem Karteninhaber betreffen und die Personal des Heraus</span><span></span><span>gebers bzw. Personal des vom </span><span>Kartenheraus</span><span>geber </span><span>beauftragten </span><span>Kartenpersonalisierers </span><span>benötigen, dem Vier</span><span>-A</span><span>ugen</span><span>-P</span><span>rinzip gehorchen.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2277">
+   <p><b>GS-A_2277 - PIN/PUK-Transport: Aktivitäten im Vier-Augen-Prinzip beim Rücksetzen des Fehlbedienungszählers</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass alle Funk</span><span></span><span>tionen, die das Rück</span><span></span><span>set</span><span></span><span>zen des Fehlbedienungszählers bzw. der (De)Aktivierung einer Karte oder Kar</span><span></span><span>ten</span><span></span><span>anwendung betreffen und die Personal des </span><span>Kartenh</span><span>eraus</span><span>gebers </span><span>bzw. </span><span>Kartenpersonalisierer</span><span> benötigen, dem Vier</span><span>-A</span><span>ugen</span><span>-P</span><span>rinzip gehorchen.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="2.4">2.4 PIN/PUK-Verwendung</h3>
+  <p id="polarion_91">An den Kartenherausgeber und den Kartenpersonalisierer werden bzgl. der Verwendung der PIN/PUK keine Anforderungen gestellt.</p>
+  <h3 id="2.5">2.5 PIN -Änderung</h3>
+  <p id="polarion_92">Eine Änderung einer PIN kann aus mehreren Gründen notwendig sein:</p>
+  <ul id="polarion_93"> 
+   <li>der Karteninhaber möchte die PIN wechseln,</li> 
+   <li>der Karteninhaber hat die PIN vergessen, </li> 
+   <li>die PIN ist (tatsächlich oder mutmaßlich) kompromittiert.</li> 
+  </ul>
+  <p id="polarion_94" style="margin-left: 0px;">Für die Prozesse beim Kartenherausgeber bzw. Kartenpersonalisierer ergeben sich hieraus folgende Anforderungen:</p>
+  <div id="GS-A_2284">
+   <p><b>GS-A_2284 - PIN/PUK-Änderung: Änderungen durch Kartenpersonalisierer im Vier-Augen-Prinzip</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, </span><span>dass alle </span><span>Prozesse einer </span><span>PIN-Änderung, die Personal des </span><span>Kartenh</span><span>eraus</span><span>gebers </span><span>bzw. </span><span>Kartenpersonalisierer</span><span>s</span><span> benötigen, dem Vier</span><span>-A</span><span>ugen</span><span>-P</span><span>rinzip ge</span><span></span><span>horchen.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2285">
+   <p><b>GS-A_2285 - PIN/PUK-Änderung: Prozess bei Kompromittierung beim Kartenherausgeber bzw. Kartenpersonalisierer</b></p>
+   <p>Falls der Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer eine PIN/PUK von Kartendaten ableiten kann oder in anderer Weise zur Verfügung hat, MUSS er sicherstellen, dass, falls eine PIN/PUK beim Kartenherausgeber bzw. Kartenpersonalisierer kompromittiert wurde, die PIN/PUK beim Kartenherausgeber bzw. Kartenpersonalisierer so schnell wie möglich deaktiviert bzw. gesperrt wird. Der Kartenherausgeber bzw. Kartenpersonalisierer MUSS sicherstellen, dass es einen praktikablen Prozess gibt, um kompromittierte PIN/PUK beim Kartenherausgeber bzw. Kartenpersonalisierer zu sperren. Der Kartenherausgeber bzw. Kartenpersonalisierer MUSS den Karteninhaber über die Kompromittierung informieren.<br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_5085">
+   <p><b>GS-A_5085 - PIN/PUK-Änderung: Prozess bei Kompromittierungsmeldung durch Karteninhaber</b></p>
+   <p><p style="margin-left: 0px;"><span>Falls der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer</span><span> eine PIN</span><span>/PUK</span><span> von Kartendaten ableiten kann oder in anderer Weise zur Verf</span><span>ü</span><span>gung hat, MUSS er sicherstellen,</span><span> </span><span>dass,</span><span> </span><span>falls</span><span> </span><span>eine</span><span> </span><span>PIN</span><span>/PUK</span><span> vom Karteninh</span><span>a</span><span>ber als kompromittiert gemeldet wurde, die PIN</span><span>/PUK</span><span> beim </span><span>Kartenherausgeber bzw. </span><span>Kartenpersonalisierer so schnell wie</span><span> </span><span>möglich dea</span><span>k</span><span>tiviert bzw. gesperrt wird.</span><span> </span><span>Der</span><span> </span><span>Kartenherausgeber bzw. </span><span>Kartenpersonalisierer</span><span> </span><span>MUSS</span><span> </span><span>sicherstellen,</span><span> </span><span>dass</span><span> </span><span>es</span><span> </span><span>einen praktikablen Pr</span><span>o</span><span>zess gibt, um kompromittierte PIN</span><span>/PUK</span><span> beim </span><span>Kartenherausgeber bzw. </span><span>Kartenpe</span><span>r</span><span>sonalisierer zu sperren. Der </span><span>Kartenherausgeber bzw. </span><span>Kartenpersonalisierer</span><span> </span><span>MUSS</span><span> </span><span>den</span><span> </span><span>Karteninhaber</span><span> </span><span>über die Prozesse zur Sperrung von kompromittie</span><span>r</span><span>ten PIN</span><span>/PUK</span><span> informi</span><span>e</span><span>ren </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="2.6">2.6 PIN/PUK-Löschung</h3>
+  <p id="polarion_98">Die PIN/PUK darf nur für den vorgesehenen Zweck verwendet werden. Um missbräuchliche Verwendung und Kompromittierungsmöglichkeiten zu verringern, muss eine nicht mehr benötigte PIN/PUK daher in allen Komponenten unverzüglich sicher gelöscht werden. In der Regel sind die PINs/PUKs nach dem einmaligen Gebrauch unverzüglich zu löschen.</p>
+  <p id="polarion_99">Für die ggf. notwendige Speicherung in zentralen Systemen in der Verantwortung des Kartenherausgebers bzw. des von ihm beauftragten Kartenpersonalisierers sind die folgenden Anforderungen mindestens einzuhalten.</p>
+  <div id="GS-A_2287">
+   <p><b>GS-A_2287 - PIN/PUK-Löschung: Nachweis der Löschung nicht mehr gebrauchter PIN beim Kartenherausgeber bzw. Kartenpersonalisierer</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS sicherstellen, dass die unverzügliche sichere Löschung von nicht mehr benötigten elektronischen PIN</span><span>s</span><span>/PUK</span><span>s</span><span> bzw. zugeordnete</span><span>n</span><span> Schlüs</span><span></span><span>seln in den Komponenten und Diensten, die in seiner Verantwortung sind, in seinem Sicherheitskonzept nachgewiesen wird. </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2252">
+   <p><b>GS-A_2252 - PIN/PUK-Löschung: Löschung von PIN/PUK nach Ablauf der Speicherdauer</b></p>
+   <p><p style="margin-left: 0px;"><span>Der Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer MUSS sicherstellen, dass die PIN/PUK nach Ablauf der Speicher</span><span>dauer in den Komponenten und Diensten, die in seiner Verantwortung sind, sicher gelöscht wird.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2291">
+   <p><b>GS-A_2291 - PIN/PUK-Löschung: Löschen von nicht mehr benötigten Klartext-PIN</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer </span><span>MUSS Vorkehrungen treffen, um die nicht mehr benötigte Klar</span><span></span><span>text-PIN/PUK so zerstören zu können, dass es nicht mehr mög</span><span></span><span>lich ist, die PIN/PUK ganz oder teilweise zu rekonstruieren. Ins</span><span></span><span>be</span><span></span><span>sondere MÜSSEN die </span><span>Kartenheraus</span><span>geber </span><span>bzw. </span><span>Kartenpersonalisierer</span><span> ge</span><span></span><span>eignete Sicher</span><span></span><span>heits</span><span></span><span>maßnah</span><span></span><span>men treffen in Bezug auf die interne Hand</span><span></span><span>habung und Be</span><span></span><span>seitigung von zurückgesendeten PIN/PUK-Briefen und Ma</span><span></span><span>terial, das mit dem ursprünglichen Druck der PIN/PUK-Briefe verbunden ist. Dabei MUSS der </span><span>Karten</span><span></span><span>heraus</span><span>geber </span><span>bzw. </span><span>Kartenpersonalisierer</span><span> sicherstellen, dass die Behandlung zurück</span><span></span><span>gesandter PIN/PUK-Briefe von der Behandlung der zurückgesandten Karten organisatorisch getrennt ist. </span></p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="GS-A_2292">
+   <p><b>GS-A_2292 - PIN/PUK-Löschung: Außerbetriebnahme der PIN und Karte</b></p>
+   <p><p style="margin-left: 0px;"><span>Der Kartenherausgeber MUSS die sichere Außerbetriebnahme der PIN und der da</span><span></span><span>mit verbundenen Karten regeln. Der Kartenherausgeber MUSS entsprechende pra</span><span></span><span>xis</span><span></span><span>taugliche Ver</span><span>fahren </span><span>festlegen</span><span>.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_104"> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Hinweis: Auch abgelaufene Karten bergen Risiken z. B. auf der eGK vorhandene medizinische Daten wie etwa Notfalldaten sowie im HBA noch verwendbare C2C-Authentisierungsschlüssel, die einen Offline-Zugriff auf geschützte medizinische Daten ermöglichen.</span> </p>
+  <h2 id="3">3 Mindestanforderungen und Sicherheits-Policies für die Behandlung der Schlüssel zum Schutz der PIN/PUK</h2>
+  <p id="polarion_106">Das sichere Management der Schlüssel für die Behandlung der PIN/PUK ist entscheidend für die Einhaltung der Mindestanforderungen für PIN/PUK. Die Schlüsselverwendung und die nachfolgenden Bereiche des Schlüsselmanagements müssen die Mindestanforderungen der gematik erfüllen: Der Lebenszyklus der Schlüssel umfasst nach [ISO11770] die Schlüsselerzeugung (generation) mit Registrierung des Schlüssels bzw. des Zertifikats, die Schlüsselableitung, die Schlüsselaktivierung (activation) mit der Installation, jeweils optional die Zertifikatserzeugung, die Schlüsselverteilung, die Schlüsselspeicherung sowie die Schlüsseldeaktivierung (deactivation), die Reaktivierung (reactivation) und die Schlüsselzerstörung (destruction).</p>
+  <div id="GS-A_2295">
+   <p><b>GS-A_2295 - Schutz der Schlüssel für PIN/PUK gemäß Hierarchiestufe 4</b></p>
+   <p><p style="margin-left: 0px;"><span>Der </span><span>Kartenherausgeber oder, falls der Kartenherausgeber einen Dritten mit der Kartenpersonalisierung beauftragt, der Kartenpersonalisierer</span><span> MUSS sicherstellen, dass für die Schlüssel zum Schutz der PIN/PUK, die bei der Kartenproduktion verwendet werden, die organisa</span><span></span><span>torischen und technischen Maßnahmen eingesetzt werden, die sicherstellen, dass</span></p>
+    <ul>
+     <li><p><span>nur autorisierte Personen das Schlüsselmaterial verwenden können,</span></p></li>
+     <li><p><span>das Vier-Augen-Prinzip bei allen Operationen mit diesen Schlüsseln durchgesetzt wird,</span></p></li>
+     <li><p><span>die Sch</span><span>lüssel nur innerhalb von Sicher</span><span>heitsmodulen (Chip, HSM) im Klartext vorliegen,</span></p></li>
+     <li><p><span>die Schlüssel mithilfe eines physikalischen Zufallsgenerators erzeugt werden,</span></p></li>
+     <li><p><span>die Schlüssel eine bei der Erzeugung festzulegende maximale Lebensdauer besitzen, nach dieser sie zerstört werden müssen und</span></p></li>
+     <li><p><span>die Schlüssel nur z</span><span>w</span><span>eckbestimmt eingesetzt werden.</span></p></li>
+    </ul> <b>[&lt;=]</b></p>
+  </div>
+  <h2 id="4">4 Anhang A – Verzeichnisse</h2>
+  <h3 id="4.1">4.1 Abkürzungen</h3>
+  <table id="polarion_109" style="width: 448pt;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Kürzel</span><br> </th> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Erläuterung</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">C2C</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Card to Card</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">CA</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Certification Authority</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">eGK</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">elektronische Gesundheitskarte</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">HBA</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">(elektronischer) Heilberufsausweis</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">HSM</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Hardware Sicherheits Modul</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">ISO</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">International Organization for Standardization </span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">PIN</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Persönliche Identifikationsnummer</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">PUK</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Personal Unblocking Key</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">SMC</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Security Module Card</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 81pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">TI</span><br> </td> 
+     <td style="vertical-align: top;width: 366pt;height: 8pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Telematikinfrastruktur</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="4.2">4.2 Glossar</h3>
+  <p id="polarion_110">Das Projektglossar wird als eigenständiges Dokument zur Verfügung gestellt.</p>
+  <h3 id="4.3">4.3 Referenzierte Dokumente</h3>
+  <h4 id="4.3.1">4.3.1 Dokumente der gematik</h4>
+  <p id="polarion_111">Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Der mit der vorliegenden Version korrelierende Entwicklungsstand dieser Konzepte und Spezifikationen wird pro Release in einer Dokumentenlandkarte definiert, Version und Stand der referenzierten Dokumente sind daher in der nachfolgenden Tabelle nicht aufgeführt. Deren zu diesem Dokument passende jeweils gültige Versionsnummer entnehmen Sie bitte der aktuellsten, auf der Internetseite der gematik veröffentlichten Dokumentenlandkarte, in der die vorliegende Version aufgeführt wird.</p>
+  <p id="polarion_112"></p>
+  <table id="polarion_113" style="width: 451pt;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 101pt;height: 1pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[Quelle]</span><br> </th> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 350pt;height: 1pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Herausgeber (Erscheinungsdatum): Titel</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 101pt;height: 11pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_Krypt]</span> </td> 
+     <td style="text-align: left;vertical-align: top;width: 350pt;height: 11pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur</span> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h4 id="4.3.2">4.3.2 Weitere Dokumente</h4>
+  <table id="polarion_114" style="width: 451pt;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 101pt;height: 1pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[Quelle]</span><br> </th> 
+     <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 350pt;height: 1pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Herausgeber (Erscheinungsdatum): Titel</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 101pt;height: 1pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[ISO11770]</span> </td> 
+     <td style="text-align: left;vertical-align: top;width: 350pt;height: 1pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">ISO/IEC 11770: 1996<br> Information technology - Security techniques - Key management<br> Part 3: Mechanisms using asymmetric techniques</span> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 101pt;height: 1pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[RFC2119]</span> </td> 
+     <td style="text-align: left;vertical-align: top;width: 350pt;height: 1pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">RFC 2119 (März 1997): Key words for use in RFCs to Indicate Requirement Levels S. Bradner, </span><a href="http://tools.ietf.org/html/rfc2119" target="_blank" class="descriptionLink">http://tools.ietf.org/html/rfc2119</a> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_12"></p>
+ </body>
+</html>

@@ -1,0 +1,580 @@
+<html>
+ <head>
+  <style>
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* ol {
+  list-style-type: none;
+  Remove default numbering
+}
+
+ol > li:before {
+  counter-increment: mycounter;
+  content: counter(mycounter) ". ";
+}
+
+ol:first-of-type {
+  counter-reset: mycounter;
+} */
+
+
+</style>
+  <meta charset="utf-8">
+ </head>
+ <body>
+  <p id="polarion_1"><br></p>
+  <p id="polarion_2"><br></p>
+  <p id="polarion_3"><br></p>
+  <p id="polarion_4"><br></p>
+  <p id="polarion_5"><br></p>
+  <p id="polarion_6"><span style="font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;">Elektronische Gesundheitskarte und Telematikinfrastruktur</span></p>
+  <p id="polarion_7"><br></p>
+  <p id="polarion_8"><br></p>
+  <p id="polarion_9"><br></p>
+  <p id="polarion_10"><br></p>
+  <p style="text-align: center;" id="polarion_11"><span style="font-weight: bold;font-size: 28pt;line-height: 1.2;">Spezifikation</span></p>
+  <p style="text-align: center;" id="polarion_12"><span style="font-weight: bold;font-size: 28pt;line-height: 1.2;">Signaturdienst</span></p>
+  <p id="polarion_13"><br></p>
+  <p id="polarion_14"><br></p>
+  <p id="polarion_15"><br></p>
+  <div class="polarion-dle-wiki-block" id="polarion_editor_html_block1">
+   <div contenteditable="false" id="polarion_editor_html_block_content"></div>
+   <pre contenteditable="false" class="polarion-dle-wiki-block-source" id="polarion_editor_html_block_source">
+    <table>
+     <tr>
+      <td>Version</td>
+      <td>1.4.0</td>
+     </tr>
+     <tr>
+      <td>Revision</td>
+      <td>548770</td>
+     </tr>
+     <tr>
+      <td>Stand</td>
+      <td>12.10.2020</td>
+     </tr>
+     <tr>
+      <td>Status</td>
+      <td>freigegeben</td>
+     </tr>
+     <tr>
+      <td>Klassifizierung</td>
+      <td>öffentlich</td>
+     </tr>
+     <tr>
+      <td>Referenzierung</td>
+      <td>gemSpec_SigD</td>
+     </tr>
+    </table></pre>
+  </div>
+  <p id="polarion_16"><br></p>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-856">Dokumentinformationen</h1>
+  <p id="polarion_21"><span style="font-weight: bold;">Änderungen zur Vorversion</span></p>
+  <p id="polarion_22">Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen.</p>
+  <p id="polarion_49"></p>
+  <p data-keep-next="true" id="polarion_24"><span style="font-weight: bold;">Dokumentenhistorie</span></p>
+  <table style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=width=99.87%|uid=1">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 68px;height: 21px;border: 1px solid #CCCCCC;padding: 4pt;">Version</th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 57px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">Stand</th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 101px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">Kap./ Seite</th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 370px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">Grund der Änderung, besondere Hinweise</th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 92px;height: 21px;border: 1px solid #CCCCCC;padding: 4pt;">Bearbeitung</th>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;padding: 4pt;">1.0.0</td>
+     <td style="vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">30.04.19</td>
+     <td style="vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"></td>
+     <td style="vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">freigegeben</td>
+     <td style="vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">gematik</td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">1.1.0</td>
+     <td style="vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">28.06.19</td>
+     <td style="vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"></td>
+     <td style="vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">Einarbeitung Änderungsliste P19.1</td>
+     <td style="vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">gematik</td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">1.2.0</td>
+     <td style="vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">02.10.19</td>
+     <td style="vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"></td>
+     <td style="vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">Einarbeitung Änderungsliste P20.2</td>
+     <td style="vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">gematik</td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"></td>
+     <td style="vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"></td>
+     <td style="vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"></td>
+     <td style="vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">Einarbeitung Änderungsliste P21.1</td>
+     <td style="vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">gematik</td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">1.3.0</td>
+     <td style="vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">02.03.20</td>
+     <td style="vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"></td>
+     <td style="vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">freigegeben</td>
+     <td style="vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">gematik</td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">1.4.0</td>
+     <td style="vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">12.10.20</td>
+     <td style="vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"></td>
+     <td style="vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;">Einarbeitung Scope-Themen zu R4.0.1<br></td>
+     <td style="vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;padding: 4pt;">gematik</td>
+    </tr>
+   </tbody>
+  </table>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-857">Inhaltsverzeichnis</h1>
+  <div id="polarion_wiki macro name=toc"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-856">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-857">Inhaltsverzeichnis</a></li>
+   <li> : <a href="#1">1 Einordnung des Dokuments</a></li>
+   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
+   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
+   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
+   <li> : : <a href="#1.4">1.4 Abgrenzungen</a></li>
+   <li> : : <a href="#1.5">1.5 Methodik</a></li>
+   <li> : <a href="#2">2 Systemüberblick</a></li>
+   <li> : <a href="#3">3 Systemkontext</a></li>
+   <li> : : <a href="#3.1">3.1 Akteure und Rollen</a></li>
+   <li> : : <a href="#3.2">3.2 Nachbarsysteme</a></li>
+   <li> : : <a href="#3.3">3.3 Sicherheitsanforderungen für den operativen Betrieb</a></li>
+   <li> : <a href="#4">4 Zerlegung des Signaturdienstes</a></li>
+   <li> : <a href="#5">5 Übergreifende Festlegungen</a></li>
+   <li> : <a href="#6">6 Funktionsmerkmale</a></li>
+   <li> : : <a href="#6.1">6.1 Schnittstelle I_Remote_Sign_Operations</a></li>
+   <li> : : : <a href="#6.1.1">6.1.1 Operationsdefinition I_Remote_Sign_Operations::sign_Data</a></li>
+   <li> : : : <a href="#6.1.2">6.1.2 Umsetzung I_Remote_Sign_Operations::sign_Data</a></li>
+   <li> : : <a href="#6.2">6.2 Schnittstelle P_Create_Identity</a></li>
+   <li> : : <a href="#6.3">6.3 Schnittstelle P_Delete_Identity</a></li>
+   <li> : <a href="#7">7 Anhang – Verzeichnisse</a></li>
+   <li> : : <a href="#7.1">7.1 Abkürzungen</a></li>
+   <li> : : <a href="#7.2">7.2 Glossar</a></li>
+   <li> : : <a href="#7.3">7.3 Abbildungsverzeichnis</a></li>
+   <li> : : <a href="#7.4">7.4 Tabellenverzeichnis</a></li>
+   <li> : : <a href="#7.5">7.5 Referenzierte Dokumente</a></li>
+   <li> : : : <a href="#7.5.1">7.5.1 – Dokumente der gematik</a></li>
+   <li> : : : <a href="#7.5.2">7.5.2 – Weitere Dokumente</a></li>
+  </div>
+  <h2 id="1">1 Einordnung des Dokuments</h2>
+  <h3 id="1.1">1.1 Zielsetzung</h3>
+  <p id="polarion_39">Die vorliegende Spezifikation definiert die Anforderungen an den Produkttyp Signaturdienst einschließlich der durch ihn bereitgestellten Schnittstellen.</p>
+  <h3 id="1.2">1.2 Zielgruppe</h3>
+  <p id="polarion_51">Das Dokument richtet sich an Hersteller des Signaturdienstes und Anbieter von Signaturdiensten.</p>
+  <h3 id="1.3">1.3 Geltungsbereich</h3>
+  <p id="polarion_53">Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens für den Online-Produktivbetrieb. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungs- oder Abnahmeverfahren wird durch die gematik GmbH in gesonderten Do­kumenten (z.B. Dokumentenlandkarte, Produkttypsteckbrief, Leistungsbeschreibung) festgelegt und bekannt gegeben.</p>
+  <p data-keep-next="true" id="polarion_55"><span style="font-weight: bold;">Wichtiger Schutzrechts-/Patentrechtshinweis</span></p>
+  <p data-keep-next="true" id="polarion_56"><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Die nachfolgende Spezifikation ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Spezifikation in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der Spezifikation angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen.</span></p>
+  <h3 id="1.4">1.4 Abgrenzungen</h3>
+  <p id="polarion_57">Spezifiziert werden in diesem Dokument die vom Signaturdienst&nbsp;bereitgestellten (angebotenen) Schnittstellen. Benutzte Schnittstellen werden in der Spezifikation desjenigen Produkttypen beschrieben, der diese Schnittstelle bereitstellt. Auf die entsprechenden Dokumente wird referenziert (siehe auch Anhang, Kap.&nbsp;<span data-scope="Mainline_OPB1" data-option-id="longoutline" data-item-id="ML-92851" id="fake" data-type="crossReference" class="polarion-rte-link"></span>).</p>
+  <p id="polarion_43">Die vollständige Anforderungslage für den Produkttyp ergibt sich aus weiteren Konzept- und Spezifikationsdokumenten. Diese sind in dem Produkttypsteckbrief des Signaturdienstes verzeichnet.</p>
+  <p id="polarion_50">Nicht Bestandteil des vorliegenden Dokumentes sind die Festlegungen zum Themenbereich&nbsp;Betrieb. Die betrieblichen Anforderungen sind im Anbietertypsteckbrief zum TSP X.509 nonQES eGK mit Option Signaturdienst verzeichnet.</p>
+  <h3 id="1.5">1.5 Methodik</h3>
+  <p id="polarion_17">Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC 2119 [RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet.<br><br> Sie werden im Dokument wie folgt dargestellt:<br> <span style="font-weight: bold;">&lt;AFO-ID&gt; - &lt;Titel der Afo&gt;</span><br> Text / Beschreibung<br> [&lt;=]<br><br> Dabei umfasst die Anforderung sämtliche zwischen Afo-ID und der Textmarke [&lt;=] angeführten Inhalte.</p>
+  <h2 id="2">2 Systemüberblick</h2>
+  <p id="polarion_37">Der Signaturdienst erzeugt elektronische Identifizierungsmittel für&nbsp;Versicherte in der Umgebung des Anbieters des Signaturdienstes. Ein elektronisches Identifizierungsmittel ist gemäß Verordnung (EU) Nr. 910/2014 [eIDAS] eine materielle&nbsp;und/oder immaterielle Einheit, die Personenidentifizierungsdaten enthält und zur Authentifizierung&nbsp;bei&nbsp;Online-Diensten verwendet&nbsp;wird. Die vom Signaturdienst ausgestellten elektronischen Identifizierungsmittel sind kryptographische Identitäten basierend auf asymmetrischer Kryptographie und Teil des Vertrauensraums für X.509 nonQES-Identitäten der Telematikinfrastruktur. Die vom Signaturdienst erstellten elektronischen&nbsp;Identifizierungsmittel nutzen Versicherte zur Authentisierung an Diensten in der TI.</p>
+  <p id="polarion_80">Versicherte können elektronische Signaturen mittels der vom Signaturdienst ausgestellten Identifizierungsmittel in der vom Anbieter des Signaturdienstes geführten Umgebung erstellen lassen. Die elektronischen Signaturen des Signaturdienstes sind&nbsp;eine Alternative zur elektronischen Signatur mittels der Identität&nbsp;ID.CH.AUT der eGK.</p>
+  <p id="polarion_19">Der Signaturdienst erstellt elektronische Identifizierungsmittel für Versicherte ausschließlich im Auftrag des Kartenherausgebers der eGK des Versicherten. Vom Kartenherausgeber der eGK des Versicherten erhält der Anbieter des Signaturdienstes die Personenidentifizierungsdaten für das auszustellende elektronische Identifizierungsmittel.&nbsp;Personenidentifizierungsdaten sind&nbsp; ein Datensatz, der es ermöglicht, die Identität des Versicherten&nbsp;abzubilden. Die Personenidentifizierungsdaten für die vom Signaturdienst ausgestellten elektronischen Identifizierungsmittel entsprechen den Personenidentifizierungsdaten im Zertifikat C.CH.AUT der eGK des Versicherten. Das Zertifikatsprofil C.CH.AUT_ALT für die vom Signaturdienst ausgestellten elektronischen Identifizierungsmittel ist in [gemSpec_PKI] festgelegt.</p>
+  <h2 id="3">3 Systemkontext</h2>
+  <h3 id="3.1">3.1 Akteure und Rollen</h3>
+  <p id="polarion_27">Im Kontext des Signaturdienstes treten folgende Akteure auf:</p>
+  <p id="polarion_28"><span style="font-weight: bold;">Anbiete</span>r des Signaturdienstes:<br> Anbieter eines Signaturdienstes setzen die in dieser Spezifikation beschriebenen Aufgaben des Signaturdienstes um.</p>
+  <p id="polarion_31"><span style="font-weight: bold;">Kartenherausgeber eGK</span><br> Kartenherausgeber der eGK beauftragen den Anbieter eines Signaturdienstes, um für ihre Versicherten auf deren Wunsch hin elektronische Identifizierungsmittel austellen zu lassen, die alternativ zur Identität ID.CH.AUT der eGK genutzt werden können. Falls sich ein Versicherter gegenüber dem Kartenherausgeber seiner eGK für ein elektronisches Identifizierungsmittel entscheidet, beauftragt der Kartenherausgeber eGK für diesen Versicherten beim Anbieter&nbsp;des Signaturdienstes das elektronische Identifizierungsmittel. Der Kartenherausgeber eGK übermittelt hierzu die für das elektronische Identifizierungsmittel notwendigen Personenidentifikationsdaten des Versicherten (u.a. Name, KVNR) an den Anbieter des Signaturdienstes.<br> Der Kartenherausgeber eGK veranlasst die Sperrung von elektronischen Identifizierungsmitteln bzgl. seiner Versicherten beim&nbsp;TSP X.509 nonQES eGK, der das Zertifikat für das elektronische Identifizierungsmittel erstellt hat.&nbsp;</p>
+  <p id="polarion_35"><span style="font-weight: bold;">Versicherte</span><br> Versicherte nutzen mittels eigener Client-Systeme den Signaturdienst, um mittels der elektronischen Identifizierungsmittel anderen Diensten ihre Identität zu bestätigen.<br> Versicherte richten sich an den Kartenherausgeber ihrer eGK, falls sie ihr elektronisches Identifizierungsmittel sperren lassen möchten.</p>
+  <h3 id="3.2">3.2 Nachbarsysteme</h3>
+  <p id="polarion_99">Die folgende Abbildung zeigt die Beziehung zu benachbarten Systemen mit den vom Signaturdienst bereitgestellten und genutzten Schnittstellen.</p>
+  <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion_25"><img style="width: 582px;height: 128px;" src="data:image/png;base64,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"></p>
+  <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion_40">Abbildung <span class="polarion-rte-caption" data-sequence="Abbildung">1</span>: benachbarte Systeme des Signaturdienstes mit bereitgestellten und genutzten Schnittstellen</p>
+  <p id="polarion_122"></p>
+  <p id="polarion_60">Der Signaturdienst&nbsp;wird als Provider einer technischen Schnittstelle zum Erstellen elektronischer Signaturen für Clienten und einer Prozessschnittstelle für Kartenherausgeber eGK zum Beauftragen und Löschen von elektronischen Identifizierungsmitteln für Versicherte aufgerufen.</p>
+  <p id="polarion_123">Der Signaturdienst nutzt die Schnittstellen des TSP X.509 eGK zum Erstellen von Zertifikaten .</p>
+  <p id="polarion_23"></p>
+  <h3 id="3.3">3.3 Sicherheitsanforderungen für den operativen Betrieb</h3>
+  <p id="polarion_45">Der Anbieter Signaturdienst muss die folgenden Anforderungen erfüllen:</p>
+  <div id="A_19033">
+   <p><b>A_19033 - Schützenswerte Objekte</b></p>
+   <p>Der Anbieter Signaturdienst MUSS die folgenden kryptographischen Objekte als schützenswerte Objekte in seinem Sicherheitskonzept berücksichtigen: (a) Private Schlüssel, (b) Öffentlicher Schlüssel, (c) Öffentlicher Schlüssel von Antragstellern, (d) Anträge zur Ausstellung von X.509-Zertifikaten, (e) Authentisierungsinformationen von Sperrberechtigten, (f) Dokumentation über beauftragte und durchgeführte Sperrungen, (g) Statusinformationen, (h) Zulassungsdokumente, (i) Registrierungsdokumente, (j) Authentisierungsinformationen zur Authentisierung von internen Akteuren bzw. Rollen, (k) Protokolldaten, (l) Konfigurationsdaten.<br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19037">
+   <p><b>A_19037 - Gesicherte interne Schnittstellen des Anbieters Signaturdienst</b></p>
+   <p>Der Anbieter Signaturdienst MUSS für den internen Datenaustausch einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19038">
+   <p><b>A_19038 - Datenaustausch zwischen gematik und Anbieter Signaturdienst</b></p>
+   <p>Der Anbieter Signaturdienst MUSS für den Datenaustausch zur gematik&nbsp;einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19039">
+   <p><b>A_19039 - Gesicherte externe Schnittstellen des Anbieters Signaturdienst</b></p>
+   <p>Der Anbieter Signaturdienst MUSS für den Datenaustausch mit anderen Rollen und Diensten einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen. Hierzu gehören die Schnittstellen von <br> a) Anbieter Signaturdienst zum berechtigten Zertifikatsantragsteller zur Beantragung und Ausstellung von Zertifikaten,&nbsp;&nbsp;&nbsp;&nbsp;<br> b) Anbieter Signaturdienst zum Sperrantragsteller für die Sperrung von Zertifikaten. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19040">
+   <p><b>A_19040 - Eindeutige Verbindung Zertifikatsnehmer und privater Schlüssel</b></p>
+   <p>Der Anbieter Signaturdienst MUSS sicherstellen, dass der öffentliche Schlüssel, dem die Attribute des Zertifikatsnehmers in einem Zertifikat zugeordnet werden, und der private Schlüssel des Zertifikatsnehmers zusammengehören. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19041">
+   <p><b>A_19041 - Umsetzung Signaturdienst für Zertifikate</b></p>
+   <p>Der Anbieter Signaturdienst MUSS nach erfolgreicher Identifizierung des Antragstellers die erforderlichen Angaben zur Zertifikatserstellung an den Erstellungsdienst des TSP-X.509-CA weiterleiten. <br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19042">
+   <p><b>A_19042 - Trennung der Signaturdienst-Betriebsumgebungen</b></p>
+   <p>Der Anbieter Signaturdienst MUSS sicherstellen, dass das Testsystem von dem Produktivsystem technisch, organisatorisch und betrieblich so getrennt werden, dass keine gegenseitige Beeinflussung und keine Verwechslung möglich sind.<br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19043">
+   <p><b>A_19043 - Datenschutzgerechte Antrags- und Sperrprozesse</b></p>
+   <p>Der Anbieter Signaturdienst MUSS die Antrags- und Sperrprozesse datenschutzgerecht ausgestalten, d.h. insbesondere sind für die Verarbeitung der Antrags- und Sperrauftragsdaten die Datenschutzgrundsätze gemäß Art. 5 DSGVO zu berücksichtigen sowie die technischen und organisatorischen Maßnahmen nach Art. 25 und Art. 32 DSGVO zu treffen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19044">
+   <p><b>A_19044 - Löschung von Signaturdienst-Zertifikatstatusinformationen, Zertifikats- und Sperranträgen</b></p>
+   <p>Der Anbieter Signaturdienst MUSS die Zertifikatsanträge und die Sperraufträge zu einem X.509-Zertifikat unverzüglich löschen, sobald die gesetzlichen oder vertraglichen Aufbewahrungsfristen erreicht sind. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_19045">
+   <p><b>A_19045 - Fehlerprotokollierung</b></p>
+   <p>Falls es erforderlich sein sollte, dass der Anbieter Signaturdienst eine Protokollierung zum Zwecke der Fehler- bzw. Störungsbehebung durchführt, MÜSSEN die Protokolldaten entsprechend des Datenschutzgrundsatzes der Datenminimierung gemäß Art. 5 Abs. 1 Satz 1 lit.c) DSGVO unter Berücksichtigung der Art. 25, 32 DSGVO derart gestaltet sein, dass nur personenbezogene Daten in der Art und dem Umfang enthalten sind, wie sie zur Behebung erforderlich sind. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_54"></p>
+  <h2 id="4">4 Zerlegung des Signaturdienstes</h2>
+  <p id="polarion_47">Eine Zerlegung des Produkttyps Signaturdienst wird nicht vorgegeben.</p>
+  <h2 id="5">5 Übergreifende Festlegungen</h2>
+  <p id="polarion_29">Der Signaturdienst muss die folgenden übergreifenden Anforderungen erfüllen.</p>
+  <div id="A_17373">
+   <p><b>A_17373 - Signaturdienst - Produkt ist geeignet für Sicherheitsniveau "substanziell" gemäß eIDAS-Verordnung</b></p>
+   <p>Der Hersteller des Signaturdienstes MUSS sein Produkt so implementieren, dass ein Anbieter des Signaturdienstes die Anforderungen der Verordnung (EU) Nr. 910/2014 an elektronische Identifizierungsmittel mit einem Sicherheitsniveau von mindestens "substanziell" erfüllen kann. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17336">
+   <p><b>A_17336 - Signaturdienst - Sicherheitsniveau "substanziell" gemäß eIDAS-Verordnung</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS für den angebotenen Signaturdienst die Anforderungen der Verordnung (EU) Nr. 910/2014 an elektronische Identifizierungsmittel mit einem Sicherheitsniveau von mindestens "substanziell" erfüllen. Davon ausgenommen ist die Anmeldung gemäß Anhang 2.1 der Durchführungsverordnung&nbsp;(EU) 2015/1502. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_20240">
+   <p><b>A_20240 - Signaturdienst - Entgegennahme von Sperrmeldungen</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS Sperrmeldungen von Sperrberechtigten jederzeit entgegennehmen und das elektronische Identifizierungsmittel daraufhin unverzüglich sperren lassen.<span id="polarion-comment:94"></span> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_18">Die Durchführungsverordnung&nbsp;(EU) 2015/1502 [eIDAS 2015/1502] gemäß Artikel 8 Absatz 3 der Verordnung (EU) Nr. 910/2014 [eIDAS 910/2014] legt die Mindestanforderungen an technische Spezifikationen und Verfahren für Sicherheitsniveaus elektronischer Identifizierungsmittel fest.</p>
+  <p id="polarion_44">Die Anmeldung des elektronischen Identifizierungsmittels inklusive Identitätsnachweis und -überprüfung des Versicherten erfolgt durch den Kartenherausgeber eGK auf Grundlage der GKV-SV Richtlinie "Kontakt mit Versicherten" nach § 217f Abs. 4b SGB V.</p>
+  <p id="polarion_42">Im Rahmen der Anbieterzulassung prüft der unabhängige Sicherheitsgutachter, dass die vom Anbieter ausgestellten elektronischen Identifizierungsmittel die Mindestanforderungen des Sicherheitsniveaus "substanziell" erfüllen.</p>
+  <p id="polarion_32">Eine Notifizierung des elektronischen Identifizierungssystems, welches die elektronischen Identifizierungsmittel ausstellt, ist nicht gefordert. Ebenso ist nicht gefordert, dass der Anbieter ein qualifizierter oder nichtqualifizierter Vertrauensdiensteanbieter gemäß Verordnung (EU) Nr. 910/2014 ist.</p>
+  <p id="polarion_36">Zur Erstellung der Signatur kann eine nach eIDAS zertifizierte qualifizierte Signatur/Siegelerstellungseinheit (QSEE) eingesetzt werden.</p>
+  <div id="A_17369">
+   <p><b>A_17369 - Signaturdienst - Elektronische Identifizierungsmittel sind kryptographische Identitäten der TI</b></p>
+   <p>Der Signaturdienst MUSS als elektronische Identifizierungsmittel kryptographische Identitäten ausstellen, die&nbsp;aus einem privaten und einem öffentlichen Schlüssel mit dazugehörigem Zertifikat des Typs <span style="background-color: #FFFFFF;">C.CH.AUT_ALT&nbsp;</span>aus dem Vertrauensraum der TI bestehen.&nbsp; <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17370">
+   <p><b>A_17370 - Signaturdienst - ECC-Verfahren für elektronische Identifizierungsmittel</b></p>
+   <p>Der Signaturdienst MUSS elektronische Identifizierungsmittel auf der Grundlage von ECC-Verfahren erstellen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_59">Für die Erzeugung von ECC-Schlüsseln sind die Vorgaben in [gemSpec_Krypt] einzuhalten.</p>
+  <div id="A_17371">
+   <p><b>A_17371 - Signaturdienst - Keine RSA-Verfahren für elektronische Identifizierungsmittel</b></p>
+   <p>Der Signaturdienst DARF elektronische Identifizierungsmittel NICHT auf der Grundlage von RSA-Verfahren erstellen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17339">
+   <p><b>A_17339 - Signaturdienst - Speicherung privater Schlüssel mit einem HSM</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS die privaten Schlüssel der elektronischen Identifizierungsmittel mit einem HSM&nbsp; speichern und sicherstellen, dass die Eignung des HSM durch eine erfolgreiche Evaluierung nachgewiesen wurde. Als Evaluierungsschemata kommen dabei Federal Information Processing Standard (FIPS) oder Common Criteria mit mindestens folgender Prüftiefe&nbsp;in Frage: &nbsp; 
+    <ol> 
+     <li>FIPS 140-2 Level 3 oder &nbsp;&nbsp;<br> </li> 
+     <li>Common Criteria EAL 4.</li> 
+    </ol> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17852">
+   <p><b>A_17852 - Signaturdienst - Information des Versicherten über Änderungen an Authentifizierungsfaktoren</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS den Versicherten über Änderungen an Authentifizierungsfaktoren informieren.<br> Die Information des Versicherten kann dabei auch über den Kartenherausgeber erfolgen, der den Anbieter des Signaturdienstes mit der Erstellung des elektronischen Identifizierungsmittels beauftragt hat.<br> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_46">Hinweis: Dies könnten z. B. Änderungen von E-Mail-Adressen, Mobilfunknummern, registrierten Geräten oder Kennwörtern sein.</p>
+  <div id="A_17853">
+   <p><b>A_17853 - Signaturdienst - Auskunft an Versicherten</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS dem Versicherten auf dessen Verlangen Auskunft geben über 
+    <ul> 
+     <li>erfolgte Zugriffe auf das elektronische Identifizierungsmittel des Versicherten und</li> 
+     <li>Änderungen der Authentifizierungsfaktoren des Versicherten.</li> 
+    </ul> Die Auskunft des Versicherten kann auch über den Kartenherausgeber erfolgen, der den Anbieter des Signaturdienstes mit der Erstellung des elektronischen Identifizierungsmittels beauftragt hat.<span style="background-color: #FFFF99;"><br> </span> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_48">Hinweis: Die Auskunft des Versicherten kann auch über den Kartenherausgeber erfolgen, der den Anbieter des Signaturdienstes mit der Erstellung des elektronischen Identifizierungsmittels beauftragt hat.</p>
+  <div id="A_17864">
+   <p><b>A_17864 - Signaturdienst - Anbieter des Signaturdienstes ist kein Anbieter eines ePA-Aktensystems</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS unabhängig von Anbietern von ePA-Aktensystemen sein, d.h. es sind mindestens jeweils eigenständige Rechtspersönlichkeiten mit eigenständigen operativen Geschäfts- und Betriebsführungen und es ist eine strikte Vermeidung&nbsp;von Personenidentitäten&nbsp;bzw. Doppelrollen&nbsp;in&nbsp;den&nbsp;Funktionen&nbsp;Geschäftsführung, leitende Mitarbeiter und Zugangsberechtigte zum Betriebsort des Signaturdienstes bzw. ePA-Aktensystems gewährleistet. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_52">Hinweis: Die Anforderung schließt nicht aus, dass die Anbieter verbundene Unternehmen im Sinne des § 15 AktG sind.</p>
+  <div id="A_18957">
+   <p><b>A_18957 - Darstellen der Voraussetzungen für sicheren Betrieb des Produkts im Handbuch</b></p>
+   <p>Der Hersteller des Signaturdienstes MUSS für sein Produkt im dazugehörigen Handbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des Produktes gewährleistet werden kann. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_18958">
+   <p><b>A_18958 - Sicherer Betrieb des Produkts nach Handbuch</b></p>
+   <p>Der Anbieter eines Signaturdienstes MUSS die im Handbuch des eingesetzten Signaturdienstes beschriebenen Voraussetzungen für den sicheren Betrieb des Produktes gewährleisten. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_58"></p>
+  <h2 id="6">6 Funktionsmerkmale</h2>
+  <p id="polarion_20">Der Signaturdienst realisiert die Funktionsmerkmale zur Erstellung elektronischer Identifizierungsmittel und deren Nutzung für elektronische Signaturen. Das Funktionsmerkmal wird über die Implementierung der Schnittstellen&nbsp; <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operation, P_Create_Identity</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">P_Delete_Identity</span> realisiert.</p>
+  <h3 id="6.1">6.1 Schnittstelle I_Remote_Sign_Operations</h3>
+  <p id="polarion_33">Die in diesem Abschnitt beschriebene logische Schnittstelle <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations</span> setzt die gleichnamige Schnittstelle aus [gemKPT_Arch_TIP] um.</p>
+  <div id="A_17383">
+   <p><b>A_17383 - Signaturdienst - I_Remote_Sign_Operations im Internet</b></p>
+   <p>Der Signaturdienst MUSS die Schnittstelle <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations</span> im Internet anbieten. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17583">
+   <p><b>A_17583 - Signaturdienst - Eintrag in das Interoperabilitätsverzeichnis vesta</b></p>
+   <p>Der Hersteller des Signaturdienstes MUSS die Spezifikation seiner Implementierung der Schnittstelle <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations::sign_Data</span> in das Interoperabilitätsverzeichnis vesta der gematik aufnehmen zu lassen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_41">Die Regeln zur Aufnahme in das Interoperabilitätsverzeichnis vesta sind in der Geschäfts- und Verfahrensordnung [GVO_IOPVZ] beschrieben. Regelungen zur Information der Hersteller von Clients des Signaturdienstes bei Änderungen der Implementierung der Schnittstelle werden in einer Folgeversion ergänzt.</p>
+  <div id="A_17382">
+   <p><b>A_17382 - Signaturdienst - Schutz gegen OWASP Top 10-Risiken</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die Internet-Schnittstelle I<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">_Remote_Sign_Operations</span> resistent bezüglich der im aktuellen und den beiden vorherigen OWASP Top 10 Report(s) ausgewiesenen Risiken ist. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_38">Hinweis: Die Nichtanwendbarkeit eines OWASP Top 10-Risikos ist zu begründen. Für Informationen zum Umgang mit den OWASP Top 10-Risiken wird auf den aktuellen [OWASP Top 10 Report] und die darin enthaltenen Vorgehensweisen für z. B. Entwickler und Tester verwiesen.</p>
+  <div id="A_17528">
+   <p><b>A_17528 - Signaturdienst - Schutz der Verbindung zum Signaturdienst</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die Schnittstelle <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations</span> <span style="font-family: Arial, Helvetica;">von Clienten nur über eine&nbsp;</span>gegen Abhören, Manipulation und Replay-Angriffe geschützte Verbindung genutzt werden kann. <b>[&lt;=]</b></p>
+  </div>
+  <h4 id="6.1.1">6.1.1 Operationsdefinition I_Remote_Sign_Operations::sign_Data</h4>
+  <div id="A_17238">
+   <p><b>A_17238 - Signaturdienst - Logische Schnittstelle I_Remote_Sign_Operations</b></p>
+   <p>Der Signaturdienst MUSS die Schnittstelle <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations::sign_Data</span> gemäß der folgenden logischen Signatur implementieren:<br> <p class="polarion-rte-caption-paragraph" style="text-align: left;" id="polarion___1"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">1</span>: Tab_SigD_01 -&nbsp; I_Remote_Sign_Operations::sign_Data - Definition </p> 
+    <table id="polarion_wiki macro name=table;params=bold=1|width=99.87%|uid=client1" class="polarion-Document-table" style="margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <th colspan="2" style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 159px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Operation</span></th> 
+       <th colspan="4" style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 571px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">I_Remote_Sign_Operations::sign_Data</span></th> 
+      </tr> 
+      <tr> 
+       <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 24px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beschreibung</span></td> 
+       <td colspan="4" style="text-align: left;vertical-align: top;width: 571px;height: 24px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Die Operation erzeugt eine ECDSA-Signatur unter Einhaltung der Vorgaben in [gemSpec_Krypt] an dem übergebenen Datum <span style="font-style: italic;">(Data</span>) mittels des privaten Schlüssels des elektronischen Identifizierungsmittels ID.CH.AUT_ALT des aufrufenden Nutzers <span style="font-style: italic;">(Identifier)</span>.<br> Das signierte Datum (<span style="font-style: italic;">SignedData</span>) und das Zertifikat des elektronischen Identifizierungsmittels</span> <span style="font-size: 10pt;line-height: 1.5;">C.CH.AUT_ALT der&nbsp;Identität, für die signiert wurde, werden als Ergebnis der Operation zurückgeliefert.</span></td> 
+      </tr> 
+      <tr> 
+       <td colspan="6" style="font-weight: bold;text-align: left;vertical-align: top;width: 741px;height: 24px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Eingangsparameter</span></td> 
+      </tr> 
+      <tr> 
+       <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Name</span></td> 
+       <td colspan="2" style="text-align: left;vertical-align: top;width: 265px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Beschreibung</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 139px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Typ</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 145px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">opt.</span></td> 
+      </tr> 
+      <tr> 
+       <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 36px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">Data</span></td> 
+       <td colspan="2" style="text-align: left;vertical-align: top;width: 265px;height: 36px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Die zu signierenden Daten.</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 139px;height: 36px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Binary</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 145px;height: 36px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">-</span></td> 
+      </tr> 
+      <tr> 
+       <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">Identifier</span></td> 
+       <td colspan="2" style="text-align: left;vertical-align: top;width: 265px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Identifiziert, welches elektronisches Identifizierungsmittel ID.CH.AUT_ALT zur Signatur des Datums genutzt werden soll.</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 139px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">String</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 145px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">-</span></td> 
+      </tr> 
+      <tr> 
+       <td colspan="6" rowspan="1" style="font-weight: bold;text-align: left;vertical-align: top;width: 741px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Ausgangsparameter</span></td> 
+      </tr> 
+      <tr> 
+       <td colspan="2" rowspan="1" style="font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 23px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Name</span></td> 
+       <td colspan="2" rowspan="1" style="text-align: left;vertical-align: top;width: 265px;height: 23px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Beschreibung</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 139px;height: 23px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Typ</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 145px;height: 23px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">opt.</span></td> 
+      </tr> 
+      <tr> 
+       <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 65px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">SignedData</span></td> 
+       <td colspan="2" style="text-align: left;vertical-align: top;width: 265px;height: 65px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Das mit dem privaten Schlüssel des elektronischen Identifizierungsmittels ID.CH.AUT_ALT signierte Datum.</span> </td> 
+       <td style="text-align: left;vertical-align: top;width: 139px;height: 65px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Binary</span></td> 
+       <td style="text-align: left;vertical-align: top;width: 145px;height: 65px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">-</td> 
+      </tr> 
+      <tr> 
+       <td colspan="2" rowspan="1" style="font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">Certificate</span></td> 
+       <td colspan="2" rowspan="1" style="text-align: left;vertical-align: top;width: 265px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Zertifikat C.CH.AUT_ALT des elektronischen <span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Identifizierungsmittels,</span> mit dessen zugehörigem privaten Schlüssel signiert wurde. </td> 
+       <td style="font-weight: bold;text-align: left;vertical-align: top;width: 139px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Certificate X.509<br> </span></td> 
+       <td style="font-weight: bold;text-align: left;vertical-align: top;width: 145px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">-</span></td> 
+      </tr> 
+     </tbody> 
+    </table> <b>[&lt;=]</b></p>
+  </div>
+  <h4 id="6.1.2">6.1.2 Umsetzung I_Remote_Sign_Operations::sign_Data</h4>
+  <p id="polarion_34">Die folgenden Anforderungen beschreiben die Umsetzung der Operation<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations::sign_Data</span>.</p>
+  <div id="A_17384">
+   <p><b>A_17384 - Signaturdienst - Operationsaufruf erfordert erfolgreiche Authentifizierung</b></p>
+   <p>Der Signaturdienst MUSS sicherstellen, dass die Operation <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations::sign_Data</span> nur nach vorheriger erfolgreicher Authentifikation des Nutzers mit einem Sicherheitsniveau von mindestens "substanziell" (gemäß&nbsp;Anforderungen der Verordnung (EU) Nr. 910/2014 an elektronische Identifizierungssysteme) genutzt wird. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_18172">
+   <p><b>A_18172 - Signaturdienst - Authentifizierungsverfahren erfüllen TR-03107-1 für substanziell</b></p>
+   <p>DerAnbieter des Signaturdienstes MUSS sicherstellen, dass nur Authentifizierungsverfahren genutzt werden, die vom BSI in der TR-03107-1 für ein Vertrauensniveau von mindestens "substanziell" als geeignet eingestuft werden.&nbsp; <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_18173">
+   <p><b>A_18173 - Signaturdienst - Anpassung Authentifizierungsverfahren bei Änderung TR-03107-1</b></p>
+   <p>DerAnbieter des Signaturdienstes MUSS von ihm eingesetzte Authentifizierungsverfahren, die nach einer&nbsp;Aktualisierung der TR-03107-1 des BSI nicht mehr für das Vertrauensniveau "substanziell" geeignet sind, unverzüglich zu einem nach der TR-03107-1 des BSI für "substanziell" geeigneten Authentifizierungsverfahren migrieren. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17527">
+   <p><b>A_17527 - Signaturdienst - Aufruf der Operation nur über geschützte Verbindung</b></p>
+   <p>Der Signaturdienst MUSS sicherstellen, dass die Operation I_Remote_Sign_Operations::sign_Data von Clienten nur über eine&nbsp;gegen Abhören, Manipulation und Replay-Angriffe geschützte Verbindung aufgerufen werden kann. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17741">
+   <p><b>A_17741 - Signaturdienst - Freischaltung vorzeitig beenden</b></p>
+   <p>Der Signaturdienst MUSS sicherstellen, dass der Client die Freischaltung der Operation <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations::sign_Data</span><span style="font-family: Arial, Helvetica;">&nbsp; bzgl. eines Nutzers explizit beenden kann und somit beim nächsten Aufruf der Operation durch diesen Nutzer eine</span> erneute Authentifizierung erforderlich ist. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_18710">
+   <p><b>A_18710 - Maximale Gültigkeit einer Authentifizierung</b></p>
+   <p>Der Signaturdienst und der Anbieter des Signaturdienstes MÜSSEN sicherstellen, dass eine erfolgreiche Authentifizierung des Nutzers für maximal 1 Stunde gültig ist, um die Operation I_Remote_Sign_Operations::sign_Data von dem Client, von dem sich der Nutzer authentisiert hat, aufzurufen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_18711">
+   <p><b>A_18711 - Signaturdienst – Nutzung einer erfolgreichen Authentifizierung</b></p>
+   <p>Der Signaturdienst und der Anbieter des Signaturdienstes MÜSSEN sicherstellen, dass eine erfolgreiche Authentifizierung des Nutzers maximal einmal genutzt werden kann, um die Operation I_Remote_Sign_Operations::sign_Data für maximal 5 Minuten ohne erneute Authentifizierung des Nutzers von dem Client (auch mehrmals) aufzurufen, von dem sich der Nutzer authentisiert hat, und nach Ablauf der 5 Minuten die Operation I_Remote_Sign_Operations::sign_Data nur nach erneuter erfolgreicher Authentifizierung des Nutzers wieder genutzt werden kann. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="6.2">6.2 Schnittstelle P_Create_Identity</h3>
+  <div id="A_17375">
+   <p><b>A_17375 - Signaturdienst - P_Create_Identity</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS eine Prozess-Schnittstelle umsetzen, mittels derer Kartenherausgeber dem Signaturdienst einen Auftrag zur Ausstellung eines elektronischen Identifizierungsmittels für einen Versicherten erteilen können. Der Auftrag MUSS die für das elektronische&nbsp;Identifizierungsmittel notwendigen Personenidentifikationsdaten für das Zertifikat <span style="background-color: #FFFFFF;">C.CH.AUT_ALT</span> sowie die erforderlichen Verifikationsdaten, die der Signaturdienstanbieter zur Verifikation des Versicherten bei der Aktivierung des elektronischen Identifizierungsmerkmals benötigt, enthalten. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17372">
+   <p><b>A_17372 - Signaturdienst - Schutz des Auftrags der Krankenkasse während des Transports</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die im Auftrag der Krankenkasse enthaltenen personenbezogenen oder sensiblen Daten während des Transports von der Krankenkasse zum Signaturdienst gegen Abhören, Manipulation und Replay-Angriffe geschützt werden.<br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17379">
+   <p><b>A_17379 - Signaturdienst - Zertifikatsabruf beim TSP X.509 nonQES eGK</b></p>
+   <p>Der Signaturdienst MUSS das Zertifikat des Typs <span style="background-color: #FFFFFF;">C.CH.AUT_ALT</span> über die Schnittstelle I_Cert_Provisioning zum Zertifikatabruf beim TSP X.509 nonQES eGK mit den vom Kartenherausgeber übermittelten Personenidentifikationsdaten aus dem Auftrag anfordern. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17381">
+   <p><b>A_17381 - Signaturdienst - Verifikation des Versicherten vor erster Nutzung</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS den Versicherten, für den das elektronische Identifizierungsmittel ausgestellt wurde, mittels der vom Kartenherausgeber im Auftrag übermittelten Verifikationsdaten vor der ersten Nutzung des elektronischen &nbsp;Identifizierungsmittels authentifizieren, um das elektronische Identifizierungsmittel zu aktivieren. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="6.3">6.3 Schnittstelle P_Delete_Identity</h3>
+  <div id="A_17808">
+   <p><b>A_17808 - Signaturdienst - P_Delete_Identity</b></p>
+   <p>Der Anbieter des Signaturdienstes MUSS eine Prozess-Schnittstelle umsetzen, mittels derer Kartenherausgeber die Löschung genau derjenigen elektronischen Identifizierungsmittel beim Signaturdienst veranlassen können, deren Ausstellung sie zuvor beauftragt haben. <b>[&lt;=]</b></p>
+  </div>
+  <h2 id="7">7 Anhang – Verzeichnisse</h2>
+  <h3 id="7.1">7.1 Abkürzungen</h3>
+  <table style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=width=100%|uid=1">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 71pt;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Kürzel</span> <span style="font-weight: bold;"></span><br></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 365pt;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Erläuterung</span> <span style="font-weight: bold;"></span><br></th>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">eGK</span><br></td>
+     <td style="vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">elektronische Gesundheitskarte</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">ePA</span><br></td>
+     <td style="vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">elektronische Patientenakte</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">HSM</span><br></td>
+     <td style="vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">Hardware Security Module</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">QES</span><br></td>
+     <td style="vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">Qualifizierte Elektronische Signatur</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">RSA</span><br></td>
+     <td style="vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">kryptographischer Algorithmus (nach&nbsp;Rivest, Shamir, Adleman)</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">TSP</span><br></td>
+     <td style="vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">Trust Service Provider</span><br></td>
+    </tr>
+   </tbody>
+  </table>
+  <h3 id="7.2">7.2 Glossar</h3>
+  <p id="polarion_77">Das Glossar wird als eigenständiges Dokument, vgl. [gemGlossar] zur Verfügung gestellt.</p>
+  <h3 id="7.3">7.3 Abbildungsverzeichnis</h3>
+  <div id="polarion_wiki macro name=tof;params=uid=1" data-sequence="Abbildung"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion_40">Abbildung 1: benachbarte Systeme des Signaturdienstes mit bereitgestellten und genutzten Schnittstellen</a></li>
+  </div>
+  <h3 id="7.4">7.4 Tabellenverzeichnis</h3>
+  <div id="polarion_wiki macro name=tof;params=uid=2" data-sequence="Tabelle"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion___1">Tabelle 1: Tab_SigD_01 -&nbsp; I_Remote_Sign_Operations::sign_Data - Definition</a></li>
+  </div>
+  <h3 id="7.5">7.5 Referenzierte Dokumente</h3>
+  <h4 id="7.5.1">7.5.1 – Dokumente der gematik</h4>
+  <p id="polarion_82">Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Der mit der vorliegenden Version korrelierende Entwicklungsstand dieser Konzepte und Spezifikationen wird pro Release in einer Dokumentenlandkarte definiert; Version und Stand der referenzierten Dokumente sind daher in der nachfolgenden Tabelle nicht aufgeführt. Deren zu diesem Dokument jeweils gültige Versionsnummern sind in der aktuellen, von der gematik veröffentlichten Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.</p>
+  <p id="polarion_30"></p>
+  <table style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=width=100%|uid=3">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">[Quelle]</span><br></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Herausgeber: Titel</span><br></th>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 110pt;height: 17pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[gemGlossar]</span><br></td>
+     <td style="vertical-align: top;width: 439pt;height: 17pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Einführung der Gesundheitskarte - Glossar</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[gemKPT_Arch_TIP]</span><br></td>
+     <td style="vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">gematik:Konzept Architektur der TI-Plattform</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_PKI]</span><br></td>
+     <td style="vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Spezifikation PKI</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_Krypt]</span><br></td>
+     <td style="vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Übergreifende Spezifikation - Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_X.509_TSP]</span><br></td>
+     <td style="vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">gematik: PKI für X.509-Zertifikate: Spezifikation Trust Service Provider X.509</span><br></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;color: #000000;line-height: 1.5;">[GVO_IOPVZ]</span><br></td>
+     <td style="vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;color: #000000;line-height: 1.5;">gematik: Geschäfts- und Verfahrensordnung für das Interoperabilitätsverzeichnis vesta: (Verzeichnis elektronischer Standards und Anwendungen im Gesundheitswesen)</span><br></td>
+    </tr>
+   </tbody>
+  </table>
+  <h4 id="7.5.2">7.5.2 – Weitere Dokumente</h4>
+  <table style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=width=100%|uid=4">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">[Quelle]</span><br></span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">Herausgeber (Erscheinungsdatum): Titel</span><br></span></th>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[BSI-TR-03111]</span></td>
+     <td style="vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">Technical Guideline BSI TR-03111<br> Elliptic Curve Cryptography, Version 2.10, Date: 2018-06-01<br> <a class="descriptionLink" target="_blank" href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_pdf.pdf?__blob=publicationFile&amp;v=2">https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_pdf.pdf?__blob=publicationFile&amp;v=2</a><br></span></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[eIDAS 910/2014]</span></td>
+     <td style="vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">Verordnung (EU) Nr.&nbsp;910/2014 des Europäischen Parlaments und des Rates vom 23.&nbsp;Juli 2014 über elektronische Identifizierung und Vertrauensdienste für elektronische Transaktionen im Binnenmarkt und zur Aufhebung der Richtlinie 1999/93/EG<br></span></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[eIDAS 2015/1502]</span></td>
+     <td style="vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">DURCHFÜHRUNGSVERORDNUNG (EU) 2015/1502 DER KOMMISSION<br> vom 8. September 2015 zur&nbsp; Festlegung&nbsp; von&nbsp; Mindestanforderungen&nbsp; an&nbsp; technische&nbsp; Spezifikationen&nbsp; und&nbsp; Verfahren&nbsp; für Sicherheitsniveaus elektronischer Identifizierungsmittel gemäß Artikel 8 Absatz 3 der Verordnung (EU)&nbsp; Nr.&nbsp; 910/2014&nbsp; des&nbsp; Europäischen&nbsp; Parlaments&nbsp; und&nbsp; des&nbsp; Rates&nbsp; über&nbsp; elektronische&nbsp; Identifizierung und Vertrauensdienste für elektronische Transaktionen im Binnenmarkt<br></span></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[OWASP Top 10 Report]</span></td>
+     <td style="vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">OWASP Foundation, OWASP Top Ten Project:&nbsp;“OWASP Top 10 The Ten Most Critical Web Application Security Risks“,&nbsp; <a class="descriptionLink" target="_blank" href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project">https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project</a>&nbsp;<br></span></td>
+    </tr>
+    <tr>
+     <td style="vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[RFC2119]</span></td>
+     <td style="vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">IETF (1997): Key words for use in RFCs to Indicate Requirement Levels, RFC 2119, <a class="descriptionLink" target="_blank" href="http://tools.ietf.org/html/rfc2119">http://tools.ietf.org/html/rfc2119</a></span></td>
+    </tr>
+   </tbody>
+  </table>
+  <p id="polarion_26"></p>
+ </body>
+</html>

@@ -1,0 +1,552 @@
+<html>
+ <head>
+  <style>
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* ol {
+  list-style-type: none;
+  Remove default numbering
+}
+
+ol > li:before {
+  counter-increment: mycounter;
+  content: counter(mycounter) ". ";
+}
+
+ol:first-of-type {
+  counter-reset: mycounter;
+} */
+
+@media print { h1, h2 { break-before: page; } }
+
+
+</style>
+  <meta charset="utf-8">
+ </head>
+ <body>
+  <p id="polarion_52"> <br> </p>
+  <p id="polarion_8"> <br> </p>
+  <p id="polarion_59"> <br> </p>
+  <p id="polarion_60"> <br> </p>
+  <p id="polarion_61"> <br> </p>
+  <p id="polarion_62"> <span style="font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;">Elektronische Gesundheitskarte und Telematikinfrastruktur</span> </p>
+  <p id="polarion_63"> <br> </p>
+  <p id="polarion_64"> <br> </p>
+  <p id="polarion_65" style="text-align: center;"> <span style="font-weight: bold;font-size: 28pt;line-height: 1.2;">Spezifikation</span> </p>
+  <p id="polarion_66" style="text-align: center;"> <span style="font-weight: bold;font-size: 28pt;line-height: 1.2;">Logdaten- und</span> </p>
+  <p id="polarion_67" style="text-align: center;"> <span style="font-weight: bold;font-size: 28pt;line-height: 1.2;">Betriebsdatenerfassung</span> </p>
+  <p id="polarion_68" style="text-align: center;"></p>
+  <p id="polarion_69" style="text-align: center;"></p>
+  <p id="polarion_70"> <br> </p>
+  <p id="polarion_71"> <br> </p>
+  <p id="polarion_73"> <br> </p>
+  <div id="polarion_editor_html_block1" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div>
+   <pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contenteditable="false">
+    <table>
+     <tr>
+      <td>Version</td>
+      <td>1.4.0</td>
+     </tr>
+     <tr>
+      <td>Revision</td>
+      <td>566841</td>
+     </tr>
+     <tr>
+      <td>Stand</td>
+      <td>03.02.2023</td>
+     </tr>
+     <tr>
+      <td>Status</td>
+      <td>freigegeben</td>
+     </tr>
+     <tr>
+      <td>Klassifizierung</td>
+      <td>öffentlich</td>
+     </tr>
+     <tr>
+      <td>Referenzierung</td>
+      <td>gemSpec_SST_LD_BD</td>
+     </tr>
+    </table></pre> 
+  </div>
+  <p id="polarion_74"></p>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16756">Dokumentinformationen</h1>
+  <p id="polarion_75"> <span style="font-weight: bold;">Änderungen zur Vorversion</span> </p>
+  <p id="polarion_76">Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen.</p>
+  <p id="polarion_78"></p>
+  <p id="polarion_79" data-keep-next="true"> <span style="font-weight: bold;">Dokumentenhistorie</span> </p>
+  <table id="polarion_wiki macro name=table;params=width=100%|padding=3px|uid=5" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 71px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Version<br> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 60px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Stand<br> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 105px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Kap./Seite<br> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 386px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Grund der Änderung, besondere Hinweise<br> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 96px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Bearbeitung<br> </span></th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">1.0.0<br> </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">15.05.19<br> </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;"> </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">freigegeben </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">gematik </span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">1.0.1</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">28.06.19</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"></td> 
+     <td style="text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Begriffsklarstellung</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">gematik</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">1.1.0</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">03.02.20</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"></td> 
+     <td style="text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Einarbeitung lt. Änderungsliste P21.1</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">gematik</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">1.1.1</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">26.06.20</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"></td> 
+     <td style="text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Einarbeitung lt. Änderungsliste P21.3</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">gematik</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">1.2.0</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">30.06.20</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"></td> 
+     <td style="text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Anpassungen gemäß Änderungsliste P22.1 und Scope-Themen aus Systemdesign R4.0.0</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">gematik</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">1.3.0</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">02.12.22</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Kap. 3</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">Einarbeitung CI_Maintenance_22.5:&nbsp;&nbsp;Entfernen Schnittstelle I_Log_Data,&nbsp;Konkretisierung Betriebsdatenübermittlung Konnektor</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 9pt;line-height: 1.5;">gematik</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;">1.4.0</td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;">03.02.23</td> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"></td> 
+     <td style="text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;">Einarbeitung Betr_Maintenance_22.3</td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;">gematik</td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16757">Inhaltsverzeichnis</h1>
+  <div id="polarion_wiki macro name=toc"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16756">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16757">Inhaltsverzeichnis</a></li>
+   <li> : <a href="#1">1 Einordnung des Dokuments</a></li>
+   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
+   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
+   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
+   <li> : : <a href="#1.4">1.4 Abgrenzungen</a></li>
+   <li> : : <a href="#1.5">1.5 Methodik</a></li>
+   <li> : <a href="#2">2 Systemüberblick</a></li>
+   <li> : <a href="#3">3 Schnittstelle I_OpsData_Update</a></li>
+   <li> : : <a href="#3.1">3.1 Transport Layer Security (TLS)</a></li>
+   <li> : : <a href="#3.2">3.2 DNS Resource Record</a></li>
+   <li> : : <a href="#3.3">3.3 Datei Upload</a></li>
+   <li> : : <a href="#3.4">3.4 Content Upload XML</a></li>
+   <li> : : <a href="#3.5">3.5 Content Upload JSON Format</a></li>
+   <li> : <a href="#4">4 Anhang – Verzeichnisse</a></li>
+   <li> : : <a href="#4.1">4.1 Abkürzungen</a></li>
+   <li> : : <a href="#4.2">4.2 Glossar</a></li>
+   <li> : : <a href="#4.3">4.3 Abbildungsverzeichnis</a></li>
+   <li> : : <a href="#4.4">4.4 Tabellenverzeichnis</a></li>
+   <li> : : <a href="#4.5">4.5 Referenzierte Dokumente</a></li>
+   <li> : : : <a href="#4.5.1">4.5.1 Dokumente der gematik</a></li>
+   <li> : : : <a href="#4.5.2">4.5.2 Weitere Dokumente</a></li>
+  </div>
+  <h2 id="1">1 Einordnung des Dokuments</h2>
+  <h3 id="1.1">1.1 Zielsetzung</h3>
+  <p id="polarion_81">Dieses Dokument enthält die Anforderungen an die Schnittstelle Betriebsdatenerfassung. Über sie werden von den Clients (z.B. Fachdienste und zentrale Dienste) versendete Betriebsdaten empfangen.</p>
+  <h3 id="1.2">1.2 Zielgruppe</h3>
+  <p id="polarion_84">Das Dokument richtet sich an Hersteller und Anbieter der Schnittstelle Betriebsdatenerfassung.</p>
+  <h3 id="1.3">1.3 Geltungsbereich</h3>
+  <p id="polarion_86">Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des Deutschen Gesundheitswesens für den Online-Produktivbetrieb (Stufe 2). Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungs- oder Abnahmeverfahren wird durch die gematik GmbH in gesonderten Dokumenten (z.B. Dokumentenlandkarte, Produkttypsteckbrief, Leistungsbeschreibung) festgelegt und bekannt gegeben.</p>
+  <p id="polarion_87"></p>
+  <p id="polarion_88" data-keep-next="true"> <span style="font-weight: bold;">Wichtiger Schutzrechts-/Patentrechtshinweis</span> </p>
+  <p id="polarion_89" data-keep-next="true"> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Die nachfolgende Spezifikation ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Spezifikation in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der Spezifikation angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen.</span> </p>
+  <h3 id="1.4">1.4 Abgrenzungen</h3>
+  <p id="polarion_90">Spezifiziert werden in diesem Dokument die Anforderungen und das Verhalten der Schnittstelle Betriebsdatenerfassung [I_OpsData_Update].</p>
+  <p id="polarion_1"></p>
+  <h3 id="1.5">1.5 Methodik</h3>
+  <p id="polarion_94"> <span style="color: #1A1A1A;">Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC</span> 2119 <span style="color: #1A1A1A;">[RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet.</span><br> <br> <span style="color: #1A1A1A;">Sie werden im Dokument wie folgt dargestellt:</span><br> <span style="font-weight: bold;color: #1A1A1A;">&lt;AFO-ID&gt; - &lt;Titel der Afo&gt;</span><br> <span style="color: #1A1A1A;">Text / Beschreibung</span><br> <span style="color: #1A1A1A;">[&lt;=]</span><br> <br> <span style="color: #1A1A1A;">Dabei umfasst die Anforderung sämtliche zwischen Afo-ID und der Textmarke [&lt;=] angeführten Inhalte.</span> </p>
+  <h2 id="2">2 Systemüberblick</h2>
+  <p id="polarion_2">Die Fachdienste und zentralen Dienste können ihre Betriebsdaten über die Schnittstelle Betriebsdatenerfassung I_OpsData_Update mit Operation [I_OpsData_Update]::fileUpload liefern.&nbsp;</p>
+  <p id="polarion_103"></p>
+  <h2 id="3">3 Schnittstelle I_OpsData_Update</h2>
+  <p id="polarion_111">Die Fachdienste und zentralen Dienste liefern ihre Betriebsdaten&nbsp;(darunter fallen auch die Rohdaten) über die Schnittstelle Betriebsdatenerfassung I_OpsData_Update.&nbsp;</p>
+  <h3 id="3.1">3.1 Transport Layer Security (TLS)</h3>
+  <div id="A_17272-01">
+   <p><b>A_17272-01 - Schnittstelle Betriebsdatenerfassung TLS-Authentisierung für Fach- und zentrale Dienste durch den I_OpsData_Update-Server</b></p>
+   <p>Die Schnittstelle I_OpsData_Update MUSS bei der Absicherung der Verbindung durch TLS die serverseitige&nbsp;Authentisierung unter Nutzung des X.509-Komponentenzertifikats mit der TLS-Server-Identität ID.ZD.TLS_S zur Serverauthentisierung umsetzen.<span id="polarion-comment:108"></span><br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17416-01">
+   <p><b>A_17416-01 - Schnittstelle Betriebsdatenerfassung Prüfung des TLS-Server-Zertifikats durch Fach- und zentrale Dienste</b></p>
+   <p>Der Client der Schnittstelle I_OpsData_Update MUSS bei der Absicherung der Verbindung durch TLS die serverseitige&nbsp;Authentisierung durch Prüfung des I_OpsData_Update-X.509-Komponentenzertifikats mit der TLS-Server-Identität ID.ZD.TLS_S zur Serverauthentisierung entsprechend [gemSpec_Krypt#TLS-Verbindungen] umsetzen.<span id="polarion-comment:109"></span><br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_17730">
+   <p><b>A_17730 - Schnittstelle Betriebsdatenerfassung Keine Verbindungen ohne TLS</b></p>
+   <p>Die Schnittstelle I_OpsData_Update MUSS ausschließlich Verbindungen mit TLS akzeptieren. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="3.2">3.2 DNS Resource Record</h3>
+  <p id="polarion_112">Die Schnittstelle I_OpsData_Update stellt Funktionen bereit, die über URLs aufgerufen werden können.</p>
+  <div id="A_17731">
+   <p><b>A_17731 - Schnittstelle Betriebsdatenerfassung Bereitstellung DNS-Resource-Records</b></p>
+   <p>Der Anbieter der Schnittstelle Betriebsdatenerfassung I_OpsData_Update MUSS SRV- und TXT-Resource-Records im DNS bereitstellen. Die Werte der PFADx-Angaben MÜSSEN mit einem "/" beginnen.<br> Im DNS sind dazu folgende Einträge einzutragen:<br> <br> Owner&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TTL Class Type Data<br> _fdrdif._tcp.&lt;TOP_LEVEL_DOMAIN_TI&gt; &lt;TTL1&gt; &lt;IN&gt; &lt;SRV&gt; &lt;Priorität1&gt;&nbsp;&nbsp;&lt;Gewicht1&gt;&nbsp;&nbsp;&lt;Port1&gt;&nbsp;&nbsp;&lt;FQDN1&gt;<br> _fdrdif._tcp.&lt;TOP_LEVEL_DOMAIN_TI&gt; &lt;TTL2&gt; &lt;IN&gt; &lt;TXT&gt; "txtvers=&lt;VERSION1&gt;" "path=&lt;PFAD1&gt;"<br> _fdrdif._tcp.&lt;TOP_LEVEL_DOMAIN_TI&gt; &lt;TTL3&gt; &lt;IN&gt; &lt;SRV&gt; &lt;Priorität2&gt;&nbsp;&nbsp;&lt;Gewicht2&gt;&nbsp;&nbsp;&lt;Port2&gt;&nbsp;&nbsp;&lt;FQDN2&gt;<br> _fdrdif._tcp.&lt;TOP_LEVEL_DOMAIN_TI&gt; &lt;TTL4&gt; &lt;IN&gt; &lt;TXT&gt; "txtvers=&lt;VERSION2&gt;" "path=&lt;PFAD2&gt;"<br> <br> _zdrdif._tcp.&lt;TOP_LEVEL_DOMAIN_TI&gt; &lt;TTL1&gt; &lt;IN&gt; &lt;SRV&gt; &lt;Priorität1&gt;&nbsp;&nbsp;&lt;Gewicht1&gt;&nbsp;&nbsp;&lt;Port1&gt;&nbsp;&nbsp;&lt;FQDN1&gt;<br> _zdrdif._tcp.&lt;TOP_LEVEL_DOMAIN_TI&gt; &lt;TTL2&gt; &lt;IN&gt; &lt;TXT&gt; "txtvers=&lt;VERSION1&gt;" "path=&lt;PFAD1&gt;"<br> _zdrdif._tcp.&lt;TOP_LEVEL_DOMAIN_TI&gt; &lt;TTL3&gt; &lt;IN&gt; &lt;SRV&gt; &lt;Priorität2&gt;&nbsp;&nbsp;&lt;Gewicht2&gt;&nbsp;&nbsp;&lt;Port2&gt;&nbsp;&nbsp;&lt;FQDN2&gt;<br> _zdrdif._tcp.&lt;TOP_LEVEL_DOMAIN_TI&gt; &lt;TTL4&gt; &lt;IN&gt; &lt;TXT&gt; "txtvers=&lt;VERSION2&gt;" "path=&lt;PFAD2&gt;"<br> <br> TOP_LEVEL_DOMAIN_TI: in der PU = telematik.; in der RU/TU = telematik-test. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_113">Die "fdrdif"-DNS-Resource-Records werden von den Fachdiensten und die "zdrdif"-DNS-Resource-Records von den zentralen Diensten zur Lokalisierung der Schnittstelle genutzt.</p>
+  <h3 id="3.3">3.3 Datei Upload</h3>
+  <div id="A_17733-01">
+   <p><b>A_17733-01 - Schnittstelle Betriebsdatenerfassung Datei-Upload</b></p>
+   <p>Die Schnittstelle I_OpsData_Update MUSS die Operation I_OpsData_Update::fileUpload für die Übertragung von Dateien von Clients zur Schnittstelle Betriebsdatenerfassung entsprechend Tabelle Tab_I_OpsData_Update_002 bereitstellen.<br> <br> <p class="polarion-rte-caption-paragraph" id="polarion___1"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">1</span>: Tab_I_OpsData_Update_002 Operation I_OpsData_Update::fileUpload </p> 
+    <table id="polarion_wiki macro name=table;params=width=100%|padding=3px" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Element</span><br> </th> 
+       <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Beschreibung</span><br> </th> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Name</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">I_OpsData_Update::fileUpload</span><br> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Beschreibung</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Mit dieser Operation überträgt der Client pro Lieferung genau eine Datei an die Schnittstelle Betriebsdatenerfassung.<span id="polarion-comment:114"></span></span><br> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Initiierender Akteur</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Client von I_OpsData_Update</span><br> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Weitere Akteure</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">keine</span><br> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Auslöser</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Client von I_OpsData_Update</span><br> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Vorbedingungen</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">aufgebaute TLS-Verbindung vom Client</span><br> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Nachbedingungen</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Die Datei wurde zur Schnittstelle Betriebsdatenerfassung übertragen.</span><br> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 318.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Aufruf</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 318.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Aufruf von POST Request entsprechend [RFC7231] mit folgenden Optionen</span><br> 
+        <ul> 
+         <li><span style="font-size: 10pt;line-height: 1.5;">Für die URL</span> "<span style="font-size: 10pt;line-height: 1.5;">https://&lt;host&gt;:&lt;port&gt;&lt;path&gt;/</span>"&nbsp;<span style="font-size: 10pt;line-height: 1.5;">MUSS im POST Request folgendes beachtet werden:</span><br> </li> 
+         <ul> 
+          <li>"<span style="font-size: 10pt;line-height: 1.5;">&lt;host&gt;:&lt;port&gt;</span>"&nbsp;<span style="font-size: 10pt;line-height: 1.5;">wird durch Abfrage des DNS SRV-Resource-Records ermittelt.</span><br> </li> 
+          <li>"<span style="font-size: 10pt;line-height: 1.5;">&lt;path&gt;</span>"&nbsp;<span style="font-size: 10pt;line-height: 1.5;">wird durch Abfrage des DNS TXT-Resource-Records ermittelt.</span><br> </li> 
+         </ul> 
+         <li><span style="font-size: 10pt;line-height: 1.5;">&nbsp;Im Top-level-HTTP-Header MUSS ein zusätzliches Feld "filename" angelegt werden. Der Wert für dieses Feld MUSS den Namen der übertragenen Datei enthalten.<span id="polarion-comment:111"></span></span><br> </li> 
+         <li><span style="font-size: 10pt;line-height: 1.5;">Mindestens folgende Top-level-HTTP-Header MÜSSEN mit den angegebenen Werten unterstützt werden:</span><br> </li> 
+         <ul> 
+          <li><span style="font-size: 10pt;line-height: 1.5;">Content-Type: application/octet-stream<span id="polarion-comment:112"></span></span><br> </li> 
+          <li><span style="font-size: 10pt;line-height: 1.5;">Content-Lenght: entsprechend [RFC7230] zu setzen</span><br> </li> 
+          <li><span style="font-size: 10pt;line-height: 1.5;">Accept-Encoding: gzip, deflate</span><br> </li> 
+         </ul> 
+         <li><span style="font-size: 10pt;line-height: 1.5;">Die zu liefernde Datei MUSS im POST Request Body geliefert werden. D.h. der Request Body MUSS auf die Datei an sich in Binärform (binary data) beschränkt sein.<span id="polarion-comment:113"></span></span><br> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 151.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Standardablauf</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 151.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Die Datei wird vom Client zur Schnittstelle Betriebsdatenerfassung übertragen.</span><br> <span style="font-size: 10pt;line-height: 1.5;">Die Datei wird auf Fehler überprüft.&nbsp;</span><br> <span style="font-size: 10pt;line-height: 1.5;">Bei erfolgreicher Ablage und Prüfung der Datei wird im POST Response der HTTP-200-OK-Status zurückgegeben. Der Client muss für die Prüfung der übermittelten Datei genügend Zeit berücksichtigen (Timer für das Warten auf das HTTP Response entsprechend konfigurieren).</span><br> <span style="font-size: 10pt;line-height: 1.5;">Wenn die Prüfung der Datei länger als 10 Sekunden dauert, MUSS die Schnittstelle I_OpsData_Update nach jeweils 10 Sekunden einen&nbsp;POST Response mit dem HTTP-102 Processing Status zurückgeben um bei dem Client ein Timeout zu verhindern. &nbsp;</span><br> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 157.344px;height: 113.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Fehlerfälle</span><br> </td> 
+       <td style="text-align: left;vertical-align: top;width: 572.344px;height: 113.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Neben den registrierten HTTP-Status-Codes des aufgerufenen HTTP POST können keine weiteren Fehlercodes auftreten.</span><br> <span style="font-size: 10pt;line-height: 1.5;">Bei allen Fehler-HTTP-Status-Codes wird keine Datei abgelegt und der POST Request MUSS mit gleichem "filename" wiederholbar sein.</span><br> <span style="font-size: 10pt;line-height: 1.5;">Im Fall von HTTP-Status-Code "400 Bad Request" enthält der HTTP POST bzw. die Datei einen Fehler. Dieser Fehler kann sich in der enthaltenen Datei befinden.</span></td> 
+      </tr> 
+     </tbody> 
+    </table> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_115">Hinweise:</p>
+  <ul id="polarion_116"> 
+   <li>Der Client muss eindeutige Dateinamen für seine Dateien (bspw. durch Anhängen eines Zeitstempels, einer eindeutigen ID, o.ä.) sicherstellen.</li> 
+  </ul>
+  <div id="A_17734-01">
+   <p><b>A_17734-01 - Schnittstelle Betriebsdatenerfassung Zugriff auf Dateien</b></p>
+   <p>Die Schnittstelle I_OpsData_Update MUSS<br> 
+    <ul>
+     <li>das Hochladen (HTTP POST) von Dateien durch Clients (ohne TLS Client Authentisierung)<span id="polarion-comment:115"></span> erlauben</li>
+    </ul> <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="3.4">3.4 Content Upload XML</h3>
+  <div id="A_23107">
+   <p><b>A_23107 - Schnittstelle Betriebsdatenerfassung Content-Upload XML Format</b></p>
+   <p>Die Schnittstelle I_OpsData_Update MUSS die Operation I_OpsData_Update::contentUploadXML für die Übertragung von Content im XML Format von Clients zur Schnittstelle Betriebsdatenerfassung entsprechend Tabelle Tab_I_OpsData_Update_003 bereitstellen.<br> &nbsp;<br> Tabelle : Tab_I_OpsData_Update_003 Operation I_OpsData_Update::contentUploadXML <br> 
+    <table style="border-collapse: collapse;">
+     <tbody>
+      <tr>
+       <td style="background-color: #F0F0F0;vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Element<br></td>
+       <td style="background-color: #F0F0F0;vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Beschreibung<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Name<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">I_OpsData_Update::contentUploadXML<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Beschreibung<br></td>
+       <td style="vertical-align: top;width: 7.4944in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Mit dieser Operation überträgt der Client pro Lieferung genau einen Content im XML Format an die Schnittstelle Betriebsdatenerfassung.<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7229in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Initiierender Akteur<br></td>
+       <td style="vertical-align: top;width: 7.4388in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Client von I_OpsData_Update<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Weitere Akteure<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">keine<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Auslöser<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Client von I_OpsData_Update<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Vorbedingungen<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">aufgebaute TLS-Verbindung vom Client<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Nachbedingungen<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Der Content im XML Format wurde zur Schnittstelle Betriebsdatenerfassung übertragen.<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Aufruf<br></td>
+       <td style="vertical-align: top;width: 7.5277in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Aufruf von POST Request entsprechend [RFC7231] mit folgenden Optionen<br> 
+        <div style="margin-left: 0.375in;">
+         Für die URL "
+         <a target="_top" href="https://%3chost%3e:%3cport%3e%3cpath%3e/">https://&lt;host&gt;:&lt;port&gt;&lt;path&gt;/</a>"&nbsp;MUSS im POST Request folgendes beachtet werden:
+        </div>
+        <div style="margin-left: 0.75in;">
+         "&lt;host&gt;:&lt;port&gt;"&nbsp;wird durch Abfrage des DNS SRV-Resource-Records ermittelt.
+        </div>
+        <div style="margin-left: 0.75in;">
+         "&lt;path&gt;"&nbsp;wird durch die gematik zur Verfügung gestellt.
+        </div>
+        <div style="margin-left: 0.375in;">
+         &nbsp;Im Top-level-HTTP-Header MUSS ein zusätzliches Feld "CI" angelegt werden. Der Wert für dieses Feld MUSS die CI-ID der logischen Produktinstanz des liefernden Client enthalten (in der Form "CI-nnnnnnn")
+        </div>
+        <div style="margin-left: 0.375in;">
+         Mindestens folgende Top-level-HTTP-Header MÜSSEN mit den angegebenen Werten unterstützt werden:
+        </div>
+        <div style="margin-left: 0.75in;">
+         Content-Type: text/xml; charset="utf-8"
+        </div>
+        <div style="margin-left: 0.75in;">
+         Content-Length: entsprechend [RFC7230] zu setzen
+        </div>
+        <div style="margin-left: 0.75in;">
+         Accept-Encoding: gzip, deflate
+        </div>
+        <div style="margin-left: 0.375in;">
+         Der zu liefernde Content MUSS im POST Request Body geliefert werden.
+        </div></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Standardablauf<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Der Content wird vom Client zur Schnittstelle Betriebsdatenerfassung übertragen.<br> Bei erfolgreicher Übermittlung des Contents wird in der Response der HTTP-200-OK-Status zurückgegeben.<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Fehlerfälle<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Bei allen Fehler-HTTP-Status-Codes wird kein Content abgelegt und der POST Request MUSS mit gleicher CI-ID wiederholbar sein.<br> Im Fall von HTTP-Status-Code "400 Bad Request" enthält der HTTP Request einen Fehler.<br></td>
+      </tr>
+     </tbody>
+    </table><br>(Hinweis: Für weitere Informationen zum&nbsp;CI, siehe [gemRL_Betr_TI] Kapitel "Configuration Management".) <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="3.5">3.5 Content Upload JSON Format</h3>
+  <div id="A_23110">
+   <p><b>A_23110 - Schnittstelle Betriebsdatenerfassung Content-Upload JSON Format</b></p>
+   <p>Die Schnittstelle I_OpsData_Update MUSS die Operation I_OpsData_Update::contentUploadJSON für die Übertragung von Content im JSON Format von Clients zur Schnittstelle Betriebsdatenerfassung entsprechend Tabelle Tab_I_OpsData_Update_004 bereitstellen.<br>&nbsp;<br>Tabelle : Tab_I_OpsData_Update_004 Operation I_OpsData_Update::contentUploadJSON<br> 
+    <table style="color: #000000;border-collapse: collapse;">
+     <tbody>
+      <tr>
+       <td style="background-color: #F0F0F0;vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Element<br></td>
+       <td style="background-color: #F0F0F0;vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Beschreibung<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Name<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">I_OpsData_Update::contentUploadJSON<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Beschreibung<br></td>
+       <td style="vertical-align: top;width: 7.4944in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Mit dieser Operation überträgt der Client pro Lieferung genau einen Content im JSON Format an die Schnittstelle Betriebsdatenerfassung.<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7229in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Initiierender Akteur<br></td>
+       <td style="vertical-align: top;width: 7.4388in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Client von I_OpsData_Update<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Weitere Akteure<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">keine<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Auslöser<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Client von I_OpsData_Update<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Vorbedingungen<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">aufgebaute TLS-Verbindung vom Client<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Nachbedingungen<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Der Content im JSON Format wurde zur Schnittstelle Betriebsdatenerfassung übertragen.<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Aufruf<br></td>
+       <td style="vertical-align: top;width: 7.5277in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Aufruf von POST Request entsprechend [RFC7231] mit folgenden Optionen<br> 
+        <div style="margin-left: 0.375in;">
+         Für die URL "
+         <a style="color: #197FA2;" target="_top" href="https://%3Chost%3E:%3cport%3e%3cpath%3e/">https://&lt;host&gt;:&lt;port&gt;&lt;path&gt;/</a>"&nbsp;MUSS im POST Request folgendes beachtet werden:
+        </div>
+        <div style="margin-left: 0.75in;">
+         "&lt;host&gt;:&lt;port&gt;"&nbsp;wird durch Abfrage des DNS SRV-Resource-Records ermittelt.
+        </div>
+        <div style="margin-left: 0.75in;">
+         "&lt;path&gt;"&nbsp;wird durch die gematik zur Verfügung gestellt.
+        </div>
+        <div style="margin-left: 0.375in;"></div>
+        <div style="margin-left: 0.375in;">
+         Mindestens folgende Top-level-HTTP-Header MÜSSEN mit den angegebenen Werten unterstützt werden:
+        </div>
+        <div style="margin-left: 0.75in;">
+         Content-Type: text/xml; charset="utf-8"
+        </div>
+        <div style="margin-left: 0.75in;">
+         Content-Length: entsprechend [RFC7230] zu setzen
+        </div>
+        <div style="margin-left: 0.75in;">
+         Accept-Encoding: gzip, deflate
+        </div>
+        <div style="margin-left: 0.375in;">
+         Der zu liefernde Content MUSS im POST Request Body geliefert werden.
+        </div></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Standardablauf<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Der Content wird vom Client zur Schnittstelle Betriebsdatenerfassung übertragen.<br> Bei erfolgreicher Übermittlung des Contents wird in der Response der HTTP-200-OK-Status zurückgegeben.<br></td>
+      </tr>
+      <tr>
+       <td style="vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Fehlerfälle<br></td>
+       <td style="vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;">Bei allen Fehler-HTTP-Status-Codes wird kein Content abgelegt und der POST Request MUSS mit gleicher CI-ID wiederholbar sein.<br> Im Fall von HTTP-Status-Code "400 Bad Request" enthält der HTTP Request einen Fehler.<br><br></td>
+      </tr>
+     </tbody>
+    </table><br>(Hinweis: Für weitere Informationen zum&nbsp;CI, siehe [gemRL_Betr_TI] Kapitel "Configuration Management".) <b>[&lt;=]</b></p>
+  </div>
+  <h2 id="4">4 Anhang – Verzeichnisse</h2>
+  <h3 id="4.1">4.1 Abkürzungen</h3>
+  <table id="polarion_wiki macro name=table;params=width=100%|padding=3px|uid=1" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 119.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Kürzel</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 610.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Erläuterung</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 119.344px;height: 20.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">DNS</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 610.344px;height: 20.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Domain Name Service</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 119.344px;height: 20.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">TLS</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 610.344px;height: 20.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Transport Layer Security</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="4.2">4.2 Glossar</h3>
+  <table id="polarion_wiki macro name=table;params=width=100%|padding=3px|uid=2" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 194.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Begriff</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 535.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Erläuterung</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 194.344px;height: 56.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Funktionsmerkmal</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 535.344px;height: 56.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Der Begriff beschreibt eine Funktion oder auch einzelne, eine logische Einheit bildende Teilfunktionen der TI im Rahmen der funktionalen Zerlegung des Systems.</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_121">Das Glossar wird als eigenständiges Dokument (vgl. [gemGlossar]) zur Verfügung gestellt.</p>
+  <h3 id="4.3">4.3 Abbildungsverzeichnis</h3>
+  <div data-sequence="Abbildung" id="polarion_wiki macro name=tof;params=uid=1"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+  </div>
+  <h3 id="4.4">4.4 Tabellenverzeichnis</h3>
+  <div data-sequence="Tabelle" id="polarion_wiki macro name=tof;params=uid=2"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion___1">Tabelle 1: Tab_I_OpsData_Update_002 Operation I_OpsData_Update::fileUpload</a></li>
+  </div>
+  <h3 id="4.5">4.5 Referenzierte Dokumente</h3>
+  <h4 id="4.5.1">4.5.1 Dokumente der gematik</h4>
+  <p id="polarion_122">Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Der mit der vorliegenden Version korrelierende Entwicklungsstand dieser Konzepte und Spezifikationen wird pro Release in einer Dokumentenlandkarte definiert. Version und Stand der referenzierten Dokumente sind daher in der nachfolgenden Tabelle nicht aufgeführt. Deren zu diesem Dokument jeweils gültige Versionsnummer ist in der aktuellen, von der gematik veröffentlichten Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.</p>
+  <p id="polarion_123"></p>
+  <table id="polarion_wiki macro name=table;params=width=100%|padding=3px|uid=3" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 164.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">[Quelle]</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 565.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Herausgeber: Titel</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 164.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">[gemGlossar]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 565.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Glossar der Telematikinfrastruktur</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_125"></p>
+  <h4 id="4.5.2">4.5.2 Weitere Dokumente</h4>
+  <table id="polarion_wiki macro name=table;params=width=100%|padding=3px|uid=4" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 134.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">[Quelle]</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 595.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Herausgeber (Erscheinungsdatum): Titel</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 134.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">[RFC7230]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 595.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 134.344px;height: 23.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">[RFC7231]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 595.344px;height: 23.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 134.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">[RFC7617]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 595.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"><span style="font-size: 10pt;line-height: 1.5;">The 'Basic' HTTP Authentication Scheme</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_127"></p>
+ </body>
+</html>

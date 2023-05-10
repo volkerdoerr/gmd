@@ -1,0 +1,784 @@
+<html>
+ <head>
+  <style>
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* ol {
+  list-style-type: none;
+  Remove default numbering
+}
+
+ol > li:before {
+  counter-increment: mycounter;
+  content: counter(mycounter) ". ";
+}
+
+ol:first-of-type {
+  counter-reset: mycounter;
+} */
+
+
+</style>
+  <meta charset="utf-8">
+ </head>
+ <body>
+  <p id="polarion_1"> <br> </p>
+  <p id="polarion_3"> <br> </p>
+  <p id="polarion_4"> <br> </p>
+  <p id="polarion_5"> <span style="font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;">Elektronische Gesundheitskarte und Telematikinfrastruktur</span> </p>
+  <p id="polarion_6"> <br> </p>
+  <p id="polarion_8"> <br> </p>
+  <p id="polarion_9"> <br> </p>
+  <p id="polarion_10" style="text-align: center;"> <span style="font-weight: bold;font-size: 28pt;line-height: 1.2;">Spezifikation für Prüfkarten des Typs eGK<br> </span> </p>
+  <p id="polarion_11"> <br> </p>
+  <p id="polarion_13"> <br> </p>
+  <div id="polarion_editor_html_block1" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div>
+   <pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contenteditable="false">
+    <table>
+     <tr>
+      <td>Version</td>
+      <td>1.2.0</td>
+     </tr>
+     <tr>
+      <td>Revision</td>
+      <td>548770</td>
+     </tr>
+     <tr>
+      <td>Stand</td>
+      <td>26.10.2018</td>
+     </tr>
+     <tr>
+      <td>Status</td>
+      <td>freigegeben</td>
+     </tr>
+     <tr>
+      <td>Klassifizierung</td>
+      <td>öffentlich</td>
+     </tr>
+     <tr>
+      <td>Referenzierung</td>
+      <td>gemSpec_PK_eGK</td>
+     </tr>
+    </table></pre> 
+  </div>
+  <p id="polarion_14"></p>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5493">Dokumentinformationen</h1>
+  <p id="polarion_18"> <span style="font-weight: bold;">Änderungen zur Vorversion</span> </p>
+  <p id="polarion_19">Die Erstversion wurde um Angabe zu Prüfkarten der Generation 2 ergänzt.</p>
+  <p id="polarion_20"> <br> </p>
+  <p id="polarion_21"> <span style="font-weight: bold;">Dokumentenhistorie</span> </p>
+  <table id="polarion_wiki macro name=table;params=uid=1" class="polarion-Document-table" style="width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Version</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 60px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Stand</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 325px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Grund der Änderung, besondere Hinweise</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 96px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Bearbeitung</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">1.0.0</td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">14.05.18</td> 
+     <td style="text-align: left;vertical-align: top;width: 325px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Ersterstellung</td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"></td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"></td> 
+     <td style="text-align: left;vertical-align: top;width: 325px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Erweiterung für Prüfkarten der Generation G2.1</td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">1.1.0</td> 
+     <td style="text-align: left;vertical-align: top;width: 60px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">26.10.18</td> 
+     <td style="text-align: left;vertical-align: top;width: 325px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">freigegeben</td> 
+     <td style="text-align: left;vertical-align: top;width: 96px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik</td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_23"> <br> </p>
+  <p id="polarion_24" style="text-align: center;"> <br> </p>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5494">Inhaltsverzeichnis</h1>
+  <p id="polarion_25"></p>
+  <div id="polarion_wiki macro name=toc"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5493">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5494">Inhaltsverzeichnis</a></li>
+   <li> : <a href="#1">1 Einführung des Dokuments</a></li>
+   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
+   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
+   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
+   <li> : : <a href="#1.4">1.4 Abgrenzung des Dokuments</a></li>
+   <li> : : <a href="#1.5">1.5 Methodik</a></li>
+   <li> : : <a href="#1.6">1.6 Nomenklatur</a></li>
+   <li> : <a href="#2">2 Initialisiertes Objektsystem der Prüfkarte eGK</a></li>
+   <li> : <a href="#3">3 Personalisierungsvalidierung</a></li>
+   <li> : <a href="#4">4 Festlegungen für Personalisierungsdaten</a></li>
+   <li> : : <a href="#4.1">4.1 Festlegungen für die ICCSN</a></li>
+   <li> : : <a href="#4.2">4.2 Festlegungen für die IK-Nummer</a></li>
+   <li> : : <a href="#4.3">4.3 Festlegungen für die Versichertennummer</a></li>
+   <li> : : <a href="#4.4">4.4 Festlegungen des Herausgebers</a></li>
+   <li> : : <a href="#4.5">4.5 Festlegungen für die Versichertenstammdaten</a></li>
+   <li> : <a href="#5">5 Bereitstellung der Personalisierungsdaten</a></li>
+   <li> : <a href="#6">6 Vorgaben für die Zertifikate</a></li>
+   <li> : <a href="#7">7 Personalisiertes Objektsystem der Prüfkarte eGK</a></li>
+   <li> : : <a href="#7.1">7.1 Schlüssel für die Administration</a></li>
+   <li> : : <a href="#7.2">7.2 QES-Anwendung</a></li>
+   <li> : <a href="#8">8 Optische Gestaltung der Prüfkarte eGK</a></li>
+   <li> : : <a href="#8.1">8.1 Optische Gestaltung der Kartenvorderseite</a></li>
+   <li> : : : <a href="#8.1.1">8.1.1 Unveränderbare optische Gestaltung</a></li>
+   <li> : : : <a href="#8.1.2">8.1.2 Veränderbare optische Gestaltung</a></li>
+   <li> : : <a href="#8.2">8.2 Optische Gestaltung der Kartenrückseite</a></li>
+   <li> : <a href="#9">9 Anhang A – Verzeichnisse</a></li>
+   <li> : : <a href="#9.1">9.1 Abkürzungen</a></li>
+   <li> : : <a href="#9.2">9.2 Abbildungsverzeichnis</a></li>
+   <li> : : <a href="#9.3">9.3 Tabellenverzeichnis</a></li>
+   <li> : : <a href="#9.4">9.4 Referenzierte Dokumente</a></li>
+   <li> : : : <a href="#9.4.1">9.4.1 Dokumente der gematik</a></li>
+   <li> : : : <a href="#9.4.2">9.4.2 Weitere Dokumente</a></li>
+  </div>
+  <p id="polarion_26"> <br> </p>
+  <h2 id="1">1 Einführung des Dokuments</h2>
+  <h3 id="1.1">1.1 Zielsetzung</h3>
+  <p id="polarion_27">Die Installation und Wartung von dezentralen Komponenten der Telematikinfrastruktur des Gesundheitswesens (TI) in der Produktivumgebung (PU) erfordert Möglichkeiten zur Überprüfung der Installation und Konfiguration der dezentralen Komponenten und deren Anbindung an die Primärsysteme der Leistungserbringerumgebung. Hierzu wird eine speziell ausgestattete eGK, die Prüfkarte des Typs eGK (PK eGK) verwendet.</p>
+  <p id="polarion_28">Diese Prüfkarte nutzt den Vertrauensraum der PU. Durch geeignete Merkmale der elektrischen und optischen Personalisierung wird der Missbrauch und die Verwechselung mit einer „echten“ eGK der PU (eGK eines Versicherten) ausgeschlossen.</p>
+  <p id="polarion_29">Zu den erkennbaren Merkmalen zählen insbesondere eine auffällige optische Gestaltung, eine eigens für Prüfzwecke definierte Institutskennung und die Verwendung von Personalisierungsdaten fiktiver Identitäten, die eine Verwechselung mit realen Versicherten ausschließen.</p>
+  <h3 id="1.2">1.2 Zielgruppe</h3>
+  <p id="polarion_30">Dieses Dokument richtet sich an Hersteller personalisierter Prüfkarten des Typs eGK.</p>
+  <h3 id="1.3">1.3 Geltungsbereich</h3>
+  <p id="polarion_31">Das vorliegende Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Die Zuordnung der vorliegenden Dokumentenversion zu einem Release erfolgt über die jeweilige Dokumentenlandkarte. Diese wird zusammen mit den Dokumenten auf der Internetseite der gematik öffentlich bereitgestellt.</p>
+  <p id="polarion_32">Dieses Dokument enthält verbindliche Festlegungen der gematik zur Personalisierung von Prüfkarten des Typs eGK.</p>
+  <p id="polarion_33">Außerhalb der Beauftragungen durch die gematik ist dieses Dokument informativ.</p>
+  <p id="polarion_34"> <span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Schutzrechts-/Patentrechtshinweis</span> </p>
+  <p id="polarion_35"> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Dieses Dokument ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Inhalte in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der beschriebenen Inhalte angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen.</span> </p>
+  <h3 id="1.4">1.4 Abgrenzung des Dokuments</h3>
+  <p id="polarion_36">Dieses Dokument definiert Merkmale der Prüfkarte des Typs eGK als Abgrenzung zu den Merkmalen einer eGK eines Versicherten und Testkarten eGK der RU/TU.</p>
+  <p id="polarion_37">Eine detaillierte Zusammenstellung aller geltenden Anforderungen an die personalisierte Prüfkarte ist im Produkttypsteckbrief der Prüfkarte des Typs eGK [gemProdT_PK_eGK] dargestellt. Es wird darauf hingewiesen, dass Anforderungen zur optischen und mechanischen Ausprägung sowohl in [gemSpec_eGK_OPT], als auch im vorliegenden Dokument beschrieben sind.</p>
+  <p id="polarion_38">Dieses Dokument enthält keine Vorgaben zum Bestätigungsverfahren für Prüfkarten und zum Verfahren der Datenübermittlung an den Hersteller der Prüfkarten.</p>
+  <h3 id="1.5">1.5 Methodik</h3>
+  <p id="polarion_39">Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC 2119 [RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet.</p>
+  <p id="polarion_40">Sie werden im Dokument wie folgt dargestellt:</p>
+  <p id="polarion_150"> <span style="font-weight: bold;">&lt;AFO-ID&gt; - &lt;Titel der Afo&gt;<br> </span><span style="font-weight: normal;"> Text / Beschreibung</span><span style="font-weight: bold;"><br> </span><span style="font-weight: normal;">[&lt;=]</span> </p>
+  <p id="polarion_41">Dabei umfasst die Anforderung sämtliche innerhalb der Textmarken angeführten Inhalte.</p>
+  <h3 id="1.6">1.6 Nomenklatur</h3>
+  <p id="polarion_44"></p>
+  <p id="polarion_45">Die im Verlauf dieses Dokuments verwendeten Bezeichnungen „Prüfkarte“ und „Prüfkarte eGK“ beziehen sich immer auf die „Prüfkarte des Typs eGK“. „Echte“ eGKs der Produktivumgebung werden zur Abgrenzung gegenüber der Prüfkarte als „eGK eines Versicherten“ bezeichnet.</p>
+  <p id="polarion_46"></p>
+  <h2 id="2">2 Initialisiertes Objektsystem der Prüfkarte eGK</h2>
+  <p id="polarion_48">Für die Prüfkarte wird das initialisierte Objektsystem einer für den Produktivbetrieb zugelassenen eGK unverändert verwendet. Für eine Prüfkarte der Generation 2 ist ein Objektsystem gemäß [gemSpec_eGK_ObjSys] und für eine Prüfkarte der Generation G2.1 ein Objektsystem gemäß [gemSpec_eGK_ObjSys_G2.1] zu verwenden. Eine Umsetzung der möglichen Optionen des jeweiligen Objektsystems&nbsp;ist nicht erforderlich.</p>
+  <div id="A_14281">
+   <p><b>A_14281 - Produkttypversion initialisiertes Objektsystem der Prüfkarte eGK G2</b></p>
+   <p>Die Prüfkarte der Generation G2 MUSS auf der Basis eines zugelassenen initialisierten Objektsystems einer eGK gemäß [gemProdT_eGK_ObjSys] erstellt werden.<span style="background-color: #FFFF99;"></span> <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3816">
+   <p><b>Card-G2-A_3816 - Produkttypversion initialisiertes Objektsystem der Prüfkarte eGK G2.1</b></p>
+   <p>Die Prüfkarte der Generation G2.1 MUSS auf der Basis eines zugelassenen initialisierten Objektsystems einer eGK gemäß [gemProdT_eGK_ObjSys_G2.1] erstellt werden. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_14282">
+   <p><b>A_14282 - Optionen des Objektsystems der Prüfkarte eGK G2</b></p>
+   <p>Die Prüfkarte der Generation 2 SOLL die möglichen Optionen des Objektsystems der eGK aus [gemSpec_eGK_ObjSys] NICHT unterstützen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3817">
+   <p><b>Card-G2-A_3817 - Optionen des Objektsystems der Prüfkarte eGK G2.1</b></p>
+   <p>Die Prüfkarte der Generation G2.1 SOLL die möglichen Optionen des Objektsystems der eGK aus [gemSpec_eGK_ObjSys_G2.1] NICHT unterstützen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_53" style="margin-left: 0px;"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: Diese Anforderung schließt die Option „QES-Anwendung komplett angelegt und nutzbar“ mit ein. Diese soll nicht unterstützt werden. </span> </p>
+  <h2 id="3">3 Personalisierungsvalidierung</h2>
+  <p id="polarion_56">Für die personalisierten Prüfkarten ist keine Zulassung durch die gematik notwendig. Es erfolgt eine Prüfung der korrekten Personalisierung und Bestätigung durch die gematik. Die konkrete Verfahrensweise und Bedingungen dazu sind nicht Bestandteil des vorliegenden Dokuments.</p>
+  <p id="polarion_57"></p>
+  <h2 id="4">4 Festlegungen für Personalisierungsdaten</h2>
+  <p id="polarion_60">Die folgenden Festlegungen gelten für alle Prüfkarten gemeinsam. Sie sind bei der Erstellung der Zertifikate sowie der elektrischen und optischen Personalisierung anzuwenden.</p>
+  <h3 id="4.1">4.1 Festlegungen für die ICCSN</h3>
+  <p id="polarion_61">Für die ersten 5 Oktette (10 Ziffern) der ICCSN wird ein einheitlicher Wert vorgegeben.</p>
+  <div id="Card-G2-A_3818">
+   <p><b>Card-G2-A_3818 - Vorgegebene Issuer Identifier Number der ICCSN der Prüfkarte eGK</b></p>
+   <p>Für die <span style="font-style: italic;">Issuer Identifier Number</span> (IIN) der ICCSN der Prüfkarte MUSS der Wert <span style="font-weight: bold;">8027600311</span> (gematik) verwendet werden. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_63"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: Die Struktur der ICCSN ist in [gemSpec_Karten_Fach_TIP_G2.1] vorgegeben</span> </p>
+  <h3 id="4.2">4.2 Festlegungen für die IK-Nummer</h3>
+  <p id="polarion_64">Die Prüfkarten verwenden eine speziell für Prüfaktivitäten vergebene Institutionskennzeichnung.</p>
+  <div id="Card-G2-A_3819">
+   <p><b>Card-G2-A_3819 - Vorgegebene IK-Nummer der Prüfkarte eGK</b></p>
+   <p>Für das Institutionskennzeichen (IK-Nummer, veränderlicher Anteil der 20-stelligen KVNR) der Prüfkarte MUSS der 9-stellige Wert <span style="font-weight: bold;">109500969</span> verwendet werden. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="4.3">4.3 Festlegungen für die Versichertennummer</h3>
+  <p id="polarion_66">Als Unterscheidungsmerkmal gegenüber den eGK eines Versicherten sind auf den Prüfkarten Versichertennummern zu verwenden, die beabsichtigt den Vorgaben zur Bildung der KVNR nicht folgen und mehr als 3 gleiche und aufeinanderfolgende Ziffern enthalten.</p>
+  <div id="Card-G2-A_3820">
+   <p><b>Card-G2-A_3820 - Gleiche aufeinanderfolgende Ziffern in der Vorgegebene Versichertennummern der Prüfkarte eGK</b></p>
+   <p>Die Versichertennummer der Prüfkarte MUSS einer Versichertennummer gemäß:<br> 
+    <div style="margin-left: 40px;">
+      X0000
+     <span style="font-style: italic;">nnnn</span>P, mit 
+     <span style="font-style: italic;">nnnn</span> aus der Menge {0001 .. 5000} und P = Prüfziffer 
+    </div> entsprechen. <br> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_68"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: Die Prüfziffer (letzte Stelle der Versichertennummer) ist bei gewähltem nnnn korrekt zu bilden.</span> </p>
+  <h3 id="4.4">4.4 Festlegungen des Herausgebers</h3>
+  <p id="polarion_69">Der Herausgeber der Prüfkarte eGK ist die gematik. Als Herausgeber nutzt die gematik die festgelegte IK-Nummer für Prüfaktivitäten und die dieser IK-Nummer zugeordnete Kennung „Test-GKV-SV“ als Kennzeichnung des Herausgebers.</p>
+  <p id="polarion_47"></p>
+  <div id="Card-G2-A_3821">
+   <p><b>Card-G2-A_3821 - Herausgeber der Prüfkarte eGK</b></p>
+   <p><p style="margin-left: 0px;"><span>Zur Kennzeichnung des Herausgebers der Prüfkarte MUSS die Zeichenfolge „Test GKV-SV“ verwendet werden.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="4.5">4.5 Festlegungen für die Versichertenstammdaten</h3>
+  <div id="Card-G2-A_3852">
+   <p><b>Card-G2-A_3852 - Versichertenstammdaten der Prüfkarte eGK</b></p>
+   <p>Für die Versichertenstammdaten der Prüfkarte MÜSSEN die Angaben aus TAB_PK_eGK_001 verwendet werden.<br> <br> <p class="polarion-rte-caption-paragraph" data-keep-next="true" id="polarion___1">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">1</span>: TAB_PK_eGK_001: Versichertenstammdaten der Prüfkarte eGK</p>
+    <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=header=no|width=100%">
+     <tbody>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Versicherten_ID</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">siehe: Versichertennummer</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">CMD_Version (alle)</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">5.2.0</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Nachname</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„Ort“ (identisch zu</span> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">subjectDN</span><span style="font-size: 10pt;line-height: 1.5;">/s</span><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">urName</span><span style="font-size: 10pt;line-height: 1.5;">)</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Vorname</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„Dienstleister“ (identisch zu</span> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">subjectDN</span><span style="font-size: 10pt;line-height: 1.5;">/g</span><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">ivenName</span><span style="font-size: 10pt;line-height: 1.5;">)</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Vorsatzwort</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„vor“</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Geburtsdatum</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">19800101</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Geschlecht</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„X“</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Strasse</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„Friedrichstraße“</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Hausnummer</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">136</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Ort</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„Berlin“</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Postleitzahl</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">10117</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Versicherungsschutz Beginn</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">20000101</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Kostenträger</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">siehe: IK-Nummer</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Kostentraegerlaendercode</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„D“</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Kostentraeger/Name</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„Test GKV-SV“ (identisch zu</span> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">subjectDN/</span><span style="font-size: 10pt;line-height: 1.5;">o</span><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">rganizationName</span><span style="font-size: 10pt;line-height: 1.5;">)</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Versichertenart</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">1</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Kostenerstattung (alle)</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">0</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">WOP</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">83</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Zuzahlungsstatus/Status</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">0</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Selektivvertraege (alle)</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">9</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Selektivvertraege/Art</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">0000</span><br></td>
+      </tr>
+      <tr>
+       <td style="text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Alle weiteren Angaben</span><br></td>
+       <td style="text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">„“ (leer)</span><br></td>
+      </tr>
+     </tbody>
+    </table> <b>[&lt;=]</b></p>
+  </div>
+  <h2 id="5">5 Bereitstellung der Personalisierungsdaten</h2>
+  <p id="polarion_73">Die Bereitstellung der kartenindividuellen Daten für die Erstellung der Zertifikate und die veränderliche optische Personalisierung der Prüfkarten, soweit nicht durch das vorliegende Dokument vorgegeben, erfolgt ausschließlich durch die gematik.</p>
+  <p id="polarion_15"></p>
+  <div id="Card-G2-A_3853">
+   <p><b>Card-G2-A_3853 - Bereitstellung der Daten für die Prüfkarte eGK</b></p>
+   <p>Ein Hersteller personalisierter Prüfkarten MUSS für die Personalisierung der Prüfkarten ausnahmslos Daten verwenden, die durch die gematik bereitgestellt werden. <br> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_75"></p>
+  <p id="polarion_50">Das Format, der Umfang und die Übermittelungsmethode der Daten an den Hersteller personalisierter Prüfkarten ist nicht Bestandteil des vorliegenden Dokuments.</p>
+  <p id="polarion_76">Die gematik stellt mindestens folgende Daten bereit:</p>
+  <p id="polarion_77">Für die Erstellung der Zertifikate C.CH.AUT und C.CH.ENC und für optische Merkmale der Personalisierung:</p>
+  <ul id="polarion_78"> 
+   <li>Vorgaben zu <span style="font-style: italic;">SubjectDN</span>:</li> 
+   <ul> 
+    <ul> 
+     <li><span style="font-style: italic;">CommonName</span> (Zeichenfolge zur Kennung der Identität, maximal 28 Zeichen inklusive Leerzeichen)</li> 
+     <li><span style="font-style: italic;">givenName</span></li> 
+     <li><span style="font-style: italic;">surname</span></li> 
+     <li><span style="font-style: italic;">organizationalUnitName</span>: OU = unveränderbarer Teil der KV-Nummer (10-stellige Versichertennummer)</li> 
+    </ul> 
+   </ul> 
+  </ul>
+  <p id="polarion_79">Für die Erstellung der optionalen Zertifikate C.CH.AUTN und C.CH.ENCV:</p>
+  <ul id="polarion_80"> 
+   <li>Vorgaben zu <span style="font-style: italic;">SubjectDN</span>:</li> 
+   <ul> 
+    <ul> 
+     <li><span style="font-style: italic;">CommonName</span> (Pseudonym der Versichertenidentität, maximal 28 Zeichen inklusive Leerzeichen)</li> 
+    </ul> 
+   </ul> 
+  </ul>
+  <p id="polarion_81">Für die Befüllung der EFs des VSDM:</p>
+  <ul id="polarion_82"> 
+   <li>vollständige Inhalte der folgenden EFs in DF.HCA gemäß den Vorgaben aus [gemSysL_VSDM]#Anhang C:</li> 
+   <ul> 
+    <ul> 
+     <li>EF.PD</li> 
+     <li>EF.VD</li> 
+     <li>EF.GVD</li> 
+     <li>EF.StatusVD</li> 
+    </ul> 
+   </ul> 
+  </ul>
+  <p id="polarion_83" style="margin-left: 40px;"> unter Verwendung der Angaben zu <span style="font-style: italic;">SubjectDN</span> für C.CH.AUT und C.CH.ENC für die Einträge <span style="font-style: italic;">Vorname</span>, <span style="font-style: italic;">Nachname</span> und <span style="font-style: italic;">Kostenträger/Name</span>. </p>
+  <p id="polarion_84" style="margin-left: 40px;"></p>
+  <p id="polarion_87">Die bereitgestellten Daten berücksichtigen die Anforderungen aus Card-G2-A_3818 (ICCSN), Card-G2-A_3819 (IK-Nummer), Card-G2-A_3820 (Versichertennummer), Card-G2-A_3852 (Versichertenstammdaten) und Card-G2-A_3821 (Herausgeber).</p>
+  <p id="polarion_89"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: subjectDN:organizationalUnitName:Institutionskennzeichen und organizationName sind durch das vorliegende Dokument fest vorgegeben.</span> </p>
+  <p id="polarion_91"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: Die bereitgestellten Daten können für mehrere Datensätze identische Vorgaben aufweisen. Ausgenomen hiervon ist die Versichertennummer, die für jeden Datensatz unterschiedlich ist.</span> </p>
+  <h2 id="6">6 Vorgaben für die Zertifikate</h2>
+  <p id="polarion_95">Die Erstellung und Personalisierung der Zertifikate der Prüfkarte entspricht den Vorgaben der eGK eines Versicherten gemäß den Anforderungen in [gemRL_TSL_SP_CP], [gemSpec_CVC_TSP] und [gemSpec_PKI]. Darüber hinaus gelten die folgenden Festlegungen.</p>
+  <p id="polarion_96">Die Zertifikate C.CH.AUTN und C.CH.ENCV werden für die Prüfkarten nicht benötigt.</p>
+  <div id="Card-G2-A_3822">
+   <p><b>Card-G2-A_3822 - Zertifikate C.CH.AUTN und C.CH.ENCV für die Prüfkarte eGK</b></p>
+   <p>Der Hersteller von Prüfkarten KANN die Zertifikate C.CH.AUTN und C.CH.ENCV für die Prüfkarte erstellen.<br> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_98" style="margin-left: 0px;"></p>
+  <div id="Card-G2-A_3823">
+   <p><b>Card-G2-A_3823 - Vorgegebene Daten für die Zertifikatserstellung für die Prüfkarte eGK</b></p>
+   <p><p style="margin-left: 0px;"><span>Der Hersteller von Prüfkarten MUSS f</span><span>ür die Erstellung der Zertifikate C.CH.AUT, C.CH.ENC, C.CH.AUTN und C.CH.ENCV die Vorgaben in Card-G2-A_</span><span>3818 (I</span><span>C</span><span>CSN)</span><span>, Card-G2-A_</span><span>3819 (IK-Nummer)</span><span>,</span><span> </span><span>Card-G2-A_</span><span>3820 (Versichertennummer)</span><span> und Card-G2-A_3821 (Herausgeber)</span><span> </span><span>sowie die von der gematik bereitgestellten Daten für </span><span style="font-style: italic;">SubjectDN</span><span> </span><span>berücksichtig</span><span>en</span><span>.</span></p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_100"> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Anmerkung: Die Angaben zu den Zertifikaten beziehen sich immer auf die beiden kryptographischen Varianten R2048 und E256.</span> </p>
+  <h2 id="7">7 Personalisiertes Objektsystem der Prüfkarte eGK</h2>
+  <p id="polarion_103">Die elektrische Personalisierung der Prüfkarte entspricht grundsätzlich der elektrischen Personalisierung einer eGK eines Versicherten.</p>
+  <p id="polarion_104">Bei der Personalisierung sind folgende Vorgaben zu beachten:</p>
+  <h3 id="7.1">7.1 Schlüssel für die Administration</h3>
+  <p id="polarion_105">Für die Prüfkarten ist ein Update der Versichertenstammdaten durch einen Fachdienst der TI nicht vorgesehen. Darüber hinaus soll es auch nicht möglich sein, administrative Änderungen an der Prüfkarte vorzunehmen, beispielsweise um die fest vorgegebene IK-Nummer zu verändern.</p>
+  <div id="Card-G2-A_3824">
+   <p><b>Card-G2-A_3824 - Keine Personalisierung der Schlüssel zur Administration der Prüfkarte eGK</b></p>
+   <p>Der Hersteller von Prüfkarten DARF die Schlüssel <br> 
+    <ul> 
+     <ul> 
+      <li>SK.CMS.AES (128 Bit und 256 Bit), <br> </li> 
+      <li>SK.VSD.AES (128 Bit und 256 Bit),<br> </li> 
+      <li>PuK.RCA.ADMINCMS.CS.E256<br> </li> 
+     </ul> 
+    </ul> zur Administration der Prüfkarte gemäß den Vorgaben der Spezifikation des Objektsystems der eGK NICHT befüllen. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="7.2">7.2 QES-Anwendung</h3>
+  <div id="Card-G2-A_3826">
+   <p><b>Card-G2-A_3826 - Keine Personalisierung der Objekte in DF.QES der Prüfkarte eGK</b></p>
+   <p>Der Hersteller von Prüfkarten DARF die Objekte der Anwendung DF.QES (PrK.CH.QES.XXX, PIN.QES, EF.C.CH.QES.XXX) NICHT personalisieren, falls die Prüfkarte ein DF.QES enthält (Option QES-Anwendung komplett angelegt und nutzbar). <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_110"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: XXX ist Platzhalter für R2048 oder E256</span> </p>
+  <h2 id="8">8 Optische Gestaltung der Prüfkarte eGK</h2>
+  <p id="polarion_113">Durch eine geeignete optische Gestaltung der Vorder- und Rückseite des Kartenkörpers der Prüfkarte wird eine visuelle Verwechselung mit einer eGK eines Versicherten vermieden. Markante optische Elemente einer eGK eines Versicherten werden für die Prüfkarten bewusst nicht verwendet.</p>
+  <p id="polarion_114">Alle nicht visuell unterscheidbaren Eigenschaften, also technische Maße, Formate und physikalische Eigenschaften, gelten für Prüfkarten in gleicher Weise wie für eGK eines Versicherten. Diese Anforderungen sind in [gemSpec_eGK_OPT] zusammengefasst.</p>
+  <p id="polarion_115">Es müssen aus [gemSpec_eGK_OPT] insbesondere die Vorgaben in Kapitel „Format und Maße“ und in Kapitel „Kartenkörper und Einbettung des Chips“ berücksichtigt werden.</p>
+  <p id="polarion_116"></p>
+  <div id="Card-G2-A_3827">
+   <p><b>Card-G2-A_3827 - Verbotene optische Elemente der Prüfkarte eGK</b></p>
+   <p>Der Hersteller von Prüfkarten DARF die Prüfkarte NICHT mit einem Lichtbild, dem Logo des BSI, dem Logo „Leonardo“ der eGK eines Versicherten, einem EHIC-Template auf der Rückseite oder einem Unterschriftenfeld ausstatten.<br> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_118"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: Das dem gematik-Schriftzug vorangestellte „Leonardo“-Logo (vitruvianischer Mensch) ist von dieser Anforderung nicht betroffen.</span> </p>
+  <p id="polarion_119" style="margin-left: 0px;"></p>
+  <h3 id="8.1">8.1 Optische Gestaltung der Kartenvorderseite</h3>
+  <h4 id="8.1.1">8.1.1 Unveränderbare optische Gestaltung</h4>
+  <div id="Card-G2-A_3828">
+   <p><b>Card-G2-A_3828 - Farbgebung der Kartenvorderseite der Prüfkarte eGK</b></p>
+   <p>Die Grundfarbe der Vorderseite der Prüfkarte MUSS weiß sein. <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3829">
+   <p><b>Card-G2-A_3829 - Unveränderbare Elemente der Vorderseite der Prüfkarte eGK</b></p>
+   <p>Der Hersteller von Prüfkarten MUSS die optische Gestaltung der unveränderlichen Elemente der Vorderseite der Prüfkarte gemäß Abb_PK_eGK_001 ausführen. <br>  <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion___2"> Abbildung <span data-sequence="Abbildung" class="polarion-rte-caption">1</span>: Abb_PK_eGK_001 Kartenvorderseite am Beispiel der Prüfkarte eGK&nbsp; G2.1<br> mit unveränderlichen Elementen&nbsp;&nbsp; </p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3830">
+   <p><b>Card-G2-A_3830 - Schriftart und Position des Schriftzugs „Prüf-Gesundheitskarte“ der Prüfkarte eGK</b></p>
+   <p>Für den Schriftzug „Prüf-Gesundheitskarte“ MUSS die Schriftart Verdana True Type in der Größe 12 pt fett in Schwarz verwendet werden.<br> Die Zeichenfolge MUSS rechtsbündig das Maß 80,80 mm vom linken Kartenrand und die Unterkante das Maß 5,72 mm vom oberen Kartenrand einhalten. <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3831">
+   <p><b>Card-G2-A_3831 - Gestaltung des Blocks nationale Farben der Prüfkarte eGK</b></p>
+   <p>Für die Farbgebung des Blocks in den nationalen Farben MÜSSEN Farben der folgenden Farbwerte (CMYK) verwendet werden: 
+    <table id="polarion_wiki macro name=table;params=header=no|border=no" class="polarion-Document-table" style="width: 80%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 15px;height: 18.1818px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 54px;height: 18.1818px;padding: 2px;">Rot:</td> 
+       <td style="text-align: left;vertical-align: top;width: 521px;height: 18.1818px;padding: 2px;">C: 010;&nbsp; M: 100;&nbsp; Y: 100;&nbsp; K: 0</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 15px;height: 18px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 54px;height: 18px;padding: 2px;">Gold:</td> 
+       <td style="text-align: left;vertical-align: top;width: 521px;height: 18px;padding: 2px;">C: 000;&nbsp; M: 025;&nbsp; Y: 100;&nbsp; K: 0</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 15px;height: 18.1818px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 54px;height: 18.1818px;padding: 2px;">Schwarz:</td> 
+       <td style="text-align: left;vertical-align: top;width: 521px;height: 18.1818px;padding: 2px;">C: 000;&nbsp; M: 000;&nbsp; Y: 000;&nbsp; K: 100</td> 
+      </tr> 
+     </tbody> 
+    </table> Der Block MUSS über die definierte Breite in drei gleiche Segmente geteilt sein. Die Farbgebung MUSS von links nach rechts Schwarz, Rot, Gold sein.<br> Der Block MUSS 1 mm hoch und 30,80 mm breit sein und rechtsbündig das Maß 80,80 mm vom linken Kartenrand und die Unterkante das Maß 8,00 mm vom oberen Kartenrand einhalten. <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3832">
+   <p><b>Card-G2-A_3832 - Position des gematik-Logos auf der Prüfkarte eGK</b></p>
+   <p>Das gematik-Logo MUSS auf die Prüfkarte aufgebracht werden. <br> Das Logo MUSS 20 mm breit sein. <br> Das Logo MUSS linksbündig das Maß 3,2 mm vom linken Kartenrand und die Unterkante das Maß 8,00 mm vom oberen Kartenrand (Unterkante des Blocks der nationalen Farben) einhalten. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_129"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: Eine Bilddatei des gematik-Logos kann im Rahmen der Übermittlung der Personalisierungsdaten durch die gematik zur Verfügung gestellt werden.</span> </p>
+  <div id="Card-G2-A_3833">
+   <p><b>Card-G2-A_3833 - Gestaltung des Farbfeldes der Prüfkarte eGK</b></p>
+   <p>Das auffällige Farbfeld der Prüfkarte MUSS einheitlich gemäß der folgenden Vorgabe beschriftet und aufgebracht werden: 
+    <table id="polarion_wiki macro name=table;params=header=no|border=no|width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 21.8182px;height: 17.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 141.818px;height: 17.2727px;padding: 2px;">Feldfarbe (CYMK):</td> 
+       <td style="text-align: left;vertical-align: top;width: 556.364px;height: 17.2727px;padding: 2px;">C: 000; M: 100; Y: 100; K:000</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 21.8182px;height: 17.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 141.818px;height: 17.2727px;padding: 2px;">Feldmaße:</td> 
+       <td style="text-align: left;vertical-align: top;width: 556.364px;height: 17.2727px;padding: 2px;">18 mm hoch, 55 mm breit</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 21.8182px;height: 16.3636px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 141.818px;height: 16.3636px;padding: 2px;">Feldposition:</td> 
+       <td style="text-align: left;vertical-align: top;width: 556.364px;height: 16.3636px;padding: 2px;">Rechtsbündig 85,60 (Kartenrand), waagerechte Mitte 27,50 mm vom oberen Kartenrand</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 21.8182px;height: 36.3636px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 141.818px;height: 36.3636px;padding: 2px;">Text:</td> 
+       <td style="text-align: left;vertical-align: top;width: 556.364px;height: 36.3636px;padding: 2px;">Zeile 1: "Nur für",<br> Zeile 2: "Prüfzwecke"</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 21.8182px;height: 17.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 141.818px;height: 17.2727px;padding: 2px;">Schrftart:</td> 
+       <td style="text-align: left;vertical-align: top;width: 556.364px;height: 17.2727px;padding: 2px;">Verdana True Type, 18 pt fett Weiß</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 21.8182px;height: 17.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 141.818px;height: 17.2727px;padding: 2px;">Ausrichtung:</td> 
+       <td style="text-align: left;vertical-align: top;width: 556.364px;height: 17.2727px;padding: 2px;">Zeile 1 und 2 zentriert im Farbfeld</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <div style="margin-left: 160px;"></div> <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3834">
+   <p><b>Card-G2-A_3834 - Schriftart und Position der Legenden der Prüfkarte eGK</b></p>
+   <p>Für die Legenden MUSS einheitlich die Schriftart Verdana True Type 5 pt in Schwarz verwendet werden.<br> Die Zeichenfolgen MÜSSEN für die Unterkante das Maß 52,00 mm vom oberen Kartenrand einhalten.<br> Die Zeichenfolge „Test-IK“ MUSS linksbündig das Maß 3,2 mm vom linken Kartenrand einhalten.<br> Die Zeichenfolge „Prüfkartennummer“ MUSS linksbündig das Maß 31,00 mm vom linken Kartenrand einhalten.<br> Die Zeichenfolge „ICCSN“ MUSS linksbündig das Maß 58,80 mm vom linken Kartenrand einhalten. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_14283">
+   <p><b>A_14283 - Optische Kennzeichnung der Generation der Prüfkarte eGK</b></p>
+   <p>Zur optischen Kennzeichnung der Generation der Prüfkarte MUSS für Prüfkarten der Generation G2 der Schriftzug „G 2“ und für Prüfkarten der Generation G2.1 der Schriftzug „G 2.1“ verwendet werden. <span style="background-color: #FFFF99;"></span> <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3835">
+   <p><b>Card-G2-A_3835 - Schriftart und Position der Kennzeichnung der Generation der Prüfkarte eGK</b></p>
+   <p>Für den Schriftzug zur Kennzeichnung der Generation der Prüfkarte MUSS die Schriftart Verdana True Type in der Größe 6 pt fett in Schwarz verwendet werden.<br> Die Zeichenfolge MUSS rechtsbündig das Maß 80,80 mm vom linken Kartenrand und die Unterkante das Maß 10,50 mm vom oberen Kartenrand einhalten. <b>[&lt;=]</b></p>
+  </div>
+  <h4 id="8.1.2">8.1.2 Veränderbare optische Gestaltung</h4>
+  <div id="Card-G2-A_3836">
+   <p><b>Card-G2-A_3836 - Veränderbare Elemente der Vorderseite der Prüfkarte eGK</b></p>
+   <p>Der Hersteller von Prüfkarten MUSS die optische Gestaltung der veränderlichen Elemente der Vorderseite der Prüfkarte gemäß Abb_PK_eGK_002 ausführen. <br> 
+    <div style="text-align: center;"> 
+     <br> 
+     <br> 
+    </div> <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion___3"> Abbildung <span data-sequence="Abbildung" class="polarion-rte-caption">2</span>: Abb_PK_eGK_002 Kartenvorderseite am Beispiel der Prüfkarte eGK G2.1<br> mit veränderlichen Elementen (Inhalte beispielhaft) </p> <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3837">
+   <p><b>Card-G2-A_3837 - Vorgabe Beschriftung Personalisierungsfeld der Prüfkarte eGK</b></p>
+   <p>Das Personalisierungsfeld der Prüfkarte MUSS einheitlich gemäß der folgenden Vorgabe beschriftet werden:<br> 
+    <div style="margin-left: 160px;"></div> 
+    <table id="polarion_wiki macro name=table;params=header=no|border=no|width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;">Schrifttyp:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;">Verdana True Type, 10 pt, Groß- und Kleinbuchstaben</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;">Zeilenabstand:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;">2 pt zuzüglich Zeichengröße</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;">Zeilen:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;">Zeile 1 - 3</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;">Farbe:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;">Schwarz</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;">Unterkante:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;">49,50 mm vom oberen Kartenrand (Unterkante 3. Zeile)</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;">Zeile 1:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;">Die Zeichenfolge der Kennung der Prüfidentität mit maximal 28 Zeichen linksbündig gemäß dem linksbündigen Maß der Legende „Test-IK“</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 17.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 17.2727px;padding: 2px;">Zeile 2:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 17.2727px;padding: 2px;">Die Zeichenfolge „Ablaufdatum:“ linksbündig gemäß dem linksbündigen Maß der Legende „Test-IK“</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;">Zeile 2:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;">Die Datumsangabe zum Ablaufdatum linksbündig gemäß dem linksbündigen Maß der Legende „Prüfkartennummer“ im Format TT/MM/YYYY</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;">Zeile 3:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;">9-stelliges Institutionskennzeichen (IK-Nummer) der Prüfkarteninstitution, linksbündig gemäß dem linksbündigen Maß der Legende „Test-IK“</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;">Zeile 3:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;">10-stellige Versichertennummer der Prüfidentität, linksbündig gemäß dem linksbündigen Maß der Legende „Prüfkartennummer“</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"></td> 
+       <td style="text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;">Zeile 2 und 3:</td> 
+       <td style="text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;">20-stellige ICCSN, jeweils 10 Stellen pro Zeile linksbündig gemäß dem linksbündigen Maß der Legende „ICCSN“</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <div style="margin-left: 160px;"></div> <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3825">
+   <p><b>Card-G2-A_3825 - Aufgedrucktes Ablaufdatum der Prüfkarte eGK</b></p>
+   <p>Das aufgedruckte Ablaufdatum in Zeile 2 MUSS mit dem Ablaufdatum (validity – bis) des Zertifikats C.CH.AUT übereinstimmen.<br> <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3838">
+   <p><b>Card-G2-A_3838 - Aufgedruckte ICCSN der Prüfkarte eGK</b></p>
+   <p>Die aufgedruckte Ziffernfolge der ICCSN MUSS mit der personalisierten ICCSN im Wertefeld des <span style="font-style: italic;">DO_ICCSN</span> im Objekt MF/EF.GDO des Objektsystems übereinstimmen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3839">
+   <p><b>Card-G2-A_3839 - Aufgedrucktes Institutionskennzeichen der Prüfkarte eGK</b></p>
+   <p>Das aufgedruckte Institutionskennzeichen (IK-Nummer) MUSS mit dem Element <span style="font-style: italic;">organizationalUnitName[OU=Institutionskennzeichen]</span> des personalisierten Zertifikats C.CH.AUT der Prüfkarte übereinstimmen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_143"> <span style="font-style: italic;font-size: 9pt;line-height: 1.5;">Anmerkung: die IK-Nummer ist in Card-G2-A_3819 festgelegt</span> </p>
+  <div id="Card-G2-A_3840">
+   <p><b>Card-G2-A_3840 - Aufgedruckte Zeichenfolge der Kennung der Prüfidentität der Prüfkarte eGK</b></p>
+   <p>Die aufgedruckte Zeichenfolge der Kennung der Prüfidentität MUSS mit dem Element <span style="font-style: italic;">subjectDN:CommonName</span> des personalisierten Zertifikats C.CH.AUT der Prüfkarte übereinstimmen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3841">
+   <p><b>Card-G2-A_3841 - Aufgedruckte Versichertennummer der Prüfkarte eGK</b></p>
+   <p>Die aufgedruckte Versichertennummer MUSS mit dem unveränderbaren Teil der KV-Nummer im Element <span style="font-style: italic;">subjectDN:organizationalUnitName [unveränderbarer Teil der KV-Nummer]</span> des personalisierten Zertifikats C.CH.AUT der Prüfkarte übereinstimmen. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="8.2">8.2 Optische Gestaltung der Kartenrückseite</h3>
+  <div id="Card-G2-A_3842">
+   <p><b>Card-G2-A_3842 - Farbgebung der Kartenrückseite der Prüfkarte eGK</b></p>
+   <p>Die Rückseite der Prüfkarte MUSS weiß sein. <b>[&lt;=]</b></p>
+  </div>
+  <div id="Card-G2-A_3843">
+   <p><b>Card-G2-A_3843 - Gestaltung der Kartenrückseite der Prüfkarte eGK</b></p>
+   <p>Die Rückseite der Prüfkarte DARF NICHT bedruckt sein. <b>[&lt;=]</b></p>
+  </div>
+  <h2 id="9">9 Anhang A – Verzeichnisse</h2>
+  <h3 id="9.1">9.1 Abkürzungen</h3>
+  <p id="polarion_65"></p>
+  <table id="polarion_wiki macro name=table;params=uid=66" class="polarion-Document-table" style="width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Kürzel</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Erläuterung</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">BSI</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Bundesamt für die Sicherheit in der Informationstechnik</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">DF</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Dedicated File</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">DO_ICCSN</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Datenobjekt in EF.GDO. Enthält im Wertfeld die ICCSN</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">EF</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Elementary File</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">eGK</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">elektronische Gesundheitskarte</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">EHIC</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Europäische Krankenversichertenkarte</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">ICCSN</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Integrated Chip Card Serial Number</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">IIN</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Issuer Identifier Number, Kennung des Kartenanbieters</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 26.1932px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">IK</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 26.1932px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Kennzeichen für Leistungsträger und Leistungserbringer gemäß § 293 SGB V</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">KVNR</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Krankenversichertennummer</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">PIN</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Persönliche Identifikationsnummer</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">PUK</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Pin Unblocking Key</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">TSP</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Trusted Service Provider</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">VSDM</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Versicherten-Stammdaten-Management</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_67"></p>
+  <h3 id="9.2">9.2 Abbildungsverzeichnis</h3>
+  <div data-sequence="Abbildung" id="polarion_wiki macro name=tof;params=uid=1"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion___2">Abbildung 1: Abb_PK_eGK_001 Kartenvorderseite am Beispiel der Prüfkarte eGK&nbsp; G2.1 mit unveränderlichen Elementen&nbsp;&nbsp;</a></li>
+   <li><a href="#polarion___3">Abbildung 2: Abb_PK_eGK_002 Kartenvorderseite am Beispiel der Prüfkarte eGK G2.1 mit veränderlichen Elementen (Inhalte beispielhaft)</a></li>
+  </div>
+  <h3 id="9.3">9.3 Tabellenverzeichnis</h3>
+  <div data-sequence="Tabelle" id="polarion_wiki macro name=tof;params=uid=2"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion___1">Tabelle 1: TAB_PK_eGK_001: Versichertenstammdaten der Prüfkarte eGK</a></li>
+  </div>
+  <h3 id="9.4">9.4 Referenzierte Dokumente</h3>
+  <h4 id="9.4.1">9.4.1 Dokumente der gematik</h4>
+  <p id="polarion_151"> Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Die konkrete Version der Dokumente kann der Dokumentenlandkarte des Spezifikations-Releases entnommen werden. Diese wird zusammen mit den Dokumenten auf der Internetseite der gematik bereitgestellt<br> </p>
+  <table id="polarion_wiki macro name=table;params=uid=68" class="polarion-Document-table" style="width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 212.557px;height: 26.1932px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[Quelle]</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 375.284px;height: 26.1932px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Herausgeber (Erscheinungsdatum): Titel</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_eGK_ObjSys_G2.1]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Spezifikation der elektronischen Gesundheitskarte eGK-Objektsystem für eGK der Generation 2.1</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[gemProdT_eGK_ObjSys_G2.1]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Produkttypsteckbrief Zulassungsobjekt eGK-Objektsystem Generation G2.1 </span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_eGK_ObjSys]</td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">gematik: Spezifikation der elektronischen Gesundheitskarte eGK-Objektsystem</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">[gemProdT_eGK_ObjSys]</td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;">gematik: Produkttypsteckbrief Zulassungsobjekt eGK-Objektsystem</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_eGK_OPT]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Spezifikation der elektronischen Gesundheitskarte - Äußere Gestaltung für eGK der Generation 2</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_Karten_Fach_TIP_G2.1]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Befüllvorschriften für die Plattformanteile der Karten der TI der Generation G2.1</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[gemRL_TSL_SP_CP]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Certificate Policy</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_CVC_TSP]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Spezifikation Trust Service Provider CVC</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[gemSpec_PKI]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Spezifikation PKI</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 212.557px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[gemSysL_VSDM]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 375.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gematik: Systemspezifisches Konzept VSDM</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_70"></p>
+  <h4 id="9.4.2">9.4.2 Weitere Dokumente</h4>
+  <p id="polarion_71"></p>
+  <table id="polarion_wiki macro name=table;params=uid=72" class="polarion-Document-table" style="width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 145.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[Quelle]</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 443.466px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Herausgeber (Erscheinungsdatum): Titel</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 145.284px;height: 57.1023px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">[RFC2119]</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 443.466px;height: 57.1023px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">RFC 2119 (März 1997): Key words for use in RFCs to Indicate Requirement Levels S. Bradner, <br> </span><a href="http://tools.ietf.org/html/rfc2119" target="_blank" class="descriptionLink">http://tools.ietf.org/html/rfc2119</a><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_155"> <br> </p>
+ </body>
+</html>
