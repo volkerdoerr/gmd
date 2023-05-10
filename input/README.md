@@ -7,6 +7,7 @@ HTML including
 - embedded Images
 - requirements
 - clickable chapter headings
+- Spec-Versions as links in requirements of ProdT and AnbT documents
 
 Directly accessible in Github via prefix: https://htmlpreview.github.io/?  
 Currently:  
