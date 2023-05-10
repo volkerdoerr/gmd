@@ -1,0 +1,123 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_TI-Messenger-Client
+Revision: 555995
+Stand: 29.07.2022
+Status: in Bearbeitung
+Version: 1.1.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[3.1]:                   #31-nachbarsysteme
+[3.2]:                   #32-ausprägungen-der-ti-messenger-clients
+[3.2.1]:                 #321-nutzergruppen
+[3.2.2]:                 #322-plattformen
+[3.2.3]:                 #323-weitere-festlegungen
+[4]:                     #4-übergreifende-festlegungen
+[4.1]:                   #41-datenschutz-und-sicherheit
+[4.2]:                   #42-authentifizierung-am-vzd-fhir-directory
+[4.3]:                   #43-benutzerführung
+[4.4]:                   #44-konfiguration
+[4.5]:                   #45-test
+[4.6]:                   #46-betriebliche-aspekte
+[5]:                     #5-funktionsmerkmale
+[5.1]:                   #51-authentifizierungsverfahren
+[5.2]:                   #52-matrix-client-server-api
+[5.2.1]:                 #521-sofortnachrichten
+[5.2.2]:                 #522-direktnachrichten
+[5.2.3]:                 #523-gruppenunterhaltungen
+[5.2.4]:                 #524-push-benachrichtigungen
+[5.3]:                   #53-administrationsfunktionen
+[5.4]:                   #54-weitere-funktionen
+[6]:                     #6-anhang-a-–-verzeichnisse
+[6.1]:                   #61-abkürzungen
+[6.2]:                   #62-glossar
+[6.3]:                   #63-abbildungsverzeichnis
+[6.4]:                   #64-tabellenverzeichnis
+[6.5]:                   #65-referenzierte-dokumente
+[6.5.1]:                 #651-dokumente-der-gematik
+[6.5.2]:                 #652-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Systemüberblick (Vereinfachte Darstellung)          (&93834802616448) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAGsgAABQ7CAIAAABu9H...
+[Img-002]:                                                                   (&93834802622608) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAIloAAA3aCAIAAAAWXZ...
+[Abbildung-3]:           internes Testtreiber-Modul                          (&93834810817656) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABhgAAARdCAYAAACjGE...
+[Abbildung-4]:           externes Testtreiber-Modul                          (&93834810821896) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABnAAAARdCAYAAABhKA...
+[Abbildung-5]:           Testumgebung für Herstellertests                    (&93834810837320) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABOgAAAI8CAYAAABLQJ...
+[Abbildung-6]:           Testumgebung gematik                                (&93834810841568) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABCIAAAJ2CAYAAACKHi...
+[Abbildung-7]:           Push-Benachrichtigung für Endgeräte                 (&93834801615888) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAIywAABAjCAIAAAAYEA...
+[Abbildung-8]:           CaseReference Ressourcen                            (&93834781675424) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjEAAAFBCAYAAACGpf...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775035648)
+[Tbl-002]:               #Tbl-002 (&93834802607704)
+[Tabelle-1]:             #Tabelle-1 (&93834811820056)
+[Tabelle-2]:             #Tabelle-2 (&93834771428072)
+[Tabelle-3]:             #Tabelle-3 (&93834772252280)
+[Tabelle-4]:             #Tabelle-4 (&93834772277800)
+[Tbl-007]:               #Tbl-007 (&93834781681280)
+[Tbl-008]:               #Tbl-008 (&93834781712456)
+[Tbl-009]:               #Tbl-009 (&93834776372192)
+[Tbl-010]:               #Tbl-010 (&93834776393416)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://github.com/gematik/api-ti-messenger/]: https://github.com/gematik/api-ti-messenger/ (&93834776377008)
+[https://simplifier.net/tim]: https://simplifier.net/tim (&93834776390904)
+[https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html]: https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html (&93834776398248)
+[https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166.pdf]: https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166.pdf (&93834776401008)
+[https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/2FA/it-sicherheit.pdf?__blob=publicationFile&v=3 ]: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/2FA/it-sicherheit.pdf?__blob=publicationFile&v=3%A0 (&93834776403768)
+[https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/DigitaleGesellschaft/Pruefvorschrift_Produktgutachter_ePA-Frontend.pdf?__blob=publicationFile&v=3]: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/DigitaleGesellschaft/Pruefvorschrift_Produktgutachter_ePA-Frontend.pdf?__blob=publicationFile&v=3 (&93834776406344)
+[https://spec.matrix.org/v1.3/client-server-api/]: https://spec.matrix.org/v1.3/client-server-api/ (&93834776409408)
+[https://www.datenschutzkonferenz-online.de/media/st/20210429_DSK_Stellungnahme_Messengerdienste_Krankenhausbereich.pdf]: https://www.datenschutzkonferenz-online.de/media/st/20210429_DSK_Stellungnahme_Messengerdienste_Krankenhausbereich.pdf (&93834776412472)
+[https://www.iso.org]:   https://www.iso.org (&93834776415536)
+[https://matrix.org/docs/guides/implementing-more-advanced-e-2-ee-features-such-as-cross-signing]: https://matrix.org/docs/guides/implementing-more-advanced-e-2-ee-features-such-as-cross-signing (&93834776418296)
+[https://owasp.org/www-project-mobile-top-10/]: https://owasp.org/www-project-mobile-top-10/ (&93834776421176)
+[https://owasp.org/www-project-proactive-controls/]: https://owasp.org/www-project-proactive-controls/ (&93834776424056)
+[https://github.com/gematik/api-ti-messenger/tree/master/src/openapi]: https://github.com/gematik/api-ti-messenger/tree/master/src/openapi (&93834776426936)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

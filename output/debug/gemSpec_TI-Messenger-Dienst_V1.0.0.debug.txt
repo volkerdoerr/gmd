@@ -1,0 +1,153 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>TI-Messenger-Dienst
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_TI-Messenger-Dienst
+Revision: 408191
+Stand: 01.10.2021
+Status: freigegeben
+Version: 1.0.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[3.1]:                   #31-akteure-und-rollen
+[3.2]:                   #32-nachbarsysteme
+[3.3]:                   #33-ausprägungen-des-messenger-service
+[3.4]:                   #34-nutzung-von-personal-assertion-token-passport
+[3.5]:                   #35-verwendung-der-token
+[4]:                     #4-systemzerlegung
+[4.1]:                   #41-ti-messenger-fachdienst
+[4.1.1]:                 #411-registrierungs-dienst
+[4.1.2]:                 #412-push-gateway
+[4.1.3]:                 #413-messenger-service
+[4.1.3.1]:               #4131-messenger-proxy
+[4.1.3.2]:               #4132-passport-service-des-messenger-service
+[4.1.3.3]:               #4133-matrix-homeserver
+[4.2]:                   #42-ti-messenger-client
+[4.3]:                   #43-vzd-fhir-directory
+[5]:                     #5-übergreifende-festlegungen
+[5.1]:                   #51-datenschutz-und-sicherheit
+[5.2]:                   #52-verwendete-standards
+[5.3]:                   #53-authentifizierung-und-autorisierung
+[5.3.1]:                 #531-authentifizierung-von-nutzern
+[5.3.2]:                 #532-autorisierung-am-messenger-service
+[5.3.3]:                 #533-autorisierung-am-fhir-proxy
+[5.4]:                   #54-föderation
+[5.5]:                   #55-rechtekonzept-vzd-fhir-directory
+[5.5.1]:                 #551-schreibzugriffe-für-ti-messenger-fachdienste
+[5.5.2]:                 #552-schreibzugriff-für-ti-messenger-clients
+[5.5.3]:                 #553-lesezugriff-für-ti-messenger-clients
+[5.6]:                   #56-betrieb
+[6]:                     #6-anwendungsfälle
+[6.1]:                   #61-af---anmeldung-eines-nutzers-an-messenger-service
+[6.2]:                   #62-af---leistungserbringer-als-practitioner-hinzufügen
+[6.3]:                   #63-af---messenger-service-bereitstellen
+[6.4]:                   #64-af---organisationsressourcen-im-vzd-fhir-directory-hinzufügen
+[6.5]:                   #65-af---ti-messenger-remote-invite
+[6.6]:                   #66-af---message-senden-remote
+[6.7]:                   #67-af---messenger-service-lokal
+[6.8]:                   #68-af---check-remote-domain
+[7]:                     #7-anhang-a-–-verzeichnisse
+[7.1]:                   #71-abkürzungen
+[7.2]:                   #72-glossar
+[7.3]:                   #73-abbildungsverzeichnis
+[7.4]:                   #74-tabellenverzeichnis
+[7.5]:                   #75-referenzierte-dokumente
+[7.5.1]:                 #751-dokumente-der-gematik
+[7.5.2]:                 #752-weitere-dokumente
+[8]:                     #8-anhang-b---abläufe
+[8.1]:                   #81-oidc---authorization-code-flow
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:             Komponenten der TI-Messenger-Architektur (verei.. (&93834799767800) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAApQAAAHHCAYAAAABPc...
+[Abbildung-2]:           Benachbarten Produkttypen des TI-Messenger-Dienstes (&93834775043232) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxMAAACJCAYAAABXT2...
+[Abbildung-3]:           Komponenten der TI-Messenger-Architektur und dere.. (&93834801635536) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABbkAAAPoCAYAAADzwP...
+[Img-004]:                                                                   (&93834772260960) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtQAAAHkCAYAAAAev7...
+[Img-005]:                                                                   (&93834783645208) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAt4AAAKACAYAAACrEH...
+[Img-006]:                                                                   (&93834783660760) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+oAAAH4CAYAAADdHx...
+[Abbildung-9]:           Laufzeitsicht - Messenger-Service automatisch ber.. (&93834768000320) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1IAAAHqCAYAAAAOIH...
+[Img-008]:                                                                   (&93834804530024) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAw8AAAJ1CAYAAACfEs...
+[Img-009]:                                                                   (&93834804545928) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABFcAAAMKCAIAAADPiz...
+[Img-010]:                                                                   (&93834799199064) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1IAAAJWCAYAAABSwL...
+[Img-011]:                                                                   (&93834799223712) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABGoAAAJWCAYAAAAA32...
+[Img-012]:                                                                   (&93834799258400) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1IAAAFQCAYAAAC1cU...
+[Img-013]:                                                                   (&93834799171592) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA3IAAAH4CAYAAAAPY9...
+[Abbildung-19]:          Laufzeitsicht - Ablauf Check remote Domain          (&93834774936320) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkIAAAHTCAIAAABEF+...
+[Img-015]:                                                                   (&93834776394896) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwcAAAOUCAYAAAD3qk...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834801471552)
+[Tbl-002]:               #Tbl-002 (&93834799758056)
+[Tabelle-1]:             #Tabelle-1 (&93834799776472)
+[Tabelle-2]:             #Tabelle-2 (&93834799832328)
+[Tbl-005]:               #Tbl-005 (&93834810842976)
+[Tabelle-3]:             #Tabelle-3 (&93834781713608)
+[Tabelle-4]:             #Tabelle-4 (&93834772266240)
+[Tabelle-5]:             #Tabelle-5 (&93834783666736)
+[Tabelle-6]:             #Tabelle-6 (&93834768026920)
+[Tabelle-7]:             #Tabelle-7 (&93834804553256)
+[Tabelle-8]:             #Tabelle-8 (&93834799229264)
+[Tabelle-9]:             #Tabelle-9 (&93834799177984)
+[Tabelle-10]:            #Tabelle-10 (&93834774914840)
+[Tbl-014]:               #Tbl-014 (&93834774951808)
+[Tbl-015]:               #Tbl-015 (&93834800956416)
+[Tbl-016]:               #Tbl-016 (&93834800997144)
+[Tbl-017]:               #Tbl-017 (&93834776362952)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://github.com/matrix-org/matrix-doc/pull/3013]: https://github.com/matrix-org/matrix-doc/pull/3013 (&93834810804680)
+[https://github.com/matrix-org/matrix-doc/pull/3359]: https://github.com/matrix-org/matrix-doc/pull/3359 (&93834810806056)
+[https://github.com/matrix-org/matrix-doc/pull/3361]: https://github.com/matrix-org/matrix-doc/pull/3361 (&93834810807432)
+[https://matrix.org/docs/spec/client_server/r0.6.1]: https://matrix.org/docs/spec/client_server/r0.6.1 (&93834776368008)
+[https://matrix.org/docs/spec/]: https://matrix.org/docs/spec/ (&93834776371192)
+[https://matrix.org/docs/spec/client_server/r0.6.1]: https://matrix.org/docs/spec/client_server/r0.6.1 (&93834776374680)
+[https://matrix.org/docs/spec/push_gateway/r0.1.1]: https://matrix.org/docs/spec/push_gateway/r0.1.1 (&93834776377864)
+[https://spec.matrix.org/unstable/proposals/]: https://spec.matrix.org/unstable/proposals/ (&93834776380744)
+[https://datatracker.ietf.org/doc/html/rfc8225]: https://datatracker.ietf.org/doc/html/rfc8225 (&93834776383624)
+[https://openid.net/developers/specs/]: https://openid.net/developers/specs/ (&93834776386504)
+[https://www.hl7.org/fhir/documentation.html]: https://www.hl7.org/fhir/documentation.html (&93834776389384)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

@@ -1,0 +1,175 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_TI-Messenger-Dienst
+Revision: 548770
+Stand: 29.07.2022
+Status: freigegeben
+Version: 1.1.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[3.1]:                   #31-akteure-und-rollen
+[3.2]:                   #32-nachbarsysteme
+[3.3]:                   #33-ausprägungen-des-messenger-services
+[3.4]:                   #34-ti-messenger-föderation
+[3.5]:                   #35-berechtigungskonzept
+[3.6]:                   #36-verwendung-der-token
+[4]:                     #4-systemzerlegung
+[4.1]:                   #41-idp-dienst
+[4.2]:                   #42-vzd-fhir-directory
+[4.3]:                   #43-ti-messenger-fachdienst
+[4.3.1]:                 #431-registrierungs-dienst
+[4.3.2]:                 #432-push-gateway
+[4.3.3]:                 #433-messenger-service
+[4.3.3.1]:               #4331-messenger-proxy
+[4.3.3.2]:               #4332-matrix-homeserver
+[4.4]:                   #44-ti-messenger-client
+[5]:                     #5-übergreifende-festlegungen
+[5.1]:                   #51-datenschutz-und-sicherheit
+[5.2]:                   #52-verwendete-standards
+[5.3]:                   #53-authentifizierung-und-autorisierung
+[5.3.1]:                 #531-authentifizierung-von-akteuren-am-messenger-service
+[5.3.2]:                 #532-authentifizierung-am-vzd-fhir-directory
+[5.3.3]:                 #533-autorisierung-am-messenger-service
+[5.3.4]:                 #534-autorisierung-am-vzd-fhir-directory
+[5.4]:                   #54-rechtekonzept-vzd-fhir-directory
+[5.4.1]:                 #541-lesezugriff
+[5.4.2]:                 #542-schreibzugriff
+[5.5]:                   #55-user-management
+[5.6]:                   #56-funktionsaccounts
+[5.7]:                   #57-test
+[5.8]:                   #58-betrieb
+[6]:                     #6-anwendungsfälle
+[6.1]:                   #61-af---authentisieren-einer-organisation-am-ti-messenger-dienst
+[6.2]:                   #62-af---bereitstellung-eines-messenger-service-für-eine-organisation
+[6.3]:                   #63-af---organisationsressourcen-im-verzeichnisdienst-hinzufügen
+[6.4]:                   #64-af---anmeldung-eines-akteurs-am-messenger-service
+[6.5]:                   #65-af---akteur-user-hba-im-verzeichnisdienst-hinzufügen
+[6.6]:                   #66-af---föderationszugehörigkeit-eines-messenger-service-prüfen
+[6.7]:                   #67-af---einladung-von-akteuren-innerhalb-einer-organisation
+[6.8]:                   #68-af---austausch-von-events-zwischen-akteuren-innerhalb-einer-organisation
+[6.9]:                   #69-af---einladung-von-akteuren-außerhalb-einer-organisation
+[6.10]:                  #610-af---austausch-von-events-zwischen-akteuren-außerhalb-einer-organisation
+[7]:                     #7-anhang-a-–-verzeichnisse
+[7.1]:                   #71-abkürzungen
+[7.2]:                   #72-glossar
+[7.3]:                   #73-abbildungsverzeichnis
+[7.4]:                   #74-tabellenverzeichnis
+[7.5]:                   #75-referenzierte-dokumente
+[7.5.1]:                 #751-dokumente-der-gematik
+[7.5.2]:                 #752-weitere-dokumente
+[8]:                     #8-anhang-b---abläufe
+[8.1]:                   #81-einträge-im-vzd-fhir-directory-suchen
+[8.2]:                   #82-aktualisierung-der-föderationsliste
+[8.3]:                   #83-stufen-der-berechtigungsprüfung
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:             Komponenten der TI-Messenger-Architektur (verei.. (&93834765145896) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAGsgAABQ7CAIAAABu9H...
+[Abbildung-2]:           Benachbarten Produkttypen des TI-Messenger-Dienstes (&93834768487584) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAH9QAAAeBCAIAAADPVg...
+[Abbildung-3]:           Komponenten der TI-Messenger-Architektur und dere.. (&93834768017232) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAOVsAACe+CAIAAACM4J...
+[Abbildung-4]:           Darstellung der Berechtigungsprüfung am Messenger.. (&93834810832360) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAI0QAAA+mCAIAAAAFyy...
+[Abbildung-5]:           Beispiel einer Interaktion mit einem Chatbot        (&93834772264688) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAH0gAAA3RCAIAAAC8Pz...
+[Abbildung-6]:           TI-Messenger-Dienst Instanzen                       (&93834772271520) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACUoAAAVRCAYAAABctC...
+[Abbildung-7]:           Ausschnitt - TI-Messenger-Anbieter im TI-ITSM       (&93834772283144) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAywAAAHhCAIAAAADBa...
+[Abbildung-8]:           Org-Admin - Übersicht Anwendungsfälle               (&93834800907856) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABcIAAALiCAYAAAD6ha...
+[Abbildung-9]:            User / User HBA - Übersicht Anwendungsfälle        (&93834800916000) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABRIAAAXACAIAAAClNS...
+[Img-010]:                                                                   (&93834801545920) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABrcAAAgLCAIAAABpXg...
+[Img-011]:                                                                   (&93834802311000) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB0MAAAfDCAIAAAC6hB...
+[Abbildung-12]:           Laufzeitsicht - Organisationsressourcen im Verze.. (&93834804531456) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABrUAAAmoCAYAAADbNi...
+[Img-013]:                                                                   (&93834764903176) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABRUAAAr2CAYAAADs4D...
+[Abbildung-14]:          Laufzeitsicht - Akteur (User-HBA) im Verzeichnisd.. (&93834778122720) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABmoAAAizCAYAAAC6Sg...
+[Img-015]:                                                                   (&93834783602944) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABDoAAASHCAYAAAADeR...
+[Img-016]:                                                                   (&93834783654864) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB6YAAAicCAYAAADvvY...
+[Abbildung-19]:           Laufzeitsicht - Austausch von Events zwischen Ak.. (&93834783488072) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACAAAAAX2CAYAAAAQu0...
+[Abbildung-20]:           Laufzeitansicht - Einträge im VZD-FHIR-Directory.. (&93834802600856) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB94AAApFCAYAAACojR...
+[Abbildung-21]:          Laufzeitansicht - Aktualisierung der Föderationsl.. (&93834802606472) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABhgAAAPdCAIAAAD3bf...
+[Img-020]:                                                                   (&93834802612512) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABqQAAAvsCAIAAACfbg...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834767743952)
+[Tbl-002]:               #Tbl-002 (&93834765137208)
+[Tbl-003]:               #Tbl-003 (&93834775020864)
+[Tabelle-2]:             #Tabelle-2 (&93834764158920)
+[Tabelle-3]:             #Tabelle-3 (&93834767991944)
+[Tabelle-4]:             #Tabelle-4 (&93834768034520)
+[Tabelle-5]:             #Tabelle-5 (&93834801667968)
+[Tabelle-6]:             #Tabelle-6 (&93834798967344)
+[Tabelle-7]:             #Tabelle-7 (&93834799004944)
+[Tbl-010]:               #Tbl-010 (&93834772240464)
+[Tbl-011]:               #Tbl-011 (&93834772244496)
+[Tbl-012]:               #Tbl-012 (&93834772252808)
+[Tabelle-8]:             #Tabelle-8 (&93834800931352)
+[Tabelle-9]:             #Tabelle-9 (&93834801571936)
+[Tabelle-10]:            #Tabelle-10 (&93834802335016)
+[Tabelle-11]:            #Tabelle-11 (&93834804556712)
+[Tabelle-12]:            #Tabelle-12 (&93834764928944)
+[Tabelle-13]:            #Tabelle-13 (&93834778145304)
+[Tabelle-14]:            #Tabelle-14 (&93834783627152)
+[Tbl-020]:               #Tbl-020 (&93834811156696)
+[Tabelle-16]:            #Tabelle-16 (&93834811205032)
+[Tabelle-17]:            #Tabelle-17 (&93834768820800)
+[Tbl-023]:               #Tbl-023 (&93834783507168)
+[Tbl-024]:               #Tbl-024 (&93834799231960)
+[Tbl-025]:               #Tbl-025 (&93834776379024)
+[Tbl-026]:               #Tbl-026 (&93834776402200)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[3.5 - Berechtigungskonzept]: /polarion/#/project/Mainline_OPB1/wiki/Spezifikation/gemSpec_TI-Messenger-Dienst?selection=ML-122581 (&93834801608008)
+[https://github.com/gematik/api-ti-messenger/]: https://github.com/gematik/api-ti-messenger/ (&93834776383840)
+[https://github.com/gematik/api-vzd]: https://github.com/gematik/api-vzd (&93834776386904)
+[https://spec.matrix.org/v1.3/client-server-api/]: https://spec.matrix.org/v1.3/client-server-api/ (&93834776407016)
+[https://www.hl7.org/fhir/documentation.html]: https://www.hl7.org/fhir/documentation.html (&93834776410080)
+[https://cloud.gematik.de/index.php/s/23ebxa75z3s7zGt?path=%2Fv2.1.0]: https://cloud.gematik.de/index.php/s/23ebxa75z3s7zGt?path=%2Fv2.1.0 (&93834776412960)
+[https://matrix.org/bots/]: https://matrix.org/bots/ (&93834776415840)
+[https://spec.matrix.org/v1.3/]: https://spec.matrix.org/v1.3/ (&93834776418720)
+[https://openid.net/developers/specs/]: https://openid.net/developers/specs/ (&93834776421600)
+[https://spec.matrix.org/v1.3/push-gateway-api/]: https://spec.matrix.org/v1.3/push-gateway-api/ (&93834776424664)
+[https://datatracker.ietf.org/doc/html/rfc8225]: https://datatracker.ietf.org/doc/html/rfc8225 (&93834802590608)
+[https://spec.matrix.org/v1.3/server-server-api/]: https://spec.matrix.org/v1.3/server-server-api/ (&93834802593488)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

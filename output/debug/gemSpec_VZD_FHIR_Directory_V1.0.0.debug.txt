@@ -1,0 +1,166 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>Verzeichnisdienst FHIR-Directory
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_VZD_FHIR_Directory
+Revision: 408162
+Stand: 01.10.2021
+Status: freigegeben
+Version: 1.0.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[3.1]:                   #31-akteure-und-rollen
+[3.2]:                   #32-user-stories
+[3.3]:                   #33-nachbarsysteme
+[4]:                     #4-zerlegung-des-produkttyps
+[5]:                     #5-funktionsmerkmale
+[5.1]:                   #51-fhir-directory
+[5.1.1]:                 #511-datenmodell
+[5.1.2]:                 #512-mapping-von-ldap-auf-fhir-ressourcen
+[5.1.3]:                 #513-fhir-restful-api
+[5.2]:                   #52-fhir-proxy-und-passport-service
+[5.2.1]:                 #521-schnittstellen
+[5.2.1.1]:               #5211-tls-verbindungsaufbau
+[5.2.1.2]:               #5212-fhir-schnittstelle-für-ti-messenger-nutzer
+[5.2.1.3]:               #5213-fhir-schnittstelle-für-besitzer
+[5.2.1.4]:               #5214-schnittstelle-i_vzd_tim_provider_services
+[5.2.2]:                 #522-aktualisierung-der-basiseinträge
+[5.2.3]:                 #523-erzeugung-und-verteilung-der-föderationsliste
+[5.3]:                   #53-übergreifende-vorgaben
+[5.3.1]:                 #531-sicherheit
+[5.3.2]:                 #532-betrieb
+[6]:                     #6-anwendungsfälle
+[6.1]:                   #61-ti-messenger-nutzer-sucht-tiorganization--und-tipractitioner-einträge-im-vzd-fhir-directory
+[6.2]:                   #62-tiorganization-einträge-oder-tipractitioner-einträge-im-vzd-fhir-directory-ändern
+[6.3]:                   #63-anwendungsfälle-der-ti-messenger-anbieter-im-vzd-fhir-directory
+[6.4]:                   #64-einträge-mit-dem-vzd-ldap-directory-abgleichen
+[7]:                     #7-verteilungssicht
+[8]:                     #8-anhang-a-–-verzeichnisse
+[8.1]:                   #81-abkürzungen
+[8.2]:                   #82-glossar
+[8.3]:                   #83-abbildungsverzeichnis
+[8.4]:                   #84-tabellenverzeichnis
+[8.5]:                   #85-referenzierte-dokumente
+[8.5.1]:                 #851-dokumente-der-gematik
+[8.5.2]:                 #852-weitere-dokumente
+[9]:                     #9-anhang-b---beispiele
+[9.1]:                   #91-fhir-operationen
+[9.1.1]:                 #911-abfrage-von-tiorganisation-einträgen
+[9.1.1.1]:               #9111-client-code
+[9.1.1.2]:               #9112-request
+[9.1.1.3]:               #9113-request-headers
+[9.1.1.4]:               #9114-response
+[9.1.1.5]:               #9115-response-headers
+[9.1.1.6]:               #9116-response-body
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Systemüberblick VZD-FHIR-Directory                  (&93834765136664) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAE2oAAAaBCAIAAADzBC...
+[Img-002]:                                                                   (&93834804575504) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAFZUAAAxxCAIAAABLFH...
+[Img-003]:                                                                   (&93834789172688) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABD4AAAUBCAIAAADrbt...
+[Img-004]:                                                                   (&93834789195616) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABekAAAUqCAIAAAD6Rm...
+[Img-005]:                                                                   (&93834789222016) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArUAAAIsCAIAAABjq8...
+[Img-006]:                                                                   (&93834789236816) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA70AAAHKCAIAAABAB7...
+[Abbildung-7]:           VZD-FHIR-Directory, Verteilungssicht                (&93834781668352) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAEZkAAAx7CAIAAABAas...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834794179920)
+[Tbl-002]:               #Tbl-002 (&93834789480480)
+[Tabelle-1]:             #Tabelle-1 (&93834765146760)
+[Tabelle-2]:             #Tabelle-2 (&93834804588480)
+[Tabelle-3]:             #Tabelle-3 (&93834764154232)
+[Tbl-006]:               #Tbl-006 (&93834799840696)
+[Tbl-007]:               #Tbl-007 (&93834771057992)
+[Tbl-008]:               #Tbl-008 (&93834771066776)
+[Tbl-009]:               #Tbl-009 (&93834772231080)
+[Tbl-010]:               #Tbl-010 (&93834772265440)
+[Tabelle -4]:            #Tabelle -4 (&93834801614752)
+[Tbl-012]:               #Tbl-012 (&93834781672592)
+[Tbl-013]:               #Tbl-013 (&93834781700936)
+[Tbl-014]:               #Tbl-014 (&93834781724224)
+[Tbl-015]:               #Tbl-015 (&93834801454848)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[http://hl7.org/fhir/summary.html]: http://hl7.org/fhir/summary.html (&93834765140304)
+[https://www.hl7.org/fhir/http.html]: https://www.hl7.org/fhir/http.html (&93834804582504)
+[https://simplifier.net/vzd-fhir-directory]: https://simplifier.net/vzd-fhir-directory (&93834804585856)
+[https://simplifier.net/vzd-fhir-directory/tiorganization]: https://simplifier.net/vzd-fhir-directory/tiorganization (&93834775008952)
+[https://gematik.de/fhir/VZD-FHIR-Directory/NamingSystem/TelematikID]: https://gematik.de/fhir/VZD-FHIR-Directory/NamingSystem/TelematikID (&93834775010208)
+[https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIOrganizationTypeCS]: https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIOrganizationTypeCS (&93834775011464)
+[https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIProfessionOidCS]: https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIProfessionOidCS (&93834775012416)
+[https://gematik.de/fhir/VZD-FHIR-Directory/ValueSet/TIOrganizationTypeVS]: https://gematik.de/fhir/VZD-FHIR-Directory/ValueSet/TIOrganizationTypeVS (&93834775013368)
+[https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIMessengerCS]: https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIMessengerCS (&93834775017416)
+[https://simplifier.net/vzd-fhir-directory/tipractitioner]: https://simplifier.net/vzd-fhir-directory/tipractitioner (&93834775027480)
+[https://www.hl7.org/fhir/endpoint.html]: https://www.hl7.org/fhir/endpoint.html (&93834775030056)
+[https://www.hl7.org/fhir/location.html]: https://www.hl7.org/fhir/location.html (&93834775032632)
+[https://www.hl7.org/fhir/healthcareservice.html]: https://www.hl7.org/fhir/healthcareservice.html (&93834775035208)
+[https://www.hl7.org/fhir/practitionerrole.html]: https://www.hl7.org/fhir/practitionerrole.html (&93834775038144)
+[https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIProfessionOidCS]: https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIProfessionOidCS (&93834799917232)
+[https://gematik.de/fhir/VZD-FHIR-Directory/ValueSet/TIOrganizationTypeVS]: https://gematik.de/fhir/VZD-FHIR-Directory/ValueSet/TIOrganizationTypeVS (&93834799918792)
+[https://www.hl7.org/fhir/http.html]: https://www.hl7.org/fhir/http.html (&93834799936256)
+[https://vzd-fhir-directory.vzd.ti-dienste.de/tim-search]: https://vzd-fhir-directory.vzd.ti-dienste.de/tim-search (&93834799833760)
+[https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-search]: https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-search (&93834799835312)
+[https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-search]: https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-search (&93834799836864)
+[https://vzd-fhir-directory.vzd.ti-dienste.de/tim-authenticate]: https://vzd-fhir-directory.vzd.ti-dienste.de/tim-authenticate (&93834799860464)
+[https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-authenticate]: https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-authenticate (&93834799862016)
+[https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-authenticate]: https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-authenticate (&93834771051288)
+[https://vzd-fhir-directory.vzd.ti-dienste.de/owner]: https://vzd-fhir-directory.vzd.ti-dienste.de/owner (&93834771078096)
+[https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/owner]: https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/owner (&93834771079648)
+[https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/owner]: https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/owner (&93834771081080)
+[https://vzd-fhir-directory.vzd.ti-dienste.de/owner-authenticate]: https://vzd-fhir-directory.vzd.ti-dienste.de/owner-authenticate (&93834772249888)
+[https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/owner-authenticate]: https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/owner-authenticate (&93834772251440)
+[https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/owner-authenticate]: https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/owner-authenticate (&93834772252992)
+[https://vzd-fhir-directory.vzd.ti-dienste.de/tim-provider-services]: https://vzd-fhir-directory.vzd.ti-dienste.de/tim-provider-services (&93834772259096)
+[https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-provider-services]: https://ru-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-provider-services (&93834772260648)
+[https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-provider-services]: https://tu-vzd-fhir-directory-test.vzd.ti-dienste.de/tim-provider-services (&93834772262208)
+[https://oauth.vzd.ti-dienste.de/authenticate ]: https://oauth.vzd.ti-dienste.de/authenticate%A0 (&93834772284608)
+[https://ru-oauth-test.vzd.ti-dienste.de/authenticate]: https://ru-oauth-test.vzd.ti-dienste.de/authenticate (&93834772286160)
+[https://tu-oauth-test.vzd.ti-dienste.de/authenticate]: https://tu-oauth-test.vzd.ti-dienste.de/authenticate (&93834772287712)
+[https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIMessengerCS]: https://gematik.de/fhir/VZD-FHIR-Directory/CodeSystem/TIMessengerCS (&93834801632160)
+[https://owasp.org/www-project-top-ten/]: https://owasp.org/www-project-top-ten/ (&93834801645096)
+[http://hapi.fhir.org/baseR4]: http://hapi.fhir.org/baseR4/Organization?address=10117&_include=Organization%3Aendpoint&_include=Organization%3Apartof&_pretty=true (&93834801470112)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

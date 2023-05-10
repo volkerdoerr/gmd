@@ -1,0 +1,184 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Produkttypsteckbrief<br>Prüfvorschrift<br>Bestätigungsgegenstand<br>Sicherheit für die Herausgabe- und Nutzungsprozesse der eGK
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Produkttyp Status: freigegeben
+Produkttyp Version: 4.5.0-0
+Referenzierung: gemProdT_eGK_Sich_G2_1_PTV_4.5.0-0
+Revision: 548770
+Stand: 14.02.2022
+Status: freigegeben
+Version: 1.0.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Historie]:              #historie-produkttypversion-und-produkttypsteckbrief
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einführung
+[1.1]:                   #11-zielsetzung-und-einordnung-des-dokumentes
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokumentes
+[1.5]:                   #15-methodik
+[2]:                     #2-dokumente
+[3]:                     #3-normative-festlegungen
+[3.1]:                   #31-festlegungen-zur-sicherheitstechnischen-eignung-sicherheitsgutachten
+[4]:                     #4-anhang-a-–-verzeichnisse
+[4.1]:                   #41-abkürzungen
+[4.2]:                   #42-tabellenverzeichnis
+[4.3]:                   #43-referenzierte-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+no images found
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775873992)
+[Tbl-002]:               #Tbl-002 (&93834801493888)
+[Tbl-003]:               #Tbl-003 (&93834765149184)
+[Tabelle-1]:             #Tabelle-1 (&93834765157728)
+[Tabelle-2]:             #Tabelle-2 (&93834799772776)
+[Tbl-006]:               #Tbl-006 (&93834781714112)
+[Tbl-007]:               #Tbl-007 (&93834770981784)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[gemSpec_CAN_TI]:        ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html (&93834765162360)
+[gemSpec_PINPUK_TI]:     ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html (&93834765164944)
+[gemSpec_DS_Anbieter]:   ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html (&93834765167528)
+[gemSpec_eGK_ObjSys_G2_1]: ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html (&93834765170112)
+[gemSpec_CVC_TSP]:       ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html (&93834765172696)
+[gemSpec_Krypt]:         ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html (&93834765175280)
+[gemSpec_PKI]:           ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html (&93834799759896)
+[GS-A_5115]:             ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html#GS-A_5115 (&93834799777408)
+[GS-A_5116]:             ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html#GS-A_5116 (&93834799779992)
+[GS-A_5117]:             ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html#GS-A_5117 (&93834799782576)
+[GS-A_5118]:             ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html#GS-A_5118 (&93834799785160)
+[GS-A_5119]:             ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html#GS-A_5119 (&93834799787744)
+[GS-A_5120]:             ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html#GS-A_5120 (&93834799790328)
+[GS-A_5121]:             ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html#GS-A_5121 (&93834775013120)
+[TIP1-A_2579]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2579 (&93834775015704)
+[TIP1-A_2580]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2580 (&93834775018288)
+[TIP1-A_2582]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2582 (&93834775020872)
+[TIP1-A_2583]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2583 (&93834775023456)
+[TIP1-A_2590]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2590 (&93834775026040)
+[TIP1-A_2591]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2591 (&93834775028624)
+[TIP1-A_4222]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_4222 (&93834775031208)
+[GS-A_2076-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2076-01 (&93834775033792)
+[GS-A_2158-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2158-01 (&93834775036376)
+[GS-A_2328-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2328-01 (&93834775038960)
+[GS-A_2329-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2329-01 (&93834775041544)
+[GS-A_2331-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2331-01 (&93834799905928)
+[GS-A_2332-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2332-01 (&93834799908512)
+[GS-A_2345-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2345-01 (&93834799911096)
+[GS-A_2355-02]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2355-02 (&93834799913680)
+[GS-A_3737-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3737-01 (&93834799916264)
+[GS-A_3753-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3753-01 (&93834799918848)
+[GS-A_3772-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3772-01 (&93834799921432)
+[GS-A_4473-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4473-01 (&93834799924016)
+[GS-A_4479-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4479-01 (&93834799926600)
+[GS-A_4523-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4523-01 (&93834799929184)
+[GS-A_4524-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4524-01 (&93834799931768)
+[GS-A_4980-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4980-01 (&93834799934352)
+[GS-A_4981-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4981-01 (&93834799936936)
+[GS-A_4982-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4982-01 (&93834799831424)
+[GS-A_4983-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4983-01 (&93834799834008)
+[GS-A_4984-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4984-01 (&93834799836592)
+[GS-A_5555]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5555 (&93834799839176)
+[GS-A_5556]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5556 (&93834799841760)
+[GS-A_5564]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5564 (&93834799844344)
+[GS-A_5565]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5565 (&93834799846928)
+[GS-A_5626]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5626 (&93834799849512)
+[GS-A_4362]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4362 (&93834799852096)
+[GS-A_4365]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4365 (&93834799854680)
+[GS-A_4366]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4366 (&93834799857264)
+[GS-A_4367]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4367 (&93834799859848)
+[GS-A_4368]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4368 (&93834799862432)
+[GS-A_4380]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4380 (&93834771052800)
+[GS-A_4381]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4381 (&93834771055384)
+[GS-A_4384]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4384 (&93834771057968)
+[GS-A_4385]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4385 (&93834771060552)
+[GS-A_4387]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4387 (&93834771063136)
+[GS-A_4391]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4391 (&93834771065720)
+[GS-A_4392]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4392 (&93834771068304)
+[GS-A_5021]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_5021 (&93834771070888)
+[GS-A_5035]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_5035 (&93834771073472)
+[GS-A_5386]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_5386 (&93834771076056)
+[GS-A_2227]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2227 (&93834771078640)
+[GS-A_2228]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2228 (&93834771081224)
+[GS-A_2229]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2229 (&93834810785176)
+[GS-A_2230]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2230 (&93834810787760)
+[GS-A_2232]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2232 (&93834810790344)
+[GS-A_2234]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2234 (&93834810792928)
+[GS-A_2235]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2235 (&93834810795512)
+[GS-A_2236]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2236 (&93834810798096)
+[GS-A_2237]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2237 (&93834810800680)
+[GS-A_2238]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2238 (&93834810803264)
+[GS-A_2239]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2239 (&93834810805848)
+[GS-A_2240]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2240 (&93834810808432)
+[GS-A_2242]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2242 (&93834810811016)
+[GS-A_2244]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2244 (&93834810813600)
+[GS-A_2246]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2246 (&93834810816184)
+[GS-A_2247]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2247 (&93834810818800)
+[GS-A_2248]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2248 (&93834810821384)
+[GS-A_2249]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2249 (&93834810823968)
+[GS-A_2250]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2250 (&93834810826552)
+[GS-A_2252]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2252 (&93834810829136)
+[GS-A_2253]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2253 (&93834810831720)
+[GS-A_2254]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2254 (&93834810834304)
+[GS-A_2255]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2255 (&93834810836888)
+[GS-A_2256]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2256 (&93834810839472)
+[GS-A_2260]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2260 (&93834810842056)
+[GS-A_2261]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2261 (&93834810844640)
+[GS-A_2264]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2264 (&93834810847224)
+[GS-A_2266]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2266 (&93834810849808)
+[GS-A_2270]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2270 (&93834781665472)
+[GS-A_2271]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2271 (&93834781668056)
+[GS-A_2274]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2274 (&93834781670640)
+[GS-A_2276]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2276 (&93834781673224)
+[GS-A_2277]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2277 (&93834781675808)
+[GS-A_2284]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2284 (&93834781678392)
+[GS-A_2285]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2285 (&93834781680976)
+[GS-A_2287]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2287 (&93834781683560)
+[GS-A_2291]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2291 (&93834781686144)
+[GS-A_2292]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2292 (&93834781688728)
+[GS-A_2295]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_2295 (&93834781691312)
+[GS-A_5085]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_5085 (&93834781693896)
+[GS-A_5209]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_5209 (&93834781696520)
+[GS-A_5387]:             ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html#GS-A_5387 (&93834781699104)
+[GS-A_4578]:             ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4578 (&93834781701688)
+[GS-A_4579]:             ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4579 (&93834781704272)
+[GS-A_4580]:             ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4580 (&93834781706856)
+[Card-G2-A_3335-01]:     ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3335-01 (&93834781709440)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

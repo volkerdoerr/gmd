@@ -1,0 +1,121 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Schnittstellenspezifikation<br>Transport VSDM<br>Abbildung 1: Dokumentenhierarchie im Projekt VSDM
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_SST_VSDM
+Revision: 591017
+Stand: 15.05.2019
+Status: freigegeben
+Version: 2.5.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokuments
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-arbeitsgrundlagen
+[1.5]:                   #15-abgrenzung-des-dokuments
+[1.6]:                   #16-bestandsschutz
+[1.7]:                   #17-methodik
+[2]:                     #2-allgemeine-festlegungen
+[2.1]:                   #21-eingesetzte-standards
+[2.2]:                   #22-no-pipelining
+[2.3]:                   #23-connection-pooling-durch-den-intermediär
+[2.4]:                   #24-transportsicherung
+[2.4.1]:                 #241-transportsicherung-zwischen-fachmodul-und-intermediär
+[2.4.2]:                 #242-transportsicherung-zwischen-intermediär-und-fachdienst
+[2.5]:                   #25-transport-komprimierung
+[2.6]:                   #26-nachrichtenerzeugung
+[2.7]:                   #27-nachrichtverarbeitung
+[2.8]:                   #28-nachrichtenweiterleitung-durch-den-intermediär
+[2.9]:                   #29-lokalisierung-durch-den-intermediär
+[3]:                     #3-meta-informationen
+[3.1]:                   #31-allgemeine-festlegungen
+[3.2]:                   #32-lokalisierungsinformationen
+[3.3]:                   #33-sessioninformation
+[4]:                     #4-fehlerbehandlung
+[4.1]:                   #41-intermediär-http-gateway
+[4.2]:                   #42-struktur
+[4.3]:                   #43-speicherung-von-http--und-soap-nachrichten
+[4.4]:                   #44-liste-der-fehlercodes
+[5]:                     #5-anhang-a-–-verzeichnisse
+[5.1]:                   #51-abkürzungen
+[5.2]:                   #52-glossar
+[5.3]:                   #53-abbildungsverzeichnis
+[5.4]:                   #54-tabellenverzeichnis
+[5.5]:                   #55-referenzierte-dokumente
+[5.5.1]:                 #551-dokumente-der-gematik
+[5.5.2]:                 #552-weitere-dokumente
+[6]:                     #6-anhang-b-–-anforderungshaushalt
+[6.1]:                   #61-eingangsanforderungen
+[6.2]:                   #62-ausgangsanforderungen
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Dokumentenhierarchie im Projekt VSDM                (&93834765156336) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAKfEAYAAABBOp...
+[Abbildung-2]:           Schematischer Vergleich der SOAP-Struktur mit und.. (&93834769380984) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAg4AAAH7CAMAAACT0u...
+[Abbildung-3]:           Vergleich no-pipelining vs. pipelining              (&93834769392600) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA3AAAAJjCAYAAABN3/...
+[Abbildung-4]:           Beispiel für den Connection-Pool des Intermediärs   (&93834793848904) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABB0AAAFqCAYAAABWGi...
+[Abbildung-5]:           Beispiel Endpunkt-Adresse                           (&93834810809680) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAEQEAQAAAA1Pe...
+[Abbildung-6]:           Element ServiceLocalization                         (&93834810817744) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVYAAACbCAIAAAC2zC...
+[Abbildung-7]:           Element SessionIdentifier                           (&93834781682272) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATwAAABKCAIAAACpa3...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834789585760)
+[Tabelle-1]:             #Tabelle-1 (&93834793859296)
+[Tabelle-2]:             #Tabelle-2 (&93834768498120)
+[Tabelle-3]:             #Tabelle-3 (&93834764151344)
+[Tabelle-4]:             #Tabelle-4 (&93834775018120)
+[Tabelle-5]:             #Tabelle-5 (&93834775028464)
+[Tabelle-6]:             #Tabelle-6 (&93834799933128)
+[Tabelle-7]:             #Tabelle-7 (&93834799851944)
+[Tabelle-8]:             #Tabelle-8 (&93834810822256)
+[Tabelle-9]:             #Tabelle-9 (&93834810834344)
+[Tabelle-10]:            #Tabelle-10 (&93834781663216)
+[Tabelle-11]:            #Tabelle-11 (&93834781686808)
+[Tabelle-12]:            #Tabelle-12 (&93834781699392)
+[Tabelle-13]:            #Tabelle-13 (&93834772236232)
+[Tabelle-14]:            #Tabelle-14 (&93834772267792)
+[Tbl-016]:               #Tbl-016 (&93834767988760)
+[Tbl-017]:               #Tbl-017 (&93834799204784)
+[Tbl-018]:               #Tbl-018 (&93834799239072)
+[Tabelle-15]:            #Tabelle-15 (&93834768794832)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

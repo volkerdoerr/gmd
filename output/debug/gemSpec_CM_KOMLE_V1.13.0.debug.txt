@@ -1,0 +1,178 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>KOM-LE-Clientmodul<br>Abbildung 4: Administrationsmodul für die Kommunikation mit dem Account Manager
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_CM_KOMLE
+Revision: 548770
+Stand: 31.01.2022
+Status: freigegeben
+Version: 1.13.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-arbeitsgrundlagen
+[1.5]:                   #15-abgrenzung-des-dokuments
+[1.6]:                   #16-methodik
+[1.6.1]:                 #161-anforderungen
+[1.6.2]:                 #162-diagramme
+[1.6.3]:                 #163-nomenklatur
+[2]:                     #2-systemüberblick
+[3]:                     #3-produktfunktionen
+[3.1]:                   #31-allgemeine-anforderungen
+[3.2]:                   #32-umgang-mit-großen-anhängen
+[3.2.1]:                 #321-senden-von-nachrichten-mit-großen-anhängen
+[3.2.2]:                 #322-empfangen-von-nachrichten-mit-großen-anhängen
+[3.3]:                   #33-senden-von-nachrichten
+[3.3.1]:                 #331-übersicht
+[3.3.2]:                 #332-connect-zustand
+[3.3.2.1]:               #3321-initialisierung
+[3.3.2.2]:               #3322-verbindungsaufbau-mit-mta
+[3.3.3]:                 #333-proxy-zustand
+[3.3.4]:                 #334-process-zustand
+[3.3.4.1]:               #3341-empfang-und-weiterleitung-einer-nachricht
+[3.3.4.1.1]:             #33411-bearbeitung-einer-ungeschützten-nachricht
+[3.3.4.1.2]:             #33412-bearbeitung-einer-geschützten-kom-le-nachricht
+[3.3.5]:                 #335-beispiele
+[3.4]:                   #34-empfangen-von-nachrichten
+[3.4.1]:                 #341-übersicht
+[3.4.2]:                 #342-connect-zustand
+[3.4.2.1]:               #3421-initialisierung
+[3.4.2.2]:               #3422-verbindungsaufbau-mit-dem-pop3-server
+[3.4.3]:                 #343-proxy-zustand
+[3.4.4]:                 #344-process-zustand
+[3.4.4.1]:               #3441-empfang-und-weiterleitung-einer-nachricht
+[3.4.4.2]:               #3442-aufbereitung-einer-nachricht
+[3.4.4.2.1]:             #34421-entschlüsselung
+[3.4.4.2.2]:             #34422-integritätsprüfung
+[3.4.5]:                 #345-beispiele
+[3.5]:                   #35-übermittlung-von-kontaktdaten
+[3.6]:                   #36-übermittlung-von-e-mail-kategorien
+[3.7]:                   #37-administrationsmodul
+[3.7.1]:                 #371-allgemeine-anforderungen
+[3.7.2]:                 #372-registrierung-kom-le-teilnehmer
+[3.7.3]:                 #373-deregistrierung-kom-le-teilnehmer
+[3.7.4]:                 #374-download-pkcs#12-kom-le-teilnehmer
+[3.8]:                   #38-kryptographischen-schnittstellen-des-konnektors
+[3.8.1]:                 #381-erstellung-der-digitalen-signatur-einer-nachricht-mit-einer-sm-b
+[3.8.2]:                 #382-prüfung-der-digitalen-signatur-einer-nachricht
+[3.8.3]:                 #383-verschlüsselung-einer-nachricht
+[3.8.4]:                 #384-entschlüsselung-einer-nachricht-mit-einer-sm-b-bzw-einem-hba
+[4]:                     #4-nichtfunktionale-anforderungen
+[4.1]:                   #41-transportsicherung
+[4.1.1]:                 #411-allgemeine-festlegungen
+[4.1.2]:                 #412-transportsicherung-zwischen-clientsystem-und-clientmodul
+[4.1.3]:                 #413-transportsicherung-zwischen-clientmodul-und-konnektor
+[4.1.4]:                 #414-transportsicherung-zwischen-clientmodul-und-fachdienst
+[4.2]:                   #42-nutzung-von-webservice-schnittstellen-des-konnektors
+[4.3]:                   #43-protokollierunglogging
+[4.3.1]:                 #431-ablaufprotokoll
+[4.3.2]:                 #432-performance
+[4.3.3]:                 #433-fehler
+[4.4]:                   #44-konfiguration
+[4.5]:                   #45-update-mechanismen
+[4.6]:                   #46-produktleistungen
+[4.6.1]:                 #461-performance
+[4.6.2]:                 #462-skalierbarkeit
+[5]:                     #5-anhang-a-–-verzeichnisse
+[5.1]:                   #51-abkürzungen
+[5.2]:                   #52-glossar
+[5.3]:                   #53-abbildungsverzeichnis
+[5.4]:                   #54-tabellenverzeichnis
+[5.5]:                   #55-referenzierte-dokumente
+[5.5.1]:                 #551-dokumente-der-gematik
+[5.5.2]:                 #552-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Abb_Dok_Hierarchie Dokumentenhierarchie KOM-LE      (&93834775030472) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA5cAAAGzCAIAAAA0VX...
+[Abbildung-2]:           Abb_KOMLE_Komp KOM-LE-Komponenten                   (&93834799836528) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAl4AAADrCAYAAAC4uZ...
+[Abbildung-3]:           Abb_Struk_KOMLE_Msg Struktur einer KOM-LE-Nachricht (&93834799843224) data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCA...
+[Abbildung-4]:           Administrationsmodul für die Kommunikation mit de.. (&93834799850576) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABcMAAAKkCAYAAADMRi...
+[Abbildung-5]:           Abb_Send_Msg Senden von Nachrichten                 (&93834781719440) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAExEAYAAABTxP...
+[Abbildung-6]:           Abb_State_CM_Send Zustände Clientmodul beim Sende.. (&93834767979280) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAFtEAYAAAAoiD...
+[Abbildung-7]:           Abb_MTA_Nutzername Format des SMTP- Benutzernamens  (&93834768040832) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABCcAAADSCAYAAAB5Ja...
+[Abbildung-8]:           Abb_Sig_Verschl Signieren und Verschlüsseln entsp.. (&93834768790488) data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGB...
+[Abbildung-9]:           Abb_Verschl_Msg Verschlüsselung einer Nachricht     (&93834799217328) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAARIEAYAAAAt0Y...
+[Abbildung-10]:          Abb_Empfangen_Msg Empfangen von Nachrichten         (&93834798958280) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAl4AAADrCAYAAAC4uZ...
+[Abbildung-11]:          Abb_Status_CM_Empfang Zustände Clientmodul beim N.. (&93834798968224) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAFfEAYAAABhOp...
+[Abbildung-12]:          Abb_POP3_Nutzer_Name Format des POP3- Benutzernam.. (&93834777649560) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABKQAAADECAYAAAChmP...
+[Abbildung-13]:          Abb_Zugriff_SMB SM-B-Zugriff zur Erstellung der N.. (&93834802539440) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAPtEAYAAAChpz...
+[Abbildung-14]:          Abb_Zugriff_SMB_HBA SM-B/HBA-Zugriff zur Nachrich.. (&93834765254944) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAO9EAYAAACtKT...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834802417840)
+[Tbl-002]:               #Tbl-002 (&93834811875464)
+[Tabelle-#]:             #Tabelle-# (&93834772234760)
+[Tabelle-1]:             #Tabelle-1 (&93834811205896)
+[Tabelle-2]:             #Tabelle-2 (&93834781691280)
+[Tabelle-3]:             #Tabelle-3 (&93834767994456)
+[Tabelle-4]:             #Tabelle-4 (&93834802304240)
+[Tabelle-5]:             #Tabelle-5 (&93834798980616)
+[Tabelle-6]:             #Tabelle-6 (&93834777667024)
+[Tabelle-#]:             #Tabelle-# (&93834781617776)
+[Tabelle-7]:             #Tabelle-7 (&93834785709824)
+[Tabelle-8]:             #Tabelle-8 (&93834778274600)
+[Tabelle-9]:             #Tabelle-9 (&93834799120360)
+[Tabelle-10]:            #Tabelle-10 (&93834799145136)
+[Tabelle-11]:            #Tabelle-11 (&93834799176928)
+[Tabelle-12]:            #Tabelle-12 (&93834775682152)
+[Tabelle-13]:            #Tabelle-13 (&93834775755680)
+[Tbl-018]:               #Tbl-018 (&93834799985384)
+[Tbl-019]:               #Tbl-019 (&93834800092168)
+[Tbl-020]:               #Tbl-020 (&93834809688312)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[musterfrau@komle.de]:   mailto:mustermann@komle.de (&93834801559728)
+[mustermann@komle.de]:   mailto:mustermann@komle.de (&93834800962624)
+[musterfrau@komle.de]:   mailto:musterfrau@komle.de (&93834800967536)
+[musterfrau@komle.de]:   mailto:musterfrau@komle.de (&93834800970048)
+[musterfrau@komle.de]:   mailto:musterfrau@komle.de (&93834800980288)
+[musterfrau@komle.de]:   mailto:musterfrau@komle.de (&93834776404048)
+[mustermann@komle.de]:   mailto:mustermann@komle.de (&93834776419280)
+[mustermann@komle.de]:   mailto:mustermann@komle.de (&93834776421792)
+[musterfrau@komle.de]:   mailto:musterfrau@komle.de (&93834776426704)
+[musterfrau@komle.de]:   mailto:musterfrau@komle.de (&93834798951992)
+[musterfrau@komle.de]:   mailto:musterfrau@komle.de (&93834781549288)
+[mustermann@komle.de#pop.komle.de:110]: mailto:mustermann@komle.de#pop.komle.de:110 (&93834776297776)
+[mustermann@komle.de]:   mailto:mustermann@komle.de (&93834776314912)
+[https://github.com/gematik/api-kim/blob/master/src/schema/Attachment_schema.json]: https://github.com/gematik/api-kim/blob/master/src/schema/Attachment_schema.json (&93834809685920)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

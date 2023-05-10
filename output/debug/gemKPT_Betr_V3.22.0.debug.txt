@@ -1,0 +1,210 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Betriebskonzept<br>Online-Produktivbetrieb
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemKPT_Betr
+Revision: 588744
+Stand: 20.02.2023
+Status: freigegeben
+Version: 3.22.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokuments
+[1.5]:                   #15-methodik
+[1.5.1]:                 #151-anforderungen
+[2]:                     #2-grundlagen-des-betriebs
+[2.1]:                   #21-gegenstand-des-betriebskonzepts
+[2.2]:                   #22-begriffserläuterungen
+[2.2.1]:                 #221-business-servicekatalog
+[2.2.2]:                 #222-konfigurationen-von-produkten
+[2.2.3]:                 #223-unterstützungsleistungen-aller-ti-itsm-teilnehmer
+[2.2.4]:                 #224-service-verzeichnis
+[3]:                     #3-servicekonzept
+[3.1]:                   #31-begriffserläuterungen
+[3.1.1]:                 #311-ti-service
+[3.1.2]:                 #312-servicenehmer
+[3.2]:                   #32-übergreifendes-it-service-management-der-ti
+[3.3]:                   #33-ti-itsm-teilnehmer
+[3.3.1]:                 #331-definition
+[3.3.2]:                 #332-produktverantwortung-der-ti-itsm-teilnehmer
+[3.3.3]:                 #333-serviceverantwortung-sv-der-ti-itsm-teilnehmer
+[3.4]:                   #34-rollen-im-betrieb
+[3.4.1]:                 #341-allgemeine-rollen
+[3.4.1.1]:               #3411-gesamtverantwortlicher-ti-gti
+[3.4.1.2]:               #3412-anbieter
+[3.4.1.2.1]:             #34121-anbieterkonstellationen--unterauftragnehmer
+[3.4.1.3]:               #3413-betreiber
+[3.4.1.4]:               #3414-hersteller
+[3.4.1.4.1]:             #34141-hersteller-dezentraler-produkte
+[3.4.1.4.2]:             #34142-hersteller-zentraler-produkte
+[3.4.1.5]:               #3415-service-provider-ti-unterstützender-produkte
+[3.4.1.6]:               #3416-drittanbieter
+[3.4.1.7]:               #3417-dvo
+[3.4.2]:                 #342-rollen-in-der-gematik
+[3.4.2.1]:               #3421-gematik-test-in-der-tu
+[3.4.3]:                 #343-end-nutzer
+[3.4.3.1]:               #3431-anwender
+[3.4.3.2]:               #3432-versicherte
+[3.4.4]:                 #344-spezifische-ausprägungen-und-verpflichtungen-einzelner-rollen
+[3.4.4.1]:               #3441-anbieter-vpn-zugd
+[3.4.4.2]:               #3442-anbieter-epa-aktensystem
+[3.4.4.3]:               #3443-anbieter-service-monitoring
+[3.4.4.4]:               #3444-anbieter-basis-consumer
+[3.4.4.5]:               #3445-anbieter-ktr-consumer
+[3.4.4.6]:               #3446-anbieter-ktr-adv
+[3.4.4.7]:               #3447-anbieter-kom-le
+[3.4.4.8]:               #3448-anbieter-weitere-anwendungen
+[3.4.4.9]:               #3449-anbieter-anschlusspunkt-am-sgwszzp
+[3.4.4.10]:              #34410-anbieter-ti-messenger
+[3.4.4.11]:              #34411-hersteller-primärsysteme
+[3.4.4.12]:              #34412-fachdienste-vsdm
+[3.4.4.13]:              #34413-anbieter-federation-master
+[3.4.4.14]:              #34414-anbieter-sektoraler-idp-ktr
+[3.5]:                   #35-servicemodell
+[3.5.1]:                 #351-servicekomponenten
+[3.5.2]:                 #352-servicezerlegung
+[3.5.3]:                 #353-mitwirkungsverpflichtung-im-ti-itsm-gemäß-gemrl_betr_ti
+[3.6]:                   #36-supportkonzept
+[3.6.1]:                 #361-begriffserläuterungen
+[3.6.1.1]:               #3611-supportverantwortung
+[3.6.1.2]:               #3612-lösungsverantwortung
+[3.6.2]:                 #362-rollen--funktionen-im-ti-support
+[3.6.2.1]:               #3621-user-help-desk-uhd
+[3.6.2.2]:               #3622-versicherten-help-desk-vhd
+[3.6.2.3]:               #3623-1st-level-support
+[3.6.2.4]:               #3624-2nd--3rd-level-support
+[3.6.2.5]:               #3625-single-point-of-contact-spoc-für-ti-itsm-teilnehmer
+[3.6.3]:                 #363-spezifische-ausprägungen
+[3.6.3.1]:               #3631-user-help-desk-anwendersupport
+[3.6.3.2]:               #3632-versicherten-help-desk-versichertensupport
+[3.6.3.3]:               #3633-erreichbarkeit-ti-itsm-teilnehmer
+[3.6.3.4]:               #3634-anbieter-federation-master
+[3.6.3.5]:               #3635-anbieter-sektoraler-idp-ktr
+[4]:                     #4-verantwortlichkeiten-und-leistungen-ti-itsm-teilnehmer
+[4.1]:                   #41-begriffserläuterungen
+[4.1.1]:                 #411-anbietertypsteckbrief
+[4.2]:                   #42-allgemeine-anforderungen
+[4.2.1]:                 #421-allgemeine-anforderungen-für-ti-itsm-teilnehmer
+[4.2.2]:                 #422-allgemeine-anforderungen-nur-für-anbieter-von-diensten
+[4.3]:                   #43-reporting
+[4.4]:                   #44-datenaufbewahrung
+[5]:                     #5-kenngrößen-und-service-level
+[5.1]:                   #51-begriffserläuterung
+[5.1.1]:                 #511-organisatorische-service-level-vorgangsübergreifend
+[5.2]:                   #52-organisatorische-service-level
+[5.2.1]:                 #521-begriffserläuterungen
+[5.2.1.1]:               #5211-quantil--erfüllungsgrad
+[5.2.1.2]:               #5212-reaktionszeit
+[5.2.1.3]:               #5213-lösungszeit
+[5.2.1.4]:               #5214-verifikationsfrist
+[5.2.2]:                 #522-spezifische-ausprägungen
+[5.3]:                   #53-technische-service-level--performance-kenngrößen
+[5.3.1]:                 #531-begriffserläuterungen
+[5.3.1.1]:               #5311-technischer-kennzahlenkatalog
+[5.3.2]:                 #532-spezifische-ausprägungen
+[5.3.2.1]:               #5321-erläuterungen--festlegungen
+[5.3.2.2]:               #5322-tsp-x509-pdt02-pdt03-pdt36-pdt38
+[5.3.2.3]:               #5323-federation-master-pdt70
+[5.3.2.4]:               #5324-identity-provider-pdt52-pdt68-pdt73
+[6]:                     #6-übergreifende-regelungen-für-betriebliche-kennzahlen-für-mobile-anwendungen-apps
+[7]:                     #7-spezifische-betriebsrelevante-ergänzungen
+[7.1]:                   #71-identity-management
+[8]:                     #8-anhang-a-–-performance-kenngrößen
+[8.1]:                   #81-definitionen
+[8.1.1]:                 #811-produkttypen-pdt-ids
+[8.1.2]:                 #812-performance-dimensionen
+[8.1.3]:                 #813-aufrufquelle
+[8.1.4]:                 #814-zertifikatstypen
+[8.1.5]:                 #815-schnittstellenoperation--anwendungsfall-altes-format---noch-zu-migrieren
+[8.2]:                   #82-performance-größen
+[8.2.1]:                 #821-dimension-last
+[8.2.2]:                 #822-dimension-bearbeitungszeit
+[8.2.3]:                 #823-dimension-verfügbarkeit
+[8.3]:                   #83-performance-kenngrößen-altes-format---noch-zu-migrieren
+[9]:                     #9-anhang-b-–-verzeichnisse
+[9.1]:                   #91-abkürzungen
+[9.2]:                   #92-glossar
+[9.3]:                   #93-abbildungsverzeichnis
+[9.4]:                   #94-tabellenverzeichnis
+[9.5]:                   #95-referenzierte-dokumente
+[9.5.1]:                 #951-dokumente-der-gematik
+[9.5.2]:                 #952-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Img-001]:                                                                   (&93834772286128) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB1AAAANTCAYAAAFnUb...
+[Img-002]:                                                                   (&93834772287496) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATcAAAB0CAIAAABv++...
+[Img-003]:                                                                   (&93834802357432) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABqAAAAXyCAYAAABwBC...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834811901280)
+[Tabelle-1]:             #Tabelle-1 (&93834810836912)
+[Tabelle-2]:             #Tabelle-2 (&93834801663288)
+[Tabelle-4]:             #Tabelle-4 (&93834783659288)
+[Tabelle-5]:             #Tabelle-5 (&93834776422112)
+[Tabelle-6]:             #Tabelle-6 (&93834798978632)
+[Tabelle-7]:             #Tabelle-7 (&93834777692968)
+[Tabelle-10]:            #Tabelle-10 (&93834764438512)
+[Tabelle-11]:            #Tabelle-11 (&93834764495048)
+[Tabelle-12]:            #Tabelle-12 (&93834785697368)
+[Tabelle-13]:            #Tabelle-13 (&93834785718800)
+[Tabelle-14]:            #Tabelle-14 (&93834776261184)
+[Tabelle-15]:            #Tabelle-15 (&93834802450664)
+[Tabelle-16]:            #Tabelle-16 (&93834799148152)
+[Tabelle-17]:            #Tabelle-17 (&93834775714328)
+[Tabelle-18]:            #Tabelle-18 (&93834775729368)
+[Tabelle-19]:            #Tabelle-19 (&93834775741512)
+[Tabelle-20]:            #Tabelle-20 (&93834783742504)
+[Tabelle-21]:            #Tabelle-21 (&93834800087488)
+[Tabelle-22]:            #Tabelle-22 (&93834771265120)
+[Tabelle-23]:            #Tabelle-23 (&93834771308176)
+[Tabelle-24]:            #Tabelle-24 (&93834771360328)
+[Tabelle-25]:            #Tabelle-25 (&93834768571216)
+[Tabelle-26]:            #Tabelle-26 (&93834799538512)
+[Tabelle-27]:            #Tabelle-27 (&93834799628592)
+[Tabelle-28]:            #Tabelle-28 (&93834799683808)
+[Tbl-027]:               #Tbl-027 (&93834777119672)
+[Tbl-028]:               #Tbl-028 (&93834777135208)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

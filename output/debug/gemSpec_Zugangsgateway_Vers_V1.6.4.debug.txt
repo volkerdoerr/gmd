@@ -1,0 +1,109 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation Zugangsgateway des Versicherten ePA
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_Zugangsgateway_Vers
+Revision: 548770
+Stand: 02.09.2021
+Status: freigegeben
+Version: 1.6.4
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[1.5.1]:                 #151-anforderungen
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[3.1]:                   #31-akteure-und-rollen
+[3.2]:                   #32-nachbarsysteme
+[4]:                     #4-zerlegung-des-zugangsgateways-des-versicherten-epa
+[4.1]:                   #41-paketfilter
+[4.1.1]:                 #411-funktion
+[4.1.2]:                 #412-redundanz
+[4.1.3]:                 #413-konfiguration
+[4.1.4]:                 #414-adressierung
+[4.1.4.1]:               #4141-zugangsgateway-für-versicherte-zum-transportnetz-internet
+[4.1.4.2]:               #4142-epa-aktensystem-zum-zentralen-netz
+[4.2]:                   #42-einbettung-authentisierung-versicherter
+[4.3]:                   #43-autorisierungsproxy
+[4.4]:                   #44-proxy-dokumentenverwaltung
+[4.5]:                   #45-ldap-proxy
+[4.6]:                   #46-tsl--und-status-proxy
+[4.7]:                   #47-proxy-schlüsselgenerierungsdienst
+[4.8]:                   #48-tracing-in-nichtproduktivumgebungen
+[5]:                     #5-übergreifende-festlegungen
+[6]:                     #6-funktionsmerkmale
+[6.1]:                   #61-versicherten-authentisierung
+[6.2]:                   #62-autorisierungsproxy-proxy-dokumentenverwaltung-ldap-proxy
+[6.2.1]:                 #621-schnittstelle-i_authorization_insurant-i_account_management_insurant-i_authorization_management_insurant-i_document_management_insurant-i_document_management_connect
+[6.2.2]:                 #622-schnittstelle-i_proxy_directory_query
+[6.2.2.1]:               #6221-schnittstellendefinition
+[6.2.2.2]:               #6222-umsetzung
+[6.2.2.3]:               #6223-nutzung
+[7]:                     #7-anhang-a-–-verzeichnisse
+[7.1]:                   #71-abkürzungen
+[7.2]:                   #72-glossar
+[7.3]:                   #73-abbildungsverzeichnis
+[7.4]:                   #74-tabellenverzeichnis
+[7.5]:                   #75-referenzierte-dokumente
+[7.5.1]:                 #751-dokumente-der-gematik
+[7.5.2]:                 #752-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Zugangsgateway für Versicherte im ePA-Aktensystem   (&93834771056792) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA0EAAAIMCAIAAAC8Lj...
+[Abbildung-2]:           Nachbarsysteme des Zugangsgateways für Versichert.. (&93834771066432) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA34AAAHaCAIAAADQWQ...
+[Abbildung-3]:           Komponenten des Zugangsgateway des Versicherten     (&93834771080200) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAAGdCAIAAAD7cK...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775873936)
+[Tabelle-1]:             #Tabelle-1 (&93834768006520)
+[Tbl-003]:               #Tbl-003 (&93834764463040)
+[Tbl-004]:               #Tbl-004 (&93834781742200)
+[Tbl-005]:               #Tbl-005 (&93834781760624)
+[Tbl-006]:               #Tbl-006 (&93834781796488)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://tools.ietf.org/html/rfc6066#section-8]: https://tools.ietf.org/html/rfc6066#section-8 (&93834770996640)
+[https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Dienstleistungen/Qualifizierte_Dienstleister/QDL_node.html]: https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Dienstleistungen/Qualifizierte_Dienstleister/QDL_node.html (&93834783671232)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

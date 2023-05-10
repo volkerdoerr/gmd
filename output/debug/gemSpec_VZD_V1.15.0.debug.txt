@@ -1,0 +1,185 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>Verzeichnisdienst
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_VZD
+Revision: 574294
+Stand: 17.02.2023
+Status: freigegeben
+Version: 1.15.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-übergreifende-festlegungen
+[3.1]:                   #31-it-sicherheit-und-datenschutz
+[3.2]:                   #32-fachliche-anforderungen
+[4]:                     #4-funktionsmerkmale
+[4.1]:                   #41-schnittstelle-i_directory_query
+[4.1.1]:                 #411-operation-search_directory
+[4.1.1.1]:               #4111-umsetzung
+[4.1.1.2]:               #4112-nutzung
+[4.2]:                   #42-schnittstelle-i_directory_maintenance
+[4.2.1]:                 #421-operation-add_directory_entry
+[4.2.1.1]:               #4211-umsetzung
+[4.2.1.2]:               #4212-nutzung
+[4.2.2]:                 #422-operation-read_directory_entry
+[4.2.2.1]:               #4221-umsetzung
+[4.2.2.2]:               #4222-nutzung
+[4.2.3]:                 #423-operation-modify_directory_entry
+[4.2.3.1]:               #4231-umsetzung
+[4.2.3.2]:               #4232-nutzung
+[4.2.4]:                 #424-operation-delete_directory_entry
+[4.2.4.1]:               #4241-umsetzung
+[4.2.4.2]:               #4242-nutzung
+[4.3]:                   #43-schnittstelle-i_directory_application_maintenance
+[4.3.1]:                 #431-operation-getinfo
+[4.3.1.1]:               #4311-umsetzung-rest
+[4.3.1.2]:               #4312-nutzung-rest
+[4.3.2]:                 #432-operation-add_directory_fa-attributes
+[4.3.2.1]:               #4321-umsetzung-soap
+[4.3.2.2]:               #4322-nutzung-soap
+[4.3.2.3]:               #4323-umsetzung-ldapv3
+[4.3.2.4]:               #4324-nutzung-ldapv3
+[4.3.2.5]:               #4325-umsetzung-rest
+[4.3.2.6]:               #4326-nutzung-rest
+[4.3.3]:                 #433-operation-delete_directory_fa-attributes
+[4.3.3.1]:               #4331-umsetzung-soap
+[4.3.3.2]:               #4332-nutzung-soap
+[4.3.3.3]:               #4333-umsetzung-ldapv3
+[4.3.3.4]:               #4334-nutzung-ldapv3
+[4.3.3.5]:               #4335-umsetzung-rest
+[4.3.3.6]:               #4336-nutzung-rest
+[4.3.4]:                 #434-operation-modify_directory_fa-attributes
+[4.3.4.1]:               #4341-umsetzung-soap
+[4.3.4.2]:               #4342-nutzung-soap
+[4.3.4.3]:               #4343-umsetzung-ldapv3
+[4.3.4.4]:               #4344-nutzung-ldapv3
+[4.3.4.5]:               #4345-umsetzung-rest
+[4.3.4.6]:               #4346-nutzung-rest
+[4.3.5]:                 #435-operation-get_directory_fa-attributes
+[4.3.5.1]:               #4351-umsetzung-rest
+[4.3.5.2]:               #4352-nutzung-rest
+[4.4]:                   #44-prozessschnittstelle-p_directory_application_registration-provided
+[4.5]:                   #45-prozessschnittstelle-p_directory_maintenance-provided
+[4.6]:                   #46-schnittstelle-i_directory_administration
+[4.6.1]:                 #461-operationen-der-schnittstelle-i_-directory_administration
+[4.6.1.1]:               #4611-i_directory_administration---lesen-der-metadaten
+[4.6.1.1.1]:             #46111-get
+[4.6.1.2]:               #4612-directoryentry-administration
+[4.6.1.2.1]:             #46121-post
+[4.6.1.2.2]:             #46122-get
+[4.6.1.2.3]:             #46123-put
+[4.6.1.2.4]:             #46124-put---active-attribut
+[4.6.1.2.5]:             #46125-delete
+[4.6.1.2.6]:             #46126-get---readlog
+[4.6.1.3]:               #4613-certificate-administration
+[4.6.1.3.1]:             #46131-post
+[4.6.1.3.2]:             #46132-get
+[4.6.1.3.3]:             #46133-delete
+[4.6.1.4]:               #4614-directoryentry-synchronization
+[4.6.1.4.1]:             #46141-get
+[4.6.2]:                 #462-nutzung-der-schnittstelle-i_directory_administration
+[5]:                     #5-datenmodell
+[6]:                     #6-anhang-a-–-verzeichnisse
+[6.1]:                   #61-abkürzungen
+[6.2]:                   #62-glossar
+[6.3]:                   #63-abbildungsverzeichnis
+[6.4]:                   #64-tabellenverzeichnis
+[6.5]:                   #65-referenzierte-dokumente
+[6.5.1]:                 #651-dokumente-der-gematik
+[6.5.2]:                 #652-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Einordnung des VZD in die TI                        (&93834799854952) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAGJEAYAAAClXW...
+[Img-002]:                                                                   (&93834799108936) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsYAAAJ7CAYAAADgPF...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775871240)
+[Tabelle-1]:             #Tabelle-1 (&93834810809520)
+[Tabelle-2]:             #Tabelle-2 (&93834781686696)
+[Tabelle-3]:             #Tabelle-3 (&93834781721520)
+[Tabelle-4]:             #Tabelle-4 (&93834771016848)
+[Tabelle-5]:             #Tabelle-5 (&93834775096160)
+[Tabelle-6]:             #Tabelle-6 (&93834767984416)
+[Tabelle-7]:             #Tabelle-7 (&93834768039456)
+[Tabelle-8]:             #Tabelle-8 (&93834799217248)
+[Tabelle-9]:             #Tabelle-9 (&93834774921520)
+[Tabelle-10]:            #Tabelle-10 (&93834774974000)
+[Tbl-012]:               #Tbl-012 (&93834801579232)
+[Tabelle-12]:            #Tabelle-12 (&93834800975472)
+[Tabelle-13]:            #Tabelle-13 (&93834776375360)
+[Tabelle-14]:            #Tabelle-14 (&93834776417584)
+[Tabelle-15]:            #Tabelle-15 (&93834798965328)
+[Tbl-017]:               #Tbl-017 (&93834777521680)
+[Tabelle-16]:            #Tabelle-16 (&93834777577680)
+[Tabelle-17]:            #Tabelle-17 (&93834798402920)
+[Tabelle-18]:            #Tabelle-18 (&93834764423624)
+[Tabelle-19]:            #Tabelle-19 (&93834764441032)
+[Tabelle-20]:            #Tabelle-20 (&93834764484016)
+[Tabelle-21]:            #Tabelle-21 (&93834781740904)
+[Tabelle-22]:            #Tabelle-22 (&93834781558072)
+[Tbl-025]:               #Tbl-025 (&93834783952376)
+[Tabelle-24]:            #Tabelle-24 (&93834776246776)
+[Tbl-027]:               #Tbl-027 (&93834776302200)
+[Tabelle-26]:            #Tabelle-26 (&93834785696776)
+[Tabelle-27]:            #Tabelle-27 (&93834778226072)
+[Tabelle-29]:            #Tabelle-29 (&93834778302264)
+[Tabelle-31]:            #Tabelle-31 (&93834775714072)
+[Tbl-032]:               #Tbl-032 (&93834775800912)
+[Tbl-033]:               #Tbl-033 (&93834799065296)
+[Tabelle-34]:            #Tabelle-34 (&93834799114624)
+[Tabelle-35]:            #Tabelle-35 (&93834783753312)
+[Tbl-036]:               #Tbl-036 (&93834783819784)
+[Tbl-037]:               #Tbl-037 (&93834764291736)
+[Tbl-038]:               #Tbl-038 (&93834764328288)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[RFC 6750]:              https://tools.ietf.org/html/rfc6750 (&93834783869528)
+[RFC 6750]:              https://tools.ietf.org/html/rfc6750 (&93834783872240)
+[https://www.bundesaerztekammer.de/aerzte/telematiktelemedizin/earztausweis/technische-spezifikationen/]: https://www.bundesaerztekammer.de/aerzte/telematiktelemedizin/earztausweis/technische-spezifikationen/ (&93834783817032)
+[https://www.hl7.org/fhir/]: https://www.hl7.org/fhir/ (&93834775169048)
+[https://tools.ietf.org/html/rfc2696]: https://tools.ietf.org/html/rfc2696 (&93834775176680)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

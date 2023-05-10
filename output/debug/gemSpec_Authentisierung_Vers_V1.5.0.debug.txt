@@ -1,0 +1,136 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation Authentisierung des Versicherten ePA
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_Authentisierung_Vers
+Revision: 548770
+Stand: 31.01.2022
+Status: freigegeben
+Version: 1.5.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemkontext
+[3]:                     #3-zerlegung-der-komponente
+[4]:                     #4-übergreifende-festlegungen
+[4.1]:                   #41-datenschutz-und-datensicherheit
+[4.2]:                   #42-verwendete-standards
+[4.3]:                   #43-fehlerbehandlung
+[4.4]:                   #44-protokollierung
+[4.5]:                   #45-nicht-funktionale-anforderungen
+[4.6]:                   #46-identifikation-der-akteure
+[5]:                     #5-funktionsmerkmale
+[5.1]:                   #51-authentisierung
+[5.1.1]:                 #511-schnittstellen
+[5.1.1.1]:               #5111-schnittstelle-i_authentication_insurant
+[5.1.1.1.1]:             #51111-operation-login
+[5.1.1.1.2]:             #51112-operation-renew
+[5.1.1.1.3]:             #51113-operation-logout
+[5.1.1.1.4]:             #51114-operation-getauditevents
+[5.1.1.1.5]:             #51115-operation-getsignedauditevents
+[5.1.2]:                 #512-umsetzung
+[5.1.2.1]:               #5121-schnittstelle-i_authentication_insurant
+[5.1.2.1.1]:             #51211-operation-login
+[5.1.2.1.2]:             #51212-operation-renew
+[5.1.2.1.3]:             #51213-operation-logout
+[5.1.2.1.4]:             #51214-operation-getauditevents
+[5.1.2.1.5]:             #51215-operation-getsignedauditevents
+[5.1.3]:                 #513-lebensdauer-der-authentifizierungsbestätigung
+[6]:                     #6-informationsmodell
+[7]:                     #7-verteilungssicht
+[8]:                     #8-anhang-a-–-verzeichnisse
+[8.1]:                   #81-abkürzungen
+[8.2]:                   #82-glossar
+[8.3]:                   #83-abbildungsverzeichnis
+[8.4]:                   #84-tabellenverzeichnis
+[8.5]:                   #85-referenzierte-dokumente
+[8.5.1]:                 #851-dokumente-der-gematik
+[8.5.2]:                 #852-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+no images found
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834801499568)
+[Tabelle-1]:             #Tabelle-1 (&93834799842040)
+[Tabelle-3]:             #Tabelle-3 (&93834783604824)
+[Tabelle-4]:             #Tabelle-4 (&93834783653680)
+[Tabelle-5]:             #Tabelle-5 (&93834770996664)
+[Tabelle-6]:             #Tabelle-6 (&93834771024416)
+[Tbl-007]:               #Tbl-007 (&93834775023552)
+[Tabelle-8]:             #Tabelle-8 (&93834799205312)
+[Tabelle-9]:             #Tabelle-9 (&93834804545872)
+[Tabelle-10]:            #Tabelle-10 (&93834798469080)
+[Tabelle-11]:            #Tabelle-11 (&93834764450864)
+[Tbl-012]:               #Tbl-012 (&93834781750832)
+[Tabelle-13]:            #Tabelle-13 (&93834781773000)
+[Tabelle-14]:            #Tabelle-14 (&93834781586816)
+[Tabelle-15]:            #Tabelle-15 (&93834781621472)
+[Tabelle-16]:            #Tabelle-16 (&93834783931048)
+[Tabelle-17]:            #Tabelle-17 (&93834783966480)
+[Tbl-018]:               #Tbl-018 (&93834783491512)
+[Tbl-019]:               #Tbl-019 (&93834785709816)
+[Tbl-020]:               #Tbl-020 (&93834778224392)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[http://www.w3.org/2006/05/addressing/wsdl]: http://www.w3.org/2006/05/addressing/wsdl (&93834771080160)
+[http://docs.oasis-open.org/wss/oasis-wss-saml-token-profile-1.1#SAMLV2.0]: http://docs.oasis-open.org/wss/oasis-wss-saml-token-profile-1.1#SAMLV2.0 (&93834799229688)
+[http://docs.oasis-open.org/ws-sx/ws-trust/200512/Issue]: http://docs.oasis-open.org/ws-sx/ws-trust/200512/Issue (&93834799238920)
+[http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Renew]: http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Renew (&93834774927920)
+[http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/RenewFinal]: http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/RenewFinal (&93834774941456)
+[http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Cancel]: http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Cancel (&93834799004512)
+[http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/CancelFinal]: http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/CancelFinal (&93834798391944)
+[http://tools.ietf.org/html/rfc2119]: http://tools.ietf.org/html/rfc2119 (&93834778230712)
+[https://tools.ietf.org/html/rfc7231]: https://tools.ietf.org/html/rfc7231 (&93834778234496)
+[https://www.w3.org/TR/soap12-part1/]: https://www.w3.org/TR/soap12-part1/ (&93834778238760)
+[http://docs.oasis-open.org/security/saml/v2.0/]: http://docs.oasis-open.org/security/saml/v2.0/ (&93834778243328)
+[https://www.w3.org/TR/wsdl.html]: https://www.w3.org/TR/wsdl.html (&93834778247504)
+[https://www.w3.org/Submission/wsdl11soap12/]: https://www.w3.org/Submission/wsdl11soap12/ (&93834778251744)
+[http://ws-i.org/Profiles/BasicProfile-2.0-2010-11-09.html]: http://ws-i.org/Profiles/BasicProfile-2.0-2010-11-09.html (&93834778256008)
+[http://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf]: http://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf (&93834778259792)
+[https://www.oasis-open.org/committees/download.php/16768/wss-v1.1-spec-os-SAMLTokenProfile.pdf]: https://www.oasis-open.org/committees/download.php/16768/wss-v1.1-spec-os-SAMLTokenProfile.pdf (&93834778264056)
+[http://docs.oasis-open.org/ws-sx/ws-trust/v1.4/errata01/os/ws-trust-1.4-errata01-os-complete.doc]: http://docs.oasis-open.org/ws-sx/ws-trust/v1.4/errata01/os/ws-trust-1.4-errata01-os-complete.doc (&93834778270192)
+[http://docs.oasis-open.org/xspa/saml-xspa/v2.0/saml-xspa-v2.0.html]: http://docs.oasis-open.org/xspa/saml-xspa/v2.0/saml-xspa-v2.0.html (&93834778275240)
+[http://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf]: http://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf (&93834778280168)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

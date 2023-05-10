@@ -1,0 +1,2176 @@
+
+   =========================
+   LXB SERIALIZER DEBUG MODE
+   =========================
+
+
+DOCUMENT _DOCUMENT
+  HTML (&93834768399544)
+    HEAD (&93834768399728)
+      text " "
+      STYLE (&93834768400032)
+        text "#toc_container {    background: #f9f9f9 none repeat scroll 0 0;    border: 1px solid #aaa;    display: table;    font-size: 95%;    margin-bottom: 1em;    padding: 20px;    width: 100%;}.toc_title {    font-weight: 700;    text-align: center;}#toc_container li, #toc_container ul, #toc_container ul li{    list-style: outside none none !important;}body {  font-family: Arial, Helvetica, sans-serif;  font-size: 14px;}/* ol {  list-style-type: none;  Remove default numbering}ol > li:before {  counter-increment: mycounter;  content: counter(mycounter) ". ";}ol:first-of-type {  counter-reset: mycounter;} */@media print { h1, h2 { break-before: page; } }"
+      text " "
+      META (&93834768400464)
+        attr charset "utf-8"
+      text " "
+    text " "
+    BODY (&93834768401064)
+      text " "
+      P (&93834768401368)
+        attr id "polarion_52"
+        text " "
+        BR (&93834768401848)
+        text " "
+      text " "
+      P (&93834768402272)
+        attr id "polarion_8"
+        text " "
+        BR (&93834768402752)
+        text " "
+      text " "
+      P (&93834768403176)
+        attr id "polarion_59"
+        text " "
+        BR (&93834768403656)
+        text " "
+      text " "
+      P (&93834768404080)
+        attr id "polarion_60"
+        text " "
+        BR (&93834768404560)
+        text " "
+      text " "
+      P (&93834768404984)
+        attr id "polarion_61"
+        text " "
+        BR (&93834768405464)
+        text " "
+      text " "
+      P (&93834768405888)
+        attr id "polarion_62"
+        text " "
+        SPAN (&93834768406368)
+          attr style "font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;"
+          text "Elektronische Gesundheitskarte und Telematikinfrastruktur"
+        text " "
+      text " "
+      P (&93834768407088)
+        attr id "polarion_63"
+        text " "
+        BR (&93834768407568)
+        text " "
+      text " "
+      P (&93834768407992)
+        attr id "polarion_64"
+        text " "
+        BR (&93834768408472)
+        text " "
+      text " "
+      P (&93834768408896)
+        attr id "polarion_65"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834768409552)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Spezifikation"
+        text " "
+      text " "
+      P (&93834768410272)
+        attr id "polarion_66"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834768410928)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Logdaten- und"
+        text " "
+      text " "
+      P (&93834768411648)
+        attr id "polarion_67"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834768412304)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Betriebsdatenerfassung"
+        text " "
+      text " "
+      P (&93834768413024)
+        attr id "polarion_68"
+        attr style "text-align: center;"
+      text " "
+      P (&93834768413680)
+        attr id "polarion_69"
+        attr style "text-align: center;"
+      text " "
+      P (&93834768414336)
+        attr id "polarion_70"
+        text " "
+        BR (&93834768414816)
+        text " "
+      text " "
+      P (&93834768415240)
+        attr id "polarion_71"
+        text " "
+        BR (&93834768415720)
+        text " "
+      text " "
+      P (&93834768416144)
+        attr id "polarion_73"
+        text " "
+        BR (&93834768416624)
+        text " "
+      text " "
+      DIV (&93834768417048)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block1"
+        text " "
+        DIV (&93834768417704)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+        PRE (&93834768418360)
+          attr class "polarion-dle-wiki-block-source"
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_source"
+          text " "
+          TABLE (&93834768419192)
+            text " "
+            TBODY (&93834768419496)
+              TR (&93834768419680)
+                text " "
+                TD (&93834768419984)
+                  text "Version"
+                text " "
+                TD (&93834768420408)
+                  text "1.4.0"
+                text " "
+              text " "
+              TR (&93834768420952)
+                text " "
+                TD (&93834768421256)
+                  text "Revision"
+                text " "
+                TD (&93834768421680)
+                  text "566841"
+                text " "
+              text " "
+              TR (&93834768422224)
+                text " "
+                TD (&93834768422528)
+                  text "Stand"
+                text " "
+                TD (&93834768422952)
+                  text "03.02.2023"
+                text " "
+              text " "
+              TR (&93834768423496)
+                text " "
+                TD (&93834768423800)
+                  text "Status"
+                text " "
+                TD (&93834768424224)
+                  text "freigegeben"
+                text " "
+              text " "
+              TR (&93834768424768)
+                text " "
+                TD (&93834768425072)
+                  text "Klassifizierung"
+                text " "
+                TD (&93834768425496)
+                  text "öffentlich"
+                text " "
+              text " "
+              TR (&93834768426040)
+                text " "
+                TD (&93834768426344)
+                  text "Referenzierung"
+                text " "
+                TD (&93834768426768)
+                  text "gemSpec_SST_LD_BD"
+                text " "
+              text " "
+        text " "
+      text " "
+      P (&93834768427552)
+        attr id "polarion_74"
+      text " "
+      H1 (&93834768428032)
+        attr id "polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16756"
+        text "Dokumentinformationen"
+      text " "
+      P (&93834768428632)
+        attr id "polarion_75"
+        text " "
+        SPAN (&93834768429112)
+          attr style "font-weight: bold;"
+          text "Änderungen zur Vorversion"
+        text " "
+      text " "
+      P (&93834768429832)
+        attr id "polarion_76"
+        text "Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen."
+      text " "
+      P (&93834768430432)
+        attr id "polarion_78"
+      text " "
+      P (&93834768430912)
+        attr data-keep-next "true"
+        attr id "polarion_79"
+        text " "
+        SPAN (&93834768431568)
+          attr style "font-weight: bold;"
+          text "Dokumentenhistorie"
+        text " "
+      text " "
+      TABLE (&93834772276904)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|padding=3px|uid=5"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834772277712)
+          text " "
+          TR (&93834772278016)
+            text " "
+            TH (&93834772278320)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 71px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772278680)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Version"
+                BR (&93834772279160)
+                text " "
+            text " "
+            TH (&93834772279584)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 60px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772279944)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Stand"
+                BR (&93834772280424)
+                text " "
+            text " "
+            TH (&93834772280848)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 105px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772281208)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Kap./Seite"
+                BR (&93834772281688)
+                text " "
+            text " "
+            TH (&93834772282112)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 386px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772282472)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Grund der Änderung, besondere Hinweise"
+                BR (&93834772282952)
+                text " "
+            text " "
+            TH (&93834772283376)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 96px;height: 15px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772283736)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Bearbeitung"
+                BR (&93834772284216)
+                text " "
+            text " "
+          text " "
+          TR (&93834772284760)
+            text " "
+            TD (&93834772285064)
+              attr style "text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772285424)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "1.0.0"
+                BR (&93834772285904)
+                text " "
+            text " "
+            TD (&93834772286328)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772286688)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "15.05.19"
+                BR (&93834772287168)
+                text " "
+            text " "
+            TD (&93834772287592)
+              attr style "text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772287952)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text " "
+            text " "
+            TD (&93834772288552)
+              attr style "text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772288912)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "freigegeben"
+            text " "
+            TD (&93834772289512)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772289872)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "gematik"
+            text " "
+          text " "
+          TR (&93834772290592)
+            text " "
+            TD (&93834772290896)
+              attr style "text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772291256)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "1.0.1"
+            text " "
+            TD (&93834772291856)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772292216)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "28.06.19"
+            text " "
+            TD (&93834772292816)
+              attr style "text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+            text " "
+            TD (&93834772293296)
+              attr style "text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772293656)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Begriffsklarstellung"
+            text " "
+            TD (&93834772294256)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772294616)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "gematik"
+            text " "
+          text " "
+          TR (&93834772295336)
+            text " "
+            TD (&93834772295640)
+              attr style "text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772296000)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "1.1.0"
+            text " "
+            TD (&93834772296600)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772296960)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "03.02.20"
+            text " "
+            TD (&93834772297560)
+              attr style "text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+            text " "
+            TD (&93834772298040)
+              attr style "text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772298400)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Einarbeitung lt. Änderungsliste P21.1"
+            text " "
+            TD (&93834772299000)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772299360)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "gematik"
+            text " "
+          text " "
+          TR (&93834772300080)
+            text " "
+            TD (&93834772300384)
+              attr style "text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772300744)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "1.1.1"
+            text " "
+            TD (&93834772301344)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772301704)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "26.06.20"
+            text " "
+            TD (&93834772302304)
+              attr style "text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+            text " "
+            TD (&93834772302784)
+              attr style "text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772303144)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Einarbeitung lt. Änderungsliste P21.3"
+            text " "
+            TD (&93834772303744)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772304104)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "gematik"
+            text " "
+          text " "
+          TR (&93834772304824)
+            text " "
+            TD (&93834772305128)
+              attr style "text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772305488)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "1.2.0"
+            text " "
+            TD (&93834772306088)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772306448)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "30.06.20"
+            text " "
+            TD (&93834772307048)
+              attr style "text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+            text " "
+            TD (&93834772307528)
+              attr style "text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772307888)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Anpassungen gemäß Änderungsliste P22.1 und Scope-Themen aus Systemdesign R4.0.0"
+            text " "
+            TD (&93834772308488)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834772308848)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "gematik"
+            text " "
+          text " "
+          TR (&93834775848152)
+            text " "
+            TD (&93834775848456)
+              attr style "text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834775848792)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "1.3.0"
+            text " "
+            TD (&93834775849392)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834775849752)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "02.12.22"
+            text " "
+            TD (&93834775850352)
+              attr style "text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834775850712)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Kap. 3"
+            text " "
+            TD (&93834775851312)
+              attr style "text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834775851672)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "Einarbeitung CI_Maintenance_22.5:  Entfernen Schnittstelle I_Log_Data, Konkretisierung Betriebsdatenübermittlung Konnektor"
+            text " "
+            TD (&93834775852272)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834775852632)
+                attr style "font-size: 9pt;line-height: 1.5;"
+                text "gematik"
+            text " "
+          text " "
+          TR (&93834775853352)
+            text " "
+            TD (&93834775853656)
+              attr style "text-align: left;vertical-align: top;width: 71px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              text "1.4.0"
+            text " "
+            TD (&93834775854256)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+              text "03.02.23"
+            text " "
+            TD (&93834775854856)
+              attr style "text-align: left;vertical-align: top;width: 105px;height: 19.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+            text " "
+            TD (&93834775855336)
+              attr style "text-align: left;vertical-align: top;width: 386px;height: 19.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+              text "Einarbeitung Betr_Maintenance_22.3"
+            text " "
+            TD (&93834775855936)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              text "gematik"
+            text " "
+          text " "
+        text " "
+      text " "
+      H1 (&93834775856896)
+        attr id "polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16757"
+        text "Inhaltsverzeichnis"
+      text " "
+      DIV (&93834775857496)
+        attr id "polarion_wiki macro name=toc"
+      text " "
+      DIV (&93834775857976)
+        attr id "toc_container"
+        text " "
+        P (&93834775858456)
+          attr class "toc_title"
+        H1 (&93834775858816)
+        P (&93834775859000)
+        text " "
+        LI (&93834775859304)
+          A (&93834775859488)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16756"
+            text "Dokumentinformationen"
+        text " "
+        LI (&93834775860088)
+          A (&93834775860272)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16757"
+            text "Inhaltsverzeichnis"
+        text " "
+        LI (&93834775860872)
+          text ":"
+          A (&93834775861176)
+            attr href "#1"
+            text "1 Einordnung des Dokuments"
+        text " "
+        LI (&93834775861776)
+          text ": :"
+          A (&93834775862080)
+            attr href "#1.1"
+            text "1.1 Zielsetzung"
+        text " "
+        LI (&93834775862680)
+          text ": :"
+          A (&93834775862984)
+            attr href "#1.2"
+            text "1.2 Zielgruppe"
+        text " "
+        LI (&93834775863584)
+          text ": :"
+          A (&93834775863888)
+            attr href "#1.3"
+            text "1.3 Geltungsbereich"
+        text " "
+        LI (&93834775864488)
+          text ": :"
+          A (&93834775864792)
+            attr href "#1.4"
+            text "1.4 Abgrenzungen"
+        text " "
+        LI (&93834775865392)
+          text ": :"
+          A (&93834775865696)
+            attr href "#1.5"
+            text "1.5 Methodik"
+        text " "
+        LI (&93834775866296)
+          text ":"
+          A (&93834775866600)
+            attr href "#2"
+            text "2 Systemüberblick"
+        text " "
+        LI (&93834775867200)
+          text ":"
+          A (&93834775867504)
+            attr href "#3"
+            text "3 Schnittstelle I_OpsData_Update"
+        text " "
+        LI (&93834775868104)
+          text ": :"
+          A (&93834775868408)
+            attr href "#3.1"
+            text "3.1 Transport Layer Security (TLS)"
+        text " "
+        LI (&93834775869008)
+          text ": :"
+          A (&93834775869312)
+            attr href "#3.2"
+            text "3.2 DNS Resource Record"
+        text " "
+        LI (&93834775869912)
+          text ": :"
+          A (&93834775870216)
+            attr href "#3.3"
+            text "3.3 Datei Upload"
+        text " "
+        LI (&93834775870816)
+          text ": :"
+          A (&93834775871120)
+            attr href "#3.4"
+            text "3.4 Content Upload XML"
+        text " "
+        LI (&93834775871720)
+          text ": :"
+          A (&93834775872024)
+            attr href "#3.5"
+            text "3.5 Content Upload JSON Format"
+        text " "
+        LI (&93834775872624)
+          text ":"
+          A (&93834775872928)
+            attr href "#4"
+            text "4 Anhang – Verzeichnisse"
+        text " "
+        LI (&93834775873528)
+          text ": :"
+          A (&93834775873832)
+            attr href "#4.1"
+            text "4.1 Abkürzungen"
+        text " "
+        LI (&93834775874432)
+          text ": :"
+          A (&93834775874736)
+            attr href "#4.2"
+            text "4.2 Glossar"
+        text " "
+        LI (&93834775875336)
+          text ": :"
+          A (&93834775875640)
+            attr href "#4.3"
+            text "4.3 Abbildungsverzeichnis"
+        text " "
+        LI (&93834775876240)
+          text ": :"
+          A (&93834775876544)
+            attr href "#4.4"
+            text "4.4 Tabellenverzeichnis"
+        text " "
+        LI (&93834775877144)
+          text ": :"
+          A (&93834775877448)
+            attr href "#4.5"
+            text "4.5 Referenzierte Dokumente"
+        text " "
+        LI (&93834775878048)
+          text ": : :"
+          A (&93834775878352)
+            attr href "#4.5.1"
+            text "4.5.1 Dokumente der gematik"
+        text " "
+        LI (&93834775878952)
+          text ": : :"
+          A (&93834775879256)
+            attr href "#4.5.2"
+            text "4.5.2 Weitere Dokumente"
+        text " "
+      text " "
+      H2 (&93834775879976)
+        attr id "1"
+        text "1 Einordnung des Dokuments"
+      text " "
+      H3 (&93834775880576)
+        attr id "1.1"
+        text "1.1 Zielsetzung"
+      text " "
+      P (&93834776779392)
+        attr id "polarion_81"
+        text "Dieses Dokument enthält die Anforderungen an die Schnittstelle Betriebsdatenerfassung. Über sie werden von den Clients (z.B. Fachdienste und zentrale Dienste) versendete Betriebsdaten empfangen."
+      text " "
+      H3 (&93834776779992)
+        attr id "1.2"
+        text "1.2 Zielgruppe"
+      text " "
+      P (&93834776780592)
+        attr id "polarion_84"
+        text "Das Dokument richtet sich an Hersteller und Anbieter der Schnittstelle Betriebsdatenerfassung."
+      text " "
+      H3 (&93834776781192)
+        attr id "1.3"
+        text "1.3 Geltungsbereich"
+      text " "
+      P (&93834776781792)
+        attr id "polarion_86"
+        text "Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des Deutschen Gesundheitswesens für den Online-Produktivbetrieb (Stufe 2). Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungs- oder Abnahmeverfahren wird durch die gematik GmbH in gesonderten Dokumenten (z.B. Dokumentenlandkarte, Produkttypsteckbrief, Leistungsbeschreibung) festgelegt und bekannt gegeben."
+      text " "
+      P (&93834776782392)
+        attr id "polarion_87"
+      text " "
+      P (&93834776782872)
+        attr data-keep-next "true"
+        attr id "polarion_88"
+        text " "
+        SPAN (&93834776783528)
+          attr style "font-weight: bold;"
+          text "Wichtiger Schutzrechts-/Patentrechtshinweis"
+        text " "
+      text " "
+      P (&93834776784248)
+        attr data-keep-next "true"
+        attr id "polarion_89"
+        text " "
+        SPAN (&93834776784904)
+          attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+          text "Die nachfolgende Spezifikation ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Spezifikation in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der Spezifikation angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen."
+        text " "
+      text " "
+      H3 (&93834776785624)
+        attr id "1.4"
+        text "1.4 Abgrenzungen"
+      text " "
+      P (&93834776786224)
+        attr id "polarion_90"
+        text "Spezifiziert werden in diesem Dokument die Anforderungen und das Verhalten der Schnittstelle Betriebsdatenerfassung [I_OpsData_Update]."
+      text " "
+      P (&93834776786824)
+        attr id "polarion_1"
+      text " "
+      H3 (&93834776787304)
+        attr id "1.5"
+        text "1.5 Methodik"
+      text " "
+      P (&93834776787904)
+        attr id "polarion_94"
+        text " "
+        SPAN (&93834776788384)
+          attr style "color: #1A1A1A;"
+          text "Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC"
+        text "2119"
+        SPAN (&93834776788984)
+          attr style "color: #1A1A1A;"
+          text "[RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet."
+        BR (&93834776789464)
+        text " "
+        BR (&93834776789768)
+        text " "
+        SPAN (&93834776790072)
+          attr style "color: #1A1A1A;"
+          text "Sie werden im Dokument wie folgt dargestellt:"
+        BR (&93834776790552)
+        text " "
+        SPAN (&93834776790856)
+          attr style "font-weight: bold;color: #1A1A1A;"
+          text "<AFO-ID> - <Titel der Afo>"
+        BR (&93834776791336)
+        text " "
+        SPAN (&93834776791640)
+          attr style "color: #1A1A1A;"
+          text "Text / Beschreibung"
+        BR (&93834776792120)
+        text " "
+        SPAN (&93834776792424)
+          attr style "color: #1A1A1A;"
+          text "[<=]"
+        BR (&93834776792904)
+        text " "
+        BR (&93834776793208)
+        text " "
+        SPAN (&93834776793512)
+          attr style "color: #1A1A1A;"
+          text "Dabei umfasst die Anforderung sämtliche zwischen Afo-ID und der Textmarke [<=] angeführten Inhalte."
+        text " "
+      text " "
+      H2 (&93834776794232)
+        attr id "2"
+        text "2 Systemüberblick"
+      text " "
+      P (&93834776794832)
+        attr id "polarion_2"
+        text "Die Fachdienste und zentralen Dienste können ihre Betriebsdaten über die Schnittstelle Betriebsdatenerfassung I_OpsData_Update mit Operation [I_OpsData_Update]::fileUpload liefern. "
+      text " "
+      P (&93834776795432)
+        attr id "polarion_103"
+      text " "
+      H2 (&93834776795912)
+        attr id "3"
+        text "3 Schnittstelle I_OpsData_Update"
+      text " "
+      P (&93834776796512)
+        attr id "polarion_111"
+        text "Die Fachdienste und zentralen Dienste liefern ihre Betriebsdaten (darunter fallen auch die Rohdaten) über die Schnittstelle Betriebsdatenerfassung I_OpsData_Update. "
+      text " "
+      H3 (&93834776797112)
+        attr id "3.1"
+        text "3.1 Transport Layer Security (TLS)"
+      text " "
+      DIV (&93834776797712)
+        attr id "A_17272-01"
+        text " "
+        P (&93834776798192)
+          B (&93834776798376)
+            text "A_17272-01 - Schnittstelle Betriebsdatenerfassung TLS-Authentisierung für Fach- und zentrale Dienste durch den I_OpsData_Update-Server"
+        text " "
+        P (&93834776798800)
+          text "Die Schnittstelle I_OpsData_Update MUSS bei der Absicherung der Verbindung durch TLS die serverseitige Authentisierung unter Nutzung des X.509-Komponentenzertifikats mit der TLS-Server-Identität ID.ZD.TLS_S zur Serverauthentisierung umsetzen."
+          SPAN (&93834776799104)
+            attr id "polarion-comment:108"
+          BR (&93834776799464)
+          text " "
+          B (&93834776799768)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834776800312)
+        attr id "A_17416-01"
+        text " "
+        P (&93834776800792)
+          B (&93834776800976)
+            text "A_17416-01 - Schnittstelle Betriebsdatenerfassung Prüfung des TLS-Server-Zertifikats durch Fach- und zentrale Dienste"
+        text " "
+        P (&93834776801400)
+          text "Der Client der Schnittstelle I_OpsData_Update MUSS bei der Absicherung der Verbindung durch TLS die serverseitige Authentisierung durch Prüfung des I_OpsData_Update-X.509-Komponentenzertifikats mit der TLS-Server-Identität ID.ZD.TLS_S zur Serverauthentisierung entsprechend [gemSpec_Krypt#TLS-Verbindungen] umsetzen."
+          SPAN (&93834776801704)
+            attr id "polarion-comment:109"
+          BR (&93834776802064)
+          text " "
+          B (&93834776802368)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834776802912)
+        attr id "A_17730"
+        text " "
+        P (&93834776803392)
+          B (&93834776803576)
+            text "A_17730 - Schnittstelle Betriebsdatenerfassung Keine Verbindungen ohne TLS"
+        text " "
+        P (&93834776804000)
+          text "Die Schnittstelle I_OpsData_Update MUSS ausschließlich Verbindungen mit TLS akzeptieren."
+          B (&93834776804304)
+            text "[<=]"
+        text " "
+      text " "
+      H3 (&93834776804848)
+        attr id "3.2"
+        text "3.2 DNS Resource Record"
+      text " "
+      P (&93834776805448)
+        attr id "polarion_112"
+        text "Die Schnittstelle I_OpsData_Update stellt Funktionen bereit, die über URLs aufgerufen werden können."
+      text " "
+      DIV (&93834776806048)
+        attr id "A_17731"
+        text " "
+        P (&93834776806528)
+          B (&93834776806712)
+            text "A_17731 - Schnittstelle Betriebsdatenerfassung Bereitstellung DNS-Resource-Records"
+        text " "
+        P (&93834776807136)
+          text "Der Anbieter der Schnittstelle Betriebsdatenerfassung I_OpsData_Update MUSS SRV- und TXT-Resource-Records im DNS bereitstellen. Die Werte der PFADx-Angaben MÜSSEN mit einem "/" beginnen."
+          BR (&93834776807440)
+          text "Im DNS sind dazu folgende Einträge einzutragen:"
+          BR (&93834776807744)
+          text " "
+          BR (&93834776808048)
+          text "Owner                                  TTL Class Type Data"
+          BR (&93834776808352)
+          text "_fdrdif._tcp.<TOP_LEVEL_DOMAIN_TI> <TTL1> <IN> <SRV> <Priorität1>  <Gewicht1>  <Port1>  <FQDN1>"
+          BR (&93834776808656)
+          text "_fdrdif._tcp.<TOP_LEVEL_DOMAIN_TI> <TTL2> <IN> <TXT> "txtvers=<VERSION1>" "path=<PFAD1>""
+          BR (&93834776808960)
+          text "_fdrdif._tcp.<TOP_LEVEL_DOMAIN_TI> <TTL3> <IN> <SRV> <Priorität2>  <Gewicht2>  <Port2>  <FQDN2>"
+          BR (&93834776809264)
+          text "_fdrdif._tcp.<TOP_LEVEL_DOMAIN_TI> <TTL4> <IN> <TXT> "txtvers=<VERSION2>" "path=<PFAD2>""
+          BR (&93834776809568)
+          text " "
+          BR (&93834776809872)
+          text "_zdrdif._tcp.<TOP_LEVEL_DOMAIN_TI> <TTL1> <IN> <SRV> <Priorität1>  <Gewicht1>  <Port1>  <FQDN1>"
+          BR (&93834776810176)
+          text "_zdrdif._tcp.<TOP_LEVEL_DOMAIN_TI> <TTL2> <IN> <TXT> "txtvers=<VERSION1>" "path=<PFAD1>""
+          BR (&93834776810480)
+          text "_zdrdif._tcp.<TOP_LEVEL_DOMAIN_TI> <TTL3> <IN> <SRV> <Priorität2>  <Gewicht2>  <Port2>  <FQDN2>"
+          BR (&93834776810784)
+          text "_zdrdif._tcp.<TOP_LEVEL_DOMAIN_TI> <TTL4> <IN> <TXT> "txtvers=<VERSION2>" "path=<PFAD2>""
+          BR (&93834776811088)
+          text " "
+          BR (&93834776811392)
+          text "TOP_LEVEL_DOMAIN_TI: in der PU = telematik.; in der RU/TU = telematik-test."
+          B (&93834776811696)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834770979792)
+        attr id "polarion_113"
+        text "Die "fdrdif"-DNS-Resource-Records werden von den Fachdiensten und die "zdrdif"-DNS-Resource-Records von den zentralen Diensten zur Lokalisierung der Schnittstelle genutzt."
+      text " "
+      H3 (&93834770980368)
+        attr id "3.3"
+        text "3.3 Datei Upload"
+      text " "
+      DIV (&93834770980968)
+        attr id "A_17733-01"
+        text " "
+        P (&93834770981448)
+          B (&93834770981632)
+            text "A_17733-01 - Schnittstelle Betriebsdatenerfassung Datei-Upload"
+        text " "
+        P (&93834770982056)
+          text "Die Schnittstelle I_OpsData_Update MUSS die Operation I_OpsData_Update::fileUpload für die Übertragung von Dateien von Clients zur Schnittstelle Betriebsdatenerfassung entsprechend Tabelle Tab_I_OpsData_Update_002 bereitstellen."
+          BR (&93834770982360)
+          text " "
+          BR (&93834770982664)
+          text " "
+        P (&93834770982968)
+          attr class "polarion-rte-caption-paragraph"
+          attr id "polarion___1"
+          text "Tabelle"
+          SPAN (&93834770983624)
+            attr class "polarion-rte-caption"
+            attr data-sequence "Tabelle"
+            text "1"
+          text ": Tab_I_OpsData_Update_002 Operation I_OpsData_Update::fileUpload"
+        text " "
+        TABLE (&93834770984520)
+          attr class "polarion-Document-table"
+          attr id "polarion_wiki macro name=table;params=width=100%|padding=3px"
+          attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+          text " "
+          TBODY (&93834770985352)
+            text " "
+            TR (&93834770985656)
+              text " "
+              TH (&93834770985960)
+                attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770986320)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Element"
+                BR (&93834770986800)
+                text " "
+              text " "
+              TH (&93834770987224)
+                attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770987584)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Beschreibung"
+                BR (&93834770988064)
+                text " "
+              text " "
+            text " "
+            TR (&93834770988608)
+              text " "
+              TD (&93834770988912)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770989272)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Name"
+                BR (&93834770989752)
+                text " "
+              text " "
+              TD (&93834770990176)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770990536)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "I_OpsData_Update::fileUpload"
+                BR (&93834770991016)
+                text " "
+              text " "
+            text " "
+            TR (&93834770991560)
+              text " "
+              TD (&93834770991864)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770992224)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Beschreibung"
+                BR (&93834770992704)
+                text " "
+              text " "
+              TD (&93834770993128)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770993488)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Mit dieser Operation überträgt der Client pro Lieferung genau eine Datei an die Schnittstelle Betriebsdatenerfassung."
+                  SPAN (&93834770993968)
+                    attr id "polarion-comment:114"
+                BR (&93834770994328)
+                text " "
+              text " "
+            text " "
+            TR (&93834770994872)
+              text " "
+              TD (&93834770995176)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770995536)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Initiierender Akteur"
+                BR (&93834770996016)
+                text " "
+              text " "
+              TD (&93834770996440)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770996800)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Client von I_OpsData_Update"
+                BR (&93834770997280)
+                text " "
+              text " "
+            text " "
+            TR (&93834770997824)
+              text " "
+              TD (&93834770998128)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770998488)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Weitere Akteure"
+                BR (&93834770998968)
+                text " "
+              text " "
+              TD (&93834770999392)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834770999752)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "keine"
+                BR (&93834771000232)
+                text " "
+              text " "
+            text " "
+            TR (&93834771000776)
+              text " "
+              TD (&93834771001080)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771001440)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Auslöser"
+                BR (&93834771001920)
+                text " "
+              text " "
+              TD (&93834771002344)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771002704)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Client von I_OpsData_Update"
+                BR (&93834771003184)
+                text " "
+              text " "
+            text " "
+            TR (&93834771003728)
+              text " "
+              TD (&93834771004032)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771004392)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Vorbedingungen"
+                BR (&93834771004872)
+                text " "
+              text " "
+              TD (&93834771005296)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771005656)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "aufgebaute TLS-Verbindung vom Client"
+                BR (&93834771006136)
+                text " "
+              text " "
+            text " "
+            TR (&93834771006680)
+              text " "
+              TD (&93834771006984)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771007344)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Nachbedingungen"
+                BR (&93834771007824)
+                text " "
+              text " "
+              TD (&93834771008248)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 18.3438px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771008608)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Die Datei wurde zur Schnittstelle Betriebsdatenerfassung übertragen."
+                BR (&93834771009088)
+                text " "
+              text " "
+            text " "
+            TR (&93834771009632)
+              text " "
+              TD (&93834771009936)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 318.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771010296)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Aufruf"
+                BR (&93834771010776)
+                text " "
+              text " "
+              TD (&93834771011200)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 318.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771011560)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Aufruf von POST Request entsprechend [RFC7231] mit folgenden Optionen"
+                BR (&93834771012216)
+                text " "
+                UL (&93834771012400)
+                  text " "
+                  LI (&93834771012704)
+                    SPAN (&93834771012888)
+                      attr style "font-size: 10pt;line-height: 1.5;"
+                      text "Für die URL"
+                    text """
+                    SPAN (&93834771013488)
+                      attr style "font-size: 10pt;line-height: 1.5;"
+                      text "https://<host>:<port><path>/"
+                    text "" "
+                    SPAN (&93834771014088)
+                      attr style "font-size: 10pt;line-height: 1.5;"
+                      text "MUSS im POST Request folgendes beachtet werden:"
+                    BR (&93834771014568)
+                    text " "
+                  text " "
+                  UL (&93834771014992)
+                    text " "
+                    LI (&93834771015296)
+                      text """
+                      SPAN (&93834771015600)
+                        attr style "font-size: 10pt;line-height: 1.5;"
+                        text "<host>:<port>"
+                      text "" "
+                      SPAN (&93834771016200)
+                        attr style "font-size: 10pt;line-height: 1.5;"
+                        text "wird durch Abfrage des DNS SRV-Resource-Records ermittelt."
+                      BR (&93834771016680)
+                      text " "
+                    text " "
+                    LI (&93834771017104)
+                      text """
+                      SPAN (&93834771017408)
+                        attr style "font-size: 10pt;line-height: 1.5;"
+                        text "<path>"
+                      text "" "
+                      SPAN (&93834771018008)
+                        attr style "font-size: 10pt;line-height: 1.5;"
+                        text "wird durch Abfrage des DNS TXT-Resource-Records ermittelt."
+                      BR (&93834771018488)
+                      text " "
+                    text " "
+                  text " "
+                  LI (&93834771019032)
+                    SPAN (&93834771019216)
+                      attr style "font-size: 10pt;line-height: 1.5;"
+                      text " Im Top-level-HTTP-Header MUSS ein zusätzliches Feld "filename" angelegt werden. Der Wert für dieses Feld MUSS den Namen der übertragenen Datei enthalten."
+                      SPAN (&93834771019696)
+                        attr id "polarion-comment:111"
+                    BR (&93834771020056)
+                    text " "
+                  text " "
+                  LI (&93834771020480)
+                    SPAN (&93834771020664)
+                      attr style "font-size: 10pt;line-height: 1.5;"
+                      text "Mindestens folgende Top-level-HTTP-Header MÜSSEN mit den angegebenen Werten unterstützt werden:"
+                    BR (&93834771021144)
+                    text " "
+                  text " "
+                  UL (&93834771021568)
+                    text " "
+                    LI (&93834771021872)
+                      SPAN (&93834771022056)
+                        attr style "font-size: 10pt;line-height: 1.5;"
+                        text "Content-Type: application/octet-stream"
+                        SPAN (&93834771022536)
+                          attr id "polarion-comment:112"
+                      BR (&93834771022896)
+                      text " "
+                    text " "
+                    LI (&93834771023320)
+                      SPAN (&93834771023504)
+                        attr style "font-size: 10pt;line-height: 1.5;"
+                        text "Content-Lenght: entsprechend [RFC7230] zu setzen"
+                      BR (&93834771023984)
+                      text " "
+                    text " "
+                    LI (&93834771024408)
+                      SPAN (&93834771024592)
+                        attr style "font-size: 10pt;line-height: 1.5;"
+                        text "Accept-Encoding: gzip, deflate"
+                      BR (&93834771025072)
+                      text " "
+                    text " "
+                  text " "
+                  LI (&93834771025616)
+                    SPAN (&93834771025800)
+                      attr style "font-size: 10pt;line-height: 1.5;"
+                      text "Die zu liefernde Datei MUSS im POST Request Body geliefert werden. D.h. der Request Body MUSS auf die Datei an sich in Binärform (binary data) beschränkt sein."
+                      SPAN (&93834771026280)
+                        attr id "polarion-comment:113"
+                    BR (&93834771026640)
+                    text " "
+                  text " "
+                text " "
+              text " "
+            text " "
+            TR (&93834771027424)
+              text " "
+              TD (&93834771027728)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 151.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771028088)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Standardablauf"
+                BR (&93834771028568)
+                text " "
+              text " "
+              TD (&93834771028992)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 151.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771029352)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Die Datei wird vom Client zur Schnittstelle Betriebsdatenerfassung übertragen."
+                BR (&93834771029832)
+                text " "
+                SPAN (&93834771030136)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Die Datei wird auf Fehler überprüft. "
+                BR (&93834771030616)
+                text " "
+                SPAN (&93834771030920)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Bei erfolgreicher Ablage und Prüfung der Datei wird im POST Response der HTTP-200-OK-Status zurückgegeben. Der Client muss für die Prüfung der übermittelten Datei genügend Zeit berücksichtigen (Timer für das Warten auf das HTTP Response entsprechend konfigurieren)."
+                BR (&93834771031400)
+                text " "
+                SPAN (&93834771031704)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Wenn die Prüfung der Datei länger als 10 Sekunden dauert, MUSS die Schnittstelle I_OpsData_Update nach jeweils 10 Sekunden einen POST Response mit dem HTTP-102 Processing Status zurückgeben um bei dem Client ein Timeout zu verhindern.  "
+                BR (&93834771032184)
+                text " "
+              text " "
+            text " "
+            TR (&93834771032728)
+              text " "
+              TD (&93834771033032)
+                attr style "text-align: left;vertical-align: top;width: 157.344px;height: 113.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771033392)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Fehlerfälle"
+                BR (&93834771033872)
+                text " "
+              text " "
+              TD (&93834771034296)
+                attr style "text-align: left;vertical-align: top;width: 572.344px;height: 113.344px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 3px;"
+                SPAN (&93834771034656)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Neben den registrierten HTTP-Status-Codes des aufgerufenen HTTP POST können keine weiteren Fehlercodes auftreten."
+                BR (&93834771035136)
+                text " "
+                SPAN (&93834771035440)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Bei allen Fehler-HTTP-Status-Codes wird keine Datei abgelegt und der POST Request MUSS mit gleichem "filename" wiederholbar sein."
+                BR (&93834771035920)
+                text " "
+                SPAN (&93834771036224)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Im Fall von HTTP-Status-Code "400 Bad Request" enthält der HTTP POST bzw. die Datei einen Fehler. Dieser Fehler kann sich in der enthaltenen Datei befinden."
+              text " "
+            text " "
+          text " "
+        text " "
+        B (&93834771037184)
+          text "[<=]"
+        P (&93834771037488)
+        text " "
+      text " "
+      P (&93834771037912)
+        attr id "polarion_115"
+        text "Hinweise:"
+      text " "
+      UL (&93834771038512)
+        attr id "polarion_116"
+        text " "
+        LI (&93834771038992)
+          text "Der Client muss eindeutige Dateinamen für seine Dateien (bspw. durch Anhängen eines Zeitstempels, einer eindeutigen ID, o.ä.) sicherstellen."
+        text " "
+      text " "
+      DIV (&93834771039536)
+        attr id "A_17734-01"
+        text " "
+        P (&93834771040016)
+          B (&93834771040200)
+            text "A_17734-01 - Schnittstelle Betriebsdatenerfassung Zugriff auf Dateien"
+        text " "
+        P (&93834771040624)
+          text "Die Schnittstelle I_OpsData_Update MUSS"
+          BR (&93834771040928)
+          text " "
+        UL (&93834771041232)
+          text " "
+          LI (&93834771041536)
+            text "das Hochladen (HTTP POST) von Dateien durch Clients (ohne TLS Client Authentisierung)"
+            SPAN (&93834771041840)
+              attr id "polarion-comment:115"
+            text "erlauben"
+          text " "
+        text " "
+        B (&93834771042560)
+          text "[<=]"
+        P (&93834771042864)
+        text " "
+      text " "
+      H3 (&93834771043288)
+        attr id "3.4"
+        text "3.4 Content Upload XML"
+      text " "
+      DIV (&93834771043888)
+        attr id "A_23107"
+        text " "
+        P (&93834771044368)
+          B (&93834771044552)
+            text "A_23107 - Schnittstelle Betriebsdatenerfassung Content-Upload XML Format"
+        text " "
+        P (&93834764420808)
+          text "Die Schnittstelle I_OpsData_Update MUSS die Operation I_OpsData_Update::contentUploadXML für die Übertragung von Content im XML Format von Clients zur Schnittstelle Betriebsdatenerfassung entsprechend Tabelle Tab_I_OpsData_Update_003 bereitstellen."
+          BR (&93834764421112)
+          text " "
+          BR (&93834764421416)
+          text "Tabelle : Tab_I_OpsData_Update_003 Operation I_OpsData_Update::contentUploadXML"
+          BR (&93834764421720)
+          text " "
+          TABLE (&93834764422024)
+            attr style "border-collapse: collapse;"
+            text " "
+            TBODY (&93834764422504)
+              text " "
+              TR (&93834764422808)
+                text " "
+                TD (&93834764423112)
+                  attr style "background-color: #F0F0F0;vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Element"
+                  BR (&93834764423592)
+                text " "
+                TD (&93834764423896)
+                  attr style "background-color: #F0F0F0;vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Beschreibung"
+                  BR (&93834764424376)
+                text " "
+              text " "
+              TR (&93834764424800)
+                text " "
+                TD (&93834764425104)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Name"
+                  BR (&93834764425584)
+                text " "
+                TD (&93834764425888)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "I_OpsData_Update::contentUploadXML"
+                  BR (&93834764426368)
+                text " "
+              text " "
+              TR (&93834764426792)
+                text " "
+                TD (&93834764427096)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Beschreibung"
+                  BR (&93834764427576)
+                text " "
+                TD (&93834764427880)
+                  attr style "vertical-align: top;width: 7.4944in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Mit dieser Operation überträgt der Client pro Lieferung genau einen Content im XML Format an die Schnittstelle Betriebsdatenerfassung."
+                  BR (&93834764428360)
+                text " "
+              text " "
+              TR (&93834764428784)
+                text " "
+                TD (&93834764429088)
+                  attr style "vertical-align: top;width: 1.7229in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Initiierender Akteur"
+                  BR (&93834764429568)
+                text " "
+                TD (&93834764429872)
+                  attr style "vertical-align: top;width: 7.4388in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Client von I_OpsData_Update"
+                  BR (&93834764430352)
+                text " "
+              text " "
+              TR (&93834764430776)
+                text " "
+                TD (&93834764431080)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Weitere Akteure"
+                  BR (&93834764431560)
+                text " "
+                TD (&93834764431864)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "keine"
+                  BR (&93834764432344)
+                text " "
+              text " "
+              TR (&93834764432768)
+                text " "
+                TD (&93834764433072)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Auslöser"
+                  BR (&93834764433552)
+                text " "
+                TD (&93834764433856)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Client von I_OpsData_Update"
+                  BR (&93834764434336)
+                text " "
+              text " "
+              TR (&93834764434760)
+                text " "
+                TD (&93834764435064)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Vorbedingungen"
+                  BR (&93834764435544)
+                text " "
+                TD (&93834764435848)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "aufgebaute TLS-Verbindung vom Client"
+                  BR (&93834764436328)
+                text " "
+              text " "
+              TR (&93834764436752)
+                text " "
+                TD (&93834764437056)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Nachbedingungen"
+                  BR (&93834764437536)
+                text " "
+                TD (&93834764437840)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Der Content im XML Format wurde zur Schnittstelle Betriebsdatenerfassung übertragen."
+                  BR (&93834764438320)
+                text " "
+              text " "
+              TR (&93834764438744)
+                text " "
+                TD (&93834764439048)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Aufruf"
+                  BR (&93834764439528)
+                text " "
+                TD (&93834764439832)
+                  attr style "vertical-align: top;width: 7.5277in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Aufruf von POST Request entsprechend [RFC7231] mit folgenden Optionen"
+                  BR (&93834764440312)
+                  text " "
+                  DIV (&93834764440616)
+                    attr style "margin-left: 0.375in;"
+                    text "Für die URL ""
+                    A (&93834764441096)
+                      attr href "https://%3chost%3e:%3cport%3e%3cpath%3e/"
+                      attr target "_top"
+                      text "https://<host>:<port><path>/"
+                    text "" MUSS im POST Request folgendes beachtet werden:"
+                  text " "
+                  DIV (&93834764441992)
+                    attr style "margin-left: 0.75in;"
+                    text ""<host>:<port>" wird durch Abfrage des DNS SRV-Resource-Records ermittelt."
+                  text " "
+                  DIV (&93834764442592)
+                    attr style "margin-left: 0.75in;"
+                    text ""<path>" wird durch die gematik zur Verfügung gestellt."
+                  text " "
+                  DIV (&93834764443192)
+                    attr style "margin-left: 0.375in;"
+                    text " Im Top-level-HTTP-Header MUSS ein zusätzliches Feld "CI" angelegt werden. Der Wert für dieses Feld MUSS die CI-ID der logischen Produktinstanz des liefernden Client enthalten (in der Form "CI-nnnnnnn")"
+                  text " "
+                  DIV (&93834764443792)
+                    attr style "margin-left: 0.375in;"
+                    text "Mindestens folgende Top-level-HTTP-Header MÜSSEN mit den angegebenen Werten unterstützt werden:"
+                  text " "
+                  DIV (&93834764444392)
+                    attr style "margin-left: 0.75in;"
+                    text "Content-Type: text/xml; charset="utf-8""
+                  text " "
+                  DIV (&93834764444992)
+                    attr style "margin-left: 0.75in;"
+                    text "Content-Length: entsprechend [RFC7230] zu setzen"
+                  text " "
+                  DIV (&93834764445592)
+                    attr style "margin-left: 0.75in;"
+                    text "Accept-Encoding: gzip, deflate"
+                  text " "
+                  DIV (&93834764446192)
+                    attr style "margin-left: 0.375in;"
+                    text "Der zu liefernde Content MUSS im POST Request Body geliefert werden."
+                text " "
+              text " "
+              TR (&93834764446912)
+                text " "
+                TD (&93834764447216)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Standardablauf"
+                  BR (&93834764447696)
+                text " "
+                TD (&93834764448000)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Der Content wird vom Client zur Schnittstelle Betriebsdatenerfassung übertragen."
+                  BR (&93834764448480)
+                  text "Bei erfolgreicher Übermittlung des Contents wird in der Response der HTTP-200-OK-Status zurückgegeben."
+                  BR (&93834764448784)
+                text " "
+              text " "
+              TR (&93834764449208)
+                text " "
+                TD (&93834764449512)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Fehlerfälle"
+                  BR (&93834764449992)
+                text " "
+                TD (&93834764450296)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Bei allen Fehler-HTTP-Status-Codes wird kein Content abgelegt und der POST Request MUSS mit gleicher CI-ID wiederholbar sein."
+                  BR (&93834764450776)
+                  text "Im Fall von HTTP-Status-Code "400 Bad Request" enthält der HTTP Request einen Fehler."
+                  BR (&93834764451080)
+                text " "
+              text " "
+            text " "
+          BR (&93834764451624)
+          text "(Hinweis: Für weitere Informationen zum CI, siehe [gemRL_Betr_TI] Kapitel "Configuration Management".)"
+          B (&93834764451928)
+            text "[<=]"
+        text " "
+      text " "
+      H3 (&93834764452472)
+        attr id "3.5"
+        text "3.5 Content Upload JSON Format"
+      text " "
+      DIV (&93834764453072)
+        attr id "A_23110"
+        text " "
+        P (&93834764453592)
+          B (&93834764453776)
+            text "A_23110 - Schnittstelle Betriebsdatenerfassung Content-Upload JSON Format"
+        text " "
+        P (&93834764454200)
+          text "Die Schnittstelle I_OpsData_Update MUSS die Operation I_OpsData_Update::contentUploadJSON für die Übertragung von Content im JSON Format von Clients zur Schnittstelle Betriebsdatenerfassung entsprechend Tabelle Tab_I_OpsData_Update_004 bereitstellen."
+          BR (&93834764454504)
+          text " "
+          BR (&93834764454808)
+          text "Tabelle : Tab_I_OpsData_Update_004 Operation I_OpsData_Update::contentUploadJSON"
+          BR (&93834764455112)
+          text " "
+          TABLE (&93834764455416)
+            attr style "color: #000000;border-collapse: collapse;"
+            text " "
+            TBODY (&93834764455872)
+              text " "
+              TR (&93834764456176)
+                text " "
+                TD (&93834764456480)
+                  attr style "background-color: #F0F0F0;vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Element"
+                  BR (&93834764456960)
+                text " "
+                TD (&93834764457264)
+                  attr style "background-color: #F0F0F0;vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Beschreibung"
+                  BR (&93834764457744)
+                text " "
+              text " "
+              TR (&93834764458168)
+                text " "
+                TD (&93834764458472)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Name"
+                  BR (&93834764458952)
+                text " "
+                TD (&93834764459256)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "I_OpsData_Update::contentUploadJSON"
+                  BR (&93834764459736)
+                text " "
+              text " "
+              TR (&93834764460160)
+                text " "
+                TD (&93834764460464)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Beschreibung"
+                  BR (&93834764460944)
+                text " "
+                TD (&93834764461248)
+                  attr style "vertical-align: top;width: 7.4944in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Mit dieser Operation überträgt der Client pro Lieferung genau einen Content im JSON Format an die Schnittstelle Betriebsdatenerfassung."
+                  BR (&93834764461728)
+                text " "
+              text " "
+              TR (&93834764462152)
+                text " "
+                TD (&93834764462456)
+                  attr style "vertical-align: top;width: 1.7229in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Initiierender Akteur"
+                  BR (&93834764462936)
+                text " "
+                TD (&93834764463240)
+                  attr style "vertical-align: top;width: 7.4388in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Client von I_OpsData_Update"
+                  BR (&93834764463720)
+                text " "
+              text " "
+              TR (&93834764464144)
+                text " "
+                TD (&93834764464448)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Weitere Akteure"
+                  BR (&93834764464928)
+                text " "
+                TD (&93834764465232)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "keine"
+                  BR (&93834764465712)
+                text " "
+              text " "
+              TR (&93834764466136)
+                text " "
+                TD (&93834764466440)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Auslöser"
+                  BR (&93834764466920)
+                text " "
+                TD (&93834764467224)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Client von I_OpsData_Update"
+                  BR (&93834764467704)
+                text " "
+              text " "
+              TR (&93834764468128)
+                text " "
+                TD (&93834764468432)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Vorbedingungen"
+                  BR (&93834764468912)
+                text " "
+                TD (&93834764469216)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "aufgebaute TLS-Verbindung vom Client"
+                  BR (&93834764469696)
+                text " "
+              text " "
+              TR (&93834764470120)
+                text " "
+                TD (&93834764470424)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Nachbedingungen"
+                  BR (&93834764470904)
+                text " "
+                TD (&93834764471208)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Der Content im JSON Format wurde zur Schnittstelle Betriebsdatenerfassung übertragen."
+                  BR (&93834764471688)
+                text " "
+              text " "
+              TR (&93834764472112)
+                text " "
+                TD (&93834764472416)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Aufruf"
+                  BR (&93834764472896)
+                text " "
+                TD (&93834764473200)
+                  attr style "vertical-align: top;width: 7.5277in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Aufruf von POST Request entsprechend [RFC7231] mit folgenden Optionen"
+                  BR (&93834764473680)
+                  text " "
+                  DIV (&93834764473984)
+                    attr style "margin-left: 0.375in;"
+                    text "Für die URL ""
+                    A (&93834764474464)
+                      attr href "https://%3Chost%3E:%3cport%3e%3cpath%3e/"
+                      attr style "color: #197FA2;"
+                      attr target "_top"
+                      text "https://<host>:<port><path>/"
+                    text "" MUSS im POST Request folgendes beachtet werden:"
+                  text " "
+                  DIV (&93834764475536)
+                    attr style "margin-left: 0.75in;"
+                    text ""<host>:<port>" wird durch Abfrage des DNS SRV-Resource-Records ermittelt."
+                  text " "
+                  DIV (&93834764476136)
+                    attr style "margin-left: 0.75in;"
+                    text ""<path>" wird durch die gematik zur Verfügung gestellt."
+                  text " "
+                  DIV (&93834764476736)
+                    attr style "margin-left: 0.375in;"
+                  text " "
+                  DIV (&93834764477216)
+                    attr style "margin-left: 0.375in;"
+                    text "Mindestens folgende Top-level-HTTP-Header MÜSSEN mit den angegebenen Werten unterstützt werden:"
+                  text " "
+                  DIV (&93834764477816)
+                    attr style "margin-left: 0.75in;"
+                    text "Content-Type: text/xml; charset="utf-8""
+                  text " "
+                  DIV (&93834764478416)
+                    attr style "margin-left: 0.75in;"
+                    text "Content-Length: entsprechend [RFC7230] zu setzen"
+                  text " "
+                  DIV (&93834764479016)
+                    attr style "margin-left: 0.75in;"
+                    text "Accept-Encoding: gzip, deflate"
+                  text " "
+                  DIV (&93834764479616)
+                    attr style "margin-left: 0.375in;"
+                    text "Der zu liefernde Content MUSS im POST Request Body geliefert werden."
+                text " "
+              text " "
+              TR (&93834764480336)
+                text " "
+                TD (&93834764480640)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Standardablauf"
+                  BR (&93834764481120)
+                text " "
+                TD (&93834764481424)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Der Content wird vom Client zur Schnittstelle Betriebsdatenerfassung übertragen."
+                  BR (&93834764481904)
+                  text "Bei erfolgreicher Übermittlung des Contents wird in der Response der HTTP-200-OK-Status zurückgegeben."
+                  BR (&93834764482208)
+                text " "
+              text " "
+              TR (&93834764482632)
+                text " "
+                TD (&93834764482936)
+                  attr style "vertical-align: top;width: 1.7034in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Fehlerfälle"
+                  BR (&93834764483416)
+                text " "
+                TD (&93834764483720)
+                  attr style "vertical-align: top;width: 7.4583in;border: 1pt solid #A3A3A3;border-top: 1pt solid #A3A3A3;border-bottom: 1pt solid #A3A3A3;border-right: 1pt solid #A3A3A3;border-left: 1pt solid #A3A3A3;padding: 4pt;"
+                  text "Bei allen Fehler-HTTP-Status-Codes wird kein Content abgelegt und der POST Request MUSS mit gleicher CI-ID wiederholbar sein."
+                  BR (&93834764484200)
+                  text "Im Fall von HTTP-Status-Code "400 Bad Request" enthält der HTTP Request einen Fehler."
+                  BR (&93834764484504)
+                  BR (&93834764484688)
+                text " "
+              text " "
+            text " "
+          BR (&93834764485232)
+          text "(Hinweis: Für weitere Informationen zum CI, siehe [gemRL_Betr_TI] Kapitel "Configuration Management".)"
+          B (&93834764485536)
+            text "[<=]"
+        text " "
+      text " "
+      H2 (&93834764486080)
+        attr id "4"
+        text "4 Anhang – Verzeichnisse"
+      text " "
+      H3 (&93834768027728)
+        attr id "4.1"
+        text "4.1 Abkürzungen"
+      text " "
+      TABLE (&93834768028328)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|padding=3px|uid=1"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834768029160)
+          text " "
+          TR (&93834768029464)
+            text " "
+            TH (&93834768029768)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 119.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768030128)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Kürzel"
+              BR (&93834768030608)
+              text " "
+            text " "
+            TH (&93834768031032)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 610.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768031392)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Erläuterung"
+              BR (&93834768031872)
+              text " "
+            text " "
+          text " "
+          TR (&93834768032416)
+            text " "
+            TD (&93834768032720)
+              attr style "text-align: left;vertical-align: top;width: 119.344px;height: 20.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768033080)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "DNS"
+              BR (&93834768033560)
+              text " "
+            text " "
+            TD (&93834768033984)
+              attr style "text-align: left;vertical-align: top;width: 610.344px;height: 20.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768034344)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Domain Name Service"
+              BR (&93834768034824)
+              text " "
+            text " "
+          text " "
+          TR (&93834768035368)
+            text " "
+            TD (&93834768035672)
+              attr style "text-align: left;vertical-align: top;width: 119.344px;height: 20.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768036032)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "TLS"
+              BR (&93834768036512)
+              text " "
+            text " "
+            TD (&93834768036936)
+              attr style "text-align: left;vertical-align: top;width: 610.344px;height: 20.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768037296)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Transport Layer Security"
+              BR (&93834768037776)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      H3 (&93834768038560)
+        attr id "4.2"
+        text "4.2 Glossar"
+      text " "
+      TABLE (&93834768039160)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|padding=3px|uid=2"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834768039992)
+          text " "
+          TR (&93834768040296)
+            text " "
+            TH (&93834768040600)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 194.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768040960)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Begriff"
+              BR (&93834768041440)
+              text " "
+            text " "
+            TH (&93834768041864)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 535.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768042224)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Erläuterung"
+              BR (&93834768042704)
+              text " "
+            text " "
+          text " "
+          TR (&93834768043248)
+            text " "
+            TD (&93834768043552)
+              attr style "text-align: left;vertical-align: top;width: 194.344px;height: 56.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768043912)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Funktionsmerkmal"
+              BR (&93834768044392)
+              text " "
+            text " "
+            TD (&93834768044816)
+              attr style "text-align: left;vertical-align: top;width: 535.344px;height: 56.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768045176)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Der Begriff beschreibt eine Funktion oder auch einzelne, eine logische Einheit bildende Teilfunktionen der TI im Rahmen der funktionalen Zerlegung des Systems."
+              BR (&93834768045656)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834768046440)
+        attr id "polarion_121"
+        text "Das Glossar wird als eigenständiges Dokument (vgl. [gemGlossar]) zur Verfügung gestellt."
+      text " "
+      H3 (&93834768047040)
+        attr id "4.3"
+        text "4.3 Abbildungsverzeichnis"
+      text " "
+      DIV (&93834768047640)
+        attr data-sequence "Abbildung"
+        attr id "polarion_wiki macro name=tof;params=uid=1"
+      text " "
+      DIV (&93834768048296)
+        attr id "toc_container"
+        text " "
+        P (&93834768048776)
+          attr class "toc_title"
+        H1 (&93834768049136)
+        P (&93834768049320)
+        text " "
+      text " "
+      H3 (&93834768049744)
+        attr id "4.4"
+        text "4.4 Tabellenverzeichnis"
+      text " "
+      DIV (&93834768050344)
+        attr data-sequence "Tabelle"
+        attr id "polarion_wiki macro name=tof;params=uid=2"
+      text " "
+      DIV (&93834768051000)
+        attr id "toc_container"
+        text " "
+        P (&93834768051480)
+          attr class "toc_title"
+        H1 (&93834768051840)
+        P (&93834768052024)
+        text " "
+        LI (&93834768052328)
+          A (&93834768052512)
+            attr href "#polarion___1"
+            text "Tabelle 1: Tab_I_OpsData_Update_002 Operation I_OpsData_Update::fileUpload"
+        text " "
+      text " "
+      H3 (&93834768053232)
+        attr id "4.5"
+        text "4.5 Referenzierte Dokumente"
+      text " "
+      H4 (&93834768053832)
+        attr id "4.5.1"
+        text "4.5.1 Dokumente der gematik"
+      text " "
+      P (&93834768054432)
+        attr id "polarion_122"
+        text "Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Der mit der vorliegenden Version korrelierende Entwicklungsstand dieser Konzepte und Spezifikationen wird pro Release in einer Dokumentenlandkarte definiert. Version und Stand der referenzierten Dokumente sind daher in der nachfolgenden Tabelle nicht aufgeführt. Deren zu diesem Dokument jeweils gültige Versionsnummer ist in der aktuellen, von der gematik veröffentlichten Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird."
+      text " "
+      P (&93834768055032)
+        attr id "polarion_123"
+      text " "
+      TABLE (&93834768055512)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|padding=3px|uid=3"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834768056344)
+          text " "
+          TR (&93834768056648)
+            text " "
+            TH (&93834768056952)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 164.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768057312)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[Quelle]"
+              BR (&93834768057792)
+              text " "
+            text " "
+            TH (&93834768058216)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 565.344px;height: 19.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834768058576)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Herausgeber: Titel"
+              BR (&93834768059056)
+              text " "
+            text " "
+          text " "
+          TR (&93834768059600)
+            text " "
+            TD (&93834768059904)
+              attr style "text-align: left;vertical-align: top;width: 164.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778251456)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemGlossar]"
+              BR (&93834778251936)
+              text " "
+            text " "
+            TD (&93834778252360)
+              attr style "text-align: left;vertical-align: top;width: 565.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778252720)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Glossar der Telematikinfrastruktur"
+              BR (&93834778253200)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834778253984)
+        attr id "polarion_125"
+      text " "
+      H4 (&93834778254464)
+        attr id "4.5.2"
+        text "4.5.2 Weitere Dokumente"
+      text " "
+      TABLE (&93834778255064)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|padding=3px|uid=4"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834778255896)
+          text " "
+          TR (&93834778256200)
+            text " "
+            TH (&93834778256504)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 134.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778256864)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[Quelle]"
+              BR (&93834778257344)
+              text " "
+            text " "
+            TH (&93834778257768)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 595.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778258128)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Herausgeber (Erscheinungsdatum): Titel"
+              BR (&93834778258608)
+              text " "
+            text " "
+          text " "
+          TR (&93834778259152)
+            text " "
+            TD (&93834778259456)
+              attr style "text-align: left;vertical-align: top;width: 134.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778259816)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[RFC7230]"
+              BR (&93834778260296)
+              text " "
+            text " "
+            TD (&93834778260720)
+              attr style "text-align: left;vertical-align: top;width: 595.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778261080)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
+              BR (&93834778261560)
+              text " "
+            text " "
+          text " "
+          TR (&93834778262104)
+            text " "
+            TD (&93834778262408)
+              attr style "text-align: left;vertical-align: top;width: 134.344px;height: 23.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778262768)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[RFC7231]"
+              BR (&93834778263248)
+              text " "
+            text " "
+            TD (&93834778263672)
+              attr style "text-align: left;vertical-align: top;width: 595.344px;height: 23.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778264032)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content"
+              BR (&93834778264512)
+              text " "
+            text " "
+          text " "
+          TR (&93834778265056)
+            text " "
+            TD (&93834778265360)
+              attr style "text-align: left;vertical-align: top;width: 134.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778265720)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[RFC7617]"
+              BR (&93834778266200)
+              text " "
+            text " "
+            TD (&93834778266624)
+              attr style "text-align: left;vertical-align: top;width: 595.344px;height: 18.3438px;border: 1px solid #CCCCCC;padding: 3px;"
+              SPAN (&93834778266984)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "The 'Basic' HTTP Authentication Scheme"
+              BR (&93834778267464)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834778268248)
+        attr id "polarion_127"
+      text " "
+
+
+   ====================
+   ATTRIBUTE STATISTICS
+   ====================
+
+   charset:: utf-8
+   class:: polarion-Document-table; polarion-dle-wiki-block; polarion-dle-wiki-block-source; polarion-rte-caption; polarion-rte-caption-paragraph; toc_title
+   contenteditable:: false
+   data-keep-next:: true
+   data-sequence:: Abbildung; Tabelle
+   style:background-color: #F0F0F0
+   style:border: 1pt solid #A3A3A3; 1px solid #CCCCCC
+   style:border-bottom: 1pt solid #A3A3A3; 1px solid #CCCCCC
+   style:border-collapse: collapse
+   style:border-left: 1pt solid #A3A3A3; 1px solid #CCCCCC
+   style:border-right: 1pt solid #A3A3A3; 1px solid #CCCCCC
+   style:border-top: 1pt solid #A3A3A3; 1px solid #CCCCCC
+   style:color: #000000; #197FA2; #1A1A1A
+   style:empty-cells: show
+   style:font-size: 10pt; 12pt; 28pt; 9pt
+   style:font-style: italic
+   style:font-weight: bold
+   style:height: 113.344px; 151.344px; 15px; 18.3438px; 19.3438px; 20.3438px; 23.3438px; 318.344px; 56.3438px
+   style:line-height: 1.2; 1.5
+   style:margin-left: 0.375in; 0.75in; auto
+   style:margin-right: auto
+   style:padding: 3px; 4pt
+   style:text-align: center; left
+   style:text-decoration: underline
+   style:vertical-align: top
+   style:width: 1.7034in; 1.7229in; 100%; 105px; 119.344px; 134.344px; 157.344px; 164.344px; 194.344px; 386px; 535.344px; 565.344px; 572.344px; 595.344px; 60px; 610.344px; 7.4388in; 7.4583in; 7.4944in; 7.5277in; 71px; 96px
+   target:: _top
+
+
+   ================
+   CHILD STATISTICS
+   ================
+
+   A
+    _TEXT: 26 (&93834775859848)
+   B
+    _TEXT: 16 (&93834776798560)
+   BODY
+    DIV: 15 (&93834768417048)
+    H1: 2 (&93834768428032)
+    H2: 4 (&93834775879976)
+    H3: 15 (&93834775880576)
+    H4: 2 (&93834768053832)
+    P: 41 (&93834768401368)
+    TABLE: 5 (&93834772276904)
+    UL: 1 (&93834771038512)
+   DIV
+    A: 2 (&93834764441096)
+    B: 2 (&93834771037184)
+    DIV: 1 (&93834768417704)
+    H1: 3 (&93834775858816)
+    LI: 24 (&93834775859304)
+    P: 25 (&93834775858456)
+    PRE: 1 (&93834768418360)
+    TABLE: 1 (&93834770984520)
+    UL: 1 (&93834771041232)
+    _TEXT: 19 (&93834764440976)
+   H1
+    _TEXT: 2 (&93834768428392)
+   H2
+    _TEXT: 4 (&93834775880336)
+   H3
+    _TEXT: 15 (&93834776779152)
+   H4
+    _TEXT: 2 (&93834768054192)
+   HEAD
+    META: 1 (&93834768400464)
+    STYLE: 1 (&93834768400032)
+   HTML
+    BODY: 1 (&93834768401064)
+    HEAD: 1 (&93834768399728)
+   LI
+    A: 24 (&93834775859488)
+    BR: 9 (&93834771014568)
+    SPAN: 14 (&93834771012888)
+    _TEXT: 30 (&93834775861056)
+   OL
+   P
+    B: 14 (&93834776798376)
+    BR: 44 (&93834768401848)
+    SPAN: 18 (&93834768406368)
+    TABLE: 2 (&93834764422024)
+    _TEXT: 40 (&93834768430192)
+   PRE
+    TABLE: 1 (&93834768419192)
+   SPAN
+    BR: 7 (&93834772279160)
+    SPAN: 4 (&93834770993968)
+    _TEXT: 108 (&93834768406728)
+   STYLE
+    _TEXT: 1 (&93834768400224)
+   TABLE
+    TBODY: 9 (&93834768419496)
+   TBODY
+    TR: 58 (&93834768419680)
+   TD
+    BR: 87 (&93834770989752)
+    DIV: 18 (&93834764440616)
+    SPAN: 65 (&93834772285424)
+    UL: 1 (&93834771012400)
+    _TEXT: 64 (&93834768420168)
+   TH
+    BR: 10 (&93834770986800)
+    SPAN: 15 (&93834772278680)
+   THEAD
+   TR
+    TD: 125 (&93834768419984)
+    TH: 15 (&93834772278320)
+   UL
+    LI: 11 (&93834771012704)
+    UL: 2 (&93834771014992)
+   _DOCUMENT
+    HTML: 1 (&93834768399544)
+
+   --> consistency checked.
+
+
+   ===============
+   NODE STATISTICS
+   ===============
+
+   P       title nodes:       0
+   DIV     toc nodes:         3
+   TR      meta data nodes:   6
+   H1..H6  header nodes:      23
+   DIV/TR  requirement nodes: 0
+   IMG     image nodes:       0
+   TABLE   table nodes:       1
+
+

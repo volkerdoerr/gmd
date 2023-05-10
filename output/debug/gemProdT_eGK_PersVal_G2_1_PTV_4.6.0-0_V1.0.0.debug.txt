@@ -1,0 +1,152 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Produkttyp Status: freigegeben
+Produkttyp Version: 4.6.0-0
+Referenzierung: gemProdT_eGK_PersVal_G2_1_PTV_4.6.0-0
+Revision: 548770
+Stand: 14.02.2022
+Status: freigegeben
+Version: 1.0.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Historie]:              #historie-produkttypversion-und-produkttypsteckbrief
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einführung
+[1.1]:                   #11-zielsetzung-und-einordnung-des-dokumentes
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokumentes
+[1.5]:                   #15-methodik
+[2]:                     #2-dokumente
+[3]:                     #3-normative-festlegungen
+[3.1]:                   #31-festlegungen-zur-funktionalen-eignung-personalisierungsvalidierung
+[4]:                     #4-produkttypspezifische-merkmale
+[4.1]:                   #41-angaben-zu-efversion
+[4.2]:                   #42-angaben-zu-efversion2
+[4.3]:                   #43-produktspezifische-merkmale
+[4.3.1]:                 #431-optionale-ausprägungen
+[5]:                     #5-anhang-a-–-verzeichnisse
+[5.1]:                   #51-abkürzungen
+[5.2]:                   #52-tabellenverzeichnis
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+no images found
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775876280)
+[Tbl-002]:               #Tbl-002 (&93834801500624)
+[Tabelle-1]:             #Tabelle-1 (&93834765159704)
+[Tabelle-2]:             #Tabelle-2 (&93834799782968)
+[Tabelle-3]:             #Tabelle-3 (&93834775034200)
+[Tabelle-4]:             #Tabelle-4 (&93834810834520)
+[Tbl-007]:               #Tbl-007 (&93834781708184)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[gemSpec_CAN_TI]:        ../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html (&93834765164336)
+[gemKPT_Test]:           ../gemKPT_Test/gemKPT_Test_V2.8.5.html (&93834765166920)
+[gemSpec_PINPUK_TI]:     ../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html (&93834765169504)
+[gemSpec_DS_Anbieter]:   ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html (&93834765172088)
+[gemSpec_eGK_Opt]:       ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html (&93834765174672)
+[gemSpec_eGK_ObjSys_G2_1]: ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html (&93834799759200)
+[gemSpec_Karten_Fach_TIP_G2_1]: ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html (&93834799761784)
+[gemSpec_CVC_TSP]:       ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html (&93834799764368)
+[gemSpec_OM]:            ../gemSpec_OM/gemSpec_OM_V1.14.0.html (&93834799766952)
+[gemSpec_Krypt]:         ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html (&93834799769536)
+[gemSpec_PKI]:           ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html (&93834799772120)
+[gemRL_TSL_SP_CP]:       ../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html (&93834799774704)
+[gemSpec_eGK_Fach_VSDM]: ../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html (&93834799777288)
+[GS-A_5020]:             ../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_5020 (&93834775038832)
+[TIP1-A_2578]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2578 (&93834775041416)
+[TIP1-A_2589]:           ../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2589 (&93834799905768)
+[Card-G2-A_3479]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3479 (&93834799908352)
+[Card-G2-A_3481]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3481 (&93834799910936)
+[Card-G2-A_3487]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3487 (&93834799913520)
+[Card-G2-A_3492]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3492 (&93834799916104)
+[Card-G2-A_3494]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3494 (&93834799918688)
+[Card-G2-A_3495]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3495 (&93834799921272)
+[Card-G2-A_3496]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3496 (&93834799923856)
+[Card-G2-A_3497]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3497 (&93834799926440)
+[Card-G2-A_3498]:        ../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3498 (&93834799929024)
+[GS-A_4379]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4379 (&93834799931608)
+[GS-A_3695]:             ../gemSpec_OM/gemSpec_OM_V1.14.0.html#GS-A_3695 (&93834799934192)
+[GS-A_4559]:             ../gemSpec_OM/gemSpec_OM_V1.14.0.html#GS-A_4559 (&93834799936776)
+[GS-A_4560]:             ../gemSpec_OM/gemSpec_OM_V1.14.0.html#GS-A_4560 (&93834799831304)
+[GS-A_5026]:             ../gemSpec_OM/gemSpec_OM_V1.14.0.html#GS-A_5026 (&93834799833888)
+[GS-A_4620]:             ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4620 (&93834799836472)
+[GS-A_4714-01]:          ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4714-01 (&93834799839056)
+[GS-A_4715-01]:          ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4715-01 (&93834799841640)
+[GS-A_4974]:             ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4974 (&93834799844224)
+[VSDM-A_2973]:           ../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html#VSDM-A_2973 (&93834799846808)
+[VSDM-A_2974]:           ../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html#VSDM-A_2974 (&93834799849392)
+[VSDM-A_2975]:           ../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html#VSDM-A_2975 (&93834799851976)
+[VSDM-A_2976]:           ../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html#VSDM-A_2976 (&93834799854560)
+[Card-G2-A_2342-01]:     ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2342-01 (&93834799857144)
+[Card-G2-A_2343]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2343 (&93834799859728)
+[Card-G2-A_2363]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2363 (&93834799862312)
+[Card-G2-A_2370-01]:     ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2370-01 (&93834801611216)
+[Card-G2-A_2863]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2863 (&93834801613800)
+[Card-G2-A_2985]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2985 (&93834801616384)
+[Card-G2-A_3207]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3207 (&93834801618968)
+[Card-G2-A_3208]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3208 (&93834801621552)
+[Card-G2-A_3217-01]:     ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3217-01 (&93834801624136)
+[Card-G2-A_3219]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3219 (&93834801626720)
+[Card-G2-A_3229]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3229 (&93834801629304)
+[Card-G2-A_3243]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3243 (&93834801631888)
+[Card-G2-A_3391]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3391 (&93834801634472)
+[Card-G2-A_3604]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3604 (&93834801637056)
+[Card-G2-A_3608]:        ../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3608 (&93834801639640)
+[A_15207]:               ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_15207 (&93834810784992)
+[A_18364]:               ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18364 (&93834810787576)
+[A_18365]:               ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18365 (&93834810790160)
+[A_18366]:               ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18366 (&93834810792744)
+[A_18367]:               ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18367 (&93834810795328)
+[A_18368]:               ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18368 (&93834810797912)
+[A_18657]:               ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18657 (&93834810800496)
+[Card-G2-A_2237]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2237 (&93834810803080)
+[Card-G2-A_2238]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2238 (&93834810805664)
+[Card-G2-A_2241]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2241 (&93834810808248)
+[Card-G2-A_2242]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2242 (&93834810810832)
+[Card-G2-A_2249]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2249 (&93834810813416)
+[Card-G2-A_2277]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2277 (&93834810816000)
+[Card-G2-A_2278]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2278 (&93834810818680)
+[Card-G2-A_2279]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2279 (&93834810821264)
+[Card-G2-A_2285]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2285 (&93834810823848)
+[Card-G2-A_2296]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2296 (&93834810826432)
+[Card-G2-A_2883]:        ../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2883 (&93834810829016)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

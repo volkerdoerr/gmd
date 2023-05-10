@@ -1,0 +1,506 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Übergreifende Spezifikation<br>Spezifikation PKI
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_PKI
+Revision: 548770
+Stand: 19.02.2021
+Status: zur Abstimmung freigegeben
+Version: 2.10.2
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[1.5.1]:                 #151-hinweis-auf-offene-punkte
+[2]:                     #2-notation-kryptographischer-objekte
+[2.1]:                   #21-basis-bezeichner
+[2.2]:                   #22-optionale-bezeichnung-der-technischen-ausprägung
+[2.3]:                   #23-optionales-unterscheidungsmerkmal-bei-gleicher-technischer-ausprägung
+[2.4]:                   #24-allgemeine-notationsvorschrift
+[2.5]:                   #25-type-objekttyp
+[2.6]:                   #26-holder-objektbesitzer
+[2.7]:                   #27-usage-objektverwendung
+[2.8]:                   #28-n-lfd-nummer
+[2.9]:                   #29-instance-ausprägung
+[2.10]:                  #210-beispiele-zur-umsetzung
+[2.10.1]:                #2101-beispiele-für-asymmetrische-objekte
+[2.10.2]:                #2102-beispiele-für-symmetrische-objekte
+[3]:                     #3-ca-strukturen
+[3.1]:                   #31-übergreifende-festlegung-für-ca-der-ti
+[3.1.1]:                 #311-übersicht-der-identitätenzertifikate
+[3.1.2]:                 #312-laufzeiten-der-ca
+[3.1.3]:                 #313-unterstützung-verschiedener-schlüsselgenerationen
+[3.2]:                   #32-ti-betriebsumgebungen
+[3.2.1]:                 #321-pki-sicht-auf-die-produktivumgebung
+[3.2.2]:                 #322-pki-sicht-auf-test--u-referenzumgebung-pki-tere
+[3.2.3]:                 #323-pseudo-qes-pki-in-test--u-referenzumgebung
+[3.3]:                   #33-zentrale-aussteller-cas-in-der-ti-für-nonqes-zertifikate
+[3.4]:                   #34-spezifische-aussteller-ca-in-der-ti
+[4]:                     #4-kodierung-von-x509-identitäten
+[4.1]:                   #41-namensregeln-und--formate
+[4.1.1]:                 #411-verarbeitung-von-sonderzeichen
+[4.1.2]:                 #412-definition-der-subject-dns-für-personen-und-komponenten
+[4.1.3]:                 #413-subjectdn-von-ca-zertifikaten-und-von-ocsp-responder-zertifikaten
+[4.2]:                   #42-schlüssel-der-versichertenidentität-egk
+[4.3]:                   #43-pseudonym-der-versichertenidentität-egk
+[4.3.1]:                 #431-versicherten-pseudonym-in-x509-zertifikaten-der-egk
+[4.3.2]:                 #432-eindeutigkeit-des-pseudonym
+[4.3.3]:                 #433-pseudonym-erstellungsregel
+[4.3.4]:                 #434-hs-zw-–-herausgeberspezifischer-zufallswert-hs-zw
+[4.3.5]:                 #435-kodierung-des-pseudonyms
+[4.4]:                   #44-berufsgruppen-id-der-leistungserbringer
+[4.4.1]:                 #441-berufsgruppe-des-heilberuflers
+[4.5]:                   #45-id-der-organisationeinrichtung-des-gesundheitswesens
+[4.5.1]:                 #451-typ-und-exemplar-der-organisationeinrichtung-des-gesundheitswesens
+[4.6]:                   #46-technische-rolle-von-komponenten-und-diensten
+[4.6.1]:                 #461-technische-rolle-im-komponentenzertifikat
+[4.7]:                   #47-telematik-id
+[4.7.1]:                 #471-abbildung-der-telematik-id-im-x509-zertifikat
+[4.7.2]:                 #472-aufbau-der-telematik-id
+[4.7.2.1]:               #4721-sektoraler-präfix
+[4.7.2.2]:               #4722-separator
+[4.7.2.3]:               #4723-fortsatz-der-telematik-id
+[4.8]:                   #48-kodierung-der-zertifikate
+[4.8.1]:                 #481-kodierung-der-attribute
+[4.8.2]:                 #482-stringlänge-der-attribute
+[4.8.3]:                 #483-struktur
+[4.8.3.1]:               #4831-serialnumber
+[4.8.3.2]:               #4832-admission
+[4.8.3.3]:               #4833-certificatepolicies
+[4.8.3.4]:               #4834-crldistributionpoints
+[4.8.3.5]:               #4835-subjectaltnames
+[4.9]:                   #49-erläuterungen-zu-zertifikatsprofilen
+[4.9.1]:                 #491-allgemeine-erläuterungen
+[4.9.2]:                 #492-berufs-rollenattribute-und-sperrbarkeit
+[4.9.3]:                 #493-benennung-der-zertifikatsprofile
+[4.9.4]:                 #494-distinguished-name
+[4.10]:                  #410-kodierung-der-betriebsumgebungen-in-zertifikaten
+[4.11]:                  #411-kartenverlust-und-deaktivierung-von-chipkarten
+[5]:                     #5-x509-zertifikate
+[5.1]:                   #51-egk-–-versichertenkarte
+[5.1.1]:                 #511-definition-der-versichertenidentität
+[5.1.2]:                 #512-belegung-der-felder-im-subjectdn
+[5.1.3]:                 #513-x509-zertifikatsprofile-der-egk
+[5.1.3.1]:               #5131-cchaut-und-cchaut_alt-–-authentisierung-egk
+[5.1.3.2]:               #5132-cchenc-–-verschlüsselung-egk
+[5.1.3.3]:               #5133-cchqes-–-qualifizierte-signatur-egk-optional
+[5.1.3.4]:               #5134-cchautn---technische-authentisierung-egk
+[5.1.3.5]:               #5135-cchencv---technische-verschlüsselung-egk
+[5.2]:                   #52-hba-–-heilberufsausweis
+[5.2.1]:                 #521-x509-zertifikatsprofile-des-hba
+[5.2.1.1]:               #5211-chpaut-–-authentisierung-hba
+[5.2.1.2]:               #5212-chpenc-–-verschlüsselung-hba
+[5.2.1.3]:               #5213-chpqes-–-qualifizierte-signatur-hba
+[5.3]:                   #53-smc-b-–-ausweis-einer-organisationeinrichtung-des-gesundheitswesens
+[5.3.1]:                 #531-definition-der-organisationsidentität
+[5.3.2]:                 #532-aufbau-anschriftzone-nach-din5008
+[5.3.3]:                 #533-umgang-mit-überlangen-attributen-im-subjectdn
+[5.3.4]:                 #534-x509-zertifikatsprofile-der-smc-b
+[5.3.4.1]:               #5341-chciaut-–-authentisierung-smc--b
+[5.3.4.2]:               #5342-chcienc-–-verschlüsselung-smc-b
+[5.3.4.3]:               #5343-chciosig-–-signatur-smc-b
+[5.4]:                   #54-hsm-b-–-ausweis-einer-organisationeinrichtung-des-gesundheitswesens
+[5.5]:                   #55-gsmc-kt-–-ehealth-kartenterminal
+[5.5.1]:                 #551-definition-der-kartenterminalidentität
+[5.5.2]:                 #552-x509-zertifikatsprofile-der-gsmc-kt
+[5.5.2.1]:               #5521-csmktaut-–-identität-der-gsmc-kt
+[5.6]:                   #56-gsmc-k-–-konnektor
+[5.6.1]:                 #561-definition-und-zuweisung-der-konnektoridentität
+[5.6.2]:                 #562-aufbau-des-subjectdn
+[5.6.3]:                 #563-statusprüfung-von-konnektorzertifikaten
+[5.6.4]:                 #564-x509-zertifikatsprofile-des-konnektors
+[5.6.4.1]:               #5641-cnkvpn-–-vpn-authentisierung-netzkonnektor
+[5.6.4.2]:               #5642-cakaut---authentisierung-anwendungskonnektor
+[5.6.4.3]:               #5643-csakaut---authentisierung-signaturdienst
+[5.7]:                   #57-vpn-zugangsdienst
+[5.7.1]:                 #571-definition-und-zuweisung-der-zugangsdienstidentitäten
+[5.7.2]:                 #572-aufbau-des-subjectdn
+[5.7.3]:                 #573-x509-zertifikatsprofile-des-zugangsdienstes
+[5.7.3.1]:               #5731-cvpnkvpn---vpn-authentisierung-zugangsdienst-ti
+[5.7.3.2]:               #5732-cvpnkvpn-sis---vpn-authentisierung-zugangsdienst-sicherer-internetzugang
+[5.8]:                   #58-zd-–-zentrale-dienste
+[5.8.1]:                 #581-definition-der-identität-der-zentralen-dienste
+[5.8.2]:                 #582-aufbau-des-subjectdn
+[5.8.3]:                 #583-x509-zertifikatsprofile-der-zentralen-dienste
+[5.8.3.1]:               #5831-czdtls-s-server-authentisierung-ehemals-csfssl-s
+[5.9]:                   #59-fd-–-fachanwendungsspezifische-dienste
+[5.9.1]:                 #591-definition-der-identität-der-fachanwendungsspezifischen-dienste
+[5.9.2]:                 #592-aufbau-des-subjectdn
+[5.9.3]:                 #593-x509-zertifikatsprofile-der-fachanwendungsspezifischen-dienste
+[5.9.3.1]:               #5931-cfdtls-c-client-authentisierung-ehemals-csfssl-c
+[5.9.3.2]:               #5932-cfdtls-s-server-authentisierung-ehemals-csfssl-s
+[5.9.3.3]:               #5933-cfdsig-signatur-fachdienst
+[5.9.3.4]:               #5934-cfdaut-authentisierung-fachdienst
+[5.9.3.5]:               #5935-cfdenc-verschlüsselung-fachdienst
+[5.10]:                  #510-cm-–-clientmodul
+[5.10.1]:                #5101-definition-der-identität-eines-clientmoduls
+[5.10.2]:                #5102-aufbau-des-subjectdn
+[5.10.3]:                #5103-x509-zertifikatsprofil-des-clientmoduls
+[5.10.3.1]:              #51031-ccmtls-cs-clientmodul-authentisierung
+[5.11]:                  #511-sgd-hsm-–-schlüsselgenerierungsdienst-hsm
+[5.11.1]:                #5111-beschreibung-der-identität
+[5.11.2]:                #5112-x509-zertifikatsprofil-der-sgd-hsm
+[5.12]:                  #512-ca---zertifikatsprofile
+[5.12.1]:                #5121-gemrca<n>---zentrale-root-ca_nonqes
+[5.12.2]:                #5122-<tsp><usage>-ca<n>---aussteller-ca_nonqes
+[5.12.3]:                #5123-<tsp>hba-qca<n>---aussteller-ca_qes
+[5.13]:                  #513-ocsp-–-statusauskunftsdienst
+[5.13.1]:                #5131-definition-der-ocsp-signer-identität
+[5.13.2]:                #5132-aufbau-des-subjectdn
+[5.13.3]:                #5133-x509-profil-des-ocsp-signer-zertifikates
+[5.13.3.1]:              #51331-cgemocsp-ocsp-signer-zertifikat
+[5.14]:                  #514-crl-–-statusauskunftsdienst
+[5.14.1]:                #5141-definition-der-crl-signer-identität
+[5.14.2]:                #5142-aufbau-des-subjectdn
+[5.14.3]:                #5143-x509-profil-des-crl-signer-zertifikates
+[5.14.3.1]:              #51431-cgemcrl-crl-signaturzertifikat
+[5.15]:                  #515-tsl---zertifikatsprofile
+[5.15.1]:                #5151-definition-der-tsl-signer-identität
+[5.15.2]:                #5152-aufbau-des-subjectdn
+[5.15.3]:                #5153-x509-zertifikatsprofil-der-tsl-signer-ca
+[5.15.4]:                #5154-tsl-signer--zertifikat
+[5.15.5]:                #5155-tsl-ocsp-responder-zertifikat
+[6]:                     #6-cv-zertifikate
+[6.1]:                   #61-festlegungen-zur-abgrenzung
+[6.2]:                   #62-namensregeln-und--formate
+[6.3]:                   #63-rollen-und-profile
+[6.3.1]:                 #631-rollenauthentisierung
+[6.3.2]:                 #632-authentisierung-einer-funktionseinheit
+[6.4]:                   #64-cv-zertifikatsprofile-der-generation-2
+[6.4.1]:                 #641-berechtigung-einer-cvc-ca-zur-zertifikatserstellung
+[6.4.2]:                 #642-aufbau-und-bestandteile-der-cv-zertifikate-der-generation-2
+[6.4.3]:                 #643-zertifikatsprofil-eines-cv-zertifikates-für-elc-schlüssel
+[6.4.3.1]:               #6431-certificate-profile-identifier-cpi
+[6.4.3.2]:               #6432-certification-authority-reference-car
+[6.4.3.3]:               #6433-öffentlicher-schlüssel
+[6.4.3.4]:               #6434-certificate-holder-reference-chr
+[6.4.3.5]:               #6435-certificate-holder-authorization-template-chat
+[6.4.3.6]:               #6436-certificate-effective-date-ced
+[6.4.3.7]:               #6437-certificate-expiration-date-cxd
+[6.4.3.8]:               #6438-zu-signierende-nachricht-m-eines-cv-zertifikates-der-generation-2
+[6.4.4]:                 #644-struktur-und-inhalt-eines-cv-zertifikates-für-elc-schlüssel-der-generation-2
+[6.4.5]:                 #645-struktur-und-inhalt-eines-cv-zertifikates-für-elc-schlüssel-der-generation-2
+[6.4.5.1]:               #6451-struktur-und-inhalt-von-ca-cv-zertifikaten-für-elc-schlüssel
+[6.4.5.2]:               #6452-struktur-und-inhalt-von-cross-cv-zertifikaten-für-elc-schlüssel
+[6.4.5.3]:               #6453-struktur-und-inhalt-von-endnutzer-cv-zertifikaten-für-elc-schlüssel
+[6.4.6]:                 #646-flagliste-mit-berechtigungen-in-cv-zertifikaten-für-elc-schlüssel
+[7]:                     #7-festlegung-von-oids
+[8]:                     #8-prüfung-von-zertifikaten
+[8.1]:                   #81-vertrauensraum-der-ti
+[8.1.1]:                 #811-tsl-im-kontext-der-ecc-migration
+[8.1.2]:                 #812-initialisierung-ti-vertrauensraum
+[8.1.2.1]:               #8121-tuc_pki_001-periodische-aktualisierung-ti-vertrauensraum
+[8.1.3]:                 #813-geplanter-wechsel-ti-vertrauensanker
+[8.1.3.1]:               #8131-tuc_pki_013-import-ti-vertrauensanker-aus-tsl
+[8.1.3.2]:               #8132-tsl-einträge-für-die-bereitstellung-neuer-ti-vertrauensanker
+[8.1.3.3]:               #8133-prüfung-der-tsl-nach-wechsel-des-ti-vertrauensanker
+[8.1.4]:                 #814-ungeplanter-wechsel-des-ti-vertrauensanker
+[8.2]:                   #82-tsl-prüfung
+[8.2.1]:                 #821-erreichbarkeit-und-download-der-tsl
+[8.2.1.1]:               #8211-tuc_pki_017-lokalisierung-tsl-download-adressen
+[8.2.1.2]:               #8212-tuc_pki_016-download-der-tsl-datei
+[8.2.2]:                 #822-vertrauensstatus-und-authentifizieren-der-tsl
+[8.2.2.1]:               #8221-tuc_pki_019-prüfung-der-aktualität-der-tsl
+[8.2.2.2]:               #8222-tuc_pki_020-xml-dokument-validieren
+[8.2.2.3]:               #8223-tuc_pki_011-prüfung-des-tsl-signer-zertifikates
+[8.2.2.4]:               #8224-tuc_pki_012-xml-signatur-prüfung
+[8.2.3]:                 #823-tsl-sicherheitsaspekte
+[8.2.4]:                 #824-tsl-zeitparameter
+[8.2.5]:                 #825-servicetypeidentifier-unspecified
+[8.3]:                   #83-zertifikatsprüfung-x509-nonqes
+[8.3.1]:                 #831-zertifikatsprüfung-in-der-ti
+[8.3.1.1]:               #8311-tuc_pki_018-zertifikatsprüfung-in-der-ti
+[8.3.1.2]:               #8312-tuc_pki_002-gültigkeitsprüfung-des-zertifikats
+[8.3.1.3]:               #8313-tuc_pki_003-ca-zertifikat-in-tsl-informationen-finden
+[8.3.1.4]:               #8314-tuc_pki_004-mathematische-prüfung-der-zertifikatssignatur
+[8.3.2]:                 #832-statusprüfung
+[8.3.2.1]:               #8321-tuc_pki_005-adresse-für-status--und-sperrprüfung-ermitteln
+[8.3.2.2]:               #8322-tuc_pki_006-ocsp-abfrage
+[8.3.2.3]:               #8323-tuc_pki_021-crl-prüfung
+[8.3.2.4]:               #8324-szenarien-für-offline-und-timeout-von-ocsp
+[8.3.2.5]:               #8325-statusprüfung-von-egk-zertifikaten
+[8.3.3]:                 #833-ermittlung-von-autorisierungsinformationen
+[8.3.3.1]:               #8331-bestätigte-zertifikatsinformationen
+[8.3.3.2]:               #8332-tuc_pki_009-rollenermittlung
+[8.3.3.3]:               #8333-tuc_pki_007-prüfung-zertifikatstyp
+[8.3.4]:                 #834-weitere-prüfungen
+[8.3.4.1]:               #8341-umgang-mit-kritischen-extensions
+[8.4]:                   #84-überprüfung-der-zertifikate-auf-netzwerk--und-transportebene
+[8.4.1]:                 #841-tls-verbindungsaufbau
+[8.4.2]:                 #842-ipsec-verbindungsaufbau
+[8.5]:                   #85-zertifikatsprüfung-x509-qes
+[8.5.1]:                 #851-tuc_pki_030-qes-zertifikatsprüfung
+[8.5.2]:                 #852-tuc_pki_036-bnetza-vl-aktualisierung
+[8.6]:                   #86-fehlercodes-bei-tsl--und-zertifikatsprüfung-x509
+[8.7]:                   #87-zertifikatsprüfung-cv-zertifikate-der-2-generation
+[9]:                     #9-ocsp-statusinformation
+[9.1]:                   #91-statusprüfung
+[9.1.1]:                 #911-schnittstelle-i_ocsp_status_information
+[9.1.1.1]:               #9111-schnittstellendefinition
+[9.1.1.1.1]:             #91111-ocsp-request
+[9.1.1.1.2]:             #91112-ocsp-response
+[9.1.1.2]:               #9112-umsetzung
+[9.1.1.3]:               #9113-nutzung
+[9.1.2]:                 #912-artefakte
+[9.1.2.1]:               #9121-ocsp-response-–-response-status
+[9.1.2.2]:               #9122-ocsp-response---zeiten
+[9.1.2.3]:               #9123-ocsp-response---certstatus
+[9.1.2.4]:               #9124-ocsp-response---certid
+[9.1.2.5]:               #9125-ocsp-response-–-sperrzeitpunkt-und-sperrgrund
+[9.1.2.6]:               #9126-ocsp-response-–-certhash
+[9.1.2.7]:               #9127-ocsp-response-–-responder-zertifikate
+[9.1.3]:                 #913-testunterstützung
+[9.1.4]:                 #914-hardwaremerkmale
+[10]:                    #10-anhang-a-–-sektorspezifische-ausprägungen-der-smc-b-zertifikate
+[10.1]:                  #101-kzbv
+[10.2]:                  #102-kbv
+[10.3]:                  #103-dkg
+[10.4]:                  #104-gkv-spitzenverband
+[10.5]:                  #105-apothekerschaft
+[10.6]:                  #106-smc-b-org
+[10.7]:                  #107-weitere-leistungserbringerinsitutionen
+[10.8]:                  #108-weitere-ärztliche-institutionen
+[11]:                    #11-anhang-b-–-verzeichnisse
+[11.1]:                  #111-abkürzungen
+[11.2]:                  #112-glossar
+[11.3]:                  #113-abbildungsverzeichnis
+[11.4]:                  #114-tabellenverzeichnis
+[11.5]:                  #115-referenzierte-dokumente
+[11.5.1]:                #1151-dokumente-der-gematik
+[11.5.2]:                #1152-weitere-dokumente
+[12]:                    #12-anhang-c-–-sektorspezifische-ausprägungen-der-hba-zertifikate
+[12.1]:                  #121-bäk
+[12.2]:                  #122-bzäk
+[12.3]:                  #123-bptk
+[12.4]:                  #124-apothekerschaft
+[12.5]:                  #125-weitere-leistungserbringer
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Betriebsumgebungen aus Sicht der PKI                (&93834802317456) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAHtEAYAAAA2OC...
+[Abbildung-3]:           Pseudonym Kodierung in X.509-Versichertenzertifik.. (&93834811207384) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAP9EAYAAACicT...
+[Abbildung-4]:           Das Anschriftenfeld nach DIN5008                    (&93834810968280) data:image/wmf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIXEAYAAACz2Q...
+[Abbildung-5]:           Use Case Diagramm „Prozesse zur Nutzung des TI-Ve.. (&93834776831008) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAKjEAYAAAAygl...
+[Abbildung-6]:           Aufbau der TSL                                      (&93834776855624) data:image/jpg;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAIBAQIBAQ...
+[Abbildung-7]:           Aktivitätsdiagramm TUC_PKI_001 „Periodische Aktua.. (&93834776999064) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAO7EAYAAAB7cN...
+[Abbildung-8]:           Aktivitätsdiagramm TUC_PKI_013 „Import neuer TI-V.. (&93834809495104) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAO3EAYAAAAMsh...
+[Abbildung-9]:           Aktivitätsdiagramm TUC_PKI_017 „Lokalisierung Dow.. (&93834809677640) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJYEAYAAABN17...
+[Abbildung-10]:          Aktivitätsdiagramm TUC_PKI_016 „Download der TSL-.. (&93834809763624) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyMAAAO4CAIAAABOEL...
+[Abbildung-11]:          Aktivitätsdiagramm TUC_PKI_019 „Prüfung der Aktua.. (&93834785158920) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAQoEAYAAAAlJY...
+[Img-011]:                                                                   (&93834785281824) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAALVEAYAAADv+b...
+[Abbildung-13]:          Use Case Diagramm „Zertifikatsprüfung“              (&93834803983160) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJ4EAYAAABKe7...
+[Abbildung-14]:          Aktivitätsdiagramm TUC_PKI_018 „Zertifikatsprüfung“ (&93834804083144) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxIAAAQrCAIAAACXdA...
+[Abbildung-15]:          Aktivitätsdiagramm TUC_PKI_002 Gültigkeitsprüfung.. (&93834804147448) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAt4AAAKPCAIAAADVJF...
+[Abbildung-16]:          Aktivitätsdiagramm TUC_PKI_003 CA-Zertifikat in T.. (&93834782650728) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIJEAYAAACKBW...
+[Abbildung-17]:          Aktivitätsdiagramm TUC_PKI_004 Mathematische Prüf.. (&93834783190528) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAOMEAYAAABiD+...
+[Abbildung-18]:          Aktivitätsdiagramm TUC_PKI_005 „Adresse für Statu.. (&93834783249400) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAItEAYAAAAWOC...
+[Abbildung-19]:          Aktivitätsdiagramm TUC_PKI_006 „OCSP-Abfrage“       (&93834783357568) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAz8AAAUvCAIAAAAQMc...
+[Abbildung-20]:          Aktivitätsdiagramm TUC_PKI_021 „CRL-Prüfung“        (&93834770367952) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwAAAARwCAIAAADSZq...
+[Abbildung-21]:          Aktivitätsdiagramm TUC_PKI_009 „Rollenermittlung“   (&93834770633632) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAOJEAYAAAAywn...
+[Img-021]:                                                                   (&93834770711024) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqQAAASGCAIAAABwkC...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834811899072)
+[Tbl-002]:               #Tbl-002 (&93834810816152)
+[Tabelle-1]:             #Tabelle-1 (&93834810838112)
+[Tabelle-2]:             #Tabelle-2 (&93834810845976)
+[Tbl-005]:               #Tbl-005 (&93834772235000)
+[Tbl-006]:               #Tbl-006 (&93834772251640)
+[Tabelle-3]:             #Tabelle-3 (&93834772266072)
+[Tabelle-4]:             #Tabelle-4 (&93834801616072)
+[Tabelle-5]:             #Tabelle-5 (&93834801651456)
+[Tabelle-6]:             #Tabelle-6 (&93834781669336)
+[Tabelle-7]:             #Tabelle-7 (&93834801556240)
+[Tabelle-8]:             #Tabelle-8 (&93834810736776)
+[Tbl-013]:               #Tbl-013 (&93834783622208)
+[Tbl-014]:               #Tbl-014 (&93834811161600)
+[Tabelle-9]:             #Tabelle-9 (&93834768782920)
+[Tabelle-10]:            #Tabelle-10 (&93834768824024)
+[Tabelle-11]:            #Tabelle-11 (&93834783499896)
+[Tabelle-12]:            #Tabelle-12 (&93834799206696)
+[Tabelle-13]:            #Tabelle-13 (&93834799242016)
+[Tabelle-14]:            #Tabelle-14 (&93834776368896)
+[Tabelle-15]:            #Tabelle-15 (&93834802631320)
+[Tabelle-16]:            #Tabelle-16 (&93834800996176)
+[Tabelle-17]:            #Tabelle-17 (&93834777639224)
+[Tabelle-18]:            #Tabelle-18 (&93834781810232)
+[Tabelle-19]:            #Tabelle-19 (&93834776235856)
+[Tabelle-20]:            #Tabelle-20 (&93834771824704)
+[Tabelle-21]:            #Tabelle-21 (&93834781624480)
+[Tabelle-22]:            #Tabelle-22 (&93834783870208)
+[Tabelle-23]:            #Tabelle-23 (&93834775665680)
+[Tabelle-24]:            #Tabelle-24 (&93834765253872)
+[Tabelle-25]:            #Tabelle-25 (&93834799141432)
+[Tabelle-26]:            #Tabelle-26 (&93834799984904)
+[Tabelle-27]:            #Tabelle-27 (&93834795223488)
+[Tabelle-28]:            #Tabelle-28 (&93834802479192)
+[Tabelle-29]:            #Tabelle-29 (&93834764319528)
+[Tabelle-30]:            #Tabelle-30 (&93834810979744)
+[Tabelle-31]:            #Tabelle-31 (&93834781322224)
+[Tabelle-32]:            #Tabelle-32 (&93834811300008)
+[Tabelle-33]:            #Tabelle-33 (&93834775150032)
+[Tabelle-34]:            #Tabelle-34 (&93834775417512)
+[Tabelle-35]:            #Tabelle-35 (&93834775440952)
+[Tabelle-36]:            #Tabelle-36 (&93834768097248)
+[Tabelle-37]:            #Tabelle-37 (&93834768312272)
+[Tabelle-38]:            #Tabelle-38 (&93834785481656)
+[Tabelle-39]:            #Tabelle-39 (&93834771467976)
+[Tabelle-40]:            #Tabelle-40 (&93834771677504)
+[Tabelle-41]:            #Tabelle-41 (&93834775978776)
+[Tabelle-42]:            #Tabelle-42 (&93834776176648)
+[Tabelle-43]:            #Tabelle-43 (&93834804360464)
+[Tabelle-44]:            #Tabelle-44 (&93834778077784)
+[Tabelle-45]:            #Tabelle-45 (&93834764541280)
+[Tabelle-46]:            #Tabelle-46 (&93834764746104)
+[Tabelle-47]:            #Tabelle-47 (&93834764904832)
+[Tabelle-48]:            #Tabelle-48 (&93834767382040)
+[Tabelle-49]:            #Tabelle-49 (&93834767572024)
+[Tabelle-50]:            #Tabelle-50 (&93834801172424)
+[Tabelle-51]:            #Tabelle-51 (&93834801351848)
+[Tabelle-52]:            #Tabelle-52 (&93834768956208)
+[Tabelle-53]:            #Tabelle-53 (&93834769171448)
+[Tabelle-54]:            #Tabelle-54 (&93834799336136)
+[Tabelle-55]:            #Tabelle-55 (&93834777092888)
+[Tabelle-56]:            #Tabelle-56 (&93834777183576)
+[Tabelle-57]:            #Tabelle-57 (&93834777231592)
+[Tabelle-58]:            #Tabelle-58 (&93834777327168)
+[Tabelle-59]:            #Tabelle-59 (&93834777359272)
+[Tabelle-60]:            #Tabelle-60 (&93834777428072)
+[Tabelle-61]:            #Tabelle-61 (&93834777464448)
+[Tabelle-62]:            #Tabelle-62 (&93834777477960)
+[Tabelle-63]:            #Tabelle-63 (&93834777514568)
+[Tabelle-64]:            #Tabelle-64 (&93834777541200)
+[Tabelle-65]:            #Tabelle-65 (&93834798460336)
+[Tabelle-66]:            #Tabelle-66 (&93834798547128)
+[Tabelle-67]:            #Tabelle-67 (&93834798684248)
+[Tabelle-68]:            #Tabelle-68 (&93834798773192)
+[Tabelle-69]:            #Tabelle-69 (&93834798909336)
+[Tabelle-70]:            #Tabelle-70 (&93834802087752)
+[Tabelle-71]:            #Tabelle-71 (&93834802178760)
+[Tabelle-72]:            #Tabelle-72 (&93834776562888)
+[Tabelle-73]:            #Tabelle-73 (&93834776636496)
+[Tabelle-74]:            #Tabelle-74 (&93834776787360)
+[Tabelle-75]:            #Tabelle-75 (&93834776887728)
+[Tabelle-76]:            #Tabelle-76 (&93834776916648)
+[Tabelle-77]:            #Tabelle-77 (&93834777008960)
+[Tabelle-78]:            #Tabelle-78 (&93834809521032)
+[Tabelle-79]:            #Tabelle-79 (&93834809537328)
+[Tabelle-80]:            #Tabelle-80 (&93834809627152)
+[Tabelle-81]:            #Tabelle-81 (&93834809682232)
+[Tabelle-82]:            #Tabelle-82 (&93834809708304)
+[Tabelle-83]:            #Tabelle-83 (&93834785064544)
+[Tabelle-84]:            #Tabelle-84 (&93834785166528)
+[Tabelle-85]:            #Tabelle-85 (&93834785215680)
+[Tabelle-86]:            #Tabelle-86 (&93834785290264)
+[Tabelle-87]:            #Tabelle-87 (&93834785346424)
+[Tabelle-88]:            #Tabelle-88 (&93834803997096)
+[Tabelle-89]:            #Tabelle-89 (&93834804090568)
+[Tabelle-90]:            #Tabelle-90 (&93834804154336)
+[Tabelle-91]:            #Tabelle-91 (&93834782657792)
+[Tabelle-92]:            #Tabelle-92 (&93834783198824)
+[Tabelle-93]:            #Tabelle-93 (&93834783256464)
+[Tabelle-94]:            #Tabelle-94 (&93834783364640)
+[Tabelle-95]:            #Tabelle-95 (&93834770567568)
+[Tabelle-96]:            #Tabelle-96 (&93834770639912)
+[Tabelle-97]:            #Tabelle-97 (&93834770888776)
+[Tabelle-98]:            #Tabelle-98 (&93834770938616)
+[Tabelle-99]:            #Tabelle-99 (&93834792138336)
+[Tabelle-100]:           #Tabelle-100 (&93834792299512)
+[Tabelle-101]:           #Tabelle-101 (&93834793296624)
+[Tabelle-102]:           #Tabelle-102 (&93834793320456)
+[Tabelle-103]:           #Tabelle-103 (&93834793430424)
+[Tabelle-104]:           #Tabelle-104 (&93834793481432)
+[Tabelle-105]:           #Tabelle-105 (&93834793534976)
+[Tabelle-106]:           #Tabelle-106 (&93834793565872)
+[Tabelle-107]:           #Tabelle-107 (&93834793599384)
+[Tabelle-108]:           #Tabelle-108 (&93834793630472)
+[Tabelle-109]:           #Tabelle-109 (&93834793712944)
+[Tabelle-110]:           #Tabelle-110 (&93834772428680)
+[Tabelle-111]:           #Tabelle-111 (&93834772660016)
+[Tabelle-112]:           #Tabelle-112 (&93834772885352)
+[Tabelle-113]:           #Tabelle-113 (&93834772907416)
+[Tabelle-114]:           #Tabelle-114 (&93834773126448)
+[Tabelle-115]:           #Tabelle-115 (&93834773346120)
+[Tabelle-116]:           #Tabelle-116 (&93834773366448)
+[Tabelle-117]:           #Tabelle-117 (&93834773585840)
+[Tabelle-118]:           #Tabelle-118 (&93834773608392)
+[Tabelle-119]:           #Tabelle-119 (&93834773849104)
+[Tabelle-120]:           #Tabelle-120 (&93834774023736)
+[Tbl-127]:               #Tbl-127 (&93834774244568)
+[Tbl-128]:               #Tbl-128 (&93834774953208)
+[Tbl-129]:               #Tbl-129 (&93834778446704)
+[Tbl-130]:               #Tbl-130 (&93834778481040)
+[Tabelle-121]:           #Tabelle-121 (&93834778693264)
+[Tabelle-122]:           #Tabelle-122 (&93834778919416)
+[Tabelle-123]:           #Tabelle-123 (&93834779146072)
+[Tabelle-124]:           #Tabelle-124 (&93834779375576)
+[Tabelle-125]:           #Tabelle-125 (&93834779551304)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[RFC5280]:               http://tools.ietf.org/html/rfc3280 (&93834800968432)
+[RFC5280]:               http://tools.ietf.org/html/rfc3280 (&93834800973240)
+[http://uri.etsi.org/TrstSvc/Svcstatus/inaccord]: http://uri.etsi.org/TrstSvc/Svcstatus/inaccord (&93834776893256)
+[http://uri.etsi.org/TrstSvc/Svcstatus/revoked]: http://uri.etsi.org/TrstSvc/Svcstatus/revoked (&93834776901384)
+[http://uri.etsi.org/TrstSvc/Svcstatus/expired]: http://uri.etsi.org/TrstSvc/Svcstatus/expired (&93834776906376)
+[http://uri.etsi.org/TrstSvc/Svctype/unspecified]: http://uri.etsi.org/TrstSvc/Svctype/unspecified (&93834785364064)
+[http://uri.etsi.org/TrstSvc/Svctype/unspecified]: http://uri.etsi.org/TrstSvc/Svctype/unspecified (&93834785366528)
+[http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP]: http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP (&93834770980512)
+[http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC]: http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC (&93834770981288)
+[]:                      file:///C:/Work/Work/QES-PruefungPolicy/20200407_Entwurf_KorrekturRefrenzen_PKI.docx#_msocom_2 (&93834792115960)
+[<ServiceHistory>]:      file:///D:/Work/TSL/TSL-XML_ListIssueDateTime2019-11-21T14_20_00Z.xml (&93834792118800)
+[http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures]: http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures (&93834792119880)
+[https://www.sogis.eu/documents/cc/crypto/SOGIS-Agreed-Cryptographic-Mechanisms-1.1.pdf]: https://www.sogis.eu/documents/cc/crypto/SOGIS-Agreed-Cryptographic-Mechanisms-1.1.pdf (&93834778486584)
+[http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf]: http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf (&93834778591872)
+[http://tools.ietf.org/html/rfc2109]: http://tools.ietf.org/html/rfc2109 (&93834778614472)
+[http://tools.ietf.org/html/rfc3629]: http://tools.ietf.org/html/rfc3629 (&93834778619104)
+[http://tools.ietf.org/html/rfc3739]: http://tools.ietf.org/html/rfc3739 (&93834778623736)
+[http://tools.ietf.org/html/rfc4514]: http://tools.ietf.org/html/rfc4514 (&93834778628368)
+[http://tools.ietf.org/html/rfc5019]: http://tools.ietf.org/html/rfc5019 (&93834778633024)
+[http://tools.ietf.org/html/rfc5280]: http://tools.ietf.org/html/rfc5280 (&93834778637656)
+[https://tools.ietf.org/html/rfc6960]: https://tools.ietf.org/html/rfc6960 (&93834778642288)
+[https://tools.ietf.org/html/rfc3370]: https://tools.ietf.org/html/rfc3370 (&93834778646856)
+[http://www.itu.int/rec/T-REC-X.509/]: http://www.itu.int/rec/T-REC-X.509/ (&93834778659992)
+[http://www.itu.int/rec/T-REC-X.520/]: http://www.itu.int/rec/T-REC-X.520/ (&93834778665840)
+[http://www.w3.org/TR/REC-xml/]: http://www.w3.org/TR/REC-xml/ (&93834778676320)
+[http://www.w3.org/TR/xmldsig-core/]: http://www.w3.org/TR/xmldsig-core/ (&93834778684680)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

@@ -1,0 +1,3190 @@
+
+   =========================
+   LXB SERIALIZER DEBUG MODE
+   =========================
+
+
+DOCUMENT _DOCUMENT
+  HTML (&93834808890200)
+    HEAD (&93834808890384)
+      text " "
+      STYLE (&93834808890688)
+        text "#toc_container {    background: #f9f9f9 none repeat scroll 0 0;    border: 1px solid #aaa;    display: table;    font-size: 95%;    margin-bottom: 1em;    padding: 20px;    width: 100%;}.toc_title {    font-weight: 700;    text-align: center;}#toc_container li, #toc_container ul, #toc_container ul li{    list-style: outside none none !important;}body {  font-family: Arial, Helvetica, sans-serif;  font-size: 14px;}/* ol {  list-style-type: none;  Remove default numbering}ol > li:before {  counter-increment: mycounter;  content: counter(mycounter) ". ";}ol:first-of-type {  counter-reset: mycounter;} */"
+      text " "
+      META (&93834808891120)
+        attr charset "utf-8"
+      text " "
+    text " "
+    BODY (&93834808891720)
+      text " "
+      P (&93834808892024)
+        attr id "polarion_1"
+        text " "
+        BR (&93834808892504)
+        text " "
+      text " "
+      P (&93834808892928)
+        attr id "polarion_3"
+        text " "
+        BR (&93834808893408)
+        text " "
+      text " "
+      P (&93834808893832)
+        attr id "polarion_4"
+        text " "
+        BR (&93834808894312)
+        text " "
+      text " "
+      P (&93834808894736)
+        attr id "polarion_5"
+        text " "
+        SPAN (&93834808895216)
+          attr style "font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;"
+          text "Elektronische Gesundheitskarte und Telematikinfrastruktur"
+        text " "
+      text " "
+      P (&93834808895936)
+        attr id "polarion_6"
+        text " "
+        BR (&93834808896416)
+        text " "
+      text " "
+      P (&93834808896840)
+        attr id "polarion_8"
+        text " "
+        BR (&93834808897320)
+        text " "
+      text " "
+      P (&93834808897744)
+        attr id "polarion_9"
+        text " "
+        BR (&93834808898224)
+        text " "
+      text " "
+      P (&93834808898648)
+        attr id "polarion_10"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834808899304)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Spezifikation für Prüfkarten des Typs eGK"
+          BR (&93834808899784)
+          text " "
+        text " "
+      text " "
+      P (&93834808900328)
+        attr id "polarion_11"
+        text " "
+        BR (&93834808900808)
+        text " "
+      text " "
+      P (&93834808901232)
+        attr id "polarion_13"
+        text " "
+        BR (&93834808901712)
+        text " "
+      text " "
+      DIV (&93834808902136)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block1"
+        text " "
+        DIV (&93834808902792)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+        PRE (&93834808903448)
+          attr class "polarion-dle-wiki-block-source"
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_source"
+          text " "
+          TABLE (&93834808904280)
+            text " "
+            TBODY (&93834808904584)
+              TR (&93834808904768)
+                text " "
+                TD (&93834808905072)
+                  text "Version"
+                text " "
+                TD (&93834808905496)
+                  text "1.2.0"
+                text " "
+              text " "
+              TR (&93834808906040)
+                text " "
+                TD (&93834808906344)
+                  text "Revision"
+                text " "
+                TD (&93834808906768)
+                  text "548770"
+                text " "
+              text " "
+              TR (&93834808907312)
+                text " "
+                TD (&93834808907616)
+                  text "Stand"
+                text " "
+                TD (&93834808908040)
+                  text "26.10.2018"
+                text " "
+              text " "
+              TR (&93834808908584)
+                text " "
+                TD (&93834808908888)
+                  text "Status"
+                text " "
+                TD (&93834808909312)
+                  text "freigegeben"
+                text " "
+              text " "
+              TR (&93834808909856)
+                text " "
+                TD (&93834808910160)
+                  text "Klassifizierung"
+                text " "
+                TD (&93834808910584)
+                  text "öffentlich"
+                text " "
+              text " "
+              TR (&93834808911128)
+                text " "
+                TD (&93834808911432)
+                  text "Referenzierung"
+                text " "
+                TD (&93834808911856)
+                  text "gemSpec_PK_eGK"
+                text " "
+              text " "
+        text " "
+      text " "
+      P (&93834808912640)
+        attr id "polarion_14"
+      text " "
+      H1 (&93834808913120)
+        attr id "polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5493"
+        text "Dokumentinformationen"
+      text " "
+      P (&93834808913720)
+        attr id "polarion_18"
+        text " "
+        SPAN (&93834808914200)
+          attr style "font-weight: bold;"
+          text "Änderungen zur Vorversion"
+        text " "
+      text " "
+      P (&93834808914920)
+        attr id "polarion_19"
+        text "Die Erstversion wurde um Angabe zu Prüfkarten der Generation 2 ergänzt."
+      text " "
+      P (&93834808915520)
+        attr id "polarion_20"
+        text " "
+        BR (&93834808916000)
+        text " "
+      text " "
+      P (&93834808916424)
+        attr id "polarion_21"
+        text " "
+        SPAN (&93834808916904)
+          attr style "font-weight: bold;"
+          text "Dokumentenhistorie"
+        text " "
+      text " "
+      TABLE (&93834808917624)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=uid=1"
+        attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834808918456)
+          text " "
+          TR (&93834808918760)
+            text " "
+            TH (&93834808919064)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808919424)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Version"
+              BR (&93834808919904)
+              text " "
+            text " "
+            TH (&93834808920328)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 60px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808920688)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Stand"
+              BR (&93834808921168)
+              text " "
+            text " "
+            TH (&93834808921592)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 325px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808921952)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Grund der Änderung, besondere Hinweise"
+              BR (&93834808922432)
+              text " "
+            text " "
+            TH (&93834775844296)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 96px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775844632)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Bearbeitung"
+              BR (&93834775845112)
+              text " "
+            text " "
+          text " "
+          TR (&93834775845656)
+            text " "
+            TD (&93834775845960)
+              attr style "text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "1.0.0"
+            text " "
+            TD (&93834775846560)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "14.05.18"
+            text " "
+            TD (&93834775847160)
+              attr style "text-align: left;vertical-align: top;width: 325px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "Ersterstellung"
+            text " "
+            TD (&93834775847760)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775848120)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834775848600)
+              text " "
+            text " "
+          text " "
+          TR (&93834775849144)
+            text " "
+            TD (&93834775849448)
+              attr style "text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+            TD (&93834775849928)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+            TD (&93834775850408)
+              attr style "text-align: left;vertical-align: top;width: 325px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "Erweiterung für Prüfkarten der Generation G2.1"
+            text " "
+            TD (&93834775851008)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "gematik"
+            text " "
+          text " "
+          TR (&93834775851728)
+            text " "
+            TD (&93834775852032)
+              attr style "text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "1.1.0"
+            text " "
+            TD (&93834775852632)
+              attr style "text-align: left;vertical-align: top;width: 60px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "26.10.18"
+            text " "
+            TD (&93834775853232)
+              attr style "text-align: left;vertical-align: top;width: 325px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "freigegeben"
+            text " "
+            TD (&93834775853832)
+              attr style "text-align: left;vertical-align: top;width: 96px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "gematik"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834775854792)
+        attr id "polarion_23"
+        text " "
+        BR (&93834775855272)
+        text " "
+      text " "
+      P (&93834775855696)
+        attr id "polarion_24"
+        attr style "text-align: center;"
+        text " "
+        BR (&93834775856352)
+        text " "
+      text " "
+      H1 (&93834775856776)
+        attr id "polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5494"
+        text "Inhaltsverzeichnis"
+      text " "
+      P (&93834775857376)
+        attr id "polarion_25"
+      text " "
+      DIV (&93834775857856)
+        attr id "polarion_wiki macro name=toc"
+      text " "
+      DIV (&93834775858336)
+        attr id "toc_container"
+        text " "
+        P (&93834775858816)
+          attr class "toc_title"
+        H1 (&93834775859176)
+        P (&93834775859360)
+        text " "
+        LI (&93834775859664)
+          A (&93834775859848)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5493"
+            text "Dokumentinformationen"
+        text " "
+        LI (&93834775860448)
+          A (&93834775860632)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5494"
+            text "Inhaltsverzeichnis"
+        text " "
+        LI (&93834775861232)
+          text ":"
+          A (&93834775861536)
+            attr href "#1"
+            text "1 Einführung des Dokuments"
+        text " "
+        LI (&93834775862136)
+          text ": :"
+          A (&93834775862440)
+            attr href "#1.1"
+            text "1.1 Zielsetzung"
+        text " "
+        LI (&93834775863040)
+          text ": :"
+          A (&93834775863344)
+            attr href "#1.2"
+            text "1.2 Zielgruppe"
+        text " "
+        LI (&93834775863944)
+          text ": :"
+          A (&93834775864248)
+            attr href "#1.3"
+            text "1.3 Geltungsbereich"
+        text " "
+        LI (&93834775864848)
+          text ": :"
+          A (&93834775865152)
+            attr href "#1.4"
+            text "1.4 Abgrenzung des Dokuments"
+        text " "
+        LI (&93834775865752)
+          text ": :"
+          A (&93834775866056)
+            attr href "#1.5"
+            text "1.5 Methodik"
+        text " "
+        LI (&93834775866656)
+          text ": :"
+          A (&93834775866960)
+            attr href "#1.6"
+            text "1.6 Nomenklatur"
+        text " "
+        LI (&93834775867560)
+          text ":"
+          A (&93834775867864)
+            attr href "#2"
+            text "2 Initialisiertes Objektsystem der Prüfkarte eGK"
+        text " "
+        LI (&93834775868464)
+          text ":"
+          A (&93834775868768)
+            attr href "#3"
+            text "3 Personalisierungsvalidierung"
+        text " "
+        LI (&93834775869368)
+          text ":"
+          A (&93834775869672)
+            attr href "#4"
+            text "4 Festlegungen für Personalisierungsdaten"
+        text " "
+        LI (&93834775870272)
+          text ": :"
+          A (&93834775870576)
+            attr href "#4.1"
+            text "4.1 Festlegungen für die ICCSN"
+        text " "
+        LI (&93834775871176)
+          text ": :"
+          A (&93834775871480)
+            attr href "#4.2"
+            text "4.2 Festlegungen für die IK-Nummer"
+        text " "
+        LI (&93834775872080)
+          text ": :"
+          A (&93834775872384)
+            attr href "#4.3"
+            text "4.3 Festlegungen für die Versichertennummer"
+        text " "
+        LI (&93834775872984)
+          text ": :"
+          A (&93834775873288)
+            attr href "#4.4"
+            text "4.4 Festlegungen des Herausgebers"
+        text " "
+        LI (&93834775873888)
+          text ": :"
+          A (&93834775874192)
+            attr href "#4.5"
+            text "4.5 Festlegungen für die Versichertenstammdaten"
+        text " "
+        LI (&93834775874792)
+          text ":"
+          A (&93834775875096)
+            attr href "#5"
+            text "5 Bereitstellung der Personalisierungsdaten"
+        text " "
+        LI (&93834775875696)
+          text ":"
+          A (&93834775876000)
+            attr href "#6"
+            text "6 Vorgaben für die Zertifikate"
+        text " "
+        LI (&93834775876600)
+          text ":"
+          A (&93834767722136)
+            attr href "#7"
+            text "7 Personalisiertes Objektsystem der Prüfkarte eGK"
+        text " "
+        LI (&93834767722584)
+          text ": :"
+          A (&93834767722888)
+            attr href "#7.1"
+            text "7.1 Schlüssel für die Administration"
+        text " "
+        LI (&93834767723488)
+          text ": :"
+          A (&93834767723792)
+            attr href "#7.2"
+            text "7.2 QES-Anwendung"
+        text " "
+        LI (&93834767724392)
+          text ":"
+          A (&93834767724696)
+            attr href "#8"
+            text "8 Optische Gestaltung der Prüfkarte eGK"
+        text " "
+        LI (&93834767725296)
+          text ": :"
+          A (&93834767725600)
+            attr href "#8.1"
+            text "8.1 Optische Gestaltung der Kartenvorderseite"
+        text " "
+        LI (&93834767726200)
+          text ": : :"
+          A (&93834767726504)
+            attr href "#8.1.1"
+            text "8.1.1 Unveränderbare optische Gestaltung"
+        text " "
+        LI (&93834767727104)
+          text ": : :"
+          A (&93834767727408)
+            attr href "#8.1.2"
+            text "8.1.2 Veränderbare optische Gestaltung"
+        text " "
+        LI (&93834767728008)
+          text ": :"
+          A (&93834767728312)
+            attr href "#8.2"
+            text "8.2 Optische Gestaltung der Kartenrückseite"
+        text " "
+        LI (&93834767728912)
+          text ":"
+          A (&93834767729216)
+            attr href "#9"
+            text "9 Anhang A – Verzeichnisse"
+        text " "
+        LI (&93834767729816)
+          text ": :"
+          A (&93834767730120)
+            attr href "#9.1"
+            text "9.1 Abkürzungen"
+        text " "
+        LI (&93834767730720)
+          text ": :"
+          A (&93834767731024)
+            attr href "#9.2"
+            text "9.2 Abbildungsverzeichnis"
+        text " "
+        LI (&93834767731624)
+          text ": :"
+          A (&93834767731928)
+            attr href "#9.3"
+            text "9.3 Tabellenverzeichnis"
+        text " "
+        LI (&93834767732528)
+          text ": :"
+          A (&93834767732832)
+            attr href "#9.4"
+            text "9.4 Referenzierte Dokumente"
+        text " "
+        LI (&93834767733432)
+          text ": : :"
+          A (&93834767733736)
+            attr href "#9.4.1"
+            text "9.4.1 Dokumente der gematik"
+        text " "
+        LI (&93834767734336)
+          text ": : :"
+          A (&93834767734640)
+            attr href "#9.4.2"
+            text "9.4.2 Weitere Dokumente"
+        text " "
+      text " "
+      P (&93834767735360)
+        attr id "polarion_26"
+        text " "
+        BR (&93834767735840)
+        text " "
+      text " "
+      H2 (&93834767736264)
+        attr id "1"
+        text "1 Einführung des Dokuments"
+      text " "
+      H3 (&93834767736864)
+        attr id "1.1"
+        text "1.1 Zielsetzung"
+      text " "
+      P (&93834767737464)
+        attr id "polarion_27"
+        text "Die Installation und Wartung von dezentralen Komponenten der Telematikinfrastruktur des Gesundheitswesens (TI) in der Produktivumgebung (PU) erfordert Möglichkeiten zur Überprüfung der Installation und Konfiguration der dezentralen Komponenten und deren Anbindung an die Primärsysteme der Leistungserbringerumgebung. Hierzu wird eine speziell ausgestattete eGK, die Prüfkarte des Typs eGK (PK eGK) verwendet."
+      text " "
+      P (&93834767738064)
+        attr id "polarion_28"
+        text "Diese Prüfkarte nutzt den Vertrauensraum der PU. Durch geeignete Merkmale der elektrischen und optischen Personalisierung wird der Missbrauch und die Verwechselung mit einer „echten“ eGK der PU (eGK eines Versicherten) ausgeschlossen."
+      text " "
+      P (&93834767738664)
+        attr id "polarion_29"
+        text "Zu den erkennbaren Merkmalen zählen insbesondere eine auffällige optische Gestaltung, eine eigens für Prüfzwecke definierte Institutskennung und die Verwendung von Personalisierungsdaten fiktiver Identitäten, die eine Verwechselung mit realen Versicherten ausschließen."
+      text " "
+      H3 (&93834767739264)
+        attr id "1.2"
+        text "1.2 Zielgruppe"
+      text " "
+      P (&93834767739864)
+        attr id "polarion_30"
+        text "Dieses Dokument richtet sich an Hersteller personalisierter Prüfkarten des Typs eGK."
+      text " "
+      H3 (&93834767740464)
+        attr id "1.3"
+        text "1.3 Geltungsbereich"
+      text " "
+      P (&93834767741064)
+        attr id "polarion_31"
+        text "Das vorliegende Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Die Zuordnung der vorliegenden Dokumentenversion zu einem Release erfolgt über die jeweilige Dokumentenlandkarte. Diese wird zusammen mit den Dokumenten auf der Internetseite der gematik öffentlich bereitgestellt."
+      text " "
+      P (&93834767741664)
+        attr id "polarion_32"
+        text "Dieses Dokument enthält verbindliche Festlegungen der gematik zur Personalisierung von Prüfkarten des Typs eGK."
+      text " "
+      P (&93834767742264)
+        attr id "polarion_33"
+        text "Außerhalb der Beauftragungen durch die gematik ist dieses Dokument informativ."
+      text " "
+      P (&93834767742864)
+        attr id "polarion_34"
+        text " "
+        SPAN (&93834767743344)
+          attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+          text "Schutzrechts-/Patentrechtshinweis"
+        text " "
+      text " "
+      P (&93834767744064)
+        attr id "polarion_35"
+        text " "
+        SPAN (&93834767744544)
+          attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+          text "Dieses Dokument ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Inhalte in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der beschriebenen Inhalte angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen."
+        text " "
+      text " "
+      H3 (&93834767745264)
+        attr id "1.4"
+        text "1.4 Abgrenzung des Dokuments"
+      text " "
+      P (&93834767745864)
+        attr id "polarion_36"
+        text "Dieses Dokument definiert Merkmale der Prüfkarte des Typs eGK als Abgrenzung zu den Merkmalen einer eGK eines Versicherten und Testkarten eGK der RU/TU."
+      text " "
+      P (&93834767746464)
+        attr id "polarion_37"
+        text "Eine detaillierte Zusammenstellung aller geltenden Anforderungen an die personalisierte Prüfkarte ist im Produkttypsteckbrief der Prüfkarte des Typs eGK [gemProdT_PK_eGK] dargestellt. Es wird darauf hingewiesen, dass Anforderungen zur optischen und mechanischen Ausprägung sowohl in [gemSpec_eGK_OPT], als auch im vorliegenden Dokument beschrieben sind."
+      text " "
+      P (&93834767747064)
+        attr id "polarion_38"
+        text "Dieses Dokument enthält keine Vorgaben zum Bestätigungsverfahren für Prüfkarten und zum Verfahren der Datenübermittlung an den Hersteller der Prüfkarten."
+      text " "
+      H3 (&93834767747664)
+        attr id "1.5"
+        text "1.5 Methodik"
+      text " "
+      P (&93834767748264)
+        attr id "polarion_39"
+        text "Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC 2119 [RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet."
+      text " "
+      P (&93834767748864)
+        attr id "polarion_40"
+        text "Sie werden im Dokument wie folgt dargestellt:"
+      text " "
+      P (&93834767749464)
+        attr id "polarion_150"
+        text " "
+        SPAN (&93834767749944)
+          attr style "font-weight: bold;"
+          text "<AFO-ID> - <Titel der Afo>"
+          BR (&93834767750424)
+          text " "
+        SPAN (&93834767750728)
+          attr style "font-weight: normal;"
+          text "Text / Beschreibung"
+        SPAN (&93834767751208)
+          attr style "font-weight: bold;"
+          BR (&93834767751568)
+          text " "
+        SPAN (&93834767751872)
+          attr style "font-weight: normal;"
+          text "[<=]"
+        text " "
+      text " "
+      P (&93834767752592)
+        attr id "polarion_41"
+        text "Dabei umfasst die Anforderung sämtliche innerhalb der Textmarken angeführten Inhalte."
+      text " "
+      H3 (&93834767753192)
+        attr id "1.6"
+        text "1.6 Nomenklatur"
+      text " "
+      P (&93834767753792)
+        attr id "polarion_44"
+      text " "
+      P (&93834767754272)
+        attr id "polarion_45"
+        text "Die im Verlauf dieses Dokuments verwendeten Bezeichnungen „Prüfkarte“ und „Prüfkarte eGK“ beziehen sich immer auf die „Prüfkarte des Typs eGK“. „Echte“ eGKs der Produktivumgebung werden zur Abgrenzung gegenüber der Prüfkarte als „eGK eines Versicherten“ bezeichnet."
+      text " "
+      P (&93834778131704)
+        attr id "polarion_46"
+      text " "
+      H2 (&93834778132160)
+        attr id "2"
+        text "2 Initialisiertes Objektsystem der Prüfkarte eGK"
+      text " "
+      P (&93834778132760)
+        attr id "polarion_48"
+        text "Für die Prüfkarte wird das initialisierte Objektsystem einer für den Produktivbetrieb zugelassenen eGK unverändert verwendet. Für eine Prüfkarte der Generation 2 ist ein Objektsystem gemäß [gemSpec_eGK_ObjSys] und für eine Prüfkarte der Generation G2.1 ein Objektsystem gemäß [gemSpec_eGK_ObjSys_G2.1] zu verwenden. Eine Umsetzung der möglichen Optionen des jeweiligen Objektsystems ist nicht erforderlich."
+      text " "
+      DIV (&93834778133360)
+        attr id "A_14281"
+        text " "
+        P (&93834778133840)
+          B (&93834778134024)
+            text "A_14281 - Produkttypversion initialisiertes Objektsystem der Prüfkarte eGK G2"
+        text " "
+        P (&93834778134448)
+          text "Die Prüfkarte der Generation G2 MUSS auf der Basis eines zugelassenen initialisierten Objektsystems einer eGK gemäß [gemProdT_eGK_ObjSys] erstellt werden."
+          SPAN (&93834778134752)
+            attr style "background-color: #FFFF99;"
+          text " "
+          B (&93834778135232)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834778135776)
+        attr id "Card-G2-A_3816"
+        text " "
+        P (&93834778136256)
+          B (&93834778136440)
+            text "Card-G2-A_3816 - Produkttypversion initialisiertes Objektsystem der Prüfkarte eGK G2.1"
+        text " "
+        P (&93834778136864)
+          text "Die Prüfkarte der Generation G2.1 MUSS auf der Basis eines zugelassenen initialisierten Objektsystems einer eGK gemäß [gemProdT_eGK_ObjSys_G2.1] erstellt werden."
+          B (&93834778137168)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834778137712)
+        attr id "A_14282"
+        text " "
+        P (&93834778138192)
+          B (&93834778138376)
+            text "A_14282 - Optionen des Objektsystems der Prüfkarte eGK G2"
+        text " "
+        P (&93834778138800)
+          text "Die Prüfkarte der Generation 2 SOLL die möglichen Optionen des Objektsystems der eGK aus [gemSpec_eGK_ObjSys] NICHT unterstützen."
+          B (&93834778139104)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834778139648)
+        attr id "Card-G2-A_3817"
+        text " "
+        P (&93834778140128)
+          B (&93834778140312)
+            text "Card-G2-A_3817 - Optionen des Objektsystems der Prüfkarte eGK G2.1"
+        text " "
+        P (&93834778140736)
+          text "Die Prüfkarte der Generation G2.1 SOLL die möglichen Optionen des Objektsystems der eGK aus [gemSpec_eGK_ObjSys_G2.1] NICHT unterstützen."
+          B (&93834778141040)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834778141584)
+        attr id "polarion_53"
+        attr style "margin-left: 0px;"
+        text " "
+        SPAN (&93834778142240)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: Diese Anforderung schließt die Option „QES-Anwendung komplett angelegt und nutzbar“ mit ein. Diese soll nicht unterstützt werden."
+        text " "
+      text " "
+      H2 (&93834778142960)
+        attr id "3"
+        text "3 Personalisierungsvalidierung"
+      text " "
+      P (&93834778143560)
+        attr id "polarion_56"
+        text "Für die personalisierten Prüfkarten ist keine Zulassung durch die gematik notwendig. Es erfolgt eine Prüfung der korrekten Personalisierung und Bestätigung durch die gematik. Die konkrete Verfahrensweise und Bedingungen dazu sind nicht Bestandteil des vorliegenden Dokuments."
+      text " "
+      P (&93834778144160)
+        attr id "polarion_57"
+      text " "
+      H2 (&93834778144640)
+        attr id "4"
+        text "4 Festlegungen für Personalisierungsdaten"
+      text " "
+      P (&93834778145240)
+        attr id "polarion_60"
+        text "Die folgenden Festlegungen gelten für alle Prüfkarten gemeinsam. Sie sind bei der Erstellung der Zertifikate sowie der elektrischen und optischen Personalisierung anzuwenden."
+      text " "
+      H3 (&93834778145840)
+        attr id "4.1"
+        text "4.1 Festlegungen für die ICCSN"
+      text " "
+      P (&93834778146440)
+        attr id "polarion_61"
+        text "Für die ersten 5 Oktette (10 Ziffern) der ICCSN wird ein einheitlicher Wert vorgegeben."
+      text " "
+      DIV (&93834778147040)
+        attr id "Card-G2-A_3818"
+        text " "
+        P (&93834778147520)
+          B (&93834778147704)
+            text "Card-G2-A_3818 - Vorgegebene Issuer Identifier Number der ICCSN der Prüfkarte eGK"
+        text " "
+        P (&93834778148128)
+          text "Für die"
+          SPAN (&93834778148432)
+            attr style "font-style: italic;"
+            text "Issuer Identifier Number"
+          text "(IIN) der ICCSN der Prüfkarte MUSS der Wert"
+          SPAN (&93834778149032)
+            attr style "font-weight: bold;"
+            text "8027600311"
+          text "(gematik) verwendet werden."
+          B (&93834778149632)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834778150176)
+        attr id "polarion_63"
+        text " "
+        SPAN (&93834778150656)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: Die Struktur der ICCSN ist in [gemSpec_Karten_Fach_TIP_G2.1] vorgegeben"
+        text " "
+      text " "
+      H3 (&93834778151376)
+        attr id "4.2"
+        text "4.2 Festlegungen für die IK-Nummer"
+      text " "
+      P (&93834778151976)
+        attr id "polarion_64"
+        text "Die Prüfkarten verwenden eine speziell für Prüfaktivitäten vergebene Institutionskennzeichnung."
+      text " "
+      DIV (&93834778152576)
+        attr id "Card-G2-A_3819"
+        text " "
+        P (&93834778153056)
+          B (&93834778153240)
+            text "Card-G2-A_3819 - Vorgegebene IK-Nummer der Prüfkarte eGK"
+        text " "
+        P (&93834778153664)
+          text "Für das Institutionskennzeichen (IK-Nummer, veränderlicher Anteil der 20-stelligen KVNR) der Prüfkarte MUSS der 9-stellige Wert"
+          SPAN (&93834778153968)
+            attr style "font-weight: bold;"
+            text "109500969"
+          text "verwendet werden."
+          B (&93834778154568)
+            text "[<=]"
+        text " "
+      text " "
+      H3 (&93834778155112)
+        attr id "4.3"
+        text "4.3 Festlegungen für die Versichertennummer"
+      text " "
+      P (&93834778155712)
+        attr id "polarion_66"
+        text "Als Unterscheidungsmerkmal gegenüber den eGK eines Versicherten sind auf den Prüfkarten Versichertennummern zu verwenden, die beabsichtigt den Vorgaben zur Bildung der KVNR nicht folgen und mehr als 3 gleiche und aufeinanderfolgende Ziffern enthalten."
+      text " "
+      DIV (&93834778156312)
+        attr id "Card-G2-A_3820"
+        text " "
+        P (&93834778156792)
+          B (&93834778156976)
+            text "Card-G2-A_3820 - Gleiche aufeinanderfolgende Ziffern in der Vorgegebene Versichertennummern der Prüfkarte eGK"
+        text " "
+        P (&93834778157400)
+          text "Die Versichertennummer der Prüfkarte MUSS einer Versichertennummer gemäß:"
+          BR (&93834778157704)
+          text " "
+        DIV (&93834778158008)
+          attr style "margin-left: 40px;"
+          text "X0000"
+          SPAN (&93834778158488)
+            attr style "font-style: italic;"
+            text "nnnn"
+          text "P, mit"
+          SPAN (&93834778159088)
+            attr style "font-style: italic;"
+            text "nnnn"
+          text "aus der Menge {0001 .. 5000} und P = Prüfziffer"
+        text "entsprechen."
+        BR (&93834778159808)
+        text " "
+        B (&93834778160112)
+          text "[<=]"
+        P (&93834778160416)
+        text " "
+      text " "
+      P (&93834778160840)
+        attr id "polarion_68"
+        text " "
+        SPAN (&93834778161320)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: Die Prüfziffer (letzte Stelle der Versichertennummer) ist bei gewähltem nnnn korrekt zu bilden."
+        text " "
+      text " "
+      H3 (&93834778162040)
+        attr id "4.4"
+        text "4.4 Festlegungen des Herausgebers"
+      text " "
+      P (&93834778162640)
+        attr id "polarion_69"
+        text "Der Herausgeber der Prüfkarte eGK ist die gematik. Als Herausgeber nutzt die gematik die festgelegte IK-Nummer für Prüfaktivitäten und die dieser IK-Nummer zugeordnete Kennung „Test-GKV-SV“ als Kennzeichnung des Herausgebers."
+      text " "
+      P (&93834778163240)
+        attr id "polarion_47"
+      text " "
+      DIV (&93834778163720)
+        attr id "Card-G2-A_3821"
+        text " "
+        P (&93834778164200)
+          B (&93834777748744)
+            text "Card-G2-A_3821 - Herausgeber der Prüfkarte eGK"
+        text " "
+        P (&93834777749168)
+        P (&93834777749352)
+          attr style "margin-left: 0px;"
+          SPAN (&93834777749688)
+            text "Zur Kennzeichnung des Herausgebers der Prüfkarte MUSS die Zeichenfolge „Test GKV-SV“ verwendet werden."
+        text " "
+        B (&93834777750112)
+          text "[<=]"
+        P (&93834777750416)
+        text " "
+      text " "
+      H3 (&93834777750840)
+        attr id "4.5"
+        text "4.5 Festlegungen für die Versichertenstammdaten"
+      text " "
+      DIV (&93834777751440)
+        attr id "Card-G2-A_3852"
+        text " "
+        P (&93834777751920)
+          B (&93834777752104)
+            text "Card-G2-A_3852 - Versichertenstammdaten der Prüfkarte eGK"
+        text " "
+        P (&93834777752528)
+          text "Für die Versichertenstammdaten der Prüfkarte MÜSSEN die Angaben aus TAB_PK_eGK_001 verwendet werden."
+          BR (&93834777752832)
+          text " "
+          BR (&93834777753136)
+          text " "
+        P (&93834777753440)
+          attr class "polarion-rte-caption-paragraph"
+          attr data-keep-next "true"
+          attr id "polarion___1"
+          text "Tabelle"
+          SPAN (&93834777754272)
+            attr class "polarion-rte-caption"
+            attr data-sequence "Tabelle"
+            text "1"
+          text ": TAB_PK_eGK_001: Versichertenstammdaten der Prüfkarte eGK"
+        text " "
+        TABLE (&93834777755168)
+          attr class "polarion-Document-table"
+          attr id "polarion_wiki macro name=table;params=header=no|width=100%"
+          attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+          text " "
+          TBODY (&93834777756000)
+            text " "
+            TR (&93834777756304)
+              text " "
+              TD (&93834777756608)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777756968)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Versicherten_ID"
+                BR (&93834777757448)
+              text " "
+              TD (&93834777757752)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777758112)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "siehe: Versichertennummer"
+                BR (&93834777758592)
+              text " "
+            text " "
+            TR (&93834777759016)
+              text " "
+              TD (&93834777759320)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777759680)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "CMD_Version (alle)"
+                BR (&93834777760160)
+              text " "
+              TD (&93834777760464)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777760824)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "5.2.0"
+                BR (&93834777761304)
+              text " "
+            text " "
+            TR (&93834777761728)
+              text " "
+              TD (&93834777762032)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777762392)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Nachname"
+                BR (&93834777762872)
+              text " "
+              TD (&93834777763176)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777763536)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„Ort“ (identisch zu"
+                text " "
+                SPAN (&93834777764136)
+                  attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                  text "subjectDN"
+                SPAN (&93834777764616)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "/s"
+                SPAN (&93834777765096)
+                  attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                  text "urName"
+                SPAN (&93834777765576)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text ")"
+                BR (&93834777766056)
+              text " "
+            text " "
+            TR (&93834777766480)
+              text " "
+              TD (&93834777766784)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777767144)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Vorname"
+                BR (&93834777767624)
+              text " "
+              TD (&93834777767928)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777768288)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„Dienstleister“ (identisch zu"
+                text " "
+                SPAN (&93834777768888)
+                  attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                  text "subjectDN"
+                SPAN (&93834777769368)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "/g"
+                SPAN (&93834777769848)
+                  attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                  text "ivenName"
+                SPAN (&93834777770328)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text ")"
+                BR (&93834777770808)
+              text " "
+            text " "
+            TR (&93834777771232)
+              text " "
+              TD (&93834777771536)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777771896)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Vorsatzwort"
+                BR (&93834777772376)
+              text " "
+              TD (&93834777772680)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777773040)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„vor“"
+                BR (&93834777773520)
+              text " "
+            text " "
+            TR (&93834777773944)
+              text " "
+              TD (&93834777774248)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777774608)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Geburtsdatum"
+                BR (&93834777775088)
+              text " "
+              TD (&93834777775392)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777775752)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "19800101"
+                BR (&93834777776232)
+              text " "
+            text " "
+            TR (&93834777776656)
+              text " "
+              TD (&93834777776960)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777777320)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Geschlecht"
+                BR (&93834777777800)
+              text " "
+              TD (&93834777778104)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777778464)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„X“"
+                BR (&93834777778944)
+              text " "
+            text " "
+            TR (&93834777779368)
+              text " "
+              TD (&93834777779672)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777780032)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Strasse"
+                BR (&93834777780512)
+              text " "
+              TD (&93834777780816)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834777781176)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„Friedrichstraße“"
+                BR (&93834810793368)
+              text " "
+            text " "
+            TR (&93834810793792)
+              text " "
+              TD (&93834810794096)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810794456)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Hausnummer"
+                BR (&93834810794936)
+              text " "
+              TD (&93834810795240)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810795600)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "136"
+                BR (&93834810796080)
+              text " "
+            text " "
+            TR (&93834810796504)
+              text " "
+              TD (&93834810796808)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810797168)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Ort"
+                BR (&93834810797648)
+              text " "
+              TD (&93834810797952)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810798312)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„Berlin“"
+                BR (&93834810798792)
+              text " "
+            text " "
+            TR (&93834810799216)
+              text " "
+              TD (&93834810799520)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810799880)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Postleitzahl"
+                BR (&93834810800360)
+              text " "
+              TD (&93834810800664)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810801024)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "10117"
+                BR (&93834810801504)
+              text " "
+            text " "
+            TR (&93834810801928)
+              text " "
+              TD (&93834810802232)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810802592)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Versicherungsschutz Beginn"
+                BR (&93834810803072)
+              text " "
+              TD (&93834810803376)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810803736)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "20000101"
+                BR (&93834810804216)
+              text " "
+            text " "
+            TR (&93834810804640)
+              text " "
+              TD (&93834810804944)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810805304)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Kostenträger"
+                BR (&93834810805784)
+              text " "
+              TD (&93834810806088)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810806448)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "siehe: IK-Nummer"
+                BR (&93834810806928)
+              text " "
+            text " "
+            TR (&93834810807352)
+              text " "
+              TD (&93834810807656)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810808016)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Kostentraegerlaendercode"
+                BR (&93834810808496)
+              text " "
+              TD (&93834810808800)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810809160)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„D“"
+                BR (&93834810809640)
+              text " "
+            text " "
+            TR (&93834810810064)
+              text " "
+              TD (&93834810810368)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810810728)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Kostentraeger/Name"
+                BR (&93834810811208)
+              text " "
+              TD (&93834810811512)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810811872)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„Test GKV-SV“ (identisch zu"
+                text " "
+                SPAN (&93834810812472)
+                  attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                  text "subjectDN/"
+                SPAN (&93834810812952)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "o"
+                SPAN (&93834810813432)
+                  attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                  text "rganizationName"
+                SPAN (&93834810813912)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text ")"
+                BR (&93834810814392)
+              text " "
+            text " "
+            TR (&93834810814816)
+              text " "
+              TD (&93834810815120)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810815480)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Versichertenart"
+                BR (&93834810815960)
+              text " "
+              TD (&93834810816264)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810816624)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "1"
+                BR (&93834810817104)
+              text " "
+            text " "
+            TR (&93834810817528)
+              text " "
+              TD (&93834810817832)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810818192)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Kostenerstattung (alle)"
+                BR (&93834810818672)
+              text " "
+              TD (&93834810818976)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810819336)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "0"
+                BR (&93834810819816)
+              text " "
+            text " "
+            TR (&93834810820240)
+              text " "
+              TD (&93834810820544)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810820904)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "WOP"
+                BR (&93834810821384)
+              text " "
+              TD (&93834810821688)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810822048)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "83"
+                BR (&93834810822528)
+              text " "
+            text " "
+            TR (&93834810822952)
+              text " "
+              TD (&93834810823256)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810823616)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Zuzahlungsstatus/Status"
+                BR (&93834810824096)
+              text " "
+              TD (&93834810824400)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834810824760)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "0"
+                BR (&93834810825240)
+              text " "
+            text " "
+            TR (&93834810825664)
+              text " "
+              TD (&93834771050424)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834771050760)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Selektivvertraege (alle)"
+                BR (&93834771051240)
+              text " "
+              TD (&93834771051544)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834771051904)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "9"
+                BR (&93834771052384)
+              text " "
+            text " "
+            TR (&93834771052808)
+              text " "
+              TD (&93834771053112)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834771053472)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Selektivvertraege/Art"
+                BR (&93834771053952)
+              text " "
+              TD (&93834771054256)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834771054616)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "0000"
+                BR (&93834771055096)
+              text " "
+            text " "
+            TR (&93834771055520)
+              text " "
+              TD (&93834771055824)
+                attr style "text-align: left;vertical-align: top;width: 211.818px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834771056184)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Alle weiteren Angaben"
+                BR (&93834771056664)
+              text " "
+              TD (&93834771056968)
+                attr style "text-align: left;vertical-align: top;width: 368.182px;height: 18.1818px;border: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834771057328)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "„“ (leer)"
+                BR (&93834771057808)
+              text " "
+            text " "
+          text " "
+        text " "
+        B (&93834771058472)
+          text "[<=]"
+        P (&93834771058776)
+        text " "
+      text " "
+      H2 (&93834771059200)
+        attr id "5"
+        text "5 Bereitstellung der Personalisierungsdaten"
+      text " "
+      P (&93834771059800)
+        attr id "polarion_73"
+        text "Die Bereitstellung der kartenindividuellen Daten für die Erstellung der Zertifikate und die veränderliche optische Personalisierung der Prüfkarten, soweit nicht durch das vorliegende Dokument vorgegeben, erfolgt ausschließlich durch die gematik."
+      text " "
+      P (&93834771060400)
+        attr id "polarion_15"
+      text " "
+      DIV (&93834771060880)
+        attr id "Card-G2-A_3853"
+        text " "
+        P (&93834771061360)
+          B (&93834771061544)
+            text "Card-G2-A_3853 - Bereitstellung der Daten für die Prüfkarte eGK"
+        text " "
+        P (&93834771061968)
+          text "Ein Hersteller personalisierter Prüfkarten MUSS für die Personalisierung der Prüfkarten ausnahmslos Daten verwenden, die durch die gematik bereitgestellt werden."
+          BR (&93834771062272)
+          text " "
+          B (&93834771062576)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834771063120)
+        attr id "polarion_75"
+      text " "
+      P (&93834771063600)
+        attr id "polarion_50"
+        text "Das Format, der Umfang und die Übermittelungsmethode der Daten an den Hersteller personalisierter Prüfkarten ist nicht Bestandteil des vorliegenden Dokuments."
+      text " "
+      P (&93834771064200)
+        attr id "polarion_76"
+        text "Die gematik stellt mindestens folgende Daten bereit:"
+      text " "
+      P (&93834771064800)
+        attr id "polarion_77"
+        text "Für die Erstellung der Zertifikate C.CH.AUT und C.CH.ENC und für optische Merkmale der Personalisierung:"
+      text " "
+      UL (&93834771065400)
+        attr id "polarion_78"
+        text " "
+        LI (&93834771065880)
+          text "Vorgaben zu"
+          SPAN (&93834771066184)
+            attr style "font-style: italic;"
+            text "SubjectDN"
+          text ":"
+        text " "
+        UL (&93834771066904)
+          text " "
+          UL (&93834771067208)
+            text " "
+            LI (&93834771067512)
+              SPAN (&93834771067696)
+                attr style "font-style: italic;"
+                text "CommonName"
+              text "(Zeichenfolge zur Kennung der Identität, maximal 28 Zeichen inklusive Leerzeichen)"
+            text " "
+            LI (&93834771068416)
+              SPAN (&93834771068600)
+                attr style "font-style: italic;"
+                text "givenName"
+            text " "
+            LI (&93834771069200)
+              SPAN (&93834771069384)
+                attr style "font-style: italic;"
+                text "surname"
+            text " "
+            LI (&93834771069984)
+              SPAN (&93834771070168)
+                attr style "font-style: italic;"
+                text "organizationalUnitName"
+              text ": OU = unveränderbarer Teil der KV-Nummer (10-stellige Versichertennummer)"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834771071248)
+        attr id "polarion_79"
+        text "Für die Erstellung der optionalen Zertifikate C.CH.AUTN und C.CH.ENCV:"
+      text " "
+      UL (&93834771071848)
+        attr id "polarion_80"
+        text " "
+        LI (&93834771072328)
+          text "Vorgaben zu"
+          SPAN (&93834771072632)
+            attr style "font-style: italic;"
+            text "SubjectDN"
+          text ":"
+        text " "
+        UL (&93834771073352)
+          text " "
+          UL (&93834771073656)
+            text " "
+            LI (&93834771073960)
+              SPAN (&93834771074144)
+                attr style "font-style: italic;"
+                text "CommonName"
+              text "(Pseudonym der Versichertenidentität, maximal 28 Zeichen inklusive Leerzeichen)"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834771075224)
+        attr id "polarion_81"
+        text "Für die Befüllung der EFs des VSDM:"
+      text " "
+      UL (&93834771075824)
+        attr id "polarion_82"
+        text " "
+        LI (&93834771076304)
+          text "vollständige Inhalte der folgenden EFs in DF.HCA gemäß den Vorgaben aus [gemSysL_VSDM]#Anhang C:"
+        text " "
+        UL (&93834771076728)
+          text " "
+          UL (&93834771077032)
+            text " "
+            LI (&93834771077336)
+              text "EF.PD"
+            text " "
+            LI (&93834771077760)
+              text "EF.VD"
+            text " "
+            LI (&93834771078184)
+              text "EF.GVD"
+            text " "
+            LI (&93834771078608)
+              text "EF.StatusVD"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834771079392)
+        attr id "polarion_83"
+        attr style "margin-left: 40px;"
+        text "unter Verwendung der Angaben zu"
+        SPAN (&93834771080048)
+          attr style "font-style: italic;"
+          text "SubjectDN"
+        text "für C.CH.AUT und C.CH.ENC für die Einträge"
+        SPAN (&93834771080648)
+          attr style "font-style: italic;"
+          text "Vorname"
+        text ","
+        SPAN (&93834771081248)
+          attr style "font-style: italic;"
+          text "Nachname"
+        text "und"
+        SPAN (&93834771081848)
+          attr style "font-style: italic;"
+          text "Kostenträger/Name"
+        text "."
+      text " "
+      P (&93834771082568)
+        attr id "polarion_84"
+        attr style "margin-left: 40px;"
+      text " "
+      P (&93834767978288)
+        attr id "polarion_87"
+        text "Die bereitgestellten Daten berücksichtigen die Anforderungen aus Card-G2-A_3818 (ICCSN), Card-G2-A_3819 (IK-Nummer), Card-G2-A_3820 (Versichertennummer), Card-G2-A_3852 (Versichertenstammdaten) und Card-G2-A_3821 (Herausgeber)."
+      text " "
+      P (&93834767978864)
+        attr id "polarion_89"
+        text " "
+        SPAN (&93834767979344)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: subjectDN:organizationalUnitName:Institutionskennzeichen und organizationName sind durch das vorliegende Dokument fest vorgegeben."
+        text " "
+      text " "
+      P (&93834767980064)
+        attr id "polarion_91"
+        text " "
+        SPAN (&93834767980544)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: Die bereitgestellten Daten können für mehrere Datensätze identische Vorgaben aufweisen. Ausgenomen hiervon ist die Versichertennummer, die für jeden Datensatz unterschiedlich ist."
+        text " "
+      text " "
+      H2 (&93834767981264)
+        attr id "6"
+        text "6 Vorgaben für die Zertifikate"
+      text " "
+      P (&93834767981864)
+        attr id "polarion_95"
+        text "Die Erstellung und Personalisierung der Zertifikate der Prüfkarte entspricht den Vorgaben der eGK eines Versicherten gemäß den Anforderungen in [gemRL_TSL_SP_CP], [gemSpec_CVC_TSP] und [gemSpec_PKI]. Darüber hinaus gelten die folgenden Festlegungen."
+      text " "
+      P (&93834767982464)
+        attr id "polarion_96"
+        text "Die Zertifikate C.CH.AUTN und C.CH.ENCV werden für die Prüfkarten nicht benötigt."
+      text " "
+      DIV (&93834767983064)
+        attr id "Card-G2-A_3822"
+        text " "
+        P (&93834767983544)
+          B (&93834767983728)
+            text "Card-G2-A_3822 - Zertifikate C.CH.AUTN und C.CH.ENCV für die Prüfkarte eGK"
+        text " "
+        P (&93834767984152)
+          text "Der Hersteller von Prüfkarten KANN die Zertifikate C.CH.AUTN und C.CH.ENCV für die Prüfkarte erstellen."
+          BR (&93834767984456)
+          text " "
+          B (&93834767984760)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834767985304)
+        attr id "polarion_98"
+        attr style "margin-left: 0px;"
+      text " "
+      DIV (&93834767985960)
+        attr id "Card-G2-A_3823"
+        text " "
+        P (&93834767986440)
+          B (&93834767986624)
+            text "Card-G2-A_3823 - Vorgegebene Daten für die Zertifikatserstellung für die Prüfkarte eGK"
+        text " "
+        P (&93834767987048)
+        P (&93834767987232)
+          attr style "margin-left: 0px;"
+          SPAN (&93834767987592)
+            text "Der Hersteller von Prüfkarten MUSS f"
+          SPAN (&93834767987896)
+            text "ür die Erstellung der Zertifikate C.CH.AUT, C.CH.ENC, C.CH.AUTN und C.CH.ENCV die Vorgaben in Card-G2-A_"
+          SPAN (&93834767988200)
+            text "3818 (I"
+          SPAN (&93834767988504)
+            text "C"
+          SPAN (&93834767988808)
+            text "CSN)"
+          SPAN (&93834767989112)
+            text ", Card-G2-A_"
+          SPAN (&93834767989416)
+            text "3819 (IK-Nummer)"
+          SPAN (&93834767989720)
+            text ","
+          SPAN (&93834767990024)
+            text " "
+          SPAN (&93834767990328)
+            text "Card-G2-A_"
+          SPAN (&93834767990632)
+            text "3820 (Versichertennummer)"
+          SPAN (&93834767990936)
+            text "und Card-G2-A_3821 (Herausgeber)"
+          SPAN (&93834767991240)
+            text " "
+          SPAN (&93834767991544)
+            text "sowie die von der gematik bereitgestellten Daten für"
+          SPAN (&93834767991848)
+            attr style "font-style: italic;"
+            text "SubjectDN"
+          SPAN (&93834767992328)
+            text " "
+          SPAN (&93834767992632)
+            text "berücksichtig"
+          SPAN (&93834767992936)
+            text "en"
+          SPAN (&93834767993240)
+            text "."
+        text " "
+        B (&93834767993664)
+          text "[<=]"
+        P (&93834767993968)
+        text " "
+      text " "
+      P (&93834767994392)
+        attr id "polarion_100"
+        text " "
+        SPAN (&93834767994872)
+          attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+          text "Anmerkung: Die Angaben zu den Zertifikaten beziehen sich immer auf die beiden kryptographischen Varianten R2048 und E256."
+        text " "
+      text " "
+      H2 (&93834767995592)
+        attr id "7"
+        text "7 Personalisiertes Objektsystem der Prüfkarte eGK"
+      text " "
+      P (&93834767996192)
+        attr id "polarion_103"
+        text "Die elektrische Personalisierung der Prüfkarte entspricht grundsätzlich der elektrischen Personalisierung einer eGK eines Versicherten."
+      text " "
+      P (&93834767996792)
+        attr id "polarion_104"
+        text "Bei der Personalisierung sind folgende Vorgaben zu beachten:"
+      text " "
+      H3 (&93834767997392)
+        attr id "7.1"
+        text "7.1 Schlüssel für die Administration"
+      text " "
+      P (&93834767997992)
+        attr id "polarion_105"
+        text "Für die Prüfkarten ist ein Update der Versichertenstammdaten durch einen Fachdienst der TI nicht vorgesehen. Darüber hinaus soll es auch nicht möglich sein, administrative Änderungen an der Prüfkarte vorzunehmen, beispielsweise um die fest vorgegebene IK-Nummer zu verändern."
+      text " "
+      DIV (&93834767998592)
+        attr id "Card-G2-A_3824"
+        text " "
+        P (&93834767999072)
+          B (&93834767999256)
+            text "Card-G2-A_3824 - Keine Personalisierung der Schlüssel zur Administration der Prüfkarte eGK"
+        text " "
+        P (&93834767999680)
+          text "Der Hersteller von Prüfkarten DARF die Schlüssel"
+          BR (&93834767999984)
+          text " "
+        UL (&93834768000288)
+          text " "
+          UL (&93834768000592)
+            text " "
+            LI (&93834768000896)
+              text "SK.CMS.AES (128 Bit und 256 Bit),"
+              BR (&93834768001200)
+              text " "
+            text " "
+            LI (&93834768001624)
+              text "SK.VSD.AES (128 Bit und 256 Bit),"
+              BR (&93834768001928)
+              text " "
+            text " "
+            LI (&93834768002352)
+              text "PuK.RCA.ADMINCMS.CS.E256"
+              BR (&93834768002656)
+              text " "
+            text " "
+          text " "
+        text "zur Administration der Prüfkarte gemäß den Vorgaben der Spezifikation des Objektsystems der eGK NICHT befüllen."
+        B (&93834768003320)
+          text "[<=]"
+        P (&93834768003624)
+        text " "
+      text " "
+      H3 (&93834768004048)
+        attr id "7.2"
+        text "7.2 QES-Anwendung"
+      text " "
+      DIV (&93834768004648)
+        attr id "Card-G2-A_3826"
+        text " "
+        P (&93834768005128)
+          B (&93834768005312)
+            text "Card-G2-A_3826 - Keine Personalisierung der Objekte in DF.QES der Prüfkarte eGK"
+        text " "
+        P (&93834768005736)
+          text "Der Hersteller von Prüfkarten DARF die Objekte der Anwendung DF.QES (PrK.CH.QES.XXX, PIN.QES, EF.C.CH.QES.XXX) NICHT personalisieren, falls die Prüfkarte ein DF.QES enthält (Option QES-Anwendung komplett angelegt und nutzbar)."
+          B (&93834768006040)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834768006584)
+        attr id "polarion_110"
+        text " "
+        SPAN (&93834768007064)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: XXX ist Platzhalter für R2048 oder E256"
+        text " "
+      text " "
+      H2 (&93834768007784)
+        attr id "8"
+        text "8 Optische Gestaltung der Prüfkarte eGK"
+      text " "
+      P (&93834768008384)
+        attr id "polarion_113"
+        text "Durch eine geeignete optische Gestaltung der Vorder- und Rückseite des Kartenkörpers der Prüfkarte wird eine visuelle Verwechselung mit einer eGK eines Versicherten vermieden. Markante optische Elemente einer eGK eines Versicherten werden für die Prüfkarten bewusst nicht verwendet."
+      text " "
+      P (&93834768008984)
+        attr id "polarion_114"
+        text "Alle nicht visuell unterscheidbaren Eigenschaften, also technische Maße, Formate und physikalische Eigenschaften, gelten für Prüfkarten in gleicher Weise wie für eGK eines Versicherten. Diese Anforderungen sind in [gemSpec_eGK_OPT] zusammengefasst."
+      text " "
+      P (&93834768009584)
+        attr id "polarion_115"
+        text "Es müssen aus [gemSpec_eGK_OPT] insbesondere die Vorgaben in Kapitel „Format und Maße“ und in Kapitel „Kartenkörper und Einbettung des Chips“ berücksichtigt werden."
+      text " "
+      P (&93834768010184)
+        attr id "polarion_116"
+      text " "
+      DIV (&93834768010664)
+        attr id "Card-G2-A_3827"
+        text " "
+        P (&93834768011224)
+          B (&93834768011408)
+            text "Card-G2-A_3827 - Verbotene optische Elemente der Prüfkarte eGK"
+        text " "
+        P (&93834768011832)
+          text "Der Hersteller von Prüfkarten DARF die Prüfkarte NICHT mit einem Lichtbild, dem Logo des BSI, dem Logo „Leonardo“ der eGK eines Versicherten, einem EHIC-Template auf der Rückseite oder einem Unterschriftenfeld ausstatten."
+          BR (&93834768012136)
+          text " "
+          B (&93834768012440)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834768012984)
+        attr id "polarion_118"
+        text " "
+        SPAN (&93834768013464)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: Das dem gematik-Schriftzug vorangestellte „Leonardo“-Logo (vitruvianischer Mensch) ist von dieser Anforderung nicht betroffen."
+        text " "
+      text " "
+      P (&93834768014184)
+        attr id "polarion_119"
+        attr style "margin-left: 0px;"
+      text " "
+      H3 (&93834768014840)
+        attr id "8.1"
+        text "8.1 Optische Gestaltung der Kartenvorderseite"
+      text " "
+      H4 (&93834768015440)
+        attr id "8.1.1"
+        text "8.1.1 Unveränderbare optische Gestaltung"
+      text " "
+      DIV (&93834768016040)
+        attr id "Card-G2-A_3828"
+        text " "
+        P (&93834768016520)
+          B (&93834768016704)
+            text "Card-G2-A_3828 - Farbgebung der Kartenvorderseite der Prüfkarte eGK"
+        text " "
+        P (&93834768017128)
+          text "Die Grundfarbe der Vorderseite der Prüfkarte MUSS weiß sein."
+          B (&93834768017432)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768017976)
+        attr id "Card-G2-A_3829"
+        text " "
+        P (&93834768018456)
+          B (&93834768018640)
+            text "Card-G2-A_3829 - Unveränderbare Elemente der Vorderseite der Prüfkarte eGK"
+        text " "
+        P (&93834768019064)
+          text "Der Hersteller von Prüfkarten MUSS die optische Gestaltung der unveränderlichen Elemente der Vorderseite der Prüfkarte gemäß Abb_PK_eGK_001 ausführen."
+          BR (&93834768019368)
+          text " "
+        P (&93834768019672)
+          attr class "polarion-rte-caption-paragraph"
+          attr id "polarion___2"
+          attr style "text-align: center;"
+          text "Abbildung"
+          SPAN (&93834768020504)
+            attr class "polarion-rte-caption"
+            attr data-sequence "Abbildung"
+            text "1"
+          text ": Abb_PK_eGK_001 Kartenvorderseite am Beispiel der Prüfkarte eGK  G2.1"
+          BR (&93834768021280)
+          text "mit unveränderlichen Elementen  "
+        text " "
+        B (&93834768021704)
+          text "[<=]"
+        P (&93834768022008)
+        text " "
+      text " "
+      DIV (&93834768022432)
+        attr id "Card-G2-A_3830"
+        text " "
+        P (&93834768022912)
+          B (&93834768023096)
+            text "Card-G2-A_3830 - Schriftart und Position des Schriftzugs „Prüf-Gesundheitskarte“ der Prüfkarte eGK"
+        text " "
+        P (&93834768023520)
+          text "Für den Schriftzug „Prüf-Gesundheitskarte“ MUSS die Schriftart Verdana True Type in der Größe 12 pt fett in Schwarz verwendet werden."
+          BR (&93834768023824)
+          text "Die Zeichenfolge MUSS rechtsbündig das Maß 80,80 mm vom linken Kartenrand und die Unterkante das Maß 5,72 mm vom oberen Kartenrand einhalten."
+          B (&93834768024128)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768024672)
+        attr id "Card-G2-A_3831"
+        text " "
+        P (&93834768025152)
+          B (&93834768025336)
+            text "Card-G2-A_3831 - Gestaltung des Blocks nationale Farben der Prüfkarte eGK"
+        text " "
+        P (&93834768025760)
+          text "Für die Farbgebung des Blocks in den nationalen Farben MÜSSEN Farben der folgenden Farbwerte (CMYK) verwendet werden:"
+          TABLE (&93834768026064)
+            attr class "polarion-Document-table"
+            attr id "polarion_wiki macro name=table;params=header=no|border=no"
+            attr style "width: 80%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+            text " "
+            TBODY (&93834768026896)
+              text " "
+              TR (&93834768027200)
+                text " "
+                TD (&93834768027504)
+                  attr style "text-align: left;vertical-align: top;width: 15px;height: 18.1818px;padding: 2px;"
+                text " "
+                TD (&93834768027984)
+                  attr style "text-align: left;vertical-align: top;width: 54px;height: 18.1818px;padding: 2px;"
+                  text "Rot:"
+                text " "
+                TD (&93834768028584)
+                  attr style "text-align: left;vertical-align: top;width: 521px;height: 18.1818px;padding: 2px;"
+                  text "C: 010;  M: 100;  Y: 100;  K: 0"
+                text " "
+              text " "
+              TR (&93834768029304)
+                text " "
+                TD (&93834768029608)
+                  attr style "text-align: left;vertical-align: top;width: 15px;height: 18px;padding: 2px;"
+                text " "
+                TD (&93834768030088)
+                  attr style "text-align: left;vertical-align: top;width: 54px;height: 18px;padding: 2px;"
+                  text "Gold:"
+                text " "
+                TD (&93834768030688)
+                  attr style "text-align: left;vertical-align: top;width: 521px;height: 18px;padding: 2px;"
+                  text "C: 000;  M: 025;  Y: 100;  K: 0"
+                text " "
+              text " "
+              TR (&93834768031408)
+                text " "
+                TD (&93834768031712)
+                  attr style "text-align: left;vertical-align: top;width: 15px;height: 18.1818px;padding: 2px;"
+                text " "
+                TD (&93834768032192)
+                  attr style "text-align: left;vertical-align: top;width: 54px;height: 18.1818px;padding: 2px;"
+                  text "Schwarz:"
+                text " "
+                TD (&93834768032792)
+                  attr style "text-align: left;vertical-align: top;width: 521px;height: 18.1818px;padding: 2px;"
+                  text "C: 000;  M: 000;  Y: 000;  K: 100"
+                text " "
+              text " "
+            text " "
+          text "Der Block MUSS über die definierte Breite in drei gleiche Segmente geteilt sein. Die Farbgebung MUSS von links nach rechts Schwarz, Rot, Gold sein."
+          BR (&93834768033752)
+          text "Der Block MUSS 1 mm hoch und 30,80 mm breit sein und rechtsbündig das Maß 80,80 mm vom linken Kartenrand und die Unterkante das Maß 8,00 mm vom oberen Kartenrand einhalten."
+          B (&93834768034056)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768034600)
+        attr id "Card-G2-A_3832"
+        text " "
+        P (&93834768035080)
+          B (&93834768035264)
+            text "Card-G2-A_3832 - Position des gematik-Logos auf der Prüfkarte eGK"
+        text " "
+        P (&93834768035688)
+          text "Das gematik-Logo MUSS auf die Prüfkarte aufgebracht werden."
+          BR (&93834768035992)
+          text "Das Logo MUSS 20 mm breit sein."
+          BR (&93834768036296)
+          text "Das Logo MUSS linksbündig das Maß 3,2 mm vom linken Kartenrand und die Unterkante das Maß 8,00 mm vom oberen Kartenrand (Unterkante des Blocks der nationalen Farben) einhalten."
+          B (&93834768036600)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834768037144)
+        attr id "polarion_129"
+        text " "
+        SPAN (&93834768037624)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: Eine Bilddatei des gematik-Logos kann im Rahmen der Übermittlung der Personalisierungsdaten durch die gematik zur Verfügung gestellt werden."
+        text " "
+      text " "
+      DIV (&93834768038344)
+        attr id "Card-G2-A_3833"
+        text " "
+        P (&93834768038824)
+          B (&93834768039008)
+            text "Card-G2-A_3833 - Gestaltung des Farbfeldes der Prüfkarte eGK"
+        text " "
+        P (&93834768039432)
+          text "Das auffällige Farbfeld der Prüfkarte MUSS einheitlich gemäß der folgenden Vorgabe beschriftet und aufgebracht werden:"
+          TABLE (&93834768039736)
+            attr class "polarion-Document-table"
+            attr id "polarion_wiki macro name=table;params=header=no|border=no|width=100%"
+            attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+            text " "
+            TBODY (&93834768040568)
+              text " "
+              TR (&93834768040872)
+                text " "
+                TD (&93834768041176)
+                  attr style "text-align: left;vertical-align: top;width: 21.8182px;height: 17.2727px;padding: 2px;"
+                text " "
+                TD (&93834768041656)
+                  attr style "text-align: left;vertical-align: top;width: 141.818px;height: 17.2727px;padding: 2px;"
+                  text "Feldfarbe (CYMK):"
+                text " "
+                TD (&93834768042256)
+                  attr style "text-align: left;vertical-align: top;width: 556.364px;height: 17.2727px;padding: 2px;"
+                  text "C: 000; M: 100; Y: 100; K:000"
+                text " "
+              text " "
+              TR (&93834768042976)
+                text " "
+                TD (&93834768043280)
+                  attr style "text-align: left;vertical-align: top;width: 21.8182px;height: 17.2727px;padding: 2px;"
+                text " "
+                TD (&93834783607248)
+                  attr style "text-align: left;vertical-align: top;width: 141.818px;height: 17.2727px;padding: 2px;"
+                  text "Feldmaße:"
+                text " "
+                TD (&93834783607824)
+                  attr style "text-align: left;vertical-align: top;width: 556.364px;height: 17.2727px;padding: 2px;"
+                  text "18 mm hoch, 55 mm breit"
+                text " "
+              text " "
+              TR (&93834783608544)
+                text " "
+                TD (&93834783608848)
+                  attr style "text-align: left;vertical-align: top;width: 21.8182px;height: 16.3636px;padding: 2px;"
+                text " "
+                TD (&93834783609328)
+                  attr style "text-align: left;vertical-align: top;width: 141.818px;height: 16.3636px;padding: 2px;"
+                  text "Feldposition:"
+                text " "
+                TD (&93834783609928)
+                  attr style "text-align: left;vertical-align: top;width: 556.364px;height: 16.3636px;padding: 2px;"
+                  text "Rechtsbündig 85,60 (Kartenrand), waagerechte Mitte 27,50 mm vom oberen Kartenrand"
+                text " "
+              text " "
+              TR (&93834783610648)
+                text " "
+                TD (&93834783610952)
+                  attr style "text-align: left;vertical-align: top;width: 21.8182px;height: 36.3636px;padding: 2px;"
+                text " "
+                TD (&93834783611432)
+                  attr style "text-align: left;vertical-align: top;width: 141.818px;height: 36.3636px;padding: 2px;"
+                  text "Text:"
+                text " "
+                TD (&93834783612032)
+                  attr style "text-align: left;vertical-align: top;width: 556.364px;height: 36.3636px;padding: 2px;"
+                  text "Zeile 1: "Nur für","
+                  BR (&93834783612512)
+                  text "Zeile 2: "Prüfzwecke""
+                text " "
+              text " "
+              TR (&93834783613056)
+                text " "
+                TD (&93834783613360)
+                  attr style "text-align: left;vertical-align: top;width: 21.8182px;height: 17.2727px;padding: 2px;"
+                text " "
+                TD (&93834783613840)
+                  attr style "text-align: left;vertical-align: top;width: 141.818px;height: 17.2727px;padding: 2px;"
+                  text "Schrftart:"
+                text " "
+                TD (&93834783614440)
+                  attr style "text-align: left;vertical-align: top;width: 556.364px;height: 17.2727px;padding: 2px;"
+                  text "Verdana True Type, 18 pt fett Weiß"
+                text " "
+              text " "
+              TR (&93834783615160)
+                text " "
+                TD (&93834783615464)
+                  attr style "text-align: left;vertical-align: top;width: 21.8182px;height: 17.2727px;padding: 2px;"
+                text " "
+                TD (&93834783615944)
+                  attr style "text-align: left;vertical-align: top;width: 141.818px;height: 17.2727px;padding: 2px;"
+                  text "Ausrichtung:"
+                text " "
+                TD (&93834783616544)
+                  attr style "text-align: left;vertical-align: top;width: 556.364px;height: 17.2727px;padding: 2px;"
+                  text "Zeile 1 und 2 zentriert im Farbfeld"
+                text " "
+              text " "
+            text " "
+          text " "
+        DIV (&93834783617504)
+          attr style "margin-left: 160px;"
+        text " "
+        B (&93834783617984)
+          text "[<=]"
+        P (&93834783618288)
+        text " "
+      text " "
+      DIV (&93834783618712)
+        attr id "Card-G2-A_3834"
+        text " "
+        P (&93834783619192)
+          B (&93834783619376)
+            text "Card-G2-A_3834 - Schriftart und Position der Legenden der Prüfkarte eGK"
+        text " "
+        P (&93834783619800)
+          text "Für die Legenden MUSS einheitlich die Schriftart Verdana True Type 5 pt in Schwarz verwendet werden."
+          BR (&93834783620104)
+          text "Die Zeichenfolgen MÜSSEN für die Unterkante das Maß 52,00 mm vom oberen Kartenrand einhalten."
+          BR (&93834783620408)
+          text "Die Zeichenfolge „Test-IK“ MUSS linksbündig das Maß 3,2 mm vom linken Kartenrand einhalten."
+          BR (&93834783620712)
+          text "Die Zeichenfolge „Prüfkartennummer“ MUSS linksbündig das Maß 31,00 mm vom linken Kartenrand einhalten."
+          BR (&93834783621016)
+          text "Die Zeichenfolge „ICCSN“ MUSS linksbündig das Maß 58,80 mm vom linken Kartenrand einhalten."
+          B (&93834783621320)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834783621864)
+        attr id "A_14283"
+        text " "
+        P (&93834783622344)
+          B (&93834783622528)
+            text "A_14283 - Optische Kennzeichnung der Generation der Prüfkarte eGK"
+        text " "
+        P (&93834783622952)
+          text "Zur optischen Kennzeichnung der Generation der Prüfkarte MUSS für Prüfkarten der Generation G2 der Schriftzug „G 2“ und für Prüfkarten der Generation G2.1 der Schriftzug „G 2.1“ verwendet werden."
+          SPAN (&93834783623256)
+            attr style "background-color: #FFFF99;"
+          text " "
+          B (&93834783623736)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834783624280)
+        attr id "Card-G2-A_3835"
+        text " "
+        P (&93834783624760)
+          B (&93834783624944)
+            text "Card-G2-A_3835 - Schriftart und Position der Kennzeichnung der Generation der Prüfkarte eGK"
+        text " "
+        P (&93834783625368)
+          text "Für den Schriftzug zur Kennzeichnung der Generation der Prüfkarte MUSS die Schriftart Verdana True Type in der Größe 6 pt fett in Schwarz verwendet werden."
+          BR (&93834783625672)
+          text "Die Zeichenfolge MUSS rechtsbündig das Maß 80,80 mm vom linken Kartenrand und die Unterkante das Maß 10,50 mm vom oberen Kartenrand einhalten."
+          B (&93834783625976)
+            text "[<=]"
+        text " "
+      text " "
+      H4 (&93834783626520)
+        attr id "8.1.2"
+        text "8.1.2 Veränderbare optische Gestaltung"
+      text " "
+      DIV (&93834783627120)
+        attr id "Card-G2-A_3836"
+        text " "
+        P (&93834783627600)
+          B (&93834783627784)
+            text "Card-G2-A_3836 - Veränderbare Elemente der Vorderseite der Prüfkarte eGK"
+        text " "
+        P (&93834783628208)
+          text "Der Hersteller von Prüfkarten MUSS die optische Gestaltung der veränderlichen Elemente der Vorderseite der Prüfkarte gemäß Abb_PK_eGK_002 ausführen."
+          BR (&93834783628512)
+          text " "
+        DIV (&93834783628816)
+          attr style "text-align: center;"
+          text " "
+          BR (&93834783629296)
+          text " "
+          BR (&93834783629600)
+          text " "
+        text " "
+        P (&93834783630024)
+          attr class "polarion-rte-caption-paragraph"
+          attr id "polarion___3"
+          attr style "text-align: center;"
+          text "Abbildung"
+          SPAN (&93834783630856)
+            attr class "polarion-rte-caption"
+            attr data-sequence "Abbildung"
+            text "2"
+          text ": Abb_PK_eGK_002 Kartenvorderseite am Beispiel der Prüfkarte eGK G2.1"
+          BR (&93834783631632)
+          text "mit veränderlichen Elementen (Inhalte beispielhaft)"
+        text " "
+        B (&93834783632056)
+          text "[<=]"
+        P (&93834783632360)
+        text " "
+      text " "
+      DIV (&93834783632784)
+        attr id "Card-G2-A_3837"
+        text " "
+        P (&93834783633264)
+          B (&93834783633448)
+            text "Card-G2-A_3837 - Vorgabe Beschriftung Personalisierungsfeld der Prüfkarte eGK"
+        text " "
+        P (&93834783633872)
+          text "Das Personalisierungsfeld der Prüfkarte MUSS einheitlich gemäß der folgenden Vorgabe beschriftet werden:"
+          BR (&93834783634176)
+          text " "
+        DIV (&93834783634480)
+          attr style "margin-left: 160px;"
+        text " "
+        TABLE (&93834783634960)
+          attr class "polarion-Document-table"
+          attr id "polarion_wiki macro name=table;params=header=no|border=no|width=100%"
+          attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+          text " "
+          TBODY (&93834783635792)
+            text " "
+            TR (&93834783636096)
+              text " "
+              TD (&93834783636400)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"
+              text " "
+              TD (&93834783636880)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;"
+                text "Schrifttyp:"
+              text " "
+              TD (&93834783637480)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;"
+                text "Verdana True Type, 10 pt, Groß- und Kleinbuchstaben"
+              text " "
+            text " "
+            TR (&93834783638200)
+              text " "
+              TD (&93834783638504)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"
+              text " "
+              TD (&93834783638984)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;"
+                text "Zeilenabstand:"
+              text " "
+              TD (&93834783639584)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;"
+                text "2 pt zuzüglich Zeichengröße"
+              text " "
+            text " "
+            TR (&93834783640424)
+              text " "
+              TD (&93834783640728)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"
+              text " "
+              TD (&93834783641208)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;"
+                text "Zeilen:"
+              text " "
+              TD (&93834783641808)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;"
+                text "Zeile 1 - 3"
+              text " "
+            text " "
+            TR (&93834783642528)
+              text " "
+              TD (&93834783642832)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"
+              text " "
+              TD (&93834783643312)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;"
+                text "Farbe:"
+              text " "
+              TD (&93834783643912)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;"
+                text "Schwarz"
+              text " "
+            text " "
+            TR (&93834783644632)
+              text " "
+              TD (&93834783644936)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 18.1818px;padding: 2px;"
+              text " "
+              TD (&93834783645416)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 18.1818px;padding: 2px;"
+                text "Unterkante:"
+              text " "
+              TD (&93834783646016)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 18.1818px;padding: 2px;"
+                text "49,50 mm vom oberen Kartenrand (Unterkante 3. Zeile)"
+              text " "
+            text " "
+            TR (&93834783646736)
+              text " "
+              TD (&93834783647040)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"
+              text " "
+              TD (&93834783647520)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;"
+                text "Zeile 1:"
+              text " "
+              TD (&93834783648120)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;"
+                text "Die Zeichenfolge der Kennung der Prüfidentität mit maximal 28 Zeichen linksbündig gemäß dem linksbündigen Maß der Legende „Test-IK“"
+              text " "
+            text " "
+            TR (&93834783648840)
+              text " "
+              TD (&93834783649144)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 17.2727px;padding: 2px;"
+              text " "
+              TD (&93834783649624)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 17.2727px;padding: 2px;"
+                text "Zeile 2:"
+              text " "
+              TD (&93834783650224)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 17.2727px;padding: 2px;"
+                text "Die Zeichenfolge „Ablaufdatum:“ linksbündig gemäß dem linksbündigen Maß der Legende „Test-IK“"
+              text " "
+            text " "
+            TR (&93834783650944)
+              text " "
+              TD (&93834783651248)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"
+              text " "
+              TD (&93834783651728)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;"
+                text "Zeile 2:"
+              text " "
+              TD (&93834783652328)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;"
+                text "Die Datumsangabe zum Ablaufdatum linksbündig gemäß dem linksbündigen Maß der Legende „Prüfkartennummer“ im Format TT/MM/YYYY"
+              text " "
+            text " "
+            TR (&93834783653048)
+              text " "
+              TD (&93834783653352)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"
+              text " "
+              TD (&93834783653832)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;"
+                text "Zeile 3:"
+              text " "
+              TD (&93834783654432)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;"
+                text "9-stelliges Institutionskennzeichen (IK-Nummer) der Prüfkarteninstitution, linksbündig gemäß dem linksbündigen Maß der Legende „Test-IK“"
+              text " "
+            text " "
+            TR (&93834783655152)
+              text " "
+              TD (&93834783655456)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"
+              text " "
+              TD (&93834783655936)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;"
+                text "Zeile 3:"
+              text " "
+              TD (&93834783656536)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;"
+                text "10-stellige Versichertennummer der Prüfidentität, linksbündig gemäß dem linksbündigen Maß der Legende „Prüfkartennummer“"
+              text " "
+            text " "
+            TR (&93834783657256)
+              text " "
+              TD (&93834783657560)
+                attr style "text-align: left;vertical-align: top;width: 27.2727px;height: 37.2727px;padding: 2px;"
+              text " "
+              TD (&93834783658040)
+                attr style "text-align: left;vertical-align: top;width: 120px;height: 37.2727px;padding: 2px;"
+                text "Zeile 2 und 3:"
+              text " "
+              TD (&93834783658640)
+                attr style "text-align: left;vertical-align: top;width: 572.727px;height: 37.2727px;padding: 2px;"
+                text "20-stellige ICCSN, jeweils 10 Stellen pro Zeile linksbündig gemäß dem linksbündigen Maß der Legende „ICCSN“"
+              text " "
+            text " "
+          text " "
+        text " "
+        DIV (&93834783659600)
+          attr style "margin-left: 160px;"
+        text " "
+        B (&93834783660080)
+          text "[<=]"
+        P (&93834783660384)
+        text " "
+      text " "
+      DIV (&93834783660808)
+        attr id "Card-G2-A_3825"
+        text " "
+        P (&93834783661288)
+          B (&93834783661472)
+            text "Card-G2-A_3825 - Aufgedrucktes Ablaufdatum der Prüfkarte eGK"
+        text " "
+        P (&93834783661896)
+          text "Das aufgedruckte Ablaufdatum in Zeile 2 MUSS mit dem Ablaufdatum (validity – bis) des Zertifikats C.CH.AUT übereinstimmen."
+          BR (&93834783662200)
+          text " "
+          B (&93834783662504)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834783663048)
+        attr id "Card-G2-A_3838"
+        text " "
+        P (&93834783663528)
+          B (&93834783663712)
+            text "Card-G2-A_3838 - Aufgedruckte ICCSN der Prüfkarte eGK"
+        text " "
+        P (&93834783664136)
+          text "Die aufgedruckte Ziffernfolge der ICCSN MUSS mit der personalisierten ICCSN im Wertefeld des"
+          SPAN (&93834783664440)
+            attr style "font-style: italic;"
+            text "DO_ICCSN"
+          text "im Objekt MF/EF.GDO des Objektsystems übereinstimmen."
+          B (&93834783665040)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834783665584)
+        attr id "Card-G2-A_3839"
+        text " "
+        P (&93834783666064)
+          B (&93834783666248)
+            text "Card-G2-A_3839 - Aufgedrucktes Institutionskennzeichen der Prüfkarte eGK"
+        text " "
+        P (&93834783666672)
+          text "Das aufgedruckte Institutionskennzeichen (IK-Nummer) MUSS mit dem Element"
+          SPAN (&93834783666976)
+            attr style "font-style: italic;"
+            text "organizationalUnitName[OU=Institutionskennzeichen]"
+          text "des personalisierten Zertifikats C.CH.AUT der Prüfkarte übereinstimmen."
+          B (&93834783667576)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834783668120)
+        attr id "polarion_143"
+        text " "
+        SPAN (&93834783668600)
+          attr style "font-style: italic;font-size: 9pt;line-height: 1.5;"
+          text "Anmerkung: die IK-Nummer ist in Card-G2-A_3819 festgelegt"
+        text " "
+      text " "
+      DIV (&93834783669320)
+        attr id "Card-G2-A_3840"
+        text " "
+        P (&93834783669800)
+          B (&93834783669984)
+            text "Card-G2-A_3840 - Aufgedruckte Zeichenfolge der Kennung der Prüfidentität der Prüfkarte eGK"
+        text " "
+        P (&93834783670408)
+          text "Die aufgedruckte Zeichenfolge der Kennung der Prüfidentität MUSS mit dem Element"
+          SPAN (&93834783670712)
+            attr style "font-style: italic;"
+            text "subjectDN:CommonName"
+          text "des personalisierten Zertifikats C.CH.AUT der Prüfkarte übereinstimmen."
+          B (&93834783671312)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834783671856)
+        attr id "Card-G2-A_3841"
+        text " "
+        P (&93834783672336)
+          B (&93834781663096)
+            text "Card-G2-A_3841 - Aufgedruckte Versichertennummer der Prüfkarte eGK"
+        text " "
+        P (&93834781663400)
+          text "Die aufgedruckte Versichertennummer MUSS mit dem unveränderbaren Teil der KV-Nummer im Element"
+          SPAN (&93834781663704)
+            attr style "font-style: italic;"
+            text "subjectDN:organizationalUnitName [unveränderbarer Teil der KV-Nummer]"
+          text "des personalisierten Zertifikats C.CH.AUT der Prüfkarte übereinstimmen."
+          B (&93834781664304)
+            text "[<=]"
+        text " "
+      text " "
+      H3 (&93834781664848)
+        attr id "8.2"
+        text "8.2 Optische Gestaltung der Kartenrückseite"
+      text " "
+      DIV (&93834781665448)
+        attr id "Card-G2-A_3842"
+        text " "
+        P (&93834781665928)
+          B (&93834781666112)
+            text "Card-G2-A_3842 - Farbgebung der Kartenrückseite der Prüfkarte eGK"
+        text " "
+        P (&93834781666536)
+          text "Die Rückseite der Prüfkarte MUSS weiß sein."
+          B (&93834781666840)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834781667384)
+        attr id "Card-G2-A_3843"
+        text " "
+        P (&93834781667864)
+          B (&93834781668048)
+            text "Card-G2-A_3843 - Gestaltung der Kartenrückseite der Prüfkarte eGK"
+        text " "
+        P (&93834781668472)
+          text "Die Rückseite der Prüfkarte DARF NICHT bedruckt sein."
+          B (&93834781668776)
+            text "[<=]"
+        text " "
+      text " "
+      H2 (&93834781669320)
+        attr id "9"
+        text "9 Anhang A – Verzeichnisse"
+      text " "
+      H3 (&93834781669920)
+        attr id "9.1"
+        text "9.1 Abkürzungen"
+      text " "
+      P (&93834781670520)
+        attr id "polarion_65"
+      text " "
+      TABLE (&93834781671000)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=uid=66"
+        attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834781671832)
+          text " "
+          TR (&93834781672136)
+            text " "
+            TH (&93834781672440)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781672800)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Kürzel"
+              BR (&93834781673280)
+              text " "
+            text " "
+            TH (&93834781673704)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781674064)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Erläuterung"
+              BR (&93834781674544)
+              text " "
+            text " "
+          text " "
+          TR (&93834781675088)
+            text " "
+            TD (&93834781675392)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781675752)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "BSI"
+              BR (&93834781676232)
+              text " "
+            text " "
+            TD (&93834781676656)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781677016)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Bundesamt für die Sicherheit in der Informationstechnik"
+              BR (&93834781677496)
+              text " "
+            text " "
+          text " "
+          TR (&93834781678040)
+            text " "
+            TD (&93834781678344)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781678704)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "DF"
+              BR (&93834781679184)
+              text " "
+            text " "
+            TD (&93834781679608)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781679968)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Dedicated File"
+              BR (&93834781680448)
+              text " "
+            text " "
+          text " "
+          TR (&93834781680992)
+            text " "
+            TD (&93834781681296)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781681656)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "DO_ICCSN"
+              BR (&93834781682136)
+              text " "
+            text " "
+            TD (&93834781682560)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781682920)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Datenobjekt in EF.GDO. Enthält im Wertfeld die ICCSN"
+              BR (&93834781683400)
+              text " "
+            text " "
+          text " "
+          TR (&93834781683944)
+            text " "
+            TD (&93834781684248)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781684608)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "EF"
+              BR (&93834781685088)
+              text " "
+            text " "
+            TD (&93834781685512)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781685872)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Elementary File"
+              BR (&93834781686352)
+              text " "
+            text " "
+          text " "
+          TR (&93834781686896)
+            text " "
+            TD (&93834781687200)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781687560)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "eGK"
+              BR (&93834781688040)
+              text " "
+            text " "
+            TD (&93834781688464)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781688824)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "elektronische Gesundheitskarte"
+              BR (&93834781689304)
+              text " "
+            text " "
+          text " "
+          TR (&93834781689848)
+            text " "
+            TD (&93834781690152)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781690512)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "EHIC"
+              BR (&93834781690992)
+              text " "
+            text " "
+            TD (&93834781691416)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781691776)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Europäische Krankenversichertenkarte"
+              BR (&93834781692256)
+              text " "
+            text " "
+          text " "
+          TR (&93834781692800)
+            text " "
+            TD (&93834781693104)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781693464)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "ICCSN"
+              BR (&93834781693944)
+              text " "
+            text " "
+            TD (&93834781694368)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781694728)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Integrated Chip Card Serial Number"
+              BR (&93834781695208)
+              text " "
+            text " "
+          text " "
+          TR (&93834781695880)
+            text " "
+            TD (&93834781696064)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781696424)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "IIN"
+              BR (&93834781696904)
+              text " "
+            text " "
+            TD (&93834781697328)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781697688)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Issuer Identifier Number, Kennung des Kartenanbieters"
+              BR (&93834781698168)
+              text " "
+            text " "
+          text " "
+          TR (&93834781698712)
+            text " "
+            TD (&93834781699016)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 26.1932px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781699376)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "IK"
+              BR (&93834781699856)
+              text " "
+            text " "
+            TD (&93834781700280)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 26.1932px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781700640)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Kennzeichen für Leistungsträger und Leistungserbringer gemäß § 293 SGB V"
+              BR (&93834781701120)
+              text " "
+            text " "
+          text " "
+          TR (&93834781701664)
+            text " "
+            TD (&93834781701968)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781702328)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "KVNR"
+              BR (&93834781702808)
+              text " "
+            text " "
+            TD (&93834781703232)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781703592)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Krankenversichertennummer"
+              BR (&93834781704072)
+              text " "
+            text " "
+          text " "
+          TR (&93834781704616)
+            text " "
+            TD (&93834781704920)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781705280)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "PIN"
+              BR (&93834781705760)
+              text " "
+            text " "
+            TD (&93834781706184)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 24.375px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781706544)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Persönliche Identifikationsnummer"
+              BR (&93834781707024)
+              text " "
+            text " "
+          text " "
+          TR (&93834781707568)
+            text " "
+            TD (&93834781707872)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781708232)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "PUK"
+              BR (&93834781708712)
+              text " "
+            text " "
+            TD (&93834781709136)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781709496)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Pin Unblocking Key"
+              BR (&93834781709976)
+              text " "
+            text " "
+          text " "
+          TR (&93834781710520)
+            text " "
+            TD (&93834781710824)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781711184)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "TSP"
+              BR (&93834781711664)
+              text " "
+            text " "
+            TD (&93834781712088)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781712448)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Trusted Service Provider"
+              BR (&93834781712928)
+              text " "
+            text " "
+          text " "
+          TR (&93834781713472)
+            text " "
+            TD (&93834781713776)
+              attr style "text-align: left;vertical-align: top;width: 85.2841px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781714136)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "VSDM"
+              BR (&93834781714616)
+              text " "
+            text " "
+            TD (&93834781715040)
+              attr style "text-align: left;vertical-align: top;width: 505.284px;height: 23.4659px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781715400)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Versicherten-Stammdaten-Management"
+              BR (&93834781715880)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834781716664)
+        attr id "polarion_67"
+      text " "
+      H3 (&93834781717144)
+        attr id "9.2"
+        text "9.2 Abbildungsverzeichnis"
+      text " "
+      DIV (&93834781717744)
+        attr data-sequence "Abbildung"
+        attr id "polarion_wiki macro name=tof;params=uid=1"
+      text " "
+      DIV (&93834781718400)
+        attr id "toc_container"
+        text " "
+        P (&93834781718880)
+          attr class "toc_title"
+        H1 (&93834781719240)
+        P (&93834781719424)
+        text " "
+        LI (&93834781719728)
+          A (&93834781719912)
+            attr href "#polarion___2"
+            text "Abbildung 1: Abb_PK_eGK_001 Kartenvorderseite am Beispiel der Prüfkarte eGK  G2.1 mit unveränderlichen Elementen  "
+        text " "
+        LI (&93834781720512)
+          A (&93834781720696)
+            attr href "#polarion___3"
+            text "Abbildung 2: Abb_PK_eGK_002 Kartenvorderseite am Beispiel der Prüfkarte eGK G2.1 mit veränderlichen Elementen (Inhalte beispielhaft)"
+        text " "
+      text " "
+      H3 (&93834781721416)
+        attr id "9.3"
+        text "9.3 Tabellenverzeichnis"
+      text " "
+      DIV (&93834781722016)
+        attr data-sequence "Tabelle"
+        attr id "polarion_wiki macro name=tof;params=uid=2"
+      text " "
+      DIV (&93834781722672)
+        attr id "toc_container"
+        text " "
+        P (&93834781723152)
+          attr class "toc_title"
+        H1 (&93834781723512)
+        P (&93834781723696)
+        text " "
+        LI (&93834781724000)
+          A (&93834781724184)
+            attr href "#polarion___1"
+            text "Tabelle 1: TAB_PK_eGK_001: Versichertenstammdaten der Prüfkarte eGK"
+        text " "
+      text " "
+      H3 (&93834781724904)
+        attr id "9.4"
+        text "9.4 Referenzierte Dokumente"
+      text " "
+      H4 (&93834781725504)
+        attr id "9.4.1"
+        text "9.4.1 Dokumente der gematik"
+      text " "
+      P (&93834781726104)
+        attr id "polarion_151"
+        text "Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Die konkrete Version der Dokumente kann der Dokumentenlandkarte des Spezifikations-Releases entnommen werden. Diese wird zusammen mit den Dokumenten auf der Internetseite der gematik bereitgestellt"
+        BR (&93834781726584)
+        text " "
+      text " "
+      TABLE (&93834781727008)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=uid=68"
+        attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834781727840)
+          text " "
+          TR (&93834781728144)
+            text " "
+            TH (&93834781728448)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 212.557px;height: 26.1932px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808789792)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[Quelle]"
+              BR (&93834808790272)
+              text " "
+            text " "
+            TH (&93834808790696)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 375.284px;height: 26.1932px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808791056)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Herausgeber (Erscheinungsdatum): Titel"
+              BR (&93834808791536)
+              text " "
+            text " "
+          text " "
+          TR (&93834808792080)
+            text " "
+            TD (&93834808792384)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808792744)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_eGK_ObjSys_G2.1]"
+              BR (&93834808793224)
+              text " "
+            text " "
+            TD (&93834808793648)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808794008)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Spezifikation der elektronischen Gesundheitskarte eGK-Objektsystem für eGK der Generation 2.1"
+              BR (&93834808794488)
+              text " "
+            text " "
+          text " "
+          TR (&93834808795032)
+            text " "
+            TD (&93834808795336)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808795696)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemProdT_eGK_ObjSys_G2.1]"
+              BR (&93834808796176)
+              text " "
+            text " "
+            TD (&93834808796600)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808796960)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Produkttypsteckbrief Zulassungsobjekt eGK-Objektsystem Generation G2.1"
+              BR (&93834808797440)
+              text " "
+            text " "
+          text " "
+          TR (&93834808797984)
+            text " "
+            TD (&93834808798288)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemSpec_eGK_ObjSys]"
+            text " "
+            TD (&93834808798888)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gematik: Spezifikation der elektronischen Gesundheitskarte eGK-Objektsystem"
+            text " "
+          text " "
+          TR (&93834808799608)
+            text " "
+            TD (&93834808799912)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_ObjSys]"
+            text " "
+            TD (&93834808800512)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "gematik: Produkttypsteckbrief Zulassungsobjekt eGK-Objektsystem"
+            text " "
+          text " "
+          TR (&93834808801232)
+            text " "
+            TD (&93834808801536)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808801896)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_eGK_OPT]"
+              BR (&93834808802376)
+              text " "
+            text " "
+            TD (&93834808802800)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808803160)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Spezifikation der elektronischen Gesundheitskarte - Äußere Gestaltung für eGK der Generation 2"
+              BR (&93834808803640)
+              text " "
+            text " "
+          text " "
+          TR (&93834808804184)
+            text " "
+            TD (&93834808804488)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808804848)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_Karten_Fach_TIP_G2.1]"
+              BR (&93834808805328)
+              text " "
+            text " "
+            TD (&93834808805752)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 38.0114px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808806112)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Befüllvorschriften für die Plattformanteile der Karten der TI der Generation G2.1"
+              BR (&93834808806592)
+              text " "
+            text " "
+          text " "
+          TR (&93834808807136)
+            text " "
+            TD (&93834808807440)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808807800)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemRL_TSL_SP_CP]"
+              BR (&93834808808280)
+              text " "
+            text " "
+            TD (&93834808808704)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808809064)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Certificate Policy"
+              BR (&93834808809544)
+              text " "
+            text " "
+          text " "
+          TR (&93834808810088)
+            text " "
+            TD (&93834808810392)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808810752)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_CVC_TSP]"
+              BR (&93834808811232)
+              text " "
+            text " "
+            TD (&93834808811656)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808812016)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Spezifikation Trust Service Provider CVC"
+              BR (&93834808812496)
+              text " "
+            text " "
+          text " "
+          TR (&93834808813040)
+            text " "
+            TD (&93834808813344)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808813704)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_PKI]"
+              BR (&93834808814184)
+              text " "
+            text " "
+            TD (&93834808814608)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808814968)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Spezifikation PKI"
+              BR (&93834808815448)
+              text " "
+            text " "
+          text " "
+          TR (&93834808815992)
+            text " "
+            TD (&93834808816296)
+              attr style "text-align: left;vertical-align: top;width: 212.557px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808816656)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSysL_VSDM]"
+              BR (&93834808817136)
+              text " "
+            text " "
+            TD (&93834808817560)
+              attr style "text-align: left;vertical-align: top;width: 375.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808817920)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Systemspezifisches Konzept VSDM"
+              BR (&93834808818400)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834808819184)
+        attr id "polarion_70"
+      text " "
+      H4 (&93834808819664)
+        attr id "9.4.2"
+        text "9.4.2 Weitere Dokumente"
+      text " "
+      P (&93834808820264)
+        attr id "polarion_71"
+      text " "
+      TABLE (&93834808820744)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=uid=72"
+        attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834808821576)
+          text " "
+          TR (&93834808821880)
+            text " "
+            TH (&93834808822184)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 145.284px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808822576)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[Quelle]"
+              BR (&93834808823056)
+              text " "
+            text " "
+            TH (&93834808823480)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 443.466px;height: 18.9205px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808823840)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Herausgeber (Erscheinungsdatum): Titel"
+              BR (&93834808824320)
+              text " "
+            text " "
+          text " "
+          TR (&93834808824864)
+            text " "
+            TD (&93834808825168)
+              attr style "text-align: left;vertical-align: top;width: 145.284px;height: 57.1023px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808825528)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[RFC2119]"
+              BR (&93834808826008)
+              text " "
+            text " "
+            TD (&93834808826432)
+              attr style "text-align: left;vertical-align: top;width: 443.466px;height: 57.1023px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834808826792)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "RFC 2119 (März 1997): Key words for use in RFCs to Indicate Requirement Levels S. Bradner,"
+                BR (&93834808827272)
+                text " "
+              A (&93834808827576)
+                attr class "descriptionLink"
+                attr href "http://tools.ietf.org/html/rfc2119"
+                attr target "_blank"
+                text "http://tools.ietf.org/html/rfc2119"
+              BR (&93834808828408)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834808829192)
+        attr id "polarion_155"
+        text " "
+        BR (&93834808829672)
+        text " "
+      text " "
+
+
+   ====================
+   ATTRIBUTE STATISTICS
+   ====================
+
+   charset:: utf-8
+   class:: descriptionLink; polarion-Document-table; polarion-dle-wiki-block; polarion-dle-wiki-block-source; polarion-rte-caption; polarion-rte-caption-paragraph; toc_title
+   contenteditable:: false
+   data-keep-next:: true
+   data-sequence:: Abbildung; Tabelle
+   style:background-color: #F0F0F0; #FFFF99
+   style:border: 1px solid #CCCCCC
+   style:border-bottom: 1px solid #CCCCCC
+   style:border-collapse: collapse
+   style:border-left: 1px solid #CCCCCC
+   style:border-right: 1px solid #CCCCCC
+   style:border-top: 1px solid #CCCCCC
+   style:empty-cells: show
+   style:font-size: 10pt; 12pt; 28pt; 9pt
+   style:font-style: italic
+   style:font-weight: bold; normal
+   style:height: 16.3636px; 17.2727px; 18.1818px; 18.9205px; 18px; 19px; 23.4659px; 24.375px; 26.1932px; 36.3636px; 37.2727px; 38.0114px; 57.1023px
+   style:line-height: 1.2; 1.5
+   style:margin-left: 0px; 160px; 40px; auto
+   style:margin-right: auto
+   style:padding: 2px; 5px
+   style:text-align: center; left
+   style:text-decoration: underline
+   style:vertical-align: top
+   style:width: 100%; 120px; 141.818px; 145.284px; 15px; 21.8182px; 211.818px; 212.557px; 27.2727px; 325px; 368.182px; 375.284px; 443.466px; 505.284px; 521px; 54px; 556.364px; 572.727px; 60px; 62px; 80%; 85.2841px; 96px
+   target:: _blank
+
+
+   ================
+   CHILD STATISTICS
+   ================
+
+   A
+    _TEXT: 38 (&93834775860208)
+   B
+    _TEXT: 66 (&93834778134208)
+   BODY
+    DIV: 40 (&93834808902136)
+    H1: 2 (&93834808913120)
+    H2: 9 (&93834767736264)
+    H3: 19 (&93834767736864)
+    H4: 4 (&93834768015440)
+    P: 85 (&93834808892024)
+    TABLE: 4 (&93834808917624)
+    UL: 3 (&93834771065400)
+   DIV
+    B: 9 (&93834778160112)
+    BR: 3 (&93834778159808)
+    DIV: 6 (&93834808902792)
+    H1: 3 (&93834775859176)
+    LI: 37 (&93834775859664)
+    P: 86 (&93834775858816)
+    PRE: 1 (&93834808903448)
+    SPAN: 2 (&93834778158488)
+    TABLE: 2 (&93834777755168)
+    UL: 1 (&93834768000288)
+    _TEXT: 5 (&93834778158368)
+   H1
+    _TEXT: 2 (&93834808913480)
+   H2
+    _TEXT: 9 (&93834767736624)
+   H3
+    _TEXT: 19 (&93834767737224)
+   H4
+    _TEXT: 4 (&93834768015800)
+   HEAD
+    META: 1 (&93834808891120)
+    STYLE: 1 (&93834808890688)
+   HTML
+    BODY: 1 (&93834808891720)
+    HEAD: 1 (&93834808890384)
+   LI
+    A: 37 (&93834775859848)
+    BR: 3 (&93834768001200)
+    SPAN: 7 (&93834771066184)
+    _TEXT: 47 (&93834775861416)
+   OL
+   P
+    B: 57 (&93834778134024)
+    BR: 36 (&93834808892504)
+    SPAN: 56 (&93834808895216)
+    TABLE: 2 (&93834768026064)
+    _TEXT: 99 (&93834808915280)
+   PRE
+    TABLE: 1 (&93834808904280)
+   SPAN
+    BR: 4 (&93834808899784)
+    _TEXT: 172 (&93834808895576)
+   STYLE
+    _TEXT: 1 (&93834808890880)
+   TABLE
+    TBODY: 9 (&93834808904584)
+   TBODY
+    TR: 80 (&93834808904768)
+   TD
+    A: 1 (&93834808827576)
+    BR: 92 (&93834775848600)
+    SPAN: 103 (&93834775848120)
+    _TEXT: 66 (&93834808905256)
+   TH
+    BR: 10 (&93834808919904)
+    SPAN: 10 (&93834808919424)
+   THEAD
+   TR
+    TD: 178 (&93834808905072)
+    TH: 10 (&93834808919064)
+   UL
+    LI: 15 (&93834771065880)
+    UL: 7 (&93834771066904)
+   _DOCUMENT
+    HTML: 1 (&93834808890200)
+
+   --> consistency checked.
+
+
+   ===============
+   NODE STATISTICS
+   ===============
+
+   P       title nodes:       1
+   DIV     toc nodes:         3
+   TR      meta data nodes:   6
+   H1..H6  header nodes:      34
+   DIV/TR  requirement nodes: 0
+   IMG     image nodes:       0
+   TABLE   table nodes:       1
+
+

@@ -1,0 +1,176 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Betriebskonzept<br>Online-Produktivbetrieb
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemKPT_Betr
+Revision: 555995
+Stand: 16.12.2022
+Status: freigegeben
+Version: 3.19.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokuments
+[1.5]:                   #15-methodik
+[1.5.1]:                 #151-anforderungen
+[2]:                     #2-grundlagen-des-betriebs
+[2.1]:                   #21-gegenstand-des-betriebskonzepts
+[2.2]:                   #22-begriffserläuterungen
+[2.2.1]:                 #221-business-servicekatalog
+[2.2.2]:                 #222-technischer-kennzahlenkatalog
+[2.2.3]:                 #223-konfigurationen-von-produkten
+[2.2.4]:                 #224-organisatorische-service-level
+[2.2.5]:                 #225-unterstützungsleistungen-aller-ti-itsm-teilnehmer
+[2.2.6]:                 #226-service-verzeichnis
+[3]:                     #3-servicekonzept
+[3.1]:                   #31-begriffserläuterungen
+[3.1.1]:                 #311-ti-service
+[3.1.2]:                 #312-servicenehmer
+[3.2]:                   #32-übergreifendes-it-service-management-der-ti
+[3.3]:                   #33-ti-itsm-teilnehmer
+[3.3.1]:                 #331-definition
+[3.3.2]:                 #332-produktverantwortung-der-ti-itsm-teilnehmer
+[3.3.3]:                 #333-serviceverantwortung-sv-der-ti-itsm-teilnehmer
+[3.4]:                   #34-rollen-im-betrieb
+[3.4.1]:                 #341-allgemeine-rollen
+[3.4.1.1]:               #3411-gesamtverantwortlicher-ti-gti
+[3.4.1.2]:               #3412-anbieter
+[3.4.1.2.1]:             #34121-anbieterkonstellationen--unterauftragnehmer
+[3.4.1.3]:               #3413-betreiber
+[3.4.1.4]:               #3414-hersteller
+[3.4.1.4.1]:             #34141-hersteller-dezentraler-produkte
+[3.4.1.4.2]:             #34142-hersteller-zentraler-produkte
+[3.4.1.5]:               #3415-service-provider-ti-unterstützender-produkte
+[3.4.1.6]:               #3416-drittanbieter
+[3.4.1.7]:               #3417-dvo
+[3.4.2]:                 #342-rollen-in-der-gematik
+[3.4.2.1]:               #3421-gematik-test-in-der-tu
+[3.4.3]:                 #343-end-nutzer
+[3.4.3.1]:               #3431-anwender
+[3.4.3.2]:               #3432-versicherte
+[3.4.4]:                 #344-spezifische-ausprägungen-und-verpflichtungen-einzelner-rollen
+[3.4.4.1]:               #3441-anbieter-vpn-zugd
+[3.4.4.2]:               #3442-anbieter-epa-aktensystem
+[3.4.4.3]:               #3443-anbieter-service-monitoring
+[3.4.4.4]:               #3444-anbieter-basis-consumer
+[3.4.4.5]:               #3445-anbieter-ktr-consumer
+[3.4.4.6]:               #3446-anbieter-ktr-adv
+[3.4.4.7]:               #3447-anbieter-kom-le
+[3.4.4.8]:               #3448-anbieter-weitere-anwendungen
+[3.4.4.9]:               #3449-anbieter-anschlusspunkt-am-sgwszzp
+[3.4.4.10]:              #34410-anbieter-ti-messenger
+[3.4.4.11]:              #34411-hersteller-primärsysteme
+[3.5]:                   #35-servicemodell
+[3.5.1]:                 #351-servicekomponenten
+[3.5.2]:                 #352-servicezerlegung
+[3.5.3]:                 #353-mitwirkungsverpflichtung-im-ti-itsm-gemäß-gemrl_betr_ti
+[3.6]:                   #36-supportkonzept
+[3.6.1]:                 #361-begriffserläuterungen
+[3.6.1.1]:               #3611-supportverantwortung
+[3.6.1.2]:               #3612-lösungsverantwortung
+[3.6.2]:                 #362-rollen--funktionen-im-ti-support
+[3.6.2.1]:               #3621-user-help-desk-uhd
+[3.6.2.2]:               #3622-versicherten-help-desk-vhd
+[3.6.2.3]:               #3623-1st-level-support
+[3.6.2.4]:               #3624-2nd--3rd-level-support
+[3.6.2.5]:               #3625-single-point-of-contact-spoc-für-ti-itsm-teilnehmer
+[3.6.3]:                 #363-spezifische-ausprägungen
+[3.6.3.1]:               #3631-user-help-desk-anwendersupport
+[3.6.3.2]:               #3632-versicherten-help-desk-versichertensupport
+[3.6.3.3]:               #3633-erreichbarkeit-ti-itsm-teilnehmer
+[4]:                     #4-verantwortlichkeiten-und-leistungen-ti-itsm-teilnehmer
+[4.1]:                   #41-begriffserläuterungen
+[4.1.1]:                 #411-anbietertypsteckbrief
+[4.2]:                   #42-allgemeine-anforderungen
+[4.2.1]:                 #421-allgemeine-anforderungen-für-ti-itsm-teilnehmer
+[4.2.2]:                 #422-allgemeine-anforderungen-nur-für-anbieter-von-diensten
+[4.3]:                   #43-service-level-vorgangsübergreifend
+[4.3.1]:                 #431-begriffserläuterungen
+[4.3.1.1]:               #4311-quantil--erfüllungsgrad
+[4.3.1.2]:               #4312-reaktionszeit
+[4.3.1.3]:               #4313-lösungszeit
+[4.3.1.4]:               #4314-verifikationsfrist
+[4.3.2]:                 #432-incident-management
+[4.3.3]:                 #433-reporting
+[4.3.4]:                 #434-datenaufbewahrung
+[5]:                     #5-übergreifende-regelungen-für-betriebliche-kennzahlen-für-mobile-anwendungen-apps
+[6]:                     #6-anhang-a-–-performance-kenngrößen
+[7]:                     #7-anhang-b-–-verzeichnisse
+[7.1]:                   #71-abkürzungen
+[7.2]:                   #72-glossar
+[7.3]:                   #73-abbildungsverzeichnis
+[7.4]:                   #74-tabellenverzeichnis
+[7.5]:                   #75-referenzierte-dokumente
+[7.5.1]:                 #751-dokumente-der-gematik
+[7.5.2]:                 #752-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Img-001]:                                                                   (&93834764482688) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB1AAAANTCAYAAAFnUb...
+[Img-002]:                                                                   (&93834764484056) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATcAAAB0CAIAAABv++...
+[Img-003]:                                                                   (&93834777636664) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABMkAAAR2CAYAAAAmzO...
+[Img-004]:                                                                   (&93834785761720) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwIAAAMzCAYAAAAVmq...
+[Img-005]:                                                                   (&93834785771592) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAALGCAYAAADInt...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834768427072)
+[Tabelle-1]:             #Tabelle-1 (&93834781720488)
+[Tabelle-2]:             #Tabelle-2 (&93834764898640)
+[Tabelle-4]:             #Tabelle-4 (&93834777651008)
+[Tabelle-5]:             #Tabelle-5 (&93834785429392)
+[Tabelle-6]:             #Tabelle-6 (&93834785750576)
+[Tabelle-9]:             #Tabelle-9 (&93834785817568)
+[Tabelle-10]:            #Tabelle-10 (&93834783691264)
+[Tabelle-11]:            #Tabelle-11 (&93834765234256)
+[Tabelle-12]:            #Tabelle-12 (&93834771327376)
+[Tabelle-13]:            #Tabelle-13 (&93834781413432)
+[Tabelle-14]:            #Tabelle-14 (&93834768257904)
+[Tabelle-15]:            #Tabelle-15 (&93834768315696)
+[Tabelle-16]:            #Tabelle-16 (&93834768327720)
+[Tabelle-17]:            #Tabelle-17 (&93834765392480)
+[Tabelle-18]:            #Tabelle-18 (&93834765482672)
+[Tabelle-19]:            #Tabelle-19 (&93834765537920)
+[Tbl-018]:               #Tbl-018 (&93834765694568)
+[Tbl-019]:               #Tbl-019 (&93834765710104)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

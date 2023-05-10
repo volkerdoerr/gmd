@@ -1,0 +1,118 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>TI-Messenger-Fachdienst
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_TI-Messenger-FD
+Revision: 408371
+Stand: 01.10.2021
+Status: freigegeben
+Version: 1.0.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[3.1]:                   #31-nachbarsysteme
+[3.2]:                   #32-messenger-services
+[4]:                     #4-übergreifende-festlegungen
+[4.1]:                   #41-datenschutz-und-sicherheit
+[4.2]:                   #42-authentifizierung-von-nutzern
+[4.2.1]:                 #421-smartcard-idp-dienst
+[4.2.2]:                 #422-verwaltung-der-nutzersession
+[4.3]:                   #43-dns-namensauflösung
+[4.4]:                   #44-test
+[4.5]:                   #45-betrieb
+[4.5.1]:                 #451-performance
+[4.5.2]:                 #452-monitoring
+[5]:                     #5-funktionsmerkmale
+[5.1]:                   #51-umsetzung-der-matrix-api
+[5.2]:                   #52-funktionen-der-systemkomponenten
+[5.2.1]:                 #521-messenger-service
+[5.2.1.1]:               #5211-matrix-homeserver
+[5.2.1.2]:               #5212-messenger-proxy
+[5.2.1.3]:               #5213-passport-service
+[5.2.2]:                 #522-registrierungs-dienst
+[5.2.3]:                 #523-push-gateway
+[6]:                     #6-anhang-a-–-verzeichnisse
+[6.1]:                   #61-abkürzungen
+[6.2]:                   #62-glossar
+[6.3]:                   #63-abbildungsverzeichnis
+[6.4]:                   #64-tabellenverzeichnis
+[6.5]:                   #65-referenzierte-dokumente
+[6.5.1]:                 #651-dokumente-der-gematik
+[6.5.2]:                 #652-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Img-001]:                                                                   (&93834781683768) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAApQAAAHHCAYAAAABPc...
+[Abbildung-3]:           Funktionaler Aufbau des TI-Messenger-Fachdienstes   (&93834781772656) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA5MAAAOICAYAAABL/q...
+[Abbildung-4]:           Matrix-API des Messenger-Service                    (&93834770986032) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkkAAAGNCAYAAAAFEe...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775872560)
+[Tbl-002]:               #Tbl-002 (&93834781674696)
+[Tabelle-1]:             #Tabelle-1 (&93834772295696)
+[Tabelle-2]:             #Tabelle-2 (&93834764420808)
+[Tabelle-3]:             #Tabelle-3 (&93834764460032)
+[Tbl-006]:               #Tbl-006 (&93834771009224)
+[Tbl-007]:               #Tbl-007 (&93834781576048)
+[Tabelle-4]:             #Tabelle-4 (&93834781598304)
+[Tbl-009]:               #Tbl-009 (&93834781609984)
+[Tabelle-5]:             #Tabelle-5 (&93834781617968)
+[Tbl-011]:               #Tbl-011 (&93834781631424)
+[Tbl-012]:               #Tbl-012 (&93834783756256)
+[Tabelle-6]:             #Tabelle-6 (&93834783766720)
+[Tbl-014]:               #Tbl-014 (&93834783794200)
+[Tbl-015]:               #Tbl-015 (&93834783833576)
+[Tbl-016]:               #Tbl-016 (&93834783878216)
+[Tbl-017]:               #Tbl-017 (&93834783894408)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://matrix.org/docs/spec/]: https://matrix.org/docs/spec/ (&93834783948672)
+[https://matrix.org/docs/spec/server_server/r0.1.4]: https://matrix.org/docs/spec/server_server/r0.1.4 (&93834783951736)
+[https://datatracker.ietf.org/doc/html/rfc8225]: https://datatracker.ietf.org/doc/html/rfc8225 (&93834783954616)
+[https://openid.net/developers/specs/]: https://openid.net/developers/specs/ (&93834783957496)
+[https://owasp.org/www-project-proactive-controls/]: https://owasp.org/www-project-proactive-controls/ (&93834783960376)
+[https://github.com/matrix-org/matrix-doc/pull/3013]: https://github.com/matrix-org/matrix-doc/pull/3013 (&93834783962832)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

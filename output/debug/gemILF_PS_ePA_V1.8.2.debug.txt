@@ -1,0 +1,219 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Abbildung 1: ILF_ePA_Element_Context
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemILF_PS_ePA
+Revision: 548770
+Stand: 30.09.2021
+Status: freigegeben
+Version: 1.8.2
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[2.1]:                   #21-relevante-integrationsprofile
+[3]:                     #3-systemkontext
+[3.1]:                   #31-akteure-und-rollen
+[3.2]:                   #32-nachbarsysteme
+[4]:                     #4-übergreifende-festlegungen
+[4.1]:                   #41-webservice-kommunikation
+[4.2]:                   #42-dienstverzeichnisdienst
+[4.3]:                   #43-ereignisdienst
+[4.4]:                   #44-zugriffssteuerung
+[4.4.1]:                 #441-aufrufkontext
+[4.4.2]:                 #442-recordidentifier
+[4.4.3]:                 #443-status-aktenzugriff
+[5]:                     #5-funktionsmerkmale
+[5.1]:                   #51-epa-administration
+[5.1.1]:                 #511-aktenanbieter-ermitteln
+[5.1.1.1]:               #5111-schnittstelle
+[5.1.1.2]:               #5112-umsetzung
+[5.1.1.3]:               #5113-nutzung
+[5.1.2]:                 #512-aktenkonto-aktivieren
+[5.1.2.1]:               #5121-schnittstelle
+[5.1.2.2]:               #5122-umsetzung
+[5.1.2.3]:               #5123-nutzung
+[5.1.3]:                 #513-ad-hoc-berechtigung-erteilen
+[5.1.3.1]:               #5131-schnittstelle
+[5.1.3.2]:               #5132-umsetzung
+[5.1.3.3]:               #5133-nutzung
+[5.2]:                   #52-dokumentenmanagement
+[5.2.1]:                 #521-dokumente-einstellen
+[5.2.1.1]:               #5211-schnittstelle
+[5.2.1.2]:               #5212-umsetzung
+[5.2.1.3]:               #5213-nutzung
+[5.2.2]:                 #522-dokumente-suchen
+[5.2.2.1]:               #5221-schnittstelle
+[5.2.2.2]:               #5222-umsetzung
+[5.2.2.3]:               #5223-nutzung
+[5.2.3]:                 #523-dokumente-laden
+[5.2.3.1]:               #5231-schnittstelle
+[5.2.3.2]:               #5232-umsetzung
+[5.2.3.3]:               #5233-nutzung
+[5.2.4]:                 #524-dokumente-löschen
+[5.2.4.1]:               #5241-schnittstelle
+[5.2.4.2]:               #5242-umsetzung
+[5.2.4.3]:               #5243-nutzung
+[5.2.5]:                 #525-artefakte
+[5.2.5.1]:               #5251-namensräume
+[5.2.5.2]:               #5252-wsdls-und-schemata
+[5.2.6]:                 #526-testunterstützung
+[5.3]:                   #53-protokolle-und-benachrichtigungen
+[5.3.1]:                 #531-benachrichtigungen-erhalten
+[5.3.1.1]:               #5311-info-quelle-epa-administration
+[5.3.1.2]:               #5312-info-quelle-berechtigungs-abfrage
+[5.3.1.3]:               #5313-info-quelle-dokumentensuche
+[5.3.1.4]:               #5314-info-quelle-systeminformationsdienst
+[5.3.1.5]:               #5315-info-quelle-fehlermeldung
+[5.3.1.6]:               #5316-umsetzung
+[5.3.1.7]:               #5317-nutzung
+[5.3.2]:                 #532-übertragungsprotokolle-speichern
+[5.4]:                   #54-status--und-fehlermeldungen
+[5.4.1]:                 #541-statusinformationen
+[5.4.2]:                 #542-fehlerbehandlung
+[5.4.2.1]:               #5421-telematikerror
+[5.4.2.2]:               #5422-ihe-error
+[5.4.3]:                 #543-handlungs-empfehlungen-in-fehlerfällen
+[5.4.4]:                 #544-übersicht-möglicher-fehlermeldungen
+[5.4.4.1]:               #5441-fehlermeldungen-aus-dem-fachmodul-epa
+[5.4.4.2]:               #5442-fehlermeldungen-aus-dem-aktensystem-epa
+[6]:                     #6-informationsmodell
+[6.1]:                   #61-metadaten
+[6.2]:                   #62-selbstauskunft
+[6.3]:                   #63-wertebereiche
+[6.4]:                   #64-dokumentenformate-der-epa
+[6.4.1]:                 #641-contentprofile-notfalldatensatz-und-datensatz-persönliche-erklärungen
+[6.4.2]:                 #642-contentprofile-elektronischer-medikationsplan
+[6.4.3]:                 #643-contentprofile-arztbrief-nach-§-291f
+[6.4.4]:                 #644-strukturierte-dokumente
+[6.4.4.1]:               #6441-signatur-für-strukturierte-dokumentenformate-der-epa
+[7]:                     #7-ergänzende-funktionalitäten
+[7.1]:                   #71-empfehlung-zur-archivierung
+[8]:                     #8-anhang-a-–-verzeichnisse
+[8.1]:                   #81-abkürzungen
+[8.2]:                   #82-glossar
+[8.3]:                   #83-abbildungsverzeichnis
+[8.4]:                   #84-tabellenverzeichnis
+[8.5]:                   #85-referenzierte-dokumente
+[8.5.1]:                 #851-dokumente-der-gematik
+[8.5.2]:                 #852-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           ILF_ePA_Element_Context                             (&93834801622952) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYUAAAHvCAYAAAC7TM...
+[Abbildung-2]:           Abb_ILF_ePA_RecordIdentifier                        (&93834770997408) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAf4AAAFECAYAAADGPl...
+[Abbildung-3]:           Abb_ILF_ePA_Kombinierte_Anwendungsfälle_für_berei.. (&93834781693520) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlEAAAOHCAIAAACIDo...
+[Abbildung-4]:           Abb_ILF_ePA_getHomeCommunityRequest                 (&93834775093120) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiAAAAGPCAYAAABlK2...
+[Abbildung-5]:           Abb_ILF_PS_ePA_getHomeCommunityResponse             (&93834775096520) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdoAAAB0CAYAAAAihf...
+[Abbildung-6]:           Abb_ILF_ePA_Eingabeparameter_ActivateAccount        (&93834768058032) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWYAAADBCAYAAAD8SB...
+[Abbildung-7]:           Abb_ILF_ePA_RequestFacilityAuthorization            (&93834801522376) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxwAAAHnCAMAAAAFE6...
+[Abbildung-8]:           Abb_ILF_ePA_Ad-hoc-Berechtigung_erteilen            (&93834774931536) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxoAAAMuCAIAAAARye...
+[Img-009]:                                                                   (&93834774952496) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVsAAABFCAYAAADkZE...
+[Abbildung-9]:           Abb_ILF_ePA_Eingabeparameter_GetAuthorizationList   (&93834799990368) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVkAAAA2CAYAAABtJ+...
+[Abbildung-10]:          Abb_ILF_ePA_GetAuthorizationListResponse            (&93834799998744) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA18AAAC2CAYAAAAm5T...
+[Abbildung-11]:          Abb_ILF_ePA_Benachrichtigungen_GetAll_mit_Zugriff.. (&93834800114536) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAm8AAAMQCAIAAAD+Vx...
+[Abbildung-12]:          Abb_ILF_ePA_eAB-XML-Containerformat                 (&93834775534000) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAhUAAADcCAYAAADHnF...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834801498000)
+[Tabelle-1]:             #Tabelle-1 (&93834799846496)
+[Tbl-003]:               #Tbl-003 (&93834801628032)
+[Tabelle-2]:             #Tabelle-2 (&93834801640184)
+[Tabelle-3]:             #Tabelle-3 (&93834771010736)
+[Tabelle-4]:             #Tabelle-4 (&93834781667744)
+[Tabelle-5]:             #Tabelle-5 (&93834781698968)
+[Tabelle-6]:             #Tabelle-6 (&93834781727288)
+[Tabelle-7]:             #Tabelle-7 (&93834783647648)
+[Tbl-010]:               #Tbl-010 (&93834804571120)
+[Tabelle-8]:             #Tabelle-8 (&93834768032280)
+[Tabelle-9]:             #Tabelle-9 (&93834799229168)
+[Tabelle-10]:            #Tabelle-10 (&93834801532864)
+[Tabelle-11]:            #Tabelle-11 (&93834774944136)
+[Tabelle-12]:            #Tabelle-12 (&93834798958048)
+[Tabelle-13]:            #Tabelle-13 (&93834798976760)
+[Tabelle-14]:            #Tabelle-14 (&93834798996584)
+[Tabelle-15]:            #Tabelle-15 (&93834798406872)
+[Tabelle-16]:            #Tabelle-16 (&93834798436448)
+[Tabelle-17]:            #Tabelle-17 (&93834798465224)
+[Tbl-021]:               #Tbl-021 (&93834764427512)
+[Tbl-022]:               #Tbl-022 (&93834781756608)
+[Tabelle-18]:            #Tabelle-18 (&93834781778408)
+[Tabelle-19]:            #Tabelle-19 (&93834781802600)
+[Tabelle -20]:           #Tabelle -20 (&93834785757240)
+[Tabelle-21]:            #Tabelle-21 (&93834785794952)
+[Tbl-027]:               #Tbl-027 (&93834778238832)
+[Tabelle-22]:            #Tabelle-22 (&93834778256200)
+[Tbl-029]:               #Tbl-029 (&93834778299888)
+[Tbl-030]:               #Tbl-030 (&93834778311120)
+[Tabelle-23]:            #Tabelle-23 (&93834778325224)
+[Tabelle-24]:            #Tabelle-24 (&93834775719840)
+[Tabelle-25]:            #Tabelle-25 (&93834775743512)
+[Tbl-034]:               #Tbl-034 (&93834775779952)
+[Tbl-035]:               #Tbl-035 (&93834775789392)
+[Tabelle-26]:            #Tabelle-26 (&93834799066032)
+[Tabelle-27]:            #Tabelle-27 (&93834799084472)
+[Tabelle-28]:            #Tabelle-28 (&93834799128320)
+[Tabelle-29]:            #Tabelle-29 (&93834765228272)
+[Tabelle-30]:            #Tabelle-30 (&93834765315064)
+[Tabelle-31]:            #Tabelle-31 (&93834765363624)
+[Tabelle-32]:            #Tabelle-32 (&93834800038256)
+[Tabelle-33]:            #Tabelle-33 (&93834783795888)
+[Tabelle-34]:            #Tabelle-34 (&93834783815504)
+[Tabelle-35]:            #Tabelle-35 (&93834783844088)
+[Tabelle-36]:            #Tabelle-36 (&93834764257376)
+[Tabelle-37]:            #Tabelle-37 (&93834764291456)
+[Tabelle-38]:            #Tabelle-38 (&93834764327760)
+[Tabelle-39]:            #Tabelle-39 (&93834775294584)
+[Tabelle-40]:            #Tabelle-40 (&93834771282192)
+[Tabelle-41]:            #Tabelle-41 (&93834771407720)
+[Tabelle-42]:            #Tabelle-42 (&93834775492696)
+[Tabelle-43]:            #Tabelle-43 (&93834775546368)
+[Tbl-054]:               #Tbl-054 (&93834781415296)
+[Tbl-055]:               #Tbl-055 (&93834781432088)
+[Tbl-056]:               #Tbl-056 (&93834778090096)
+[Tbl-057]:               #Tbl-057 (&93834778128656)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://kbv.de]:        https://kbv.de (&93834768143464)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

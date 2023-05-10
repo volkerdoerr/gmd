@@ -1,0 +1,134 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>Systemprozesse der dezentralen TI
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_Systemprozesse_dezTI
+Revision: 548770
+Stand: 31.01.2022
+Status: freigegeben
+Version: 1.3.1
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokuments
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-leistungen
+[2.1]:                   #21-systemprozesse-für-den-zugriff-auf-smartcards-der-ti
+[2.1.1]:                 #211-die-realisierungsumgebung-des-cardproxy
+[2.1.1.1]:               #2111-env_tuc_card_secret_input-–-realisierung-eingabe-pin-geheimnis
+[2.1.1.2]:               #2112-env_tuc_card_to_card-–-realisierung-card-2-card
+[2.1.1.3]:               #2113-env_tuc_card_apdu_transport-–-realisierung-apdu-transport
+[2.1.2]:                 #212-konfiguration-und-statusinformationen
+[2.1.2.1]:               #2121-konfiguration-des-cardproxy
+[2.1.2.2]:               #2122-initialisierung-cardproxy-für-egk
+[2.1.2.3]:               #2123-initialisierung-cardproxy-für-sm-b
+[2.1.2.4]:               #2124-pl_tuc_card_information-–-gesammelte-statusinformationen-zu-einer-karte
+[2.1.2.5]:               #2125-pl_tuc_egk_status-–-gültigkeit-der-egk-prüfen
+[2.1.2.6]:               #2126-pl_tuc_card_reset-–-rücksetzen-einer-karte
+[2.1.3]:                 #213-zugriff-auf-smartcards-der-ti
+[2.1.3.1]:               #2131-pl_tuc_card_change_pin-–-pin-ändern
+[2.1.3.2]:               #2132-pl_tuc_card_enable_pin-–-pin-schutz-einschalten
+[2.1.3.3]:               #2133-pl_tuc_card_disable_pin-–-pin-schutz-abschalten
+[2.1.3.4]:               #2134-pl_tuc_card_unblock_pin-–-pin-mit-puk-entsperren
+[2.1.3.5]:               #2135-pl_tuc_card_verify_pin-–-benutzer-verifizieren
+[2.1.3.6]:               #2136-pl_tuc_card_activate_application-–-anwendung-aktivieren
+[2.1.3.7]:               #2137-pl_tuc_card_deactivate_application-–-anwendung-deaktivieren
+[2.1.3.8]:               #2138-pl_tuc_card_get_challenge-–-auslesen-einer-zufallszahl
+[2.1.3.9]:               #2139-pl_tuc_card_read_file-–-lesen-von-daten-aus-einer-smartcard
+[2.1.3.10]:              #21310-pl_tuc_card_write_file-–-schreiben-von-daten-auf-eine-smartcard
+[2.1.3.11]:              #21311-pl_tuc_card_update_file-–-aktualisieren-von-daten-in-einer-transparenten-datei-einer-smartcard
+[2.1.3.12]:              #21312-pl_tuc_card_delete_file-–-löschen-von-daten-auf-einer-smartcard
+[2.1.3.13]:              #21313-pl_tuc_card_erase_file-–-rücksetzen-des-inhalts-einer-transparenten-datei
+[2.1.3.14]:              #21314-pl_tuc_card_read_record-–-lesen-von-daten-aus-einer-strukturierten-datei
+[2.1.3.15]:              #21315-pl_tuc_egk_read_protocol-–-auslesen-des-zugriffprotokolls-der-egk
+[2.1.3.16]:              #21316-pl_tuc_card_write_record-–-schreiben-von-daten-in-eine-strukturierte-datei
+[2.1.3.17]:              #21317-pl_tuc_card_append_record-–-anfügen-von-daten-an-eine-strukturierte-datei
+[2.1.3.18]:              #21318-pl_tuc_egk_append_protocol-–-zugriff-auf-der-egk-protokollieren
+[2.1.3.19]:              #21319-pl_tuc_card_delete_record-–-löschen-von-daten-in-einer-strukturierten-datei
+[2.1.3.20]:              #21320-pl_tuc_card_erase_record-–-rücksetzen-eines-datensatzes-in-einer-strukturierten-datei
+[2.1.4]:                 #214-transparenter-zugriff-auf-eine-smartcard
+[2.1.4.1]:               #2141-pl_tuc_card_tc_open
+[2.1.4.2]:               #2142-pl_tuc_card_tc_send
+[2.1.4.3]:               #2143-pl_tuc_card_tc_close
+[2.2]:                   #22-kommunikation-und-vernetzung
+[2.2.1]:                 #221-pl_tuc_tls_secure_channel-–-tls-verbindung-mit-gegenseitiger-authentisierung
+[2.2.2]:                 #222-pl_tuc_net_name_resolution
+[2.2.3]:                 #223-pl_tuc_net_sync_time
+[2.3]:                   #23-zugriffe-auf-den-verzeichnisdienst
+[2.3.1]:                 #231-pl_tuc_vzd_bind---verbindung-aufbauen
+[2.3.2]:                 #232-pl_tuc_vzd_search---verzeichnis-abfragen
+[2.3.3]:                 #233-pl_tuc_vzd_unbind---verbindung-trennen
+[2.3.4]:                 #234-pl_tuc_vzd_abandon---verzeichnisabfrage-abbrechen
+[2.4]:                   #24-vertraulichkeit-authentizität-integrität
+[2.4.1]:                 #241-pl_tuc_sign_hash_nonqes-–-mit-ti-identität-nonqes-signieren
+[2.4.2]:                 #242-pl_tuc_hybrid_encipher-–-hybrid-verschlüsseln
+[2.4.3]:                 #243-pl_tuc_hybrid_decipher-–-hybrid-entschlüsseln
+[2.4.4]:                 #244-pl_tuc_symm_encipher-–-symmetrisch-verschlüsseln
+[2.4.5]:                 #245-pl_tuc_symm_decipher-–-symmetrisch-entschlüsseln
+[2.4.6]:                 #246-pl_tuc_sign_document_nonqes-–-dokument-nonqes-signieren
+[2.4.7]:                 #247-pl_tuc_verify_document_nonqes---nonqes-dokumentensignatur-verifizieren
+[2.5]:                   #25-leistungen-der-pki
+[2.5.1]:                 #251-pl_tuc_pki_verify_certificate-–-prüfung-eines-zertifikats-der-ti
+[3]:                     #3-anhang-a-–-verzeichnisse
+[3.1]:                   #31-abkürzungen
+[3.2]:                   #32-glossar
+[3.3]:                   #33-abbildungsverzeichnis
+[3.4]:                   #34-tabellenverzeichnis
+[3.5]:                   #35-referenzierte-dokumente
+[3.5.1]:                 #351-dokumente-der-gematik
+[3.5.2]:                 #352-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Systemprozesse der Basis-TI                         (&93834764164320) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAKQUAABKACAIAAABB4A...
+[Abbildung-2]:           Umgebungsspezifische Operationen                    (&93834764170664) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAJtAAABM+CAIAAADtl8...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775698216)
+[Tbl-002]:               #Tbl-002 (&93834810809032)
+[Tbl-003]:               #Tbl-003 (&93834775579440)
+[Tbl-004]:               #Tbl-004 (&93834775622584)
+[Tbl-005]:               #Tbl-005 (&93834775641720)
+[Tbl-006]:               #Tbl-006 (&93834775724392)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

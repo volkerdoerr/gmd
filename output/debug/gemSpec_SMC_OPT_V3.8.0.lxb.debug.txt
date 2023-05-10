@@ -1,0 +1,3296 @@
+
+   =========================
+   LXB SERIALIZER DEBUG MODE
+   =========================
+
+
+DOCUMENT _DOCUMENT
+  HTML (&93834765143096)
+    HEAD (&93834765143280)
+      text " "
+      STYLE (&93834765143584)
+        text "#toc_container {    background: #f9f9f9 none repeat scroll 0 0;    border: 1px solid #aaa;    display: table;    font-size: 95%;    margin-bottom: 1em;    padding: 20px;    width: 100%;}.toc_title {    font-weight: 700;    text-align: center;}#toc_container li, #toc_container ul, #toc_container ul li{    list-style: outside none none !important;}body {  font-family: Arial, Helvetica, sans-serif;  font-size: 14px;}/* ol {  list-style-type: none;  Remove default numbering}ol > li:before {  counter-increment: mycounter;  content: counter(mycounter) ". ";}ol:first-of-type {  counter-reset: mycounter;} */@media print { h1, h2 { break-before: page; } }"
+      text " "
+      META (&93834765144016)
+        attr charset "utf-8"
+      text " "
+    text " "
+    BODY (&93834765144616)
+      text " "
+      P (&93834765144920)
+        attr id "polarion_1"
+        text " "
+        BR (&93834765145400)
+        text " "
+      text " "
+      P (&93834765145824)
+        attr id "polarion_2"
+        text " "
+        BR (&93834765146304)
+        text " "
+      text " "
+      P (&93834765146728)
+        attr id "polarion_3"
+        text " "
+        BR (&93834765147208)
+        text " "
+      text " "
+      P (&93834765147632)
+        attr id "polarion_4"
+        text " "
+        BR (&93834765148112)
+        text " "
+      text " "
+      P (&93834765148536)
+        attr id "polarion_5"
+        text " "
+        BR (&93834765149016)
+        text " "
+      text " "
+      P (&93834765149440)
+        attr id "polarion_6"
+        text " "
+        SPAN (&93834765149920)
+          attr style "font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;"
+          text "Elektronische Gesundheitskarte und Telematikinfrastruktur"
+        text " "
+      text " "
+      P (&93834765150640)
+        attr id "polarion_7"
+        text " "
+        BR (&93834765151120)
+        text " "
+      text " "
+      P (&93834765151544)
+        attr id "polarion_8"
+        text " "
+        BR (&93834765152024)
+        text " "
+      text " "
+      P (&93834765152448)
+        attr id "polarion_9"
+        text " "
+        BR (&93834765152928)
+        text " "
+      text " "
+      P (&93834765153352)
+        attr id "polarion_10"
+      text " "
+      P (&93834765153832)
+        attr id "polarion_12"
+        text " "
+        BR (&93834765154312)
+        text " "
+      text " "
+      P (&93834765154736)
+        attr id "polarion_13"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834765155392)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Gemeinsame optische"
+        text " "
+      text " "
+      P (&93834765156112)
+        attr id "polarion_14"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834765156768)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Merkmale der SMC"
+        text " "
+      text " "
+      P (&93834765157488)
+        attr id "polarion_15"
+        text " "
+        BR (&93834765157968)
+        text " "
+      text " "
+      P (&93834765158392)
+        attr id "polarion_16"
+        text " "
+        BR (&93834765158872)
+        text " "
+      text " "
+      DIV (&93834765159296)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block1"
+        text " "
+        DIV (&93834765159952)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+        PRE (&93834765160608)
+          attr class "polarion-dle-wiki-block-source"
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_source"
+          text " "
+          TABLE (&93834765161440)
+            text " "
+            TBODY (&93834765161744)
+              TR (&93834765161928)
+                text " "
+                TD (&93834765162232)
+                  text "Version"
+                text " "
+                TD (&93834765162656)
+                  text "3.8.0"
+                text " "
+              text " "
+              TR (&93834765163200)
+                text " "
+                TD (&93834765163504)
+                  text "Revision"
+                text " "
+                TD (&93834765163928)
+                  text "591017"
+                text " "
+              text " "
+              TR (&93834765164472)
+                text " "
+                TD (&93834765164776)
+                  text "Stand"
+                text " "
+                TD (&93834765165200)
+                  text "30.06.2020"
+                text " "
+              text " "
+              TR (&93834765165744)
+                text " "
+                TD (&93834765166048)
+                  text "Status"
+                text " "
+                TD (&93834765166472)
+                  text "freigegeben"
+                text " "
+              text " "
+              TR (&93834765167016)
+                text " "
+                TD (&93834765167320)
+                  text "Klassifizierung"
+                text " "
+                TD (&93834765167744)
+                  text "öffentlich"
+                text " "
+              text " "
+              TR (&93834765168288)
+                text " "
+                TD (&93834765168592)
+                  text "Referenzierung"
+                text " "
+                TD (&93834765169016)
+                  text "gemSpec_SMC_OPT"
+                text " "
+              text " "
+        text " "
+      text " "
+      P (&93834765169800)
+        attr id "polarion_17"
+        text " "
+        BR (&93834765170280)
+        text " "
+      text " "
+      H1 (&93834765170704)
+        attr id "polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1494"
+        text "Dokumentinformationen"
+      text " "
+      P (&93834765171304)
+        attr id "polarion_25"
+        text " "
+        SPAN (&93834765171784)
+          attr style "font-weight: bold;"
+          text "Änderungen zur Vorversion"
+        text " "
+      text " "
+      P (&93834765172504)
+        attr id "polarion_26"
+        text "Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen."
+      text " "
+      P (&93834765173104)
+        attr id "polarion_11"
+      text " "
+      P (&93834765173584)
+        attr id "polarion_28"
+        text " "
+        SPAN (&93834765174064)
+          attr style "font-weight: bold;"
+          text "Dokumentenhistorie"
+        text " "
+      text " "
+      TABLE (&93834765174784)
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=1"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834765175440)
+          text " "
+          TR (&93834810721720)
+            text " "
+            TH (&93834810721904)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 67pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810722264)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Version"
+              BR (&93834810722744)
+              text " "
+            text " "
+            TH (&93834810723168)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 53pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810723528)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Stand"
+              BR (&93834810724008)
+              text " "
+            text " "
+            TH (&93834810724432)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 46pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810724792)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Kap./ Seite"
+              BR (&93834810725272)
+              text " "
+            text " "
+            TH (&93834810725696)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 265pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810726056)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Grund der Änderung, besondere Hinweise"
+              BR (&93834810726536)
+              text " "
+            text " "
+            TH (&93834810726960)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 86pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810727320)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Bearbeitung"
+              BR (&93834810727800)
+              text " "
+            text " "
+          text " "
+          TR (&93834810728344)
+            text " "
+            TD (&93834810728648)
+              attr style "vertical-align: top;width: 67pt;height: 42pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810729008)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "1.0.0"
+              BR (&93834810729488)
+              text " "
+            text " "
+            TD (&93834810729912)
+              attr style "vertical-align: top;width: 53pt;height: 42pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810730272)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "22.08.08"
+              BR (&93834810730752)
+              text " "
+            text " "
+            TD (&93834810731176)
+              attr style "vertical-align: top;width: 46pt;height: 42pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834810731536)
+              text " "
+            text " "
+            TD (&93834810731960)
+              attr style "vertical-align: top;width: 265pt;height: 42pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810732320)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "freigegeben"
+                BR (&93834810732800)
+                text "Die Version 1.0.0 wurde im Rahmen der Testmaßnahmen zu Rel. 2.3.4 erstellt."
+              BR (&93834810733104)
+              text " "
+            text " "
+            TD (&93834810733528)
+              attr style "vertical-align: top;width: 86pt;height: 42pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810733888)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834810734368)
+              text " "
+            text " "
+          text " "
+          TR (&93834810734912)
+            text " "
+            TD (&93834810735216)
+              attr style "vertical-align: top;width: 67pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810735576)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.0.0"
+              BR (&93834810736056)
+              text " "
+            text " "
+            TD (&93834810736480)
+              attr style "vertical-align: top;width: 53pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810736840)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "19.09.12"
+              BR (&93834810737320)
+              text " "
+            text " "
+            TD (&93834810737744)
+              attr style "vertical-align: top;width: 46pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834810738104)
+              text " "
+            text " "
+            TD (&93834810738528)
+              attr style "vertical-align: top;width: 265pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810738888)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "freigegeben"
+              BR (&93834810739368)
+              text " "
+            text " "
+            TD (&93834810739792)
+              attr style "vertical-align: top;width: 86pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810740152)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834810740632)
+              text " "
+            text " "
+          text " "
+          TR (&93834810741176)
+            text " "
+            TD (&93834810741480)
+              attr style "vertical-align: top;width: 67pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810741840)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.0.1"
+              BR (&93834810742320)
+              text " "
+            text " "
+            TD (&93834810742744)
+              attr style "vertical-align: top;width: 53pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810743104)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "28.11.13"
+              BR (&93834810743584)
+              text " "
+            text " "
+            TD (&93834810744008)
+              attr style "vertical-align: top;width: 46pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834810744368)
+              text " "
+            text " "
+            TD (&93834810744792)
+              attr style "vertical-align: top;width: 265pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810745152)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Einfügen Kapitel 2.4.4 mit AFO zu elektrophysikalischen Eigenschaften"
+              BR (&93834810745632)
+              text " "
+            text " "
+            TD (&93834810746056)
+              attr style "vertical-align: top;width: 86pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810746416)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834810746896)
+              text " "
+            text " "
+          text " "
+          TR (&93834810747440)
+            text " "
+            TD (&93834810747744)
+              attr style "vertical-align: top;width: 67pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834810748224)
+              attr style "vertical-align: top;width: 53pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810748584)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "23.01.14"
+              BR (&93834810749064)
+              text " "
+            text " "
+            TD (&93834810749488)
+              attr style "vertical-align: top;width: 46pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834810749968)
+              attr style "vertical-align: top;width: 265pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810750328)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Ergänzungen zu elektro-physikalischen Eigenschaften"
+              BR (&93834810750808)
+              text " "
+            text " "
+            TD (&93834810751232)
+              attr style "vertical-align: top;width: 86pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810751592)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834810752072)
+              text " "
+            text " "
+          text " "
+          TR (&93834810752616)
+            text " "
+            TD (&93834810752920)
+              attr style "vertical-align: top;width: 67pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834810753280)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.2.0"
+              BR (&93834810753760)
+              text " "
+            text " "
+            TD (&93834810754184)
+              attr style "vertical-align: top;width: 53pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775382512)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "21.02.14"
+              BR (&93834775382992)
+              text " "
+            text " "
+            TD (&93834775383416)
+              attr style "vertical-align: top;width: 46pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834775383776)
+              text " "
+            text " "
+            TD (&93834775384200)
+              attr style "vertical-align: top;width: 265pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775384560)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "freigegeben"
+              BR (&93834775385040)
+              text " "
+            text " "
+            TD (&93834775385464)
+              attr style "vertical-align: top;width: 86pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775385824)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834775386304)
+              text " "
+            text " "
+          text " "
+          TR (&93834775386848)
+            text " "
+            TD (&93834775387152)
+              attr style "vertical-align: top;width: 67pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775387512)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.2.1"
+              BR (&93834775387992)
+              text " "
+            text " "
+            TD (&93834775388416)
+              attr style "vertical-align: top;width: 53pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775388776)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "06.05.14"
+              BR (&93834775389256)
+              text " "
+            text " "
+            TD (&93834775389680)
+              attr style "vertical-align: top;width: 46pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834775390040)
+              text " "
+            text " "
+            TD (&93834775390464)
+              attr style "vertical-align: top;width: 265pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775390824)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Streichen der Vorgabe für die Bedruckung der Rückseite"
+              BR (&93834775391304)
+              text " "
+            text " "
+            TD (&93834775391728)
+              attr style "vertical-align: top;width: 86pt;height: 28pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775392088)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834775392568)
+              text " "
+            text " "
+          text " "
+          TR (&93834775393112)
+            text " "
+            TD (&93834775393416)
+              attr style "vertical-align: top;width: 67pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775393776)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.3.0"
+              BR (&93834775394256)
+              text " "
+            text " "
+            TD (&93834775394680)
+              attr style "vertical-align: top;width: 53pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775395040)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "06.06.14"
+              BR (&93834775395520)
+              text " "
+            text " "
+            TD (&93834775395944)
+              attr style "vertical-align: top;width: 46pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834775396304)
+              text " "
+            text " "
+            TD (&93834775396728)
+              attr style "vertical-align: top;width: 265pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775397088)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Einarbeitung Änderungen Iteration 3"
+              BR (&93834775397568)
+              text " "
+            text " "
+            TD (&93834775397992)
+              attr style "vertical-align: top;width: 86pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775398352)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834775398832)
+              text " "
+            text " "
+          text " "
+          TR (&93834775399376)
+            text " "
+            TD (&93834775399680)
+              attr style "vertical-align: top;width: 67pt;height: 22pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775400040)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.4.0"
+              BR (&93834775400520)
+              text " "
+            text " "
+            TD (&93834775400944)
+              attr style "vertical-align: top;width: 53pt;height: 22pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775401304)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "16.10.16"
+              BR (&93834775401784)
+              text " "
+            text " "
+            TD (&93834775402208)
+              attr style "vertical-align: top;width: 46pt;height: 22pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834775402568)
+              text " "
+            text " "
+            TD (&93834775402992)
+              attr style "vertical-align: top;width: 265pt;height: 22pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775403352)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Aufnahme SMC-B für Organisationen der Gesellschafter, Anpassungen gemäß Änderungsliste"
+              BR (&93834775403832)
+              text " "
+            text " "
+            TD (&93834775404256)
+              attr style "vertical-align: top;width: 86pt;height: 22pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775404616)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834775405096)
+              text " "
+            text " "
+          text " "
+          TR (&93834775405640)
+            text " "
+            TD (&93834775405944)
+              attr style "vertical-align: top;width: 67pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775406304)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.5.0"
+              BR (&93834775406784)
+              text " "
+            text " "
+            TD (&93834775407208)
+              attr style "vertical-align: top;width: 53pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775407568)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "06.02.17"
+              BR (&93834775408048)
+              text " "
+            text " "
+            TD (&93834775408472)
+              attr style "vertical-align: top;width: 46pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834775408832)
+              text " "
+            text " "
+            TD (&93834775409256)
+              attr style "vertical-align: top;width: 265pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775409616)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Einarbeitung gemäß Änderungsliste"
+              BR (&93834775410096)
+              text " "
+            text " "
+            TD (&93834775410520)
+              attr style "vertical-align: top;width: 86pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775410880)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834775411360)
+              text " "
+            text " "
+          text " "
+          TR (&93834775411904)
+            text " "
+            TD (&93834775412208)
+              attr style "vertical-align: top;width: 67pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775412568)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.6.0"
+              BR (&93834775413048)
+              text " "
+            text " "
+            TD (&93834775413472)
+              attr style "vertical-align: top;width: 53pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834775413832)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "18.12.18"
+              BR (&93834775414312)
+              text " "
+            text " "
+            TD (&93834775414736)
+              attr style "vertical-align: top;width: 46pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834808882248)
+              text " "
+            text " "
+            TD (&93834808882672)
+              attr style "vertical-align: top;width: 265pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834808883008)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "freigegeben"
+              BR (&93834808883488)
+              text " "
+            text " "
+            TD (&93834808883912)
+              attr style "vertical-align: top;width: 86pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834808884272)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834808884752)
+              text " "
+            text " "
+          text " "
+          TR (&93834808885296)
+            text " "
+            TD (&93834808885600)
+              attr style "vertical-align: top;width: 67pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834808885960)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "3.7.0"
+              BR (&93834808886440)
+              text " "
+            text " "
+            TD (&93834808886864)
+              attr style "vertical-align: top;width: 53pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834808887224)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "15.05.19"
+              BR (&93834808887704)
+              text " "
+            text " "
+            TD (&93834808888128)
+              attr style "vertical-align: top;width: 46pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              BR (&93834808888488)
+              text " "
+            text " "
+            TD (&93834808888912)
+              attr style "vertical-align: top;width: 265pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834808889272)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "freigegeben"
+              BR (&93834808889752)
+              text " "
+            text " "
+            TD (&93834808890176)
+              attr style "vertical-align: top;width: 86pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834808890536)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik"
+              BR (&93834808891016)
+              text " "
+            text " "
+          text " "
+          TR (&93834808891560)
+            text " "
+            TD (&93834808891864)
+              attr style "vertical-align: top;width: 67pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "3.8.0"
+            text " "
+            TD (&93834808892464)
+              attr style "vertical-align: top;width: 53pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "30.06.20"
+            text " "
+            TD (&93834808893064)
+              attr style "vertical-align: top;width: 46pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834808893544)
+              attr style "vertical-align: top;width: 265pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "Anpassungen gemäß Scope-Themen aus Systemdesign R4.0.0 "
+            text " "
+            TD (&93834808894144)
+              attr style "vertical-align: top;width: 86pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "gematik"
+            text " "
+          text " "
+        text " "
+      text " "
+      H1 (&93834808895104)
+        attr id "polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1495"
+        text "Inhaltsverzeichnis"
+      text " "
+      DIV (&93834808895704)
+        attr id "polarion_wiki macro name=toc"
+      text " "
+      DIV (&93834808896184)
+        attr id "toc_container"
+        text " "
+        P (&93834808896664)
+          attr class "toc_title"
+        H1 (&93834808897024)
+        P (&93834808897208)
+        text " "
+        LI (&93834808897512)
+          A (&93834808897696)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1494"
+            text "Dokumentinformationen"
+        text " "
+        LI (&93834808898296)
+          A (&93834808898480)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1495"
+            text "Inhaltsverzeichnis"
+        text " "
+        LI (&93834808899080)
+          text ":"
+          A (&93834808899384)
+            attr href "#1"
+            text "1 Einordnung des Dokumentes"
+        text " "
+        LI (&93834808899984)
+          text ": :"
+          A (&93834808900288)
+            attr href "#1.1"
+            text "1.1 Zielsetzung"
+        text " "
+        LI (&93834808900888)
+          text ": :"
+          A (&93834808901192)
+            attr href "#1.2"
+            text "1.2 Zielgruppe"
+        text " "
+        LI (&93834808901792)
+          text ": :"
+          A (&93834808902096)
+            attr href "#1.3"
+            text "1.3 Geltungsbereich"
+        text " "
+        LI (&93834808902696)
+          text ": :"
+          A (&93834808903000)
+            attr href "#1.4"
+            text "1.4 Abgrenzung des Dokuments"
+        text " "
+        LI (&93834808903600)
+          text ": :"
+          A (&93834808903904)
+            attr href "#1.5"
+            text "1.5 Methodik"
+        text " "
+        LI (&93834808904504)
+          text ":"
+          A (&93834808904808)
+            attr href "#2"
+            text "2 Gestaltungsmerkmale der (g)SMC der Generation 2"
+        text " "
+        LI (&93834808905408)
+          text ": :"
+          A (&93834808905712)
+            attr href "#2.1"
+            text "2.1 SMC-B"
+        text " "
+        LI (&93834808906312)
+          text ": : :"
+          A (&93834808906616)
+            attr href "#2.1.1"
+            text "2.1.1 Formfaktor der SMC-B der Generation 2"
+        text " "
+        LI (&93834808907216)
+          text ": : :"
+          A (&93834808907520)
+            attr href "#2.1.2"
+            text "2.1.2 Vorderseite der SMC-B der Generation 2"
+        text " "
+        LI (&93834808908120)
+          text ": :"
+          A (&93834808908424)
+            attr href "#2.2"
+            text "2.2 gSMC-K"
+        text " "
+        LI (&93834808909024)
+          text ": : :"
+          A (&93834808909328)
+            attr href "#2.2.1"
+            text "2.2.1 Vorderseite der gSMC-K der Generation 2"
+        text " "
+        LI (&93834808909928)
+          text ": :"
+          A (&93834808910232)
+            attr href "#2.3"
+            text "2.3 gSMC-KT"
+        text " "
+        LI (&93834808910832)
+          text ": : :"
+          A (&93834808911136)
+            attr href "#2.3.1"
+            text "2.3.1 Formfaktor der gSMC-KT der Generation 2"
+        text " "
+        LI (&93834808911736)
+          text ": : :"
+          A (&93834808912040)
+            attr href "#2.3.2"
+            text "2.3.2 Vorderseite der gSMC-KT der Generation 2"
+        text " "
+        LI (&93834808912640)
+          text ": :"
+          A (&93834808912944)
+            attr href "#2.4"
+            text "2.4 Sonstige optische Merkmale der (g)SMC"
+        text " "
+        LI (&93834808913544)
+          text ": :"
+          A (&93834808913848)
+            attr href "#2.5"
+            text "2.5 Elektrophysikalische Eigenschaften der (g)SMC"
+        text " "
+        LI (&93834808914448)
+          text ":"
+          A (&93834808914752)
+            attr href "#3"
+            text "3 Anhang A – Verzeichnisse"
+        text " "
+        LI (&93834801621088)
+          text ": :"
+          A (&93834801621392)
+            attr href "#3.1"
+            text "3.1 Abkürzungen"
+        text " "
+        LI (&93834801621992)
+          text ": :"
+          A (&93834801622296)
+            attr href "#3.2"
+            text "3.2 Glossar"
+        text " "
+        LI (&93834801622896)
+          text ": :"
+          A (&93834801623200)
+            attr href "#3.3"
+            text "3.3 Abbildungsverzeichnis"
+        text " "
+        LI (&93834801623800)
+          text ": :"
+          A (&93834801624104)
+            attr href "#3.4"
+            text "3.4 Referenzierte Dokumente"
+        text " "
+        LI (&93834801624704)
+          text ": : :"
+          A (&93834801625008)
+            attr href "#3.4.1"
+            text "3.4.1 Dokumente der gematik"
+        text " "
+        LI (&93834801625608)
+          text ": : :"
+          A (&93834801625912)
+            attr href "#3.4.2"
+            text "3.4.2 Weitere Dokumente"
+        text " "
+      text " "
+      H2 (&93834801626632)
+        attr id "1"
+        text "1 Einordnung des Dokumentes"
+      text " "
+      H3 (&93834801627232)
+        attr id "1.1"
+        text "1.1 Zielsetzung"
+      text " "
+      P (&93834801627832)
+        attr id "polarion_34"
+        text "Dieses Dokument beschreibt die gemeinsamen Merkmale bezüglich der optischen Gestaltung von (g)SMCs, die im Rahmen der Einführung der elektronischen Gesundheitskarte von verschiedenen Herausgebern ausgegeben werden."
+      text " "
+      P (&93834801628432)
+        attr id "polarion_35"
+        text "Eine (g)SMC im Sinne dieses Dokumentes ist eine Chipkarte, die"
+      text " "
+      UL (&93834801629032)
+        attr id "polarion_36"
+        text " "
+        LI (&93834801629512)
+          text "als organisationsbezogene SMC-B gemäß [gemSpec_SMC-B_ObjSys],"
+        text " "
+        LI (&93834801629936)
+          text "als gerätebezogene gSMC-K gemäß [gemSpec_gSMC-K_ObjSys] oder"
+        text " "
+        LI (&93834801630360)
+          text "als gerätebezogene gSMC-KT gemäß [gemSpec_gSMC-KT_ObjSys]"
+        text " "
+      text " "
+      P (&93834801630904)
+        attr id "polarion_37"
+        text "existiert. Sollte ein bestimmter Typ der (g)SMC gemeint sein, dann wird dieser nachfolgend immer explizit angegeben."
+      text " "
+      H3 (&93834801631504)
+        attr id "1.2"
+        text "1.2 Zielgruppe"
+      text " "
+      P (&93834801632104)
+        attr id "polarion_38"
+        text "Dieses Dokument richtet sich an Herausgeber und Produzenten von (g)SMCs."
+      text " "
+      H3 (&93834801632704)
+        attr id "1.3"
+        text "1.3 Geltungsbereich"
+      text " "
+      P (&93834801633304)
+        attr id "polarion_39"
+        text "Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens für die Gestaltung der Karten der Generation 2. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungsverfahren werden durch die gematik GmbH in gesonderten Dokumenten (z. B. Dokumentenlandkarte, Produkttypsteckbrief, Leistungsbeschreibung) festgelegt und bekannt gegeben."
+      text " "
+      P (&93834801633904)
+        attr id "polarion_40"
+        text " "
+        BR (&93834801634384)
+        text " "
+        SPAN (&93834801634688)
+          attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+          text "Schutzrechts-/Patentrechtshinweis"
+        text " "
+      text " "
+      P (&93834801635408)
+        attr id "polarion_41"
+        text " "
+        SPAN (&93834801635888)
+          attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+          text "Die nachfolgende Spezifikation ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Spezifikation in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der Spezifikation angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen."
+        text " "
+      text " "
+      H3 (&93834801636608)
+        attr id "1.4"
+        text "1.4 Abgrenzung des Dokuments"
+      text " "
+      P (&93834801637208)
+        attr id "polarion_42"
+        text "Dieses Dokument beschreibt nur die sektorübergreifend festgelegten Gestaltungsmerkmale. Die einzelnen Sektoren bzw. Herausgeber können weitere Vorgaben für die übrige Gestaltung der von ihnen herausgegebenen (g)SMC festlegen."
+      text " "
+      P (&93834801637808)
+        attr id "polarion_43"
+        text "Ferner werden keinerlei Vorgaben über die Verfahren zur Bedruckung der (g)SMC getroffen."
+      text " "
+      H3 (&93834801638408)
+        attr id "1.5"
+        text "1.5 Methodik"
+      text " "
+      P (&93834801639008)
+        attr id "polarion_44"
+        text "Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC 2119 [RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet."
+      text " "
+      P (&93834801639608)
+        attr id "polarion_45"
+        text "Sie werden im Dokument wie folgt dargestellt:"
+      text " "
+      P (&93834801640208)
+        attr id "polarion_46"
+        text " "
+        SPAN (&93834801640688)
+          attr style "font-weight: bold;"
+          text "<AFO-ID> - <Titel der Afo>"
+        BR (&93834801641168)
+        text "Text / Beschreibung"
+        BR (&93834801641472)
+        text " "
+        SPAN (&93834801641776)
+          attr style "font-weight: bold;"
+          text "["
+        text "<="
+        SPAN (&93834801642376)
+          attr style "font-weight: bold;"
+          text "]"
+        BR (&93834801642856)
+        text " "
+      text " "
+      P (&93834801643280)
+        attr id "polarion_47"
+        text "Dabei umfasst die Anforderung sämtliche zwischen Afo-ID und der Textmarke [<=] angeführten Inhalte."
+      text " "
+      P (&93834801643880)
+        attr id "polarion_48"
+      text " "
+      H2 (&93834801644360)
+        attr id "2"
+        text "2 Gestaltungsmerkmale der (g)SMC der Generation 2"
+      text " "
+      H3 (&93834801644960)
+        attr id "2.1"
+        text "2.1 SMC-B"
+      text " "
+      P (&93834801645560)
+        attr id "polarion_75"
+        text "Die Gestaltung der SMC-B richtet sich nach dem vorgesehenen Einsatzbereich. Die hauptsächliche Verwendung einer SMC-B ist der dauerhafte und rein kontaktbehaftete Einsatz in einem Kartenterminal. Darüber hinaus können SMC-B mit kontaktlosen Eigenschaften für die Verwendung mit kontaktlosen Kartenlesern erforderlich sein."
+        BR (&93834801646040)
+        text "SMC-B, deren COS/Objektsystem keine kontaktlose Schnittstelle realisiert, sind grundsätzlich im ID-1-Format mit herausbrechbarem ID-000-Teil auszuführen."
+      text " "
+      P (&93834801646464)
+        attr id "polarion_79"
+        text "SMC-B, deren COS/Objektsystem die Option kontaktlose Schnittstelle gemäß Option (SMC-B CL) aus [gemSpec_SMC-B_ObjSys_G2.1] realisiert, können durch Verwendung eines Kartenkörpers im Format ID-1 mit geeigneter Antenne für den kontaktlosen Einsatz vorgesehen sein. Werden diese kontaktlosen Eigenschaften niemals benötigt, kann das Format ID-1 ohne Antenne, jedoch mit herausbrechbarem ID-000-Teil verwendet werden."
+      text " "
+      P (&93834801647064)
+        attr id "polarion_53"
+      text " "
+      H4 (&93834801647544)
+        attr id "2.1.1"
+        text "2.1.1 Formfaktor der SMC-B der Generation 2"
+      text " "
+      DIV (&93834801648144)
+        attr id "Card-G2-A_2008-01"
+        text " "
+        P (&93834801648624)
+          B (&93834801648808)
+            text "Card-G2-A_2008-01 - Formfaktor SMC-B"
+        text " "
+        P (&93834801649232)
+          text "Eine SMC-B, die nicht für die Verwendung der kontaktlosen Schnittstelle vorgesehen ist, MUSS im Format ID-1"
+          SPAN (&93834801649536)
+            attr id "polarion-comment:66"
+          text "mit herausbrechbarem ID-000-Teil geliefert werden."
+          SPAN (&93834801650016)
+            attr id "polarion-comment:52"
+          BR (&93834801650376)
+          text " "
+          B (&93834801650680)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834801651224)
+        attr id "A_19492"
+        text " "
+        P (&93834801651704)
+          B (&93834801651888)
+            text "A_19492 - Formfaktor der SMC-B zur kontaktlosen Verwendung"
+        text " "
+        P (&93834801652312)
+          SPAN (&93834801652496)
+            attr style "font-size: 10pt;line-height: 1.5;"
+            text "Eine SMC-B, die für die Verwendung der kontaktlosen Schnittstelle vorgesehen ist, MUSS im ID-1-Format geliefert werden."
+            SPAN (&93834801652976)
+              attr id "polarion-comment:53"
+          text " "
+          B (&93834771050424)
+            text "[<=]"
+        text " "
+      text " "
+      H4 (&93834771050968)
+        attr id "2.1.2"
+        text "2.1.2 Vorderseite der SMC-B der Generation 2"
+      text " "
+      DIV (&93834771051568)
+        attr id "Card-G2-A_2009-01"
+        text " "
+        P (&93834771052048)
+          B (&93834771052232)
+            text "Card-G2-A_2009-01 - Layout Vorderseite SMC-B"
+        text " "
+        P (&93834771052656)
+          text "Die Vorderseite einer SMC-B, die nicht für die Verwendung der kontaktlosen Schnittstelle vorgesehen ist, MUSS das Basis-Layout"
+          SPAN (&93834771052960)
+            attr id "polarion-comment:54"
+          text "gemäß Abbildung Abb_SMCOPT_01 verwenden."
+          BR (&93834771053440)
+          text " "
+          BR (&93834771053744)
+          text " "
+          IMG (&93834771054048)
+            attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAADNCAYAAADAIgliAAAeOElEQVR4Ae2df5AcZZ3Gn0kCCRjJogQTfshSNbOGcQ+p4pCwexfgsI6aDZqN4CY5hTVW3Y4cZ+0kXoqge2eUNUm5hOwogrunR1IlZblYOP6RGaKnWapuN7HKU5S5PdwZrYQ7ZfUQIgESMLGv3u7pnu6et2e6Z2d2eqafrZpM9/v7+/n2PHnft9+3O6..."
+            attr style "margin-left: auto;margin-right: auto;display: block;"
+            attr title "5-17-screenshot-20190327-140423.png"
+          text " "
+        P (&93834771054880)
+          attr class "polarion-rte-caption-paragraph"
+          attr id "polarion___1"
+          attr style "text-align: center;"
+          text "Abbildung"
+          SPAN (&93834771055712)
+            attr class "polarion-rte-caption"
+            attr data-sequence "Abbildung"
+            text "1"
+          text ": Abb_SMCOPT_01 – Basis-Layout der SMC-B mit beispielhafter Kennzeichnung zur Abfallentsorgung"
+        text " "
+        BR (&93834771056608)
+        text " "
+        BR (&93834771056912)
+        text " "
+        B (&93834771057216)
+          text "[<=]"
+        P (&93834771057520)
+        text " "
+      text " "
+      DIV (&93834771057944)
+        attr id "A_19493"
+        text " "
+        P (&93834771058424)
+          B (&93834771058608)
+            text "A_19493 - Layout Vorderseite SMC-B zur kontaktlosen Verwendung"
+        text " "
+        P (&93834771059032)
+          text "Die Vorderseite einer SMC-B, die "
+          SPAN (&93834771059336)
+            attr style "font-size: 10pt;line-height: 1.5;"
+            text "für die Verwendung der kontaktlosen Schnittstelle vorgesehen ist, "
+          text "MUSS das Basis-Layout"
+          SPAN (&93834771059936)
+            attr id "polarion-comment:55"
+          text "gemäß Abbildung Abb_SMCOPT_12 verwenden."
+          BR (&93834771060416)
+          text " "
+          BR (&93834771060720)
+          text " "
+        DIV (&93834771061024)
+          attr style "text-align: center;"
+          text " "
+          IMG (&93834771061504)
+            attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAADNCAYAAAD9sGgEAAAe3klEQVR4Ae2dfZAb5X3Hvzq/4ASoHbDBdpxgEkmYjRKTFwbfHRgTIK58YazMJIedNj2YSW4xaZD5QwOES7HDtZioiU9pgOicTjk66ZSDNHLSO0H7R3BnznZoMqGJEM5JBDs29PJScF78Er/cdp7V2+5qpdPLStqVvprR3e4+z/N7fr/Pb/er1bPPrl..."
+            attr title "3-screenshot-20200417-150022.png"
+          text " "
+          P (&93834771062160)
+            attr class "polarion-rte-caption-paragraph"
+            attr id "polarion___2"
+            text "Abbildung"
+            SPAN (&93834771062816)
+              attr class "polarion-rte-caption"
+              attr data-sequence "Abbildung"
+              text "2"
+            text ": Abb_SMCOPT_12 – Basis-Layout der SMC-B  zur kontaktlosen Verwendung mit beispielhafter Kennzeichnung zur Abfallentsorgung"
+          text " "
+          P (&93834771063712)
+            attr class "polarion-rte-caption-paragraph"
+          text " "
+        text " "
+        P (&93834771064312)
+          attr class "polarion-rte-caption-paragraph"
+          attr style "text-align: center;"
+        text " "
+        B (&93834771064968)
+          text "[<=]"
+        P (&93834771065272)
+        text " "
+      text " "
+      P (&93834771065696)
+        attr id "polarion_54"
+        text "Um die Beschreibung zu erleichtern, werden die Kartenregionen folgendermaßen bezeichnet (Zahl in den roten Kreisen):"
+      text " "
+      P (&93834771066296)
+        attr id "polarion_18"
+      text " "
+      P (&93834771066776)
+        attr id "polarion_19"
+        attr style "text-align: center;"
+        text " "
+        IMG (&93834771067432)
+          attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUUAAADNCAYAAAAv4GJcAAAgAElEQVR4AezdCbhlV1Xu/Vnp+4RAQpO+D12AAEFABATjtQERaeUiCqJ44YoaFEQ/4arXSOMFFBAQAyKgchEesAFRpPHShRAgJKTvG9JV2kpTSaXO9/xWnfc4ambt5lRVsAI1n6fqVK299lpjjTnGf75jzrn3WbGwsLDQunbTTTe1z33uc+0Tn/hEO/..."
+        text " "
+      text " "
+      P (&93834771068032)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_22"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834771068864)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "3"
+        text ": Abb_SMCOPT_02 – Basis-Layout der SMC-B mit Kennzeichnung der Kartenregionen"
+      text " "
+      P (&93834771069760)
+        attr id "polarion_51"
+      text " "
+      P (&93834771070240)
+        attr data-keep-next "true"
+        attr id "polarion_58"
+        attr style "text-align: center;"
+        text " "
+        BR (&93834771071072)
+        text " "
+        IMG (&93834771071376)
+          attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAADNCAYAAAD9sGgEAAAgAElEQVR4Ae19f2wc133nZ2XHkZXYoeJLKjVIy7QkT1kzjnJuGpk8VNThrvJKaL25FIyE3oFWD+VICHArX28hOyAgu+DZTolW3KKItLwcbAGHutG19RoFuXL/kXQ4SkpQx0KzXdPcdcQ4uUTI1TAbJ7WSIp3Dd2a/s7OzM7uz82tnlt8ByDc7773v9/..."
+        text " "
+      text " "
+      P (&93834771071976)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_64"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834771072808)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "4"
+        text ": Abb_SMCOPT_13 – Basis-Layout der SMC-B zur kontaktlosen Verwendung mit Kennzeichnung der Kartenregionen"
+      text " "
+      P (&93834771073704)
+        attr id "polarion_21"
+        text " "
+        BR (&93834771074184)
+        text " "
+      text " "
+      DIV (&93834771074608)
+        attr id "Card-G2-A_2010"
+        text " "
+        P (&93834771075088)
+          B (&93834771075272)
+            text "Card-G2-A_2010 - Layout Vorderseite SMC-B, Ausweisnummer"
+        text " "
+        P (&93834771075696)
+        P (&93834771075880)
+          attr style "margin-left: 0px;"
+          SPAN (&93834771076240)
+            text "Auf die Vorderseite der SMC-B"
+          SPAN (&93834771076544)
+            text "MUSS"
+          SPAN (&93834771076848)
+            text "gemäß Abbildung"
+          SPAN (&93834771077152)
+            text "Abb_"
+          SPAN (&93834771077456)
+            text "SMCOPT_02, Re"
+          SPAN (&93834771077760)
+          SPAN (&93834771077944)
+            text "gion 1,"
+          SPAN (&93834771078248)
+            text "das Wort „Ausweisnummer“ und darüber linksbündig die Ausweisnummer auf"
+          SPAN (&93834771078552)
+          SPAN (&93834771078736)
+            text "ge"
+          SPAN (&93834771079040)
+          SPAN (&93834771079224)
+            text "druckt werden. Die Ausweisnummer ist zehnstellig und besteht aus den"
+          SPAN (&93834771079528)
+            text "letzten zehn Ziffern der ICCSN."
+        text " "
+        B (&93834771079952)
+          text "[<=]"
+        P (&93834771080256)
+        text " "
+      text " "
+      DIV (&93834771080680)
+        attr id "Card-G2-A_2011"
+        text " "
+        P (&93834771081160)
+          B (&93834771081344)
+            text "Card-G2-A_2011 - Layout Vorderseite SMC-B, Gültigkeitszeitraum"
+        text " "
+        P (&93834771081768)
+        P (&93834771081952)
+          attr style "margin-left: 0px;"
+          SPAN (&93834771082312)
+            text "Auf die Vorderseite der"
+          SPAN (&93834771082616)
+            text "S"
+          SPAN (&93834771082920)
+            text "MC-B"
+          SPAN (&93834799830512)
+            text "SOLL"
+          SPAN (&93834799830816)
+            text "gemäß Abbildung"
+          SPAN (&93834799831120)
+            text "Abb_SMC"
+          SPAN (&93834799831424)
+            text "OPT_02, Region 2,"
+          SPAN (&93834799831728)
+            text "das Wort „Gültigkeitszeitraum“ und darüber linksbündig der Gültigkeitszeitraum aufgedruckt werden."
+        P (&93834799832032)
+          attr style "margin-left: 0px;"
+          SPAN (&93834799832368)
+            text "Der Gültigkeitszeitraum ist der Gültigkeitszeitraum der X.509"
+          SPAN (&93834799832672)
+            text "-"
+          SPAN (&93834799832976)
+            text "Zertifikate der SMC-B und setzt sich wie folgt zusammen:"
+        text " "
+        UL (&93834799833400)
+          text " "
+          LI (&93834799833704)
+            P (&93834799833888)
+              SPAN (&93834799834072)
+                text "Erster Tag der Gültigkeit in der Form „TT.MM.JJJJ“ (Tag und Monat je zwei"
+              SPAN (&93834799834376)
+              SPAN (&93834799834560)
+                text "stellig ggf. mit vorangestellter Null, Jahr vierstellig) bzw. je nach Heraus"
+              SPAN (&93834799834864)
+              SPAN (&93834799835048)
+                text "geber auch „TT.MM.JJ“ (Jahr nur zweistellig)."
+          text " "
+          LI (&93834799835472)
+            P (&93834799835656)
+              SPAN (&93834799835840)
+                text "Einem Bindestrich als Trennzeichen ohne Leerzeichen zw. Begin"
+              SPAN (&93834799836144)
+                text "n"
+              SPAN (&93834799836448)
+                text "und Ende des Gültigkeitszeitraumes"
+          text " "
+          LI (&93834799836872)
+            P (&93834799837056)
+              SPAN (&93834799837240)
+                text "Letzter Tag der Gültigkeit (Form wie"
+              SPAN (&93834799837544)
+                text "e"
+              SPAN (&93834799837848)
+                text "rster Tag der Gültigkeit)."
+              SPAN (&93834799838152)
+                text " "
+          text " "
+        text " "
+        B (&93834799838696)
+          text "[<=]"
+        P (&93834799839000)
+        text " "
+      text " "
+      DIV (&93834799839424)
+        attr id "Card-G2-A_2012"
+        text " "
+        P (&93834799839904)
+          B (&93834799840088)
+            text "Card-G2-A_2012 - Layout Vorderseite SMC-B, Profil"
+        text " "
+        P (&93834799840512)
+        P (&93834799840696)
+          attr style "margin-left: 0px;"
+          SPAN (&93834799841056)
+            text "Auf die Vorderseite der SMC-B"
+          SPAN (&93834799841360)
+            text "MUSS"
+          SPAN (&93834799841664)
+            text "gemäß Abbildung"
+          SPAN (&93834799841968)
+            text "Abb_"
+          SPAN (&93834799842272)
+            text "SMCOPT_02, Re"
+          SPAN (&93834799842576)
+          SPAN (&93834799842760)
+            text "gion"
+          SPAN (&93834799843064)
+            text " "
+          SPAN (&93834799843368)
+            text "3,"
+          SPAN (&93834799843672)
+            text "das Wort „Profil“ und rechtsbündig darüb"
+          SPAN (&93834799843976)
+            text "er die"
+          SPAN (&93834799844280)
+            text "Profilbezeichnung"
+          SPAN (&93834799844584)
+            text "des organi"
+          SPAN (&93834799844888)
+          SPAN (&93834799845072)
+            text "sa"
+          SPAN (&93834799845376)
+          SPAN (&93834799845560)
+            text "tions"
+          SPAN (&93834799845864)
+          SPAN (&93834799846048)
+            text "bezogenen Profils aufgedruckt werden"
+          SPAN (&93834799846352)
+            text "."
+          SPAN (&93834799846656)
+            text " "
+          SPAN (&93834799846960)
+            text "SMC-Bs, die keinem Profil"
+          SPAN (&93834799847264)
+            text "zugeordnet werden und damit keine Rechte zum Zugriff auf die eGK besitzen, MÜSSEN anstelle der"
+          SPAN (&93834799847568)
+            text "Profilbezeichnung"
+          SPAN (&93834799847872)
+            text "den Aufdruck „-“ erhalten."
+        P (&93834799848176)
+          attr style "margin-left: 0px;"
+          SPAN (&93834799848536)
+            text "Die Profilbezeichnung ist die auf den Text „CHA.“ folgende Zeichenkette in der Spalte Zugriffsprofil der Tabelle „Tab_PKI_254 Zugriffsprofile für eine Rollenauthentisierung“."
+        text " "
+        B (&93834799848960)
+          text "[<=]"
+        P (&93834799849264)
+        text " "
+      text " "
+      DIV (&93834799849688)
+        attr id "Card-G2-A_2013"
+        text " "
+        P (&93834799850168)
+          B (&93834799850352)
+            text "Card-G2-A_2013 - Ausrichtung Text Regionen 1-3 SMC-B"
+        text " "
+        P (&93834799850776)
+        P (&93834799850960)
+          attr style "margin-left: 0px;"
+          SPAN (&93834799851320)
+            text "Die Angaben aus den Regionen 1 bis 3"
+          SPAN (&93834799851624)
+            text "gemäß Abbildung"
+          SPAN (&93834799851928)
+            text "Abb_"
+          SPAN (&93834799852232)
+            text "SMCOPT_02"
+          SPAN (&93834799852536)
+            text "MÜSSEN einheitlich an einer waagerechten Linie im unteren Bereich der SMC-B aus"
+          SPAN (&93834799852840)
+          SPAN (&93834799853024)
+            text "gerichtet werden."
+        text " "
+        B (&93834799853448)
+          text "[<=]"
+        P (&93834799853752)
+        text " "
+      text " "
+      DIV (&93834799854176)
+        attr id "Card-G2-A_2014"
+        text " "
+        P (&93834799854656)
+          B (&93834799854840)
+            text "Card-G2-A_2014 - Layout Vorderseite SMC-B, ID-000-Bereich"
+        text " "
+        P (&93834799855264)
+          text "Rechts vom Chip MÜSSEN gemäß Abbildung Abb_SMCOPT_02, Region 4, folgende Werte rechtsbündig und um 90° nach links gedreht auf den ID-000-Bereich der SMC-B aufgedruckt werden:"
+          BR (&93834799855568)
+          text " "
+        UL (&93834799855872)
+          text " "
+          LI (&93834799856176)
+            text "Ende der Gültigkeit    "
+            BR (&93834799856480)
+            text "In der ersten Zeile ist das Ende des Gültigkeitszeitraums im Format „TT.MM.JJJJ“ (Tag und Monat je zweistellig ggf. mit vorangestellter Null, Jahr vierstellig) aufzubringen."
+            BR (&93834799856784)
+            text " "
+          text " "
+        text " "
+        UL (&93834799857328)
+          text " "
+          LI (&93834799857632)
+            text "ICCSN"
+            BR (&93834799857936)
+            text "In der zweiten Zeile stehen die ersten zehn Ziffern der ICCSN. In der dritten Zeile stehen die letzten zehn Ziffern der ICCSN."
+            BR (&93834799858240)
+            text " "
+          text " "
+          LI (&93834799858664)
+            text "Generation, Kartentyp und Profilbezeichnung    "
+            BR (&93834799858968)
+            text "In der vierten Zeile stehen die Generation, der Kartentyp und das Profil. Dabei gilt folgender Aufbau:"
+            BR (&93834799859272)
+            text " "
+          text " "
+          UL (&93834799859696)
+            text " "
+            LI (&93834799860000)
+              text "Ein „G“ gefolgt von der Generationsnummer des Objektsystems (2 bzw. 2.1)"
+              SPAN (&93834799860304)
+                attr id "polarion-comment:63"
+              BR (&93834799860664)
+              text " "
+            text " "
+            LI (&93834799861088)
+              text "Ein Leerzeichen"
+              BR (&93834799861392)
+              text " "
+            text " "
+            LI (&93834799861816)
+              text "Die Kennzeichnung des Kartentyps: B"
+              BR (&93834799862120)
+              text " "
+            text " "
+            LI (&93834799862544)
+              text "Ein Bindestrich"
+              BR (&93834799862848)
+              text " "
+            text " "
+            LI (&93834799905408)
+              text "Die Profilbezeichnung des personen- bzw. organisationsbezogenen Profils. Als Profilbezeichnung ist die auf den Text „CHA.“ folgende Zeichenkette in der Spalte Zugriffsprofil der Tab_PKI_254 zu verwenden. Bei SMC-Bs, die keinem Profil zugeordnet werden, wird hinter dem ersten ein weiterer Bindestrich aufgedruckt."
+              BR (&93834799905712)
+              text " "
+            text " "
+          text " "
+        text " "
+        B (&93834799906376)
+          text "[<=]"
+        P (&93834799906680)
+        text " "
+      text " "
+      DIV (&93834799907104)
+        attr id "Card-G2-A_2015"
+        text " "
+        P (&93834799907584)
+          B (&93834799907768)
+            text "Card-G2-A_2015 - Schriftgröße ID-000 SMC-B"
+        text " "
+        P (&93834799908192)
+        P (&93834799908376)
+          attr style "margin-left: 0px;"
+          SPAN (&93834799908736)
+            text "Für die Bedruckung des ID-000"
+          SPAN (&93834799909040)
+            text "-"
+          SPAN (&93834799909344)
+            text "Bereichs"
+          SPAN (&93834799909648)
+            text "der Vorderseite der SMC-B"
+          SPAN (&93834799909952)
+            text "MUSS eine"
+          SPAN (&93834799910256)
+            text "nicht"
+          SPAN (&93834799910560)
+            text "proportionale Schriftart (z.B. Courier) in einer Größe verwendet werden, die den zur Verfügung stehenden Platz optimal ausnutzt."
+        text " "
+        B (&93834799910984)
+          text "[<=]"
+        P (&93834799911288)
+        text " "
+      text " "
+      DIV (&93834799911712)
+        attr id "A_19494"
+        text " "
+        P (&93834799912192)
+          B (&93834799912376)
+            text "A_19494 - Layout Vorderseite SMC-B, CAN"
+        text " "
+        P (&93834799912800)
+          text "Auf der Vorderseite der SMC-B, die für die Verwendung der kontaktlosen Schnittstelle vorgesehen ist, MUSS gemäß Abbildung"
+          SPAN (&93834799913104)
+            attr id "polarion-comment:59"
+          text "Abb_SMCOPT_13, Region 1, das Wort "CAN" und linksbündig darüber der Wert der CAN aufgedruckt werden. Dieser MUSS mit dem Attribut"
+          SPAN (&93834799913584)
+            attr style "font-style: italic;"
+            text "can"
+          text "des Objekts SK.CAN übereinstimmen."
+          BR (&93834799914184)
+          text "Die Platzierung erfolgt oberhalb und linksbündig zu den Angaben zur Ausweisnummer."
+          BR (&93834799914488)
+          text " "
+          B (&93834799914792)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834799915336)
+        attr id "A_19963"
+        text " "
+        P (&93834799915816)
+          B (&93834799916000)
+            text "A_19963 - Layout Vorderseite SMC-B, Angabe der Generation"
+        text " "
+        P (&93834799916424)
+          text "Auf der Vorderseite der SMC-B, die für die Verwendung der kontaktlosen Schnittstelle vorgesehen ist, MUSS gemäß"
+          SPAN (&93834799916728)
+            attr id "polarion-comment:64"
+          text "Abbildung Abb_SMCOPT_13, Region 3, das Wort "Generation" und rechtsbündig darüber ein "G" gefolgt von der Generationsnummer aufgedruckt werden."
+          B (&93834799917208)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834799917752)
+        attr id "polarion_23"
+        text "Die Wahl der Schriftart, der Schriftgröße und des Schnitts für die Bedruckung des ID-1-Bereichs der SMC-B obliegt jedem SMC-Herausgeber."
+      text " "
+      P (&93834799918352)
+        attr id "polarion_60"
+      text " "
+      H3 (&93834799918832)
+        attr id "2.2"
+        text "2.2 gSMC-K"
+      text " "
+      H4 (&93834799919432)
+        attr id "2.2.1"
+        text "2.2.1 Vorderseite der gSMC-K der Generation 2"
+      text " "
+      DIV (&93834799920032)
+        attr id "Card-G2-A_2017"
+        text " "
+        P (&93834799920512)
+          B (&93834799920696)
+            text "Card-G2-A_2017 - Layout Vorderseite gSMC-K"
+        text " "
+        P (&93834799921120)
+          text "Für die Vorderseite der gSMC-K der Generation 2 MUSS das Basis-Layout gemäß Abbildung Abb_SMCOPT_03 verwendet werden:"
+          BR (&93834799921424)
+          text " "
+        DIV (&93834799921728)
+          attr style "text-align: center;"
+          text " "
+          IMG (&93834799922208)
+            attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAADNCAYAAADAIgliAAAal0lEQVR4Ae2df3CcdZ3H39sWGrDSoBRbfkiY2Y0l5hCHQ9LkrrTiHOwW6FYwbU8h1JnLwnFO0noMreaOKrHtGEp2FanJ6dHMyFSDA/GP7lI9bZi5TeuMp1VyGcyumnKnRA8hUqAFW5+b7/fZZ/fZZ39kf+V5vrv73plln+f5/vh8vq9v+ub7+3Fpmq..."
+            attr style "margin-left: auto;margin-right: auto;display: block;"
+          text " "
+        text " "
+        P (&93834799922984)
+          attr class "polarion-rte-caption-paragraph"
+          attr id "polarion___3"
+          attr style "text-align: center;"
+          text "Abbildung"
+          SPAN (&93834799923816)
+            attr class "polarion-rte-caption"
+            attr data-sequence "Abbildung"
+            text "5"
+          text ": Abb_SMCOPT_03 – Gemeinsames Basis-Layout der gSMC-K Generation 2 mit beispielhafter Kennzeichnung zur Abfallentsorgung"
+        text " "
+        BR (&93834799924712)
+        text " "
+        B (&93834799925016)
+          text "[<=]"
+        P (&93834799925320)
+        text " "
+      text " "
+      P (&93834799925744)
+        attr id "polarion_72"
+        text "Um die Beschreibung zu erleichtern, werden die Kartenregionen folgendermaßen bezeichnet (Zahl in den roten Kreisen):"
+      text " "
+      P (&93834799926344)
+        attr id "polarion_31"
+        attr style "margin-left: 0px;text-align: center;"
+        text " "
+        IMG (&93834799927000)
+          attr data-lastmodified "2020-06-19T12:51:36.702+02:00"
+          attr src "data:image/jpg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAFBAfwDASIAAhEBAx..."
+          attr style "width: 324px;height: 205px;"
+        text " "
+      text " "
+      P (&93834799927952)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_24"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834799928784)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "6"
+        text ": Abb_SMCOPT_04 – Gemeinsames Basis-Layout der gSMC-K Generation 2 mit Kennzeichnung der Kartenregionen"
+      text " "
+      P (&93834799929680)
+        attr id "polarion_76"
+      text " "
+      P (&93834799930160)
+        attr id "polarion_32"
+        text "Für die einzelnen Merkmale der gSMC-K gelten folgende Festlegungen:"
+      text " "
+      DIV (&93834799930760)
+        attr id "Card-G2-A_2018"
+        text " "
+        P (&93834799931240)
+          B (&93834799931424)
+            text "Card-G2-A_2018 - Layout Vorderseite gSMC-K, Kartennummer"
+        text " "
+        P (&93834799931848)
+        P (&93834799932032)
+          attr style "margin-left: 0px;"
+          SPAN (&93834799932392)
+            text "Auf die Vorderseite der gSMC-K"
+          SPAN (&93834799932696)
+            text "MUSS"
+          SPAN (&93834799933000)
+            text "gemäß Abbildung"
+          SPAN (&93834799933304)
+            text "Abb_"
+          SPAN (&93834799933608)
+            text "SMCOPT_04, Re"
+          SPAN (&93834799933912)
+          SPAN (&93834799934096)
+            text "gion 1,"
+          SPAN (&93834799934400)
+            text "das Wort „Kartennummer“ und darüber linksbündig die Kartennummer auf"
+          SPAN (&93834799934704)
+          SPAN (&93834799934888)
+            text "ge"
+          SPAN (&93834799935192)
+          SPAN (&93834799935376)
+            text "druckt werden. Die Kartennummer ist zehnstellig und besteht aus den letzten zehn Ziffern der ICCSN"
+          SPAN (&93834799935680)
+            text "."
+        text " "
+        B (&93834799936104)
+          text "[<=]"
+        P (&93834799936408)
+        text " "
+      text " "
+      P (&93834799936832)
+        attr id "polarion_78"
+        text "Für Region 2 gibt es keine Vorgaben."
+      text " "
+      DIV (&93834799937432)
+        attr id "Card-G2-A_2019"
+        text " "
+        P (&93834810784536)
+          B (&93834810784720)
+            text "Card-G2-A_2019 - Layout Vorderseite gSMC-K, Profilnummern"
+        text " "
+        P (&93834810785024)
+        P (&93834810785208)
+          attr style "margin-left: 0px;"
+          SPAN (&93834810785568)
+            text "Sofern"
+          SPAN (&93834810785872)
+            text "die"
+          SPAN (&93834810786176)
+            text "g"
+          SPAN (&93834810786480)
+            text "SMC-K im ID-1-Format geliefert wird"
+          SPAN (&93834810786784)
+            text ","
+          SPAN (&93834810787088)
+            text "DÜRFEN a"
+          SPAN (&93834810787392)
+            text "uf die Vorderseite des ID-1-Formats der gSMC-K"
+          SPAN (&93834810787696)
+            text " "
+          SPAN (&93834810788000)
+            text "Profilnummern NICHT aufgedruckt werden"
+          SPAN (&93834810788304)
+            text "."
+        text " "
+        B (&93834810788728)
+          text "[<=]"
+        P (&93834810789032)
+        text " "
+      text " "
+      DIV (&93834810789456)
+        attr id "Card-G2-A_2020"
+        text " "
+        P (&93834810789936)
+          B (&93834810790120)
+            text "Card-G2-A_2020 - Layout Vorderseite gSMC-K, ID-000-Bereich"
+        text " "
+        P (&93834810790544)
+        P (&93834810790728)
+          attr style "margin-left: 0px;"
+          SPAN (&93834810791088)
+            text "Rechts vom Chip MÜSSEN"
+          SPAN (&93834810791392)
+            text "gemäß Abbildung"
+          SPAN (&93834810791696)
+            text "Abb_"
+          SPAN (&93834810792000)
+            text "SM"
+          SPAN (&93834810792304)
+            text "C"
+          SPAN (&93834810792608)
+            text "OPT_04, Region 4,"
+          SPAN (&93834810792912)
+            text "fol"
+          SPAN (&93834810793216)
+          SPAN (&93834810793400)
+            text "gen"
+          SPAN (&93834810793704)
+          SPAN (&93834810793888)
+            text "de Werte rechtsbündig und um 90° nach links gedreht"
+          SPAN (&93834810794192)
+            text "auf den ID-000-Bereich der gSMC-K"
+          SPAN (&93834810794496)
+            text "aufgedruckt werden:"
+        text " "
+        UL (&93834810794920)
+          text " "
+          LI (&93834810795224)
+            P (&93834810795408)
+              SPAN (&93834810795592)
+                text "ICCSN"
+              SPAN (&93834810795896)
+                BR (&93834810796080)
+                text "In der zweiten Zeile stehen die ersten zehn Ziffern der ICCSN. In der dritten Zeile stehen die letzten zehn Ziffern der ICCSN."
+          text " "
+          LI (&93834810796504)
+            P (&93834810796688)
+              SPAN (&93834810796872)
+                text "Generation und Kartentyp"
+              SPAN (&93834810797176)
+                text "    "
+              SPAN (&93834810797480)
+                BR (&93834810797664)
+                text "In der vierten Zeile stehen die Generation und der Kartentyp. Dabei gilt fol"
+              SPAN (&93834810797968)
+              SPAN (&93834810798152)
+                text "gen"
+              SPAN (&93834810798456)
+              SPAN (&93834810798640)
+                text "der Aufbau:"
+            text " "
+            UL (&93834810799064)
+              text " "
+              LI (&93834810799368)
+                P (&93834810799552)
+                  SPAN (&93834810799736)
+                    text "Ein „G“ gefolgt von der Generationsnummer 2"
+              text " "
+              LI (&93834810800160)
+                P (&93834810800344)
+                  SPAN (&93834810800528)
+                    text "Ein Leerzeichen"
+              text " "
+              LI (&93834810800952)
+                P (&93834810801136)
+                  SPAN (&93834810801320)
+                    text "Das Wort „Typ“"
+              text " "
+              LI (&93834810801744)
+                P (&93834810801928)
+                  SPAN (&93834810802112)
+                    text "Ein Bindestrich"
+                  SPAN (&93834810802416)
+                    text " "
+              text " "
+              LI (&93834810802840)
+                P (&93834810803024)
+                  SPAN (&93834810803208)
+                    text "Der Buchstabe „K“"
+                  SPAN (&93834810803512)
+                    text " "
+              text " "
+          text " "
+        text " "
+        B (&93834810804176)
+          text "[<=]"
+        P (&93834810804480)
+        text " "
+      text " "
+      DIV (&93834810804904)
+        attr id "Card-G2-A_2021"
+        text " "
+        P (&93834810805384)
+          B (&93834810805568)
+            text "Card-G2-A_2021 - Schriftgröße ID-000 gSMC-K"
+        text " "
+        P (&93834810805992)
+        P (&93834810806176)
+          attr style "margin-left: 0px;"
+          SPAN (&93834810806536)
+            text "Für die Bedruckung des ID-000"
+          SPAN (&93834810806840)
+            text "-"
+          SPAN (&93834810807144)
+            text "Bereichs"
+          SPAN (&93834810807448)
+            text "der Vorderseite der SMC-K M"
+          SPAN (&93834810807752)
+            text "USS eine"
+          SPAN (&93834810808056)
+            text "nicht"
+          SPAN (&93834810808360)
+            text "proportionale Schriftart (z.B. Courier) in einer Größe verwendet werden, die den zur Verfügung stehenden Platz optimal ausnutzt."
+        text " "
+        B (&93834810808784)
+          text "[<=]"
+        P (&93834810809088)
+        text " "
+      text " "
+      P (&93834810809512)
+        attr id "polarion_82"
+        text "Die Wahl der Schriftart, der Schriftgröße und des Schnitts für die Bedruckung des ID-1-Bereichs der gSMC-K obliegt jedem gSMC-Herausgeber."
+      text " "
+      H3 (&93834810810112)
+        attr id "2.3"
+        text "2.3 gSMC-KT"
+      text " "
+      H4 (&93834810810712)
+        attr id "2.3.1"
+        text "2.3.1 Formfaktor der gSMC-KT der Generation 2"
+      text " "
+      DIV (&93834810811312)
+        attr id "Card-G2-A_2022"
+        text " "
+        P (&93834810811792)
+          B (&93834810811976)
+            text "Card-G2-A_2022 - Formfaktor (g)SMC-KT"
+        text " "
+        P (&93834810812400)
+          text "Die gSMC-KT MUSS im Format ID1 mit herausbrechbarem ID-000-Teil geliefert werden."
+          BR (&93834810812704)
+          text " "
+          B (&93834810813008)
+            text "[<=]"
+        text " "
+      text " "
+      H4 (&93834810813552)
+        attr id "2.3.2"
+        text "2.3.2 Vorderseite der gSMC-KT der Generation 2"
+      text " "
+      DIV (&93834810814152)
+        attr id "Card-G2-A_2023"
+        text " "
+        P (&93834810814632)
+          B (&93834810814816)
+            text "Card-G2-A_2023 - Layout Vorderseite gSMC-KT"
+        text " "
+        P (&93834810815240)
+          text "Für die Vorderseite der gSMC-KT der Generation 2 MUSS das Basis-Layout gemäß Abbildung Abb_SMCOPT_05 verwendet werden."
+          BR (&93834810815544)
+          BR (&93834810815728)
+          IMG (&93834810815912)
+            attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAADNCAYAAADAIgliAAAajUlEQVR4Ae2dD3Ab1Z3Hv+sGCC0QAw0ThjJ1g+SmRlwYKMWxB0huyjBS2otSDpMM5UzIVSLQjh0oU+iZ/AEHcg2tpXaGYHMDuHdMwHelpp1ISe/apDO1E64zNEMdN1giTcufGOYIIRDiFMLe/HYleSVLlmVLfs/Sd2c20u7793ufn/L1e2/fe2uYpm..."
+            attr style "margin-left: auto;margin-right: auto;display: block;"
+          text " "
+        P (&93834810816568)
+          attr class "polarion-rte-caption-paragraph"
+          attr id "polarion___4"
+          attr style "text-align: center;"
+          text "Abbildung"
+          SPAN (&93834810817440)
+            attr class "polarion-rte-caption"
+            attr data-sequence "Abbildung"
+            text "7"
+          text ": Abb_SMCOPT_05 – Gemeinsames Basis-Layout der gSMC-KT Generation 2 mit beispielhafter Kennzeichnung zur Abfallentsorgung"
+        P (&93834810818192)
+          attr class "polarion-rte-caption-paragraph"
+          attr style "text-align: center;"
+        BR (&93834810818728)
+        text " "
+        B (&93834810819032)
+          text "[<=]"
+        P (&93834810819336)
+        text " "
+      text " "
+      P (&93834810819760)
+        attr id "polarion_20"
+        text "Um die Beschreibung zu erleichtern, werden die Kartenregionen folgendermaßen bezeichnet (Zahl in den roten Kreisen):"
+      text " "
+      P (&93834810820360)
+        attr id "polarion_89"
+        attr style "text-align: center;"
+        text " "
+        BR (&93834810821016)
+        text " "
+        IMG (&93834810821320)
+          attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUUAAADNCAYAAAAv4GJcAAAgAElEQVR4Ae1dB3hURds9dwmQ0CH0FnoHURQbKiggiqCiYhcVxY4N/ez1s6OI8INigU9FmoBdVESK0qsQAqGkEJIAIYQQEtLu/M+Z3VmHZcneTTMhM8+TZHN3Zu7cc/eefdu8ryWEEPBpmZmZWLRoEX7++WesXbsWycnJsodlWT49zb8GAYOAQaB8IJ..."
+        text " "
+      text " "
+      P (&93834810821920)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_52"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834810822752)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "8"
+        text ": Abb_SMCOPT_06 – Gemeinsames Basis-Layout der gSMC-KT Generation 2 mit Kennzeichnung der Kartenregionen"
+      text " "
+      P (&93834810823648)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_57"
+        attr style "text-align: center;"
+      text " "
+      P (&93834810824480)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_59"
+        attr style "text-align: center;"
+        text " "
+        IMG (&93834810825312)
+          attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAADNCAYAAADAIgliAAAgAElEQVR4Ae2dD5AkVZ3nvzWO/NlVGFSI8VzDOayaJZryIHBdsTrUIUICqsY9ivVsh1CuVW6rxD/RBe6Eutf800Y4x92pOiPULi6Edpfg6DvZ1o2ugr3bHY24LvQ2Qgi3aXCqRBRwBuMEVGAGFfPi916+zJevMrMyq6sns7t+FTFTmfne+/1+75NVv/..."
+        text " "
+      text " "
+      P (&93834810825912)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_61"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834810826744)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "9"
+        text ": Abb_SMCOPT_09 – Gemeinsames Basis-Layout der gSMC-KT Generation 2 mit beispielhafter Kennzeichnung zur Abfallentsorgung"
+      text " "
+      P (&93834810827640)
+        attr id "polarion_93"
+      text " "
+      P (&93834810828120)
+        attr id "polarion_50"
+        attr style "text-align: center;"
+        text " "
+        IMG (&93834810828776)
+          attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAADNCAYAAADAIgliAAAgAElEQVR4Ae19C5BjV3nmp4kDdgJ4gECZzVLxOq2JqxFrKgnBVlfArsVrpEnWTVgaU8RpwBs1hqRahkwgbBNsaIM3k81ImypIiy2gs0ux9AbSJDWSnd1kSGpbJpuq4CJy44xkMOExA7WAedgeB8zd+s/rnnt077lXr2516++qLt17Hv/ju7q//nPPOd..."
+        text " "
+      text " "
+      P (&93834810829376)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_62"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834810830208)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "10"
+        text ": Abb_SMCOPT_10 – Gemeinsames Basis-Layout der gSMC-KT Generation G2.1 mit Hashwerten (beispielhaft)"
+      text " "
+      P (&93834810831104)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_63"
+        attr style "text-align: center;"
+      text " "
+      P (&93834810831936)
+        attr id "polarion_27"
+        text "Für die einzelnen Merkmale der gSMC-KT gelten folgende Festlegungen:"
+      text " "
+      DIV (&93834810832536)
+        attr id "Card-G2-A_2024"
+        text " "
+        P (&93834810833016)
+          B (&93834810833200)
+            text "Card-G2-A_2024 - Layout Vorderseite gSMC-KT, Kartennummer"
+        text " "
+        P (&93834810833624)
+        P (&93834810833808)
+          attr style "margin-left: 0px;"
+          SPAN (&93834810834168)
+            text "Auf die Vorderseite der gSMC-KT MUSS gemäß Abbildung"
+          SPAN (&93834810834472)
+            text "Abb_"
+          SPAN (&93834810834776)
+            text "SMCOPT_06, Re"
+          SPAN (&93834810835080)
+          SPAN (&93834810835264)
+            text "gion 1,"
+          SPAN (&93834810835568)
+            text "das Wort „Kartennummer“ und darüber linksbündig die Kartennummer auf"
+          SPAN (&93834810835872)
+          SPAN (&93834810836056)
+            text "ge"
+          SPAN (&93834810836360)
+          SPAN (&93834810836544)
+          SPAN (&93834810836728)
+            text "druckt werden. Die Kartennummer ist zehnstellig und besteht aus den letzten zehn Ziffern der ICCSN"
+          SPAN (&93834810837032)
+            text "."
+        text " "
+        B (&93834810837456)
+          text "[<=]"
+        P (&93834810837760)
+        text " "
+      text " "
+      P (&93834810838184)
+        attr id "polarion_95"
+        text "Für Region 2 gibt es keine Vorgaben."
+      text " "
+      DIV (&93834810838784)
+        attr id "Card-G2-A_2025"
+        text " "
+        P (&93834810839264)
+          B (&93834810839448)
+            text "Card-G2-A_2025 - Layout Vorderseite gSMC-KT, Profilnummer"
+        text " "
+        P (&93834810839872)
+        P (&93834810840056)
+          attr style "margin-left: 0px;"
+          SPAN (&93834810840416)
+            text "Sofern"
+          SPAN (&93834810840720)
+            text "die"
+          SPAN (&93834810841024)
+            text "g"
+          SPAN (&93834810841328)
+            text "SMC-KT im ID-1-Format geliefert wird"
+          SPAN (&93834810841632)
+            text ","
+          SPAN (&93834810841936)
+            text " "
+          SPAN (&93834810842240)
+            text "DÜRFEN a"
+          SPAN (&93834810842544)
+            text "uf die Vorderseite des ID-1-Formats der gSMC-KT Profilnummern NICHT aufgedruckt werden"
+          SPAN (&93834810842848)
+            text "."
+          SPAN (&93834810843152)
+            text " "
+        text " "
+        B (&93834810843576)
+          text "[<=]"
+        P (&93834810843880)
+        text " "
+      text " "
+      DIV (&93834810844304)
+        attr id "Card-G2-A_3209"
+        text " "
+        P (&93834810844784)
+          B (&93834810844968)
+            text "Card-G2-A_3209 - Layout Vorderseite gSMC-KT der Generation G2, Hashwert des AUT-Zertifikats"
+        text " "
+        P (&93834810845392)
+          text " "
+          META (&93834810845696)
+            attr content "text/html; charset=UTF-8"
+            attr http-equiv "Content-Type"
+          text " "
+          META (&93834810846352)
+            attr content "HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org"
+            attr name "generator"
+          TITLE (&93834810846888)
+        P (&93834810847080)
+          SPAN (&93834810847264)
+            text "Falls die gSMC-KT als ID1-Karte mit herausbrechbarem ID-000-Teil geliefert wird,"
+          text " "
+          SPAN (&93834810847688)
+          SPAN (&93834810847872)
+            text "MUSS im freien Bereich der Vorderseite (Region 6) gemäß Abbildung Abb_SMCOPT_09 der Hashwert (Fingerprint) des Zertifikats C.SMKT.AUT.R2048 , welcher gemäß [gemSpec_Krypt#GS-A_4393] gebildet wird, in einer nichtproportionalen Schrift gut lesbar aufgedruckt werden."
+          SPAN (&93834810848176)
+            BR (&93834810848360)
+            text "​​"
+        text " "
+        B (&93834810848784)
+          text "[<=]"
+        P (&93834810849088)
+        text " "
+      text " "
+      DIV (&93834810849512)
+        attr id "Card-G2-A_3239"
+        text " "
+        P (&93834770977832)
+          B (&93834770978016)
+            text "Card-G2-A_3239 - Bereitstellung des Hashwerts des AUT-Zertifikats der gSMC-KT der Generation G2"
+        text " "
+        P (&93834770978440)
+          text " "
+          META (&93834770978744)
+            attr content "text/html; charset=UTF-8"
+            attr http-equiv "Content-Type"
+          text " "
+          META (&93834770979376)
+            attr content "HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org"
+            attr name "generator"
+          TITLE (&93834770979912)
+        P (&93834770980104)
+          SPAN (&93834770980288)
+            text "Falls die gSMC-KT als ID-000-Karte geliefert wird,"
+          text " "
+          SPAN (&93834770980712)
+          SPAN (&93834770980896)
+            text "MUSS der Hashwert (Fingerprint) des Zertifikats C.SMKT.AUT.R2048, welcher gemäß [gemSpec_Krypt#GS-A_4393] gebildet wird, in Papierform (z.B. in einem Begleitschreiben) an den Empfänger der gSMC-KT übermittelt werden."
+          SPAN (&93834770981200)
+            BR (&93834770981384)
+            text "​​"
+        text " "
+        B (&93834770981808)
+          text "[<=]"
+        P (&93834770982112)
+        text " "
+      text " "
+      DIV (&93834770982536)
+        attr id "A_16189"
+        text " "
+        P (&93834770983016)
+          B (&93834770983200)
+            text "A_16189 - Layout Vorderseite gSMC-KT Generation G2.1, Hashwerte der AUT-Zertifikate"
+        text " "
+        P (&93834770983624)
+          text "Falls die gSMC-KT der Generation G2.1 als ID1-Karte mit herausbrechbarem ID-000-Teil geliefert wird,  MUSS im freien Bereich der Vorderseite (Region 6) gemäß Abbildung Abb_SMCOPT_10 der Hashwert (Fingerprint) des Zertifikats C.SMKT.AUT.R2048 und des Zertifikats C.SMKT.AUT.E256, welcher gemäß [gemSpec_Krypt#GS-A_4393] gebildet wird, in einer nichtproportionalen Schrift gut lesbar aufgedruckt werden."
+          BR (&93834770983928)
+          text "Die aufgedruckten Hashwerte MÜSSEN zur Unterscheidung und Zuordnung eindeutig gekennzeichnet sein, beispielsweise durch die Angabe der Zertifikatsnamen."
+          BR (&93834770984232)
+          text " "
+          BR (&93834770984536)
+          text " "
+        DIV (&93834770984840)
+          attr style "text-align: center;"
+        P (&93834770985200)
+          attr class "polarion-rte-caption-paragraph"
+          attr style "text-align: center;"
+        P (&93834770985736)
+          attr class "polarion-rte-caption-paragraph"
+        text " "
+        B (&93834770986216)
+          text "[<=]"
+        P (&93834770986520)
+        text " "
+      text " "
+      DIV (&93834770986944)
+        attr id "A_16190"
+        text " "
+        P (&93834770987424)
+          B (&93834770987608)
+            text "A_16190 - Bereitstellung der Hashwerte der AUT-Zertifikate der gSMC-KT der Generation G2.1"
+        text " "
+        P (&93834770988032)
+          text " "
+          META (&93834770988336)
+            attr content "text/html; charset=UTF-8"
+            attr http-equiv "Content-Type"
+          text " "
+          META (&93834770988992)
+            attr content "HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org"
+            attr name "generator"
+          TITLE (&93834770989528)
+        P (&93834770989720)
+          SPAN (&93834770989904)
+            text "Falls die gSMC-KT als ID-000-Karte geliefert wird,"
+          text " "
+          SPAN (&93834770990328)
+          SPAN (&93834770990512)
+            text "MÜSSEN die Hashwerte (Fingerprint) der Zertifikate C.SMKT.AUT.R2048 und C-SMKT.AUT.E256, welche gemäß [gemSpec_Krypt#GS-A_4393] gebildet werden, in Papierform (z.B. in einem Begleitschreiben) an den Empfänger der gSMC-KT übermittelt werden."
+          SPAN (&93834770990816)
+            BR (&93834770991000)
+            text "​​"
+        text " "
+        B (&93834770991424)
+          text "[<=]"
+        P (&93834770991728)
+        text " "
+      text " "
+      DIV (&93834770992152)
+        attr id "Card-G2-A_2026"
+        text " "
+        P (&93834770992632)
+          B (&93834770992816)
+            text "Card-G2-A_2026 - Layout Vorderseite gSMC-KT, ID-000-Bereich"
+        text " "
+        P (&93834770993240)
+          text "Rechts vom Chip der SMC-KT MÜSSEN gemäß Abbildung Abb_SMCOPT_06, Region 4, folgende Werte rechtsbündig und um 90° nach links gedreht auf den ID-000-Bereich der gSMC-KT aufgedruckt werden:"
+          BR (&93834770993544)
+          text " "
+        UL (&93834770993848)
+          text " "
+          LI (&93834770994152)
+            text "ICCSN"
+            BR (&93834770994456)
+            text "In der zweiten Zeile stehen die ersten zehn Ziffern der ICCSN. In der dritten Zeile stehen die letzten zehn Ziffern der ICCSN."
+            BR (&93834770994760)
+            text " "
+          text " "
+          LI (&93834770995184)
+            text "Generation und Kartentyp"
+            BR (&93834770995488)
+            text "In der vierten Zeile stehen die Generation und der Kartentyp. Dabei gilt folgender Aufbau:"
+            BR (&93834770995792)
+            text " "
+          text " "
+          UL (&93834770996216)
+            text " "
+            LI (&93834770996520)
+              text "Ein „G“ gefolgt von der Generationsnummer (2 bzw. 2.1)"
+              SPAN (&93834770996824)
+                attr id "polarion-comment:65"
+              BR (&93834770997184)
+              text " "
+            text " "
+            LI (&93834770997608)
+              text "Ein Leerzeichen"
+              BR (&93834770997912)
+              text " "
+            text " "
+            LI (&93834770998336)
+              text "Das Wort „Typ“"
+              BR (&93834770998640)
+              text " "
+            text " "
+            LI (&93834770999064)
+              text "Ein Bindestrich"
+              BR (&93834770999368)
+              text " "
+            text " "
+            LI (&93834770999792)
+              text "Die Buchstaben „KT“"
+              BR (&93834771000096)
+              text " "
+            text " "
+          text " "
+        text " "
+        BR (&93834771000760)
+        text " "
+        B (&93834771001064)
+          text "[<=]"
+        P (&93834771001368)
+        text " "
+      text " "
+      DIV (&93834771001792)
+        attr id "Card-G2-A_2027"
+        text " "
+        P (&93834771002272)
+          B (&93834771002456)
+            text "Card-G2-A_2027 - Schriftgröße ID-000 gSMC-KT"
+        text " "
+        P (&93834771002880)
+        P (&93834771003064)
+          attr style "margin-left: 0px;"
+          SPAN (&93834771003424)
+            text "Für die Bedruckung des ID-000 Bereichs der Vorderseite der"
+          SPAN (&93834771003728)
+            text "g"
+          SPAN (&93834771004032)
+            text "SMC-KT MUSS eine"
+          SPAN (&93834771004336)
+            text "nicht"
+          SPAN (&93834771004640)
+            text "proportionale Schriftart (z.B. Courier) in einer Größe verwendet werden, die den zur Verfügung stehenden Platz optimal ausnutzt."
+        text " "
+        B (&93834771005064)
+          text "[<=]"
+        P (&93834771005368)
+        text " "
+      text " "
+      P (&93834771005792)
+        attr id "polarion_101"
+        text "Die Wahl der Schriftart, der Schriftgröße und des Schnitts für die Bedruckung des ID-1-Bereichs der gSMC-KT obliegt jedem gSMC-Herausgeber."
+      text " "
+      P (&93834771006392)
+        attr id "polarion_55"
+      text " "
+      H3 (&93834771006872)
+        attr id "2.4"
+        text "2.4 Sonstige optische Merkmale der (g)SMC"
+      text " "
+      P (&93834771007472)
+        attr id "polarion_30"
+        text "Zur Darstellung der Konformität der (g)SMC zu kennzeichnungspflichtigen Richtlinien oder gesetzlichen Vorgaben, beispielsweise die Kennzeichnung gemäß des Gesetzes über das Inverkehrbringen, die Rücknahme und die umweltverträgliche Entsorgung von Elektro- und Elektronikgeräten [ElektroG] oder die CE-Kennzeichnung der Europäischen Union, können geeignete Kennzeichen (beispielsweise Symbole) auf die SMC aufgebracht werden."
+      text " "
+      P (&93834771008072)
+        attr id "polarion_33"
+        text "Die Kennzeichnung ist Bestandteil des Aufdrucks der Kartenkörper im ID-1-Bereich oder eines Aufdrucks auf der Rückseite des herausbrechbaren ID-000-Teils."
+        SPAN (&93834771008552)
+          attr style "background-color: #FFFF99;"
+          text " "
+        text " "
+      text " "
+      P (&93834771009272)
+        attr id "polarion_29"
+      text " "
+      P (&93834771009752)
+        attr data-keep-next "true"
+        attr id "polarion_56"
+        attr style "text-align: center;"
+        text " "
+        IMG (&93834771010616)
+          attr data-keep-next "true"
+          attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAADNCAYAAADAIgliAAASSklEQVR4Ae3db2wUdR7H8W/rBXunSAmnV72IjSLphShoMRZMEOKDyuUSmlzUkpjY3oMTfCCSmCCJUUjOwJNL9RHqE/rAACaCxZgrPAJipPinpvGOiBqlnIn0HtylSlTOC+zlO7Oz3f11tjvb3f3Nb+f33gR3pzszv9/v9d35ODM7u9uSy+VyEnMbGR..."
+        text " "
+      text " "
+      P (&93834771011368)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_65"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834771012200)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "11"
+        text ": Abb_SMCOPT_11 - Druckbereich der ID-000-Rückseite zum Aufdruck kennzeichnungspflichtiger Angaben  "
+      text " "
+      P (&93834771013096)
+        attr id "polarion_69"
+      text " "
+      DIV (&93834771013576)
+        attr id "Card-G2-A_2031"
+        text " "
+        P (&93834771014056)
+          B (&93834771014240)
+            text "Card-G2-A_2031 - Sonstige optische Merkmale für die (g)SMCs"
+        text " "
+        P (&93834771014664)
+        P (&93834771014848)
+          attr style "margin-left: 0px;"
+          SPAN (&93834771015208)
+            text "Auf den (g)SMCs KÖNNEN zusätzliche optische Merkmale aufgedruckt werden. Die Ausgestaltung obliegt dem jeweiligen (g)SMC-Herausgeber und ist nicht nor"
+          SPAN (&93834771015512)
+          SPAN (&93834771015696)
+            text "miert."
+          SPAN (&93834771016000)
+            text " "
+        text " "
+        B (&93834771016424)
+          text "[<=]"
+        P (&93834771016728)
+        text " "
+      text " "
+      P (&93834771017152)
+        attr id "polarion_103"
+        text "Beispiele hierfür sind:"
+      text " "
+      UL (&93834771017752)
+        attr id "polarion_104"
+        text " "
+        LI (&93834771018232)
+          text "Angabe des Kartentyps im ID-1 Bereich."
+        text " "
+        LI (&93834771018656)
+          text "Angabe des ZDA im ID-1 Bereich vermutlich als Logo (ggf. auf der Rückseite)."
+        text " "
+        LI (&93834771019080)
+          text "Angabe des (g)SMC-Herausgebers im ID-1 Bereich vermutlich als Logo (ggf. auf der Rückseite)."
+        text " "
+      text " "
+      DIV (&93834771019624)
+        attr id "A_16191"
+        text " "
+        P (&93834771020104)
+          B (&93834771020288)
+            text "A_16191 - Aufdruck der kennzeichnungspflichtigen Angaben"
+        text " "
+        P (&93834771020712)
+          text "Wenn der Kartenhersteller Kennzeichen (Symbole oder weitere Angaben) zur Kennzeichnung der Konformität der Karte zu kennzeichnungspflichtigen Richtlinien oder gesetzlichen Vorgaben auf den Kartenkörper aufbringen muss, dann KANN dieses innerhalb der als Region 56 gekennzeichneten schraffierten Fläche erfolgen. "
+          BR (&93834771021016)
+          text " "
+          B (&93834771021320)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834771021864)
+        attr id "A_16999"
+        text " "
+        P (&93834771022344)
+          B (&93834771022528)
+            text "A_16999 - Gestaltung der kennzeichnungspflichtigen Angaben"
+        text " "
+        P (&93834771022952)
+          text "Wenn kennzeichnungspflichtige Angaben auf den Kartenkörper aufgebracht werden, dann MUSS der Kartenhersteller sicherstellen, dass die jeweiligen Vorgaben zur Kennzeichnungspflicht in Bezug auf die zu verwendenden Symbole, sowie die Größe und Lesbarkeit der jeweiligen Kennzeichen eingehalten werden."
+          B (&93834771023256)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834771023800)
+        attr id "polarion_49"
+        text " "
+        BR (&93834771024280)
+        text " "
+      text " "
+      H3 (&93834771024704)
+        attr id "2.5"
+        text "2.5 Elektrophysikalische Eigenschaften der (g)SMC"
+      text " "
+      DIV (&93834771025304)
+        attr id "Card-G2-A_3478"
+        text " "
+        P (&93834771025784)
+          B (&93834771025968)
+            text "Card-G2-A_3478 - Elektrophysikalische Eigenschaften des Kartenkörpers der (g)SMC"
+        text " "
+        P (&93834771026392)
+          text " "
+          META (&93834771026696)
+            attr content "text/html; charset=UTF-8"
+            attr http-equiv "Content-Type"
+          text " "
+          META (&93834771027352)
+            attr content "HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org"
+            attr name "generator"
+          TITLE (&93834771027888)
+        P (&93834771028080)
+          SPAN (&93834771028264)
+            text "Der Kartenkörper der (g)SMC MUSS konform zu [ISO 7810], [ISO_IEC 7810-1 AMD], [ISO 7816-1], [ISO/IEC 10373-1] und [ISO/IEC 10373-1 AMD1] sein. Im Einzelnen gelten folgende Kapitel der jeweiligen Spezifikationen:"
+          SPAN (&93834771028568)
+            BR (&93834771028752)
+            text "a) ISO 7810:"
+        P (&93834771029056)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771029416)
+            text "Alle Kapitel, die alle Kartenformate betreffen und zusätzlich alle Kapitel, die explizit das ID-000-Format betreffen."
+        P (&93834771029720)
+          SPAN (&93834771029904)
+            BR (&93834771030088)
+            text "b) ISO_IEC 7810-1 AMD"
+        P (&93834771030392)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771030752)
+            text "Kapitel 9.1, 9.2, 9.3, 9.4.1, 9.5"
+        P (&93834771031056)
+          SPAN (&93834771031240)
+            text "c) ISO 7816-1"
+        P (&93834771031544)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771031904)
+            text "Kapitel 4.2, 4.3 und 4.4"
+        P (&93834771032208)
+          SPAN (&93834771032392)
+            text "d) ISO/IEC 10373-1"
+        P (&93834771032696)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771033056)
+            text "Es gelten die allgemein für alle Kartentypen gültigen Kapitel und in Kapitel 5 „Test Methods“ folgende Kapitel:"
+        P (&93834771033360)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771033720)
+            text "5.2 Dimensions of cards"
+        P (&93834771034024)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771034384)
+            text "5.3 Peel strength"
+        P (&93834771034688)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771035048)
+            text "5.4 Resistance to chemicals"
+        P (&93834771035352)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771035712)
+            text "5.5 Card dimensional stability and warpage with temperature and humidity"
+        P (&93834771036016)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771036376)
+            text "5.12 X-rays"
+        P (&93834771036680)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771037040)
+            text "5.13 Static magnetic fields"
+        P (&93834771037344)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771037704)
+            text "5.16 Surface distortions and raised areas"
+        P (&93834771038008)
+          SPAN (&93834771038192)
+            text "e) ISO/IEC 10373-1 AMENDMENT"
+        P (&93834771038496)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771038856)
+            text "Es gelten die allgemein für alle Kartentypen gültigen Kapitel, angepasst an die Belange des ID-000-Kartentyps, und zusätzlich die folgenden Kapitel:"
+        P (&93834771039160)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771039520)
+            text "5.17 Dimension and Location of Contacts for ICCs with contacts (location of"
+        P (&93834771039824)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771040184)
+            text "        contacts as defined in Card-G2-A_xxxx instead of ISO 7816-2)"
+        P (&93834771040488)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771040848)
+            text "5.18 Static electricity test for ICCs with contacts"
+        P (&93834771041152)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771041512)
+            text "5.20 Electrical surface resistance of contacts of ICCs with contacts"
+        P (&93834771041816)
+          attr style "margin-left: 40px;"
+          SPAN (&93834771042176)
+            text "5.21 Surface profile of contacts of ICCs with contacts"
+        P (&93834771042480)
+          BR (&93834771042664)
+        text " "
+        B (&93834771042968)
+          text "[<=]"
+        P (&93834781663096)
+        text " "
+      text " "
+      DIV (&93834781663400)
+        attr id "Card-G2-A_3513"
+        text " "
+        P (&93834781663880)
+          B (&93834781664064)
+            text "Card-G2-A_3513 - Bemaßung der Kontakte der (g)SMC"
+        text " "
+        P (&93834781664488)
+        P (&93834781664672)
+          attr style "margin-left: 0px;"
+          SPAN (&93834781665032)
+            text "Die Maße des Kartenkörpers und der Kontakte der (g)SMC MÜSSEN den Vorgaben der"
+          SPAN (&93834781665336)
+            text "Abb_SMCOPT_08"
+          SPAN (&93834781665640)
+            text "entsprechen (Quelle [ETSI TS 100 977#Annex A])"
+          SPAN (&93834781665944)
+            text "."
+          SPAN (&93834781666248)
+            text " "
+        text " "
+        B (&93834781666672)
+          text "[<=]"
+        P (&93834781666976)
+        text " "
+      text " "
+      P (&93834781667400)
+        attr id "polarion_108"
+        attr style "text-align: center;"
+        text " "
+        IMG (&93834781668056)
+          attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJVEAYAAADxSaTrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0T///////8JWPfcAAAACXBIWXMAAAJYAAACWACbxr6zAAAAB3RJTUUH4QwbEA8s+kKMRAAAgABJREFUeNrs3Wd8FGXf//3P7KaThB..."
+          attr style "width: 382px;height: 292px;"
+        text " "
+      text " "
+      P (&93834781668832)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_66"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834781669664)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "12"
+        text ": Abb_SMCOPT_08 – Bemaßung der (g)SMC"
+      text " "
+      P (&93834781670560)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_68"
+        text " "
+        BR (&93834781671216)
+        text " "
+      text " "
+      H2 (&93834781671640)
+        attr id "3"
+        text "3 Anhang A – Verzeichnisse"
+      text " "
+      H3 (&93834781672240)
+        attr id "3.1"
+        text "3.1 Abkürzungen"
+      text " "
+      TABLE (&93834781672840)
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=33"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834781673496)
+          text " "
+          TR (&93834781673800)
+            text " "
+            TH (&93834781674104)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 71pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781674464)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Kürzel"
+              BR (&93834781674944)
+              text " "
+            text " "
+            TH (&93834781675368)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 368pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781675728)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Erläuterung"
+              BR (&93834781676208)
+              text " "
+            text " "
+          text " "
+          TR (&93834781676752)
+            text " "
+            TD (&93834781677056)
+              attr style "vertical-align: top;width: 71pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781677416)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "CMYK"
+              BR (&93834781677896)
+              text " "
+            text " "
+            TD (&93834781678320)
+              attr style "vertical-align: top;width: 368pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781678680)
+                attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                text "System"
+              text " "
+              SPAN (&93834781679280)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "zur Definition einer Farbe; CMYK steht für Cyan (Türkis), Magenta (Fuchsinrot), Yellow (Gelb) und Key/blacK (schwarz)"
+              BR (&93834781679760)
+              text " "
+            text " "
+          text " "
+          TR (&93834781680304)
+            text " "
+            TD (&93834781680608)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781680968)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "CVC"
+              BR (&93834781681448)
+              text " "
+            text " "
+            TD (&93834781681872)
+              attr style "vertical-align: top;width: 368pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781682232)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Card Verifiable Certificate"
+              BR (&93834781682712)
+              text " "
+            text " "
+          text " "
+          TR (&93834781683256)
+            text " "
+            TD (&93834781683560)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781683920)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gSMC"
+              BR (&93834781684400)
+              text " "
+            text " "
+            TD (&93834781684824)
+              attr style "vertical-align: top;width: 368pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781685184)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gerätebezogene Security Module Card"
+              BR (&93834781685664)
+              text " "
+            text " "
+          text " "
+          TR (&93834781686208)
+            text " "
+            TD (&93834781686512)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781686872)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gSMC-K"
+              BR (&93834781687352)
+              text " "
+            text " "
+            TD (&93834781687776)
+              attr style "vertical-align: top;width: 368pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781688136)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gerätebezogene Security Module Card für den Konnektor"
+              BR (&93834781688616)
+              text " "
+            text " "
+          text " "
+          TR (&93834781689160)
+            text " "
+            TD (&93834781689464)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781689824)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gSMC-KT"
+              BR (&93834781690304)
+              text " "
+            text " "
+            TD (&93834781690728)
+              attr style "vertical-align: top;width: 368pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781691088)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gerätebezogene Security Module Card für das Kartenterminal"
+              BR (&93834781691568)
+              text " "
+            text " "
+          text " "
+          TR (&93834781692112)
+            text " "
+            TD (&93834781692416)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781692776)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "SMC"
+              BR (&93834781693256)
+              text " "
+            text " "
+            TD (&93834781693680)
+              attr style "vertical-align: top;width: 368pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781694040)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Security Module Card"
+              BR (&93834781694520)
+              text " "
+            text " "
+          text " "
+          TR (&93834781695064)
+            text " "
+            TD (&93834781695368)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768343416)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "SMC-B"
+              BR (&93834768343872)
+              text " "
+            text " "
+            TD (&93834768344296)
+              attr style "vertical-align: top;width: 368pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768344656)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Security Module Card für eine Organisation des Gesundheitswesens"
+              BR (&93834768345136)
+              text " "
+            text " "
+          text " "
+          TR (&93834768345680)
+            text " "
+            TD (&93834768345984)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768346344)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "ZDA"
+              BR (&93834768346824)
+              text " "
+            text " "
+            TD (&93834768347248)
+              attr style "vertical-align: top;width: 368pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768347608)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Zertifizierungsdiensteanbieter"
+              BR (&93834768348088)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      H3 (&93834768348872)
+        attr id "3.2"
+        text "3.2 Glossar"
+      text " "
+      P (&93834768349472)
+        attr id "polarion_117"
+        text "Das Glossar der Telematikinfrastruktur wird als eigenständiges Dokument (vgl. [gemGlossar]) zur Verfügung gestellt."
+      text " "
+      H3 (&93834768350072)
+        attr id "3.3"
+        text "3.3 Abbildungsverzeichnis"
+      text " "
+      DIV (&93834768350672)
+        attr data-sequence "Abbildung"
+        attr id "polarion_wiki macro name=tof;params=uid=1"
+      text " "
+      DIV (&93834768351328)
+        attr id "toc_container"
+        text " "
+        P (&93834768351808)
+          attr class "toc_title"
+        H1 (&93834768352168)
+        P (&93834768352352)
+        text " "
+      text " "
+      H3 (&93834768352776)
+        attr id "3.4"
+        text "3.4 Referenzierte Dokumente"
+      text " "
+      H4 (&93834768353376)
+        attr id "3.4.1"
+        text "3.4.1 Dokumente der gematik"
+      text " "
+      P (&93834768353976)
+        attr id "polarion_119"
+        text "Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Der mit der vorliegenden Version korrelierende Entwicklungsstand dieser Konzepte und Spezifikationen wird pro Release in einer Dokumentenlandkarte definiert; Version und Stand der referenzierten Dokumente sind daher in der nachfolgenden Tabelle nicht aufgeführt. Deren zu diesem Dokument jeweils gültige Versionsnummer ist in der aktuellen, von der gematik veröffentlichten Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird."
+      text " "
+      P (&93834768354576)
+        attr id "polarion_120"
+      text " "
+      TABLE (&93834768355056)
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=34"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834768355712)
+          text " "
+          TR (&93834768356016)
+            text " "
+            TH (&93834768356320)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 176pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768356680)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "[Quelle]"
+              BR (&93834768357160)
+              text " "
+            text " "
+            TH (&93834768357584)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 386pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768357944)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Herausgeber: Titel"
+              BR (&93834768358424)
+              text " "
+            text " "
+          text " "
+          TR (&93834768358968)
+            text " "
+            TD (&93834768359272)
+              attr style "vertical-align: top;width: 176pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768359632)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemGlossar]"
+              BR (&93834768360112)
+              text " "
+            text " "
+            TD (&93834768360536)
+              attr style "vertical-align: top;width: 386pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768360896)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Glossar der Telematikinfrastruktur"
+              BR (&93834768361376)
+              text " "
+            text " "
+          text " "
+          TR (&93834768361920)
+            text " "
+            TD (&93834768362224)
+              attr style "vertical-align: top;width: 176pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768362584)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_SMC-B_ObjSys]"
+              BR (&93834768363064)
+              text " "
+            text " "
+            TD (&93834768363488)
+              attr style "vertical-align: top;width: 386pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768363848)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Spezifikation des elektronischen Heilberufsausweises SMC-B - Objektsystem (Generation G2.1)"
+              BR (&93834768364328)
+              text " "
+            text " "
+          text " "
+          TR (&93834768364872)
+            text " "
+            TD (&93834768365176)
+              attr style "vertical-align: top;width: 176pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768365536)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_SMC-K_ObjSys]"
+              BR (&93834768366016)
+              text " "
+            text " "
+            TD (&93834768366440)
+              attr style "vertical-align: top;width: 386pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768366800)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Spezifikation der elektronischen Secure Module Card des Konnektors (gSMC-K) - Objektsystem"
+              BR (&93834768367280)
+              text " "
+            text " "
+          text " "
+          TR (&93834768367824)
+            text " "
+            TD (&93834768368128)
+              attr style "vertical-align: top;width: 176pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768368488)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_SMC-KT_ObjSys]"
+              BR (&93834768368968)
+              text " "
+            text " "
+            TD (&93834768369392)
+              attr style "vertical-align: top;width: 386pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768369752)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Spezifikation der elektronischen Secure Module Card des Kartenterminals (gSMC-KT) - Objektsystem (Generation G2.1)"
+              BR (&93834768370232)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      H4 (&93834768371016)
+        attr id "3.4.2"
+        text "3.4.2 Weitere Dokumente"
+      text " "
+      P (&93834768371616)
+        attr id "polarion_122"
+      text " "
+      TABLE (&93834768372096)
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=35"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834768372752)
+          text " "
+          TR (&93834768373056)
+            text " "
+            TH (&93834768373360)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 175pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768373720)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "[Quelle]"
+              BR (&93834768374200)
+              text " "
+            text " "
+            TH (&93834768374624)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 386pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834768374984)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Herausgeber (Erscheinungsdatum): Titel"
+              BR (&93834768375464)
+              text " "
+            text " "
+          text " "
+          TR (&93834768376008)
+            text " "
+            TD (&93834781696000)
+              attr style "vertical-align: top;width: 175pt;height: 44pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781696360)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[RFC2119]"
+              BR (&93834781696840)
+              text " "
+            text " "
+            TD (&93834781697264)
+              attr style "vertical-align: top;width: 386pt;height: 44pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781697624)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "RFC 2119 (März 1997): Key words for use in RFCs to Indicate Requirement Levels S. Bradner,"
+                BR (&93834781698104)
+                text " "
+                A (&93834781698408)
+                  attr class "descriptionLink"
+                  attr href "http://tools.ietf.org/html/rfc2109"
+                  attr target "_blank"
+                  text "http://tools.ietf.org/html/rfc2109"
+              BR (&93834781699240)
+              text " "
+            text " "
+          text " "
+          TR (&93834781699784)
+            text " "
+            TD (&93834781700088)
+              attr style "vertical-align: top;width: 175pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781700448)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "ISO/IEC 7810"
+              BR (&93834781700928)
+              text " "
+            text " "
+            TD (&93834781701352)
+              attr style "vertical-align: top;width: 386pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781701712)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Identification cards -- Physical characteristics"
+                BR (&93834781702192)
+                text "Third edition 2003-11-01"
+              BR (&93834781702496)
+              text " "
+            text " "
+          text " "
+          TR (&93834781703040)
+            text " "
+            TD (&93834781703344)
+              attr style "vertical-align: top;width: 175pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781703704)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "ISO/IEC 7810, AMENDMENT"
+              BR (&93834781704184)
+              text " "
+            text " "
+            TD (&93834781704608)
+              attr style "vertical-align: top;width: 386pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781704968)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Identification cards - Physical characteristics - Amendment 1: Criteria for cards containing integrated circuits, Third edition 2003-11-01, AMENDMENT 1, 2009-12-15"
+              BR (&93834781705448)
+              text " "
+            text " "
+          text " "
+          TR (&93834781705992)
+            text " "
+            TD (&93834781706296)
+              attr style "vertical-align: top;width: 175pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781706656)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "ISO/IEC 7816-1"
+              BR (&93834781707136)
+              text " "
+            text " "
+            TD (&93834781707560)
+              attr style "vertical-align: top;width: 386pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781707920)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Physical Charcteristics of Integrated Circuit Cards"
+                BR (&93834781708400)
+                text "2011"
+              BR (&93834781708704)
+              text " "
+            text " "
+          text " "
+          TR (&93834781709248)
+            text " "
+            TD (&93834781709552)
+              attr style "vertical-align: top;width: 175pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781709912)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "ISO/IEC 10373-1"
+              BR (&93834781710392)
+              text " "
+            text " "
+            TD (&93834781710816)
+              attr style "vertical-align: top;width: 386pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781711176)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Identification cards -- Test methods -- Part 1: General characteristics"
+                BR (&93834781711656)
+                text "Second edition 2006-05-01"
+              BR (&93834781711960)
+              text " "
+            text " "
+          text " "
+          TR (&93834781712504)
+            text " "
+            TD (&93834781712808)
+              attr style "vertical-align: top;width: 175pt;height: 44pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781713168)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "ISO/IEC 10373-1 AMENDMENT 1"
+              BR (&93834781713648)
+              text " "
+            text " "
+            TD (&93834781714072)
+              attr style "vertical-align: top;width: 386pt;height: 44pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781714432)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Identification cards - Test methods - Part 1: General characteristics; Second edition 2006-05-01,"
+                BR (&93834781714912)
+                text "Amendment 1, 2012-11-01AMD1"
+              BR (&93834781715216)
+              text " "
+            text " "
+          text " "
+          TR (&93834781715760)
+            text " "
+            TD (&93834781716064)
+              attr style "vertical-align: top;width: 175pt;height: 44pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781716424)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[ElektroG]"
+              BR (&93834781716904)
+              text " "
+            text " "
+            TD (&93834781717328)
+              attr style "vertical-align: top;width: 386pt;height: 44pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781717688)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Gesetz über das Inverkehrbringen, die Rücknahme und die umweltverträgliche Entsorgung von Elektro- und Elektronikgeräten (Elektro- und Elektronikgerätegesetz - ElektroG), 20.10.2015"
+              BR (&93834781718168)
+              text " "
+            text " "
+          text " "
+          TR (&93834781718712)
+            text " "
+            TD (&93834781719016)
+              attr style "vertical-align: top;width: 175pt;height: 59pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781719376)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[ETSI TS 100 977]"
+              BR (&93834781719856)
+              text " "
+            text " "
+            TD (&93834781720280)
+              attr style "vertical-align: top;width: 386pt;height: 59pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834781720640)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Digital cellular telecommunications system (Phase 2+);"
+                BR (&93834781721120)
+                text "Specification of the Subscriber Identity Module -"
+                BR (&93834781721424)
+                text "Mobile Equipment (SIM-ME) Interface"
+                BR (&93834781721728)
+                text "(3GPP TS 11.11) V8.14.0 (2007-06)"
+              BR (&93834781722032)
+              text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834781722816)
+        attr id "polarion_70"
+      text " "
+      P (&93834781723296)
+        attr id "polarion_80"
+      text " "
+
+
+   ====================
+   ATTRIBUTE STATISTICS
+   ====================
+
+   charset:: utf-8
+   class:: descriptionLink; polarion-dle-wiki-block; polarion-dle-wiki-block-source; polarion-rte-caption; polarion-rte-caption-paragraph; toc_title
+   content::  charset=UTF-8; HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org; text/html
+   contenteditable:: false
+   data-keep-next:: true
+   data-lastmodified:2020-06-19T12:51:36.702+02:00
+   data-sequence:: Abbildung
+   http-equiv:: Content-Type
+   name:: generator
+   style:background-color: #F0F0F0; #FFFF99
+   style:border: 1px solid #CCCCCC
+   style:border-bottom: 1px solid #CCCCCC
+   style:border-collapse: collapse
+   style:border-left: 1px solid #CCCCCC
+   style:border-right: 1px solid #CCCCCC
+   style:border-top: 1px solid #CCCCCC
+   style:display: block
+   style:empty-cells: show
+   style:font-size: 10pt; 12pt; 28pt
+   style:font-style: italic
+   style:font-weight: bold
+   style:height: 14pt; 16pt; 205px; 22pt; 28pt; 292px; 29pt; 42pt; 44pt; 59pt
+   style:line-height: 1.2; 1.5
+   style:margin-left: 0px; 40px; auto
+   style:margin-right: auto
+   style:padding: 4pt
+   style:text-align: center; left
+   style:text-decoration: underline
+   style:vertical-align: top
+   style:width: 100%; 175pt; 176pt; 265pt; 324px; 368pt; 382px; 386pt; 46pt; 53pt; 67pt; 71pt; 86pt
+   target:: _blank
+
+
+   ================
+   CHILD STATISTICS
+   ================
+
+   A
+    _TEXT: 27 (&93834808898056)
+   B
+    _TEXT: 64 (&93834801648992)
+   BODY
+    DIV: 37 (&93834765159296)
+    H1: 2 (&93834765170704)
+    H2: 3 (&93834801626632)
+    H3: 14 (&93834801627232)
+    H4: 7 (&93834801647544)
+    P: 85 (&93834765144920)
+    TABLE: 4 (&93834765174784)
+    UL: 2 (&93834801629032)
+   DIV
+    B: 25 (&93834771057216)
+    BR: 5 (&93834771056608)
+    DIV: 4 (&93834765159952)
+    H1: 2 (&93834808897024)
+    IMG: 2 (&93834771061504)
+    LI: 26 (&93834808897512)
+    P: 144 (&93834808896664)
+    PRE: 1 (&93834765160608)
+    UL: 5 (&93834799833400)
+   H1
+    _TEXT: 2 (&93834765171064)
+   H2
+    _TEXT: 3 (&93834801626992)
+   H3
+    _TEXT: 14 (&93834801627592)
+   H4
+    _TEXT: 7 (&93834801647904)
+   HEAD
+    META: 1 (&93834765144016)
+    STYLE: 1 (&93834765143584)
+   HTML
+    BODY: 1 (&93834765144616)
+    HEAD: 1 (&93834765143280)
+   LI
+    A: 26 (&93834808897696)
+    BR: 20 (&93834799856480)
+    P: 10 (&93834799833888)
+    SPAN: 2 (&93834799860304)
+    UL: 1 (&93834810799064)
+    _TEXT: 50 (&93834808899264)
+   OL
+   P
+    B: 39 (&93834801648808)
+    BR: 40 (&93834765145400)
+    IMG: 10 (&93834771054048)
+    META: 8 (&93834810845696)
+    SPAN: 238 (&93834765149920)
+    TITLE: 4 (&93834810846888)
+    _TEXT: 77 (&93834765172864)
+   PRE
+    TABLE: 1 (&93834765161440)
+   SPAN
+    A: 1 (&93834781698408)
+    BR: 16 (&93834810732800)
+    SPAN: 1 (&93834801652976)
+    _TEXT: 300 (&93834765150280)
+   STYLE
+    _TEXT: 1 (&93834765143776)
+   TABLE
+    TBODY: 5 (&93834765161744)
+   TBODY
+    TR: 42 (&93834765161928)
+   TD
+    BR: 93 (&93834810729488)
+    SPAN: 84 (&93834810729008)
+    _TEXT: 16 (&93834765162416)
+   TH
+    BR: 11 (&93834810722744)
+    SPAN: 11 (&93834810722264)
+   THEAD
+   TR
+    TD: 112 (&93834765162232)
+    TH: 11 (&93834810721904)
+   UL
+    LI: 31 (&93834801629512)
+    UL: 2 (&93834799859696)
+   _DOCUMENT
+    HTML: 1 (&93834765143096)
+
+   --> consistency checked.
+
+
+   ===============
+   NODE STATISTICS
+   ===============
+
+   P       title nodes:       2
+   DIV     toc nodes:         2
+   TR      meta data nodes:   6
+   H1..H6  header nodes:      26
+   DIV/TR  requirement nodes: 0
+   IMG     image nodes:       12
+   TABLE   table nodes:       0
+
+

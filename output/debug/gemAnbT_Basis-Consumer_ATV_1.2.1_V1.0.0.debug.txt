@@ -1,0 +1,243 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Produkttyp Status: freigegeben
+Produkttyp Version: 1.2.1
+Referenzierung: gemAnbT_Basis-Consumer_ATV_1.2.1
+Revision: 548770
+Stand: 11.02.2022
+Status: freigegeben
+Version: 1.0.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Historie]:              #historie-anbietertypversion-und-anbietertypsteckbrief
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einführung
+[1.1]:                   #11-zielsetzung-und-einordnung-des-dokumentes
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokumentes
+[1.5]:                   #15-methodik
+[2]:                     #2-dokumente
+[3]:                     #3-normative-festlegungen
+[3.1]:                   #31-festlegungen-zur-betrieblichen-eignung
+[3.1.1]:                 #311-prozessprüfung-betriebliche-eignung
+[3.1.2]:                 #312-anbietererklärung-betriebliche-eignung
+[3.1.3]:                 #313-betriebshandbuch-betriebliche-eignung
+[3.2]:                   #32-festlegungen-zur-sicherheitstechnischen-eignung
+[3.2.1]:                 #321-sicherheitsgutachten
+[3.2.2]:                 #322-anbietererklärung-sicherheitstechnische-eignung
+[4]:                     #4-anhang-–-verzeichnisse
+[4.1]:                   #41-abkürzungen
+[4.2]:                   #42-tabellenverzeichnis
+[4.3]:                   #43-referenzierte-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+no images found
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834783688952)
+[Tbl-002]:               #Tbl-002 (&93834783712944)
+[Tabelle-1]:             #Tabelle-1 (&93834771001432)
+[Tabelle-2]:             #Tabelle-2 (&93834771028416)
+[Tabelle-3]:             #Tabelle-3 (&93834783658616)
+[Tabelle-4]:             #Tabelle-4 (&93834781767984)
+[Tabelle-5]:             #Tabelle-5 (&93834781778008)
+[Tabelle-6]:             #Tabelle-6 (&93834781536296)
+[Tbl-009]:               #Tbl-009 (&93834781563688)
+[Tbl-010]:               #Tbl-010 (&93834781583368)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[gemSpec_PKI]:           ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html (&93834771006064)
+[gemSpec_Basis_KTR_Consumer]: ../gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0.html (&93834771008648)
+[gemKPT_Betr]:           ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html (&93834771011256)
+[gemSpec_DS_Anbieter]:   ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html (&93834771013840)
+[gemSpec_Krypt]:         ../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html (&93834771016424)
+[gemRL_Betr_TI]:         ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html (&93834771019008)
+[GS-A_3886-01]:          ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3886-01 (&93834771033048)
+[GS-A_4125]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4125 (&93834771035632)
+[GS-A_5401]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5401 (&93834771038216)
+[GS-A_5449]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5449 (&93834771040800)
+[GS-A_5450]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5450 (&93834783607128)
+[GS-A_5599]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5599 (&93834783609712)
+[GS-A_5600]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5600 (&93834783612296)
+[GS-A_5611]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5611 (&93834783614880)
+[GS-A_2355-02]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2355-02 (&93834783617464)
+[GS-A_4468-02]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4468-02 (&93834783620048)
+[GS-A_4473-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4473-01 (&93834783622632)
+[GS-A_4478-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4478-01 (&93834783625216)
+[GS-A_4479-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4479-01 (&93834783627800)
+[GS-A_4523-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4523-01 (&93834783630384)
+[GS-A_4524-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4524-01 (&93834783632968)
+[GS-A_4530-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4530-01 (&93834783635552)
+[GS-A_4532-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4532-01 (&93834783638136)
+[GS-A_5555]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5555 (&93834783640792)
+[GS-A_5556]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5556 (&93834783643376)
+[GS-A_5563]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5563 (&93834783645960)
+[GS-A_5564]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5564 (&93834783648544)
+[GS-A_5565]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5565 (&93834783651128)
+[A_13573-01]:            ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#A_13573-01 (&93834783663248)
+[A_18240]:               ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#A_18240 (&93834783665832)
+[TIP1-A_6359-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6359-02 (&93834783668416)
+[TIP1-A_6360-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6360-02 (&93834783671000)
+[TIP1-A_6367-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6367-02 (&93834781664000)
+[TIP1-A_6371-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6371-02 (&93834781666584)
+[TIP1-A_6377-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6377-02 (&93834781669168)
+[TIP1-A_6388-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6388-02 (&93834781671752)
+[TIP1-A_6390-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6390-02 (&93834781674336)
+[TIP1-A_6393-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6393-02 (&93834781676920)
+[TIP1-A_6415-02]:        ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6415-02 (&93834781679504)
+[TIP1-A_7261]:           ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_7261 (&93834781682088)
+[TIP1-A_7262]:           ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_7262 (&93834781684672)
+[TIP1-A_7263]:           ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_7263 (&93834781687256)
+[TIP1-A_7266]:           ../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_7266 (&93834781689840)
+[A_13575]:               ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_13575 (&93834781692424)
+[A_18407]:               ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18407 (&93834781695008)
+[GS-A_3876]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3876 (&93834781697656)
+[GS-A_3884]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3884 (&93834781700240)
+[GS-A_3888]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3888 (&93834781702824)
+[GS-A_3889]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3889 (&93834781705408)
+[GS-A_3902]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3902 (&93834781707992)
+[GS-A_3904]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3904 (&93834781710576)
+[GS-A_3905]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3905 (&93834781713160)
+[GS-A_3907]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3907 (&93834781715744)
+[GS-A_3920]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3920 (&93834781718328)
+[GS-A_3922]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3922 (&93834781720912)
+[GS-A_3958]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3958 (&93834781723496)
+[GS-A_3959]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3959 (&93834781726080)
+[GS-A_3964]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3964 (&93834767978192)
+[GS-A_3971]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3971 (&93834767980776)
+[GS-A_3975]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3975 (&93834767983360)
+[GS-A_3976]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3976 (&93834767985944)
+[GS-A_3977]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3977 (&93834767988528)
+[GS-A_3981]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3981 (&93834767991112)
+[GS-A_3982]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3982 (&93834767993696)
+[GS-A_3983]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3983 (&93834767996280)
+[GS-A_3984]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3984 (&93834767998864)
+[GS-A_3986]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3986 (&93834768001448)
+[GS-A_3987]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3987 (&93834768004032)
+[GS-A_3988]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3988 (&93834768006616)
+[GS-A_3989]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3989 (&93834768009200)
+[GS-A_3990]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3990 (&93834772230184)
+[GS-A_3991]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3991 (&93834772232768)
+[GS-A_4085]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4085 (&93834772235352)
+[GS-A_4086]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4086 (&93834772237936)
+[GS-A_4088-01]:          ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4088-01 (&93834772240520)
+[GS-A_4090]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4090 (&93834772243104)
+[GS-A_4095]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4095 (&93834772245688)
+[GS-A_4100]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4100 (&93834772248272)
+[GS-A_4101]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4101 (&93834772250856)
+[GS-A_4114]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4114 (&93834772253440)
+[GS-A_4115]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4115 (&93834772256024)
+[GS-A_4117]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4117 (&93834772258608)
+[GS-A_4121]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4121 (&93834772261192)
+[GS-A_4123]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4123 (&93834772263864)
+[GS-A_4124]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4124 (&93834772266448)
+[GS-A_4126]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4126 (&93834772269032)
+[GS-A_4127]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4127 (&93834772271616)
+[GS-A_4128]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4128 (&93834772274200)
+[GS-A_4129]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4129 (&93834772276784)
+[GS-A_4130]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4130 (&93834772279368)
+[GS-A_4132]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4132 (&93834772281952)
+[GS-A_4134]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4134 (&93834772284536)
+[GS-A_4136]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4136 (&93834772287120)
+[GS-A_4137]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4137 (&93834772289704)
+[GS-A_4138]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4138 (&93834772292288)
+[GS-A_4397]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4397 (&93834764420832)
+[GS-A_4398]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4398 (&93834764423416)
+[GS-A_4399]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4399 (&93834764426000)
+[GS-A_4400]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4400 (&93834764428584)
+[GS-A_4402]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4402 (&93834764431168)
+[GS-A_4407]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4407 (&93834764433752)
+[GS-A_4417]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4417 (&93834764436336)
+[GS-A_4418]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4418 (&93834764438920)
+[GS-A_4419]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4419 (&93834764441504)
+[GS-A_4424]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4424 (&93834764444088)
+[GS-A_4425]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4425 (&93834764446672)
+[GS-A_5248]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5248 (&93834764449256)
+[GS-A_5249]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5249 (&93834764451840)
+[GS-A_5250]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5250 (&93834764454472)
+[GS-A_5361]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5361 (&93834764457056)
+[GS-A_5366]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5366 (&93834764459640)
+[GS-A_5370]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5370 (&93834764462224)
+[GS-A_5377]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5377 (&93834764464808)
+[GS-A_5378]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5378 (&93834764467392)
+[GS-A_5400]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5400 (&93834764469976)
+[GS-A_5402]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5402 (&93834764472560)
+[GS-A_5587]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5587 (&93834764475144)
+[GS-A_5588]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5588 (&93834764477728)
+[GS-A_5589]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5589 (&93834764480312)
+[GS-A_5594]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5594 (&93834764482896)
+[GS-A_5597]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5597 (&93834764485480)
+[GS-A_5601]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5601 (&93834781743976)
+[GS-A_5602]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5602 (&93834781746560)
+[GS-A_5603]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5603 (&93834781749144)
+[GS-A_5604]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5604 (&93834781751728)
+[GS-A_5606]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5606 (&93834781754312)
+[GS-A_5608]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5608 (&93834781756896)
+[GS-A_5610]:             ../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5610 (&93834781759480)
+[A_17599]:               ../gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0.html#A_17599 (&93834781782640)
+[GS-A_2076-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2076-01 (&93834781785224)
+[GS-A_2158-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2158-01 (&93834781787808)
+[GS-A_2214-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2214-01 (&93834781790392)
+[GS-A_2328-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2328-01 (&93834781792976)
+[GS-A_2329-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2329-01 (&93834781795560)
+[GS-A_2331-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2331-01 (&93834781798144)
+[GS-A_2332-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2332-01 (&93834781800728)
+[GS-A_2345-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2345-01 (&93834781803312)
+[GS-A_3737-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3737-01 (&93834781805896)
+[GS-A_3753-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3753-01 (&93834781808528)
+[GS-A_3772-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3772-01 (&93834781811112)
+[GS-A_4980-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4980-01 (&93834781813696)
+[GS-A_4981-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4981-01 (&93834781816280)
+[GS-A_4982-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4982-01 (&93834781818864)
+[GS-A_4983-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4983-01 (&93834781821448)
+[GS-A_4984-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4984-01 (&93834781824032)
+[GS-A_5551]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5551 (&93834781826616)
+[GS-A_5626]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5626 (&93834781829200)
+[GS-A_4641]:             ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4641 (&93834781831784)
+[GS-A_4748]:             ../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4748 (&93834781834368)
+[A_19174]:               ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#A_19174 (&93834781540928)
+[A_19175]:               ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#A_19175 (&93834781543512)
+[GS-A_4526-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4526-01 (&93834781546096)
+[GS-A_5324-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5324-01 (&93834781548680)
+[GS-A_5324-02]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5324-02 (&93834781551264)
+[GS-A_5566]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5566 (&93834781553848)
+[GS-A_5624-01]:          ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5624-01 (&93834781556432)
+[GS-A_5625]:             ../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5625 (&93834781559016)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

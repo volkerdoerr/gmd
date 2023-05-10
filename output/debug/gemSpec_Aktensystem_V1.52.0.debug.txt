@@ -1,0 +1,111 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation ePA-Aktensystem<br>Abbildung 1: Komponenten des ePA-Aktensystems
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_Aktensystem
+Revision: 548770
+Stand: 01.12.2022
+Status: freigegeben
+Version: 1.52.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[1.6]:                   #16-erläuterungen-zur-spezifikation-des-außenverhaltens
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[3.1]:                   #31-nachbarsysteme
+[3.2]:                   #32-epa-aktensysteme-unterschiedlicher-anbieter
+[4]:                     #4-zerlegung-des-produkttyps
+[5]:                     #5-übergreifende-festlegungen
+[5.1]:                   #51-akten--und-service-lokalisierung
+[5.2]:                   #52-protokollierung
+[5.2.1]:                 #521-übergreifende-anforderungen-zur-protokollierung
+[5.2.1.1]:               #5211-protokollfilter
+[5.2.2]:                 #522-internes-fehlerprotokoll
+[5.3]:                   #53-fehlermeldungen
+[5.4]:                   #54-redundanz
+[5.5]:                   #55-sichere-produktentwicklung
+[5.6]:                   #56-datenschutz-und-sicherheit
+[5.7]:                   #57-validierungsaktenkonto
+[5.8]:                   #58-tracing-in-nichtproduktivumgebungen
+[6]:                     #6-funktionsmerkmale
+[6.1]:                   #61-aktenkontomanagement
+[6.1.1]:                 #611-kontoverwaltung-und-zustandswechsel
+[6.1.2]:                 #612-prozess-der-aktenkontoeröffnung
+[6.1.3]:                 #613-prozess-der-änderung-und-kündigung-eines-aktenkontos
+[6.1.4]:                 #614-prozess-des-anbieterwechsels
+[6.2]:                   #62-benutzerführung
+[7]:                     #7-informationsmodell
+[8]:                     #8-verteilungssicht
+[9]:                     #9-anhang-a-–-verzeichnisse
+[9.1]:                   #91-abkürzungen
+[9.2]:                   #92-glossar
+[9.3]:                   #93-abbildungsverzeichnis
+[9.4]:                   #94-tabellenverzeichnis
+[9.5]:                   #95-referenzierte-dokumente
+[9.5.1]:                 #951-dokumente-der-gematik
+[9.5.2]:                 #952-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Komponenten des ePA-Aktensystems                    (&93834765159192) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVMAAAGcCAIAAADrl9...
+[Abbildung-2]:            Nachbarsysteme des ePA-Aktensystems                (&93834765164392) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAEJAAAAmACAIAAABQnP...
+[Abbildung-3]:           Zustandsdiagramm zum Lebenszyklus einer Akte bei .. (&93834781692064) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwEAAAHUCAIAAADtEb...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834767743608)
+[Tabelle-1]:             #Tabelle-1 (&93834811846296)
+[Tabelle-2]:             #Tabelle-2 (&93834799852624)
+[Tabelle-3]:             #Tabelle-3 (&93834781698024)
+[Tbl-005]:               #Tbl-005 (&93834783635920)
+[Tbl-006]:               #Tbl-006 (&93834768786456)
+[Tbl-007]:               #Tbl-007 (&93834768808496)
+[Tbl-008]:               #Tbl-008 (&93834768822400)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://tools.ietf.org/html/rfc5843]: https://tools.ietf.org/html/rfc5843 (&93834804572480)
+[https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/SOA/XSpRESS.pdf]: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/SOA/XSpRESS.pdf (&93834783471080)
+[https://lists.w3.org/Archives/Public/public-xmlsec/2009Nov/att-0019/Camera-Ready.pdf]: https://lists.w3.org/Archives/Public/public-xmlsec/2009Nov/att-0019/Camera-Ready.pdf (&93834783473960)
+[https://www.nds.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2011/10/22/AmazonSignatureWrapping.pdf]: https://www.nds.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2011/10/22/AmazonSignatureWrapping.pdf (&93834783481360)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

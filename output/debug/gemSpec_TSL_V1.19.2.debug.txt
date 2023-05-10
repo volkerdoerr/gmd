@@ -1,0 +1,242 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>TSL-Dienst
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_TSL
+Revision: 558730
+Stand: 21.01.2022
+Status: freigegeben
+Version: 1.19.2
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokuments
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[2.1]:                   #21-zweck-der-tsl
+[2.2]:                   #22-tsl-als-zentraler-vertrauensraum-der-ti
+[2.3]:                   #23-tsl-dienst-im-kontext-der-ecc-unterstützung
+[3]:                     #3-systemkontext
+[3.1]:                   #31-akteure-und-rollen
+[3.2]:                   #32-übersicht-zertifikatshierarchie
+[4]:                     #4-zerlegung-des-produkttyps
+[5]:                     #5-übergreifende-festlegungen
+[5.1]:                   #51-allgemeine-maßnahmen
+[5.1.1]:                 #511-zeitpunkt-und-häufigkeit-von-veröffentlichungen
+[5.2]:                   #52-betriebliche-maßnahmen
+[5.3]:                   #53-grundlagen-für-die-sicherheit-der-tsl-erstellung
+[5.3.1]:                 #531-organisatorische-vorgaben
+[5.3.2]:                 #532-betriebliche-vorgaben
+[5.4]:                   #54-allgemeine-sicherheitsmaßnahmen
+[5.4.1]:                 #541-bauliche-sicherheitsmaßnahmen
+[5.4.2]:                 #542-verfahrensvorschriften
+[5.4.2.1]:               #5421-rollenkonzept
+[5.4.2.2]:               #5422-involvierte-mitarbeiter-pro-arbeitsschritt
+[5.4.2.3]:               #5423-rollenausschlüsse
+[5.4.3]:                 #543-personalkontrolle
+[5.4.3.1]:               #5431-anforderungen-an-freie-mitarbeiter
+[5.4.3.2]:               #5432-einsicht-in-dokumente-für-mitarbeiter
+[5.4.4]:                 #544-überwachungsmaßnahmen
+[5.4.4.1]:               #5441-arten-von-aufgezeichneten-ereignissen
+[5.4.4.2]:               #5442-schutz-der-aufzeichnungen
+[5.4.5]:                 #545-archivierung-von-aufzeichnungen
+[5.4.5.1]:               #5451-arten-von-archivierten-aufzeichnungen
+[5.4.6]:                 #546-schlüsselwechsel-beim-anbieter-des-tsl-dienstes
+[5.4.7]:                 #547-kompromittierung-und-geschäftsweiterführung
+[5.4.7.1]:               #5471-allgemein
+[5.4.7.2]:               #5472-ungeplante-schlüssel-migration-tsl-signer-ca-zertifikat
+[5.4.8]:                 #548-schließung-des-anbieter-des-tsl-dienstes
+[5.5]:                   #55-technische-sicherheitsmaßnahmen
+[5.5.1]:                 #551-erzeugung-und-installation-von-schlüsselpaaren
+[5.5.1.1]:               #5511-erzeugung-von-schlüsselpaaren-und-zertifikaten
+[5.5.2]:                 #552-sicherung-des-privaten-schlüssels-und-anforderungen-an-kryptographische-module
+[5.5.2.1]:               #5521-standards-und-sicherheitsmaßnahmen-für-kryptographische-module
+[5.5.2.2]:               #5522-hinterlegung-privater-schlüssel
+[5.5.2.3]:               #5523-vernichtung-privater-schlüssel
+[5.5.3]:                 #553-andere-aspekte-des-managements-von-schlüsselpaaren
+[5.5.3.1]:               #5531-archivierung-öffentlicher-schlüssel
+[5.5.3.2]:               #5532-gültigkeitsperioden-von-zertifikaten-und-schlüsselpaaren
+[5.5.4]:                 #554-aktivierungsdaten
+[5.5.4.1]:               #5541-aktivierungsdaten
+[5.5.5]:                 #555-sicherheitsmaßnahmen-in-den-rechneranlagen
+[5.5.5.1]:               #5551-spezifische-technische-sicherheitsanforderungen-in-den-rechneranlagen
+[5.6]:                   #56-format-der-zertifikate
+[6]:                     #6-funktionsmerkmale
+[6.1]:                   #61-tsl_eintragsverwaltung
+[6.1.1]:                 #611-schnittstelle-i_tsl-management
+[6.1.1.1]:               #6111-schnittstellendefinition
+[6.1.1.2]:               #6112-umsetzung
+[6.1.2]:                 #612-schnittstelle-p_tsl-management
+[6.1.2.1]:               #6121-schnittstellendefinition
+[6.1.2.2]:               #6122-umsetzung-erstellungs--und-aktualisierungsprozesse
+[6.1.2.2.1]:             #61221-aktualisierung
+[6.1.2.2.2]:             #61222-prüfung-des-tsl-eintragsantrages
+[6.1.2.2.3]:             #61223-tsl-signatur
+[6.1.2.2.4]:             #61224-prüfung
+[6.1.2.2.5]:             #61225-freigabe
+[6.1.2.2.6]:             #61226-veröffentlichung
+[6.1.2.2.7]:             #61227-service-level
+[6.1.3]:                 #613-schnittstelle-p_trust_approval
+[6.1.3.1]:               #6131-schnittstellendefinition
+[6.1.3.2]:               #6132-umsetzung
+[6.1.4]:                 #614-testunterstützung
+[6.2]:                   #62-tsl_pki-verwaltung
+[6.2.1]:                 #621-schnittstelle-p_tsl-pki-zertifikats-management
+[6.2.1.1]:               #6211-schnittstellendefinition
+[6.2.1.2]:               #6212-umsetzung
+[6.2.2]:                 #622-schnittstelle-p_trust-anchor-change
+[6.2.2.1]:               #6221-schnittstellendefinition
+[6.2.2.2]:               #6222-umsetzung
+[6.2.3]:                 #623-testunterstützung
+[6.3]:                   #63-tsl_download
+[6.3.1]:                 #631-schnittstelle-i_tsl_download
+[6.3.1.1]:               #6311-schnittstellendefinition
+[6.3.1.2]:               #6312-umsetzung
+[6.3.1.3]:               #6313-automatisierbarer-tsl-download-aus-dem-internet
+[6.3.2]:                 #632-schnittstelle-i_bnetza_vl_download
+[6.3.2.1]:               #6321-schnittstellendefinition
+[6.3.2.2]:               #6322-umsetzung
+[6.3.3]:                 #633-schnittstelle-i_cert_download
+[6.3.3.1]:               #6331-schnittstellendefinition
+[6.3.3.2]:               #6332-umsetzung
+[6.3.4]:                 #634-testunterstützung
+[6.4]:                   #64-tsl_ocsp_responder
+[6.4.1]:                 #641-schnittstelle-i_ocsp_status_information
+[6.4.2]:                 #642-schnittstelle-p_cert_revocation
+[6.4.2.1]:               #6421-schnittstellendefinition
+[6.4.2.2]:               #6422-umsetzung
+[6.4.3]:                 #643-testunterstützung
+[7]:                     #7-informationsmodell-technische-spezifikation-tsl
+[7.1]:                   #71-aufbau-der-tsl
+[7.2]:                   #72-inhalte-des-elements-schemeinformation
+[7.2.1]:                 #721-allgemeine-tsl-angaben
+[7.2.2]:                 #722-version-und-nummerierung
+[7.2.3]:                 #723-aktualität-der-tsl
+[7.2.4]:                 #724-postalische-adresse
+[7.2.5]:                 #725-policy-angaben
+[7.2.6]:                 #726-informationshistorien-angaben
+[7.2.7]:                 #727-lokalisierungs-angaben
+[7.3]:                   #73-angaben-zum-trust-service-provider
+[7.3.1]:                 #731-angaben-zum-betreiber
+[7.3.2]:                 #732-angaben-zum-tsp-dienst
+[7.3.2.1]:               #7321-verwendung-des-elements-serviceinformationextensions
+[7.4]:                   #74-ti-vertrauensankerwechsel
+[7.5]:                   #75-bnetza-vl
+[7.5.1]:                 #751-testunterstützung
+[7.6]:                   #76-dnssec-trust-anchor-für-den-namensraum-ti
+[7.7]:                   #77-cvc-root-update
+[7.8]:                   #78-testunterstützung
+[7.9]:                   #79-weitere-ti-zertifikate-unspecified-servicetype
+[8]:                     #8-anhang-a-–-verzeichnisse
+[8.1]:                   #81-abkürzungen
+[8.2]:                   #82-glossar
+[8.3]:                   #83-abbildungsverzeichnis
+[8.4]:                   #84-tabellenverzeichnis
+[8.5]:                   #85-referenzierte-dokumente
+[8.5.1]:                 #851-dokumente-der-gematik
+[8.5.2]:                 #852-weitere-dokumente
+[9]:                     #9-anhang-b-–-leseanleitung-für-xml-schema-fragmente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Ablauf des Eintrags in TSL                          (&93834800076544) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAJmCAIAAAAyw1...
+[Abbildung-2]:           Zertifikate und Signaturen                          (&93834800095336) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAD5AAAA3fCAIAAABkBV...
+[Abbildung-3]:           Komponenten des TSL-Dienstes                        (&93834771050424) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJHEAQAAAAVXs...
+[Abbildung-4]:           Prozess zur Aktualisierung der TSL (schematische .. (&93834798995440) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAALSEAYAAADy/I...
+[Abbildung-5]:           Grundstruktur der TSL-Elemente                      (&93834781639096) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdUAAADyCAIAAACUBc...
+[Abbildung-6]:           Element „SchemeInformation“                         (&93834783478440) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcwAAAJUCAMAAACv2O...
+[Abbildung-7]:           Element „NextUpdate“                                (&93834783522488) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARsAAABQCAMAAAAeGy...
+[Abbildung-8]:           Element „PostalAddress“                             (&93834783863848) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXEAAAD0CAMAAABaU+...
+[Abbildung-9]:           Element für „Policy-Angaben“                        (&93834783884312) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYEAAACTCAMAAABf7l...
+[Abbildung-10]:          Element für „Lokalisierungspunkte der TSL“          (&93834783899952) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZYAAACUCAMAAACHmf...
+[Abbildung-11]:          Angaben zum TSP                                     (&93834783934472) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZgAAAB5CAMAAAAzis...
+[Abbildung-12]:          Betreiber Informationen                             (&93834783937992) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbQAAADoCAMAAACw0e...
+[Abbildung-13]:          Angaben zur juristischen Person des TSP             (&93834783942296) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATAAAABkCAMAAAA2TZ...
+[Abbildung-14]:          Angaben zum alternativen (Marken-)Namen des TSP     (&93834783953784) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAABkCAMAAADnqp...
+[Abbildung-15]:          Angaben zur URI des TSPs                            (&93834783958088) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYoAAABkCAMAAACvmY...
+[Abbildung-16]:          Angaben zur postalischen und elektronischen Adresse (&93834785693448) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXgAAAB5CAMAAAAEaM...
+[Abbildung-17]:          Angaben zu den TSP-Diensten                         (&93834785698448) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXQAAAB5CAMAAAAeVC...
+[Abbildung-18]:          Struktur der TSP-Service-Informationen              (&93834785702448) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdgAAAF8CAMAAABbil...
+[Abbildung-19]:          Name des TSP-Dienstes                               (&93834785792832) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAABkCAMAAADJ77...
+[Abbildung-20]:          Eintrag der digitalen Identität                     (&93834785802376) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWMAAABgCAMAAAD//+...
+[Abbildung-21]:          Struktur zur Ermittlung der Adresse des Validieru.. (&93834778231192) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYYAAABnCAMAAAAzMR...
+[Abbildung-22]:          Struktur der TSL gemäß ETSI_TS_102_231              (&93834775554360) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLMAAAbwCAMAAACvD+...
+[Img-023]:                                                                   (&93834768231792) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWcAAACDCAIAAADeeE...
+[Img-024]:                                                                   (&93834768239000) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANIAAABsCAIAAACQO3...
+[Img-025]:                                                                   (&93834768245064) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAAAnCAIAAACT/n...
+[Img-026]:                                                                   (&93834768247952) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAAlCAIAAAAx9L...
+[Img-027]:                                                                   (&93834768250840) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL4AAAA6CAIAAACBN3...
+[Img-028]:                                                                   (&93834768254504) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPkAAAA2CAIAAACKk6...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834799799720)
+[Tabelle-1]:             #Tabelle-1 (&93834810799960)
+[Tabelle-2]:             #Tabelle-2 (&93834781699168)
+[Tabelle-3]:             #Tabelle-3 (&93834799993864)
+[Tabelle-4]:             #Tabelle-4 (&93834776379680)
+[Tabelle-5]:             #Tabelle-5 (&93834781538248)
+[Tbl-007]:               #Tbl-007 (&93834781556864)
+[Tabelle-7]:             #Tabelle-7 (&93834781620208)
+[Tabelle-8]:             #Tabelle-8 (&93834778254448)
+[Tabelle-9]:             #Tabelle-9 (&93834778270520)
+[Tabelle-10]:            #Tabelle-10 (&93834778284640)
+[Tabelle-11]:            #Tabelle-11 (&93834778298720)
+[Tbl-013]:               #Tbl-013 (&93834775631064)
+[Tbl-014]:               #Tbl-014 (&93834768171808)
+[Tbl-015]:               #Tbl-015 (&93834768200080)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://fachportal.gematik.de/]: https://fachportal.gematik.de/ (&93834808901984)
+[http://www.iana.org/assignments/media-types/application/vnd.etsi.tsl+xml]: http://www.iana.org/assignments/media-types/application/vnd.etsi.tsl+xml (&93834772278592)
+[https://github.com/gematik/examples-TelematikInterfaces/tree/master/tslService/detachedSignature]: https://github.com/gematik/examples-TelematikInterfaces/tree/master/tslService/detachedSignature (&93834781750152)
+[http://www.iana.org/assignments/media-types/application/vnd.etsi.tsl+xml]: http://www.iana.org/assignments/media-types/application/vnd.etsi.tsl+xml (&93834781790152)
+[https://tl.bundesnetzagentur.de/TL-DE.xml]: https://tl.bundesnetzagentur.de/TL-DE.xml (&93834781825104)
+[http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures/</URI]: http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures/%3c/URI (&93834771259952)
+[http://uri.etsi.org/TrstSvc/Svcstatus/inaccord]: http://uri.etsi.org/TrstSvc/Svcstatus/inaccord (&93834771393056)
+[http://uri.etsi.org/TrstSvc/Svcstatus/inaccord]: http://uri.etsi.org/TrstSvc/Svcstatus/inaccord (&93834775453832)
+[https://gsb.download.bva.bund.de/BSI/ITGSK12EL/IT-Grundschutz-Kataloge-12-EL.pdf]: https://gsb.download.bva.bund.de/BSI/ITGSK12EL/IT-Grundschutz-Kataloge-12-EL.pdf (&93834768205208)
+[https://ec.europa.eu/tools/lotl/eu-lotl.xml]: https://ec.europa.eu/tools/lotl/eu-lotl.xml (&93834768211896)
+[https://www.cabforum.org/Guidelines_v1_2.pdf]: https://www.cabforum.org/Guidelines_v1_2.pdf (&93834768214840)
+[ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-10/pkcs-10v1_7.pdf]: ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-10/pkcs-10v1_7.pdf (&93834768218272)
+[http://tools.ietf.org/html/rfc2119]: http://tools.ietf.org/html/rfc2119 (&93834768221824)
+[http://tools.ietf.org/html/rfc2616]: http://tools.ietf.org/html/rfc2616 (&93834768224952)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

@@ -1,0 +1,115 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemF_Laufzeitverlängerung_gSMC-K
+Revision: 548770
+Stand: 06.12.2022
+Status: freigegeben
+Version: 1.1.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokuments
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-abgrenzungen
+[1.4]:                   #14-methodik
+[1.4.1]:                 #141-anforderungen
+[1.4.2]:                 #142-hinweise-auf-offene-punkte
+[2]:                     #2-technisches-konzept-laufzeitverlängerung-gsmc-k
+[2.1]:                   #21-zusammenfassung
+[2.1.1]:                 #211-betroffene-komponenten-und-zertifikate
+[2.1.2]:                 #212-lösung
+[2.1.3]:                 #213-wiederholbarkeit-der-aktion
+[2.1.4]:                 #214-zusammenspiel-mit-der-ecc-migration-der-konnektoren
+[2.1.5]:                 #215-bedeutung-der-laufzeitverlängerung-der-gsmc-k-für-robustheit-akzeptanz-und-zukunftsfähigkeit-der-ti
+[2.2]:                   #22-identität-idnkvpn-relevant-für-konnektor---vpn-zugangsdienst
+[2.3]:                   #23-identität-idakaut-relevant-für-konnektor---ps
+[2.4]:                   #24-identität-sakautd_cvc-relevant-für-c2c-mit-hba
+[2.5]:                   #25-identität-idsakaut-relevant-für-ehealth-kartenterminal
+[3]:                     #3-operative-umsetzung
+[3.1]:                   #31-bereitstellung-des-zertifikats-downloads
+[3.2]:                   #32-bereitstellung-der-zertifikate
+[3.3]:                   #33-sperrprozesse
+[3.4]:                   #34-offline-konnektoren
+[4]:                     #4-spezifikation
+[4.1]:                   #41-änderungen-in-gemspec_kon
+[4.1.1]:                 #411-31-konnektoridentität-und-gsmc-k
+[4.1.2]:                 #412-311-erneuerung-der-zertifikate-der-gsmc-k
+[4.1.3]:                 #413-33-betriebszustand
+[4.1.4]:                 #414-435--neustart-und-werksreset
+[4.1.5]:                 #415-identität-idnkvpn-relevant-für-konnektor---vpn-zugangsdienst
+[4.1.5.1]:               #4151-437-re-registrierung-des-konnektors-mit-neuem-nk-zertifikat
+[4.1.6]:                 #416-351-identität-idakaut-relevant-für-konnektor---ps-351-betriebsaspekte
+[4.1.7]:                 #417-7-anhang-f-events
+[4.2]:                   #42-änderungen-in-gemspec_x509_tsp
+[4.2.1]:                 #421-66-erneuerung-von-zertifikaten-der-gsmc-k
+[4.3]:                   #43-änderungen-in-gemspec_cvc_tsp
+[4.3.1]:                 #431-52-erneuerung-von-cv-zertifikaten-der-gsmc-k
+[4.4]:                   #44-4112-änderungen-in-gemilf_ps--serverauthentisierung
+[5]:                     #5-anhang-a-–-verzeichnisse
+[5.1]:                   #51-abkürzungen
+[5.2]:                   #52-referenzierte-dokumente
+[5.2.1]:                 #521-dokumente-der-gematik
+[5.2.2]:                 #522-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Betroffene Konnektor-Funktionalitäten und Zertifi.. (&93834775395488) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABxsAAAMiCAYAAAHBdZ...
+[Abbildung-2]:           Überblick der Abfolge der Schritte zur Laufzeitve.. (&93834764160688) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABBMAAAJMCAYAAACozu...
+[Img-003]:                                                                   (&93834764180496) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABxsAAAMiCAYAAAHBdZ...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834810721720)
+[Tabelle -1]:            #Tabelle -1 (&93834781493752)
+[Tbl-003]:               #Tbl-003 (&93834771053336)
+[Tabelle-3]:             #Tabelle-3 (&93834771073544)
+[Tabelle-4]:             #Tabelle-4 (&93834774918320)
+[Tabelle-5]:             #Tabelle-5 (&93834774933064)
+[Tabelle -6]:            #Tabelle -6 (&93834785733488)
+[Tbl-008]:               #Tbl-008 (&93834785788160)
+[Tabelle-8]:             #Tabelle-8 (&93834785806632)
+[Tbl-010]:               #Tbl-010 (&93834778322392)
+[Tbl-011]:               #Tbl-011 (&93834775429712)
+[Tbl-012]:               #Tbl-012 (&93834775438864)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://download.tsl.ti-dienste.de/]: https://download.tsl.ti-dienste.de/ (&93834778308000)
+[https://download.tsl.ti-dienste.de/]: https://download.tsl.ti-dienste.de/ (&93834778309552)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

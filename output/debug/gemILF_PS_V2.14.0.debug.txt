@@ -1,0 +1,349 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Abbildung 1: Primärsystem im Systemkontext<br>Abbildung 2: Komponenten und Schnittstellen am Primärsystem<br>Abbildung 3: Grober Überblick über Konfigurationseinheiten<br>Abbildung 4: Online-Szenario<br>Abbildung 5: Standalone-Szenario mit physischer Trennung<br>Abbildung 6: Abb_ILF_PS_Element_Context_gemäß_ConnectorContext.xsd<br>Abbildung 7: Betriebsbereitschaft herstellen
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemILF_PS
+Revision: 548770
+Stand: 31.01.2022
+Status: freigegeben
+Version: 2.14.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokuments
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokuments
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-konfiguration
+[3.1]:                   #31-umgebung-des-leistungserbringers
+[3.1.1]:                 #311-begriffe-der-konfigurationseinheiten
+[3.1.2]:                 #312-beziehungen-der-konfigurationseinheiten
+[3.1.3]:                 #313-berechtigungsregeln
+[3.2]:                   #32-arbeitsplätze-in-der-leistungserbringerumgebung
+[3.2.1]:                 #321-online-szenario
+[3.2.2]:                 #322-standalone-szenario-mit-online-konnektor-und-offline-konnektor
+[3.3]:                   #33-arbeitsplätze-mandanten-und-kartenterminals-konfigurieren
+[3.3.1]:                 #331-aufrufkontext
+[3.3.2]:                 #332-le-umgebungen
+[3.3.3]:                 #333-größere-le-umgebungen
+[3.3.4]:                 #334-ablösung-der-bcs-kartenterminal-schnittstelle
+[4]:                     #4-funktionsmerkmale
+[4.1]:                   #41-inbetriebnahme
+[4.1.1]:                 #411-verbindungsaufbau-zwischen-primärsystem-und-konnektor
+[4.1.1.1]:               #4111-client-authentisierung
+[4.1.1.2]:               #4112-server-authentisierung
+[4.1.2]:                 #412-konnektordienstverzeichnis-lesen
+[4.1.3]:                 #413-nutzung-von-webservice-schnittstellen
+[4.1.4]:                 #414-ereignisdienstsysteminformationsdienst
+[4.1.4.1]:               #4141-ereignismeldungen-mittels-protokoll-cetp
+[4.1.4.2]:               #4142-abonnieren-von-ereignissen
+[4.1.4.3]:               #4143-ereignisse-für-konnektorinformationen
+[4.1.4.4]:               #4144-ereignisdienst-szenario-vsdm-informationen
+[4.1.4.5]:               #4145-erneuerung-von-abonnements
+[4.1.4.6]:               #4146-informationen-zum-vorliegen-von-konnektor-firmware-updates
+[4.1.4.7]:               #4147-informationen-zu-fehlern-bei-der-zertifikatserneuerung-laufzeitverlängerung-gsmc-k
+[4.1.5]:                 #415-kartenpin-handling
+[4.1.5.1]:               #4151-ps-dialoge
+[4.1.5.2]:               #4152-pin-änderung
+[4.1.5.3]:               #4153-pin-entsperrung
+[4.1.5.4]:               #4154-freischaltung-von-karten
+[4.2]:                   #42-kartensitzungen
+[4.2.1]:                 #421-aufbau-von-kartensitzungen
+[4.2.1.1]:               #4211-getcards
+[4.2.1.2]:               #4212-getcardterminals
+[4.2.1.3]:               #4213-requestcard
+[4.2.1.4]:               #4214-exkurs-1-auswurf-von-karten-mittels-ejectcard
+[4.2.1.5]:               #4215-exkurs-2-verarbeitung-von-karteninformationen
+[4.2.2]:                 #422-kartensitzung-egk
+[4.2.3]:                 #423-kartensitzung-sm-b
+[4.2.4]:                 #424-kartensitzung-hbax
+[4.3]:                   #43-fachanwendung-vsdm
+[4.3.1]:                 #431-übersicht
+[4.3.2]:                 #432-schnittstelle-i_vsdservice
+[4.3.3]:                 #433-anwendungsfall-vsd-lesen-mitohne-online-prüfung
+[4.3.4]:                 #434-abläufe-im-primärsystem
+[4.3.4.1]:               #4341-patientendatensatz-anzeigen
+[4.3.4.2]:               #4342-egk-einlesen
+[4.3.4.2.1]:             #43421-online-szenario
+[4.3.4.2.2]:             #43422-standalone-szenario-primärsystem-mit-offline-konnektor-verbunden
+[4.3.4.3]:               #4343-benutzerinteraktionenanforderungen
+[4.3.4.3.1]:             #43431-manuelle-online-prüfung-und--aktualisierung
+[4.3.4.4]:               #4344-nutzung-der-vsdm-ereignisse-des-systeminformationsdienstes
+[4.3.4.5]:               #4345-beispiele-readvsd
+[4.3.5]:                 #435-informationsmodell-vsd
+[4.3.5.1]:               #4351-versichertenstammdaten-gkv
+[4.3.5.2]:               #4352-versichertenstammdaten-pkv
+[4.3.5.3]:               #4353-prüfungsnachweis-gkv
+[4.3.5.4]:               #4354-prüfungsnachweis-pkv
+[4.3.5.5]:               #4355-zeichenkodierung-von-daten
+[4.3.5.6]:               #4356-dekodierung-und-schemavalidierung
+[4.3.6]:                 #436-schnittstelle-i_kvkservice
+[4.3.7]:                 #437-datenaustausch-mit-mobilen-einsatzgeräten
+[4.4]:                   #44-<ptv2>-signaturerstellung-und-verschlüsselung
+[4.4.1]:                 #441-erstellen-digitaler-signaturen
+[4.4.1.1]:               #4411-xml-signatur
+[4.4.1.2]:               #4412-cms-signatur
+[4.4.1.3]:               #4413-smime-signatur
+[4.4.1.4]:               #4414-pdf-signatur
+[4.4.1.5]:               #4415-nicht-qualifizierte-elektronische-signatur
+[4.4.1.6]:               #4416-qualifizierte-elektronische-signatur
+[4.4.2]:                 #442-<ptv4>-komfortsignatur
+[4.4.2.1]:               #4421-gesamtablauf-komfortsignatur
+[4.4.2.2]:               #4422-verwalten-der-komfortsignaturfunktion
+[4.4.2.3]:               #4423-auslösen-der-komfortsignatur
+[4.4.3]:                 #443-verifizieren-digitaler-signaturen
+[4.4.4]:                 #444-zertifikatsdienst
+[4.4.4.1]:               #4441-ablaufdatum-von-zertifikaten-prüfen
+[4.4.4.2]:               #4442-kartenzertifikat-lesen
+[4.4.4.3]:               #4443-zertifikate-verifizieren
+[4.4.5]:                 #445-verschlüsselung
+[4.4.5.1]:               #4451-verschlüsseln
+[4.4.5.2]:               #4452-entschlüsseln
+[4.4.6]:                 #446-authentisierung
+[4.4.6.1]:               #4461-external-authenticate
+[4.5]:                   #45-hinweise-zu-kim
+[5]:                     #5-status-und-logging
+[5.1]:                   #51-erfolgreiche-verarbeitung-vsdm
+[5.2]:                   #52-statusinformationen
+[5.3]:                   #53-meldungenlogging
+[6]:                     #6-fehlerbehandlung
+[6.1]:                   #61-übersicht
+[6.2]:                   #62-empfehlungen-zur-fehlerbehandlung
+[6.2.1]:                 #621-handlungsanweisungen-zum-leistungsanspruchsnachweis
+[6.3]:                   #63-soap-fault
+[6.3.1]:                 #631-sonderfall-vsd-inkonsistent
+[6.3.2]:                 #632-sonderfall-hbasm-b-nicht-freigeschaltet
+[6.3.3]:                 #633-sonderfall-prüfungsnachweis-nicht-entschlüsselbar
+[6.4]:                   #64-warnungen
+[6.5]:                   #65-sonderfall-maximale-offline-zeit-der-ti-überschritten
+[6.6]:                   #66-fehlercodes
+[7]:                     #7-komfortfunktionen
+[7.1]:                   #71-hintergrundverarbeitung-bei-online-prüfung
+[7.2]:                   #72-auswertung-von-karteninformationen-hbasm-b
+[8]:                     #8-anhang-a-–-verzeichnisse
+[8.1]:                   #81-abkürzungen
+[8.2]:                   #82-glossar
+[8.3]:                   #83-abbildungsverzeichnis
+[8.4]:                   #84-tabellenverzeichnis
+[8.5]:                   #85-beispiele
+[8.6]:                   #86-referenzierte-dokumente
+[8.6.1]:                 #861-dokumente-der-gematik
+[8.6.2]:                 #862-weitere-dokumente
+[9]:                     #9-anhang-b
+[9.1]:                   #91-konfigurationsparameter
+[9.1.1]:                 #911-konnektorkommunikation
+[9.1.2]:                 #912-beziehungen-zwischen-den-konfigurationseinheiten
+[9.2]:                   #92-b2-–-primärsystemschnittstellenversionen
+[9.2.1]:                 #921-abweichungen-zwischen-produkttypversionen
+[9.2.2]:                 #922-abweichungen-bei-dienst--und-schemaversionen
+[9.2.2.1]:               #9221-beschreibung-der-änderungen-der-befüllungsvorschriften-von-attributen-oder-elementen-gkv
+[9.2.3]:                 #923-verarbeitung-von-datenfeldern-durch-das-primärsystem
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Primärsystem im Systemkontext                       (&93834768009800) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9AAAAKBCAIAAAAwad...
+[Abbildung-2]:           Komponenten und Schnittstellen am Primärsystem      (&93834768016880) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAroAAAIJCAIAAADFwQ...
+[Abbildung-3]:           Grober Überblick über Konfigurationseinheiten       (&93834768028464) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAesAAAH9CAYAAAA6fF...
+[Abbildung-4]:           Online-Szenario                                     (&93834778254120) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAewAAAEHCAIAAADjy+...
+[Abbildung-5]:           Standalone-Szenario mit physischer Trennung         (&93834778259088) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAEJCAIAAADtuE...
+[Abbildung-6]:           Abb_ILF_PS_Element_Context_gemäß_ConnectorContext.. (&93834778269032) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWMAAADZCAYAAAD15F...
+[Abbildung-7]:           Betriebsbereitschaft herstellen                     (&93834768230512) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAWLEAYAAAAc2u...
+[Abbildung-8]:           PIC_KON_022 Grundsätzlicher Aufbau der Ereignisna.. (&93834764183648) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAFzEAYAAAARVF...
+[Abbildung-9]:           XML-Element Event                                   (&93834772154048) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsEAAAGvCAMAAACNef...
+[Abbildung-10]:          Struktur des Elements Subscribe                     (&93834764217016) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArYAAAHBCAMAAACrEg...
+[Abbildung-11]:          Aufrufparameter von GetCards                        (&93834777813704) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAX4AAAERCAMAAABLpj...
+[Abbildung-12]:          GetCardsResponse                                    (&93834777833232) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA0kAAAKiCAMAAAA0U2...
+[Img-013]:                                                                   (&93834778066304) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfYAAADACAMAAADBYb...
+[Img-014]:                                                                   (&93834778092640) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAAjCAMAAAApDt...
+[Abbildung-13]:          Übersicht der Schnittstellen des Fachmoduls VSDM    (&93834778140336) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAe0AAAEECAIAAACKnf...
+[Abbildung-14]:          Eingangsparameter ReadVSD                           (&93834778145600) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWQAAADtCAMAAAC/Df...
+[Abbildung-15]:          Abb_SST_PS_VSDM_05 - Schema der Ausgangsparameter.. (&93834778151696) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcQAAADtCAMAAAAWVf...
+[Abbildung-16]:          Abb_SST_PS_VSDM_06 - Schema von VSD_Status          (&93834778155512) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYQAAAEbCAMAAADtUw...
+[Img-019]:                                                                   (&93834778162512) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJOEAYAAACYWF...
+[Abbildung-17]:          Anwendungsfall „VSD lesen mit/ohne Online-Prüfung“  (&93834765224920) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAUmEAYAAAC5WO...
+[Abbildung-18]:          Subprozess „eGK einlesen“                           (&93834765228536) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAASHEAYAAADNby...
+[Abbildung-19]:          Subprozess „VSD von eGK lesen“                      (&93834765232176) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAATbEAYAAAC2I+...
+[Abbildung-20]:          Informationsmodell Versichertenstammdaten GKV       (&93834766750864) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA7wAAAJnCAIAAAA7r8...
+[Img-024]:                                                                   (&93834766938912) data:image/bmp;base64,Qk2iVhwAAAAAADYAAAAoAAAAZgMAAMcCAAABABgAAA...
+[Abbildung-22]:          Informationsmodell Prüfungsnachweis GKV             (&93834775501496) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAFCEAYAAADeco...
+[Img-026]:                                                                   (&93834775506696) data:image/bmp;base64,Qk1G8wQAAAAAADYAAAAoAAAABQIAANEAAAABABgAAA...
+[Abbildung-24]:          Eingangsparameter SignDocument                      (&93834771729480) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkEAAAEICAMAAABvZd...
+[Abbildung-25]:          Anwendungsfall „Dokumente digital signieren“        (&93834771744320) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiUAAAM6CAIAAADR+K...
+[Abbildung-26]:          Element GenerateUnderSignaturePolicy                (&93834767012800) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWMAAABtCAIAAAD73Z...
+[Abbildung-27]:          Subprozess nonQES-Signatur auslösen                 (&93834767037280) data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAWRXhpZgAAS...
+[Abbildung-28]:          Subprozess QES-Signatur auslösen                    (&93834767241032) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEEAAAPNCAYAAABmtH...
+[Abbildung-29]:          Übersicht Faktoren der Komfortsignatur              (&93834767443360) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqUAAAEhCAYAAABGEd...
+[Abbildung-30]:          Beispielhafter Ablauf der Komfortsignatur-Aktivie.. (&93834768533984) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABBoAAAYaCAIAAAD1IZ...
+[Abbildung-31]:          Ablauf Verschlüsseln                                (&93834768982080) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwoAAAHlCAIAAADa15...
+[Abbildung-32]:          Ablauf Entschlüsseln                                (&93834769015656) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwoAAAMgCAIAAAAMbQ...
+[Abbildung-33]:          XML-Struktur der gematik Fehlermeldung [Telematik.. (&93834769371488) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgkAAAJSCAMAAAB+9a...
+[Abbildung-34]:          Prüfungsnachweis                                    (&93834769417000) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjIAAAJmCAMAAABxDZ...
+[Img-038]:                                                                   (&93834781076128) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKkAAABRCAYAAACpFI...
+[Img-039]:                                                                   (&93834781092496) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAABPCAYAAABmgW...
+[Img-040]:                                                                   (&93834781156592) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABaCAYAAABpPH...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834768430080)
+[Tbl-002]:               #Tbl-002 (&93834767999296)
+[Tabelle-1]:             #Tabelle-1 (&93834778307056)
+[Tabelle-2]:             #Tabelle-2 (&93834768239096)
+[Tabelle-3]:             #Tabelle-3 (&93834768255392)
+[Tbl-006]:               #Tbl-006 (&93834768301656)
+[Tbl-007]:               #Tbl-007 (&93834768311976)
+[Tbl-008]:               #Tbl-008 (&93834768362528)
+[Tbl-009]:               #Tbl-009 (&93834772158936)
+[Tabelle-4]:             #Tabelle-4 (&93834764221800)
+[Tbl-011]:               #Tbl-011 (&93834764245080)
+[Tabelle-5]:             #Tabelle-5 (&93834764284576)
+[Tbl-013]:               #Tbl-013 (&93834764303592)
+[Tbl-014]:               #Tbl-014 (&93834777724040)
+[Tbl-015]:               #Tbl-015 (&93834777818416)
+[Tbl-016]:               #Tbl-016 (&93834777889680)
+[Tbl-017]:               #Tbl-017 (&93834777930472)
+[Tabelle-6]:             #Tabelle-6 (&93834777950608)
+[Tabelle-7]:             #Tabelle-7 (&93834778056392)
+[Tabelle-8]:             #Tabelle-8 (&93834766424920)
+[Tabelle-9]:             #Tabelle-9 (&93834766456240)
+[Tabelle-10]:            #Tabelle-10 (&93834766601576)
+[Tbl-023]:               #Tbl-023 (&93834766677680)
+[Tbl-024]:               #Tbl-024 (&93834766690560)
+[Tbl-025]:               #Tbl-025 (&93834766726056)
+[Tabelle-11]:            #Tabelle-11 (&93834766756832)
+[Tabelle-12]:            #Tabelle-12 (&93834766944704)
+[Tabelle-13]:            #Tabelle-13 (&93834775511888)
+[Tabelle-14]:            #Tabelle-14 (&93834775689160)
+[Tbl-030]:               #Tbl-030 (&93834775753688)
+[Tabelle-15]:            #Tabelle-15 (&93834775792688)
+[Tabelle-16]:            #Tabelle-16 (&93834771759928)
+[Tabelle-17]:            #Tabelle-17 (&93834767042416)
+[Tbl-034]:               #Tbl-034 (&93834767217640)
+[Tabelle-18]:            #Tabelle-18 (&93834767245744)
+[Tabelle-19]:            #Tabelle-19 (&93834767448248)
+[Tabelle-20]:            #Tabelle-20 (&93834768689920)
+[Tabelle-21]:            #Tabelle-21 (&93834768718296)
+[Tabelle-22]:            #Tabelle-22 (&93834768752280)
+[Tbl-040]:               #Tbl-040 (&93834768785784)
+[Tbl-041]:               #Tbl-041 (&93834768813288)
+[Tabelle-23]:            #Tabelle-23 (&93834768851848)
+[Tbl-043]:               #Tbl-043 (&93834768871392)
+[Tbl-044]:               #Tbl-044 (&93834768948088)
+[Tbl-045]:               #Tbl-045 (&93834768992608)
+[Tbl-046]:               #Tbl-046 (&93834769174920)
+[Tabelle-26]:            #Tabelle-26 (&93834769204024)
+[Tabelle-27]:            #Tabelle-27 (&93834769244960)
+[Tbl-049]:               #Tbl-049 (&93834769376624)
+[Tbl-050]:               #Tbl-050 (&93834769421712)
+[Tbl-051]:               #Tbl-051 (&93834769436336)
+[Tabelle-28]:            #Tabelle-28 (&93834769460936)
+[Tabelle-29]:            #Tabelle-29 (&93834769926840)
+[Tabelle-30]:            #Tabelle-30 (&93834770101120)
+[Tabelle-31]:            #Tabelle-31 (&93834770182232)
+[Tbl-056]:               #Tbl-056 (&93834770365840)
+[Tbl-057]:               #Tbl-057 (&93834770565216)
+[Tbl-058]:               #Tbl-058 (&93834770660504)
+[Tabelle-32]:            #Tabelle-32 (&93834770832408)
+[Tabelle-33]:            #Tabelle-33 (&93834770853520)
+[Tabelle-34]:            #Tabelle-34 (&93834770875160)
+[Tabelle-35]:            #Tabelle-35 (&93834770899776)
+[Tabelle-36]:            #Tabelle-36 (&93834780919624)
+[Tabelle-37]:            #Tabelle-37 (&93834780943040)
+[Tabelle-38]:            #Tabelle-38 (&93834780966440)
+[Tabelle-39]:            #Tabelle-39 (&93834780989856)
+[Tabelle-40]:            #Tabelle-40 (&93834781014592)
+[Tbl-068]:               #Tbl-068 (&93834781052776)
+[Tabelle-42]:            #Tabelle-42 (&93834781072216)
+[Tabelle-43]:            #Tabelle-43 (&93834781088584)
+[Tabelle-44]:            #Tabelle-44 (&93834781152680)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://fachportal.gematik.de/]: https://fachportal.gematik.de/ (&93834768005792)
+[https://download.tsl.ti-dienste.de/]: https://download.tsl.ti-dienste.de/ (&93834768292504)
+[https://download.tsl.ti-dienste.de/]: https://download.tsl.ti-dienste.de/ (&93834768294056)
+[https://github.com/gematik/api-telematik/tree/OPB4/fa/vsds]: https://github.com/gematik/api-telematik/tree/OPB4/fa/vsds (&93834775497784)
+[https://github.com/gematik/api-telematik/tree/OPB4/fa/vsds]: https://github.com/gematik/api-telematik/tree/OPB4/fa/vsds (&93834775683056)
+[Telematikinfrastruktur]: https://fachportal.gematik.de/glossar/begriffe/telematikinfrastruktur/434/ (&93834769133472)
+[https://github.com/gematik/api-kim/]: https://github.com/gematik/api-kim/ (&93834769134424)
+[https://fachportal.gematik.de/spezifikationen/ueberblick-ti-anwendungen/kommunikation-im-medizinwesen-kim/]: https://fachportal.gematik.de/spezifikationen/ueberblick-ti-anwendungen/kommunikation-im-medizinwesen-kim/ (&93834769135680)
+[Tabelle 1: Tab_ILF_PS_SektorspezifischeBildungsregeln_Actor-Name_eGK-Log]: #polarion_13 (&93834770528960)
+[Tabelle 2: Tab_ILF_PS_Konfigurationsvarianten_HTTP]: #polarion_15 (&93834770529744)
+[Tabelle 3: Tab_ILF_PS_Konfigurationsvarianten_CETP]: #polarion_16 (&93834770530528)
+[Tabelle 4: Tab_ILF_PS_Wichtige_Topics_für_Kartenereignisse]: #polarion_24 (&93834770531312)
+[Tabelle 5: Tab_ILF_PS_Topics_für_Konnektorinformationsereignisse]: #polarion_26 (&93834770532096)
+[Tabelle 6: Tab_ILF_PS_Operation_RequestCard]: #polarion_35 (&93834770532904)
+[Tabelle 7: Tab_ILF_PS_Operation_EjectCard]: #polarion_36 (&93834770533688)
+[Tabelle 8: Tab_ILF_PS_Konfigurationsparameter_zur_Online-Prüfung_und_-Aktualisierung]: #polarion_44 (&93834770534472)
+[Tabelle 9: Tab_ILF_PS_Entscheidungstabelle_Parametrisierung_ReadVSD]: #polarion_45 (&93834770535256)
+[Tabelle 10: Tab_ILF_PS_VSDM-Ereignisse]: #polarion_46 (&93834770536040)
+[Tabelle 11: Tab_ILF_PS_Änderungen_im_VSD-Schema_5.2]: #polarion_51 (&93834770536824)
+[Tabelle 12: Tab_ILF_PS_Änderungen_im_VSD-Schema_1.0.0]: #polarion_198 (&93834770537608)
+[Tabelle 13: Tab_ILF_PS_Änderungen_im_Prüfungsnachweis_PKV]: #polarion_205 (&93834770538392)
+[Tabelle 14: Tab_ILF_PS_Übersicht_Datenformate]: #polarion_53 (&93834770539176)
+[Tabelle 15: Tab_ILF_PS_Zuordnung_zwischen_HBAx_oder_SM-B,_Dokumententypen_und_Signaturtypen]: #polarion_54 (&93834770539960)
+[Tabelle 16: Tab_ILF_PS_Steuerung_Signaturalgorithmus]: #polarion_58 (&93834770540744)
+[Tabelle 17: Tab_ILF_PS_Ablauf_Signaturerzeugung_nonQES-Signatur]: #polarion_61 (&93834770541528)
+[Tabelle 18: Tab_ILF_PS_Ablauf_Signaturerzeugung]: #polarion_64 (&93834770542312)
+[Tabelle 19: Tab_ILF_PS_Übersicht_Ablauf_Komfortsignatur]: #polarion_167 (&93834770543096)
+[Tabelle 20: Tab_ILF_PS_Ablauf_Verifizieren_digitaler_Signaturen]: #polarion_65 (&93834770543880)
+[Tabelle 21: Tab_ILF_PS_Parameter_VerifyDocument_im_Spezialfall_PKCS#1-Signatur]: #polarion_66 (&93834770544664)
+[Tabelle 22: Tab_ILF_PS_Steuerung_Zertifikatsauswahl]: #polarion_67 (&93834770545448)
+[Tabelle 23: Tab_ILF_PS_KeyReference_im_EncryptionService]: #polarion_72 (&93834770546232)
+[Tabelle 24: Tab_ILF_PS_Steuerung_Verschlüsselungsalgorithmus]: #polarion_74 (&93834770547016)
+[Tabelle 25: Tab_ILF_PS_Handlungsanweisungen_bei_gültiger_Karte_mit_Warnungen]: #polarion_85 (&93834770547800)
+[Tabelle 26 : Tab_ILF_PS_Handlungsanweisungen_bei_ungültigem_Leistungsnachweis]: #polarion_86 (&93834770548584)
+[Tabelle 27 :Tab_ILF_PS_Handlungsanweisungen_bei_nicht_nachgewiesenem_Leistungsanspruch_aufgrund_technischer_Fehler]: #polarion_87 (&93834770549368)
+[Tabelle 28: Tab_ILF_Generische_Fehlercodes_[gemSpec_OM]]: #polarion_93 (&93834770550152)
+[Tabelle 29: Tab_ILF_PS_Basis-Fehlercodes_des_Konnektors]: #polarion_94 (&93834770550936)
+[Tabelle 30: Tab_ILF_PS_Fehlercodes_PIN-Handling]: #polarion_95 (&93834770551720)
+[Tabelle 31: Tab_ILF_PS_Fehlercodes_VSDM]: #polarion_96 (&93834770552504)
+[Tabelle 32: Tab_ILF_PS_Konfigurationsparameter_für_die_Konnektorkommunikation]: #polarion_97 (&93834770553288)
+[Tabelle 33: Tab_ILF_PS_Parameter_für_Konfigurationseinheiten]: #polarion_98 (&93834770554072)
+[Tabelle 34: Tab_ILF_PS_Beziehung_Mandant_zu_Primärsystem]: #polarion_99 (&93834770554856)
+[Tabelle 35: Tab_ILF_PS_Beziehung-Mandant _zu_Arbeitsplatz]: #polarion_100 (&93834770555640)
+[Tabelle 36: Tab_ILF_PS_Beziehung_Mandant_zu_Kartenterminals]: #polarion_101 (&93834770556424)
+[Tabelle 37: Tab_ILF_PS_Beziehung_Primärsystem_zu_Arbeitsplatz]: #polarion_102 (&93834770557208)
+[Tabelle 38: Tab_ILF_PS_Beziehung_Primärsystem_zu_Kartenterminal]: #polarion_103 (&93834770557992)
+[Tabelle 39: Tab_ILF_PS_Beziehung_Arbeitsplatz_zu_Kartenterminal]: #polarion_104 (&93834770558776)
+[Tabelle 40: Tab_ILF_PS_Übersicht_Änderungen_der_Attribute_in_den_Klassen]: #polarion_105 (&93834770559560)
+[Tabelle 41: Tab_ILF_PS_Konstellationen_Revisionsnummer-Änderungen]: #polarion_113 (&93834770560344)
+[Tabelle 42: Tab_ILF_PS_DMP_Kennzeichnung]: #polarion_117 (&93834770561128)
+[Tabelle 43: Tab_ILF_PS_BesonderePersonengruppe]: #polarion_118 (&93834770561912)
+[Tabelle 44: Tab_ILF_PS_Geschlecht]: #polarion_119 (&93834770562696)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

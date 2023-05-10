@@ -1,0 +1,176 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>Basis- und KTR-Consumer
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_Basis_KTR_Consumer
+Revision: 591017
+Stand: 13.05.2022
+Status: freigegeben
+Version: 1.5.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[4]:                     #4-zerlegung-der-produkttypen
+[4.1]:                   #41-basisfunktionen
+[4.2]:                   #42-ldap-proxy
+[4.3]:                   #43-clientmodul-kom-le
+[5]:                     #5-übergreifende-festlegungen
+[5.1]:                   #51-anschluss-an-die-ti
+[5.1.1]:                 #511-anbindung-per-lanwan
+[5.1.1.1]:               #5111-funktionsmerkmalweite-aspekte
+[5.1.1.1.1]:             #51111-netzwerksegmentierung
+[5.1.1.2]:               #5112-durch-ereignisse-ausgelöste-reaktionen
+[5.1.2]:                 #512-zeitdienst
+[5.1.3]:                 #513-namensdienst-und-dienstlokalisierung
+[5.1.3.1]:               #5131-funktionsmerkmalweite-aspekte
+[5.1.3.2]:               #5132-interne-tucs-auch-durch-fachmodule-nutzbar
+[5.1.3.2.1]:             #51321-tuc_con_362-liste-der-dienste-abrufen
+[5.1.3.3]:               #5133-operationen-an-der-außenschnittstelle
+[5.1.3.4]:               #5134-betriebsaspekte
+[5.2]:                   #52-sicherheit
+[5.3]:                   #53-identitäten
+[5.4]:                   #54-schnittstellen
+[6]:                     #6-funktionsmerkmale
+[6.1]:                   #61-verschlüsselungsdienst
+[6.1.1]:                 #611-durch-module-nutzbare-tucs
+[6.1.2]:                 #612-operationen-an-der-clientschnittstelle
+[6.1.2.1]:               #6121-encryptdocument
+[6.1.2.2]:               #6122-decryptdocument
+[6.2]:                   #62-signaturdienst
+[6.2.1]:                 #621-durch-module-nutzbare-tucs
+[6.2.2]:                 #622-operationen-an-der-clientschnittstelle
+[6.2.2.1]:               #6221-signdocument
+[6.2.2.2]:               #6222-verifydocument
+[6.2.2.3]:               #6223-externalauthenticate
+[6.3]:                   #63-zertifikatsdienst
+[6.3.1]:                 #631-durch-module-nutzbare-tucs
+[6.3.2]:                 #632-operationen-an-der-clientschnittstelle
+[6.3.2.1]:               #6321-verifycertificate
+[6.4]:                   #64-ldap-proxy
+[6.4.1]:                 #641-durch-module-nutzbare-tucs
+[6.4.2]:                 #642-unterstützte-ldapv3-operationen-an-der-clientschnittstelle
+[6.5]:                   #65-clientmodul-kom-le
+[6.5.1]:                 #651-allgemeine-anforderungen
+[6.5.2]:                 #652-senden-von-nachrichten
+[6.5.3]:                 #653-empfangen-von-nachrichten
+[6.6]:                   #66-realisierung-der-leistungen-der-ti-plattform
+[6.6.1]:                 #661-transportschnittstelle-für-kartenkommandos
+[6.6.2]:                 #662-schnittstelle-für-pin-operationen-und-anbindung-der-karten-der-ti
+[7]:                     #7-anhang-a---verzeichnisse
+[7.1]:                   #71-abkürzungen
+[7.2]:                   #72-glossar
+[7.3]:                   #73-abbildungsverzeichnis
+[7.4]:                   #74-tabellenverzeichnis
+[7.5]:                   #75-referenzierte-dokumente
+[7.5.1]:                 #751-dokumente-der-gematik
+[7.5.2]:                 #752-weitere-dokumente
+[8]:                     #8-anhang-b-–-übersicht-über-die-verwendeten-versionen
+[9]:                     #9-anhang-c-–-übersicht-der-genutzten-systemprozesse
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Systemkontext für Basis- und KTR-Consumer           (&93834771034672) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABHYAAAO1CAYAAAAL6m...
+[Img-002]:                                                                   (&93834781803056) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWUAAACCCAYAAACes9...
+[Img-003]:                                                                   (&93834781804856) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAd4AAACFCAYAAAD1oJ...
+[Img-004]:                                                                   (&93834781830064) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAc4AAABaCAYAAAAxZr...
+[Img-005]:                                                                   (&93834783762448) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZkAAACxCAIAAACZT1...
+[Img-006]:                                                                   (&93834783799568) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAABaCAYAAAClrN...
+[Img-007]:                                                                   (&93834783801368) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAakAAACKCAYAAAAQY7...
+[Img-008]:                                                                   (&93834783816280) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZkAAACtCAIAAADtW5...
+[Img-009]:                                                                   (&93834785443344) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAe4AAADbCAYAAACr13...
+[Img-010]:                                                                   (&93834785467112) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfwAAACcCAYAAACa0R...
+[Img-011]:                                                                   (&93834785470056) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbcAAAFKCAYAAACemx...
+[Img-012]:                                                                   (&93834783588464) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlAAAAEmCAYAAACtca...
+[Img-013]:                                                                   (&93834785744752) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZYAAABMCAYAAABOKp...
+[Img-014]:                                                                   (&93834765231504) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVMAAAB0CAYAAAA4ld...
+[Img-015]:                                                                   (&93834765251424) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYsAAADCCAYAAAC4wO...
+[Img-016]:                                                                   (&93834765257080) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYEAAACiCAYAAACnFn...
+[Img-017]:                                                                   (&93834765325496) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADWCAYAAAD/yd...
+[Img-018]:                                                                   (&93834765333864) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYEAAAChCAYAAAAhgg...
+[Img-019]:                                                                   (&93834765367520) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAY4AAABPCAYAAAD8xy...
+[Img-020]:                                                                   (&93834764288496) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAp0AAADxCAYAAACJfA...
+[Img-021]:                                                                   (&93834764301264) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAABLCAYAAABdqh...
+[Img-022]:                                                                   (&93834781297920) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaIAAACxCAYAAACGPr...
+[Img-023]:                                                                   (&93834781431592) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAacAAACXCAIAAAA+gA...
+[Img-024]:                                                                   (&93834781444944) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwcAAAK0CAIAAADZE9...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775876760)
+[Tabelle-1]:             #Tabelle-1 (&93834783636920)
+[Tabelle-2]:             #Tabelle-2 (&93834781723856)
+[Tabelle-3]:             #Tabelle-3 (&93834768010344)
+[Tabelle-4]:             #Tabelle-4 (&93834768041872)
+[Tabelle-5]:             #Tabelle-5 (&93834772261608)
+[Tabelle-6]:             #Tabelle-6 (&93834772276944)
+[Tabelle-7]:             #Tabelle-7 (&93834764476816)
+[Tabelle-8]:             #Tabelle-8 (&93834781755848)
+[Tabelle-9]:             #Tabelle-9 (&93834781791088)
+[Tabelle-10]:            #Tabelle-10 (&93834783789288)
+[Tabelle-11]:            #Tabelle-11 (&93834783835960)
+[Tabelle-12]:            #Tabelle-12 (&93834785396624)
+[Tabelle-13]:            #Tabelle-13 (&93834785433008)
+[Tabelle-14]:            #Tabelle-14 (&93834785776672)
+[Tabelle-15]:            #Tabelle-15 (&93834785802368)
+[Tabelle-16]:            #Tabelle-16 (&93834764277392)
+[Tabelle-17]:            #Tabelle-17 (&93834781389616)
+[Tabelle-18]:            #Tabelle-18 (&93834781422688)
+[Tabelle-19]:            #Tabelle-19 (&93834776842512)
+[Tabelle-20]:            #Tabelle-20 (&93834776874672)
+[Tabelle-21]:            #Tabelle-21 (&93834776893088)
+[Tabelle-22]:            #Tabelle-22 (&93834776922048)
+[Tabelle-23]:            #Tabelle-23 (&93834777043736)
+[Tabelle-24]:            #Tabelle-24 (&93834768110528)
+[Tabelle-25]:            #Tabelle-25 (&93834768141488)
+[Tabelle-26]:            #Tabelle-26 (&93834768167144)
+[Tbl-028]:               #Tbl-028 (&93834768232944)
+[Tbl-029]:               #Tbl-029 (&93834768331632)
+[Tbl-030]:               #Tbl-030 (&93834768369464)
+[Tbl-031]:               #Tbl-031 (&93834764550152)
+[Tabelle-27]:            #Tabelle-27 (&93834764641152)
+[Tabelle-28]:            #Tabelle-28 (&93834764692792)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

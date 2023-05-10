@@ -1,0 +1,3526 @@
+
+   =========================
+   LXB SERIALIZER DEBUG MODE
+   =========================
+
+
+DOCUMENT _DOCUMENT
+  HTML (&93834794152136)
+    HEAD (&93834794152320)
+      text " "
+      STYLE (&93834794152624)
+        text "#toc_container {    background: #f9f9f9 none repeat scroll 0 0;    border: 1px solid #aaa;    display: table;    font-size: 95%;    margin-bottom: 1em;    padding: 20px;    width: 100%;}.toc_title {    font-weight: 700;    text-align: center;}#toc_container li, #toc_container ul, #toc_container ul li{    list-style: outside none none !important;}body {  font-family: Arial, Helvetica, sans-serif;  font-size: 14px;}.polarion-table {  width: 100%;  margin-left:  auto;  margin-right: auto;  border: 1px solid #CCCCCC;  empty-cells: show;  border-collapse: collapse;  }.polarion-table-header {   font-weight: bold;   background-color: #F0F0F0;   text-align: left;   vertical-align: top;   width: 134px;   height: 18.4444px;   border: 1px solid #CCCCCC;   padding: 5px;}.polarion-table-span {    font-size: 10pt;    line-height: 1.5;}.polarion-table-data {font-family: Arial, Helvetica, sans-serif;    font-size: 14px;    text-align: left;    vertical-align: top;    width: 134px;    height: 18.4444px;    border: 1px solid #CCCCCC;    border-top: 1px solid #CCCCCC;    border-bottom: 1px solid #CCCCCC;    border-right: 1px solid #CCCCCC;    border-left: 1px solid #CCCCCC;    padding: 5px;}/* ol {  list-style-type: none;  Remove default numbering}ol > li:before {  counter-increment: mycounter;  content: counter(mycounter) ". ";}ol:first-of-type {  counter-reset: mycounter;} */"
+      text " "
+      META (&93834794153056)
+        attr charset "utf-8"
+      text " "
+    text " "
+    BODY (&93834794153656)
+      text " "
+      P (&93834794153960)
+        attr id "polarion_1"
+        text " "
+        BR (&93834794154440)
+        text " "
+      text " "
+      P (&93834794154864)
+        attr id "polarion_14"
+      text " "
+      P (&93834794155344)
+        attr id "polarion_18"
+      text " "
+      P (&93834794155824)
+        attr id "polarion_22"
+      text " "
+      P (&93834794156304)
+        attr id "polarion_27"
+        text " "
+        SPAN (&93834794156784)
+          attr style "font-weight: bold;text-decoration: underline;font-size: 11pt;line-height: 1.5;"
+          text "Elektronische Gesundheitskarte und Telematikinfrastruktur"
+        text " "
+      text " "
+      P (&93834794157504)
+        attr id "polarion_4"
+        text " "
+        BR (&93834794157984)
+        text " "
+      text " "
+      P (&93834794158408)
+        attr id "polarion_5"
+        text " "
+        BR (&93834794158888)
+        text " "
+      text " "
+      P (&93834794159312)
+        attr id "polarion_6"
+        text " "
+        BR (&93834794159792)
+        text " "
+      text " "
+      P (&93834794160216)
+        attr id "polarion_7"
+        text " "
+        BR (&93834794160696)
+        text " "
+      text " "
+      P (&93834794161120)
+        attr id "polarion_9"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834794161776)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Produkttypsteckbrief"
+        text " "
+      text " "
+      P (&93834794162496)
+        attr id "polarion_10"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834794163152)
+          attr style "font-weight: bold;font-style: italic;font-size: 16pt;line-height: 1.2;"
+          text "Prüfvorschrift"
+        text " "
+      text " "
+      P (&93834794163872)
+        attr id "polarion_11"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834794164528)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Federation Master"
+        text " "
+      text " "
+      P (&93834794165248)
+        attr id "polarion_12"
+        attr style "margin-left: 0px;"
+      text " "
+      P (&93834794165904)
+        attr id "polarion_13"
+        attr style "margin-left: 0px;"
+        text " "
+        BR (&93834794166560)
+        text " "
+      text " "
+      DIV (&93834794166984)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block2"
+        text " "
+        DIV (&93834794167640)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+        PRE (&93834794168296)
+          attr class "polarion-dle-wiki-block-source"
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_source"
+          text " "
+          TABLE (&93834794169128)
+            text " "
+            TBODY (&93834794169432)
+              TR (&93834794169616)
+                text " "
+                TD (&93834794169920)
+                  text "Produkttyp Version"
+                text " "
+                TD (&93834794170344)
+                  text "1.0.1-0"
+                text " "
+              text " "
+              TR (&93834794170888)
+                text " "
+                TD (&93834794171192)
+                  text "Produkttyp Status"
+                text " "
+                TD (&93834794171616)
+                  text "freigegeben"
+                text " "
+              text " "
+        text " "
+      text " "
+      P (&93834794172400)
+        attr id "polarion_26"
+      text " "
+      P (&93834794172880)
+        attr id "polarion_55"
+      text " "
+      DIV (&93834794173360)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block56"
+        text " "
+        DIV (&93834794174016)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+        PRE (&93834794174672)
+          attr class "polarion-dle-wiki-block-source"
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_source"
+          text " "
+          TABLE (&93834794175504)
+            text " "
+            TBODY (&93834794175808)
+              TR (&93834794175992)
+                text " "
+                TD (&93834794176296)
+                  text "Version"
+                text " "
+                TD (&93834794176720)
+                  text "1.0.0"
+                text " "
+              text " "
+              TR (&93834794177264)
+                text " "
+                TD (&93834794177568)
+                  text "Revision"
+                text " "
+                TD (&93834794177992)
+                  text "588979"
+                text " "
+              text " "
+              TR (&93834794178536)
+                text " "
+                TD (&93834794178840)
+                  text "Stand"
+                text " "
+                TD (&93834794179264)
+                  text "15.02.2023"
+                text " "
+              text " "
+              TR (&93834794179808)
+                text " "
+                TD (&93834794180112)
+                  text "Status"
+                text " "
+                TD (&93834794180536)
+                  text "freigegeben"
+                text " "
+              text " "
+              TR (&93834794181080)
+                text " "
+                TD (&93834794181384)
+                  text "Klassifizierung"
+                text " "
+                TD (&93834794181808)
+                  text "öffentlich"
+                text " "
+              text " "
+              TR (&93834794182352)
+                text " "
+                TD (&93834794182656)
+                  text "Referenzierung"
+                text " "
+                TD (&93834794183080)
+                  text "gemProdT_IDP_FedMaster_PTV_1.0.1-0"
+                text " "
+              text " "
+        text " "
+      text " "
+      P (&93834794183864)
+        attr id "polarion_8"
+      text " "
+      DIV (&93834794184344)
+        attr contenteditable "false"
+        attr data-is-landscape "false"
+        attr id "polarion_wiki macro name=page_break;params=uid=1"
+      text " "
+      H1 (&93834767706376)
+        attr id "polarion_wiki macro name=module-workitem;params=id=releaseFedMaster-6203"
+        text "Historie Produkttypversion und Produkttypsteckbrief"
+      text " "
+      P (&93834767706976)
+        attr id "polarion_23"
+        text " "
+        SPAN (&93834767707456)
+          attr style "font-weight: bold;"
+          text "Historie Produkttypversion"
+        text " "
+      text " "
+      P (&93834767708176)
+        attr id "polarion_24"
+        text "Die Produkttypversion ändert sich, wenn sich die normativen Festlegungen für den Produkttyp ändern und die Umsetzung durch Produktentwicklungen ebenfalls betroffen ist."
+      text " "
+      P (&93834767708776)
+        attr id "polarion_25"
+      text " "
+      TABLE (&93834767709256)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=1"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834767710088)
+          text " "
+          TR (&93834767710392)
+            text " "
+            TH (&93834767710696)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 134.889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Produkttypversion"
+              BR (&93834767711176)
+              text " "
+            text " "
+            TH (&93834767711600)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 230.889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Beschreibung der Änderung"
+              BR (&93834767712080)
+              text " "
+            text " "
+            TH (&93834767712504)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 203.333px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Referenz"
+              BR (&93834767712984)
+              text " "
+            text " "
+          text " "
+          TR (&93834767713528)
+            text " "
+            TD (&93834767713832)
+              attr style "text-align: left;vertical-align: top;width: 134.889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "1.0.0-0"
+            text " "
+            TD (&93834767714432)
+              attr style "text-align: left;vertical-align: top;width: 230.889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "initiale Version"
+            text " "
+            TD (&93834767715032)
+              attr style "text-align: left;vertical-align: top;width: 203.333px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gemProdT_IDP_FedMaster_PTV_1.0.0-0 "
+            text " "
+          text " "
+          TR (&93834767715752)
+            text " "
+            TD (&93834767716056)
+              attr style "text-align: left;vertical-align: top;width: 134.889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "1.0.1-0"
+            text " "
+            TD (&93834767716656)
+              attr style "text-align: left;vertical-align: top;width: 230.889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gemSpec_Hersteller hinzugefügt"
+            text " "
+            TD (&93834767717256)
+              attr style "text-align: left;vertical-align: top;width: 203.333px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gemProdT_IDP_FedMaster_PTV_1.0.1-0 "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834767718216)
+        attr id "polarion_28"
+      text " "
+      P (&93834767718696)
+        attr id "polarion_76"
+        text " "
+        SPAN (&93834767719176)
+          attr style "font-weight: bold;"
+          text "Historie Produkttypsteckbrief"
+        text " "
+      text " "
+      P (&93834767719896)
+        attr id "polarion_29"
+        text "Die Dokumentenversion des Produkttypsteckbriefs ändert sich mit jeder inhaltlichen oder redaktionellen Änderung des Produkttypsteckbriefs und seinen referenzierten Dokumenten. Redaktionelle Änderungen haben keine Auswirkung auf die Produkttypversion."
+      text " "
+      P (&93834767720496)
+        attr id "polarion_30"
+      text " "
+      TABLE (&93834767720976)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=noPageBreak=yes|width=100%|uid=2"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834767721808)
+          text " "
+          TR (&93834767722112)
+            text " "
+            TH (&93834767722416)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 62.8889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Version"
+              BR (&93834767722896)
+              text " "
+            text " "
+            TH (&93834767723320)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 63.7778px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Stand"
+              BR (&93834767723800)
+              text " "
+            text " "
+            TH (&93834767724224)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 40.6667px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Kap."
+              BR (&93834767724704)
+              text " "
+            text " "
+            TH (&93834767725128)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 297.556px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Grund der Änderung, besondere Hinweise"
+              BR (&93834767725608)
+              text " "
+            text " "
+            TH (&93834767726032)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 82.4444px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Bearbeiter"
+              BR (&93834767726512)
+              text " "
+            text " "
+          text " "
+          TR (&93834767727056)
+            text " "
+            TD (&93834767727360)
+              attr style "text-align: left;vertical-align: top;width: 62.8889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "1.0.0"
+            text " "
+            TD (&93834767727960)
+              attr style "text-align: left;vertical-align: top;width: 63.7778px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "06.02.23"
+            text " "
+            TD (&93834767728560)
+              attr style "text-align: left;vertical-align: top;width: 40.6667px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+            TD (&93834767729040)
+              attr style "text-align: left;vertical-align: top;width: 297.556px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "freigegeben"
+            text " "
+            TD (&93834767729640)
+              attr style "text-align: left;vertical-align: top;width: 82.4444px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gematik"
+            text " "
+          text " "
+          TR (&93834767730360)
+            text " "
+            TD (&93834767730664)
+              attr style "text-align: left;vertical-align: top;width: 62.8889px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "1.0.1"
+            text " "
+            TD (&93834767731264)
+              attr style "text-align: left;vertical-align: top;width: 63.7778px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "10.02.23"
+            text " "
+            TD (&93834767731864)
+              attr style "text-align: left;vertical-align: top;width: 40.6667px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+            TD (&93834767732344)
+              attr style "text-align: left;vertical-align: top;width: 297.556px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gemSpec_Perf Version geändert"
+            text " "
+            TD (&93834767732944)
+              attr style "text-align: left;vertical-align: top;width: 82.4444px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gematik"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834767733904)
+        attr id "polarion_21"
+      text " "
+      DIV (&93834767734384)
+        attr contenteditable "false"
+        attr data-is-landscape "false"
+        attr id "polarion_wiki macro name=page_break;params=uid=22"
+      text " "
+      H1 (&93834767735216)
+        attr id "polarion_wiki macro name=module-workitem;params=id=releaseFedMaster-6204"
+        text "Inhaltsverzeichnis"
+      text " "
+      DIV (&93834767735816)
+        attr id "polarion_wiki macro name=toc"
+      text " "
+      DIV (&93834767736296)
+        attr id "toc_container"
+        text " "
+        P (&93834767736776)
+          attr class "toc_title"
+        H1 (&93834767737136)
+        P (&93834767737320)
+        text " "
+        LI (&93834767737624)
+          A (&93834767737808)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=releaseFedMaster-6203"
+            text "Historie Produkttypversion und Produkttypsteckbrief"
+        text " "
+        LI (&93834767738408)
+          A (&93834767738592)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=releaseFedMaster-6204"
+            text "Inhaltsverzeichnis"
+        text " "
+        LI (&93834808882640)
+          text ":"
+          A (&93834808882944)
+            attr href "#1"
+            text "1 Einführung"
+        text " "
+        LI (&93834808883544)
+          text ": :"
+          A (&93834808883848)
+            attr href "#1.1"
+            text "1.1 Zielsetzung und Einordnung des Dokumentes"
+        text " "
+        LI (&93834808884448)
+          text ": :"
+          A (&93834808884752)
+            attr href "#1.2"
+            text "1.2 Zielgruppe"
+        text " "
+        LI (&93834808885352)
+          text ": :"
+          A (&93834808885656)
+            attr href "#1.3"
+            text "1.3 Geltungsbereich"
+        text " "
+        LI (&93834808886256)
+          text ": :"
+          A (&93834808886560)
+            attr href "#1.4"
+            text "1.4 Abgrenzung des Dokumentes"
+        text " "
+        LI (&93834808887160)
+          text ": :"
+          A (&93834808887464)
+            attr href "#1.5"
+            text "1.5 Methodik"
+        text " "
+        LI (&93834808888064)
+          text ":"
+          A (&93834808888368)
+            attr href "#2"
+            text "2 Dokumente"
+        text " "
+        LI (&93834808888968)
+          text ":"
+          A (&93834808889272)
+            attr href "#3"
+            text "3 Normative Festlegungen"
+        text " "
+        LI (&93834808889872)
+          text ": :"
+          A (&93834808890176)
+            attr href "#3.1"
+            text "3.1 Festlegungen zur funktionalen Eignung"
+        text " "
+        LI (&93834808890776)
+          text ": : :"
+          A (&93834808891080)
+            attr href "#3.1.1"
+            text "3.1.1 Produkttest/Produktübergreifender Test"
+        text " "
+        LI (&93834808891680)
+          text ": : :"
+          A (&93834808891984)
+            attr href "#3.1.2"
+            text "3.1.2 Herstellererklärung funktionale Eignung"
+        text " "
+        LI (&93834808892584)
+          text ": :"
+          A (&93834808892888)
+            attr href "#3.2"
+            text "3.2 Festlegungen zur sicherheitstechnischen Eignung"
+        text " "
+        LI (&93834808893488)
+          text ": : :"
+          A (&93834808893792)
+            attr href "#3.2.1"
+            text "3.2.1 Herstellererklärung sicherheitstechnische Eignung"
+        text " "
+        LI (&93834808894392)
+          text ": : :"
+          A (&93834808894696)
+            attr href "#3.2.2"
+            text "3.2.2 Sicherheitsgutachten"
+        text " "
+        LI (&93834808895296)
+          text ":"
+          A (&93834808895600)
+            attr href "#4"
+            text "4 Produkttypspezifische Merkmale"
+        text " "
+        LI (&93834808896200)
+          text ":"
+          A (&93834808896504)
+            attr href "#5"
+            text "5 Anhang – Verzeichnisse"
+        text " "
+        LI (&93834808897104)
+          text ": :"
+          A (&93834808897408)
+            attr href "#5.1"
+            text "5.1 Abkürzungen"
+        text " "
+        LI (&93834808898008)
+          text ": :"
+          A (&93834808898312)
+            attr href "#5.2"
+            text "5.2 Tabellenverzeichnis"
+        text " "
+      text " "
+      P (&93834808899032)
+        attr id "polarion_58"
+      text " "
+      DIV (&93834808899512)
+        attr contenteditable "false"
+        attr data-is-landscape "false"
+        attr id "polarion_wiki macro name=page_break;params=uid=23"
+      text " "
+      H2 (&93834808900344)
+        attr id "1"
+        text "1 Einführung"
+      text " "
+      H3 (&93834808900944)
+        attr id "1.1"
+        text "1.1 Zielsetzung und Einordnung des Dokumentes"
+      text " "
+      P (&93834808901544)
+        attr id "polarion_36"
+        text "Dieser Produkttypsteckbrief verzeichnet verbindlich die normativen Festlegungen der gematik an Herstellung und Betrieb von Produkten des Produkttyps oder verweist auf Dokumente, in denen verbindliche normative Festlegungen mit ggf. anderer Notation zu finden sind. Die normativen Festlegungen bilden die Grundlage für die Erteilung von Zulassungen, Zertifizierungen bzw. Bestätigungen durch die gematik. (Wenn im weiteren Dokument vereinfachend der Begriff „Zulassung“ verwendet wird, so ist dies der besseren Lesbarkeit geschuldet und umfasst übergreifend neben dem Verfahren der Zulassung auch Zertifizierungen und Bestätigungen der gematik-Zulassungsstelle.)"
+      text " "
+      P (&93834808902144)
+        attr id "polarion_37"
+        text "Die normativen Festlegungen werden über ihren Identifier, ihren Titel sowie die Dokumentenquelle referenziert. Die normativen Festlegungen mit ihrem vollständigen, normativen Inhalt sind dem jeweils referenzierten Dokument zu entnehmen."
+      text " "
+      H3 (&93834808902744)
+        attr id "1.2"
+        text "1.2 Zielgruppe"
+      text " "
+      P (&93834808903344)
+        attr id "polarion_38"
+        text "Der Produkttypsteckbrief richtet sich an Hersteller und Anbieter des Federation Masters sowie Hersteller und Anbieter von Produkttypen, die hierzu eine Schnittstelle besitzen."
+      text " "
+      P (&93834808903944)
+        attr id "polarion_39"
+        text "Das Dokument ist außerdem zu verwenden von:"
+      text " "
+      UL (&93834808904544)
+        attr id "polarion_40"
+        text " "
+        LI (&93834808905024)
+          text "der gematik im Rahmen des Zulassungsverfahrens,"
+        text " "
+        LI (&93834808905448)
+          text "dem Bundesamt für Sicherheit in der Informationstechnik (BSI) und"
+        text " "
+        LI (&93834808905872)
+          text "Auditoren."
+        text " "
+      text " "
+      P (&93834808906416)
+        attr id "polarion_41"
+        text "Bei zentralen Diensten der TI-Plattform und fachanwendungsspezifischen Diensten beziehen sich normative Festlegungen, die sowohl an Anbieter als auch Hersteller gerichtet sind, jeweils auf den Anbieter als Zulassungsnehmer, bei dezentralen Produkten auf den Hersteller."
+      text " "
+      H3 (&93834808907016)
+        attr id "1.3"
+        text "1.3 Geltungsbereich"
+      text " "
+      P (&93834808907616)
+        attr id "polarion_42"
+        text "Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungsverfahren werden durch die gematik GmbH in gesonderten Dokumenten (z. B. gemPTV_ATV_Festlegungen, Leistungsbeschreibung) festgelegt und bekannt gegeben."
+      text " "
+      H3 (&93834808908216)
+        attr id "1.4"
+        text "1.4 Abgrenzung des Dokumentes"
+      text " "
+      P (&93834808908816)
+        attr id "polarion_43"
+        text "Dieses Dokument macht keine Aussagen zur Aufteilung der Produktentwicklung bzw. Produktherstellung auf verschiedene Hersteller und Anbieter."
+      text " "
+      P (&93834808909416)
+        attr id "polarion_44"
+        text "Dokumente zu den Zulassungsverfahren für den Produkttyp sind nicht aufgeführt. Die geltenden Verfahren und Regelungen zur Beantragung und Durchführung von Zulassungsverfahren können dem Fachportal der gematik ("
+        A (&93834808909896)
+          attr class "descriptionLink"
+          attr href "https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen"
+          attr target "_top"
+          text "https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen"
+        text ") entnommen werden."
+      text " "
+      H3 (&93834808910968)
+        attr id "1.5"
+        text "1.5 Methodik"
+      text " "
+      P (&93834808911568)
+        attr id "polarion_45"
+        text "Die im Dokument verzeichneten normativen Festlegungen werden tabellarisch dargestellt. Die Tabellenspalten haben die folgende Bedeutung:"
+      text " "
+      P (&93834808912168)
+        attr id "polarion_46"
+        attr style "margin-left: 40px;"
+        text " "
+        SPAN (&93834808912824)
+          attr style "font-weight: bold;"
+          text "ID:"
+        text "Identifiziert die normative Festlegung eindeutig im Gesamtbestand aller Festlegungen der gematik."
+      text " "
+      P (&93834808913544)
+        attr id "polarion_47"
+        attr style "margin-left: 40px;"
+        text " "
+        SPAN (&93834808914200)
+          attr style "font-weight: bold;"
+          text "Bezeichnung:"
+        text "Gibt den Titel einer normativen Festlegung informativ wieder, um die thematische Einordnung zu erleichtern. Der vollständige Inhalt der normativen Festlegung ist dem Dokument zu entnehmen, auf das die Quellenangabe verweist."
+      text " "
+      P (&93834789456888)
+        attr id "polarion_48"
+        attr style "margin-left: 40px;"
+        text " "
+        SPAN (&93834789457520)
+          attr style "font-weight: bold;"
+          text "Quelle (Referenz):"
+        text "Verweist auf das Dokument, das die normative Festlegung definiert."
+      text " "
+      P (&93834789458240)
+        attr id "polarion_15"
+      text " "
+      DIV (&93834789458720)
+        attr contenteditable "false"
+        attr data-is-landscape "false"
+        attr id "polarion_wiki macro name=page_break;params=uid=24"
+      text " "
+      H2 (&93834789459552)
+        attr id "2"
+        text "2 Dokumente"
+      text " "
+      P (&93834789460152)
+        attr id "polarion_51"
+        text "Die nachfolgenden Dokumente enthalten alle für den Produkttyp normativen Festlegungen."
+        BR (&93834789460632)
+        text " "
+      text " "
+      P (&93834789461056)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_53"
+        text "Tabelle"
+        SPAN (&93834789461712)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "1"
+        text ": Dokumente mit normativen Festlegungen"
+      text " "
+      TABLE (&93834789462608)
+        attr class "polarion-table"
+        text " "
+        TBODY (&93834789463088)
+          TR (&93834789463272)
+            text " "
+            TH (&93834789463576)
+              attr class "polarion-table-header"
+              SPAN (&93834789463936)
+                attr class "polarion-table-span"
+                text "Dokumentenkürzel"
+            text " "
+            TH (&93834789464536)
+              attr class "polarion-table-header"
+              SPAN (&93834789464896)
+                attr class "polarion-table-span"
+                text "Bezeichnung des Dokumentes"
+            text " "
+            TH (&93834789465496)
+              attr class "polarion-table-header"
+              SPAN (&93834789465856)
+                attr class "polarion-table-span"
+                text "Version"
+            text " "
+          text " "
+          TR (&93834789466576)
+            text " "
+            TD (&93834789466880)
+              attr class "polarion-table-data"
+              A (&93834789467240)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html"
+                text "gemSpec_Krypt"
+            text " "
+            TD (&93834789467840)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur"
+            text " "
+            TD (&93834789468440)
+              attr class "polarion-table-data"
+              text "2.24.0"
+            text " "
+          text " "
+          TR (&93834789469160)
+            text " "
+            TD (&93834789469464)
+              attr class "polarion-table-data"
+              A (&93834789469824)
+                attr href "../gemSpec_PKI/gemSpec_PKI_V2.14.1.html"
+                text "gemSpec_PKI"
+            text " "
+            TD (&93834789470424)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation – Spezifikation PKI"
+            text " "
+            TD (&93834789471024)
+              attr class "polarion-table-data"
+              text "2.14.1"
+            text " "
+          text " "
+          TR (&93834789471744)
+            text " "
+            TD (&93834789472048)
+              attr class "polarion-table-data"
+              A (&93834789472408)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html"
+                text "gemKPT_Test"
+            text " "
+            TD (&93834789473008)
+              attr class "polarion-table-data"
+              text "Testkonzept der TI"
+            text " "
+            TD (&93834789473608)
+              attr class "polarion-table-data"
+              text "2.8.6"
+            text " "
+          text " "
+          TR (&93834789474328)
+            text " "
+            TD (&93834789474632)
+              attr class "polarion-table-data"
+              A (&93834789474992)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html"
+                text "gemSpec_OM"
+            text " "
+            TD (&93834789475592)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation Operations und Maintenance"
+            text " "
+            TD (&93834789476192)
+              attr class "polarion-table-data"
+              text "1.14.1"
+            text " "
+          text " "
+          TR (&93834789476912)
+            text " "
+            TD (&93834789477216)
+              attr class "polarion-table-data"
+              A (&93834789477576)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html"
+                text "gemSpec_DS_Hersteller"
+            text " "
+            TD (&93834789478176)
+              attr class "polarion-table-data"
+              text "Spezifikation Datenschutz- und Sicherheitsanforderungen der TI an Hersteller"
+            text " "
+            TD (&93834789478776)
+              attr class "polarion-table-data"
+              text "1.4.0"
+            text " "
+          text " "
+          TR (&93834789479496)
+            text " "
+            TD (&93834789479800)
+              attr class "polarion-table-data"
+              A (&93834789480160)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html"
+                text "gemSpec_IDP_FedMaster"
+            text " "
+            TD (&93834789480760)
+              attr class "polarion-table-data"
+              text "Spezifikation Federation Master"
+            text " "
+            TD (&93834789481360)
+              attr class "polarion-table-data"
+              text "1.0.0"
+            text " "
+          text " "
+          TR (&93834789482080)
+            text " "
+            TD (&93834789482384)
+              attr class "polarion-table-data"
+              A (&93834789482744)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html"
+                text "gemSpec_Perf"
+            text " "
+            TD (&93834789483344)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation Performance und Mengengerüst TI-Plattform"
+            text " "
+            TD (&93834789483944)
+              attr class "polarion-table-data"
+              text "2.26.2"
+            text " "
+          text " "
+      text " "
+      DIV (&93834789484784)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block1"
+        text " "
+        DIV (&93834789485440)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+      text " "
+      P (&93834789486216)
+        attr id "polarion_31"
+      text " "
+      P (&93834789486696)
+        attr id "polarion_50"
+        text "Die in folgender Tabelle aufgeführten Dokumente und Web-Inhalte sind informative Beistellungen und sind nicht Gegenstand der Bestätigung / Zulassung. "
+      text " "
+      P (&93834789487296)
+        attr id "polarion_56"
+        text "Tabelle"
+        SPAN (&93834789487776)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "#"
+        text "Informative Dokumente und Web-Inhalte"
+      text " "
+      TABLE (&93834789488672)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=valign=middle|width=100%|uid=58"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;"
+        text " "
+        TBODY (&93834765134808)
+          text " "
+          TR (&93834765134992)
+            text " "
+            TH (&93834765135296)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: middle;width: 169px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Quelle"
+            text " "
+            TH (&93834765135896)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: middle;width: 458px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Herausgeber: Bezeichnung / URL "
+            text " "
+            TH (&93834765136496)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: middle;width: 93px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Version "
+              BR (&93834765136976)
+              text "Branch / Tag"
+            text " "
+          text " "
+          TR (&93834765137520)
+            text " "
+            TD (&93834765137824)
+              attr style "vertical-align: middle;width: 169px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834765138184)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemRL_PruefSichEig_DS]"
+            text " "
+            TD (&93834765138784)
+              attr style "vertical-align: middle;width: 458px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gematik: Richtlinie zur Prüfung der Sicherheitseignung"
+            text " "
+            TD (&93834765139384)
+              attr style "vertical-align: middle;width: 93px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+          text " "
+          TR (&93834765139984)
+            text " "
+            TD (&93834765140288)
+              attr style "vertical-align: middle;width: 169px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "[The OAuth 2.0 Authorization Framework]"
+            text " "
+            TD (&93834765140888)
+              attr style "vertical-align: middle;width: 458px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "IETF:"
+              A (&93834765141368)
+                attr class "descriptionLink"
+                attr href "https://www.rfc-editor.org/rfc/rfc6749.html"
+                attr target "_top"
+                text "https://www.rfc-editor.org/rfc/rfc6749.html"
+              text " "
+            text " "
+            TD (&93834765142440)
+              attr style "vertical-align: middle;width: 93px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+          text " "
+          TR (&93834765143040)
+            text " "
+            TD (&93834765143344)
+              attr style "vertical-align: middle;width: 169px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "[Proof Key for Code Exchange by OAuth Public Clients]"
+            text " "
+            TD (&93834765143944)
+              attr style "vertical-align: middle;width: 458px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "IETF:"
+              A (&93834765144424)
+                attr class "descriptionLink"
+                attr href "https://datatracker.ietf.org/doc/html/rfc7636"
+                attr target "_top"
+                text "https://datatracker.ietf.org/doc/html/rfc7636"
+              text " "
+            text " "
+            TD (&93834765145496)
+              attr style "vertical-align: middle;width: 93px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+          text " "
+          TR (&93834765146096)
+            text " "
+            TD (&93834765146400)
+              attr style "vertical-align: middle;width: 169px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "[OAuth 2.0 Pushed Authorization Requests]"
+            text " "
+            TD (&93834765147000)
+              attr style "vertical-align: middle;width: 458px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834765147360)
+                attr style "font-size: 9pt;color: #222222;line-height: 1.5;"
+                text "IETF: "
+              A (&93834765147840)
+                attr class "descriptionLink"
+                attr href "https://www.rfc-editor.org/rfc/rfc9126.html"
+                attr target "_top"
+                text "https://www.rfc-editor.org/rfc/rfc9126.html"
+              text " "
+            text " "
+            TD (&93834765148912)
+              attr style "vertical-align: middle;width: 93px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+          text " "
+          TR (&93834765149512)
+            text " "
+            TD (&93834765149816)
+              attr style "vertical-align: middle;width: 169px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "["
+              SPAN (&93834765150296)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "OpenID Connect Core 1.0]"
+            text " "
+            TD (&93834765150896)
+              attr style "vertical-align: middle;width: 458px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834765151256)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "OpenID Connect Working Group: "
+              A (&93834765151736)
+                attr class "descriptionLink"
+                attr href "https://openid.net/specs/openid-connect-core-1_0.html"
+                attr target "_top"
+                text "https://openid.net/specs/openid-connect-core-1_0.html"
+              text " "
+            text " "
+            TD (&93834765152808)
+              attr style "vertical-align: middle;width: 93px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+          text " "
+          TR (&93834765153408)
+            text " "
+            TD (&93834765153712)
+              attr style "vertical-align: middle;width: 169px;height: 37px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "[OpenID Connect Federation 1.0]"
+            text " "
+            TD (&93834765154312)
+              attr style "vertical-align: middle;width: 458px;height: 37px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834765154672)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "OpenID Connect Working Group: "
+              A (&93834765155152)
+                attr class "descriptionLink"
+                attr href "https://openid.net/specs/openid-connect-federation-1_0.html"
+                attr target "_top"
+                text "https://openid.net/specs/openid-connect-federation-1_0.html"
+              text "  "
+            text " "
+            TD (&93834765156224)
+              attr style "vertical-align: middle;width: 93px;height: 37px;border: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+          text " "
+          TR (&93834765156824)
+            text " "
+            TD (&93834765157128)
+              attr style "vertical-align: middle;width: 169px;height: 60px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "[TR-03107-1]"
+            text " "
+            TD (&93834765157728)
+              attr style "vertical-align: middle;width: 458px;height: 60px;border: 1px solid #CCCCCC;padding: 5px;"
+              text "BSI: "
+              A (&93834765158208)
+                attr class "descriptionLink"
+                attr href "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03107/TR-03107-1.pdf"
+                attr target "_top"
+                text "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03107/TR-03107-1.pdf"
+              text "  "
+            text " "
+            TD (&93834765159280)
+              attr style "vertical-align: middle;width: 93px;height: 60px;border: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834765160120)
+        attr id "polarion_59"
+      text " "
+      P (&93834765160600)
+        attr id "polarion_32"
+        text "Hinweis:"
+      text " "
+      UL (&93834765161200)
+        attr id "polarion_60"
+        text " "
+        LI (&93834765161680)
+          text "Ist kein Herausgeber angegeben, wird angenommen, dass die gematik für Herausgabe und Veröffentlichung der Quelle verantwortlich ist. "
+        text " "
+        LI (&93834765162104)
+          text "Ist keine Version angegeben, bezieht sich die Quellenangabe auf die aktuellste Version."
+        text " "
+        LI (&93834765162528)
+          text "Bei Quellen aus gitHub werden als Version Branch und / oder Tag verwendet. "
+        text " "
+      text " "
+      P (&93834765163072)
+        attr id "polarion_16"
+      text " "
+      DIV (&93834765163552)
+        attr contenteditable "false"
+        attr data-is-landscape "false"
+        attr id "polarion_wiki macro name=page_break;params=uid=61"
+      text " "
+      H2 (&93834765164384)
+        attr id "3"
+        text "3 Normative Festlegungen"
+      text " "
+      P (&93834765164984)
+        attr id "polarion_64"
+        text "Die folgenden Abschnitte verzeichnen alle für den Produkttypen normativen Festlegungen, die für die Herstellung und den Betrieb von Produkten des Produkttyps notwendig sind. Die Festlegungen sind gruppiert nach der Art der Nachweisführung ihrer Erfüllung als Grundlage der Zulassung, Zertifizierung bzw. Bestätigung."
+      text " "
+      H3 (&93834765165584)
+        attr id "3.1"
+        text "3.1 Festlegungen zur funktionalen Eignung"
+      text " "
+      H4 (&93834765166184)
+        attr id "3.1.1"
+        text "3.1.1 Produkttest/Produktübergreifender Test"
+      text " "
+      P (&93834765166784)
+        attr id "polarion_65"
+        text "In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an den technischen Teil des Produkttyps verzeichnet, deren Umsetzung im Zuge von Zulassungstests durch die gematik geprüft wird."
+        BR (&93834765167264)
+        text " "
+      text " "
+      P (&93834775007504)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_67"
+        text "Tabelle"
+        SPAN (&93834775008160)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "2"
+        text ": Festlegungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test""
+      text " "
+      TABLE (&93834775009056)
+        attr class "polarion-table"
+        text " "
+        TBODY (&93834775009536)
+          TR (&93834775009720)
+            text " "
+            TH (&93834775010024)
+              attr class "polarion-table-header"
+              SPAN (&93834775010384)
+                attr class "polarion-table-span"
+                text "ID"
+            text " "
+            TH (&93834775010984)
+              attr class "polarion-table-header"
+              SPAN (&93834775011344)
+                attr class "polarion-table-span"
+                text "Bezeichnung"
+            text " "
+            TH (&93834775011944)
+              attr class "polarion-table-header"
+              SPAN (&93834775012304)
+                attr class "polarion-table-span"
+                text "Quelle (Referenz)"
+            text " "
+          text " "
+          TR (&93834775013024)
+            text " "
+            TD (&93834775013328)
+              attr class "polarion-table-data"
+              A (&93834775013688)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#AF_10100"
+                text "AF_10100"
+            text " "
+            TD (&93834775014288)
+              attr class "polarion-table-data"
+              text "Bereitstellung Liste registrierter Identity Provider"
+            text " "
+            TD (&93834775014888)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775015608)
+            text " "
+            TD (&93834775015912)
+              attr class "polarion-table-data"
+              A (&93834775016272)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#AF_10101"
+                text "AF_10101"
+            text " "
+            TD (&93834775016872)
+              attr class "polarion-table-data"
+              text "Bereitstellung von Informationen zu Teilnehmern der Föderation durch den Federation Master"
+            text " "
+            TD (&93834775017472)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775018192)
+            text " "
+            TD (&93834775018496)
+              attr class "polarion-table-data"
+              A (&93834775018856)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#AF_10110"
+                text "AF_10110"
+            text " "
+            TD (&93834775019456)
+              attr class "polarion-table-data"
+              text "Monitoring der TLS- Zertifikate der VAU"
+            text " "
+            TD (&93834775020056)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775020776)
+            text " "
+            TD (&93834775021080)
+              attr class "polarion-table-data"
+              A (&93834775021440)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22604"
+                text "A_22604"
+            text " "
+            TD (&93834775022040)
+              attr class "polarion-table-data"
+              text "Verwendung eindeutiger URI"
+            text " "
+            TD (&93834775022640)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775023360)
+            text " "
+            TD (&93834775023664)
+              attr class "polarion-table-data"
+              A (&93834775024024)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22605"
+                text "A_22605"
+            text " "
+            TD (&93834775024624)
+              attr class "polarion-table-data"
+              text "Entity Statement Veröffentlichung"
+            text " "
+            TD (&93834775025224)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775025944)
+            text " "
+            TD (&93834775026248)
+              attr class "polarion-table-data"
+              A (&93834775026608)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22607"
+                text "A_22607"
+            text " "
+            TD (&93834775027208)
+              attr class "polarion-table-data"
+              text "Inhalte des Federation Master Entity Statement"
+            text " "
+            TD (&93834775027808)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775028528)
+            text " "
+            TD (&93834775028832)
+              attr class "polarion-table-data"
+              A (&93834775029192)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22608"
+                text "A_22608"
+            text " "
+            TD (&93834775029792)
+              attr class "polarion-table-data"
+              text "Inhalte des Metadata Federation API-Endpunkt im Federation Master Entity Statement"
+            text " "
+            TD (&93834775030392)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775031112)
+            text " "
+            TD (&93834775031416)
+              attr class "polarion-table-data"
+              A (&93834775031776)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22609"
+                text "A_22609"
+            text " "
+            TD (&93834775032376)
+              attr class "polarion-table-data"
+              text "Inhalte des Federation Master Entity Statement Metadata IDP-Liste"
+            text " "
+            TD (&93834775032976)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775033696)
+            text " "
+            TD (&93834775034000)
+              attr class "polarion-table-data"
+              A (&93834775034360)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22947"
+                text "A_22947"
+            text " "
+            TD (&93834775034960)
+              attr class "polarion-table-data"
+              text "Aktualisierungszyklen für die Liste der registrierten sektoralen Identity Provider"
+            text " "
+            TD (&93834775035560)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775036280)
+            text " "
+            TD (&93834775036584)
+              attr class "polarion-table-data"
+              A (&93834775036944)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22948"
+                text "A_22948"
+            text " "
+            TD (&93834775037544)
+              attr class "polarion-table-data"
+              text "Aktualisierungszyklen der Entity Statements Federation Master"
+            text " "
+            TD (&93834775038144)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834775038864)
+            text " "
+            TD (&93834775039168)
+              attr class "polarion-table-data"
+              A (&93834775039528)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22949"
+                text "A_22949"
+            text " "
+            TD (&93834764148136)
+              attr class "polarion-table-data"
+              text "Aktualisierungszyklen der Entity Statements zu Teilnehmern der Föderation"
+            text " "
+            TD (&93834764148712)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834764149432)
+            text " "
+            TD (&93834764149736)
+              attr class "polarion-table-data"
+              A (&93834764150096)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_23087"
+                text "A_23087"
+            text " "
+            TD (&93834764150696)
+              attr class "polarion-table-data"
+              text "Entity Statements gelöschter Teilnehmer"
+            text " "
+            TD (&93834764151296)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834764152016)
+            text " "
+            TD (&93834764152320)
+              attr class "polarion-table-data"
+              A (&93834764152680)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_21275-01"
+                text "A_21275-01"
+            text " "
+            TD (&93834764153280)
+              attr class "polarion-table-data"
+              text "TLS-Verbindungen, zulässige Hashfunktionen bei Signaturen im TLS-Handshake"
+            text " "
+            TD (&93834764153880)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834764154600)
+            text " "
+            TD (&93834764154904)
+              attr class "polarion-table-data"
+              A (&93834764155264)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_21332"
+                text "A_21332"
+            text " "
+            TD (&93834764155864)
+              attr class "polarion-table-data"
+              text "E-Rezept: TLS-Vorgaben"
+            text " "
+            TD (&93834764156464)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834764157184)
+            text " "
+            TD (&93834764157488)
+              attr class "polarion-table-data"
+              A (&93834764157848)
+                attr href "../gemSpec_PKI/gemSpec_PKI_V2.14.1.html#GS-A_4662"
+                text "GS-A_4662"
+            text " "
+            TD (&93834764158448)
+              attr class "polarion-table-data"
+              text "Bedingungen für TLS-Handshake"
+            text " "
+            TD (&93834764159048)
+              attr class "polarion-table-data"
+              text "gemSpec_PKI"
+            text " "
+          text " "
+          TR (&93834764159768)
+            text " "
+            TD (&93834764160072)
+              attr class "polarion-table-data"
+              A (&93834764160432)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_21980"
+                text "A_21980"
+            text " "
+            TD (&93834764161032)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Leerlieferung (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834764161632)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834764162352)
+            text " "
+            TD (&93834764162656)
+              attr class "polarion-table-data"
+              A (&93834764163016)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22000"
+                text "A_22000"
+            text " "
+            TD (&93834764163616)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - zu liefernde Dateien (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834764164216)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834764164936)
+            text " "
+            TD (&93834764165240)
+              attr class "polarion-table-data"
+              A (&93834764165600)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22002"
+                text "A_22002"
+            text " "
+            TD (&93834764166200)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Übermittlung (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834764166800)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834764167520)
+            text " "
+            TD (&93834764167824)
+              attr class "polarion-table-data"
+              A (&93834764168184)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22004"
+                text "A_22004"
+            text " "
+            TD (&93834764168784)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Korrektheit (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834764169384)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834764170104)
+            text " "
+            TD (&93834764170408)
+              attr class "polarion-table-data"
+              A (&93834764170768)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22429"
+                text "A_22429"
+            text " "
+            TD (&93834764171368)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Inhalt der Selbstauskunft (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834764171968)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+      text " "
+      DIV (&93834764172808)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block29"
+        text " "
+        DIV (&93834764173464)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+      text " "
+      P (&93834764174240)
+        attr id "polarion_17"
+      text " "
+      H4 (&93834764174720)
+        attr id "3.1.2"
+        text "3.1.2 Herstellererklärung funktionale Eignung"
+      text " "
+      P (&93834764175320)
+        attr id "polarion_73"
+        text "In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an den technischen Teil des Produkttyps verzeichnet, deren durchgeführte bzw. geplante Umsetzung und Beachtung der Hersteller bzw. der Anbieter durch eine Herstellererklärung bestätigt bzw. zusagt."
+        BR (&93834764175800)
+        text " "
+      text " "
+      P (&93834764176224)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_75"
+        text "Tabelle"
+        SPAN (&93834764176880)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "3"
+        text ": Festlegungen zur funktionalen Eignung "Herstellererklärung""
+      text " "
+      TABLE (&93834764177776)
+        attr class "polarion-table"
+        text " "
+        TBODY (&93834764178256)
+          TR (&93834764178440)
+            text " "
+            TH (&93834764178744)
+              attr class "polarion-table-header"
+              SPAN (&93834764179104)
+                attr class "polarion-table-span"
+                text "ID"
+            text " "
+            TH (&93834764179704)
+              attr class "polarion-table-header"
+              SPAN (&93834764180064)
+                attr class "polarion-table-span"
+                text "Bezeichnung"
+            text " "
+            TH (&93834764180664)
+              attr class "polarion-table-header"
+              SPAN (&93834768476112)
+                attr class "polarion-table-span"
+                text "Quelle (Referenz)"
+            text " "
+          text " "
+          TR (&93834768476832)
+            text " "
+            TD (&93834768477136)
+              attr class "polarion-table-data"
+              A (&93834768477496)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#A_20065"
+                text "A_20065"
+            text " "
+            TD (&93834768478096)
+              attr class "polarion-table-data"
+              text "Nutzung der Dokumententemplates der gematik"
+            text " "
+            TD (&93834768478696)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768479416)
+            text " "
+            TD (&93834768479720)
+              attr class "polarion-table-data"
+              A (&93834768480080)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#GS-A_2162"
+                text "GS-A_2162"
+            text " "
+            TD (&93834768480680)
+              attr class "polarion-table-data"
+              text "Kryptographisches Material in Entwicklungs- und Testumgebungen"
+            text " "
+            TD (&93834768481280)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768482000)
+            text " "
+            TD (&93834768482304)
+              attr class "polarion-table-data"
+              A (&93834768482664)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_2775"
+                text "TIP1-A_2775"
+            text " "
+            TD (&93834768483264)
+              attr class "polarion-table-data"
+              text "Performance in RU"
+            text " "
+            TD (&93834768483864)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768484584)
+            text " "
+            TD (&93834768484888)
+              attr class "polarion-table-data"
+              A (&93834768485248)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_2805"
+                text "TIP1-A_2805"
+            text " "
+            TD (&93834768485848)
+              attr class "polarion-table-data"
+              text "Zeitnahe Anpassung von Produktkonfigurationen"
+            text " "
+            TD (&93834768486448)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768487168)
+            text " "
+            TD (&93834768487472)
+              attr class "polarion-table-data"
+              A (&93834768487832)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_4191"
+                text "TIP1-A_4191"
+            text " "
+            TD (&93834768488432)
+              attr class "polarion-table-data"
+              text "Keine Echtdaten in RU und TU"
+            text " "
+            TD (&93834768489032)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768489752)
+            text " "
+            TD (&93834768490056)
+              attr class "polarion-table-data"
+              A (&93834768490416)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_5052"
+                text "TIP1-A_5052"
+            text " "
+            TD (&93834768491016)
+              attr class "polarion-table-data"
+              text "Dauerhafte Verfügbarkeit in der RU"
+            text " "
+            TD (&93834768491616)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768492336)
+            text " "
+            TD (&93834768492640)
+              attr class "polarion-table-data"
+              A (&93834768493000)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6079"
+                text "TIP1-A_6079"
+            text " "
+            TD (&93834768493600)
+              attr class "polarion-table-data"
+              text "Updates von Referenzobjekten"
+            text " "
+            TD (&93834768494200)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768494920)
+            text " "
+            TD (&93834768495224)
+              attr class "polarion-table-data"
+              A (&93834768495584)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6080"
+                text "TIP1-A_6080"
+            text " "
+            TD (&93834768496184)
+              attr class "polarion-table-data"
+              text "Softwarestand von Referenzobjekten"
+            text " "
+            TD (&93834768496784)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768497504)
+            text " "
+            TD (&93834768497808)
+              attr class "polarion-table-data"
+              A (&93834768498168)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6081"
+                text "TIP1-A_6081"
+            text " "
+            TD (&93834768498768)
+              attr class "polarion-table-data"
+              text "Bereitstellung der Referenzobjekte"
+            text " "
+            TD (&93834768499368)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768500088)
+            text " "
+            TD (&93834768500392)
+              attr class "polarion-table-data"
+              A (&93834768500752)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6085"
+                text "TIP1-A_6085"
+            text " "
+            TD (&93834768501352)
+              attr class "polarion-table-data"
+              text "Referenzobjekte eines Produkts"
+            text " "
+            TD (&93834768501952)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768502672)
+            text " "
+            TD (&93834768502976)
+              attr class "polarion-table-data"
+              A (&93834768503336)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6088"
+                text "TIP1-A_6088"
+            text " "
+            TD (&93834768503936)
+              attr class "polarion-table-data"
+              text "Unterstützung bei Fehlernachstellung"
+            text " "
+            TD (&93834768504536)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768505256)
+            text " "
+            TD (&93834768505560)
+              attr class "polarion-table-data"
+              A (&93834768505920)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6093"
+                text "TIP1-A_6093"
+            text " "
+            TD (&93834768506520)
+              attr class "polarion-table-data"
+              text "Ausprägung der Referenzobjekte"
+            text " "
+            TD (&93834768507120)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834768507840)
+            text " "
+            TD (&93834768508144)
+              attr class "polarion-table-data"
+              A (&93834768508504)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6517-01"
+                text "TIP1-A_6517-01"
+            text " "
+            TD (&93834799905680)
+              attr class "polarion-table-data"
+              text "Eigenverantwortlicher Test: TBI"
+            text " "
+            TD (&93834799906280)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799907000)
+            text " "
+            TD (&93834799907304)
+              attr class "polarion-table-data"
+              A (&93834799907664)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6518"
+                text "TIP1-A_6518"
+            text " "
+            TD (&93834799908264)
+              attr class "polarion-table-data"
+              text "Eigenverantwortlicher Test: TDI"
+            text " "
+            TD (&93834799908864)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799909584)
+            text " "
+            TD (&93834799909888)
+              attr class "polarion-table-data"
+              A (&93834799910248)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6519"
+                text "TIP1-A_6519"
+            text " "
+            TD (&93834799910848)
+              attr class "polarion-table-data"
+              text "Eigenverantwortlicher Test: Hersteller und Anbieter"
+            text " "
+            TD (&93834799911448)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799912168)
+            text " "
+            TD (&93834799912472)
+              attr class "polarion-table-data"
+              A (&93834799912832)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6523"
+                text "TIP1-A_6523"
+            text " "
+            TD (&93834799913432)
+              attr class "polarion-table-data"
+              text "Zulassungstest: Hersteller und Anbieter"
+            text " "
+            TD (&93834799914032)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799914752)
+            text " "
+            TD (&93834799915056)
+              attr class "polarion-table-data"
+              A (&93834799915416)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6524-01"
+                text "TIP1-A_6524-01"
+            text " "
+            TD (&93834799916016)
+              attr class "polarion-table-data"
+              text "Testdokumentation gemäß Vorlagen"
+            text " "
+            TD (&93834799916616)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799917336)
+            text " "
+            TD (&93834799917640)
+              attr class "polarion-table-data"
+              A (&93834799918000)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6532"
+                text "TIP1-A_6532"
+            text " "
+            TD (&93834799918600)
+              attr class "polarion-table-data"
+              text "Zulassung eines neuen Produkts: Aufgaben der TDI"
+            text " "
+            TD (&93834799919200)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799919920)
+            text " "
+            TD (&93834799920224)
+              attr class "polarion-table-data"
+              A (&93834799920584)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6533"
+                text "TIP1-A_6533"
+            text " "
+            TD (&93834799921184)
+              attr class "polarion-table-data"
+              text "Zulassung eines neuen Produkts: Aufgaben der Hersteller und Anbieter"
+            text " "
+            TD (&93834799921784)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799922504)
+            text " "
+            TD (&93834799922808)
+              attr class "polarion-table-data"
+              A (&93834799923168)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6536"
+                text "TIP1-A_6536"
+            text " "
+            TD (&93834799923768)
+              attr class "polarion-table-data"
+              text "Zulassung eines geänderten Produkts: Aufgaben der TDI"
+            text " "
+            TD (&93834799924368)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799925088)
+            text " "
+            TD (&93834799925392)
+              attr class "polarion-table-data"
+              A (&93834799925752)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_6772"
+                text "TIP1-A_6772"
+            text " "
+            TD (&93834799926352)
+              attr class "polarion-table-data"
+              text "Partnerprodukte bei Interoperabilitätstests"
+            text " "
+            TD (&93834799926952)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799927672)
+            text " "
+            TD (&93834799927976)
+              attr class "polarion-table-data"
+              A (&93834799928336)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_7330"
+                text "TIP1-A_7330"
+            text " "
+            TD (&93834799928936)
+              attr class "polarion-table-data"
+              text "Tracedaten von echten Außenschnittstellen"
+            text " "
+            TD (&93834799929536)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799930256)
+            text " "
+            TD (&93834799930560)
+              attr class "polarion-table-data"
+              A (&93834799930920)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_7331"
+                text "TIP1-A_7331"
+            text " "
+            TD (&93834799931520)
+              attr class "polarion-table-data"
+              text "Bereitstellung von Tracedaten an Außenschnittstelle"
+            text " "
+            TD (&93834799932120)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799932840)
+            text " "
+            TD (&93834799933144)
+              attr class "polarion-table-data"
+              A (&93834799933504)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_7333"
+                text "TIP1-A_7333"
+            text " "
+            TD (&93834799934104)
+              attr class "polarion-table-data"
+              text "Parallelbetrieb von Release oder Produkttypversion"
+            text " "
+            TD (&93834799934704)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834799935424)
+            text " "
+            TD (&93834799935728)
+              attr class "polarion-table-data"
+              A (&93834799936088)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_7334"
+                text "TIP1-A_7334"
+            text " "
+            TD (&93834799936688)
+              attr class "polarion-table-data"
+              text "Risikoabschätzung bezüglich der Interoperabilität"
+            text " "
+            TD (&93834799937288)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834771050424)
+            text " "
+            TD (&93834771050728)
+              attr class "polarion-table-data"
+              A (&93834771051064)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.6.html#TIP1-A_7335"
+                text "TIP1-A_7335"
+            text " "
+            TD (&93834771051664)
+              attr class "polarion-table-data"
+              text "Bereitstellung der Testdokumentation"
+            text " "
+            TD (&93834771052264)
+              attr class "polarion-table-data"
+              text "gemKPT_Test"
+            text " "
+          text " "
+          TR (&93834771052984)
+            text " "
+            TD (&93834771053288)
+              attr class "polarion-table-data"
+              A (&93834771053648)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22595"
+                text "A_22595"
+            text " "
+            TD (&93834771054248)
+              attr class "polarion-table-data"
+              text "Format der Fehlermeldungen"
+            text " "
+            TD (&93834771054848)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834771055568)
+            text " "
+            TD (&93834771055872)
+              attr class "polarion-table-data"
+              A (&93834771056232)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22596"
+                text "A_22596"
+            text " "
+            TD (&93834771056832)
+              attr class "polarion-table-data"
+              text "Nutzung von eindeutigen Error-Codes bei der Erstellung von Fehlermeldungen"
+            text " "
+            TD (&93834771057432)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834771058152)
+            text " "
+            TD (&93834771058456)
+              attr class "polarion-table-data"
+              A (&93834771058816)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22597"
+                text "A_22597"
+            text " "
+            TD (&93834771059416)
+              attr class "polarion-table-data"
+              text "Verwendung eines einheitlichen Schemas für die Aufbereitung von Fehlermeldungen"
+            text " "
+            TD (&93834771060016)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834771060736)
+            text " "
+            TD (&93834771061040)
+              attr class "polarion-table-data"
+              A (&93834771061400)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22598"
+                text "A_22598"
+            text " "
+            TD (&93834771062000)
+              attr class "polarion-table-data"
+              text "Formulierung der Fehlermeldungen"
+            text " "
+            TD (&93834771062600)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834771063320)
+            text " "
+            TD (&93834771063624)
+              attr class "polarion-table-data"
+              A (&93834771063984)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22599"
+                text "A_22599"
+            text " "
+            TD (&93834771064584)
+              attr class "polarion-table-data"
+              text "Nutzung einer eindeutigen Beschreibung beim Aufbau von Fehlermeldungen"
+            text " "
+            TD (&93834771065184)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834771065904)
+            text " "
+            TD (&93834771066208)
+              attr class "polarion-table-data"
+              A (&93834771066568)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22600"
+                text "A_22600"
+            text " "
+            TD (&93834771067168)
+              attr class "polarion-table-data"
+              text "Ausgabe der Fehlermeldungen in umgekehrter Reihenfolge des Auftretens"
+            text " "
+            TD (&93834771067768)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834771068488)
+            text " "
+            TD (&93834771068792)
+              attr class "polarion-table-data"
+              A (&93834771069152)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_18464"
+                text "A_18464"
+            text " "
+            TD (&93834771069752)
+              attr class "polarion-table-data"
+              text "TLS-Verbindungen, nicht Version 1.1"
+            text " "
+            TD (&93834771070352)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834771071072)
+            text " "
+            TD (&93834771071376)
+              attr class "polarion-table-data"
+              A (&93834771071736)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_18467"
+                text "A_18467"
+            text " "
+            TD (&93834771072336)
+              attr class "polarion-table-data"
+              text "TLS-Verbindungen, Version 1.3"
+            text " "
+            TD (&93834771072936)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834771073656)
+            text " "
+            TD (&93834771073960)
+              attr class "polarion-table-data"
+              A (&93834771074320)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_4385"
+                text "GS-A_4385"
+            text " "
+            TD (&93834771074920)
+              attr class "polarion-table-data"
+              text "TLS-Verbindungen, Version 1.2"
+            text " "
+            TD (&93834771075520)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834771076240)
+            text " "
+            TD (&93834771076544)
+              attr class "polarion-table-data"
+              A (&93834771076904)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_3695"
+                text "GS-A_3695"
+            text " "
+            TD (&93834771077504)
+              attr class "polarion-table-data"
+              text "Grundlegender Aufbau Versionsnummern"
+            text " "
+            TD (&93834771078104)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834771078824)
+            text " "
+            TD (&93834771079128)
+              attr class "polarion-table-data"
+              A (&93834771079488)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_3696"
+                text "GS-A_3696"
+            text " "
+            TD (&93834771080088)
+              attr class "polarion-table-data"
+              text "Zeitpunkt der Erzeugung neuer Versionsnummern"
+            text " "
+            TD (&93834771080688)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834771081408)
+            text " "
+            TD (&93834771081712)
+              attr class "polarion-table-data"
+              A (&93834771082072)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_3697"
+                text "GS-A_3697"
+            text " "
+            TD (&93834771082672)
+              attr class "polarion-table-data"
+              text "Anlass der Erhöhung von Versionsnummern"
+            text " "
+            TD (&93834772229424)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834772230120)
+            text " "
+            TD (&93834772230424)
+              attr class "polarion-table-data"
+              A (&93834772230784)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_3813"
+                text "GS-A_3813"
+            text " "
+            TD (&93834772231384)
+              attr class "polarion-table-data"
+              text "Datenschutzvorgaben Fehlermeldungen"
+            text " "
+            TD (&93834772231984)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834772232704)
+            text " "
+            TD (&93834772233008)
+              attr class "polarion-table-data"
+              A (&93834772233368)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_4541"
+                text "GS-A_4541"
+            text " "
+            TD (&93834772233968)
+              attr class "polarion-table-data"
+              text "Nutzung der Produkttypversion zur Kompatibilitätsprüfung"
+            text " "
+            TD (&93834772234568)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834772235288)
+            text " "
+            TD (&93834772235592)
+              attr class "polarion-table-data"
+              A (&93834772235952)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_4542"
+                text "GS-A_4542"
+            text " "
+            TD (&93834772236552)
+              attr class "polarion-table-data"
+              text "Spezifikationsgrundlage für Produkte"
+            text " "
+            TD (&93834772237152)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834772237872)
+            text " "
+            TD (&93834772238176)
+              attr class "polarion-table-data"
+              A (&93834772238536)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_5038"
+                text "GS-A_5038"
+            text " "
+            TD (&93834772239136)
+              attr class "polarion-table-data"
+              text "Festlegungen zur Vergabe einer Produktversion"
+            text " "
+            TD (&93834772239736)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834772240456)
+            text " "
+            TD (&93834772240760)
+              attr class "polarion-table-data"
+              A (&93834772241120)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_5039"
+                text "GS-A_5039"
+            text " "
+            TD (&93834772241720)
+              attr class "polarion-table-data"
+              text "Änderung der Produktversion bei Änderungen der Produkttypversion"
+            text " "
+            TD (&93834772242320)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834772243040)
+            text " "
+            TD (&93834772243344)
+              attr class "polarion-table-data"
+              A (&93834772243704)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_5040"
+                text "GS-A_5040"
+            text " "
+            TD (&93834772244304)
+              attr class "polarion-table-data"
+              text "Änderung der Produktversion bei Produktänderungen außerhalb von Produkttypänderungen"
+            text " "
+            TD (&93834772244904)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834772245624)
+            text " "
+            TD (&93834772245928)
+              attr class "polarion-table-data"
+              A (&93834772246288)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.1.html#GS-A_5054"
+                text "GS-A_5054"
+            text " "
+            TD (&93834772246888)
+              attr class "polarion-table-data"
+              text "Versionierung von Produkten durch die Produktidentifikation erweitert um Klartextnamen"
+            text " "
+            TD (&93834772247488)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834772248208)
+            text " "
+            TD (&93834772248512)
+              attr class "polarion-table-data"
+              A (&93834772248872)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_21975"
+                text "A_21975"
+            text " "
+            TD (&93834772249472)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Default-Werte für Lieferintervalle (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772250072)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772250792)
+            text " "
+            TD (&93834772251096)
+              attr class "polarion-table-data"
+              A (&93834772251456)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_21976"
+                text "A_21976"
+            text " "
+            TD (&93834772252056)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Konfigurierbarkeit der Lieferintervalle (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772252656)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772253376)
+            text " "
+            TD (&93834772253680)
+              attr class "polarion-table-data"
+              A (&93834772254040)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_21978"
+                text "A_21978"
+            text " "
+            TD (&93834772254640)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Trennung der Lieferintervalle (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772255240)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772255960)
+            text " "
+            TD (&93834772256264)
+              attr class "polarion-table-data"
+              A (&93834772256624)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_21979"
+                text "A_21979"
+            text " "
+            TD (&93834772257224)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Bezug der Lieferverpflichtung (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772257824)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772258544)
+            text " "
+            TD (&93834772258848)
+              attr class "polarion-table-data"
+              A (&93834772259208)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_21981-02"
+                text "A_21981-02"
+            text " "
+            TD (&93834772259808)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Format des Rohdaten-Performance-Berichtes (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772260408)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772261128)
+            text " "
+            TD (&93834772261432)
+              attr class "polarion-table-data"
+              A (&93834772261792)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_21982-01"
+                text "A_21982-01"
+            text " "
+            TD (&93834772262480)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Message-Block (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772263080)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772263800)
+            text " "
+            TD (&93834772264104)
+              attr class "polarion-table-data"
+              A (&93834772264464)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22001-01"
+                text "A_22001-01"
+            text " "
+            TD (&93834772265064)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Name der Berichte (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772265664)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772266384)
+            text " "
+            TD (&93834772266688)
+              attr class "polarion-table-data"
+              A (&93834772267048)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22005"
+                text "A_22005"
+            text " "
+            TD (&93834772267648)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Frist für Nachlieferung (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772268248)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772268968)
+            text " "
+            TD (&93834772269272)
+              attr class "polarion-table-data"
+              A (&93834772269632)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22047"
+                text "A_22047"
+            text " "
+            TD (&93834772270232)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Änderung der Konfiguration der Lieferintervalle (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772270832)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772271552)
+            text " "
+            TD (&93834772271856)
+              attr class "polarion-table-data"
+              A (&93834772272216)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22482"
+                text "A_22482"
+            text " "
+            TD (&93834772272816)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Erfassung von Rohdaten (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772273416)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772274136)
+            text " "
+            TD (&93834772274440)
+              attr class "polarion-table-data"
+              A (&93834772274800)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22500-01"
+                text "A_22500-01"
+            text " "
+            TD (&93834772275400)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Status-Block (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772276000)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+          TR (&93834772276720)
+            text " "
+            TD (&93834772277024)
+              attr class "polarion-table-data"
+              A (&93834772277384)
+                attr href "../gemSpec_Perf/gemSpec_Perf_V2.26.2.html#A_22513-01"
+                text "A_22513-01"
+            text " "
+            TD (&93834772277984)
+              attr class "polarion-table-data"
+              text "Performance - Rohdaten - Message-Block im Fehlerfall (Rohdatenerfassung v.02)"
+            text " "
+            TD (&93834772278584)
+              attr class "polarion-table-data"
+              text "gemSpec_Perf"
+            text " "
+          text " "
+      text " "
+      DIV (&93834772279424)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block135"
+        text " "
+        DIV (&93834772280080)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+      text " "
+      P (&93834772280856)
+        attr id "polarion_19"
+      text " "
+      H3 (&93834772281336)
+        attr id "3.2"
+        text "3.2 Festlegungen zur sicherheitstechnischen Eignung"
+      text " "
+      H4 (&93834772281936)
+        attr id "3.2.1"
+        text "3.2.1 Herstellererklärung sicherheitstechnische Eignung"
+      text " "
+      P (&93834772282536)
+        attr id "polarion_2"
+        text "Sofern in diesem Abschnitt Festlegungen verzeichnet sind, muss der Hersteller bzw. der Anbieter deren Umsetzung und Beachtung zum Nachweis der sicherheitstechnischen Eignung durch eine Herstellererklärung bestätigen bzw. zusagen."
+        BR (&93834772283016)
+        text " "
+      text " "
+      P (&93834772283440)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_3"
+        text "Tabelle"
+        SPAN (&93834772284096)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "4"
+        text ": Festlegungen zur sicherheitstechnischen Eignung "Herstellererklärung""
+      text " "
+      TABLE (&93834772284992)
+        attr class "polarion-table"
+        text " "
+        TBODY (&93834772285472)
+          TR (&93834772285656)
+            text " "
+            TH (&93834772285960)
+              attr class "polarion-table-header"
+              SPAN (&93834772286320)
+                attr class "polarion-table-span"
+                text "ID"
+            text " "
+            TH (&93834772286920)
+              attr class "polarion-table-header"
+              SPAN (&93834772287280)
+                attr class "polarion-table-span"
+                text "Bezeichnung"
+            text " "
+            TH (&93834772287880)
+              attr class "polarion-table-header"
+              SPAN (&93834772288240)
+                attr class "polarion-table-span"
+                text "Quelle (Referenz)"
+            text " "
+          text " "
+          TR (&93834772288960)
+            text " "
+            TD (&93834772289264)
+              attr class "polarion-table-data"
+              A (&93834772289624)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#GS-A_4945-01"
+                text "GS-A_4945-01"
+            text " "
+            TD (&93834772290224)
+              attr class "polarion-table-data"
+              text "Produktentwicklung: Qualitätssicherung"
+            text " "
+            TD (&93834772290824)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834772291544)
+            text " "
+            TD (&93834772291848)
+              attr class "polarion-table-data"
+              A (&93834772292208)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#GS-A_4946-01"
+                text "GS-A_4946-01"
+            text " "
+            TD (&93834772292808)
+              attr class "polarion-table-data"
+              text "Produktentwicklung: sichere Programmierung"
+            text " "
+            TD (&93834772293408)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834772294128)
+            text " "
+            TD (&93834772294432)
+              attr class "polarion-table-data"
+              A (&93834810784536)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#GS-A_4947-01"
+                text "GS-A_4947-01"
+            text " "
+            TD (&93834810785112)
+              attr class "polarion-table-data"
+              text "Produktentwicklung: Schutz der Vertraulichkeit und Integrität"
+            text " "
+            TD (&93834810785712)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834810786432)
+            text " "
+            TD (&93834810786736)
+              attr class "polarion-table-data"
+              A (&93834810787096)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22595"
+                text "A_22595"
+            text " "
+            TD (&93834810787696)
+              attr class "polarion-table-data"
+              text "Format der Fehlermeldungen"
+            text " "
+            TD (&93834810788296)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810789016)
+            text " "
+            TD (&93834810789320)
+              attr class "polarion-table-data"
+              A (&93834810789680)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22596"
+                text "A_22596"
+            text " "
+            TD (&93834810790280)
+              attr class "polarion-table-data"
+              text "Nutzung von eindeutigen Error-Codes bei der Erstellung von Fehlermeldungen"
+            text " "
+            TD (&93834810790880)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810791600)
+            text " "
+            TD (&93834810791904)
+              attr class "polarion-table-data"
+              A (&93834810792264)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22597"
+                text "A_22597"
+            text " "
+            TD (&93834810792864)
+              attr class "polarion-table-data"
+              text "Verwendung eines einheitlichen Schemas für die Aufbereitung von Fehlermeldungen"
+            text " "
+            TD (&93834810793464)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810794184)
+            text " "
+            TD (&93834810794488)
+              attr class "polarion-table-data"
+              A (&93834810794848)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22598"
+                text "A_22598"
+            text " "
+            TD (&93834810795448)
+              attr class "polarion-table-data"
+              text "Formulierung der Fehlermeldungen"
+            text " "
+            TD (&93834810796048)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810796768)
+            text " "
+            TD (&93834810797072)
+              attr class "polarion-table-data"
+              A (&93834810797432)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22599"
+                text "A_22599"
+            text " "
+            TD (&93834810798032)
+              attr class "polarion-table-data"
+              text "Nutzung einer eindeutigen Beschreibung beim Aufbau von Fehlermeldungen"
+            text " "
+            TD (&93834810798632)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810799352)
+            text " "
+            TD (&93834810799656)
+              attr class "polarion-table-data"
+              A (&93834810800016)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22600"
+                text "A_22600"
+            text " "
+            TD (&93834810800616)
+              attr class "polarion-table-data"
+              text "Ausgabe der Fehlermeldungen in umgekehrter Reihenfolge des Auftretens"
+            text " "
+            TD (&93834810801216)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810801936)
+            text " "
+            TD (&93834810802240)
+              attr class "polarion-table-data"
+              A (&93834810802600)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22947"
+                text "A_22947"
+            text " "
+            TD (&93834810803200)
+              attr class "polarion-table-data"
+              text "Aktualisierungszyklen für die Liste der registrierten sektoralen Identity Provider"
+            text " "
+            TD (&93834810803800)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810804520)
+            text " "
+            TD (&93834810804824)
+              attr class "polarion-table-data"
+              A (&93834810805184)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22948"
+                text "A_22948"
+            text " "
+            TD (&93834810805784)
+              attr class "polarion-table-data"
+              text "Aktualisierungszyklen der Entity Statements Federation Master"
+            text " "
+            TD (&93834810806384)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810807104)
+            text " "
+            TD (&93834810807408)
+              attr class "polarion-table-data"
+              A (&93834810807768)
+                attr href "../gemSpec_IDP_FedMaster/gemSpec_IDP_FedMaster_V1.0.0.html#A_22949"
+                text "A_22949"
+            text " "
+            TD (&93834810808368)
+              attr class "polarion-table-data"
+              text "Aktualisierungszyklen der Entity Statements zu Teilnehmern der Föderation"
+            text " "
+            TD (&93834810808968)
+              attr class "polarion-table-data"
+              text "gemSpec_IDP_FedMaster"
+            text " "
+          text " "
+          TR (&93834810809688)
+            text " "
+            TD (&93834810809992)
+              attr class "polarion-table-data"
+              A (&93834810810352)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_17322"
+                text "A_17322"
+            text " "
+            TD (&93834810810952)
+              attr class "polarion-table-data"
+              text "TLS-Verbindungen nur zulässige Ciphersuiten und TLS-Versionen (ECC-Migration)"
+            text " "
+            TD (&93834810811552)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834810812272)
+            text " "
+            TD (&93834810812576)
+              attr class "polarion-table-data"
+              A (&93834810812936)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_17775"
+                text "A_17775"
+            text " "
+            TD (&93834810813536)
+              attr class "polarion-table-data"
+              text "TLS-Verbindungen Reihenfolge Ciphersuiten (ECC-Migration)"
+            text " "
+            TD (&93834810814136)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834810814856)
+            text " "
+            TD (&93834810815160)
+              attr class "polarion-table-data"
+              A (&93834810815520)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_18986"
+                text "A_18986"
+            text " "
+            TD (&93834810816120)
+              attr class "polarion-table-data"
+              text "Fachdienst-interne TLS-Verbindungen"
+            text " "
+            TD (&93834810816720)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834810817560)
+            text " "
+            TD (&93834810817864)
+              attr class "polarion-table-data"
+              A (&93834810818200)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_21332"
+                text "A_21332"
+            text " "
+            TD (&93834810818800)
+              attr class "polarion-table-data"
+              text "E-Rezept: TLS-Vorgaben"
+            text " "
+            TD (&93834810819400)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834810820120)
+            text " "
+            TD (&93834810820424)
+              attr class "polarion-table-data"
+              A (&93834810820784)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5542"
+                text "GS-A_5542"
+            text " "
+            TD (&93834810821384)
+              attr class "polarion-table-data"
+              text "TLS-Verbindungen (fatal Alert bei Abbrüchen)"
+            text " "
+            TD (&93834810821984)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834810822704)
+            text " "
+            TD (&93834810823008)
+              attr class "polarion-table-data"
+              A (&93834810823368)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5580-01"
+                text "GS-A_5580-01"
+            text " "
+            TD (&93834810823968)
+              attr class "polarion-table-data"
+              text "TLS-Klient für betriebsunterstützende Dienste"
+            text " "
+            TD (&93834810824568)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+      text " "
+      DIV (&93834810825408)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block4"
+        text " "
+        DIV (&93834810826064)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+      text " "
+      P (&93834810826840)
+        attr id "polarion_20"
+      text " "
+      H4 (&93834810827320)
+        attr id "3.2.2"
+        text "3.2.2 Sicherheitsgutachten"
+      text " "
+      P (&93834810827920)
+        attr id "polarion_61"
+        text "Die in diesem Abschnitt verzeichneten Festlegungen sind Gegenstand der Prüfung der Sicherheitseignung gemäß [gemRL_PruefSichEig_DS]. Das entsprechende Sicherheitsgutachten ist der gematik vorzulegen."
+        BR (&93834810828400)
+        text " "
+      text " "
+      P (&93834810828824)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_62"
+        text "Tabelle"
+        SPAN (&93834810829480)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "5"
+        text ": Festlegungen zur sicherheitstechnischen Eignung "Sicherheitsgutachten""
+      text " "
+      TABLE (&93834810830376)
+        attr class "polarion-table"
+        text " "
+        TBODY (&93834810830856)
+          TR (&93834810831040)
+            text " "
+            TH (&93834810831344)
+              attr class "polarion-table-header"
+              SPAN (&93834810831704)
+                attr class "polarion-table-span"
+                text "ID"
+            text " "
+            TH (&93834810832304)
+              attr class "polarion-table-header"
+              SPAN (&93834810832664)
+                attr class "polarion-table-span"
+                text "Bezeichnung"
+            text " "
+            TH (&93834810833264)
+              attr class "polarion-table-header"
+              SPAN (&93834810833624)
+                attr class "polarion-table-span"
+                text "Quelle (Referenz)"
+            text " "
+          text " "
+          TR (&93834810834344)
+            text " "
+            TD (&93834810834648)
+              attr class "polarion-table-data"
+              A (&93834810835008)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19147"
+                text "A_19147"
+            text " "
+            TD (&93834810835608)
+              attr class "polarion-table-data"
+              text "Sicherheitstestplan"
+            text " "
+            TD (&93834810836208)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834810836928)
+            text " "
+            TD (&93834810837232)
+              attr class "polarion-table-data"
+              A (&93834810837592)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19148"
+                text "A_19148"
+            text " "
+            TD (&93834810838192)
+              attr class "polarion-table-data"
+              text "Sicherheits- und Datenschutzkonzept"
+            text " "
+            TD (&93834810838792)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834810839512)
+            text " "
+            TD (&93834810839816)
+              attr class "polarion-table-data"
+              A (&93834810840176)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19150"
+                text "A_19150"
+            text " "
+            TD (&93834810840776)
+              attr class "polarion-table-data"
+              text "Umsetzung Sicherheitstestplan"
+            text " "
+            TD (&93834810841376)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834810842096)
+            text " "
+            TD (&93834810842400)
+              attr class "polarion-table-data"
+              A (&93834810842760)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19151"
+                text "A_19151"
+            text " "
+            TD (&93834810843360)
+              attr class "polarion-table-data"
+              text "Implementierungsspezifische Sicherheitsanforderungen"
+            text " "
+            TD (&93834810843960)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834810844680)
+            text " "
+            TD (&93834810844984)
+              attr class "polarion-table-data"
+              A (&93834810845344)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19152"
+                text "A_19152"
+            text " "
+            TD (&93834810845944)
+              attr class "polarion-table-data"
+              text "Verwendung eines sicheren Produktlebenszyklus"
+            text " "
+            TD (&93834810846544)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834810847264)
+            text " "
+            TD (&93834810847568)
+              attr class "polarion-table-data"
+              A (&93834810847928)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19153"
+                text "A_19153"
+            text " "
+            TD (&93834810848528)
+              attr class "polarion-table-data"
+              text "Sicherheitsrelevanter Softwarearchitektur-Review"
+            text " "
+            TD (&93834810849128)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834810849848)
+            text " "
+            TD (&93834801607408)
+              attr class "polarion-table-data"
+              A (&93834801607744)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19154"
+                text "A_19154"
+            text " "
+            TD (&93834801608344)
+              attr class "polarion-table-data"
+              text "Durchführung einer Bedrohungsanalyse"
+            text " "
+            TD (&93834801608944)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801609664)
+            text " "
+            TD (&93834801609968)
+              attr class "polarion-table-data"
+              A (&93834801610328)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19155"
+                text "A_19155"
+            text " "
+            TD (&93834801610928)
+              attr class "polarion-table-data"
+              text "Durchführung sicherheitsrelevanter Quellcode-Reviews"
+            text " "
+            TD (&93834801611528)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801612248)
+            text " "
+            TD (&93834801612552)
+              attr class "polarion-table-data"
+              A (&93834801612912)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19156"
+                text "A_19156"
+            text " "
+            TD (&93834801613512)
+              attr class "polarion-table-data"
+              text "Durchführung automatisierter Sicherheitstests"
+            text " "
+            TD (&93834801614112)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801614832)
+            text " "
+            TD (&93834801615136)
+              attr class "polarion-table-data"
+              A (&93834801615496)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19157"
+                text "A_19157"
+            text " "
+            TD (&93834801616096)
+              attr class "polarion-table-data"
+              text "Dokumentierter Plan zur Sicherheitsschulung für Entwickler"
+            text " "
+            TD (&93834801616696)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801617416)
+            text " "
+            TD (&93834801617720)
+              attr class "polarion-table-data"
+              A (&93834801618080)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19158"
+                text "A_19158"
+            text " "
+            TD (&93834801618680)
+              attr class "polarion-table-data"
+              text "Sicherheitsschulung für Entwickler"
+            text " "
+            TD (&93834801619280)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801620000)
+            text " "
+            TD (&93834801620304)
+              attr class "polarion-table-data"
+              A (&93834801620664)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19159"
+                text "A_19159"
+            text " "
+            TD (&93834801621264)
+              attr class "polarion-table-data"
+              text "Dokumentation des sicheren Produktlebenszyklus"
+            text " "
+            TD (&93834801621864)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801622584)
+            text " "
+            TD (&93834801622888)
+              attr class "polarion-table-data"
+              A (&93834801623248)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19160"
+                text "A_19160"
+            text " "
+            TD (&93834801623848)
+              attr class "polarion-table-data"
+              text "Änderungs- und Konfigurationsmanagementprozess"
+            text " "
+            TD (&93834801624448)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801625168)
+            text " "
+            TD (&93834801625472)
+              attr class "polarion-table-data"
+              A (&93834801625832)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19161"
+                text "A_19161"
+            text " "
+            TD (&93834801626432)
+              attr class "polarion-table-data"
+              text "Verifizierung der Einhaltung sicherheitstechnische Eignung durch Datenschutzbeauftragten"
+            text " "
+            TD (&93834801627032)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801627752)
+            text " "
+            TD (&93834801628056)
+              attr class "polarion-table-data"
+              A (&93834801628416)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_19162"
+                text "A_19162"
+            text " "
+            TD (&93834801629016)
+              attr class "polarion-table-data"
+              text "Informationspflicht bei Veröffentlichung neue Produktversion"
+            text " "
+            TD (&93834801629616)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801630336)
+            text " "
+            TD (&93834801630640)
+              attr class "polarion-table-data"
+              A (&93834801631000)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_22984"
+                text "A_22984"
+            text " "
+            TD (&93834801631600)
+              attr class "polarion-table-data"
+              text "Unverzügliche Bewertung von Schwachstellen"
+            text " "
+            TD (&93834801632200)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801632920)
+            text " "
+            TD (&93834801633224)
+              attr class "polarion-table-data"
+              A (&93834801633584)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_22985"
+                text "A_22985"
+            text " "
+            TD (&93834801634184)
+              attr class "polarion-table-data"
+              text "Bereitstellung der Bewertung von Schwachstellen gegenüber der gematik"
+            text " "
+            TD (&93834801634784)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801635504)
+            text " "
+            TD (&93834801635808)
+              attr class "polarion-table-data"
+              A (&93834801636168)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_22986"
+                text "A_22986"
+            text " "
+            TD (&93834801636768)
+              attr class "polarion-table-data"
+              text "Meldung von erheblichen Schwachstellen und Bedrohungen"
+            text " "
+            TD (&93834801637368)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+          TR (&93834801638088)
+            text " "
+            TD (&93834801638392)
+              attr class "polarion-table-data"
+              A (&93834801638752)
+                attr href "../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.4.0.html#A_23029"
+                text "A_23029"
+            text " "
+            TD (&93834801639352)
+              attr class "polarion-table-data"
+              text "Bereitstellung von Updates abhängig von der Kritikalität der Schwachstellen"
+            text " "
+            TD (&93834801640072)
+              attr class "polarion-table-data"
+              text "gemSpec_DS_Hersteller"
+            text " "
+          text " "
+      text " "
+      DIV (&93834801640888)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block63"
+        text " "
+        DIV (&93834801641544)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+      text " "
+      P (&93834801642320)
+        attr id "polarion_69"
+      text " "
+      H2 (&93834801642800)
+        attr id "4"
+        text "4 Produkttypspezifische Merkmale"
+      text " "
+      P (&93834801643400)
+        attr id "polarion_101"
+        text "Es liegen keine optionalen Ausprägungen des Produkttyps vor. "
+      text " "
+      P (&93834801644000)
+        attr id "polarion_70"
+      text " "
+      DIV (&93834801644480)
+        attr contenteditable "false"
+        attr data-is-landscape "false"
+        attr id "polarion_wiki macro name=page_break;params=uid=62"
+      text " "
+      H2 (&93834801645312)
+        attr id "5"
+        text "5 Anhang – Verzeichnisse"
+      text " "
+      H3 (&93834801645912)
+        attr id "5.1"
+        text "5.1 Abkürzungen"
+      text " "
+      P (&93834801646512)
+        attr id "polarion_63"
+      text " "
+      TABLE (&93834801646992)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=19"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834801647824)
+          text " "
+          TR (&93834801648128)
+            text " "
+            TH (&93834801648432)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 104.667px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Kürzel"
+              BR (&93834801648912)
+              text " "
+            text " "
+            TH (&93834801649336)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 475.333px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Erläuterung"
+              BR (&93834801649816)
+              text " "
+            text " "
+          text " "
+          TR (&93834801650360)
+            text " "
+            TD (&93834801650664)
+              attr style "text-align: left;vertical-align: top;width: 104.667px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "ID"
+              BR (&93834801651144)
+              text " "
+            text " "
+            TD (&93834801651568)
+              attr style "text-align: left;vertical-align: top;width: 475.333px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Identifikation"
+              BR (&93834801652048)
+              text " "
+            text " "
+          text " "
+          TR (&93834801652592)
+            text " "
+            TD (&93834801652896)
+              attr style "text-align: left;vertical-align: top;width: 104.667px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "CC"
+            text " "
+            TD (&93834801653496)
+              attr style "text-align: left;vertical-align: top;width: 475.333px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Common Criteria  "
+            text " "
+          text " "
+          TR (&93834801654216)
+            text " "
+            TD (&93834801654520)
+              attr style "text-align: left;vertical-align: top;width: 104.667px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "ST"
+            text " "
+            TD (&93834801655120)
+              attr style "text-align: left;vertical-align: top;width: 475.333px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Security Target "
+            text " "
+          text " "
+        text " "
+      text " "
+      H3 (&93834801656080)
+        attr id "5.2"
+        text "5.2 Tabellenverzeichnis"
+      text " "
+      P (&93834801656680)
+        attr id "polarion_66"
+      text " "
+      DIV (&93834801657160)
+        attr data-sequence "Tabelle"
+        attr id "polarion_wiki macro name=tof;params=uid=1"
+      text " "
+      DIV (&93834801657816)
+        attr id "toc_container"
+        text " "
+        P (&93834801658296)
+          attr class "toc_title"
+        H1 (&93834801658656)
+        P (&93834801658840)
+        text " "
+        LI (&93834801659144)
+          A (&93834801659328)
+            attr href "#polarion_53"
+            text "Tabelle 1: Dokumente mit normativen Festlegungen"
+        text " "
+        LI (&93834801659928)
+          A (&93834801660112)
+            attr href "#polarion_67"
+            text "Tabelle 2: Festlegungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test""
+        text " "
+        LI (&93834801660712)
+          A (&93834801660896)
+            attr href "#polarion_75"
+            text "Tabelle 3: Festlegungen zur funktionalen Eignung "Herstellererklärung""
+        text " "
+        LI (&93834801661496)
+          A (&93834801661680)
+            attr href "#polarion_3"
+            text "Tabelle 4: Festlegungen zur sicherheitstechnischen Eignung "Herstellererklärung""
+        text " "
+        LI (&93834801662280)
+          A (&93834801662464)
+            attr href "#polarion_62"
+            text "Tabelle 5: Festlegungen zur sicherheitstechnischen Eignung "Sicherheitsgutachten""
+        text " "
+      text " "
+      P (&93834801663184)
+        attr id "polarion_68"
+      text " "
+      DIV (&93834801663664)
+        attr id "ML-134366"
+        text " "
+        P (&93834801664144)
+          B (&93834801664328)
+            text "ML-134366 - gemProdT_IDP_FedMaster_PTV_1.0.1-0"
+        text " "
+        P (&93834801664752)
+          text " "
+          B (&93834801665056)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834801665600)
+        attr id "polarion_33"
+      text " "
+
+
+   ====================
+   ATTRIBUTE STATISTICS
+   ====================
+
+   charset:: utf-8
+   class:: descriptionLink; polarion-Document-table; polarion-dle-wiki-block; polarion-dle-wiki-block-source; polarion-rte-caption; polarion-rte-caption-paragraph; polarion-table; polarion-table-data; polarion-table-header; polarion-table-span; toc_title
+   contenteditable:: false
+   data-is-landscape:: false
+   data-sequence:: Tabelle
+   style:background-color: #F0F0F0
+   style:border: 1px solid #CCCCCC
+   style:border-bottom: 1px solid #CCCCCC
+   style:border-collapse: collapse
+   style:border-left: 1px solid #CCCCCC
+   style:border-right: 1px solid #CCCCCC
+   style:border-top: 1px solid #CCCCCC
+   style:color: #222222
+   style:empty-cells: show
+   style:font-size: 10pt; 11pt; 16pt; 28pt; 9pt
+   style:font-style: italic
+   style:font-weight: bold
+   style:height: 12px; 18.4444px; 37px; 38px; 60px
+   style:line-height: 1.2; 1.5
+   style:margin-left: 0px; 40px; auto
+   style:margin-right: auto
+   style:padding: 5px
+   style:text-align: center; left
+   style:text-decoration: underline
+   style:vertical-align: middle; top
+   style:width: 100%; 104.667px; 134.889px; 169px; 203.333px; 230.889px; 297.556px; 40.6667px; 458px; 475.333px; 62.8889px; 63.7778px; 82.4444px; 93px
+   target:: _top
+
+
+   ================
+   CHILD STATISTICS
+   ================
+
+   A
+    _TEXT: 153 (&93834767738168)
+   B
+    _TEXT: 2 (&93834801664512)
+   BODY
+    DIV: 18 (&93834794166984)
+    H1: 2 (&93834767706376)
+    H2: 5 (&93834808900344)
+    H3: 9 (&93834808900944)
+    H4: 4 (&93834765166184)
+    P: 66 (&93834794153960)
+    TABLE: 9 (&93834767709256)
+    UL: 2 (&93834808904544)
+   DIV
+    DIV: 7 (&93834794167640)
+    H1: 2 (&93834767737136)
+    LI: 25 (&93834767737624)
+    P: 6 (&93834767736776)
+    PRE: 2 (&93834794168296)
+   H1
+    _TEXT: 2 (&93834767706736)
+   H2
+    _TEXT: 5 (&93834808900704)
+   H3
+    _TEXT: 9 (&93834808901304)
+   H4
+    _TEXT: 4 (&93834765166544)
+   HEAD
+    META: 1 (&93834794153056)
+    STYLE: 1 (&93834794152624)
+   HTML
+    BODY: 1 (&93834794153656)
+    HEAD: 1 (&93834794152320)
+   LI
+    A: 25 (&93834767737808)
+    _TEXT: 24 (&93834808882824)
+   OL
+   P
+    A: 1 (&93834808909896)
+    B: 2 (&93834801664328)
+    BR: 11 (&93834794154440)
+    SPAN: 15 (&93834794156784)
+    _TEXT: 36 (&93834767708536)
+   PRE
+    TABLE: 2 (&93834794169128)
+   SPAN
+    _TEXT: 35 (&93834794157144)
+   STYLE
+    _TEXT: 1 (&93834794152816)
+   TABLE
+    TBODY: 11 (&93834794169432)
+   TBODY
+    TR: 152 (&93834794169616)
+   TD
+    A: 127 (&93834789467240)
+    BR: 2 (&93834801651144)
+    SPAN: 5 (&93834765138184)
+    _TEXT: 294 (&93834794170104)
+   TH
+    BR: 11 (&93834767711176)
+    SPAN: 15 (&93834789463936)
+    _TEXT: 14 (&93834767711056)
+   THEAD
+   TR
+    TD: 422 (&93834794169920)
+    TH: 28 (&93834767710696)
+   UL
+    LI: 6 (&93834808905024)
+   _DOCUMENT
+    HTML: 1 (&93834794152136)
+
+   --> consistency checked.
+
+
+   ===============
+   NODE STATISTICS
+   ===============
+
+   P       title nodes:       3
+   DIV     toc nodes:         2
+   TR      meta data nodes:   8
+   H1..H6  header nodes:      20
+   DIV/TR  requirement nodes: 121
+   IMG     image nodes:       0
+   TABLE   table nodes:       6
+
+

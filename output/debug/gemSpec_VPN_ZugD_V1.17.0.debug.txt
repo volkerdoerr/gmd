@@ -1,0 +1,226 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation<br>VPN-Zugangsdienst
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_VPN_ZugD
+Revision: 548770
+Stand: 30.06.2021
+Status: freigegeben
+Version: 1.17.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[2.1]:                   #21-funktion
+[2.2]:                   #22-netzaufbau
+[3]:                     #3-zerlegung-des-produkttyps
+[3.1]:                   #31-vpn-konzentratoren
+[3.1.1]:                 #311-funktion
+[3.1.2]:                 #312-topologie
+[3.1.3]:                 #313-standorte-des-vpn-zugangsdienstes
+[3.1.4]:                 #314-anbindung-an-das-transportnetz-internet
+[3.1.5]:                 #315-anbindung-an-die-ti
+[3.1.6]:                 #316-anbindung-an-den-sis
+[3.1.7]:                 #317-service-zone-des-standortes-ti
+[3.1.8]:                 #318-redundanz
+[3.1.9]:                 #319-konfiguration
+[3.1.10]:                #3110-adressierung
+[3.1.10.1]:              #31101-vpn-konzentratoren-zum-transportnetz-internet
+[3.1.10.2]:              #31102-vpn-konzentratoren-ti-zum-zentralen-netz
+[3.1.10.3]:              #31103-vpn-konzentratoren-sis-zum-internet
+[3.1.11]:                #3111-dns
+[3.1.12]:                #3112-performance
+[3.2]:                   #32-nameserver-internet
+[3.2.1]:                 #321-funktion
+[3.2.2]:                 #322-verteilung
+[3.2.3]:                 #323-redundanz
+[3.2.4]:                 #324-konfiguration
+[3.2.5]:                 #325-adressierung
+[3.3]:                   #33-nameserver-ti
+[3.3.1]:                 #331-funktion
+[3.3.2]:                 #332-verteilung
+[3.3.3]:                 #333-redundanz
+[3.3.4]:                 #334-konfiguration
+[3.3.5]:                 #335-adressierung
+[3.4]:                   #34-nameserver-sis
+[3.4.1]:                 #341-funktion
+[3.4.2]:                 #342-verteilung
+[3.4.3]:                 #343-redundanz
+[3.4.4]:                 #344-konfiguration
+[3.4.5]:                 #345-adressierung
+[3.5]:                   #35-registrierungsserver
+[3.5.1]:                 #351-funktion
+[3.5.2]:                 #352-verteilung
+[3.5.3]:                 #353-redundanz
+[3.5.4]:                 #354-konfiguration
+[3.5.5]:                 #355-adressierung
+[3.6]:                   #36-autorisierungsserver
+[3.6.1]:                 #361-funktion
+[3.6.2]:                 #362-verteilung
+[3.6.3]:                 #363-redundanz
+[3.6.4]:                 #364-konfiguration
+[3.6.5]:                 #365-adressierung
+[3.7]:                   #37-hashurl-server
+[3.7.1]:                 #371-funktion
+[3.7.2]:                 #372-verteilung
+[3.7.3]:                 #373-redundanz
+[3.7.4]:                 #374-konfiguration
+[3.7.5]:                 #375-adressierung
+[3.8]:                   #38-http-forwarder
+[3.8.1]:                 #381-funktion
+[3.8.2]:                 #382-verteilung
+[3.8.3]:                 #383-redundanz
+[3.8.4]:                 #384-konfiguration
+[3.8.5]:                 #385-adressierung
+[3.9]:                   #39-ntp-server-ti
+[3.9.1]:                 #391-funktion
+[3.9.2]:                 #392-verteilung
+[3.9.3]:                 #393-redundanz
+[3.9.4]:                 #394-konfiguration
+[3.9.5]:                 #395-adressierung
+[3.10]:                  #310-secure-internet-service
+[3.10.1]:                #3101-funktion
+[3.10.2]:                #3102-verteilung
+[3.10.3]:                #3103-redundanz
+[3.10.4]:                #3104-konfiguration
+[3.10.5]:                #3105-adressierung
+[3.10.6]:                #3106-informationen-funktionsmerkmale
+[4]:                     #4-übergreifende-festlegungen
+[4.1]:                   #41-sicherheit
+[4.1.1]:                 #411-kommunikation-zwischen-service-zonen-und-zugangszonen
+[4.1.2]:                 #412-übergang-der-vpn-konzentratoren-zum-transportnetz-internet
+[4.1.3]:                 #413-übergang-der-vpn-konzentratoren-zur-ti
+[4.1.4]:                 #414-sicherheitsleistung-des-secure-internet-service
+[4.1.5]:                 #415-kommunikation-zwischen-konnektoren
+[4.1.6]:                 #416-durchsetzung-der-zugangsberechtigung
+[4.2]:                   #42-protokollanforderungen
+[4.2.1]:                 #421-ipsec
+[4.2.2]:                 #422-ikev2
+[4.2.3]:                 #423-verschlüsselung
+[4.2.4]:                 #424-verbindungszustand
+[4.2.5]:                 #425-fragmentierung-von-ike-paketen
+[4.3]:                   #43-netzanforderungen
+[4.3.1]:                 #431-routing
+[4.3.1.1]:               #4311-vpn-zugangsdienst
+[4.3.1.2]:               #4312-konnektor
+[4.3.2]:                 #432-behandlung-gemäß-diffserv-architektur
+[4.3.2.1]:               #4321-vpn-konzentratoren-zum-transportnetz-internet
+[4.3.2.2]:               #4322-vpn-konzentratoren-zu-konnektoren
+[4.3.2.3]:               #4323-vpn-zugangsdienst-zur-ti
+[4.3.2.4]:               #4324-alternatives-zugangsnetz
+[4.3.2.5]:               #4325-sis-zum-internet
+[4.4]:                   #44-einsatz-von-ipv6
+[4.4.1]:                 #441-nameserver-internet
+[4.4.2]:                 #442-registrierungsserver
+[4.4.3]:                 #443-vpn-konzentratoren-ti-und-sis
+[5]:                     #5-funktionsmerkmale
+[5.1]:                   #51-schnittstelle-i_secure_channel_tunnel
+[5.1.1]:                 #511-operation-connect
+[5.1.1.1]:               #5111-umsetzung
+[5.1.1.2]:               #5112-nutzung
+[5.1.1.3]:               #5113-verbindungsaufbau
+[5.1.1.4]:               #5114-adressierung
+[5.1.2]:                 #512-operation-disconnect
+[5.1.3]:                 #513-operation-send_secure_ip_packet
+[5.2]:                   #52-schnittstelle-i_secure_internet_tunnel
+[5.2.1]:                 #521-operation-connect
+[5.2.1.1]:               #5211-umsetzung
+[5.2.1.2]:               #5212-nutzung
+[5.2.2]:                 #522-operation-disconnect
+[5.3]:                   #53-schnittstelle-i_registration_service
+[5.3.1]:                 #531-operation-registerkonnektor
+[5.3.1.1]:               #5311-umsetzung
+[5.3.1.2]:               #5312-nutzung
+[5.3.2]:                 #532-operation-deregisterkonnektor
+[5.3.2.1]:               #5321-umsetzung
+[5.3.2.2]:               #5322-nutzung
+[5.3.3]:                 #533-operation-registerstatus
+[5.3.3.1]:               #5331-umsetzung
+[5.3.3.2]:               #5332-nutzung
+[5.3.4]:                 #534-operation-senddata
+[5.3.5]:                 #535-registrierungsserver-fehlermeldungen
+[5.4]:                   #54-schnittstelle-i_dns_name_resolution-namensraum-ti
+[5.5]:                   #55-schnittstelle-i_dns_name_resolution-namensraum-internet
+[5.6]:                   #56-schnittstelle-i_dns_name_resolution-namensraum-sis
+[5.7]:                   #57-schnittstelle-i_ntp_time_information
+[5.8]:                   #58-prozess-änderung-der-sicherheitsleistungen-des-sis
+[5.9]:                   #59-prozess-zum-abschluss-ändern-und-auflösen-des-vertragsverhältnisses
+[6]:                     #6-anhang-a-–-verzeichnisse
+[6.1]:                   #61-abkürzungen
+[6.2]:                   #62-glossar
+[6.3]:                   #63-abbildungsverzeichnis
+[6.4]:                   #64-tabellenverzeichnis
+[6.5]:                   #65-referenzierte-dokumente
+[6.5.1]:                 #651-dokumente-der-gematik
+[6.5.2]:                 #652-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Netztopologie VPN-Zugangsdienst (logisch)           (&93834801627600) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAITEAYAAAAoSE...
+[Abbildung-2]:           Zerlegung des VPN-Zugangsdienstes                   (&93834801634424) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAU5EAYAAABL2F...
+[Abbildung-3]:           Übersicht VPN-Zugangsdienst (Zonen)                 (&93834801639568) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAIzEAYAAAAv5E...
+[Abbildung-4]:           Ablauf der Operation I_Secure_Channel_Tunnel::con.. (&93834798407056) data:image/emf;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAJXEAYAAAC8gQ...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834775697128)
+[Tbl-002]:               #Tbl-002 (&93834771021864)
+[Tabelle-2]:             #Tabelle-2 (&93834775052408)
+[Tabelle-3]:             #Tabelle-3 (&93834801539600)
+[Tabelle-4]:             #Tabelle-4 (&93834801563080)
+[Tabelle-5]:             #Tabelle-5 (&93834775620480)
+[Tabelle-6]:             #Tabelle-6 (&93834798428064)
+[Tabelle-7]:             #Tabelle-7 (&93834785326832)
+[Tabelle-8]:             #Tabelle-8 (&93834785367304)
+[Tabelle-9]:             #Tabelle-9 (&93834799792744)
+[Tabelle-10]:            #Tabelle-10 (&93834772296224)
+[Tabelle-11]:            #Tabelle-11 (&93834764502480)
+[Tabelle-12]:            #Tabelle-12 (&93834781792928)
+[Tabelle-13]:            #Tabelle-13 (&93834781589408)
+[Tabelle-14]:            #Tabelle-14 (&93834783881320)
+[Tbl-016]:               #Tbl-016 (&93834783896080)
+[Tbl-017]:               #Tbl-017 (&93834785794112)
+[Tbl-018]:               #Tbl-018 (&93834778221136)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

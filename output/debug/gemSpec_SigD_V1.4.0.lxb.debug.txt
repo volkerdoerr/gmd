@@ -1,0 +1,2341 @@
+
+   =========================
+   LXB SERIALIZER DEBUG MODE
+   =========================
+
+
+DOCUMENT _DOCUMENT
+  HTML (&93834768399544)
+    HEAD (&93834768399728)
+      text " "
+      STYLE (&93834768400032)
+        text "#toc_container {    background: #f9f9f9 none repeat scroll 0 0;    border: 1px solid #aaa;    display: table;    font-size: 95%;    margin-bottom: 1em;    padding: 20px;    width: 100%;}.toc_title {    font-weight: 700;    text-align: center;}#toc_container li, #toc_container ul, #toc_container ul li{    list-style: outside none none !important;}body {  font-family: Arial, Helvetica, sans-serif;  font-size: 14px;}/* ol {  list-style-type: none;  Remove default numbering}ol > li:before {  counter-increment: mycounter;  content: counter(mycounter) ". ";}ol:first-of-type {  counter-reset: mycounter;} */"
+      text " "
+      META (&93834768400464)
+        attr charset "utf-8"
+      text " "
+    text " "
+    BODY (&93834768401064)
+      text " "
+      P (&93834768401368)
+        attr id "polarion_1"
+        BR (&93834768401728)
+      text " "
+      P (&93834768402032)
+        attr id "polarion_2"
+        BR (&93834768402392)
+      text " "
+      P (&93834768402696)
+        attr id "polarion_3"
+        BR (&93834768403056)
+      text " "
+      P (&93834768403360)
+        attr id "polarion_4"
+        BR (&93834768403720)
+      text " "
+      P (&93834768404024)
+        attr id "polarion_5"
+        BR (&93834768404384)
+      text " "
+      P (&93834768404688)
+        attr id "polarion_6"
+        SPAN (&93834768405048)
+          attr style "font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;"
+          text "Elektronische Gesundheitskarte und Telematikinfrastruktur"
+      text " "
+      P (&93834768405648)
+        attr id "polarion_7"
+        BR (&93834768406008)
+      text " "
+      P (&93834768406312)
+        attr id "polarion_8"
+        BR (&93834768406672)
+      text " "
+      P (&93834768406976)
+        attr id "polarion_9"
+        BR (&93834768407336)
+      text " "
+      P (&93834768407640)
+        attr id "polarion_10"
+        BR (&93834768408000)
+      text " "
+      P (&93834768408304)
+        attr id "polarion_11"
+        attr style "text-align: center;"
+        SPAN (&93834768408840)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Spezifikation"
+      text " "
+      P (&93834768409440)
+        attr id "polarion_12"
+        attr style "text-align: center;"
+        SPAN (&93834768409976)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Signaturdienst"
+      text " "
+      P (&93834768410576)
+        attr id "polarion_13"
+        BR (&93834768410936)
+      text " "
+      P (&93834768411240)
+        attr id "polarion_14"
+        BR (&93834768411600)
+      text " "
+      P (&93834768411904)
+        attr id "polarion_15"
+        BR (&93834768412264)
+      text " "
+      DIV (&93834768412568)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block1"
+        text " "
+        DIV (&93834768413224)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+        PRE (&93834768413880)
+          attr class "polarion-dle-wiki-block-source"
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_source"
+          text " "
+          TABLE (&93834768414712)
+            text " "
+            TBODY (&93834768415016)
+              TR (&93834768415200)
+                text " "
+                TD (&93834768415504)
+                  text "Version"
+                text " "
+                TD (&93834768415928)
+                  text "1.4.0"
+                text " "
+              text " "
+              TR (&93834768416472)
+                text " "
+                TD (&93834768416776)
+                  text "Revision"
+                text " "
+                TD (&93834768417200)
+                  text "548770"
+                text " "
+              text " "
+              TR (&93834768417744)
+                text " "
+                TD (&93834768418048)
+                  text "Stand"
+                text " "
+                TD (&93834768418472)
+                  text "12.10.2020"
+                text " "
+              text " "
+              TR (&93834768419016)
+                text " "
+                TD (&93834768419320)
+                  text "Status"
+                text " "
+                TD (&93834768419744)
+                  text "freigegeben"
+                text " "
+              text " "
+              TR (&93834768420288)
+                text " "
+                TD (&93834768420592)
+                  text "Klassifizierung"
+                text " "
+                TD (&93834768421016)
+                  text "öffentlich"
+                text " "
+              text " "
+              TR (&93834768421560)
+                text " "
+                TD (&93834768421864)
+                  text "Referenzierung"
+                text " "
+                TD (&93834768422288)
+                  text "gemSpec_SigD"
+                text " "
+              text " "
+        text " "
+      text " "
+      P (&93834768423072)
+        attr id "polarion_16"
+        BR (&93834768423432)
+      text " "
+      H1 (&93834768423736)
+        attr id "polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-856"
+        text "Dokumentinformationen"
+      text " "
+      P (&93834768424336)
+        attr id "polarion_21"
+        SPAN (&93834768424696)
+          attr style "font-weight: bold;"
+          text "Änderungen zur Vorversion"
+      text " "
+      P (&93834768425296)
+        attr id "polarion_22"
+        text "Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen."
+      text " "
+      P (&93834768425896)
+        attr id "polarion_49"
+      text " "
+      P (&93834768426376)
+        attr data-keep-next "true"
+        attr id "polarion_24"
+        SPAN (&93834768426912)
+          attr style "font-weight: bold;"
+          text "Dokumentenhistorie"
+      text " "
+      TABLE (&93834768427512)
+        attr id "polarion_wiki macro name=table;params=width=99.87%|uid=1"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834768428168)
+          text " "
+          TR (&93834768428472)
+            text " "
+            TH (&93834768428776)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 68px;height: 21px;border: 1px solid #CCCCCC;padding: 4pt;"
+              text "Version"
+            text " "
+            TH (&93834768429376)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 57px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "Stand"
+            text " "
+            TH (&93834768429976)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 101px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "Kap./ Seite"
+            text " "
+            TH (&93834768430576)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 370px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "Grund der Änderung, besondere Hinweise"
+            text " "
+            TH (&93834768431176)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 92px;height: 21px;border: 1px solid #CCCCCC;padding: 4pt;"
+              text "Bearbeitung"
+            text " "
+          text " "
+          TR (&93834768431896)
+            text " "
+            TD (&93834777748744)
+              attr style "vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;padding: 4pt;"
+              text "1.0.0"
+            text " "
+            TD (&93834777749320)
+              attr style "vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "30.04.19"
+            text " "
+            TD (&93834777749920)
+              attr style "vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834777750400)
+              attr style "vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "freigegeben"
+            text " "
+            TD (&93834777751000)
+              attr style "vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "gematik"
+            text " "
+          text " "
+          TR (&93834777751720)
+            text " "
+            TD (&93834777752024)
+              attr style "vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "1.1.0"
+            text " "
+            TD (&93834777752624)
+              attr style "vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "28.06.19"
+            text " "
+            TD (&93834777753224)
+              attr style "vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834777753704)
+              attr style "vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "Einarbeitung Änderungsliste P19.1"
+            text " "
+            TD (&93834777754304)
+              attr style "vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "gematik"
+            text " "
+          text " "
+          TR (&93834777755024)
+            text " "
+            TD (&93834777755328)
+              attr style "vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "1.2.0"
+            text " "
+            TD (&93834777755928)
+              attr style "vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "02.10.19"
+            text " "
+            TD (&93834777756528)
+              attr style "vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834777757008)
+              attr style "vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "Einarbeitung Änderungsliste P20.2"
+            text " "
+            TD (&93834777757608)
+              attr style "vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "gematik"
+            text " "
+          text " "
+          TR (&93834777758328)
+            text " "
+            TD (&93834777758632)
+              attr style "vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834777759112)
+              attr style "vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834777759592)
+              attr style "vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834777760072)
+              attr style "vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "Einarbeitung Änderungsliste P21.1"
+            text " "
+            TD (&93834777760672)
+              attr style "vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "gematik"
+            text " "
+          text " "
+          TR (&93834777761392)
+            text " "
+            TD (&93834777761696)
+              attr style "vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "1.3.0"
+            text " "
+            TD (&93834777762296)
+              attr style "vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "02.03.20"
+            text " "
+            TD (&93834777762896)
+              attr style "vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834777763376)
+              attr style "vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "freigegeben"
+            text " "
+            TD (&93834777763976)
+              attr style "vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "gematik"
+            text " "
+          text " "
+          TR (&93834777764696)
+            text " "
+            TD (&93834777765000)
+              attr style "vertical-align: top;width: 68px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "1.4.0"
+            text " "
+            TD (&93834777765600)
+              attr style "vertical-align: top;width: 57px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "12.10.20"
+            text " "
+            TD (&93834777766200)
+              attr style "vertical-align: top;width: 101px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+            text " "
+            TD (&93834777766680)
+              attr style "vertical-align: top;width: 370px;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              text "Einarbeitung Scope-Themen zu R4.0.1"
+              BR (&93834777767160)
+            text " "
+            TD (&93834777767464)
+              attr style "vertical-align: top;width: 92px;height: 15pt;border: 1px solid #CCCCCC;padding: 4pt;"
+              text "gematik"
+            text " "
+          text " "
+        text " "
+      text " "
+      H1 (&93834777768424)
+        attr id "polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-857"
+        text "Inhaltsverzeichnis"
+      text " "
+      DIV (&93834777769024)
+        attr id "polarion_wiki macro name=toc"
+      text " "
+      DIV (&93834777769504)
+        attr id "toc_container"
+        text " "
+        P (&93834777769984)
+          attr class "toc_title"
+        H1 (&93834777770344)
+        P (&93834777770528)
+        text " "
+        LI (&93834777770832)
+          A (&93834777771016)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-856"
+            text "Dokumentinformationen"
+        text " "
+        LI (&93834777771616)
+          A (&93834777771800)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-857"
+            text "Inhaltsverzeichnis"
+        text " "
+        LI (&93834777772400)
+          text ":"
+          A (&93834777772704)
+            attr href "#1"
+            text "1 Einordnung des Dokuments"
+        text " "
+        LI (&93834777773304)
+          text ": :"
+          A (&93834777773608)
+            attr href "#1.1"
+            text "1.1 Zielsetzung"
+        text " "
+        LI (&93834777774208)
+          text ": :"
+          A (&93834777774512)
+            attr href "#1.2"
+            text "1.2 Zielgruppe"
+        text " "
+        LI (&93834777775112)
+          text ": :"
+          A (&93834777775416)
+            attr href "#1.3"
+            text "1.3 Geltungsbereich"
+        text " "
+        LI (&93834777776016)
+          text ": :"
+          A (&93834777776320)
+            attr href "#1.4"
+            text "1.4 Abgrenzungen"
+        text " "
+        LI (&93834777776920)
+          text ": :"
+          A (&93834777777224)
+            attr href "#1.5"
+            text "1.5 Methodik"
+        text " "
+        LI (&93834777777824)
+          text ":"
+          A (&93834777778128)
+            attr href "#2"
+            text "2 Systemüberblick"
+        text " "
+        LI (&93834777778728)
+          text ":"
+          A (&93834777779032)
+            attr href "#3"
+            text "3 Systemkontext"
+        text " "
+        LI (&93834777779632)
+          text ": :"
+          A (&93834777779936)
+            attr href "#3.1"
+            text "3.1 Akteure und Rollen"
+        text " "
+        LI (&93834777780536)
+          text ": :"
+          A (&93834777780840)
+            attr href "#3.2"
+            text "3.2 Nachbarsysteme"
+        text " "
+        LI (&93834771050424)
+          text ": :"
+          A (&93834771050728)
+            attr href "#3.3"
+            text "3.3 Sicherheitsanforderungen für den operativen Betrieb"
+        text " "
+        LI (&93834771051304)
+          text ":"
+          A (&93834771051608)
+            attr href "#4"
+            text "4 Zerlegung des Signaturdienstes"
+        text " "
+        LI (&93834771052208)
+          text ":"
+          A (&93834771052512)
+            attr href "#5"
+            text "5 Übergreifende Festlegungen"
+        text " "
+        LI (&93834771053112)
+          text ":"
+          A (&93834771053416)
+            attr href "#6"
+            text "6 Funktionsmerkmale"
+        text " "
+        LI (&93834771054016)
+          text ": :"
+          A (&93834771054320)
+            attr href "#6.1"
+            text "6.1 Schnittstelle I_Remote_Sign_Operations"
+        text " "
+        LI (&93834771054920)
+          text ": : :"
+          A (&93834771055224)
+            attr href "#6.1.1"
+            text "6.1.1 Operationsdefinition I_Remote_Sign_Operations::sign_Data"
+        text " "
+        LI (&93834771055824)
+          text ": : :"
+          A (&93834771056128)
+            attr href "#6.1.2"
+            text "6.1.2 Umsetzung I_Remote_Sign_Operations::sign_Data"
+        text " "
+        LI (&93834771056728)
+          text ": :"
+          A (&93834771057032)
+            attr href "#6.2"
+            text "6.2 Schnittstelle P_Create_Identity"
+        text " "
+        LI (&93834771057632)
+          text ": :"
+          A (&93834771057936)
+            attr href "#6.3"
+            text "6.3 Schnittstelle P_Delete_Identity"
+        text " "
+        LI (&93834771058536)
+          text ":"
+          A (&93834771058840)
+            attr href "#7"
+            text "7 Anhang – Verzeichnisse"
+        text " "
+        LI (&93834771059440)
+          text ": :"
+          A (&93834771059744)
+            attr href "#7.1"
+            text "7.1 Abkürzungen"
+        text " "
+        LI (&93834771060344)
+          text ": :"
+          A (&93834771060648)
+            attr href "#7.2"
+            text "7.2 Glossar"
+        text " "
+        LI (&93834771061248)
+          text ": :"
+          A (&93834771061552)
+            attr href "#7.3"
+            text "7.3 Abbildungsverzeichnis"
+        text " "
+        LI (&93834771062152)
+          text ": :"
+          A (&93834771062456)
+            attr href "#7.4"
+            text "7.4 Tabellenverzeichnis"
+        text " "
+        LI (&93834771063056)
+          text ": :"
+          A (&93834771063360)
+            attr href "#7.5"
+            text "7.5 Referenzierte Dokumente"
+        text " "
+        LI (&93834771063960)
+          text ": : :"
+          A (&93834771064264)
+            attr href "#7.5.1"
+            text "7.5.1 – Dokumente der gematik"
+        text " "
+        LI (&93834771064864)
+          text ": : :"
+          A (&93834771065168)
+            attr href "#7.5.2"
+            text "7.5.2 – Weitere Dokumente"
+        text " "
+      text " "
+      H2 (&93834771065888)
+        attr id "1"
+        text "1 Einordnung des Dokuments"
+      text " "
+      H3 (&93834771066488)
+        attr id "1.1"
+        text "1.1 Zielsetzung"
+      text " "
+      P (&93834771067088)
+        attr id "polarion_39"
+        text "Die vorliegende Spezifikation definiert die Anforderungen an den Produkttyp Signaturdienst einschließlich der durch ihn bereitgestellten Schnittstellen."
+      text " "
+      H3 (&93834771067688)
+        attr id "1.2"
+        text "1.2 Zielgruppe"
+      text " "
+      P (&93834771068288)
+        attr id "polarion_51"
+        text "Das Dokument richtet sich an Hersteller des Signaturdienstes und Anbieter von Signaturdiensten."
+      text " "
+      H3 (&93834771068888)
+        attr id "1.3"
+        text "1.3 Geltungsbereich"
+      text " "
+      P (&93834771069488)
+        attr id "polarion_53"
+        text "Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens für den Online-Produktivbetrieb. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungs- oder Abnahmeverfahren wird durch die gematik GmbH in gesonderten Do­kumenten (z.B. Dokumentenlandkarte, Produkttypsteckbrief, Leistungsbeschreibung) festgelegt und bekannt gegeben."
+      text " "
+      P (&93834771070088)
+        attr data-keep-next "true"
+        attr id "polarion_55"
+        SPAN (&93834771070624)
+          attr style "font-weight: bold;"
+          text "Wichtiger Schutzrechts-/Patentrechtshinweis"
+      text " "
+      P (&93834771071224)
+        attr data-keep-next "true"
+        attr id "polarion_56"
+        SPAN (&93834771071760)
+          attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+          text "Die nachfolgende Spezifikation ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Spezifikation in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der Spezifikation angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen."
+      text " "
+      H3 (&93834771072360)
+        attr id "1.4"
+        text "1.4 Abgrenzungen"
+      text " "
+      P (&93834771072960)
+        attr id "polarion_57"
+        text "Spezifiziert werden in diesem Dokument die vom Signaturdienst bereitgestellten (angebotenen) Schnittstellen. Benutzte Schnittstellen werden in der Spezifikation desjenigen Produkttypen beschrieben, der diese Schnittstelle bereitstellt. Auf die entsprechenden Dokumente wird referenziert (siehe auch Anhang, Kap. "
+        SPAN (&93834771073440)
+          attr class "polarion-rte-link"
+          attr data-item-id "ML-92851"
+          attr data-option-id "longoutline"
+          attr data-scope "Mainline_OPB1"
+          attr data-type "crossReference"
+          attr id "fake"
+        text ")."
+      text " "
+      P (&93834771074920)
+        attr id "polarion_43"
+        text "Die vollständige Anforderungslage für den Produkttyp ergibt sich aus weiteren Konzept- und Spezifikationsdokumenten. Diese sind in dem Produkttypsteckbrief des Signaturdienstes verzeichnet."
+      text " "
+      P (&93834771075520)
+        attr id "polarion_50"
+        text "Nicht Bestandteil des vorliegenden Dokumentes sind die Festlegungen zum Themenbereich Betrieb. Die betrieblichen Anforderungen sind im Anbietertypsteckbrief zum TSP X.509 nonQES eGK mit Option Signaturdienst verzeichnet."
+      text " "
+      H3 (&93834771076120)
+        attr id "1.5"
+        text "1.5 Methodik"
+      text " "
+      P (&93834771076720)
+        attr id "polarion_17"
+        text "Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC 2119 [RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet."
+        BR (&93834771077200)
+        BR (&93834771077384)
+        text "Sie werden im Dokument wie folgt dargestellt:"
+        BR (&93834771077688)
+        text " "
+        SPAN (&93834771077992)
+          attr style "font-weight: bold;"
+          text "<AFO-ID> - <Titel der Afo>"
+        BR (&93834771078472)
+        text "Text / Beschreibung"
+        BR (&93834771078776)
+        text "[<=]"
+        BR (&93834771079080)
+        BR (&93834771079264)
+        text "Dabei umfasst die Anforderung sämtliche zwischen Afo-ID und der Textmarke [<=] angeführten Inhalte."
+      text " "
+      H2 (&93834771079688)
+        attr id "2"
+        text "2 Systemüberblick"
+      text " "
+      P (&93834771080288)
+        attr id "polarion_37"
+        text "Der Signaturdienst erzeugt elektronische Identifizierungsmittel für Versicherte in der Umgebung des Anbieters des Signaturdienstes. Ein elektronisches Identifizierungsmittel ist gemäß Verordnung (EU) Nr. 910/2014 [eIDAS] eine materielle und/oder immaterielle Einheit, die Personenidentifizierungsdaten enthält und zur Authentifizierung bei Online-Diensten verwendet wird. Die vom Signaturdienst ausgestellten elektronischen Identifizierungsmittel sind kryptographische Identitäten basierend auf asymmetrischer Kryptographie und Teil des Vertrauensraums für X.509 nonQES-Identitäten der Telematikinfrastruktur. Die vom Signaturdienst erstellten elektronischen Identifizierungsmittel nutzen Versicherte zur Authentisierung an Diensten in der TI."
+      text " "
+      P (&93834771080888)
+        attr id "polarion_80"
+        text "Versicherte können elektronische Signaturen mittels der vom Signaturdienst ausgestellten Identifizierungsmittel in der vom Anbieter des Signaturdienstes geführten Umgebung erstellen lassen. Die elektronischen Signaturen des Signaturdienstes sind eine Alternative zur elektronischen Signatur mittels der Identität ID.CH.AUT der eGK."
+      text " "
+      P (&93834771081488)
+        attr id "polarion_19"
+        text "Der Signaturdienst erstellt elektronische Identifizierungsmittel für Versicherte ausschließlich im Auftrag des Kartenherausgebers der eGK des Versicherten. Vom Kartenherausgeber der eGK des Versicherten erhält der Anbieter des Signaturdienstes die Personenidentifizierungsdaten für das auszustellende elektronische Identifizierungsmittel. Personenidentifizierungsdaten sind  ein Datensatz, der es ermöglicht, die Identität des Versicherten abzubilden. Die Personenidentifizierungsdaten für die vom Signaturdienst ausgestellten elektronischen Identifizierungsmittel entsprechen den Personenidentifizierungsdaten im Zertifikat C.CH.AUT der eGK des Versicherten. Das Zertifikatsprofil C.CH.AUT_ALT für die vom Signaturdienst ausgestellten elektronischen Identifizierungsmittel ist in [gemSpec_PKI] festgelegt."
+      text " "
+      H2 (&93834771082088)
+        attr id "3"
+        text "3 Systemkontext"
+      text " "
+      H3 (&93834771082688)
+        attr id "3.1"
+        text "3.1 Akteure und Rollen"
+      text " "
+      P (&93834767978288)
+        attr id "polarion_27"
+        text "Im Kontext des Signaturdienstes treten folgende Akteure auf:"
+      text " "
+      P (&93834767978864)
+        attr id "polarion_28"
+        SPAN (&93834767979224)
+          attr style "font-weight: bold;"
+          text "Anbiete"
+        text "r des Signaturdienstes:"
+        BR (&93834767979824)
+        text "Anbieter eines Signaturdienstes setzen die in dieser Spezifikation beschriebenen Aufgaben des Signaturdienstes um."
+      text " "
+      P (&93834767980248)
+        attr id "polarion_31"
+        SPAN (&93834767980608)
+          attr style "font-weight: bold;"
+          text "Kartenherausgeber eGK"
+        BR (&93834767981088)
+        text "Kartenherausgeber der eGK beauftragen den Anbieter eines Signaturdienstes, um für ihre Versicherten auf deren Wunsch hin elektronische Identifizierungsmittel austellen zu lassen, die alternativ zur Identität ID.CH.AUT der eGK genutzt werden können. Falls sich ein Versicherter gegenüber dem Kartenherausgeber seiner eGK für ein elektronisches Identifizierungsmittel entscheidet, beauftragt der Kartenherausgeber eGK für diesen Versicherten beim Anbieter des Signaturdienstes das elektronische Identifizierungsmittel. Der Kartenherausgeber eGK übermittelt hierzu die für das elektronische Identifizierungsmittel notwendigen Personenidentifikationsdaten des Versicherten (u.a. Name, KVNR) an den Anbieter des Signaturdienstes."
+        BR (&93834767981392)
+        text "Der Kartenherausgeber eGK veranlasst die Sperrung von elektronischen Identifizierungsmitteln bzgl. seiner Versicherten beim TSP X.509 nonQES eGK, der das Zertifikat für das elektronische Identifizierungsmittel erstellt hat. "
+      text " "
+      P (&93834767981816)
+        attr id "polarion_35"
+        SPAN (&93834767982176)
+          attr style "font-weight: bold;"
+          text "Versicherte"
+        BR (&93834767982656)
+        text "Versicherte nutzen mittels eigener Client-Systeme den Signaturdienst, um mittels der elektronischen Identifizierungsmittel anderen Diensten ihre Identität zu bestätigen."
+        BR (&93834767982960)
+        text "Versicherte richten sich an den Kartenherausgeber ihrer eGK, falls sie ihr elektronisches Identifizierungsmittel sperren lassen möchten."
+      text " "
+      H3 (&93834767983384)
+        attr id "3.2"
+        text "3.2 Nachbarsysteme"
+      text " "
+      P (&93834767983984)
+        attr id "polarion_99"
+        text "Die folgende Abbildung zeigt die Beziehung zu benachbarten Systemen mit den vom Signaturdienst bereitgestellten und genutzten Schnittstellen."
+      text " "
+      P (&93834767984584)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_25"
+        attr style "text-align: center;"
+        IMG (&93834767985296)
+          attr src "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAgAAADkCAIAAACaMoGnAAAgAElEQVR4nO2dL2zjzNb/Dd4rLboKLCyJVL3gKrDAoLC6aM0WVrL0aOEDApYVRQuXWFq4IGDhKhe8Za9hiaWFlVGZCwsCCv0D37fnNzt2HDf/xk0+H7BK/Gdm7Jydnu/MmTNRXdeTySQCAAAAAICTZDKZ1HUd1XUdRVENAAAAAAAnieQAwgAAAAAA4K..."
+          attr style "width: 582px;height: 128px;"
+      text " "
+      P (&93834767985952)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_40"
+        attr style "text-align: center;"
+        text "Abbildung"
+        SPAN (&93834767986784)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Abbildung"
+          text "1"
+        text ": benachbarte Systeme des Signaturdienstes mit bereitgestellten und genutzten Schnittstellen"
+      text " "
+      P (&93834767987680)
+        attr id "polarion_122"
+      text " "
+      P (&93834767988160)
+        attr id "polarion_60"
+        text "Der Signaturdienst wird als Provider einer technischen Schnittstelle zum Erstellen elektronischer Signaturen für Clienten und einer Prozessschnittstelle für Kartenherausgeber eGK zum Beauftragen und Löschen von elektronischen Identifizierungsmitteln für Versicherte aufgerufen."
+      text " "
+      P (&93834767988760)
+        attr id "polarion_123"
+        text "Der Signaturdienst nutzt die Schnittstellen des TSP X.509 eGK zum Erstellen von Zertifikaten ."
+      text " "
+      P (&93834767989360)
+        attr id "polarion_23"
+      text " "
+      H3 (&93834767989840)
+        attr id "3.3"
+        text "3.3 Sicherheitsanforderungen für den operativen Betrieb"
+      text " "
+      P (&93834767990440)
+        attr id "polarion_45"
+        text "Der Anbieter Signaturdienst muss die folgenden Anforderungen erfüllen:"
+      text " "
+      DIV (&93834767991040)
+        attr id "A_19033"
+        text " "
+        P (&93834767991520)
+          B (&93834767991704)
+            text "A_19033 - Schützenswerte Objekte"
+        text " "
+        P (&93834767992128)
+          text "Der Anbieter Signaturdienst MUSS die folgenden kryptographischen Objekte als schützenswerte Objekte in seinem Sicherheitskonzept berücksichtigen: (a) Private Schlüssel, (b) Öffentlicher Schlüssel, (c) Öffentlicher Schlüssel von Antragstellern, (d) Anträge zur Ausstellung von X.509-Zertifikaten, (e) Authentisierungsinformationen von Sperrberechtigten, (f) Dokumentation über beauftragte und durchgeführte Sperrungen, (g) Statusinformationen, (h) Zulassungsdokumente, (i) Registrierungsdokumente, (j) Authentisierungsinformationen zur Authentisierung von internen Akteuren bzw. Rollen, (k) Protokolldaten, (l) Konfigurationsdaten."
+          BR (&93834767992432)
+          text " "
+          B (&93834767992736)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834767993280)
+        attr id "A_19037"
+        text " "
+        P (&93834767993760)
+          B (&93834767993944)
+            text "A_19037 - Gesicherte interne Schnittstellen des Anbieters Signaturdienst"
+        text " "
+        P (&93834767994368)
+          text "Der Anbieter Signaturdienst MUSS für den internen Datenaustausch einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen."
+          B (&93834767994672)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834767995216)
+        attr id "A_19038"
+        text " "
+        P (&93834767995696)
+          B (&93834767995880)
+            text "A_19038 - Datenaustausch zwischen gematik und Anbieter Signaturdienst"
+        text " "
+        P (&93834767996304)
+          text "Der Anbieter Signaturdienst MUSS für den Datenaustausch zur gematik einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen."
+          B (&93834767996608)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834767997152)
+        attr id "A_19039"
+        text " "
+        P (&93834767997632)
+          B (&93834767997816)
+            text "A_19039 - Gesicherte externe Schnittstellen des Anbieters Signaturdienst"
+        text " "
+        P (&93834767998240)
+          text "Der Anbieter Signaturdienst MUSS für den Datenaustausch mit anderen Rollen und Diensten einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen. Hierzu gehören die Schnittstellen von"
+          BR (&93834767998544)
+          text "a) Anbieter Signaturdienst zum berechtigten Zertifikatsantragsteller zur Beantragung und Ausstellung von Zertifikaten,    "
+          BR (&93834767998848)
+          text "b) Anbieter Signaturdienst zum Sperrantragsteller für die Sperrung von Zertifikaten."
+          B (&93834767999152)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834767999696)
+        attr id "A_19040"
+        text " "
+        P (&93834768000176)
+          B (&93834768000360)
+            text "A_19040 - Eindeutige Verbindung Zertifikatsnehmer und privater Schlüssel"
+        text " "
+        P (&93834768000784)
+          text "Der Anbieter Signaturdienst MUSS sicherstellen, dass der öffentliche Schlüssel, dem die Attribute des Zertifikatsnehmers in einem Zertifikat zugeordnet werden, und der private Schlüssel des Zertifikatsnehmers zusammengehören."
+          B (&93834768001088)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768001632)
+        attr id "A_19041"
+        text " "
+        P (&93834768002112)
+          B (&93834768002296)
+            text "A_19041 - Umsetzung Signaturdienst für Zertifikate"
+        text " "
+        P (&93834768002720)
+          text "Der Anbieter Signaturdienst MUSS nach erfolgreicher Identifizierung des Antragstellers die erforderlichen Angaben zur Zertifikatserstellung an den Erstellungsdienst des TSP-X.509-CA weiterleiten."
+          BR (&93834768003024)
+          text " "
+          B (&93834768003328)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768003872)
+        attr id "A_19042"
+        text " "
+        P (&93834768004352)
+          B (&93834768004536)
+            text "A_19042 - Trennung der Signaturdienst-Betriebsumgebungen"
+        text " "
+        P (&93834768004960)
+          text "Der Anbieter Signaturdienst MUSS sicherstellen, dass das Testsystem von dem Produktivsystem technisch, organisatorisch und betrieblich so getrennt werden, dass keine gegenseitige Beeinflussung und keine Verwechslung möglich sind."
+          BR (&93834768005264)
+          text " "
+          B (&93834768005568)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768006112)
+        attr id "A_19043"
+        text " "
+        P (&93834768006592)
+          B (&93834768006776)
+            text "A_19043 - Datenschutzgerechte Antrags- und Sperrprozesse"
+        text " "
+        P (&93834768007200)
+          text "Der Anbieter Signaturdienst MUSS die Antrags- und Sperrprozesse datenschutzgerecht ausgestalten, d.h. insbesondere sind für die Verarbeitung der Antrags- und Sperrauftragsdaten die Datenschutzgrundsätze gemäß Art. 5 DSGVO zu berücksichtigen sowie die technischen und organisatorischen Maßnahmen nach Art. 25 und Art. 32 DSGVO zu treffen."
+          B (&93834768007504)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768008048)
+        attr id "A_19044"
+        text " "
+        P (&93834768008528)
+          B (&93834768008712)
+            text "A_19044 - Löschung von Signaturdienst-Zertifikatstatusinformationen, Zertifikats- und Sperranträgen"
+        text " "
+        P (&93834768009136)
+          text "Der Anbieter Signaturdienst MUSS die Zertifikatsanträge und die Sperraufträge zu einem X.509-Zertifikat unverzüglich löschen, sobald die gesetzlichen oder vertraglichen Aufbewahrungsfristen erreicht sind."
+          B (&93834768009440)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768009984)
+        attr id "A_19045"
+        text " "
+        P (&93834768010464)
+          B (&93834768010648)
+            text "A_19045 - Fehlerprotokollierung"
+        text " "
+        P (&93834768011192)
+          text "Falls es erforderlich sein sollte, dass der Anbieter Signaturdienst eine Protokollierung zum Zwecke der Fehler- bzw. Störungsbehebung durchführt, MÜSSEN die Protokolldaten entsprechend des Datenschutzgrundsatzes der Datenminimierung gemäß Art. 5 Abs. 1 Satz 1 lit.c) DSGVO unter Berücksichtigung der Art. 25, 32 DSGVO derart gestaltet sein, dass nur personenbezogene Daten in der Art und dem Umfang enthalten sind, wie sie zur Behebung erforderlich sind."
+          B (&93834768011496)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834768012040)
+        attr id "polarion_54"
+      text " "
+      H2 (&93834768012496)
+        attr id "4"
+        text "4 Zerlegung des Signaturdienstes"
+      text " "
+      P (&93834768013096)
+        attr id "polarion_47"
+        text "Eine Zerlegung des Produkttyps Signaturdienst wird nicht vorgegeben."
+      text " "
+      H2 (&93834768013696)
+        attr id "5"
+        text "5 Übergreifende Festlegungen"
+      text " "
+      P (&93834768014296)
+        attr id "polarion_29"
+        text "Der Signaturdienst muss die folgenden übergreifenden Anforderungen erfüllen."
+      text " "
+      DIV (&93834768014896)
+        attr id "A_17373"
+        text " "
+        P (&93834768015376)
+          B (&93834768015560)
+            text "A_17373 - Signaturdienst - Produkt ist geeignet für Sicherheitsniveau "substanziell" gemäß eIDAS-Verordnung"
+        text " "
+        P (&93834768015984)
+          text "Der Hersteller des Signaturdienstes MUSS sein Produkt so implementieren, dass ein Anbieter des Signaturdienstes die Anforderungen der Verordnung (EU) Nr. 910/2014 an elektronische Identifizierungsmittel mit einem Sicherheitsniveau von mindestens "substanziell" erfüllen kann."
+          B (&93834768016288)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768016832)
+        attr id "A_17336"
+        text " "
+        P (&93834768017312)
+          B (&93834768017496)
+            text "A_17336 - Signaturdienst - Sicherheitsniveau "substanziell" gemäß eIDAS-Verordnung"
+        text " "
+        P (&93834768017920)
+          text "Der Anbieter des Signaturdienstes MUSS für den angebotenen Signaturdienst die Anforderungen der Verordnung (EU) Nr. 910/2014 an elektronische Identifizierungsmittel mit einem Sicherheitsniveau von mindestens "substanziell" erfüllen. Davon ausgenommen ist die Anmeldung gemäß Anhang 2.1 der Durchführungsverordnung (EU) 2015/1502."
+          B (&93834768018224)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768018768)
+        attr id "A_20240"
+        text " "
+        P (&93834768019248)
+          B (&93834768019432)
+            text "A_20240 - Signaturdienst - Entgegennahme von Sperrmeldungen"
+        text " "
+        P (&93834768019856)
+          text "Der Anbieter des Signaturdienstes MUSS Sperrmeldungen von Sperrberechtigten jederzeit entgegennehmen und das elektronische Identifizierungsmittel daraufhin unverzüglich sperren lassen."
+          SPAN (&93834768020160)
+            attr id "polarion-comment:94"
+          text " "
+          B (&93834768020640)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834768021184)
+        attr id "polarion_18"
+        text "Die Durchführungsverordnung (EU) 2015/1502 [eIDAS 2015/1502] gemäß Artikel 8 Absatz 3 der Verordnung (EU) Nr. 910/2014 [eIDAS 910/2014] legt die Mindestanforderungen an technische Spezifikationen und Verfahren für Sicherheitsniveaus elektronischer Identifizierungsmittel fest."
+      text " "
+      P (&93834768021784)
+        attr id "polarion_44"
+        text "Die Anmeldung des elektronischen Identifizierungsmittels inklusive Identitätsnachweis und -überprüfung des Versicherten erfolgt durch den Kartenherausgeber eGK auf Grundlage der GKV-SV Richtlinie "Kontakt mit Versicherten" nach § 217f Abs. 4b SGB V."
+      text " "
+      P (&93834768022384)
+        attr id "polarion_42"
+        text "Im Rahmen der Anbieterzulassung prüft der unabhängige Sicherheitsgutachter, dass die vom Anbieter ausgestellten elektronischen Identifizierungsmittel die Mindestanforderungen des Sicherheitsniveaus "substanziell" erfüllen."
+      text " "
+      P (&93834768022984)
+        attr id "polarion_32"
+        text "Eine Notifizierung des elektronischen Identifizierungssystems, welches die elektronischen Identifizierungsmittel ausstellt, ist nicht gefordert. Ebenso ist nicht gefordert, dass der Anbieter ein qualifizierter oder nichtqualifizierter Vertrauensdiensteanbieter gemäß Verordnung (EU) Nr. 910/2014 ist."
+      text " "
+      P (&93834768023584)
+        attr id "polarion_36"
+        text "Zur Erstellung der Signatur kann eine nach eIDAS zertifizierte qualifizierte Signatur/Siegelerstellungseinheit (QSEE) eingesetzt werden."
+      text " "
+      DIV (&93834768024184)
+        attr id "A_17369"
+        text " "
+        P (&93834768024664)
+          B (&93834768024848)
+            text "A_17369 - Signaturdienst - Elektronische Identifizierungsmittel sind kryptographische Identitäten der TI"
+        text " "
+        P (&93834768025272)
+          text "Der Signaturdienst MUSS als elektronische Identifizierungsmittel kryptographische Identitäten ausstellen, die aus einem privaten und einem öffentlichen Schlüssel mit dazugehörigem Zertifikat des Typs"
+          SPAN (&93834768025576)
+            attr style "background-color: #FFFFFF;"
+            text "C.CH.AUT_ALT "
+          text "aus dem Vertrauensraum der TI bestehen. "
+          B (&93834768026176)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768026720)
+        attr id "A_17370"
+        text " "
+        P (&93834768027200)
+          B (&93834768027384)
+            text "A_17370 - Signaturdienst - ECC-Verfahren für elektronische Identifizierungsmittel"
+        text " "
+        P (&93834768027808)
+          text "Der Signaturdienst MUSS elektronische Identifizierungsmittel auf der Grundlage von ECC-Verfahren erstellen."
+          B (&93834768028112)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834768028656)
+        attr id "polarion_59"
+        text "Für die Erzeugung von ECC-Schlüsseln sind die Vorgaben in [gemSpec_Krypt] einzuhalten."
+      text " "
+      DIV (&93834768029256)
+        attr id "A_17371"
+        text " "
+        P (&93834768029736)
+          B (&93834768029920)
+            text "A_17371 - Signaturdienst - Keine RSA-Verfahren für elektronische Identifizierungsmittel"
+        text " "
+        P (&93834768030344)
+          text "Der Signaturdienst DARF elektronische Identifizierungsmittel NICHT auf der Grundlage von RSA-Verfahren erstellen."
+          B (&93834768030648)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834768031192)
+        attr id "A_17339"
+        text " "
+        P (&93834768031672)
+          B (&93834768031856)
+            text "A_17339 - Signaturdienst - Speicherung privater Schlüssel mit einem HSM"
+        text " "
+        P (&93834768032280)
+          text "Der Anbieter des Signaturdienstes MUSS die privaten Schlüssel der elektronischen Identifizierungsmittel mit einem HSM  speichern und sicherstellen, dass die Eignung des HSM durch eine erfolgreiche Evaluierung nachgewiesen wurde. Als Evaluierungsschemata kommen dabei Federal Information Processing Standard (FIPS) oder Common Criteria mit mindestens folgender Prüftiefe in Frage:  "
+        OL (&93834768032584)
+          text " "
+          LI (&93834768032888)
+            text "FIPS 140-2 Level 3 oder   "
+            BR (&93834768033192)
+            text " "
+          text " "
+          LI (&93834768033616)
+            text "Common Criteria EAL 4."
+          text " "
+        text " "
+        B (&93834768034160)
+          text "[<=]"
+        P (&93834768034464)
+        text " "
+      text " "
+      DIV (&93834768034888)
+        attr id "A_17852"
+        text " "
+        P (&93834768035368)
+          B (&93834768035552)
+            text "A_17852 - Signaturdienst - Information des Versicherten über Änderungen an Authentifizierungsfaktoren"
+        text " "
+        P (&93834768035976)
+          text "Der Anbieter des Signaturdienstes MUSS den Versicherten über Änderungen an Authentifizierungsfaktoren informieren."
+          BR (&93834768036280)
+          text "Die Information des Versicherten kann dabei auch über den Kartenherausgeber erfolgen, der den Anbieter des Signaturdienstes mit der Erstellung des elektronischen Identifizierungsmittels beauftragt hat."
+          BR (&93834768036584)
+          text " "
+          B (&93834768036888)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834768037432)
+        attr id "polarion_46"
+        text "Hinweis: Dies könnten z. B. Änderungen von E-Mail-Adressen, Mobilfunknummern, registrierten Geräten oder Kennwörtern sein."
+      text " "
+      DIV (&93834768038032)
+        attr id "A_17853"
+        text " "
+        P (&93834768038512)
+          B (&93834768038696)
+            text "A_17853 - Signaturdienst - Auskunft an Versicherten"
+        text " "
+        P (&93834768039120)
+          text "Der Anbieter des Signaturdienstes MUSS dem Versicherten auf dessen Verlangen Auskunft geben über"
+        UL (&93834768039424)
+          text " "
+          LI (&93834768039728)
+            text "erfolgte Zugriffe auf das elektronische Identifizierungsmittel des Versicherten und"
+          text " "
+          LI (&93834768040152)
+            text "Änderungen der Authentifizierungsfaktoren des Versicherten."
+          text " "
+        text "Die Auskunft des Versicherten kann auch über den Kartenherausgeber erfolgen, der den Anbieter des Signaturdienstes mit der Erstellung des elektronischen Identifizierungsmittels beauftragt hat."
+        SPAN (&93834768040696)
+          attr style "background-color: #FFFF99;"
+          BR (&93834768041056)
+          text " "
+        text " "
+        B (&93834768041480)
+          text "[<=]"
+        P (&93834768041784)
+        text " "
+      text " "
+      P (&93834768042208)
+        attr id "polarion_48"
+        text "Hinweis: Die Auskunft des Versicherten kann auch über den Kartenherausgeber erfolgen, der den Anbieter des Signaturdienstes mit der Erstellung des elektronischen Identifizierungsmittels beauftragt hat."
+      text " "
+      DIV (&93834768042808)
+        attr id "A_17864"
+        text " "
+        P (&93834768043288)
+          B (&93834768043472)
+            text "A_17864 - Signaturdienst - Anbieter des Signaturdienstes ist kein Anbieter eines ePA-Aktensystems"
+        text " "
+        P (&93834781663336)
+          text "Der Anbieter des Signaturdienstes MUSS unabhängig von Anbietern von ePA-Aktensystemen sein, d.h. es sind mindestens jeweils eigenständige Rechtspersönlichkeiten mit eigenständigen operativen Geschäfts- und Betriebsführungen und es ist eine strikte Vermeidung von Personenidentitäten bzw. Doppelrollen in den Funktionen Geschäftsführung, leitende Mitarbeiter und Zugangsberechtigte zum Betriebsort des Signaturdienstes bzw. ePA-Aktensystems gewährleistet."
+          B (&93834781663640)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834781664184)
+        attr id "polarion_52"
+        text "Hinweis: Die Anforderung schließt nicht aus, dass die Anbieter verbundene Unternehmen im Sinne des § 15 AktG sind."
+      text " "
+      DIV (&93834781664760)
+        attr id "A_18957"
+        text " "
+        P (&93834781665240)
+          B (&93834781665424)
+            text "A_18957 - Darstellen der Voraussetzungen für sicheren Betrieb des Produkts im Handbuch"
+        text " "
+        P (&93834781665848)
+          text "Der Hersteller des Signaturdienstes MUSS für sein Produkt im dazugehörigen Handbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des Produktes gewährleistet werden kann."
+          B (&93834781666152)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834781666696)
+        attr id "A_18958"
+        text " "
+        P (&93834781667176)
+          B (&93834781667360)
+            text "A_18958 - Sicherer Betrieb des Produkts nach Handbuch"
+        text " "
+        P (&93834781667784)
+          text "Der Anbieter eines Signaturdienstes MUSS die im Handbuch des eingesetzten Signaturdienstes beschriebenen Voraussetzungen für den sicheren Betrieb des Produktes gewährleisten."
+          B (&93834781668088)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834781668632)
+        attr id "polarion_58"
+      text " "
+      H2 (&93834781669112)
+        attr id "6"
+        text "6 Funktionsmerkmale"
+      text " "
+      P (&93834781669712)
+        attr id "polarion_20"
+        text "Der Signaturdienst realisiert die Funktionsmerkmale zur Erstellung elektronischer Identifizierungsmittel und deren Nutzung für elektronische Signaturen. Das Funktionsmerkmal wird über die Implementierung der Schnittstellen "
+        SPAN (&93834781670192)
+          attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+          text "I_Remote_Sign_Operation, P_Create_Identity"
+        text "und"
+        SPAN (&93834781670792)
+          attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+          text "P_Delete_Identity"
+        text "realisiert."
+      text " "
+      H3 (&93834781671512)
+        attr id "6.1"
+        text "6.1 Schnittstelle I_Remote_Sign_Operations"
+      text " "
+      P (&93834781672112)
+        attr id "polarion_33"
+        text "Die in diesem Abschnitt beschriebene logische Schnittstelle"
+        SPAN (&93834781672592)
+          attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+          text "I_Remote_Sign_Operations"
+        text "setzt die gleichnamige Schnittstelle aus [gemKPT_Arch_TIP] um."
+      text " "
+      DIV (&93834781673312)
+        attr id "A_17383"
+        text " "
+        P (&93834781673792)
+          B (&93834781673976)
+            text "A_17383 - Signaturdienst - I_Remote_Sign_Operations im Internet"
+        text " "
+        P (&93834781674400)
+          text "Der Signaturdienst MUSS die Schnittstelle"
+          SPAN (&93834781674704)
+            attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+            text "I_Remote_Sign_Operations"
+          text "im Internet anbieten."
+          B (&93834781675304)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834781675848)
+        attr id "A_17583"
+        text " "
+        P (&93834781676328)
+          B (&93834781676512)
+            text "A_17583 - Signaturdienst - Eintrag in das Interoperabilitätsverzeichnis vesta"
+        text " "
+        P (&93834781676936)
+          text "Der Hersteller des Signaturdienstes MUSS die Spezifikation seiner Implementierung der Schnittstelle"
+          SPAN (&93834781677240)
+            attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+            text "I_Remote_Sign_Operations::sign_Data"
+          text "in das Interoperabilitätsverzeichnis vesta der gematik aufnehmen zu lassen."
+          B (&93834781677840)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834781678384)
+        attr id "polarion_41"
+        text "Die Regeln zur Aufnahme in das Interoperabilitätsverzeichnis vesta sind in der Geschäfts- und Verfahrensordnung [GVO_IOPVZ] beschrieben. Regelungen zur Information der Hersteller von Clients des Signaturdienstes bei Änderungen der Implementierung der Schnittstelle werden in einer Folgeversion ergänzt."
+      text " "
+      DIV (&93834781678984)
+        attr id "A_17382"
+        text " "
+        P (&93834781679464)
+          B (&93834781679648)
+            text "A_17382 - Signaturdienst - Schutz gegen OWASP Top 10-Risiken"
+        text " "
+        P (&93834781680072)
+          text "Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die Internet-Schnittstelle I"
+          SPAN (&93834781680376)
+            attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+            text "_Remote_Sign_Operations"
+          text "resistent bezüglich der im aktuellen und den beiden vorherigen OWASP Top 10 Report(s) ausgewiesenen Risiken ist."
+          B (&93834781680976)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834781681520)
+        attr id "polarion_38"
+        text "Hinweis: Die Nichtanwendbarkeit eines OWASP Top 10-Risikos ist zu begründen. Für Informationen zum Umgang mit den OWASP Top 10-Risiken wird auf den aktuellen [OWASP Top 10 Report] und die darin enthaltenen Vorgehensweisen für z. B. Entwickler und Tester verwiesen."
+      text " "
+      DIV (&93834781682120)
+        attr id "A_17528"
+        text " "
+        P (&93834781682600)
+          B (&93834781682784)
+            text "A_17528 - Signaturdienst - Schutz der Verbindung zum Signaturdienst"
+        text " "
+        P (&93834781683208)
+          text "Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die Schnittstelle"
+          SPAN (&93834781683512)
+            attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+            text "I_Remote_Sign_Operations"
+          text " "
+          SPAN (&93834781684112)
+            attr style "font-family: Arial, Helvetica;"
+            text "von Clienten nur über eine "
+          text "gegen Abhören, Manipulation und Replay-Angriffe geschützte Verbindung genutzt werden kann."
+          B (&93834781684712)
+            text "[<=]"
+        text " "
+      text " "
+      H4 (&93834781685256)
+        attr id "6.1.1"
+        text "6.1.1 Operationsdefinition I_Remote_Sign_Operations::sign_Data"
+      text " "
+      DIV (&93834781685856)
+        attr id "A_17238"
+        text " "
+        P (&93834781686336)
+          B (&93834781686520)
+            text "A_17238 - Signaturdienst - Logische Schnittstelle I_Remote_Sign_Operations"
+        text " "
+        P (&93834781686944)
+          text "Der Signaturdienst MUSS die Schnittstelle"
+          SPAN (&93834781687248)
+            attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+            text "I_Remote_Sign_Operations::sign_Data"
+          text "gemäß der folgenden logischen Signatur implementieren:"
+          BR (&93834781687848)
+          text " "
+        P (&93834781688152)
+          attr class "polarion-rte-caption-paragraph"
+          attr id "polarion___1"
+          attr style "text-align: left;"
+          text "Tabelle"
+          SPAN (&93834781688984)
+            attr class "polarion-rte-caption"
+            attr data-sequence "Tabelle"
+            text "1"
+          text ": Tab_SigD_01 -  I_Remote_Sign_Operations::sign_Data - Definition"
+        text " "
+        TABLE (&93834781689880)
+          attr class "polarion-Document-table"
+          attr id "polarion_wiki macro name=table;params=bold=1|width=99.87%|uid=client1"
+          attr style "margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+          text " "
+          TBODY (&93834781690712)
+            text " "
+            TR (&93834781691016)
+              text " "
+              TH (&93834781691320)
+                attr colspan "2"
+                attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 159px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781691856)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Operation"
+              text " "
+              TH (&93834781692456)
+                attr colspan "4"
+                attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 571px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781692992)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "I_Remote_Sign_Operations::sign_Data"
+              text " "
+            text " "
+            TR (&93834781693712)
+              text " "
+              TD (&93834781694016)
+                attr colspan "2"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 24px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781694552)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Beschreibung"
+              text " "
+              TD (&93834781695152)
+                attr colspan "4"
+                attr style "text-align: left;vertical-align: top;width: 571px;height: 24px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781695688)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Die Operation erzeugt eine ECDSA-Signatur unter Einhaltung der Vorgaben in [gemSpec_Krypt] an dem übergebenen Datum"
+                  SPAN (&93834781696176)
+                    attr style "font-style: italic;"
+                    text "(Data"
+                  text ") mittels des privaten Schlüssels des elektronischen Identifizierungsmittels ID.CH.AUT_ALT des aufrufenden Nutzers"
+                  SPAN (&93834781696776)
+                    attr style "font-style: italic;"
+                    text "(Identifier)"
+                  text "."
+                  BR (&93834781697376)
+                  text "Das signierte Datum ("
+                  SPAN (&93834781697680)
+                    attr style "font-style: italic;"
+                    text "SignedData"
+                  text ") und das Zertifikat des elektronischen Identifizierungsmittels"
+                text " "
+                SPAN (&93834781698400)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "C.CH.AUT_ALT der Identität, für die signiert wurde, werden als Ergebnis der Operation zurückgeliefert."
+              text " "
+            text " "
+            TR (&93834781699120)
+              text " "
+              TD (&93834781699424)
+                attr colspan "6"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 741px;height: 24px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781699960)
+                  attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                  text "Eingangsparameter"
+              text " "
+            text " "
+            TR (&93834781700680)
+              text " "
+              TD (&93834781700984)
+                attr colspan "2"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781701520)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Name"
+              text " "
+              TD (&93834781702120)
+                attr colspan "2"
+                attr style "text-align: left;vertical-align: top;width: 265px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781702656)
+                  attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                  text "Beschreibung"
+              text " "
+              TD (&93834781703256)
+                attr style "text-align: left;vertical-align: top;width: 139px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781703616)
+                  attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                  text "Typ"
+              text " "
+              TD (&93834781704216)
+                attr style "text-align: left;vertical-align: top;width: 145px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781704576)
+                  attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                  text "opt."
+              text " "
+            text " "
+            TR (&93834781705296)
+              text " "
+              TD (&93834781705600)
+                attr colspan "2"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 36px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781706136)
+                  attr style "font-weight: normal;font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;"
+                  text "Data"
+              text " "
+              TD (&93834781706736)
+                attr colspan "2"
+                attr style "text-align: left;vertical-align: top;width: 265px;height: 36px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781707272)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Die zu signierenden Daten."
+              text " "
+              TD (&93834781707872)
+                attr style "text-align: left;vertical-align: top;width: 139px;height: 36px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781708232)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Binary"
+              text " "
+              TD (&93834781708832)
+                attr style "text-align: left;vertical-align: top;width: 145px;height: 36px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781709192)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "-"
+              text " "
+            text " "
+            TR (&93834781709912)
+              text " "
+              TD (&93834781710216)
+                attr colspan "2"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781710752)
+                  attr style "font-weight: normal;font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;"
+                  text "Identifier"
+              text " "
+              TD (&93834781711352)
+                attr colspan "2"
+                attr style "text-align: left;vertical-align: top;width: 265px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781711888)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Identifiziert, welches elektronisches Identifizierungsmittel ID.CH.AUT_ALT zur Signatur des Datums genutzt werden soll."
+              text " "
+              TD (&93834781712488)
+                attr style "text-align: left;vertical-align: top;width: 139px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781712848)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "String"
+              text " "
+              TD (&93834781713448)
+                attr style "text-align: left;vertical-align: top;width: 145px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781713808)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "-"
+              text " "
+            text " "
+            TR (&93834781714528)
+              text " "
+              TD (&93834781714832)
+                attr colspan "6"
+                attr rowspan "1"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 741px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781715544)
+                  attr style "font-style: italic;font-size: 10pt;line-height: 1.5;"
+                  text "Ausgangsparameter"
+              text " "
+            text " "
+            TR (&93834781716264)
+              text " "
+              TD (&93834781716568)
+                attr colspan "2"
+                attr rowspan "1"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 23px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781717280)
+                  attr style "font-size: 10pt;line-height: 1.5;"
+                  text "Name"
+              text " "
+              TD (&93834781717880)
+                attr colspan "2"
+                attr rowspan "1"
+                attr style "text-align: left;vertical-align: top;width: 265px;height: 23px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781718592)
+                  attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                  text "Beschreibung"
+              text " "
+              TD (&93834781719192)
+                attr style "text-align: left;vertical-align: top;width: 139px;height: 23px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781719552)
+                  attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                  text "Typ"
+              text " "
+              TD (&93834781720152)
+                attr style "text-align: left;vertical-align: top;width: 145px;height: 23px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781720512)
+                  attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                  text "opt."
+              text " "
+            text " "
+            TR (&93834781721232)
+              text " "
+              TD (&93834781721536)
+                attr colspan "2"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 65px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781722072)
+                  attr style "font-weight: normal;font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;"
+                  text "SignedData"
+              text " "
+              TD (&93834781722672)
+                attr colspan "2"
+                attr style "text-align: left;vertical-align: top;width: 265px;height: 65px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781723208)
+                  attr style "font-weight: normal;font-size: 10pt;line-height: 1.5;"
+                  text "Das mit dem privaten Schlüssel des elektronischen Identifizierungsmittels ID.CH.AUT_ALT signierte Datum."
+                text " "
+              text " "
+              TD (&93834781723928)
+                attr style "text-align: left;vertical-align: top;width: 139px;height: 65px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781724288)
+                  attr style "font-weight: normal;font-size: 10pt;line-height: 1.5;"
+                  text "Binary"
+              text " "
+              TD (&93834781724888)
+                attr style "text-align: left;vertical-align: top;width: 145px;height: 65px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                text "-"
+              text " "
+            text " "
+            TR (&93834781725608)
+              text " "
+              TD (&93834781725912)
+                attr colspan "2"
+                attr rowspan "1"
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 159px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834781726624)
+                  attr style "font-weight: normal;font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;"
+                  text "Certificate"
+              text " "
+              TD (&93834781727224)
+                attr colspan "2"
+                attr rowspan "1"
+                attr style "text-align: left;vertical-align: top;width: 265px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                text "Zertifikat C.CH.AUT_ALT des elektronischen"
+                SPAN (&93834781728056)
+                  attr style "font-weight: normal;font-size: 10pt;line-height: 1.5;"
+                  text "Identifizierungsmittels,"
+                text "mit dessen zugehörigem privaten Schlüssel signiert wurde."
+              text " "
+              TD (&93834764420928)
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 139px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834764421288)
+                  attr style "font-weight: normal;"
+                  text "Certificate X.509"
+                  BR (&93834764421768)
+                  text " "
+              text " "
+              TD (&93834764422192)
+                attr style "font-weight: bold;text-align: left;vertical-align: top;width: 145px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+                SPAN (&93834764422552)
+                  attr style "font-weight: normal;"
+                  text "-"
+              text " "
+            text " "
+          text " "
+        text " "
+        B (&93834764423512)
+          text "[<=]"
+        P (&93834764423816)
+        text " "
+      text " "
+      H4 (&93834764424240)
+        attr id "6.1.2"
+        text "6.1.2 Umsetzung I_Remote_Sign_Operations::sign_Data"
+      text " "
+      P (&93834764424840)
+        attr id "polarion_34"
+        text "Die folgenden Anforderungen beschreiben die Umsetzung der Operation"
+        SPAN (&93834764425320)
+          attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+          text "I_Remote_Sign_Operations::sign_Data"
+        text "."
+      text " "
+      DIV (&93834764426040)
+        attr id "A_17384"
+        text " "
+        P (&93834764426520)
+          B (&93834764426704)
+            text "A_17384 - Signaturdienst - Operationsaufruf erfordert erfolgreiche Authentifizierung"
+        text " "
+        P (&93834764427128)
+          text "Der Signaturdienst MUSS sicherstellen, dass die Operation"
+          SPAN (&93834764427432)
+            attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+            text "I_Remote_Sign_Operations::sign_Data"
+          text "nur nach vorheriger erfolgreicher Authentifikation des Nutzers mit einem Sicherheitsniveau von mindestens "substanziell" (gemäß Anforderungen der Verordnung (EU) Nr. 910/2014 an elektronische Identifizierungssysteme) genutzt wird."
+          B (&93834764428032)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764428576)
+        attr id "A_18172"
+        text " "
+        P (&93834764429056)
+          B (&93834764429240)
+            text "A_18172 - Signaturdienst - Authentifizierungsverfahren erfüllen TR-03107-1 für substanziell"
+        text " "
+        P (&93834764429664)
+          text "DerAnbieter des Signaturdienstes MUSS sicherstellen, dass nur Authentifizierungsverfahren genutzt werden, die vom BSI in der TR-03107-1 für ein Vertrauensniveau von mindestens "substanziell" als geeignet eingestuft werden. "
+          B (&93834764429968)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764430512)
+        attr id "A_18173"
+        text " "
+        P (&93834764430992)
+          B (&93834764431176)
+            text "A_18173 - Signaturdienst - Anpassung Authentifizierungsverfahren bei Änderung TR-03107-1"
+        text " "
+        P (&93834764431600)
+          text "DerAnbieter des Signaturdienstes MUSS von ihm eingesetzte Authentifizierungsverfahren, die nach einer Aktualisierung der TR-03107-1 des BSI nicht mehr für das Vertrauensniveau "substanziell" geeignet sind, unverzüglich zu einem nach der TR-03107-1 des BSI für "substanziell" geeigneten Authentifizierungsverfahren migrieren."
+          B (&93834764431904)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764432448)
+        attr id "A_17527"
+        text " "
+        P (&93834764432928)
+          B (&93834764433112)
+            text "A_17527 - Signaturdienst - Aufruf der Operation nur über geschützte Verbindung"
+        text " "
+        P (&93834764433536)
+          text "Der Signaturdienst MUSS sicherstellen, dass die Operation I_Remote_Sign_Operations::sign_Data von Clienten nur über eine gegen Abhören, Manipulation und Replay-Angriffe geschützte Verbindung aufgerufen werden kann."
+          B (&93834764433840)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764434384)
+        attr id "A_17741"
+        text " "
+        P (&93834764434864)
+          B (&93834764435048)
+            text "A_17741 - Signaturdienst - Freischaltung vorzeitig beenden"
+        text " "
+        P (&93834764435472)
+          text "Der Signaturdienst MUSS sicherstellen, dass der Client die Freischaltung der Operation"
+          SPAN (&93834764435776)
+            attr style "font-family: 'Courier New', Courier, monospace, HanWangKanTan;"
+            text "I_Remote_Sign_Operations::sign_Data"
+          SPAN (&93834764436256)
+            attr style "font-family: Arial, Helvetica;"
+            text "  bzgl. eines Nutzers explizit beenden kann und somit beim nächsten Aufruf der Operation durch diesen Nutzer eine"
+          text "erneute Authentifizierung erforderlich ist."
+          B (&93834764436856)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764437400)
+        attr id "A_18710"
+        text " "
+        P (&93834764437880)
+          B (&93834764438064)
+            text "A_18710 - Maximale Gültigkeit einer Authentifizierung"
+        text " "
+        P (&93834764438488)
+          text "Der Signaturdienst und der Anbieter des Signaturdienstes MÜSSEN sicherstellen, dass eine erfolgreiche Authentifizierung des Nutzers für maximal 1 Stunde gültig ist, um die Operation I_Remote_Sign_Operations::sign_Data von dem Client, von dem sich der Nutzer authentisiert hat, aufzurufen."
+          B (&93834764438792)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764439336)
+        attr id "A_18711"
+        text " "
+        P (&93834764439816)
+          B (&93834764440000)
+            text "A_18711 - Signaturdienst – Nutzung einer erfolgreichen Authentifizierung"
+        text " "
+        P (&93834764440424)
+          text "Der Signaturdienst und der Anbieter des Signaturdienstes MÜSSEN sicherstellen, dass eine erfolgreiche Authentifizierung des Nutzers maximal einmal genutzt werden kann, um die Operation I_Remote_Sign_Operations::sign_Data für maximal 5 Minuten ohne erneute Authentifizierung des Nutzers von dem Client (auch mehrmals) aufzurufen, von dem sich der Nutzer authentisiert hat, und nach Ablauf der 5 Minuten die Operation I_Remote_Sign_Operations::sign_Data nur nach erneuter erfolgreicher Authentifizierung des Nutzers wieder genutzt werden kann."
+          B (&93834764440728)
+            text "[<=]"
+        text " "
+      text " "
+      H3 (&93834764441272)
+        attr id "6.2"
+        text "6.2 Schnittstelle P_Create_Identity"
+      text " "
+      DIV (&93834764441872)
+        attr id "A_17375"
+        text " "
+        P (&93834764442352)
+          B (&93834764442536)
+            text "A_17375 - Signaturdienst - P_Create_Identity"
+        text " "
+        P (&93834764442960)
+          text "Der Anbieter des Signaturdienstes MUSS eine Prozess-Schnittstelle umsetzen, mittels derer Kartenherausgeber dem Signaturdienst einen Auftrag zur Ausstellung eines elektronischen Identifizierungsmittels für einen Versicherten erteilen können. Der Auftrag MUSS die für das elektronische Identifizierungsmittel notwendigen Personenidentifikationsdaten für das Zertifikat"
+          SPAN (&93834764443264)
+            attr style "background-color: #FFFFFF;"
+            text "C.CH.AUT_ALT"
+          text "sowie die erforderlichen Verifikationsdaten, die der Signaturdienstanbieter zur Verifikation des Versicherten bei der Aktivierung des elektronischen Identifizierungsmerkmals benötigt, enthalten."
+          B (&93834764443864)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764444408)
+        attr id "A_17372"
+        text " "
+        P (&93834764444888)
+          B (&93834764445072)
+            text "A_17372 - Signaturdienst - Schutz des Auftrags der Krankenkasse während des Transports"
+        text " "
+        P (&93834764445496)
+          text "Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die im Auftrag der Krankenkasse enthaltenen personenbezogenen oder sensiblen Daten während des Transports von der Krankenkasse zum Signaturdienst gegen Abhören, Manipulation und Replay-Angriffe geschützt werden."
+          BR (&93834764445800)
+          text " "
+          B (&93834764446104)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764446648)
+        attr id "A_17379"
+        text " "
+        P (&93834764447128)
+          B (&93834764447312)
+            text "A_17379 - Signaturdienst - Zertifikatsabruf beim TSP X.509 nonQES eGK"
+        text " "
+        P (&93834764447736)
+          text "Der Signaturdienst MUSS das Zertifikat des Typs"
+          SPAN (&93834764448040)
+            attr style "background-color: #FFFFFF;"
+            text "C.CH.AUT_ALT"
+          text "über die Schnittstelle I_Cert_Provisioning zum Zertifikatabruf beim TSP X.509 nonQES eGK mit den vom Kartenherausgeber übermittelten Personenidentifikationsdaten aus dem Auftrag anfordern."
+          B (&93834764448640)
+            text "[<=]"
+        text " "
+      text " "
+      DIV (&93834764449184)
+        attr id "A_17381"
+        text " "
+        P (&93834764449664)
+          B (&93834764449848)
+            text "A_17381 - Signaturdienst - Verifikation des Versicherten vor erster Nutzung"
+        text " "
+        P (&93834764450272)
+          text "Der Anbieter des Signaturdienstes MUSS den Versicherten, für den das elektronische Identifizierungsmittel ausgestellt wurde, mittels der vom Kartenherausgeber im Auftrag übermittelten Verifikationsdaten vor der ersten Nutzung des elektronischen  Identifizierungsmittels authentifizieren, um das elektronische Identifizierungsmittel zu aktivieren."
+          B (&93834764450576)
+            text "[<=]"
+        text " "
+      text " "
+      H3 (&93834764451120)
+        attr id "6.3"
+        text "6.3 Schnittstelle P_Delete_Identity"
+      text " "
+      DIV (&93834764451720)
+        attr id "A_17808"
+        text " "
+        P (&93834764452200)
+          B (&93834764452384)
+            text "A_17808 - Signaturdienst - P_Delete_Identity"
+        text " "
+        P (&93834764452808)
+          text "Der Anbieter des Signaturdienstes MUSS eine Prozess-Schnittstelle umsetzen, mittels derer Kartenherausgeber die Löschung genau derjenigen elektronischen Identifizierungsmittel beim Signaturdienst veranlassen können, deren Ausstellung sie zuvor beauftragt haben."
+          B (&93834764453112)
+            text "[<=]"
+        text " "
+      text " "
+      H2 (&93834764453712)
+        attr id "7"
+        text "7 Anhang – Verzeichnisse"
+      text " "
+      H3 (&93834764454288)
+        attr id "7.1"
+        text "7.1 Abkürzungen"
+      text " "
+      TABLE (&93834764454888)
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=1"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834764455544)
+          text " "
+          TR (&93834764455848)
+            text " "
+            TH (&93834764456152)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 71pt;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764456512)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Kürzel"
+              text " "
+              SPAN (&93834764457112)
+                attr style "font-weight: bold;"
+              BR (&93834764457472)
+            text " "
+            TH (&93834764457776)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 365pt;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764458136)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Erläuterung"
+              text " "
+              SPAN (&93834764458736)
+                attr style "font-weight: bold;"
+              BR (&93834764459096)
+            text " "
+          text " "
+          TR (&93834764459520)
+            text " "
+            TD (&93834764459824)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764460184)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "eGK"
+              BR (&93834764460664)
+            text " "
+            TD (&93834764460968)
+              attr style "vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764461328)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "elektronische Gesundheitskarte"
+              BR (&93834764461808)
+            text " "
+          text " "
+          TR (&93834764462232)
+            text " "
+            TD (&93834764462536)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764462896)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "ePA"
+              BR (&93834764463376)
+            text " "
+            TD (&93834764463680)
+              attr style "vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764464040)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "elektronische Patientenakte"
+              BR (&93834764464520)
+            text " "
+          text " "
+          TR (&93834764464944)
+            text " "
+            TD (&93834764465248)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764465608)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "HSM"
+              BR (&93834764466088)
+            text " "
+            TD (&93834764466392)
+              attr style "vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764466752)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Hardware Security Module"
+              BR (&93834764467232)
+            text " "
+          text " "
+          TR (&93834764467656)
+            text " "
+            TD (&93834764467960)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764468320)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "QES"
+              BR (&93834764468800)
+            text " "
+            TD (&93834764469104)
+              attr style "vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764469464)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Qualifizierte Elektronische Signatur"
+              BR (&93834764469944)
+            text " "
+          text " "
+          TR (&93834764470368)
+            text " "
+            TD (&93834764470672)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764471032)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "RSA"
+              BR (&93834764471512)
+            text " "
+            TD (&93834764471816)
+              attr style "vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764472176)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "kryptographischer Algorithmus (nach Rivest, Shamir, Adleman)"
+              BR (&93834764472656)
+            text " "
+          text " "
+          TR (&93834764473080)
+            text " "
+            TD (&93834764473384)
+              attr style "vertical-align: top;width: 71pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764473744)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "TSP"
+              BR (&93834764474224)
+            text " "
+            TD (&93834764474528)
+              attr style "vertical-align: top;width: 365pt;height: 16pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764474888)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Trust Service Provider"
+              BR (&93834764475368)
+            text " "
+          text " "
+        text " "
+      text " "
+      H3 (&93834764476032)
+        attr id "7.2"
+        text "7.2 Glossar"
+      text " "
+      P (&93834764476632)
+        attr id "polarion_77"
+        text "Das Glossar wird als eigenständiges Dokument, vgl. [gemGlossar] zur Verfügung gestellt."
+      text " "
+      H3 (&93834764477232)
+        attr id "7.3"
+        text "7.3 Abbildungsverzeichnis"
+      text " "
+      DIV (&93834764477832)
+        attr data-sequence "Abbildung"
+        attr id "polarion_wiki macro name=tof;params=uid=1"
+      text " "
+      DIV (&93834764478488)
+        attr id "toc_container"
+        text " "
+        P (&93834764478968)
+          attr class "toc_title"
+        H1 (&93834764479328)
+        P (&93834764479512)
+        text " "
+        LI (&93834764479816)
+          A (&93834764480000)
+            attr href "#polarion_40"
+            text "Abbildung 1: benachbarte Systeme des Signaturdienstes mit bereitgestellten und genutzten Schnittstellen"
+        text " "
+      text " "
+      H3 (&93834764480720)
+        attr id "7.4"
+        text "7.4 Tabellenverzeichnis"
+      text " "
+      DIV (&93834764481320)
+        attr data-sequence "Tabelle"
+        attr id "polarion_wiki macro name=tof;params=uid=2"
+      text " "
+      DIV (&93834764481976)
+        attr id "toc_container"
+        text " "
+        P (&93834764482456)
+          attr class "toc_title"
+        H1 (&93834764482816)
+        P (&93834764483000)
+        text " "
+        LI (&93834764483304)
+          A (&93834764483488)
+            attr href "#polarion___1"
+            text "Tabelle 1: Tab_SigD_01 -  I_Remote_Sign_Operations::sign_Data - Definition"
+        text " "
+      text " "
+      H3 (&93834764484208)
+        attr id "7.5"
+        text "7.5 Referenzierte Dokumente"
+      text " "
+      H4 (&93834764484808)
+        attr id "7.5.1"
+        text "7.5.1 – Dokumente der gematik"
+      text " "
+      P (&93834764485408)
+        attr id "polarion_82"
+        text "Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Der mit der vorliegenden Version korrelierende Entwicklungsstand dieser Konzepte und Spezifikationen wird pro Release in einer Dokumentenlandkarte definiert; Version und Stand der referenzierten Dokumente sind daher in der nachfolgenden Tabelle nicht aufgeführt. Deren zu diesem Dokument jeweils gültige Versionsnummern sind in der aktuellen, von der gematik veröffentlichten Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird."
+      text " "
+      P (&93834764486008)
+        attr id "polarion_30"
+      text " "
+      TABLE (&93834764870400)
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=3"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834764871056)
+          text " "
+          TR (&93834764871360)
+            text " "
+            TH (&93834764871664)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764872024)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "[Quelle]"
+              BR (&93834764872504)
+            text " "
+            TH (&93834764872808)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764873168)
+                attr style "font-weight: bold;font-size: 10pt;line-height: 1.5;"
+                text "Herausgeber: Titel"
+              BR (&93834764873648)
+            text " "
+          text " "
+          TR (&93834764874072)
+            text " "
+            TD (&93834764874376)
+              attr style "vertical-align: top;width: 110pt;height: 17pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764874736)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemGlossar]"
+              BR (&93834764875216)
+            text " "
+            TD (&93834764875520)
+              attr style "vertical-align: top;width: 439pt;height: 17pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764875880)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Einführung der Gesundheitskarte - Glossar"
+              BR (&93834764876360)
+            text " "
+          text " "
+          TR (&93834764876784)
+            text " "
+            TD (&93834764877088)
+              attr style "vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764877448)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemKPT_Arch_TIP]"
+              BR (&93834764877928)
+            text " "
+            TD (&93834764878232)
+              attr style "vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764878592)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik:Konzept Architektur der TI-Plattform"
+              BR (&93834764879072)
+            text " "
+          text " "
+          TR (&93834764879496)
+            text " "
+            TD (&93834764879800)
+              attr style "vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764880160)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_PKI]"
+              BR (&93834764880640)
+            text " "
+            TD (&93834764880944)
+              attr style "vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764881304)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Spezifikation PKI"
+              BR (&93834764881784)
+            text " "
+          text " "
+          TR (&93834764882208)
+            text " "
+            TD (&93834764882512)
+              attr style "vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764882872)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_Krypt]"
+              BR (&93834764883352)
+            text " "
+            TD (&93834764883656)
+              attr style "vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764884016)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: Übergreifende Spezifikation - Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur"
+              BR (&93834764884496)
+            text " "
+          text " "
+          TR (&93834764884920)
+            text " "
+            TD (&93834764885224)
+              attr style "vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764885584)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[gemSpec_X.509_TSP]"
+              BR (&93834764886064)
+            text " "
+            TD (&93834764886368)
+              attr style "vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764886728)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "gematik: PKI für X.509-Zertifikate: Spezifikation Trust Service Provider X.509"
+              BR (&93834764887208)
+            text " "
+          text " "
+          TR (&93834764887632)
+            text " "
+            TD (&93834764887936)
+              attr style "vertical-align: top;width: 110pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764888296)
+                attr style "font-size: 10pt;color: #000000;line-height: 1.5;"
+                text "[GVO_IOPVZ]"
+              BR (&93834764888776)
+            text " "
+            TD (&93834764889080)
+              attr style "vertical-align: top;width: 439pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764889440)
+                attr style "font-size: 10pt;color: #000000;line-height: 1.5;"
+                text "gematik: Geschäfts- und Verfahrensordnung für das Interoperabilitätsverzeichnis vesta: (Verzeichnis elektronischer Standards und Anwendungen im Gesundheitswesen)"
+              BR (&93834764889920)
+            text " "
+          text " "
+        text " "
+      text " "
+      H4 (&93834764890584)
+        attr id "7.5.2"
+        text "7.5.2 – Weitere Dokumente"
+      text " "
+      TABLE (&93834764891184)
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=4"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834764891840)
+          text " "
+          TR (&93834764892144)
+            text " "
+            TH (&93834764892448)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764892808)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834764893168)
+                  attr style "font-weight: bold;"
+                  text "[Quelle]"
+                BR (&93834764893648)
+            text " "
+            TH (&93834764893952)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764894312)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834764894672)
+                  attr style "font-weight: bold;"
+                  text "Herausgeber (Erscheinungsdatum): Titel"
+                BR (&93834764895152)
+            text " "
+          text " "
+          TR (&93834764895576)
+            text " "
+            TD (&93834764895880)
+              attr style "vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764896240)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[BSI-TR-03111]"
+            text " "
+            TD (&93834764896840)
+              attr style "vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764897200)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Technical Guideline BSI TR-03111"
+                BR (&93834764897680)
+                text "Elliptic Curve Cryptography, Version 2.10, Date: 2018-06-01"
+                BR (&93834764897984)
+                text " "
+                A (&93834764898288)
+                  attr class "descriptionLink"
+                  attr href "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_pdf.pdf?__blob=publicationFile&v=2"
+                  attr target "_blank"
+                  text "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_pdf.pdf?__blob=publicationFile&v=2"
+                BR (&93834764899120)
+            text " "
+          text " "
+          TR (&93834764899544)
+            text " "
+            TD (&93834764899848)
+              attr style "vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764900208)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[eIDAS 910/2014]"
+            text " "
+            TD (&93834764900808)
+              attr style "vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764901168)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Verordnung (EU) Nr. 910/2014 des Europäischen Parlaments und des Rates vom 23. Juli 2014 über elektronische Identifizierung und Vertrauensdienste für elektronische Transaktionen im Binnenmarkt und zur Aufhebung der Richtlinie 1999/93/EG"
+                BR (&93834764901648)
+            text " "
+          text " "
+          TR (&93834764902072)
+            text " "
+            TD (&93834764902376)
+              attr style "vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764902736)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[eIDAS 2015/1502]"
+            text " "
+            TD (&93834764903456)
+              attr style "vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764903816)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "DURCHFÜHRUNGSVERORDNUNG (EU) 2015/1502 DER KOMMISSION"
+                BR (&93834764904296)
+                text "vom 8. September 2015 zur  Festlegung  von  Mindestanforderungen  an  technische  Spezifikationen  und  Verfahren  für Sicherheitsniveaus elektronischer Identifizierungsmittel gemäß Artikel 8 Absatz 3 der Verordnung (EU)  Nr.  910/2014  des  Europäischen  Parlaments  und  des  Rates  über  elektronische  Identifizierung und Vertrauensdienste für elektronische Transaktionen im Binnenmarkt"
+                BR (&93834764904600)
+            text " "
+          text " "
+          TR (&93834764905024)
+            text " "
+            TD (&93834764905328)
+              attr style "vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764905688)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[OWASP Top 10 Report]"
+            text " "
+            TD (&93834764906288)
+              attr style "vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764906648)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "OWASP Foundation, OWASP Top Ten Project: “OWASP Top 10 The Ten Most Critical Web Application Security Risks“, "
+                A (&93834764907128)
+                  attr class "descriptionLink"
+                  attr href "https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project"
+                  attr target "_blank"
+                  text "https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project"
+                text " "
+                BR (&93834764908080)
+            text " "
+          text " "
+          TR (&93834764908504)
+            text " "
+            TD (&93834764908808)
+              attr style "vertical-align: top;width: 111pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764909168)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "[RFC2119]"
+            text " "
+            TD (&93834764909768)
+              attr style "vertical-align: top;width: 449pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"
+              SPAN (&93834764910128)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "IETF (1997): Key words for use in RFCs to Indicate Requirement Levels, RFC 2119,"
+                A (&93834764910608)
+                  attr class "descriptionLink"
+                  attr href "http://tools.ietf.org/html/rfc2119"
+                  attr target "_blank"
+                  text "http://tools.ietf.org/html/rfc2119"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834764911920)
+        attr id "polarion_26"
+      text " "
+
+
+   ====================
+   ATTRIBUTE STATISTICS
+   ====================
+
+   charset:: utf-8
+   class:: descriptionLink; polarion-Document-table; polarion-dle-wiki-block; polarion-dle-wiki-block-source; polarion-rte-caption; polarion-rte-caption-paragraph; polarion-rte-link; toc_title
+   colspan:: 2; 4; 6
+   contenteditable:: false
+   data-item-id:: ML-92851
+   data-keep-next:: true
+   data-option-id:: longoutline
+   data-scope:: Mainline_OPB1
+   data-sequence:: Abbildung; Tabelle
+   data-type:: crossReference
+   rowspan:: 1
+   style:background-color: #F0F0F0; #FFFF99; #FFFFFF
+   style:border: 1px solid #CCCCCC
+   style:border-bottom: 1px solid #CCCCCC
+   style:border-collapse: collapse
+   style:border-left: 1px solid #CCCCCC
+   style:border-right: 1px solid #CCCCCC
+   style:border-top: 1px solid #CCCCCC
+   style:color: #000000
+   style:empty-cells: show
+   style:font-family: 'Courier New', Courier, monospace, HanWangKanTan; Arial, Helvetica
+   style:font-size: 10pt; 12pt; 28pt
+   style:font-style: italic
+   style:font-weight: bold; normal
+   style:height: 128px; 14pt; 15pt; 16pt; 17pt; 19px; 20px; 21px; 23px; 24px; 36px; 42px; 65px
+   style:line-height: 1.2; 1.5
+   style:margin-left: auto
+   style:margin-right: auto
+   style:padding: 4pt; 5px
+   style:text-align: center; left
+   style:text-decoration: underline
+   style:vertical-align: top
+   style:width: 100%; 101px; 110pt; 111pt; 139px; 145px; 159px; 265px; 365pt; 370px; 439pt; 449pt; 571px; 57px; 582px; 68px; 71pt; 741px; 92px
+   target:: _blank
+
+
+   ================
+   CHILD STATISTICS
+   ================
+
+   A
+    _TEXT: 34 (&93834777771376)
+   B
+    _TEXT: 78 (&93834767991888)
+   BODY
+    DIV: 46 (&93834768412568)
+    H1: 2 (&93834768423736)
+    H2: 7 (&93834771065888)
+    H3: 16 (&93834771066488)
+    H4: 4 (&93834781685256)
+    P: 66 (&93834768401368)
+    TABLE: 4 (&93834768427512)
+   DIV
+    B: 3 (&93834768034160)
+    DIV: 1 (&93834768413224)
+    H1: 3 (&93834777770344)
+    LI: 31 (&93834777770832)
+    OL: 1 (&93834768032584)
+    P: 88 (&93834777769984)
+    PRE: 1 (&93834768413880)
+    SPAN: 1 (&93834768040696)
+    TABLE: 1 (&93834781689880)
+    UL: 1 (&93834768039424)
+    _TEXT: 1 (&93834768040576)
+   H1
+    _TEXT: 2 (&93834768424096)
+   H2
+    _TEXT: 7 (&93834771066248)
+   H3
+    _TEXT: 16 (&93834771066848)
+   H4
+    _TEXT: 4 (&93834781685616)
+   HEAD
+    META: 1 (&93834768400464)
+    STYLE: 1 (&93834768400032)
+   HTML
+    BODY: 1 (&93834768401064)
+    HEAD: 1 (&93834768399728)
+   LI
+    A: 31 (&93834777771016)
+    BR: 1 (&93834768033192)
+    _TEXT: 31 (&93834777772584)
+   OL
+    LI: 2 (&93834768032888)
+   P
+    B: 75 (&93834767991704)
+    BR: 34 (&93834768401728)
+    IMG: 1 (&93834767985296)
+    SPAN: 31 (&93834768405048)
+    _TEXT: 105 (&93834768425656)
+   PRE
+    TABLE: 1 (&93834768414712)
+   SPAN
+    A: 3 (&93834764898288)
+    BR: 12 (&93834768041056)
+    SPAN: 5 (&93834781696176)
+    _TEXT: 109 (&93834768405408)
+   STYLE
+    _TEXT: 1 (&93834768400224)
+   TABLE
+    TBODY: 6 (&93834768415016)
+   TBODY
+    TR: 43 (&93834768415200)
+   TD
+    BR: 25 (&93834777767160)
+    SPAN: 62 (&93834781694552)
+    _TEXT: 37 (&93834768415688)
+   TH
+    BR: 4 (&93834764457472)
+    SPAN: 10 (&93834781691856)
+    _TEXT: 5 (&93834768429136)
+   THEAD
+   TR
+    TD: 104 (&93834768415504)
+    TH: 13 (&93834768428776)
+   UL
+    LI: 2 (&93834768039728)
+   _DOCUMENT
+    HTML: 1 (&93834768399544)
+
+   --> consistency checked.
+
+
+   ===============
+   NODE STATISTICS
+   ===============
+
+   P       title nodes:       2
+   DIV     toc nodes:         3
+   TR      meta data nodes:   6
+   H1..H6  header nodes:      29
+   DIV/TR  requirement nodes: 0
+   IMG     image nodes:       1
+   TABLE   table nodes:       1
+
+

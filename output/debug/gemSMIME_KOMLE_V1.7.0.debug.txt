@@ -1,0 +1,121 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+S/MIME-Profil Kommunikation Leistungserbringer<br>(KOM-LE)
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSMIME_KOMLE
+Revision: 548770
+Stand: 04.08.2021
+Status: freigegeben
+Version: 1.7.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einführung
+[1.1]:                   #11-zielsetzung-des-dokuments
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-arbeitsgrundlagen
+[1.5]:                   #15-abgrenzung-des-dokuments
+[1.6]:                   #16-methodik
+[1.6.1]:                 #161-anforderungen
+[1.6.2]:                 #162-diagramme
+[1.6.3]:                 #163-nomenklatur
+[2]:                     #2-smime-profil-anforderungen
+[2.1]:                   #21-strukturkonformität
+[2.1.1]:                 #211-nachricht
+[2.1.1.1]:               #2111-normative-beschreibung
+[2.1.1.2]:               #2112-kommentare-nicht-normativ
+[2.2]:                   #22-verschlüsselter-inhalt
+[2.2.1]:                 #221-algorithmen
+[2.2.2]:                 #222-authenticated-enveloped-data
+[2.2.2.1]:               #2221-normative-beschreibung
+[2.2.2.2]:               #2222-kommentare-nicht-normativ
+[2.2.3]:                 #223-empfängerinformationen-recipientinfos
+[2.2.3.1]:               #2231-normative-beschreibung
+[2.2.3.2]:               #2232-kommentare-nicht-normativ
+[2.2.4]:                 #224-verschlüsselte-inhaltsinformation-authencryptedcontentinfo
+[2.2.4.1]:               #2241-normative-beschreibung
+[2.2.4.2]:               #2242-kommentare-nicht-normativ
+[2.2.5]:                 #225-ungeschützte-attribute-unauthattrs
+[2.2.5.1]:               #2251-normative-beschreibung
+[2.2.5.2]:               #2252-kommentare-nicht-normativ
+[2.2.6]:                 #226-beispiel
+[2.3]:                   #23-digital-signierter-inhalt
+[2.3.1]:                 #231-signed-data
+[2.3.1.1]:               #2311-normative-beschreibung
+[2.3.1.2]:               #2312-kommentare-nicht-normativ
+[2.3.2]:                 #232-algorithmen
+[2.3.3]:                 #233-gekapselte-inhaltsinformation-encapcontentinfo
+[2.3.3.1]:               #2331-normative-beschreibung
+[2.3.3.2]:               #2332-kommentare-nicht-normativ
+[2.3.4]:                 #234-zertifikate-certificates
+[2.3.4.1]:               #2341-normative-beschreibung
+[2.3.4.2]:               #2342-kommentare-nicht-normativ
+[2.3.5]:                 #235-unterzeichnerinformationen-signerinfos
+[2.3.5.1]:               #2351-normative-beschreibung
+[2.3.5.2]:               #2352-kommentare-nicht-normativ
+[3]:                     #3-anforderungen-an-zertifikate
+[3.1]:                   #31-zertifikatsprofile
+[3.1.1]:                 #311-verschlüsselungszertifikate
+[3.1.1.1]:               #3111-normative-beschreibung
+[3.1.1.2]:               #3112-kommentare-nicht-normativ
+[3.1.2]:                 #312-signaturzertifikate
+[3.1.2.1]:               #3121-normative-beschreibung
+[3.1.2.2]:               #3122-kommentare-nicht-normativ
+[4]:                     #4-anhang-a
+[4.1]:                   #41-abkürzungen
+[4.2]:                   #42-glossar
+[4.3]:                   #43-abbildungsverzeichnis
+[4.4]:                   #44-tabellenverzeichnis
+[4.5]:                   #45-referenzierte-dokumente
+[4.5.1]:                 #451-dokumente-der-gematik
+[4.5.2]:                 #452-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Abb_Struk_KOMLE_Msg Struktur einer KOM-LE-Nachric.. (&93834799907416) data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCA...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834801496088)
+[Tbl-002]:               #Tbl-002 (&93834775668576)
+[Tbl-003]:               #Tbl-003 (&93834775117960)
+[Tbl-004]:               #Tbl-004 (&93834775144432)
+[Tbl-005]:               #Tbl-005 (&93834799204344)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

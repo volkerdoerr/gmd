@@ -1,0 +1,162 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Produkttypsteckbrief<br>Prüfvorschrift<br>Verzeichnisdienst FHIR
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Produkttyp Status: freigegeben
+Produkttyp Version: 1.0.0-0
+Referenzierung: gemProdT_VZD_FHIR_PTV_1.0.0-0
+Revision: 548770
+Stand: 12.12.2022
+Status: freigegeben
+Version: 1.0.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Historie]:              #historie-produkttypversion-und-produkttypsteckbrief
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einführung
+[1.1]:                   #11-zielsetzung-und-einordnung-des-dokumentes
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokumentes
+[1.5]:                   #15-methodik
+[2]:                     #2-dokumente
+[3]:                     #3-normative-festlegungen
+[3.1]:                   #31-festlegungen-zur-funktionalen-eignung
+[3.1.1]:                 #311-produkttestproduktübergreifender-test
+[3.1.2]:                 #312-herstellererklärung-funktionale-eignung
+[3.2]:                   #32-festlegungen-zur-sicherheitstechnischen-eignung
+[3.2.1]:                 #321-cc-evaluierung
+[3.2.2]:                 #322-sicherheitsgutachten
+[3.2.3]:                 #323-herstellerklärung-sicherheitstechnische-eignung
+[3.3]:                   #33-festlegungen-zur-elektrischen-mechanischen-und-physikalischen-eignung
+[4]:                     #4-produkttypspezifische-merkmale
+[5]:                     #5-anhang-a-–-verzeichnisse
+[5.1]:                   #51-abkürzungen
+[5.2]:                   #52-tabellenverzeichnis
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+no images found
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834764560056)
+[Tbl-002]:               #Tbl-002 (&93834764568280)
+[Tabelle-1]:             #Tabelle-1 (&93834764637248)
+[Tabelle-2]:             #Tabelle-2 (&93834764663088)
+[Tabelle-3]:             #Tabelle-3 (&93834764676360)
+[Tabelle-4]:             #Tabelle-4 (&93834764702464)
+[Tabelle-5]:             #Tabelle-5 (&93834764729496)
+[Tabelle-6]:             #Tabelle-6 (&93834764754568)
+[Tabelle-7]:             #Tabelle-7 (&93834764763440)
+[Tabelle-8]:             #Tabelle-8 (&93834764916080)
+[Tabelle-9]:             #Tabelle-9 (&93834764958648)
+[Tbl-012]:               #Tbl-012 (&93834764969080)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[gemRL_TSL_SP_CP]:       ../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.2.html (&93834764641880)
+[gemSpec_VZD_FHIR_Directory]: ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html (&93834764644464)
+[gemKPT_Test]:           ../gemKPT_Test/gemKPT_Test_V2.8.5.html (&93834764647048)
+[gemSpec_Perf]:          ../gemSpec_Perf/gemSpec_Perf_V2.24.0.html (&93834764649632)
+[gemSpec_TI-Messenger-Dienst]: ../gemSpec_TI-Messenger-Dienst/gemSpec_TI-Messenger-Dienst_V1.1.0.html (&93834764652216)
+[gemSpec_DS_Hersteller]: ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html (&93834764654904)
+[gemSpec_Krypt]:         ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html (&93834764657464)
+[https://simplifier.net/packages/de.gematik.fhir.directory/0.6.1]: https://simplifier.net/packages/de.gematik.fhir.directory/0.6.1 (&93834764670312)
+[https://github.com/gematik/api-vzd]: https://github.com/gematik/api-vzd (&93834764681288)
+[https://simplifier.net/vzd-fhir-directory]: https://simplifier.net/vzd-fhir-directory (&93834764684224)
+[https://www.commoncriteriaportal.org/cc/]: https://www.commoncriteriaportal.org/cc/ (&93834764688672)
+[AF_10057]:              ../gemSpec_TI-Messenger-Dienst/gemSpec_TI-Messenger-Dienst_V1.1.0.html#AF_10057 (&93834764707096)
+[AF_10058]:              ../gemSpec_TI-Messenger-Dienst/gemSpec_TI-Messenger-Dienst_V1.1.0.html#AF_10058 (&93834764709680)
+[AF_10059]:              ../gemSpec_TI-Messenger-Dienst/gemSpec_TI-Messenger-Dienst_V1.1.0.html#AF_10059 (&93834764712264)
+[AF_10060]:              ../gemSpec_TI-Messenger-Dienst/gemSpec_TI-Messenger-Dienst_V1.1.0.html#AF_10060 (&93834764714848)
+[AF_10061]:              ../gemSpec_TI-Messenger-Dienst/gemSpec_TI-Messenger-Dienst_V1.1.0.html#AF_10061 (&93834764717432)
+[AF_10062]:              ../gemSpec_TI-Messenger-Dienst/gemSpec_TI-Messenger-Dienst_V1.1.0.html#AF_10062 (&93834764720016)
+[AF_10064]:              ../gemSpec_TI-Messenger-Dienst/gemSpec_TI-Messenger-Dienst_V1.1.0.html#AF_10064 (&93834764722672)
+[GS-A_4155]:             ../gemSpec_Perf/gemSpec_Perf_V2.24.0.html#GS-A_4155 (&93834764734128)
+[AF_10036]:              ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#AF_10036 (&93834764736712)
+[AF_10037]:              ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#AF_10037 (&93834764739296)
+[AF_10047]:              ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#AF_10047 (&93834764741880)
+[AF_10048]:              ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#AF_10048 (&93834764744464)
+[TIP1-A_5552]:           ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5552 (&93834764747048)
+[GS-A_4330]:             ../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.2.html#GS-A_4330 (&93834764768072)
+[A_19147]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19147 (&93834764770656)
+[A_19148]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19148 (&93834764773240)
+[A_19150]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19150 (&93834764775824)
+[A_19151]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19151 (&93834764778408)
+[A_19152]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19152 (&93834764780992)
+[A_19153]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19153 (&93834764783576)
+[A_19154]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19154 (&93834764786232)
+[A_19155]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19155 (&93834764788816)
+[A_19156]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19156 (&93834764791400)
+[A_19157]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19157 (&93834764793984)
+[A_19158]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19158 (&93834764796568)
+[A_19159]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19159 (&93834764799152)
+[A_19160]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19160 (&93834764801736)
+[A_19161]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19161 (&93834764804320)
+[A_19162]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19162 (&93834764806904)
+[A_17124-01]:            ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_17124-01 (&93834764809488)
+[A_18464]:               ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_18464 (&93834764812072)
+[A_18467]:               ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_18467 (&93834764814656)
+[A_21275-01]:            ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_21275-01 (&93834764817240)
+[GS-A_4359]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_4359 (&93834764869160)
+[GS-A_4367]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_4367 (&93834764871744)
+[GS-A_4368]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_4368 (&93834764874328)
+[GS-A_4384-01]:          ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_4384-01 (&93834764876912)
+[GS-A_4385]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_4385 (&93834764879496)
+[GS-A_4387]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_4387 (&93834764882080)
+[GS-A_5035]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5035 (&93834764884664)
+[GS-A_5322]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5322 (&93834764887248)
+[GS-A_5526]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5526 (&93834764889832)
+[TIP1-A_5546-01]:        ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5546-01 (&93834764892416)
+[TIP1-A_5548]:           ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5548 (&93834764895000)
+[TIP1-A_5551]:           ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5551 (&93834764897584)
+[TIP1-A_5553]:           ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5553 (&93834764900168)
+[TIP1-A_5554-01]:        ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5554-01 (&93834764902888)
+[TIP1-A_5556]:           ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5556 (&93834764905472)
+[TIP1-A_5558]:           ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5558 (&93834764908056)
+[GS-A_2162]:             ../gemKPT_Test/gemKPT_Test_V2.8.5.html#GS-A_2162 (&93834764920712)
+[TIP1-A_4191]:           ../gemKPT_Test/gemKPT_Test_V2.8.5.html#TIP1-A_4191 (&93834764923296)
+[A_19163]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19163 (&93834764925880)
+[A_19164]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19164 (&93834764928464)
+[A_19165]:               ../gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.3.0.html#A_19165 (&93834764931048)
+[A_17322]:               ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_17322 (&93834764933632)
+[A_17775]:               ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#A_17775 (&93834764936320)
+[GS-A_5541]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5541 (&93834764938904)
+[GS-A_5542]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5542 (&93834764941488)
+[GS-A_5580-01]:          ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5580-01 (&93834764944072)
+[GS-A_5581]:             ../gemSpec_Krypt/gemSpec_Krypt_V2.24.0.html#GS-A_5581 (&93834764946656)
+[TIP1-A_5549]:           ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5549 (&93834764949240)
+[TIP1-A_5550]:           ../gemSpec_VZD_FHIR_Directory/gemSpec_VZD_FHIR_Directory_V1.2.0.html#TIP1-A_5550 (&93834764951824)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

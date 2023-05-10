@@ -1,0 +1,2918 @@
+
+   =========================
+   LXB SERIALIZER DEBUG MODE
+   =========================
+
+
+DOCUMENT _DOCUMENT
+  HTML (&93834775844296)
+    HEAD (&93834775844480)
+      text " "
+      STYLE (&93834775844784)
+        text "#toc_container {    background: #f9f9f9 none repeat scroll 0 0;    border: 1px solid #aaa;    display: table;    font-size: 95%;    margin-bottom: 1em;    padding: 20px;    width: 100%;}.toc_title {    font-weight: 700;    text-align: center;}#toc_container li, #toc_container ul, #toc_container ul li{    list-style: outside none none !important;}body {  font-family: Arial, Helvetica, sans-serif;  font-size: 14px;}.polarion-table {  width: 100%;  margin-left:  auto;  margin-right: auto;  border: 1px solid #CCCCCC;  empty-cells: show;  border-collapse: collapse;  }.polarion-table-header {   font-weight: bold;   background-color: #F0F0F0;   text-align: left;   vertical-align: top;   width: 134px;   height: 18.4444px;   border: 1px solid #CCCCCC;   padding: 5px;}.polarion-table-span {    font-size: 10pt;    line-height: 1.5;}.polarion-table-data {font-family: Arial, Helvetica, sans-serif;    font-size: 14px;    text-align: left;    vertical-align: top;    width: 134px;    height: 18.4444px;    border: 1px solid #CCCCCC;    border-top: 1px solid #CCCCCC;    border-bottom: 1px solid #CCCCCC;    border-right: 1px solid #CCCCCC;    border-left: 1px solid #CCCCCC;    padding: 5px;}/* ol {  list-style-type: none;  Remove default numbering}ol > li:before {  counter-increment: mycounter;  content: counter(mycounter) ". ";}ol:first-of-type {  counter-reset: mycounter;} */"
+      text " "
+      META (&93834775845216)
+        attr charset "utf-8"
+      text " "
+    text " "
+    BODY (&93834775845816)
+      text " "
+      P (&93834775846120)
+        attr id "polarion_11"
+        text " "
+        BR (&93834775846600)
+        text " "
+      text " "
+      P (&93834775847024)
+        attr id "polarion_26"
+        text " "
+        BR (&93834775847504)
+        text " "
+      text " "
+      P (&93834775847928)
+        attr id "polarion_41"
+        text " "
+        SPAN (&93834775848408)
+          attr style "font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;"
+          text "Elektronische Gesundheitskarte und Telematikinfrastruktur"
+        text " "
+      text " "
+      P (&93834775849128)
+        attr id "polarion_42"
+        text " "
+        BR (&93834775849608)
+        text " "
+      text " "
+      P (&93834775850032)
+        attr id "polarion_44"
+        text " "
+        BR (&93834775850512)
+        text " "
+      text " "
+      P (&93834775850936)
+        attr id "polarion_46"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834775851592)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Produkttypsteckbrief"
+        text " "
+      text " "
+      P (&93834775852312)
+        attr id "polarion_47"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834775852968)
+          attr style "font-weight: bold;font-style: italic;font-size: 16pt;line-height: 1.2;"
+          text "Prüfvorschrift"
+        text " "
+      text " "
+      P (&93834775853688)
+        attr id "polarion_49"
+        attr style "text-align: center;"
+        text " "
+        SPAN (&93834775854344)
+          attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
+          text "Bestätigungsgegenstand"
+          BR (&93834775854824)
+          text "Personalisierungsvalidierung eGK"
+        text " "
+      text " "
+      P (&93834775855368)
+        attr id "polarion_53"
+        text " "
+        BR (&93834775855848)
+        text " "
+      text " "
+      P (&93834775856272)
+        attr id "polarion_58"
+        text " "
+        BR (&93834775856752)
+        text " "
+      text " "
+      DIV (&93834775857176)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block59"
+        text " "
+        DIV (&93834775857832)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+        PRE (&93834775858488)
+          attr class "polarion-dle-wiki-block-source"
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_source"
+          text " "
+          TABLE (&93834775859320)
+            text " "
+            TBODY (&93834775859624)
+              TR (&93834775859808)
+                text " "
+                TD (&93834775860112)
+                  text "Produkttyp Version"
+                text " "
+                TD (&93834775860536)
+                  text "4.6.0-0"
+                text " "
+              text " "
+              TR (&93834775861080)
+                text " "
+                TD (&93834775861384)
+                  text "Produkttyp Status"
+                text " "
+                TD (&93834775861808)
+                  text "freigegeben"
+                text " "
+              text " "
+        text " "
+      text " "
+      P (&93834775862592)
+        attr id "polarion_61"
+      text " "
+      DIV (&93834775863072)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block62"
+        text " "
+        DIV (&93834775863728)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+        PRE (&93834775864384)
+          attr class "polarion-dle-wiki-block-source"
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_source"
+          text " "
+          TABLE (&93834775865216)
+            text " "
+            TBODY (&93834775865520)
+              TR (&93834775865704)
+                text " "
+                TD (&93834775866008)
+                  text "Version"
+                text " "
+                TD (&93834775866432)
+                  text "1.0.0"
+                text " "
+              text " "
+              TR (&93834775866976)
+                text " "
+                TD (&93834775867280)
+                  text "Revision"
+                text " "
+                TD (&93834775867704)
+                  text "548770"
+                text " "
+              text " "
+              TR (&93834775868248)
+                text " "
+                TD (&93834775868552)
+                  text "Stand"
+                text " "
+                TD (&93834775868976)
+                  text "14.02.2022"
+                text " "
+              text " "
+              TR (&93834775869520)
+                text " "
+                TD (&93834775869824)
+                  text "Status"
+                text " "
+                TD (&93834775870248)
+                  text "freigegeben"
+                text " "
+              text " "
+              TR (&93834775870792)
+                text " "
+                TD (&93834775871096)
+                  text "Klassifizierung"
+                text " "
+                TD (&93834775871520)
+                  text "öffentlich"
+                text " "
+              text " "
+              TR (&93834775872064)
+                text " "
+                TD (&93834775872368)
+                  text "Referenzierung"
+                text " "
+                TD (&93834775872792)
+                  text "gemProdT_eGK_PersVal_G2_1_PTV_4.6.0-0"
+                text " "
+              text " "
+        text " "
+      text " "
+      H1 (&93834775873576)
+        attr id "polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-16156"
+        text "Historie Produkttypversion und Produkttypsteckbrief"
+      text " "
+      P (&93834775874176)
+        attr id "polarion_63"
+        text " "
+        SPAN (&93834775874656)
+          attr style "font-weight: bold;"
+          text "Historie Produkttypversion"
+        text " "
+      text " "
+      P (&93834775875376)
+        attr id "polarion_72"
+        text "Die Produkttypversion ändert sich, wenn sich die normativen Festlegungen für den Produkttyp ändern und die Umsetzung durch Produktentwicklungen ebenfalls betroffen ist."
+        BR (&93834775875856)
+        text " "
+      text " "
+      TABLE (&93834775876280)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=1"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834801470832)
+          text " "
+          TR (&93834801471136)
+            text " "
+            TH (&93834801471440)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Produkttypversion"
+            text " "
+            TH (&93834801472016)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Beschreibung der Änderung"
+            text " "
+            TH (&93834801472616)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Referenz"
+            text " "
+          text " "
+          TR (&93834801473336)
+            text " "
+            TD (&93834801473640)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 34px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.0.0"
+            text " "
+            TD (&93834801474240)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 34px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Initial erstellt – Korrespondiert mit der Produkttypversion 4.0.0 der eGK"
+            text " "
+            TD (&93834801474840)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 34px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.0.0]"
+            text " "
+          text " "
+          TR (&93834801475560)
+            text " "
+            TD (&93834801475864)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 11px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.0.1"
+            text " "
+            TD (&93834801476464)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 11px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "PT-Version angepasst an PTV 4.0.1 der eGK"
+            text " "
+            TD (&93834801477064)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 11px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.0.1]"
+            text " "
+          text " "
+          TR (&93834801477784)
+            text " "
+            TD (&93834801478088)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.1.0"
+            text " "
+            TD (&93834801478688)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Anpassung auf Releasestand 1.3.0"
+            text " "
+            TD (&93834801479288)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.1.0]"
+            text " "
+          text " "
+          TR (&93834801480008)
+            text " "
+            TD (&93834801480312)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.2.0"
+            text " "
+            TD (&93834801480912)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Anpassung auf Releasestand 1.4.0"
+            text " "
+            TD (&93834801481512)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.2.0]"
+            text " "
+          text " "
+          TR (&93834801482232)
+            text " "
+            TD (&93834801482536)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.2.0-1"
+            text " "
+            TD (&93834801483136)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Anpassung auf Releasestand 1.6.3"
+            text " "
+            TD (&93834801483736)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.2.0-1]"
+            text " "
+          text " "
+          TR (&93834801484456)
+            text " "
+            TD (&93834801484760)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.3.0-0"
+            text " "
+            TD (&93834801485360)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Kartengeneration 2.1"
+            text " "
+            TD (&93834801485960)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.3.0-0]"
+            text " "
+          text " "
+          TR (&93834801486680)
+            text " "
+            TD (&93834801486984)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.3.0-1"
+            text " "
+            TD (&93834801487584)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Anpassung auf Releasestand 2.1.2"
+            text " "
+            TD (&93834801488184)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.3.0-1]"
+            text " "
+          text " "
+          TR (&93834801488904)
+            text " "
+            TD (&93834801489208)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.4.0-0"
+            text " "
+            TD (&93834801489808)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Anpassung auf Releasestand 2.1.3"
+            text " "
+            TD (&93834801490408)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.4.0-0]"
+            text " "
+          text " "
+          TR (&93834801491128)
+            text " "
+            TD (&93834801491432)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.5.0-0"
+            text " "
+            TD (&93834801492032)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Anpassung auf Releasestand 3.1.0"
+            text " "
+            TD (&93834801492632)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.5.0-0]"
+            text " "
+          text " "
+          TR (&93834801493352)
+            text " "
+            TD (&93834801493656)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.5.1-0"
+            text " "
+            TD (&93834801494256)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Anpassung auf Releasestand 3.1.1"
+            text " "
+            TD (&93834801494856)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.5.1-0]"
+            text " "
+          text " "
+          TR (&93834801495576)
+            text " "
+            TD (&93834801495880)
+              attr style "text-align: left;vertical-align: top;width: 150px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "4.6.0-0"
+            text " "
+            TD (&93834801496480)
+              attr style "text-align: left;vertical-align: top;width: 268px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Anpassung aufgrund der Einarbeitung der Änderungen aus P22.1 (R4.0.0) sowie Anpassungen der [gemSpec_eGK_Opt]"
+            text " "
+            TD (&93834801497080)
+              attr style "text-align: left;vertical-align: top;width: 302px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "[gemProdT_eGK_PersVal_PTV4.6.0-0]"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834801498040)
+        attr id "polarion_82"
+      text " "
+      P (&93834801498520)
+        attr id "polarion_83"
+        text " "
+        SPAN (&93834801499000)
+          attr style "font-weight: bold;"
+          text "Historie Produkttypsteckbrief"
+        text " "
+      text " "
+      P (&93834801499720)
+        attr id "polarion_84"
+        text "Die Dokumentenversion des Produkttypsteckbriefs ändert sich mit jeder inhaltlichen oder redaktionellen Änderung des Produkttypsteckbriefs und seinen referenzierten Dokumenten. Redaktionelle Änderungen haben keine Auswirkung auf die Produkttypversion."
+        BR (&93834801500200)
+        text " "
+      text " "
+      TABLE (&93834801500624)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=noPageBreak=yes|width=100%|uid=2"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834801501456)
+          text " "
+          TR (&93834801501760)
+            text " "
+            TH (&93834801502064)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 71px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Version"
+            text " "
+            TH (&93834801502664)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 84px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Stand"
+            text " "
+            TH (&93834801503264)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 64px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Kap."
+            text " "
+            TH (&93834775373904)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 374px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Grund der Änderung, besondere Hinweise"
+            text " "
+            TH (&93834775374504)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 106px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "Bearbeiter"
+            text " "
+          text " "
+          TR (&93834775375224)
+            text " "
+            TD (&93834775375528)
+              attr style "text-align: left;vertical-align: top;width: 71px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "1.0.0"
+            text " "
+            TD (&93834775376128)
+              attr style "text-align: left;vertical-align: top;width: 84px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "14.02.22"
+            text " "
+            TD (&93834775376728)
+              attr style "text-align: left;vertical-align: top;width: 64px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+            text " "
+            TD (&93834775377208)
+              attr style "text-align: left;vertical-align: top;width: 374px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "freigegeben"
+            text " "
+            TD (&93834775377808)
+              attr style "text-align: left;vertical-align: top;width: 106px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              text "gematik"
+            text " "
+          text " "
+        text " "
+      text " "
+      H1 (&93834775378768)
+        attr id "polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-16157"
+        text "Inhaltsverzeichnis"
+      text " "
+      DIV (&93834775379368)
+        attr id "polarion_wiki macro name=toc"
+      text " "
+      DIV (&93834775379848)
+        attr id "toc_container"
+        text " "
+        P (&93834775380328)
+          attr class "toc_title"
+        H1 (&93834775380688)
+        P (&93834775380872)
+        text " "
+        LI (&93834775381176)
+          A (&93834775381360)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-16156"
+            text "Historie Produkttypversion und Produkttypsteckbrief"
+        text " "
+        LI (&93834775381960)
+          A (&93834775382144)
+            attr href "#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-16157"
+            text "Inhaltsverzeichnis"
+        text " "
+        LI (&93834775382744)
+          text ":"
+          A (&93834775383048)
+            attr href "#1"
+            text "1 Einführung"
+        text " "
+        LI (&93834775383648)
+          text ": :"
+          A (&93834775383952)
+            attr href "#1.1"
+            text "1.1 Zielsetzung und Einordnung des Dokumentes"
+        text " "
+        LI (&93834775384552)
+          text ": :"
+          A (&93834775384856)
+            attr href "#1.2"
+            text "1.2 Zielgruppe"
+        text " "
+        LI (&93834775385456)
+          text ": :"
+          A (&93834775385760)
+            attr href "#1.3"
+            text "1.3 Geltungsbereich"
+        text " "
+        LI (&93834775386360)
+          text ": :"
+          A (&93834775386664)
+            attr href "#1.4"
+            text "1.4 Abgrenzung des Dokumentes"
+        text " "
+        LI (&93834775387264)
+          text ": :"
+          A (&93834775387568)
+            attr href "#1.5"
+            text "1.5 Methodik"
+        text " "
+        LI (&93834775388168)
+          text ":"
+          A (&93834775388472)
+            attr href "#2"
+            text "2 Dokumente"
+        text " "
+        LI (&93834775389072)
+          text ":"
+          A (&93834775389376)
+            attr href "#3"
+            text "3 Normative Festlegungen"
+        text " "
+        LI (&93834775389976)
+          text ": :"
+          A (&93834775390280)
+            attr href "#3.1"
+            text "3.1 Festlegungen zur funktionalen Eignung: Personalisierungsvalidierung"
+        text " "
+        LI (&93834775390880)
+          text ":"
+          A (&93834775391184)
+            attr href "#4"
+            text "4 Produkttypspezifische Merkmale"
+        text " "
+        LI (&93834775391784)
+          text ": :"
+          A (&93834775392088)
+            attr href "#4.1"
+            text "4.1 Angaben zu EF.Version"
+        text " "
+        LI (&93834775392688)
+          text ": :"
+          A (&93834775392992)
+            attr href "#4.2"
+            text "4.2 Angaben zu EF.Version2"
+        text " "
+        LI (&93834775393592)
+          text ": :"
+          A (&93834775393896)
+            attr href "#4.3"
+            text "4.3 Produktspezifische Merkmale"
+        text " "
+        LI (&93834775394496)
+          text ": : :"
+          A (&93834775394800)
+            attr href "#4.3.1"
+            text "4.3.1 Optionale Ausprägungen"
+        text " "
+        LI (&93834775395400)
+          text ":"
+          A (&93834775395704)
+            attr href "#5"
+            text "5 Anhang A – Verzeichnisse"
+        text " "
+        LI (&93834775396304)
+          text ": :"
+          A (&93834775396608)
+            attr href "#5.1"
+            text "5.1 Abkürzungen"
+        text " "
+        LI (&93834775397208)
+          text ": :"
+          A (&93834775397512)
+            attr href "#5.2"
+            text "5.2 Tabellenverzeichnis"
+        text " "
+      text " "
+      H2 (&93834775398232)
+        attr id "1"
+        text "1 Einführung"
+      text " "
+      H3 (&93834775398832)
+        attr id "1.1"
+        text "1.1 Zielsetzung und Einordnung des Dokumentes"
+      text " "
+      P (&93834775399432)
+        attr id "polarion_29"
+        text " "
+        SPAN (&93834775399912)
+          attr style "color: #000000;"
+          text "Dieser Produkttypsteckbrief verzeichnet verbindlich die normativen Festlegungen der gematik an die Personalisierung der eGK oder verweist auf Dokumente, in denen verbindliche normative Festlegungen mit ggf. anderer Notation zu finden sind. Die normativen Festlegungen bilden die Grundlage für das Bestätigungsverfahren der"
+        SPAN (&93834775400392)
+          attr style "font-style: italic;color: #000000;"
+          text "Validierung der Personalisierungsdaten eGK"
+        SPAN (&93834775400872)
+          attr style "color: #000000;"
+          text "der gematik."
+        text " "
+      text " "
+      P (&93834775401592)
+        attr id "polarion_30"
+        text " "
+        SPAN (&93834775402072)
+          attr style "color: #000000;"
+          text "Die normativen Festlegungen werden über ihren Identifier, ihren Titel sowie die Dokumentenquelle referenziert. Die normativen Festlegungen mit ihrem vollständigen normativen Inhalt sind dem jeweils referenzierten Dokument zu entnehmen."
+        text " "
+      text " "
+      H3 (&93834775402792)
+        attr id "1.2"
+        text "1.2 Zielgruppe"
+      text " "
+      P (&93834775403392)
+        attr id "polarion_31"
+        text " "
+        SPAN (&93834775403872)
+          attr style "color: #000000;"
+          text "Der Produkttypsteckbrief richtet sich an eGK-Herausgeber, deren Dienstleister sowie Hersteller und Anbieter von Produkttypen, die hierzu eine Schnittstelle besitzen."
+        text " "
+      text " "
+      P (&93834775404592)
+        attr id "polarion_32"
+        text " "
+        SPAN (&93834775405072)
+          attr style "color: #000000;"
+          text "Das Dokument ist außerdem von der gematik im Rahmen des Bestätigungsverfahrens zu verwenden."
+        text " "
+      text " "
+      H3 (&93834775405792)
+        attr id "1.3"
+        text "1.3 Geltungsbereich"
+      text " "
+      P (&93834765143216)
+        attr id "polarion_33"
+        text " "
+        SPAN (&93834765143696)
+          attr style "color: #000000;"
+          text "Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Bestätigungsverfahren werden durch die gematik GmbH in gesonderten Dokumenten (z.B. gemPTV_ATV_Festlegungen, Leistungsbeschreibung) festgelegt und bekannt gegeben."
+        text " "
+      text " "
+      H3 (&93834765144416)
+        attr id "1.4"
+        text "1.4 Abgrenzung des Dokumentes"
+      text " "
+      P (&93834765145016)
+        attr id "polarion_34"
+        text " "
+        SPAN (&93834765145496)
+          attr style "color: #000000;"
+          text "Dieses Dokument definiert den normativen Festlegungsumfang an den Produkttypen eGK nicht umfassend, sondern lediglich in den Teilen, die für Personalisierung der Karte relevant sind und im Zuge der Personalisierungsvalidierung durch die gematik geprüft werden."
+        text " "
+      text " "
+      P (&93834765146216)
+        attr id "polarion_35"
+        text " "
+        SPAN (&93834765146696)
+          attr style "color: #000000;"
+          text "Dieses Dokument macht keine Aussagen zur Aufteilung der Produktentwicklung bzw. Produktherstellung auf verschiedene Hersteller und Anbieter."
+        text " "
+      text " "
+      P (&93834765147416)
+        attr id "polarion_36"
+        text " "
+        SPAN (&93834765147896)
+          attr style "color: #000000;"
+          text "Dokumente zu den Zulassungs- bzw. Bestätigungsverfahren für den Produkttyp sind nicht aufgeführt. Die geltenden Verfahren und Regelungen zur Beantragung und Durchführung von Zulassungsverfahren können der Homepage der gematik entnommen werden."
+        text " "
+      text " "
+      H3 (&93834765148616)
+        attr id "1.5"
+        text "1.5 Methodik"
+      text " "
+      P (&93834765149216)
+        attr id "polarion_37"
+        text " "
+        SPAN (&93834765149696)
+          attr style "color: #000000;"
+          text "Die im Dokument verzeichneten normativen Festlegungen werden tabellarisch dargestellt. Die Tabellenspalten haben die folgende Bedeutung:"
+        text " "
+      text " "
+      P (&93834765150416)
+        attr id "polarion_38"
+        attr style "margin-left: 40px;"
+        text " "
+        SPAN (&93834765151072)
+          attr style "font-weight: bold;color: #000000;"
+          text "ID:"
+        SPAN (&93834765151552)
+          attr style "color: #000000;"
+          text "Identifiziert die normative Festlegung eindeutig im Gesamtbestand aller Festlegungen der gematik."
+        text " "
+      text " "
+      P (&93834765152272)
+        attr id "polarion_39"
+        attr style "margin-left: 40px;"
+        text " "
+        SPAN (&93834765152928)
+          attr style "font-weight: bold;color: #000000;"
+          text "Bezeichnung:"
+        SPAN (&93834765153408)
+          attr style "color: #000000;"
+          text "Gibt den Titel einer normativen Festlegung informativ wider, um die thematische Einordnung zu erleichtern. Der vollständige Inhalt der normativen Festlegung ist dem Dokument zu entnehmen, auf das die Quellenangabe verweist."
+        text " "
+      text " "
+      P (&93834765154128)
+        attr id "polarion_40"
+        attr style "margin-left: 40px;"
+        text " "
+        SPAN (&93834765154784)
+          attr style "font-weight: bold;color: #000000;"
+          text "Quelle (Referenz):"
+        SPAN (&93834765155264)
+          attr style "color: #000000;"
+          text "Verweist auf das Dokument, das die normative Festlegung definiert."
+        BR (&93834765155744)
+        text " "
+      text " "
+      H2 (&93834765156168)
+        attr id "2"
+        text "2 Dokumente"
+      text " "
+      P (&93834765156768)
+        attr id "polarion_43"
+        text " "
+        SPAN (&93834765157248)
+          attr style "color: #000000;"
+          text "Die nachfolgenden Dokumente enthalten die für die Personalisierung der eGK normativen und im Zuge der Personalisierungsvalidierung zu prüfenden normativen Festlegungen."
+        BR (&93834765157728)
+        text " "
+      text " "
+      P (&93834765158152)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_45"
+        text "Tabelle"
+        SPAN (&93834765158808)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "1"
+        text ": Dokumente mit Festlegungen zu der Produkttypversion"
+      text " "
+      TABLE (&93834765159704)
+        attr class "polarion-table"
+        text " "
+        TBODY (&93834765160184)
+          TR (&93834765160368)
+            text " "
+            TH (&93834765160672)
+              attr class "polarion-table-header"
+              SPAN (&93834765161032)
+                attr class "polarion-table-span"
+                text "Dokumentenkürzel"
+            text " "
+            TH (&93834765161632)
+              attr class "polarion-table-header"
+              SPAN (&93834765161992)
+                attr class "polarion-table-span"
+                text "Bezeichnung des Dokumentes"
+            text " "
+            TH (&93834765162592)
+              attr class "polarion-table-header"
+              SPAN (&93834765162952)
+                attr class "polarion-table-span"
+                text "Version"
+            text " "
+          text " "
+          TR (&93834765163672)
+            text " "
+            TD (&93834765163976)
+              attr class "polarion-table-data"
+              A (&93834765164336)
+                attr href "../gemSpec_CAN_TI/gemSpec_CAN_TI_V1.0.0.html"
+                text "gemSpec_CAN_TI"
+            text " "
+            TD (&93834765164936)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation CAN-Policy"
+            text " "
+            TD (&93834765165536)
+              attr class "polarion-table-data"
+              text "1.0.0"
+            text " "
+          text " "
+          TR (&93834765166256)
+            text " "
+            TD (&93834765166560)
+              attr class "polarion-table-data"
+              A (&93834765166920)
+                attr href "../gemKPT_Test/gemKPT_Test_V2.8.5.html"
+                text "gemKPT_Test"
+            text " "
+            TD (&93834765167520)
+              attr class "polarion-table-data"
+              text "Testkonzept der TI"
+            text " "
+            TD (&93834765168120)
+              attr class "polarion-table-data"
+              text "2.8.5"
+            text " "
+          text " "
+          TR (&93834765168840)
+            text " "
+            TD (&93834765169144)
+              attr class "polarion-table-data"
+              A (&93834765169504)
+                attr href "../gemSpec_PINPUK_TI/gemSpec_PINPUK_TI_V1.3.0.html"
+                text "gemSpec_PINPUK_TI"
+            text " "
+            TD (&93834765170104)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation PIN/PUK-Policy für Smartcards der Telematikinfrastruktur"
+            text " "
+            TD (&93834765170704)
+              attr class "polarion-table-data"
+              text "1.3.0"
+            text " "
+          text " "
+          TR (&93834765171424)
+            text " "
+            TD (&93834765171728)
+              attr class "polarion-table-data"
+              A (&93834765172088)
+                attr href "../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html"
+                text "gemSpec_DS_Anbieter"
+            text " "
+            TD (&93834765172688)
+              attr class "polarion-table-data"
+              text "Spezifikation Datenschutz- und Sicherheitsanforderungen der TI an Anbieter"
+            text " "
+            TD (&93834765173288)
+              attr class "polarion-table-data"
+              text "1.4.0"
+            text " "
+          text " "
+          TR (&93834765174008)
+            text " "
+            TD (&93834765174312)
+              attr class "polarion-table-data"
+              A (&93834765174672)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html"
+                text "gemSpec_eGK_Opt"
+            text " "
+            TD (&93834765175272)
+              attr class "polarion-table-data"
+              text "Spezifikation der elektronischen Gesundheitskarte – Äußere Gestaltung"
+            text " "
+            TD (&93834799757816)
+              attr class "polarion-table-data"
+              text "3.10.0"
+            text " "
+          text " "
+          TR (&93834799758536)
+            text " "
+            TD (&93834799758840)
+              attr class "polarion-table-data"
+              A (&93834799759200)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html"
+                text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+            TD (&93834799759800)
+              attr class "polarion-table-data"
+              text "Spezifikation der elektronischen Gesundheitskarte eGK-Objektsystem (G2.1)"
+            text " "
+            TD (&93834799760400)
+              attr class "polarion-table-data"
+              text "4.5.0"
+            text " "
+          text " "
+          TR (&93834799761120)
+            text " "
+            TD (&93834799761424)
+              attr class "polarion-table-data"
+              A (&93834799761784)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html"
+                text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+            TD (&93834799762384)
+              attr class "polarion-table-data"
+              text "Befüllvorschriften für die Plattformanteile der Karten der TI der Generation G2.1"
+            text " "
+            TD (&93834799762984)
+              attr class "polarion-table-data"
+              text "3.0.0"
+            text " "
+          text " "
+          TR (&93834799763704)
+            text " "
+            TD (&93834799764008)
+              attr class "polarion-table-data"
+              A (&93834799764368)
+                attr href "../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html"
+                text "gemSpec_CVC_TSP"
+            text " "
+            TD (&93834799764968)
+              attr class "polarion-table-data"
+              text "Spezifikation Trust Service Provider CVC"
+            text " "
+            TD (&93834799765568)
+              attr class "polarion-table-data"
+              text "1.14.1"
+            text " "
+          text " "
+          TR (&93834799766288)
+            text " "
+            TD (&93834799766592)
+              attr class "polarion-table-data"
+              A (&93834799766952)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.0.html"
+                text "gemSpec_OM"
+            text " "
+            TD (&93834799767552)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation Operations und Maintenance"
+            text " "
+            TD (&93834799768152)
+              attr class "polarion-table-data"
+              text "1.14.0"
+            text " "
+          text " "
+          TR (&93834799768872)
+            text " "
+            TD (&93834799769176)
+              attr class "polarion-table-data"
+              A (&93834799769536)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html"
+                text "gemSpec_Krypt"
+            text " "
+            TD (&93834799770136)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur"
+            text " "
+            TD (&93834799770736)
+              attr class "polarion-table-data"
+              text "2.21.0"
+            text " "
+          text " "
+          TR (&93834799771456)
+            text " "
+            TD (&93834799771760)
+              attr class "polarion-table-data"
+              A (&93834799772120)
+                attr href "../gemSpec_PKI/gemSpec_PKI_V2.11.1.html"
+                text "gemSpec_PKI"
+            text " "
+            TD (&93834799772720)
+              attr class "polarion-table-data"
+              text "Übergreifende Spezifikation – Spezifikation PKI"
+            text " "
+            TD (&93834799773320)
+              attr class "polarion-table-data"
+              text "2.11.1"
+            text " "
+          text " "
+          TR (&93834799774040)
+            text " "
+            TD (&93834799774344)
+              attr class "polarion-table-data"
+              A (&93834799774704)
+                attr href "../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html"
+                text "gemRL_TSL_SP_CP"
+            text " "
+            TD (&93834799775304)
+              attr class "polarion-table-data"
+              text "Certificate Policy Gemeinsame Zertifizierungsrichtlinie für Teilnehmer der gematik-TSL"
+            text " "
+            TD (&93834799775904)
+              attr class "polarion-table-data"
+              text "2.10.1"
+            text " "
+          text " "
+          TR (&93834799776624)
+            text " "
+            TD (&93834799776928)
+              attr class "polarion-table-data"
+              A (&93834799777288)
+                attr href "../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html"
+                text "gemSpec_eGK_Fach_VSDM"
+            text " "
+            TD (&93834799777888)
+              attr class "polarion-table-data"
+              text "Speicherstrukturen der eGK für die Fachanwendung VSDM"
+            text " "
+            TD (&93834799778488)
+              attr class "polarion-table-data"
+              text "1.2.1"
+            text " "
+          text " "
+      text " "
+      DIV (&93834799779328)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block2"
+        text " "
+        DIV (&93834799779984)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+      text " "
+      P (&93834799780760)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_48"
+      text " "
+      P (&93834799781416)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_15"
+        text "Tabelle"
+        SPAN (&93834799782072)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "2"
+        text ": Mitgeltende Dokumente"
+      text " "
+      TABLE (&93834799782968)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=uid=1"
+        attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834799783800)
+          text " "
+          TR (&93834799784104)
+            text " "
+            TH (&93834799784408)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 183px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834799784768)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834799785128)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "Dokumentenkürzel"
+                BR (&93834799785608)
+                text " "
+            text " "
+            TH (&93834799786032)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 344px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834799786392)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834799786752)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "Bezeichnung des Dokuments"
+                BR (&93834799787232)
+                text " "
+            text " "
+            TH (&93834799787656)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 56px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834799788016)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834799788376)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "Version"
+                BR (&93834799788856)
+                text " "
+            text " "
+          text " "
+          TR (&93834799789400)
+            text " "
+            TD (&93834799789704)
+              attr style "text-align: left;vertical-align: top;width: 183px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834799790064)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775010744)
+                  attr style "font-family: Arial, Helvetica, sans-serif;"
+                  text "gemSpec_OID"
+                BR (&93834775011072)
+                text " "
+            text " "
+            TD (&93834775011496)
+              attr style "text-align: left;vertical-align: top;width: 344px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775011856)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775012216)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "gematik: Spezifikation Festlegung von OIDs"
+                BR (&93834775012696)
+                text " "
+            text " "
+            TD (&93834775013120)
+              attr style "text-align: left;vertical-align: top;width: 56px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775013480)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775013840)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "3.6.0"
+                text " "
+            text " "
+          text " "
+          TR (&93834775014680)
+            text " "
+            TD (&93834775014984)
+              attr style "text-align: left;vertical-align: top;width: 183px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775015344)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775015704)
+                  attr style "font-family: Arial, Helvetica, sans-serif;"
+                  text "gemSpec_eGK_Fach_VSDM"
+                BR (&93834775016184)
+                text " "
+            text " "
+            TD (&93834775016608)
+              attr style "text-align: left;vertical-align: top;width: 344px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775016968)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775017328)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "Speicherstrukturen der eGK für die Fachanwendung VSDM"
+                BR (&93834775017808)
+                text " "
+            text " "
+            TD (&93834775018232)
+              attr style "text-align: left;vertical-align: top;width: 56px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775018592)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775018952)
+                  attr style "font-family: Arial, Helvetica, sans-serif;"
+                  text "1.2.0"
+                BR (&93834775019432)
+                text " "
+            text " "
+          text " "
+          TR (&93834775019976)
+            text " "
+            TD (&93834775020280)
+              attr style "text-align: left;vertical-align: top;width: 183px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775020640)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775021000)
+                  attr style "font-family: Arial, Helvetica, sans-serif;"
+                  text "gemSpec_SST_FD_VSDM"
+                BR (&93834775021480)
+                text " "
+            text " "
+            TD (&93834775021904)
+              attr style "text-align: left;vertical-align: top;width: 344px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775022264)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775022624)
+                  attr style "font-family: Arial, Helvetica, sans-serif;"
+                  text "gematik: Schnittstellenspezifikation Fachdienste (UFS/VSDD/CMS)"
+                BR (&93834775023104)
+                text " "
+            text " "
+            TD (&93834775023528)
+              attr style "text-align: left;vertical-align: top;width: 56px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834775023888)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834775024248)
+                  attr style "font-family: Arial, Helvetica, sans-serif;"
+                  text "1.6.0"
+                BR (&93834775024728)
+                text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834775025512)
+        attr id "polarion_50"
+      text " "
+      P (&93834775025992)
+        attr data-keep-next "true"
+        attr id "polarion_51"
+        text " "
+        SPAN (&93834775026648)
+          attr style "font-weight: bold;color: #000000;"
+          text "Errata"
+        text " "
+      text " "
+      P (&93834775027368)
+        attr id "polarion_52"
+        text " "
+        SPAN (&93834775027848)
+          attr style "color: #000000;"
+          text "Neben den vorgenannten Dokumenten werden auf der Internetseite der gematik bei Bedarf Errata-Dokumente mit normativen Ergänzungen bzw. Korrekturen zu den Spezifikationsdokumenten veröffentlicht. Sofern in den Errata der vorliegende Produkttyp benannt wird, sind diese bei der Umsetzung des Produkttyps entsprechend der Vorgabe in der Dokumentenlandkarte zu berücksichtigen. Dabei kann eine abweichende Produkttypversion festgelegt werden."
+        text " "
+      text " "
+      H2 (&93834775028568)
+        attr id "3"
+        text "3 Normative Festlegungen"
+      text " "
+      P (&93834775029168)
+        attr id "polarion_54"
+        text " "
+        SPAN (&93834775029648)
+          attr style "color: #000000;"
+          text "Die folgenden Abschnitte verzeichnen alle für die Personalisierung der eGK normativen Festlegungen."
+        text " "
+      text " "
+      H3 (&93834775030368)
+        attr id "3.1"
+        text "3.1 Festlegungen zur funktionalen Eignung: Personalisierungsvalidierung"
+      text " "
+      P (&93834775030968)
+        attr id "polarion_55"
+        text " "
+        SPAN (&93834775031448)
+          attr style "color: #000000;"
+          text "In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an den technischen Teil des Produkttyps verzeichnet, deren Umsetzung im Zuge der Personalisierungsvalidierung durch die gematik geprüft wird."
+        text " "
+      text " "
+      P (&93834775032168)
+        attr id "polarion_56"
+      text " "
+      P (&93834775032648)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_57"
+        text "Tabelle"
+        SPAN (&93834775033304)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "3"
+        text ": Festlegungen zur funktionalen Eignung "Personalisierungsvalidierung""
+      text " "
+      TABLE (&93834775034200)
+        attr class "polarion-table"
+        text " "
+        TBODY (&93834775034680)
+          TR (&93834775034864)
+            text " "
+            TH (&93834775035168)
+              attr class "polarion-table-header"
+              SPAN (&93834775035528)
+                attr class "polarion-table-span"
+                text "ID"
+            text " "
+            TH (&93834775036128)
+              attr class "polarion-table-header"
+              SPAN (&93834775036488)
+                attr class "polarion-table-span"
+                text "Bezeichnung"
+            text " "
+            TH (&93834775037088)
+              attr class "polarion-table-header"
+              SPAN (&93834775037448)
+                attr class "polarion-table-span"
+                text "Quelle (Referenz)"
+            text " "
+          text " "
+          TR (&93834775038168)
+            text " "
+            TD (&93834775038472)
+              attr class "polarion-table-data"
+              A (&93834775038832)
+                attr href "../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_5020"
+                text "GS-A_5020"
+            text " "
+            TD (&93834775039432)
+              attr class "polarion-table-data"
+              text "Einbringung des Komponentenzertifikats durch den Kartenherausgeber"
+            text " "
+            TD (&93834775040032)
+              attr class "polarion-table-data"
+              text "gemRL_TSL_SP_CP"
+            text " "
+          text " "
+          TR (&93834775040752)
+            text " "
+            TD (&93834775041056)
+              attr class "polarion-table-data"
+              A (&93834775041416)
+                attr href "../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2578"
+                text "TIP1-A_2578"
+            text " "
+            TD (&93834775042016)
+              attr class "polarion-table-data"
+              text "Korrekte ICCSN der Chipkarte"
+            text " "
+            TD (&93834775042616)
+              attr class "polarion-table-data"
+              text "gemSpec_CVC_TSP"
+            text " "
+          text " "
+          TR (&93834775043336)
+            text " "
+            TD (&93834799905408)
+              attr class "polarion-table-data"
+              A (&93834799905768)
+                attr href "../gemSpec_CVC_TSP/gemSpec_CVC_TSP_V1.14.1.html#TIP1-A_2589"
+                text "TIP1-A_2589"
+            text " "
+            TD (&93834799906368)
+              attr class "polarion-table-data"
+              text "Personalisierung des CVC-CA-Zertifikats"
+            text " "
+            TD (&93834799906968)
+              attr class "polarion-table-data"
+              text "gemSpec_CVC_TSP"
+            text " "
+          text " "
+          TR (&93834799907688)
+            text " "
+            TD (&93834799907992)
+              attr class "polarion-table-data"
+              A (&93834799908352)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3479"
+                text "Card-G2-A_3479"
+            text " "
+            TD (&93834799908952)
+              attr class "polarion-table-data"
+              text "Kodierung von Versionskennungen"
+            text " "
+            TD (&93834799909552)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799910272)
+            text " "
+            TD (&93834799910576)
+              attr class "polarion-table-data"
+              A (&93834799910936)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3481"
+                text "Card-G2-A_3481"
+            text " "
+            TD (&93834799911536)
+              attr class "polarion-table-data"
+              text "Ausschluss für die Kodierung von Produktidentifikatoren"
+            text " "
+            TD (&93834799912136)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799912856)
+            text " "
+            TD (&93834799913160)
+              attr class "polarion-table-data"
+              A (&93834799913520)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3487"
+                text "Card-G2-A_3487"
+            text " "
+            TD (&93834799914120)
+              attr class "polarion-table-data"
+              text "K_Initialisierung und K_Personalisierung: DO_HistoricalBytes in EF.ATR"
+            text " "
+            TD (&93834799914720)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799915440)
+            text " "
+            TD (&93834799915744)
+              attr class "polarion-table-data"
+              A (&93834799916104)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3492"
+                text "Card-G2-A_3492"
+            text " "
+            TD (&93834799916704)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: DO_PT_Pers in EF.ATR"
+            text " "
+            TD (&93834799917304)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799918024)
+            text " "
+            TD (&93834799918328)
+              attr class "polarion-table-data"
+              A (&93834799918688)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3494"
+                text "Card-G2-A_3494"
+            text " "
+            TD (&93834799919288)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: DO_PI_Kartenkörper in EF.ATR-Personalisierung"
+            text " "
+            TD (&93834799919888)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799920608)
+            text " "
+            TD (&93834799920912)
+              attr class "polarion-table-data"
+              A (&93834799921272)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3495"
+                text "Card-G2-A_3495"
+            text " "
+            TD (&93834799921872)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: DO_PI_Personalisierung in EF.ATR-Personalisierung"
+            text " "
+            TD (&93834799922472)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799923192)
+            text " "
+            TD (&93834799923496)
+              attr class "polarion-table-data"
+              A (&93834799923856)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3496"
+                text "Card-G2-A_3496"
+            text " "
+            TD (&93834799924456)
+              attr class "polarion-table-data"
+              text "K_Initialisierung: Weitere Datenobjekte in DO_HistoricalBytes in EF.ATR"
+            text " "
+            TD (&93834799925056)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799925776)
+            text " "
+            TD (&93834799926080)
+              attr class "polarion-table-data"
+              A (&93834799926440)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3497"
+                text "Card-G2-A_3497"
+            text " "
+            TD (&93834799927040)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Vollständige Befüllung von EF.ATR"
+            text " "
+            TD (&93834799927640)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799928360)
+            text " "
+            TD (&93834799928664)
+              attr class "polarion-table-data"
+              A (&93834799929024)
+                attr href "../gemSpec_Karten_Fach_TIP_G2_1/gemSpec_Karten_Fach_TIP_G2_1_V3.0.0.html#Card-G2-A_3498"
+                text "Card-G2-A_3498"
+            text " "
+            TD (&93834799929624)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: DO_ICCSN in EF.GDO"
+            text " "
+            TD (&93834799930224)
+              attr class "polarion-table-data"
+              text "gemSpec_Karten_Fach_TIP_G2_1"
+            text " "
+          text " "
+          TR (&93834799930944)
+            text " "
+            TD (&93834799931248)
+              attr class "polarion-table-data"
+              A (&93834799931608)
+                attr href "../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4379"
+                text "GS-A_4379"
+            text " "
+            TD (&93834799932208)
+              attr class "polarion-table-data"
+              text "Card-to-Card-Authentisierung G2"
+            text " "
+            TD (&93834799932808)
+              attr class "polarion-table-data"
+              text "gemSpec_Krypt"
+            text " "
+          text " "
+          TR (&93834799933528)
+            text " "
+            TD (&93834799933832)
+              attr class "polarion-table-data"
+              A (&93834799934192)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.0.html#GS-A_3695"
+                text "GS-A_3695"
+            text " "
+            TD (&93834799934792)
+              attr class "polarion-table-data"
+              text "Grundlegender Aufbau Versionsnummern"
+            text " "
+            TD (&93834799935392)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834799936112)
+            text " "
+            TD (&93834799936416)
+              attr class "polarion-table-data"
+              A (&93834799936776)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.0.html#GS-A_4559"
+                text "GS-A_4559"
+            text " "
+            TD (&93834799937376)
+              attr class "polarion-table-data"
+              text "Versionierung der Karten der TI"
+            text " "
+            TD (&93834799829944)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834799830640)
+            text " "
+            TD (&93834799830944)
+              attr class "polarion-table-data"
+              A (&93834799831304)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.0.html#GS-A_4560"
+                text "GS-A_4560"
+            text " "
+            TD (&93834799831904)
+              attr class "polarion-table-data"
+              text "Versionierung von Datenstrukturen der Karten der TI"
+            text " "
+            TD (&93834799832504)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834799833224)
+            text " "
+            TD (&93834799833528)
+              attr class "polarion-table-data"
+              A (&93834799833888)
+                attr href "../gemSpec_OM/gemSpec_OM_V1.14.0.html#GS-A_5026"
+                text "GS-A_5026"
+            text " "
+            TD (&93834799834488)
+              attr class "polarion-table-data"
+              text "Versionierung von Karten durch die Produktidentifikation"
+            text " "
+            TD (&93834799835088)
+              attr class "polarion-table-data"
+              text "gemSpec_OM"
+            text " "
+          text " "
+          TR (&93834799835808)
+            text " "
+            TD (&93834799836112)
+              attr class "polarion-table-data"
+              A (&93834799836472)
+                attr href "../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4620"
+                text "GS-A_4620"
+            text " "
+            TD (&93834799837072)
+              attr class "polarion-table-data"
+              text "Zugriffsprofil einer eGK"
+            text " "
+            TD (&93834799837672)
+              attr class "polarion-table-data"
+              text "gemSpec_PKI"
+            text " "
+          text " "
+          TR (&93834799838392)
+            text " "
+            TD (&93834799838696)
+              attr class "polarion-table-data"
+              A (&93834799839056)
+                attr href "../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4714-01"
+                text "GS-A_4714-01"
+            text " "
+            TD (&93834799839656)
+              attr class "polarion-table-data"
+              text "Kodierung der Attribute in X.509-Zertifikaten"
+            text " "
+            TD (&93834799840256)
+              attr class "polarion-table-data"
+              text "gemSpec_PKI"
+            text " "
+          text " "
+          TR (&93834799840976)
+            text " "
+            TD (&93834799841280)
+              attr class "polarion-table-data"
+              A (&93834799841640)
+                attr href "../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4715-01"
+                text "GS-A_4715-01"
+            text " "
+            TD (&93834799842240)
+              attr class "polarion-table-data"
+              text "Maximale Stringlänge der Attribute im SubjectDN"
+            text " "
+            TD (&93834799842840)
+              attr class "polarion-table-data"
+              text "gemSpec_PKI"
+            text " "
+          text " "
+          TR (&93834799843560)
+            text " "
+            TD (&93834799843864)
+              attr class "polarion-table-data"
+              A (&93834799844224)
+                attr href "../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4974"
+                text "GS-A_4974"
+            text " "
+            TD (&93834799844824)
+              attr class "polarion-table-data"
+              text "CV-Ausstattung von Smartcards der TI"
+            text " "
+            TD (&93834799845424)
+              attr class "polarion-table-data"
+              text "gemSpec_PKI"
+            text " "
+          text " "
+          TR (&93834799846144)
+            text " "
+            TD (&93834799846448)
+              attr class "polarion-table-data"
+              A (&93834799846808)
+                attr href "../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html#VSDM-A_2973"
+                text "VSDM-A_2973"
+            text " "
+            TD (&93834799847408)
+              attr class "polarion-table-data"
+              text "Speicherstruktur des Containers EF.PD auf eGK"
+            text " "
+            TD (&93834799848008)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Fach_VSDM"
+            text " "
+          text " "
+          TR (&93834799848728)
+            text " "
+            TD (&93834799849032)
+              attr class "polarion-table-data"
+              A (&93834799849392)
+                attr href "../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html#VSDM-A_2974"
+                text "VSDM-A_2974"
+            text " "
+            TD (&93834799849992)
+              attr class "polarion-table-data"
+              text "Speicherstruktur des Containers EF.VD auf eGK"
+            text " "
+            TD (&93834799850592)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Fach_VSDM"
+            text " "
+          text " "
+          TR (&93834799851312)
+            text " "
+            TD (&93834799851616)
+              attr class "polarion-table-data"
+              A (&93834799851976)
+                attr href "../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html#VSDM-A_2975"
+                text "VSDM-A_2975"
+            text " "
+            TD (&93834799852576)
+              attr class "polarion-table-data"
+              text "Speicherstruktur des Containers EF.GVD auf eGK"
+            text " "
+            TD (&93834799853176)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Fach_VSDM"
+            text " "
+          text " "
+          TR (&93834799853896)
+            text " "
+            TD (&93834799854200)
+              attr class "polarion-table-data"
+              A (&93834799854560)
+                attr href "../gemSpec_eGK_Fach_VSDM/gemSpec_eGK_Fach_VSDM_V1.2.1.html#VSDM-A_2976"
+                text "VSDM-A_2976"
+            text " "
+            TD (&93834799855160)
+              attr class "polarion-table-data"
+              text "Speicherstruktur des Containers EF.StatusVD auf der eGK"
+            text " "
+            TD (&93834799855760)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Fach_VSDM"
+            text " "
+          text " "
+          TR (&93834799856480)
+            text " "
+            TD (&93834799856784)
+              attr class "polarion-table-data"
+              A (&93834799857144)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2342-01"
+                text "Card-G2-A_2342-01"
+            text " "
+            TD (&93834799857744)
+              attr class "polarion-table-data"
+              text "K_Personalisierung und K_Initialisierung: Wert des Attributes answerToReset"
+            text " "
+            TD (&93834799858344)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834799859064)
+            text " "
+            TD (&93834799859368)
+              attr class "polarion-table-data"
+              A (&93834799859728)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2343"
+                text "Card-G2-A_2343"
+            text " "
+            TD (&93834799860328)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Wert des Attributes iccsn8"
+            text " "
+            TD (&93834799860928)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834799861648)
+            text " "
+            TD (&93834799861952)
+              attr class "polarion-table-data"
+              A (&93834799862312)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2363"
+                text "Card-G2-A_2363"
+            text " "
+            TD (&93834801609256)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: CHR in MF / EF.C.eGK.AUT_CVC.E256"
+            text " "
+            TD (&93834801609832)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801610552)
+            text " "
+            TD (&93834801610856)
+              attr class "polarion-table-data"
+              A (&93834801611216)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2370-01"
+                text "Card-G2-A_2370-01"
+            text " "
+            TD (&93834801611816)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisiertes Attribut von EF.GDO"
+            text " "
+            TD (&93834801612416)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801613136)
+            text " "
+            TD (&93834801613440)
+              attr class "polarion-table-data"
+              A (&93834801613800)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2863"
+                text "Card-G2-A_2863"
+            text " "
+            TD (&93834801614400)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Anzahl Stellen einer CAN"
+            text " "
+            TD (&93834801615000)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801615720)
+            text " "
+            TD (&93834801616024)
+              attr class "polarion-table-data"
+              A (&93834801616384)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_2985"
+                text "Card-G2-A_2985"
+            text " "
+            TD (&93834801616984)
+              attr class "polarion-table-data"
+              text "K_Personalisierung und K_Initialisierung: Historical Bytes im ATR"
+            text " "
+            TD (&93834801617584)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801618304)
+            text " "
+            TD (&93834801618608)
+              attr class "polarion-table-data"
+              A (&93834801618968)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3207"
+                text "Card-G2-A_3207"
+            text " "
+            TD (&93834801619568)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisierte Attribute von MF / EF.C.CA_eGK.CS.E256"
+            text " "
+            TD (&93834801620168)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801620888)
+            text " "
+            TD (&93834801621192)
+              attr class "polarion-table-data"
+              A (&93834801621552)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3208"
+                text "Card-G2-A_3208"
+            text " "
+            TD (&93834801622152)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisierte Attribute von MF / EF.C.eGK.AUT_CVC.E256"
+            text " "
+            TD (&93834801622752)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801623472)
+            text " "
+            TD (&93834801623776)
+              attr class "polarion-table-data"
+              A (&93834801624136)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3217-01"
+                text "Card-G2-A_3217-01"
+            text " "
+            TD (&93834801624736)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisierte Attribute von MF / DF.ESIGN / EF.C.CH.AUT.R2048"
+            text " "
+            TD (&93834801625336)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801626056)
+            text " "
+            TD (&93834801626360)
+              attr class "polarion-table-data"
+              A (&93834801626720)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3219"
+                text "Card-G2-A_3219"
+            text " "
+            TD (&93834801627320)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisierte Attribute von MF / DF.ESIGN / EF.C.CH.ENC.R2048"
+            text " "
+            TD (&93834801627920)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801628640)
+            text " "
+            TD (&93834801628944)
+              attr class "polarion-table-data"
+              A (&93834801629304)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3229"
+                text "Card-G2-A_3229"
+            text " "
+            TD (&93834801629904)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisierte Attribute von MF / SK.CAN"
+            text " "
+            TD (&93834801630504)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801631224)
+            text " "
+            TD (&93834801631528)
+              attr class "polarion-table-data"
+              A (&93834801631888)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3243"
+                text "Card-G2-A_3243"
+            text " "
+            TD (&93834801632488)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisierte Attribute von MF / PuK.RCA.CS.E256 für Testkarten"
+            text " "
+            TD (&93834801633088)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801633808)
+            text " "
+            TD (&93834801634112)
+              attr class "polarion-table-data"
+              A (&93834801634472)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3391"
+                text "Card-G2-A_3391"
+            text " "
+            TD (&93834801635072)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: personalisierter Wert von pointInTime"
+            text " "
+            TD (&93834801635672)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801636392)
+            text " "
+            TD (&93834801636696)
+              attr class "polarion-table-data"
+              A (&93834801637056)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3604"
+                text "Card-G2-A_3604"
+            text " "
+            TD (&93834801637656)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisierte Attribute von von MF / DF.ESIGN / EF.C.CH.AUT.E256"
+            text " "
+            TD (&93834801638256)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801638976)
+            text " "
+            TD (&93834801639280)
+              attr class "polarion-table-data"
+              A (&93834801639640)
+                attr href "../gemSpec_eGK_ObjSys_G2_1/gemSpec_eGK_ObjSys_G2_1_V4.5.0.html#Card-G2-A_3608"
+                text "Card-G2-A_3608"
+            text " "
+            TD (&93834801640240)
+              attr class "polarion-table-data"
+              text "K_Personalisierung: Personalisierte Attribute von MF / DF.ESIGN / EF.C.CH.ENC.E256"
+            text " "
+            TD (&93834801640840)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_ObjSys_G2_1"
+            text " "
+          text " "
+          TR (&93834801641560)
+            text " "
+            TD (&93834810784656)
+              attr class "polarion-table-data"
+              A (&93834810784992)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_15207"
+                text "A_15207"
+            text " "
+            TD (&93834810785592)
+              attr class "polarion-table-data"
+              text "Position des Aufdrucks der kennzeichnungspflichtigen Angaben auf der Rückseite"
+            text " "
+            TD (&93834810786192)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810786912)
+            text " "
+            TD (&93834810787216)
+              attr class "polarion-table-data"
+              A (&93834810787576)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18364"
+                text "A_18364"
+            text " "
+            TD (&93834810788176)
+              attr class "polarion-table-data"
+              text "Bildvorlagen der Symbole für die kontaktlose Verwendung der eGK"
+            text " "
+            TD (&93834810788776)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810789496)
+            text " "
+            TD (&93834810789800)
+              attr class "polarion-table-data"
+              A (&93834810790160)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18365"
+                text "A_18365"
+            text " "
+            TD (&93834810790760)
+              attr class "polarion-table-data"
+              text "Bemaßung des Symbols A für die kontaktlose Verwendung der eGK"
+            text " "
+            TD (&93834810791360)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810792080)
+            text " "
+            TD (&93834810792384)
+              attr class "polarion-table-data"
+              A (&93834810792744)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18366"
+                text "A_18366"
+            text " "
+            TD (&93834810793344)
+              attr class "polarion-table-data"
+              text "Farbgebung der Symbole für die kontaktlose Verwendung der eGK"
+            text " "
+            TD (&93834810793944)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810794664)
+            text " "
+            TD (&93834810794968)
+              attr class "polarion-table-data"
+              A (&93834810795328)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18367"
+                text "A_18367"
+            text " "
+            TD (&93834810795928)
+              attr class "polarion-table-data"
+              text "Erkennbarkeit der Symbole für die kontaktlose Verwendung der eGK"
+            text " "
+            TD (&93834810796528)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810797248)
+            text " "
+            TD (&93834810797552)
+              attr class "polarion-table-data"
+              A (&93834810797912)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18368"
+                text "A_18368"
+            text " "
+            TD (&93834810798512)
+              attr class "polarion-table-data"
+              text "Beschränkung der Farbwahl der Symbole für die kontaktlose Verwendung der eGK"
+            text " "
+            TD (&93834810799112)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810799832)
+            text " "
+            TD (&93834810800136)
+              attr class "polarion-table-data"
+              A (&93834810800496)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#A_18657"
+                text "A_18657"
+            text " "
+            TD (&93834810801096)
+              attr class "polarion-table-data"
+              text "Bemaßung des Symbols B für die kontaktlose Verwendung der eGK"
+            text " "
+            TD (&93834810801696)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810802416)
+            text " "
+            TD (&93834810802720)
+              attr class "polarion-table-data"
+              A (&93834810803080)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2237"
+                text "Card-G2-A_2237"
+            text " "
+            TD (&93834810803680)
+              attr class "polarion-table-data"
+              text "Vorderseite der eGK-Inhalt Feld 1"
+            text " "
+            TD (&93834810804280)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810805000)
+            text " "
+            TD (&93834810805304)
+              attr class "polarion-table-data"
+              A (&93834810805664)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2238"
+                text "Card-G2-A_2238"
+            text " "
+            TD (&93834810806264)
+              attr class "polarion-table-data"
+              text "Vorderseite der eGK-Inhalt Feld 2"
+            text " "
+            TD (&93834810806864)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810807584)
+            text " "
+            TD (&93834810807888)
+              attr class "polarion-table-data"
+              A (&93834810808248)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2241"
+                text "Card-G2-A_2241"
+            text " "
+            TD (&93834810808848)
+              attr class "polarion-table-data"
+              text "Vorderseite der eGK-Inhalt Feld 5"
+            text " "
+            TD (&93834810809448)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810810168)
+            text " "
+            TD (&93834810810472)
+              attr class "polarion-table-data"
+              A (&93834810810832)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2242"
+                text "Card-G2-A_2242"
+            text " "
+            TD (&93834810811432)
+              attr class "polarion-table-data"
+              text "Vorderseite der eGK-Inhalt Feld 6"
+            text " "
+            TD (&93834810812032)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810812752)
+            text " "
+            TD (&93834810813056)
+              attr class "polarion-table-data"
+              A (&93834810813416)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2249"
+                text "Card-G2-A_2249"
+            text " "
+            TD (&93834810814016)
+              attr class "polarion-table-data"
+              text "Positionierung Leonardo"
+            text " "
+            TD (&93834810814616)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810815336)
+            text " "
+            TD (&93834810815640)
+              attr class "polarion-table-data"
+              A (&93834810816000)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2277"
+                text "Card-G2-A_2277"
+            text " "
+            TD (&93834810816600)
+              attr class "polarion-table-data"
+              text "Name des Versicherten (28 Zeichen)"
+            text " "
+            TD (&93834810817320)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810818016)
+            text " "
+            TD (&93834810818320)
+              attr class "polarion-table-data"
+              A (&93834810818680)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2278"
+                text "Card-G2-A_2278"
+            text " "
+            TD (&93834810819280)
+              attr class "polarion-table-data"
+              text "Name des Versicherten > 28 Zeichen"
+            text " "
+            TD (&93834810819880)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810820600)
+            text " "
+            TD (&93834810820904)
+              attr class "polarion-table-data"
+              A (&93834810821264)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2279"
+                text "Card-G2-A_2279"
+            text " "
+            TD (&93834810821864)
+              attr class "polarion-table-data"
+              text "Abkürzungsregeln"
+            text " "
+            TD (&93834810822464)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810823184)
+            text " "
+            TD (&93834810823488)
+              attr class "polarion-table-data"
+              A (&93834810823848)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2285"
+                text "Card-G2-A_2285"
+            text " "
+            TD (&93834810824448)
+              attr class "polarion-table-data"
+              text "Abkürzungsregeln für Name des Kartenherausgebers"
+            text " "
+            TD (&93834810825048)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810825768)
+            text " "
+            TD (&93834810826072)
+              attr class "polarion-table-data"
+              A (&93834810826432)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2296"
+                text "Card-G2-A_2296"
+            text " "
+            TD (&93834810827032)
+              attr class "polarion-table-data"
+              text "Vorgaben aus Rundschreiben 25/2004 für EHIC"
+            text " "
+            TD (&93834810827632)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+          TR (&93834810828352)
+            text " "
+            TD (&93834810828656)
+              attr class "polarion-table-data"
+              A (&93834810829016)
+                attr href "../gemSpec_eGK_Opt/gemSpec_eGK_Opt_V3.10.0.html#Card-G2-A_2883"
+                text "Card-G2-A_2883"
+            text " "
+            TD (&93834810829616)
+              attr class "polarion-table-data"
+              text "Vorderseite der eGK-CAN in Feld 2"
+            text " "
+            TD (&93834810830216)
+              attr class "polarion-table-data"
+              text "gemSpec_eGK_Opt"
+            text " "
+          text " "
+      text " "
+      DIV (&93834810831056)
+        attr class "polarion-dle-wiki-block"
+        attr id "polarion_editor_html_block1"
+        text " "
+        DIV (&93834810831712)
+          attr contenteditable "false"
+          attr id "polarion_editor_html_block_content"
+        text " "
+      text " "
+      P (&93834810832488)
+        attr id "polarion_14"
+      text " "
+      P (&93834810832968)
+        attr class "polarion-rte-caption-paragraph"
+        attr id "polarion_21"
+        text "Tabelle"
+        SPAN (&93834810833624)
+          attr class "polarion-rte-caption"
+          attr data-sequence "Tabelle"
+          text "4"
+        text ": Weitere Festlegungen zur "Personalisierungsvalidierung""
+      text " "
+      TABLE (&93834810834520)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=uid=2"
+        attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834810835352)
+          text " "
+          TR (&93834810835656)
+            text " "
+            TH (&93834810835960)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 98px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810836320)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Afo-ID"
+                BR (&93834810836800)
+                text " "
+            text " "
+            TH (&93834810837224)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 311px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810837584)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Afo-Bezeichnung"
+                BR (&93834810838064)
+                text " "
+            text " "
+            TH (&93834810838488)
+              attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 172px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810838848)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Quelle (Referenz)"
+                BR (&93834810839328)
+                text " "
+            text " "
+          text " "
+          TR (&93834810839872)
+            text " "
+            TD (&93834810840176)
+              attr style "text-align: left;vertical-align: top;width: 98px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810840536)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Persval_1"
+                BR (&93834810841016)
+                text " "
+            text " "
+            TD (&93834810841440)
+              attr style "text-align: left;vertical-align: top;width: 311px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810841800)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "IK-Nummern Prüfung: Die IK-Nummer muss valide sein gemäß KT-Browser Kostenträgerstammdaten (hrsg. KBV)"
+                BR (&93834810842280)
+                text " "
+            text " "
+            TD (&93834810842704)
+              attr style "text-align: left;vertical-align: top;width: 172px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810843064)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Spezifischer Prüfpunkt der Personalisierungsvalidierung"
+                BR (&93834810843544)
+                text " "
+            text " "
+          text " "
+          TR (&93834810844088)
+            text " "
+            TD (&93834810844392)
+              attr style "text-align: left;vertical-align: top;width: 98px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810844752)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Persval_2"
+                BR (&93834810845232)
+                text " "
+            text " "
+            TD (&93834810845656)
+              attr style "text-align: left;vertical-align: top;width: 311px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810846016)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Keine Feldüberlappungen der optischen Felder 1, 2, 5 und 6 gemäß den GSV-Festlegungen vom 17.8.2011"
+                BR (&93834810846496)
+                text " "
+            text " "
+            TD (&93834810846920)
+              attr style "text-align: left;vertical-align: top;width: 172px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810847280)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Spezifischer Prüfpunkt der Personalisierungsvalidierung"
+                BR (&93834810847760)
+                text " "
+            text " "
+          text " "
+          TR (&93834810848304)
+            text " "
+            TD (&93834810848608)
+              attr style "text-align: left;vertical-align: top;width: 98px;height: 57px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834810848968)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Persval_3"
+                BR (&93834810849448)
+                text " "
+            text " "
+            TD (&93834810849872)
+              attr style "text-align: left;vertical-align: top;width: 311px;height: 57px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781663248)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Festlegungen, die die Übereinstimmungen zwischen Aufdruck und Chipdaten (PD,VD) und Zertifikate definieren"
+                BR (&93834781663728)
+                text " "
+            text " "
+            TD (&93834781664152)
+              attr style "text-align: left;vertical-align: top;width: 172px;height: 57px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781664512)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Spezifischer Prüfpunkt der Personalisierungsvalidierung"
+                BR (&93834781664992)
+                text " "
+            text " "
+          text " "
+          TR (&93834781665536)
+            text " "
+            TD (&93834781665840)
+              attr style "text-align: left;vertical-align: top;width: 98px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781666200)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Persval_4"
+                BR (&93834781666680)
+                text " "
+            text " "
+            TD (&93834781667104)
+              attr style "text-align: left;vertical-align: top;width: 311px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781667464)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "VSD Schemaprüfung von XML-Prolog"
+                BR (&93834781667944)
+                text " "
+            text " "
+            TD (&93834781668368)
+              attr style "text-align: left;vertical-align: top;width: 172px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781668728)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Spezifischer Prüfpunkt der Personalisierungsvalidierung"
+                BR (&93834781669208)
+                text " "
+            text " "
+          text " "
+          TR (&93834781669752)
+            text " "
+            TD (&93834781670056)
+              attr style "text-align: left;vertical-align: top;width: 98px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781670416)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Persval_5"
+                BR (&93834781670896)
+                text " "
+            text " "
+            TD (&93834781671320)
+              attr style "text-align: left;vertical-align: top;width: 311px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781671680)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Richtigkeit der Daten"
+                BR (&93834781672160)
+                text " "
+            text " "
+            TD (&93834781672584)
+              attr style "text-align: left;vertical-align: top;width: 172px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781672944)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Spezifischer Prüfpunkt der Personalisierungsvalidierung"
+                BR (&93834781673424)
+                text " "
+            text " "
+          text " "
+          TR (&93834781673968)
+            text " "
+            TD (&93834781674272)
+              attr style "text-align: left;vertical-align: top;width: 98px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781674632)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Persval_6"
+            text " "
+            TD (&93834781675232)
+              attr style "text-align: left;vertical-align: top;width: 311px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781675592)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "PIN.CH; Prüfung Transportstatus via GetPinStatus gemäß LA-Beschluß vom 24.10.2013"
+            text " "
+            TD (&93834781676192)
+              attr style "text-align: left;vertical-align: top;width: 172px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781676552)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                text "Spezifischer Prüfpunkt der Personalisierungsvalidierung"
+            text " "
+          text " "
+        text " "
+      text " "
+      P (&93834781677512)
+        attr id "polarion_62"
+      text " "
+      H2 (&93834781677992)
+        attr id "4"
+        text "4 Produkttypspezifische Merkmale"
+      text " "
+      H3 (&93834781678592)
+        attr id "4.1"
+        text "4.1 Angaben zu EF.Version"
+      text " "
+      P (&93834781679192)
+        attr id "polarion_64"
+        text " "
+        SPAN (&93834781679672)
+          attr style "color: #000000;"
+          text "Das Objekt EF.Version wird im Objektsystem der eGK-G2 angelegt, um die Rückwärtskompatibilität zu G1-Karten sicherzustellen. Die Rekordinhalte von EF.Version kennzeichnen eindeutig Karten der eGK-Objektsystem-Generation 2 (G2)."
+        text " "
+      text " "
+      P (&93834781680392)
+        attr id "polarion_65"
+        text " "
+        SPAN (&93834781680872)
+          attr style "color: #000000;"
+          text "EF.Version ist für die vorliegende Version des Produkttyps eGK mit folgenden Werten zu belegen:"
+        text " "
+      text " "
+      UL (&93834781681592)
+        attr id "polarion_66"
+        text " "
+        LI (&93834781682072)
+          SPAN (&93834781682256)
+            attr style "color: #000000;"
+            text "Rekord 1 (Betriebssystemversion COS) muss den Wert ´004 000 0000´ enthalten."
+        text " "
+        LI (&93834781682856)
+          SPAN (&93834781683040)
+            attr style "color: #000000;"
+            text "Rekord 2 (Objektsystemversion) muss den Wert ´004 000 0000´ enthalten."
+        text " "
+        LI (&93834781683640)
+          SPAN (&93834781683824)
+            attr style "color: #000000;"
+            text "Rekord 3 (Version der Speicherstrukturen) muss den Wert ´004 000 0000´ enthalten."
+        text " "
+        LI (&93834781684424)
+          SPAN (&93834781684608)
+            attr style "color: #000000;"
+            text "Rekord 4 (Reserve) muss den Wert ´000 000 0000´ enthalten."
+        text " "
+      text " "
+      P (&93834781685328)
+        attr id "polarion_67"
+        text " "
+        SPAN (&93834781685808)
+          attr style "color: #000000;"
+          text "Die Werte der Rekordinhalte in EF.Version entsprechen nicht zwangsläufig der Version der zugehörigen Dokumente, da sich Änderungen an der Version der elektronischen Gesundheitskarte ergeben können."
+        text " "
+      text " "
+      H3 (&93834781686528)
+        attr id "4.2"
+        text "4.2 Angaben zu EF.Version2"
+      text " "
+      P (&93834781687128)
+        attr id "polarion_68"
+        text " "
+        SPAN (&93834781687608)
+          attr style "color: #000000;"
+          text "Die detaillierte Versionskennzeichnung der eGK der Generation 2 wird in EF.Version2 abgelegt. Die Inhalte von EF.Version2 sind im Dokument [gemSpec_Karten_Fach_TIP] festgelegt."
+        text " "
+      text " "
+      H3 (&93834781688328)
+        attr id "4.3"
+        text "4.3 Produktspezifische Merkmale"
+      text " "
+      H4 (&93834781688928)
+        attr id "4.3.1"
+        text "4.3.1 Optionale Ausprägungen"
+      text " "
+      P (&93834781689528)
+        attr id "polarion_69"
+        text " "
+        SPAN (&93834781690008)
+          attr style "color: #000000;"
+          text "In diesem Kapitel werden die optionalen Ausprägungen des Produkttyps eGK beschrieben Die Spezifikationen des COS und des Objektsystems der eGK lassen folgende Optionen zu:"
+        text " "
+      text " "
+      UL (&93834781690728)
+        attr id "polarion_70"
+        text " "
+        LI (&93834781691208)
+          SPAN (&93834781691392)
+            attr style "color: #000000;"
+            text "Bereitstellung einer USB-Schnittstelle gemäß [gemSpec_eGK_ObjSys_G2.1#4.1.1]"
+        text " "
+        LI (&93834781691992)
+          SPAN (&93834781692176)
+            attr style "color: #000000;"
+            text "Bereitstellung einer kontaktlosen Schnittstelle gemäß [gemSpec_eGK_ObjSys_G2.1#4.1.2]"
+        text " "
+        LI (&93834781692776)
+          SPAN (&93834781692960)
+            attr style "color: #000000;"
+            text "Bereitstellung logischer Kanäle gemäß [gemSpec_eGK_ObjSys_G2.1#4.1.3]"
+        text " "
+        LI (&93834781693560)
+          SPAN (&93834781693744)
+            attr style "color: #000000;"
+            text "Bereitstellung der Funktion Kryptobox gemäß [gemSpec_eGK_ObjSys_G2.1#4.1.4]"
+        text " "
+        LI (&93834781694344)
+          SPAN (&93834781694528)
+            attr style "color: #000000;"
+            text "Anlegen der Anwendung QES gemäß [gemSpec_eGK_ObjSysG2.1#6]"
+        text " "
+      text " "
+      P (&93834781695248)
+        attr id "polarion_71"
+        text " "
+        SPAN (&93834781695880)
+          attr style "color: #000000;"
+          text "Da die eGK im Feld administriert werden muss, müssen"
+        text " "
+      text " "
+      UL (&93834781696576)
+        attr id "polarion_73"
+        text " "
+        LI (&93834781697056)
+          SPAN (&93834781697240)
+            attr style "color: #000000;"
+            text "entweder symmetrische Schlüssel für die Authentisierung mit einem CMS / VSD gemäß [gemSpec_eGK_ObjSys_G2.1#5.3.14]"
+        text " "
+        LI (&93834781697840)
+          SPAN (&93834781698024)
+            attr style "color: #000000;"
+            text "oder ein asymmetrischer Schlüssel für die Authentisierung mit einem CMS / VSD [gemSpec_eGK_ObjSys_G2.1#5.3.13]"
+        text " "
+      text " "
+      P (&93834781698744)
+        attr id "polarion_74"
+        text " "
+        SPAN (&93834781699224)
+          attr style "color: #000000;"
+          text "in die Karte eingebracht werden."
+        text " "
+      text " "
+      P (&93834781699944)
+        attr id "polarion_75"
+      text " "
+      P (&93834781700424)
+        attr id "polarion_76"
+        text " "
+        SPAN (&93834781700904)
+          attr style "color: #000000;"
+          text "Optionen in der optischen Gestaltung:"
+        text " "
+      text " "
+      UL (&93834781701624)
+        attr id "polarion_77"
+        text " "
+        LI (&93834781702104)
+          SPAN (&93834781702288)
+            attr style "color: #000000;"
+            text "Schattierung des Schriftzugs Gesundheitskarte gemäß [gemSpec_eGK_OPT#2.2.1.1.2])"
+        text " "
+        LI (&93834781702888)
+          SPAN (&93834781703072)
+            attr style "color: #000000;"
+            text "Aufdrucken des BSI-Logo auf die Vorderseite der eGK bei Einhaltung der Voraussetzung dafür [gemSpec_eGK_OPT#2.2.1.1.4]"
+        text " "
+        LI (&93834781703672)
+          SPAN (&93834781703856)
+            attr style "color: #000000;"
+            text "Kennzeichnung „eGK“ mit Brailleschrift auf der Vorderseite der eGK [gemSpec_eGK_OPT#2.2.2]"
+        text " "
+        LI (&93834781704456)
+          SPAN (&93834781704640)
+            attr style "color: #000000;"
+            text "Drucken der EHIC auf die Rückseite der eGK [gemSpec_eGK_OPT#2.3]"
+        text " "
+        LI (&93834781705240)
+          text "Aufdrucken des Symbols zur Kennzeichnung der getrennten Erfassung von Elektro- und Elektronikgeräten auf der Vorder- oder Rückseite der eGK bei Einhaltung der Voraussetzung dafür [gemSpec_eGK_OPT#2.2.1.1.5]"
+        text " "
+      text " "
+      P (&93834781705784)
+        attr id "polarion_78"
+        text " "
+        SPAN (&93834781706264)
+          attr style "color: #000000;"
+          text "Die eGK kann gemäß [gemSpec_eGK_ObjSys_G2.1#2] als Testkarte ausgestaltet werden."
+        text " "
+      text " "
+      H2 (&93834781706984)
+        attr id "5"
+        text "5 Anhang A – Verzeichnisse"
+      text " "
+      H3 (&93834781707584)
+        attr id "5.1"
+        text "5.1 Abkürzungen"
+      text " "
+      TABLE (&93834781708184)
+        attr class "polarion-Document-table"
+        attr id "polarion_wiki macro name=table;params=width=100%|uid=2"
+        attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
+        text " "
+        TBODY (&93834781709016)
+          text " "
+          TR (&93834781709320)
+            text " "
+            TH (&93834781709624)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 104.667px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781709984)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834781710344)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "Kürzel"
+                text " "
+            text " "
+            TH (&93834781711064)
+              attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 475.333px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781711424)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834781711784)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "Erläuterung"
+                text " "
+            text " "
+          text " "
+          TR (&93834781712624)
+            text " "
+            TD (&93834781712928)
+              attr style "text-align: left;vertical-align: top;width: 104.667px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781713288)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834781713648)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "ID"
+                text " "
+            text " "
+            TD (&93834781714368)
+              attr style "text-align: left;vertical-align: top;width: 475.333px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781714728)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834781715088)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "Identifikation"
+                text " "
+            text " "
+          text " "
+          TR (&93834781715928)
+            text " "
+            TD (&93834781716232)
+              attr style "text-align: left;vertical-align: top;width: 104.667px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781716592)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834781716952)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "CC"
+                text " "
+            text " "
+            TD (&93834781717672)
+              attr style "text-align: left;vertical-align: top;width: 475.333px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;"
+              SPAN (&93834781718032)
+                attr style "font-size: 10pt;line-height: 1.5;"
+                SPAN (&93834781718392)
+                  attr style "font-family: Arial, Helvetica, sans-serif;color: #000000;"
+                  text "Common Criteria"
+                text " "
+            text " "
+          text " "
+        text " "
+      text " "
+      H3 (&93834781719472)
+        attr id "5.2"
+        text "5.2 Tabellenverzeichnis"
+      text " "
+      DIV (&93834781720072)
+        attr data-sequence "Tabelle"
+        attr id "polarion_wiki macro name=tof;params=uid=1"
+      text " "
+      DIV (&93834781720728)
+        attr id "toc_container"
+        text " "
+        P (&93834781721208)
+          attr class "toc_title"
+        H1 (&93834781721568)
+        P (&93834781721752)
+        text " "
+        LI (&93834781722056)
+          A (&93834781722240)
+            attr href "#polarion_45"
+            text "Tabelle 1: Dokumente mit Festlegungen zu der Produkttypversion"
+        text " "
+        LI (&93834781722840)
+          A (&93834781723024)
+            attr href "#polarion_15"
+            text "Tabelle 2: Mitgeltende Dokumente"
+        text " "
+        LI (&93834781723624)
+          A (&93834781723808)
+            attr href "#polarion_57"
+            text "Tabelle 3: Festlegungen zur funktionalen Eignung "Personalisierungsvalidierung""
+        text " "
+        LI (&93834781724408)
+          A (&93834781724592)
+            attr href "#polarion_21"
+            text "Tabelle 4: Weitere Festlegungen zur "Personalisierungsvalidierung""
+        text " "
+      text " "
+      P (&93834781725312)
+        attr id "polarion_3"
+      text " "
+      DIV (&93834781725792)
+        attr id "ML-126472"
+        text " "
+        P (&93834781726272)
+          B (&93834781726456)
+            text "ML-126472 - gemProdT_eGK_PersVal_G2_1_PTV_4.6.0-0"
+        text " "
+        P (&93834781726880)
+          text " "
+          B (&93834781727184)
+            text "[<=]"
+        text " "
+      text " "
+      P (&93834781727728)
+        attr id "polarion_1"
+      text " "
+
+
+   ====================
+   ATTRIBUTE STATISTICS
+   ====================
+
+   charset:: utf-8
+   class:: polarion-Document-table; polarion-dle-wiki-block; polarion-dle-wiki-block-source; polarion-rte-caption; polarion-rte-caption-paragraph; polarion-table; polarion-table-data; polarion-table-header; polarion-table-span; toc_title
+   contenteditable:: false
+   data-keep-next:: true
+   data-sequence:: Tabelle
+   style:background-color: #F0F0F0
+   style:border: 1px solid #CCCCCC
+   style:border-bottom: 1px solid #CCCCCC
+   style:border-collapse: collapse
+   style:border-left: 1px solid #CCCCCC
+   style:border-right: 1px solid #CCCCCC
+   style:border-top: 1px solid #CCCCCC
+   style:color: #000000
+   style:empty-cells: show
+   style:font-family: Arial, Helvetica, sans-serif
+   style:font-size: 10pt; 12pt; 16pt; 28pt
+   style:font-style: italic
+   style:font-weight: bold
+   style:height: 11px; 18.4444px; 19px; 21px; 34px; 38px; 57px
+   style:line-height: 1.2; 1.5
+   style:margin-left: 0px; 40px; auto
+   style:margin-right: auto
+   style:padding: 5px
+   style:text-align: center; left
+   style:text-decoration: underline
+   style:vertical-align: top
+   style:width: 100%; 104.667px; 106px; 150px; 172px; 183px; 268px; 302px; 311px; 344px; 374px; 475.333px; 56px; 64px; 71px; 80%; 84px; 98px
+
+
+   ================
+   CHILD STATISTICS
+   ================
+
+   A
+    _TEXT: 94 (&93834775381720)
+   B
+    _TEXT: 2 (&93834781726640)
+   BODY
+    DIV: 9 (&93834775857176)
+    H1: 2 (&93834775873576)
+    H2: 5 (&93834775398232)
+    H3: 11 (&93834775398832)
+    H4: 1 (&93834781688928)
+    P: 54 (&93834775846120)
+    TABLE: 7 (&93834775876280)
+    UL: 4 (&93834781681592)
+   DIV
+    DIV: 4 (&93834775857832)
+    H1: 2 (&93834775380688)
+    LI: 23 (&93834775381176)
+    P: 6 (&93834775380328)
+    PRE: 2 (&93834775858488)
+   H1
+    _TEXT: 2 (&93834775873936)
+   H2
+    _TEXT: 5 (&93834775398592)
+   H3
+    _TEXT: 11 (&93834775399192)
+   H4
+    _TEXT: 1 (&93834781689288)
+   HEAD
+    META: 1 (&93834775845216)
+    STYLE: 1 (&93834775844784)
+   HTML
+    BODY: 1 (&93834775845816)
+    HEAD: 1 (&93834775844480)
+   LI
+    A: 23 (&93834775381360)
+    SPAN: 15 (&93834781682256)
+    _TEXT: 18 (&93834775382928)
+   OL
+   P
+    B: 2 (&93834781726456)
+    BR: 10 (&93834775846600)
+    SPAN: 41 (&93834775848408)
+    _TEXT: 10 (&93834775875736)
+   PRE
+    TABLE: 2 (&93834775859320)
+   SPAN
+    BR: 30 (&93834775854824)
+    SPAN: 18 (&93834799785128)
+    _TEXT: 102 (&93834775848768)
+   STYLE
+    _TEXT: 1 (&93834775844976)
+   TABLE
+    TBODY: 9 (&93834775859624)
+   TBODY
+    TR: 109 (&93834775859808)
+   TD
+    A: 71 (&93834765164336)
+    SPAN: 31 (&93834799790064)
+    _TEXT: 195 (&93834775860296)
+   TH
+    SPAN: 14 (&93834765161032)
+    _TEXT: 8 (&93834801471776)
+   THEAD
+   TR
+    TD: 298 (&93834775860112)
+    TH: 22 (&93834801471440)
+   UL
+    LI: 16 (&93834781682072)
+   _DOCUMENT
+    HTML: 1 (&93834775844296)
+
+   --> consistency checked.
+
+
+   ===============
+   NODE STATISTICS
+   ===============
+
+   P       title nodes:       0
+   DIV     toc nodes:         2
+   TR      meta data nodes:   8
+   H1..H6  header nodes:      19
+   DIV/TR  requirement nodes: 71
+   IMG     image nodes:       0
+   TABLE   table nodes:       4
+
+

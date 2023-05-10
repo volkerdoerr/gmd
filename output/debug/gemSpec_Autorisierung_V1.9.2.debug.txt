@@ -1,0 +1,189 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Spezifikation Autorisierung ePA<br>Abbildung 1: Anwendungsfälle der Schlüsselverwaltung nach Umgebung
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_Autorisierung
+Revision: 588744
+Stand: 11.04.2022
+Status: freigegeben
+Version: 1.9.2
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokumentes
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzungen
+[1.5]:                   #15-methodik
+[2]:                     #2-systemüberblick
+[3]:                     #3-systemkontext
+[3.1]:                   #31-akteure-und-rollen
+[3.2]:                   #32-nachbarsysteme
+[3.3]:                   #33-tokenbasierte-autorisierung
+[4]:                     #4-zerlegung-der-komponente-autorisierung
+[5]:                     #5-übergreifende-festlegungen
+[5.1]:                   #51-datenschutz-und-datensicherheit
+[5.2]:                   #52-verwendete-standards
+[5.3]:                   #53-protokollierung
+[5.4]:                   #54-fehlerbehandlung-in-schnittstellenoperationen
+[5.5]:                   #55-nicht-funktionale-anforderungen
+[5.5.1]:                 #551-skalierbarkeit
+[5.5.2]:                 #552-performance
+[5.5.3]:                 #553-mengengerüst
+[6]:                     #6-funktionsmerkmale
+[6.1]:                   #61-übergreifende-festlegungen
+[6.2]:                   #62-schnittstellen-der-komponente-autorisierung
+[6.2.1]:                 #621-schnittstelle-i_authorization
+[6.2.1.1]:               #6211-operationsdefinition-i_authorizationgetauthorizationkey
+[6.2.1.2]:               #6212-umsetzung-i_authorizationgetauthorizationkey
+[6.2.2]:                 #622-schnittstelle-i_authorization_insurant
+[6.2.2.1]:               #6221-operationsdefinition-i_authorization_insurantgetauthorizationkey
+[6.2.2.2]:               #6222-umsetzung-i_authorization_insurantgetauthorizationkey
+[6.2.3]:                 #623-schnittstelle-i_authorization_management
+[6.2.3.1]:               #6231-operationsdefinition-i_authorization_managementputauthorizationkey
+[6.2.3.2]:               #6232-umsetzung-i_authorization_managementputauthorizationkey
+[6.2.3.3]:               #6233-operationsdefinition-i_authorization_managementcheckrecordexists
+[6.2.3.4]:               #6234-umsetzung-i_authorization_managementcheckrecordexists
+[6.2.3.5]:               #6235-operationsdefinition-i_authorization_managementgetauthorizationlist
+[6.2.3.6]:               #6236-umsetzung-i_authorization_managementgetauthorizationlist
+[6.2.3.7]:               #6237-operationsdefinition-i_authorization_managementgetauthorizationstate
+[6.2.3.8]:               #6238-umsetzung-i_authorization_managementgetauthorizationstate
+[6.2.4]:                 #624-schnittstelle-i_authorization_management_insurant
+[6.2.4.1]:               #6241-operationsdefinition-i_authorization_management_insurantputauthorizationkey
+[6.2.4.2]:               #6242-umsetzung-i_authorization_management_insurantputauthorizationkey
+[6.2.4.3]:               #6243-operationsdefinition-i_authorization_management_insurantdeleteauthorizationkey
+[6.2.4.4]:               #6244-umsetzung-i_authorization_management_insurantdeleteauthorizationkey
+[6.2.4.5]:               #6245-operationsdefinition-i_authorization_management_insurantreplaceauthorizationkey
+[6.2.4.6]:               #6246-umsetzung-i_authorization_management_insurantreplaceauthorizationkey
+[6.2.4.7]:               #6247-operationsdefinition-i_authorization_management_insurantgetauditevents
+[6.2.4.8]:               #6248-umsetzung-i_authorization_management_insurantgetauditevents
+[6.2.4.9]:               #6249-operationsdefinition-i_authorization_management_insurantgetsignedauditevents
+[6.2.4.10]:              #62410-umsetzung-i_authorization_management_insurantgetsignedauditevents
+[6.2.4.11]:              #62411-operationsdefinition-i_authorization_management_insurantputnotificationinfo
+[6.2.4.12]:              #62412-umsetzung-i_authorization_management_insurantputnotificationinfo
+[6.2.4.13]:              #62413-operationsdefinition-i_authorization_management_insurantgetnotificationinfo
+[6.2.4.14]:              #62414-umsetzung-i_authorization_management_insurantgetnotificationinfo
+[6.2.4.15]:              #62415-operationsdefinition-i_authorization_management_insurantgetktrtelematikid
+[6.2.4.16]:              #62416-umsetzung-i_authorization_management_insurantgetktrtelematikid
+[6.2.4.17]:              #62417-operationsdefinition-i_authorization_management_insurantgetauthorizationlist
+[6.2.4.18]:              #62418-umsetzung-i_authorization_management_insurantgetauthorizationlist
+[6.2.4.19]:              #62419-operationsdefinition-i_authorization_management_insurantstartkeychange
+[6.2.4.20]:              #62420-umsetzung-i_authorization_management_insurantstartkeychange
+[6.2.4.21]:              #62421-operationsdefinition-i_authorization_management_insurantputforreplacement
+[6.2.4.22]:              #62422-umsetzung-i_authorization_management_insurantputforreplacement
+[6.2.4.23]:              #62423-operationsdefinition-i_authorization_management_insurantfinishkeychange
+[6.2.4.24]:              #62424-umsetzung-i_authorization_management_insurantfinishkeychange
+[6.2.4.25]:              #62425-fehlerbehandlung-i_authorization_management_insurant
+[6.3]:                   #63-berechtigungstypen-der-autorisierung
+[6.4]:                   #64-hardware-merkmal-der-komponente-autorisierung
+[6.5]:                   #65-geräteverwaltung
+[6.5.1]:                 #651-freischaltprozess-neuer-geräte
+[6.5.2]:                 #652-geräteadministration
+[6.6]:                   #66-freischaltprozess-vertretereinrichtung
+[7]:                     #7-informationsmodell
+[7.1]:                   #71-namensräume
+[7.2]:                   #72-saml-profil-und-tokeninhalte
+[8]:                     #8-verteilungssicht
+[9]:                     #9-anhang-a-–-verzeichnisse
+[9.1]:                   #91-abkürzungen
+[9.2]:                   #92-glossar
+[9.3]:                   #93-abbildungsverzeichnis
+[9.4]:                   #94-tabellenverzeichnis
+[9.5]:                   #95-referenzierte-dokumente
+[9.5.1]:                 #951-dokumente-der-gematik
+[9.5.2]:                 #952-weitere-dokumente
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Abbildung-1]:           Anwendungsfälle der Schlüsselverwaltung nach Umge.. (&93834768497776) data:image/bmp;base64,Qk1GtA8AAAAAADYAAAAoAAAAjgIAAAwCAAABABgAAA...
+[Abbildung-2]:           Komponente Autorisierung, benachbarte Komponenten.. (&93834764148696) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuQAAAELCAYAAACRXp...
+[Abbildung-3]:           GERROR-Struktur zur Rückgabe einer Fehlermeldung    (&93834781725384) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdcAAAGXCAYAAADh3B...
+[Abbildung-4]:           Informativer Ablauf des Geräte-Freischaltprozesses  (&93834783724312) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvIAAAKnCAIAAABruj...
+[Abbildung-5]:           Informativer Ablauf des Freischaltprozesses für V.. (&93834785988984) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuUAAAKeCAIAAACNvf...
+[Abbildung-6]:           Informationsmodell der intern verwalteten Daten     (&93834764315488) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfMAAAF/CAIAAADSH7...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834801632112)
+[Tabelle-1]:             #Tabelle-1 (&93834768504944)
+[Tabelle -2]:            #Tabelle -2 (&93834781669032)
+[Tabelle-3]:             #Tabelle-3 (&93834772236080)
+[Tabelle-4]:             #Tabelle-4 (&93834772278008)
+[Tabelle-5]:             #Tabelle-5 (&93834768030848)
+[Tabelle-6]:             #Tabelle-6 (&93834776366592)
+[Tabelle-7]:             #Tabelle-7 (&93834801577160)
+[Tabelle-8]:             #Tabelle-8 (&93834799002032)
+[Tabelle-9]:             #Tabelle-9 (&93834785762472)
+[Tabelle-10]:            #Tabelle-10 (&93834777672600)
+[Tabelle-11]:            #Tabelle-11 (&93834781774200)
+[Tabelle-12]:            #Tabelle-12 (&93834764482576)
+[Tabelle-13]:            #Tabelle-13 (&93834774917608)
+[Tabelle-14]:            #Tabelle-14 (&93834789679000)
+[Tabelle-15]:            #Tabelle-15 (&93834776292400)
+[Tabelle-16]:            #Tabelle-16 (&93834783877232)
+[Tabelle-17]:            #Tabelle-17 (&93834778252008)
+[Tabelle-18]:            #Tabelle-18 (&93834768667528)
+[Tabelle-19]:            #Tabelle-19 (&93834799063080)
+[Tabelle-20]:            #Tabelle-20 (&93834799139056)
+[Tabelle-21]:            #Tabelle-21 (&93834765321360)
+[Tabelle-22]:            #Tabelle-22 (&93834775678728)
+[Tabelle-23]:            #Tabelle-23 (&93834775695392)
+[Tabelle-24]:            #Tabelle-24 (&93834800037744)
+[Tabelle -25]:           #Tabelle -25 (&93834800118088)
+[Tabelle-26]:            #Tabelle-26 (&93834783702544)
+[Tabelle-27]:            #Tabelle-27 (&93834764335856)
+[Tabelle-28]:            #Tabelle-28 (&93834764355744)
+[Tbl-030]:               #Tbl-030 (&93834769499712)
+[Tbl-031]:               #Tbl-031 (&93834769523280)
+[Tabelle-29]:            #Tabelle-29 (&93834771224104)
+[Tabelle-30]:            #Tabelle-30 (&93834771276400)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+[https://github.com/gematik/api-ePA]: https://github.com/gematik/api-ePA (&93834771272160)
+[http://docs.oasis-open.org/security/saml/v2.0/]: http://docs.oasis-open.org/security/saml/v2.0/ (&93834771282664)
+[https://www.w3.org/TR/soap12-part1/]: https://www.w3.org/TR/soap12-part1/ (&93834771286328)
+[https://www.w3.org/TR/wsdl.html]: https://www.w3.org/TR/wsdl.html (&93834771290704)
+[https://www.w3.org/Submission/wsdl11soap12/]: https://www.w3.org/Submission/wsdl11soap12/ (&93834771294848)
+[http://ws-i.org/Profiles/BasicProfile-2.0-2010-11-09.html]: http://ws-i.org/Profiles/BasicProfile-2.0-2010-11-09.html (&93834771299176)
+[http://docs.oasis-open.org/ws-sx/ws-trust/v1.4/errata01/os/ws-trust-1.4-errata01-os-complete.pdf]: http://docs.oasis-open.org/ws-sx/ws-trust/v1.4/errata01/os/ws-trust-1.4-errata01-os-complete.pdf (&93834771303024)
+[http://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf]: http://www.oasis-open.org/committees/download.php/16790/wss-v1.1-spec-os-SOAPMessageSecurity.pdf (&93834771306688)
+[https://www.oasis-open.org/committees/download.php/16768/wss-v1.1-spec-os-SAMLTokenProfile.pdf]: https://www.oasis-open.org/committees/download.php/16768/wss-v1.1-spec-os-SAMLTokenProfile.pdf (&93834771310832)
+[http://docs.oasis-open.org/xspa/saml-xspa/v2.0/saml-xspa-v2.0.html]: http://docs.oasis-open.org/xspa/saml-xspa/v2.0/saml-xspa-v2.0.html (&93834771315160)
+[https://tools.ietf.org/html/rfc5322]: https://tools.ietf.org/html/rfc5322 (&93834771323176)
+[https://tools.ietf.org/html/rfc5280#page-71]: https://tools.ietf.org/html/rfc5280#page-71 (&93834771327808)
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+

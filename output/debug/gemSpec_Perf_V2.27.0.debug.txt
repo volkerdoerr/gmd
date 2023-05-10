@@ -1,0 +1,363 @@
+
+===============================
+XML2GMD SERIALIZER DEBUG OUTPUT
+===============================
+
+Übergreifende Spezifikation<br>Performance und Mengengerüst TI-Plattform
+
+---------
+META DATA
+---------
+
+Klassifizierung: öffentlich
+Referenzierung: gemSpec_Perf
+Revision: 604178
+Stand: 27.03.2023
+Status: freigegeben
+Version: 2.27.0
+
+--------
+WARNINGS
+--------
+
+no warnings :)
+
+-----------------------
+SECTIONS REFERENCE LIST
+-----------------------
+
+[Dokumentinformationen]: #dokumentinformationen
+[Inhaltsverzeichnis]:    #inhaltsverzeichnis
+[1]:                     #1-einordnung-des-dokuments
+[1.1]:                   #11-zielsetzung
+[1.2]:                   #12-zielgruppe
+[1.3]:                   #13-geltungsbereich
+[1.4]:                   #14-abgrenzung-des-dokuments
+[1.5]:                   #15-methodik
+[1.5.1]:                 #151-anforderungen
+[2]:                     #2-performance-kenngrößen-und-ihr-einsatz
+[2.1]:                   #21-bearbeitungszeit
+[2.2]:                   #22-last
+[2.3]:                   #23-verfügbarkeit
+[2.4]:                   #24-einsatz-der-performance-kenngrößen
+[2.5]:                   #25-performance-evaluierung-auf-der-basis-von-rohdaten
+[2.5.1]:                 #251-rohdaten-performance-reporting-rohdatenerfassung-v01
+[2.5.2]:                 #252-rohdaten-performance-reporting-rohdatenerfassung-v02
+[2.5.2.1]:               #2521-umfang
+[2.5.2.2]:               #2522-lieferintervalle
+[2.5.2.3]:               #2523-format
+[3]:                     #3-produkttypspezifische-vorgaben
+[3.1]:                   #31-idp-dienste
+[3.1.1]:                 #311-leistungsanforderungen-idp-dienste
+[3.1.1.1]:               #3111-lastmodell-idp-dienste
+[3.1.1.2]:               #3112-bearbeitungszeiten-idp-dienste
+[3.1.1.3]:               #3113-performancevorgaben-idp-dienste
+[3.1.2]:                 #312-rohdaten-performance-reporting-spezifika-idp-dienste
+[3.1.2.1]:               #3121-spezifika-umfang-idp-dienste
+[3.1.2.2]:               #3122-spezifika-format-idp-dienste
+[3.1.3]:                 #313-bestandsdaten-sektoraler-idp
+[3.2]:                   #32-e-rezept
+[3.2.1]:                 #321-leistungsanforderungen-e-rezept
+[3.2.1.1]:               #3211-lastmodell-e-rezept
+[3.2.1.2]:               #3212-bearbeitungszeiten-e-rezept
+[3.2.1.3]:               #3213-performancevorgaben-e-rezept
+[3.2.2]:                 #322-rohdaten-performance-reporting-spezifika-e-rezept
+[3.2.2.1]:               #3221-umfang
+[3.2.2.2]:               #3222-format
+[3.2.3]:                 #323-bestandsdaten
+[3.3]:                   #33-ti-messenger-ti-m
+[3.3.1]:                 #331-verfügbarkeit
+[3.3.2]:                 #332-rohdaten
+[3.4]:                   #34-tsp-x509
+[3.4.1]:                 #341-leistungsanforderungen-tsp-x509
+[3.4.1.1]:               #3411-lastmodell-tsp-x509
+[3.4.1.2]:               #3412-bearbeitungszeiten-tsp-x509
+[3.4.1.3]:               #3413-performancevorgaben-tsp-x509
+[3.4.2]:                 #342-rohdaten-performance-reporting-spezifika-tsp-x509
+[3.4.2.1]:               #3421-umfang
+[3.4.2.2]:               #3422-format
+[3.5]:                   #35-idp-federation-master
+[3.5.1]:                 #351-leistungsanforderungen-idp-federation-master
+[3.5.1.1]:               #3511-lastmodell-idp-federation-master
+[3.5.1.2]:               #3512-bearbeitungszeiten-idp-federation-master
+[3.5.1.3]:               #3513-performancevorgaben-idp-federation-master
+[3.5.2]:                 #352-rohdaten-performance-reporting-spezifika-idp-federation-master
+[3.5.2.1]:               #3521-spezifika-umfang-idp-federation-master
+[3.5.2.2]:               #3522-spezifika-format-idp-federation-master
+[3.6]:                   #36-vpn-zugangsdienst
+[3.6.1]:                 #361-leistungsanforderungen-vpn-zugangsdienst
+[3.6.1.1]:               #3611-lastmodell-vpn-zugangsdienst
+[3.6.1.2]:               #3612-bearbeitungszeiten-vpn-zugangsdienst
+[3.6.1.3]:               #3613-performancevorgaben-vpn-zugangsdienst
+[3.6.2]:                 #362-rohdaten-performance-reporting-spezifika-vpn-zugangsdienst
+[3.6.2.1]:               #3621-umfang
+[3.6.2.2]:               #3622-format
+[3.7]:                   #37-ncpeh-fachdienst
+[3.7.1]:                 #371-leistungsanforderungen-ncpeh-fachdienst
+[3.7.1.1]:               #3711-lastmodell-ncpeh-fachdienst
+[3.7.1.2]:               #3712-bearbeitungszeiten-ncpeh-fachdienst
+[3.7.1.3]:               #3713-performancevorgaben-ncpeh-fachdienst
+[3.7.2]:                 #372-rohdaten-performance-reporting-spezifika-ncpeh-fachdienst
+[3.7.2.1]:               #3721-umfang
+[3.7.2.2]:               #3722-format
+[4]:                     #4-leistungsanforderungen-für-anwendungsfälle
+[4.1]:                   #41-spitzenlasten-für-anwendungsfälle
+[4.1.1]:                 #411-mengengerüst
+[4.1.2]:                 #412-versichertenstammdatenmanagement-vsdm
+[4.1.3]:                 #413-kommunikation-leistungserbringer-kom-le
+[4.1.4]:                 #414-notfalldaten-management-nfdm
+[4.1.5]:                 #415-empamts-datenmanagement
+[4.1.6]:                 #416-elektronische-patientenakte-epa
+[4.1.7]:                 #417-tokenbasierte-authentisierung-tbauth
+[4.1.8]:                 #418-lastmodell-auf-ebene-der-anwendungsfälle
+[4.1.9]:                 #419-betriebliche-anwendungsfälle
+[4.2]:                   #42-bearbeitungszeiten
+[4.2.1]:                 #421-bearbeitungszeiten-kom-le
+[4.2.2]:                 #422-bearbeitungszeiten-notfalldaten-management-nfdm
+[4.2.3]:                 #423-bearbeitungszeiten-empamts-datenmanagement
+[4.2.4]:                 #424-bearbeitungszeiten-elektronische-patientenakte-epa
+[4.2.5]:                 #425-bearbeitungszeiten-tokenbasierte-authentisierung
+[4.3]:                   #43-verfügbarkeiten
+[5]:                     #5-leistungsanforderungen-an-die-produkttypen-der-ti
+[5.1]:                   #51-produkttypen-der-dezentralen-zone-der-ti-plattform
+[5.1.1]:                 #511-produkttypen-egk-hba-smc-b-smc-k-smc-kt
+[5.1.2]:                 #512-produkttyp-konnektor
+[5.1.2.1]:               #5121-fachmodul-epa
+[5.1.3]:                 #513-produkttyp-ehealth-kartenterminal
+[5.1.4]:                 #514-produkttyp-mobiles-kartenterminal
+[5.1.5]:                 #515-produkttyp-ktr-adv
+[5.2]:                   #52-produkttypen-der-zentralen-zone-der-ti-plattform
+[5.2.1]:                 #521-produkttyp-verzeichnisdienst
+[5.2.2]:                 #522-produkttyp-konfigurationsdienst
+[5.2.3]:                 #523-produkttypen-der-pki-–-tsl-dienst
+[5.2.4]:                 #524-pki-komponenten-–-ocsp-responder--crl-dienst
+[5.2.5]:                 #525-produkttyp-tsp-x509nonqes-komp---provisioningrevocation
+[5.2.6]:                 #526-produkttyp-störungsampel
+[5.2.7]:                 #527-produkttyp-service-monitoring
+[5.2.8]:                 #528-produkttyp-namensdienst
+[5.2.9]:                 #529-produkttyp-zeitdienst
+[5.2.10]:                #5210-produkttyp-zentrales-netz-der-ti
+[5.2.11]:                #5211-produkttyp-vpn-zugangsdienst
+[5.2.12]:                #5212-produkttyp-sicherheitsgateway-bestandsnetze
+[5.2.13]:                #5213-produkttyp-signaturdienst
+[5.2.14]:                #5214-produkttyp-schlüsselgenerierungsdienst
+[5.2.15]:                #5215-produkttyp-idp-dienst
+[5.3]:                   #53-produkttypen-vsdm
+[5.3.1]:                 #531-produkttyp-vsdm-intermediär
+[5.3.2]:                 #532-produkttypen-fachdienste-vsdm-ufs-vsdd-cms
+[5.4]:                   #54-produkttypen-kom-le
+[5.4.1]:                 #541-produkttyp-kom-le-clientmodul
+[5.4.2]:                 #542-produkttyp-kom-le-fachdienst
+[5.5]:                   #55-produkttyp-epa-aktensystem
+[5.6]:                   #56-produkttyp-apovzd
+[5.6.1]:                 #561-verfügbarkeit
+[5.6.2]:                 #562-last
+[5.6.3]:                 #563-antwortzeiten
+[5.6.4]:                 #564-bereitstellung-betriebsdaten
+[6]:                     #6-anhang-a-–-verzeichnisse
+[6.1]:                   #61-glossar
+[6.2]:                   #62-abbildungsverzeichnis
+[6.3]:                   #63-tabellenverzeichnis
+[6.4]:                   #64-referenzierte-dokumente
+[6.4.1]:                 #641-dokumente-der-gematik
+[6.4.2]:                 #642-weitere-dokumente
+[7]:                     #7-anhang-b-–-modelldetails
+[7.1]:                   #71-verteilung-der-konnektorbearbeitungszeiten-auf-komponenten
+[8]:                     #8-anhang-c-–-performance-berichtsformate
+[9]:                     #9-anhang-d-–-performancerelevante-produktmustereigenschaften-des-qes-konnektors
+[10]:                    #10-anhang-e-–-testverfahren-zur-prüfung-der-skalierungsfähigkeit-des-qes-konnektors
+
+--------------------
+IMAGE REFERENCE LIST
+--------------------
+
+[Img-001]:                                                                   (&93834771024640) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANQEAYAAAAH8z...
+[Img-002]:                                                                   (&93834771025600) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAMREAYAAADD9+...
+[Img-003]:                                                                   (&93834771026856) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANpEAYAAAAkhm...
+[Img-004]:                                                                   (&93834771028112) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANQEAYAAAAH8z...
+[Img-005]:                                                                   (&93834771028768) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAALfEAYAAABOYp...
+[Abbildung-1]:           Beispiel für Zerlegung einer Funktion und die Mod.. (&93834771030080) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmsAAAFUCAIAAAD06u...
+[Img-007]:                                                                   (&93834771038480) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANQEAYAAAAH8z...
+[Img-008]:                                                                   (&93834771039440) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAI2EAYAAAB/Kd...
+[Img-009]:                                                                   (&93834771042080) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANQEAYAAAAH8z...
+[Img-010]:                                                                   (&93834771827272) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAI2EAYAAAB/Kd...
+[Img-011]:                                                                   (&93834771829848) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAI2EAYAAAB/Kd...
+[Abbildung-2]:           Beispiel für gemessene Aufrufe, die zu Aufrufzeit.. (&93834771836208) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAloAAABWCAYAAAAXBj...
+[Img-013]:                                                                   (&93834771839552) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANGEAYAAADSfN...
+[Img-014]:                                                                   (&93834771840808) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANGEAYAAADSfN...
+[Abbildung-3]:           Beispiel einer über den Zeitraum T gemittelten Au.. (&93834771842120) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAk8AAAE8CAIAAABW+8...
+[Img-016]:                                                                   (&93834771846664) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANQEAYAAAAH8z...
+[Img-017]:                                                                   (&93834771847320) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAANQEAYAAAAH8z...
+[Img-018]:                                                                   (&93834771850016) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAOlEAYAAABCrL...
+[Img-019]:                                                                   (&93834771850672) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAOlEAYAAABCrL...
+[Img-020]:                                                                   (&93834771851328) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAOlEAYAAABCrL...
+[Abbildung-4]:           Entwicklung der Spitzenlast (oder mehreren fallab.. (&93834771852824) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmwAAADgCAIAAAAxGq...
+[Img-022]:                                                                   (&93834771855872) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAOlEAYAAABCrL...
+[Img-023]:                                                                   (&93834771857312) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAGpEAYAAACi8W...
+[Img-024]:                                                                   (&93834783607664) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAFJEAYAAAC0tX...
+[Img-025]:                                                                   (&93834783610368) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAACCEAYAAABp7Z...
+[Abbildung-5]:           Quadranten der Kombination aus Bearbeitungszeit- .. (&93834803601680) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAk0AAAGDCAIAAAC5kr...
+[Abbildung-6]:           Messpunkte zur Konnektor Performance-Messung        (&93834766515552) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlkAAAFWCAIAAADVJB...
+[Abbildung-7]:           Messaufbau zum IPSec-Durchsatzmessung               (&93834766552368) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABFIAAACoCAIAAABMnl...
+[Abbildung-8]:           Messpunkte zur Kartenterminal Performance-Messung   (&93834767371360) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlcAAACsCAIAAADZkx...
+[Abbildung-9]:           Netzwerktopologie – Punkte mit Lastvorgaben (oran.. (&93834769110744) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAG7EAYAAADs78...
+[Img-031]:                                                                   (&93834779240712) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAxCAYAAACie0...
+[Img-032]:                                                                   (&93834779880432) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAiCAYAAAC5gz...
+[Img-033]:                                                                   (&93834779881088) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAxCAYAAABwK0...
+[Img-034]:                                                                   (&93834779882344) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-035]:                                                                   (&93834779883000) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAiCAYAAAC5gz...
+[Img-036]:                                                                   (&93834779883656) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAxCAYAAACie0...
+[Img-037]:                                                                   (&93834779885272) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALUAAAAxCAYAAACccu...
+[Img-038]:                                                                   (&93834779886776) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-039]:                                                                   (&93834779888392) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA7EAAABkCAYAAABQOL...
+[Img-040]:                                                                   (&93834779889896) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-041]:                                                                   (&93834779940776) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAosAAABkCAYAAADuZ3...
+[Img-042]:                                                                   (&93834779962496) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAxCAYAAACie0...
+[Img-043]:                                                                   (&93834780431072) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAiCAYAAAC5gz...
+[Img-044]:                                                                   (&93834780431824) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAxCAYAAABwK0...
+[Img-045]:                                                                   (&93834780433056) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-046]:                                                                   (&93834780433712) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAiCAYAAAC5gz...
+[Img-047]:                                                                   (&93834780434368) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAxCAYAAACie0...
+[Img-048]:                                                                   (&93834780435984) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALUAAAAxCAYAAACccu...
+[Img-049]:                                                                   (&93834780437488) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-050]:                                                                   (&93834780439104) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAhQAAACuCAYAAAButJ...
+[Img-051]:                                                                   (&93834780440608) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-052]:                                                                   (&93834780442224) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPcAAADcCAYAAACs5z...
+[Img-053]:                                                                   (&93834780460104) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAxCAYAAACie0...
+[Img-054]:                                                                   (&93834780661088) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAiCAYAAAC5gz...
+[Img-055]:                                                                   (&93834780661744) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAxCAYAAABwK0...
+[Img-056]:                                                                   (&93834780663000) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-057]:                                                                   (&93834780663656) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAiCAYAAAC5gz...
+[Img-058]:                                                                   (&93834780664312) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAxCAYAAACie0...
+[Img-059]:                                                                   (&93834780665928) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALUAAAAxCAYAAACccu...
+[Img-060]:                                                                   (&93834780667432) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-061]:                                                                   (&93834780669048) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAx4AAABkCAYAAAAIa+...
+[Img-062]:                                                                   (&93834780670552) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-063]:                                                                   (&93834780672168) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfgAAABkCAYAAABq+y...
+[Img-064]:                                                                   (&93834780923824) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAiCAYAAAC5gz...
+[Img-065]:                                                                   (&93834780924480) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAxCAYAAABwK0...
+[Img-066]:                                                                   (&93834780925736) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-067]:                                                                   (&93834780926392) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAiCAYAAAC5gz...
+[Img-068]:                                                                   (&93834780927048) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAxCAYAAACie0...
+[Img-069]:                                                                   (&93834780928664) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALUAAAAxCAYAAACccu...
+[Img-070]:                                                                   (&93834780930168) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-071]:                                                                   (&93834780931784) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAboAAACuCAYAAABAx8...
+[Img-072]:                                                                   (&93834780933288) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAxCAYAAABqF6...
+[Img-073]:                                                                   (&93834780934904) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPcAAADcCAYAAACs5z...
+
+--------------------
+TABLE REFERENCE LIST
+--------------------
+
+[Tbl-001]:               #Tbl-001 (&93834804174672)
+[Tbl-002]:               #Tbl-002 (&93834781679064)
+[Tbl-003]:               #Tbl-003 (&93834764413152)
+[Tabelle-1]:             #Tabelle-1 (&93834764420632)
+[Tabelle-2]:             #Tabelle-2 (&93834777637936)
+[Tbl-006]:               #Tbl-006 (&93834777669384)
+[Tabelle-3]:             #Tabelle-3 (&93834777686168)
+[Tabelle-4]:             #Tabelle-4 (&93834772250640)
+[Tabelle-5]:             #Tabelle-5 (&93834772295112)
+[Tabelle-6]:             #Tabelle-6 (&93834781741592)
+[Tabelle-7]:             #Tabelle-7 (&93834781572040)
+[Tabelle-8]:             #Tabelle-8 (&93834783883408)
+[Tabelle-9]:             #Tabelle-9 (&93834783914696)
+[Tabelle-10]:            #Tabelle-10 (&93834783479920)
+[Tabelle-11]:            #Tabelle-11 (&93834783550824)
+[Tabelle-12]:            #Tabelle-12 (&93834778269600)
+[Tabelle-13]:            #Tabelle-13 (&93834785756400)
+[Tabelle-14]:            #Tabelle-14 (&93834808712072)
+[Tabelle-15]:            #Tabelle-15 (&93834783725464)
+[Tabelle-16]:            #Tabelle-16 (&93834783767848)
+[Tbl-021]:               #Tbl-021 (&93834783373056)
+[Tabelle-17]:            #Tabelle-17 (&93834783404464)
+[Tabelle-18]:            #Tabelle-18 (&93834781284456)
+[Tabelle-19]:            #Tabelle-19 (&93834781321112)
+[Tabelle-20]:            #Tabelle-20 (&93834781372656)
+[Tabelle-21]:            #Tabelle-21 (&93834764172872)
+[Tabelle-22]:            #Tabelle-22 (&93834764278712)
+[Tabelle-23]:            #Tabelle-23 (&93834764352192)
+[Tabelle-24]:            #Tabelle-24 (&93834776813720)
+[Tabelle-25]:            #Tabelle-25 (&93834776930432)
+[Tabelle-26]:            #Tabelle-26 (&93834776944024)
+[Tabelle-27]:            #Tabelle-27 (&93834776981056)
+[Tabelle-28]:            #Tabelle-28 (&93834785151328)
+[Tabelle-29]:            #Tabelle-29 (&93834802100576)
+[Tabelle-30]:            #Tabelle-30 (&93834802190128)
+[Tabelle-31]:            #Tabelle-31 (&93834802338864)
+[Tabelle-32]:            #Tabelle-32 (&93834802756072)
+[Tabelle-33]:            #Tabelle-33 (&93834802858384)
+[Tabelle-34]:            #Tabelle-34 (&93834802921128)
+[Tabelle-35]:            #Tabelle-35 (&93834802968288)
+[Tabelle-36]:            #Tabelle-36 (&93834803047920)
+[Tabelle-37]:            #Tabelle-37 (&93834803109064)
+[Tabelle-38]:            #Tabelle-38 (&93834803179608)
+[Tabelle-39]:            #Tabelle-39 (&93834803200768)
+[Tabelle-40]:            #Tabelle-40 (&93834803245496)
+[Tabelle-41]:            #Tabelle-41 (&93834803290424)
+[Tabelle-42]:            #Tabelle-42 (&93834803312680)
+[Tabelle-43]:            #Tabelle-43 (&93834803374992)
+[Tabelle-44]:            #Tabelle-44 (&93834803494064)
+[Tabelle-45]:            #Tabelle-45 (&93834803569264)
+[Tabelle-46]:            #Tabelle-46 (&93834803664032)
+[Tbl-052]:               #Tbl-052 (&93834766102432)
+[Tabelle-48]:            #Tabelle-48 (&93834766194872)
+[Tabelle-49]:            #Tabelle-49 (&93834766211424)
+[Tabelle-50]:            #Tabelle-50 (&93834766306920)
+[Tabelle-51]:            #Tabelle-51 (&93834766694384)
+[Tabelle-52]:            #Tabelle-52 (&93834766973696)
+[Tabelle-53]:            #Tabelle-53 (&93834767006640)
+[Tbl-059]:               #Tbl-059 (&93834767513584)
+[Tabelle-55]:            #Tabelle-55 (&93834768486712)
+[Tabelle-56]:            #Tabelle-56 (&93834768565400)
+[Tabelle-57]:            #Tabelle-57 (&93834768619488)
+[Tbl-063]:               #Tbl-063 (&93834768840784)
+[Tabelle-59]:            #Tabelle-59 (&93834768870288)
+[Tbl-065]:               #Tbl-065 (&93834768924568)
+[Tabelle-61]:            #Tabelle-61 (&93834768973352)
+[Tabelle-62]:            #Tabelle-62 (&93834769115336)
+[Tabelle-63]:            #Tabelle-63 (&93834769673208)
+[Tabelle-64]:            #Tabelle-64 (&93834769714072)
+[Tabelle-65]:            #Tabelle-65 (&93834769798472)
+[Tbl-071]:               #Tbl-071 (&93834769826080)
+[Tabelle-67]:            #Tabelle-67 (&93834769926840)
+[Tabelle-68]:            #Tabelle-68 (&93834770036864)
+[Tabelle-69]:            #Tabelle-69 (&93834770227392)
+[Tabelle-71]:            #Tabelle-71 (&93834770344528)
+[Tabelle-72]:            #Tabelle-72 (&93834770533104)
+[Tabelle-73]:            #Tabelle-73 (&93834770580304)
+[Tabelle-74]:            #Tabelle-74 (&93834770610160)
+[Tabelle-75]:            #Tabelle-75 (&93834770645728)
+[Tbl-080]:               #Tbl-080 (&93834770665592)
+[Tbl-081]:               #Tbl-081 (&93834770816320)
+[Tbl-082]:               #Tbl-082 (&93834770871824)
+[Tbl-083]:               #Tbl-083 (&93834770916640)
+[Tabelle-78]:            #Tabelle-78 (&93834778893344)
+[Tabelle-79]:            #Tabelle-79 (&93834778929376)
+[Tabelle-80]:            #Tabelle-80 (&93834778967328)
+[Tabelle-81]:            #Tabelle-81 (&93834778981152)
+[Tabelle-82]:            #Tabelle-82 (&93834779005784)
+[Tabelle-83]:            #Tabelle-83 (&93834779023344)
+[Tabelle-84]:            #Tabelle-84 (&93834779038568)
+[Tabelle-85]:            #Tabelle-85 (&93834779223008)
+[Tabelle-86]:            #Tabelle-86 (&93834779806592)
+[Tabelle-87]:            #Tabelle-87 (&93834779944792)
+[Tabelle-88]:            #Tabelle-88 (&93834780250936)
+[Tabelle-89]:            #Tabelle-89 (&93834780456856)
+[Tabelle-90]:            #Tabelle-90 (&93834780564712)
+[Tabelle-91]:            #Tabelle-91 (&93834780676600)
+
+-------------------
+LINK REFERENCE LIST
+-------------------
+
+
+--------
+SECTIONS
+--------
+
+
+----------
+STATISTICS
+----------
+
