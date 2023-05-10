@@ -1,0 +1,1859 @@
+<html>
+ <head>
+  <style>
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.polarion-table {
+  width: 100%;
+  margin-left:  auto;
+  margin-right: auto;
+  border: 1px solid #CCCCCC;
+  empty-cells: show;
+  border-collapse: collapse;  
+}
+
+.polarion-table-header {
+   	font-weight: bold;
+   	background-color: #F0F0F0;
+   	text-align: left;
+   	vertical-align: top;
+   	width: 134px;
+   	height: 18.4444px;
+   	border: 1px solid #CCCCCC;
+   	padding: 5px;
+}
+
+.polarion-table-span {
+    font-size: 10pt;
+    line-height: 1.5;
+}
+
+.polarion-table-data {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+    width: 134px;
+    height: 18.4444px;
+    border: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    padding: 5px;
+}
+
+/* ol {
+  list-style-type: none;
+  Remove default numbering
+}
+
+ol > li:before {
+  counter-increment: mycounter;
+  content: counter(mycounter) ". ";
+}
+
+ol:first-of-type {
+  counter-reset: mycounter;
+} */
+
+</style>
+  <meta charset="utf-8">
+ </head>
+ <body>
+  <p id="polarion_1"> <br> </p>
+  <p id="polarion_2"> <br> </p>
+  <p id="polarion_3"> <span style="font-weight: bold;text-decoration: underline;font-size: 12pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">Elektronische Gesundheitskarte und Telematikinfrastruktur</span> </p>
+  <p id="polarion_4"> <br> </p>
+  <p id="polarion_5"> <br> </p>
+  <p id="polarion_6"> <br> </p>
+  <p id="polarion_8"> <br> </p>
+  <p id="polarion_9" style="text-align: center;"> <span style="font-weight: bold;font-size: 28pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.2;">Anbietertypsteckbrief</span> </p>
+  <p id="polarion_10"> <br> </p>
+  <p id="polarion_11" style="text-align: center;"> <span style="font-weight: bold;font-size: 28pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.2;">X.509 TSPs für eGK</span> </p>
+  <p id="polarion_12" style="margin-left: 80px;"> <br> </p>
+  <p id="polarion_13" style="margin-left: 80px;"> <br> </p>
+  <div id="polarion_editor_html_block2" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div>
+   <pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contenteditable="false">
+    <table>
+     <tr>
+      <td>Produkttyp Version</td>
+      <td>1.4.3</td>
+     </tr>
+     <tr>
+      <td>Produkttyp Status</td>
+      <td>freigegeben</td>
+     </tr>
+    </table></pre> 
+  </div>
+  <p id="polarion_14" style="margin-left: 80px;"></p>
+  <p id="polarion_16" style="margin-left: 120px;text-align: center;"></p>
+  <div id="polarion_editor_html_block1" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div>
+   <pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contenteditable="false">
+    <table>
+     <tr>
+      <td>Version</td>
+      <td>1.0.0</td>
+     </tr>
+     <tr>
+      <td>Revision</td>
+      <td>548770</td>
+     </tr>
+     <tr>
+      <td>Stand</td>
+      <td>14.02.2022</td>
+     </tr>
+     <tr>
+      <td>Status</td>
+      <td>in Bearbeitung</td>
+     </tr>
+     <tr>
+      <td>Klassifizierung</td>
+      <td>öffentlich</td>
+     </tr>
+     <tr>
+      <td>Referenzierung</td>
+      <td>gemAnbT_X509_TSP_eGK_ATV_1.4.3</td>
+     </tr>
+    </table></pre> 
+  </div>
+  <p id="polarion_21"></p>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-16579">Historie Anbietertypversion und Anbietertypsteckbrief</h1>
+  <p id="polarion_23"> <span style="font-weight: bold;color: #000000;">Historie Anbietertypversion</span> </p>
+  <p id="polarion_24"> <span style="color: #000000;">Die Anbietertypversion ändert sich, wenn sich die normativen Festlegungen für den Anbietertyp ändern.</span><br> </p>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=1" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;color: #000000;">Anbietertypversion</span> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;color: #000000;">Beschreibung der Änderung</span> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;color: #000000;">Referenz</span> </span></th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">1.0.0 </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Initiale Version </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">1.0.1 </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Anpassung auf Releasestand 1.6.4 </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gemAnbT_X.509_TSP_eGK_ATV1.0.1 </span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">1.0.2</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Anpassung auf Releasestand 2.1.2</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gemAnbT_X.509_TSP_eGK_ATV1.0.2</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">1.1.0</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Anpassung auf Vorab-Releasestand ZIS</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gemAnbT_X.509_TSP_eGK_ATV1.1.0</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">1.2.0</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Einführung Signaturdienst als Option<br> </span></td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gemAnbT_X.509_TSP_eGK_ATV1.2.0</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">1.3.0</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Anpassung auf Releasestand 3.1.1</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gemAnbT_X.509_TSP_eGK_ATV1.3.0</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">1.4.0</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Anpassung auf Releasestand 3.1.2</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">gemAnbT_X.509_TSP_eGK_ATV1.4.0</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">1.4.1</td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Anpassung auf Releasestand 3.1.3&nbsp;<span style="font-size: 10pt;line-height: 1.5;">(die Anforderungen zum Signaturdienst als Option wurden in einen extra Steckbrief ausgelagert)</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gemAnbT_X.509_TSP_eGK_ATV1.4.1</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">1.4.2</td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Anpassung auf Releasestand 4.0.0</td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gemAnbT_X.509_TSP_eGK_ATV1.4.2</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">1.4.3</td> 
+     <td style="text-align: left;vertical-align: top;width: 272px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Anpassung auf die Releasestände CI_Maintenance_21.2, Betr_Maintenance_21.3 und ePA_Maintenance_21.5 sowie redaktionelle Anpassungen</td> 
+     <td style="text-align: left;vertical-align: top;width: 292px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gemAnbT_X.509_TSP_eGK_ATV1.4.3</td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_28"></p>
+  <p id="polarion_30"> <span style="font-weight: bold;color: #000000;">Historie Anbietertypsteckbrief</span> </p>
+  <p id="polarion_29"> <span style="color: #000000;">Die Dokumentenversion des Anbietertypsteckbriefs ändert sich mit jeder inhaltlichen oder redaktionellen Änderung des Anbietertypsteckbriefs und seinen referenzierten Dokumenten. Redaktionelle Änderungen haben keine Auswirkung auf die Anbietertypversion.</span><br> </p>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=2" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;color: #000000;">Version</span> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 59px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;color: #000000;">Stand</span> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 56px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;color: #000000;">Kap.</span> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 288px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;color: #000000;">Grund der Änderung, besondere Hinweise</span> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 82px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;color: #000000;">Bearbeiter</span> </span></th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 62px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">1.0.0</td> 
+     <td style="text-align: left;vertical-align: top;width: 59px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">14.02.22</td> 
+     <td style="text-align: left;vertical-align: top;width: 56px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"></td> 
+     <td style="text-align: left;vertical-align: top;width: 288px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">freigegeben</td> 
+     <td style="text-align: left;vertical-align: top;width: 82px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-16580">Inhaltsverzeichnis</h1>
+  <div id="polarion_wiki macro name=toc"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-16579">Historie Anbietertypversion und Anbietertypsteckbrief</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-16580">Inhaltsverzeichnis</a></li>
+   <li> : <a href="#1">1 Einführung</a></li>
+   <li> : : <a href="#1.1">1.1 Zielsetzung und Einordnung des Dokumentes</a></li>
+   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
+   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
+   <li> : : <a href="#1.4">1.4 Abgrenzung des Dokumentes</a></li>
+   <li> : : <a href="#1.5">1.5 Methodik</a></li>
+   <li> : <a href="#2">2 Dokumente</a></li>
+   <li> : <a href="#3">3 Normative Festlegungen TSP X.509 eGK</a></li>
+   <li> : : <a href="#3.1">3.1 Festlegungen zur betrieblichen Eignung</a></li>
+   <li> : : : <a href="#3.1.1">3.1.1 Prozessprüfung betriebliche Eignung</a></li>
+   <li> : : : <a href="#3.1.2">3.1.2 Anbietererklärung betriebliche Eignung</a></li>
+   <li> : : : <a href="#3.1.3">3.1.3 Betriebshandbuch betriebliche Eignung</a></li>
+   <li> : : <a href="#3.2">3.2 Festlegungen zur sicherheitstechnischen Eignung</a></li>
+   <li> : : : <a href="#3.2.1">3.2.1 Sicherheitsgutachten</a></li>
+   <li> : : : <a href="#3.2.2">3.2.2 Anbietererklärung sicherheitstechnische Eignung</a></li>
+   <li> : <a href="#4">4 Anhang A – Verzeichnisse</a></li>
+   <li> : : <a href="#4.1">4.1 Abkürzungen</a></li>
+   <li> : : <a href="#4.2">4.2 Tabellenverzeichnis</a></li>
+   <li> : : <a href="#4.3">4.3 Referenzierte Dokumente</a></li>
+  </div>
+  <h2 id="1">1 Einführung</h2>
+  <h3 id="1.1">1.1 Zielsetzung und Einordnung des Dokumentes</h3>
+  <p id="polarion_35"> <span style="color: #000000;">Anbietertypsteckbriefe verzeichnen verbindlich die normativen Festlegungen der gematik an</span> Anbieter TSP X.509 eGK zur Sicherstellung des Betriebes der von ihnen verantworteten Serviceeinheiten. </p>
+  <p id="polarion_36"> <span style="color: #000000;">Die normativen Festlegungen werden über ihren Identifier, ihren Titel sowie die Dokumentenquelle referenziert. Die normativen Festlegungen mit ihrem vollständigen, normativen Inhalt sind dem jeweils referenzierten Dokument zu entnehmen.</span> </p>
+  <h3 id="1.2">1.2 Zielgruppe</h3>
+  <p id="polarion_37"> <span style="color: #000000;">Der Anbietertypsteckbrief richtet sich an:</span> </p>
+  <ul id="polarion_38"> 
+   <li>Anbieter TSP X.509 eGK</li> 
+   <li><span style="color: #000000;">die gematik im Rahmen der Zulassungsverfahren, Bestätigungsverfahren, Kooperationsverträge und Anbieterverfahren</span></li> 
+  </ul>
+  <h3 id="1.3">1.3 Geltungsbereich</h3>
+  <p id="polarion_39"> <span style="color: #000000;">Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungsverfahren werden durch die gematik GmbH in geson-derten Dokumenten (z.B. Dokumentenlandkarte) festgelegt und bekannt gegeben.</span> </p>
+  <h3 id="1.4">1.4 Abgrenzung des Dokumentes</h3>
+  <p id="polarion_40"> <span style="color: #000000;">Dieses Dokument macht keine Aussagen zur Aufteilung der Produktentwicklung bzw. Produktherstellung auf verschiedene Hersteller und Anbieter. </span> </p>
+  <p id="polarion_41"> <span style="color: #000000;">Dokumente zu den Zulassungsverfahren für den Anbietertyp sind nicht aufgeführt. Die geltenden Verfahren und Regelungen zur Beantragung und Durchführung von Zulassungsverfahren können der Homepage der gematik entnommen werden.</span> </p>
+  <h3 id="1.5">1.5 Methodik</h3>
+  <p id="polarion_42"> <span style="color: #000000;">Die im Dokument verzeichneten normativen Festlegungen werden tabellarisch dargestellt. Die Tabellenspalten haben die folgende Bedeutung:</span> </p>
+  <p id="polarion_43" style="margin-left: 40px;"> <span style="font-weight: bold;color: #000000;">ID:</span><span style="color: #000000;"> Identifiziert die normative Festlegung eindeutig im Gesamtbestand aller Festlegungen der gematik.</span> </p>
+  <p id="polarion_44" style="margin-left: 40px;"> <span style="font-weight: bold;color: #000000;">Bezeichnung:</span><span style="color: #000000;"> Gibt den Titel einer normativen Festlegung informativ wieder, um die thematische Einordnung zu erleichtern. Der vollständige Inhalt der normativen Festlegung ist dem Dokument zu entnehmen, auf das die Quellenangabe verweist.</span> </p>
+  <p id="polarion_45" style="margin-left: 40px;"> <span style="font-weight: bold;color: #000000;">Quelle (Referenz):</span><span style="color: #000000;"> Verweist auf das Dokument, das die normative Festlegung definiert.</span><br> </p>
+  <h2 id="2">2 Dokumente</h2>
+  <p id="polarion_48"> <span style="color: #000000;">Die nachfolgenden Dokumente enthalten alle für den Anbietertyp normativen Festlegungen. </span> </p>
+  <p id="polarion_50" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">1</span>: Dokumente mit Festlegungen zu der Anbietertypversion </p>
+  <table class="polarion-table">
+   <tr>
+    <th class="polarion-table-header"><span class="polarion-table-span">Dokumentenkürzel</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Bezeichnung des Dokumentes</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Version</span></th>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html">gemSpec_X_509_TSP</a></td>
+    <td class="polarion-table-data">Spezifikation Trust Service Provider X.509</td>
+    <td class="polarion-table-data">1.19.0</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Net/gemSpec_Net_V1.21.0.html">gemSpec_Net</a></td>
+    <td class="polarion-table-data">Übergreifende Spezifikation Netzwerk</td>
+    <td class="polarion-table-data">1.21.0</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_PKI/gemSpec_PKI_V2.11.1.html">gemSpec_PKI</a></td>
+    <td class="polarion-table-data">Übergreifende Spezifikation – Spezifikation PKI</td>
+    <td class="polarion-table-data">2.11.1</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html">gemRL_TSL_SP_CP</a></td>
+    <td class="polarion-table-data">Certificate Policy Gemeinsame Zertifizierungsrichtlinie für Teilnehmer der gematik-TSL</td>
+    <td class="polarion-table-data">2.10.1</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Perf/gemSpec_Perf_V2.17.0.html">gemSpec_Perf</a></td>
+    <td class="polarion-table-data">Übergreifende Spezifikation Performance und Mengengerüst TI-Plattform</td>
+    <td class="polarion-table-data">2.17.0</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html">gemKPT_Betr</a></td>
+    <td class="polarion-table-data">Betriebskonzept Online-Produktivbetrieb</td>
+    <td class="polarion-table-data">3.13.0</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html">gemSpec_DS_Anbieter</a></td>
+    <td class="polarion-table-data">Spezifikation Datenschutz- und Sicherheitsanforderungen der TI an Anbieter</td>
+    <td class="polarion-table-data">1.4.0</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html">gemSpec_Krypt</a></td>
+    <td class="polarion-table-data">Übergreifende Spezifikation Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur</td>
+    <td class="polarion-table-data">2.21.0</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html">gemRL_Betr_TI</a></td>
+    <td class="polarion-table-data">Übergreifende Richtlinien zum Betrieb der TI</td>
+    <td class="polarion-table-data">2.6.0</td>
+   </tr>
+  </table>
+  <div id="polarion_editor_html_block3" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div> 
+  </div>
+  <h2 id="3">3 Normative Festlegungen TSP X.509 eGK</h2>
+  <p id="polarion_56"> <span style="color: #000000;">Die folgenden Abschnitte verzeichnen alle für den Anbietertyp</span>en normativen Festlegungen der gematik an Anbieter TSP X.509 eGK&nbsp; zur Sicherstellung des Betriebes der von ihnen v<span style="color: #000000;">erantworteten Serviceeinheiten. Die Festlegungen sind gruppiert nach der Art der Nachweisführung ihrer Erfüllung als Grundlage der Zulassung.</span> </p>
+  <h3 id="3.1">3.1 Festlegungen zur betrieblichen Eignung</h3>
+  <h4 id="3.1.1">3.1.1 Prozessprüfung betriebliche Eignung</h4>
+  <p id="polarion_57"> <span style="color: #000000;">Sofern in diesem Abschnitt Festlegungen mit Vorgaben zu organisatorischen Maßnahmen wie Prozessen und Strukturvorgaben verzeichnet sind, muss deren Erfüllung im Rahmen von Prozessprüfungen nachgewiesen werden.</span> </p>
+  <p id="polarion_59" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">2</span>: Festlegungen zur betrieblichen Eignung "Prozessprüfung" </p>
+  <table class="polarion-table">
+   <tr>
+    <th class="polarion-table-header"><span class="polarion-table-span">ID</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Bezeichnung</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Quelle (Referenz)</span></th>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18236-01">A_18236-01</a></td>
+    <td class="polarion-table-data">Übermittlung von Performance-Reports</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18237">A_18237</a></td>
+    <td class="polarion-table-data">Lieferung von Performance-Rohdaten-Reports</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4095">GS-A_4095</a></td>
+    <td class="polarion-table-data">Übermittlung von Ad-hoc-Reports</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4101">GS-A_4101</a></td>
+    <td class="polarion-table-data">Übermittlung der Service Level Messergebnisse</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4125">GS-A_4125</a></td>
+    <td class="polarion-table-data">TI-Notfallerkennung</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5248">GS-A_5248</a></td>
+    <td class="polarion-table-data">Konventionen zur Struktur von Prozessdaten</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5249">GS-A_5249</a></td>
+    <td class="polarion-table-data">Reservierte Zeichen in den Prozessdaten</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2355-02">GS-A_2355-02</a></td>
+    <td class="polarion-table-data">Meldung von erheblichen Schwachstellen und Bedrohungen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4468-02">GS-A_4468-02</a></td>
+    <td class="polarion-table-data">kDSM: Jährlicher Datenschutzbericht der TI</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4473-01">GS-A_4473-01</a></td>
+    <td class="polarion-table-data">kDSM: Unverzügliche Benachrichtigung bei Verstößen gemäß Art. 34 DSGVO</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4478-01">GS-A_4478-01</a></td>
+    <td class="polarion-table-data">kDSM: Nachweis der Umsetzung von Maßnahmen in Folge eines gravierenden Datenschutzverstoßes</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4479-01">GS-A_4479-01</a></td>
+    <td class="polarion-table-data">kDSM: Meldung von Änderungen der Kontaktinformationen zum Datenschutzmanagement</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4523-01">GS-A_4523-01</a></td>
+    <td class="polarion-table-data">Bereitstellung Kontaktinformationen für Informationssicherheit</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4524-01">GS-A_4524-01</a></td>
+    <td class="polarion-table-data">Meldung von Änderungen der Kontaktinformationen für Informationssicherheit</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4530-01">GS-A_4530-01</a></td>
+    <td class="polarion-table-data">Maßnahmen zur Behebung von erheblichen Sicherheitsvorfällen und Notfällen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4532-01">GS-A_4532-01</a></td>
+    <td class="polarion-table-data">Nachweis der Umsetzung von Maßnahmen in Folge eines erheblichen Sicherheitsvorfalls oder Notfalls</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5555">GS-A_5555</a></td>
+    <td class="polarion-table-data">Unverzügliche Meldung von erheblichen Sicherheitsvorfällen und -notfällen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5556">GS-A_5556</a></td>
+    <td class="polarion-table-data">Unverzügliche Behebung von erheblichen Sicherheitsvorfällen und -notfällen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5559-01">GS-A_5559-01</a></td>
+    <td class="polarion-table-data">Bereitstellung Ergebnisse von Schwachstellenscans</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5560">GS-A_5560</a></td>
+    <td class="polarion-table-data">Entgegennahme und Prüfung von Meldungen der gematik</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5561">GS-A_5561</a></td>
+    <td class="polarion-table-data">Bereitstellung 24/7-Kontaktpunkt</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5562">GS-A_5562</a></td>
+    <td class="polarion-table-data">Bereitstellung Produktinformationen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5563">GS-A_5563</a></td>
+    <td class="polarion-table-data">Jahressicherheitsbericht</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5564">GS-A_5564</a></td>
+    <td class="polarion-table-data">kDSM: Ansprechpartner für Datenschutz</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5565">GS-A_5565</a></td>
+    <td class="polarion-table-data">kDSM: Unverzügliche Behebung von Verstößen gemäß Art. 34 DSGVO</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+  </table>
+  <div id="polarion_editor_html_block4" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div> 
+  </div>
+  <p id="polarion_17"></p>
+  <h4 id="3.1.2">3.1.2 Anbietererklärung betriebliche Eignung</h4>
+  <p id="polarion_62"> <span style="color: #000000;">Sofern in diesem Abschnitt Festlegungen mit Vorgaben zu organisatorischen Maßnahmen wie Prozessen und Strukturvorgaben der Aufbauorganisation sowie der Umgebung verzeichnet sind, muss der Anbieter deren Umsetzung und Beachtung durch eine Anbietererklärung bestätigen bzw. zusagen.&nbsp;</span> </p>
+  <p id="polarion_47"></p>
+  <p id="polarion_18">Abhängig davon ob das eingesetzte Produkt Performance-Rohdaten oder Performance-Reports an die gematik übermittelt, sind einige Festlegungen nicht relevant. Die beiden folgenden Tabellen verdeutlichen welche Festlegungen bei der jeweiligen Option entfallen.</p>
+  <p id="polarion_51">Tabelle der grundsätzlich zu erfüllenden Festlegungen und insbesondere der Festlegungen für den zukünftigen "Lieferweg 2" von Performance-Berichten in der Form von&nbsp;Rohdatenlieferung an die Betriebsdatenerfassung.</p>
+  <p id="polarion_52"></p>
+  <p id="polarion_31" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">3</span>: Festlegungen zur betrieblichen Eignung "Anbietererklärung"&nbsp;in der Variante "Lieferweg 2 - Rohdatenlieferung" </p>
+  <table class="polarion-table">
+   <tr>
+    <th class="polarion-table-header"><span class="polarion-table-span">ID</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Bezeichnung</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Quelle (Referenz)</span></th>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#A_13573-01">A_13573-01</a></td>
+    <td class="polarion-table-data">Serviceleistung der TI-ITSM-Teilnehmer im TI-ITSM-Teilnehmersupport zur Hauptzeit</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#A_18176">A_18176</a></td>
+    <td class="polarion-table-data">Mitwirkungspflichten bei der Einrichtung von Probes des Service Monitorings</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6359-02">TIP1-A_6359-02</a></td>
+    <td class="polarion-table-data">Definition der notwendigen Leistung anderer Anbieter durch Anbieter</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6360-02">TIP1-A_6360-02</a></td>
+    <td class="polarion-table-data">Kontrolle bereitgestellter Leistungen durch Anbieter</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6367-02">TIP1-A_6367-02</a></td>
+    <td class="polarion-table-data">Definition eines Business-Servicekatalog der angebotenen TI Services</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6371-02">TIP1-A_6371-02</a></td>
+    <td class="polarion-table-data">2nd-Level-Support: Single-Point-of-Contact (SPOC) für Anbieter</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6377-02">TIP1-A_6377-02</a></td>
+    <td class="polarion-table-data">Koordination von produktverantwortlichen Anbietern und Herstellern</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6388-02">TIP1-A_6388-02</a></td>
+    <td class="polarion-table-data">Bereitstellung eines lokalen IT-Service-Managements durch Anbieter für ihre zu verantwortenden Servicekomponenten</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6390-02">TIP1-A_6390-02</a></td>
+    <td class="polarion-table-data">Mitwirkung im TI-ITSM durch Anbieter</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6393-02">TIP1-A_6393-02</a></td>
+    <td class="polarion-table-data">Verantwortung für die Weiterleitung von Anfragen</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6415-02">TIP1-A_6415-02</a></td>
+    <td class="polarion-table-data">Fortgeführte Wahrnehmung der Serviceverantwortung bei der Delegation von Aufgaben</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_7261">TIP1-A_7261</a></td>
+    <td class="polarion-table-data">Erreichbarkeit der TI-ITSM-Teilnehmer untereinander</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_7262">TIP1-A_7262</a></td>
+    <td class="polarion-table-data">Haupt- und Nebenzeit der TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_7263">TIP1-A_7263</a></td>
+    <td class="polarion-table-data">Produktverantwortung der TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_7266">TIP1-A_7266</a></td>
+    <td class="polarion-table-data">Mitwirkungspflichten im TI-ITSM-System</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_13575">A_13575</a></td>
+    <td class="polarion-table-data">Qualität von RfCs</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_17735">A_17735</a></td>
+    <td class="polarion-table-data">Rohdatenreporting</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_17764">A_17764</a></td>
+    <td class="polarion-table-data">Verwendung CI-ID</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18363">A_18363</a></td>
+    <td class="polarion-table-data">Berechnung von Performance-Kenngrößen aus Rohdaten</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18403">A_18403</a></td>
+    <td class="polarion-table-data">Erstellung einer Root Cause Analysis im Incident - Prio 1</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18404">A_18404</a></td>
+    <td class="polarion-table-data">Erstellung einer Root Cause Analysis im Incident - Prio 2 bis 4</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18405">A_18405</a></td>
+    <td class="polarion-table-data">Erstellung einer Root Cause Analysis durch am Incident beteiligte TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18406">A_18406</a></td>
+    <td class="polarion-table-data">Nachlieferung zu einer Root Cause Analysis</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_18407">A_18407</a></td>
+    <td class="polarion-table-data">Unterstützung bei Change-Verifikation</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#A_19869">A_19869</a></td>
+    <td class="polarion-table-data">Performance - Rohdaten-Performance-Berichte - zu liefernde Berichte der TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3876">GS-A_3876</a></td>
+    <td class="polarion-table-data">Prüfung auf übergreifenden Incident</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3884">GS-A_3884</a></td>
+    <td class="polarion-table-data">Festlegung von Dringlichkeit und Auswirkung von übergreifenden Incidents</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3886-01">GS-A_3886-01</a></td>
+    <td class="polarion-table-data">Nutzung des TI-ITSM-Systems bei der Übermittlung eines übergreifenden Vorgangs</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3888">GS-A_3888</a></td>
+    <td class="polarion-table-data">Verifikation vor Schließung eines übergreifenden Incident</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3889">GS-A_3889</a></td>
+    <td class="polarion-table-data">Schließung eines übergreifenden Incidents</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3902">GS-A_3902</a></td>
+    <td class="polarion-table-data">Prüfung auf Serviceverantwortung</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3904">GS-A_3904</a></td>
+    <td class="polarion-table-data">Annahme eines übergreifenden Incidents</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3905">GS-A_3905</a></td>
+    <td class="polarion-table-data">Ablehnung eines übergreifenden Incidents</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3907">GS-A_3907</a></td>
+    <td class="polarion-table-data">Lösung von übergreifenden Incidents</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3920">GS-A_3920</a></td>
+    <td class="polarion-table-data">Eskalationseinleitung durch den TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3922">GS-A_3922</a></td>
+    <td class="polarion-table-data">Mitwirkung bei Taskforces</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3958">GS-A_3958</a></td>
+    <td class="polarion-table-data">Problemerkennung durch TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3959">GS-A_3959</a></td>
+    <td class="polarion-table-data">Prüfung auf übergreifendes Problem</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3964">GS-A_3964</a></td>
+    <td class="polarion-table-data">Festlegung von Dringlichkeit und Auswirkung von übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3971">GS-A_3971</a></td>
+    <td class="polarion-table-data">Verifikation vor Schließung eines übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3975">GS-A_3975</a></td>
+    <td class="polarion-table-data">Prüfung auf Serviceverantwortung zum übergreifenden Problem</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3976">GS-A_3976</a></td>
+    <td class="polarion-table-data">Ablehnung der Lösungsunterstützung</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3977">GS-A_3977</a></td>
+    <td class="polarion-table-data">Annahme der Verantwortung zur Lösungsunterstützung</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3981">GS-A_3981</a></td>
+    <td class="polarion-table-data">Annahme eines übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3982">GS-A_3982</a></td>
+    <td class="polarion-table-data">Ablehnung eines übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3983">GS-A_3983</a></td>
+    <td class="polarion-table-data">Ursachenanalyse eines übergreifenden Problems durch Serviceverantwortlichen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3984">GS-A_3984</a></td>
+    <td class="polarion-table-data">Service Request zur Bereitstellung der TI-Testumgebung (RU/TU)</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3986">GS-A_3986</a></td>
+    <td class="polarion-table-data">Koordination bei übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3987">GS-A_3987</a></td>
+    <td class="polarion-table-data">Initiierung eines Change Request</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3988">GS-A_3988</a></td>
+    <td class="polarion-table-data">Prüfung der Lösung durch den Melder eines übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3989">GS-A_3989</a></td>
+    <td class="polarion-table-data">Ablehnung der Lösung eines übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3990">GS-A_3990</a></td>
+    <td class="polarion-table-data">Schließung eines übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_3991">GS-A_3991</a></td>
+    <td class="polarion-table-data">WDB-Aktualisierung nach Schließung eines übergreifenden Problems</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4085">GS-A_4085</a></td>
+    <td class="polarion-table-data">Etablierung von Kommunikationsschnittstellen durch die TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4086">GS-A_4086</a></td>
+    <td class="polarion-table-data">Erreichbarkeit der Kommunikationsschnittstellen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4088-01">GS-A_4088-01</a></td>
+    <td class="polarion-table-data">Benennung von Ansprechpartnern</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4090">GS-A_4090</a></td>
+    <td class="polarion-table-data">Kommunikationssprache</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4114">GS-A_4114</a></td>
+    <td class="polarion-table-data">Bereitstellung von TI-Konfigurationsdaten</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4115">GS-A_4115</a></td>
+    <td class="polarion-table-data">Datenänderung für TI-Konfigurationsdaten</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4117">GS-A_4117</a></td>
+    <td class="polarion-table-data">Informationsbereitstellung durch TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4121">GS-A_4121</a></td>
+    <td class="polarion-table-data">Analyse Auswirkungen möglicher Schadensereignisse auf Sicherheit und Funktion der TI-Services</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4123">GS-A_4123</a></td>
+    <td class="polarion-table-data">Entwicklung und Pflege der TI-Notfallvorsorgedokumentation</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4124">GS-A_4124</a></td>
+    <td class="polarion-table-data">Umsetzung Vorkehrungen zur TI-Notfallvorsorge</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4126">GS-A_4126</a></td>
+    <td class="polarion-table-data">Eskalation TI-Notfälle</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4127">GS-A_4127</a></td>
+    <td class="polarion-table-data">Sofortmaßnahmen TI-Notfälle</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4128">GS-A_4128</a></td>
+    <td class="polarion-table-data">Bewältigung der TI-Notfälle</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4129">GS-A_4129</a></td>
+    <td class="polarion-table-data">Unterstützung bei TI-Notfällen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4130">GS-A_4130</a></td>
+    <td class="polarion-table-data">Festlegung der Schnittstellen des EMC</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4132">GS-A_4132</a></td>
+    <td class="polarion-table-data">Durchführung der Wiederherstellung und TI-Notfällen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4134">GS-A_4134</a></td>
+    <td class="polarion-table-data">Auswertungen von TI-Notfällen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4136">GS-A_4136</a></td>
+    <td class="polarion-table-data">Statusinformation bei TI-Notfällen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4137">GS-A_4137</a></td>
+    <td class="polarion-table-data">Dokumentation im TI-Notfall-Logbuch</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4138">GS-A_4138</a></td>
+    <td class="polarion-table-data">Erstellung des Wiederherstellungsberichts nach TI-Notfällen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4397">GS-A_4397</a></td>
+    <td class="polarion-table-data">Teilnahme am Service Review</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4398">GS-A_4398</a></td>
+    <td class="polarion-table-data">Prüfung auf genehmigungspflichtige Produktänderung</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4399">GS-A_4399</a></td>
+    <td class="polarion-table-data">Übermittlung von Produktdaten nach Abschluss von lokal autorisierten Produkt-Changes</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4400">GS-A_4400</a></td>
+    <td class="polarion-table-data">Produkt-RfC (Master-Change) erstellen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4402">GS-A_4402</a></td>
+    <td class="polarion-table-data">Mitwirkungspflicht bei der Bewertung vom Produkt-RfC</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4407">GS-A_4407</a></td>
+    <td class="polarion-table-data">Bereitstellung der Dokumentation des Change Managements für genehmigungspflichtige Produkt-Changes</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4417">GS-A_4417</a></td>
+    <td class="polarion-table-data">Stetige Aktualisierung des Change-Datensatzes im TI-ITSM-System</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4418">GS-A_4418</a></td>
+    <td class="polarion-table-data">Übermittlung von Abweichungen vom Produkt-RfC</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4419">GS-A_4419</a></td>
+    <td class="polarion-table-data">Nutzung der Testumgebung (RU/TU)</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4424">GS-A_4424</a></td>
+    <td class="polarion-table-data">Umsetzung des Fallbackplans</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4425">GS-A_4425</a></td>
+    <td class="polarion-table-data">Übermittlung von Optimierungsmöglichkeiten zur Umsetzung von genehmigten Produkt-Changes</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4855-02">GS-A_4855-02</a></td>
+    <td class="polarion-table-data">Auditierung von TI-ITSM-Teilnehmern</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5250">GS-A_5250</a></td>
+    <td class="polarion-table-data">Ablehnung der Lösung eines übergreifenden Incidents</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5361">GS-A_5361</a></td>
+    <td class="polarion-table-data">Durchführung von Emergency-Changes durch TI-ITSM-Teilnehmer bei Nichterreichbarkeit des Gesamtverantwortlichen TI</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5366">GS-A_5366</a></td>
+    <td class="polarion-table-data">Mitwirkungspflicht der TI-ITSM-Teilnehmer bei der Festsetzung von Standard-Produkt-Changes</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5370">GS-A_5370</a></td>
+    <td class="polarion-table-data">Prüfung auf Emergency Change</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5377">GS-A_5377</a></td>
+    <td class="polarion-table-data">Durchführung einer Problemstornierung</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5378">GS-A_5378</a></td>
+    <td class="polarion-table-data">Durchführung von Emergency-Changes durch TI-ITSM-Teilnehmer</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5400">GS-A_5400</a></td>
+    <td class="polarion-table-data">Prüfung der Lösung durch den Melder eines übergreifenden Incidents</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5401">GS-A_5401</a></td>
+    <td class="polarion-table-data">Verschlüsselte E-Mail-Kommunikation</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5402">GS-A_5402</a></td>
+    <td class="polarion-table-data">Eigenverantwortliches Handeln bei Ausfall von Kommunikationsschnittstellen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5449">GS-A_5449</a></td>
+    <td class="polarion-table-data">Typisierung eines übergreifenden Incidents als „sicherheitsrelevant“</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5450">GS-A_5450</a></td>
+    <td class="polarion-table-data">Typisierung eines übergreifenden Incidents als „datenschutzrelevant“</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5587">GS-A_5587</a></td>
+    <td class="polarion-table-data">Ablehnung der Lösungsunterstützung bei einem übergreifenden Incident</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5588">GS-A_5588</a></td>
+    <td class="polarion-table-data">Abbruch der Problembearbeitung</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5589">GS-A_5589</a></td>
+    <td class="polarion-table-data">Prüfung auf Verantwortung zur Lösungsunterstützung</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5594">GS-A_5594</a></td>
+    <td class="polarion-table-data">Identifikation von TI-Konfigurationsdaten</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5597">GS-A_5597</a></td>
+    <td class="polarion-table-data">Produkt-RfC (Sub-Changes) erstellen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5599">GS-A_5599</a></td>
+    <td class="polarion-table-data">Beschreibung der Verifikation des Produkt-Changes im RfC</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5600">GS-A_5600</a></td>
+    <td class="polarion-table-data">Beschreibung der Verifikation des Produkt-Changes in Auswirkung auf andere TI-Fachanwendungen im RfC</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5601">GS-A_5601</a></td>
+    <td class="polarion-table-data">Nachweis der Wirksamkeit eines Changes</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5602">GS-A_5602</a></td>
+    <td class="polarion-table-data">Nachweis der Wirksamkeit eines Changes in Auswirkung auf andere TI-Fachanwendungen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5604">GS-A_5604</a></td>
+    <td class="polarion-table-data">Bewertung der Messergebnisse</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5606">GS-A_5606</a></td>
+    <td class="polarion-table-data">Unterstützung bei Definition von Kapazitätsanforderungen</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5608">GS-A_5608</a></td>
+    <td class="polarion-table-data">Übermittlung von CSV-Dateien</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5610">GS-A_5610</a></td>
+    <td class="polarion-table-data">Bearbeitungsfristen in der Bewertung von Produkt-Changes</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5611">GS-A_5611</a></td>
+    <td class="polarion-table-data">Umsetzung von autorisierten RFC</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#A_19173">A_19173</a></td>
+    <td class="polarion-table-data">Feste Laufzeit X.509-Zertifikate einer Karte (eGK/HBA/SMC-B)</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Net/gemSpec_Net_V1.21.0.html#A_21142">A_21142</a></td>
+    <td class="polarion-table-data">SZZP mit mehreren Produktinstanzen</td>
+    <td class="polarion-table-data">gemSpec_Net</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Perf/gemSpec_Perf_V2.17.0.html#A_17668-01">A_17668-01</a></td>
+    <td class="polarion-table-data">Performance - Rohdaten-Performance-Berichte - Format der Einträge des Rohdaten-Performance-Berichts</td>
+    <td class="polarion-table-data">gemSpec_Perf</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_4235">TIP1-A_4235</a></td>
+    <td class="polarion-table-data">Fehlerprotokollierung</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+  </table>
+  <div id="polarion_editor_html_block53" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div> 
+  </div>
+  <p id="polarion_54"></p>
+  <p id="polarion_55"> Falls der Anbieter seinen Lieferweg noch nicht auf die Rohdatenlieferung an die Betriebsdatenerfassung bestätigt umgestellt hat gelten <span style="font-weight: bold;font-style: italic;">zusätzlich zur obigen</span> Tabelle die folgenden Festlegungen: </p>
+  <p id="polarion_58"> <span style="color: #000000;">Tabelle der zusätzlich zu erfüllenden Festlegungen zum "Lieferweg 1" von Performance-Reports (keine Rohdatenlieferung):</span> </p>
+  <p id="polarion_32"></p>
+  <p id="polarion_33" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">4</span>:&nbsp;Festlegungen zur betrieblichen Eignung "Anbietererklärung" in der Variante "Lieferweg 1 - keine Rohdatenlieferung" </p>
+  <table class="polarion-table">
+   <tr>
+    <th class="polarion-table-header"><span class="polarion-table-span">ID</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Bezeichnung</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Quelle (Referenz)</span></th>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#A_18238">A_18238</a></td>
+    <td class="polarion-table-data">Service Level - Übermittlung von Performance-Reports</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#A_18239-01">A_18239-01</a></td>
+    <td class="polarion-table-data">Service Level - Lieferung von Rohdaten-Performance-Reports</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#A_18240">A_18240</a></td>
+    <td class="polarion-table-data">Reporting der technischen Service Level</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemKPT_Betr/gemKPT_Betr_V3.13.0.html#TIP1-A_6437">TIP1-A_6437</a></td>
+    <td class="polarion-table-data">Datenaufbewahrung von Performancedaten</td>
+    <td class="polarion-table-data">gemKPT_Betr</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_4100">GS-A_4100</a></td>
+    <td class="polarion-table-data">Messung der Service Level</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_Betr_TI/gemRL_Betr_TI_V2.6.0.html#GS-A_5603">GS-A_5603</a></td>
+    <td class="polarion-table-data">Eingangskanal für Informationen von TI-ITSM-Teilnehmern</td>
+    <td class="polarion-table-data">gemRL_Betr_TI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Perf/gemSpec_Perf_V2.17.0.html#A_18706">A_18706</a></td>
+    <td class="polarion-table-data">Performance – Lieferung von Rohdaten – OCSP Responder</td>
+    <td class="polarion-table-data">gemSpec_Perf</td>
+   </tr>
+  </table>
+  <div id="polarion_editor_html_block19" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div> 
+  </div>
+  <p id="polarion_22"></p>
+  <h4 id="3.1.3">3.1.3 Betriebshandbuch betriebliche Eignung</h4>
+  <p id="polarion_66"> <span style="color: #000000;">Sofern in diesem Abschnitt Festlegungen mit Vorgaben zu organisatorischen Maßnahmen wie Prozessen und Strukturvorgaben der Aufbauorganisation sowie der Umgebung verzeichnet sind, muss der Anbieter deren Umsetzung und Beachtung durch die Vorlage des Betriebshandbuches nachweisen.&nbsp;&nbsp;</span> </p>
+  <p id="polarion_67"> <span style="color: #000000;">Der Umfang und Inhalt des Betriebshandbuches ist der Definition in der Richtlinie Betrieb [gemRL_Betr_TI] zu entnehmen.</span> </p>
+  <p id="polarion_69" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">5</span>: Festlegungen zur betrieblichen Eignung "Betriebshandbuch" </p>
+  <table class="polarion-table">
+   <tr>
+    <th class="polarion-table-header"><span class="polarion-table-span">ID</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Bezeichnung</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Quelle (Referenz)</span></th>
+   </tr>
+  </table>
+  <div id="polarion_editor_html_block6" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div> 
+  </div>
+  <h3 id="3.2">3.2 Festlegungen zur sicherheitstechnischen Eignung</h3>
+  <h4 id="3.2.1">3.2.1 Sicherheitsgutachten</h4>
+  <p id="polarion_71"> <span style="color: #000000;">Die in diesem Abschnitt verzeichneten Festlegungen sind Gegenstand der Prüfung der Sicherheitseignung gemäß [gemRL_PruefSichEig]. Das entsprechende Sicherheitsgutachten ist der gematik vorzulegen.</span> </p>
+  <p id="polarion_72"> <span style="color: #000000;">Hinweis:</span> </p>
+  <p id="polarion_73"> <span style="color: #000000;">Einige Festlegungen sind sowohl in diesem Anbietertypsteckbrief, als auch in zugehörigen Produkttypsteckbriefen enthalten, da ein Nachweis der Erfüllung (ggf. auch anteilig) in Abhängigkeit von der Umsetzung sowohl durch die Anbieter der Produkte (Produktzulassung bzw. -bestätigung), als auch durch den Anbieter von Betriebsleistungen (Anbieterzulassung bzw. -bestätigung) erfolgen muss.</span> </p>
+  <p id="polarion_74"> <span style="color: #000000;">Abhängig von der konkreten Umsetzung können allerdings entsprechend [gemRL_PruefSichEig] Festlegungen, die nur für die Anbieter der zugehörigen Produkte relevant sind, vom Sicherheitsgutachter als „entbehrlich“ bewertet werden. Weiterhin können Festlegungen, die zwar relevant sind, aber bereits vollständig vom Anbieter der zugehörigen Produkte erfüllt werden, vom Sicherheitsgutachter über Referenzieren der bestehenden Sicherheitsgutachten der Produktanbieter als umgesetzt bewertet werden.</span> </p>
+  <p id="polarion_76" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">6</span>: Festlegungen zur sicherheitstechnischen Eignung "Sicherheitsgutachten" </p>
+  <table class="polarion-table">
+   <tr>
+    <th class="polarion-table-header"><span class="polarion-table-span">ID</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Bezeichnung</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Quelle (Referenz)</span></th>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4173">GS-A_4173</a></td>
+    <td class="polarion-table-data">Erbringung von Verzeichnisdienstleistungen</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4191">GS-A_4191</a></td>
+    <td class="polarion-table-data">Einsatz interoperabler Systeme durch einen externen Dienstleister</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4230">GS-A_4230</a></td>
+    <td class="polarion-table-data">Gewährleistung der Online-Verfügbarkeit von Sperrinformationen</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4247">GS-A_4247</a></td>
+    <td class="polarion-table-data">Obligatorische Vorgaben für das Rollenkonzept</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4249">GS-A_4249</a></td>
+    <td class="polarion-table-data">Standort für Backup-HSM</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4255">GS-A_4255</a></td>
+    <td class="polarion-table-data">Nutzung des HSM im kontrollierten Bereich</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4259">GS-A_4259</a></td>
+    <td class="polarion-table-data">Vorgaben für die informationstechnische Trennung sicherheitskritischer Bestandteile der Systemumgebung</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4260">GS-A_4260</a></td>
+    <td class="polarion-table-data">Manipulationsschutz veröffentlichter Daten</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4261">GS-A_4261</a></td>
+    <td class="polarion-table-data">Vorgaben zur Betriebsumgebung für sicherheitskritische Bestandteile des Systems</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4268">GS-A_4268</a></td>
+    <td class="polarion-table-data">Anforderungen an den Einsatz freier Mitarbeiter</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4270">GS-A_4270</a></td>
+    <td class="polarion-table-data">Aufzeichnung von technischen Ereignissen</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4271">GS-A_4271</a></td>
+    <td class="polarion-table-data">Aufzeichnung von organisatorischen Ereignissen</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4272">GS-A_4272</a></td>
+    <td class="polarion-table-data">Aufbewahrungsfrist für sicherheitsrelevante Protokolldaten</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4273">GS-A_4273</a></td>
+    <td class="polarion-table-data">Schutz vor Zugriff, Löschung und Manipulation elektronischer Protokolldaten</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4274">GS-A_4274</a></td>
+    <td class="polarion-table-data">Archivierung von für den Zertifizierungsprozess relevanten Daten</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4275">GS-A_4275</a></td>
+    <td class="polarion-table-data">Dokumentationspflicht für Prozesse zum Schlüsselwechsel</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4276">GS-A_4276</a></td>
+    <td class="polarion-table-data">Aktionen und Verantwortlichkeit im Rahmen der Notfallplanung</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4279">GS-A_4279</a></td>
+    <td class="polarion-table-data">Fortbestand von Archiven und die Abrufmöglichkeit einer vollständigen Widerrufsliste</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4284">GS-A_4284</a></td>
+    <td class="polarion-table-data">Beachtung des betreiberspezifischen Sicherheitskonzepts bei der Erzeugung von Schlüsselpaaren</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4285">GS-A_4285</a></td>
+    <td class="polarion-table-data">Sicherheitsniveau bei der Generierung von Signaturschlüsseln</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4287">GS-A_4287</a></td>
+    <td class="polarion-table-data">Sichere Aufbewahrung des privaten Schlüssels einer CA</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4288">GS-A_4288</a></td>
+    <td class="polarion-table-data">Verwendung eines Backup-HSM zum Im-/Export von privaten Schlüsseln</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4289">GS-A_4289</a></td>
+    <td class="polarion-table-data">Unterstützung des sicheren Löschen von Schlüsseln durch HSM</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4290">GS-A_4290</a></td>
+    <td class="polarion-table-data">Generieren und Löschen von Schlüsselpaaren gemäß Vier-Augen-Prinzip</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4291">GS-A_4291</a></td>
+    <td class="polarion-table-data">Berechnungen mit dem privaten Schlüssel gemäß Vier-Augen-Prinzip</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4292">GS-A_4292</a></td>
+    <td class="polarion-table-data">Protokollierung der HSM-Nutzung</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4294">GS-A_4294</a></td>
+    <td class="polarion-table-data">Bedienung des Schlüsselgenerierungssystems</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4295">GS-A_4295</a></td>
+    <td class="polarion-table-data">Berücksichtigung des aktuellen Erkenntnisstands bei der Generierung von Schlüsseln</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4304">GS-A_4304</a></td>
+    <td class="polarion-table-data">Speicherung und Anwendung von privaten Schlüsseln</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4305">GS-A_4305</a></td>
+    <td class="polarion-table-data">Ordnungsgemäße Sicherung des privaten Schlüssels</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4306">GS-A_4306</a></td>
+    <td class="polarion-table-data">Verwendung von privaten Schlüsseln</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4307">GS-A_4307</a></td>
+    <td class="polarion-table-data">Vorgaben an HSM-Funktionalität</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4308">GS-A_4308</a></td>
+    <td class="polarion-table-data">Speicherung und Auswahl von Schlüsselpaaren im HSM</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4309">GS-A_4309</a></td>
+    <td class="polarion-table-data">Verwendung von zertifizierten kryptographischen Modulen</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4310">GS-A_4310</a></td>
+    <td class="polarion-table-data">Vorgaben an die Prüftiefe der Evaluierung eines HSM</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4311">GS-A_4311</a></td>
+    <td class="polarion-table-data">Hinterlegung des privaten Signaturschlüssels</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4312">GS-A_4312</a></td>
+    <td class="polarion-table-data">Aktivierung privater Schlüssel</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4313">GS-A_4313</a></td>
+    <td class="polarion-table-data">Deaktivierung privater Schlüssel</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4314">GS-A_4314</a></td>
+    <td class="polarion-table-data">Sichere Übermittlung von Aktivierungsdaten</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4315">GS-A_4315</a></td>
+    <td class="polarion-table-data">Konformität zum betreiberspezifischen Sicherheitskonzept</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4316">GS-A_4316</a></td>
+    <td class="polarion-table-data">Härtung von Betriebssystemen</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4317">GS-A_4317</a></td>
+    <td class="polarion-table-data">Obligatorische Sicherheitsmaßnahmen</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4396">GS-A_4396</a></td>
+    <td class="polarion-table-data">Speicherung hinterlegter Root- und CA-Schlüssel</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemRL_TSL_SP_CP/gemRL_TSL_SP_CP_V2.10.1.html#GS-A_4925">GS-A_4925</a></td>
+    <td class="polarion-table-data">CP-Test, Keine Verwendung von Echtdaten</td>
+    <td class="polarion-table-data">gemRL_TSL_SP_CP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2076-01">GS-A_2076-01</a></td>
+    <td class="polarion-table-data">kDSM: Datenschutzmanagement nach BSI</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2158-01">GS-A_2158-01</a></td>
+    <td class="polarion-table-data">Trennung von kryptographischen Identitäten und Schlüsseln in Produktiv- und Testumgebungen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2328-01">GS-A_2328-01</a></td>
+    <td class="polarion-table-data">Pflege und Fortschreibung des Sicherheitskonzeptes und Notfallkonzeptes</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2329-01">GS-A_2329-01</a></td>
+    <td class="polarion-table-data">Umsetzung der Sicherheitskonzepte</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2331-01">GS-A_2331-01</a></td>
+    <td class="polarion-table-data">Sicherheitsvorfalls-Management</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2332-01">GS-A_2332-01</a></td>
+    <td class="polarion-table-data">Notfallmanagement</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2345-01">GS-A_2345-01</a></td>
+    <td class="polarion-table-data">regelmäßige Reviews</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3737-01">GS-A_3737-01</a></td>
+    <td class="polarion-table-data">Sicherheitskonzept</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3753-01">GS-A_3753-01</a></td>
+    <td class="polarion-table-data">Notfallkonzept</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_3772-01">GS-A_3772-01</a></td>
+    <td class="polarion-table-data">Notfallkonzept: Der Dienstanbieter soll dem BSI-Standard 100-4 folgen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4980-01">GS-A_4980-01</a></td>
+    <td class="polarion-table-data">Umsetzung der Norm ISO/IEC 27001</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4981-01">GS-A_4981-01</a></td>
+    <td class="polarion-table-data">Erreichen der Ziele der Norm ISO/IEC 27001 Annex A</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4982-01">GS-A_4982-01</a></td>
+    <td class="polarion-table-data">Umsetzung der Maßnahmen der Norm ISO/IEC 27002</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4983-01">GS-A_4983-01</a></td>
+    <td class="polarion-table-data">Umsetzung der Maßnahmen aus dem BSI-Grundschutz</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4984-01">GS-A_4984-01</a></td>
+    <td class="polarion-table-data">Befolgen von herstellerspezifischen Vorgaben</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5551">GS-A_5551</a></td>
+    <td class="polarion-table-data">Betriebsumgebung in einem Mitgliedstaat der EU bzw. des EWR</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5626">GS-A_5626</a></td>
+    <td class="polarion-table-data">kDSM: Auftragsverarbeitung</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#A_17124">A_17124</a></td>
+    <td class="polarion-table-data">TLS-Verbindungen (ECC-Migration)</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4357">GS-A_4357</a></td>
+    <td class="polarion-table-data">X.509-Identitäten für die Erstellung und Prüfung digitaler nicht-qualifizierter elektronischer Signaturen</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4359">GS-A_4359</a></td>
+    <td class="polarion-table-data">X.509-Identitäten für die Durchführung einer TLS-Authentifizierung</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4361">GS-A_4361</a></td>
+    <td class="polarion-table-data">X.509-Identitäten für die Erstellung und Prüfung digitaler Signaturen</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4362">GS-A_4362</a></td>
+    <td class="polarion-table-data">X.509-Identitäten für Verschlüsselungszertifikate</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4367">GS-A_4367</a></td>
+    <td class="polarion-table-data">Zufallszahlengenerator</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4368">GS-A_4368</a></td>
+    <td class="polarion-table-data">Schlüsselerzeugung</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4384">GS-A_4384</a></td>
+    <td class="polarion-table-data">TLS-Verbindungen</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4385">GS-A_4385</a></td>
+    <td class="polarion-table-data">TLS-Verbindungen, Version 1.2</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4387">GS-A_4387</a></td>
+    <td class="polarion-table-data">TLS-Verbindungen, nicht Version 1.0</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4388">GS-A_4388</a></td>
+    <td class="polarion-table-data">DNSSEC-Kontext</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_4393">GS-A_4393</a></td>
+    <td class="polarion-table-data">Algorithmus bei der Erstellung von Hashwerten von Zertifikaten oder öffentlichen Schlüsseln</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_5035">GS-A_5035</a></td>
+    <td class="polarion-table-data">Nichtverwendung des SSL-Protokolls</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_5079">GS-A_5079</a></td>
+    <td class="polarion-table-data">Migration von Algorithmen und Schlüssellängen bei PKI-Betreibern</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_5131">GS-A_5131</a></td>
+    <td class="polarion-table-data">Hash-Algorithmus bei OCSP/CertID</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Krypt/gemSpec_Krypt_V2.21.0.html#GS-A_5322">GS-A_5322</a></td>
+    <td class="polarion-table-data">Weitere Vorgaben für TLS-Verbindungen</td>
+    <td class="polarion-table-data">gemSpec_Krypt</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_Net/gemSpec_Net_V1.21.0.html#GS-A_4817">GS-A_4817</a></td>
+    <td class="polarion-table-data">Produkttypen der Fachanwendungen sowie der zentralen TI-Plattform, Einbringung des DNSSEC Trust Anchor für den Namensraum TI</td>
+    <td class="polarion-table-data">gemSpec_Net</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4574">GS-A_4574</a></td>
+    <td class="polarion-table-data">Pseudonym-Erstellungsregel</td>
+    <td class="polarion-table-data">gemSpec_PKI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4641">GS-A_4641</a></td>
+    <td class="polarion-table-data">Initiale Einbringung TI-Vertrauensanker</td>
+    <td class="polarion-table-data">gemSpec_PKI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_PKI/gemSpec_PKI_V2.11.1.html#GS-A_4748">GS-A_4748</a></td>
+    <td class="polarion-table-data">Initiale Einbringung TSL-Datei</td>
+    <td class="polarion-table-data">gemSpec_PKI</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3548">TIP1-A_3548</a></td>
+    <td class="polarion-table-data">Schützenswerte Objekte</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3549">TIP1-A_3549</a></td>
+    <td class="polarion-table-data">Vorgaben zum Schutzbedarf durch die gematik</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3550">TIP1-A_3550</a></td>
+    <td class="polarion-table-data">Spezifische Erhöhung des Schutzbedarfs ist zulässig</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3554">TIP1-A_3554</a></td>
+    <td class="polarion-table-data">Gesicherte interne Schnittstellen des TSP-X.509 QES und TSP-X.509 nonQES</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3555">TIP1-A_3555</a></td>
+    <td class="polarion-table-data">Datenaustausch zwischen gematik und TSP-X.509 nonQES und gematik Root-CA</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3557">TIP1-A_3557</a></td>
+    <td class="polarion-table-data">Gesicherte externe Schnittstellen des TSP-X.509 nonQES</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3590">TIP1-A_3590</a></td>
+    <td class="polarion-table-data">Eindeutige Verbindung Personen- und Organisationszertifikatsnehmer und privater Schlüssel</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3595">TIP1-A_3595</a></td>
+    <td class="polarion-table-data">Anforderungen von LEO- und KTR-Institutionen</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3596">TIP1-A_3596</a></td>
+    <td class="polarion-table-data">Umsetzung Erstellungsdienst TSP-X.509 QES und TSP-X.509 nonQES für Personen- und Organisationszertifikate</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3660">TIP1-A_3660</a></td>
+    <td class="polarion-table-data">Trennung der TSP-X.509-Betriebsumgebungen</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_3881">TIP1-A_3881</a></td>
+    <td class="polarion-table-data">Schutzbedarf darf nicht verringert werden</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_4230">TIP1-A_4230</a></td>
+    <td class="polarion-table-data">Datenschutzgerechte Antrags- und Sperrprozesse</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_4231">TIP1-A_4231</a></td>
+    <td class="polarion-table-data">Löschung gespeicherter X.509-Zertifikate</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_4232">TIP1-A_4232</a></td>
+    <td class="polarion-table-data">Löschung von TSP-X.509 nonQES-Zertifikatstatusinformationen, Zertifikats- und Sperranträge</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_4234">TIP1-A_4234</a></td>
+    <td class="polarion-table-data">Protokollierungsverbot für OCSP-Anfragen</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_X_509_TSP/gemSpec_X_509_TSP_V1.19.0.html#TIP1-A_5087">TIP1-A_5087</a></td>
+    <td class="polarion-table-data">Berücksichtigung und Umsetzung übergeordneter Herausgeberpolicies</td>
+    <td class="polarion-table-data">gemSpec_X_509_TSP</td>
+   </tr>
+  </table>
+  <div id="polarion_editor_html_block7" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div> 
+  </div>
+  <p id="polarion_20"></p>
+  <p id="polarion_78"> <span style="color: #000000;">Ein TSPs X.509 nonQES, der gleichzeitig eine VDA-Qualifizierung vorweist, kann ein reduziertes Sicherheitsgutachten vorlegen. Voraussetzung hierfür ist, dass der Anbieter</span> </p>
+  <ul id="polarion_80"> 
+   <li>ein qualifizierter Vertrauensdiensteanbieter für QES ist und die Konformität geeignet nachweist (z.B. mittels Qualifikationsbescheid der Bundesnetzagentur).</li> 
+   <li>erklärt, dass für die gegenständlichen Sicherheitsfestlegungen der Betrieb des TSP X.509 nonQES äquivalent zum VDA-Bereich erfolgt.</li> 
+  </ul>
+  <p id="polarion_82"> <span style="color: #000000;">Folgende Festlegungen müssen unter den o.g. Voraussetzungen nicht im Sicherheitsgutachten nachgewiesen werden:</span> </p>
+  <p id="polarion_84" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">7</span>: nicht nachzuweisende Festlegungen </p>
+  <table id="polarion_15" style="width: 102.18%;border: none;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 15.75pt;border: 1pt solid #CCCCCC;border-top: 1pt solid #CCCCCC;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4173</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 15.75pt;border-top: 1pt solid #CCCCCC;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4273</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 15.75pt;border-top: 1pt solid #CCCCCC;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4292</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 15.75pt;border-top: 1pt solid #CCCCCC;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4313</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 15.75pt;border-top: 1pt solid #CCCCCC;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_2345-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 15.75pt;border-top: 1pt solid #CCCCCC;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">TIP1-A_3550</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4191</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4274</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4294</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4314</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_2328-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">TIP1-A_3554</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4230</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4275</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4295</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4315</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_2329-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">TIP1-A_4230</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_5626</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4276</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4304</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4316</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_2331-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">TIP1-A_4235</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 15.35pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4249</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 15.35pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4279</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 15.35pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4305</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 15.35pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4317</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 15.35pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_2332-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 15.35pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 17.85pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4255</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 17.85pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4284</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 17.85pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4306</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 17.85pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4367</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 17.85pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_3772-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 17.85pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 18.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4259</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 18.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4285</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 18.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4307</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 18.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4368</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 18.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4980-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 18.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 13.55pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4261</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 13.55pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4287</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 13.55pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4308</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 13.55pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_3737-01</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 13.55pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4981-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 13.55pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 9.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4268</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 9.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4288</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 9.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4309</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 9.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_2158-01</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 9.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4982-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 9.65pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4270</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4289</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4310</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_3753-01</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4983-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4271</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4290</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4311</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_2076-01</span> </span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4984-01</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 73.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: 1pt solid #CCCCCC;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4272</span> </span></td> 
+     <td style="vertical-align: top;width: 70pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4291</span> </span></td> 
+     <td style="vertical-align: top;width: 68.5pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">GS-A_4312</span> </span></td> 
+     <td style="vertical-align: top;width: 82.4pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">GS-A_2214-01</span></td> 
+     <td style="vertical-align: top;width: 85pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;"> <span style="color: #000000;">TIP1-A_3548</span> </span></td> 
+     <td style="vertical-align: top;width: 74.6pt;height: 15.75pt;border-top: none;border-bottom: 1pt solid #CCCCCC;border-right: 1pt solid #CCCCCC;border-left: none;padding: 3.75pt;"><span style="font-size: 10pt;line-height: 1.5;">&nbsp;</span></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h4 id="3.2.2">3.2.2 Anbietererklärung sicherheitstechnische Eignung</h4>
+  <p id="polarion_87"> <span style="color: #000000;">Sofern in diesem Abschnitt Festlegungen verzeichnet sind, muss der Anbieter deren Umsetzung und Beachtung zum Nachweis der sicherheitstechnischen Eignung durch eine Erklärung bestätigen bzw. zusagen.</span> </p>
+  <p id="polarion_89" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">8</span>: Festlegungen zur sicherheitstechnischen Eignung "Anbietererklärung" </p>
+  <table class="polarion-table">
+   <tr>
+    <th class="polarion-table-header"><span class="polarion-table-span">ID</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Bezeichnung</span></th>
+    <th class="polarion-table-header"><span class="polarion-table-span">Quelle (Referenz)</span></th>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#A_19174">A_19174</a></td>
+    <td class="polarion-table-data">Bereitstellung Übersicht Internet-Schnittstellen der TI</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#A_19175">A_19175</a></td>
+    <td class="polarion-table-data">Zustimmung zu regelmäßigen Schwachstellenscans durch die gematik</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_2214-01">GS-A_2214-01</a></td>
+    <td class="polarion-table-data">kDSM: Anbieter müssen jährlich die Auftragsverarbeiter kontrollieren</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_4526-01">GS-A_4526-01</a></td>
+    <td class="polarion-table-data">Aufbewahrungsvorgaben an die Nachweise zu Sicherheitsmeldungen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5324-01">GS-A_5324-01</a></td>
+    <td class="polarion-table-data">Teilnahme des Anbieters an Sitzungen des kISMS</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5324-02">GS-A_5324-02</a></td>
+    <td class="polarion-table-data">kDSM: Teilnahme des Anbieters an Sitzungen des kDSM</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5557">GS-A_5557</a></td>
+    <td class="polarion-table-data">Security Monitoring</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5558">GS-A_5558</a></td>
+    <td class="polarion-table-data">Aktive Schwachstellenscans</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5566">GS-A_5566</a></td>
+    <td class="polarion-table-data">kDSM: Sicherstellung der Datenschutzanforderungen in Unterbeauftragungsverhältnissen</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5624-01">GS-A_5624-01</a></td>
+    <td class="polarion-table-data">Auditrechte der gematik zur Informationssicherheit</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+   <tr>
+    <td class="polarion-table-data"><a href="../gemSpec_DS_Anbieter/gemSpec_DS_Anbieter_V1.4.0.html#GS-A_5625">GS-A_5625</a></td>
+    <td class="polarion-table-data">kDSM: Auditrechte der gematik zum Datenschutz</td>
+    <td class="polarion-table-data">gemSpec_DS_Anbieter</td>
+   </tr>
+  </table>
+  <div id="polarion_editor_html_block8" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div> 
+  </div>
+  <p id="polarion_25"></p>
+  <p id="polarion_63"> <span style="color: #000000;background-color: #FFFF99;"> </span> </p>
+  <h2 id="4">4 Anhang A – Verzeichnisse</h2>
+  <h3 id="4.1">4.1 Abkürzungen</h3>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=3" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 105px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">Kürzel</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 475px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">Erläuterung</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">ID</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 475px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">Identifikation</span><br> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 105px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">CC</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 475px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">Common Criteria</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="4.2">4.2 Tabellenverzeichnis</h3>
+  <div data-sequence="Tabelle" id="polarion_wiki macro name=tof;params=uid=1"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion_50">Tabelle 1: Dokumente mit Festlegungen zu der Anbietertypversion</a></li>
+   <li><a href="#polarion_59">Tabelle 2: Festlegungen zur betrieblichen Eignung "Prozessprüfung"</a></li>
+   <li><a href="#polarion_31">Tabelle 3: Festlegungen zur betrieblichen Eignung "Anbietererklärung"&nbsp;in der Variante "Lieferweg 2 - Rohdatenlieferung"</a></li>
+   <li><a href="#polarion_33">Tabelle 4:&nbsp;Festlegungen zur betrieblichen Eignung "Anbietererklärung" in der Variante "Lieferweg 1 - keine Rohdatenlieferung"</a></li>
+   <li><a href="#polarion_69">Tabelle 5: Festlegungen zur betrieblichen Eignung "Betriebshandbuch"</a></li>
+   <li><a href="#polarion_76">Tabelle 6: Festlegungen zur sicherheitstechnischen Eignung "Sicherheitsgutachten"</a></li>
+   <li><a href="#polarion_84">Tabelle 7: nicht nachzuweisende Festlegungen</a></li>
+   <li><a href="#polarion_89">Tabelle 8: Festlegungen zur sicherheitstechnischen Eignung "Anbietererklärung"</a></li>
+  </div>
+  <h3 id="4.3">4.3 Referenzierte Dokumente</h3>
+  <p id="polarion_95"> <span style="color: #000000;">Neben den in Kapitel 2 angeführten Dokumenten werden referenziert: </span> </p>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=4" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">[Quelle]</span><br> </th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 424px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">Herausgeber: Titel, Version</span><br> </th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">[gemRL_PruefSichEig].</span><br> </td> 
+     <td style="text-align: left;vertical-align: top;width: 424px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">gematik: Richtlinie zur Prüfung der Sicherheitseignung</span><br> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_34"></p>
+  <div id="ML-126508">
+   <p><b>ML-126508 - gemAnbT_X509_TSP_eGK_ATV_1.4.3</b></p>
+   <p> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_27"></p>
+ </body>
+</html>
