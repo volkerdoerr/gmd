@@ -22,7 +22,447 @@ und 'WANDA Smart' (siehe Dokumentenhistorie).
 
 Dokumentenhistorie
 
- ---> TABLE
+<table><tr><th>
+Version
+
+</th><th>
+Datum
+
+</th><th>
+Kap./ Seite
+
+</th><th>
+Grund der Änderung, besondere Hinweise
+
+</th><th>
+Bearbeitung
+
+</th></tr><tr><td>
+0.5.0
+
+</td><td>
+20.07.12
+
+</td><td>
+zur Abstimmung freigegeben
+
+</td><td>
+PL P77
+
+</td></tr><tr><td>
+0.6.0
+
+</td><td>
+31.08.12
+
+</td><td>
+Einarbeitung von Änderungen aus dem Kommentierungsverfahren
+
+</td><td>
+P77
+
+</td></tr><tr><td>
+1.0.0
+
+</td><td>
+15.10.12
+
+</td><td>
+Korrekturen
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.1.0
+
+</td><td>
+12.11.12
+
+</td><td>
+Einarbeitung Kommentare aus übergreifender Konsistenzprüfung
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.2.0
+
+</td><td>
+13.06.13
+
+</td><td>
+Überarbeitung anhand interner Änderungsliste (Fehlerkorrekturen,
+Inkonsistenzen), Einarbeitung Kommentare LA
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.3.0
+
+</td><td>
+15.08.13
+
+</td><td>
+Einarbeitung Kommentar und gemäß Änderungsliste
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.4.0
+
+</td><td>
+21.02.14
+
+</td><td>
+Losübergreifende Synchronisation
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.5.0
+
+</td><td>
+17.06.14
+
+</td><td>
+[RFC4594bis] ersetzt durch [RFC4594], [RFC2672] gelöscht (Anforderung
+entfällt), Ergänzung DNSSEC-Vertrauensanker-Aktualisierung gemäß [RFC5011]
+und Formulierungsanpassungen gemäß P11-Änderungsliste
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.6.0
+
+</td><td>
+17.07.15
+
+</td><td>
+Errata 1.4.4 und KOM-LE-Anpassungen eingearbeitet
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.7.0
+
+</td><td>
+03.05.16
+
+</td><td>
+Anpassungen zum Online-Produktivbetrieb (Stufe 1)
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.8.0
+
+</td><td>
+24.08.16
+
+</td><td>
+Einarbeitung weiterer Kommentare
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.9.0
+
+</td><td>
+28.10.16
+
+</td><td>
+Anpassungen gemäß Änderungsliste
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.10.0
+
+</td><td>
+06.02.17
+
+</td><td>
+Anpassungen gemäß Änderungsliste
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.11.0
+
+</td><td>
+21.04.17
+
+</td><td>
+Anpassungen gemäß Änderungsliste
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+08.12.17
+
+</td><td>
+Überarbeitung Online-Produktivbetrieb (Stufe 2.1)
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.12.0
+
+</td><td>
+18.12.17
+
+</td><td>
+Einarbeitungen aufgrund der Errata 1.6.4-2 und 1.6.4-3
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.13.0
+
+</td><td>
+14.05.18
+
+</td><td>
+Einarbeitung Änderungslisten P15.2 und P15.4
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.14.0
+
+</td><td>
+26.10.18
+
+</td><td>
+Einarbeitung Änderungslisten P15.8 und P15.9
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.15.0
+
+</td><td>
+15.05.19
+
+</td><td>
+Einarbeitung Änderungslisten P18.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.16.0
+
+</td><td>
+02.10.19
+
+</td><td>
+Einarbeitung P16.1/2
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.17.0
+
+</td><td>
+02.03.20
+
+</td><td>
+Anpassungen auf Grundlage P21.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.17.1
+
+</td><td>
+26.06.20
+
+</td><td>
+Anpassungen auf Grundlage P21.3
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.18.0 
+
+</td><td>
+30.06.20
+
+</td><td>
+Anpassungen gemäß Änderungsliste P22.1 und Scope-Themen aus Systemdesign
+R4.0.0
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.18.1
+
+</td><td>
+23.07.20
+
+</td><td>
+Aktualisierung der Quellen, Einpflegen von Verweisen auf BSI ISI-LANA
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.19.0
+
+</td><td>
+12.11.20
+
+</td><td>
+Anpassungen gemäß Änderungsliste P22.2 und Scope-Themen aus Systemdesign
+R4.0.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.20.0
+
+</td><td>
+19.02.21
+
+</td><td>
+Anpassungen gemäß Änderungsliste P22.5
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.20.1
+
+</td><td>
+31.03.21
+
+</td><td>
+Kap. 5.3
+
+</td><td>
+Anpassung Domainnamen 
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.20.2
+
+</td><td>
+09.07.21
+
+</td><td>
+Einarbeitung CI_Maintenance_21.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.20.3
+
+</td><td>
+31.08.21
+
+</td><td>
+Redaktionelle Umbenennung von aAdG NetG in WANDA Basic aAdG und NetG-TI in WANDA
+Smart.
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.20.4
+
+</td><td>
+11.10.21
+
+</td><td>
+Anpassung Dokumentenhistorien-Hinweis: ab Release "Konnektor PTV 5.0.2:
+Maintenance 21.5" (Sept. 2021) führt die gematik eine stufenweise Umbenennung
+folgender Begriffe durch:
+
+aus "aAdG-NetG" wird "WANDA Basic",
+
+aus "aAdG" und "aAdG-NetG-TI" wird "WANDA Smart"
+
+(nähere Informationen finden Sie unter
+
+https://fachportal.gematik.de/
+
+)  
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.21.0
+
+</td><td>
+21.01.22
+
+</td><td>
+Einarbeitung CI_Maintenance_21.2: Ergänzung des neuen Anbindungstyp
+SZZP-light-plus, die Verwendung von TI-Adressen für WANDA Basic, Einarbeitung
+weiterer Änderungsbedarfe für das IP4-Konzept sowie zur Laufzeit des DNSSec
+Trust Anchors
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.22.0
+
+</td><td>
+29.04.22
+
+</td><td>
+Einarbeitung CI_Maintenance_22.2: Anpassung der Anforderung GS-A_4029-05
+(Tabelle 2) und GS-A_4850-04 (Tabelle 3) zur Flexibilisierung der Netzmaske
+für WANDA-Smart-Anbieter
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.23.0
+
+</td><td>
+16.12.22
+
+</td><td>
+Kap. 2.3.3
+
+Kap. 8.5.2
+
+</td><td>
+Einarbeitung CI_Maintenance_22.6: Anpassung IPv4-Adresskonzept für die PU
+sowie Aktualisierung der referenzierter Quellen
+
+</td><td>
+gematik
+
+</td></tr></table>
 
 ### Inhaltsverzeichnis
 
@@ -245,7 +685,55 @@ mindestens die in Tab_Standards_IPv4 aufgeführten Standards unterstützen.
 
 Tabelle1: Tab_Standards_IPv4, Standards IPv4
 
- ---> TABLE
+<table><tr><th>
+Standard
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+[RFC768]
+
+</td><td>
+User Datagram Protocol
+
+</td></tr><tr><td>
+[RFC791]
+
+</td><td>
+Internet Protocol
+
+</td></tr><tr><td>
+[RFC792]
+
+</td><td>
+Internet Control Message Protocol
+
+</td></tr><tr><td>
+[RFC793]
+
+</td><td>
+Transmission Control Protocol
+
+</td></tr><tr><td>
+[RFC826]
+
+</td><td>
+Ethernet Address Resolution Protocol
+
+</td></tr><tr><td>
+[RFC894]
+
+</td><td>
+Standard for the Transmission of IP Datagrams over Ethernet Networks
+
+</td></tr><tr><td>
+[RFC1122]
+
+</td><td>
+Requirements for Internet Hosts – Communication Layers
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -536,7 +1024,300 @@ an Produkttypen der TI in der Produktivumgebung verwenden.
 
 Tabelle2: Tab_Adrkonzept_Produktiv, Adressräume IPv4 TI Produktivumgebung
 
- ---> TABLE
+<table><tr><th>
+Netzbereich
+
+</th><th>
+Adressen
+
+</th><th>
+Netz
+
+</th><th>
+Nutzung
+
+</th><th>
+Verantwortlich
+
+</th></tr><tr><td>
+TI-Produktivumgebung
+
+</td><td>
+4M
+
+</td><td>
+100.64.0.0/10
+
+</td><td>
+TI Produktiv
+
+</td><td>
+Anbieter Zentrales Netz TI und GBV
+
+</td></tr><tr><td>
+TI_Dezentral (TI_Dezentral_SIS)
+
+(siehe Erläuterung)
+
+</td><td>
+2M
+
+</td><td>
+100.64.0.0/11
+
+</td><td>
+Dezentral
+
+(Dezentral SIS)
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren und Consumer
+
+</td><td>
+2M
+
+</td><td>
+100.64.0.0/11
+
+</td><td>
+Konnektoren TI, Basis- u. KTR-Consumer
+
+(Konnektoren SIS)
+
+</td><td>
+Anbieter Zugangsdienst,
+
+Betreiber von Basis- u. KTR-Consumer
+
+</td></tr><tr><td>
+Highspeed Konnektoren
+
+</td><td>
+4096
+
+</td><td>
+100.95.240.0/20
+
+</td><td>
+Highspeed Konnektoren
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+Betreiber von Highspeed Konnektoren
+
+</td></tr><tr><td>
+TI_Zentral
+
+</td><td>
+256K
+
+</td><td>
+100.96.0.0/14
+
+</td><td>
+Zentrale Dienste
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td rowspan="2">
+Zentrale Dienste
+
+</td><td>
+64K
+
+</td><td>
+100.96.0.0/16
+
+</td><td rowspan="2">
+Zentrale Dienste
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst ein /26 Adressblock
+aus dem Bereich 100.96.0.0/16 zu.
+
+</td></tr><tr><td rowspan="2">
+VPN-Zugangsdienst
+
+</td><td>
+64K
+
+</td><td>
+100.97.0.0/16
+
+</td><td rowspan="2">
+Anschluss VPN-Konzentratoren an die TI
+
+</td><td rowspan="2">
+Anbieter Zugangsdienst
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem VPN-Zugangsdienstprovider ein /26
+Adressblock aus dem Bereich 100.97.0.0/16 zu.
+
+</td></tr><tr><td>
+Reserveblöcke
+
+</td><td>
+128K
+
+</td><td>
+100.98.0.0/15
+
+</td><td>
+Reserve
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Anwendungsdienste
+
+</td><td>
+256K
+
+</td><td>
+100.100.0.0/14
+
+</td><td>
+Fachdienste
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td rowspan="4">
+Offene Dienste
+
+</td><td>
+32K   
+64K
+
+</td><td>
+100.102.0.0/17  
+100.103.0.0/16
+
+</td><td rowspan="2">
+Offene Fachdienste
+
+oder Dienste eines SÜV
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst ein /26
+Adressblock aus dem Bereich 100.102.0.0/17 zu
+
+</td></tr><tr><td>
+32K
+
+</td><td>
+100.102.128.0/17
+
+</td><td rowspan="2">
+WANDA Smart  
+WANDA Basic
+
+</td><td rowspan="2">
+Anbieter WANDA Smart  
+Anbieter WANDA Basic
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist den WANDA-Basic- sowie
+WANDA-Smart-Anbietern bei Bedarf einen /26, /27, /28 oder /29 Adressblock aus
+dem Bereich 100.102.128.0/17 zu.
+
+</td></tr><tr><td rowspan="2">
+Gesicherte Fachdienste
+
+</td><td>
+64K  
+64K
+
+</td><td>
+100.100.0.0/16  
+100.101.0.0/16
+
+</td><td rowspan="2">
+Gesicherte Fachdienste
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst ein /26
+Adressblock aus dem Bereich 100.100.0.0/16 zu
+
+</td></tr><tr><td>
+TI_Dezentral_SIS (siehe Erläuterung)
+
+</td><td>
+256k
+
+</td><td>
+100.104.0.0/14
+
+</td><td>
+Dezentral SIS
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren
+
+</td><td>
+128k
+
+</td><td>
+100.104.0.0/15
+
+</td><td>
+Konnektoren SIS
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr><tr><td>
+Reserveblock
+
+</td><td>
+128k
+
+</td><td>
+100.106.0.0/15
+
+</td><td>
+Reserve
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+TI_Betriebsreserve
+
+</td><td>
+1.5M
+
+</td><td>
+100.108.0.0/14
+
+100.112.0.0/12
+
+</td><td>
+Reserve
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -559,7 +1340,274 @@ Produkttypen der TI in der Testumgebung verwenden.
 
 Tabelle3: Tab_Adrkonzept_Test, Adressräume IPv4 TI-Testumgebung
 
- ---> TABLE
+<table><tr><th>
+Netzbereich
+
+</th><th>
+Adressen
+
+</th><th>
+Netz
+
+</th><th>
+Nutzung
+
+</th><th>
+Verantwortlich
+
+</th></tr><tr><td>
+TI-Testumgebung
+
+</td><td>
+1M
+
+</td><td>
+172.16.0.0/12
+
+</td><td>
+TI Test
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+TI_Test_Dezentral
+
+(TI_Test_Dezentral_SIS)
+
+(siehe Erläuterung)
+
+</td><td>
+512K
+
+</td><td>
+172.16.0.0/13
+
+</td><td>
+Dezentral TI
+
+(Dezentral SIS)
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren und Consumer
+
+</td><td>
+512K
+
+</td><td>
+172.16.0.0/13
+
+</td><td>
+Konnektoren TI, Basis- u. KTR-Consumer
+
+(SIS)
+
+</td><td>
+Anbieter Zugangsdienst,
+
+Betreiber von Basis- u. KTR-Consumer
+
+</td></tr><tr><td>
+Highspeed Konnektoren
+
+</td><td>
+254
+
+</td><td>
+172.16.247.0/24
+
+</td><td>
+Highspeed Konnektoren
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+Betreiber von Highspeed Konnektoren
+
+</td></tr><tr><td>
+TI_Test_Zentral
+
+</td><td>
+256K
+
+</td><td>
+172.24.0/14
+
+</td><td>
+Zentrale Dienste
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td rowspan="2">
+Zentrale Dienste
+
+</td><td>
+64K
+
+</td><td>
+172.24.0.0/16
+
+</td><td rowspan="2">
+Zentrale Dienste
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst ein /26 Adressblock
+aus dem Bereich 172.24.0.0/15 zu.
+
+</td></tr><tr><td rowspan="2">
+VPN-Zugangsdienst
+
+</td><td>
+64K
+
+</td><td>
+172.25.0.0/16
+
+</td><td rowspan="2">
+Anschluss VPN-Konzentratoren an die TI
+
+</td><td rowspan="2">
+Anbieter Zugangsdienst
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem VPN-Zugangsdienstprovider ein /26
+Adressblock aus dem Bereich 172.25.0.0/16 zu.
+
+</td></tr><tr><td>
+Reserveblöcke
+
+</td><td>
+128K
+
+</td><td>
+172.26.0.0/15
+
+</td><td>
+Reserve
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Test_Anwendungsdienste
+
+</td><td>
+256K
+
+</td><td>
+172.28.0.0/14
+
+</td><td>
+Fachdienste
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td rowspan="4">
+Offene Dienste
+
+</td><td>
+32K
+
+32K
+
+</td><td>
+172.30.0.0/17
+
+172.31.128.0/17
+
+</td><td rowspan="2">
+Offene Fachdienste oder Dienste eines SÜV
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst ein /26
+Adressblock aus dem Bereich 172.30.0.0/17 zu.
+
+</td></tr><tr><td>
+32K
+
+</td><td>
+172.30.128.0/17
+
+</td><td rowspan="2">
+WANDA Smart
+
+WANDA Basi
+
+c
+
+</td><td rowspan="2">
+Anbieter WANDA Smart  
+Anbieter WANDA Basic
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist den WANDA-Basic- sowie
+WANDA-Smart-Anbietern bei Bedarf einen /26, /27, /28 oder /29 Adressblock aus
+dem Bereich 172.30.128.0/17 zu.
+
+</td></tr><tr><td rowspan="2">
+Gesicherte Fachdienste
+
+</td><td>
+64K
+
+32K
+
+</td><td>
+172.28.0.0/16
+
+172.31.0.0/17
+
+</td><td rowspan="2">
+Gesicherte Fachdienste
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten
+
+Fachdienst ein /26 Adressblock aus dem Bereich 172.28.0.0/16 zu.
+
+</td></tr><tr><td>
+(TI_Test_Dezentral_SIS)  
+(siehe Erläuterung)
+
+</td><td colspan="2">
+172.29.0.0/16
+
+</td><td>
+Dezentral SIS
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren
+
+</td><td>
+64K
+
+</td><td>
+172.29.0.0/16
+
+</td><td>
+Konnektoren SIS
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -588,7 +1636,106 @@ IP-Adressbereich) genutzt werden. **[\<=]**
 In Tabelle 4 wird informativ die Nutzung von IPv4-Adressbereichen aus
 Netzbereich TI_Extern dargestellt.
 
- ---> TABLE
+<table><tr><th>
+Netzbereich
+
+</th><th>
+Adressen
+
+</th><th>
+Netz
+
+</th><th>
+Nutzung
+
+</th><th>
+Verantwortlicher
+
+</th></tr><tr><td>
+TI Extern
+
+</td><td colspan="2">
+Werden hier nicht festgelegt.
+
+</td><td>
+Extern
+
+</td><td>
+Extern
+
+</td></tr><tr><td>
+DEZ_Transport
+
+</td><td colspan="2">
+Keine Vorgabe
+
+</td><td>
+Dezentral Internet
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr><tr><td>
+Bestandsnetze
+
+</td><td colspan="2">
+Öffentliche Adressen
+
+</td><td>
+Bestandsnetze
+
+</td><td>
+Bestandsnetze
+
+</td></tr><tr><td>
+DEZENTRAL_INTRANET
+
+</td><td colspan="2">
+keine Vorgabe
+
+</td><td>
+LE
+
+</td><td>
+LE
+
+</td></tr><tr><td>
+VPN_TRANSPORT_TI
+
+</td><td colspan="2">
+Öffentliche Adressen
+
+</td><td>
+Zugangsdienst
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr><tr><td>
+VPN_TRANSPORT_SIS
+
+</td><td colspan="2">
+Öffentliche Adressen
+
+</td><td>
+SIS
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr><tr><td>
+SIS
+
+</td><td colspan="2">
+Öffentliche Adressen
+
+</td><td>
+SIS
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr></table>
 
 ##### GS-A_4760-01
 
@@ -617,7 +1764,346 @@ IPv6-Adressen an Produkttypen der TI in der Produktivumgebung verwenden.
 
 Tabelle5: Tab_Adrkonzept_IPv6_Produktiv, Adressräume IPv6 TI Produktivumgebung
 
- ---> TABLE
+<table><tr><th>
+Netzbereich
+
+</th><th>
+Adressen
+
+</th><th>
+Netz
+
+</th><th>
+Nutzung
+
+</th><th>
+Verantwortlich
+
+</th></tr><tr><td>
+TI-Testumgebung
+
+</td><td>
+2A10:1982:0000::/32
+
+</td><td>
+TI Produktiv
+
+</td><td>
+Anbieter Zentrales Netz TI und GBV
+
+</td></tr><tr><td>
+TI_Dezentral_TI
+
+</td><td>
+2A10:1982:0000::/40
+
+</td><td>
+Dezentral TI
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren und Consumer TI
+
+</td><td>
+2A10:1982:0000::/40
+
+</td><td>
+Konnektoren TI, Basis- u. KTR-Consumer
+
+</td><td>
+Anbieter Zugangsdienst, Betreiber von Basis- u. KTR-Consumer
+
+</td></tr><tr><td rowspan="8">
+Zentrale Dienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1982:0100::/42
+
+</td><td rowspan="2">
+Zentrale Dienste  
+QoS-Klasse Platin
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0100::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:0140::/42
+
+</td><td rowspan="2">
+Zentrale Dienste  
+QoS-Klasse Gold
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0140::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:0180::/42
+
+</td><td rowspan="2">
+Zentrale Dienste  
+QoS-Klasse Silber
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0180::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:01C0::/42
+
+</td><td rowspan="2">
+Zentrale Dienste  
+QoS-Klasse Bronze
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1982:01C0::/42 zu.
+
+</td></tr><tr><td rowspan="2">
+VPN-Zugangsdienst
+
+</td><td>
+220 Netze
+
+</td><td>
+2A10:1982:0200::/40
+
+</td><td rowspan="2">
+Anschluss VPN-Konzentratoren an die TI/SIS
+
+</td><td rowspan="2">
+Anbieter Zugangsdienst
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem VPN-Zugangsdienstprovider einen /60
+Adressblock aus dem Bereich 2A10:1982:0200::/40 zu.
+
+</td></tr><tr><td rowspan="10">
+Offene Dienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1982:0300::/42
+
+</td><td rowspan="2">
+Offene Fachdienste oder Dienste eines SÜV  
+QoS-Klasse Platin
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0300::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:0340::/42
+
+</td><td rowspan="2">
+Offene Fachdienste oder Dienste eines SÜV  
+QoS-Klasse Gold
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0340::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:0380::/42
+
+</td><td rowspan="2">
+Offene Fachdienste oder Dienste eines SÜV  
+QoS-Klasse Silber
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0380::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:03C0::/42
+
+</td><td rowspan="2">
+Offene Fachdienste oder Dienste eines SÜV  
+QoS-Klasse Bronze
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1982:03C0::/42 zu
+
+.
+
+</td></tr><tr><td>
+220 Netze
+
+</td><td>
+2A10:1982:0400::/40
+
+</td><td rowspan="2">
+WANDA Smart
+
+</td><td rowspan="2">
+Anbieter WANDA Smart
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist den WANDA Smart Anbietern bei Bedarf einen
+/60 Adressblock aus dem Bereich 2A10:1982:0400::/40 zu.
+
+</td></tr><tr><td rowspan="8">
+Gesicherte Fachdienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1982:0500::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Platin
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0500::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:0540::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Gold
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0540::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:0580::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Silber
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1982:0580::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1982:05C0::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Bronze
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60.
+Adressblock aus dem Bereich 2A10:1982:05C0::/42 zu.
+
+</td></tr><tr><td>
+TI_Dezentral_SIS
+
+</td><td>
+2A10:1982:0600::/40
+
+</td><td>
+Dezentral SIS
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren
+
+</td><td>
+2A10:1982:0600::/40
+
+</td><td>
+Konnektoren SIS
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr><tr><td>
+TI_Betriebsreserve
+
+</td><td>
+2A10:1982:0700::/40  
+bis  
+2A10:1982:FF00::/40
+
+</td><td>
+Reserve
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -629,7 +2115,348 @@ IPv6-Adressen an Produkttypen der TI in der Testumgebung verwenden.
 
 Tabelle6: Tab_Adrkonzept_IPv6_Test, Adressräume IPv6 TI-Testumgebung
 
- ---> TABLE
+<table><tr><th>
+Netzbereich
+
+</th><th>
+Adressen
+
+</th><th>
+Netz
+
+</th><th>
+Nutzung
+
+</th><th>
+Verantwortlich
+
+</th></tr><tr><td>
+TI-Testumgebung
+
+</td><td>
+2A10:1981:0000::/32
+
+</td><td>
+TI Produktiv
+
+</td><td>
+Anbieter Zentrales Netz TI und GBV
+
+</td></tr><tr><td>
+TI_Dezentral_TI
+
+</td><td>
+2A10:1981:0000::/40
+
+</td><td>
+Dezentral TI
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren und Consumer TI
+
+</td><td>
+2A10:1981:0000::/40
+
+</td><td>
+Konnektoren TI, Basis- u. KTR-Consumer
+
+</td><td>
+Anbieter Zugangsdienst, Betreiber von Basis- u. KTR-Consumer
+
+</td></tr><tr><td rowspan="8">
+Zentrale Dienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1981:0100::/42
+
+</td><td rowspan="2">
+Zentrale Dienste  
+QoS-Klasse Platin
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0100::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:0140::/42
+
+</td><td rowspan="2">
+Zentrale Dienste  
+QoS-Klasse Gold
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0140::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:0180::/42
+
+</td><td rowspan="2">
+Zentrale Dienste  
+QoS-Klasse Silber
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0180::/42 zu.
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:01C0::/42
+
+</td><td rowspan="2">
+Zentrale Dienste  
+QoS-Klasse Bronze
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1981:01C0::/42 zu.
+
+</td></tr><tr><td rowspan="2">
+VPN-Zugangsdienst
+
+</td><td>
+220 Netze
+
+</td><td>
+2A10:1981:0200::/40
+
+</td><td rowspan="2">
+Anschluss VPN-Konzentratoren an die TI/SIS
+
+</td><td rowspan="2">
+Anbieter Zugangsdienst
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem VPN-Zugangsdienstprovider einen /60
+Adressblock aus dem Bereich 2A10:1981:0200::/40 zu.
+
+</td></tr><tr><td rowspan="10">
+Offene Dienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1981:0300::/42
+
+</td><td rowspan="2">
+Offene Fachdienste  
+oder Dienste eines SÜV  
+QoS-Klasse Platin
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0300::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:0340::/42
+
+</td><td rowspan="2">
+Offene Fachdienste  
+oder Dienste eines SÜV  
+QoS-Klasse Gold
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0340::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:0380::/42
+
+</td><td rowspan="2">
+Offene Fachdienste  
+oder Dienste eines SÜV  
+QoS-Klasse Silber
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0380::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:03C0::/42
+
+</td><td rowspan="2">
+Offene Fachdienste  
+oder Dienste eines SÜV  
+QoS-Klasse Bronze
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1981:03C0::/42 zu
+
+</td></tr><tr><td>
+220 Netze
+
+</td><td>
+2A10:1981:0400::/40
+
+</td><td rowspan="2">
+WANDA Smart
+
+</td><td rowspan="2">
+Anbieter WANDA Smart
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist den WANDA Smart Anbietern bei Bedarf einen
+/60 Adressblock aus dem Bereich 2A10:1981:0400::/40 zu
+
+</td></tr><tr><td rowspan="8">
+Gesicherte Fachdienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1981:0500::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Platin
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0500::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:0540::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Gold
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0540::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:0580::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Silber
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1981:0580::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1981:05C0::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Bronze
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1981:05C0::/42 zu
+
+</td></tr><tr><td>
+TI_Dezentral_SIS
+
+</td><td>
+2A10:1981:0600::/40
+
+</td><td>
+Dezentral SIS
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren
+
+</td><td>
+2A10:1981:0600::/40
+
+</td><td>
+Konnektoren SIS
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr><tr><td>
+TI_Betriebsreserve
+
+</td><td>
+2A10:1981:0700::/40  
+bis  
+2A10:1981:FF00::/40
+
+</td><td>
+Reserve
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -639,7 +2466,358 @@ Der Anbieter Zentrales Netz TI MUSS den Adressbereich 2A10:1980:0000::/32 nach
 dem in der Tab_Adrkonzept_Ipv6_Refug definierten Schema zur Vergabe von
 IPv6-Adressen an Produkttypen der TI in der Referenzumgebung verwenden.
 
- ---> TABLE
+<table><tr><th>
+Netzbereich
+
+</th><th>
+Menge
+
+</th><th>
+Netz-Präfix
+
+</th><th>
+Nutzung
+
+</th><th>
+Verantwortlich
+
+</th></tr><tr><td>
+TI-Referenzumgebung
+
+</td><td>
+2A10:1980::/32
+
+</td><td>
+TI Produktiv
+
+</td><td>
+Anbieter Zentrales Netz TI und GBV
+
+</td></tr><tr><td>
+TI_Dezentral_TI
+
+</td><td>
+2A10:1980:0000::/40
+
+</td><td>
+Dezentral TI
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren und Consumer TI
+
+</td><td>
+2A10:1980:0000::/40
+
+</td><td>
+Konnektoren TI, Basis- u. KTR-Consumer
+
+</td><td>
+Anbieter Zugangsdienst, Betreiber von Basis- u. KTR-Consumer
+
+</td></tr><tr><td rowspan="8">
+Zentrale Dienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1980:0100::/42
+
+</td><td>
+Zentrale Dienste
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0100::/42 zu.
+
+</td><td>
+(QoS-Klasse Platin)
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:0140::/42
+
+</td><td>
+Zentrale Dienste
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0140::/42 zu.
+
+</td><td>
+(QoS-Klasse Gold)
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:0180::/42
+
+</td><td>
+Zentrale Dienste
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0180::/42 zu.
+
+</td><td>
+(QoS-Klasse Silber)
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:01C0::/42
+
+</td><td>
+Zentrale Dienste
+
+</td><td rowspan="2">
+Anbieter Zentraler Dienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem zentralen Dienst einen /60
+Adressblock aus dem Bereich 2A10:1980:01C0::/42 zu.
+
+</td><td>
+(QoS-Klasse Bronze)
+
+</td></tr><tr><td rowspan="2">
+VPN-Zugangsdienst
+
+</td><td>
+220 Netze
+
+</td><td>
+2A10:1980:0200::/40
+
+</td><td rowspan="2">
+Anschluss VPN-Konzentratoren an die TI/SIS
+
+</td><td rowspan="2">
+Anbieter Zugangsdienst
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem VPN-Zugangsdienstprovider einen /60
+Adressblock aus dem Bereich 2A10:1980:0200::/40 zu.
+
+</td></tr><tr><td rowspan="10">
+Offene Dienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1980:0300::/42
+
+</td><td>
+Offene Fachdienste
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0300::/42 zu
+
+</td><td>
+oder Dienste eines SÜV  
+QoS-Klasse Platin
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:0340::/42
+
+</td><td rowspan="2">
+Offene Fachdienste  
+oder Dienste eines SÜV  
+QoS-Klasse Gold
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0340::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:0380::/42
+
+</td><td rowspan="2">
+Offene Fachdienste  
+oder Dienste eines SÜV  
+QoS-Klasse Silber
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0380::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:03C0::/42
+
+</td><td rowspan="2">
+Offene Fachdienste  
+oder Dienste eines SÜV  
+QoS-Klasse Bronze
+
+</td><td rowspan="2">
+Anbieter Offene Fachdienste oder Dienste eines SÜV
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Offenen Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1980:03C0::/42 zu
+
+</td></tr><tr><td>
+220 Netze
+
+</td><td>
+2A10:1980:0400::/40
+
+</td><td rowspan="2">
+WANDA Smart
+
+</td><td rowspan="2">
+Anbieter WANDA Smart
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist den WANDA Smart Anbietern bei Bedarf einen
+/60 Adressblock aus dem Bereich 2A10:1980:0400::/40 zu
+
+</td></tr><tr><td rowspan="8">
+Gesicherte Fachdienste
+
+</td><td>
+218 Netze
+
+</td><td>
+2A10:1980:0500::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Platin
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0500::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:0540::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Gold
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0540::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:0580::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Silber
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1980:0580::/42 zu
+
+</td></tr><tr><td>
+218 Netze
+
+</td><td>
+2A10:1980:05C0::/42
+
+</td><td rowspan="2">
+Gesicherte Fachdienste  
+QoS-Klasse Bronze
+
+</td><td rowspan="2">
+Anbieter Gesicherte Fachdienste
+
+</td></tr><tr><td colspan="2">
+Der Anbieter Zentrales Netz TI weist jedem Gesicherten Fachdienst einen /60
+Adressblock aus dem Bereich 2A10:1980:05C0::/42 zu
+
+</td></tr><tr><td>
+TI_Dezentral_SIS
+
+</td><td>
+2A10:1980:0600::/40
+
+</td><td>
+Dezentral SIS
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr><tr><td>
+Konnektoren
+
+</td><td>
+2A10:1980:0600::/40
+
+</td><td>
+Konnektoren SIS
+
+</td><td>
+Anbieter Zugangsdienst
+
+</td></tr><tr><td>
+TI_Betriebsreserve
+
+</td><td>
+2A10:1980:0700::/40  
+bis  
+2A10:1980:FF00::/40
+
+</td><td>
+Reserve
+
+</td><td>
+Anbieter Zentrales Netz TI
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -724,7 +2902,186 @@ Anforderungen der Anwendung bzw. des Dienstes ermöglichen. Die Zuordnung
 erfolgt gemäß [RFC4594]; die vorliegende Tabelle 5 ist ein übersetzter
 Auszug.
 
- ---> TABLE
+<table><tr><th rowspan="2">
+Dienstklasse
+
+</th><th rowspan="2">
+Beispielanwendung
+
+</th><th colspan="3">
+Toleranz für
+
+</th></tr><tr><td>
+Paketverlust
+
+</td><td>
+Verzögerung
+
+</td><td>
+Jitter
+
+</td></tr><tr><td>
+Netzwerksteuerung
+
+</td><td>
+OSPF, BGP
+
+</td><td>
+Niedrig
+
+</td><td>
+Niedrig
+
+</td><td>
+Hoch
+
+</td></tr><tr><td>
+Echtzeit-Interaktiv
+
+</td><td>
+Remote Desktop
+
+</td><td>
+Niedrig
+
+</td><td>
+Sehr niedrig
+
+</td><td>
+Niedrig
+
+</td></tr><tr><td>
+Audio
+
+</td><td>
+VoIP, Echtzeitanwendungen
+
+</td><td>
+Sehr niedrig
+
+</td><td>
+Sehr niedrig
+
+</td><td>
+Sehr niedrig
+
+</td></tr><tr><td>
+Video
+
+</td><td>
+A/V-Konferenzen (Live, Bidirektional)
+
+</td><td>
+Sehr niedrig
+
+</td><td>
+Sehr niedrig
+
+</td><td>
+Sehr niedrig
+
+</td></tr><tr><td>
+Multimedia Streaming
+
+</td><td>
+Video und Audio Streaming auf Anforderung (nicht Live)
+
+</td><td>
+Niedrig - Mittel
+
+</td><td>
+Mittel
+
+</td><td>
+Hoch
+
+</td></tr><tr><td>
+Niedrige Latenz Datenübertragung
+
+</td><td>
+Client-Server Transaktionen
+
+</td><td>
+Niedrig
+
+</td><td>
+Niedrig - Mittel
+
+</td><td>
+Mittel
+
+</td></tr><tr><td>
+Hoher Durchsatz Datenübertragung
+
+</td><td>
+Store-and-Forward-Anwendungen, z.B. E-Mail, Filetransfer
+
+</td><td>
+Niedrig
+
+</td><td>
+Mittel - Hoch
+
+</td><td>
+Hoch
+
+</td></tr><tr><td>
+Best Effort
+
+</td><td>
+Alle Anwendungen ohne besondere Anforderungen
+
+</td><td colspan="3">
+Unspezifiziert
+
+</td></tr><tr><td>
+Niedrige Priorität
+
+</td><td>
+Anwendungen ohne Echtzeitanforderungen
+
+</td><td>
+Hoch
+
+</td><td>
+Hoch
+
+</td><td>
+Hoch
+
+</td></tr><tr><td>
+Signalisierung
+
+</td><td>
+VoIP,
+
+Protokolle für Verbindungsaufbau
+
+</td><td>
+Niedrig
+
+</td><td>
+Niedrig
+
+</td><td>
+Mittel
+
+</td></tr><tr><td>
+Video (Broadcast)
+
+</td><td>
+Video und Audio Streaming
+
+</td><td>
+Sehr niedrig
+
+</td><td>
+Mittel
+
+</td><td>
+Niedrig
+
+</td></tr></table>
 
 Die Zuordnung der Dienstklassen zu den Applikationen erfolgt durch den GBV. Die
 initiale Zuordnung erfolgt vor Inbetriebnahme der TI. Die Zuordnung wird im
@@ -740,14 +3097,191 @@ ausschließlich durch das Setzen von Differentiated Services Code Point
 definierten Zuordnung von Dienstklasse und Priorität zu DSCP-Werten. Tabelle 6
 ist ein übersetzter Auszug.
 
- ---> TABLE
+<table><tr><th>
+Name der Dienstklasse
+
+</th><th>
+Beispielanwendung
+
+</th><th>
+DSCP-Name
+
+</th></tr><tr><td>
+Netzwerksteuerung
+
+</td><td>
+OSPF, BGP
+
+</td><td>
+CS6&CS7
+
+</td></tr><tr><td>
+Echtzeit-Interaktiv
+
+</td><td>
+Remote Desktop
+
+</td><td>
+CS5, CS5-Admit
+
+</td></tr><tr><td>
+Audio
+
+</td><td>
+VoIP, Echtzeitanwendungen
+
+</td><td>
+EF, Voice Admit
+
+</td></tr><tr><td>
+Video
+
+</td><td>
+A/V-Konferenzen (Live, Bidirektional)
+
+</td><td>
+AF41, AF42, AF43
+
+</td></tr><tr><td>
+Multimedia Streaming
+
+</td><td>
+Video und Audio Streaming auf Anforderung (nicht Live)
+
+</td><td>
+AF31, AF32, AF33
+
+</td></tr><tr><td>
+Niedrige Latenz Datenübertragung
+
+</td><td>
+Client-Server Transaktionen
+
+</td><td>
+AF21, AF22, AF23
+
+</td></tr><tr><td>
+OAM
+
+</td><td>
+Operations and Maintenance
+
+</td><td>
+CS2
+
+</td></tr><tr><td>
+Hoher Durchsatz Datenübertragung
+
+</td><td>
+Store-and-Forward-Anwendungen, z.B. E-Mail, Filetransfer
+
+</td><td>
+AF11, AF12, AF13
+
+</td></tr><tr><td>
+Best Effort
+
+</td><td>
+Alle Anwendungen ohne besondere Anforderungen
+
+</td><td>
+CS0
+
+</td></tr><tr><td>
+Niedrige Priorität
+
+</td><td>
+Anwendungen ohne Echtzeitanforderungen
+
+</td><td>
+CS1
+
+</td></tr></table>
 
 Innerhalb der AF-Klassen wird gemäß [RFC2597] eine Unterscheidung hinsichtlich
 der Wahrscheinlichkeit gemacht, mit der durch Active Queue Management IP-Pakete
 fallen gelassen werden („Drop Precedence“). Hierbei entspricht eine
 niedrige Drop Precedence einer höheren Priorisierung des Datenverkehrs.
 
- ---> TABLE
+<table><tr><th rowspan="2">
+Dienstklasse
+
+</th><th rowspan="2">
+DSCP-Name/Klasse
+
+</th><th colspan="3">
+Drop Precedence
+
+</th></tr><tr><td>
+Niedrig
+
+</td><td>
+Mittel
+
+</td><td>
+Hoch
+
+</td></tr><tr><td>
+Video
+
+</td><td>
+AF-Class 4
+
+</td><td>
+AF41
+
+</td><td>
+AF42
+
+</td><td>
+AF43
+
+</td></tr><tr><td>
+Multimedia Streaming
+
+</td><td>
+AF-Class 3
+
+</td><td>
+AF31
+
+</td><td>
+AF32
+
+</td><td>
+AF33
+
+</td></tr><tr><td>
+Niedrige Latenz Datenübertragung
+
+</td><td>
+AF-Class 2
+
+</td><td>
+AF21
+
+</td><td>
+AF22
+
+</td><td>
+AF23
+
+</td></tr><tr><td>
+Hoher Durchsatz Datenübertragung
+
+</td><td>
+AF-Class 1
+
+</td><td>
+AF11
+
+</td><td>
+AF12
+
+</td><td>
+AF13
+
+</td></tr></table>
 
 Die DSCP-Markierungen werden so weit wie möglich am Rand des Netzwerkes
 vorgenommen. Nach der Markierung wird diesen Markierungen durch alle
@@ -859,11 +3393,284 @@ und Tab_QoS_Mapping_Dienstklassen_Bandbreite umsetzen.Die Markierung MUSS
 sowohl bei Requests als auch bei Responses der Dienste umgesetzt werden.
 **[\<=]**
 
- ---> TABLE
+<table><tr><th>
+Dienstklasse TI
 
- ---> TABLE
+</th><th>
+DSCP-Wert
 
- ---> TABLE
+</th><th>
+QoS-Klasse
+
+</th></tr><tr><td>
+Real-Time
+
+</td><td>
+EF
+
+</td><td>
+Voice
+
+</td></tr><tr><td>
+Multimedia/Video
+
+</td><td>
+AF4*
+
+</td><td>
+Video
+
+</td></tr><tr><td>
+Interactive ZD
+
+</td><td>
+AF3*
+
+</td><td>
+Platin
+
+</td></tr><tr><td>
+Interactive FD
+
+</td><td>
+AF2*
+
+</td><td>
+Gold
+
+</td></tr><tr><td>
+File Transfer FD
+
+</td><td>
+AF1*
+
+</td><td>
+Silber
+
+</td></tr><tr><td>
+Best Effort
+
+</td><td>
+0 (Default)
+
+</td><td>
+Bronze
+
+</td></tr></table>
+
+<table><tr><th>
+Anwendung/Dienst
+
+</th><th>
+Dienstklasse TI
+
+</th></tr><tr><td>
+Echtzeittraffic
+
+</td><td>
+Real-Time
+
+</td></tr><tr><td>
+Multimedia Dienste
+
+</td><td>
+Multimedia/Video
+
+</td></tr><tr><td>
+TSL-Download
+
+</td><td>
+Interactive ZD
+
+</td></tr><tr><td>
+KSR-Update
+
+</td><td>
+Best Effort
+
+</td></tr><tr><td>
+VSD (Update VSD)
+
+</td><td>
+Interactive FD
+
+</td></tr><tr><td>
+UFS (Update Flag Service)
+
+</td><td>
+Interactive FD
+
+</td></tr><tr><td>
+CMS (Card Management Service)
+
+</td><td>
+Interactive FD
+
+</td></tr><tr><td>
+Zeitdienst (NTP)
+
+</td><td>
+Interactive ZD
+
+</td></tr><tr><td>
+Störungsampel (SNMP; SOAP)
+
+</td><td>
+Interactive ZD
+
+</td></tr><tr><td>
+Namensdienst (DNS)
+
+</td><td>
+Interactive ZD
+
+</td></tr><tr><td>
+X.509-Statusprüfung (OCSP)
+
+</td><td>
+Interactive ZD
+
+</td></tr><tr><td>
+KSR-List_Updates
+
+</td><td>
+Interactive ZD
+
+</td></tr><tr><td>
+Schlüsselgenerierungsdienst 2 (SGD 2)
+
+</td><td>
+Interactive ZD
+
+</td></tr><tr><td>
+ePA-Aktensystem
+
+</td><td>
+File Transfer FD
+
+</td></tr><tr><td>
+IdP-Dienst
+
+</td><td>
+File Transfer FD
+
+</td></tr><tr><td>
+E-Rezept-FD
+
+</td><td>
+File Transfer FD
+
+</td></tr><tr><td>
+Bestandsnetze
+
+</td><td>
+Best Effort
+
+</td></tr><tr><td>
+KOM-LE-Fachdienst
+
+</td><td>
+Best Effort
+
+</td></tr><tr><td>
+KTR-AdV 
+
+</td><td>
+Best Effort
+
+</td></tr></table>
+
+<table><tr><th>
+Dienstklasse TI
+
+</th><th>
+Bandbreite
+
+SZZP Zentrale Dienste
+
+</th><th>
+Bandbreite
+
+SZZP Fachdienste
+
+</th><th>
+Bandbreite
+
+Konnektor
+
+</th></tr><tr><td>
+Real-Time
+
+</td><td>
+n/a
+
+</td><td>
+n/a
+
+</td><td>
+n/a
+
+</td></tr><tr><td>
+Multimedia/Video
+
+</td><td>
+n/a
+
+</td><td>
+n/a
+
+</td><td>
+n/a
+
+</td></tr><tr><td>
+Interactive ZD
+
+</td><td>
+40%
+
+</td><td>
+10%
+
+</td><td>
+10%
+
+</td></tr><tr><td>
+Interactive FD
+
+</td><td>
+10%
+
+</td><td>
+40%
+
+</td><td>
+30%
+
+</td></tr><tr><td>
+File Transfer FD
+
+</td><td>
+10%
+
+</td><td>
+40%
+
+</td><td>
+30%
+
+</td></tr><tr><td>
+Best Effort
+
+</td><td>
+40%
+
+</td><td>
+10%
+
+</td><td>
+30%
+
+</td></tr></table>
 
 ##### GS-A_4048
 
@@ -1731,7 +4538,79 @@ Schnittstellen) und nutzen ("benötigte" Schnittstellen).
 
 Tabelle14:Tab_PT_ZentrNetz_Schnittstellen
 
- ---> TABLE
+<table><tr><th>
+Schnittstelle
+
+</th><th>
+bereitgestellt/benötigt
+
+</th><th>
+obligatorisch/optional
+
+</th><th>
+Bemerkung
+
+</th></tr><tr><td>
+I_IP_Transport
+
+</td><td>
+bereitgestellt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 3.3.2.1
+
+</td></tr><tr><td>
+I_DNS_Name_Resolution
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Kapitel 4 Namensdienst
+
+</td></tr><tr><td>
+I_NTP_Time_Information
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Kapitel 5Zeitdienst
+
+</td></tr><tr><td>
+P_Monitoring_Update
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in [gemSpec_St_Ampel]
+
+</td></tr><tr><td>
+P_Monitoring_Read
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in [gemSpec_St_Ampel]
+
+</td></tr></table>
 
 ​​​​ **[\<=]**
 
@@ -1824,7 +4703,129 @@ melden:
 
 Tabelle15:Tab_PT_ZentrNetz_AnschlussParameter: Anschlussparameter
 
- ---> TABLE
+<table><tr><th>
+Lfd. Nr.
+
+</th><th>
+Parameter
+
+</th><th>
+Beschreibung
+
+</th><th>
+Mögliche Werte
+
+</th></tr><tr><td>
+1
+
+</td><td>
+IPv4-Bereich
+
+</td><td>
+Dem Produkttyp zugewiesener TI IPv4-Adressbereich, i. d. R. mit der Größe /26
+
+</td><td>
+IPv4-Subnet /26
+
+</td></tr><tr><td>
+2
+
+</td><td>
+IPv4-Adressen SZZP
+
+</td><td>
+IP-Adressen auf der Schnittstelle des Produkttyps zum SZZP
+
+</td><td>
+IPv4-Adressen
+
+</td></tr><tr><td>
+3
+
+</td><td>
+IPv4-Adressen Produkttyp
+
+</td><td>
+IP-Adressen für die Schnittstellen des/der SZZPs zum Produkttyp
+
+</td><td>
+IPv4-Adressen
+
+</td></tr><tr><td>
+4
+
+</td><td>
+Anzahl Hauseinführungen
+
+</td><td>
+Anzahl der Hauseinführungen vom Zentralen Netz zum SZZP
+
+</td><td>
+1 oder 2
+
+</td></tr><tr><td>
+4a
+
+</td><td>
+Anzahl der angebundenen Standorte
+
+</td><td>
+Anzahl der angebundenen Standorte (z.B. bei Verteilung auf mehrere RZ)
+
+</td><td>
+1 oder 2
+
+</td></tr><tr><td>
+5
+
+</td><td>
+Anschlussbandbreite
+
+</td><td>
+Anschlussbandbreite:Typ 1: 1 bis 100 Mbit/sTyp 2: 1 Mbit/s bis 1Gbit/s
+
+</td><td>
+Typ 1 oderTyp 2
+
+</td></tr><tr><td>
+6
+
+</td><td>
+Anzahl SZZPs
+
+</td><td>
+Anzahl der SZZPs
+
+</td><td>
+1 oder 2
+
+</td></tr><tr><td>
+7
+
+</td><td>
+Hochverfügbarkeitsprotokolle
+
+</td><td>
+Möglicherweise vom Produkttyp eingesetzte Hochverfügbarkeitsprotokolle
+zwischen Netzkomponenten des Produkttyps mit Anschluss an die TI durch SZZPs
+
+</td><td>
+VRRP, HRSP u.a.
+
+</td></tr><tr><td>
+8
+
+</td><td>
+Physische Schnittstelle SZZP-Produkttyp
+
+</td><td>
+Art derEthernetschnittstellezwischen SZZPs und den Netzkomponenten des an die TI
+angeschlossenen Produkttyps
+
+</td><td>
+1 Gigabit Kupfer,1 Gigabit Glasfaser
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -2110,7 +5111,87 @@ verschiedenen Punkten in der TI benötigt werden.
 In der TI und um Verbindungen in die TI aufzubauen werden Nameserver mit
 folgender Topologie und Funktionalität eingesetzt:
 
- ---> TABLE
+<table><tr><th>
+Produkttyp
+
+</th><th>
+DNS-Komponente
+
+</th><th>
+Funktion
+
+</th></tr><tr><td>
+Konnektor
+
+</td><td>
+Nameserver
+
+</td><td>
+DNS-Forwarder zur Namensauflösung für die Namensräume TI, Transportnetz,
+Bestandsnetze und Internet über den SIS sowie zur Servicelokalisierung im
+Namensraum der TI.
+
+</td></tr><tr><td rowspan="3">
+VPN-Zugangsdienst
+
+</td><td>
+Nameserver (SIS)
+
+</td><td>
+Nameserver zur Auflösung der FQDN im Internet. Dieser Nameserver wird vom
+Konnektor aus über den IPsec-Tunnel für den Sicheren Internet Service
+erreicht.
+
+</td></tr><tr><td>
+Nameserver (TI)
+
+</td><td>
+DNS-Cache-Server für den Namensraum TI
+
+</td></tr><tr><td>
+Nameserver (Transportnetz)
+
+</td><td>
+Nameserver zur Auflösung der FQDN der VPN-Konzentratoren durch den Konnektor.
+Diese Zone ist Teil des Namensraums Internet, wenn das Transportnetz das
+Internet ist.
+
+</td></tr><tr><td>
+Namensdienst
+
+</td><td>
+Nameserver (TI)
+
+</td><td>
+Nameserver für die Zonen Root, TLD und der Subdomains für alle Fachanwendungen
+der TI sowie für Produkttypen der Zone TI-Plattform zentral.
+
+Diese Zonen sind Teil des Namensraums der TI.
+
+Von den Subdomains für alle Fachanwendungen der TI sowie für Produkttypen der
+Zone TI-Plattform zentral erfolgt optional eine Zone-Delegation an Anbieter von
+fachanwendungsspezifischen Diensten oder an Anbieter von Produkttypen.
+
+</td></tr><tr><td>
+\<FA_spez_Dienst\>
+
+</td><td>
+optionaler Nameserver (TI)
+
+</td><td>
+Nameserver für eine Subdomain unterhalb einer Fachanwendungsdomain oder
+Forwarder
+
+</td></tr><tr><td>
+\<Zentraler_Dienst_TIP\>
+
+</td><td>
+optionaler Nameserver (TI)
+
+</td><td>
+Nameserver für eine Subdomain unterhalb einer Produkttypdomain oder Forwarder
+
+</td></tr></table>
 
 Die folgende Abbildung zeigt die Abfragebeziehungen zwischen den Nameservern.
 
@@ -2169,7 +5250,27 @@ Namensdienstes zur Eintragung in die Nameserverkonfiguration übergeben werden.
 
 Tabelle17:Tab_KSR_SRV-RR
 
- ---> TABLE
+<table><tr><th>
+ResourceRecordBezeichner
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+_ksrkonfig._tcp.ksr.telematik
+
+</td><td>
+SRVResourceRecordzur Ermittlung der URL des KSR Downloadpunktes für
+Konfigurationsdaten in der TI
+
+</td></tr><tr><td>
+_ksrfirmware._tcp.ksr.telematik
+
+</td><td>
+SRVResourceRecordzur Ermittlung der URL des KSR Downloadpunktes für
+Konnektor-Updates in der TI
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2186,7 +5287,55 @@ auf Wunsch von Anbietern weiterer Anwendungen des Gesundheitswesens sowie der
 Gesundheitsforschung Einträge zur Dienstlokalisierung gemäß [RFC6763]
 Tab_Namensdienst_DNSSD_für_WA vornehmen. **[\<=]**
 
- ---> TABLE
+<table><tr><th>
+Resource Record Bezeichner
+
+</th><th>
+TYP
+
+</th><th>
+Data
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+_ti-wa-service._tcp.dnssd.ti-wa.
+
+</td><td>
+PTR
+
+</td><td>
+\<SERVICE_NAME\>
+
+</td><td>
+PTR Resource Record zur Ermittlung der Dienste der weiteren Anwendungen des
+Gesundheitswesens sowie der Gesundheitsforschung. Der \<SERVICE_NAME\> wird
+durch die weitere Anwendung gemäß RFC6763] vergeben.
+
+</td></tr><tr><td>
+SRV
+
+</td><td>
+\<PRIORITÄT\> \<GEWICHT\> \<PORT\> \<FQDN\>
+
+</td><td>
+SRV Resource Record zur Ermittlung des FQDNs und des Ports der URL des Dienstes
+einer weiteren Anwendung. \<PRIORITÄT\>, \<GEWICHT\>, \<PORT\> und \<FQDN\>
+werden durch die weitere Anwendung vergeben.
+
+</td></tr><tr><td>
+TXT
+
+</td><td>
+“txtvers=1“ “path=\<PFAD\>“
+
+</td><td>
+TXT Resource Record zur Ermittlung der URL des Dienstes einer weiteren
+Anwendung. Die Daten des TXT Resource Records können zum Zweck der
+Dienstlokalisierung frei durch die weitere Anwendung vergeben werden.
+
+</td></tr></table>
 
 ### 5.6 Schnittstellen I_DNS_Name_Resolution und I_DNS_Service_Localization
 
@@ -2368,7 +5517,139 @@ Schnittstellen) und nutzen („benötigte“ Schnittstellen).
 
 Tabelle19:Tab_PT_Namensdienst_Schnittstellen
 
- ---> TABLE
+<table><tr><th>
+Schnittstelle
+
+</th><th>
+bereitgestellt / benötigt
+
+</th><th>
+obligatorisch / optional
+
+</th><th>
+Bemerkung
+
+</th></tr><tr><td>
+I_DNS_Name_Resolution
+
+</td><td>
+bereitgestellt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 4.6
+
+</td></tr><tr><td>
+I_DNS_Service_Localization
+
+</td><td>
+bereitgestellt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 4.6
+
+</td></tr><tr><td>
+P_DNS_Name_Entry_Announcement
+
+</td><td>
+bereitgestellt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 4.7.1
+
+</td></tr><tr><td>
+P_DNS_Service_Entry_Announcement
+
+</td><td>
+bereitgestellt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 4.7.1
+
+</td></tr><tr><td>
+P_DNS_Zone_Delegation
+
+</td><td>
+bereitgestellt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 4.7.3
+
+</td></tr><tr><td>
+P_DNSSEC_Key_Distribution
+
+</td><td>
+bereitgestellt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 4.7.2
+
+</td></tr><tr><td>
+I_NTP_Time_Information
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 5.1
+
+</td></tr><tr><td>
+I_IP_Transport
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 3.3.2.1
+
+</td></tr><tr><td>
+I_Monitoring_Update
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition durch den Anbieter der Störungsampel
+
+</td></tr><tr><td>
+I_Monitoring_Read
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition durch den Anbieter der Störungsampel
+
+</td></tr></table>
 
 ​​​​ **[\<=]**
 
@@ -2712,7 +5993,140 @@ Schnittstellen) und nutzen („benötigte“ Schnittstellen).
 
 Tabelle20:Tab_PT_Zeitdienst_Schnittstellen
 
- ---> TABLE
+<table><tr><th>
+Schnittstelle
+
+</th><th>
+bereitgestellt / benötigt
+
+</th><th>
+obligatorisch / optional
+
+</th><th>
+Bemerkung
+
+</th></tr><tr><td>
+I_NTP_Time_Information
+
+</td><td>
+bereitgestellt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Abschnitt 5.1
+
+</td></tr><tr><td>
+DCF77
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Zeitzeichensender DCF77 der PTB
+
+</td></tr><tr><td>
+I_IP_Transport
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Kapitel 3 Zentrales Netz der TI
+
+</td></tr><tr><td>
+I_DNS_Name_Resolution
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Kapitel 4 Namensdienst
+
+</td></tr><tr><td>
+I_Monitoring_Update
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition durch den Anbieter der Störungsampel
+
+</td></tr><tr><td>
+I_Monitoring_Read
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition durch den Anbieter der Störungsampel
+
+</td></tr><tr><td>
+P_DNS_Name_Entry_Announcement
+
+</td><td>
+benötigt
+
+</td><td>
+obligatorisch
+
+</td><td>
+Definition in Kapitel 4 Namensdienst
+
+</td></tr><tr><td>
+Schnittstelle zur GLONASS Zeitquelle
+
+</td><td>
+benötigt
+
+</td><td>
+optional
+
+</td><td>
+NTP Server mit GLONASS Zeitquelle.
+
+</td></tr><tr><td>
+Schnittstelle zur GPS Zeitquelle
+
+</td><td>
+benötigt
+
+</td><td>
+optional
+
+</td><td>
+NTP Server mit GPS Zeitquelle.
+
+</td></tr><tr><td>
+NTP Schnittstelle zu ptbtime1.ptb.de, ptbtime2.ptb.de, ptbtime3.ptb.de
+
+</td><td>
+benötigt
+
+</td><td>
+optional
+
+</td><td>
+NTP Zeitserver der Physikalisch Technischen Bundesanstalt ptbtime1.ptb.de,
+ptbtime2.ptb.de und ptbtime3.ptb.de.
+
+</td></tr></table>
 
 Die Client-Funktionalität von mindestens einer der drei optionalen
 Schnittstellen muss implementiert werden.​​​​ **[\<=]**
@@ -2735,7 +6149,28 @@ Bei Ausfall oder Störung des DCF77-Senders MUSS eine Zeitquelle gemäß Tabelle
 Tab_PT_Zeitdienst_vertrauenswürdige_Zeitquellen zur Synchronisierung genutzt
 werden. **[\<=]**
 
- ---> TABLE
+<table><tr><th>
+Vertrauenswürdige Zeitquelle
+
+</th><th>
+Bemerkung
+
+</th></tr><tr><td>
+ptbtime1.ptb.de, ptbtime2.ptb.de, ptbtime3.ptb.de
+
+</td><td>
+NTP-Zeitserver der Physikalisch Technischen Bundesanstalt
+
+</td></tr><tr><td>
+NTP-Server mit GLONASS-Zeitquelle
+
+</td></tr><tr><td>
+NTP-Server mit GPS-Zeitquelle
+
+</td></tr><tr><td>
+eine Kombination der oben genannten Quellen
+
+</td></tr></table>
 
 ##### GS-A_4824
 
@@ -2811,7 +6246,67 @@ Servicekatalog dokumentieren:
 
 Tabelle22: Tab_Hosting_Leistungsumfang
 
- ---> TABLE
+<table><tr><th>
+Leistungstyp
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Virtuelle Maschine
+
+</td><td>
+Es werden virtuelle Maschinen (VM) mit fertig konfiguriertem und einsatzbereitem
+Linux-Betriebssystem bereitgestellt. Weitere Betriebssysteme oder VMs ohne
+vorinstalliertem Betriebssystem können optional angeboten werden. Das Recht
+zur Nutzung der VM wird exklusiv dem Hosting-Nehmer gewährt. Der
+Hosting-Nehmer kann dieses Recht an von ihm beauftragte Dritte delegieren.
+
+</td></tr><tr><td>
+Leistungsklasse
+
+</td><td>
+Die VMs werden in verschiedenen Performance-Klassen angeboten.
+
+Klasse 1: 2 virtuelle CPU-Kerne, 4 GByte RAM, 100 GByte Storage
+
+Klasse 2: 4 virtuelle CPU-Kerne, 8 GByte RAM, 200 GByte Storage
+
+Klasse 3: 8 virtuelle CPU-Kerne, 16 GByte RAM, 500 GByte Storage
+
+Weitere Performance-Klassen können optional angeboten werden.
+
+Eine Skalierung von einer Klasse zur anderen soll möglich sein.
+
+</td></tr><tr><td>
+Netzwerk
+
+</td><td>
+Die VMs haben einen Netzwerkanschluss von mindestens 1 GBit/s.
+
+Der Anbieter des Hostings stellt jeder VM die vom Hosting-Nehmer gewünschte
+Bandbreite am SZZP- oder SZZP-light-Anschluss zum und vom zentralen Netz der TI
+in der gewünschten Umgebung RU, TU oder PU bereit.
+
+Der Anbieter des Hostings stellt auf Wunsch des Hosting-Nehmers jeder VM einen
+Internet-Zugang mit der gewünschten Bandbreite zum und vom Internet bereit.
+
+Der Anbieter des Hostings stellt den vom Hosting-Nehmer genutzten VMs bei Bedarf
+ein eigenes Subnetz zur internen Kommunikation zwischen den VMs innerhalb eines
+Standortes bereit.
+
+Der Anbieter des Hostings stellt jeder VM einen Administrationszugang zur
+Nutzung durch den Hosting-Nehmer bereit (verschlüsselte Verbindung mit
+mindestens Zugriff auf eine Shell des Betriebssystems).
+
+</td></tr><tr><td>
+Georedundanz
+
+</td><td>
+Der Anbieter des Hostings stellt die VMs auf Wunsch des Hosting-Nehmers in
+verschiedenen Standorten bereit.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2826,7 +6321,35 @@ Hosting-Infrastruktur MUSS exklusiv für die TI bereitgestellt werden.
 
 Tabelle23: Tab_zentrNetz_Anwendungsklassen
 
- ---> TABLE
+<table><tr><th>
+Anwendungsklasse
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Fachanwendung
+
+</td><td>
+Zur Anwendungsklasse \<\<Fachanwendung\>\> zählen alle
+fachanwendungsspezifischen Dienste und zugehörige Client-Software sowie AdV
+Server.
+
+</td></tr><tr><td>
+zentrale Dienste der TI-Plattform
+
+</td><td>
+Zur Anwendungsklasse \<\<zentrale Dienste der TI-Plattform\>\> zählen alle
+zentralen Deinste der TI-Plattform Dienste und zugehörige Client-Software.
+
+</td></tr><tr><td>
+andere Anwendungen des Gesundheitswesens
+
+</td><td>
+Zur Anwendungsklasse \<\<andere Anwendungen des Gesundheitswesens\>\> zählen
+WANDA Smart und zugehörige Client-Software.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2857,7 +6380,183 @@ gespeicherten, gesendeten und empfangenen Daten zugreifen. **[\<=]**
 
 ### 8.1 Abkürzungen
 
- ---> TABLE
+<table><tr><th>
+Kürzel
+
+</th><th>
+Erläuterung
+
+</th></tr><tr><td>
+AF
+
+</td><td>
+Assured Forwarding
+
+</td></tr><tr><td>
+AF-Klasse
+
+</td><td>
+Assured Forwarding Klasse
+
+</td></tr><tr><td>
+BE
+
+</td><td>
+Best Effort
+
+</td></tr><tr><td>
+CE
+
+</td><td>
+Customer Edge
+
+</td></tr><tr><td>
+CPE
+
+</td><td>
+Customer Premises Equipment
+
+</td></tr><tr><td>
+CS
+
+</td><td>
+Class Selector
+
+</td></tr><tr><td>
+DNS
+
+</td><td>
+Domain Name System
+
+</td></tr><tr><td>
+DNSSEC
+
+</td><td>
+Domain Name System Security Extensions
+
+</td></tr><tr><td>
+DSCP
+
+</td><td>
+Differentiated Services Code Point
+
+</td></tr><tr><td>
+EF
+
+</td><td>
+Expedited Forwarding
+
+</td></tr><tr><td>
+GBV
+
+</td><td>
+Gesamtbetriebsverantwortlicher
+
+</td></tr><tr><td>
+GPS
+
+</td><td>
+Global Positioning System
+
+</td></tr><tr><td>
+GTI
+
+</td><td>
+Gesamtverantwortlicher der TI
+
+</td></tr><tr><td>
+IP
+
+</td><td>
+Internet Protocol (bezeichnet IPv4 und IPv6)
+
+</td></tr><tr><td>
+NTP
+
+</td><td>
+Network Time Protocol
+
+</td></tr><tr><td>
+PE
+
+</td><td>
+Provider Edge
+
+</td></tr><tr><td>
+PoP
+
+</td><td>
+Point-of-Presence
+
+</td></tr><tr><td>
+PU
+
+</td><td>
+Produktivumgebung
+
+</td></tr><tr><td>
+RU
+
+</td><td>
+Referenzumgebung
+
+</td></tr><tr><td>
+SFP
+
+</td><td>
+Small Form-factor Pluggable
+
+</td></tr><tr><td>
+SGW
+
+</td><td>
+Sicherheitsgateway
+
+</td></tr><tr><td>
+SIS
+
+</td><td>
+Sicherer Internet Service
+
+</td></tr><tr><td>
+SNTP
+
+</td><td>
+Simple Network Time Protocol
+
+</td></tr><tr><td>
+SZZP
+
+</td><td>
+Sicherer Zentraler Zugangspunkt
+
+</td></tr><tr><td>
+TI
+
+</td><td>
+Telematikinfrastruktur
+
+</td></tr><tr><td>
+TU
+
+</td><td>
+Testumgebung
+
+</td></tr><tr><td>
+WANDA Basic
+
+</td><td>
+Weitere Anwendungen für den Datenaustausch ohne Nutzung der TI oder derer
+kryptografischen Identitäten 
+
+</td></tr><tr><td>
+WANDA Smart
+
+</td><td>
+Weitere Anwendungen für den Datenaustausch mit Nutzung der TI oder
+derer kryptografischen Identitäten für eigene Anwendungszwecke
+
+</td></tr></table>
 
 ### 8.2 Glossar
 
@@ -2911,11 +6610,463 @@ Tabelle nicht aufgeführt. Deren zu diesem Dokument passende jeweils gültige
 Versionsnummern sind in der aktuellen, von der gematik veröffentlichten
 Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 
- ---> TABLE
+<table><tr><th>
+[Quelle]
+
+</th><th>
+Herausgeber: Titel
+
+</th></tr><tr><td>
+[gemGlossar]
+
+</td><td>
+gematik: Glossar der Telematikinfrastruktur
+
+</td></tr><tr><td>
+[gemKPT_Arch_TIP]
+
+</td><td>
+gematik: Konzept Architektur der TI-Plattform
+
+</td></tr><tr><td>
+[gemRL_Betr_TI]
+
+</td><td>
+gematik: Übergreifende Richtlinien zum Betrieb der TI
+
+</td></tr><tr><td>
+[gemSpec_Krypt]
+
+</td><td>
+gematik: Übergreifende Spezifikation – Verwendung kryptographischer
+Algorithmen in der Telematikinfrastruktur
+
+</td></tr><tr><td>
+[gemSpec_St_Ampel]
+
+</td><td>
+gematik: Spezifikation Störungsampel
+
+</td></tr><tr><td>
+[gemSpec_VPN_ZugD]
+
+</td><td>
+gematik: Spezifikation VPN-Zugangsdienst
+
+</td></tr></table>
 
 ### 8.5.2 Weitere Dokumente
 
- ---> TABLE
+<table><tr><th>
+[Quelle]
+
+</th><th>
+Herausgeber (Erscheinungsdatum): Titel
+
+</th></tr><tr><td>
+[BSI Net1.1]
+
+</td><td>
+BSI IT - Grundschutz - Bausteine, Net1.1 Netzarchitektur und - design
+
+https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2022/09_NET_Netze_und_Kommunikation/NET_1_1_Netzarchitektur_und_design_Edition_2022.pdf?__blob=publicationFile&v=3#download=1
+
+ 
+
+</td></tr><tr><td>
+[BSI ISI-LANA]
+
+</td><td>
+Sichere Anbindung von lokalen Netzen an das Internet (ISi-LANA) Version 2.1 
+
+https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Internetsicherheit/isi_lana_studie_pdf.html 
+
+</td></tr><tr><td>
+[BSI NET]
+
+</td><td>
+BSI IT-Grundschutz Kompendium Edition 2020, Baustein NET
+
+</td></tr><tr><td>
+[BSI-Schrift 7164]
+
+</td><td>
+https://www.bsi.bund.de/DE/Themen/Oeffentliche-Verwaltung/Zulassung/Liste-zugelassener-Produkte/liste-zugelassener-produkte_node.html  
+
+</td></tr><tr><td>
+[RFC6763]
+
+</td><td>
+IETF RFC6763 (Februar 2013) DNS-Based Service Discovery 
+
+http://tools.ietf.org/html/rfc6763
+
+</td></tr><tr><td>
+[IEEE 802.3]
+
+</td><td>
+IEEE 802.3™-2022 – IEEE Standard for Ethernet 
+
+https://ieeexplore.ieee.org/document/9844436 
+
+</td></tr><tr><td>
+[RFC1034]
+
+</td><td>
+RFC 1034 (November 1987): Domain Names – Concepts and Facilities 
+
+http://tools.ietf.org/html/rfc1034
+
+</td></tr><tr><td>
+[RFC1035]
+
+</td><td>
+RFC 1035 (November 1987): Domain Names – Implementation and Specification 
+
+http://tools.ietf.org/html/rfc1035
+
+</td></tr><tr><td>
+[RFC1122]
+
+</td><td>
+RFC 1122 (Oktober 1989): Requirements for Internet Hosts -- Communication Layers
+ 
+http://tools.ietf.org/html/rfc1122
+
+</td></tr><tr><td>
+[RFC1123]
+
+</td><td>
+IETF (1989): Requirements for Internet Hosts – Application and Support 
+
+http://datatracker.ietf.org/doc/rfc1123/
+
+</td></tr><tr><td>
+[RFC1191]
+
+</td><td>
+RFC 1191 (November 1990): Path MTU Discovery  
+http://tools.ietf.org/html/rfc1191
+
+</td></tr><tr><td>
+[RFC1982]
+
+</td><td>
+IETF (1996): Serial Number Arithmetic  
+http://datatracker.ietf.org/doc/rfc1982/
+
+</td></tr><tr><td>
+[RFC1995]
+
+</td><td>
+IETF (1996): Incremental Zone Transfer in DNS 
+
+http://datatracker.ietf.org/doc/rfc1995/
+
+</td></tr><tr><td>
+[RFC1996]
+
+</td><td>
+IETF (1996): A Mechanism for Prompt Notification of Zone Changes (DNS NOTIFY) 
+
+http://datatracker.ietf.org/doc/rfc1996/
+
+</td></tr><tr><td>
+[RFC2119]
+
+</td><td>
+RFC 2119 (März 1997): Key words for use in RFCs to Indicate Requirement Levels
+S. Bradner,  
+http://tools.ietf.org/html/rfc2119
+
+</td></tr><tr><td>
+[RFC2181]
+
+</td><td>
+IETF (1997): Clarifications to the DNS Specification 
+
+http://datatracker.ietf.org/doc/rfc2181/
+
+</td></tr><tr><td>
+[RFC2308]
+
+</td><td>
+IETF (1998): Negative Caching of DNS Queries (DNS NCACHE) 
+
+http://datatracker.ietf.org/doc/rfc2308/
+
+</td></tr><tr><td>
+[RFC2328]
+
+</td><td>
+RFC 2328 (April 1998): OSPF Version 2  
+http://tools.ietf.org/html/rfc2328
+
+</td></tr><tr><td>
+[RFC2474]
+
+</td><td>
+RFC 2474 (Dezember 1998):  
+Definition of the Differentiated Services Field (DS
+Field) in the IPv4 and IPv6 Headers  
+http://tools.ietf.org/html/rfc2474
+
+</td></tr><tr><td>
+[RFC2475]
+
+</td><td>
+RFC 2475 (Dezember 1998):  
+An Architecture for Differentiated Services 
+
+http://tools.ietf.org/html/rfc2475
+
+</td></tr><tr><td>
+[RFC2597]
+
+</td><td>
+IETF (1999): Assured Forwarding PHB Group 
+
+http://datatracker.ietf.org/doc/rfc2597/
+
+</td></tr><tr><td>
+[RFC6891]
+
+</td><td>
+IETF (1999): Extension Mechanisms for DNS (EDNS0) 
+
+http://datatracker.ietf.org/doc/rfc6891/
+
+</td></tr><tr><td>
+[RFC2782]
+
+</td><td>
+IETF (2000): A DNS RR for specifying the location of services (DNS SRV) 
+
+http://datatracker.ietf.org/doc/rfc2782/
+
+</td></tr><tr><td>
+[RFC2845]
+
+</td><td>
+IETF (2000): Secret Key Transaction Authentication for DNS (TSIG) 
+
+http://datatracker.ietf.org/doc/rfc2845/
+
+</td></tr><tr><td>
+[RFC2930]
+
+</td><td>
+IETF (2000): Secret Key Establishment for DNS (TKEY RR) 
+
+http://datatracker.ietf.org/doc/rfc2930/
+
+</td></tr><tr><td>
+[RFC2931]
+
+</td><td>
+IETF (2000): DNS Request and Transaction Signatures ( SIG(0)s ) 
+
+http://datatracker.ietf.org/doc/rfc2931/
+
+</td></tr><tr><td>
+[RFC3168]
+
+</td><td>
+RFC 3168 (September 2001): The Addition of Explicit Congestion Notification
+(ECN) to IP
+
+</td></tr><tr><td>
+[RFC3225]
+
+</td><td>
+IETF (2001): Indicating Resolver Support of DNSSEC 
+
+http://datatracker.ietf.org/doc/rfc3225/
+
+</td></tr><tr><td>
+[RFC3596]
+
+</td><td>
+RFC3596 (Oktober 2003): DNS Extensions to Support IP Version 6 
+
+http://datatracker.ietf.org/doc/rfc3596/
+
+</td></tr><tr><td>
+[RFC4033]
+
+</td><td>
+RFC 4033 (Mai 2005): DNS Security Introduction and Requirements 
+
+http://tools.ietf.org/html/rfc4033
+
+</td></tr><tr><td>
+[RFC4034]
+
+</td><td>
+RFC 4034 (März 2005): Resource Records for the DNS Security Extensions 
+
+http://tools.ietf.org/html/rfc4034
+
+</td></tr><tr><td>
+[RFC4035]
+
+</td><td>
+RFC 4035 (März 2005): Protocol Modifications for the DNS Security Extensions 
+
+http://tools.ietf.org/html/rfc4035
+
+</td></tr><tr><td>
+[RFC4594]
+
+</td><td>
+RFC 4594: Configuration Guidelines for DiffServ Service Classes 
+
+http://datatracker.ietf.org/doc/rfc4594/
+
+</td></tr><tr><td>
+[RFC4635]
+
+</td><td>
+IETF (2006): HMAC SHA TSIG Algorithm Identifiers 
+
+http://datatracker.ietf.org/doc/rfc4635/
+
+</td></tr><tr><td>
+[RFC6781]
+
+</td><td>
+RFC6781 (Dezember 2012): DNSSEC Operational Practices, Version 2 
+
+http://datatracker.ietf.org/doc/rfc6781/
+
+</td></tr><tr><td>
+[RFC5011]
+
+</td><td>
+RFC5011 (September 2007): Automated Updates of DNS Security (DNSSEC) Trust
+Anchors  
+http://datatracker.ietf.org/doc/rfc5011/
+
+</td></tr><tr><td>
+[RFC5127]
+
+</td><td>
+IETF (2008): Aggregation of DiffServ Service Classes 
+
+http://datatracker.ietf.org/doc/rfc5127/
+
+</td></tr><tr><td>
+[RFC5155]
+
+</td><td>
+IETF (2008): DNS Security (DNSSEC) Hashed Authenticated Denial of Existence 
+
+http://datatracker.ietf.org/doc/rfc5155/
+
+</td></tr><tr><td>
+[RFC5340]
+
+</td><td>
+IETF (2008): OSPF for IPv6  
+http://datatracker.ietf.org/doc/rfc5340/
+
+</td></tr><tr><td>
+[RFC5452]
+
+</td><td>
+IETF (2009): Measures for Making DNS More Resilient against Forged Answers 
+
+http://datatracker.ietf.org/doc/rfc5452/
+
+</td></tr><tr><td>
+[RFC5905]
+
+</td><td>
+IETF (2010): Network Time Protocol Version 4: Protocol and Algorithms
+Specification  
+http://datatracker.ietf.org/doc/rfc5905/
+
+</td></tr><tr><td>
+[RFC6335]
+
+</td><td>
+IETF (2011): Internet Assigned Numbers Authority (IANA) Procedures for the
+Management of the Service Name and Transport Protocol Port Number Registry 
+
+http://datatracker.ietf.org/doc/rfc6335/
+
+</td></tr><tr><td>
+[RFC6598]
+
+</td><td>
+IETF (2012): IANA-Reserved IPv4 Prefix for Shared Address Space 
+
+http://datatracker.ietf.org/doc/rfc6598/
+
+</td></tr><tr><td>
+[RFC768]
+
+</td><td>
+RFC768 (28.08.1980): User Datagram Protocol  
+http://tools.ietf.org/html/rfc768
+
+</td></tr><tr><td>
+[RFC791]
+
+</td><td>
+RFC 791 (September 1981): INTERNET PROTOCOL DARPA INTERNET PROGRAM PROTOCOL
+SPEZIFICATION  
+http://tools.ietf.org/html/rfc791
+
+</td></tr><tr><td>
+[RFC792]
+
+</td><td>
+RFC 792 (September 1981): Internet Control Message Protocol 
+
+http://tools.ietf.org/html/rfc792
+
+</td></tr><tr><td>
+[RFC793]
+
+</td><td>
+RFC 793 (September 1981): Transmission Control Protocol 
+
+http://tools.ietf.org/html/rfc793
+
+</td></tr><tr><td>
+[RFC826]
+
+</td><td>
+RFC 826 (November 1982): An Ethernet Address Resolution Protocol 
+
+http://tools.ietf.org/html/rfc826
+
+</td></tr><tr><td>
+[RFC894]
+
+</td><td>
+RFC 894 (April 1984): A Standard for the Transmission of IP Datagrams over
+Ethernet Networks  
+http://tools.ietf.org/html/rfc894
+
+</td></tr><tr><td>
+[RIPE-772]
+
+</td><td>
+RIPE: Requirements for IPv6 in ICT Equipment 
+
+https://www.ripe.net/publications/docs/ripe-772 
+
+</td></tr><tr><td>
+[SFF]
+
+</td><td>
+Ehem. Small Form Factor Committee (SFF): Index of Specifications 
+
+https://www.snia.org/technology-communities/sff/specifications 
+
+</td></tr></table>
 
 
 
@@ -2932,13 +7083,13 @@ Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 [2]:                     #2-übergreifende-netzwerk-festlegungen
 [2.1]:                   #21-netztopologie
 [2.2]:                   #22-netzwerkprotokolle
-[2.2.1]:                 #221-osi-schicht-1-und-2-physical/data-link
+[2.2.1]:                 #221-osi-schicht-1-und-2-physicaldata-link
 [2.2.2]:                 #222-osi-schicht-3-network
 [2.2.2.1]:               #2221-ip-version-4
 [2.2.2.2]:               #2222-ip-version-6
 [2.2.3]:                 #223-osi-schicht-4-transport
 [2.2.3.1]:               #2231-transmission-control-protocol-tcp-und-user-datagram-protocol-udp
-[2.2.3.2]:               #2232-udp/tcp-portbereiche
+[2.2.3.2]:               #2232-udptcp-portbereiche
 [2.2.3.3]:               #2233-transport-layer-security-tls
 [2.3]:                   #23-ip-adresskonzept-der-ti
 [2.3.1]:                 #231-adressblöcke
@@ -2975,7 +7126,7 @@ Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 [3.1.2.1]:               #3121-backbone-zentrales-transportnetz-provider
 [3.2]:                   #32-übergreifende-festlegungen
 [3.3]:                   #33-funktionsmerkmale
-[3.3.1]:                 #331-osi-schicht-1-und-2-physical/data-link
+[3.3.1]:                 #331-osi-schicht-1-und-2-physicaldata-link
 [3.3.1.1]:               #3311-schnittstelle-cpe-produkttyp
 [3.3.1.2]:               #3312-hardwaremerkmale
 [3.3.2]:                 #332-osi-schicht-3-network
@@ -3029,30 +7180,32 @@ Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 [Abbildung-11]:          gemSpec_Net_V1.23.0.attachments/16375713540687609086.png
 [Abbildung-13]:          gemSpec_Net_V1.23.0.attachments/2067806594367866547.emf
 [Abbildung-14]:          gemSpec_Net_V1.23.0.attachments/6115700746777642708.emf
-[Tbl-001]:               #Tbl-001 (&94498795014552)
-[Tabelle-1]:             #Tabelle-1 (&94498795610576)
-[Tbl-003]:               #Tbl-003 (&94498795747216)
-[Tabelle-3]:             #Tabelle-3 (&94498795911072)
-[Tabelle-4]:             #Tabelle-4 (&94498797992736)
-[Tabelle-5]:             #Tabelle-5 (&94498798090896)
-[Tabelle-6]:             #Tabelle-6 (&94498798233496)
-[Tbl-008]:               #Tbl-008 (&94498798441472)
-[Tabelle-8]:             #Tabelle-8 (&94498798667352)
-[Tabelle-9]:             #Tabelle-9 (&94498798804944)
-[Tabelle-10]:            #Tabelle-10 (&94498798845736)
-[Tabelle-11]:            #Tabelle-11 (&94498799172272)
-[Tabelle-12]:            #Tabelle-12 (&94498799198760)
-[Tabelle-13]:            #Tabelle-13 (&94498799246160)
-[Tbl-015]:               #Tbl-015 (&94498800990768)
-[Tbl-016]:               #Tbl-016 (&94498801114136)
-[Tabelle-16]:            #Tabelle-16 (&94498801844192)
-[Tbl-018]:               #Tbl-018 (&94498802396600)
-[Tabelle-18]:            #Tabelle-18 (&94498802422536)
-[Tbl-020]:               #Tbl-020 (&94498802519296)
-[Tbl-021]:               #Tbl-021 (&94498803007208)
-[Tabelle-21]:            #Tabelle-21 (&94498803072168)
-[Tabelle-22]:            #Tabelle-22 (&94498803109128)
-[Tabelle-23]:            #Tabelle-23 (&94498803128048)
-[Tbl-025]:               #Tbl-025 (&94498803198456)
-[Tbl-026]:               #Tbl-026 (&94498803305008)
-[Tbl-027]:               #Tbl-027 (&94498803323816)
+[Tbl-001]:               #Tbl-001 (&94863978432920)
+[Tabelle-1]:             #Tabelle-1 (&94863979028944)
+[Tbl-003]:               #Tbl-003 (&94863979165584)
+[Tabelle-3]:             #Tabelle-3 (&94863979329440)
+[Tabelle-4]:             #Tabelle-4 (&94863981411104)
+[Tabelle-5]:             #Tabelle-5 (&94863981509264)
+[Tabelle-6]:             #Tabelle-6 (&94863981651864)
+[Tbl-008]:               #Tbl-008 (&94863981859840)
+[Tabelle-8]:             #Tabelle-8 (&94863982085720)
+[Tabelle-9]:             #Tabelle-9 (&94863982223312)
+[Tabelle-10]:            #Tabelle-10 (&94863982264104)
+[Tabelle-11]:            #Tabelle-11 (&94863982590640)
+[Tabelle-12]:            #Tabelle-12 (&94863982617128)
+[Tabelle-13]:            #Tabelle-13 (&94863982664528)
+[Tbl-015]:               #Tbl-015 (&94863984409136)
+[Tbl-016]:               #Tbl-016 (&94863984532504)
+[Tabelle-16]:            #Tabelle-16 (&94863985262560)
+[Tbl-018]:               #Tbl-018 (&94863985814968)
+[Tabelle-18]:            #Tabelle-18 (&94863985840904)
+[Tbl-020]:               #Tbl-020 (&94863985937664)
+[Tbl-021]:               #Tbl-021 (&94863986425576)
+[Tabelle-21]:            #Tabelle-21 (&94863986490536)
+[Tabelle-22]:            #Tabelle-22 (&94863986527496)
+[Tabelle-23]:            #Tabelle-23 (&94863986546416)
+[Tbl-025]:               #Tbl-025 (&94863986616824)
+[Tbl-026]:               #Tbl-026 (&94863986723376)
+[Tbl-027]:               #Tbl-027 (&94863986742184)
+[https://fachportal.gematik.de/]: https://fachportal.gematik.de/ (&94863978837960)
+[https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2022/09_NET_Netze_und_Kommunikation/NET_1_1_Netzarchitektur_und_design_Edition_2022.pdf?__blob=publicationFile&v=3#download=1]: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2022/09_NET_Netze_und_Kommunikation/NET_1_1_Netzarchitektur_und_design_Edition_2022.pdf?__blob=publicationFile&v=3#download=1 (&94863986748144)

@@ -19,7 +19,298 @@ der nachfolgenden Tabelle entnehmen.
 
 Dokumentenhistorie
 
- ---> TABLE
+<table><tr><th>
+Version
+
+</th><th>
+Stand
+
+</th><th>
+Kap./ Seite
+
+</th><th>
+Grund der Änderung, besondere Hinweise
+
+</th><th>
+Bearbeitung
+
+</th></tr><tr><td>
+5.1.0
+
+</td><td>
+05.10.17
+
+</td><td>
+</td><td>
+Initialversion Online-Produktivbetrieb (Stufe 2.1)
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.2.0
+
+</td><td>
+18.12.17
+
+</td><td>
+</td><td>
+Einarbeitung Erratas 1.6.4-1 bis 1.6.4-3, P15.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.3.0
+
+</td><td>
+14.05.18
+
+</td><td>
+</td><td>
+Einarbeitung P15.2, P15.4 und P15.5
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.4.0
+
+</td><td>
+26.10.18
+
+</td><td>
+</td><td>
+Einarbeitung P15.8 und P15.9
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.5.0
+
+</td><td>
+18.12.18
+
+</td><td>
+</td><td>
+Einarbeitung P17.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.6.0
+
+</td><td>
+15.05.19
+
+</td><td>
+</td><td>
+Einarbeitung P18.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.7.0
+
+</td><td>
+28.06.19
+
+</td><td>
+</td><td>
+Einarbeitung P19.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.8.0
+
+</td><td>
+02.10.19
+
+</td><td>
+Einarbeitung P20.1/2
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.9.0
+
+</td><td>
+02.03.20
+
+</td><td>
+Einarbeitung P21.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.9.1
+
+</td><td>
+26.06.20
+
+</td><td>
+Einarbeitung P21.3
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.9.2
+
+</td><td>
+27.08.20
+
+</td><td>
+Einarbeitung P21.4
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.9.3
+
+</td><td>
+21.09.20
+
+</td><td>
+Einarbeitung P21.5
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.9.4
+
+</td><td>
+05.11.20
+
+</td><td>
+Einarbeitung P21.6
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.10.0
+
+</td><td>
+30.06.20
+
+</td><td>
+Einarbeitung P22.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.11.0
+
+</td><td>
+12.11.20
+
+</td><td>
+Einarbeitung Scope-Themen zu R4.0.1
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.12.0
+
+</td><td>
+09.12.20
+
+</td><td>
+Einarbeitung P22.5
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.13.0
+
+</td><td>
+30.06.21
+
+</td><td>
+Einarbeitung Konn_Maintenance_21.1, _21.2, _21.3 und
+gemF_gSMC-K_Laufzeitverlängerung
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.14.0
+
+</td><td>
+02.09.21
+
+</td><td>
+Umbenennung der Begriffe "aAdG-NetG" in "WANDA Basic", "aAdG" und "aAdG-NetG-TI"
+in"WANDA Smart"
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.15.0
+
+</td><td>
+31.01.22
+
+</td><td>
+Einarbeitung Konn_Maintenance_21.6, Einarbeitung CI_Maintenance_21.2:
+Ergänzung der Tabelle 3 im Kap. 4.2.1.1.1 um "WANDA Basic" 
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.16.0
+
+</td><td>
+02.05.22
+
+</td><td>
+Einarbeitung Konn_Maintenance_22.1 (mit Ausbau der Änderungen aus
+gemF_gSMC-K_Laufzeitverlängerung)
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.17.0
+
+</td><td>
+30.06.22
+
+</td><td>
+Einarbeitung Konn_Maintenance_22.3
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+5.18.0
+
+</td><td>
+28.11.22
+
+</td><td>
+Einarbeitung Konn_Maintenance_22.4, _22.5, _22.6, redaktionell:
+diskriminierungsfreie Sprache (Black-/Whitelist in Deny-/Allowlist)
+
+</td><td>
+gematik
+
+</td></tr></table>
 
 ### Inhaltsverzeichnis
 
@@ -525,7 +816,10 @@ Auswirkungen haben und die im Rahmen des Verhandlungsverfahrens mit der
 Industrie besprochen werden müssen, werden als „Offene Punkte“ ausgewiesen
 und wie folgt im Dokument kenntlich gemacht:
 
- ---> TABLE
+<table><tr><td>
+Die XYZ müssen noch definiert werden.
+
+</td></tr></table>
 
 ### 1.5.3 Erläuterungen zur Spezifikation des Außenverhaltens
 
@@ -652,7 +946,19 @@ Namen mit großem Anfangsbuchstaben bezeichnen Datentypen.
 
 Beispiel:
 
- ---> TABLE
+<table><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr></table>
 
 Die im Dokument verwendeten Datentypen sind definiert in [Anhang L –
 Datentypen von Eingangs- und Ausgangsdaten].
@@ -1007,7 +1313,31 @@ Dokumente oder Nachrichten die vom Konnektor unterstützte Dimensionierung
 Tabelle1Fehlercodes TAB_KON_890 Mindestanforderungen an Dokumente und
 Nachrichten
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4280
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Dimensionierung des Dokuments nicht unterstützt
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -1021,7 +1351,31 @@ abbrechen.
 
 Tabelle2Fehlercodes TAB_KON_891 Unerlaubte Inhalte in Dokumenten und Nachrichten
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4281
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Dokument enthält unzulässige Inhalte
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -1055,7 +1409,147 @@ den Karten der Generation 1+ vorhanden sind. Eine Ausnahme hiervon bilden die
 Geräte-CVCs, die bereits für dieses Release basierend auf ECC verwendet
 werden.
 
- ---> TABLE
+<table><tr><th>
+ReferenzID Kartentyp
+
+</th><th>
+Karten-
+
+generation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+EGK
+
+</td><td>
+G1+
+
+</td><td>
+Die elektronische Gesundheitskarte gemäß [gemSpec_eGK_P1] und [gemSpec_eGK_P2]
+
+</td></tr><tr><td>
+EGK
+
+</td><td>
+G2
+
+</td><td>
+Die elektronische Gesundheitskarte gemäß [gemSpec_COS] und
+[gemSpec_eGK_ObjSys] bzw. [gemSpec_eGK_ObjSys_G2.1]
+
+</td></tr><tr><td>
+HBA-qSig
+
+</td><td>
+-
+
+</td><td>
+HBA-Vorläuferkarte gemäß [HPC-P1] und [HPC-P2]
+
+</td></tr><tr><td>
+HBA
+
+</td><td>
+G2
+
+</td><td>
+Der elektronische Heilberufsausweis (HBA) gemäß [gemSpec_COS] und
+[gemSpec_HBA_ObjSys]
+
+</td></tr><tr><td>
+SMC-B
+
+</td><td>
+G2
+
+</td><td>
+Die Institutionskarte Typ B (Secure Module Card) gemäß [gemSpec_COS] und
+[gemSpec_SMC-B_ObjSys]
+
+</td></tr><tr><td>
+HSM-B
+
+</td><td>
+</td><td>
+HSM-Variante einer SM-B.
+
+Das HSM-B wird in dieser Fassung als ein oder mehrere virtuelle Kartenterminals
+verstanden, in denen virtuelle Karten stecken.
+
+</td></tr><tr><td>
+SMC-KT
+
+</td><td>
+G2
+
+</td><td>
+Die Karte Typ KT (Secure Module Card) gemäß [gemSpec_COS] und
+[gemSpec_gSMC-KT_ObjSys]
+
+</td></tr><tr><td>
+KVK
+
+</td><td>
+-
+
+</td><td>
+Die Krankenversichertenkarte gemäß der Spezifikation [KVK]
+
+</td></tr><tr><td>
+ZOD_2.0
+
+</td><td>
+-
+
+</td><td>
+HBA-Vorläuferkarte gemäß [HPC-P1] und [HPC-P2]
+
+</td></tr><tr><td>
+UNKNOWN
+
+</td><td>
+</td><td>
+Eine nicht erkannte Karte oder nicht lesbare Karte
+
+</td></tr><tr><td>
+</td><td>
+</td><td>
+Zusammenfassende ReferenzIDs
+
+</td></tr><tr><td>
+HBA-VK
+
+</td><td>
+</td><td>
+Adressiert die HBA-Vorläuferkarten HBA-qSig und ZOD_2.0.
+
+Wird dieser Referenzbezeichner verwendet, gelten die zugehörigen Aussagen und
+Festlegungen für beide Kartentypen.
+
+</td></tr><tr><td>
+HBAx
+
+</td><td>
+</td><td>
+Adressiert sowohl den HBA, als auch die HBA-Vorläuferkarten (HBA-VK)
+
+Wird dieser Referenzbezeichner verwendet, gelten die zugehörigen Aussagen und
+Festlegungen für alle drei Kartentypen.
+
+</td></tr><tr><td>
+SM-B
+
+</td><td>
+</td><td>
+Adressiert sowohl eine echte SMC-B als auch eine in einem HSM-B enthaltene
+virtuelle SMC-B.
+
+Wird dieser Referenzbezeichner verwendet, gelten die zugehörigen Aussagen und
+Festlegungen für beide Typen.
+
+</td></tr></table>
 
 ### 3.1.3 Übergreifende Festlegungen zum Aufbau von sicheren Verbindungen
 
@@ -1146,7 +1640,70 @@ Objekte der gSMC-K als Quelle seiner Identitäten verwenden:
 
 Tabelle4: TAB_KON_856: Identitäten des Konnektors auf der gSMC-K
 
- ---> TABLE
+<table><tr><th colspan="1" rowspan="2">
+Identifier
+
+</th><th colspan="1" rowspan="2">
+Verzeichnis
+
+</th><th colspan="2" rowspan="1">
+Objekt der gSMC-K in Abhängikeit vom kryptographischen Verfahren
+
+</th></tr><tr><th>
+RSA
+
+</th><th>
+ECC
+
+</th></tr><tr><td>
+ID.NK.VPN
+
+</td><td>
+MF/DF.NK
+
+</td><td>
+EF.C.NK.VPN.R2048 
+
+</td><td>
+EF.C.NK.VPN2.XXXX
+
+</td></tr><tr><td>
+ID.AK.AUT
+
+</td><td>
+MF/DF.AK
+
+</td><td>
+EF.C.AK.AUT.R2048
+
+</td><td>
+EF.C.AK.AUT2.XXXX
+
+</td></tr><tr><td>
+ID.SAK.AUT
+
+</td><td>
+MF/DF.SAK
+
+</td><td>
+EF.C.SAK.AUT.R2048
+
+</td><td>
+EF.C.SAK.AUT2.XXXX
+
+</td></tr><tr><td>
+C.SAK.AUTD_CVC
+
+</td><td>
+MF/DF.SAK
+
+</td><td>
+-
+
+</td><td>
+EF.C.SAK.AUTD_CVC.E256
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -1384,7 +1941,1310 @@ $EC.type;    severity = $EC.severity;    parameters =
 
 Tabelle5: TAB_KON_503 Betriebszustand_Fehlerzustandsliste
 
- ---> TABLE
+<table><tr><th>
+ ErrorCondition
+
+(siehe Hinweis 1)
+
+</th><th>
+ Beschreibung
+
+</th><th>
+Type
+
+</th><th>
+Seve
+
+rity
+
+</th><th>
+max.
+
+Fest
+
+stell
+
+ungs-
+
+zeit
+
+</th><th>
+Parameterlist
+
+(siehe Hinweis 2)
+
+</th></tr><tr><td>
+EC_CardTerminal_
+
+Software_Out_Of_
+
+Date ($ctId)
+
+</td><td>
+Software auf
+
+Kartenterminal($ctId)
+
+ist nicht aktuell
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+1 day
+
+</td><td>
+CtID=$ctId;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_CardTerminal_
+
+gSMC-KT_Certificate_ Expires_Soon ($ctId)
+
+</td><td>
+Das Zertifikat der gSMC-KT im
+
+Kartenterminal($ctId)
+
+läuft in weniger als 5 Wochen ab
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+7 days
+
+</td><td>
+CtID=$ctId;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Connector_
+
+Software_Out_
+
+Of_Date
+
+</td><td>
+I_KSRS_Download::list_
+
+Updates
+
+liefert mindestens eine
+
+UpdateInformation mit einer UpdateInformation/Firmware/
+
+FWVersion \> aktuelle Version
+
+der Konnektorsoftware, deren
+
+UpdateInformation/Firmware/
+
+FWPriority = „Kritisch“
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+1 day
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_FW_Update_Available
+
+</td><td>
+I_KSRS_Download::list_
+
+Updates
+
+liefert mindestens eine
+
+UpdateInformation mit einer UpdateInformation/Firmware/
+
+FWVersion \> aktuelle Version
+
+der Konnektor- oder Kartenterminalsoftware
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+1 day
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_FW_Not_
+
+Valid_Status_
+
+Blocked
+
+</td><td>
+Konnektor Firmware muss
+
+aktualisiert werden. Zugang zur
+
+TI momentan nicht erlaubt.
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 day
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Time_Sync_
+
+Not_Successful
+
+</td><td>
+der letzte
+
+Synchronisationsversuch
+
+der Systemzeit war nicht
+
+erfolgreich.
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+1 sec
+
+</td><td>
+LastSyncAttempt=
+
+$lastSyncAttempt
+
+Timestamp;
+
+LastSyncSuccess
+
+=$lastSyncSuccess
+
+Timestamp;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_TSL_Update_
+
+Not_Successful
+
+</td><td>
+das letzte Update der TSL
+
+war nicht erfolgreich.
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+1 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description;
+
+LastUpdateTSL=
+
+$lastUpdateTSL
+
+Timestamp
+
+</td></tr><tr><td>
+EC_TSL_Expiring
+
+</td><td>
+Systemzeit t mit
+
+t \> NextUpdate-Element der
+
+TSL – 7 Tage und
+
+t \<= NextUpdate-Element
+
+der TSL
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+1 day
+
+</td><td>
+NextUpdateTSL
+
+=$NextUpdate-
+
+Element der TSL;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_BNetzA_VL_
+
+Update_
+
+Not_Successful
+
+</td><td>
+Das letzte Update der
+
+BNetzA-VL war nicht erfolgreich
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+1 sec
+
+</td><td>
+LastUpdateBNetz
+
+AVL=
+
+$lastUpdateBNetz
+
+AVLTimestamp;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_ BNetzA_VL_
+
+not_valid
+
+</td><td>
+Systemzeit t mit
+
+t \> NextUpdate-Element der
+
+BNetzA-VL
+
+</td><td>
+Sec
+
+</td><td>
+War
+
+ning
+
+</td><td>
+1 day
+
+</td><td>
+NextUpdateBNetz
+
+AVL
+
+=$NextUpdate-
+
+Element
+
+der BNetzA-VL;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_TSL_Trust_
+
+Anchor_Expiring
+
+</td><td>
+Gültigkeit des Vertrauensankers
+
+ist noch nicht abgelaufen, läuft
+
+aber innerhalb von 30 Tagen ab.
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+1 day
+
+</td><td>
+ExpiringDateTrust
+
+Anchor=
+
+Ablaufdatum der
+
+Vertrauensanker
+
+gültigkeit;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_LOG_
+
+OVERFLOW
+
+</td><td>
+Wenn im Rahmen der Regeln
+
+für die rollierende Speicherung
+
+von Logging-Einträgen Einträge
+
+gelöscht werden, die nicht älter
+
+als
+
+SECURITY_LOG_DAYS
+
+,
+
+ 
+
+LOG_DAYS bzw. FM_
+
+\<fmName\>_LOG_DAYS sind,
+
+tritt der Fehlerzustand ein.
+
+Der Fehlerzustand kann nur
+
+durch einen Administrator
+
+wieder zurückgesetzt werden.
+
+Unter Protokoll wird die Liste der auslösenden Protokolle angegeben.
+
+</td><td>
+Op
+
+</td><td>
+War
+
+ning
+
+</td><td>
+1 sec
+
+</td><td>
+Protokoll=$Protokoll;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_CRL_Expiring
+
+</td><td>
+Systemzeit t \> NextUpdate
+
+der CRL – 3 Tage
+
+</td><td>
+Sec
+
+</td><td>
+War
+
+ning
+
+</td><td>
+1 day
+
+</td><td>
+ExpiringDateCRL=
+
+NextUpdate der
+
+CRL;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Time_Sync_
+
+Pending_Warning
+
+</td><td>
+MGM_LU_ONLINE=Enabled und
+
+keine erfolgreiche
+
+Synchronisation
+
+der Systemzeit seit d Tagen und
+
+d \> NTP_WARN_PERIOD und
+
+d \<= NTP_GRACE_PERIOD.
+
+Nach einer Korrektur oder
+
+Bestätigung der Systemzeit
+
+durch einen Administrator muss
+
+der Konnektor wie nach einer
+
+erfolgreichen Zeitsynchronisation
+
+verfahren, d.h., der Tagezähler
+
+wird auf 0 zurückgesetzt.
+
+</td><td>
+Sec
+
+</td><td>
+War
+
+ning
+
+</td><td>
+1 day
+
+</td><td>
+LastSyncSuccess=
+
+$lastSyncSuccess
+
+Timestamp;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_TSL_Out_
+
+Of_Date_Within_
+
+Grace_Period
+
+</td><td>
+Systemzeit t mit
+
+t \> NextUpdate-Element der TSL
+
+und
+
+t \<= NextUpdate-Element
+
+der TSL + CERT_TSL_
+
+DEFAULT_GRACE_
+
+PERIOD_DAYS
+
+und eine neue TSL ist nicht
+
+verfügbar
+
+</td><td>
+Sec
+
+</td><td>
+War
+
+ning
+
+</td><td>
+1 day
+
+</td><td>
+NextUpdateTSL
+
+=$NextUpdate-
+
+Element der TSL;
+
+GracePeriodTSL
+
+=CERT_TSL_
+
+DEFAULT_
+
+GRACE_PERIOD_
+
+DAYS;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_CardTerminal_
+
+Not_Available
+
+($ctId)
+
+</td><td>
+Kartenterminal($ctId) ist nicht
+
+verfügbar. Dieser
+
+Betriebszustand
+
+bezieht sich auf die als „aktiv“
+
+gekennzeichneten KTs.  
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+1 sec
+
+</td><td>
+CtID=$ctId;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_No_VPN_TI_
+
+Connection
+
+</td><td>
+Kein sicherer Kanal (VPN) in die Telematikinfrastruktur aufgebaut.
+
+Der Wert 300 sec ist abgeleitet
+
+aus der maximalen
+
+Verbindungsaufbauzeit bei
+
+einem Standortausfall des
+
+VPN-Zugangsdienstes.
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+300 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_No_VPN_
+
+SIS_Connection
+
+</td><td>
+Kein sicherer Kanal (VPN) zu
+
+den Sicheren Internet Services
+
+aufgebaut.
+
+Der Wert 300 sec ist abgeleitet
+
+aus der maximalen
+
+Verbindungsaufbauzeit
+
+bei einem
+
+Standortausfall des
+
+VPN-Zugangsdienstes.
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+300 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_No_Online_
+
+Connection
+
+</td><td>
+Konnektor kann Dienste im
+
+Transportnetz nicht erreichen.
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+10 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_IP_Adresses_
+
+Not_Available
+
+</td><td>
+Die IP-Adressen des
+
+Netzkonnektors sind nicht oder
+
+falsch gesetzt.
+
+</td><td>
+Sec
+
+</td><td>
+Error
+
+</td><td>
+1 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_CRL_Out_Of_
+
+Date
+
+</td><td>
+Systemzeit t \> Next Update
+
+der CRL
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 day
+
+</td><td>
+NextUpdateCRL=
+
+$NextUpdate der
+
+CRL;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Firewall_Not_
+
+Reliable
+
+</td><td>
+Firewall-Regeln konnten nicht
+
+fehlerfrei generiert werden oder
+
+beim Laden der Firewall-Regeln
+
+ist ein Fehler aufgetreten.
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Random_
+
+Generator_
+
+Not_Reliable
+
+</td><td>
+Der Zufallszahlengenerator kann
+
+die Anforderungen an die zu
+
+erzeugende Entropie
+
+nicht erfüllen.
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Secure_
+
+KeyStore_
+
+Not_Available
+
+</td><td>
+Sicherer Zertifikats- und
+
+Schlüsselspeicher des
+
+Konnektors
+
+(gSMC-K oder Truststore)
+
+nicht verfügbar
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Security_
+
+Log_
+
+Not_Writable
+
+</td><td>
+Das Sicherheitslog kann nicht
+
+geschrieben werden.
+
+</td><td>
+Op
+
+</td><td>
+Fatal
+
+</td><td>
+1 sec
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Software_
+
+Integrity_
+
+Check_Failed
+
+</td><td>
+Eine oder mehrere
+
+konnektorinterne
+
+Integritätsprüfungen der aktiven Konnektorbestandteile
+
+sind fehlgeschlagen.
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 day
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Time_
+
+Difference_
+
+Intolerable
+
+</td><td>
+Abweichung zwischen
+
+der lokalen Zeit und der
+
+per NTP empfangenen
+
+Zeit bei der
+
+Zeitsynchronisation
+
+größer als NTP_MAX_
+
+TIMEDIFFERENCE.
+
+Nach einer Korrektur oder
+
+Bestätigung der Systemzeit
+
+durch einen Administrator
+
+muss der Konnektor den
+
+Fehlerzustand zurücksetzen.
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 sec
+
+</td><td>
+NtpTimedifference=
+
+Zeitabweichung;
+
+NtpMaxAllowed
+
+Timedifference
+
+=NTP_MAX_
+
+TIMEDIFFERENCE;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_Time_Sync_
+
+Pending_Critical
+
+</td><td>
+MGM_LU_ONLINE=
+
+Enabled und
+
+keine erfolgreiche
+
+Synchronisation
+
+der Systemzeit seit d Tagen
+
+und
+
+d \> NTP_GRACE_PERIOD
+
+Nach einer Korrektur oder
+
+Bestätigung der Systemzeit
+
+durch einen Administrator muss
+
+der Konnektor wie nach einer
+
+erfolgreichen
+
+Zeitsynchronisation
+
+verfahren, d.h., der Tagezähler
+
+wird auf 0 zurückgesetzt.
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 day
+
+</td><td>
+LastSyncSuccess
+
+=$lastSync
+
+SuccessTimestamp;
+
+NtpGracePeriod=
+
+NTP_GRACE_
+
+PERIOD;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_TSL_Trust_
+
+Anchor_
+
+Out_Of_Date
+
+</td><td>
+Gültigkeit des Vertrauensankers
+
+ist abgelaufen
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 day
+
+</td><td>
+ExpiringDateTrust
+
+Anchor=
+
+Ablaufdatum der
+
+Vertrauensanker
+
+gültigkeit;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_TSL_Out_
+
+Of_Date_
+
+Beyond_Grace_
+
+Period
+
+</td><td>
+Systemzeit t mit
+
+t \> NextUpdate-Element
+
+der TSL +
+
+CERT_TSL_DEFAULT_
+
+GRACE_ PERIOD_DAYS
+
+und eine neue TSL ist
+
+nicht verfügbar
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+1 day
+
+</td><td>
+NextUpdateTSL
+
+=$NextUpdate-
+
+Element der TSL;
+
+GracePeriodTSL
+
+=CERT_TSL_
+
+DEFAULT_
+
+GRACE_PERIOD_
+
+DAYS;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_
+
+CRYPTOP
+
+ERATION_
+
+ALARM
+
+</td><td>
+Gemäß TIP1-A_4597 wurde ein
+
+potentieller Missbrauch einer
+
+Kryptooperation erkannt.
+
+Nur der Administrator kann die
+
+Alarmmeldung zurücksetzen.
+
+</td><td>
+Sec
+
+</td><td>
+War
+
+ning
+
+</td><td>
+1 min
+
+</td><td>
+Operation=
+
+$Operationsname;
+
+Count=$Summenwert;
+
+Arbeitsplatz=
+
+$\<Liste
+
+operationsaufrufenden workplaceIDs\>;    
+
+Meldung=
+
+’Auffällige Häufung von
+
+Operationsaufrufen
+
+in den
+
+letzten 10 Minuten’
+
+</td></tr><tr><td>
+EC_OTHER_
+
+ERROR_
+
+STATE($no)
+
+</td><td>
+Herstellerspezifische
+
+Fehlerzustände, die per $no
+
+(von 1 aufsteigend nummeriert)
+
+identifiziert werden.
+
+$Type, $Severity und
+
+$ParameterList legt
+
+der Hersteller
+
+nach Bedarf fest.
+
+</td><td>
+$Type
+
+</td><td>
+$Sev
+
+erity
+
+</td><td>
+\<= 1 day
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_NK_Certificate_Expiring
+
+</td><td>
+Das C.NK.VPN-Zertifikat läuft bald ab. 
+
+Systemzeit t \> (Ablaufdatum von C.NK.VPN – 180 Tage)
+
+</td><td>
+Sec
+
+</td><td>
+Warning
+
+</td><td>
+1 day
+
+</td><td>
+Iccsn=$Iccsn;
+
+Serial=$Serialnumber;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_NK_Certificate_Expired
+
+</td><td>
+Das C.NK.VPN-Zertifikat ist abgelaufen.
+
+Systemzeit t \> Ablaufdatum von C.NK.VPN 
+
+</td><td>
+Sec 
+
+</td><td>
+Fatal
+
+</td><td>
+1 day
+
+</td><td>
+Iccsn=$Iccsn;
+
+Serial=$Serialnumber;
+
+Bedeutung=
+
+$EC.description
+
+</td></tr><tr><td>
+EC_TLS_Client_Certificate_Security
+
+</td><td>
+Das für die Authentifizierung gegenüber dem Clientsystem konfigurierte
+Zertifikat hat ein Sicherheitsniveau von weniger als 120bit. Zu verwenden ist
+ein RSA -Zertifikat mit mindestens 3000 bit Schlüssellänge oder ein ECC
+Zertifikat.
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+1 day
+
+</td><td>
+Bedeutung=
+
+$EC.description
+
+</td></tr></table>
 
 Erläuterungen zu TAB_KON_503:
 
@@ -1430,7 +3290,2360 @@ C.NK.VPN-Zertifikats in den Zustand EC_NK_Certificate_Expiring wechseln.
 Der Konnektor MUSS mit dem Ablauf des aktuell verwendeten C.NK.VPN-Zertifikats
 in den Zustand EC_NK_Certificate_Expired wechseln. **[\<=]**
 
- ---> TABLE
+<table><tr><td>
+EC_ Software_ Integrity_ Check_ Failed
+
+</td><td>
+EC_ Random_ Generator_ Not_ Reliable
+
+</td><td>
+EC_ Security_ Log_ Not_ Writable
+
+</td><td>
+EC_ Time_ Sync_ Pending_ Critical
+
+</td><td>
+EC_ Time_ Diffe rence_ Intoler able
+
+</td><td>
+EC_ CRL_ Out_ Of_ Date
+
+</td><td>
+EC_ TSL_ Out_ Of_ Date_ Beyond_ Grace_ Period
+
+</td><td>
+EC_ TSL_ Trust_
+
+Anchor_
+
+Out_
+
+Of_
+
+Date
+
+</td><td>
+EC_ Secure_ KeyStore_ Not_ Available
+
+</td><td>
+EC_ FW_ Not_ Valid_ Status_ Blocked
+
+</td><td>
+EC_
+
+NK_
+
+Certificate_
+
+Expired 
+
+</td></tr><tr><td colspan="12">
+Technische Use Cases (TUCs) der Basisdienste  
+relevant für Fachanwendung und
+die Kommunikation mit Weiteren Anwendungen und SIS
+
+</td></tr><tr><td colspan="2">
+Zugriffsberechtigungsdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+TUC_KON_000 Prüfe Zugriffsberechtigung
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td colspan="2">
+Dienstverzeichnisdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+ 
+
+</td><td>
+TUC_KON_041 Einbringen der Endpunktinformationen während der Bootup-Phase
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td colspan="2">
+Kartenterminaldienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+TUC_KON_051 Mit Anwender über Kartenterminal interagieren
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+Kartendienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+TUC_KON_005 Card-to-Card authentisieren
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_KON_006 Datenzugriffsaudit eGK schreiben
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_KON_018 eGK-Sperrung prüfen
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_KON_024 Karte zurücksetzen
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_kON_026 Liefere
+
+CardSession
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_KON_200 SendeAPDU
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_KON_202 LeseDatei
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_KON_203 SchreibeDatei
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_KON_209 LeseRecord
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="12">
+Systeminformationsdienst
+
+</td></tr><tr><td>
+TUC_KON_256 Systemereignis absetzen
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td colspan="2">
+Verschlüsselungsdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+TUC_KON_072 Daten symmetrisch verschlüsseln
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_KON_073 Daten symmetrisch entschlüsseln
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+Zertifikatsdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+ 
+
+</td><td>
+TUC_KON_034 Zertifikatsinformationen extrahieren
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td colspan="2">
+Protokollierungsdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+TUC_KON_271 Schreibe Protokolleintrag
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td colspan="2">
+TLS-Dienst 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+TUC_KON_110 Kartenbasierte TLS-Verbindung aufbauen
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+Verbindung zum VPN-Konzentrator
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td rowspan="2">
+ 
+
+</td><td>
+TUC_VPN-ZD_0001 „IPsec Tunnel TI aufbauen”
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td></tr><tr><td>
+TUC_VPN-ZD_0002 „IPsec Tunnel SIS aufbauen”
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="1">
+</td></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr><td colspan="12">
+Operationen der Basisdienste
+
+</td></tr><tr><td colspan="2">
+Kartendienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+VerifyPin  
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+UnblockPin  
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+ChangePin 
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+GetPinStatus  
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+Systeminformationsdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+Schnittstelle der Ereignissenke
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td>
+GetCardTerminals
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+GetCards
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+GetResourceInformation
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+Subscribe
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+RenewSubscription
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+Unsubscribe
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+GetSubscription
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+Verschlüsselungsdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+EncryptDocument
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+DecryptDocument
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+ Signaturdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+SignDocument
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+VerifyDocument
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+GetJobNumber
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+StopSignature
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+ActivateComfortSignature
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+DeactivateComfortSignature
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+GetSignatureMode
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="12">
+Authentifizierungsdienst   
+
+</td></tr><tr><td>
+ExternalAuthenticate
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+Zertifikatsdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+ReadCardCertificate
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+CheckCertificateExpiration
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td>
+VerifyCertificate
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+Zeitdienst
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+I_NTP_Time_Information
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td></tr><tr><td colspan="2">
+Konnektormanagement
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+Softwareaktualisierung
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td>
+Protokolleinsicht
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td>
+Werksreset
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr><tr><td>
+Sonstiges
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td></tr></table>
 
 In den kritischen Fehlerzuständen, in denen keine TLS-Verbindung ins LAN
 aufgebaut werden (EC_Random_Generator_Not_Reliable,
@@ -1508,7 +5721,31 @@ Fehler (Fehlercode 4002) beantworten.
 
 Tabelle7: TAB_KON_502 Fehlercodes „Betriebszustand“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4002
+
+</td><td>
+Security
+
+</td><td>
+Fatal
+
+</td><td>
+Der Konnektor befindet sich in einem kritischen Betriebszustand
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -1529,7 +5766,37 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_505 vorzunehmen:
 
 Tabelle8:TAB_KON_505 Konfigurationswerte Missbrauchserkennung
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+EVT_MONITOR_OPERATIONS
+
+</td><td>
+Liste von:
+
+- Operationsname
+
+- OK_Val (Nummer)
+
+- NOK_Val (Nummer)
+
+- Alarmwert (Nummer)
+
+</td><td>
+Der Administrator MUSS in der Liste der zur Missbrauchserkennung überwachbaren
+Operationen alle Listeneinträge einsehen können. Er MUSS den jeweiligen
+Alarmwert editieren können (0-9999, 0=deaktiviert).
+
+OK_VAL und NOK_VAL DÜRFEN durch den Administrator NICHT veränderbar sein.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -1623,7 +5890,224 @@ SOAP4), für die Verbindungen zum Senden von Events (Varianten CETP1 und CETP2)
 und für Verbindungen zum Abruf des Dienstverzeichnisses (Varianten DVD1, DVD2
 und DVD3).
 
- ---> TABLE
+<table><tr><th>
+Konfigu-
+
+rations-
+
+variante
+
+</th><th>
+ANCL_
+
+TLS_
+
+MAN-
+
+DATORY
+
+</th><th>
+ANCL_
+
+CAUT_
+
+MAN-
+
+DATORY
+
+</th><th>
+ANCL_
+
+CAUT_
+
+MODE
+
+</th><th>
+ANCL_
+
+DVD_
+
+OPEN
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+CETP1
+
+</td><td>
+Enabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Der Konnektor sendet Events ausschließlich über TLS.
+
+Er authentisiert sich, wenn ihn das Clientsystem im Rahmen des TLS-Handshakes
+dazu auffordert.   
+
+</td></tr><tr><td>
+CETP2
+
+</td><td>
+Disabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Der Konnektor sendet Events immer über eine TCP-Verbindung ohne TLS.  
+
+</td></tr><tr><td>
+SOAP1
+
+</td><td>
+Enabled
+
+</td><td>
+Enabled
+
+</td><td>
+CERTIFICATE
+
+</td><td>
+Irrelevant
+
+</td><td>
+Der Konnektor akzeptiert vom Clientsystem nur Aufrufe über TLS. Der Konnektor
+verlangt beim TLS-Handshake die Authentisierung des Clientsystems per
+Zertifikat.
+
+</td></tr><tr><td>
+SOAP2
+
+</td><td>
+Enabled
+
+</td><td>
+Enabled
+
+</td><td>
+PASSWORD
+
+</td><td>
+Irrelevant
+
+</td><td>
+Der Konnektor akzeptiert vom Clientsystem nur Aufrufe über TLS.  Der Konnektor
+prüft auf Anwendungsebene, dass Aufrufer sich per Username/Password 
+[RFC2617] authentisieren.
+
+</td></tr><tr><td>
+SOAP3
+
+</td><td>
+Enabled
+
+</td><td>
+Disabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Der Konnektor akzeptiert vom Clientsystem nur Aufrufe über TLS.  Der Konnektor
+nimmt keine Clientauthentifizierung vor.
+
+</td></tr><tr><td>
+SOAP4
+
+</td><td>
+Disabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Der Konnektor akzeptiert vom Clientsystem sowohl Aufrufe ohne TLS als auch über
+TLS. Im zweiten Fall sollte der Konnektor das Clientsystem nicht
+authentifizieren, wenn er es aber für den Sonderfall
+ANCL_CAUT_MANDATORY=Enabled aktuell tut, sehen wir das nicht als Fehler.
+
+</td></tr><tr><td>
+DVD1
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Enabled
+
+</td><td>
+Zugriff auf Dienstverzeichnisdienst kann über HTTP und HTTPS erfolgen.
+
+</td></tr><tr><td>
+DVD2
+
+</td><td>
+Enabled
+
+</td><td>
+*
+
+</td><td>
+*
+
+</td><td>
+Disabled
+
+</td><td>
+Zugriff auf Dienstverzeichnisdienst kann nur über HTTPS erfolgen.
+
+*) Bzgl. Clientauthentisierung wirken die Schalter wie in SOAP 1, SOAP 2, SOAP 3
+
+</td></tr><tr><td>
+DVD3
+
+</td><td>
+Disabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Disabled
+
+</td><td>
+Zugriff auf Dienstverzeichnisdienst kann über HTTP und HTTPS erfolgen.
+
+</td></tr></table>
 
 Client-Authentisierung bei Nutzung des LDAP-Proxy
 
@@ -1644,7 +6128,129 @@ TAB_KON_860 verhalten.
 Tabelle10: TAB_KON_865-01 Konfigurationsvarianten der Verbindungen zwischen
 Konnektor und Clientsystemen bei LDAP
 
- ---> TABLE
+<table><tr><th>
+Konfigu-
+
+rations-
+
+variante
+
+</th><th>
+ANCL_
+
+TLS_
+
+MAN-
+
+DATORY
+
+</th><th>
+ANCL_
+
+CAUT_
+
+MAN-
+
+DATORY
+
+</th><th>
+ANCL_
+
+CAUT_
+
+MODE
+
+</th><th>
+ANCL_
+
+CAUT_
+
+LDAP
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+LDAP1
+
+</td><td>
+Enabled
+
+</td><td>
+Enabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+CERTIFICATE
+
+</td><td>
+Der Konnektor akzeptiert vom Clientsystem nur Aufrufe über TLS. Der Konnektor
+verlangt beim TLS-Handshake bei Nutzung des LDAP-Proxy die Authentisierung des
+Clientsystems per Zertifikat.
+
+</td></tr><tr><td>
+LDAP2
+
+</td><td>
+Enabled
+
+</td><td>
+Enabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+None
+
+</td><td>
+Der Konnektor akzeptiert vom Clientsystem nur Aufrufe über TLS.  Der Konnektor
+nimmt bei Nutzung des LDAP-Proxy keine Clientauthentifizierung vor. 
+
+</td></tr><tr><td>
+LDAP3
+
+</td><td>
+Enabled
+
+</td><td>
+Disabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Der Konnektor akzeptiert vom Clientsystem nur Aufrufe über TLS.  Der Konnektor
+nimmt keine Clientauthentifizierung vor.
+
+</td></tr><tr><td>
+LDAP4
+
+</td><td>
+Disabled
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Irrelevant
+
+</td><td>
+Der Konnektor akzeptiert vom Clientsystem sowohl Aufrufe ohne TLS als auch über
+TLS. Im zweiten Fall sollte der Konnektor das Clientsystem nicht
+authentifizieren, wenn er es aber für den Sonderfall
+ANCL_CAUT_MANDATORY=Enabled, ANCL_CAUT_LDAP=CERTIFICATE aktuell tut, sehen wir
+das nicht als Fehler.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -1697,7 +6303,113 @@ Sicherung der Kommunikation hinweisen.
 Tabelle11: TAB_KON_506-01 Konfigurationsparameter der
 Clientsystem-Authentisierung
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+ANCL_TLS_MANDATORY
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS die verpflichtende Verwendung eines TLS gesicherten
+Kanals an- und abschalten können.
+
+Wenn ANLW_ANBINDUNGS_MODUS = Parallel MUSS der Administrator vor dem Disablen
+von ANCL_TLS_MANDATORY einen Warnhinweis bestätigen, der ihn über die mit der
+Abschaltung verbundenen Risiken informiert und darlegt, dass in diesem Fall der
+Nutzer die Verantwortung für die Sicherstellung der vertraulichen Übertragung
+übernimmt.
+
+Default-Wert: Enabled
+
+</td></tr><tr><td>
+ANCL_CAUT_MANDATORY
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS die verpflichtende Authentifizierung der Clientsysteme
+an- und abschalten können.
+
+Default-Wert: Enabled
+
+</td></tr><tr><td>
+ANCL_CAUT_MODE
+
+</td><td>
+CERTIFICATE /  
+PASSWORD
+
+</td><td>
+Der Administrator MUSS konfigurieren können, welcher Client
+Authentifizierungsmodus genutzt werden kann bzw. genutzt werden muss.
+
+Default-Wert: CERTIFICATE
+
+</td></tr><tr><td>
+ANCL_CAUT_LDAP
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS die verpflichtende Authentifizierung der Clientsysteme
+für die Nutzung des LDAP-Proxy an- und abschalten können.
+
+Default-Wert: Enabled
+
+</td></tr><tr><td>
+ANCL_CCERT_LIST
+
+</td><td>
+Liste von
+
+X.509-Zertifikaten zugeordnet zu ClientID
+
+</td><td>
+Liste von importierten oder vom Konnektor erzeugten X.509-Zertifikaten und
+dazugehörenden Clientsystem IDs. Der Administrator MUSS die Liste der
+Zertifikate und den zugehörenden Clientsystemen verwalten können, der Inhalt
+der Zertifikate MUSS menschlich lesbar dargestellt werden.  
+Es muss für den
+Administrator erkennbar sein, welches kryptographische Verfahren (RSA-2048 oder
+ECC -256) dem jeweiligen Zertifikat zugrunde liegt.
+
+</td></tr><tr><td>
+ANCL_CUP_LIST
+
+</td><td>
+Liste von Benutzer/Passwort Kombinationen, zugeordnet zu ClientID
+
+</td><td>
+Liste von UserCredentials und dazugehörenden Clientsystem IDs. Der
+Administrator MUSS eine Liste von Credentials und zugehörendem Clientsystem
+verwalten können. Bei diesen Benutzer-/Passwortkombinationen handelt es sich
+nicht um personenbezogene Credentials, sondern um clientbezogene.
+
+</td></tr><tr><td>
+ANCL_DVD_OPEN
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS konfigurieren können, ob der Zugriff auf den
+Dienstverzeichnisdienst auch dann über einen ungesicherten http-Kanal erfolgen
+kann (ENABLED), wenn ANCL_TLS_MANDATORY = ENABLED ist.
+
+Default-Wert: Enabled
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2050,7 +6762,153 @@ Tabelle TAB_KON_812 verwendet werden.
 
 Tabelle12: TAB_KON_812 Umgebungsabhängige Konfigurationsparameter
 
- ---> TABLE
+<table><tr><th>
+Betriebs
+
+umgebung
+
+</th><th>
+Konfigurations
+
+parameter
+
+</th><th>
+Konfigurations
+
+wert
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td rowspan="4">
+PU
+
+</td><td>
+NET_TI_
+
+ZENTRAL
+
+</td><td>
+siehe [gemSpec_Net#Tab_
+
+Adrkonzept_Produktiv]
+
+</td><td>
+Siehe TAB_KON_680.
+
+Dieser Wert MUSS für den Administrator über die Managementschnittstelle
+einsehbar, DARF aber NICHT änderbar sein.
+
+</td></tr><tr><td>
+NET_TI_
+
+GESICHERTE_FD
+
+</td><td>
+siehe [gemSpec_Net#Tab_
+
+Adrkonzept_Produktiv]
+
+</td><td>
+Siehe TAB_KON_680.
+
+Dieser Wert MUSS für den Administrator über die Managementschnittstelle
+einsehbar, DARF aber NICHT änderbar sein.
+
+</td></tr><tr><td>
+NET_TI_
+
+OFFENE_FD
+
+</td><td>
+siehe [gemSpec_Net#Tab_
+
+Adrkonzept_Produktiv]
+
+</td><td>
+Siehe TAB_KON_680.
+
+Dieser Wert MUSS für den Administrator über die Managementschnittstelle
+einsehbar, DARF aber NICHT änderbar sein.
+
+</td></tr><tr><td>
+DNS_TOP_
+
+LEVEL_DOMAIN_TI
+
+</td><td>
+telematik.
+
+</td><td>
+Siehe TAB_KON_731.
+
+Dieser Wert MUSS für den Administrator über die Managementschnittstelle
+einsehbar, DARF aber NICHT änderbar sein.
+
+</td></tr><tr><td rowspan="4">
+RU/TU
+
+</td><td>
+NET_TI_
+
+ZENTRAL
+
+</td><td>
+siehe [gemSpec_Net# Tab_Adrkonzept_Test]
+
+</td><td>
+Siehe TAB_KON_680.
+
+Dieser Wert MUSS für den Administrator über die Managementschnittstelle mit
+dem Konfigurationswert voreingestellt und änderbar sein.
+
+</td></tr><tr><td>
+NET_TI_
+
+GESICHERTE_FD
+
+</td><td>
+siehe [gemSpec_Net#
+
+Tab_Adrkonzept_Test]
+
+</td><td>
+Siehe TAB_KON_680.
+
+Dieser Wert MUSS für den Administrator über die Managementschnittstelle mit
+dem Konfigurationswert voreingestellt und änderbar sein.
+
+</td></tr><tr><td>
+NET_TI_
+
+OFFENE_FD
+
+</td><td>
+siehe [gemSpec_Net# Tab_Adrkonzept_Test]
+
+</td><td>
+Siehe TAB_KON_680.
+
+Dieser Wert MUSS für den Administrator über die Managementschnittstelle mit
+dem Konfigurationswert voreingestellt und änderbar sein.
+
+</td></tr><tr><td>
+DNS_TOP_
+
+LEVEL_
+
+DOMAIN_TI
+
+</td><td>
+telematik-test.
+
+</td><td>
+Siehe TAB_KON_731.
+
+Dieser Wert MUSS für den Administrator über die Managementschnittstelle
+einsehbar, aber nicht änderbar sein.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2143,13 +7001,927 @@ deutscher Begriff verwendet wird.
 
 ![Abbildung-4][Abbildung-4]
 
- ---> TABLE
+<table><tr><th>
+Entität
 
- ---> TABLE
+</th><th>
+persistent/
 
- ---> TABLE
+transient
 
- ---> TABLE
+</th><th>
+Identitätsschlüssel
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Mandant
+
+</td><td>
+persistent
+
+</td><td>
+mandantId
+
+</td><td>
+Zu Mandanten und Mandantenfähigkeit siehe Kapitel Mandantenfähigkeit.
+
+</td></tr><tr><td>
+Clientsystem
+
+</td><td>
+persistent
+
+</td><td>
+clientSystemId
+
+</td><td>
+Unter einem Clientsystem wird hier ein einzelnes oder eine Gruppe von Systemen
+verstanden, welche im LAN der Einsatzumgebung auf die
+Clientsystem-Schnittstelle des Konnektors zugreifen.
+
+</td></tr><tr><td>
+CS-AuthMerkmal
+
+(CS-AuthProperty)
+
+</td><td>
+persistent
+
+</td><td>
+csAuthId
+
+</td><td>
+Das Authentifizierungsmerkmal dient der Authentifizierung, wenn sich das
+Clientsystem gegenüber dem Konnektor authentisiert. Der Identitätsschlüssel
+csAuthId wird bei der Administration vergeben
+
+</td></tr><tr><td>
+Arbeitsplatz
+
+(Workplace)
+
+</td><td>
+persistent
+
+</td><td>
+workplaceId
+
+</td><td>
+alle dem Konnektor bekannten Arbeitsplätze
+
+</td></tr><tr><td>
+Kartenterminal
+
+(CardTerminal)
+
+</td><td>
+persistent
+
+</td><td>
+ctId
+
+</td><td>
+alle dem Konnektor bekannten Kartenterminals.
+
+</td></tr><tr><td>
+KT-Slot
+
+(CT-Slot)
+
+</td><td>
+persistent
+
+</td><td>
+ctId,
+
+slotNo
+
+</td><td>
+Die sich in den Kartenterminals befindenden Chipkartenslots (Functional Unit
+Type 00)
+
+</td></tr><tr><td>
+Karte
+
+(Card)
+
+</td><td>
+transient
+
+</td><td>
+cardHandle
+
+oder
+
+iccsn
+
+</td><td>
+Die in den Kartenterminals steckenden Smartcards des Gesundheitswesens, die
+persönliche Identitäten oder Rollen repräsentieren (eGK, HBA, SMC-B).
+
+Karten, die nur Geräteidentitäten tragen (gSMC-K, gSMC-KT) werden in diesem
+Modell nicht betrachtet.
+
+Karten im Sinne dieses Informationsmodells existieren maximal so lange, wie sie
+im Kartenterminal stecken. Die aktuell im System steckenden Karten werden vom
+Clientsystem über das cardHandle adressiert. Die iccsn erlaubt eine dauerhafte
+Adressierung einer Karte.
+
+Für den Kartentyp „SM-B“ kann hier auch eine in einem HSM-B enthaltene
+virtuelle SMC-B abgebildet werden.
+
+</td></tr><tr><td>
+Kartensitzung
+
+(CardSession)
+
+</td><td>
+transient
+
+</td><td>
+siehe
+
+konkrete
+
+Kartensitzungen
+
+</td><td>
+Kartensitzungen stellen ein wesentliches Konzept im Sicherheitsmodell des
+Konnektors dar. Eine Kartensitzung verwaltet einen aktuellen logischen
+Sicherheitsstatus einer Karte. Die Kartensitzungen sind einer Karte fest
+zugewiesen.
+
+Zu einer Karte kann es mehrere Kartensitzungen geben, die voneinander logisch
+unabhängige Sicherheitsstatus einer Karte verwalten.
+
+Der Konnektor führt alle Zugriffe auf eine Karte im Kontext einer Kartensitzung
+zu dieser Karte aus.
+
+Das Attribut logischerKanal bezeichnet den logischen Kanal zur Karte, der im
+Rahmen der Kartensitzung verwendet wird (gemäß Standard [7816–4]).
+
+</td></tr><tr><td>
+Kartensitzung_eGK
+
+(CardSession_eGK)
+
+</td><td>
+transient
+
+</td><td>
+cardHandle
+
+</td><td>
+Kartensitzung für eine eGK. Die KVK ist im Modell nicht explizit dargestellt.
+Soweit anwendbar, gelten für die KVK die gleichen Aussagen wie für die eGK.
+
+</td></tr><tr><td>
+Kartensitzung_SM-B
+
+(CardSession_SM-B)
+
+</td><td>
+transient
+
+</td><td>
+cardHandle, mandantId
+
+</td><td>
+Kartensitzung für eine SM-B
+
+</td></tr><tr><td>
+Kartensitzung_HBAx
+
+(CardSession_HBAx)
+
+</td><td>
+transient
+
+</td><td>
+cardHandle, clientSystemId,
+
+userId
+
+</td><td>
+Kartensitzung für einen HBAx.
+
+Unter dem Typ „HBAx“ sind auch die Vorläuferkarten wie „HBA-qSig” und
+„ZOD_2.0“ inkludiert.
+
+</td></tr><tr><td>
+SM-B_Verwaltet
+
+(SM-B_managed)
+
+</td><td>
+persistent
+
+</td><td>
+iccsn
+
+</td><td>
+SM-Bs müssen im Gegensatz zu den übrigen Karten im Konnektor vor ihrer
+Verwendung persistent im Informationsmodell als
+
+„SM-B_Verwaltet“ per Administration aufgenommen werden.
+
+Dies gilt auch für die in einem HSM-B enthaltenen virtuellen SMC-Bs.
+
+</td></tr><tr><td>
+CS_AP
+
+</td><td>
+persistent
+
+</td><td>
+mandantId, clientSystemId, workplaceId
+
+</td><td>
+CS_AP legt die von einem Clientsystem pro Mandanten nutzbaren Arbeitsplätze
+fest. Ein Clientsystem kann dabei mehrere Arbeitsplätze bedienen. Ebenso
+können Arbeitsplätze von mehreren Clientsystemen, auch gleichzeitig, genutzt
+werden, z. B. bei zwei unterschiedlichen, voneinander unabhängigen
+Praxisprogrammen.
+
+</td></tr><tr><td>
+Remote-PIN-KT
+
+</td><td>
+persistent
+
+</td><td>
+mandantId, workplaceId, ctId
+
+</td><td>
+Remote-PIN-KT legt pro Mandant und Arbeitsplatz fest, über welches
+Kartenterminal eine Remote PIN-Eingabe erfolgen soll, wenn an diesem
+Arbeitsplatz die PIN-Eingabe für eine Karte erforderlich ist, die nicht in
+einem dem Arbeitsplatz lokal zugeordneten Kartenterminal steckt.
+
+</td></tr><tr><td>
+AuthState
+
+</td><td>
+transient
+
+</td><td>
+cardHandle, (clientSystemId),
+
+(userId),
+
+ref
+
+</td><td>
+Zu einer Kartensitzung gibt es höhere AuthorizationStates, die durch (type
+=C2C) Freischaltung oder durch PIN-Eingabe (type=CHV) erreicht werden können.
+
+Für eGK G2.0 wird der Zustand der MRPINs nicht in AuthState gespeichert.
+
+</td></tr></table>
+
+<table><tr><th>
+Attribut
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+cardHandle
+
+</td><td>
+Das Identifikationsmerkmal einer Karte für die Dauer eines Steckzyklusses. Es
+wird mit dem Entfernen der Karte aus dem Kartenterminal ungültig. Es wird
+automatisch vom Konnektor vergeben.
+
+</td></tr><tr><td>
+clientSystemId
+
+</td><td>
+Das Identifikationsmerkmal eines Clientsystems. Es wird per Administration dem
+Mandanten im Clientsystem und im Konnektor zugeordnet.
+
+</td></tr><tr><td>
+csAuthId
+
+</td><td>
+Das Identifikationsmerkmal eines Authentifizierungsmerkmals.
+
+</td></tr><tr><td>
+ctId
+
+</td><td>
+Das Identifikationsmerkmal eines Terminals. Es ist eine fixe Eigenschaft des
+Kartenterminals.
+
+</td></tr><tr><td>
+iccsn
+
+</td><td>
+Die Seriennummer einer Karte. Sie identifiziert eine Karte dauerhaft.
+
+</td></tr><tr><td>
+isHSM
+
+</td><td>
+Attribut der Entitäten Karte und SM-B_Verwaltet. Es ist false, wenn eine echte
+Smardcard abgebildet wird und true, wenn es sich um eine virtuelle SMC-B
+handelt, die in einem HSM-B enthalten ist.
+
+</td></tr><tr><td>
+isPhysical
+
+</td><td>
+Attribut des Kartenterminals das den Wert „Ja“ hat, wenn es sich um ein
+tatsächlich existierendes Kartenterminal handelt. Ist der Wert „Nein“,
+dann handelt es sich um ein logisches Kartenterminal im Zusammenhang mit einem
+HSM-B.
+
+</td></tr><tr><td>
+logicalChannel
+
+</td><td>
+Referenz auf ein Objekt, das einen logischen Kanal repräsentiert.
+
+</td></tr><tr><td>
+mandantId
+
+</td><td>
+Das Identifikationsmerkmal eines Mandanten. Es wird per Administration dem
+Mandanten im Clientsystem und im Konnektor zugeordnet.
+
+</td></tr><tr><td>
+ref
+
+</td><td>
+Das Identifikationsmerkmal eines AuthState zu einer gegebenen Kartensitzung. Im
+Falle C2C handelt es sich um die KeyRef (mit einer bestimmten Rolle) und in
+Falle CHV um eine referenzierte PIN.
+
+</td></tr><tr><td>
+slotNo
+
+</td><td>
+Das Identifikationsmerkmal eines Slot für ein bestimmtes Kartenterminal. Diese
+fortlaufende Nummer ist eine fixe Eigenschaft des Kartenterminals. Sie beginnt
+bei 1.
+
+</td></tr><tr><td>
+type
+
+</td><td>
+Als Kartenattribut: Typ einer Karte. Im Folgenden berücksichtigte Werte:
+„HBAx“, „SM-B“, „EGK“.
+
+Als Attribute eines AuthState: Typ des AuthState. „C2C“ steht für
+gegenseitige Kartenauthentisierung. „CHV“ steht für Card Holder
+Verification per PIN-Eingabe.
+
+</td></tr><tr><td>
+userId
+
+</td><td>
+Das Identifikationsmerkmal des Nutzers im Clientsystem (Die userId wird durch
+das Clientsystem vergeben und verwaltet).
+
+Die userId wird im Kontext eine Kartensitzung_HBAx vom Konnektor verwendet, um
+als Bestandteil des Identitätsschlüssels die Kartensitzung_HBAx zu
+identifizieren.
+
+</td></tr><tr><td>
+workplaceId
+
+</td><td>
+Das Identifikationsmerkmal eines Arbeitsplatzes. Es wird per Administration dem
+Mandanten im Clientsystem und im Konnektor zugeordnet.
+
+</td></tr></table>
+
+<table><tr><th>
+Entitätenbeziehung
+
+</th><th>
+persistent/
+
+transient
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Authentifikationsmerkmale des Clientsystems [1]
+
+</td><td>
+persistent
+
+</td><td>
+Diese Relation legt für jedes Clientsystem eine Menge von
+Authentisierungsmerkmalen fest. Mit einem dieser Authentisierungsmerkmale muss
+sich ein Client gegenüber dem Konnektor authentisiert haben, um als das
+entsprechende Clientsystem vom Konnektor akzeptiert zu werden.
+
+</td></tr><tr><td>
+Clientsysteme des Mandanten [2]
+
+</td><td>
+persistent
+
+</td><td>
+Diese Relation weist Clientsystemen Mandanten zu.
+
+</td></tr><tr><td>
+Arbeitsplätze des Mandanten [3]
+
+</td><td>
+persistent
+
+</td><td>
+Diese Relation weist Arbeitsplätze Mandanten zu.
+
+Arbeitsplätze können von mehreren Mandanten genutzt werden. Z. B. kann ein von
+mehreren Mandanten genutzter gemeinsamer Empfang als ein Arbeitsplatz
+modelliert werden.
+
+</td></tr><tr><td>
+Kartenterminals des Mandanten [5]
+
+</td><td>
+persistent
+
+</td><td>
+Diese Relation weist Kartenterminals Mandanten zu.
+
+</td></tr><tr><td>
+Lokale Kartenterminals [6]
+
+</td><td>
+persistent
+
+</td><td>
+Diese Relation erfasst die Kartenterminals, die sich lokal an einem Arbeitsplatz
+befinden und von diesem genutzt werden können. Die Modellierung lässt es zu,
+dass Kartenterminals mehreren Arbeitsplätzen lokal zugewiesen werden. Jeder an
+der TI teilnehmende Arbeitsplatz wird in der Regel mindestens ein lokales
+Kartenterminal benötigen.
+
+</td></tr><tr><td>
+Entfernte Kartenterminals [7]
+
+</td><td>
+persistent
+
+</td><td>
+Diese Relation beschreibt, auf welche Kartenterminals Arbeitsplätze (remote)
+zugreifen dürfen. Dies ist für zentral steckende Karten vorgesehen.
+
+</td></tr><tr><td>
+Slot eines Kartenterminals [8]
+
+</td><td>
+persistent
+
+</td><td>
+Die Zuordnung von Slots zu einem Kartenterminal ergibt sich automatisch aus den
+Eigenschaften des Kartenterminals.
+
+</td></tr><tr><td>
+SM-B_Verwaltet eines Mandanten [9]
+
+</td><td>
+persistent
+
+</td><td>
+Diese Relation legt fest, welche verwalteten
+
+SM-Bs einem Mandanten zugeordnet sind.
+
+</td></tr><tr><td>
+Kartenterminal-Slot, in dem eine Karte steckt [10]
+
+</td><td>
+transient
+
+</td><td>
+Sobald eine Karte in ein Kartenterminal gesteckt wird, ergibt sich implizit eine
+Relation der Karte zu dem Slot, in dem sie steckt, [6] und indirekt über [4]
+zum Kartenterminal.
+
+</td></tr><tr><td>
+Mandant der Kartensitzung
+
+SM-B [11]
+
+</td><td>
+transient
+
+</td><td>
+Beim Anlegen einer Kartensitzung SM-B wird diese immer dem zugreifenden
+Mandanten zugeordnet.
+
+</td></tr><tr><td>
+Arbeitsplatz der Kartensitzung eGK [12]
+
+</td><td>
+transient
+
+</td><td>
+Eine Kartensitzung eGK ist immer einem Arbeitsplatz zugeordnet.
+
+</td></tr><tr><td>
+Karte einer Kartensitzung [13]
+
+</td><td>
+transient
+
+</td><td>
+Jeder Kartensitzung ist genau einer Karte zugeordnet.
+
+</td></tr><tr><td>
+Gesteckte SM-B [14]
+
+</td><td>
+transient
+
+</td><td>
+Wird eine SM-B gesteckt und handelt es sich um eine verwaltete SM-B, ergibt sich
+über die iccsn die Zuordnung.
+
+</td></tr><tr><td>
+Freischaltung einer Karte [15]
+
+</td><td>
+transient
+
+</td><td>
+Diese Relation erfasst die Freischaltung einer Karte durch eine andere Karte.
+
+</td></tr><tr><td>
+Bindung der Kartensitzung_HBAx an Clientsystem [16]
+
+</td><td>
+transient
+
+</td><td>
+Kartensitzungen HBAx sind einem Clientsystem zugeordnet.
+
+</td></tr><tr><td>
+AuthState pro Kartensitzung [17]
+
+</td><td>
+transient
+
+</td><td>
+Eine Kartensitzung kann erhöhte Sicherheitszustände (Authorization State)
+haben.
+
+</td></tr></table>
+
+<table><tr><th>
+#
+
+</th><th>
+Beschreibung
+
+</th><th>
+Definition mittels OCL
+
+(Die Constraints werden im UML ergänzenden Standard OCL definiert.)
+
+</th></tr><tr><td>
+C1
+
+</td><td>
+Eine eGK muss eine oder keine Kartensitzung haben.
+
+</td><td>
+context
+
+Karte
+
+inv
+
+: self.type = "eGK" implies
+
+  self.kartensitzung.size() \<= 1
+
+</td></tr><tr><td>
+C2
+
+</td><td>
+Wenn zwei Kartensitzungen einer HBAx dem gleichen Clientsystem zugeordnet sind
+und ihre userIds gleich sind, dann müssen die beiden Kartensitzungen identisch
+sein.
+
+</td><td>
+context
+
+Kartensitzung-HBAx
+
+inv
+
+: forAll(k1, k2 : Kartensitzung-HBAx |
+
+  k1.karte = k2.karte
+
+   
+
+and k1.clientsystem = k2.clientsystem
+
+   
+
+and k1.userId = k2.userId
+
+   
+
+implies
+
+  k1 = k2)
+
+</td></tr><tr><td>
+C3
+
+</td><td>
+Wenn zwei SM-B-Kartensitzungen einer Karte dem gleichen Mandanten zugeordnet
+sind, dann müssen die beiden Kartensitzungen identisch sein.
+
+</td><td>
+context
+
+Kartensitzung-SM-B
+
+inv
+
+: forAll(k1, k2 : Kartensitzung-SM-B |
+
+  k1.karte = k2.karte
+
+   
+
+and k1.mandant = k2.mandant implies
+
+  k1 = k2)
+
+</td></tr><tr><td>
+C4
+
+</td><td>
+Die Seriennummer iccsn einer Karte muss eindeutig sein.
+
+</td><td>
+context
+
+Karte
+
+inv
+
+: Karte.allInstances -\>
+
+     isUnique(iccsn)
+
+</td></tr><tr><td>
+C5
+
+</td><td>
+Die Seriennummer iccsn einer Karte muss für die vom Konnektor verwalteten
+
+SM-Bs eindeutig sein.
+
+</td><td>
+context
+
+SM-B_Verwaltet
+
+inv
+
+: SM-B_Verwaltet.allInstances -\>  
+
+     isUnique(iccsn)
+
+</td></tr><tr><td>
+C6
+
+</td><td>
+Das CardHandle einer Karte muss eindeutig sein.
+
+</td><td>
+context
+
+Karte
+
+inv
+
+: Karte.allInstances -\>
+
+     isUnique(cardHandle)
+
+</td></tr><tr><td>
+C7
+
+</td><td>
+Die Identifikationsnummer des Clientsystems muss eindeutig sein.
+
+</td><td>
+context
+
+Clientsystem
+
+inv
+
+: Clientsystem.allInstances -\>
+
+     isUnique(clientSystemId)
+
+</td></tr><tr><td>
+C8
+
+</td><td>
+Die Identifikationsnummer des Mandanten muss eindeutig sein.
+
+</td><td>
+context
+
+Mandant
+
+inv
+
+: Mandant.allInstances -\>
+
+     isUnique(mandantId)
+
+</td></tr><tr><td>
+C9
+
+</td><td>
+Die Identifikationsnummer des Arbeitsplatzes muss eindeutig sein.
+
+</td><td>
+context
+
+Arbeitsplatz
+
+inv
+
+: Arbeitsplatz.allInstances -\>
+
+     isUnique(workplaceId)
+
+</td></tr><tr><td>
+C10
+
+</td><td>
+Die Identifikationsnummer des Kartenterminals muss eindeutig sein.
+
+</td><td>
+context
+
+Kartenterminal
+
+inv
+
+: Kartenterminal.allInstances -\>
+
+     isUnique(ctId)
+
+</td></tr><tr><td>
+C11
+
+</td><td>
+Die Identifikationsnummer (slotNo) des Kartenterminal-Slots für ein gegebenes
+Kartenterminal muss eindeutig sein.
+
+</td><td>
+context
+
+Kartenterminal
+
+inv
+
+: self.kT-Slot -\>
+
+     isUnique(slotNo)
+
+</td></tr><tr><td>
+C12
+
+</td><td>
+Es muss gewährleistet sein, dass nur Arbeitsplätze und Clientsysteme einander
+im Rahmen eines Mandanten zugeordnet werden, die diesem Mandanten selbst
+zugeordnet sind.
+
+</td><td>
+context
+
+CS-AP
+
+inv
+
+: self.arbeitsplatz.mandant.includes(          
+
+      self.mandant)
+
+inv
+
+: self.clientsystem.mandant.includes(          
+
+      self.mandant)
+
+</td></tr><tr><td>
+C13
+
+</td><td>
+Es muss gewährleistet sein, dass nur Kartenterminals und Arbeitsplätze
+einander im Rahmen eines Mandanten zur Remote-PIN-Eingabe zugeordnet werden,
+die diesem Mandanten selbst zugeordnet sind.
+
+</td><td>
+context
+
+Remote-PIN-KT
+
+inv
+
+: self.arbeitsplatz.mandant.includes(          
+
+      self.mandant)
+
+inv
+
+: self.kartenterminal.mandant.includes(          
+
+      self.mandant)
+
+</td></tr><tr><td>
+C14
+
+</td><td>
+Zur Remote-PIN-Eingabe muss ein
+
+lokales
+
+Kartenterminal ausgewählt sein.
+
+</td><td>
+context
+
+Remote-PIN-KT
+
+inv
+
+: self.arbeitsplatz
+
+     .localKartenterminal
+
+     .includes(self.kartenterminal)
+
+inv
+
+: not self.arbeitsplatz
+
+     .entferntKartenterminal
+
+     .includes(self.kartenterminal)
+
+</td></tr><tr><td>
+C15
+
+</td><td>
+Zur Remote-PIN-Eingabe darf pro Mandanten und Arbeitsplatz nicht mehr als ein
+Kartenterminal ausgewählt werden.
+
+</td><td>
+context
+
+Remote-PIN-KT
+
+inv
+
+: forAll(r1, r2 : Remote-PIN-KT |
+
+  r1.arbeitsplatz = r2.arbeitsplatz
+
+   
+
+and r1.mandant = r2.mandant implies
+
+  r1 = r2)
+
+</td></tr><tr><td>
+C16
+
+</td><td>
+Eine Kartensitzung-HBAx muss immer eine zugehörige userId haben.
+
+</td><td>
+context
+
+Kartensitzung-HBAx
+
+inv
+
+: self.userId \<\> null
+
+</td></tr></table>
 
 Hinweis zur Remote-PIN-Eingabe: Constraints C14 und C15 legen fest, dass auch im
 Fall mehrerer lokaler Kartenterminals an einem Arbeitsplatz nur eines (oder
@@ -2203,13 +7975,247 @@ Zugriffsberechtigung“ umsetzen.
 
 Tabelle17: TAB_KON_511-01 – TUC_KON_000 „Prüfe Zugriffsberechtigung“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_000 ”Prüfe Zugriffsberechtigung”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird geprüft, ob eine Autorisierung im Rahmen der angegebenen 
+
+Eingangsdaten erteilt wird. Die Autorisierung wurde erteilt, wenn der TUC 
+
+erfolgreich durchlaufen wurde (kein Abbruch durch Fehlermeldung).“
+
+</td></tr><tr><td>
+Eingangs- anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Auslöser und Vorbedingungen
+
+</td><td>
+Aufruf einer Operation des Konnektors durch das Clientsystem.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ 1. Prüfe, ob die Pflichtparameter (mandantId, clientSystemId, workplaceId) 
+
+     vollständig gesetzt sind.  
+ 2. Falls ANCL_CAUT_MANDATORY =
+Enabled, dann prüfe, ob die gemäß  
+     [TIP1-A_4516] unter
+Berücksichtigung von [TIP1-A_5009] und [A_21224] durchgeführte         
+   Authentifizierung über ein dem Clientsystem zugeordnetes CS-AuthMerkmal
+erfolgte.  
+ 3. Ermittle Zugriffsregel R zu den Aufrufparametern:  
+3.1.    
+Falls der Parameter cardHandle nicht null ist, muss das Kartenobjekt  
+    
+des Informationsmodells Karte(cardHandle) ermittelt werden.  
+3.2.     Zu
+den Parametern (ctId, cardHandle, needCardSession,  
+    allWorkplaces) muss
+mittels Tabelle „TAB_KON_513 Zugriffsregeln  
+    Regelzuordnung“ die
+Zugriffsregel R ermittelt werden.  
+ 4. Prüfe die Bedingungen der in Schritt
+3 ermittelten Regel R:  
+4.1.     Zur Regel R muss die relevante Spalte in
+Tabelle „TAB_KON_514   
+     Zugriffsregeln Definition“ ermittelt
+werden.  
+4.2.     Jede Zeile, die in der Spalte R ein „x“ hat, muss
+geprüft werden:  
+    4.2.1     Prüfe, ob die in Spalte
+„Bedingung“ mittels OCL formulierte   
+            Bedingung
+für die Eingangsdaten erfüllt ist.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+2.  
+Bei einem Aufruf mit einem cardHandle zu den Kartentypen SMC-KT und 
+
+UNKNOWN wird Schritt 3 in folgender Variante durchlaufen:  
+Ermittle
+Zugriffsregel R zu den Aufrufparametern:  
+3.1.    ctId wird zum cardHandle
+bestimmt  
+  Zu den Parametern (  
+        ctId, 
+
+        cardHandle = null,  
+        needCardSession = false, 
+
+        allWorkplaces = false)  
+muss mittels Tabelle „TAB_KON_513
+Zugriffsregeln Regelzuordnung“ die  
+Zugriffsregel R ermittelt werden.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler im Ablauf (Standardablauf oder Varianten) führen in den folgend 
+
+ausgewiesenen Schritten zu einem Abbruch der Verarbeitung mit den 
+
+ausgewiesenen Fehlercodes:  
+(1)       Es sind nicht alle
+Pflichtparameter gesetzt,  
+               Fehlercode: 4021 
+
+(2)       Clientsystem aus dem Aufrufkontext nicht authentifiziert, 
+
+               Fehlercode: 4204  
+(3.1)    Karte nicht als
+gesteckt identifiziert,  
+               Fehlercode: 4008 
+
+(3.2)    Zu den Parametern konnte keine Regel ermittelt werden, 
+
+               Fehlercode: 4019  
+(4.2.1) Bedingung nicht
+erfüllt  
+               Fehlercode: wie in Spalte
+„ErrorCode“ der geprüften Zeile aus  
+               Tabelle
+„TAB_KON_514-01 Zugriffsregeln Definition“
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+PIC_KON_118 Aktivitätsdiagramm zu „TUC_KON_000 Prüfe Zugriffsberechtigung“
+
+</td></tr></table>
 
 **[\<=]**
 
 Eine Beschreibung aller Zugriffsregeln gibt Tabelle TAB_KON_512.
 
- ---> TABLE
+<table><tr><th>
+Regel
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+R1
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs verwendet werden.
+
+</td></tr><tr><td>
+R2
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs auf das Kartenterminal kt
+zugreifen.
+
+</td></tr><tr><td>
+R3
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs den Arbeitsplatz ap nutzen.
+
+</td></tr><tr><td>
+R4
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs über den Arbeitsplatz ap auf
+das Kartenterminal kt zugreifen.
+
+</td></tr><tr><td>
+R5
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs über den Arbeitsplatz ap auf
+die lokal gesteckte eGK zugreifen. Eine Kartensitzung wird nicht benötigt.
+
+</td></tr><tr><td>
+R6
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs über den Arbeitsplatz ap auf
+die lokal gesteckte eGK zugreifen. Eine Kartensitzung wird benötigt. Wenn
+bereits eine Kartensitzung besteht, ist sichergestellt, dass sie vom
+Arbeitsplatz ap gestartet wurde.
+
+</td></tr><tr><td>
+R7
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs über den Arbeitsplatz ap auf
+die SM-B zugreifen. Es wird dabei sichergestellt, dass es sich um eine im
+Mandanten verwaltete SM-B handelt.
+
+</td></tr><tr><td>
+R8
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs auf den HBAx zugreifen. Eine
+Kartensitzung wird nicht benötigt.
+
+</td></tr><tr><td>
+R9
+
+</td><td>
+Innerhalb des Mandanten m darf das Clientsystem cs auf den HBAx zugreifen. Eine
+Kartensitzung wird benötigt. Wenn bereits Kartensitzungen zum HBAx bestehen,
+wird der Zugriff auf den HBAx verhindert, wenn es eine Kartensitzung zum selben
+Clientsystem, aber einer anderen UserId gibt, deren Sicherheitszustand erhöht
+ist.
+
+</td></tr></table>
 
 ![Abbildung-6][Abbildung-6]
 
@@ -2221,7 +8227,219 @@ sind daher in der Tabelle nicht vorhanden. Zur Auswahl einer Regel ist relevant,
 
  ---> UL
 
- ---> TABLE
+<table><tr><th>
+Parameter
+
+</th><th>
+R1
+
+</th><th>
+R2
+
+</th><th>
+R3
+
+</th><th>
+R4
+
+</th><th>
+R5
+
+</th><th>
+R6
+
+</th><th>
+R7
+
+</th><th>
+R8
+
+</th><th>
+R9
+
+</th></tr><tr><td>
+ctId
+
+</td><td>
+null
+
+</td><td>
+not
+
+null
+
+</td><td>
+null
+
+</td><td>
+not
+
+null
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td>
+cardHandle
+
+</td><td>
+null
+
+</td><td>
+null
+
+</td><td>
+null
+
+</td><td>
+null
+
+</td><td>
+not
+
+null
+
+</td><td>
+not
+
+null
+
+</td><td>
+not
+
+null
+
+</td><td>
+not
+
+null
+
+</td><td>
+not
+
+null
+
+</td></tr><tr><td>
+Karte(cardHandle).type
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+eGK
+
+oder
+
+KVK
+
+</td><td>
+eGK
+
+oder
+
+KVK
+
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td>
+Karte(cardHandle).type
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+SM-B
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+Karte(cardHandle).type
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+HBAx
+
+</td><td>
+HBAx
+
+</td></tr><tr><td>
+needCardSession
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+true
+
+</td><td>
+true
+
+oder
+
+false
+
+</td><td>
+false
+
+</td><td>
+true
+
+</td></tr><tr><td>
+allWorkplaces
+
+</td><td>
+true
+
+</td><td>
+true
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td><td>
+false
+
+</td></tr></table>
 
 Tabelle TAB_KON_514 definiert einzelne Bedingungen, ordnet sie den Regeln zu und
 definiert ErrorCodes für den Fall, dass eine Bedingung nicht erfüllt ist.
@@ -2232,7 +8450,872 @@ Die Bedingungen in Tabelle TAB_KON_514 sind wie folgt gruppiert:
 
 Die Fehlercodes mit Beschreibung, ErrorType und Severity Tabelle TAB_KON_515.
 
- ---> TABLE
+<table><tr><th>
+</th><th>
+Bedingung
+
+(siehe Hinweis 1)
+
+</th><th>
+R1
+
+</th><th>
+R2
+
+</th><th>
+R3
+
+</th><th>
+R4
+
+</th><th>
+R5
+
+</th><th>
+R6
+
+</th><th>
+R7
+
+</th><th>
+R8
+
+</th><th>
+R9
+
+</th><th>
+Error Code
+
+</th></tr><tr><td rowspan="6">
+Entitä
+
+t
+
+(siehe Hinweis 2)
+
+</td><td>
+inv : userId \<\> null
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+x
+
+</td><td>
+4003
+
+</td></tr><tr><td>
+let m : Mandant =
+
+Mandant(mandantId)
+
+inv : m \<\> null
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4021 an der Außenschnittstelle  
+4004 im Protokoll  
+(siehe Hinweis 3)
+
+</td></tr><tr><td>
+let cs : Clientsystem
+
+    = Clientsystem
+
+(
+
+clientSystemId
+
+)
+
+inv : cs \<\> null
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4021 an der Außenschnittstelle  
+4005 im Protokoll  
+(siehe Hinweis 3)
+
+</td></tr><tr><td>
+let ap : Arbeitsplatz
+
+    = Arbeitsplatz
+
+(workplaceId)
+
+inv : ap \<\> null
+
+</td><td>
+ 
+
+</td><td>
+</td><td>
+ x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4021 an der Außenschnittstelle  
+4006 im Protokoll  
+(siehe Hinweis 3)
+
+</td></tr><tr><td>
+let kt : Kartenterminal
+
+    = Kartenterminal
+
+(ctId)
+
+inv : kt \<\> null
+
+</td><td>
+ 
+
+</td><td>
+ x
+
+</td><td>
+</td><td>
+x
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+4007
+
+</td></tr><tr><td>
+let k : Karte = Karte
+
+(cardHandle)
+
+inv :  k \<\> null
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4008
+
+</td></tr><tr><td rowspan="4">
+Mandant
+
+bezug
+
+</td><td>
+let m : Mandant =
+
+Mandant(mandantId)
+
+let cs : Clientsystem
+
+    = Clientsystem
+
+(
+
+clientSystemId
+
+)
+
+inv : cs.mandant.
+
+includes(m)
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4010
+
+</td></tr><tr><td>
+let m : Mandant =
+
+Mandant(mandantId)
+
+let ap : Arbeitsplatz
+
+    = Arbeitsplatz
+
+(workplaceId)
+
+inv :  ap.mandant.
+
+includes(m)
+
+</td><td>
+ 
+
+</td><td>
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4011
+
+</td></tr><tr><td>
+let m : Mandant =
+
+Mandant(mandantId)
+
+let kt : Kartenterminal
+
+  = Kartenterminal(ctId)
+
+inv : kt.mandant.
+
+includes(m)
+
+</td><td>
+ 
+
+</td><td>
+ x
+
+</td><td>
+</td><td>
+x
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+4012
+
+</td></tr><tr><td>
+let m : Mandant =
+
+Mandant(mandantId)
+
+let k : Karte =
+
+Karte(cardHandle)
+
+inv : k.kT-Slot.
+
+kartenterminal.mandant
+
+       .includes(m)
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4012
+
+</td></tr><tr><td rowspan="7">
+Relation
+
+</td><td>
+let k : Karte =
+
+Karte(cardHandle)
+
+inv : k.SM-B_Verwaltet
+
+\<\> null
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+x
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+4009
+
+</td></tr><tr><td>
+let m : Mandant =
+
+Mandant(mandantId)
+
+let k : Karte =
+
+Karte(cardHandle)
+
+inv : k.SM-B_Verwaltet
+
+.mandant
+
+      -\> includes(m)
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+x
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+4013
+
+</td></tr><tr><td>
+let m : Mandant =
+
+Mandant(mandantId)
+
+let cs : Clientsystem
+
+    = Clientsystem
+
+(
+
+clientSystemId
+
+)
+
+let ap : Arbeitsplatz
+
+    = Arbeitsplatz
+
+(workplaceId)
+
+inv : CS_AP.allInstances
+
+-\> exists(c : CS_AP |
+
+          c.mandant = m
+
+          and
+
+c.arbeitsplatz = ap
+
+          and
+
+c.clientsystem = cs)
+
+</td><td>
+ 
+
+</td><td>
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4014
+
+</td></tr><tr><td>
+let ap : Arbeitsplatz
+
+    = Arbeitsplatz
+
+(workplaceId)
+
+let kt : Kartenterminal
+
+    = Kartenterminal
+
+(ctId)
+
+inv :
+
+  ap.lokalKartenterminal
+
+.includes(kt) or   
+
+  ap.entferntKarten
+
+terminal
+
+.includes(kt)
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+</td><td>
+x
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+4015
+
+</td></tr><tr><td>
+let ap : Arbeitsplatz
+
+    = Arbeitsplatz
+
+(workplaceId)
+
+let kt : Kartenterminal
+
+= Karte(cardHandle).kT-Slot.kartenterminal
+
+inv :
+
+  ap.lokalKartenterminal
+
+.includes(kt) or   
+
+  ap.entferntKarten
+
+terminal
+
+.includes(kt)
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+4015
+
+</td></tr><tr><td>
+let m : Mandant = Mandant
+
+(mandantId)
+
+let kt : Kartenterminal
+
+    = Kartenterminal(ctId)
+
+let cs : Clientsystem = Clientsystem
+
+(
+
+clientSystemId
+
+)
+
+inv : CS_AP.allInstances
+
+-\> exists(c : CS_AP |
+
+c.arbeitsplatz
+
+.lokalKartenterminal
+
+   .includes(kt) or
+
+c.arbeitsplatz
+
+.entferntKartenterminal
+
+   .includes(kt)
+
+and c.mandant = m
+
+and c.arbeitsplatz.mandant
+
+.includes(m)
+
+and c.clientsystem = cs)
+
+</td><td>
+</td><td>
+x
+
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+4020
+
+</td></tr><tr><td>
+let ap : Arbeitsplatz
+
+    = Arbeitsplatz
+
+(workplaceId)
+
+let kt : Kartenterminal
+
+= Karte(cardHandle).kT-Slot.kartenterminal
+
+inv : ap.lokalKartenterminal
+
+.includes(kt)
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+4016
+
+</td></tr><tr><td rowspan="2">
+Karten
+
+sitzungen
+
+</td><td>
+let ap : Arbeitsplatz
+
+    = Arbeitsplatz
+
+(workplaceId)
+
+let k : Karte =
+
+Karte(cardHandle)
+
+inv : k.kartensitzung
+
+      -\> not exists(ks : Kartensitzung |
+
+           ks.arbeitsplatz
+
+\<\> ap)
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+</td><td>
+x
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+4017
+
+</td></tr><tr><td>
+let k : Karte = Karte
+
+(cardHandle)
+
+let cs : Clientsystem
+
+    = Clientsystem
+
+(
+
+clientSystemId
+
+)
+
+inv : k.kartensitzung  
+
+  -\>  not exists
+
+(ks : Kartensitzung |  
+
+            ks
+
+.clientsystem = cs and
+
+            ks
+
+.userId \<\> userId and
+
+            ks
+
+.authState.size() \> 0
+
+      )
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+ 
+
+</td><td>
+</td><td>
+x
+
+</td><td>
+4018
+
+</td></tr></table>
 
 Erläuterungen zu TAB_KON_514-01:
 
@@ -2255,7 +9338,272 @@ die Außenschnittstelle zurückgegeben werden muss
 "\<\<Fehlercode\>\> im Protokoll" für den Fehlercode, der für die interne
 Protokollierung verwendet werden muss. 
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4003
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Keine User-ID angegeben, die zur Identifikation der Kartensitzung_HBAx benötigt
+wird.
+
+</td></tr><tr><td>
+4004
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Mandanten-ID
+
+</td></tr><tr><td>
+4005
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Clientsystem-ID
+
+</td></tr><tr><td>
+4006
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Arbeitsplatz-ID
+
+</td></tr><tr><td>
+4007
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Kartenterminal-ID
+
+</td></tr><tr><td>
+4008
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte nicht als gesteckt identifiziert
+
+</td></tr><tr><td>
+4009
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+SM-B ist dem Konnektor nicht als SM-B_Verwaltet bekannt
+
+</td></tr><tr><td>
+4010
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Clientsystem ist dem Mandanten nicht zugeordnet
+
+</td></tr><tr><td>
+4011
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Arbeitsplatz ist dem Mandanten nicht zugeordnet
+
+</td></tr><tr><td>
+4012
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal ist dem Mandanten nicht zugeordnet
+
+</td></tr><tr><td>
+4013
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+SM-B_Verwaltet ist dem Mandanten nicht zugeordnet
+
+</td></tr><tr><td>
+4014
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Für den Mandanten ist der Arbeitsplatz nicht dem Clientsystem zugeordnet
+
+</td></tr><tr><td>
+4015
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal ist weder lokal noch entfernt vom Arbeitsplatz aus zugreifbar
+
+</td></tr><tr><td>
+4016
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal ist nicht lokal vom Arbeitsplatz aus zugreifbar
+
+</td></tr><tr><td>
+4017
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Die eGK hat bereits eine Kartensitzung, die einem anderen Arbeitsplatz
+zugeordnet ist.
+
+</td></tr><tr><td>
+4018
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Der HBAx hat mindestens eine Kartensitzung zu einer anderen UserId, deren
+Sicherheitszustand erhöht ist.
+
+\<sup\>(\</sup\>
+
+\<sup\>Sicherheitszustand wird bei PIN-Eingabe erhöht.)\</sup\>
+
+</td></tr><tr><td>
+4019
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Zu den Parametern konnte keine Regel ermittelt werden.
+
+</td></tr><tr><td>
+4020
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal ist weder lokal noch entfernt über irgendeinen dem Clientsystem
+zugeordneten Arbeitsplatz aus zugreifbar
+
+</td></tr><tr><td>
+4021
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Es sind nicht alle Pflichtparameter mandantId, clientSystemId, workplaceId
+gefüllt.
+
+</td></tr><tr><td>
+4204
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Clientsystem aus dem Aufrufkontext konnte nicht authentifiziert werden.
+
+</td></tr></table>
 
 Hinweis zu Fehler 4018: Sicherheitszustand wird bei PIN-Eingabe erhöht.
 
@@ -2319,11 +9667,292 @@ validieren” umsetzen.
 
 Tabelle22: TAB_KON_143 – TUC_KON_080 „Dokument validieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_080 „Dokument validieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC prüft das Format eines Dokuments und führt
+dokumententyp-spezifische Validierungen durch. Unterstützt werden
+
+Alle_DocFormate(
+
+außer „Binär“).
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+Optional für XML-Dokumente:
+
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Validierung der Dokumente auf Typkonformität
+
+Der Konnektor führt je nach Format des Dokuments (documentFormat) eine der
+folgenden Prüfungen durch:
+
+A) XML-Dokumentvalidierung
+
+Im Fall eines XML-Dokuments prüft der Konnektor:
+
+ ---> UL
+
+B) PDF/A-Dokumentvalidierung
+
+PDF/A-Dokumente werden geprüft, ob sie sich als PDF/A Dokumente in ihren
+PDF/A-Metadaten ausweisen. Es werden alle PDF/A-1 und PDF/A-2 konformen
+Dokumente unterstützt, einschließlich PDF/A-1A, PDF/A-1B, PDF/A-2A,
+PDF/A-2B, PDF/A-2U.  
+Beispiele:  
+\<pdfaid:part
+xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"\>1\</pdfaid:part\> 
+
+\<rdf:Description rdf:about="" xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"
+pdfaid:part="1" pdfaid:conformance="B"/\>  
+C) TIFF-Dokumentvalidierung
+
+Der Konnektor prüft, ob das Dokument an Hand seiner ersten 8 Byte als
+TIFF-Dokument [TIFF6] zu identifizieren ist.
+
+D) MIME-Dokumentvalidierung
+
+Die Struktur von MIME-Dokumenten wird entsprechend [MIME] validiert.
+
+E) Text-Dokumentvalidierung
+
+Der Konnektor prüft die Konformität zum im Dokumentenformat vorgegebenen
+Character-Encoding.
+
+Für Binärdokumente findet keine Validierung statt.
+
+Hinweis: Byte-order-marks (BOM) sind im Rahmen von UTF-8 kodierten Dokumenten
+gemäß UTF8 Standard ([RFC3629], Kapitel 6) erlaubt, aber nicht
+notwendigerweise im Dokument vorhanden.
+
+Validierung der Dokumentformate
+
+Der Konnektor prüft für das Dokument, ob die Vorgaben zu Dokumenten aus
+Kapitel 3.1.1 "Dokumentformate" eingehalten sind.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Standardablauf:
+
+Bei der Dokumentenvalidierung protokolliert der TUC alle aufgetretenen Fehler im
+Rückgabewert documentValidationProtocol.
+
+Validierung der Dokumente auf Typkonformität
+
+(
+
+
+
+A) Fehlerfälle bei XML-Dokumentvalidierung
+
+Wenn keine Schemata übergeben wurden (xmlSchemas oder signaturePolicyIdentifier
+nicht vorhanden): Fehlercode 4193
+
+Wenn eines der übergebenen Schemata selbst nicht wohlgeformt oder invalide ist,
+wird Fehlercode 4026 gemeldet.
+
+Wenn das XML-Dokument nicht wohlgeformt ist, wird Fehlercode 4022 gemeldet.
+
+Das XML-Dokument ist nicht valide in Bezug auf das zur Validierung benutzte
+Schema (xmlSchemas bzw. signaturePolicyIdentifier): Fehlercode 4023.
+
+(
+
+
+
+B) Fehlerfälle bei PDF/A-Dokumentvalidierung
+
+Bei fehlgeschlagener Validierung: Fehlercode 4024, Dokumentformat = PDF/A
+
+(
+
+
+
+C) Fehlerfälle bei TIFF-Dokumentvalidierung
+
+Bei fehlgeschlagener Validierung: Fehlercode 4024, Dokumentformat = TIFF
+
+(
+
+
+
+D) Fehlerfälle bei MIME-Dokumentvalidierung
+
+Bei fehlgeschlagener Validierung: Fehlercode 4024, Dokumentformat = MIME
+
+(
+
+
+
+E) Fehlerfälle bei Text-Dokumentvalidierung
+
+Bei fehlgeschlagener Validierung: Fehlercode 4024, Dokumentformat = Text 
+
+Validierung der Dokumentformate
+
+Bei Verletzung einer Vorgabe aus Kapitel 3.1.1 bricht der Konnektor die
+Verarbeitung mit einem entsprechenden Fehlercode ab.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle23: TAB_KON_144 Fehlercodes TUC_KON_080 „Dokument validieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Case
+
+s und Fehlercodes aus Kapitel 3.1.1 
+
+können folgende weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4022
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+XML-Dokument nicht wohlgeformt
+
+</td></tr><tr><td>
+4023
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+XML-Dokument nicht valide in Bezug auf XML-Schema
+
+</td></tr><tr><td>
+4024
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Formatvalidierung fehlgeschlagen (\<Dokumentformat\>)
+
+Der Parameter Dokumentformat kann die Werte XML, PDF/A, TIFF, MIME und Text
+annehmen.
+
+</td></tr><tr><td>
+4026
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+XML-Schema nicht valide
+
+</td></tr><tr><td>
+4193
+
+</td><td>
+Security
+
+</td><td>
+Warning
+
+</td><td>
+kein XML-Schema für XML-Dokument vorhanden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2390,19 +10019,224 @@ beschreiben die Elemente der zu verwendenden Schemastruktur.
 
 Tabelle24: TAB_KON_516 Basisanwendung Dienstverzeichnisdienst
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th>
+ConnectorServiceDirectory
+
+</th></tr><tr><td>
+Version
+
+</td><td>
+3.1.0 (XSD-Version)
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td>
+Siehe GitHub
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td>
+CONN
+
+</td></tr><tr><td>
+Operationen
+
+</td><td>
+Lesen der vom Konnektor unterstützten Dienste
+
+</td></tr><tr><td>
+WSDL
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Schema
+
+</td><td>
+ServiceDirectory.xsd
+
+</td></tr></table>
 
 Tabelle25: TAB_KON_517 Schemabeschreibung Produktinformation
 (ProductInformation.xsd)
 
 ![Img-007][Img-007]
 
- ---> TABLE
+<table><tr><th colspan="2">
+</th></tr><tr><td>
+Element
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td>
+ProductInformation/InformationDate
+
+</td><td>
+Datum der Informationsabfrage über das Produkt
+
+</td></tr><tr><td>
+ProductInformation/ProductTypeInformation/
+
+ProductType
+
+</td><td>
+Produkttyp (Konnektor)
+
+</td></tr><tr><td>
+ProductInformation/ProductTypeInformation/
+
+ProductTypeVersion
+
+</td><td>
+Produkttypversion des Konnektormodells
+
+</td></tr><tr><td>
+ProductInformation/ProductIdentification/
+
+ProductVendorID
+
+</td><td>
+ID des Konnektorherstellers
+
+</td></tr><tr><td>
+ProductInformation/ProductIdentification/
+
+ProductCode
+
+</td><td>
+Produktkürzel
+
+</td></tr><tr><td>
+ProductInformation/ProductIdentification/
+
+ProductVersion/Local/HWVersion
+
+</td><td>
+Hardwareversion des Konnektormodells
+
+</td></tr><tr><td>
+ProductInformation/ProductIdentification/
+
+ProductVersion/Local/FWVersion
+
+</td><td>
+Firmwareversion des Konnektormodells
+
+</td></tr><tr><td>
+ProductInformation/ProductMiscellaneous/
+
+ProductVendorName
+
+</td><td>
+Name des Konnektorherstellers
+
+</td></tr><tr><td>
+ProductInformation/ProductMiscellaneous/
+
+ProductName
+
+</td><td>
+Produktname
+
+</td></tr></table>
 
 Tabelle26: TAB_KON_518 Schemabeschreibung Serviceinformation
 (Serviceinformation.xsd)
 
- ---> TABLE
+<table><tr><th colspan="2">
+![Img-008][Img-008]
+
+</th></tr><tr><td>
+Element
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td>
+ServiceInformation/Service
+
+</td><td>
+Element beschreibt einen Dienst oder ein Fachmodul
+
+</td></tr><tr><td>
+ServiceInformation/Service/@Name
+
+</td><td>
+Name des Dienstes. Dieser Wert korrespondiert mit dem Feld „Name“ aus der
+jeweiligen Basisanwendung/Dienstbeschreibung (englischer Dienstname in Tabelle
+
+ TAB_KON_798
+
+).
+
+</td></tr><tr><td>
+ServiceInformation/Service/Abstract
+
+</td><td>
+eine kurze textuelle Beschreibung des Dienstes/Fachmoduls
+
+</td></tr><tr><td>
+ServiceInformation/Service/Versions
+
+</td><td>
+die Liste der unterstützten Versionen
+
+</td></tr><tr><td>
+ServiceInformation/Service/Versions/Version
+
+</td><td>
+Beschreibung der Dienstversion/Fachmodulversion
+
+</td></tr><tr><td>
+ServiceInformation/ Service/Versions/Version/@TargetNamespace
+
+</td><td>
+der Namensraum der Dienst-/Fachmodulversion
+
+</td></tr><tr><td>
+ServiceInformation/Service/Versions/Version/@Version
+
+</td><td>
+Vollständige Versionsnummer (Konnektordienstversion) des Dienstes/Fachmoduls.
+Dieser Wert entspricht dem Wert „WSDL-Version“ des jeweiligen Dienstes
+in Tabelle
+
+TAB_KON_798
+
+.
+
+</td></tr><tr><td>
+ServiceInformation/Service/Versions/Version/Abstract
+
+</td><td>
+Eine kurze textuelle Beschreibung dieser Version des Dienstes/Fachmoduls
+
+</td></tr><tr><td>
+ServiceInformation/ Service/Versions/Version/EndpointTLS/@Location
+
+</td><td>
+Absoluter URL des über TLS erreichbaren Dienstes.
+
+</td></tr><tr><td>
+ServiceInformation/ Service/Versions/Version/Endpoint/@Location
+
+</td><td>
+Absoluter URL des erreichbaren Dienstes (ohne TLS).
+
+</td></tr><tr><td>
+ServiceInformation/ Service/Versions/Version/WSDL/@Location
+
+</td><td>
+(optional) Absoluter URL der WSDL-Beschreibung
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2436,12 +10270,115 @@ des Konnektors in den Dienstverzeichnisdienst einzubringen.
 Tabelle27: TAB_KON_519 - TUC_KON_041 „Einbringen der Endpunktinformationen
 während der Bootup-Phase“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_041 „Einbringen der Endpunktinformationen
+
+während der Bootup-Phase“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Fachmodule MÜSSEN ihre Endpunktinformationen während der Bootup-Phase in den
+Dienstverzeichnisdienst einbringen können.
+
+</td></tr><tr><td>
+Auslöser und Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Fachmodule
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Die übergebenen Serviceinformationen des Fachmoduls werden in die
+Gesamtstruktur „connector.sds“ aufgenommen.
+
+Falls beim Speichern der eingebrachten Endpunktinformationen ein Fehler
+auftritt, wird Fehler 4027 ausgelöst.
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+4027: Die Endpunktinformationen konnten nicht übernommen werden.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle28: TAB_KON_520 Fehlercodes TUC_KON_041 „Einbringen der
 Endpunktinformationen während der Bootup-Phase“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4027
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Die Endpunktinformationen konnten nicht übernommen werden.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2455,7 +10392,98 @@ Schnittstelle anbieten.
 
 Tabelle29: TAB_KON_521 Schnittstelle der Basisanwendung Dienstverzeichnisdienst
 
- ---> TABLE
+<table><tr><th>
+Dienstname
+
+</th><th colspan="2">
+ConnectorServiceDirectory
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2">
+Der Aufruf liefert Angaben über den Hersteller, über das Konnektormodell und
+die Liste der Dienste, Konnektordienstversionen (KDV) und Endpunkte der Dienste.
+
+</td></tr><tr><td>
+Aufruf
+
+</td><td colspan="2">
+GET /connector.sds HTTP/1.1Host: ANLW_LAN_IP_ADDRESS oder MGM_KONN_HOSTNAME
+
+</td></tr><tr><td rowspan="9">
+Rückgabe
+
+</td><td colspan="2">
+Das Antwortdokument ist in der SchemadateiServiceDirectory.xsdbeschrieben.
+
+</td></tr><tr><td colspan="2">
+ConnectorServices
+
+</td></tr><tr><td colspan="2">
+
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+ProductInformation
+
+</td><td>
+Kurzbeschreibung des Konnektormodells
+
+</td></tr><tr><td>
+ServiceInformation
+
+</td><td>
+Beschreibung der Dienste
+
+</td></tr><tr><td colspan="2">
+ProductInformation:Das Schema wird inTAB_KON_517 beschrieben. Die Felder sind
+gemäß [gemSpec_OM] zu befüllen und gemäß dem
+Schema„ProductInformation.xsd“zu formatieren.
+
+</td></tr><tr><td colspan="2">
+TLS-Mandatory: Boolean Wert der festlegt, ob die Verwendung eines TLS-Kanals
+für Dienstaufrufe verpflichtend ist.Definierende Variable ist:
+ANCL_TLS_MANDATORYClientAutMandatory: Boolean Wert der festlegt, ob Client
+Authentifizierung verpflichtend ist.Definierende Variable ist:
+ANCL_CAUT_MANDATORY.
+
+</td></tr><tr><td colspan="2">
+ServiceInformation:Das Schema wird inTAB_KON_518 beschrieben. Die Felder sind
+gemäß dem SchemaServiceInformation.xsdzu formatieren.Falls
+(ANCL_CAUT_MANDATORY = Enabled) oder (ANCL_TLS_MANDATORY = Enabled), MUSS die
+Rückgabedatei ausschließlich https-Endpunkte enthalten.
+
+</td></tr><tr><td>
+Fehlercodes
+
+</td><td colspan="2">
+Die Standard HTTP1.1 Fehlercodes [RFC2616]
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td colspan="2">
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td colspan="2">
+Keine
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="2">
+Keine
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -2497,7 +10525,255 @@ betreffen. Zu jedem Kartenterminal selbst werden dessen Parameter in einem
 CT-Object gekapselt. Die folgende Tabelle zeigt die Attribute der jeweiligen
 CT-Objekte über Punktschreibweise.
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Zustandswerte
+
+</th></tr><tr><td>
+CTM_CT_LIST
+
+</td><td>
+Liste von
+
+CT-Objekten
+
+</td><td>
+Eine Liste von Repräsentanzen (CT-Objects) der dem Konnektor bekannten
+Kartenterminals.
+
+</td></tr><tr><td>
+Pro CTM_CT_LIST
+
+Eintrag:
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+Gerätekenndaten
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CT.CTID
+
+</td><td>
+Identifier
+
+</td><td>
+Eindeutige, statische Identifikation des Kartenterminals
+
+</td></tr><tr><td>
+CT.IS_PHYSICAL
+
+</td><td>
+Ja/Nein
+
+</td><td>
+Kennzeichnung, ob es sich um ein physisches oder logisches Kartenterminal
+handelt, zur Unterscheidung von eHealth-Kartenterminals und HSM-Bs.
+
+Da dieser Unterschied gemäß der aktuellen HSM-B-Lösung für den Konnektor
+transparent ist, wird der Parameter in dieser Spezifikation immer auf „Ja“
+gesetzt.
+
+Der Parameterwert „Nein“ ist für zukünftige Nutzung vorgesehen.
+
+</td></tr><tr><td>
+CT.MAC_ADRESS
+
+</td><td>
+MAC-Adresse
+
+</td><td>
+Die MAC-Adresse des Kartenterminals
+
+</td></tr><tr><td>
+CT.HOSTNAME
+
+</td><td>
+String
+
+</td><td>
+SICCT-Terminalname des Kartenterminals, auch als FriendlyName bezeichnet
+
+</td></tr><tr><td>
+CT.IP_ADRESS
+
+</td><td>
+IP-Adresse
+
+</td><td>
+Die IP-Adresse des Kartenterminals
+
+</td></tr><tr><td>
+CT.TCP_PORT
+
+</td><td>
+Portnummer
+
+</td><td>
+Der TCP-Port des SICCT-Kommandointerpreters des Kartenterminals
+
+</td></tr><tr><td>
+CT.SLOTCOUNT
+
+</td><td>
+Nummer
+
+</td><td>
+Anzahl der Slots des Kartenterminals
+
+</td></tr><tr><td>
+CT.SLOTS_USED
+
+</td><td>
+Liste
+
+</td><td>
+Liste der aktuell mit Karten belegten Slots
+
+</td></tr><tr><td>
+CT.PRODUCT
+
+INFORMATION
+
+</td><td>
+Inhalt
+
+ProductIn
+
+formation.xsd
+
+</td><td>
+Die Herstellerinformationen zum Kartenterminal gemäß [gemSpec_OM]
+
+</td></tr><tr><td>
+CT.EHEALTH_
+
+INTERFACE_VERSION
+
+</td><td>
+Version
+
+</td><td>
+Die EHEALTH-Interface-Version des Kartenterminals, die mittels GET STATUS aus
+dem Element VER des Discretionary Data Objects ermittelt wurde.
+
+</td></tr><tr><td>
+CT.VALID_VERSION
+
+</td><td>
+Boolean
+
+</td><td>
+True, wenn die Version des Kartenterminals (CT.EHEALTH_INTERFACE_VERSION) durch
+den Konnektor unterstützt wird, d.h. zu den in CTM_SUPPORTED_KT_VERSIONS passt
+
+Default-Wert = false
+
+</td></tr><tr><td>
+CT.DISPLAY_CAPABILITIES
+
+</td><td>
+Datenstruktur
+
+</td><td>
+Displayeigenschaften wie in der Struktur Display Capabilities Data Object in
+[SICCT#5.5.10.17] beschrieben
+
+</td></tr><tr><td>
+Pairingdaten
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CT.SMKT_AUT
+
+</td><td>
+X.509-Cert
+
+</td><td>
+C.SMKT.AUT-Zertifikat des Kartenterminals, gespeichert im Rahmen des Pairings
+
+</td></tr><tr><td>
+CT.SHARED_SECRET
+
+</td><td>
+</td><td>
+ShS.KT.AUT, gespeichert im Rahmen des Pairings
+
+</td></tr><tr><td>
+Verbindungsdaten
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CT.CORRELATION
+
+</td><td>
+bekannt
+
+zugewiesen
+
+gepairt
+
+aktiv
+
+aktualisierend
+
+</td><td>
+Der Korrelationsstatus zum Konnektor:
+
+ ---> UL
+
+</td></tr><tr><td>
+CT.CONNECTED
+
+</td><td>
+Ja/Nein
+
+</td><td>
+Der Verfügbarkeitsstatus des Kartenterminals (Ja = nach Aufbau der
+TLS-Verbindung und erfolgter zweiter Authentifizierung)
+
+</td></tr><tr><td>
+CT.ACTIVEROLE
+
+</td><td>
+User/Admin
+
+</td><td>
+Benutzerrolle, die für die aktuelle Session verwendet wird
+
+</td></tr><tr><td>
+KT-Admin-Credentials
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CT.ADMIN_USERNAME
+
+</td><td>
+String
+
+</td><td>
+Username des Administrators am KT
+
+</td></tr><tr><td>
+CT.ADMIN_PASSWORD
+
+</td><td>
+String
+
+</td><td>
+Password des Administrators am KT
+
+</td></tr></table>
 
 Zum besseren Verständnis sind die Zustände, die ein Kartenterminal einnehmen
 kann, im nachfolgenden Zustandsdiagramm PIC_KON_071 dargestellt.
@@ -2592,7 +10868,34 @@ Kartenterminal senden, wenn für dieses Kartenterminal CT.CONNECTED=Nein
 gesetzt ist. Ausgenommen hiervon sind die in TAB_KON_785 gelisteten EHEALTH-
 bzw. SICCT-Kommandos. **[\<=]**
 
- ---> TABLE
+<table><tr><th>
+SICCT-Kommando
+
+</th></tr><tr><td>
+SICCT CT INIT CT SESSION
+
+</td></tr><tr><td>
+SICCT CT CLOSE SESSION
+
+</td></tr><tr><td>
+SICCT GET STATUS
+
+</td></tr><tr><td>
+SICCT SET STATUS
+
+</td></tr><tr><td>
+SICCT CT DOWNLOAD INIT
+
+</td></tr><tr><td>
+SICCT CT DOWNLOAD DATA
+
+</td></tr><tr><td>
+SICCT CT DOWNLOAD FINISH
+
+</td></tr><tr><td>
+EHEALTH TERMINAL AUTHENTICATE
+
+</td></tr></table>
 
 ##### TIP1-A_4539
 
@@ -2612,7 +10915,85 @@ Slot-Auswahl am Kartenterminal gibt.
 
 Tabelle32: TAB_KON_727 Terminalanzeigen beim Anfordern und Auswerfen von Karten
 
- ---> TABLE
+<table><tr><th>
+Kontext
+
+</th><th>
+Kartentyp
+
+</th><th>
+Terminal-Anzeige
+
+</th></tr><tr><td rowspan="4">
+Karte anfordern
+
+</td><td>
+EGK
+
+</td><td>
+Bitte•0x0BeGK•0x0Bin  
+•0x0BSLOT X•0x0Bstecken
+
+</td></tr><tr><td>
+HBA,  
+HBAx,  
+HBA-qSig
+
+</td><td>
+Bitte•0x0BHBA•0x0Bin  
+•0x0BSLOT X•0x0Bstecken
+
+</td></tr><tr><td>
+SMC-B
+
+</td><td>
+Bitte•0x0BSMC-B•0x0Bin  
+•0x0BSLOT X•0x0Bstecken
+
+</td></tr><tr><td>
+sonstiger  
+Kartentyp  
+oder kein explizit angegebener Kartentyp
+
+</td><td>
+Bitte•0x0BKarte•0x0Bin  
+•0x0BSLOT X•0x0Bstecken
+
+</td></tr><tr><td rowspan="4">
+Karte auswerfen
+
+</td><td>
+EGK
+
+</td><td>
+Bitte•0x0BeGK•0x0Baus  
+•0x0BSLOT X•0x0Bentnehmen
+
+</td></tr><tr><td>
+HBA,  
+HBAx,  
+HBA-qSig
+
+</td><td>
+Bitte•0x0BHBA•0x0Baus  
+•0x0BSLOT X•0x0Bentnehmen
+
+</td></tr><tr><td>
+SMC-B
+
+</td><td>
+Bitte•0x0BSMC-B•0x0Baus  
+•0x0BSLOT X•0x0Bentnehmen
+
+</td></tr><tr><td>
+sonstiger  
+Kartentyp  
+oder kein explizit angegebener Kartentyp
+
+</td><td>
+Bitte•0x0BKarte•0x0Bentnehmen
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2676,9 +11057,379 @@ gemäß TUC_KON_050 umsetzen.
 
 Tabelle33: TAB_KON_039 – TUC_KON_050 „Beginne Kartenterminalsitzung“
 
- ---> TABLE
+<table><tr><th>
+Element
 
-![Img-009][Img-009]
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_050 „Beginne Kartenterminalsitzung“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+TUC_KON_050 baut eine TLS-Verbindung vom Konnektor zum Kartenterminal auf und
+beginnt eine SICCT-Sitzung. Anschließend erfolgt die 2. Authentifizierung des
+Kartenterminals (Prüfung SharedSecret).
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ctId ist in CTM_CT_LIST vorhanden
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Setze CT = CTM_CT_LIST(ctId)
+
+1.       Wenn CT.IS_PHYSICAL = Nein:
+
+       prüfen, ob role = „User“
+
+                      Wenn CT.CONNECTED =
+
+                                   Ja: TUC endet
+erfolgreich
+
+                                   Nein:
+
+                                      - Verbindung zu HSM in
+Slot 1 aufbauen
+
+                                      - weiter mit Schritt 9
+
+2.       Wenn CT.CONNECTED = Ja
+
+      prüfen, ob CT.ACTIVEROLE = role
+
+                      Ja: TUC endet erfolgreich
+
+                      Nein:
+
+                         - Schließen der Cardterminal Session mit
+dem
+
+                             Kartenterminalkommando
+SICCT CLOSE CT
+
+                             SESSION,
+
+                        - weiter ab Schritt 6 (halten der
+TLS-Verbindung und
+
+                             nur Wechsel der Session)
+
+3.       Aufbau einer TLS-Verbindung mit dem Kartenterminal unter
+
+    Verwendung von ID.SAK.AUT. Dabei Prüfung des KT-Zertifikats
+
+   mittels
+
+    TUC_KON_037 {
+
+          certificate= C.SMKT.AUT;
+
+          qualifiedCheck=not_required;
+
+          offlineAllowNoCheck=true;
+
+          policyList= oid_smkt_aut;
+
+          intendedKeyUsage= intendedKeyUsage(C.SMKT.AUT);
+
+          intendedExtendedKeyUsage=id-kp-serverAuth;
+
+          validationMode=NONE }
+
+4.       Wenn CT.CORRELATION \<=„zugewiesen“:
+
+     a.              Öffne eine Cardterminal Session mit dem
+
+             Kartenterminalkommando SICCT INIT CT SESSION (siehe
+
+            [SICCT#5.10]) mit leerem Username, Password und Session
+
+            ID
+
+     b.              Nur Verbindung in niedriger Korrelation,
+daher setze
+
+             CT.CONNECTED = Nein, um fachliche Nutzung des KT zu
+
+             verhindert
+
+     c.              beende TUC erfolgreich
+
+5.       Prüfe, ob das Zertifikat aus der TLS-Verbindung mit den zum
+
+    Kartenterminal gespeicherten Referenzdaten (CT.SMKT_AUT)
+
+   übereinstimmt.  
+     a.  Läuft das Zertifikat CT.SMKT_AUT (oder
+C.SMKT.AUT, sie müssen hier identisch sein) in weniger als 35 Tagen ab, so
+geht der Konnektor in den Betriebszustand
+
+EC_CardTerminal_gSMC-KT_Certificate_Expires_Soon (ctId) über.
+
+6.       Parallelisierung
+
+     a.              Generierung eines zufälligen Werts
+(Challenge) mit
+
+             mindestens 16 Byte Länge gemäß [gemSpec_Krypt#2.2]
+
+            (siehe [gemSpec_KT#DO_KT_0004]),
+
+     b.              Öffnen einer Cardterminal Session mit dem
+
+            Kartenterminalkommando SICCT INIT CT SESSION (siehe
+
+            [SICCT#5.10]) mit
+
+                      -               ctId als Adressat
+
+                      -               Wenn role = User
+
+                               dann mit leerem Username,
+Password und
+
+                              Session ID
+
+                        Wenn role = „Admin
+
+                               dann mit leerer Session ID aber
+mit
+
+                              CT.ADMIN_USERNAME und
+
+                               CT.ADMIN_PASSWORD
+
+7.       Senden der Challenge mittels Kartenterminalkommando
+
+    EHEALTH TERMINAL AUTHENTICATE (siehe
+
+   [gemSpec_KT#3.7.2]) in der Ausprägung VALIDATE mit:
+
+      -               Kartenterminal als Empfänger
+
+      -               und mit der in Schritt 6a generierten
+Challenge im
+
+            Shared Secret Challenge DO
+
+8.       Prüfe Antwort des Kartenterminals, ob sie einen korrekten
+
+    Hashwert über Challenge und angehängtes
+
+  
+
+CT.SHARED_SECRET
+
+gemäß [gemSpec_KT#SEQ_KT_0002]
+
+    Schritt 4-5 enthält
+
+9.       Setze:
+
+      a.             CT.ACTIVEROLE = $role
+
+      b.             CT.CONNECTED = Ja
+
+10 .     Wenn TLS-Verbindung neu aufgebaut werden musste, rufe
+
+     TUC_KON_256 {
+
+           topic = „CT/CONNECTED“;
+
+           eventType = „Op“;
+
+           severity = Info;
+
+           parameters = („CtID=$CT.CTID,
+
+                 Hostname=$CT.HOSTNAME“) }
+
+11.      Ermittle alle im KT gesteckten Karten und befülle entsprechend
+
+       CT.SLOTS_USED
+
+Für jeden in CT.SLOTS_USED gelisteten Slot X zur weiteren internen
+
+Bearbeitung TUC_KON_256{
+
+     topic = „CT/SLOT_IN_USE“;
+
+     eventType = Op;
+
+     severity = Info;
+
+     parameters = („CtID=$CT.CTID, SlotNo=$CT.SLOTS_USED[X]“);
+
+     doLog = false;
+
+     doDisp = false }
+
+rufen.
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu:
+
+Aufruf von TUC_KON_256 {
+
+      topic = "CT/TLS_ESTABLISHMENT_FAILURE";
+
+      eventType = $ErrorType;
+
+      severity = $Severity;
+
+      parameters = („CtID=$CT.ID, Name=$CT.HOSTNAME,
+
+                            Error=$Fehlercode,
+Bedeutung=$Fehlertext“) }
+
+Abbruch der Verarbeitung mit den ausgewiesenen Fehlercodes
+
+(
+
+
+
+1): Admin-Rolle für logische KTs nicht möglich (hätte bei korrekter
+
+Implementierung nicht stattfinden dürfen), Fehlercode: 4032
+
+(
+
+
+
+1): Verbindungsaufbau zu HSM fehlgeschlagen, Fehlercode: 4032
+
+(
+
+
+
+3): Fehler im TLS-Verbindungsaufbau bzw. Zertifikatsprüfung,
+
+Fehlercode: 4028
+
+und setze CT.CONNECTED auf „Nein“
+
+(
+
+
+
+3): TLS-Verbindung konnte nicht innerhalb von
+
+CTM_TLS_HS_TIMEOUT Sekunden aufgebaut werden , Fehlercode:
+
+4028 und setze CT.CONNECTED auf „Nein“
+
+(
+
+
+
+5): Präsentiertes Zertifikat nicht das aus dem Pairing, Fehlercode:
+
+4029
+
+und setze CT.CORRELATION auf „gepairt“
+
+und setze CT.CONNECTED auf „Nein“
+
+und terminiere TLS-Verbindung
+
+(
+
+
+
+6b): Hinterlegte KT-Admin-Credentials fehlerhaft, Fehlercode: 4030
+
+und in die User-Session zurückzuwechseln (damit das KT für den
+
+normalen Fachbetrieb weiterhin zur Verfügung steht)
+
+(
+
+
+
+8): Prüfung auf Nachweis SharedSecret fehlgeschlagen, Fehlercode
+
+4029
+
+und setze CT.CORRELATION auf „gepairt“
+
+und setze CT.CONNECTED auf „Nein“
+
+und terminiere TLS-Verbindung
+
+</td></tr><tr><td>
+Nichtfunktionale
+
+Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige
+
+Diagramme
+
+</td><td>
+Abbildung PIC_KON_110 Aktivitätsdiagramm zu „Beginne
+
+Kartenterminalsitzung
+
+</td></tr></table>
+
+![Img-010][Img-010]
 
 Abbildung8: PIC_KON_110 Aktivitätsdiagramm zu „Beginne
 Kartenterminalsitzung“
@@ -2686,7 +11437,71 @@ Kartenterminalsitzung“
 Tabelle34: TAB_KON_523 Fehlercodes TUC_KON_050 „Beginne
 Kartenterminalsitzung“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4028
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Versuch eines Verbindungsaufbaus zu KT
+
+</td></tr><tr><td>
+4029
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Fehler bei der KT-Authentisierung. KT möglicherweise manipuliert
+
+</td></tr><tr><td>
+4030
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Admin-Werte für KT fehlerhaft
+
+</td></tr><tr><td>
+4032
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verbindung zu HSM konnte nicht aufgebaut werden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2699,11 +11514,263 @@ hinzufügen“ umsetzen.
 
 Tabelle35: TAB_KON_524 – TUC_KON_054 „Kartenterminal hinzufügen“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_054 „Kartenterminal hinzufügen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC nimmt ein neues Kartenterminal in die zentrale Verwaltung auf
+(CTM_CT_LIST) oder aktualisiert die Einträge zu einem bereits erfassten
+Kartenterminal.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1.   Sofern optionale Parameter nicht übergeben wurden oder
+
+      Mode\<\>AutoAdded, ermittle Port, MAC und Hostname via Service
+
+      Discovery als UDP/IP-Unicast an IP-Adresse und Port
+
+     
+
+CTM_SERVICE_DISCOVERY_PORT
+
+2.   Finde CT in CTM_CT_LIST über MAC-Adresse
+
+3.   Wenn MAC-Adresse nicht in CTM_CT_LIST:
+
+a)         Erzeuge neuen CT-Object-Eintrag in CTM_CT_LIST und
+
+              -                Generiere eindeutige
+CT.CTID
+
+              -                setzte CT.MAC_ADRESS
+auf MAC-Adresse
+
+              -                Setze CT.CORRELATION
+=„bekannt“
+
+              -                Setze CT.CONNECTED =
+„Nein“
+
+b)         Wenn Mode= ManuallyAdded setze CT.CORRELATION
+
+       =„zugewiesen“
+
+4.   Wenn CT.CONNECTED = Ja und (IP-Adresse \<\> CT.IP_ADRESS
+
+      oder TCP-Port \<\> CT.TCP_PORT),
+
+      beende TLS-Verbindung und setze CT.CONNECTED = „Nein“
+
+5.  Befülle: CT.IP_ADRESS, CT.Hostname, CT.TCP_PORT
+
+6.  Wenn CT.CORRELATION\>=„zugewiesen“ rufe TUC_KON_055
+
+     „Befülle CT-Object“
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler im Ablauf (Standardablauf oder Varianten) führen in den folgend
+ausgewiesenen Schritten zu einem Abbruch der Verarbeitung mit den ausgewiesenen
+Fehlercodes:
+
+(
+
+
+
+1)  Keine Antwort innerhalb
+
+CTM_SERVICE_DISCOVERY_TIMEOUT
+
+,
+
+          Fehlercode: 4033
+
+(
+
+
+
+1)  Ermittelte MAC-Adresse weicht von übergebener MAC-Adresse
+
+          ab, Fehlercode: 4035
+
+(
+
+
+
+1)  Ermittelter Hostname-Adresse weicht von übergebenem Hostname
+
+         ab, Fehlercode: 4036
+
+(
+
+
+
+2)  Wenn Mode=ManuallyModified und nicht gefunden, Fehlercode:
+
+          4037
+
+Zusätzlich im Abbruchfall:
+
+-        Aufruf von TUC_KON_256 {
+
+         topic = "CT/CT_ADDING_ERROR"; 
+
+         eventType = $ErrorType;
+
+         severity = $Severity;
+
+         parameters = („IP=$IP-Adresse, Name=$HOSTNAME,
+
+            Error=$Fehlercode, Bedeutung=$Fehlertext“) }
+
+-        Keine Veränderung an CTM_CT_LIST
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige
+
+Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle36: TAB_KON_525 Fehlercodes TUC_KON_054 „Kartenterminal hinzufügen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4033
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal antwortet nicht, Zufügen fehlgeschlagen
+
+</td></tr><tr><td>
+4035
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Angegebener IP-Adresse gehört zu einer anderen MAC-Adresse als die, die
+übergeben wurde. Angaben zur MAC prüfen
+
+</td></tr><tr><td>
+4036
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Angegebener IP-Adresse gehört zu einem anderen Hostname als der, der übergeben
+wurde. Angaben zum Hostname prüfen
+
+</td></tr><tr><td>
+4037
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verwaltung der Kartenterminals inkonsistent
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2716,11 +11783,366 @@ TUC_KON_053 umsetzen.
 
 Tabelle37: TAB_KON_041 – TUC_KON_053 „Paire Kartenterminal“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_053 „Paire Kartenterminal“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+TUC_KON_053 führt das Pairing zwischen dem Konnektor und einem
+eHealth-Kartenterminal durch.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Dialoge zur Administration des Konnektors. Der Administrator hat ein
+Kartenterminal im Dialog der Managementschnittstelle ausgewählt und das
+Pairing aufgerufen.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ -  CT.CORRELATION = „aktiv“, wenn Pairing erfolgreich
+
+  - CT.CORRELATION = „zugewiesen“, wenn Pairing nicht erfolgreich
+
+ -  CT.CONNECTED = „Ja“, wenn Pairing erfolgreich
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Setze CT = CTM_CT_LIST(ctId)
+
+1.   Prüfe
+
+CT.VALID_VERSION = true
+
+2.   Aufbau einer TLS-Verbindung mit dem Kartenterminal unter
+
+      Verwendung von ID.SAK.AUT. Dabei:
+
+  a.           Speichern des präsentierten KT-Zertifikats in
+
+        CT.SMKT_AUT
+
+  b.           Prüfung des KT-Zertifikats mittels TUC_KON_037{
+
+                   certificate = C.SMKT.AUT;
+
+                   qualifiedCheck = not_required;
+
+                   offlineAllowNoCheck = true;
+
+                   policyList = oid _smkt_aut;
+
+                   intendedKeyUsage=
+
+ i
+
+ntendedKeyUsage(C.SMKT.AUT);
+
+                   intendedExtendedKeyUsage = id-kp-serverAuth;
+
+                   validationMode = NONE }
+
+3.   Der Konnektor entnimmt den Fingerprint dem KT-Zertifikat und stellt
+
+      dies dem Administrator im Dialog der Managementschnittstelle dar.
+
+      Der Konnektor fordert den Administrator auf, den Fingerprint zu
+
+      akzeptieren oder zurückzuweisen.
+
+4.  Wenn der Administrator den Fingerprint bestätigt,
+
+        a.             generiert der Konnektor einen neuen
+Schlüssel, das
+
+              Shared Secret ShS.KT.AUT gemäß [gemSpec_Krypt#2.2]
+
+              (siehe [gemSpec_KT#3.7]) und speichert es in
+
+             
+
+CT.SHARED_SECRET
+
+        b.            und eröffnet der Konnektor mit dem
+
+              Kartenterminalkommando SICCT INIT CT SESSION (siehe
+
+              [SICCT#5.10]) mit
+
+                       -             ctId als
+Adressat
+
+                       -             und mit
+leerem Username, Password und
+
+                         Session ID
+
+             eine Cardterminal Session.
+
+5.   Der Konnektor sendet mittels Kartenterminalkommando EHEALTH
+
+      TERMINAL AUTHENTICATE (siehe [gemSpec_KT#3.7.2]) in der
+
+      Ausprägung CREATE mit
+
+         -           ctId als Empfänger
+
+         -           und mit dem in Schritt 4.a generierten
+Schlüssel im
+
+            Shared Secret DO und der Display Message
+
+           
+
+„KT:$CT.MAC_ADRESS MIT
+
+      KON:$MGM_KONN_HOSTNAME PAIREN OK?“
+
+, wobei die
+
+             MAC-Adresse mit Trenner im folgenden Format dargestellt
+
+             werden MUSS: „AABBCC:DDEEFF“
+
+ das Shared Secret an das Kartenterminal.
+
+6.   Der Konnektor prüft ob in der Antwort des Kartenterminals eine
+
+      korrekte Signatur des Shared Secrets gemäß
+
+     [gemSpec_KT#SEQ_KT_0001] Schritt 7, ausgeführt mit dem
+
+     Schlüssel zum Zertifikat CT.SMKT_AUT vorliegt.
+
+7. 
+
+CT.CORRELATION
+
+wird auf „gepairt“ gesetzt
+
+8.   TLS-Verbindung, die zum Pairen diente, beenden und zuvor das
+
+      Kartenterminalkommando SICCT CLOSE CT SESSION mit ctId als
+
+      Adressat senden
+
+9.   Automatischer Zustandsübergang
+
+CT.CORRELATION
+
+= „gepairt“
+
+      nach „aktiv“ (implizite Aktion des Administrators durch Aufruf von
+
+     TUC_KON_053).
+
+10. „Arbeits“-TLS-Verbindung neu aufbauen durch Aufruf
+
+      TUC_KON_050 { ctId; role = „User“}
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+(
+
+
+
+4): weist der Administrator den Fingerprint in Schritt 3 ab, wird
+
+        TUC_KON_053 nach Ausführung folgender Aktivitäten beendet:
+
+   4.1.a)    Löschen von CT.SMKT_AUT
+
+   4.1.b)    Abbau der TLS-Verbindung, Setzen von CT.CONNECTED
+
+                auf „Nein“
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu:
+
+  a)             Aufruf von TUC_KON_256 {
+
+                   topic = "CT/ERROR";
+
+                   eventType = $ErrorType;
+
+                   severity = $Severity;
+
+                   parameters = („CtID=$ctId,
+Name=$CT.HOSTNAME,
+
+                      Error=$Fehlercode,
+
+                      Bedeutung=$Fehlertext“);
+
+                   doDisp = false }
+
+  b)              Löschen von CT.SMKT_AUT, CT.SHARED_SECRET
+
+  c)              Direkte Anzeige der Fehlermeldung für den
+Administrator
+
+  d)              Abbruch der Verarbeitung mit den ausgewiesenen
+
+         Fehlercodes
+
+(
+
+
+
+1) Version des KT wird nicht unterstützt, Fehlercode: 4042
+
+(2b) Zertifikat ist zeitlich nicht gültig,  
+         Fehlercode:
+1021 (CERTIFICATE_NOT_VALID_TIME)  
+(
+
+
+
+2) Fehler im TLS Verbindungsaufbau bzw. Zertifikatsprüfung,
+
+         Fehlercode: 4040
+
+(
+
+
+
+4b) Fehler in SICCT INIT CT SESSION, Fehlercode: 4041 mit
+
+        Angabe des SICCT-Fehlers
+
+(
+
+
+
+5) Fehler in EHEALTH TERMINAL AUTHENTICATE, Fehlercode:
+
+         4041 mit Angabe des SICCT-Fehlers
+
+(
+
+
+
+6) Signaturprüfung fehlgeschlagen, Fehlercode: 4041
+
+</td></tr><tr><td>
+Zugehörige
+
+Diagramme
+
+</td><td>
+Siehe PIC_KON_057
+
+</td></tr></table>
 
 Tabelle38: TAB_KON_113 Fehlercodes TUC_KON_053 „Paire Kartenterminal“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4040
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Versuch eines Verbindungsaufbaus zum KT
+
+</td></tr><tr><td>
+4041
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler im Pairing, SICCT-Fehler
+
+\<sup\>(Nur wenn dieser Fehler wegen eines Fehlers auf\</sup\>
+
+\<sup\>der SICCT-Schnittstelle auftritt, ist der SICCT-Fehlercode mit
+anzugeben.)\</sup\>
+
+: \<SICCT-Fehler\>
+
+</td></tr><tr><td>
+4042
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Die Version des Kartenterminals wird nicht unterstützt
+
+</td></tr></table>
 
 Hinweis zu Fehler 4041:
 
@@ -2740,7 +12162,125 @@ umsetzen.
 
 Tabelle39: TAB_KON_526 – TUC_KON_055 „Befülle CT-Object“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_055 „Befülle CT-Object“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC befüllt ein vorhandenes CT-Object aus CTM_CT_LIST mit den aktuellen
+Produktinformationen, die vom Kartenterminal bezogen werden und prüft, ob die
+Version des Kartenterminals unterstützt wird.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Setze CT = CTM_CT_LIST(ctId)
+
+ ---> OL
+
+   
+
+Eintrag gefunden:
+
+         Die dritte Stelle der KT-Version ist im Vergleich 
+
+                                        
+zur dritten Stelle im gefundenen Eintrag:
+
+                                         
+   
+
+\>=:    Setze Result = True
+
+                                         
+   
+
+\<:    Setze Result = False
+
+   
+
+Kein Eintrag gefunden:
+
+ Setze Result = False
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+(-\>5) Wenn CT.CORRELATION="aktiv", kann die in (1) aufgebaute Verbindung
+bestehen bleiben.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+-\> 2) Kartenterminal antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<gemäß [SICCT]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2756,12 +12296,155 @@ interagieren” gemäß TUC_KON_051 umsetzen.
 Tabelle40: TAB_KON_112 – TUC_KON_051 „Mit Anwender über Kartenterminal
 interagieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_051 „Mit Anwender über Kartenterminal interagieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC ermöglicht es, Meldungen an das Display eines Kartenterminals zu senden
+oder Eingaben vom Benutzer über das PIN-Pad eines Kartenterminals abzufragen
+(unter Anzeige einer Meldung).
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Fachmodul im Konnektor oder anderer technischer Use Case ruft diesen Use Case
+auf.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Wenn Mode=OutputKeep bleibt Data auf dem Display des KT stehen
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Setze CT = CTM_CT_LIST(ctId)
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zum Aufruf von TUC_KON_256
+{  
+      topic = "CT/ERROR";  
+      eventType = $ErrorType;  
+     
+severity = $Severity;  
+      parameters = („CtID=$ctId,
+Name=$CT.HOSTNAME,  
+                           
+Error=$Fehlercode, Bedeutung=$Fehlertext“) }
+
+(
+
+
+
+1) Display und PinPad des Kartenterminals sind aktuell belegt (PIN, 
+
+        Eingabe, andere Ausgabe etc.), Fehlercode: 4039
+
+(
+
+
+
+1) Kartenterminal antwortet mit einer spezifischen Fehlermeldung, 
+
+         Fehlercode \<gemäß [SICCT]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle41: TAB_KON_114 Fehlercodes TUC_KON_051 „Mit Anwender über
 Kartenterminal interagieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4039
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal durch andere Nutzung aktuell belegt
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2774,11 +12457,260 @@ TUC_KON_056 umsetzen.
 
 Tabelle42: TAB_KON_723 - TUC_KON_056 „Karte anfordern“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_056 „Karte anfordern“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC ermöglicht es, die Aufforderung zum Karte-Stecken an das Kartenterminal
+zu senden und dabei eine Meldung zum Anzeigen im Display des Kartenterminals
+mitzugeben.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Fachmodul im Konnektor oder Operation RequestCard ruft diesen Use Case auf.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+-      ctId  
+     (Kartenterminalidentifikator)  
+- slotId  
+   
+(Nummer des Kartenslots)  
+  -   cardType - optional  
+- displayMessage –
+optional    
+    (Text zur Darstellung am Kartenterminal, Länge durch KT
+begrenzt)  
+-     timeOut  
+    (Wartezeit in Sekunden)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Im Erfolgsfall enthält die CM_CARD_LIST ein neues CARD-Objekt des geforderten
+Typs.
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Setze CT = CTM_CT_LIST(ctId)
+
+ ---> OL
+
+In allen Fällen liegt in CM_CARD_LIST ein neues CARD-Objekt vor.
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Die Ausgabe einer Display-Nachricht entfällt, wenn der adressierte Slot bereits
+eine gesteckte Karte enthält.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu Aufruf von TUC_KON_256
+{  
+      topic = "CT/ERROR";  
+      eventType = $ErrorType;  
+     
+severity = $Severity;  
+      parameters = („CtID=$ctId,
+Name=$CT.HOSTNAME,  
+                              
+Error=$Fehlercode, Bedeutung=$Fehlertext“) }  
+(2)    Display des
+Kartenterminals ist aktuell belegt, Fehlercode: 4039  
+(2)    Fehler
+beim Zugriff auf das Kartenterminal, Fehlercode: 4044 
+
+(2)    Ungültige Kartenterminal-ID: Fehlercode: 4007 
+
+(2)    Ungültige Kartenslot-ID: Fehlercode: 4097 
+
+(2)    Kartenterminal nicht aktiv, Fehlercode: 4221 
+
+(2)    Kartenterminal ist nicht verbunden, Fehlercode: 4222 
+
+(2)    Kartenterminal antwortet mit einer spezifischen Fehlermeldung, 
+
+           Fehlercode \<gemäß [SICCT]\>  
+(4)    Timeout.
+Es wurde keine Karte innerhalb der angegebenen  
+          
+Zeitspanne gesteckt, Fehlercode: 4202  
+(5)    Falscher Kartentyp,
+Fehlercode: 4051
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle43: TAB_KON_724 Fehlercodes TUC_KON_056 „Karte anfordern“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4039
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal durch andere Nutzung aktuell belegt
+
+</td></tr><tr><td>
+4044
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Zugriff auf das Kartenterminal
+
+</td></tr><tr><td>
+4051
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Falscher Kartentyp
+
+</td></tr><tr><td>
+40
+
+07
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Kartenterminal-ID
+
+</td></tr><tr><td>
+4097
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Kartenslot-ID
+
+</td></tr><tr><td>
+4202
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout. Es wurde keine Karte innerhalb der angegebenen Zeitspanne gesteckt.
+
+</td></tr><tr><td>
+4221
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal nicht aktiv
+
+</td></tr><tr><td>
+4222
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal ist nicht verbunden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2791,11 +12723,285 @@ TUC_KON_057 umsetzen.
 
 Tabelle44: TAB_KON_725 – TUC_KON_057 „Karte auswerfen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_057 „Karte auswerfen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC ermöglicht es, das SICCT-Kommando zum Auswerfen der Karte an das
+Kartenterminal zu senden und dabei eine Meldung zum Anzeigen im Display des
+Kartenterminals mitzugeben, die den Benutzer zum Entnehmen der Karte auffordert.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Fachmodul im Konnektor oder Operation EjectCard ruft diesen Use Case auf.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Durch das Entfernen der Karte wird das Ereignis „Karte entfernt“ ausgelöst,
+worauf der Konnektor reagiert [TIP1-A_4562].
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Setze CT = CTM_CT_LIST(ctId)
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Auch im Falle, dass nach der internen Buchführung des Konnektors in dem
+angegebenen Slot des Kartenterminals keine Karte steckt, MUSS der Konnektor das
+SICCT-Kommando SICCT EJECT ICC an das Kartenterminal senden. Meldet das
+Kartenterminal keinen Fehler, so meldet auch der Konnektor keinen Fehler und es
+kann davon ausgegangen werden, dass sich keine Karte mehr in dem Slot befindet.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu Aufruf von TUC_KON_256
+{  
+      topic = "CT/ERROR";  
+      eventType = $ErrorType;  
+   
+  severity = $Severity;  
+      parameters = („CtID=$CtID,
+Name=$CT.HOSTNAME, 
+
+                              
+Error=$Fehlercode, Bedeutung=$Fehlertext“) }
+
+(
+
+
+
+1) Die Karte ist fremdreserviert, Fehlercode 4093
+
+(
+
+
+
+3) Display des Kartenterminals ist aktuell belegt, Fehlercode: 4039
+
+(
+
+
+
+3) Fehler beim Zugriff auf das Kartenterminal, Fehlercode: 4044
+
+(
+
+
+
+3) Karte deaktiviert, aber nicht entnommen, Fehlercode: 4203
+
+(
+
+
+
+3) Ungültige Kartenterminal-ID: Fehlercode: 40
+
+07
+
+(
+
+
+
+3) Ungültige Kartenslot-ID: Fehlercode: 4097
+
+(
+
+
+
+3) Kartenterminal nicht aktiv, Fehlercode: 4221
+
+(
+
+
+
+3) Kartenterminal ist nicht verbunden, Fehlercode: 4222
+
+(
+
+
+
+3) Kartenterminal antwortet mit einer spezifischen Fehlermeldung, 
+
+        Fehlercode \<gemäß [SICCT]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle45: TAB_KON_796 Fehlercodes TUC_KON_057 „Karte auswerfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4039
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal durch andere Nutzung aktuell belegt
+
+</td></tr><tr><td>
+4044
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Zugriff auf das Kartenterminal
+
+</td></tr><tr><td>
+4203
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte deaktiviert, aber nicht entnommen
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+40
+
+07
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Kartenterminal-ID
+
+</td></tr><tr><td>
+4097
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Kartenslot-ID
+
+</td></tr><tr><td>
+4221
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal nicht aktiv
+
+</td></tr><tr><td>
+4222
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenterminal ist nicht verbunden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2808,11 +13014,138 @@ gemäß TUC_KON_058 umsetzen.
 
 Tabelle46: TAB_KON_854 – TUC_KON_058 „Displaygröße ermitteln“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_058 „Displaygröße ermitteln“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC liefert den Inhalt der Variable CT.DISPLAY_CAPABILITIES zurück.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Fachmodul im Konnektor ruft diesen Use Case auf.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+CT.DISPLAY_CAPABILITIES
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Setze CT = CTM_CT_LIST(ctId)
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu Aufruf von TUC_KON_256 {
+
+      topic = "CT/ERROR";
+
+      eventType = $ErrorType;
+
+      severity = $Severity;
+
+      parameters = („CtID=$CtID, Name=$CT.HOSTNAME,
+
+                               Error=$Fehlercode,
+Bedeutung=$Fehlertext“) }
+
+(
+
+
+
+2) CT.DISPLAY_CAPABILITIES ist nicht belegt, Fehlercode 4254
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle47: TAB_KON_855 Fehlercodes TUC_KON_058 „Displaygröße ermitteln“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4254
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Keine Displaygröße für das Kartenterminal definiert
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2824,7 +13157,64 @@ Der Konnektor MUSS Clientsystemen den Basisdienst Kartenterminaldienst anbieten.
 
 Tabelle48: TAB_KON_722 Basisdienst Kartenterminaldienst
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+CardTerminalService
+
+</th></tr><tr><td>
+Version (KDV)
+
+</td><td colspan="2">
+1.1.0 (WSDL-Version) 1.1.2 (XSD-Version)
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td colspan="2">
+Siehe GitHub
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td colspan="2">
+CT für Schema und CTW für WSDL
+
+</td></tr><tr><td rowspan="3">
+Operationen
+
+</td><td>
+Name
+
+</td><td>
+Kurzbeschreibung
+
+</td></tr><tr><td>
+RequestCard
+
+</td><td>
+Karte anfordern
+
+</td></tr><tr><td>
+EjectCard
+
+</td><td>
+Karte auswerfen
+
+</td></tr><tr><td>
+WSDL
+
+</td><td colspan="2">
+CardTerminalService.wsdl
+
+</td></tr><tr><td>
+Schema
+
+</td><td colspan="2">
+CardTerminalService.xsd
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2837,18 +13227,250 @@ Tabelle TAB_KON_716 Operation RequestCard beschrieben, anbieten.
 
 Tabelle49: TAB_KON_716 Operation RequestCard
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+RequestCard
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2">
+Liefert die Information zu einer Karte, die in dem Slot eines Kartenterminals
+steckt oder innerhalb einer bestimmten Zeit (Timeout) gesteckt wird.
+
+</td></tr><tr><td rowspan="7">
+Aufruf-parameter
+
+</td><td colspan="2">
+![Img-012][Img-012]
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+CCTX:Context
+
+</td><td>
+MandantId, CsId, WorkplaceId verpflichtend
+
+</td></tr><tr><td>
+CT:Slot
+
+</td><td>
+Adressiert
+
+den Slot eines Kartenterminals über die Identifikation des Kartenterminal
+
+CARDCMN:CtId
+
+und die Nummer des Slots
+
+CARDCMN:SlotId
+
+</td></tr><tr><td>
+CARDCMN:
+
+CardType
+
+</td><td>
+Ein
+
+Kartentyp aus {EGK, KVK, HBAx, SM-B}
+
+als optionaler Filter. Wenn angegeben, werden nur Karten vom spezifizierten Typ
+zurückgegeben.
+
+</td></tr><tr><td>
+CT:DisplayMsg
+
+</td><td>
+Diese Nachricht wird am Display des Kartenterminals angezeigt, um den Nutzer zum
+Stecken der Karte aufzufordern.
+
+</td></tr><tr><td>
+CT:TimeOut
+
+</td><td>
+Die Zeit in sec, die maximal gewartet wird bis zum Stecken einer Karte. Wird
+dieser Parameter nicht übergeben, SOLL der Konnektor den Wert
+
+20
+
+sec verwenden. Optional KANN dieser Default-Wert im Konnektor konfigurierbar
+sein.
+
+</td></tr><tr><td rowspan="5">
+Rückgabe
+
+</td><td colspan="2">
+![Img-013][Img-013]
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+CONN:Status
+
+</td><td>
+Enthält den Ausführungsstatus der Operation (siehe
+
+3.5.2)
+
+</td></tr><tr><td>
+CT:AlreadyInserted
+
+</td><td>
+Dieses optionale Flag gibt an, ob die Karte bereits vor der Anfrage steckte
+(Wert true) oder erst auf Anforderung dieses Aufrufs gesteckt wurde (Wert false
+oder Element nicht vorhanden).
+
+</td></tr><tr><td>
+CARD:Card
+
+</td><td>
+Falls eine Karte gesteckt ist, werden Information zur Karte zurückgegeben
+(siehe 4.1.6.5.2)
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="2">
+keine
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="2">
+keine
+
+</td></tr></table>
 
 Der Ablauf der Operation RequestCard ist in Tabelle TAB_KON_717 Ablauf
 RequestCard beschrieben.
 
 Tabelle50: TAB_KON_717 Ablauf RequestCard
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab. Wird die
+Operation für einen nicht unterstützten Kartentypen aufgerufen, so bricht die
+Operation mit Fehler 4058 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs-berechtigung“
+
+</td><td>
+Prüfung der Zugriffsberechtigung durch den Aufruf
+
+TUC_KON_000 {
+
+      mandantId = $context.mandantId;
+
+      clientSystemId = $context.clientsystemId;
+
+      workplaceId = $context.workplaceId;
+
+      ctId = $Slot.CtId;
+
+      needCardSession=false;
+
+      allWorkplaces=false }
+
+Tritt bei der Prüfung ein Fehler auf, so bricht die Operation mit dem
+Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_056 „Karte anfordern“
+
+</td><td>
+Anforderung der Karte vom Kartenterminal durch Aufruf
+
+TUC_KON_056(
+
+      ctId = $Slot.CtId;
+
+      slotId = $Slot.SlotId;
+
+      $cardType;
+
+      displayMessage = $DisplayMsg;
+
+      $timeOut)
+
+</td></tr></table>
 
 Tabelle51: TAB_KON_718 Fehlercodes „RequestCard“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4058
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Aufruf nicht zulässig
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2861,18 +13483,247 @@ Tabelle TAB_KON_719 Operation EjectCard beschrieben, anbieten.
 
 Tabelle52: TAB_KON_719 Operation EjectCard
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+EjectCard
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2">
+Beendet die Kommunikation mit der Karte und wirft sie aus, falls das
+Kartenterminal eine solche mechanische Funktion hat.
+
+</td></tr><tr><td rowspan="7">
+Aufruf-parameter
+
+</td><td colspan="2">
+![Img-014][Img-014]
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td>
+MandantId, CsId, WorkplaceId verpflichtend
+
+</td></tr><tr><td>
+CONN:
+
+CardHandle
+
+</td><td>
+Adressiert die Karte, die ausgeworfen werden soll.
+
+</td></tr><tr><td>
+CT:Slot
+
+</td><td>
+Adressiert alternativ den Slot eines Kartenterminals, aus dem die Karte
+ausgeworfen werden soll. Die Adressierung erfolgt über die Identifikation des
+Kartenterminal
+
+CARDCMN:CtId
+
+und die Nummer des Slots
+
+CARDCMN:SlotId.
+
+</td></tr><tr><td>
+CT:
+
+DisplayMsg
+
+</td><td>
+Diese Nachricht wird am Display des Kartenterminals angezeigt, um den Nutzer zum
+entnehmen der Karte aufzufordern.
+
+</td></tr><tr><td>
+CT:TimeOut
+
+</td><td>
+Die Zeit in msec, die maximal gewartet wird bis eine Karte gezogen ist. Wird
+dieser Parameter nicht übergeben, SOLL der Konnektor den Wert 20 sec
+verwenden. Optional KANN dieser Default-Wert im Konnektor konfigurierbar sein.
+
+</td></tr><tr><td rowspan="3">
+Rückgabe
+
+</td><td colspan="2">
+![Img-015][Img-015]
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td>
+Enthält den Ausführungsstatus der Operation (siehe 3.5.2)
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="2">
+keine.
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="2">
+keine.
+
+</td></tr></table>
 
 Der Ablauf der Operation EjectCard ist in Tabelle TAB_KON_720 Ablauf EjectCard
 beschrieben.
 
 Tabelle53: TAB_KON_720 Ablauf EjectCard
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs-berechtigung“
+
+</td><td>
+Ist $cardHandle vorgegeben, so wird $ctId als Id des Kartenterminals bestimmt,
+in dem die Karte steckt.
+
+Prüfung der Zugriffsberechtigung durch den Aufruf TUC_KON_000 {
+
+      mandantId = $Context.MandantId;
+
+      clientSystemId = $Context.ClientSystemId;
+
+      workplaceId = $Context.WorkplaceId;
+
+      ctId = $Slot.CtId
+
+                bzw. ctId = CM_CARD_LIST($CardHandle).CTID;
+
+      needCardSession = false;
+
+      allWorkplaces = false }
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_057 „Karte auswerfen“
+
+</td><td>
+Wurde EjectCard mit dem Parameter Slot aufgerufen: Veranlassen des
+Kartenauswurfs am Kartenterminal durch Aufruf TUC_KON_057 {
+
+      ctId = $Slot.CtId;
+
+      slotId = $Slot.Slotid;
+
+      displayMessage = $DisplayMsg;
+
+      $timeOut }
+
+Wurde EjectCard mit dem Parameter CardHandle aufgerufen: Veranlassen des
+Kartenauswurfs am Kartenterminal durch Aufruf TUC_KON_057 {
+
+      ctId = CM_CARD_LIST($CardHandle).CTID;
+
+      slotId = CM_CARD_LIST ($CardHandle).SLOTNO; ;
+
+      displayMessage = $DisplayMsg;
+
+      $timeOut }
+
+</td></tr></table>
 
 Tabelle54: TAB_KON_721 Fehlercodes Operation „EjectCard“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4203
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte deaktiviert, aber nicht entnommen
+
+</td></tr><tr><td>
+4101
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karten-Handle ungültig
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2901,7 +13752,120 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_527 vorzunehmen:
 
 Tabelle55: TAB_KON_527 Konfigurationswerte eines Kartenterminalobjekts
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+CTM_SERVICE_DISCO  
+VERY_PORT
+
+</td><td>
+Portnummer
+
+</td><td>
+Der Administrator MUSS die Portnummer eingeben können, auf der die KTs im
+lokalen Netz auf Dienstanfragen hören.
+
+Default-Wert=4742
+
+</td></tr><tr><td>
+CTM_SERVICE_DISCO  
+VERY_TIMEOUT
+
+</td><td>
+X Sekunden
+
+</td><td>
+Der Administrator MUSS die Anzahl Sekunden eingeben können, die der Konnektor
+auf Antworten zu Service-Discovery-Anfragen wartet.
+
+Default-Wert=3
+
+</td></tr><tr><td>
+CTM_SERVICE_ANNOU  
+NCEMENT_PORT
+
+</td><td>
+Portnummer
+
+</td><td>
+Der Administrator MUSS die Portnummer eingeben können, auf der der Konnektor
+auf Dienstbeschreibungspakete hört.
+
+Default-Wert=4742
+
+</td></tr><tr><td>
+CTM_SERVICE_DISCO  
+VERY_CYCLE
+
+</td><td>
+X Minuten
+
+</td><td>
+Der Administrator MUSS die Anzahl Minuten einstellen können, in denen der
+Konnektor wiederholt Service Discovery Nachrichten absetzt.
+
+Default-Wert=10,
+
+0=Deaktiviert
+
+</td></tr><tr><td>
+CTM_KEEP_ALIVE_IN  
+TERVAL
+
+</td><td>
+X Sekunden
+
+</td><td>
+Intervall in Sekunden in den Keep-Alive-Nachrichten an das Kartenterminal
+gesendet werden
+
+Der Administrator MUSS diesen Wert im vorgegebenen Bereich anpassen können.
+
+Wertebereich:1-10
+
+Default-Wert=10
+
+</td></tr><tr><td>
+CTM_KEEP_ALIVE_TR  
+Y_COUNT
+
+</td><td>
+Anzahl der Versuche
+
+</td><td>
+Anzahl von aufeinander folgenden, nicht beantworteten Keep-Alive-Nachrichten,
+nach denen ein Timeout der TLS-Verbindung festgestellt wird
+
+Der Administrator MUSS diesen Wert im
+
+vorgegebenen Bereich anpassen können.
+
+Wertebereich:3-10
+
+Default-Wert=3
+
+</td></tr><tr><td>
+CTM_TLS_HS_TIMEOUT
+
+</td><td>
+X Sekunden
+
+</td><td>
+Der Administrator MUSS die Anzahl Sekunden eingeben können, die der Konnektor
+auf den TLS-Verbindungsaufbau zum Kartenterminal wartet (Handshake-Timeout).
+
+Wertebereich:1-60
+
+Default-Wert=10
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2912,7 +13876,27 @@ Informationsparameter gemäß Tabelle TAB_KON_528 einzusehen:
 
 Tabelle56: TAB_KON_528 Informationsparamter des Kartenterminaldienstes
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+CTM_SUPPORTED_KT_  
+VERSIONS
+
+</td><td>
+Liste von EHEALTH-Interface-Versionen
+
+</td><td>
+Der Administrator MUSS die Liste der vom Konnektor unterstützten
+modellunabhängigen EHEALTH-Interface-Versionen einsehen können.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2944,7 +13928,205 @@ CT-Object“ auslösen können.
 
 Tabelle57: TAB_KON_529 Anzeigewerte zu einem Kartenterminalobjekt
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+Geräte  
+kenndaten
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CT.CTID
+
+</td><td>
+Identifier
+
+</td><td>
+Eindeutige, statische Identifikation des Kartenterminals
+
+</td></tr><tr><td>
+CT.IS_PHYSICAL
+
+</td><td>
+Ja/Nein
+
+</td><td>
+Kennzeichnung, ob es sich um ein logisches oder physisches Kartenterminal handelt
+
+(siehe auch TAB_KON_522 Parameterübersicht des Kartenterminaldienstes)
+
+</td></tr><tr><td>
+CT.MAC_ADRESS
+
+</td><td>
+MAC-Adresse
+
+</td><td>
+die MAC-Adresse des Kartenterminals
+
+</td></tr><tr><td>
+CT.HOSTNAME
+
+</td><td>
+String
+
+</td><td>
+SICCT-Terminalname des Kartenterminals, auch als FriendlyName bezeichnet
+
+</td></tr><tr><td>
+CT.IP_ADRESS
+
+</td><td>
+IP-Adresse
+
+</td><td>
+die IP-Adresse des Kartenterminals
+
+</td></tr><tr><td>
+CT.TCP_PORT
+
+</td><td>
+Portnummer
+
+</td><td>
+der TCP-Port des SICCT-Kommandointerpreters des Kartenterminals
+
+</td></tr><tr><td>
+CT.SLOTCOUNT
+
+</td><td>
+Nummer
+
+</td><td>
+Anzahl der Slots des Kartenterminals
+
+</td></tr><tr><td>
+CT.SLOTS_USED
+
+</td><td>
+Liste
+
+</td><td>
+Liste der mit Karten belegten Slots
+
+</td></tr><tr><td>
+CT.PRODUCT  
+INFORMATION
+
+</td><td>
+Inhalt Product  
+Information.xsd
+
+</td><td>
+die Herstellerinformationen zum Kartenterminal gemäß [gemSpec_OM]
+
+</td></tr><tr><td>
+CT.EHEALTH_  
+INTERFACE_  
+VERSION
+
+</td><td>
+Version
+
+</td><td>
+Die EHEALTH-Interface-Version des Kartenterminals, die mittels des
+SICCT-Kommandos GET STATUS aus dem Element VER des Discretionary Data Objects
+ermittelt wurde
+
+</td></tr><tr><td>
+CT.VALID_  
+VERSION
+
+</td><td>
+Boolean
+
+</td><td>
+True, wenn die Version des Kartenterminals (CT.EHEALTH_INTERFACE_VERSION) durch
+den Konnektor unterstützt wird, d.h. zu den in CTM_SUPPORTED_KT_VERSIONS passt
+
+</td></tr><tr><td>
+Pairingdaten
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CT.SMKT_AUT
+
+</td><td>
+X.509-Cert
+
+</td><td>
+C.SMKT.AUT-Zertifikat des Kartenterminals, gespeichert im Rahmen des Pairings
+
+</td></tr><tr><td>
+Verbindungs  
+daten
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CT.  
+CORRELATION
+
+</td><td>
+bekannt
+
+zugewiesen
+
+gepairt
+
+aktiv
+
+aktualisierend
+
+</td><td>
+Der Korrelationsstatus zum Konnektor:
+
+ ---> UL
+
+</td></tr><tr><td>
+CT.CONNECTED
+
+</td><td>
+Ja/Nein
+
+</td><td>
+Der Verfügbarkeitsstatus des Kartenterminals (Ja = nach Aufbau der
+TLS-Verbindung und erfolgter zweiter Authentifizierung)
+
+</td></tr><tr><td>
+CT.ACTIVEROLE
+
+</td><td>
+User/Admin
+
+</td><td>
+Benutzerrolle, die für die aktuelle Session verwendet wird
+
+</td></tr><tr><td>
+KT-Admin-Credentials
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CT.ADMIN_  
+USERNAME
+
+</td><td>
+String
+
+</td><td>
+Username des Administrators am KT
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -2960,7 +14142,66 @@ Konfigurationswerte auf ihren Ausgangswert zurücksetzen.
 
 Tabelle58: TAB_KON_530 Konfigurationswerte eines Kartenterminalobjekts
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+CT.IP_ADRESS
+
+</td><td>
+IP-Adresse
+
+</td><td>
+Der Administrator MUSS für KTs mit CT.IS_PHYSICAL=Ja die IPv4-Adresse des
+Kartenterminals eingeben können.
+
+</td></tr><tr><td>
+CT.TCP_PORT
+
+</td><td>
+Portnummer
+
+</td><td>
+Der Administrator MUSS für KTs mit CT.IS_PHYSICAL=Ja den TCP-Port des
+SICCT-Kommandointerpreters des Kartenterminals eingeben können.
+
+</td></tr><tr><td>
+CT.HOSTNAME
+
+</td><td>
+String
+
+</td><td>
+Der Administrator MUSS den SICCT-Terminalnamen (Hostname) - auch als
+FriendlyName bezeichnet - des Kartenterminals eingeben können.
+
+</td></tr><tr><td>
+CT.ADMIN_USERNAME
+
+</td><td>
+String
+
+</td><td>
+Der Administrator MUSS für KTs mit CT.IS_PHYSICAL=Ja den Username des
+KT-Administrators des Kartenterminals eingeben können.
+
+</td></tr><tr><td>
+CT.ADMIN_PASSWORD
+
+</td><td>
+String
+
+</td><td>
+Der Administrator MUSS für KTs mit CT.IS_PHYSICAL=Ja das Password des
+KT-Administrators des Kartenterminals eingeben können.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3059,7 +14300,268 @@ TAB_KON_531 ausgewiesenen Parameter, weitere herstellerspezifische Parameter
 sind möglich. Die normative Festlegung wann welche Parameter wie belegt
 werden, erfolgt in den folgenden Abschnitten und Unterkapiteln.
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Zustandswerte
+
+</th></tr><tr><td>
+CM_CARD_LIST
+
+</td><td>
+Liste von Card-Objekten
+
+</td><td>
+Eine Liste von Repräsentanzen (CardObjects) der dem Konnektor bekannten Karten.
+
+Die Attribute der Card-Objekte sind im Folgenden gelistet.
+
+</td></tr><tr><td>
+CARD.CARDHANDLE
+
+</td><td>
+</td><td>
+vom Konnektor vergebenen eindeutigen Identifikator (Handle).
+
+</td></tr><tr><td>
+CARD.CTID
+
+</td><td>
+</td><td>
+Kartenterminal, in dem die Karte steckt
+
+</td></tr><tr><td>
+CARD.SLOTNO
+
+</td><td>
+</td><td>
+Slot, in dem die Karte steckt
+
+</td></tr><tr><td>
+CARD.ICCSN
+
+</td><td>
+</td><td>
+ICCSN der Karte (sofern auslesbar),
+
+</td></tr><tr><td>
+CARD.TYPE
+
+</td><td>
+</td><td>
+Typ der Karte gemäß Tabelle TAB_KON_500 Wertetabelle Kartentypen
+
+</td></tr><tr><td>
+CARD.CARDVERSION
+
+</td><td>
+</td><td>
+die Versionsinformationen zum Produkttyp der Karte und den gespeicherten
+Datenstrukturen gemäß [gemSpec_Karten_Fach_TIP].
+
+</td></tr><tr><td>
+CARD.CARDVERSION.
+
+COSVERSION
+
+</td><td>
+</td><td>
+Produkttypversion des COS
+
+</td></tr><tr><td>
+CARD.CARDVERSION.
+
+OBJECTSYSTEMVERSION
+
+</td><td>
+</td><td>
+Produkttypversion des Objektsystems
+
+</td></tr><tr><td>
+CARD.CARDVERSION.
+
+CARDPTPERSVERSION
+
+</td><td>
+</td><td>
+Produkttypversion der Karte bei Personalisierung
+
+</td></tr><tr><td>
+CARD.CARDVERSION.
+
+DATASTRUCTUREVERSION
+
+</td><td>
+</td><td>
+Version der Speicherstrukturen (aus EF.Version)
+
+</td></tr><tr><td>
+CARD.CARDVERSION.
+
+LOGGINGVERSION
+
+</td><td>
+</td><td>
+Version der Befüllvorschrift für EF.Logging
+
+</td></tr><tr><td>
+CARD.CARDVERSION.
+
+ATRVERSION
+
+</td><td>
+</td><td>
+Version der Befüllvorschrift für EF.ATR
+
+</td></tr><tr><td>
+CARD.CARDVERSION.
+
+GDOVERSION
+
+</td><td>
+</td><td>
+Version der Befüllvorschrift für EF.GDO
+
+</td></tr><tr><td>
+CARD.CARDVERSION.
+
+KEYINFOVERSION
+
+</td><td>
+</td><td>
+Version der Befüllvorschrift für KeyInfo
+
+</td></tr><tr><td>
+CARD.INSERTTIME
+
+</td><td>
+Timestamp
+
+</td><td>
+Zeitpunkt, an dem die Karte gesteckt wurde
+
+</td></tr><tr><td>
+CARD.CARDHOLDERNAME
+
+</td><td>
+String
+
+</td><td>
+Name des Karteninhabers bzw. der Institution/Organisation (subject.commonName)
+
+</td></tr><tr><td>
+CARD.KVNR
+
+</td><td>
+String
+
+</td><td>
+Versicherten-ID (unveränderbarer Teil der KVNR)
+
+</td></tr><tr><td>
+CARD.
+
+CERTEXPIRATIONDATE
+
+</td><td>
+</td><td>
+Ablaufdatum des AUT-Zertifikats der Karte
+
+</td></tr><tr><td>
+CARD.CARDSESSION_
+
+LIST
+
+</td><td>
+Liste von CardSession-Objekten
+
+</td><td>
+Eine Liste von Repräsentanzen (CardSession-Objects) der pro Karte vorhandenen
+Kartensitzungen.
+
+Die Attribute der CardSession-Objekte sind im Folgenden gelistet.
+
+Das Tripel aus MandantID, CSID und UserID bildet den Kontext ab, in welchem
+diese Kartensitzung initiiert wurde.
+
+</td></tr><tr><td>
+CARDSESSION.
+
+AUTHSTATE
+
+</td><td>
+Liste von Einträgen aus a)C2C:KeyRef, Role
+
+oder
+
+b) CHV: PINRef
+
+</td><td>
+Liste von erreichten Sicherheitszuständen.
+
+Jeder einzelne Sicherheitszustand kann entweder über C2C gegen KeyRef (mit
+einer bestimmten Rolle gemäß [gemSpec_PKI_TI#Tab_PKI_918]) oder Card Holder
+Verification (CHV) gegen eine referenzierte PIN erreicht worden sein.
+
+Für eGK G2.0 wird der Zustand der MRPINs nicht in AuthState gespeichert.
+
+</td></tr><tr><td>
+CARDSESSION.
+
+MANDANTID
+
+</td><td>
+</td><td>
+Mandant-ID
+
+</td></tr><tr><td>
+CARDSESSION.CSID
+
+</td><td>
+</td><td>
+Clientsystem-ID
+
+</td></tr><tr><td>
+CARDSESSION.USERID
+
+</td><td>
+</td><td>
+Nutzer-ID
+
+</td></tr><tr><td>
+CARDSESSION.AUTHBY
+
+</td><td>
+Referenz auf CardSession
+
+</td><td>
+Kartensitzung, über die diese Karte freigeschaltet wurde (nur für eGK belegt)
+
+</td></tr><tr><td>
+CARDSESSION.  
+SIGNMODE
+
+</td><td>
+„PIN“ oder  
+„Comfort“
+
+</td><td>
+Signaturmodus  
+„PIN“: Komfortsignaturmodus ist für die CardSession
+ausgeschaltet  
+"Comfort“: Komfortsignaturmodus ist für die CardSession
+eingeschaltet  
+Default-Wert=“PIN“  
+Nur relevant für den HBA  
+Eine
+HBA-CardSession mit eingeschaltetem Komfortsignaturmodus wird im Folgenden als
+Komfortsignatursession bezeichnet.
+
+</td></tr></table>
 
 ### 4.1.5.1 Funktionsmerkmalweite Aspekte
 
@@ -3137,7 +14639,976 @@ Displaymessages für die Anzeige im Kartenterminal verwenden:
 
 Tabelle60: TAB_KON_090 Terminalanzeigen beim Eingeben der PIN am Kartenterminal
 
- ---> TABLE
+<table><tr><td>
+Karte/  
+Kontext
+
+</td><td>
+PIN-Referenz
+
+</td><td>
+I/O
+
+</td><td>
+Terminal-Anzeige
+
+</td><td>
+ANW
+
+(max.Anz. Zeichen)
+
+</td></tr><tr><td>
+eGK
+
+/PIN-Eingabe für Vertreter-PIN
+
+</td><td>
+PIN.AMTS_REP
+
+</td><td>
+I
+
+</td><td>
+Vertreter-PIN•
+
+0x0B
+
+für•
+
+0x0B
+
+ANW
+
+0x0F
+
+Vertr-PIN:
+
+</td><td>
+22
+
+</td></tr><tr><td>
+eGK
+
+/PIN-Eingabe für Vertreter-PIN ändern
+
+</td><td>
+PIN.AMTS_REP
+
+</td><td>
+I
+
+</td><td colspan="2">
+Vertreter-PIN•
+
+0x0B
+
+ändern
+
+0x0F
+
+PIN.eGK:
+
+</td></tr><tr><td>
+eGK
+
+/PIN-Eingabe für Vertreter-PIN entsperren
+
+</td><td>
+PIN.AMTS_REP
+
+</td><td>
+I
+
+</td><td colspan="2">
+Vertreter-PIN•
+
+0x0
+
+entsperren
+
+0x0F
+
+PIN.eGK:
+
+</td></tr><tr><td>
+eGK
+
+/PIN-Eingabe für PIN-Schutz einschalten
+
+</td><td>
+MRPIN.NFD, MRPIN.DPE, MRPIN.AMTS,
+
+MRPIN.GDD
+
+</td><td>
+I
+
+</td><td>
+PIN-Schutz•
+
+0x0B
+
+ANW•
+
+0x0B
+
+einschalten
+
+0x0F
+
+PIN.eGK:
+
+</td><td>
+16
+
+</td></tr><tr><td>
+eGK
+
+/PIN-Eingabe für PIN-Schutz abschalten
+
+</td><td>
+MRPIN.NFD, MRPIN.DPE, MRPIN.AMTS,
+
+MRPIN.GDD
+
+</td><td>
+I
+
+</td><td>
+PIN-Schutz•
+
+0x0B
+
+ANW•
+
+0x0B
+
+abschalten
+
+0x0F
+
+PIN.eGK:
+
+</td><td>
+16
+
+</td></tr><tr><td>
+eGK
+
+/Sonstige
+
+</td><td>
+ALLE (außer PIN.AMTS_REP)
+
+</td><td>
+I
+
+</td><td>
+PIN•
+
+0x0B
+
+für•
+
+0x0B
+
+ANW
+
+0x0F
+
+PIN.eGK:
+
+</td><td>
+32
+
+</td></tr><tr><td rowspan="2">
+HBAx
+
+</td><td>
+PIN.CH
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Freigabe-PIN•
+
+0x0B
+
+HBA
+
+0x0F
+
+PIN.HBA:
+
+</td></tr><tr><td>
+PIN.QES  
+(Signatur auslösen)
+
+</td><td>
+I
+
+</td><td colspan="2">
+#
+
+UVW-XYZ
+
+•
+
+0x0B
+
+Eingabe•
+
+0x0B
+
+Signatur- PIN•
+
+0x0B
+
+HBA
+
+0x0F
+
+PIN.QES:
+
+</td></tr><tr><td>
+HBA
+
+</td><td>
+PIN.QES (Komfortsignatur aktivieren)
+
+</td><td>
+I
+
+</td><td colspan="2" rowspan="1">
+Komfortsignatur•0x0Baktivieren•0x0BHBA
+
+ 0x0F
+
+PIN.QES:
+
+</td></tr><tr><td>
+SMC-B
+
+</td><td>
+PIN.SMC
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+PIN•SMC-B•
+
+0x0B
+
+SLOT:
+
+X
+
+0x0F
+
+PIN.SMC:
+
+</td></tr><tr><td>
+ANDERE
+
+</td><td>
+BELIEBIG
+
+</td><td>
+I
+
+</td><td colspan="2">
+        Herstellerspezifisch
+
+</td></tr><tr><td>
+Erfolgreiche PIN-Eingabe
+
+</td><td>
+ALLE
+
+</td><td>
+O
+
+</td><td colspan="2">
+PIN•
+
+0x0B
+
+erfolgreich•
+
+0x0B
+
+verifiziert!
+
+</td></tr><tr><td>
+Fehlerhafte PIN-Eingabe
+
+</td><td>
+ALLE
+
+</td><td>
+O
+
+</td><td colspan="2">
+PIN•
+
+0x0B
+
+falsch•
+
+0x0B
+
+oder•
+
+0x0B
+
+gesperrt!
+
+</td></tr><tr><td>
+PUK-Eingabe
+
+</td><td>
+eGK
+
+PUK.CH
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Versicherten-
+
+0x0B
+
+PUK
+
+0x0F
+
+PUK.eGK:
+
+</td></tr><tr><td>
+</td><td>
+HBAx
+
+PUK.CH
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Freigabe
+
+-
+
+PUK•
+
+0x0B
+
+HBA
+
+0x0F
+
+PUK.HBA:
+
+</td></tr><tr><td>
+</td><td>
+HBAx
+
+PUK.QES
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Signatur
+
+-
+
+PUK•
+
+0x0B
+
+HBA
+
+0x0F
+
+PUK.QES:
+
+</td></tr><tr><td>
+</td><td>
+SMC-B
+
+PUK.SMC
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+PUK•SMC-B•
+
+0x0B
+
+SLOT:
+
+X
+
+0x0F
+
+PUK.SMC:
+
+</td></tr><tr><td>
+Erfolgreiche PUK-Eingabe
+
+</td><td>
+ALLE
+
+</td><td>
+O
+
+</td><td colspan="2">
+PIN•
+
+0x0B
+
+erfolgreich•
+
+0x0B
+
+entsperrt!
+
+</td></tr><tr><td>
+Fehlerhafte PUK-Eingabe
+
+</td><td>
+ALLE
+
+</td><td>
+O
+
+</td><td colspan="2">
+PUK•
+
+0x0B
+
+falsch•
+
+0x0B
+
+oder•
+
+0x0B
+
+gesperrt!
+
+</td></tr><tr><td>
+Eingabe einer neuen PIN
+
+</td><td>
+eGK
+
+ALLE (außer PIN.AMTS_REP)
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0Bn
+
+eue•
+
+0x0B
+
+Versicherten-
+
+0x0B
+
+PIN•
+
+0x0B
+
+(6-8•Ziffern)
+
+0x0F
+
+PIN.eGK:
+
+</td></tr><tr><td>
+</td><td>
+eGK
+
+PIN.AMTS_REP
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+neue•
+
+0x0B
+
+Vertreter-PIN•
+
+0x0B
+
+(6-8•Ziffern)
+
+0x0F
+
+Vertr-PIN:
+
+</td></tr><tr><td>
+</td><td>
+HBAx
+
+PIN.CH
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+n
+
+eue•
+
+0x0B
+
+Freigabe-PIN•
+
+0x0B
+
+HBA•
+
+0x0B
+
+(6-8•Ziffern)
+
+0x0F
+
+PIN.HBA:
+
+</td></tr><tr><td>
+</td><td>
+HBAx
+
+PIN.QES
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+neue•
+
+0x0B
+
+Signatur-PIN•
+
+0x0B
+
+HBA•
+
+0x0B
+
+(6-8•Ziffern)
+
+0x0F
+
+PIN.QES:
+
+</td></tr><tr><td>
+</td><td>
+SMC-B
+
+PIN.SMC
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+neue•
+
+0x0B
+
+PIN•SMC-B•
+
+0x0B
+
+SLOT:
+
+X
+
+•
+
+0x0B
+
+(6-8•Ziffern)
+
+0x0F
+
+PIN.SMC:
+
+</td></tr><tr><td rowspan="4">
+Eingabe einer Transport-PIN
+
+</td><td>
+eGK
+
+PIN.CH
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Transport
+
+-
+
+0x0B
+
+Versicherten-
+
+0x0B
+
+PIN
+
+0x0F
+
+T-PIN.eGK:
+
+</td></tr><tr><td>
+HBAx
+
+PIN.CH
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Transport-
+
+0x0B
+
+PIN•
+
+0x0B
+
+HBA
+
+0x0F
+
+T-PIN.HBA:
+
+</td></tr><tr><td>
+HBAx
+
+PIN.QES
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Transport
+
+-
+
+0x0B
+
+PIN•
+
+0x0B
+
+HBA
+
+0x0F
+
+T-PIN.QES:
+
+</td></tr><tr><td>
+SMC-B
+
+PIN.SMC
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Transport-
+
+0x0B
+
+PIN•SMC-B•
+
+0x0B
+
+SLOT:
+
+X
+
+0x0F
+
+T-PIN.SMC:
+
+</td></tr><tr><td rowspan="5">
+Wieder-holung einer neuen PIN
+
+</td><td>
+eGK
+
+PIN.CH
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+Versicherten-
+
+0x0B
+
+PIN•
+
+0x0B
+
+wiederholen!
+
+0x0F
+
+PIN.eGK:
+
+</td></tr><tr><td>
+eGK
+
+PIN.AMTS_REP
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+neue•
+
+0x0B
+
+Vertreter-PIN•
+
+0x0B
+
+wiederholen!
+
+0x0F
+
+Vertr-PIN:
+
+</td></tr><tr><td>
+HBAx
+
+PIN.CH
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+für•HBA•
+
+0x0B
+
+wiederholen!
+
+0x0F
+
+PIN.HBA:
+
+</td></tr><tr><td>
+HBAx
+
+PIN.QES
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+für•HBA•
+
+0x0B
+
+wiederholen!
+
+0x0F
+
+PIN.QES:
+
+</td></tr><tr><td>
+SMC-B
+
+PIN.SMC
+
+</td><td>
+I
+
+</td><td colspan="2">
+Eingabe•
+
+0x0B
+
+PIN
+
+.
+
+SMC•
+
+0x0B
+
+SLOT:
+
+X
+
+•
+
+0x0B
+
+wiederholen!
+
+0x0F
+
+PIN.SMC:
+
+</td></tr><tr><td>
+Ungleichheit bei der Wieder-holung der Eingabe der neuen PIN
+
+</td><td>
+ALLE
+
+</td><td>
+O
+
+</td><td colspan="2">
+PINs•
+
+0x0B
+
+nicht•
+
+0x0B
+
+identisch!•
+
+0x0B
+
+Abbruch!
+
+</td></tr><tr><td>
+Erfolgreiche PIN-Änderung
+
+</td><td>
+ALLE
+
+</td><td>
+O
+
+</td><td colspan="2">
+PIN•0x0Berfolgreich•0x0Bgeändert!
+
+</td></tr><tr><td colspan="5">
+Anzeigen am lokalen Terminal beim Remote-PIN-Verfahren für das Ergebnis der
+Verschlüsselung durch die gSMC-KT
+
+</td></tr><tr><td>
+Erfolgreiche Verschlüsselung
+
+</td><td>
+ALLE
+
+</td><td>
+O
+
+</td><td colspan="2">
+Eingabe•0x0Bwird•0x0Bbearbeitet.
+
+</td></tr><tr><td>
+Fehler bei der Verschlüsselung
+
+</td><td>
+ALLE
+
+</td><td>
+O
+
+</td><td colspan="2">
+Eingabe•0x0Bfehlgeschlagen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3204,7 +15675,171 @@ TUC_KON_001 umsetzen.
 
 Tabelle61: TAB_KON_734 – TUC_KON_001 „Karte öffnen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_001 „Karte öffnen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC initialisiert ein Card-Object basierend auf einer physikalischen Karte
+und fügt es CM_CARD_LIST zu. Die Karte kann erst im Anschluss unter Verwendung
+des erzeugten CardHandles verwendet werden.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Der Kartenterminaldienst meldet das Belegen eines KT-Slots
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1. Prüfe, ob unter ctId und slotId ein Eintrag in CM_CARD_LIST  
+   
+vorhanden ist. Wenn bereits ein Eintrag vorhanden ist, lösche diesen.  
+2.
+Erzeuge neuen Card-Object-Eintrag in CM_CARD_LIST und  
+a)      Generiere
+CARD.CARDHANDLE. mit folgenden Anforderungen:  
+           
+-               Das CardHandle MUSS innerhalb CM_CARD_LIST 
+
+                 eindeutig sein.  
+           
+-               Ein ungültig gewordenes CardHandle DARF
+innerhalb  
+                 von 48h NICHT als neues CardHandle
+vergeben werden.  
+b)      Befülle CARD.CTID und CARD.SLOTNO mit den
+Eingangsdaten  
+c)      Ermittle und befülle (soweit durch Karte
+unterstützt) die folgenden  
+     Daten:  
+           
+-               CARD.ICCSN  
+           
+-               CARD.TYPE (mögliche Werte siehe Tabelle 
+
+                 TAB_KON_500 Wertetabelle Kartentypen) 
+
+            -               CARD.CARDVERSION 
+
+            -               CARD.INSERTTIME
+(=aktuelle Systemzeit)  
+            -              
+CARD.CARDHOLDERNAME (aus X.509-AUT-  
+                 
+Zertifikat)  
+            -               CARD.KVNR
+(nur für eGK, aus C.CH.AUT:  
+                 
+unveränderbarer Teil der KVNR)  
+           
+-               CARD.CERTEXPIRATIONDATE (=validity aus X.509- 
+
+                  AUT-Zertifikat)  
+X.509-AUT-Zertifikat
+bezeichnet für eGK das C.CH.AUT-Zertifikat, für HBAx das C.HP.AUT-Zertifikat
+und für SMC-B das C.HCI.AUT-Zertifikat.  
+3. Rufe TUC_KON_256{ 
+
+           topic = „CARD/INSERTED“;  
+          
+eventType = Op;  
+           severity = Info; 
+
+           parameters = \<Params\>}  
+     mit \<Params\>
+belegt aus dem CARD-Object:  
+„CardHandle=$, CardType=$, CardVersion=$,
+ICCSN=$,CtID=$,  
+SlotID=$, InsertTime=$, CardHolderName=$, KVNR=$, 
+
+CertExpirationDate=$“  
+In CardVersion sind die Werte  
+   - COSVERSION
+und  
+   - OBJECTSYSTEMVERSION  
+aus CARD.CARDVERSION einzutragen. Für eGK
+G1+ ist zusätzlich die  
+   - DATASTRUCTUREVERSION  
+aus CARD.CARDVERSION
+einzutragen. CardVersion kann weitere Werte  
+aus CARD.CARDVERSION enthalten.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Im Falle der KVK gibt es kein EF.ATR, EF.GDO und EF.DIR. Es wird daher  
+ 
+lediglich der ATR ausgewertet, den das Kartenterminal beim Stecken der  
+ 
+Karte liefert.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(-\> 2c) Karte/Kartenterminal antwortet mit einer spezifischen Fehlermeldung,
+Fehlercode \<gemäß [gemSpec_COS]/[SICCT]\>  
+Auch im Fehlerfall wird Schritt
+3 durchlaufen. Wenn nicht alle zu einem Kartentyp notwendigen Daten von der
+Karte gelesen werden konnten, dann wird Schritt 3 mit CardType=UNKNOWN
+ausgeführt.  
+Auch im Fehlerfall wird Schritt 3 durchlaufen. Wenn nicht alle
+zu einem Kartentyp notwendigen Daten von der Karte gelesen werden konnten, dann
+wird Schritt 3 mit CardType=UNKNOWN ausgeführt.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3219,11 +15854,124 @@ TUC_KON_26 umsetzen.
 
 Tabelle62: TAB_KON_735 - TUC_KON_026
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case gibt auf Grund der übergebenen Parameter die zugehörige
+CardSession zurück. Ist für die Parameterkombination noch keine CardSession
+vorhanden, wird eine neue erzeugt und im zugehörigen Card-Object hinterlegt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+(3) Wenn keine CardSession für diese Parameter vorhanden: 
+
+ 1.                    erzeuge neue CardSession in Card. 
+
+        CARDSESSION_LIST 
+
+ 2.                    Befülle CARDSESSION.MANDANTID,
+.CSID und  
+        .USERID mit Übergabeparametern
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(2) Karte bereits reserviert, Fehlercode 4093
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle63: TAB_KON_824 Fehlercodes TUC_KON_026 „Liefere CardSession“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3240,15 +15988,457 @@ TUC_KON_012 umsetzen.
 
 Tabelle64: TAB_KON_087 – TUC_KON_012 „PIN verifizieren“
 
- ---> TABLE
+<table><tr><th>
+Element
 
-![Img-011][Img-011]
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_012 „PIN verifizieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case führt die Verifikation einer PIN einer Karte durch. Dabei wird
+der Anwender am Display des Kartenterminals aufgefordert, die PIN einzugeben.
+Dies erfolgt am PIN-Pad des Kartenterminals.
+
+Remote-PIN-Eingabe wird dabei automatisch unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Karte unterstützt die übergebene pinRef
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1.         Ermittle Card = CM_CARD_LIST(CardSession)
+
+2.         Prüfe, dass der Karte entweder kein Lock zugeordnet ist oder
+
+     der Aufrufer das Karten-Lock besitzt.
+
+3.         Wenn PinTyp(pinRef) = PIN.QES oder
+
+     VerificationType = Mandatorisch 6.
+
+4.         Wenn pinRef in CARDSESSION.AUTHSTATE vorhanden:
+
+        pinResult = OK;
+
+5.         Prüfe TUC_KON_022 „Liefere PIN-Status“
+
+        a.        „VERIFYABLE“; 
+
+        b.        „DISABLED“: pinResult = OK;
+
+6.         Ermittle PinInputKT: Wenn Card.ctId ein dem
+
+     Arbeitsplatz(workplaceId) lokal zugeordnetes Kartenterminal ist
+
+     (siehe Relation [6], Kapitel 4.1.1.1)
+
+        a.            Setze PinInputKT = Card.CtID
+
+        b.            sonst „lokales Kartenterminal, das für
+die Remote-PIN-
+
+               Eingabe zu verwenden ist“: PinInputKT =
+
+               Arbeitsplatz(workplaceId)
+
+.
+
+remote-PIN-KT(mandantId)
+
+7.         Atomare Operation: PIN verifizieren inkl. Eventing und
+
+     Ergebnisvermerk
+
+     a.             Rufe TUC_KON_256 {
+
+               topic = „CARD/PIN/VERIFY_STARTED“;
+
+               eventType = Op;
+
+               severity =Info;
+
+               parameters = („CardHandle=$, CardType=$,
+
+                         ICCSN=$, CtID=$, SlotID=$,
+
+                         PinRef=$, PinInputCtID=$PinInputKT“,
+
+               doLog=false)}
+
+     b.             Pin-Verifikation über „Perform
+Verification“ ([SICCT]) mit
+
+         Display Messages gemäß Kontext in TAB_KON_090
+
+          Terminalanzeigen beim Eingeben der PIN am Kartenterminal, bei
+
+          eGK ersetze „ANW“ durch actionName in Display Message.
+
+          Wenn PinInputKT=Card.CtID dann PIN Verifikation direkt an
+
+          Card.CtID, ansonsten Remote-PIN-Eingabe gemäß (TIP1-
+
+          A_5012)
+
+     c.             Setze pinResult in Abhängigkeit von
+Ergebnis Perform
+
+          Verification:
+
+                -         pinResult = OK für
+erfolgreiche Prüfung
+
+                -         pinResult = ERROR für
+Nutzer-Abbruch oder
+
+                  Bearbeitungsfehler (siehe Fehlerfälle)
+
+           -              pinResult = REJECTED für
+falsche PIN;
+
+                  leftTries = x (bei Kartenantwort ´63 Cx´,
+x \> 0)
+
+                -         pinResult = BLOCKED für
+gesperrte PIN (bei
+
+                  Kartenantwort ´63 C0´)
+
+     d.            Rufe TUC_KON_256 {
+
+              topic = „CARD/PIN/VERIFY_FINISHED“;
+
+              eventType = Op;
+
+              severity = Info;
+
+              parameters = („CardHandle=$, CardType=$,
+
+                         ICCSN=$, CtID=$, SlotID=$,
+PinRef=$,
+
+                         PinInputCtID=$PinInputKT,
+Result=$pinResult“);
+
+              doLog = false }
+
+    e.             befülle CARDSESSION.AUTHSTATE mit pinRef und
+
+          Ergebnis der PIN-Prüfung
+
+8.         Liefere pinResult zurück
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Schritt 7e: Für eGK G2.0 wird der Zustand der MRPINs nicht in AuthState
+gespeichert.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Schritt 7 wird mit allen Teilschritten durchlaufen. Ein als Fehler ausgewiesener
+Zustand führt erst nach Schritt 7e zum Abbruch des TUCs. Fehleingaben zählen
+explizit nicht zu den Fehlerzuständen, sondern werden auf das Ergebnis
+REJECTED oder BLOCKED abgebildet.
+
+    * Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD
+
+          Sekunden, Fehlercode 4094
+
+  (
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+  (
+
+
+
+5) Rückgabewert=
+
+          - VERIFIED, Fehlercode 4001
+
+          - TRANSPORT_PIN oder EMPTY_PIN, Fehlercode 4065
+
+          - BLOCKED, Fehlercode 4063
+
+  (
+
+
+
+6b) kein Remote-PIN-KT zugeordnet, Fehlercode 4092
+
+  (-\>6b) Card.TYP=eGK und Card.CtID ist nicht dem durch workplaceId
+
+          bezeichneten Arbeitsplatz lokal zugeordnet: Fehlercode 4053
+
+  (
+
+
+
+7) Timeout bei PIN Eingabe: Fehlercode 4043
+
+  (
+
+
+
+7) Abbruch durch Nutzer: Fehlercode 4049
+
+  (
+
+
+
+7) Sind das für die PIN-Eingabe benötigte Kartenterminal oder
+
+          benötigte Teile davon (PIN Pad, Display) durch einen anderen
+
+          zeitgleich im Konnektor ablaufenden Vorgang reserviert, so
+bricht
+
+          der Use Case mit Fehler 4060 ab.
+
+  (
+
+
+
+7) Rückgabewert=
+
+         - transportgeschützt (Transport-PIN oder Leer-PIN), Fehlercode
+
+         4065
+
+  (
+
+
+
+7b) Ungültige PIN-Referenz; Fehlercode 4072
+
+  (
+
+
+
+7b) Karte/Kartenterminal antwortet mit einer spezifischen
+
+         Fehlermeldung, Fehlercode \<gemäß [gemSpec_COS]/[SICCT]\>
+
+Zusätzliche Fehlerfälle ergeben sich aus der Remote-PIN-Eingabe gemäß
+(TIP1-A_5012)
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+</td></tr><tr><td>
+Zugehörige 
+
+Diagramme
+
+</td><td>
+Abbildung PIC_KON_111 Aktivitätsdiagramm zu „PIN verifizieren“
+
+</td></tr></table>
+
+![Img-016][Img-016]
 
 Abbildung10: PIC_KON_111 Aktivitätsdiagramm zu „PIN verifizieren“
 
 Tabelle65: TAB_KON_089 Fehlercodes TUC_KON_012 „PIN verifizieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4001
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Interner Fehler
+
+</td></tr><tr><td>
+4043
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Timeout bei der PIN-Eingabe
+
+</td></tr><tr><td>
+4049
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Abbruch durch den Benutzer
+
+</td></tr><tr><td>
+4053
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Remote-PIN nicht möglich
+
+</td></tr><tr><td>
+4060
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ressource belegt
+
+</td></tr><tr><td>
+4063
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+PIN bereits gesperrt (BLOCKED)
+
+</td></tr><tr><td>
+4065
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+PIN ist transportgeschützt, Änderung erforderlich
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4092
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Remote-PIN-KT benötigt aber für diesen Arbeitsplatz nicht definiert
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3261,11 +16451,378 @@ TUC_KON_019 umsetzen.
 
 Tabelle66: TAB_KON_736 – TUC_KON_019 „PIN ändern“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_019 „PIN ändern“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case führt die Änderung einer PIN einer Karte durch. Dabei wird der
+Anwender am Display des Kartenterminals aufgefordert, alte und neue PIN
+einzugeben.
+
+Remote-PIN-Eingabe wird dabei automatisch unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Karte unterstützt die übergebene pinRef
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Schritt 4: Für eGK G2.0 gilt:
+
+    Wenn pinRef=PIN.AMTS_REP, dann
+
+       rufe TUC_KON_012 „PIN verifizieren“ {
+
+              cardSession;
+
+              workplaceId;
+
+              pinRef=MRPIN.AMTS;
+
+              actionName= „”;
+
+              mandatorisch}
+
+Schritt 7e: Für eGK G2.0 wird der Zustand der MRPINs nicht in AuthState
+gespeichert.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Schritt 7 wird mit allen Teilschritten durchlaufen. Ein als Fehler ausgewiesener
+Zustand führt erst nach Schritt 7e zum Abbruch des TUCs.
+
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden,
+
+   Fehlercode 4094
+
+(
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+      
+
+(
+
+
+
+3) pinStatus=BLOCKED: Fehlercode 4063
+
+(
+
+
+
+5) sourceCardSession benötigt aber leer, Fehlercode 4071
+
+(
+
+
+
+6b) kein Remote-PIN-KT zugeordnet, Fehlercode 4092
+
+(-\>6b) Card.TYP=eGK und Card.CtID ist nicht dem durch workplaceId
+
+      bezeichneten Arbeitsplatz lokal zugeordnet: Fehlercode 4053
+
+(
+
+
+
+7b) neue PIN zu kurz/lang: Fehlercode 4068
+
+(
+
+
+
+7b) zweite neue PIN\<\> erste neue PIN: Fehlercode 4067
+
+      
+
+(
+
+
+
+7b) Timeout bei PIN-Eingabe: Fehlercode 4043.
+
+(
+
+
+
+7b) Abbruch durch Nutzer: Fehlercode 4049.
+
+(
+
+
+
+7b) Ist das Kartenterminal oder Teile davon (PIN-Pad, Display) durch
+
+      einen anderen Vorgang reserviert: Fehlercode 4060
+
+(
+
+
+
+7b) kein PIN-Pad am Kartenterminal verfügbar: Fehlercode 4066
+
+(
+
+
+
+7b) Ungültige PIN-Referenz; Fehlercode 4072
+
+(
+
+
+
+7b) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+
+      \<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+Zusätzliche Fehlerfälle ergeben sich aus der Remote-PIN-Eingabe gemäß
+(TIP1-A_5012)
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle67: TAB_KON_093 Fehlercodes TUC_KON_019 „PIN ändern“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4043
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Timeout bei der PIN-Eingabe
+
+</td></tr><tr><td>
+4049
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Abbruch durch den Benutzer
+
+</td></tr><tr><td>
+4053
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Remote-PIN nicht möglich
+
+</td></tr><tr><td>
+4060
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ressource belegt
+
+</td></tr><tr><td>
+4063
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+PIN bereits blockiert (BLOCKED)
+
+</td></tr><tr><td>
+4066
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+PIN Pad nicht verfügbar
+
+</td></tr><tr><td>
+4067
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+neue PIN nicht identisch
+
+</td></tr><tr><td>
+4068
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+neue PIN zu kurz/zu lang
+
+</td></tr><tr><td>
+4071
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+keine Karte für C2C-Auth gesetzt
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4092
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Remote-PIN-KT benötigt aber für diesen Arbeitsplatz nicht definiert
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3278,11 +16835,356 @@ TUC_KON_021 umsetzen.
 
 Tabelle68: TAB_KON_236 – TUC_KON_021 „PIN entsperren“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_021 „PIN entsperren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case setzt den Fehlbedienungszähler für diese PIN in der Karte auf
+seinen Anfangswert zurück und es wird optional eine neue PIN gesetzt.
+
+Remote-PIN-Eingabe wird dabei automatisch unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Karte unterstützt die übergebene pinRef
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+setNewPin (true/false) - Angabe, ob eine neue PIN gesetzt oder die aktuelle
+weiterverwendet werden soll. Default = false
+
+sourceCardSession -
+
+optional/wenn eGK G1+
+
+(CardSession der Karte, die für die Card-to-Card-Authentisierung bei
+Entsperrung der PIN einer eGK der Generation 1+ verwendet werden soll)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Schritt 4: Für eGK G2.0 gilt:
+
+    Wenn pinRef=PIN.AMTS_REP,  dann
+
+       rufe TUC_KON_012 „PIN verifizieren“ {
+
+              cardSession;
+
+              workplaceId;
+
+              pinRef=MRPIN.AMTS;
+
+              actionName= „”;
+
+              mandatorisch}
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Schritt 7 wird mit allen Teilschritten durchlaufen. Ein als Fehler ausgewiesener
+Zustand führt erst nach Schritt 7d zum Abbruch des TUCs.
+
+  * Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD
+
+         Sekunden, Fehlercode 4094
+
+  (
+
+
+
+2) Karte wird in einer anderen Kartensitzung exklusiv
+
+         verwendet, Fehlercode 4093
+
+  (
+
+
+
+5) sourceCardSession benötigt aber leer, Fehlercode 4071  
+
+  (
+
+
+
+6b) kein Remote-PIN-KT zugeordnet, Fehlercode 4092
+
+  (
+
+
+
+6b) Card.TYP=eGK und Card.CtID ist nicht dem durch workplaceId
+
+         bezeichneten Arbeitsplatz lokal zugeordnet: Fehlercode 4053
+
+  (
+
+
+
+7b) blockierte PUK: Fehlercode 4064
+
+  (
+
+
+
+7b) neue PIN zu kurz/lang: Fehlercode 4068
+
+  (
+
+
+
+7b) zweite neue PIN\<\> erste neue PIN: Fehlercode 4067
+
+  (
+
+
+
+7b) Timeout bei PIN Eingabe: Fehlercode 4043.
+
+  (
+
+
+
+7b) Abbruch durch Nutzer: Fehlercode 4049.
+
+  (
+
+
+
+7b) Ist das Kartenterminal oder Teile davon (PIN-Pad, Display) durch
+
+        einen anderen Vorgang reserviert: Fehlercode 4060
+
+  (
+
+
+
+7b) Karte/Kartenterminal antwortet mit einer spezifischen
+
+        Fehlermeldung, Fehlercode \<gemäß [gemSpec_COS]/[SICCT]\>
+
+  (
+
+
+
+7b) Ungültige PIN-Referenz; Fehlercode 4072.
+
+Zusätzliche Fehlerfälle ergeben sich aus der Remote-PIN-Eingabe gemäß
+(TIP1-A_5012)
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle69: TAB_KON_193 Fehlercodes TUC_KON_021 „PIN entsperren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4043
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Timeout bei der PIN-Eingabe
+
+</td></tr><tr><td>
+4049
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Abbruch durch den Benutzer
+
+</td></tr><tr><td>
+4053
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Remote-PIN nicht möglich
+
+</td></tr><tr><td>
+4060
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ressource belegt
+
+</td></tr><tr><td>
+4064
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+alte PIN bereits blockiert (hier: PUK)
+
+</td></tr><tr><td>
+4067
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+neue PIN nicht identisch
+
+</td></tr><tr><td>
+4068
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+neue PIN zu kurz/zu lang
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4092
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Remote-PIN-KT benötigt aber für diesen Arbeitsplatz nicht definiert
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3295,11 +17197,172 @@ TUC_KON_022 umsetzen.
 
 Tabelle70TAB_KON_532 – TUC_KON_022 „Liefere PIN-Status“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_022 „Liefere PIN-Status“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case prüft den Zustand eines PIN-Objekts einer Karte im Kontext
+einer CardSession.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Karte unterstützt die übergebene pinRef
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ 1.         Ermittle Card = CM_CARD_LIST(cardSession)  
+ 2.      
+  Prüfe, dass der Karte entweder kein Lock zugeordnet ist oder der 
+
+       Aufrufer das Karten-Lock besitzt.  
+ 3.         pinRef
+in CardSession.AUTHSTATE vorhanden:  
+   a) Ja:    Setze pinStatus =
+VERIFIED oder DISABLED (wie in  
+                AUTHSTATE) 
+
+   b) Nein:Aufruf der Kartenoperation „GET PIN STATUS“, Antwort der 
+
+                Karte wird ausgewertet: 
+
+                a.             ´90 00´ (NoError:
+Verifiziert ): pinStatus =  
+                    
+VERIFYABLE  (da nicht in dieser CardSession verifiziert) 
+
+                b.             ´62 C1´: pinStatus
+= TRANSPORT_PIN  
+                c.             ´62
+C7´: pinStatus = EMPTY_PIN (Leer-PIN)  
+               
+d.             ´63 Cx´: pinStatus = VERIFYABLE  (mit 1\<= x \<=
+3);  
+                    LeftTries=x 
+
+                e.             ´63 C0´: pinStatus
+= BLOCKED; leftTries=0  
+               
+f.              ´62 D0´: pinStatus = DISABLED (Verifikation
+nicht  
+                    erforderlich, da PIN-Schutz
+ausgeschaltet);  
+                    cardSession.AUTHSTATE
+aktualisieren  
+                g.             
+Antwortet die Karte mit einer Fehlermeldung, bricht 
+
+                    der TUC ab.  
+Liefere leftTries nur in
+den Fällen d und e zurück.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden,  
+      
+Fehlercode 4094  
+(3b) pinRef nicht gefunden: Fehlercode 4072
+
+</td></tr><tr><td>
+Zugehörige  
+Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle71: TAB_KON_091 Fehlercodes TUC_KON_022 „Liefere PIN-Status“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3312,17 +17375,462 @@ ein-/ausschalten“ umsetzen.
 
 Tabelle72: TAB_KON_240 - TUC_KON_027 „PIN-Schutz ein-/ausschalten”
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_027 „PIN-Schutz ein-/ausschalten”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Schaltet das Erfordernis, die PIN zu verifizieren, ein bzw. aus.
+
+Diese Operation wird nur unterstützt für PINs der EGK G2 gemäß
+[gemSpec_eGK_ObjSys]; für sie können folgende Kommandos auf das
+Passwortobjekt angewendet werden:
+
+ ---> UL
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Karte unterstützt die übergebene pinRef
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ 1. Ermittle Card = CM_CARD_LIST(cardSession)
+
+ 2. Prüfe, dass der Karte entweder kein Lock zugeordnet ist oder der
+
+     Aufrufer im Besitz des Karten-Locks ist.
+
+ 3. Prüfe Card.Type = EGK und Generation ≥ 2
+
+ 4. Prüfe pinRef = MRPIN.AMTS und Card.Type = EGK
+
+               und Generation \> 2.0
+
+ 5. Wenn enable
+
+A: =true:
+
+        Atomare Operation: PIN bearbeiten inkl. Eventing und
+
+        Ergebnisvermerk
+
+         a.            Rufe TUC_KON_256 {
+
+                   topic = „CARD/PIN/ENABLE_STARTED“;
+
+                   eventType = Op;
+
+                   severity = Info;
+
+                   parameters = („CardHandle=$, CardType=$,
+
+                              ICCSN=$, CtID=$, SlotID=$,
+PinRef=$,
+
+                              PinInputCtID=$PinInputKT“);
+
+                   doLog =
+
+false }
+
+         b.            Aufruf des Kartenterminalkommandos
+„SICCT PERFORM
+
+             VERIFICATION“ mit der Kartenoperation „ENABLE
+
+             VERIFICATION REQUIREMENT” als Command-To-Perform. Es
+
+              ist der Parameter P1=’00’ (mit
+Benutzerverifikation) zu
+
+             verwenden. Die Anzeige am KT erfolgt entsprechend
+
+             TAB_KON_090 Terminalanzeigen beim Eingeben der PIN am
+
+              Kartenterminal. Ersetze in displayMessage „ANW“
+entsprechend
+
+             ANW(pinRef) gemäß Tabelle TAB_KON_838.
+
+          c.           Setze pinResult in Abhängigkeit von
+Ergebnis Perform
+
+             Verification:
+
+                    -          pinResult = OK für
+erfolgreiche Änderung
+
+                    -          pinResult = ERROR
+für Nutzer-Abbruch oder
+
+                     Bearbeitungsfehler (siehe Fehlerfälle)
+
+                -              pinResult = REJECTED
+für falsche PIN;
+
+                     leftTries = x (bei Kartenantwort ´63
+Cx´, x \> 0)
+
+                -              pinResult = BLOCKED
+für gesperrte PIN (bei
+
+                     Kartenantwort ´63 C0´)
+
+         d.           Rufe TUC_KON_256 {
+
+                   topic =„CARD/PIN/ENABLE_FINISHED“;
+
+                   eventType = Op;
+
+                   severity = Info;
+
+                   parameters = („CardHandle=$, CardType=$,
+
+                           ICCSN=$, CtID=$, SlotID=$,
+PinRef=$,
+
+                           PinInputCtID=$PinInputKT”);
+
+                   doLog =
+
+false }
+
+B: =false:
+
+          Atomare Operation: PIN bearbeiten inkl. Eventing und
+
+         Ergebnisvermerk
+
+         a.             Rufe TUC_KON_256 {
+
+                   topic = „CARD/PIN/DISABLE_STARTED“;
+
+                   eventType = Op;
+
+                   severity = Info;
+
+                   parameters = („CardHandle=$, CardType=$,
+
+                           ICCSN=$, CtID=$, SlotID=$, PinRef=$,
+
+                           PinInputCtID=$PinInputKT“);
+
+                   doLog =
+
+false }
+
+         b.             Aufruf des Kartenterminalkommandos
+„SICCT PERFORM
+
+            VERIFICATION“ mit der Kartenoperation „DISABLE
+
+            VERIFICATION REQUIREMENT” als Command-To-Perform. Es
+
+            ist der Parameter P1=’00’ (mit Benutzerverifikation)
+zu
+
+            verwenden. Die Anzeige am KT erfolgt entsprechend
+
+            TAB_KON_090 Terminalanzeigen beim Eingeben der PIN am
+
+            Kartenterminal. Ersetze in displayMessage „ANW“
+entsprechend
+
+            ANW(pinRef) gemäß Tabelle TAB_KON_838.
+
+         c.             Setze pinResult in Abhängigkeit
+von Ergebnis Perform
+
+              Verification:
+
+                     -             pinResult = OK
+für erfolgreiche Änderung
+
+                     -             pinResult =
+ERROR für Nutzer-Abbruch oder
+
+                       Bearbeitungsfehler (siehe Fehlerfälle)
+
+                -                  pinResult =
+REJECTED für falsche PIN;
+
+                       leftTries = x (bei Kartenantwort ´63
+Cx´, x \> 0)
+
+                -                  pinResult =
+BLOCKED für gesperrte PIN
+
+         d.            Rufe TUC_KON_256 {
+
+               topic = „CARD/PIN/DISABLE_FINISHED“;
+
+               eventType = Op;
+
+               severity = Info;
+
+               parameters = („CardHandle=$, CardType=$,
+
+                      ICCSN=$;CtID=$, SlotID=$, PinRef=$,
+
+                      PinInputCtID=$PinInputKT”);  
+
+                      doLog=false}
+
+6. Liefere pinResult und leftTries zurück
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+(-\>3) zur Optimierung kann vor Schritt 5 der PIN-Schutz geprüft werden:
+
+ a.         pinStatus=TUC_KON_022 „Liefere PIN-Status“ {
+cardSession;
+
+       pinRef }
+
+ b.         Wenn pinStatus\<\>DISABLED und enable=true, dann
+
+        pinResult=OK und -\> weiter in Schritt 6
+
+ c.         Wenn pinStatus=DISABLED und enable=false, dann
+
+       pinResult=OK und -\> weiter in Schritt 6
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+2) Karte ist fremd reserviert: Fehlercode 4093
+
+(
+
+
+
+3) Karte ist keine eGK der Generation 2 oder höher: Fehlercode 4209
+
+(
+
+
+
+4) PIN nicht gefunden; Karte ist eGK G2.0: Die Operation „PIN-Schutz
+ein-/ausschalten“ wird für MRPIN.AMTS nicht unterstützt: Fehlercode 4072
+
+(
+
+
+
+5) Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden: Fehlercode
+4094
+
+(
+
+
+
+5) PIN nicht gefunden: Fehlercode 4072
+
+(
+
+
+
+5) PIN gesperrt: Fehlercode 4063
+
+(
+
+
+
+5) Zugriffsbedingung nicht erfüllt (PIN nicht abschaltbar): Fehlercode 4085
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle73: TAB_KON_838 Mapping von pinRef auf ANW
 
- ---> TABLE
+<table><tr><th>
+pinRef
+
+</th><th>
+ANW (max. 16 Zeichen)
+
+</th></tr><tr><td>
+MRPIN.NFD
+
+</td><td>
+Notfalldaten
+
+</td></tr><tr><td>
+MRPIN.DPE
+
+</td><td>
+Pers.Erklärungen
+
+</td></tr><tr><td>
+MRPIN.AMTS
+
+</td><td>
+Medikationsdaten
+
+</td></tr><tr><td>
+MRPIN.GDD
+
+</td><td>
+PIN•GDD
+
+</td></tr></table>
 
 Hinweis zu TAB_KON_838: Leerzeichen werden als "•" dargestellt.
 
 Tabelle74: TAB_KON_241 Fehlercodes TUC_KON_027 „PIN-Schutz ein/ausschalten“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4063
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+PIN bereits blockiert
+
+(BLOCKED)
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingung nicht erfüllt
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3335,11 +17843,194 @@ TUC_KON_023 umsetzen.
 
 Tabelle75: TAB_KON_533 - TUC_KON_023 „Karte reservieren”
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_023 „Karte reservieren”
+
+Dem Aufrufer des TUC_KON_023 wird beim Reservieren (DoLock=Ja) der Karte
+
+zur ausschließlichen Nutzung
+
+ein Lock zugeordnet. Wird der TUC-KON_023 mit diesem Lock zum Freigeben der
+Reservierung (DoLock=Nein) aufgerufen, dann erlischt das Lock und
+
+die ausschließliche Nutzung wird beendet
+
+. Der Scope der Kartenreservierung wird vom Aufrufer des TUC_KON_023 gesteuert.
+
+Das Lock ist Konnektor-intern. Es darf nicht außerhalb des Konnektors
+referenzierbar sein. Zwei verschiedene Operationsaufrufe am Konnektor dürfen
+nie ein identisches Lock haben.
+
+Der Konnektor MUSS sicherstellen, dass auch im Fehlerfall die Reservierung zu
+einem Lock aufgehoben wird.
+
+Ein Lock
+
+darf nicht
+
+dauerhaft besteh
+
+en
+
+.
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Reservierung der Karte
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ 1. Ermittle Card = CM_CARD_LIST(cardSession)
+
+ 2. Wenn doLock
+
+A: = true:
+
+       i.            Prüfe, dass der zur cardSession
+gehörenden Karte kein  
+           Lock zugeordnet ist
+
+       ii.           Dem Aufrufer wird ein Lock auf die zur
+cardSession  
+           gehörende Karte zugeordnet. Es wird nicht
+explizit als  
+           Ausgangsdatum modelliert, sondern der
+Aufrufer hat das Lock  
+           durch die Zuordnung, muss es aber
+nicht verwalten.
+
+B: = false:
+
+       i.            Prüfe, dass der Aufrufer für die zur
+cardSession gehörende  
+           Karte ein Lock hat.
+
+       ii.           Das der Karte zugeordnete Lock wird
+gelöscht.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+2Ai) Karte bereits reserviert, Fehlercode 4093
+
+(
+
+
+
+2Bi) Karte nicht durch Aufrufer reserviert, Fehlercode 4001
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle76: TAB_KON_534 Fehlercodes TUC_KON_023 „Karte reservieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4001
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+interner Fehler
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte bereits reserviert
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3379,20 +18070,530 @@ Verfahren der elliptischen Kurven verwenden.
 
 Tabelle77: TAB_KON_096 – TUC_KON_005 „Card-to-Card authentisieren”
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_005 „Card-to-Card authentisieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Durchführung einer Card-to-Card-Authentisierung
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Wert von Source_CARDSESSION.AUTHSTATE: wenn Quellkarte
+
+a) ein HBA ist: CHV; PIN.CH, verifiziert
+
+b) eine SMC-B ist: CHV; PIN.SMC verifiziert
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karten, Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+(
+
+
+
+9) Wenn der für die CA-Zertifikatsprüfung zu selektierende CVC-Root-Key auf
+der Zielkarte nicht vorhanden ist (Returncode des Kartenkommandos „MANAGE
+SECURITY ENVIRONMENT“ ist ’6A 88’), dann muss der Konnektor:
+
+ a)      das oder die passenden Cross-CV-Zertifikate aus dem Truststore 
+
+    auswählen
+
+ b)      mit dem Kartenkommando „PSO Verify Certificate“ jedes 
+
+    ausgewählte Cross-CV-Zertifikat durch die Zielkarte prüfen lassen. 
+
+     Dadurch wird der im Cross-CV-Zertifikat enthaltene öffentliche 
+
+     Schlüssel an die Zielkarte übertragen. Die Zielkarte speichert den 
+
+    darin enthaltenen neuen CVC-Root-Key.
+
+ c)      den neuen CVC-Root-Key auf der Zielkarte selektieren
+
+ d)      den Standardablauf der C2C-Authentisierung fortsetzen
+
+(
+
+
+
+9) Wenn tCard.TYPE=EGK und AuthMode=gegenseitig,  
+      dann
+Echtheitsprüfung der eGK durch den Konnektor:
+
+ a)      Freischaltung der EGK durch den HBA/die SMC-B: 
+
+     Durchführen der Authentisierung gemäß Tabelle TAB_KON_673 mit
+Key-Referenzen gemäß Tabelle TAB_KON_674 aber mit AuthMode=einseitig
+
+ b)      Konnektor liest das CA-Zertifikat EF.C.CA_eGK.CS (G1+) bzw. 
+
+     C.CA_eGK.CS.E256 (G2)
+
+ c)      Konnektor liest das End-Entity-Zertifikat der EGK  
+   
+EF.C.eGK.AUT_CVC (G1+) bzw. EF.C.eGK.AUT_CVC.E256 (G2)
+
+ d)      Konnektor prüft das CVC-EE-Zertifikat mit TUC_KON_042 „CV- 
+
+    Zertifikat prüfen“ {  
+         certificate =
+C.eGK.AUT_CVC/C.eGK.AUT_CVC.E256;  
+         caCertificate  =
+C.CA_eGK.CS/C.CA_eGK.CS.E256 }
+
+ e)      Konnektor erzeugt Zufallszahl
+
+ f)       Konnektor selektiert den PrK.eGK.AUT_CVC (G1+) bzw.  
+ 
+PrK.eGK.AUT_CVC.E256 (G2) und stellt abhängig von der Version  
+   der eGK
+den Algorithmus auf der eGK ein (MSE Set)
+
+ g)      Konnektor sendet Konkatenation aus Zufallszahl und  
+  
+CARD.ICCSN mit dem Befehl „INTERNAL AUTHENTICATE“ an die  
+   eGK
+
+ h)      Konnektor wertet das von der Karte erhaltene Chiffrat aus
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+3) Eine Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+5) Zertifikat der Quellkarte fehlerhaft. Ausstellungsdatum liegt in der Zukunft;
+Fehlercode 4233
+
+(
+
+
+
+6) eGK G1+ ausgealtert, Fehlercode 4192
+
+(
+
+
+
+8) Nötige PIN, bzw. KeyRef ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+9) Je nachdem, welche Karte den Fehler verursachte, wird zum ursprünglichen
+Fehler (Fehlercode gemäß [gemSpec_COS]) im Error-Trace (welcher an erster
+Stelle im Falle des HBA z. B. bereits ein Fehler bezüglich PIN-Verifikation
+enthalten kann) noch ein weiterer mit Code 4056 oder 4057 hinzugefügt. Kann
+der Fehler nicht eindeutig einer der beiden Karten zugeordnet so wird
+Error-Code 4048 verwendet.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle78: TAB_KON_673 AuthMode für C2C
 
- ---> TABLE
+<table><tr><th>
+AuthMode
+
+</th><th>
+Definition des Ablaufs
+
+</th></tr><tr><td>
+einseitig
+
+</td><td>
+Externe oder Interne Authentisierung  
+([gemSpec_COS#15.1] oder
+[gemSpec_COS#15.2], passend zu den Zugriffsregeln der beteiligten CVC)
+
+</td></tr><tr><td>
+gegenseitig
+
+</td><td>
+Card-2-Card-Authentisierung ohne Sessionkey-Aushandlung ([gemSpec_COS#15.3])
+
+</td></tr><tr><td>
+gegenseitig+TC
+
+</td><td>
+Card-2-Card-Authentisierung mit Sessionkey-Aushandlung zur Etablierung eines
+Trusted Channels ([gemSpec_COS#15.4])
+
+</td></tr></table>
 
 Tabelle79: TAB_KON_674 Erlaubte Parameterkombinationen und resultierende
 CV-Zertifikate für C2C
 
- ---> TABLE
+<table><tr><th>
+Quellkarte
+
+</th><th>
+Zielkarte
+
+</th><th>
+AuthMode
+
+</th><th>
+sKeyRef
+
+</th><th>
+tKeyRef
+
+</th><th>
+Fachlicher  
+UseCase
+
+</th></tr><tr><td>
+HBA  
+oder  
+SM-B
+
+</td><td>
+eGK G1+
+
+</td><td>
+einseitig
+
+</td><td>
+{HPC.AUTR_  
+CVC.R2048 |  
+SMC.AUTR_  
+CVC.R2048}
+
+</td><td>
+</td><td>
+Freischaltung  
+eGK
+
+</td></tr><tr><td>
+HBA  
+oder  
+SM-B
+
+</td><td>
+eGK G1+
+
+</td><td>
+gegen  
+seitig
+
+</td><td>
+{HPC.AUTR_  
+CVC.R2048 |  
+SMC.AUTR_  
+CVC.R2048}
+
+</td><td>
+eGK.AUT_  
+CVC.R2048
+
+</td><td>
+Freischaltung  
+eGK mit  
+Echtheits  
+prüfung eGK
+
+</td></tr><tr><td>
+HBA  
+oder  
+SM-B
+
+</td><td>
+eGK G2
+
+</td><td>
+einseitig
+
+</td><td>
+{HPC.AUTR_  
+CVC.E256 |  
+SMC.AUTR_  
+CVC.E256}
+
+</td><td>
+</td><td>
+Freischaltung  
+eGK
+
+</td></tr><tr><td>
+HBA  
+oder  
+SM-B
+
+</td><td>
+eGK G2
+
+</td><td>
+gegen  
+seitig
+
+</td><td>
+{HPC.AUTR_  
+CVC.E256 |  
+SMC.AUTR_  
+CVC.E256}
+
+</td><td>
+eGK.AUT_  
+CVC.E256
+
+</td><td>
+Freischaltung  
+eGK mit  
+Echtheits  
+prüfung eGK
+
+</td></tr><tr><td>
+SMC-K
+
+</td><td>
+HBA
+
+</td><td>
+gegen  
+seitig+TC
+
+</td><td>
+SAK.AUTD_  
+CVC.E256
+
+</td><td>
+HPC.AUTD_  
+SUK_CVC.E256
+
+</td><td>
+DTBS-  
+Übertragung  
+bei QES
+
+</td></tr><tr><td>
+SMC-KT
+
+</td><td>
+HBA
+
+</td><td>
+gegen  
+seitig+TC
+
+</td><td>
+SMC.AUTD_  
+RPS_CVC.E256
+
+</td><td>
+HPC.AUTD_  
+SUK_CVC.E256
+
+</td><td>
+Remote-PIN
+
+</td></tr><tr><td>
+SMC-KT
+
+</td><td>
+SM-B
+
+</td><td>
+gegen  
+seitig+TC
+
+</td><td>
+SMC.AUTD_  
+RPS_CVC.E256
+
+</td><td>
+SMC.AUTD_  
+RPE_CVC.E256
+
+</td><td>
+Remote-PIN
+
+</td></tr></table>
 
 Tabelle80: TAB_KON_535 Fehlercodes TUC_KON_005 „Card-to-Card authentisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4048
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler bei der C2C-Authentisierung
+
+</td></tr><tr><td>
+4056
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler bei der C2C-Authentisierung, Quellkarte
+
+</td></tr><tr><td>
+4057
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler bei der C2C-Authentisierung, Zielkarte
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr><tr><td>
+4192
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+C2C mit eGK G1+ ab 01.01.2019  nicht mehr gestattet
+
+</td></tr><tr><td>
+4233
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Ausstellungsdatum des Zertifikats liegt in der Zukunft;
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3405,11 +18606,181 @@ umsetzen.
 
 Tabelle81: TAB_KON_218 – TUC_KON_202 „LeseDatei“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_202 „LeseDatei“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Transparente Datei oder Teile davon lesen
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte MUSS den nötigen Sicherheitszustand für den Zugriff besitzen
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Wenn Card.TYPE = KVK, sendet der Konnektor in diesem Fall ein "Read Binary" im
+Sinne von SICCT 1.2.1, 5.5.8.1 "Kommandos für synchrone Chipkarten".
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+3) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+5) Verzeichnis deaktiviert, Fehlercode 4086
+
+(
+
+
+
+4-5) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle82: TAB_KON_536 Fehlercodes TUC_KON_202 „LeseDatei“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4086
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verzeichnis deaktiviert
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3422,11 +18793,243 @@ TUC_KON_203 umsetzen.
 
 Tabelle83: TAB_KON_219 – TUC_KON_203 „SchreibeDatei“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_203 „SchreibeDatei“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Daten in transparente Datei schreiben
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte MUSS den nötigen Sicherheitszustand für den Zugriff
+
+besitzen.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Schreibzugriff auf KVK nicht gestattet, Fehlercode 4085
+
+(
+
+
+
+3) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+4) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+5) Verzeichnis oder Datei existiert nicht, Fehlercode 4087
+
+(
+
+
+
+4-5) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+(
+
+
+
+6) Ausgewählte Datei ist nicht transparent, Fehlercode 4089
+
+(
+
+
+
+6) Verzeichnis deaktiviert, Fehlercode 4086
+
+(
+
+
+
+8) dataToBeWritten sind größer als der zur Verfügung stehende Speicherplatz,
+Fehlercode 4247
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle84: TAB_KON_537 Fehlercodes TUC_KON_203 „Schreibe Datei“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4086
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verzeichnis deaktiviert
+
+</td></tr><tr><td>
+4087
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei nicht vorhanden
+
+</td></tr><tr><td>
+4089
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei ist vom falschen Typ
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr><tr><td>
+4247
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Speicherplatz auf der Karte nicht ausreichend
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3439,11 +19042,232 @@ TUC_KON_204 umsetzen.
 
 Tabelle85: TAB_KON_204 – TUC_KON_204 „LöscheDateiInhalt“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_204 „LöscheDateiInhalt“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Inhalt einer transparenten Datei löschen
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte MUSS den nötigen Sicherheitszustand für den Zugriff besitzen
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Karte ist keine eGK der Generation 2 oder höher: Fehlercode 4209 (
+
+
+
+3) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+4) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+5) Verzeichnis oder Datei existiert nicht, Fehlercode 4087
+
+(
+
+
+
+6) Ausgewählte Datei ist nicht transparent, Fehlercode 4089
+
+(
+
+
+
+6) Verzeichnis deaktiviert, Fehlercode 4086
+
+(
+
+
+
+5-6) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle86: TAB_KON_785 Fehlercodes TUC_KON_204 „LöscheDateiInhalt“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4086
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verzeichnis deaktiviert
+
+</td></tr><tr><td>
+4087
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei nicht vorhanden
+
+</td></tr><tr><td>
+4089
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei ist vom falschen Typ
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3456,11 +19280,216 @@ umsetzen.
 
 Tabelle87: TAB_KON_538 – TUC_KON_209 „LeseRecord“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_209 „LeseRecord"
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Daten aus strukturierter Datei lesen
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte MUSS den nötigen Sicherheitszustand für den Zugriff besitzen
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+3) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+4) Verzeichnis oder Datei oder Record existiert nicht, Fehlercode 4087
+
+(
+
+
+
+5) Wenn Karte WrongFileType liefert, Fehlercode 4089
+
+(
+
+
+
+5) Verzeichnis deaktiviert, Fehlercode 4086
+
+(
+
+
+
+4-5) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle88: TAB_KON_539 Fehlercodes TUC_KON_209 „LeseRecord“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4086
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verzeichnis deaktiviert
+
+</td></tr><tr><td>
+4087
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei nicht vorhanden
+
+</td></tr><tr><td>
+4089
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei ist vom falschen Typ
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3473,11 +19502,216 @@ TUC_KON_210 umsetzen.
 
 Tabelle89: TAB_KON_224 – TUC_KON_210 „SchreibeRecord“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_210 „SchreibeRecord"
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Daten in lineare Datei schreiben
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte MUSS den nötigen Sicherheitszustand für den Zugriff besitzen
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Schreibzugriff auf KVK nicht gestattet, Fehlercode 4085
+
+(
+
+
+
+3) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+4) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+5) Verzeichnis, Datei existiert nicht, Fehlercode 4087
+
+(
+
+
+
+5-6) Verzeichnis deaktiviert, Fehlercode 4086
+
+(
+
+
+
+4-6) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle90: TAB_KON_540 Fehlercodes TUC_KON_210 „SchreibeRecord“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4086
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verzeichnis deaktiviert
+
+</td></tr><tr><td>
+4087
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei nicht vorhanden
+
+</td></tr><tr><td>
+4088
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datensatz zu groß
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3490,11 +19724,238 @@ TUC_KON_211 umsetzen.
 
 Tabelle91: TAB_KON_211 – TUC_KON_211 „LöscheRecordInhalt“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_211 „LöscheRecordInhalt“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Inhalt eines Records einer strukturierten Datei löschen
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte MUSS den nötigen Sicherheitszustand für den Zugriff besitzen
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+ ---> UL
+
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Karte ist keine eGK der Generation 2 oder höher: Fehlercode 4209
+
+(
+
+
+
+3) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+4) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+5) Verzeichnis, Datei oder Record existiert nicht, Fehlercode 4087
+
+(
+
+
+
+6) Verzeichnis deaktiviert, Fehlercode 4086
+
+(
+
+
+
+6) Record nicht vorhanden, Fehlercode 4091
+
+(
+
+
+
+5-6) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle92: TAB_KON_786 Fehlercodes TUC_KON_211 „LöscheRecordInhalt“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4086
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verzeichnis deaktiviert
+
+</td></tr><tr><td>
+4087
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei nicht vorhanden
+
+</td></tr><tr><td>
+4091
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Record nicht vorhanden
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3507,11 +19968,204 @@ TUC_KON_214 umsetzen.
 
 Tabelle93: TAB_KON_228 – TUC_KON_214 „FügeHinzuRecord“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_214 „FuegeHinzuRecord"
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Daten in lineare Datei anfügen
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte MUSS den nötigen Sicherheitszustand für den Zugriff besitzen
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Schreibzugriff auf KVK nicht gestattet, Fehlercode 4085
+
+(
+
+
+
+3) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+4) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+5-6) Verzeichnis, Datei existiert nicht, Fehlercode 4087
+
+(
+
+
+
+6) Verzeichnis deaktiviert, Fehlercode 4086
+
+(
+
+
+
+5-6) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle94: TAB_KON_541 Fehlercodes TUC_KON_214 „FügeHinzuRecord“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4086
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verzeichnis deaktiviert
+
+</td></tr><tr><td>
+4087
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei nicht vorhanden
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3524,11 +20178,198 @@ TUC_KON_215 umsetzen.
 
 Tabelle95: TAB_KON_229 – TUC_KON_215 „SucheRecord“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_215 „SucheRecord"
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Daten in linearer Datei suchen
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte MUSS den nötigen Sicherheitszustand für den Zugriff besitzen
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD-Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+3) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+4-5) Verzeichnis, Datei existiert nicht, Fehlercode 4087
+
+(
+
+
+
+5) Verzeichnis deaktiviert, Fehlercode 4086
+
+(
+
+
+
+4-5) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle96: TAB_KON_542 Fehlercodes TUC_KON_215 „SucheRecord“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4086
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Verzeichnis deaktiviert
+
+</td></tr><tr><td>
+4087
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Datei nicht vorhanden
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3541,11 +20382,129 @@ TUC_KON_018 umsetzen.
 
 Tabelle97: TAB_KON_110 - TUC_KON_018 „eGK-Sperrung prüfen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_018 „eGK-Sperrung prüfen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird geprüft, dass DF.HCA (Health Care Application) der eGK nicht gesperrt
+ist und optional, dass das AUT-Zertifikat im DF.ESIGN gültig ist.  
+Für eine
+Karte ab der Generation G2.1 wird das AUT-Zertifikat (ECC) geprüft.  
+Für
+eine Karte der Generation G2.0 wird das AUT-Zertifikat (RSA) geprüft.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch Fachmodul im Konnektor
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, eGK
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+    In allen anderen Fällen ist die Karte gesperrt = false.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle98: TAB_KON_239 Fehlercodes TUC_KON_018 „eGK-Sperrung prüfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3558,12 +20517,141 @@ schreiben“ gemäß TUC_KON_006 umsetzen.
 
 Tabelle99: TAB_KON_108 - TUC_KON_006 „Datenzugriffsaudit eGK schreiben“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_006 „Datenzugriffsaudit eGK schreiben“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Zugriff auf eGK in EF.Logging protokollieren.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+eGK, HBA/SMC, Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+2) Protokoll nur für eGK gestattet, Fehlercode 4251
+
+(
+
+
+
+3) Karte ist fremd reserviert, Fehlercode 4093
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle100: TAB_KON_238 Fehlercodes TUC_KON_006 „Datenzugriffsaudit eGK
 schreiben“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4251
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Protokoll nur für eGK gestattet
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3576,11 +20664,163 @@ umsetzen.
 
 Tabelle101: TAB_KON_231 – TUC_KON_218 „Signiere“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_218 „Signiere“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case beschreibt das Anwenden eines privaten Schlüssels einer Karte
+zur Signatur oder Authentisierung.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Zugriffsbedingung für referenzierten Schlüssel MUSS erfüllt sein
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+3) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+5) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle102: TAB_KON_543 Fehlercodes TUC_KON_218 „Signiere“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3593,11 +20833,207 @@ TUC_KON_219 umsetzen.
 
 Tabelle103: TAB_KON_232 – TUC_KON_219 „Entschlüssele“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_219 „Entschlüssele“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case beschreibt das Anwenden eines privaten Schlüssels einer Karte
+zur Entschlüsselung.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Zugriffsbedingung für referenzierten Schlüssel muss erfüllt sein
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte(n), Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+3) Nötige PIN ist nicht verifiziert, Fehlercode 4085
+
+(
+
+
+
+5) Schlüssel nicht vorhanden, Fehlercode 4079
+
+(
+
+
+
+6) Fehler im Chiffrat: Fehlercode 4069
+
+(
+
+
+
+4, 6) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle104: TAB_KON_210 Fehlercodes TUC_KON_219 „Entschlüssele“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4069
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+korruptes Chiffrat bei asymmetrischer Entschlüsselung
+
+</td></tr><tr><td>
+4079
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Schlüsseldaten fehlen
+
+</td></tr><tr><td>
+4085
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriffsbedingungen nicht erfüllt
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3610,11 +21046,168 @@ umsetzen.
 
 Tabelle105: TAB_KON_215 TUC_KON_200 „SendeAPDU“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_200 „SendeAPDU“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case beschreibt das Senden einer APDU an eine Chipkarte bzw. an ein
+Kartenterminal und das Empfangen der Antwort.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Zugriffsbedingungen für das Kommando müssen in der Karte erfüllt sein und
+Karte muss für exklusiven Zugriff reserviert worden sein
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte(n), Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+A. cardSession ist gegeben
+
+ ---> OL
+
+B. ctId ist gegeben
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Der Aufrufer ist nicht im Besitz des Karten-Locks, Fehlercode 4232
+
+(
+
+
+
+3) Kommunikationsfehler mit dem Kartenterminal: Fehlercode 4044.
+
+(
+
+
+
+3) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle106: TAB_KON_216 Fehlercodes TUC_KON_200 „SendeAPDU“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4044
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Zugriff auf das Kartenterminal
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr><tr><td>
+4232
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+der Aufrufer besitzt nicht das Karten-Lock
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3627,11 +21220,146 @@ TUC_KON_024 umsetzen.
 
 Tabelle107: TAB_KON_737 – TUC_KON_024 „Karte zurücksetzen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_024 „Karte zurücksetzen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der technische Use Case setzt die gewählte Karte zurück (alle erreichten
+Sicherheitszustände werden auf der Karte und in der Verwaltung des Konnektors
+zurückgesetzt; auf der Karte wird MF selektiert). Ein eventuell laufendes C2C
+wird dabei abgebrochen.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Der Aufrufer ist nicht im Besitz des Karten-Locks, Fehlercode 4232
+
+(
+
+
+
+4) Karte antwortet mit einer spezifischen Fehlermeldung, Fehlercode
+\<Kartenfehlercode gemäß [gemSpec_COS]\>
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle108: TAB_KON_544 Fehlercodes TUC_KON_024 „Karte zurücksetzen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr><tr><td>
+4232
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+der Aufrufer ist nicht im Besitz des Karten-Locks
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3644,11 +21372,136 @@ TUC_KON_216 umsetzen.
 
 Tabelle109: TAB_KON_230 – TUC_KON_216 „LeseZertifikat“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_216 „LeseZertifikat“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser Use Case beschreibt das Lesen eines Zertifikates von einer Karte
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(2) Karte ist fremd reserviert, Fehlercode 4093  
+(-\>4) Es wurde versucht,
+ein Zertifikat von der Karte zu lesen, welches auf der Karte nicht vorhanden
+ist (Fehlercode 4256). Hierbei kann es sich um ein fehlendes Zertifikatsobjekt
+(z.B. adressiertes ECC-Zertifikat auf HBA G2.0) oder ein leeres
+Zertifikatsobjekt (z.B. adressiertes ECC-Zertifikat auf gSMC-K G2.0, welches
+aber nicht personalisiert wurde) handeln.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle110: TAB_KON_209 Fehlercodes TUC_KON_216 „LeseZertifikat“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4256
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Zertifikat auf Karte nicht vorhanden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3661,11 +21514,170 @@ Der Konnektor MUSS den technischen Use Case TUC_KON_036
 
 Tabelle111: TAB_KON_827 TUC_KON_036 „LiefereFachlicheRolle“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_036 „LiefereFachlicheRolle“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC liefert die fachliche Rolle, die der OID aus dem X.509Zertifikat der
+gesteckten Karte zugeordnet ist.
+
+Es werden nur folgende Karten unterstützt:  
+HBAx, SM-B, EGK, KVK
+
+Es werden nur die AUT-Zertifikate ausgelesen.  
+Für eine Karte ab der
+Generation G2.1 wird das AUT-Zertifikat (ECC) geprüft.  
+Für eine Karte der
+Generation G2.0 wird das AUT-Zertifikat (RSA) geprüft.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Karte
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+* Karte antwortet nicht innerhalb von CARD_TIMEOUT_CARD Sekunden, Fehlercode 4094
+
+(
+
+
+
+2) Karte ist fremd reserviert, Fehlercode 4093
+
+(
+
+
+
+7) ProfessionOIDs mappen nicht auf die gleiche Rolle, Fehlercode 4210
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle112: TAB_KON_829 Fehlercodes TUC_KON_036 „LiefereFachlicheRolle“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4093
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karte wird in einer anderen Kartensitzung exklusiv verwendet
+
+</td></tr><tr><td>
+4094
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Timeout beim Kartenzugriff aufgetreten
+
+</td></tr><tr><td>
+4210
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ProfessionOIDs nicht eindeutig auf eine Rolle abbildbar
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3679,7 +21691,97 @@ Außenschnittstelle anbieten.
 
 Tabelle113: TAB_KON_038 Basisanwendung Karten- und Kartenterminaldienst
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+CardService
+
+</th></tr><tr><td>
+Version (KDV)
+
+</td><td colspan="2">
+8.1.0 (WSDL- und XSD-Version)
+
+8.1.1 (WSDL- und XSD-Version)  
+8.1.2 (WSDL-Version) 8.1.3 (XSD-Version)
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td colspan="2">
+Siehe GitHub
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td colspan="2">
+CARD für Schema und CARDW für WSDL
+
+</td></tr><tr><td rowspan="7">
+Operationen
+
+</td><td>
+Name
+
+</td><td>
+Kurzbeschreibung
+
+</td></tr><tr><td>
+VerifyPin
+
+</td><td>
+PIN prüfen
+
+</td></tr><tr><td>
+ChangePin
+
+</td><td>
+PIN ändern
+
+</td></tr><tr><td>
+UnblockPin
+
+</td><td>
+PIN entsperren
+
+</td></tr><tr><td>
+GetPinStatus
+
+</td><td>
+PIN-Status ermitteln
+
+</td></tr><tr><td>
+EnablePin
+
+</td><td>
+Erfordernis der PIN-Verifikation einschalten
+
+</td></tr><tr><td>
+DisablePin
+
+</td><td>
+Erfordernis der PIN-Verifikation abschalten
+
+</td></tr><tr><td>
+WSDL
+
+</td><td colspan="2">
+CardService.wsdl (WSDL-Version 8.1.0)  
+CardService_v8_1_1.wsdl 
+
+CardService_v8_1_2.wsdl
+
+</td></tr><tr><td>
+Schema
+
+</td><td colspan="2">
+CardService.xsd (XSD-Version 8.1.0)  
+CardService_v8_1_1.xsd 
+
+CardService_v8_1_3.xsd
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3692,18 +21794,345 @@ Tabelle TAB_KON_047 Operation VerifyPin beschrieben, anbieten.
 
 Tabelle114: TAB_KON_047 Operation VerifyPin
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+VerifyPin
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Stößt die sichere Eingabe einer PIN am PIN-Pad des Kartenterminals für eine
+Karte an.
+
+Das Ergebnis der PIN-Prüfung gibt Auskunft darüber, ob die PIN richtig oder
+falsch war oder aufgrund zu vieler Fehlversuche blockiert ist.
+
+Eine Karte kann potentiell mehrere PINs haben. Insbesondere für die
+qualifizierte elektronische Signatur existiert eine separate PIN. Diese PIN
+darf nur über das PIN-Pad eingegeben werden.
+
+Die PIN-Verifikation und die damit verbundene Änderung des Sicherheitsstatus
+der Karte erfolgt nur für die durch den Aufrufkontext adressierte
+Kartensitzung. Falls die Karte in einem zentralen Kartenterminal steckt, auf
+das der Arbeitsplatz Zugriff hat, erfolgt eine Remote-PIN-Eingabe. Das
+Kartenterminal für die PIN-Eingabe ergibt sich dabei aus der im Aufrufkontext
+angegebenen Mandanten-ID und Arbeitsplatz-ID
+
+Diese Operation entspricht dem Aufruf von
+
+TUC_KON_012 „PIN verifizieren“. Dort sind auch die Display Messages
+definiert, die bei PIN-Eingabe am Kartenterminal anzuzeigen sind (TAB_KON_090
+Terminalanzeigen beim Eingeben der PIN am Kartenterminal). Die beim Aufruf von
+TUC_KON_012 anzugebende PIN-Art lautet „mandatorisch“. Die PIN-Verifikation
+wird also unabhängig vom erreichten Sicherheitsstatus in der Karte immer
+durchgeführt.
+
+</td></tr><tr><td rowspan="5">
+Aufrufparameter
+
+</td><td colspan="3">
+![Img-017][Img-017]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td colspan="2">
+MandantId, CsId, WorkplaceId verpflichtend; UserId verpflichtend für HBAx
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td colspan="2">
+Adressiert die Karte, für die die PIN verifiziert werden soll.
+
+Die Operation DARF die PIN-Verifikation mit der eGK NICHT unterstützen.
+Unterstützt werden die Kartentypen HBAx und SM-B. Wird die Operation mit einem
+nicht unterstützten Kartentypen aufgerufen, so MUSS der Konnektor die
+Bearbeitung mit dem Fehler 4209 abbrechen.
+
+</td></tr><tr><td>
+PinTyp
+
+</td><td colspan="2">
+Gibt an, welche PIN der Karte verifiziert werden soll.
+
+Erlaubte Belegung von PinTyp
+
+in Abhängigkeit der durch Cardhandle referenzierten Karte:
+
+ ---> UL
+
+</td></tr><tr><td rowspan="11">
+Rückgabe
+
+</td><td colspan="3">
+![Img-018][Img-018]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation (siehe
+
+3.5.2)
+
+</td></tr><tr><td rowspan="7">
+PinResult
+
+</td><td>
+Wert
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td>
+OK
+
+</td><td>
+Prüfung war erfolgreich
+
+</td></tr><tr><td>
+REJECTED
+
+</td><td>
+PIN war falsch. Die Anzahl der verbleibenden Versuche ist im Element
+
+LeftTries
+
+</td></tr><tr><td>
+ERROR
+
+</td><td>
+Ein Bearbeitungsfehler ist aufgetreten. Fehlerursache im Feld
+
+Error
+
+</td></tr><tr><td>
+WASBLOCKED
+
+</td><td>
+PIN war zum Aufrufzeitpunkt bereits gesperrt
+
+</td></tr><tr><td>
+NOWBLOCKED
+
+</td><td>
+PIN ist durch aktuellen Fehlversuch
+
+gesperrt
+
+</td></tr><tr><td>
+TRANSPORT
+
+_PIN
+
+</td><td>
+PIN ist mit Transportschutz versehen
+
+</td></tr><tr><td>
+LeftTries
+
+</td><td colspan="2">
+Im Falle von
+
+Result
+
+=
+
+REJECTED
+
+wird hier die Anzahl der verbleibenden möglichen Versuche zurückgegeben.
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="3">
+keine
+
+</td></tr></table>
 
 Der Ablauf der Operation VerifyPin ist in Tabelle TAB_KON_738 Ablauf VerifyPin
 beschrieben.
 
 Tabelle115: TAB_KON_738 Ablauf VerifyPin
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer
+
+Use Case oder
+
+Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs-berechtigung“
+
+</td><td>
+Prüfung der Zugriffsberechtigung durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;
+
+    cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle cardSession über TUC_KON_026 {
+
+    mandatId =$context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    userId = $context.userId;
+
+    cardHandle }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_012 „PIN verifizieren“
+
+</td><td>
+Verifiziere PIN über TUC_KON_012 {
+
+    cardSession;
+
+    workplaceId = $context.workplaceId;
+
+    pinRef = PinRef(PinTyp);
+
+    appName = „” (Leerstring);
+
+    verificationType = Mandatorisch }
+
+</td></tr><tr><td>
+5.
+
+</td><td>
+Verifikationsergebnis auswerten
+
+</td><td>
+Wenn TUC_KON_012 mit Fehler 4065 abbricht, wird dies als erfolgreicher
+Operationsdurchlauf mit PinResult= TRANSPORT_PIN abgefangen.
+
+Wenn TUC_KON_012 den Returncode BLOCKED liefert, wird dies als erfolgreicher
+Operationsdurchlauf mit PinResult= NOWBLOCKED zurückgegeben.
+
+Wenn TUC_KON_012 mit Fehler 4063 abbricht, wird dies als erfolgreicher
+Operationsdurchlauf mit PinResult= WASBLOCKED zurückgegeben
+
+</td></tr></table>
 
 Tabelle116: TAB_KON_545 Fehlercodes „VerifyPin“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4078
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+PIN-Eingabe über das Clientsystem ist nicht zugelassen
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3716,15 +22145,311 @@ Tabelle TAB_KON_049 Operation ChangePin beschrieben, anbieten.
 
 Tabelle117: TAB_KON_049 Operation ChangePin
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+ChangePin
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Ändert eine PIN einer Karte. Alte und neue PIN
+
+werden
+
+dabei am PIN-Pad des Kartenterminals eingegeben.
+
+Falls die Karte in einem zentralen Kartenterminal steckt, auf das der im
+Aufrufkontext angegebene Arbeitsplatz Zugriff hat, erfolgt eine
+Remote-PIN-Eingabe.
+
+Diese Operation entspricht dem Aufruf TUC_KON_019 „PIN ändern
+
+“
+
+.
+
+</td></tr><tr><td rowspan="5">
+Aufrufparameter
+
+</td><td colspan="3">
+![Img-019][Img-019]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td colspan="2">
+MandantId, CsId, WorkplaceId verpflichtend; UserId optional (verpflichtend beim
+HBA)
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td colspan="2">
+Adressiert die Karte, für die die PIN geändert werden soll. Unterstützt
+werden die Kartentypen EGK, HBAx und SM-B. Wird die Operation mit einem nicht
+unterstützten Kartentypen aufgerufen, so MUSS der Konnektor die Bearbeitung
+mit dem Fehler 4209 abbrechen.
+
+</td></tr><tr><td>
+PinTyp
+
+</td><td colspan="2">
+Gibt an, welche PIN der Karte geändert werden soll.
+
+Erlaubte Belegung von PinTyp in Abhängigkeit der durch
+
+CardHandle referenzierten Karte:
+
+ ---> UL
+
+</td></tr><tr><td rowspan="11">
+Rückgabe
+
+</td><td colspan="3">
+![Img-020][Img-020]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+LeftTries
+
+</td><td colspan="2">
+Im Falle von
+
+REJECTED
+
+wird hier die Anzahl der verbleibenden möglichen Versuche zurückgegeben.
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation
+
+,
+
+siehe 3.5.2
+
+</td></tr><tr><td colspan="3">
+</td></tr><tr><td rowspan="6">
+PinResult
+
+</td><td>
+Wert
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td>
+OK
+
+</td><td>
+PIN-Änderung war erfolgreich
+
+</td></tr><tr><td>
+ERROR
+
+</td><td>
+Ein Bearbeitungsfehler ist aufgetreten. Fehlerursache im Feld
+
+Error
+
+</td></tr><tr><td>
+REJECTED
+
+</td><td>
+OldPIN war falsch Die Anzahl der verbleibenden Versuche ist im Element
+
+LeftTries
+
+</td></tr><tr><td>
+WASBLOCKED
+
+</td><td>
+PIN war zum Aufrufzeitpunkt bereits gesperrt
+
+</td></tr><tr><td>
+NOWBLOCKED
+
+</td><td>
+PIN ist durch aktuellen Fehlversuch gesperrt
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="3">
+keine
+
+</td></tr></table>
 
 Tabelle118: TAB_KON_546 Ablauf ChangePin
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs-berechtigung“
+
+</td><td>
+Prüfung der Zugriffsberechtigung durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;
+
+    cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle cardSession über TUC_KON_026 {
+
+    mandantId =$context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    cardHandle;
+
+    userId = $context.userId }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_019 „PIN ändern“
+
+</td><td>
+Ändere PIN über TUC_KON_019 {
+
+    cardSession;
+
+    workplaceId = $context.workplaceId;
+
+    pinRef = PinRef(PinTyp) }
+
+</td></tr><tr><td>
+5.
+
+</td><td>
+Verifikationsergebnis auswerten
+
+</td><td>
+Wenn TUC_KON_019 den Returncode BLOCKED liefert, wird dies als erfolgreicher
+Operationsdurchlauf mit PinResult= NOWBLOCKED zurückgegeben.
+
+Wenn TUC_KON_019 mit Fehler 4063 abbricht, wird dies als erfolgreicher
+Operationsdurchlauf mit PinResult= WASBLOCKED zurückgegeben.
+
+</td></tr></table>
 
 Tabelle119: TAB_KON_547 Fehlercodes „ChangePin“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3737,15 +22462,330 @@ in Tabelle TAB_KON_051 Operation GetPinStatus beschrieben, anbieten.
 
 Tabelle120: TAB_KON_051 Operation GetPinStatus
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="4">
+GetPinStatus
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="4">
+Diese Operation gibt Auskunft über den PIN-Zustand einer
+
+Karte.
+
+Für
+
+transportgeschützte PIN gibt die Operation
+
+die
+
+Art des Transportschutzes an.
+
+Für Echt-PINs kann mit dieser Operation die Anzahl der noch verbleibenden
+Versuche für PIN-Verifikationen ermittelt werden oder ob die PIN bereits
+verifiziert wurde.
+
+</td></tr><tr><td rowspan="5">
+Aufruf-parameter
+
+</td><td colspan="4">
+![Img-021][Img-021]
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+Context
+
+</td><td colspan="2">
+MandantId, CsId, WorkplaceId; UserId
+
+</td></tr><tr><td colspan="2">
+CardHandle
+
+</td><td colspan="2">
+Adressiert die Karte, für die der PIN-Status ermittelt werden soll.
+Unterstützt werden die Kartentypen
+
+EGK, HBAx und SM-B.
+
+Eine KVK ist nicht zulässig.
+
+Wird die Operation mit einem nicht unterstützten Kartentypen aufgerufen, so
+MUSS der Konnektor die Bearbeitung mit dem Fehler 4209 abbrechen.
+
+</td></tr><tr><td colspan="2">
+PinTyp
+
+</td><td colspan="2">
+Gibt an, für welche PIN der Karte der PIN-Status ermittelt werden soll.
+
+Erlaubte Belegung von PinTyp in Abhängigkeit der durch Cardhandle
+referenzierten Karte:
+
+ ---> UL
+
+ ---> UL
+
+ ---> UL
+
+</td></tr><tr><td rowspan="12">
+Rückgabe
+
+</td><td colspan="4">
+![Img-022][Img-022]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="3">
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="3">
+Enthält den Ausführungsstatus der Operation siehe
+
+3.5.2
+
+</td></tr><tr><td rowspan="8">
+PinStatus
+
+</td><td colspan="3">
+Status der PIN. Die folgenden Werte sind verpflichtend:
+
+</td></tr><tr><td colspan="2">
+Wert
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td colspan="2">
+VERIFIED
+
+</td><td>
+Bereits verifiziert
+
+(in
+
+CARDSESSION.AUTHSTATE
+
+vorhanden)
+
+</td></tr><tr><td colspan="2">
+TRANSPORT_PIN
+
+</td><td>
+Transport-PIN
+
+</td></tr><tr><td colspan="2">
+EMPTY_PIN
+
+</td><td>
+Leer-PIN
+
+</td></tr><tr><td colspan="2">
+BLOCKED
+
+</td><td>
+gesperrt
+
+</td></tr><tr><td colspan="2">
+VERIFIABLE
+
+</td><td>
+Echt-PIN,
+
+noch nicht verifiziert
+
+</td></tr><tr><td colspan="2">
+DISABLED
+
+</td><td>
+PIN-Schutz ausgeschaltet (Verifikation nicht erforderlich)
+
+</td></tr><tr><td>
+LeftTries
+
+</td><td colspan="3">
+Bei einer Echt-PIN wird hier
+
+bei
+
+PinStatus =
+
+VERIFIABLE
+
+die Anzahl der verbleibenden möglichen Versuche für die Verifikation der PIN
+zurückgegeben, bei einer gesperrten PIN 0.
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="4">
+keine
+
+</td></tr><tr><td>
+Nachbe-dingung
+
+</td><td colspan="4">
+keine
+
+</td></tr></table>
 
 Tabelle121: TAB_KON_548 Ablauf GetPinStatus
 
- ---> TABLE
+<table><tr><th>
+Nr .
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Prüfung der Zugriffsberechtigung durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;  // falls angegeben
+
+    cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, so bricht die Operation mit dem
+Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle cardSession über TUC_KON_026 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    userId = $context.userId;  // falls angegeben ;
+
+    cardHandle }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_022 „Liefere PIN-Status“
+
+</td><td>
+Ermittle PinStatus über TUC_KON_022 {
+
+    cardSession;
+
+    pinRef = PinRef(PinTyp) }
+
+</td></tr></table>
 
 Tabelle122: TAB_KON_549 Fehlercodes „GetPinStatus“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4001
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+interner Fehler
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3758,15 +22798,315 @@ Tabelle TAB_KON_053 Operation UnblockPin beschrieben, anbieten.
 
 Tabelle123: TAB_KON_053 Operation UnblockPin
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+UnblockPin
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Mit diesem Kommando kann eine blockierte PIN wieder freigeschaltet werden. Dabei
+wird der Wiederholungszähler für diese PIN in der Karte auf seinen
+Anfangswert zurückgesetzt und es KANN eine neue PIN gesetzt werden. Um diese
+Aktion durchführen zu können, muss eine PUK (auch als Resetting Code
+bezeichnet) präsentiert werden.
+
+PIN und PUK werden am PIN-Pad des Kartenterminals eingegeben.
+
+Falls die Karte in einem zentralen Kartenterminal steckt, auf das der im
+Aufrufkontext angegebene Arbeitsplatz Zugriff hat, erfolgt eine
+Remote-PIN-Eingabe. Das Kartenterminal für die PIN-Eingabe ergibt sich dabei
+aus der im Aufrufkontext angegebenen Mandanten-ID und Arbeitsplatz-ID.
+
+Diese Operation entspricht dem Aufruf von TUC_KON_021 „PIN entsperren“.
+
+</td></tr><tr><td rowspan="6">
+Aufruf-parameter
+
+</td><td colspan="3">
+![Img-023][Img-023]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td colspan="2">
+MandantId, CsId, WorkplaceId verpflichtend; UserId (optional, für HBA
+verpflichtend)
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td colspan="2">
+Adressiert die Karte, für die die Blockierung der PIN aufgehoben werden soll.
+Unterstützt werden die Kartentypen EGK, HBAx und SM-B. Wird die Operation mit
+einem nicht unterstützten Kartentypen aufgerufen, so MUSS der
+
+Konnektor die Bearbeitung mit dem Fehler 4209 abbrechen.
+
+</td></tr><tr><td>
+PinTyp
+
+</td><td colspan="2">
+Gibt an, für welche PIN der Karte die Blockierung aufgehoben werden soll.
+
+Erlaubte Belegung von PinTyp in Abhängigkeit der durch Cardhandle
+referenzierten Karte:
+
+  -   eGK G1+: PIN.CH
+
+ -   eGK G2: PIN.CH,  MRPIN.NFD, MRPIN.NFD_READ,
+
+    MRPIN.DPE, MRPIN.GDD, MRPIN.OSE, MRPIN.AMTS,
+
+   PIN.AMTS_REP
+
+   - zusätzlich eGK G2.0: MRPIN.DPE_READ
+
+ -    HBAx: PIN.CH, PIN.QES
+
+ -    SM-B: PIN.SMC
+
+</td></tr><tr><td>
+SetNewPin
+
+</td><td colspan="2">
+Dieses Flag zeigt an, ob eine neue PIN gesetzt werden soll. Wird dieses Flag
+nicht angegeben, so wird FALSE angenommen.
+
+Das Flag ist notwendig, um bei Eingabe am PIN-Pad eindeutig festzulegen, ob eine
+neue PIN gesetzt werden soll.
+
+</td></tr><tr><td rowspan="10">
+Rückgabe
+
+</td><td colspan="3">
+![Img-024][Img-024]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+LeftTries
+
+</td><td colspan="2">
+Im Falle von
+
+REJECTED
+
+wird hier die Anzahl der verbleibenden möglichen Versuche für die Eingabe der
+PUK zurückgegeben.
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation siehe 3.5.2
+
+</td></tr><tr><td rowspan="6">
+PinResult
+
+</td><td>
+Wert
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td>
+OK
+
+</td><td>
+Prüfung war erfolgreich.
+
+</td></tr><tr><td>
+ERROR
+
+</td><td>
+Ein Bearbeitungsfehler ist aufgetreten. Fehlerursache im Feld
+
+Error.
+
+</td></tr><tr><td>
+REJECTED
+
+</td><td>
+PUK war falsch. Die Anzahl der verbleibenden Versuche ist im Element
+
+LeftTries.
+
+</td></tr><tr><td>
+WASBLOCKED
+
+</td><td>
+PUK war zum Aufrufzeitpunkt bereits gesperrt
+
+</td></tr><tr><td>
+NOWBLOCKED
+
+</td><td>
+PUK ist durch aktuellen Fehlversuch gesperrt
+
+</td></tr><tr><td>
+Vorbe-dingungen
+
+</td><td colspan="3">
+keine
+
+</td></tr><tr><td>
+Nachbe-dingungen
+
+</td><td colspan="3">
+keine
+
+</td></tr></table>
 
 Tabelle124: TAB_KON_550 Ablauf UnblockPIN
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs-berechtigung“
+
+</td><td>
+Prüfung der Zugriffsberechtigung durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId; // falls angegeben
+
+    cardHandle }
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle cardSession über TUC_KON_026
+
+{
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    userId = $context.userId;  // falls angegeben
+
+    cardHandle }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_021 „PIN entsperren“
+
+</td><td>
+Rücksetzen des Fehlbedienungszählers über TUC_KON_021 {
+
+    cardSession;
+
+    workplaceId = $context.workplaceId;
+
+    pinRef = pinRef(PinTyp);
+
+    setNewPIN = SetNewPIN }
+
+</td></tr><tr><td>
+5.
+
+</td><td>
+Verifikationsergebnis auswerten
+
+</td><td>
+Wenn TUC_KON_021 den Returncode BLOCKED liefert, wird dies als erfolgreicher
+Operationsdurchlauf mit PinResult= NOWBLOCKED zurückgegeben.
+
+Wenn TUC_KON_021 mit dem Fehlercode 4064 abbricht, wird dies als erfolgreicher
+Operationsdurchlauf mit PinResult= WASBLOCKED zurückgegeben.
+
+</td></tr></table>
 
 Tabelle125: TAB_KON_551 Fehlercodes „UnblockPin“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3779,15 +23119,316 @@ Tabelle TAB_KON_242 Operation EnablePin beschrieben, anbieten.
 
 Tabelle126: TAB_KON_242 Operation EnablePin
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+EnablePin
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Schaltet für
+
+eine
+
+Multireferenz-PIN das Erfordernis, das Nutzergeheimnis zu verifizieren,
+
+ein
+
+, so dass der Sicherheitszustand nur durch eine erfolgreiche
+Benutzerverifikation gesetzt werden kann.
+
+</td></tr><tr><td rowspan="5">
+Aufrufparameter
+
+</td><td colspan="3">
+![Img-025][Img-025]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td colspan="2">
+MandantId, ClientSystemId, WorkplaceId verpflichtend;
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td colspan="2">
+Adressiert die Karte, deren MRPIN bearbeitet werden soll. Es
+
+werden
+
+nur eGKs ab Generation 2 unterstützt.
+
+</td></tr><tr><td>
+PinTyp
+
+</td><td colspan="2">
+Gibt an, auf welche MRPIN der Karte die Operation angewendet werden soll.
+
+Erlaubte Werte:
+
+ ---> UL
+
+</td></tr><tr><td rowspan="11">
+Rückgabe
+
+</td><td colspan="3">
+![Img-026][Img-026]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation, siehe 3.5.2
+
+</td></tr><tr><td rowspan="7">
+PinResult
+
+</td><td>
+Wert
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td>
+OK
+
+</td><td>
+Aktivierung war erfolgreich
+
+</td></tr><tr><td>
+REJECTED
+
+</td><td>
+PIN war falsch. Die Anzahl der verbleibenden Versuche ist im Element
+
+LeftTries
+
+</td></tr><tr><td>
+ERROR
+
+</td><td>
+Ein Bearbeitungsfehler ist aufgetreten. Fehlerursache im Feld
+
+Error
+
+</td></tr><tr><td>
+WASBLOCKED
+
+</td><td>
+PIN war zum Aufrufzeitpunkt bereits gesperrt
+
+</td></tr><tr><td>
+NOWBLOCKED
+
+</td><td>
+PIN ist durch aktuellen Fehlversuch gesperrt
+
+</td></tr><tr><td>
+TRANSPORT_PIN
+
+</td><td>
+Dieser Wert wird nicht verwendet
+
+</td></tr><tr><td>
+LeftTries
+
+</td><td colspan="2">
+Im Falle von
+
+Result
+
+=
+
+REJECTED
+
+wird hier die Anzahl der verbleibenden möglichen Versuche zurückgegeben.
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="3">
+keine
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="3">
+Für das Erreichen des Sicherheitszustands der MRPIN ist eine Nutzereingabe
+erforderlich
+
+</td></tr></table>
 
 Tabelle127: TAB_KON_243 Ablauf EnablePin
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Prüfung der Zugriffsberechtigung durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;
+
+    cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, so bricht die Operation mit dem
+Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle cardSession über TUC_KON_026 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    userId = $context.userId;
+
+    cardHandle }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_027 „PIN-Schutz ein-/ausschalten“
+
+</td><td>
+Aktiviere das Erfordernis der Benutzerverifikation der MRPIN durch Aufruf des
+TUC_KON_027 „PIN-Schutz ein-/ausschalten“ {
+
+    cardSession;
+
+    pinRef  =   PinRef(PinType);
+
+    enable = true}
+
+</td></tr><tr><td>
+5.
+
+</td><td>
+Verifikationsergebnis auswerten
+
+</td><td>
+Als erfolgreicher Operationsdurchlauf wird nur PinResult=OK gewertet.
+
+Alle anderen Resultate sind Fehlerfälle, und neben dem Status ist auch
+PinResult entsprechend zu setzen. Dabei gelten folgende Regeln:
+
+Wenn TUC_KON_027 den PIN-Status BLOCKED liefert, wird auf PinResult=NOWBLOCKED
+abgebildet.
+
+Wenn TUC_KON_027 mit Fehler 4063 abbricht, wird dies auf PinResult=WASBLOCKED
+abgebildet.
+
+</td></tr></table>
 
 Tabelle128: TAB_KON_244 Fehlercodes „EnablePin“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3800,15 +23441,316 @@ Tabelle TAB_KON_245 Operation DisablePin beschrieben, anbieten.
 
 Tabelle129: TAB_KON_245 Operation DisablePin
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+DisablePin
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Schaltet für
+
+eine
+
+Multireferenz-PIN das Erfordernis, das Nutzergeheimnis zu verifizieren,
+
+ab
+
+. Die MRPIN verhält sich danach bei allen Zugriffen auf die durch sie
+geschützten Objekte, als wäre sie freigeschaltet.
+
+</td></tr><tr><td rowspan="5">
+Aufrufparameter
+
+</td><td colspan="3">
+![Img-027][Img-027]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td colspan="2">
+MandantId, ClientSystemId, WorkplaceId verpflichtend;
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td colspan="2">
+Adressiert die Karte, deren MRPIN bearbeitet werden soll. Es
+
+werden
+
+nur eGKs ab Generation 2 unterstützt.
+
+</td></tr><tr><td>
+PinTyp
+
+</td><td colspan="2">
+Gibt an, auf welche MRPIN der Karte die Operation angewendet werden soll.
+
+Erlaubte Werte:
+
+ ---> UL
+
+</td></tr><tr><td rowspan="11">
+Rückgabe
+
+</td><td colspan="3">
+![Img-028][Img-028]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation siehe 3.5.2
+
+</td></tr><tr><td rowspan="7">
+PinResult
+
+</td><td>
+Wert
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td>
+OK
+
+</td><td>
+Aktivierung war erfolgreich
+
+</td></tr><tr><td>
+REJECTED
+
+</td><td>
+PIN war falsch. Die Anzahl der verbleibenden Versuche ist im Element
+
+LeftTries
+
+</td></tr><tr><td>
+ERROR
+
+</td><td>
+Ein Bearbeitungsfehler ist aufgetreten. Fehlerursache im Feld
+
+Error
+
+</td></tr><tr><td>
+WASBLOCKED
+
+</td><td>
+PIN war zum Aufrufzeitpunkt bereits gesperrt
+
+</td></tr><tr><td>
+NOWBLOCKED
+
+</td><td>
+PIN ist durch aktuellen Fehlversuch gesperrt
+
+</td></tr><tr><td>
+TRANSPORT_PIN
+
+</td><td>
+Dieser Wert wird nicht verwendet
+
+</td></tr><tr><td>
+LeftTries
+
+</td><td colspan="2">
+Im Falle von
+
+Result
+
+=
+
+REJECTED
+
+wird hier die Anzahl der verbleibenden möglichen Versuche zurückgegeben.
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="3">
+keine
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="3">
+Der Sicherheitszustand der PIN ist dauerhaft (bis zur expliten Aktivierung mit
+EnablePin) gesetzt, ohne dass eine Nutzereingabe erforderlich wäre
+
+</td></tr></table>
 
 Tabelle130: TAB_KON_246 Ablauf DisablePin
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Prüfung der Zugriffsberechtigung durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;
+
+    cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, so bricht die Operation mit dem
+Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle cardSession über TUC_KON_026 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientSystemId;
+
+    userId = $context.userId;
+
+    cardHandle }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_027 „PIN-Schutz ein-/ausschalten“
+
+</td><td>
+Deaktiviere das Erfordernis der Benutzerverifikation der MRPIN durch Aufruf des
+TUC_KON_027 „PIN-Schutz ein-/ausschalten“ {
+
+    cardSession;
+
+    pinRef  =   PinRef(PinType);
+
+    enable = false}
+
+</td></tr><tr><td>
+5.
+
+</td><td>
+Verifikations-ergebnis auswerten
+
+</td><td>
+Als erfolgreicher Operationsdurchlauf wird nur PinResult=OK gewertet.
+
+Alle anderen Resultate sind Fehlerfälle, und neben dem Status ist auch
+PinResult entsprechend zu setzen. Dabei gelten folgende Regeln:
+
+Wenn TUC_KON_027 den PIN-Status BLOCKED liefert, wird auf PinResult=NOWBLOCKED
+abgebildet.
+
+Wenn TUC_KON_027 mit Fehler 4063 abbricht, wird dies auf PinResult=WASBLOCKED
+abgebildet.
+
+</td></tr></table>
 
 Tabelle131: TAB_KON_247 Fehlercodes „DisablePin“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4072
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige PIN-Referenz
+
+PinRef
+
+</td></tr><tr><td>
+4209
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp %CardType% wird durch diese Operation nicht unterstützt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3821,7 +23763,30 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_554 vorzunehmen.
 
 Tabelle132: TAB_KON_554 Konfiguration des Kartendienstes
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+CARD_TIMEOUT_CARD
+
+</td><td>
+Sekunden
+
+</td><td>
+Maximale Zeit, die ein Aufruf einer Kartenoperation dauern darf, bevor der
+Aufruf abgebrochen wird.
+
+Der Konnektor MUSS sicherstellen, dass dieser Parameter einen Wert besitzt, mit
+dem ein reibungsloser Betrieb gewährleistet ist, und MUSS dem Administrator
+die Möglichkeit bieten, diesen Parameter zu konfigurieren.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3834,7 +23799,86 @@ gemäß TUC_KON_025 umsetzen.
 
 Tabelle133: TAB_KON_555 - TUC_KON_025 „Initialisierung Kartendienst“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_025 „Initialisierung Kartendienst“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Nach dem Start des Kartendienstes MUSS der Konnektor für alle gesteckten Karten
+den TUC_KON_001 {ctId, slotId } aufrufen und CM_CARD_LIST befüllen.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+der Kartendienst wird gestartet
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Kartenterminaldienst wurde gestartet
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+CTM_CT_LIST
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Karte, Kartenterminal, Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Aktuelle CM_CARD_LIST
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -3960,7 +24004,79 @@ Abbildung11: PIC_KON_022 Grundsätzlicher Aufbau der Ereignisnachricht
 
 Tabelle134: TAB_KON_030 Ereignisnachricht
 
- ---> TABLE
+<table><tr><th rowspan="8">
+Beschreibung
+
+</th><th colspan="2">
+Die Ereignisnachricht, die zur Ereignissenke gesendet wird, ist ein
+XML-Dokument. Die Ereignisnachricht wird in den „Umschlag“Event
+gepackt.Wenn ein mandantenfähiges Clientsystem mehrere Anwendungskonnektoren
+verwendet, dann kann es die erhaltenen Ereignisbenachrichtigungen anhand der
+Subscription-ID einem Mandanten zuordnen.
+
+</th></tr><tr><td colspan="2">
+
+
+</td></tr><tr><td colspan="2">
+
+
+</td></tr><tr><td>
+Topic
+
+</td><td>
+Topic der Ereignisnachricht
+
+</td></tr><tr><td>
+Type
+
+</td><td>
+Typ der Ereignisnachricht (Security, Operation, Infrastructure)
+
+</td></tr><tr><td>
+Severity
+
+</td><td>
+Schwere der Ereignisnachricht (Info, Warning, Error, Fatal)
+
+</td></tr><tr><td>
+SubscriptionID
+
+</td><td>
+Identifikator der Anmeldung, der vom Konnektor bei der OperationSubscribefür
+die Anmeldung des jeweiligen Clientsystems vergeben wurde.
+
+</td></tr><tr><td>
+Message
+
+</td><td>
+Dieses Element enthält die Ereignisnachricht. Der Inhalt ist abhängig vom
+Topic und wird mittels „Key-Value“-Parameternübertragen.
+
+</td></tr><tr><td>
+
+
+</td><td>
+Message/Parameter/Key
+
+</td><td>
+Name des Parameters (String), case sensitiv
+
+</td></tr><tr><td>
+
+
+</td><td>
+Message/Parameter/Value
+
+</td><td>
+Wert des Parameters (String)
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="2">
+Das XML-Dokument MUSS UTF-8-codiert sein.
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -3983,15 +24099,378 @@ technischen Use Case TUC_KON_256 „Systemereignis absetzen” umsetzen.
 
 Tabelle135: TAB_KON_556 - TUC_KON_256 „Systemereignis absetzen“
 
- ---> TABLE
+<table><tr><th>
+Element
 
-![Img-012][Img-012]
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_256 „Systemereignis absetzen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC verteilt ein Ereignis im Konnektor intern (d.h. an Basisdienste und
+Fachmodule) sowie an Clientsysteme, die sich für den Empfang angemeldet haben
+(Operation
+
+Subscribe
+
+). Zusätzlich wird, bei gesetztem Flag, das Ereignis durch den
+Protokollierungsdienst protokolliert.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch Basisdienst oder Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Fall Topic = „BOOTUP/BOOTUP_COMPLETE":
+
+Zu allen URLs von clientseitigen Endpunkten, wie sie bei der
+
+Subscribe
+
+-Operation angegeben wurden, ist in der Subscription-Verwaltung des Konnektors
+eine TerminationTime gespeichert. Sie wird jeweils auf den Wert der
+TerminationTime der am längsten gültigen Subscription zu dem jeweiligen
+Endpunkt gesetzt. Die URLs von clientseitigen Endpunkten müssen bis zum
+Ablauf  ihrer TerminationTime auch über Bootups hinweg gespeichert werden.
+Vor dem Versenden des BOOTUP_COMPLETE-Events werden sämtliche Subscriptions,
+jedoch nicht die URLs gelöscht.  Bei Ablauf ihrer TerminationTime werden
+nach dem Versenden des BOOTUP_COMPLETE-Events auch die URLs gelöscht.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Attribute des zu versendenden Ereignisses:
+
+ ---> UL
+
+      (Wenn statt eines EventType ein ErrorType übergeben wird, so wird
+
+      der EventType daraus abgeleitet.
+
+      Typ des Events: Op = Operation, Sec = Security, Infra =
+Infrastructure)
+
+ ---> UL
+
+      
+
+Arbeitsanweisungen:
+
+ ---> UL
+
+Die Bezeichnungen Op, Sec, Infra, Info, Warning, Err, Fatal werden nur in diesem
+Dokument verwendet und sind als Abkürzungen für die Werte Operation,
+Security, Infrastructure, Information, Warning, Error, Fatal in den jeweiligen
+Ereignisnachrichten gemäß Schema EventService.xsd zu verstehen.
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Für das übergebene Ereignis werden folgende Schritte durchgeführt:
+
+  1. Das Ereignis wird an alle Basisdienste und Fachmodule des
+
+       Konnektors gesendet.
+
+  2. Wenn doLog = true, erfolgt der Aufruf von TUC_KON_271 {
+
+             eventType = $Event.eventType
+
+                (mit eventType = „Op“, wenn $Event.eventType in
+{„Op“, „Infra“}
+
+                 mit eventType = „Sec“, wenn $Event.eventType
+gleich "Sec")
+
+            severity=$Event. severity;
+
+            parameters= ($Event.topic, $Event.parameters) }
+
+       Die Einschränkungen zur Protokollierung personenbezogener Daten
+
+       gemäß TIP1-A_4710 müssen beim Aufruf von TUC_KON_271
+
+       beachtet werden.
+
+  3. Falls doDisp = false ist, wird an dieser Stelle abgebrochen.
+
+  4. Das für den Versand an Clientsysteme benötigte XML-Dokument des
+
+        Ereignisses wird aufgebaut (Element „Event“ gemäß
+
+        EventService.XSD).
+
+  5. Setze $subscriptionList = Liste der Clientsystem-Abonnements, die
+
+        durch die Operationen Subscribe/Unsubscribe gepflegt werden und
+
+        deren TerminationTime \> Systemzeit.
+
+        Im Folgenden durchläuft diese Liste der Reihe nach drei Filter.
+Nach
+
+       dem letzten Filterschritt enthält $subscriptionList nur noch die
+
+        Abonnements, an die das Ereignis versendet werden soll.
+
+  a.             Filtern nach Topics:
+
+        für jede $subscription in $subscriptionList {
+
+             wenn $event.topic nicht mit $subscription.topic beginnt
+
+                    oder übereinstimmt (case insensitiver
+Vergleich),
+
+             dann entferne $subscription aus $subscriptionList
+
+        }
+
+  b.            Filtern nach Zugriffsberechtigung:
+
+        für jede $subscription in $subscriptionList {
+
+              wenn TUC_KON_000 mit einem Fehler abgeschlossen
+
+               wird,  dann entferne $subscription aus
+$subscriptionList.
+
+           Wenn
+
+CardHandle bzw. CARD_HANDLE
+
+in parameters übergeben wurde, dann
+
+                TUC_KON_000 {
+
+                     mandantId = $subscription.context.mandantId;
+
+                     clientSystemId =
+$subscription.context.clientsystemId;
+
+                     workplaceId =
+$subscription.context.workplaceId;
+
+                     ctId = $parameters.value
+
+                             für $parameters.key =
+„ctId“
+
+                     cardHandle = $parameters.value
+
+                                        für
+$parameters.key =
+
+[„cardHandle“ | "CARD_HANDLE"]
+
+;
+
+                     needCardSession = false;
+
+                     allWorkplaces = false
+
+                }
+
+            
+
+oder im Fall nicht gegebenes
+
+CardHandle bzw. CARD_HANLDE
+
+                TUC_KON_000 {
+
+                    mandantId = $subscription.context.mandantId;
+
+                    clientSystemId =
+$subscription.context.clientsystemId;
+
+                    workplaceId = $subscription.context.workplaceId;
+
+                    ctId = $parameters.value
+
+                            für $parameters.key =
+„ctId“
+
+                    needCardSession = false;
+
+                    allWorkplaces = false
+
+                }    }
+
+  c.           Filtern nach XPath-Filter in Subscription ([XPATH]):
+
+       für jede $subscription in $subscriptionList {
+
+            wenn der XPath-Ausdruck $subscription.filter
+
+                 angewandt auf das als XML-Dokument dargestellte
+
+                 Ereignis
+
+                 ein leeres Ergebnis liefert,
+
+            dann entferne $subscription aus $subscriptionList
+
+       }
+
+6. Versenden:
+
+   für jede $subscription in $subscriptionList {
+
+      versende das Ereignis an $subscription.eventTo
+
+    }
+
+Für das versendete Ereignis wird keine Antwort durch das Clientsystem erwartet.
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Fall Topic = „BOOTUP/BOOTUP_COMPLETE":
+
+4.        Das für den Versand an Clientsysteme benötigte XML-Dokument
+
+    des Ereignisses wird aufgebaut (Element „Event“ gemäß
+
+    EventService.XSD, SubscriptionID als leeres Element).
+
+5.        Setze $urlList = Liste der URLs von clientseitigen Endpunkten,
+wie
+
+    sie bei der
+
+Subscribe
+
+-Operation angegeben wurden. Clientsysteme,
+
+    deren Subscription-URL beim Einschalten des Konnektors noch nicht
+
+    gelöscht waren, müssen benachrichtigt werden, auch wenn dann
+
+    bereits deren TerminationTime \< Systemzeit ist.
+
+Versenden:
+
+für jede $url in $urlList {
+
+   versende das Ereignis an $url
+
+}
+
+Für das versendete Ereignis wird keine Antwort durch das Clientsystem erwartet.
+Dadurch wird bei einer Nichtzustellung auch kein erneuter
+
+Versand des Ereignisses angestoßen, da der Konnektor keine Kenntnis
+
+über den Erfolg einer Ereignisübermittlung hat.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes:
+
+  (
+
+
+
+5c)    Fehler bei der Auswertung des XPath-Ausdrucks:
+
+                Fehlercode: 4095, nur für die jeweilige
+Abonnement-Prüfung.
+
+</td></tr><tr><td>
+Fachliche Fehlermeldung
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige
+
+Diagramme
+
+</td><td>
+Abbildung PIC_KON_112 Aktivitätsdiagramm zu „Systemereignis absetzen“
+
+</td></tr></table>
+
+![Img-029][Img-029]
 
 Abbildung12: PIC_KON_112 Aktivitätsdiagramm zu „Systemereignis absetzen“
 
 Tabelle136: TAB_KON_557 Fehlercodes TUC_KON_256 „Systemereignis absetzen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4095
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler bei der Auswertung eines XPath-Ausdruck
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4004,7 +24483,96 @@ umsetzen.
 
 Tabelle137: TAB_KON_558 – TUC_KON_252 „Liefere KT_Liste“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_252 „Liefere KT_Liste“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC liefert eine Liste der Kartenterminals, die unter Beachtung der
+Eingangsdaten verfügbar/erreichbar sind.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation
+
+GetCardTerminals
+
+) oder ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4017,11 +24585,146 @@ Karten_Liste” umsetzen.
 
 Tabelle138: TAB_KON_559 – TUC_KON_253 „Liefere Karten_Liste“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_253 „Liefere Karten_Liste“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC liefert eine Liste der gesteckten Karten, die unter Beachtung der
+Eingangsdaten verfügbar/erreichbar sind.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation
+
+GetCards
+
+) oder ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsanforderung
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Karte
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes:
+
+(
+
+
+
+1 a)    Ungültige Kartenterminal-ID: Fehlercode: 40
+
+07
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle139: TAB_KON_560 Fehlercodes TUC_KON_253 „Liefere Karten_Liste“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+40
+
+07
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige Kartenterminal-ID
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4034,11 +24737,226 @@ Ressourcendetails” umsetzen.
 
 Tabelle140: TAB_KON_561 - TUC_KON_254 „Liefere Ressourcendetails“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_254 „Liefere Ressourcendetails“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC liefert Detailinformationen zu einer Ressource (KT, Karte) oder dem
+Konnektor
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation
+
+GetResourceInformation
+
+) oder ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsanforderung
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Karte, HSM
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes:
+
+(
+
+
+
+1)    Ungültige Kartenterminal-ID: Fehlercode: 40
+
+07
+
+(
+
+
+
+1)    Ungültige Kartenslot-ID: Fehlercode: 4097
+
+(
+
+
+
+1)    Keine Karte im angegebenen Slot: Fehlercode: 4098
+
+(
+
+
+
+1)    Keine Karte mit angegebener Iccsn gefunden: Fehlercode: 4099
+
+(
+
+
+
+1)    Karten-Handle ungültig: Fehlercode: 4101
+
+(
+
+
+
+2)    Ungültige Kartenterminal-ID: Fehlercode: 40
+
+07
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle141: TAB_KON_562 Fehlercodes TUC_KON_254 „Liefere Ressourcendetails“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+40
+
+07
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige Kartenterminal-ID
+
+</td></tr><tr><td>
+4097
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige Kartenslot-ID
+
+</td></tr><tr><td>
+4098
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+keine Karte im angegebenen Slot gefunden
+
+</td></tr><tr><td>
+4099
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+keine Karte zur angegebenen Iccsn gefunden
+
+</td></tr><tr><td>
+4101
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Karten-Handle ungültig
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4051,7 +24969,94 @@ anbieten.
 
 Tabelle142TAB_KON_029 Basisanwendung Systeminformationsdienst
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+EventService
+
+</th></tr><tr><td>
+Version
+
+</td><td colspan="2">
+7.2.0 (WSDL-Version) 7.2.1 (XSD-Version)
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td colspan="2">
+Siehe GitHub
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td colspan="2">
+EVT für Schema und EVTW für WSDL
+
+</td></tr><tr><td rowspan="8">
+Operationen
+
+</td><td>
+Name
+
+</td><td>
+Kurzbeschreibung
+
+</td></tr><tr><td>
+GetCardTerminals
+
+</td><td>
+Auflistung der verfügbaren Kartenterminals
+
+</td></tr><tr><td>
+GetCards
+
+</td><td>
+Auflistung der gesteckten Karten
+
+</td></tr><tr><td>
+GetResourceInformation
+
+</td><td>
+Liefert Details zu einer Ressource (Kartenterminal, Karte, HSM)
+
+</td></tr><tr><td>
+Subscribe
+
+</td><td>
+Anmeldung der Zustellung von Ereignissen
+
+</td></tr><tr><td>
+Unsubsribe
+
+</td><td>
+Abmelden von der Zustellung von Ereignissen
+
+</td></tr><tr><td>
+RenewSubscriptions
+
+</td><td>
+Gültigkeit bestehender Subscriptions verlängern
+
+</td></tr><tr><td>
+GetSubscriptions
+
+</td><td>
+Abfrage der angemeldeten Zustellungen von Ereignissen
+
+</td></tr><tr><td>
+WSDL
+
+</td><td colspan="2">
+EventService.wsdl
+
+</td></tr><tr><td>
+Schema
+
+</td><td colspan="2">
+EventService.xsd
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4065,18 +25070,247 @@ anbieten.
 
 Tabelle143: TAB_KON_563 Operation GetCardTerminals
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+GetCardTerminals
+
+</th></tr><tr><td>
+Beschrei-bung
+
+</td><td colspan="3">
+Liefert die Liste der Kartenterminals, auf die der aufrufende Mandant und das
+aufrufende Clientsystem zugreifen dürfen (siehe Zugriffsberechtigungsdienst)
+sowie deren aktuelle Verfügbarkeit. Verfügbarkeit bedeutet im Falle eines
+eHealth-Kartenterminals, dass der Konnektor eine Verbindung zumKartenterminal
+aktuell hält.
+
+</td></tr><tr><td rowspan="4">
+Aufruf-parameter
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+@mandant-wide
+
+</td><td>
+Wenn „true“, werden alle Kartenterminals zurückgegeben, auf die der Mandant
+und das aufrufende Clientsystem zugreifen dürfen.Wenn „false“
+(Standardbelegung), werden nur Kartenterminals zurückgegeben, auf die von dem
+im Aufrufkontext spezifizierten Arbeitsplatz zugegriffen werden darf.
+
+</td></tr><tr><td colspan="2">
+Context
+
+</td><td>
+Aufrufkontext
+
+</td></tr><tr><td rowspan="14">
+Rückgabe
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+Status
+
+</td><td>
+Ergebnis der Operation
+
+</td></tr><tr><td colspan="3">
+Die Liste der Kartenterminals
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+ProductInformation
+
+</td><td colspan="2">
+Produktinformationen gemäß [gemSpec_OM] und dem Schema
+„ProductInformation.xsd“ zu formatieren.
+
+</td></tr><tr><td>
+CtId
+
+</td><td colspan="2">
+Eineindeutige Identifikation des Kartenterminals
+
+</td></tr><tr><td>
+WorkplaceIds
+
+</td><td colspan="2">
+Die Liste der Arbeitsplätze, denen das Kartenterminal als lokales
+Kartenterminal zugeordnet ist. Insbesondere für Entfernte Kartenterminals kann
+diese Liste leer sein (siehe TUC_KON_252).
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Sprechender Name des Kartenterminals
+
+</td></tr><tr><td>
+MacAddress
+
+</td><td colspan="2">
+MAC-Adresse des Kartenterminals
+
+</td></tr><tr><td>
+IPAddress
+
+</td><td colspan="2">
+IP-Adresse des Kartenterminals
+
+</td></tr><tr><td>
+Slots
+
+</td><td colspan="2">
+Anzahl der Slots des Kartenterminals
+
+</td></tr><tr><td>
+IS_PHYSICAL
+
+</td><td colspan="2">
+Attribut des Kartenterminals das anzeigt ob es sich um ein physisches oder
+logisches Kartenterminal handelt(siehe auch TAB_KON_522 Parameterübersicht des
+Kartenterminaldienstes)
+
+</td></tr><tr><td>
+Connected
+
+</td><td colspan="2">
+Zeigt an, ob dieses Kartenterminal aktuell verfügbar ist.TRUE– ist
+verfügbarFALSE– ist nicht verfügbar
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td colspan="3">
+Der Zustand der Kartenterminals bleibt unverändert.
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="3">
+Der Aufruf DARF nur den im Konnektor verwalteten, aktuellen Zustand des
+Kartenterminals liefern und DARF NICHT Abfragen an die Kartenterminals absetzen.
+
+</td></tr></table>
 
 Der Ablauf der Operation GetCardTerminals ist in Tabelle TAB_KON_564 Ablauf
 GetCardTerminals beschrieben:
 
 Tabelle144: TAB_KON_564 Ablauf GetCardTerminals
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Prüfung der Zugriffsberechtigung durch den AufrufTUC_KON_000
+{      mandantId = $context.mandantId;      clientSystemId =
+$context.clientsystemId;      workplaceId =
+$context.workplaceId;      needCardSession =
+false;      allWorkplaces = @mandant-wide }Tritt bei der Prüfung ein
+Fehler auf, bricht die Operation mit Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_252„Liefere KT_Liste“
+
+</td><td>
+Die Liste der Kartenterminals wird erstellt und zurückgegeben.Tritt hierbei ein
+Fehler auf, so bricht die Operation mit dem Fehler des TUCs
+ab.Wenn@mandant-wide=truedann ermittle die Liste der Kartenterminals für alle
+Arbeitsplätze des Mandanten für das angegebene Clientsystem durch den Aufruf
+von TUC_KON_252{    clientSystemId =
+$context.ClientSystemId;    mandantId = $context.mandantId
+}Wenn@mandant-wide=falsedann ermittle die Liste der Kartenterminals für den
+Arbeitsplatz des Mandanten für das angegebene Clientsystem entsprechend
+$context durch den Aufruf von TUC_KON_252{    workplaceId =
+$context.workplaceId;    clientSystemId =
+$context.ClientSystemId;    mandantId = $context.mandantId }
+
+</td></tr></table>
 
 Tabelle145: TAB_KON_823 Fehlercodes „GetCardTerminals“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -4091,21 +25325,345 @@ unterscheiden.
 
 Tabelle146: TAB_KON_565 Operation GetCards
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+GetCards    
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Liefert Informationen zu den in den Kartenterminals verfügbaren Karten zurück,
+die in Kartenterminals stecken, auf die Mandant und Clientsystem zugreifen
+dürfen. Insbesondere umfasst die Information die sog. Karten-Handles. Die
+Karten-Handles können bei anderen Konnektoraufrufen zur Adressierung von
+Karten genutzt werden.
+
+</td></tr><tr><td rowspan="7">
+Aufrufparameter
+
+</td><td colspan="3">
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+@mandant-  
+wide
+
+</td><td colspan="2">
+Wenn „true“, werden alle Karten zurückgegeben, auf die der Mandant und das
+aufrufende Clientsystem zugreifen dürfen. Wenn „false“ (Standardbelegung),
+werden nur Karten zurückgegeben, auf die von dem im Aufrufkontext
+spezifizierten Arbeitsplatz zugegriffen werden darf.
+
+</td></tr><tr><td>
+Context
+
+</td><td colspan="2">
+Aufrufkontext
+
+</td></tr><tr><td>
+CtId
+
+</td><td colspan="2">
+Identifikation des Kartenterminals. Wenn angegeben, werden nur die Karten
+zurückgeliefert, die in diesem Kartenterminal verfügbar sind.
+
+</td></tr><tr><td>
+SlotId
+
+</td><td colspan="2">
+Nummer des Slots, beginnend bei 1.  
+Wird zusätzlich zur CtId auch SlotId
+übergeben, so wird die Karte zurückgegeben, die in dem angegebenen Slot des
+mit CtId adressierten Kartenterminals steckt.
+
+</td></tr><tr><td>
+CardType
+
+</td><td colspan="2">
+Ein Kartentyp gemäß Tabelle TAB_KON_500 „Wertetabelle Kartentypen“ als
+optionaler Filter. Wenn angegeben, werden nur Karten vom spezifizierten Typ
+zurückgegeben. Unterstützt werden die Kartentypen EGK, KVK, HBAx, SM-B,
+SMC-KT und UNKNOWN.
+
+</td></tr><tr><td rowspan="15">
+Antwort
+
+</td><td colspan="3">
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Ergebnis der Operation
+
+</td></tr><tr><td colspan="3">
+Im Element Cards wird die Liste der gesteckten Karten zurückgegeben. Für jede
+Karte wird dabei ein Card-Element angegeben. Leere Slots der Kartenterminals
+sind in dieser Liste nicht enthalten.
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+Card  
+Handle
+
+</td><td>
+Handle, mit dem die Karte in Folgeaufrufen adressiert werden kann. Der Konnektor
+garantiert, dass dieses Handle die gesteckte Karte eindeutig identifiziert und
+bei Entfernen der Karte aus dem Kartenterminal ungültig wird.  
+Auch für
+nicht erkannte Karten (z. B. bei falscher Steckrichtung der Karte) SOLL der
+Konnektor gültige Handles liefern (sofern das Kartenterminal in diesem Fall in
+der Lage ist, das entsprechende Ereignis „Karte wurde gesteckt“ zu
+liefern), damit diese Karten z. B. zum Auswurf adressiert werden können.
+
+</td></tr><tr><td colspan="2">
+CardType
+
+</td><td>
+Erkannter Typ der Karte.  
+Siehe Tabelle TAB_KON_500 Wertetabelle Kartentypen,
+
+</td></tr><tr><td colspan="2">
+Card  
+Version
+
+</td><td>
+Der Konnektor MUSS in CardVersion bei eGK, HBA und SM-B/SMC-KT der Generation 2
+die Versionsinformationen gemäß [gemSpec_Karten_Fach_TIP] übergeben, für
+G1+ aus /MF/EF.Version.  
+Bei KVK, HBA-VK und unbekannten Karten MUSS das
+Element weggelassen werden.
+
+</td></tr><tr><td colspan="2">
+Iccsn
+
+</td><td>
+Falls auslesbar, die ICC-Serial-Number der Karte.  
+Im Fall der KVK wird das
+optionale Element Iccsn nicht zurückgegeben.
+
+</td></tr><tr><td colspan="2">
+CtId
+
+</td><td>
+Identifikation des Kartenterminals, in dem die Karte steckt.
+
+</td></tr><tr><td colspan="2">
+SlotId
+
+</td><td>
+Nummer des Slots (beginnend bei 1), in dem die Karte steckt.
+
+</td></tr><tr><td colspan="2">
+InsertTime
+
+</td><td>
+Gibt den Zeitpunkt an, zu dem der Konnektor die Karte erkannt hat.  
+Die Zeit
+wird mit dem Datentyp DateTime in folgendem Format angegeben: 
+
+yyyy-mm-ddThh:mm:ss+hh:mm  
+Es ist also – gemäß ISO 8601 [ISO8601] – die
+lokale Zeit und die Differenz zur UTC anzugeben.
+
+</td></tr><tr><td colspan="2">
+CardHolder  
+Name
+
+</td><td>
+Name des Karteninhabers bzw. der Institution/Organisation (subject.commonName). 
+
+Bei KVK und unbekannten Karten MUSS das Element weggelassen werden.
+
+</td></tr><tr><td colspan="2">
+Kvnr
+
+</td><td>
+KVNR (Unveränderbarer Teil) MUSS bei eGK belegt werden. Bei allen anderen
+Karten MUSS das Element weggelassen werden.
+
+</td></tr><tr><td colspan="2">
+Certificate  
+Expiration  
+Date
+
+</td><td>
+Ablaufdatum des Zertifikates (AUT bzw. OSIG).  
+Bei KVK und unbekannten Karten
+MUSS das Element weggelassen werden.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td colspan="3">
+Keine.
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td colspan="3">
+Der Zustand der Karten und der Kartenterminals bleibt unverändert.
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="3">
+Der Aufruf darf nur den im Konnektor verwalteten aktuellen Zustand der Karte
+liefern und keine Abfragen an die Kartenterminals absetzen.
+
+</td></tr></table>
 
 Der Ablauf der Operation GetCards ist in Tabelle TAB_KON_566 Ablauf GetCards
 beschrieben:
 
 Tabelle147: TAB_KON_566 Ablauf GetCards
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffsberechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf
+
+TUC_KON_000 {
+
+      mandantId = $context.mandantId;
+
+      clientSystemId = $context.clientsystemId;
+
+      workplaceId = $context.workplaceId;
+
+      needCardSession = false;
+
+      allWorkplaces = @mandant-wide}
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_253 „Liefere Karten_Liste“
+
+</td><td>
+Die Liste der Karten wird erstellt und zurückgegeben. Tritt hierbei ein Fehler
+auf, so bricht die Operation mit dem Fehler des TUCs ab.
+
+Wenn
+
+@mandant-wide=true
+
+dann ermittle die Liste der Karten für alle Arbeitsplätze des Mandanten für
+das angegebene Clientsystem durch den Aufruf
+
+TUC_KON_253 „Liefere Karten_Liste“ {
+
+    clientSystemId = $context.clientsystemId;
+
+    cardTerminalId = CtId;
+
+    slotId = SlotId;
+
+    mandantId = $context.mandantId;
+
+    cardType = CardType }
+
+Wenn
+
+@mandant-wide=false
+
+dann ermittle die Liste der Karten für den Arbeitsplatz des Mandanten für das
+angegebene Clientsystem entsprechend $context durch den Aufruf
+
+TUC_KON_253 „Liefere Karten_Liste“ {
+
+    workplaceId= $context.workplaceId;
+
+    clientSystemId = $context.clientsystemId;
+
+    cardTerminalId = CtId;
+
+    slotId = SlotId;
+
+    mandantId = $context.mandantId;
+
+    cardType = CardType }
+
+</td></tr></table>
 
 Die Fehlerfälle der Operation GetCards sind in Tabelle TAB_KON_567 Fehlercodes
 „GetCards dargestellt:
 
 Tabelle148: TAB_KON_567 Fehlercodes „GetCards“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weiteren Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4119,21 +25677,410 @@ GetResourceInformation“ beschrieben, anbieten.
 
 Tabelle149: TAB_KON_568 Operation GetResourceInformation
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+GetResourceInformation
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2">
+Gibt Informationen zu einer Ressource (Karte, KT) oder dem Konnektor selbst
+zurück
+
+</td></tr><tr><td rowspan="8">
+Aufrufparameter
+
+</td><td colspan="2">
+![Img-030][Img-030]
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td>
+Aufrufkontext
+
+</td></tr><tr><td>
+CtId
+
+</td><td>
+Identifikator eines Kartenterminals
+
+</td></tr><tr><td>
+SlotId
+
+</td><td>
+Kartenslot-Nummer (in Kombination mit
+
+CtId
+
+)
+
+</td></tr><tr><td>
+Iccsn
+
+</td><td>
+Iccsn einer Karte
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td>
+CardHandle
+
+einer
+
+Karte.
+
+Unterstützt werden die Kartentypen EGK, KVK, HBAx, SM-B, SMC-KT und UNKNOWN.
+
+</td></tr><tr><td colspan="2">
+Wurde keines der Elemente
+
+CtId
+
+,
+
+SlotId
+
+,
+
+Iccsn
+
+übergeben, so wird davon ausgegangen, dass der Aufrufer Informationen zum
+Konnektor selbst abfragen möchte.
+
+</td></tr><tr><td rowspan="20">
+Rückgabe
+
+</td><td colspan="2">
+![Img-031][Img-031]
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td>
+Ergebnis der Operation
+
+</td></tr><tr><td>
+Card
+
+</td><td>
+Informationen einer Karte (siehe
+
+GetCards
+
+)
+
+</td></tr><tr><td>
+CardTerminal
+
+</td><td>
+Informationen eines Kartenterminals (siehe
+
+GetCardTerminals
+
+)
+
+</td></tr><tr><td>
+Connector
+
+</td><td>
+Informationen zum Konnektor
+
+</td></tr><tr><td colspan="2">
+![Img-032][Img-032]
+
+</td></tr><tr><td>
+VPNTIStatus
+
+</td><td>
+</td></tr><tr><td>
+VPNTIStatus/
+
+ConnectionStatus
+
+</td><td>
+Status der VPN-Verbindung zur TI (Online oder Offline)
+
+</td></tr><tr><td>
+VPNTIStatus/
+
+Timestamp
+
+</td><td>
+Zeitstempel der letzten Statusänderung
+
+</td></tr><tr><td>
+VPNSISSTatus
+
+</td><td>
+</td></tr><tr><td>
+VPNSISStatus/
+
+ConnectionStatus
+
+</td><td>
+Status der VPN-Verbindung des SIS (Online oder Offline)
+
+</td></tr><tr><td>
+VPNSISStatus/
+
+Timestamp
+
+</td><td>
+Zeitstempel der letzten Statusänderung
+
+</td></tr><tr><td>
+OperatingState
+
+</td><td>
+Betriebszustand (siehe Kapitel
+
+3.3)
+
+</td></tr><tr><td>
+OperatingState/
+
+ErrorState
+
+</td><td>
+Eine Zeile der Fehlerzustandsliste gemäß
+
+Tabelle TAB_KON_503 Betriebszustand_Fehlerzustandsliste
+
+</td></tr><tr><td>
+OperatingState/
+
+ErrorState/
+
+ErrorCondition
+
+</td><td>
+ErrorCondition
+
+gemäß
+
+Tabelle TAB_KON_503 Betriebszustand_Fehlerzustandsliste
+
+</td></tr><tr><td>
+OperatingState/
+
+ErrorState/Severity
+
+</td><td>
+Schwere des Fehlerzustandes gemäß
+
+Tabelle TAB_KON_503 Betriebszustand_Fehlerzustandsliste
+
+</td></tr><tr><td>
+OperatingState/
+
+ErrorState/Type
+
+</td><td>
+Fehlertyp gemäß
+
+Tabelle TAB_KON_503 Betriebszustand_Fehlerzustandsliste
+
+</td></tr><tr><td>
+OperatingState/
+
+ErrorState/Value
+
+</td><td>
+Fehlerzustandswert
+
+</td></tr><tr><td>
+OperatingState/
+
+ErrorState/ValidFrom
+
+</td><td>
+Zeitstempel der letzten Änderung des Fehlerzustands
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="2">
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="2">
+Der Zustand der Ressource bleibt unverändert.
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="2">
+</td></tr></table>
 
 Der Ablauf der Operation GetResourceInformation ist in Tabelle TAB_KON_569
 Ablauf GetResourceInformation beschrieben:
 
 Tabelle150: TAB_KON_569 Ablauf GetResourceInformation
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft.
+Insbesondere wird geprüft, dass eine
+
+SlotId
+
+nur in Verbindung mit einer
+
+CtId
+
+übergeben werden kann (Abfrage einer Karte). Treten hierbei Fehler auf, so
+bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt,
+
+falls die Ressource der Konnektor ist, durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    ctId = null;
+
+    cardHandle = null;
+
+    needCardSession = false;
+
+    allWorkplaces = true
+
+}
+
+falls die Ressource ein Kartenterminal ist, durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    ctId = $ctId;
+
+    cardHandle = null;
+
+    needCardSession = false;
+
+    allWorkplaces = true
+
+}
+
+falls die Ressource eine Karte ist, durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientSystemId = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    ctId = null;
+
+    cardHandle = $cardHandle;
+
+    needCardSession = false;
+
+    allWorkplaces = false
+
+}
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_254 „Liefere Ressourcendetails“
+
+</td><td>
+Die Informationen zu der Ressource werden zusammengetragen und zurückgegeben.
+Tritt hierbei ein Fehler auf, so bricht die Operation mit dem Fehler des TUCs
+ab.
+
+</td></tr></table>
 
 Die Fehlerfälle der Operation GetResourceInformation sind in Tabelle
 TAB_KON_570 Fehlercodes „GetResourceInformation dargestellt:
 
 Tabelle151: TAB_KON_570 Fehlercodes „GetResourceInformation“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weiteren Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4146,21 +26093,228 @@ Tabelle TAB_KON_571 Operation Subscribe beschrieben, anbieten.
 
 Tabelle152: TAB_KON_571 Operation Subscribe
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+Subscribe
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Clientsysteme melden mit dieser Operation ihr Interesse an bestimmten Topics
+(Ereignissen) an.
+
+</td></tr><tr><td rowspan="8">
+Aufrufparameter
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+Context
+
+</td><td>
+Aufrufkontext
+
+</td></tr><tr><td colspan="2">
+SubscriptionID
+
+</td><td>
+Darf nicht verwendet werden
+
+</td></tr><tr><td colspan="2">
+TerminationTime
+
+</td><td>
+Darf nicht verwendet werden
+
+</td></tr><tr><td colspan="2">
+EventTo
+
+</td><td>
+URL des Endpunkts, wo die Ereignisse zugestellt werden sollen.
+Syntax:cetp://host:porthost: IP-Adresse oder FQDN des Clientsystems.port:
+Portnummer des Kommunikationsendpunkts, an dem das Clientsystem auf die
+Zustellung der Ereignisse wartet.
+
+</td></tr><tr><td colspan="2">
+Topic
+
+</td><td>
+Ein Topic, für das das Clientsystem sein Interesse anmeldet.
+
+</td></tr><tr><td colspan="2">
+Filter
+
+</td><td>
+Filter für die Ereignisnachricht (X-Path Ausdruckim Kontext mit Default
+Namespace gleich "http://ws.gematik.de/conn/EventService/v7.2" ohne Verwendung
+eines Namespace-Präfixes sowie Namensraum mit Präfix EVT gleich
+"http://ws.gematik.de/conn/EventService/v7.2", der beim Versand von Ereignissen
+in TUC_KON_256 ausgewertet wird. Ermöglicht die Filterung auf Basis der
+Elemente einer XML-Ereignisnachricht)
+
+</td></tr><tr><td rowspan="5">
+Rückgabe
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Ergebnis der Operation
+
+</td></tr><tr><td>
+SubscriptionID
+
+</td><td colspan="2">
+Ein Identifikator, der die Anmeldung für die Topics eindeutig identifiziert.
+Bei den OperationenUnsubscribe,GetSubscriptionundRenewSubsriptionsMUSS
+dieserSubscriptionIDangegeben werden.
+
+</td></tr><tr><td>
+TerminationTime
+
+</td><td colspan="2">
+Maximaler Gültigkeitszeitpunkt der Subscription. Sie MUSS auf Systemzeit + 25 h
+gesetzt werden.
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="3">
+Das Clientsystem muss die Ereignissenke realisieren.
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="3">
+Nach erfolgreicher Anmeldung vermerkt der Konnektor dasangemeldete Topic unter
+demSubscriptionID.Der Konnektor muss die Anmeldungen so lange als gültig
+behandeln, bis entweder das Clientsystem diese explizit abmeldet oder der
+Konnektor das Clientsystem als nicht mehr erreichbarerkennt (siehe nächsten
+Punkt) oder der Konnektor neu gestartet oder ausgeschaltet wird oder die
+TerminationTime kleiner als die Systemzeit ist.Der Konnektor muss die Anmeldung
+aus seiner Verwaltung entfernen („Auto-Unsubscribe“), wenn EVT_MAX_TRY
+Verbindungsaufbauversuche oder zählbare Zustellungsversuche (z.B. durch
+Zählung beim Absenden der Zustellversuche) in Folge fehlgeschlagen sind. Wenn
+die Ereignissenke Zustellungen grundsätzlich nicht beantwortet, so sind nur
+die Verbindungsaufbauversuche zu zählen.
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="3">
+
+
+</td></tr></table>
 
 Der Ablauf der Operation Subscribe ist in Tabelle TAB_KON_572 Ablauf Subscribe
 beschrieben:
 
 Tabelle153: TAB_KON_572 Ablauf Subscribe
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den AufrufTUC_KON_000 _000 {    mandantId =
+$context.mandantId;    clientsystemId  =
+$context.clientsystemId;    workplaceId =
+$context.workplaceId;    needCardSession = false;    allWorkplaces
+=true }Tritt bei der Prüfung ein Fehler auf, so bricht die Operation mit dem
+Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+saveSubscription
+
+</td><td>
+Die Anmeldung wird im Konnektor hinterlegt. Vorgehalten werden folgende Daten:
+
+ ---> UL
+
+Bei der Übernahme wird eine eindeutigeSubscriptionIdgeneriert, die dem
+aufrufenden System zurückgegeben wird, falls die Subscription noch nicht
+existiert. Existiert sie bereits, wird die
+bestehendeSubscriptionIDzurückgegeben.
+
+</td></tr></table>
 
 Die Fehlerfälle der Operation Subscribe sind in Tabelle TAB_KON_573 Fehlercodes
 „Subscribe dargestellt:
 
 Tabelle154TAB_KON_573 Fehlercodes „Subscribe“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weiteren Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -4173,21 +26327,185 @@ in Tabelle TAB_KON_574 Operation Unsubscribe beschrieben, anbieten.
 
 Tabelle155: TAB_KON_574 Operation Unsubscribe
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+Unsubscribe
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Löscht eine Anmeldung mit dem angegebenenSubscriptionIDoder alle Anmeldungen zu
+einem EndpunktEventTo.
+
+</td></tr><tr><td rowspan="5">
+Aufrufparameter
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+Context
+
+</td><td>
+Aufrufkontext
+
+</td></tr><tr><td colspan="2">
+SubscriptionID
+
+</td><td>
+Der Identifikator, der bei derSubscribe-Operation geliefert wurde.
+
+</td></tr><tr><td colspan="2">
+EventTo
+
+</td><td>
+URL des clientseitigen Endpunkts, wie er bei derSubscribe-Operation angegeben
+wurde.
+
+</td></tr><tr><td rowspan="3">
+Rückgabe
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Ergebnis der Operation
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="3">
+Die AnmeldungSubscribemuss vor dieser Operation aufgerufen worden sein.
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="3">
+Der Konnektor entfernt aus seiner Verwaltung die Subscription
+zurSubscription-IDbzw. alle Subscriptions zur clientseitigen URL
+desEndpunktsEventTo.
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation Unsubscribe ist in Tabelle TAB_KON_575 Ablauf
 Unsubscribe beschrieben:
 
 Tabelle156: TAB_KON_575 Ablauf Unsubscribe
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den AufrufTUC_KON_000 {      mandantId =
+$context.mandantId;      clientsystemId  =
+$context.clientsystemId;      workplaceId =
+$context.workplaceId;      needCardSession =
+false;      allWorkplaces =true }Tritt bei der Prüfung ein Fehler auf,
+bricht die Operation mit Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+removeSubscription
+
+</td><td>
+Entfernen der Subscriptions aus der Liste aller Subscriptions.
+
+</td></tr></table>
 
 Die Fehlerfälle der Operation Unsubscribe sind in Tabelle TAB_KON_576
 Fehlercodes „Unsubscribe dargestellt:
 
 Tabelle157: TAB_KON_576 Fehlercodes „Unsubscribe“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weiteren Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4102
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige SubscriptionId
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -4201,21 +26519,205 @@ beschrieben, anbieten.
 
 Tabelle158: TAB_KON_792 Operation RenewSubscriptions
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+RenewSubscriptions
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Verlängert die Gültigkeit einer Liste von Anmeldungen, die jeweils
+perSubscriptionIDidentifiziert werden.
+
+</td></tr><tr><td rowspan="4">
+Aufrufparameter
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+Context
+
+</td><td>
+Aufrufkontext
+
+</td></tr><tr><td colspan="2">
+SubscriptionID
+
+</td><td>
+Der Identifikator, der bei derSubscribe-Operation geliefert wurde.
+
+</td></tr><tr><td rowspan="5">
+Rückgabe
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Ergebnis der Operation
+
+</td></tr><tr><td>
+SubscriptionID
+
+</td><td colspan="2">
+Ein Identifikator, der die Anmeldung für die Topics eindeutig identifiziert.
+Bei den OperationenUnsubscribe, GetSubscriptionundRenewSubsriptionsMUSS
+dieseSubscriptionIDangegeben werden.
+
+</td></tr><tr><td>
+TerminationTime
+
+</td><td colspan="2">
+Maximaler Gültigkeitszeitpunkt der Subscription. Sie MUSS auf Systemzeit + 25 h
+gesetzt werden.
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="3">
+Der Konnektor speichert jede neu vergebeneTerminationTimein seiner Verwaltung
+der Subscriptions.
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation RenewSubscriptions ist in Tabelle TAB_KON_793 Ablauf
 RenewSubscriptions beschrieben:
 
 Tabelle159: TAB_KON_793 Ablauf RenewSubscriptions
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den AufrufTUC_KON_000 {      mandantId =
+$context.mandantId;      clientsystemId  =
+$context.clientsystemId;      workplaceId =
+$context.workplaceId;      needCardSession =
+false;      allWorkplaces =true }Tritt bei der Prüfung ein Fehler auf,
+bricht die Operation mit Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+renewSubscriptions
+
+</td><td>
+Es wird eine neueSubscribeRenewals-Liste angelegt.Alle Subscriptions,
+derenTerminationTimekleiner als die Systemzeit sind, muss der Konnektor aus der
+Verwaltung entfernen.Für jedeSubscriptionID, die in der Verwaltung der
+Subscriptions existiert und derenTerminationTimegrößer als die Systemzeit
+ist, wird eine neueTerminationTime = Systemzeit + 25hbestimmt. Diese wird
+zusammen mit derSubscriptionIDalsSubscribeRenewalderSubscribeRenewals-Liste
+hinzugefügt.Kommt es zu keiner Subscription-Verlängerung, weil nur ungültige
+SubscriptionIDs im Aufruf angegeben waren, wird der Fehler 4102
+zurückgeliefert. Kommt es zu mindestens einer Subscription-Verlängerung, sind
+aber auch ungültige SubscriptionIDs im Aufruf, wird eine
+RenewSubscriptionsResponse zurückgeliefert, mit CONN:Status/CONN:Result =
+"Warning", GERROR:Trace mit {Fehlercode: 4102, ErrorType: Technical, Severity:
+Error, Fehlertext: "Ungültige SubscriptionId"}, und der Information, welche
+SubscriptionsIDs ungültig waren.
+
+</td></tr></table>
 
 Die Fehlerfälle der Operation RenewSubscriptions sind in Tabelle TAB_KON_794
 Fehlercodes „RenewSubscriptions dargestellt:
 
 Tabelle160: TAB_KON_794 Fehlercodes „RenewSubscriptions“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weiteren Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4102
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige SubscriptionId
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -4228,21 +26730,234 @@ wie in Tabelle TAB_KON_577 Operation GetSubscription beschrieben, anbieten.
 
 Tabelle161: TAB_KON_577 Operation GetSubscription
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+GetSubscription
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2">
+Gibt die Liste der angemeldeten Topics zurück
+
+</td></tr><tr><td rowspan="5">
+Aufrufparameter
+
+</td><td colspan="2">
+
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+@mandant-wide
+
+</td><td>
+Wenn „true“, werden alle Subscriptions zurückgegeben, die Mandant und
+Clientsystem zugeordnet sind.Wenn „false“(Standardbelegung) werden alle
+Subscriptions zurückgegeben, die dem im Aufrufkontext spezifizierten Tripel
+aus Clientsystem, Mandanten und  Arbeitsplatz zugeordnet sind.
+
+</td></tr><tr><td>
+Context
+
+</td><td>
+Aufrufkontext
+
+</td></tr><tr><td>
+SubscriptionID
+
+</td><td>
+Der Identifikator, der bei derSubscribe-Operation geliefert wurde.
+
+</td></tr><tr><td rowspan="11">
+Rückgabe
+
+</td><td colspan="2">
+
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Status
+
+</td><td>
+Ergebnis der Operation
+
+</td></tr><tr><td>
+Subscriptions
+
+</td><td>
+Die Liste Subscriptions (vgl. OperationSubscribe)
+
+</td></tr><tr><td colspan="2">
+
+
+</td></tr><tr><td>
+Subscription
+
+</td><td>
+Angefordertes Subscription-Element
+
+</td></tr><tr><td>
+Subscription/SubscriptionID
+
+</td><td>
+Identifikator der Subscription
+
+</td></tr><tr><td>
+Subscription/TerminationTime
+
+</td><td>
+Maximaler Gültigkeitszeitpunkt der Subscription.
+
+</td></tr><tr><td>
+Subscription/EventTo
+
+</td><td>
+URL des Endpunkts, wo die Ereignisse zugestellt werden sollen (Ereignissenke)
+
+</td></tr><tr><td>
+Subscription/Topic
+
+</td><td>
+Angemeldeter Topic
+
+</td></tr><tr><td>
+Subscription/Filter
+
+</td><td>
+Filterausdruck (falls vorhanden)
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td colspan="2">
+Keine
+
+</td></tr><tr><td>
+Nachbedingung
+
+</td><td colspan="2">
+Die Liste der Subscriptions bliebt unverändert
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td colspan="2">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation GetSubscription ist in Tabelle TAB_KON_578 Ablauf
 GetSubscription beschrieben:
 
 Tabelle162: TAB_KON_578 Ablauf GetSubscription
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den AufrufTUC_KON_000 {    mandantId =
+$context.mandantId;    clientsystemId  =
+$context.clientsystemId;    workplaceId =
+$context.workplaceId;    needCardSession = false;    allWorkplaces =
+@mandant-wide }Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit
+Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+getSubscriptions
+
+</td><td>
+Rückgabe der Subscription, die durchSubscriptionIdidentifiziert wird.Wurde
+keineSubscriptionIdangegeben und @mandant-wide="true", werden alle
+Subscriptions zurückgegeben, die dem angegebenen Clientsystem und Mandanten
+zugeordnet werden können.Wurde keine SubscriptionId angegeben und
+@mandant-wide="false", werden alle Subscriptions zurückgegeben, die dem
+angegebenen Clientsystem, Mandanten und Arbeitsplatz zugeordnet werden können.
+
+</td></tr></table>
 
 Die Fehlerfälle der Operation GetSubscription sind in Tabelle TAB_KON_579
 Fehlercodes „GetSubscription dargestellt:
 
 Tabelle163: TAB_KON_579 Fehlercodes „GetSubscription“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weiteren Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4102
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültige SubscriptionId
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -4256,7 +26971,32 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_580vorzunehmen:
 Tabelle164: TAB_KON_580 Konfigurationswerte des Systeminformationsdienstes
 (Administrator)
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+EVT_MAX_TRY
+
+</td><td>
+Nummer
+
+</td><td>
+DerAdministrator MUSS über diesen Konfigurationsparameter die Anzahl der
+Fehlversuche bzgl. Verbindungsversuche bzw. Ereigniszustellungen festlegen
+können.  
+
+Ist diese maximal zulässige Anzahl der Fehlversuche überschritten, muss der
+Konnektor automatisch ein „Auto-Unsubscribe“(analog Operation
+„Unsubscribe“mit „EventTo gleich der URL des clientseitigen Endpunkts“)
+durchführen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4308,7 +27048,43 @@ berücksichtigen.
 Tabelle165:TAB_KON_581Verschlüsselungsdienst-Operationen
 fürEVT_MONITOR_OPERATIONS
 
- ---> TABLE
+<table><tr><th>
+Operationsname
+
+</th><th>
+OK_Val
+
+</th><th>
+NOK_Val
+
+</th><th>
+Alarmwert (Default-Grenzwert 10 Minuten-Σ)
+
+</th></tr><tr><td>
+EncryptDocument
+
+</td><td>
+1
+
+</td><td>
+5
+
+</td><td>
+101
+
+</td></tr><tr><td>
+DecryptDocument
+
+</td><td>
+1
+
+</td><td>
+5
+
+</td><td>
+101
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4326,9 +27102,246 @@ Zertifikate und Schlüssel in Abhängigkeit vom kryptographischen Verfahren
 unter Berücksichtigung des Einsatzbereiches aus TAB_KON_747 ermitteln.
 **[\<=]**
 
- ---> TABLE
+<table><tr><th rowspan="2">
+Karte
 
- ---> TABLE
+</th><th rowspan="2">
+KeyReference 
+
+</th><th rowspan="2">
+Crypt
+
+</th><th rowspan="2">
+Zertifikat (Encrypt)
+
+...in DF.ESIGN
+
+</th><th rowspan="2">
+Schlüssel (Decrypt)
+
+...in DF.ESIGN
+
+</th><th colspan="2">
+Einsatzbereich
+
+</th></tr><tr><td>
+Außen-schnittstelle
+
+</td><td>
+Fachmodul-schnittstelle
+
+</td></tr><tr><td rowspan="3">
+HBA
+
+</td><td rowspan="3">
+C.ENC
+
+</td><td>
+RSA_ECC
+
+</td><td>
+EF.C.HP.ENC.R2048
+
+EF.C.HP.ENC.E256
+
+</td><td>
+PrK.HP.ENC.R2048
+
+PrK.HP.ENC.E256
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td>
+ECC
+
+</td><td>
+EF.C.HP.ENC.E256
+
+</td><td>
+PrK.HP.ENC.E256
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td>
+RSA
+
+</td><td>
+EF.C.HP.ENC.R2048
+
+</td><td>
+PrK.HP.ENC.R2048
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td rowspan="3">
+SM-B
+
+</td><td rowspan="3">
+C.ENC
+
+</td><td>
+RSA_ECC
+
+</td><td>
+EF.C.HCI.ENC.R2048
+
+EF.C.HCI.ENC.E256
+
+</td><td>
+PrK.HCI.ENC.R2048
+
+PrK.HP.ENC.E256
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td>
+ECC
+
+</td><td>
+EF.C.HCI.ENC.E256
+
+</td><td>
+PrK.HP.ENC.E256
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td>
+RSA
+
+</td><td>
+EF.C.HCI.ENC.R2048
+
+</td><td>
+PrK.HCI.ENC.R2048
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td>
+HBA-VK
+
+</td><td>
+C.ENC
+
+</td><td>
+RSA_ECC
+
+RSA
+
+</td><td>
+EF.C.HP.ENC
+
+</td><td>
+PrK.HP.ENC
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td rowspan="2">
+eGK
+
+</td><td>
+C.ENC
+
+</td><td>
+ECC
+
+</td><td>
+C.CH.ENC.E256
+
+</td><td>
+PrK.CH.ENC.E256
+
+</td><td>
+Nein
+
+</td><td>
+Ja
+
+</td></tr><tr><td>
+C.ENC
+
+</td><td>
+RSA
+
+</td><td>
+C.CH.ENC.R2048
+
+</td><td>
+PrK.CH.ENC.R2048
+
+</td><td>
+Nein
+
+</td><td>
+Ja
+
+</td></tr></table>
+
+<table><tr><th>
+Typname
+
+</th><th>
+Werteliste
+
+</th><th>
+Defaultwert
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+ENC_CRYPT
+
+</td><td>
+RSA
+
+ECC
+
+RSA_ECC
+
+</td><td>
+RSA
+
+</td><td>
+Werteliste des Parameters crypt bei der hybriden Verschlüsselung
+
+RSA: Es wird RSA-2048 basiert verschlüsselt.
+
+ECC: Es wird ECC-256 basiert verschlüsselt.
+
+RSA_ECC: Es wird dual RSA-2048 basiert und ECC-256 basiert verschlüsselt. Es
+wird als Fehlerfall gewertet, wenn weder RSA- noch ECC-Zertifikat von der Karte
+geladen werden konnten, und als Warnung, wenn nur ein Zertifikat geladen werden
+konnte.
+
+</td></tr></table>
 
 ### 4.1.7.2 Durch Ereignisse ausgelöste Reaktionen
 
@@ -4355,7 +27368,179 @@ verschlüsseln” umsetzen.
 
 Tabelle168: TAB_KON_739 - TUC_KON_070 „Daten hybrid verschlüsseln“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_070 „Daten hybrid verschlüsseln“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC verschlüsselt ein Dokument oder Teile eines Dokumentes. Die
+Verschlüsselung erfolgt zweistufig, d. h. die Daten werden symmetrisch mit
+einem generierten Schlüssel verschlüsselt und anschließend wird dieser
+Schlüssel mit einem asymmetrischen Verfahren verschlüsselt.  
+Die
+asymmetrische Verschlüsselung des symmetrischen Schlüssels kann für mehrere
+Identitäten, repräsentiert durch X.509-Zertifikate oder öffentliche
+Schlüssel, erfolgen. Das Ergebnis sind entsprechend viele Verschlüsselungen
+desselben symmetrischen Schlüssels.  
+Es werden die folgenden
+formaterhaltenden Verschlüsselungsverfahren für die genannten Dokumententypen
+unterstützt:
+
+ ---> UL
+
+Des Weiteren ist für alle unterstützten Dokumentformate (Alle_DocFormate) die
+Verschlüsselung mit CMS [RFC5652] möglich.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch einen Fachmodul-TUC oder durch die Operation EncryptDocument des
+Verschlüsselungsbasisdienstes
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Falls mit einem öffentlichen Schlüssel auf einer Karte verschlüsselt werden
+soll, muss die Karte gesteckt sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Karte
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Zur Rückgabe der Hybridschlüssel MUSS auch die Variante vorgesehen werden,
+dass die Hybridschlüssel („KeyInfo“) nicht eingebettet im Zieldokument
+zurückgegeben werden, sondern separat.  
+Im Fall des
+Verschlüsselungsverfahrens S/MIME wird der Standardablauf des CMS
+Verschlüsselungsverfahrens durch einen vorgelagerten
+S/MIME-Vorbereitungsschritt und einen nachgelagerten
+S/MIME-Nachbereitungsschritt ergänzt. Das S/MIME-Verfahren MUSS konform
+[S/MIME] und SOLL konform [COMMON_PKI#Part 3] erfolgen.  
+Der
+S/MIME-Vorbereitungsschritt bereitet das übergebene MIME-Dokument gemäß
+[S/MIME#3.1] auf die nachfolgende CMS-Verschlüsselung durch eine Kanonisierung
+für Text [S/MIME#3.1.1] vor. Eine weitere Kanonisierung oder eine Anpassung
+des Transfer Encodings [S/MIME#3.1.2] erfolgt nicht.  
+Im
+S/MIME-Nachbereitungsschritt wird das im Standardablauf erzeugt CMS-Objekt in
+eine MIME-Nachricht vom Typ „application/pkcs7-mime“ eingebettet. 
+
+Sämtliche Header-Felder der Nachricht MÜSSEN in die Header-Felder der
+S/MIME-Nachricht übernommen werden. Die im Folgenden explizit zu setzenden
+Header-Felder überschreiben die betroffenen Header-Felder.  
+Es MUSS ein neues
+message-id Element für den S/MIME-Header generiert werden.  
+"MIME-Version:
+1.0" MUSS definiert sein.  
+Das Feld "Subject" MUSS mit "Subject:
+Verschlüsselte Nachricht" überschrieben werden.  
+Die Codierung des
+verschlüsselten Inhalts der Nachricht MUSS in "base64" erfolgen. Entsprechend
+ist das zugehörige Header-Feld zu füllen: "Content-Transfer-Encoding:
+base64".  
+Das Feld "Content-Type:" ist als "application/pkcs7-mime" zu
+definieren. Die weiteren Attribute dieses Feldes sind:
+
+ ---> UL
+
+Das Feld "Content-Disposition" definiert den Inhalt der Nachricht als
+Dateianhang: "Content-Disposition: attachment; filename=$dateiname"  
+Zu Schr
+
+itten 6 und 9 für TI-frem
+
+de X.509-Zertifikate  
+Der Konnektor MUSS beim asymmetrischen Anteil der
+hybriden Verschlüsselung auch TI-fremde X.509-Zertifikate unterstützen, wenn
+diese von einem CA-Zertifikat aus CERT_IMPORTED_CA_LIST ausgestellt wurden und
+die kryptographischen Vorgaben aus Tabelle  [gemSpec_Krypt#Tab_KRYPT_002]
+erfüllen.  
+Der Konnektor MUSS Anfragen zur Hybridverschlüsselung mit einer
+Fehlermeldung (Fehler 4200) abweisen, wenn hierfür TI-fremde X509-Zertifikate
+vorgegeben werden, die nicht die kryptographischen Vorgaben aus Tabelle 
+[gemSpec_Krypt#Tab_KRYPT_002] oder [gemSpec_Krypt#Tab_KRYPT_002a] erfüllen.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Siehe Tabelle TAB_KON_740 Fehlercodes TUC_KON_070 „Daten hybrid
+verschlüsseln“. Wenn im Ablauf des TUCs ein anderer Fehler als die in
+Tabelle TAB_KON_740 beschriebenen Fehler auftritt, wird Fehler 4105 gemeldet. 
+
+(-\>1) maximale Anzahl von Empfängern überschritten: Fehlercode 4282 
+
+(-\>5) Schritt 5 – Zertifikatsprüfung „für alle anderen Zertifikate“ 
+
+Für MGM_LU_ONLINE=Enabled gilt:  
+Liefert die Zertifikatsprüfung
+(OCSP-Abfrage) mdt. eine der folgenden Warnungen gemäß
+[gemSpec_PKI#Tab_PKI_274]
+
+ ---> UL
+
+dann wird der TUC mit Fehler 4105 abgebrochen,  
+Ausnahme: Falls im Falle
+crypt=RSA_ECC der Hybridschlüssel nur für eines der beiden Zertifikate
+erzeugt werden konnte, dann wird die Warnung 4259 mit \<Zertifikat\>
+gemäß TAB_KON_747 in der Response zurückgegeben.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Abbildung PIC_KON_058 Aktivitätsdiagramm „Daten hybrid verschlüsseln“ 
+
+Das Diagramm dient nur der Veranschaulichung und ist nicht vollständig.
+Beispielsweise enthält es nicht die Steuerung durch den Parameter crypt.
+
+</td></tr></table>
 
 ![Abbildung-13][Abbildung-13]
 
@@ -4363,11 +27548,125 @@ Abbildung13: PIC_KON_058 Aktivitätsdiagramm „Daten hybrid verschlüsseln“
 
 Tabelle169: TAB_KON_073 Vorgaben zum Format verschlüsselter XML-Dokumente
 
- ---> TABLE
+<table><tr><th>
+#
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+</td><td>
+xenc:EncryptedData MUSS ein ds:KeyInfo Element enthalten, welches wiederum ein
+xenc:EncryptedKey Element enthält.
+
+</td></tr><tr><td>
+</td><td>
+Der xenc:EncryptedKey MUSS [XMLEnc] konform sein.
+
+</td></tr><tr><td>
+</td><td>
+Die xenc:EncryptionMethod für den Schlüssel MUSS gemäß [gemSpec_Krypt#3.1.5]
+gewählt werden
+
+</td></tr><tr><td>
+</td><td>
+Der xenc:EncryptedKey MUSS ein ds:KeyInfo Element mit ds:X509Data und
+ds:X509Certificate Subelement enthalten, in dem das X.509-Zertifikat hinterlegt
+wird.
+
+</td></tr></table>
 
 Tabelle170: TAB_KON_740 Fehlercodes TUC_KON_070 „Daten hybrid verschlüsseln“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4103
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+XML-Element nicht gefunden
+
+</td></tr><tr><td>
+4104
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+XML-Element nicht eindeutig identifiziert. (Überschneidung)
+
+</td></tr><tr><td>
+4105
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+hybride Verschlüsselung konnte nicht durchgeführt werden
+
+</td></tr><tr><td>
+4200
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Schlüssel erlaubt keinen zugelassenen Verschlüsselungsalgorithmus
+
+</td></tr><tr><td>
+4259
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Verschlüsselung für Zertifikat \<Zertifikat\> nicht möglich
+
+</td></tr><tr><td>
+4282
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Maximalanzahl von Empfängerzertifikaten überschritten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4380,15 +27679,197 @@ entschlüsseln” umsetzen.
 
 Tabelle171: TAB_KON_140 – TUC_KON_071 „Daten hybrid entschlüsseln“
 
- ---> TABLE
+<table><tr><th>
+Element
 
-![Img-014][Img-014]
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_071 „Daten hybrid entschlüsseln“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Ein hybrid verschlüsseltes Dokument, das konform zu TUC_KON_070 erstellt wurde,
+wird entschlüsselt.  
+Es muss eine asymmetrische Verschlüsselung vorliegen,
+zu der der Schlüssel auf einer Karte vorliegt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf in einem fachlichen Use Case oder des Verschlüsselungsbasisdienstes.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karte mit dem privaten Schlüssel muss gesteckt sein und der
+Sicherheitszustand zur Nutzung des privaten Schlüssels muss gesetzt sein. 
+
+Ein konform zu TUC_KON_070 hybrid verschlüsseltes Dokument liegt vor.  
+Bei
+XML-Dokumenten: Das Dokument enthält EncryptedData Elemente. Falls mehrere
+Elemente des Dokumentes zu entschlüsseln sind, müssen diese alle mit
+demselben symmetrischen Schlüssel verschlüsselt sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Karte
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alterna-  
+tiven
+
+</td><td>
+Zu 6.: Zur Unterstützung von Bestandssystemen werden, neben den für den
+symmetrischen Teil der hybriden Verschlüsselung vorgeschriebenen
+kryptographischen Algorithmen, für den symmetrischen Teil der hybriden
+Entschlüsselung auch folgende Algorithmen unterstützt (siehe
+[gemSpec_Krypt#3.5.1]):
+
+ ---> UL
+
+RSA- und ECC-basierter Hybridschlüssel:  
+Wenn sowohl ein RSA- als auch ein
+ECC-basierter Hybridschlüssel vorliegen, muss zuerst die Entschlüsselung des
+ECC-basierten Hybridschlüssels erfolgen. Falls dabei ein Fehler auftritt, muss
+der Fehler protokolliert werden, und dann - ohne Abbruch - mit der
+Entschlüsselung des RSA-basierten Hybridschlüssels fortgefahren werden. 
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Siehe Tabelle TAB_KON_142 Fehlercodes TUC_KON_071 „Daten hybrid
+entschlüsseln“.  
+Wenn im Ablauf des TUCs ein anderer Fehler als die in
+Tabelle TAB_KON_142 Fehlercodes TUC_KON_071 „Daten hybrid entschlüsseln“
+beschriebenen Fehler auftritt, wird Fehler 4107 gemeldet.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Abbildung PIC_KON_059 Aktivitätsdiagramm „Daten hybrid entschlüsseln“
+
+</td></tr></table>
+
+![Img-034][Img-034]
 
 Abbildung14: PIC_KON_059 Aktivitätsdiagramm „Daten hybrid entschlüsseln“
 
 Tabelle172: TAB_KON_142 Fehlercodes TUC_KON_071 „Daten hybrid entschlüsseln“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4106
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+falscher Schlüssel
+
+</td></tr><tr><td>
+4107
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+hybride Entschlüsselung konnte nicht durchgeführt werden
+
+</td></tr><tr><td>
+4103
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+XML-Element nicht gefunden
+
+</td></tr><tr><td>
+4104
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+XML-Element nicht eindeutig identifiziert
+
+</td></tr><tr><td>
+4201
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+kryptographischer Algorithmus vom Konnektor nicht unterstützt
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4401,12 +27882,119 @@ verschlüsseln“ umsetzen.
 
 Tabelle173: TAB_KON_741 – TUC_KON_072 „Daten symmetrisch verschlüsseln“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_072 „Daten symmetrisch verschlüsseln“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird ein Dokument symmetrisch verschlüsselt. Dabei kann der zu verwendende
+symmetrische Schlüssel optional übergeben werden.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Fachmodul in einem fachlichen Use Case
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Siehe Standardablauf.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle174: TAB_KON_742 Fehlercodes TUC_KON_072 „Daten symmetrisch
 verschlüsseln“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4108
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Symmetrische Verschlüsselung konnte nicht durchgeführt werden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4419,12 +28007,122 @@ entschlüsseln“ umsetzen.
 
 Tabelle175: TAB_KON_743 - TUC_KON_073 „Daten symmetrisch entschlüsseln“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_073 „Daten symmetrisch entschlüsseln”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird ein Dokument symmetrisch entschlüsselt. Der zu verwendende symmetrische
+Schlüssel wird übergeben.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Fachmodul in einem fachlichen Use Case
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Das verschlüsselte Dokument wird mit dem symmetrischen Schlüssel
+entschlüsselt. Als Verfahren zum Entschlüsseln wird CMS gewählt ([RFC5652]).
+
+Das entschlüsselte Dokument wird zurückgeliefert.
+
+</td></tr><tr><td>
+Varianten/Alterna-tiven
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Bei Auftreten eines Fehlers im Standardablauf wird Fehlercode 4109 gemeldet.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle176: TAB_KON_744 Fehlercodes TUC_KON_073 „Daten symmetrisch
 entschlüsseln“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4109
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+symmetrische Entschlüsselung konnte nicht durchgeführt werden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4437,7 +28135,88 @@ verschlüsseln“ umsetzen.
 
 Tabelle177: TAB_KON_860 – TUC_KON_075 „Symmetrisch verschlüsseln“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_075 „Symmetrisch verschlüsseln“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es werden binäre Daten symmetrisch verschlüsselt. Optional können der zu
+verwendende symmetrische Schlüssel und AssociatedData für Authenticated
+Encryption with Associated Data (AEAD) übergeben werden.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Fachmodul in einem fachlichen Use Case
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+-\> 2: Falls die Verschlüsselung fehlschlägt, wird Fehler 4108 gemäß
+TAB_KON_742 gemeldet.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4450,7 +28229,91 @@ entschlüsseln“ umsetzen.
 
 Tabelle178: TAB_KON_861 - TUC_KON_076 „Symmetrisch entschlüsseln“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_076 „Symmetrisch entschlüsseln”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es werden verschlüsselte Daten symmetrisch entschlüsselt. Für Authenticated
+Encryption with Associated Data (AEAD) kann AssociatedData optional übergeben
+werden. Der zu verwendende symmetrische Schlüssel wird übergeben.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Fachmodul in einem fachlichen Use Case
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Das verschlüsselte Dokument wird mit dem symmetrischen Schlüssel und
+associatedData unter Verwendung der kryptographischen Verfahren aus  
+entschlüsselt.  
+Die entschlüsselten Daten werden zurückgeliefert.
+
+</td></tr><tr><td>
+Varianten/Alterna-tiven
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Bei Auftreten eines Fehlers im Standardablauf wird Fehlercode 4109 gemäß
+TAB_KON_744 gemeldet.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4463,7 +28326,68 @@ anbieten.
 
 Tabelle179: TAB_KON_745 Basisdienst Verschlüsselungsdienst
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+EncryptionService
+
+</th></tr><tr><td>
+Version (KDV)
+
+</td><td colspan="2">
+6.1.0 (WSDL-Version), 6.1.1 (XSD-Version)  
+6.1.1 (WSDL-Version), 6.1.2
+(XSD-Version)
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td colspan="2">
+Siehe GitHub
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td colspan="2">
+CRYPT für Schema und CRYPTW für WSDL
+
+</td></tr><tr><td rowspan="3">
+Operationen
+
+</td><td>
+Name
+
+</td><td>
+Kurzbeschreibung
+
+</td></tr><tr><td>
+EncryptDocument
+
+</td><td>
+Dokument hybrid verschlüsseln
+
+</td></tr><tr><td>
+DecryptDocument
+
+</td><td>
+Dokument hybrid entschlüsseln
+
+</td></tr><tr><td>
+WSDL
+
+</td><td colspan="2">
+EncryptionService.wsdl (WSDL-Version 6.1.0)  
+EncryptionService_v6_1_1.wsdl
+
+</td></tr><tr><td>
+Schema
+
+</td><td colspan="2">
+EncryptionService.xsd (XSD-Version 6.1.1)  
+EncryptionService_v6_1_2.xsd
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4476,18 +28400,515 @@ Clientschnittstelle eine Operation EncryptDocument anbieten.
 
 Tabelle180: TAB_KON_071 Operation EncryptDocument
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+EncryptDocument
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Diese Operation verschlüsselt ein übergebenes Dokument hybrid.
+
+Es werden die Dokumententypen
+
+Alle_DocFormate
+
+unterstützt.
+
+Für die hybride Verschlüsselung wird ein asymmetrischer Schlüssel aus einem
+X.509v3-Zertifikat genutzt. Dieses Zertifikat kann von einer Karte kommen oder
+als Parameter übergeben werden. Pro Operationsaufruf können mehrere
+Hybridschlüssel erzeugt werden. 
+
+Übergibt der Aufrufer die Zertifikate beim Aufruf, steuert er durch die Wahl
+der Zertifikate, ob RSA-basierte oder ECC-basierte Hybridschlüssel erzeugt
+werden. Wenn das Verschlüsselungszertifikat von einer Karte kommt, kann der
+Aufrufer durch Angabe des Kryptoverfahrens
+
+crypt
+
+ steuern, ob Hybridschlüssel für RSA oder für ECC oder beide erzeugt werden.
+Das Defaultverhalten ist die Hybridschlüsselerzeugung für RSA und entspricht
+dem Verhalten aus der Version 6.1.0 der Schnittstelle.
+
+Es werden die folgenden Karten unterstützt: HBAx und SM-B. Die Operation
+EncryptDocument DARF das Verschlüsseln mit der eGK NICHT unterstützen.
+
+Für alle Dokumenttypen wird immer das gesamte Dokument verschlüsselt.
+
+Vom Konnektor zu verschlüsselnde Dokumente müssen konform zu den Anforderungen
+in Kapitel 3.1.1 "Dokumentformate" sein.
+
+</td></tr><tr><td rowspan="16">
+</td><td colspan="3">
+![Img-035][Img-035]
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td colspan="2">
+Aufrufkontext:
+
+ ---> UL
+
+</td></tr><tr><td colspan="3">
+![Img-036][Img-036]
+
+![Img-037][Img-037]
+
+Das RecipientKeys-Element identifiziert die Empfänger der zu verschlüsselnden
+Nachricht über X.509-Zertifikate (öffentliche Schlüssel). Quelle für die
+Zertifikate kann eine gesteckte Karte sein, die per CertificateOnCard-Element
+referenziert wird, oder der Aufrufer, der X.509-Zertifikate im
+Certificate-Element übergibt.
+
+</td></tr><tr><td>
+Card
+
+Handle
+
+</td><td colspan="2">
+Identifiziert die zu verwendende Karte mit dem (öffentlichen) Schlüssel.
+
+Ist das Element nicht vorhanden, so werden nur Zertifikate per Element
+
+Certificate
+
+übergeben.
+
+</td></tr><tr><td>
+KeyRef
+
+erence
+
+</td><td colspan="2">
+Der Wert dieses Parameters ist in Tabelle TAB_KON_747 KeyReference für
+Encrypt-/DecryptDocument spezifiziert. Ist der Parameter nicht angegeben, gilt
+der Default-Wert C.ENC.
+
+</td></tr><tr><td>
+Crypt
+
+</td><td colspan="2">
+Optional; 
+
+Default: siehe TAB_KON_859
+
+Wertebereich: [ENC_CRYPT]
+
+Gibt den Typ von Zertifikaten vor, die von der per CardHandle referenzierten
+Karte für die Erzeugung der Hybridschlüssel gemäß Tabelle TAB_KON_747
+verwendet werden.
+
+</td></tr><tr><td>
+Certifi
+
+cate
+
+</td><td colspan="2">
+Certificate
+
+ist ein Base64-kodiertes XML-Element, in dem das Zertifikat, das den
+asymmetrischen Schlüssel enthält (öffentlicher Schlüssel), DER-kodiert
+übergeben wird.
+
+Es kann eine Liste von Zertifikaten übergeben werden. Der Konnektor MUSS eine
+Liste von mindestens 1000 Zertifikaten unterstützen.
+
+Kommt das Zertifikat ausschließlich von einer Karte, dann kann dieser Parameter
+weggelassen werden.
+
+</td></tr><tr><td colspan="3">
+![Img-038][Img-038]
+
+</td></tr><tr><td>
+CONN:
+
+Document
+
+</td><td colspan="2">
+Dieses entsprechend [OASIS-DSS] Section 2.4.2 spezifizierte Element enthält das
+zu verschlüsselnde Dokument, wobei die Kindelemente CONN:
+
+Base64XML
+
+und
+
+dss:Base64Data
+
+verwendet werden. Im Fall
+
+dss:Base64Data
+
+wird ein etwaig übergebenes MIME-Type-Attribut nicht ausgewertet.
+
+</td></tr><tr><td colspan="3">
+![Img-039][Img-039]
+
+</td></tr><tr><td>
+CRYPT:
+
+Optional
+
+Inputs
+
+</td><td colspan="2">
+Enthält eine Auswahl der folgenden unten näher erläuterten (optionalen)
+Eingabeparameter:
+
+</td></tr><tr><td colspan="3">
+![Img-040][Img-040]
+
+</td></tr><tr><td>
+Encryption
+
+Type
+
+</td><td colspan="2">
+Zu wählendes Verschlüsselungsverfahren, wobei folgende URI vorgesehen sind:
+
+ ---> UL
+
+Im Fall XMLEnc wird ein Base64-codiertes XML-Dokument im Element
+
+CONN:Document/CONN:Base64XML
+
+übergeben.
+
+In den Fällen CMS und S/MIME wird ein Base64-codiertes Binär-Dokument im
+Element
+
+CONN:Document/dss:Base64Data
+
+übergeben .
+
+Ist der Parameter EncryptionType nicht gesetzt, dann gilt folgendes
+Default-Verhalten: Für ein im Element
+
+CONN:Document/CONN:Base64XML
+
+übergebenes XML-Dokument wird als Verschlüsselungsverfahren [XMLEnc]
+angewandt, und für ein im Element
+
+CONN:Document/dss:Base64Data
+
+übergebenes Dokument wird das Verschlüsselungsverfahren CMS angewandt.
+
+XML-Documente werden nach Type=http://www.w3.org/2001/04/xmlenc#Element
+verschlüsselt.
+
+Im Fall S/MIME ist das in
+
+CONN:Document/dss:Base64Data
+
+übergebene Dokument eine MIME-Nachricht.  
+Der Konnektor KANN die Operation im
+Fall S/MIME mit Fehlercode 4279 beenden.
+
+</td></tr><tr><td colspan="3">
+![Img-041][Img-041]
+
+</td></tr><tr><td>
+Element
+
+</td><td colspan="2">
+Der Parameter wird nicht ausgewertet.
+
+</td></tr><tr><td>
+</td><td colspan="3">
+![Img-042][Img-042]
+
+</td></tr><tr><td>
+</td><td colspan="2">
+CRYPT:
+
+Unprotected
+
+Properties
+
+</td><td>
+Dieses optionale Element wird im CMS-Fall (EncryptionType = urn:ietf:rfc:5652)
+ausgewertet.    
+
+Die Elemente
+
+./UnprotectedProperties/Property/Value/CMSAttribute
+
+müssen base64/DER-kodiert ein vollständiges ASN.1-
+
+Attribute
+
+enthalten, definiert in [CMS# 9.1.AuthenticatedData Type]. Es muss bei der
+Erstellung des CMS-Containers unter
+
+"unauthAttrs"
+
+aufgenommen werden. Das zugehörige Element
+
+./UnprotectedProperties/Property/Identifier
+
+wird nicht ausgewertet.
+
+</td></tr><tr><td rowspan="4">
+Rückgabe
+
+</td><td colspan="3">
+![Img-043][Img-043]
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+CRYPT:
+
+Optional
+
+Outputs
+
+</td><td colspan="2">
+Kann – in zukünftigen Versionen der Spezifikation – optionale
+Ausgabeparameter enthalten.
+
+</td></tr><tr><td>
+CONN:
+
+Document
+
+</td><td colspan="2">
+Enthält das verschlüsselte Dokument in base64-codierter Form, wenn die
+Verschlüsselung erfolgreich durchgeführt wurde.
+
+Im Fall XMLEnc wird das Base64-codierte verschlüsselte XML-Dokument im Element
+
+CONN:Document/CONN:Base64XML
+
+zurückgegeben.
+
+Im Fall CMS wird das Base64-codierte Binär-Dokument im Element
+
+CONN:Document/dss:Base64Data
+
+zurückgegeben.
+
+Im Fall S/MIME wird die Base64-codierte S/MIME-Nachricht im Element
+
+CONN:Document/dss:Base64Data
+
+zurückgegeben. Das Attribut
+
+CONN:Document/dss:Base64Data/@MimeType
+
+wird auf „application/pkcs7-mime“ gesetzt. Die S/MIME-Nachricht hat
+Content-Transfer-Encoding: base64.
+
+</td></tr><tr><td>
+Fehler
+
+</td><td colspan="3">
+Bei Auftreten eines Fehlers im Standardablauf werden Fehlercodes entsprechend
+TAB_KON_141 gemeldet.
+
+</td></tr><tr><td>
+Vorbe-dingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbe-dingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation EncryptDocument ist in Tabelle TAB_KON_746 Ablauf
 EncryptDocument beschrieben:
 
 Tabelle181: TAB_KON_746 Ablauf EncryptDocument
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab. Wird die
+Operation für einen nicht unterstützten Kartentypen aufgerufen, so bricht die
+Operation mit Fehler 4058 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+checkDocumentFormat
+
+</td><td>
+Der Konnektor prüft für das zu verschlüsselnde Dokument, ob die Vorgaben aus
+Kapitel 3.1.1 eingehalten sind. Bei Verletzung einer Vorgabe bricht der
+Konnektor die Verarbeitung mit einem entsprechenden Fehlercode ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;
+
+    cardHandle = $cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle CardSession über TUC_KON_026 {
+
+    mandatId =$context..mandantId;
+
+    clientSystemId = $context.clientSystemId;
+
+    cardHandle = $context..cardHandle;
+
+    userId = $context.userId }
+
+</td></tr><tr><td>
+5.
+
+</td><td>
+TUC_KON_070 „Daten hybrid verschlüsseln“
+
+</td><td>
+Die hybride Verschlüsselung wird durchgeführt. Tritt hierbei ein Fehler auf,
+bricht die Operation ab.
+
+Die KeyInfo, d.h. die Liste der Hybridschlüssel inklusive des bei ihrer
+Erzeugung verwendeten Zertifikates, sind dabei in das Dokument einzubetten.
+
+</td></tr></table>
 
 Tabelle182: TAB_KON_141 Fehlercodes „EncryptDocument“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Case
+
+s und Fehlercodes aus Kapitel 3.1.1 kö
+
+nnen folgende weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4001
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Interner Fehler
+
+</td></tr><tr><td>
+4058
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Aufruf nicht zulässig
+
+</td></tr><tr><td>
+4279
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+S/MIME-Funktionalität nicht unterstützt"
+
+</td></tr><tr><td>
+4283
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Dokument zu groß
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4500,18 +28921,329 @@ Clientschnittstelle eine Operation DecryptDocument anbieten.
 
 Tabelle183: TAB_KON_075 Operation DecryptDocument
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+DecryptDocument
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2">
+Die Operation entschlüsselt alle hybrid verschlüsselten Dokumente, die mit der
+Operation EncryptDocument erzeugt wurden.
+
+Es werden die Dokumententypen
+
+Alle_DocFormate
+
+unterstützt.
+
+Für die Entschlüsselung wird ein asymmetrischer Schlüssel zu einem
+X.509v3-Zertifikat genutzt. Dieses Zertifikat und der Schlüssel müssen von
+einer Karte kommen.
+
+Das bei der Entschlüsselung verwendete Kryptoverfahren (RSA oder ECC) wird
+durch den Hybridschlüssel bestimmt, der durch die Karte entschlüsselt werden
+soll. Sind sowohl RSA- als auch ECC-Hybridschlüssel für die referenzierte
+Karte vorhanden, versucht der Konnektor die Entschlüsselung des
+ECC-Hybridschlüssels, und wenn das nicht erfolgreich war, die Entschlüsselung
+des RSA-Hybridschlüssels.
+
+Vom Konnektor zu entschlüsselnde Dokumente müssen konform zu den Anforderungen
+in Kapitel 3.1.1 "Dokumentformate" sein.
+
+</td></tr><tr><td rowspan="10">
+Aufrufparameter
+
+</td><td colspan="2">
+![Img-044][Img-044]
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Context
+
+</td><td>
+Aufrufkontext:
+
+ ---> UL
+
+</td></tr><tr><td colspan="2">
+![Img-045][Img-045]
+
+</td></tr><tr><td>
+PrivateKey
+
+OnCard
+
+</td><td>
+Identifiziert die zu verwendende Karte mit dem (privaten) Schlüssel.
+
+Es werden die folgenden Karten unterstützt: HBAx und SM-B. Die Operation
+DecryptDocument DARF das Entschlüsseln mit der eGK NICHT unterstützen.
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td>
+Identifiziert die gesteckte Karte.
+
+</td></tr><tr><td>
+KeyReference
+
+</td><td>
+Der Wert dieses Parameters ist in der Tabelle TAB_KON_747 KeyReference für
+Encrypt-/DecryptDocument spezifiziert. Ist der Parameter nicht angegeben, gilt
+der Default-Wert C.ENC.
+
+</td></tr><tr><td>
+Crypt
+
+</td><td>
+Ist nicht enthalten.
+
+</td></tr><tr><td>
+CONN:
+
+Document
+
+</td><td>
+Enthält das base64-codierte Dokument, das entschlüsselt werden soll.
+
+</td></tr><tr><td>
+CRYPT:
+
+OptionalInputs
+
+</td><td>
+Kann – in zukünftigen Versionen der Spezifikation – optionale
+Aufrufparameter enthalten.
+
+</td></tr><tr><td rowspan="4">
+Rückgabe
+
+</td><td colspan="2">
+![Img-046][Img-046]
+
+</td></tr><tr><td>
+Status
+
+</td><td>
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+CRYPT:
+
+OptionalOutputs
+
+</td><td>
+Kann – in zukünftigen Versionen der Spezifikation – optionale
+Ausgabeparameter enthalten.
+
+</td></tr><tr><td>
+CONN:Document
+
+</td><td>
+Enthält das entschlüsselte Dokument in base64-codierter Form
+
+</td></tr><tr><td>
+Fehler
+
+</td><td colspan="2">
+Bei Auftreten eines Fehlers im Standardablauf werden Fehlercodes entsprechend
+TAB_KON_145 gemeldet.
+
+</td></tr><tr><td>
+Vorbe-dingungen
+
+</td><td colspan="2">
+Keine
+
+</td></tr><tr><td>
+Nachbe-dingungen
+
+</td><td colspan="2">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation DecryptDocument ist in Tabelle TAB_KON_076 Ablauf
 DecryptDocument beschrieben:
 
 Tabelle184: TAB_KON_076 Ablauf DecryptDocument
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab. Wird die
+Operation für einen nicht unterstützten Kartentypen aufgerufen, so bricht die
+Operation mit Fehler 4058 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;
+
+    cardHandle = $cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle CardSession über 026 {
+
+    mandatId =$context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    cardHandle = $context.cardHandle;
+
+    userId = $context.userId }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_071 Daten hybrid entschlüsseln
+
+</td><td>
+Die Entschlüsselung wird durchgeführt.
+
+Im Fall eines XML-Dokuments mit mehreren verschlüsselten Elementen sind alle
+mit dem angegebenen Schlüssel entschlüsselbaren Elemente zu entschlüsseln.
+
+Wenn für das entschlüsselte Dokument Vorgaben aus Kapitel 3.1.1 nicht
+eingehalten sind, bricht der Konnektor die Verarbeitung mit einem
+entsprechenden Fehlercode ab.
+
+Im Fall eines MIME-Dokuments KANN der Konnektor die Operation mit Fehlercode
+4279 beenden.
+
+</td></tr></table>
 
 Tabelle185: TAB_KON_145 Fehlercodes „DecryptDocument“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen tech
+
+nischen Use Cases und Fehlercodes aus Kapitel 3.1.1 können folgende weitere
+Fehlercodes auf
+
+treten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4001
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+interner Fehler
+
+</td></tr><tr><td>
+4058
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Aufruf nicht zulässig
+
+</td></tr><tr><td>
+4279
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+S/MIME-Funktionalität nicht unterstützt
+
+</td></tr><tr><td>
+4283
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Dokument zu groß
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4562,7 +29294,114 @@ Der Signaturdienst MUSS für die Erstellung und Prüfung von qualifizierten
 elektronischen Signaturen (QES) für dieQES_DocFormatedie Signaturverfahren
 entsprechend Tabelle TAB_KON_582 – Signaturverfahren unterstützen. **[\<=]**
 
- ---> TABLE
+<table><tr><th>
+Signaturformat
+
+</th><th>
+Standard
+
+</th><th>
+Dokumentformate
+
+</th><th>
+QES/
+
+nonQES
+
+</th><th>
+Bemerkung
+
+</th></tr><tr><td>
+XMLDSig
+
+(XAdES)
+
+</td><td>
+[RFC3275]
+
+[XMLDSig]
+
+[XAdES]
+
+[RFC6931]
+
+</td><td>
+XML
+
+</td><td>
+QES,
+
+nonQES
+
+</td><td>
+Hierdurch können abgesetzte (detached), umschließende (enveloping) und
+eingebettete (enveloped) Signaturen erzeugt werden.
+
+</td></tr><tr><td>
+CMS
+
+(CAdES)
+
+</td><td>
+[RFC5652]
+
+[CAdES]
+
+</td><td>
+QES_DocFormate
+
+nonQES_DocFormate
+
+</td><td>
+QES,
+
+nonQES
+
+</td><td>
+Hierdurch können abgesetzte (detached) und umschließende (enveloping)
+Signaturen erzeugt werden.
+
+</td></tr><tr><td>
+PDF/A
+
+(PAdES)
+
+</td><td>
+[PAdES-3]
+
+</td><td>
+PDF/A
+
+</td><td>
+QES,
+
+nonQES
+
+</td><td>
+Hierdurch können CMS-basierte Signaturen in PDF/A-Dokumente eingefügt und
+dadurch eingebettete Signaturen erzeugt werden.
+
+</td></tr><tr><td>
+S/MIME
+
+(optional)
+
+</td><td>
+[RFC5751]
+
+</td><td>
+nonQES_DocFormate
+
+</td><td>
+nonQES
+
+</td><td>
+Optional wird die Signatur und Signaturprüfung von MIME-Nachrichten
+unterstützt.  
+Der Konnektor soll, wenn er die S/MIME-Signatur unterstützt,
+auch die S/MIME-Signaturprüfung unterstützen.
+
+</td></tr></table>
 
 Zu den Begriffen detached, enveloping und enveloped Signaturen siehe
 beispielsweise auch [HüKo06#Abs. 4.3.3. und 4.3.1.5].
@@ -4577,7 +29416,283 @@ TAB_KON_778 umsetzen.
 Tabelle187: TAB_KON_778 – Einsatzbereich der Signaturvarianten für XAdES,
 CAdES und PAdES
 
- ---> TABLE
+<table><tr><th colspan="4">
+Signaturvarianten
+
+</th><th colspan="3">
+Einsatzbereich
+
+</th></tr><tr><td>
+Signatur
+
+verfahren
+
+</td><td>
+Signatur-
+
+variante
+
+</td><td>
+WAS wird signiert?
+
+</td><td>
+WO wird die Signatur abgelegt?
+
+</td><td>
+nonQES
+
+</td><td>
+QES
+
+Außen-
+
+schnittstelle
+
+</td><td>
+QES
+
+Fachmodul-
+
+schnittstelle
+
+</td></tr><tr><td>
+XAdES
+
+</td><td>
+detached
+
+</td><td>
+beliebiges (Binär)-Dokument
+
+</td><td>
+außerhalb des Dokuments in der SignResponse
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td></tr><tr><td>
+XAdES
+
+</td><td>
+detached
+
+</td><td>
+gesamtes Input XML-Dokument
+
+(= Root-Element mit Subelementen)
+
+</td><td>
+außerhalb des Dokuments in der SignResponse
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td></tr><tr><td>
+XAdES
+
+</td><td>
+detached
+
+</td><td>
+ausgewähltes nicht Root-Element mit Subelementen im Input XML-Dokument
+
+</td><td>
+außerhalb des Dokuments in der SignResponse
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td></tr><tr><td>
+XAdES
+
+</td><td>
+detached
+
+</td><td>
+ausgewähltes nicht Root-Element mit Subelementen im Input XML-Dokument
+
+</td><td>
+Innerhalb des Dokuments, aber außerhalb des signierten Subbaums
+
+</td><td>
+Nein
+
+</td><td>
+Bedingt
+
+</td><td>
+Bedingt
+
+</td></tr><tr><td>
+XAdES
+
+</td><td>
+enveloped
+
+</td><td>
+gesamtes Input XML-Dokument
+
+(= Root-Element mit Subelementen)
+
+</td><td>
+Als direktes Child des Root-Elements
+
+</td><td>
+Ja
+
+</td><td>
+Bedingt
+
+</td><td>
+Bedingt
+
+</td></tr><tr><td>
+XAdES
+
+</td><td>
+enveloped
+
+</td><td>
+ausgewähltes nicht Root-Element mit Subelementen im Input XML-Dokument
+
+</td><td>
+Als direktes Child des ausgewählten Elements
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td><td>
+Bedingt
+
+</td></tr><tr><td>
+XAdES
+
+</td><td>
+enveloping
+
+</td><td>
+gesamtes Input XML-Dokument
+
+(= Root-Element mit Subelementen)
+
+</td><td>
+Im Dokument, das Root-Element umschließend
+
+</td><td>
+Ja
+
+</td><td>
+Bedingt
+
+</td><td>
+Bedingt
+
+</td></tr><tr><td>
+XAdES
+
+</td><td>
+enveloping
+
+</td><td>
+ausgewähltes nicht Root-Element mit Subelementen im Input XML-Dokument
+
+</td><td>
+Im Dokument, das ausgewählte Element umschließend
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td><td>
+Nein
+
+</td></tr><tr><td>
+CAdES
+
+</td><td>
+detached
+
+</td><td>
+gesamtes Binärdokument
+
+</td><td>
+außerhalb des Dokuments in der SignResponse
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td>
+CAdES
+
+</td><td>
+enveloping
+
+</td><td>
+gesamtes Binär-Dokument
+
+</td><td>
+innerhalb des CMS-Dokuments
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr><tr><td>
+PAdES
+
+</td><td>
+-
+
+</td><td>
+gesamtes PDF-Dokument
+
+</td><td>
+Im PDF-Dokument
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td><td>
+Ja
+
+</td></tr></table>
 
 Legende:
 
@@ -4643,7 +29758,72 @@ derErstellung vonqualifizierten elektronischen Signaturen (QES)die
 Default-Signaturverfahren entsprechendTAB_KON_583 –
 Default-Signaturverfahrenwählen. **[\<=]**
 
- ---> TABLE
+<table><tr><th rowspan="2">
+Dokument-Format
+
+</th><th colspan="4">
+Signaturverfahren (und -variante)
+
+</th></tr><tr><td>
+Signaturverfahren
+
+</td><td>
+Signaturvariante
+
+</td><td>
+WAS wird signiert?
+
+</td><td>
+WO wird die Signatur abgelegt?
+
+</td></tr><tr><td>
+XML
+
+</td><td>
+XAdES
+
+</td><td>
+enveloped
+
+</td><td>
+gesamtes Input XML-Dokument
+
+(= Root-Element mit Subelementen)
+
+</td><td>
+als direktes Child des Root-Elements
+
+</td></tr><tr><td>
+PDF/A
+
+</td><td>
+PAdES
+
+</td><td>
+-
+
+</td><td>
+gesamtes PDF-Dokument
+
+</td><td>
+im PDF-Dokument
+
+</td></tr><tr><td>
+alle anderen
+
+</td><td>
+CAdES
+
+</td><td>
+detached
+
+</td><td>
+gesamtes Binärdokument
+
+</td><td>
+außerhalb des Dokuments in der SignResponse
+
+</td></tr></table>
 
 ##### TIP1-A_5387
 
@@ -4658,7 +29838,43 @@ berücksichtigen.
 
 Tabelle189: TAB_KON_584 nonQES-Operationen für EVT_MONITOR_OPERATIONS
 
- ---> TABLE
+<table><tr><th>
+Operationsname
+
+</th><th>
+OK_Val
+
+</th><th>
+NOK_Val
+
+</th><th>
+Alarmwert (Default-Grenzwert 10 Minuten-Σ)
+
+</th></tr><tr><td>
+SignDocument (nonQES)
+
+</td><td>
+1
+
+</td><td>
+5
+
+</td><td>
+41
+
+</td></tr><tr><td>
+VerifyDocument (nonQES)
+
+</td><td>
+1
+
+</td><td>
+5
+
+</td><td>
+61
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -4690,13 +29906,286 @@ ermitteln.
 Tabelle190: TAB_KON_900 Zertifikate und private Schlüssel für
 Signaturerstellung und Signaturprüfung (QES und nonQES)
 
- ---> TABLE
+<table><tr><th colspan="1" rowspan="2">
+ Karte  
+ 
+
+</th><th colspan="1" rowspan="2">
+Crypt  
+ 
+
+</th><th colspan="1" rowspan="2">
+Zertifikat (Verify)
+
+</th><th colspan="1" rowspan="2">
+Schlüssel (Sign)
+
+</th><th colspan="2" rowspan="1">
+Einsatzbereich
+
+</th></tr><tr><th>
+Außen-schnittstelle
+
+</th><th>
+Fachmodul-schnittstelle
+
+</th></tr><tr><td colspan="2" rowspan="1">
+QES
+
+</td><td colspan="2" rowspan="1">
+...in DF.QES
+
+</td></tr><tr><td colspan="1" rowspan="2">
+HBA
+
+</td><td>
+RSA
+
+</td><td>
+EF.C.HP.QES.R2048
+
+</td><td>
+PrK.HP.QES.R2048
+
+</td><td>
+ja
+
+</td><td>
+ja
+
+</td></tr><tr><td>
+ECC
+
+</td><td>
+EF.C.HP.QES.E256
+
+</td><td>
+PrK.HP.QES.E256
+
+</td><td>
+ja
+
+</td><td>
+ja
+
+</td></tr><tr><td>
+RSA_ECC
+
+</td><td>
+[ab G2.1]: EF.C.HP.QES.E256  
+[G2.0]: EF.C.HP.QES.R2048
+
+</td><td>
+[ab G2.1]: PrK.HP.QES.E256  
+[G2.0]: PrK.HP.QES.R2048
+
+</td><td>
+ja
+
+</td><td>
+ja
+
+</td></tr><tr><td>
+HBA-VK
+
+</td><td>
+RSA
+
+</td><td>
+EF.C.HP.QES
+
+</td><td>
+PrK.HP.QES
+
+</td><td>
+ja
+
+</td><td>
+ja
+
+</td></tr><tr><td colspan="2" rowspan="1">
+nonQES
+
+</td><td colspan="2" rowspan="1">
+...in DF.ESIGN
+
+</td></tr><tr><td colspan="1" rowspan="2">
+SM-B
+
+</td><td>
+RSA
+
+</td><td>
+EF.C.HCI.OSIG.R2048
+
+</td><td>
+PrK.HCI.OSIG.R2048
+
+</td><td>
+ja
+
+</td><td>
+ja
+
+</td></tr><tr><td>
+ECC
+
+</td><td>
+EF.C.HCI.OSIG.E256
+
+</td><td>
+PrK.HCI.OSIG.E256
+
+</td><td>
+ja
+
+</td><td>
+ja
+
+</td></tr><tr><td>
+RSA_ECC
+
+</td><td>
+[ab G2.1]: EF.C.HCI.OSIG.E256  
+[G2.0]: EF.C.HCI.OSIG.R2048
+
+</td><td>
+[ab G2.1]: PrK.HCI.OSIG.E256  
+[G2.0]: PrK.HCI.OSIG.R2048
+
+</td><td>
+ja
+
+</td><td>
+ja
+
+</td></tr><tr><td colspan="1" rowspan="2">
+eGK
+
+</td><td>
+RSA
+
+</td><td>
+EF.C.CH.AUT.R2048
+
+</td><td>
+PrK.CH.AUT.R2048
+
+</td><td>
+nein
+
+</td><td>
+ja
+
+</td></tr><tr><td>
+ECC
+
+</td><td>
+EF.C.CH.AUT.E256
+
+</td><td>
+PrK.CH.AUT.E256
+
+</td><td>
+nein
+
+</td><td>
+ja
+
+</td></tr><tr><td>
+RSA_ECC
+
+</td><td>
+[ab G2.1]: EF.C.CH.AUT.E256  
+[G2.0]: EF.C.CH.AUT.R2048
+
+</td><td>
+[ab G2.1]: PrK.CH.AUT.E256  
+[G2.0]: PrK.CH.AUT.R2048
+
+</td><td>
+nein
+
+</td><td>
+ja
+
+</td></tr></table>
 
 **[\<=]**
 
- ---> TABLE
+<table><tr><th>
+Typname
 
- ---> TABLE
+</th><th>
+Werteliste
+
+</th><th>
+Defaultwert
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+SIG_CRYPT_QES
+
+</td><td>
+RSA
+
+ECC
+
+RSA_ECC
+
+</td><td>
+RSA
+
+</td><td>
+Werteliste des Parameters crypt bei der bei der Erzeugung einer QES-Signatur
+
+RSA: Es wird eine RSA-2048 Signatur erzeugt.
+
+ECC: Es wird eine ECC-256 Signatur erzeugt.
+
+RSA_ECC: In Abhängigkeit von der Kartengeneration wird eine RSA-2048 bzw. eine
+ECC-256 Signatur erzeugt (siehe TAB_KON_900).
+
+</td></tr></table>
+
+<table><tr><th>
+Typname
+
+</th><th>
+Werteliste
+
+</th><th>
+Defaultwert
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+SIG_CRYPT_nonQES
+
+</td><td>
+RSA
+
+ECC
+
+RSA_ECC
+
+</td><td>
+RSA
+
+</td><td>
+Werteliste des Parameters crypt bei der bei der Erzeugung einer nonQES-Signatur
+
+RSA: Es wird eine RSA-2048 Signatur erzeugt.
+
+ECC: Es wird eine ECC-256 Signatur erzeugt.
+
+RSA_ECC: In Abhängigkeit von der Kartengeneration wird eine RSA-2048 bzw. eine
+ECC-256 Signatur erzeugt (siehe TAB_KON_900).
+
+</td></tr></table>
 
 ### 4.1.8.1.2 Signaturrichtlinien
 
@@ -5017,12 +30506,300 @@ Signatur vorbereiten” umsetzen.
 
 Tabelle193: TAB_KON_748 - TUC_KON_155 „Dokumente zur Signatur vorbereiten“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_155 ”Dokumente zur Signatur vorbereiten”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Die zu signierenden Dokumente werden entsprechend den Erfordernissen  
+der
+Signaturverfahren für die QES oder nonQES vorbereitet.
+
+</td></tr><tr><td>
+Anwendungsumfeld
+
+</td><td>
+Erstellung von qualifizierten elektronischen Signaturen (QES) und 
+
+nicht-qualifizierten elektronischen Signaturen (nonQES)
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch TUC_KON_150 „Dokumente QES signieren“ oder  
+TUC_KON_160
+„Dokumente nonQES signieren“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ -  signatureMode  
+    (Signaturart: QES | nonQES)
+
+ -  documentsToBeSigned  
+    (Zu signierendes Dokument bzw. zu signierende
+Dokumente) und pro  
+    Dokument:
+
+ -  documentFormat  
+    (Formatangabe für das zu signierende Dokument)
+
+ -  optionalInputs  
+    (weitere optionale Eingabeparameter zur Steuerung
+der Details bei der  
+   zu erstellenden Signatur (siehe Operation
+SignDocument, Parameter  
+   dss:OptionalInputs), darin u.a.
+
+   -signatureType  
+       (URI für den Signaturtyp XML-, CMS-,
+S/MIME-o PDF-Signatur)
+
+ -  certificate  
+    (Signaturzertifikat)
+
+ -  ocspResponses –
+
+optional
+
+    (OCSP-Response des EE-Zertifikats, das bei der Signaturerstellung in 
+
+   die Signatur eingebettet wird.)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+signatureType  = XMLDSig (XAdES)
+
+Entsprechend den Regeln für die QES und die nonQES werden zunächst  
+weitere
+Signatureigenschaften zum jeweiligen Dokument in Form von
+
+QualifyingProperties
+
+(siehe [XAdES]) hinzugefügt.
+
+Die Systemzeit des Anwendungskonnektors muss in das XML-Element
+
+SigningTime
+
+(siehe [XAdES]) eingetragen werden. Die Signatur wird  
+anschließend
+entsprechend [XMLDSig] vorbereitet. D. h., es wird je  
+Dokument nach Erzeugung
+der Reference Elemente das SignedInfo  
+Element aufgebaut. Dessen Inhalt ergibt
+dann nach erfolgter  
+XML-Kanonisierung und Hashing die DTBS (Data To Be
+Signed), die  
+später zur Karte gesendet werden.
+
+certificate wird im Element
+
+ds:KeyInfo/ds:X509Data
+
+gespeichert.
+
+Im Fall signatureMode = QES können neben den reinen Nutzdaten auch  
+alle
+weiteren Elemente in die Signatur einbezogen werden, die für die 
+
+Rekonstruktion der ursprünglich dargestellten Daten in der sicheren  
+Anzeige
+erforderlich sind. Für XML-Dokumente sind das, falls vorhanden,  
+das/die
+XML-Schema(ta). Für diese werden Referenzen (Hash + URI) in  
+die Signatur
+eingebettet.
+
+Die URI ist im Fall übergebener XML-Schemata der übergebene
+
+signatureType
+
+- Parameter. Die URI ist im Fall der im Konnektor im  
+Rahmen einer
+Signaturrichtlinie hinterlegten XML-Schemata/XSL-  
+Stylesheets die URI der
+Signaturrichtlinie, ergänzt um den Dateinamen  
+mit Pfad, wie in der
+Signaturrichtlinie festgelegt.
+
+(Beispiel: URI für Schemadatei NFD_Document.xsd der Signaturrichtlinie
+SR_DF_NFDM_NOTFALLDATEN lautet: urn:gematik:fa:sak:nfdm:r1:v1:NFD_Document.xsd)
+
+Das Einbetten der Referenzen erfolgt über das XML-Element 
+
+ds:object/ds:manifest (XMLDSig) mit eingebetteten XML-Elementen 
+
+ds:Reference, die eine URI (RefURI) als Identifier für die jeweilige Datei 
+
+und einen Hash über die jeweilige Resource enthalten.  
+Der
+ShortTextClientsystem muss in die Signatur in das
+
+DataObjectFormat/Description
+
+-Element gemäß [XAdES]  
+(Abschnitt 7.2.5) eingebettet werden.
+
+Falls durch den Aufrufparameter
+
+SIG:IncludeRevocationInfo
+
+angefordert, wird die für die Offline-Prüfung notwendige OCSP-Antwort  
+im
+Sinne vom ES-X-L vom Konnektor in die Signatur eingebettet:
+
+Die base-64 kodierte OCSP-Response wird im Feld
+
+QualifyingProperties/UnsignedProperties 
+
+/UnsignedSignatureProperties/RevocationValues 
+
+/OCSPValues/EncapsulatedOCSPValue
+
+(selbst DER-kodiert)  
+gespeichert.
+
+signatureType  = CMS (CAdES)
+
+Etwaig einzubettende XML-Schemata werden zunächst wie für XAdES  
+definiert in
+ein ds:manifest-Element eingebettet. Die so erzeugte  
+Zeichenkette wird als
+genau ein ASN.1 Character String vom Typ  
+UTF8String verpackt. Dieser wird als
+contentDescription in einen  
+Content-Hints Attributwert vom Typ ContentHints
+verpackt, wobei der  
+contentType=id-data gemäß [CAdES].
+
+Der ShortTextClientsystem muss in die Signatur in das  
+
+content-  
+hints.ContentDescription
+
+-Attribut gemäß [CAdES] (Abschnitt  
+5.10.3) eingebettet werden.
+
+Ist die Einbettung von OCSP-Responses gefordert, wird die für die 
+
+Offline-Prüfung notwendige OCSP-Antwort des EE-Zertifikats im Attribut 
+
+SingedData.crls.other abgelegt.
+
+signatureType  = PDF/A (PAdES)
+
+Der ShortTextClientsystem muss bei einer PDF-Signatur in das
+
+Reason
+
+-Feld eingebettet werden.
+
+OCSP-Responses werden bei PAdES nicht eingebettet.
+
+Es sind die Vorgaben zum Signaturprofil gemäß Tabelle
+
+TAB_KON_779-01
+
+„Profilierung der Signaturformate“ zu erfüllen.
+
+Die aufbereiteten zu signierenden Dokumente werden an den Aufrufer 
+
+zurückgegeben.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Das Verhalten des TUCs bei einem Fehlerfall ist in TAB_KON_586  
+Fehlercodes
+TUC_KON_155 „Dokumente zur Signatur vorbereiten“  
+„PDF/A (PAdES)“
+
+Es ist nicht genügend Speicherplatz im PDF-Dokument verfügbar: 4205
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle194: TAB_KON_586 Fehlercodes TUC_KON_155 „Dokumente zur Signatur
 vorbereiten“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4205
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Es ist nicht genügend Speicherplatz im PDF-Dokument verfügbar.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5036,12 +30813,115 @@ nonQES prüfen” umsetzen.
 Tabelle195: TAB_KON_749 – TUC_KON_165 „Signaturvoraussetzungen für nonQES
 prüfen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_
+
+165
+
+„Signaturvoraussetzungen für nonQES prüfen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es werden die Voraussetzungen an die zu signierenden Dokumente und das
+Signaturzertifikat geprüft. Es werden die
+
+nonQES_DocFormate
+
+unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+TUC_KON_160 „Dokumente nonQES signieren“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alterna-tiven
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle196: TAB_KON_587 Fehlercodes TUC_KON_165 „Signaturvoraussetzungen für
 nonQES prüfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können keine
+weiteren Fehlercodes auftreten.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5054,11 +30934,127 @@ erstellen” umsetzen.
 
 Tabelle197: TAB_KON_750 – TUC_KON_166 „nonQES Signaturen erstellen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_166 „nonQES Signaturen erstellen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Die Data To Be Signed (DTBS) werden erzeugt, an die Signaturkarte gesendet und
+dort signiert.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+TUC_KON_160 „Dokumente nonQES signieren“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Die folgenden Schritte werden für jedes Dokument der Liste durchgeführt.
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes:
+
+(
+
+
+
+3) Fehlgeschlagene mathematische Prüfung der Signatur: 4120
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle198: TAB_KON_120 Fehlercodes TUC_KON_166 „nonQES Signaturen erstellen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4120
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartenfehler
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5072,12 +31068,115 @@ Der Konnektor MUSS den technischen Use Case TUC_KON_152
 Tabelle199: TAB_KON_751 – TUC_KON_152 „Signaturvoraussetzungen für QES
 prüfen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_152 „Signaturvoraussetzungen für QES prüfen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es werden die Voraussetzungen an die zu signierenden Dokumente und das
+Signaturzertifikat geprüft. Es werden die
+
+QES_DocFormate
+
+unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+TUC_KON_150 „Dokumente QES signieren“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(-\>3) Für MGM_LU_ONLINE=Enabled gilt:
+
+Liefert die Zertifikatsprüfung (OCSP-Abfrage) die Warnung CERT_REVOKED oder
+CERT_UNKNOWN gemäß [gemSpec_PKI#Tab_PKI_274], dann wird der TUC mit Fehler
+4123 abgebrochen.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle200: TAB_KON_588 Fehlercodes TUC_KON_152 „Signaturvoraussetzungen für
 QES prüfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können keine
+weiteren Fehlercodes auftreten.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5096,15 +31195,183 @@ erstellen” umsetzen.
 
 Tabelle201: TAB_KON_752 – TUC_KON_154 „QES Signaturen erstellen"
 
- ---> TABLE
+<table><tr><th>
+Element
 
-![Img-018][Img-018]
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_154 „QES Signaturen erstellen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Die Data To Be Signed (DTBS) werden erzeugt, an die Signaturkarte gesendet und
+dort signiert.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+TUC_KON_150 „Dokumente QES signieren“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Ressourcen Signaturkarte und Kartenterminal sind für den Vorgang reserviert.
+
+DF.QES ist selektiert.
+
+PIN.QES ist initial verifiziert
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte (HBA)
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Basierend auf SAK.AUTD_CVC und HPC.AUTD_SUK_CVC und den zugehörigen privaten
+Schlüsseln wird ein sicherer Kanal zwischen der gSMC-K des Konnektors und dem
+HBA aufgebaut mittels Aufruf TUC_KON_005 „Card-to-Card authentisieren“ {  
+
+     sourceCardSession = gSMC-K;
+
+     targetCardSession = CardSession;
+
+     authMode = „gegenseitig+TC“}
+
+Die folgenden Schritte werden für jedes Dokument des Stapels durchgeführt.
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Alternativ zum Standardablauf kann zu Beginn die maximal erlaubte Stapelgröße
+SSEC durch Auslesen von EF.SSEC ermittelt werden. Der zu signierende
+Dokumentenstapel wird in Teilstapel von maximaler Größe SSEC zerlegt. Für
+jeden Teilstapel wird die PIN.QES verifiziert. Die Dokumente des Teilstapels
+werden wie im Standardablauf beschrieben signiert.
+
+Der Nutzer kann den Vorgang der PIN-Eingabe abbrechen.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(-\>2) Fehler im Signaturvorgang führen zum Abbruch des gesamten
+Signaturvorgangs, Fehlercode 4123
+
+(-\>3) Fehler bei der PIN-Eingabe führen zum Abbruch des Signaturvorgangs
+
+(-\>4) Fehler in mathematischer Prüfung der Signatur führen zum Abbruch des
+Signaturvorgangs, Fehlercode 4120
+
+Das Verhalten des TUCs bei einem Fehlerfall, einem Timeout der PIN-Eingabe oder
+beim Abbruch durch den Benutzer ist in Tabelle TAB_KON_192 Verhalten des
+Konnektors beim Abbruch einer Stapelsignatur beschrieben.
+
+</td></tr><tr><td>
+Sicherheitsanforderungen
+
+</td><td>
+Zum Aufbau des sicheren Kanals bzw. zur Aushandlung des symmetrischen
+Schlüssels DARF DF.QES NICHT verlassen werden. Benötigte CVCs des HBA MÜSSEN
+also bereits vor dem Signaturvorgang eingelesen und gecacht werden. Dies KANN
+bereits beim Stecken des HBA geschehen.
+
+Die in [gemSpec_Krypt#3.1.2] angegebenen Festlegungen der zu unterstützenden
+Algorithmen MÜSSEN berücksichtigt werden.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Abbildung PIC_KON_113 Aktivitätsdiagramm zu „QES Signaturen erstellen“
+
+Das Diagramm dient nur der Veranschaulichung und ist nicht vollständig.
+Beispielsweise enthält es nicht die Steuerung durch den Parameter crypt.
+
+</td></tr></table>
+
+![Img-050][Img-050]
 
 Abbildung18: PIC_KON_113 Aktivitätsdiagramm zu „QES Signaturen erstellen“
 
 Tabelle202: TAB_KON_126 Fehlercodes TUC_KON_154 „QES Signaturen erstellen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4120
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartenfehler
+
+</td></tr><tr><td>
+4123
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Fehler bei Signaturerstellung
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5117,12 +31384,133 @@ erstellen“ umsetzen.
 
 Tabelle203: TAB_KON_293 - TUC_KON_168 „Einzelsignatur QES erstellen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_168 ”Einzelsignatur QES erstellen”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird ein Dokument technisch mit einer Signatur versehen.
+
+Im Gegensatz zum TUC_KON_154 „QES Signaturen erstellen“ wird hier nur eine
+einzelne Signatur ohne vorhergehendes C2C erstellt. Die Übertragung der DTBS
+erfolgt ohne Secure Messaging.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+TUC_KON_150 Dokumente QES signieren
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Ressourcen Signaturkarte und Kartenterminal sind für den Vorgang reserviert.
+
+DF.QES ist selektiert.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte (HBAx)
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Das Verhalten des TUCs bei einem Fehlerfall, einem Timeout der PIN-Eingabe oder
+beim Abbruch durch den Benutzer ist in Tabelle TAB_KON_192 Verhalten des
+Konnektors beim Abbruch einer Stapelsignatur beschrieben.
+
+(
+
+
+
+3) Fehler in mathematischer Prüfung der Signatur: Abbruch mit 4120
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle204: TAB_KON_590 Fehlercodes TUC_KON_168 „Einzelsignatur QES
 erstellen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th colspan="2">
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="5">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten.
+
+</td></tr><tr><td>
+4120
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td colspan="2">
+Kartenfehler
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5140,11 +31528,237 @@ erstellen” umsetzen.
 
 Tabelle205: TAB_KON_870 – TUC_KON_158 „Komfortsignaturen erstellen"
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_158 „Komfortsignaturen erstellen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Die Data To Be Signed (DTBS) werden erzeugt, an die Signaturkarte gesendet und
+dort signiert.
+
+Die Übertragung der DTBS erfolgt mit Secure Messaging.
+
+Die Abarbeitung der Signatur erfolgt im SE#2.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+TUC_KON_170 „Dokumente mit Komfort signieren“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Ressource Signaturkarte ist für den Vorgang reserviert.
+
+DF.QES ist selektiert.
+
+PIN.QES ist initial verifiziert
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+·        
+
+Zu signierendes Dokument bzw. zu signierende Dokumente
+
+·        
+
+cardSession (nur HBA erlaubt)
+
+·        
+
+zu verwendende Identität (Zertifikatsreferenz)
+
+·        
+
+crypt [SIG_CRYPT_QES] -
+
+optional
+
+;
+
+default und 
+
+Wertebereich: siehe TAB_KON_862-01
+
+(Dieser Parameter steuert, ob RSA-basierte oder ECC-basierte Signaturen erzeugt
+werden.)
+
+·        
+
+WorkplaceId
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte (HBA)
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+·        
+
+Signierte Dokumente
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1.
+
+  
+
+Wenn noch nicht erfolgt, wird basierend auf SAK.AUTD_CVC und HPC.AUTD_SUK_CVC
+und den zugehörigen privaten Schlüsseln ein sicherer Kanal zwischen der
+gSMC-K des Konnektors und dem HBA aufgebaut mittels Aufruf TUC_KON_005
+„Card-to-Card authentisieren“ {  
+
+     sourceCardSession = gSMC-K;
+
+     targetCardSession = CardSession;
+
+     authMode = „gegenseitig+TC“}
+
+Die folgenden Schritte werden für jedes Dokument des Stapels durchgeführt.
+
+2.    Das zu signierende Dokument wird, soweit noch nicht erfolgt, für die
+Signatur gemäß des entsprechenden Formats vorbereitet. Ein Ergebnis dieser
+Vorbereitung sind die Data To Be Signed (DTBS): der Hash-Wert (Digest des
+SignedInfo-Elementes), der zur Signatur an die Karte gesendet werden soll.
+
+3.    Es wird geprüft, ob der Komfortsignatur-Zähler der cardSession den
+Wert SAK_COMFORT_SIGNATURE_MAX überschritten hat .
+
+ 
+
+4.    Für das zu signierende Dokument werden die DTBS zur Signatur im
+sicheren Kanal an den HBA übermittelt (Aufruf TUC_KON_218 „Signiere“).
+Dabei werden der Schlüssel und der Algorithmusidentifier über die Tabelle
+TAB_KON_900 bestimmt.
+
+5.    Der Komfortsignatur-Zähler der cardSession wird um 1 erhöht.
+
+6.    Die erstellte Signatur wird mathematisch geprüft.
+
+7.    Der ermittelte Signaturwert wird in den zuvor vorbereiteten
+Signaturprototypen eingefügt.
+
+8.
+
+  
+
+Der Konnektor löst TUC_KON_256 {"SIG/SIGNDOC/NEXT_SUCCESSFUL"; Op; Info;
+„$Jobnummer"; noLog; $doInformClients } aus.
+
+</td></tr><tr><td>
+Varianten/
+
+Alternatien
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+In den Fehlerfällen, die zum Abbruch des Komfortsignaturmodus mit Fehlercode
+4271 führen, wird vor dem Abbruch TUC_KON_172 für das cardHandle des HBA
+ausgeführt.
+
+(-\>3) Der Komfortsignatur-Zähler der cardSession hat den Maximalwert
+überschritten: Fehlercode 4271
+
+(-\>4) Der PIN.QES-Nutzungszähler der Karte ist abgelaufen (erkennbar z. B.
+daran, dass die Karte einen Autorisierungsfehler zurückmeldet): Fehlercode 4271
+
+(-\>4) Fehler im Signaturvorgang führen zum Abbruch des gesamten
+Signaturvorgangs: Fehlercode 4123
+
+(-\>6) Fehler in mathematischer Prüfung der Signatur führen zum Abbruch des
+Signaturvorgangs: Fehlercode 4120
+
+Das weitere Verhalten des TUCs bei einem Fehlerfall oder beim Abbruch durch den
+Benutzer ist in TAB_KON_192, Verhalten des Konnektors beim Abbruch einer
+Stapelsignatur, beschrieben.
+
+</td></tr><tr><td>
+Sicherheitsanforderungen
+
+</td><td>
+Zum Aufbau des sicheren Kanals bzw. zur Aushandlung des symmetrischen
+Schlüssels DARF DF.QES NICHT verlassen werden. Benötigte CVCs des HBA MÜSSEN
+also bereits vor dem Signaturvorgang eingelesen und gecached werden. Dies KANN
+bereits beim Stecken des HBA geschehen.
+
+Komfortsignaturen MÜSSEN im SE#2 abgearbeitet werden.
+
+Die in [gemSpec_Krypt] angegebenen Festlegungen der zu unterstützenden
+Algorithmen MÜSSEN berücksichtigt werden.
+
+</td></tr></table>
 
 Tabelle206: TAB_KON_873 Fehlercodes TUC_KON_158 „Komfortsignaturen erstellen“
 
- ---> TABLE
+<table><tr><td>
+Fehlercode
+
+</td><td>
+ErrorType
+
+</td><td>
+Severity
+
+</td><td>
+Fehlertext
+
+</td></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4120
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartenfehler
+
+</td></tr><tr><td>
+4123
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Fehler bei Signaturerstellung
+
+</td></tr><tr><td>
+</td><td>
+</td></tr></table>
 
 **[\<=]**
 
@@ -5168,11 +31782,188 @@ signieren” umsetzen.
 
 Tabelle207: TAB_KON_753 – TUC_KON_160 „Dokumente nonQES signieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_160 „Dokumente nonQES signieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Im Rahmen von Fachanwendungen werden ein oder mehrere Dokumente mit einer
+nicht-qualifizierten elektronischen Signatur (nonQES) versehen. Es werden die
+nonQES_DocFormate unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation SignDocument) oder ein Fachmodul.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Signaturkarte muss gesteckt sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte bzw. HSM-B
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+(Liste der signierten Dokumente)
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor KANN die Schritte 1 bis 4 in einer beliebigen Reihenfolge
+durchführen.
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Im Fall signatureType=S/MIME-Signatur  
+wird der Standardablauf des CMS
+Signaturverfahrens durch einen vorgelagerten S/MIME-Vorbereitungsschritt und
+einen nachgelagerten S/MIME-Nachbereitungsschritt ergänzt. Das
+S/MIME-Verfahren MUSS konform [S/MIME] und SOLL konform [COMMON_PKI], Part 3,
+erfolgen.  
+Der S/MIME-Vorbereitungsschritt bereitet das übergebene
+MIME-Dokument gemäß [S/MIME], Kapitel 3.1, auf die nachfolgende CMS-Signatur
+durch eine Kanonisierung für Text [S/MIME], Kapitel 3.1.1, vor. Eine weitere
+Kanonisierung oder eine Anpassung des Transfer Encodings [S/MIME], Kapitel
+3.1.2, erfolgt nicht.  
+Im S/MIME-Nachbereitungsschritt wird das im
+Standardablauf erzeugte CMS-Objekt in eine MIME-Nachricht vom Typ
+„application/pkcs7-mime“ eingebettet.  
+Sämtliche Header-Felder der
+Nachricht MÜSSEN in die Header-Felder der S/MIME-Nachricht übernommen werden.
+ 
+"MIME-Version: 1.0" MUSS definiert sein.  
+Das Feld "Content-Type:" ist als
+"application/pkcs7-mime" zu definieren. Die weiteren Attribute dieses Feldes
+sind:
+
+ ---> UL
+
+Die Codierung des signierten Inhalts der Nachricht MUSS in "base64" erfolgen.
+Entsprechend ist das zugehörige Header-Feld zu füllen:
+"Content-Transfer-Encoding: base64".  
+Das Feld "Content-Disposition" definiert
+den Inhalt der Nachricht als Dateianhang: "Content-Disposition: attachment;
+filename=$dateiname"
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes:  
+(2) Ungültige Angabe des
+Signaturverfahrens: Fehlercode 4111  
+         Übergabe eines für die
+nonQES nicht unterstützten  
+        Dokumentformats: Fehlercode 4110 
+
+  (3) Kartentyp nicht zulässig für Signatur: Fehlercode 4126
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle208: TAB_KON_127 Fehlercodes TUC_KON_160 „Dokumente nonQES signieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4110
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiges Dokumentformat (%Format%)
+
+Der Parameter Format enthält das übergebene Dokumentformat.
+
+</td></tr><tr><td>
+4111
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiger Signaturtyp oder Signaturvariante
+
+</td></tr><tr><td>
+4126
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp nicht zulässig für Signatur
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5183,11 +31974,188 @@ signieren” umsetzen.
 
 Tabelle209: TAB_KON_753 – TUC_KON_160 „Dokumente nonQES signieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_160 „Dokumente nonQES signieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Im Rahmen von Fachanwendungen werden ein oder mehrere Dokumente mit einer
+nicht-qualifizierten elektronischen Signatur (nonQES) versehen. Es werden die
+nonQES_DocFormate unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation SignDocument) oder ein Fachmodul.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Signaturkarte muss gesteckt sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte bzw. HSM-B
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+(Liste der signierten Dokumente)
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor KANN die Schritte 1 bis 4 in einer beliebigen Reihenfolge
+durchführen.
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Im Fall signatureType=S/MIME-Signatur  
+wird der Standardablauf des CMS
+Signaturverfahrens durch einen vorgelagerten S/MIME-Vorbereitungsschritt und
+einen nachgelagerten S/MIME-Nachbereitungsschritt ergänzt. Das
+S/MIME-Verfahren MUSS konform [S/MIME] und SOLL konform [COMMON_PKI], Part 3,
+erfolgen.  
+Der S/MIME-Vorbereitungsschritt bereitet das übergebene
+MIME-Dokument gemäß [S/MIME], Kapitel 3.1, auf die nachfolgende CMS-Signatur
+durch eine Kanonisierung für Text [S/MIME], Kapitel 3.1.1, vor. Eine weitere
+Kanonisierung oder eine Anpassung des Transfer Encodings [S/MIME], Kapitel
+3.1.2, erfolgt nicht.  
+Im S/MIME-Nachbereitungsschritt wird das im
+Standardablauf erzeugte CMS-Objekt in eine MIME-Nachricht vom Typ
+„application/pkcs7-mime“ eingebettet.  
+Sämtliche Header-Felder der
+Nachricht MÜSSEN in die Header-Felder der S/MIME-Nachricht übernommen werden.
+ 
+"MIME-Version: 1.0" MUSS definiert sein.  
+Das Feld "Content-Type:" ist als
+"application/pkcs7-mime" zu definieren. Die weiteren Attribute dieses Feldes
+sind:
+
+ ---> UL
+
+Die Codierung des signierten Inhalts der Nachricht MUSS in "base64" erfolgen.
+Entsprechend ist das zugehörige Header-Feld zu füllen:
+"Content-Transfer-Encoding: base64".  
+Das Feld "Content-Disposition" definiert
+den Inhalt der Nachricht als Dateianhang: "Content-Disposition: attachment;
+filename=$dateiname"
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes:  
+(2) Ungültige Angabe des
+Signaturverfahrens: Fehlercode 4111  
+         Übergabe eines für die
+nonQES nicht unterstützten  
+        Dokumentformats: Fehlercode 4110 
+
+  (3) Kartentyp nicht zulässig für Signatur: Fehlercode 4126
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle210: TAB_KON_127 Fehlercodes TUC_KON_160 „Dokumente nonQES signieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4110
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiges Dokumentformat (%Format%)
+
+Der Parameter Format enthält das übergebene Dokumentformat.
+
+</td></tr><tr><td>
+4111
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiger Signaturtyp oder Signaturvariante
+
+</td></tr><tr><td>
+4126
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp nicht zulässig für Signatur
+
+</td></tr></table>
 
 Die zulässigen Zertifikate und Schlüssel sind in TAB_KON_900 aufgelistet. **[\<=]**
 
@@ -5200,12 +32168,409 @@ Dokumentsignatur prüfen” umsetzen.
 
 Tabelle211: TAB_KON_121 - TUC_KON_161 „nonQES Dokumentsignatur prüfen“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_161 „nonQES Dokumentsignatur prüfen”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird die nicht-qualifizierte elektronische Signatur (nonQES) eines Dokuments
+geprüft. Dabei werden die Signaturverfahren laut Tabelle TAB_KON_582 –
+Signaturverfahren unterstützt. Sind mehrere Signaturen vorhanden, so werden
+alle geprüft. Auch Parallel- und Gegensignaturen MÜSSEN unterstützt werden. 
+
+Die unterstützten Zertifikatstyp-OIDs sind in der Tabelle TAB_KON_786
+aufgelistet.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation VerifyDocument) oder ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+ocspGracePeriod
+
+         (OCSP-Grace Period: maximal zulässiger Zeitraum, den die letzte
+
+        OCSP-Antwort aus dem Cache bezüglich des Referenzzeitpunkts
+
+        zurückliegen darf)
+
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+XML-Signatur:
+
+      Die Core Validation erfolgt entsprechend [XMLDSig]
+
+      Kapitel 3.2 Core Validation.
+
+CMS-Signatur:
+
+      Die Core Validation erfolgt entsprechend Cryptographic
+
+     Message Syntax (CMS) Kapitel 5.6 Signature Verification
+
+     Process [RFC5652].
+
+PDF-Signatur:
+
+      Die Core Validation erfolgt entsprechend [PAdES-3]
+
+      Kapitel 4.6 Signature Validation aus PAdES-BES Part 3.
+
+Auch wenn die Validierung fehlschlägt, werden die folgenden Prüfschritte
+durchgeführt, so dass ein vollständiges Prüfprotokoll erstellt werden kann.
+
+ ---> OL
+
+Teil 1: Signaturzertifikat ermitteln
+
+XML-Signatur:
+
+      Das Signaturzertifikat ist im XMLDSig Element
+
+    
+
+ds:KeyInfo/ds:X509Data
+
+gespeichert [XMLDSig]
+
+     oder wird als Eingangsparameter übergeben.
+
+CMS-Signatur:
+
+      Das Signaturzertifikat für CAdES ist im Feld
+
+    
+
+certificates
+
+im
+
+SignedData
+
+Container gespeichert
+
+     [CAdES] oder wird als Eingangsparameter übergeben.
+
+PDF-Signatur:
+
+      Das PDF Signaturzertifikat für PAdES ist im Feld
+
+     SignedData.certificates entsprechend Kapitel 6.1.1
+
+      „Placements of the signing certificate“
+
+      [PAdES Baseline Profile] gespeichert oder wird als
+
+     Eingangsparameter übergeben.
+
+Teil 2: Signaturzeitpunkt bestimmen
+
+Der Signaturzeitpunkt Ermittelter_Signaturzeitpunkt_Eingebettet wird wie folgt
+selektiert:
+
+XML-Signatur:
+
+Das XML element SigningTime spezifiziert den 
+
+Signaturzeitpunkt entsprechend Kapitel 7.2.1 XAdES
+
+[XAdES].
+
+CMS-Signatur:
+
+Das Attribut SigningTime spezifiziert den
+
+Signaturzeitpunkt entsprechend Kapitel 11.3 CMS [CMS].
+
+PDF-Signatur:
+
+Der Signaturzeitpunkt kann dem M Eintrag des Signature
+
+Dictionary entnommen werden [PAdES Baseline Profile]
+
+Kapitel 6.2.1 Signing time.
+
+Der Signaturzeitpunkt
+
+Benutzerdefinierter_Zeitpunkt
+
+liegt gegebenenfalls als Aufrufparameter vor. Der Signaturzeitpunkt
+
+Ermittelter_Signaturzeitpunkt_System
+
+wird ermittelt.
+
+Teil 3: Signaturzertifikatsprüfung:
+
+Bei der folgenden Signaturzertifikatsprüfung sind die Signaturzeitpunkte
+gemäß [TIP1-A_5545] zu berücksichtigen.
+
+Die Signaturzertifikatsprüfung erfolgt durch Aufruf von TUC_KON_037
+„Zertifikat prüfen“.
+
+Die Parameter im Aufruf von TUC_KON_037 „Zertifikat prüfen“ werden wie
+folgt gesetzt
+
+ ---> UL
+
+In Abhängigkeit von der policyList gemäß Tabelle TAB_KON_786 gesetzte
+Parameter:
+
+ ---> UL
+
+Sind OCSP-Responses in der Signatur eingebettet, ist die jüngste OCSP-Response,
+die für die Zertifikatsprüfung notwendig ist, beim Aufruf von TUC_KON_037 zu
+übergeben.
+
+Sofern der Aufruf von TUC_KON_037 ocspResponsesRenewed zurückgibt, wird die
+Liste der OCSP-Responses in die Signatur eingebettet.
+
+Auch wenn die Zertifikatsprüfung fehlschlägt, werden die folgenden Prüfungen
+durchgeführt.
+
+ ---> OL
+
+In diesem Schritt wird das signierte Dokument entsprechend der Profilierung der
+Signaturformate (siehe Anhang B.2) geprüft.
+
+Es sind die Vorgaben für die Prüfung von Signaturen aus den Standards für
+AdES [XAdES], [XAdES Baseline], [CAdES], [CAdES Baseline], [PAdES-3] und [PAdES
+Baseline] umzusetzen. Dabei sind die Vorgaben aus Tabelle TAB_KON_779-01
+„Profilierung der Signaturformate“ und Tabelle  
+TAB_KON_778
+„Einsatzbereich der Signaturvarianten“ zu erfüllen.
+
+Auch wenn nicht alle Anforderungen an das Format des signierten Dokuments
+erfüllt werden, wird die Prüfung mit den folgenden Schritten fortgesetzt, um
+ein vollständiges Prüfungsprotokoll zu erhalten.
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Im Fall, dass die Online-Prüfung des Sperrzustands des Signaturzertifikats
+nicht möglich ist und eine möglicherweise gecachte OCSP-Response nicht
+vorhanden ist oder nicht mehr verwendet werden darf, wird das Prüfergebnis mit
+der entsprechenden Warnung zurückgegeben.
+
+Im Fall einer PKCS#1-Signatur ist das verwendete
+Signaturverfahren,  RSASSA-PSS bzw. RSASSA-PKCS1-v1_5, aus der Signatur zu
+bestimmen.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Das Verhalten des TUCs bei einem Fehlerfall ist in TAB_KON_124 Fehlercodes
+TUC_KON_161 „nonQES Dokumentensignatur prüfen“ beschrieben.
+
+(-\>1) keine Signatur in signedDocument und signature vorhanden: 4253
+
+(
+
+
+
+2
+
+„CoreValidation“
+
+)
+
+Interner Fehler: 4001, Signatur des Dokument ungültig: 4115.
+
+Signatur umfasst nicht das gesamte Dokument: 4262.
+
+(
+
+
+
+3 „
+
+CheckSignatureCertificate“
+
+)      
+
+Interner Fehler: 4001, Signaturzertifikat ermitteln fehlgeschlagen: 4206.
+
+(
+
+
+
+4
+
+„CheckPolicyConstraints“
+
+)  
+
+Interner Fehler: 4001, Dokument nicht konform zu Regeln für nonQES: 4112.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle212: TAB_KON_124 Fehlercodes TUC_KON_161 „nonQES Dokumentensignatur
 prüfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weiteren Fehlercodes auftreten.
+
+</td></tr><tr><td>
+4001
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Interner Fehler
+
+</td></tr><tr><td>
+4206
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Signaturzertifikat ermitteln ist fehlgeschlagen
+
+</td></tr><tr><td>
+4112
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Dokument nicht konform zu Regeln für nonQES
+
+</td></tr><tr><td>
+4115
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Signatur des Dokuments ungültig.
+
+Der SignatureValue des Dokuments ist falsch oder für mindestens eine Reference
+ist der DigestValue falsch.
+
+</td></tr><tr><td>
+4253
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Keine Signatur im Aufruf
+
+</td></tr><tr><td>
+4262
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Signatur umfasst nicht das gesamte Dokument
+
+</td></tr><tr><td>
+4264
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Ein oder mehrere Zertifikate ignoriert
+
+</td></tr></table>
 
 Das Gesamtergebnis (VerificationResult) für die Prüfung einer
 Dokumentensignatur fasst die Ergebnisse aller Prüfungsschritte in einem
@@ -5213,11 +32578,204 @@ einzelnen Statuswert zusammen.
 
 Tabelle213: TAB_KON_754 Übersicht Status für Prüfung einer Dokumentensignatur
 
- ---> TABLE
+<table><tr><th colspan="2">
+VerificationResult für gesamtes Dokument (VerificationResult/HighLevelResult)
+
+</th></tr><tr><td>
+Wert
+
+</td><td>
+Bedeutung
+
+</td></tr><tr><td>
+VALID
+
+</td><td>
+Wenn VerificationResult für alle Signaturen zum Dokument VALID
+
+</td></tr><tr><td>
+INVALID
+
+</td><td>
+Wenn VerificationResult für eine Signatur zum Dokument INVALID
+
+</td></tr><tr><td>
+INCONCLUSIVE
+
+</td><td>
+in allen anderen Fällen
+
+</td></tr><tr><td colspan="2">
+VerificationResult pro Signatur  (VerificationReport/IndividualReport/Result)
+
+</td></tr><tr><td>
+Wert
+
+</td><td>
+Bedeutung
+
+mögliche Ausprägungen im VerificationReport
+
+</td></tr><tr><td rowspan="3">
+VALID
+
+</td><td>
+Die Signatur wurde gemäß den Regeln für die nonQES geprüft und für gültig
+befunden.
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:Success
+
+ResultMinor =
+urn:oasis:names:tc:dss:1.0:resultminor:valid:signature:OnAllDocuments
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:Success
+
+ResultMinor =
+urn:oasis:names:tc:dss:1.0:resultminor:valid:signature:HasManifestResults
+
+</td></tr><tr><td rowspan="7">
+INVALID
+
+</td><td>
+Die Signatur ist ungültig oder aufgrund eines Fehlers konnte die
+Signaturprüfung nicht durchgeführt werden.
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:Success
+
+ResultMinor = urn:oasis:names:tc:dss:1.0:resultminor:invalid:IncorrectSignature
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:Success
+
+ResultMinor =
+urn:oasis:names:tc:dss:1.0:resultminor:valid:signature:InvalidSignatureTimestamp
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:RequesterError
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:ResponderError
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:InsufficientInformation
+
+ResultMinor = urn:oasis:names:tc:dss:1.0:resultminor:invalid:IncorrectSignature
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:InsufficientInformation
+
+ResultMinor = urn:oasis:names:tc:dss:1.0:resultminor:CertificateChainNotComplete
+
+</td></tr><tr><td rowspan="2">
+INCONCLUSIVE
+
+</td><td>
+Die Signatur wurde gemäß den Regeln für die nonQES geprüft. Allerdings
+konnten eine oder mehrere Prüfungen nicht vollständig durchgeführt werden.
+Einzelheiten finden sich in Result-Detail.
+
+Die Prüfungen, die durchgeführt werden konnten, waren erfolgreich.
+
+</td></tr><tr><td>
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:InsufficientInformation
+
+ResultMinor = urn:oasis:names:tc:dss:1.0:resultminor:OcspNotAvailiable
+
+Hinweis: Das Erreichen dieses Zustandes hängt davon ab, ob eine OCSP-Abfrage
+nicht durchgeführt werden konnte, unabhängig davon, ob die Ursache dafür die
+Offlineschaltung des Konnektors (MGM_LU_ONLINE = Disabled) oder die
+Nichterreichbarkeit des OCSP-Responders im Online-Betrieb (MGM_LU_ONLINE =
+Enabled)  ist.
+
+</td></tr></table>
 
 Tabelle214: TAB_KON_786 Übersicht unterstützte Zertifikatstyp-OIDs
 
- ---> TABLE
+<table><tr><th>
+policyList
+
+</th><th>
+intendedKeyUsage
+
+</th><th>
+intendedExtendedKeyUsage
+
+</th></tr><tr><td>
+X.509-Zertifikat einer eGK
+
+</td><td>
+oid_egk_aut
+
+</td><td>
+intendedKeyUsage(C.CH.AUT)
+
+</td><td>
+id-kp-clientAuth
+
+</td></tr><tr><td>
+X.509-Zertifikat einer eGK
+
+</td><td>
+oid_egk_autn
+
+</td><td>
+intendedKeyUsage(C.CH.AUTN)
+
+</td><td>
+id-kp-clientAuth
+
+</td></tr><tr><td>
+X.509-Zertifikat der SM-B
+
+</td><td>
+oid_smc_b_osig
+
+</td><td>
+intendedKeyUsage(C.HCI.OSIG)
+
+</td><td>
+-
+
+</td></tr><tr><td>
+X.509-Zertifikat eines fachanwendungsspezifischen Dienstes
+
+</td><td>
+oid_fd_sig
+
+</td><td>
+intendedKeyUsage(C.FD.SIG)
+
+</td><td>
+-
+
+</td></tr><tr><td>
+X.509-Zertifikat eines fachanwendungsspezifischen Dienstes (nonRepudiation)
+
+</td><td>
+oid_fd_osig
+
+</td><td>
+intendedKeyUsage(C.FD.OSIG)
+
+</td><td>
+-
+
+</td></tr><tr><td>
+X.509-Zertifikat eines zentralen Dienstes (nonRepudiation)
+
+</td><td>
+oid_zd_sig
+
+</td><td>
+intendedKeyUsage(C.ZD.SIG)
+
+</td><td>
+-
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5242,12 +32800,142 @@ Prüfung der XML-Dokumentensignatur” umsetzen.
 Tabelle215: TAB_KON_430 – TUC_KON_162 „Kryptographische Prüfung der
 XML-Dokumentensignatur“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_162 „Kryptographische Prüfung der XML-Dokumentensignatur”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird die mathematische Korrektheit der elektronischen Signatur eines
+XML-Dokuments geprüft. Sind mehrere Signaturen vorhanden, so werden alle
+geprüft.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+„CoreValidation“
+
+:
+
+Es erfolgt die mathematische Prüfung der Signatur, bestehend aus der Prüfung
+der Hash-Kette bis zum signierten Hashwert und der Prüfung der
+kryptographischen Signatur unter Verwendung des öffentlichen Schlüssels aus
+dem Zertifikat, des Signaturwertes und des signierten Hashwertes.
+
+XML-Signatur:
+
+     
+
+Die Core Validation erfolgt entsprechend [XMLDSig] Kapitel 3.2  
+     Core
+Validation.
+
+  a) CoreValidation erfolgreich -\> result = true
+
+  b) CoreValidation fehlerhaft  -\> result = false
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zu den
+ausgewiesenen Fehlercodes:
+
+Interner Fehler: 4001
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle216: TAB_KON_431 Fehlercodes TUC_KON_162 „Kryptographische Prüfung der
 XML-Dokumentensignatur“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th colspan="2">
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="5">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weiteren Fehlercodes auftreten.
+
+</td></tr><tr><td>
+4001
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td colspan="2">
+Interner Fehler
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5260,15 +32948,225 @@ signieren” umsetzen.
 
 Tabelle217: TAB_KON_755 – TUC_KON_150 „Dokumente QES signieren“
 
- ---> TABLE
+<table><tr><th>
+Element
 
-![Img-019][Img-019]
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_150 ”Dokumente QES signieren”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Im Rahmen von Fachanwendungen werden ein oder mehrere Dokumente mit einer
+qualifizierten elektronischen Signatur versehen. Es werden die QES_DocFormate
+unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation SignDocument) oder ein Fachmodul.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Signaturkarte muss gesteckt sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte (HBAx)
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor KANN die Schritte 1 bis 4 in einer beliebigen Reihenfolge
+durchführen.
+
+ ---> OL
+
+Wenn nur ein zu signierendes Dokument vorhanden ist und der Einfachsignaturmodus
+aktiviert ist (siehe Konfigurationsparameter SAK_SIMPLE_SIGNATURE_ MODE), wird
+in Schritt 7 Variante a) durchgeführt, ansonsten Variante b).
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Der Nutzer kann den Vorgang bei der Autorisierung (Schritt 6) abbrechen. Hierbei
+sind die gleichen Regeln anzuwenden wie im Fehlerfall (s. Fehlerfälle).
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes:
+
+(-\>1) Ungültige Angabe des Signaturtyps oder Signaturvariante:
+
+         Fehlercode 4111
+
+         Übergabe eines für die QES nicht unterstützten
+Dokumentformats:
+
+         Fehlercode 4110
+
+(-\>2) Kartentyp nicht zulässig für Signatur: Fehlercode 4126
+
+(-\>5) Fehler bei der Reservierung von Ressourcen: Fehlercode 4060
+
+(-\>7b) Karte ist kein HBA, sondern HBA-Vorläuferkarte: Fehlercode 4118
+
+Im Fehlerfall, inklusive Timeout bei der PIN-Eingabe, oder bei Abbruch durch den
+Benutzer (Fehler 4049):
+
+ a)      … MUSS DF.QES verlassen werden
+
+ b)      … MÜSSEN alle reservierten Ressourcen freigegeben werden
+
+ c)      … MUSS der Fehler immer an das Clientsystem zurückgemeldet
+
+    werden
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Abbildung PIC_KON_114 Aktivitätsdiagramm zu „Dokument QES signieren“
+
+</td></tr></table>
+
+![Img-051][Img-051]
 
 Abbildung19: PIC_KON_114 Aktivitätsdiagramm zu „Dokument QES signieren“
 
 Tabelle218: TAB_KON_128 Fehlercodes TUC_KON_150 „Dokument QES signieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4060
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ressource belegt
+
+</td></tr><tr><td>
+4110
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiges Dokumentformat (%Format%)
+
+Der Parameter Format enthält das übergebene Dokumentformat.
+
+</td></tr><tr><td>
+4111
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiger Signaturtyp oder Signaturvariante
+
+</td></tr><tr><td>
+4118
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Stapelsignaturen werden nur für den HBA unterstützt. Mit HBA-Vorläuferkarten
+sind nur Einzelsignaturen möglich.
+
+</td></tr><tr><td>
+4126
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp nicht zulässig für Signatur
+
+</td></tr><tr><td>
+4049
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Abbruch durch den Benutzer
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5316,7 +33214,137 @@ werden kann.
 Tabelle219: TAB_KON_192 Verhalten des Konnektors beim Abbruch einer
 Stapelsignatur
 
- ---> TABLE
+<table><tr><th colspan="2">
+Nummer
+
+</th><th>
+Problem/Fehler/Ereignis
+
+</th><th>
+Verhalten des Konnektors
+
+</th></tr><tr><td rowspan="4">
+Während die erneute PIN-Eingabe angefordert wird
+
+</td><td>
+1
+
+</td><td>
+Timeout bei der PIN-Eingabe am KT
+
+</td><td>
+Der Signaturvorgang (Stapel) wird
+
+beendet
+
+:
+
+Kein „Fehler“
+
+Die Signaturen des/der vorherigen Teilstapel(s) bleiben erhalten und werden an
+das Clientsystem zurückgegeben.
+
+Keine weiteren Signaturen des neuen Teilstapels werden erstellt. (Die
+Weiterverarbeitung bereits erstellter Signaturen des letzten Teilstapels
+(sofern vorhanden) wird noch abgeschlossen).
+
+</td></tr><tr><td>
+2
+
+</td><td>
+PIN gesperrt (nach mehrfacher Fehleingabe)
+
+</td><td>
+Siehe Verhalten unter Nummer 1
+
+</td></tr><tr><td>
+3
+
+</td><td>
+Abbruchkommando „StopSignature“ zur Jobnummer wird empfangen
+
+</td><td>
+Der Signaturvorgang (Stapel) wird
+
+beendet
+
+.
+
+Kein „Fehler“
+
+Keine weiteren Signaturen des neuen Teilstapels werden erstellt. (Die
+Weiterverarbeitung bereits erstellter Signaturen des letzten Teilstapels
+(sofern vorhanden) wird noch abgeschlossen).
+
+</td></tr><tr><td>
+4
+
+</td><td>
+Abbruchtaste am Kartenterminal wird gedrückt
+
+</td><td>
+Siehe Verhalten unter Nummer 1
+
+</td></tr><tr><td rowspan="2">
+während der Vorgang der Signaturerstellung läuft
+
+</td><td>
+5
+
+</td><td>
+Abbruchkommando „StopSignature“ zur Jobnummer wird empfangen
+
+</td><td>
+Signaturvorgang (Stapel) wird
+
+abgebrochen
+
+.
+
+Kein „Fehler“
+
+Keine weiteren Signaturen des Stapels werden erstellt.
+
+Keine weiteren Signaturen des Teilstapels werden erstellt.
+
+Bisher erstellte Signaturen des aktuellen Teilstapels werden verworfen.
+
+</td></tr><tr><td>
+6
+
+</td><td>
+Abbruchtaste am Kartenterminal wird gedrückt.
+
+</td><td>
+Die „Abbruch“-Taste wird nicht vom Signaturdienst fortlaufend überwacht
+
+
+
+Keine Aktion seitens des Signaturdienstes.
+
+</td></tr><tr><td>
+</td><td>
+7
+
+</td><td>
+Bei allen anderen Fehlerfällen (z. B.: es kommen zu viele Signaturen zurück,
+der Hash-Wert einer der Signaturen stimmt nicht, Karte gezogen, etc)
+
+</td><td>
+Signaturvorgang (Stapel) wird abgebrochen.
+
+Schwerer Fehler.
+
+Keine weiteren Signaturen des Stapels werden erstellt.
+
+Keine weiteren Signaturen des aktuellen Teilstapels werden erstellt.
+
+Bisher erstellte Signaturen aller Teilstapel werden verworfen.
+
+Es handelt sich um Probleme/Fehlerfälle, die bei typischen Angriffen auftreten
+können.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5329,12 +33357,410 @@ Der Konnektor MUSS den technischen Use Case TUC_KON_151
 
 Tabelle220: TAB_KON_591 - TUC_KON_151 „QES-Dokumentensignatur prüfen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_151 „QES-Dokumentensignatur prüfen”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird die QES eines Dokuments geprüft. Dabei werden die Signaturverfahren
+laut Tabelle TAB_KON_582 – Signaturverfahren unterstützt. Sind mehrere
+Signaturen vorhanden, so werden alle geprüft. Auch Parallel- und
+Gegensignaturen MÜSSEN unterstützt werden.
+
+</td></tr><tr><td>
+Eingangsanforderung
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation VerifyDocument) oder durch ein
+Fachmodul im Konnektor
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1. „DocumentValidation“: Das signierte Dokument wird validiert mit Aufruf
+TUC_KON_080 „Dokument validieren“{ … }.
+
+Treten Fehler bei der Validierung der Typkonformität auf, wenn die Signatur im
+Dokument eingebettet ist, wird die Prüfung mit einem Fehler abgebrochen. 
+
+Treten bei der Typkonformität, wenn die Signatur nicht im Dokument
+eingebettet ist, Fehler auf, so bricht der TUC nicht ab, sondern führt die
+folgenden Schritte soweit sinnvoll möglich durch. (Die Entscheidung über das
+sinnvoll Durchführbare liegt beim Hersteller des Konnektors.)
+
+2. „CoreValidation“:
+
+Es erfolgt die mathematische Prüfung der Signatur, bestehend aus der Prüfung
+der Hash-Kette bis zum signierten Hashwert und der Prüfung der Signatur unter
+Verwendung des öffentlichen Schlüssels, des Signaturwertes und des signierten
+Hashwertes.  
+XML-Signatur:  
+Die Core Validation erfolgt entsprechend
+[XMLDSig] Kapitel 3.2 Core Validation.  
+CMS-Signatur:   
+Die Core Validation
+erfolgt entsprechend Cryptographic Message Syntax (CMS) Kapitel 5.6 Signature
+Verification Process [RFC5652].  
+PDF-Signatur:  
+Die Core Validation erfolgt
+entsprechend [PAdES-3] Kapitel 4.6 Signature Validation aus PAdES-BES Part 3. 
+
+Auch wenn die Validierung fehlschlägt, werden die folgenden Prüfschritte
+durchgeführt, so dass ein vollständiges Prüfprotokoll erstellt werden kann.
+
+3. „CheckSignatureCertificate“:
+
+Teil 1: Signaturzertifikat ermitteln  
+  XML-Signatur:  
+        Das
+Signaturzertifikat ist im XMLDSig Element  
+       
+ds:KeyInfo/ds:X509Data gespeichert [XMLDSig] oder wird als  
+       
+Eingangsparameter übergeben.  
+  CMS-Signatur:  
+        Das
+Signaturzertifikat für CAdES ist im Feld certificates im  
+      
+SignedData Container gespeichert [CAdES] oder wird als  
+      
+Eingangsparameter übergeben.  
+  PDF-Signatur:  
+        Das PDF
+Signaturzertifikat für PAdES ist im Feld  
+      
+SignedData.certificates entsprechend Kapitel 6.1.1 „Placements of 
+
+       the signing certificate“ [PAdES Baseline Profile] gespeichert
+oder  
+       wird als Eingangsparameter übergeben.  
+Teil 2:
+Signaturzeitpunkt bestimmen
+
+ 
+
+Der Signaturzeitpunkt
+
+ 
+
+Ermittelter_Signaturzeitpunkt_Eingebettet
+
+wird wie
+
+  folgt selektiert:
+
+  XML-Signatur:
+
+       Das XML element
+
+SigningTime
+
+spezifiziert den Signaturzeitpunkt
+
+       entsprechend Kapitel 7.2.1 XAdES [XAdES].
+
+  CMS-Signatur:
+
+       Das Attribut
+
+SigningTime
+
+spezifiziert den Signaturzeitpunkt
+
+       entsprechend Kapitel 11.3 CMS [CMS].
+
+  PDF-Signatur:
+
+       Der Signaturzeitpunkt kann dem M Eintrag des Signature Dictionary
+
+       entnommen werden [PAdES Baseline Profile] Kapitel 6.2.1 Signing
+
+       time.
+
+Der Signaturzeitpunkt
+
+Benutzerdefinierter_Zeitpunkt
+
+liegt gegebenenfalls als Aufrufparameter vor. Der Signaturzeitpunkt
+
+Ermittelter_Signaturzeitpunkt_System
+
+wird ermittelt.
+
+Teil 3: Signaturzertifikatsprüfung:
+
+Bei der folgenden Signaturzertifikatsprüfung sind die Signaturzeitpunkte
+gemäß [TIP1-A_5540] zu berücksichtigen.
+
+Die Signaturzertifikatsprüfung erfolgt durch Aufruf von TUC_KON_037
+„Zertifikat prüfen“ {
+
+    certificate = C.HP.QES;
+
+    qualifiedCheck = required;
+
+    baseTime = Signaturzeitpunkt;
+
+    offlineAllowNoCheck = true;
+
+   validationMode = OCSP;
+
+    ocspResponses = OCSP-Response;
+
+    getOCSPResponses = includeRevocationInfo
+
+}.
+
+Sind OCSP-Responses in der Signatur eingebettet, ist die jüngsten OCSP-Response
+des EE-Zertifikats, die für die Zertifikatsprüfung notwendig ist, beim Aufruf
+von TUC_KON_037 zu übergeben.
+
+Sofern der Aufruf von TUC_KON_037 ocspResponses zurückgibt, wird die
+OCSP-Response des EE-Zertifikats in die Signatur eingebettet.
+
+Auch wenn die Zertifikatsprüfung fehlschlägt, werden die folgenden Prüfungen
+durchgeführt.
+
+4. „CheckPolicyConstraints“:
+
+In diesem Schritt wird das signierte Dokument entsprechend der Profilierung der
+Signaturformate (siehe Anhang B.2) geprüft. Es sind die Vorgaben für die
+Prüfung von Signaturen aus den Standards für AdES [XAdES], [XAdES Baseline],
+[CAdES], [CAdES Baseline], [PAdES-3] und [PAdES Baseline] umzusetzen. Dabei
+sind die Vorgaben aus Tabelle TAB_KON_779-01
+
+"Profilierung der Signaturformate“ und Tabelle TAB_KON_778 „Einsatzbereich
+der Signaturvarianten“ zu erfüllen.
+
+Auch wenn nicht alle Anforderungen an das Format des signierten Dokuments
+erfüllt werden, wird die Prüfung mit den folgenden Schritten fortgesetzt, um
+ein vollständiges Prüfungsprotokoll zu erhalten.
+
+5. Das Prüfergebnis (VerificationResult, OptionalOutput) wird an den Aufrufer
+zurückgegeben (siehe TAB_KON_593 Übersicht Status für Prüfung einer
+Dokumentensignatur).
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Das Verhalten des TUCs bei einem Fehlerfall ist in TAB_KON_592 Fehlercodes
+TUC_KON_151 „QES Dokumentensignatur prüfen“ beschrieben.
+
+(-\>1) keine Signatur in signedDocument und signatureObject vorhanden: 4253.
+
+(
+
+
+
+2
+
+„CoreValidation“
+
+) Interner Fehler: 4001, Signatur des Dokuments ungültig:
+
+4115, Signatur umfasst nicht das gesamte Dokument: 4262
+
+(
+
+
+
+3
+
+„CheckSignatureCertificate“
+
+) Interner Fehler: 4001, Signaturzertifikat ermitteln ist fehlgeschlagen: 4206.
+
+(
+
+
+
+4
+
+„CheckPolicyConstraints“
+
+) Interner Fehler: 4001, Dokument nicht konform zu Regeln für QES: 4124,
+Dokument nicht konform zu Profilierung der Signaturformate: 4208.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle221: TAB_KON_592 Fehlercodes TUC_KON_151 „QES Dokumentensignatur
 prüfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4001
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+interner Fehler
+
+</td></tr><tr><td>
+4115
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Signatur des Dokuments ungültig. Prüfung der Hashwertkette bzw. Prüfung der
+kryptographischen Signatur fehlgeschlagen.
+
+</td></tr><tr><td>
+4124
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Dokument nicht konform zu Regeln für QES
+
+</td></tr><tr><td>
+4206
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Signaturzertifikat ermitteln ist fehlgeschlagen
+
+</td></tr><tr><td>
+4208
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Dokument nicht konform zu Profilierung der Signaturformate
+
+</td></tr><tr><td>
+4253
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Keine Signatur im Aufruf
+
+</td></tr><tr><td>
+4262
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Signatur umfasst nicht das gesamte Dokument
+
+</td></tr><tr><td>
+4264
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Ein oder mehrere Zertifikate ignoriert
+
+</td></tr></table>
 
 Das Gesamtergebnis (VerificationResult) für die Prüfung einer
 Dokumentensignatur fasst die Ergebnisse
@@ -5343,7 +33769,111 @@ aller Prüfungsschritte in einem einzelnen Statuswert zusammen. 
 
 Tabelle222: TAB_KON_593 Übersicht Status für Prüfung einer Dokumentensignatur
 
- ---> TABLE
+<table><tr><th colspan="4">
+VerificationResult für gesamtes Dokument (VerificationResult/HighLevelResult)
+
+</th></tr><tr><td colspan="2">
+Wert
+
+</td><td colspan="2">
+Bedeutung
+
+</td></tr><tr><td colspan="2">
+VALID
+
+</td><td colspan="2">
+Wenn VerificationResult für alle Signaturen zum Dokument VALID
+
+</td></tr><tr><td colspan="2">
+INVALID
+
+</td><td colspan="2">
+Wenn VerificationResult für eine Signatur zum Dokument INVALID
+
+</td></tr><tr><td colspan="2">
+INCONCLUSIVE
+
+</td><td colspan="2">
+in allen anderen Fällen
+
+</td></tr><tr><td colspan="4">
+VerificationResult pro Signatur  (VerificationReport/IndividualReport/Result)
+
+</td></tr><tr><td colspan="2">
+Wert
+
+</td><td colspan="2">
+Bedeutung  
+mögliche Ausprägungen im VerificationReport
+
+</td></tr><tr><td colspan="2" rowspan="3">
+VALID
+
+</td><td colspan="2">
+Die Signatur wurde gemäß den Regeln für die QES geprüft und für gültig
+befunden.
+
+</td></tr><tr><td colspan="2">
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:Success  
+ResultMinor =
+urn:oasis:names:tc:dss:1.0:resultminor:valid:signature:OnAllDocuments
+
+</td></tr><tr><td colspan="2">
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:Success  
+ResultMinor =
+urn:oasis:names:tc:dss:1.0:resultminor:valid:signature:HasManifestResults
+
+</td></tr><tr><td colspan="2" rowspan="7">
+INVALID
+
+</td><td colspan="2">
+Die Signatur ist ungültig oder aufgrund eines Fehlers konnte die
+Signaturprüfung nicht durchgeführt werden.
+
+</td></tr><tr><td colspan="2">
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:Success  
+ResultMinor =
+urn:oasis:names:tc:dss:1.0:resultminor:invalid:IncorrectSignature
+
+</td></tr><tr></tr><tr><td colspan="2">
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:RequesterError
+
+</td></tr><tr><td colspan="2">
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:ResponderError
+
+</td></tr><tr><td colspan="2">
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:InsufficientInformation 
+
+ResultMinor = urn:oasis:names:tc:dss:1.0:resultminor:invalid:IncorrectSignature
+
+</td></tr><tr><td colspan="2">
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:InsufficientInformation 
+
+ResultMinor =
+urn:oasis:names:tc:dss:1.0:resultminor:CertificateChainNotComplete
+
+</td></tr><tr><td colspan="2" rowspan="2">
+INCONCLUSIVE
+
+</td><td colspan="2">
+Die Signatur wurde gemäß den Regeln für die QES geprüft. Allerdings konnten
+eine oder mehrere Prüfungen nicht vollständig durchgeführt werden.
+Einzelheiten finden sich in Result-Detail.  
+Die Prüfungen, die durchgeführt
+werden konnten, waren erfolgreich.
+
+</td></tr><tr><td colspan="2">
+ResultMajor = urn:oasis:names:tc:dss:1.0:resultmajor:InsufficientInformation 
+
+ResultMinor = urn:oasis:names:tc:dss:1.0:resultminor:OcspNotAvailiable 
+
+Hinweis: Das Erreichen dieses Zustandes hängt davon ab, ob eine OCSP-Abfrage
+nicht durchgeführt werden konnte, unabhängig davon, ob die Ursache dafür die
+Offlineschaltung des Konnektors (MGM_LU_ONLINE = Disabled) oder die
+Nichterreichbarkeit des OCSP-Responders im Online-Betrieb (MGM_LU_ONLINE =
+Enabled)  ist.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5367,12 +33897,353 @@ signieren” umsetzen.
 
 Tabelle223: TAB_KON_871 – TUC_KON_170 „Dokumente mit Komfort signieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_170 ”Dokumente mit Komfort signieren”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Im Rahmen von Fachanwendungen werden ein oder mehrere Dokumente mit einer
+Komfortsignatur versehen. Es werden die QES_DocFormate unterstützt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Clientsystem (Operation SignDocument) oder ein Fachmodul.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Signaturkarte muss gesteckt sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+·        
+
+signRequests
+
+(Liste von Signaturaufträgen)
+
+Jeder Signaturauftrag (SignRequest) kapselt:
+
+•
+
+     
+
+documentsToBeSigned
+
+(Zu signierendes Dokument bzw. zu signierende Dokumente);
+
+darin u.a.
+
+documentFormat
+
+(Formatangabe für das zu signierende Dokument)
+
+•
+
+     
+
+optionalInputs
+
+(weitere optionale Eingabeparameter zur Steuerung der Details bei der zu
+erstellenden Signatur, siehe Operation SignDocument, Parameter
+dss:OptionalInputs); darin u.a. signatureType (URI für den
+Signaturtyp  XML-, CMS-, PDF-Signatur)
+
+•
+
+     
+
+includeRevocationInfo [Boolean]: – optional; Default: true
+
+(Dieser optionale Parameter steuert die Einbettung von OCSP Antworten in die
+Signatur; siehe Operation SignDocument, Parameter SIG:IncludeRevocationInfo)
+
+·        
+
+cardSession
+
+(Kartensitzung. Unterstützte Kartentypen: HBA)
+
+·        
+
+crypt [SIG_CRYPT_QES] -
+
+optional
+
+;
+
+default und Wertebereich: siehe TAB_KON_862-01
+
+(Dieser Parameter steuert, ob RSA-basierte oder ECC-basierte Signaturen erzeugt
+werden.)
+
+·        
+
+workplaceId
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte (HBA)
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+·        
+
+signedDocuments
+
+(Liste der signierten Dokumente)
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor KANN die Schritte 1 bis 5 in einer beliebigen Reihenfolge
+durchführen.
+
+1.    Prüfe
+
+SAK_COMFORT_SIGNATURE = Enabled
+
+2.  Prüfe, ob der Komfortsignatur-Timer der cardSession
+(SAK_COMFORT_SIGNATURE_TIMER) abgelaufen ist.  
+
+3.    Der Signaturtyp und die Signaturvariante werden für jedes Dokument der
+Liste entsprechend signatureType und SignatureVariant festgelegt (ggf. in
+optionalInputs enthalten). Wenn SignatureType oder SignatureVariant nicht
+übergeben wurden, wird das dem Dokumentformat entsprechende Default-Verfahren
+gewählt (siehe TAB_KON_583 – Default-Signaturverfahren).
+
+4.    Für alle Dokumente des Stapels wird die Zulässigkeit des Kartentyps
+geprüft. Das für die Signatur zu nutzende Zertifikat wird anhand des
+Kartentyps und des Parameters crypt ausgewählt.
+
+5.    Es werden die Voraussetzungen für die Signatur geprüft. Dies erfolgt
+im TUC_KON_152 „Signaturvoraussetzungen für QES prüfen“.  
+Wenn
+includeRevocationInfo=true, dann setze ocspResponses auf Rückgabewert von
+TUC_KON_152.
+
+6.    Die am Signaturvorgang beteiligte RessourceSignaturkarte wird für die
+exklusive Nutzung durch diesen Signaturvorgang reserviert. Die Reservierung der
+Signaturkarte erfolgt durch Aufruf von  
+TUC_KON_023 „Karte reservieren“ { 
+
+    cardSession;  
+    doLock = true }.
+
+7.    Zum Vorbereiten der Dokumente für die Signatur wird TUC_KON_155
+„Dokumente zur Signatur vorbereiten“ mit ocspResponses aufgerufen.
+
+Die Zugriffe auf die Signaturkarte im Schritt 8 müssen im DF.QES erfolgen.
+DF.QES darf am Ende des TUCs nicht verlassen werden.
+
+8.    Die Signaturen werden erstellt. Dies erfolgt gemäß TUC_KON_158
+„Komfortsignaturen erstellen“.
+
+9.    Die reservierte Ressource Signaturkarte wird wieder freigegeben. Zur
+Freigabe der Signaturkarte wird TUC_KON_023 „Karte reservieren“   
+ 
+ cardSession;  
+   doLock = false }  
+aufgerufen.
+
+10.    Die signierten Dokumente werden an den Aufrufer zurückgegeben.
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes.  
+In den Fehlerfällen, die zum Abbruch des
+Komfortsignaturmodus mit Fehlercode 4271 führen, wird vor dem Abbruch
+TUC_KON_172 für das cardHandle des HBA ausgeführt.
+
+(-\>1) Komfortsignaturfunktion im Konnektor nicht aktiviert: Fehlercode 4263 
+
+(-\>2) Der Komfortsignatur-Timer der cardSession ist abgelaufen: Fehlercode
+4271  
+(-\>3) Ungültige Angabe des Signaturtyps oder Signaturvariante:
+
+         Fehlercode 4111
+
+         Übergabe eines für die QES nicht unterstützten
+Dokumentformats:
+
+         Fehlercode 4110
+
+(-\>4) Kartentyp nicht zulässig für Signatur: Fehlercode 4126
+
+(-\>6) Fehler bei der Reservierung der Signaturkarte: Fehlercode 4060
+
+(-\>8) Karte ist kein HBA, sondern HBA-Vorläuferkarte: Fehlercode 4274
+
+Im Fehlerfall:
+
+ a)      … DARF DF.QES NICHT verlassen werden
+
+ b)      … MÜSSEN alle reservierten Ressourcen freigegeben werden
+
+ c)      … MUSS der Fehler immer an das Clientsystem zurückgemeldet
+
+    werden
+
+</td></tr><tr><td>
+Sicherheits-anforderungen
+
+</td><td>
+Der Konnektor MUSS sicherstellen, dass der erhöhte Sicherheitszustand der
+PIN.QES nur für die Komfortsignatur mittels TUC_KON_170 innerhalb einer
+Kartensitzung nachgenutzt werden darf.
+
+</td></tr></table>
 
 Tabelle224: TAB_KON_872 Fehlercodes TUC_KON_170 „Dokumente mit Komfort
 signieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4060
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ressource belegt
+
+</td></tr><tr><td>
+4110
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiges Dokumentformat (%Format%)
+
+Der Parameter Format enthält das übergebene Dokumentformat.
+
+</td></tr><tr><td>
+4111
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiger Signaturtyp oder Signaturvariante
+
+</td></tr><tr><td>
+4126
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp nicht zulässig für Signatur
+
+</td></tr><tr><td>
+4049
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Abbruch durch den Benutzer
+
+</td></tr><tr><td>
+4263
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Komfortsignaturfunktion nicht aktiviert
+
+</td></tr><tr><td>
+4271
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Komfortsignaturmodus abgebrochen
+
+</td></tr><tr><td>
+4274
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Komfortsignaturen werden nur für den HBA unterstützt
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5385,11 +34256,272 @@ einschalten“ umsetzen.
 
 Tabelle225: TAB_KON_883 – TUC_KON_171 „Komfortsignatur einschalten“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_171 „Komfortsignatur einschalten“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Zum Einschalten des Komfortsignaturmodus wird die PIN.QES verifiziert und der
+Signaturmodus „Comfort“ für die cardSession gesetzt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+·        
+
+Operation ActivateComfortSignature
+
+·        
+
+Aufruf durch ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Der Karte muss gesteckt sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+·        
+
+cardSession (nur HBA erlaubt)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Karte (HBA)
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+·        
+
+signatureMode
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1.    Prüfe
+
+SAK_COMFORT_SIGNATURE = Enabled
+
+2.    Die am Vorgang beteiligten Ressourcen (Karte sowie PIN-Pad und Display
+des PIN-Eingabe-Kartenterminals) werden für die exklusive Nutzung durch diesen
+Vorgang reserviert. Die Reservierung der Karte erfolgt durch Aufruf von 
+
+TUC_KON_023 „Karte reservieren“ {  
+    cardSession;  
+    doLock
+= true }
+
+Der Zugriff auf die Karte im Schritt 3 muss im DF.QES erfolgen. Das DF.QES darf
+danach nicht verlassen werden, damit der PIN-Status der PIN.QES erhalten bleibt.
+
+3.    Die Einschaltung der Komfortsignatur wird durch den Anwender
+autorisiert. Dies erfolgt durch Aufruf von TUC_KON_012 „PIN verifizieren“ {
+cardSession;  
+workplaceId;  
+pinRef = PIN.QES;  
+verificationType =
+Mandatorisch }  
+Für die Anzeige am Kartenterminal ist die Displaymessage für
+„Komfortsignatur aktivieren“ aus TAB_KON_090 zu verwenden.
+
+4.    Setze
+
+CARDSESSION.SIGNMODE
+
+= Comfort
+
+5.    Starte Komfortsignatur-Timer für die cardSession bei „0“
+
+6.    Die reservierten Ressourcen (Karte sowie PIN-Pad und  
+Display des
+PIN-Eingabe-Kartenterminals) werden wieder freigegeben.  
+Zur Freigabe der
+Karte wird TUC_KON_023 „Karte reservieren“   
+   cardSession;  
+ 
+ doLock = false }  
+aufgerufen.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zum Abbruch mit
+den ausgewiesenen Fehlercodes:  
+(-\>1) Komfortsignaturfunktion im Konnektor
+nicht aktiviert: Fehlercode 4263  
+(-\>) Keine Komfortsignatursession für den
+HBA aktivierbar, da Maximalzahl an parallelen Komfortsignatursessions
+erschöpft:  
+Fehlercode 4278  
+(-\>2) Fehler bei der Reservierung von
+Ressourcen: Fehlercode 4060  
+(-\>3) Karte ist kein HBA, sondern
+HBA-Vorläuferkarte: Fehlercode 4274
+
+(-\>3) pinResult = BLOCKED: Fehlercode 4275  
+(-\>3) pinResult = REJECTED:
+Fehlercode 4276  
+(-\>4) Fehler beim Setzen des Signaturmodus: Fehlercode 4267
+
+(-\>5) Fehler beim Starten des Komfortsignatur-Timers: Fehlercode 4267
+
+Im Fehlerfall, inklusive Timeout bei der PIN-Eingabe, oder bei Abbruch durch den
+Benutzer (Fehler 4049):  
+ a)     … MUSS (ab Schritt
+5) CARDSESSION.SIGNMODE = PIN gesetzt werden  
+ b)      … MUSS (ab
+Schritt 3) DF.QES verlassen werden  
+ c)      … MÜSSEN alle
+reservierten Ressourcen freigegeben werden  
+ d)      … MUSS der Fehler
+immer an das Clientsystem zurückgemeldet werden
+
+</td></tr></table>
 
 Tabelle226: TAB_KON_886 Fehlercodes TUC_KON_171 „Komfortsignatur einschalten“
 
- ---> TABLE
+<table><tr><td>
+Fehlercode
+
+</td><td>
+ErrorType
+
+</td><td>
+Severity
+
+</td><td>
+Fehlertext
+
+</td></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4049
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Abbruch durch den Benutzer
+
+</td></tr><tr><td>
+4060
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ressource belegt
+
+</td></tr><tr><td>
+4263
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Komfortsignaturfunktion nicht aktiviert
+
+</td></tr><tr><td>
+4267
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Aktivieren des Komfortsignaturmodus \<cardHandle\>
+
+</td></tr><tr><td>
+4274
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Komfortsignaturen werden nur für den HBA unterstützt
+
+</td></tr><tr><td>
+4275
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Security Error PIN jetzt gesperrt (BLOCKED)
+
+</td></tr><tr><td>
+4276
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Security Error PIN falsch (REJECTED)
+
+</td></tr><tr><td>
+4278
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Keine Komfortsignatursession mehr verfügbar
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5402,13 +34534,207 @@ ausschalten“ umsetzen.
 
 Tabelle227: TAB_KON_884 – TUC_KON_172 „Komfortsignatur ausschalten“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_172 „Komfortsignatur ausschalten“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Zum Ausschalten des Komfortsignaturmodus werden die Sicherheitszustände der
+Karte(n), die im Konnektor verwalteten Sicherheitszustände und der
+Signaturmodus der cardSession(s) zurückgesetzt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+·        
+
+Operation DeactivateComfortSignature
+
+·        
+
+TUC_KON_158
+
+·        
+
+Der Administrator setzt SAK_COMFORT_SIGNATURE = Disabled
+
+·        
+
+Aufruf durch ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die Karten müssen gesteckt sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Bei Auslösen des TUCs durch den Administrator:
+
+·        
+
+Keine
+
+Ansonsten:
+
+·        
+
+cardHandles : Liste von cardHandles (nur HBA erlaubt)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Karte (HBA)
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1.    Wenn der TUC nicht durch den Administrator ausgelöst wurde:  
+Prüfe
+
+SAK_COMFORT_SIGNATURE = Enabled
+
+2.    Wenn der TUC durch den Administrator ausgelöst wurde: Ermittle die
+cardHandles aller gesteckten HBA.
+
+3.    Für jedes übergebene bzw. ermittelte cardHandle:
+
+4.    Ermittle cardSessions zu cardHandle
+
+5.    Für jede ermittelte cardSession:
+
+a.    Setze den PIN-Status der PIN.QES zurück (z. B. durch Verlassen von
+DF.QES für alle logischen Kanäle der Karte)
+
+b.    Lösche den im Konnektor verwalteten Sicherheitszustand aus
+
+CARDSESSION.AUTHSTATE (PINRef=PIN.QES)
+
+c.    Setze
+
+CARDSESSION.SIGNMODE = PIN
+
+d.    Stoppe Komfortsignatur-Timer für die cardSession
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+ 
+
+</td><td>
+(-\>1) Komfortsignaturfunktion im Konnektor nicht aktiviert: Fehlercode 4263
+
+Fehler und Warnungen in den folgenden Schritten werden über alle cardHandle
+akkumuliert und die \<komma-separierte Liste von cardHandle\> für den
+jeweiligen Fehlertext erzeugt.
+
+(-\>3) Bei einem ungültigen cardHandle wird mit dem nächsten cardHandle aus
+cardHandles fortgesetzt. Fehlercode 4265
+
+(-\>4) Ist zu einem cardHandle keine cardSession vorhanden wird mit dem
+nächsten cardHandle fortgesetzt. Fehlercode 4266
+
+(-\>5) Tritt in Schritt 4 ein Fehler auf wird mit dem nächsten cardHandle
+fortgesetzt. Fehlercode 4268
+
+</td></tr></table>
 
  
 
 Tabelle228: TAB_KON_887 Fehlercodes TUC_KON_172 „Komfortsignatur ausschalten“
 
- ---> TABLE
+<table><tr><td>
+Fehlercode
+
+</td><td>
+ErrorType
+
+</td><td>
+Severity
+
+</td><td>
+Fehlertext
+
+</td></tr><tr><td>
+4263
+
+</td><td>
+Technical
+
+</td><td>
+Fehler
+
+</td><td>
+Komfortsignaturfunktion nicht aktiviert
+
+</td></tr><tr><td>
+4265
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Karten-Handle ungültig \<komma-separierte Liste von cardHandle\>
+
+</td></tr><tr><td>
+4266
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Keine Kartensitzung vorhanden \<komma-separierte Liste von cardHandle\>
+
+</td></tr><tr><td>
+4268
+
+</td><td>
+Technical
+
+</td><td>
+Fehler
+
+</td><td>
+Fehler beim Deaktivieren des Komfortsignaturmodus \<komma-separierte Liste von
+cardHandle\>
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5421,13 +34747,143 @@ Signaturmodus“ umsetzen.
 
 Tabelle229: TAB_KON_885 – TUC_KON_173 „Liefere Signaturmodus“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_173 „Liefere Signaturmodus“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der aktuell konfigurierte Status der Komfortsignaturfunktion im Konnektor und
+Informationen zur Komfortsignatursession werden ermittelt und an den Aufrufer
+zurückgegeben.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+·        
+
+Operation GetSignatureMode
+
+·        
+
+Aufruf durch ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+·   
+
+ cardSession   
+(Kartensitzung. Unterstützte Kartentypen: HBA)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal, Signaturkarte (HBA)
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+·        
+
+comfortSignatureStatus
+
+·        
+
+comfortSignatureMax
+
+·        
+
+comfortSignatureTimer
+
+·        
+
+sessionInfo (optional): Struktur aus
+
+signatureMode, countRemaining, timeRemaining
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+(-\>4b) Der Rückgabewert für countRemaining muss für jede
+Komfortsignatursession den aktuellen Stand zur Anzahl verbleibender
+Komfortsignaturen wiedergeben unter Einbezug
+
+a)   ggf. parallel existierender Sessions auf ein und demselben logischen
+Kanal des HBA,
+
+b)   der maximal durch die Karte in diesem logischen Kanal erlaubten
+Komfortsignaturen (laut [gemSpec_HBA_ObjSys*] 250) und
+
+c)   der konfigurierten maximal erlaubten Anzahl an Komfortsignaturen für
+die betreffende Session (SAK_COMFORT_SIGNATURE_MAX).
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Wenn im Standardablauf ein Fehler auftritt, wird mit Fehler 4269 abgebrochen.
+
+</td></tr></table>
 
  
 
 Tabelle230: TAB_KON_888 Fehlercodes TUC_KON_173 „Liefere Signaturmodus“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4269
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Ermitteln des Signaturmodus \<cardHandle\>
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5440,7 +34896,105 @@ QES) anbieten.
 
 Tabelle231: TAB_KON_197 Basisdienst Signaturdienst (nonQES und QES)
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+SignatureService
+
+</th></tr><tr><td>
+Version (KDV)
+
+</td><td colspan="2">
+7.4.0 (WSDL-Version), 7.4.2 (XSD-Version)  
+7.4.2 (WSDL-Version), 7.4.4
+(XSD-Version)  
+7.5.5 (WSDL- und XSD-Version)  
+Siehe Anhang D
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td colspan="2">
+Siehe Anhang D
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td colspan="2">
+SIG für Schema und SIGW für WSDL
+
+</td></tr><tr><td rowspan="5">
+Operationen
+
+</td><td>
+Name
+
+</td><td>
+Kurzbeschreibung
+
+</td></tr><tr><td>
+SignDocument
+
+</td><td>
+Dokument signieren
+
+</td></tr><tr><td>
+VerifyDocument
+
+</td><td>
+Signatur verifizieren
+
+</td></tr><tr><td>
+StopSignature
+
+</td><td>
+Signieren eines Dokumentenstapels abbrechen
+
+</td></tr><tr><td>
+GetJobNumber
+
+</td><td>
+Liefert eine Jobnummer für den nächsten Signiervorgang
+
+</td></tr><tr><td>
+ActivateComfortSignature
+
+</td><td>
+Aktiviert die Komfortsignatur für einen HBA
+
+</td></tr><tr><td>
+DeactivateComfortSignature
+
+</td><td>
+Deaktiviert die Komfortsignatur für einen oder mehrere HBA
+
+</td></tr><tr><td>
+GetSignatureMode
+
+</td><td>
+Liefert den Status der Komfortsignaturfunktion und Informationen zur
+Komfortsignatursession eines HBA
+
+</td></tr><tr><td>
+WSDL
+
+</td><td colspan="2">
+SignatureService_V7_5_5.wsdl  
+SignatureService_V7_4_2.wsdl 
+
+SignatureService.wsdl (WSDL-Version 7.4.0)
+
+</td></tr><tr><td>
+Schema
+
+</td><td colspan="2">
+SignatureService_V7_5_5.xsd  
+SignatureService_V7_4_4.xsd  
+SignatureService.xsd
+(XSD-Version 7.4.2)
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5453,18 +35007,715 @@ Der Signaturdienst des Konnektors MUSS an der Clientschnittstelle eine an
 
 Tabelle232: TAB_KON_065 Operation SignDocument (nonQES und QES)
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2" rowspan="1">
+SignDocument
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2" rowspan="1">
+Diese Operation lehnt sich an [OASIS-DSS] an. Sie enthält voneinander
+unabhängige SignRequests. Jeder SignRequest erzeugt eine Signatur für ein
+Dokument.  
+Für die qualifizierte elektronische Signatur (QES) werden die
+QES_DocFormate unterstützt. Für nicht-qualifizierte elektronische Signaturen
+(nonQES) werden die nonQES_DocFormate unterstützt.  
+Zur Signaturerzeugung
+werden Schlüssel und Zertifikate einer Chipkarte benutzt.  
+Unterstützte
+Karten sind für die QES der HBAx mit dem QES-Zertifikat. Für die nonQES wird
+für die Signaturtypen „XML-Signatur, CMS-Signatur, PDF-Signatur,
+S/MIME-Signatur“ die SM-B mit dem OSIG–Zertifikat unterstützt.  
+Bei der
+Erstellung von XML-Signaturen MUSS Canonical XML 1.1 verwendet werden
+[CanonXML1.1].  
+Es soll der Common-PKI-Standard eingesetzt werden, siehe
+[Common-PKI].  
+In Summe für die Größe der Dokumente in allen SignRequests
+innerhalb einer SignDocument-Anfrage MUSS der Konnektor eine Gesamtgröße von
+\<= 250 MB unterstützen.
+
+</td></tr><tr><td rowspan="20">
+Aufruf-parameter
+
+</td><td colspan="2" rowspan="1">
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+CONN:  
+Card  
+Handle
+
+</td><td>
+Identifiziert die zu verwendende Signaturkarte.  
+Die Operation DARF die
+Signatur mit der eGK NICHT unterstützen. Wird die Operation mit einem nicht
+unterstützten Kartentypen aufgerufen, so MUSS der Konnektor die Bearbeitung
+mit dem Fehler 4126 abbrechen.
+
+</td></tr><tr><td>
+SIG:  
+Crypt
+
+</td><td>
+Der Parameter crypt steuert die Auswahl der Zertifikate und Schlüssel für die
+Signaturerstellung abhängig von der durch cardHandle adressierten Karte
+gemäß TAB_KON_900.  
+Defaultwert: 
+
+ ---> UL
+
+</td></tr><tr><td>
+CCTX:  
+Context
+
+</td><td>
+Aufrufkontext QES mit HBAx:  
+MandantId, ClientSystemId, WorkplaceId, UserId
+verpflichtend  
+Aufrufkontext nonQES mit SM-B:  
+MandantId, ClientSystemId,
+WorkplaceId verpflichtend; UserId nicht ausgewertet
+
+</td></tr><tr><td>
+TvMode
+
+</td><td>
+Der Parameter wird im Konnektor nicht ausgewertet.
+
+</td></tr><tr><td>
+SIG:  
+JobNumber
+
+</td><td>
+Die Nummer des Jobs, unter der der nächste Signaturvorgang gestartet wird. 
+
+Parameter ist verpflichtend.
+
+</td></tr><tr><td>
+SIG:  
+Sign  
+Request
+
+</td><td>
+Ein SignRequest kapselt den Signaturauftrag für ein Dokument.  
+Das
+verpflichtende XML-Attribut RequestID identifiziert einen SignRequest innerhalb
+eines Stapels von SignRequests eindeutig. Es dient der Zuordnung der
+SignResponse zum jeweiligen SignRequest.  
+Enthält der Aufruf mehr als die
+unterstützte Anzahl von SignRequests, bricht die Operation mit Fehler 4000 ab.
+ 
+Es sind mindestens 50 SignRequests zu unterstützen.
+
+</td></tr><tr><td>
+SIG:  
+Optional  
+Inputs
+
+</td><td>
+Enthält optionale Eingangsparameter (angelehnt an dss:OptionalInputs gemäß
+[OASIS-DSS] Section 2.7):
+
+![Img-052][Img-052]
+
+</td></tr><tr><td>
+SIG:  
+Document
+
+</td><td>
+Dieses an das dss:Document Element aus [OASIS-DSS] Section 2.4.2 angelehnte
+Element enthält das zu signierende Dokument, wobei die Kindelemente
+CONN:Base64XML und dss:Base64Data auftreten können.  
+Bei den als
+dss:Base64Data übergebenen Dokumenten werden folgende (Klassen von) MIME-Types
+unterschieden:
+
+ ---> UL
+
+Der MIME-Type „text/plain“ wird interpretiert als „text/plain;
+charset=iso-8859-15”.  
+Das Element enthält ein Attribut ShortText Es muss
+für QES-Signaturen bei jedem Aufruf vom Clientsystem übergeben werden, für
+nonQES-Signaturen ist es optional.  
+Über das Attribut RefURI kann gemäß
+[OASIS-DSS] (Abschnitt 2.4.1) ein zu signierender Teilbaum eines XML-Dokuments
+ausgewählt werden. 
+
+Wenn die Signatur eines Teilbaums für die 
+
+Signaturvariante nicht unterstützt wird, muss der Signaturauftrag mit Fehler
+4111 abgelehnt werden.
+
+</td></tr><tr><td>
+SIG:  
+Include  
+Revocation  
+Info
+
+</td><td>
+Durch diesen verpflichtenden Schalter kann der Aufrufer die Einbettung von zum
+Zeitpunkt der Signaturerstellung vorliegenden Sperrinformationen anfordern. Es
+wird ausschließlich die zu erstellende Signatur betrachtet, d.h. es erfolgt
+keine Einbettung von Sperrinformationen für bereits enthaltene Signaturen. 
+
+Für nicht-qualifizierte elektronische Signaturen (nonQES) wird diese
+Funktionalität nicht unterstützt.
+
+ Für PDF-Signaturen werden keine Sperrinformationen eingebettet.
+
+</td></tr><tr><td>
+dss:  
+Signature  
+Type
+
+</td><td>
+Durch dieses in [OASIS-DSS] (Abschnitt 3.5.1) beschriebene Element kann der
+generelle Typ der zu erzeugenden Signaturen spezifiziert werden. Hierbei
+MÜSSEN folgende Signaturtypen unterstützt werden:
+
+ ---> UL
+
+ ---> UL
+
+ ---> UL
+
+Die nachfolgenden Werte KÖNNEN unterstützt werden:
+
+ ---> UL
+
+Der Konnektor KANN die Operation im Fall S/MIME mit Fehlercode 4279 beenden. 
+
+Andere
+
+SignatureType
+
+-Angaben führen zu einer Fehlermeldung 4111 (Ungültiger Signaturtyp oder
+Signaturvariante).
+
+Die Signaturtypen „XML-Signatur, CMS-Signatur, PDF-Signatur,
+S/MIME-Signatur“ DÜRFEN für QES der HBAx nur mit dem QES-Zertifikat
+erfolgen, für nonQES nur mit dem OSIG-Zertifikat der SM-B. In jedem diese
+Anforderung verletzenden Fall MUSS der Fehler 4058 (Aufruf nicht zulässig)
+zurückgeliefert werden.
+
+Fehlt dieses Element, so wird der Signaturtyp gemäß TAB_KON_583 –
+Default-Signaturverfahren aus dem Dokumententyp abgeleitet.
+
+</td></tr><tr><td>
+dss:  
+Properties
+
+</td><td>
+Durch dieses in [OASIS-DSS] (Abschnitt 3.5.5) definierte Element können
+zusätzliche signierte und unsignierte Eigenschaften (Properties) bzw.
+Attribute in die Signatur eingefügt werden.  
+Unterstützt werden genau
+folgende Attribute:  
+Im CMS-Fall (SignatureType = urn:ietf:rfc:5652) kann es
+XML-Elemente  
+./SignedProperties/Property/Value/CMSAttribute  
+und 
+
+./UnsignedProperties/Property/Value  
+/CMSAttribute  
+enthalten. Ein solches
+XML-Element CMSAttribute muss ein vollständiges, base64/DER-kodiertes
+ASN.1-Attribute enthalten, definiert in [CMS#5.3.SignerInfo Type]. Es muss bei
+der Erstellung des CMS-Containers unverändert unter SignedAttributes bzw.
+UnsignedAttributes aufgenommen werden.  
+Die Übergabe der Attribute
+
+ ---> UL
+
+wird ignoriert und es wird die Warnung 4273 zurück gegeben.
+
+</td></tr><tr><td>
+SIG:  
+Include  
+EContent
+
+</td><td>
+Durch dieses in [OASIS-DSS] (Abschnitt 3.5.7), definierte Element kann bei einer
+CMS-basierten Signatur das Einfügen des signierten Dokumentes in die Signatur
+angefordert werden.  
+Die Verwendung dieses Parameters bei anderen
+Signaturtypen führt zu einem Fehler 4111 (Ungültiger Signaturtyp oder
+Signaturvariante).
+
+</td></tr><tr><td>
+SIG:  
+Include  
+Object
+
+</td><td>
+Dieses Element enthält zum Anfordern einer Enveloping XML Signatur ein
+dss:IncludeObject-Element gemäß [OASIS-DSS] (Abschnitt 3.5.6).  
+Ist das
+Element vorhanden und ein anderer Signaturtyp als eine XML-Signatur
+angefordert, so wird der Fehler 4111 (Ungültiger Signaturtyp oder
+Signaturvariante) zurückgeliefert.
+
+</td></tr><tr><td>
+dss:  
+Signature  
+Placement
+
+</td><td>
+Durch dieses in [OASIS-DSS] (Abschnitt 3.5.8) definierte Element kann bei
+XML-basierten Signaturen gemäß [RFC3275] die Platzierung der Signatur im
+Dokument angegeben werden.  
+Die in [OASIS-DSS] (Abschnitt 2.5, XPath c)
+beschriebene Deklaration von Namespace-Prefixes im
+dss:SignaturePlacement-Element muss nicht unterstützt werden.   
+Bei anderen
+Signaturtypen wird das Element ignoriert und eine Warnung (Fehlercode 4197,
+Parameter SignaturePlacement wurde ignoriert) zurückgeliefert. 
+
+dss:SignaturePlacement darf nur zusammen mit einer unterstützten
+Signaturrichtlinie verwendet werden (sp:SignaturePolicyIdentifier muss
+entsprechend gesetzt sein).
+
+</td></tr><tr><td>
+dss:  
+Return  
+Updated  
+Signature
+
+</td><td>
+Durch dieses in [OASIS-DSS] (Abschnitt 4.5.8) definierte Element kann eine
+übergegebene XML- oder CMS-Signatur mit zusätzlichen Informationen und
+Signaturen (Parallel- und Gegensignaturen) versehen werden. Hierbei sind
+folgende Ausprägungen für das Type-Attribut vorgesehen:
+
+ ---> UL
+
+Bei anderen Type-Attributen wird der Fehler 4111 (Ungültiger Signaturtyp oder
+Signaturvariante) zurückgeliefert.
+
+</td></tr><tr><td>
+dss:  
+Schemas
+
+</td><td>
+Durch das in [OASIS-DSS] (Abschnitt 2.8.5) definierte Element können eine Menge
+von XML-Schemata übergeben werden, die zur Validierung der übergebenen
+XML-Dokumente verwendet werden können.
+
+</td></tr><tr><td colspan="2" rowspan="1">
+</td></tr><tr><td>
+dss:Schema
+
+</td><td>
+Dieses Element enthält ein XML-Schema zur Validierung des übergebenen
+XML-Dokuments. Das Attribut RefURI ist verpflichtend. Es kennzeichnet dabei den
+Namensraum des XML-Schemas entsprechend [OASIS-DSS] (Abschnitt 2.8.5)
+
+</td></tr><tr><td>
+sp:  
+Generate  
+Under  
+Signature  
+Policy
+
+</td><td>
+Über dieses in [OASIS-SP], Kapitel 2.2.1.1.1.1 Optional Input
+\<GenerateUnderSignaturePolicy\>, definierte Element wird die  erforderliche
+Singnaturrichlinie ausgewählt.  
+Die im Element sp:SignaturePolicyIdentifier
+übergebene URI identifiziert die Signaturrichtlinie.  
+Die XML-Elemente 
+
+SignaturePolicyLocation  
+DigestAndAlgorithm  
+werden nicht verwendet.
+
+Wenn eine nach TAB_KON_778 notwendige Signaturrichtlinie fehlt oder
+die übergebene Signaturrichtlinie unbekannt ist, wird Fehler
+4111 zurückgeliefert.  
+
+</td></tr><tr><td>
+SIG:  
+Viewer  
+Info
+
+</td><td>
+Enthält optional die vom Konnektor in die Signatur einzubeziehende Referenzen
+für die Stylesheets zur Anzeige.
+
+</td></tr><tr><td>
+Rückgabe
+
+</td><td colspan="2" rowspan="1">
+</td></tr><tr><td>
+SIG:SignResponse
+
+</td><td>
+Eine SignResponse kapselt den ausgeführten Signaturauftrag pro Dokument. Die
+Zuordnung zwischen SignRequest und SignResponse erfolgt über die RequestID.
+
+</td></tr><tr><td>
+CONN:Status
+
+</td><td>
+Enthält den Status der ausgeführten Operation pro SignRequest.
+
+</td></tr><tr><td>
+SIG:  
+Optional  
+Outputs
+
+</td><td>
+Enthält (angelehnt an
+
+dss:OptionalOutputs
+
+) optionale Ausgangsparameter:
+
+![Img-053][Img-053]
+
+</td></tr><tr><td>
+SIG:  
+Document  
+With  
+Signature
+
+</td><td>
+![Img-054][Img-054]
+
+Pro
+
+SignResponse
+
+wird ein Element
+
+SIG:DocumentWithSignature
+
+gemäß [OASIS-DSS] (Abschnitt 3.5.8) zurückgeliefert, in dem das Dokument mit
+Signatur enthalten ist. Dabei werden die XML-Attribute des Elements
+
+SIG:Document
+
+auf dem zugehörigen
+
+SignRequest
+
+übernommen.
+
+Ist die Signatur nicht im Dokument enthalten, wird ein leeres Element
+
+Base64XML
+
+oder
+
+Base64Data
+
+zurückgegeben. Die Signatur wird dann im Element
+
+dss:SignatureObject
+
+abgelegt.
+
+Wenn die Signatur im Dokument enthalten ist, wird das signierte Dokument im Feld
+
+Base64XML
+
+bzw.
+
+Base64Data
+
+zurückgeliefert. In diesem Fall MUSS die
+
+dss:SignaturePtr
+
+-Alternative in
+
+dss:SignatureObject
+
+(vgl. [OASIS-DSS] Abschnitt 2.5) dazu genutzt werden, auf die in den Dokumenten
+enthaltenen Signaturen zu verweisen.
+
+</td></tr><tr><td>
+vr:  
+VerificationReport
+
+</td><td>
+Vom Konnektor nicht befüllt.
+
+</td></tr><tr><td>
+dss:  
+SignatureObject
+
+</td><td>
+Enthält im Erfolgsfall die erzeugte Signatur pro
+
+SignRequest
+
+in Form eines
+
+dss:SignatureObject
+
+-Elementes gemäß [OASIS-DSS] (Abschnitt 3.2).
+
+</td></tr><tr><td>
+Vorbe-dingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nachbe-dingungen
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation SignDocument ist in Tabelle TAB_KON_756 Ablauf
 Operation SignDocument (nonQES und QES) beschrieben:
 
 Tabelle233: TAB_KON_756 Ablauf Operation SignDocument (nonQES und QES)
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Anhand des Kartentyps wird ermittelt, ob eine QES oder eine nonQES erzeugt
+werden soll. Alle übergebenen Parameterwerte werden auf Konsistenz und
+Gültigkeit überprüft. Treten hierbei Fehler auf, so bricht die Operation mit
+Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf  
+TUC_KON_000 {  
+    mandantId =
+$context.mandantId;  
+    clientsystemId  = $context.clientsystemId; 
+
+    workplaceId = $context.workplaceId;  
+    userId =
+$context.userId;  
+    cardHandle = $cardHandle }  
+Tritt bei der Prüfung
+ein Fehler auf, bricht die Operation mit Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle CardSession über TUC_KON_026 {  
+    mandatId =$context.mandantId;
+ 
+    clientsystemId  = $context.clientsystemId;  
+    cardHandle =
+$context.cardHandle;  
+    userId = $context.userId }
+
+</td></tr><tr><td colspan="3">
+Im Fall QES wird Schritt 4 ausgeführt. Im Fall nonQES wird Schritt 5
+ausgeführt.
+
+</td></tr><tr><td>
+4a)
+
+</td><td>
+Prüfe Signaturdienst-Modul
+
+</td><td>
+Prüfe, ob MGM_LU_SAK=Enabled. Ist dies nicht der Fall, so bricht die Operation
+mit Fehler 4125 ab.
+
+</td></tr><tr><td colspan="3" rowspan="1">
+Wenn für die CardSession die Komfortsignatur aktiviert ist
+(CARDSESSION.SIGNMODE = Comfort) wird Schritt 4 c) ausgeführt. Andernfalls
+wird Schritt 4 b) ausgeführt.
+
+</td></tr><tr><td>
+4b)
+
+</td><td>
+TUC_KON_150 „Dokumente QES signieren“
+
+</td><td>
+Die QES wird erzeugt. Tritt hierbei ein Fehler auf, bricht die Operation ab.
+
+</td></tr><tr><td>
+4c)
+
+</td><td>
+TUC_KON_170 „Dokumente mit Komfort signieren“
+
+</td><td>
+Eine Komfortsignatur wird erzeugt. Tritt hierbei ein Fehler auf, bricht die
+Operation ab.
+
+</td></tr><tr><td>
+5)
+
+</td><td>
+TUC_KON_160 „Dokumente nonQES signieren“
+
+</td><td>
+Die nonQES wird erzeugt. Tritt hierbei ein Fehler auf, bricht die Operation ab.
+
+</td></tr></table>
 
 Tabelle234: TAB_KON_757 Fehlercodes „SignDocument (nonQES und QES)“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen TUCs können folgende weiteren
+Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4111
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ungültiger Signaturtyp oder Signaturvariante
+
+</td></tr><tr><td>
+4126
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Kartentyp nicht zulässig für Signatur
+
+</td></tr><tr><td>
+4125
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+LU_SAK nicht aktiviert
+
+</td></tr><tr><td>
+4197
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Parameter SignaturePlacement wurde ignoriert
+
+</td></tr><tr><td>
+4252
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Jobnummer wurde in den letzten 1.000 Aufrufen bereits verwendet und ist nicht
+zulässig
+
+</td></tr><tr><td>
+4273
+
+</td><td>
+Technical 
+
+</td><td>
+Warning
+
+</td><td>
+Attribute im Parameter dss:Properties wurden ignoriert
+
+</td></tr><tr><td>
+4279
+
+</td><td>
+Technical 
+
+</td><td>
+Error
+
+</td><td>
+S/MIME-Funktionalität nicht unterstützt
+
+</td></tr><tr><td>
+4283
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Dokument zu groß
+
+</td></tr></table>
 
 Die zulässigen Zertifikate und Schlüssel sind in TAB_KON_900 aufgelistet. **[\<=]**
 
@@ -5477,15 +35728,589 @@ Der Signaturdienst des Konnektors MUSS an der Clientschnittstelle eine an
 
 Tabelle235: TAB_KON_066 Operation VerifyDocument (nonQES und QES)
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+VerifyDocument
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Diese Operation verifiziert die Signatur eines Dokumentes.
+
+Der Konnektor MUSS jede konform zur Außenschnittstelle SignDocument erzeugte
+Signatur durch VerifyDocument prüfen können.
+
+Das Ergebnis der Prüfung wird, wenn gefordert, in Form eines standardisierten
+Prüfberichts in einer
+
+VerificationReport
+
+-Struktur gemäß [OASIS-VR] zurückgeliefert.
+
+</td></tr><tr><td rowspan="16">
+Aufruf-parameter
+
+</td><td colspan="3">
+![Img-055][Img-055]
+
+            
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+CCTX:
+
+Context
+
+</td><td>
+MandantId, ClientSystemId, WorkplaceId verpflichtend; UserId nicht ausgewertet
+
+</td></tr><tr><td colspan="2">
+TvMode
+
+</td><td>
+Der Parameter wird im Konnektor nicht ausgewertet.
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Optional
+
+Inputs
+
+</td><td>
+Enthält optionale Eingabeparameter (angelehnt an dss:OptionalInputs gemäß
+[OASIS-DSS] Section 2.7):
+
+Die zulässigen optionalen Eingabeparameter sind unten erläutert.
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Document
+
+</td><td>
+Enthält im Fall der Prüfung von detached oder enveloped Signaturen das zur
+Signatur gehörende bzw. das diese umschließende Dokument (siehe [OASIS-DSS]
+Section 2.4.2 und oben).
+
+</td></tr><tr><td colspan="2">
+dss:
+
+Signa
+
+ture
+
+Object
+
+</td><td>
+Enthält die zu prüfende Signatur, wenn sie nicht im Dokument selbst
+eingebettet ist ([OASIS-DSS] Kapitel 4.1). Hierbei werden
+
+XML-Signaturen
+
+als
+
+ds:Signature
+
+Element und alle anderen Signaturen als
+
+dss:Base64Signature
+
+mit entsprechend gesetztem
+
+Type
+
+-Attribut (siehe
+
+SignatureType,
+
+Operation SignDocument) übergeben, wobei die nachfolgenden Werte unterstützt
+werden MÜSSEN:
+
+ ---> UL
+
+Die nachfolgenden Werte KÖNNEN unterstützt werden:
+
+ ---> UL
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Include
+
+Revocat
+
+ionInfo
+
+</td><td>
+Durch diesen verpflichtenden Schalter kann der Aufrufer die Einbettung von zum
+Zeitpunkt der Signaturprüfung vorliegenden Sperrinformationen anfordern.
+
+Ist bereits eine Sperrinformation eingebettet, so wird die neue Sperrinformation
+zusätzlich eingebettet.
+
+Für in einer Gegensignatur enthaltene Signaturen erfolgt keine Einbettung von
+Sperrinformationen.
+
+ Für PDF-Signaturen erfolgt keine Einbettung von Sperrinformationen. Der
+Konnektor nimmt die Warnung 4261 in die Antwort auf. 
+
+</td></tr><tr><td colspan="3">
+![Img-056][Img-056]
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Verify
+
+Mani
+
+fests
+
+</td><td>
+Durch das in [OASIS-DSS] (Abschnitt 4.5.1) definierte Element kann die Prüfung
+eines ggf. vorhandenen Manifests angefordert werden.
+
+</td></tr><tr><td colspan="3">
+![Img-057][Img-057]
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Use
+
+Verifi
+
+cation
+
+Time
+
+</td><td>
+Durch das in [OASIS-DSS] (Abschnitt 4.5.2) spezifizierte Element kann die
+Prüfung der Signatur bezüglich eines durch den Aufrufer bestimmten
+Zeitpunktes (
+
+Benutzerdefinierter_Zeitpunkt
+
+) erfolgen.
+
+</td></tr><tr><td colspan="2">
+dss:
+
+Addit
+
+ional
+
+KeyInfo
+
+</td><td>
+Durch das in [OASIS-DSS] (Abschnitt 4.5.4) spezifizierte Element kann
+zusätzliches, für die Prüfung benötigtes, Schlüsselmaterial übergeben
+werden.
+
+</td></tr><tr><td colspan="2">
+vr:
+
+Return
+
+Verifi
+
+cation
+
+Report
+
+</td><td>
+Durch dieses in [OASIS-VR] spezifizierte Element kann die Erstellung eines
+ausführlichen Prüfberichtes angefordert werden. Der Konnektor MUSS die
+Anforderungen der Konformitätsstufe 2 („Comprehensive“) erfüllen und die
+Profilierung aus Anhang B3 beachten.
+
+</td></tr><tr><td colspan="2">
+dss:
+
+Schemas
+
+</td><td>
+Durch das in [OASIS-DSS] (Abschnitt 2.8.5) definierte Element können eine Menge
+von XML-Schematas übergeben werden, die zur Validierung des übergebenen
+XML-Dokumentes verwendet werden können.
+
+Zur Struktur dieses Elements siehe Beschreibung des Parameters
+
+dss:Schemas
+
+der Operation SignDocument.
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Viewer
+
+Info
+
+</td><td>
+Der Parameter wird im Konnektor nicht ausgewertet.
+
+</td></tr><tr><td rowspan="11">
+Rückgabe
+
+</td><td colspan="3">
+![Img-058][Img-058]
+
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+SIG:
+
+Verifi
+
+cation
+
+Result
+
+</td><td colspan="2">
+![Img-059][Img-059]
+
+Das Element
+
+Sig:VerificationResult
+
+enthält das Ergebnis der Prüfung als Ampel, den Typ des zugehörigen
+angenommenen Signaturzeitpunkts und der angenommene Signaturzeitpunkt selbst.
+
+</td></tr><tr><td>
+SIG:
+
+High
+
+Level
+
+Result
+
+</td><td colspan="2">
+Das Ergebnis der Prüfung (Ampelschaltung) mit folgenden Werten:
+
+ ---> UL
+
+</td></tr><tr><td>
+SIG:
+
+Time
+
+stamp
+
+Type
+
+</td><td colspan="2">
+Der Typ des angenommenen Signaturzeitpunkts mit folgenden Werten:
+
+ ---> UL
+
+Als Format darf jedes zum XML-Typ "dateTime" konforme Format verwendet werden
+(\<element name="Timestamp" type="dateTime"/\>). Wenn mehrere Signaturen im
+Dokument vorhanden sind, wird hier der angenommene Signaturzeitpunkt der
+jüngsten Signatur angegeben.
+
+</td></tr><tr><td>
+SIG:
+
+Time
+
+stamp
+
+</td><td colspan="2">
+Im Element SIG:Timestamp wird der zu SIG:TimestampType gehörende Zeitstempel
+zurückgegeben.
+
+</td></tr><tr><td>
+SIG:
+
+Optio
+
+nal
+
+Outputs
+
+</td><td colspan="2">
+Enthält (angelehnt an dss:OptionalOutputs, wie in Abschnitt 2.7 von [OASIS-DSS]
+beschrieben) optionale Ausgangselemente:
+
+![Img-060][Img-060]
+
+</td></tr><tr><td>
+dss:
+
+Verify
+
+Manifest
+
+Results
+
+</td><td colspan="2">
+Dieses in Abschnitt 4.5.1 von [OASIS-DSS] definierte Element enthält
+Informationen zur Prüfung eines ggf. vorhandenen Signaturmanifests und wird
+zurückgeliefert, sofern beim Aufruf das
+
+dss:VerifyManifest
+
+-Element, aber nicht das
+
+RequestVerificationReport
+
+als optionales Eingabeelement übergeben wurde.
+
+</td></tr><tr><td>
+SIG:
+
+Document
+
+With
+
+Signa
+
+ture
+
+</td><td colspan="2">
+Dieses in Abschnitt 4.5.8 von [OASIS-DSS] spezifizierte Element wird
+zurückgeliefert, falls eine in dem Dokument enthaltene Signatur (Enveloped
+Signature) in Verbindung mit dem
+
+SIG:IncludeRevocationInfo
+
+-Element geprüft wurde.
+
+</td></tr><tr><td>
+dss:
+
+Updated
+
+Signa
+
+ture
+
+</td><td colspan="2">
+Dieses in Abschnitt 4.5.8 von [OASIS-DSS] spezifizierte Element wird
+zurückgeliefert, falls eine abgesetzte (Detached Signature) oder
+umschließende (Enveloping Signature) in Verbindung mit dem
+
+SIG:IncludeRevocationInfo-
+
+Element geprüft wurde.
+
+</td></tr><tr><td>
+vr:
+
+Verifi
+
+cation
+
+Report
+
+</td><td colspan="2">
+Dieses in [OASIS-VR] spezifizierte Element wird zurückgeliefert, falls das
+
+ReturnVerificationReport
+
+-Element als Eingabeparameter verwendet wurde. Die Profilierung von Anhang B3
+MUSS beachtet werden.
+
+</td></tr><tr><td>
+Vorbe-dingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbe-dingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Tabelle236: TAB_KON_760 Ablauf Operation VerifyDocument (nonQES und QES)
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    needCardSession= false;
+
+}
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+prüfe, ob QES oder nonQES
+
+</td><td>
+Ist im jeweiligen Signaturzertifikat mindestens ein QCStatement mit dem OID
+id-etsi-qcs-QcCompliance (0.4.0.1862.1.1) enthalten, handelt es sich um eine
+QES-Signatur, andernfalls liegt eine nonQES-Signatur vor.
+
+</td></tr><tr><td colspan="3">
+Für QES-Signaturen wird Schritt 4 ausgeführt. Für nonQES-Signaturen wird
+Schritt 5 ausgeführt.  
+Im Fall eines S/MIME-Dokuments KANN der Konnektor die
+Operation mit Fehlercode 4279 beenden.
+
+</td></tr><tr><td>
+4.a
+
+</td><td>
+Prüfe Signaturdienst-Modul
+
+</td><td>
+Prüfe, ob MGM_LU_SAK=Enabled. Ist dies nicht der Fall, so bricht die Operation
+mit Fehler 4125 ab.
+
+</td></tr><tr><td>
+4.b
+
+</td><td>
+TUC_KON_151 „QES Dokumentensignatur prüfen“
+
+</td><td>
+Die QES wird geprüft. Tritt hierbei ein Fehler auf, bricht die Operation ab.
+
+</td></tr><tr><td>
+5.
+
+</td><td>
+TUC_KON_161 „nonQES Dokumentensignatur prüfen“
+
+</td><td>
+Die nonQES wird geprüft. Tritt hierbei ein Fehler auf, bricht die Operation ab.
+
+</td></tr></table>
 
 Tabelle237: TAB_KON_761 Fehlercodes „VerifyDocument (nonQES und QES)“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen TUCs (siehe Tabelle TAB_KON_760 Ablauf
+Operation VerifyDocument) können folgende weiteren Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4261
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Einbettung von Revocation-Informationen nicht unterstützt
+
+</td></tr><tr><td>
+4125
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+LU_SAK nicht aktiviert
+
+</td></tr><tr><td>
+4279
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+S/MIME-Funktionalität nicht unterstützt
+
+</td></tr><tr><td>
+4283
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Dokument zu groß
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5498,15 +36323,152 @@ StopSignature anbieten.
 
 Tabelle238: TAB_KON_840 Operation StopSignature
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+StopSignature
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Diese Operation unterbricht die Signatur eines Dokumentenstapels.
+
+Der Konnektor MUSS jede Signaturerstellung für ein Dokumentenstapel
+unterbrechen können.
+
+</td></tr><tr><td rowspan="4">
+Aufrufparameter
+
+</td><td colspan="3">
+![Img-061][Img-061]
+
+            
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+CCTX:Context
+
+</td><td>
+MandantId, ClientSystemId, WorkplaceId verpflichtend; UserId nicht ausgewertet
+
+</td></tr><tr><td colspan="2">
+SIG: JobNumber
+
+</td><td>
+Die Nummer des Jobs, der gestoppt werden soll.
+
+</td></tr><tr><td rowspan="2">
+Rückgabe
+
+</td><td colspan="3">
+![Img-062][Img-062]
+
+</td></tr><tr><td>
+CONN:Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Tabelle239: TAB_KON_841 Ablauf Operation StopSignature
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Dabei
+wird auch das CardHandle zu der übergebenen JobNumber ermittelt und dieses
+CardHandle zusammen mit dem übergebenen Context einer Berechtigungsprüfung
+unterworfen. Treten hierbei Fehler auf, so bricht die Operation mit Fehler 4000
+ab
+
+.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+Stoppe die Stapelsignaturverarbeitung
+
+</td><td>
+Die Verarbeitung der Stapelsignatur wird abgebrochen
+
+</td></tr></table>
 
 Tabelle240: TAB_KON_842 Fehlercodes „StopSignature“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Folgende Fehlercodes können auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4243
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Jobnummer unbekannt
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5519,15 +36481,132 @@ GetJobNumber anbieten.
 
 Tabelle241: TAB_KON_843 Operation GetJobNumber
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+GetJobNumber
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Diese Operation liefert eine Jobnummer zur Verwendung in der Operation
+SignDocument.
+
+Die Jobnummer MUSS nach den Vorgaben von Kapitel
+
+4.1.8.1.4
+
+erstellt werden.
+
+</td></tr><tr><td rowspan="3">
+Aufrufparameter
+
+</td><td colspan="3">
+![Img-063][Img-063]
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+CCTX:Context
+
+</td><td>
+MandantId, ClientSystemId, WorkplaceId verpflichtend; UserId nicht ausgewertet
+
+</td></tr><tr><td rowspan="2">
+Rückgabe
+
+</td><td colspan="3">
+![Img-064][Img-064]
+
+</td></tr><tr><td>
+SIG: JobNumber
+
+</td><td colspan="2">
+Jobnummer zur Verwendung in „SignDocument“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Tabelle242: TAB_KON_844 Ablauf Operation GetJobNumber
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+Generiere und liefere eine Jobnummer
+
+</td><td>
+Eine innerhalb von 1000 Aufrufen eindeutige Jobnummer wird generiert und
+geliefert. Die Zählung der Aufrufe erfolgt dabei unabhängig vom Aufrufkontext.
+
+</td></tr></table>
 
 Tabelle243: TAB_KON_845 Fehlercodes „GetJobNumber“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Folgende Fehlercodes können auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5540,17 +36619,218 @@ ActivateComfortSignature anbieten.
 
 Tabelle244: TAB_KON_874 ActivateComfortSignature
 
- ---> TABLE
+<table><tr><td>
+Name
+
+</td><td colspan="2">
+ActivateComfortSignature
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2">
+Diese Operation aktiviert die Komfortsignatur für einen HBA bezogen auf einen
+Aufrufkontext.
+
+</td></tr><tr><td rowspan="4">
+Aufrufparameter
+
+</td><td colspan="2">
+             
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+CONN:
+
+Card
+
+Handle
+
+</td><td>
+Identifiziert die zu adressierende Karte.
+
+Es wird nur der HBA unterstützt.
+
+</td></tr><tr><td>
+CCTX:Context
+
+</td><td>
+MandantId, ClientSystemId, WorkplaceId, UserId verpflichtend zu übergeben;
+
+MandantId, WorkplaceId nicht ausgewertet
+
+</td></tr><tr><td rowspan="3">
+Rückgabe
+
+</td><td colspan="2">
+![Img-065][Img-065]
+
+</td></tr><tr><td>
+CONN:Status
+
+</td><td>
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+SIG: SignatureMode
+
+</td><td>
+Signaturmodus des HBA
+
+Enthält bei erfolgreicher Ausführung der Operation den Wert „
+
+COMFORT“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td colspan="2">
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td colspan="2">
+Keine
+
+</td></tr></table>
 
 Tabelle245: TAB_KON_877 Ablauf ActivateComfortSignature
 
- ---> TABLE
+<table><tr><td>
+Nr.
+
+</td><td>
+Aufruf Technischer Use Case oder Interne Operation
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffsberechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;
+
+    cardHandle = $cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle CardSession über TUC_KON_026 {
+
+    mandatId =$context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    cardHandle = $context.cardHandle;
+
+    userId = $context.userId }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_171 „Komfortsignatur einschalten“
+
+</td><td>
+Der Komfortsignaturmodus wird für das Tupel (CardHandle, CardSession)
+eingeschaltet. Tritt hierbei ein Fehler auf, bricht die Operation ab.
+
+</td></tr></table>
 
  
 
 Tabelle246: TAB_KON_879 Fehlercodes ActivateComfortSignature
 
- ---> TABLE
+<table><tr><td>
+Fehlercode
+
+</td><td>
+ErrorType
+
+</td><td>
+Severity
+
+</td><td>
+Fehlertext
+
+</td></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen TUCs können folgende weiteren
+Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4270
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+UserId wurde in den letzten 1.000 Vorgängen bereits verwendet
+
+</td></tr><tr><td>
+4272
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+UserId nicht zulässig
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5563,17 +36843,134 @@ DeactivateComfortSignature anbieten.
 
 Tabelle247: TAB_KON_875 DeactivateComfortSignature
 
- ---> TABLE
+<table><tr><td>
+Name
+
+</td><td colspan="3">
+DeactivateComfortSignature
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Diese Operation deaktiviert die Komfortsignatur für einen oder mehrere HBA.
+
+</td></tr><tr><td rowspan="3">
+Aufrufparameter
+
+</td><td colspan="3">
+            
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+CONN:
+
+Card
+
+Handle
+
+</td><td>
+Identifiziert die zu adressierende Karte.
+
+Es wird nur der HBA unterstützt.
+
+</td></tr><tr><td rowspan="2">
+Rückgabe
+
+</td><td colspan="3">
+![Img-066][Img-066]
+
+</td></tr><tr><td>
+CONN:Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr></tr></table>
 
 Tabelle248: TAB_KON_878 Ablauf DeactivateComfortSignature
 
- ---> TABLE
+<table><tr><td>
+Nr.
+
+</td><td>
+Aufruf Technischer Use Case oder Interne Operation
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_172 „Komfortsignatur ausschalten“
+
+</td><td>
+Der Komfortsignaturmodus wird für alle Karten aus der CardHandle-Liste
+ausgeschaltet.
+
+</td></tr></table>
 
  
 
 Tabelle249: TAB_KON_880 Fehlercodes DeactivateComfortSignature
 
- ---> TABLE
+<table><tr><td>
+Fehlercode
+
+</td><td>
+ErrorType
+
+</td><td>
+Severity
+
+</td><td>
+Fehlertext
+
+</td></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen TUCs können folgende weiteren
+Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5586,17 +36983,260 @@ GetSignatureMode anbieten.
 
 Tabelle250: TAB_KON_876 GetSignatureMode
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+GetSignatureMode
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Diese Operation liefert den aktuell ko
+
+nfigurierten Status der Komfortsignaturfunktion im Konnektor und
+Session-Informationen
+
+zur Kartensitzung für das CardHandle und den Aufrufkontext, falls sich die
+Kartensitzung im Komfortsignaturmodus befindet.
+
+</td></tr><tr><td rowspan="3">
+Aufrufparameter
+
+</td><td colspan="3">
+           
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+CONN:CardHandle
+
+</td><td>
+Identifiziert die zu adressierende Karte.
+
+Es wird nur der HBA unterstützt.
+
+</td></tr><tr><td>
+CCTX:Context
+
+</td><td>
+MandantId, ClientSystemId, WorkplaceId, UserId verpflichtend zu übergeben
+
+</td></tr><tr><td rowspan="2">
+Rückgabe
+
+</td><td colspan="3">
+![Img-067][Img-067]
+
+</td></tr><tr><td>
+CONN:Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+ 
+
+</td><td>
+SIG:  
+ComfortSignatureStatus
+
+</td><td colspan="2">
+Komfortsignatur-Konfigurationsstatus des Konnektors
+
+</td></tr><tr><td>
+ 
+
+</td><td>
+SIG:ComfortSignatureMax
+
+</td><td colspan="2">
+Im Konnektor konfigurierte Anzahl von Komfortsignaturen, die ohne erneute
+PIN-Eingabe ausgeführt werden dürfen
+
+</td></tr><tr><td>
+ 
+
+</td><td>
+SIG: ComfortSignatureTimer
+
+</td><td colspan="2">
+Im Konnektor konfiguriertes Zeitintervall, in dem Komfortsignaturen ohne erneute
+PIN-Eingabe ausgeführt werden dürfen,
+
+Format: "PTnHnMnS" (gemäß Datenttyp xsd:duration)
+
+</td></tr><tr><td>
+ 
+
+</td><td>
+SIG:SessionInfo
+
+</td><td colspan="2">
+Falls vorhanden, Session-Informationen zur Komfortsignatursession für das
+CardHandle und den Aufrufkontext
+
+</td></tr><tr><td>
+ 
+
+</td><td>
+SIG:SignatureMode
+
+</td><td colspan="2">
+Signaturmodus der Komfortsignatursession (="
+
+COMFORT"
+
+)
+
+</td></tr><tr><td>
+ 
+
+</td><td>
+SIG:CountRemaining
+
+</td><td colspan="2">
+Verbleibende Anzahl von Komfortsignaturen, die ohne erneute PIN-Eingabe
+ausgeführt werden dürfen
+
+</td></tr><tr><td>
+SIG:TimeRemaining
+
+</td><td colspan="2">
+Verbleibende Zeit, in der Komfortsignaturen ohne erneute PIN-Eingabe ausgeführt
+werden dürfen
+
+Format: "PTnHnMnS" (gemäß Datenttyp xsd:duration)
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Tabelle251: TAB_KON_882 Ablauf GetSignatureMode
 
- ---> TABLE
+<table><tr><td>
+Nr.
+
+</td><td>
+Aufruf Technischer Use Case oder Interne Operation
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2. 
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffsberechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf
+
+TUC_KON_000 {
+
+    mandantId = $context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    workplaceId = $context.workplaceId;
+
+    userId = $context.userId;
+
+    cardHandle = $cardHandle }
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle CardSession über TUC_KON_026 {
+
+    mandatId =$context.mandantId;
+
+    clientsystemId  = $context.clientsystemId;
+
+    cardHandle = $context.cardHandle;
+
+    userId = $context.userId }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_173 „Liefere Signaturmodus“
+
+</td><td>
+Der Komfortsignatur-Konfig
+
+urationsstatus des Konnektors und, falls vorhanden, Session-Informationen zur
+Komfortsignatursession für das CardHandle und den Aufrufkontext werden
+
+zurückgeliefert.
+
+</td></tr></table>
 
  
 
 Tabelle252: TAB_KON_881 Fehlercodes GetSignatureMode
 
- ---> TABLE
+<table><tr><td>
+Fehlercode
+
+</td><td>
+ErrorType
+
+</td><td>
+Severity
+
+</td><td>
+Fehlertext
+
+</td></tr><tr><td colspan="4">
+Folgende Fehlercodes können auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5609,7 +37249,86 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_596 vorzunehmen:
 
 Tabelle253: TAB_KON_596 Konfigurationswerte des Signaturdienstes (Administrator)
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+SAK_SIMPLE_  
+SIGNATURE_ MODE
+
+</td><td>
+SE#1  
+SE#2
+
+</td><td>
+Aktivierung/Deaktivierung des „Einfachsignaturmodus“ für alle HBAx für die
+ 
+Durchführung von Einfachsignaturen im SecurityEnvironment #1 (SE#1) für
+Dokumentenstapel  
+der Größe 1 anstelle der Verwendung des SE#2. 
+
+Default-Wert = SE#1
+
+</td></tr><tr><td>
+SAK_COMFORT_  
+SIGNATURE
+
+</td><td>
+Enabled/  
+Disabled
+
+</td><td>
+Aktivierung/Deaktivierung der Komfortsignaturfunktion im Konnektor
+
+Default-Wert = Disabled
+
+Die Komfortsignaturfunktion darf nur aktiviert sein, wenn
+
+ANCL_TLS_MANDATORY = Enabled und
+
+ANCL_CAUT_MANDATORY = Enabled
+
+</td></tr><tr><td>
+SAK_COMFORT_  
+SIGNATURE_MAX
+
+</td><td>
+[1 - 250]
+
+</td><td>
+Anzahl von Komfortsignaturen, die ohne erneute PIN-Eingabe ausgeführt werden
+dürfen
+
+Default-Wert = 100
+
+Der Parameter ist nur relevant, wenn die Komfortsignaturfunktion aktiviert ist
+(SAK_COMFORT_SIGNATURE = Enabled).
+
+</td></tr><tr><td>
+SAK_COMFORT_  
+SIGNATURE_TIMER
+
+</td><td>
+[1 – 24 h]
+
+</td><td>
+Zeitintervall, in dem Komfortsignaturen ohne erneute PIN-Eingabe ausgeführt
+werden dürfen
+
+Der Timer startet mit Eingabe der PIN.QES für die Komfortsignatur.
+
+Default-Wert = 6 h
+
+Der Parameter ist nur relevant, wenn die Komfortsignaturfunktion aktiviert ist
+(SAK_COMFORT_SIGNATURE = Enabled).
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5658,7 +37377,171 @@ kryptographischen Verfahren gemäßTAB_KON_853prüfen.
 
 Tabelle254: TAB_KON_853- intendedKeyUsage bei Zertifikatsprüfung
 
- ---> TABLE
+<table><tr><th colspan="1" rowspan="2">
+Zertifikat
+
+</th><th colspan="1" rowspan="2">
+Anwendungsfall
+
+</th><th colspan="2" rowspan="1">
+intendedKeyUsage bei
+
+</th></tr><tr><td>
+RSA
+
+</td><td>
+ECC
+
+</td></tr><tr><td>
+C.SMKT.AUT
+
+</td><td>
+TUC_KON_050 „Beginne Kartenterminalsitzung“  
+TUC_KON_053 „Paire
+Kartenterminal“
+
+</td><td>
+digitalSignature  
+&keyEncipherment
+
+</td><td>
+digitalSignature
+
+</td></tr><tr><td>
+C.CH.AUT  
+C.CH.AUTN
+
+</td><td>
+TUC_KON_161 „nonQES Dokumentsignatur prüfen”
+
+</td><td>
+digitalSignature  
+&keyEncipherment
+
+</td><td>
+digitalSignature
+
+</td></tr><tr><td>
+C.CH.ENC  
+C.CH.ENCV  
+C.HCI.ENC  
+C.HP.ENC  
+Zertifikate  aus
+CERT_IMPORTED_CA_LIST
+
+</td><td>
+TUC_KON_070 „Daten hybrid verschlüsseln“
+
+</td><td>
+keyEncipherment
+
+</td><td>
+keyAgreement 
+
+</td></tr><tr><td>
+ C.HCI.OSIG
+
+</td><td>
+ TUC_KON_161 „nonQES Dokumentsignatur prüfen”
+
+</td><td>
+ nonRepudiation
+
+</td><td>
+ nonRepudiation
+
+</td></tr><tr><td>
+C.FD.TLS-S
+
+</td><td>
+TUC_KON_110 „Kartenbasierte TLS-Verbindung aufbauen“
+
+</td><td>
+digitalSignature&keyEncipherment
+
+</td><td>
+digitalSignature
+
+</td></tr><tr><td>
+C.ZD.TLS-S
+
+</td><td>
+TUC_KON_290 „LDAP-Verbindung aufbauen“
+
+</td><td>
+digitalSignature
+
+</td><td>
+digitalSignature
+
+</td></tr><tr><td>
+C.ZD.TLS-S
+
+</td><td>
+TIP1-A_5662 - Gesicherte Übertragung von BNetzA-VL und Hashwert  
+TUC_KON_282
+„UpdateInformationen beziehen“  
+TUC_KON_283 Infrastruktur Konfiguration
+aktualisieren  
+TUC_KON_285 „UpdateInformationen für Fachmodul beziehen“ 
+
+TUC_KON_286 „Paket für Fachmodul laden“
+
+</td><td>
+digitalSignature&keyEncipherment
+
+</td><td>
+digitalSignature
+
+</td></tr><tr><td>
+C.FD.AUT
+
+</td><td>
+A_17225-*
+
+</td><td>
+digitalSignature&keyEncipherment
+
+</td><td>
+digitalSignature
+
+</td></tr><tr><td>
+C.FD.SIG
+
+</td><td>
+TUC_KON_161 „nonQES Dokumentsignatur prüfen”
+
+</td><td>
+digitalSignature
+
+</td><td>
+digitalSignature
+
+</td></tr><tr><td>
+C.FD.OSIG
+
+</td><td>
+TUC_KON_161 „nonQES Dokumentsignatur prüfen”
+
+</td><td>
+nonRepudiation
+
+</td><td>
+nonRepudiation
+
+</td></tr><tr><td>
+C.ZD.SIG
+
+</td><td>
+TUC_KON_161 „nonQES Dokumentsignatur prüfen”
+
+</td><td>
+nonRepudiation
+
+</td><td>
+nonRepudiation
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5669,7 +37552,127 @@ folgende Tabelle führt auf, welche Zertifikatsobjekte einer Karte in
 Abhängigkeit vom kryptographischen Verfahren für die jeweilige
 Zertifikatsreferenz ausgewählt werden.
 
- ---> TABLE
+<table><tr><th rowspan="2">
+CertRef
+
+</th><th rowspan="2">
+Kartentyp
+
+</th><th colspan="2">
+Objekt der Karte in Abhängigkeit vom kryptographischen Verfahren (Crypt)
+
+</th></tr><tr><td>
+RSA
+
+</td><td>
+ECC
+
+</td></tr><tr><td rowspan="4">
+C.AUT
+
+</td><td>
+HBA-VK 
+
+</td><td>
+EF.C.HP.AUT
+
+</td><td>
+-
+
+</td></tr><tr><td>
+HBA
+
+</td><td>
+EF.C.HP.AUT.R2048
+
+</td><td>
+EF.C.HP.AUT.E256
+
+</td></tr><tr><td>
+SM-B
+
+</td><td>
+EF.C.HCI.AUT
+
+</td><td>
+EF.C.HCI.AUT.E256
+
+</td></tr><tr><td>
+eGK G2
+
+</td><td>
+EF.C.CH.AUT.R2048
+
+</td><td>
+EF.C.CH.AUT.E256
+
+</td></tr><tr><td>
+C.ENC
+
+</td><td>
+HBA-VK
+
+</td><td>
+EF.C.HP.ENC
+
+</td><td>
+-
+
+</td></tr><tr><td>
+</td><td>
+HBA
+
+</td><td>
+EF.C.HP.ENC.2048
+
+</td><td>
+EF.C.HP.ENC.E256
+
+</td></tr><tr><td>
+</td><td>
+SM-B
+
+</td><td>
+EF.C.HCI.ENC.R2048
+
+</td><td>
+EF.C.HCI.ENC.E256
+
+</td></tr><tr><td>
+C.SIG
+
+</td><td>
+SM-B
+
+</td><td>
+EF.C.HCI.OSIG.R2048
+
+</td><td>
+EF.C.HCI.OSIG.E256
+
+</td></tr><tr><td>
+C.QES
+
+</td><td>
+HBA-VK
+
+</td><td>
+EF.C.HP.QES
+
+</td><td>
+-
+
+</td></tr><tr><td>
+</td><td>
+HBA
+
+</td><td>
+EF.C.HP.QES.R2048
+
+</td><td>
+EF.C.HP.QES.E256
+
+</td></tr></table>
 
 ##### TIP1-A_4682
 
@@ -5784,7 +37787,35 @@ Abbruch des TLS-Verbindungsaufbaus mit Fehlercode 4235 gemäß TAB_KON_825.
 
 Tabelle256: TAB_KON_825 Fehlercodes „TLS-Verbindungsaufbau zum TSL-Dienst“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4235
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+TSL-Dienst konnte bei TLS-Verbindungsaufbau nicht authentisiert werden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5800,7 +37831,31 @@ TLS-Verbindungsaufbaus mit Fehlercode 4236 gemäß TAB_KON_826.
 Tabelle257: TAB_KON_826 Fehlercodes„TLS-Verbindungsaufbau zum TSL-Dienst bei
 Prüfung der technischen Rolle“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4236
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Rollenprüfung bei TLS-Verbindungsaufbau zum TSL-Dienst fehlgeschlagen
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5875,7 +37930,35 @@ berücksichtigen.
 
 Tabelle258: TAB_KON_597 Operationen in EVT_MONITOR_OPERATIONS
 
- ---> TABLE
+<table><tr><th>
+Operationsname
+
+</th><th>
+OK_Val
+
+</th><th>
+NOK_Val
+
+</th><th>
+Alarmwert (Default-Grenzwert 10 Minuten-
+
+Σ
+
+)
+
+</th></tr><tr><td>
+VerifyCertificate
+
+</td><td>
+1
+
+</td><td>
+5
+
+</td><td>
+401
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5901,11 +37984,208 @@ umsetzen.
 
 Tabelle259: TAB_KON_766 TUC_KON_032 „TSL aktualisieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_032 „TSL aktualisieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC prüft die Aktualität der TSL und initialisiert ggf. den
+TSL-spezifischen Bereich des TrustStores neu. Zusätzlich wird bei einem
+Wechsel des TI-Vertrauensankers das neue TSL-Signer-CA-Zertifikat in einem
+sicheren Speicherort im Konnektor hinterlegt. Im Fall der Veröffentlichung
+eines CVC-Root-CA-Zertifikats werden das CVC-Root-CA-Zertifikat und die
+Cross-CV-Zertifikate aus der TSL in den Truststore eingestellt.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+(-\> 1) Wenn der Download der TSL aus der TI fehlschlägt oder wenn der
+Konnektor im Fall onlineMode = ENABLED keine Verbindung zur TI hat, muss der
+Konnektor die TSL vom Download-Punkt im Internet
+
+(CERT_TSL_DOWNLOAD_ADDRESS_INTERNET) gemäß [gemSpec_TSL#A_21182]
+beziehen. Im Fall onlineMode = DISABLED wird abgebrochen.
+
+Wenn kein aktiver VPN-Tunnel SIS vorhanden ist, muss der Konnektor den
+Downloadversuch der TSL aus dem Internet direkt über das IAG initiieren, auch
+wenn ANLW_INTERNET_MODUS=SIS konfiguriert ist. Im Fall
+ANLW_INTERNET_MODUS=KEINER wird abgebrochen.
+
+Wenn die Namensauflösung für CERT_TSL_DOWNLOAD_ADDRESS_INTERNET fehlschlägt,
+muss der Konnektor die TSL über CERT_TSL_IP_ADDRESS_INTERNET beziehen.
+
+Wenn keiner der vorigen Downloadversuche erfolgreich war, muss der
+Konnektor die TSL von der konfigurierbaren
+Adresse CERT_TSL_DOWNLOAD_ADDRESS_INTERNET_BU beziehen.
+
+Wenn die Namensauflösung für CERT_TSL_DOWNLOAD_ADDRESS_INTERNET_BU
+fehlschlägt, muss der Konnektor die TSL über CERT_TSL_IP_ADDRESS_INTERNET_BU
+beziehen.
+
+Für eine aus dem Internet bezogene TSL muss der Konnektor auch die vom
+TSL-Dienst gemäß [gemSpec_TSL#A_21182] bereitgestellte detached-Signatur der
+TSL herunterladen. Der Konnektor muss dann immer zunächst die
+detached-Signatur der TSL prüfen, einschließlich vollständiger Prüfung der
+Zertifikatskette bis zum TI-Vertrauensanker. Die kryptographische Prüfung der
+Signatur muss entsprechend A_21185 durchgeführt werden.
+
+Bezüglich der Prüfung des Sperrstatus des TSL-Signer-Zertifikats muss der
+Konnektor eines der folgenden Verfahren umsetzen:
+
+ ---> OL
+
+(1) Wird die importedTSL manuell übergeben (in den Eingangsdaten), so wird
+diese statt des Downloads verwendet und an TUC_PKI_001 übergeben. Innerhalb
+der PKI TUCs findet dann kein Download der TSL statt.  
+(1) Falls onlineMode
+= DISABLED, kann der Sperrstatus des TSL-Signer-Zertifikats nicht überprüft
+werden. In diesem Fall wird die Aktivierung der importedTSL auch ohne Prüfung
+des Sperrstatus durchgeführt.  
+(1) Wird durch den von TUC_PKI_001
+aufgerufenen TUC_PKI_013 „Import neuer Vertrauensanker“ ein neuer
+TI-Vertrauensanker (ein neues TSL-Signer-CA-Zertifikat) in der importedTSL
+gefunden, so wird dieser, wie dort beschrieben, extrahiert und in einem
+sicheren Speicherort gespeichert. Vor Erreichen des Aktivierungsdatums werden
+die TSLs ausschließlich mit dem alten TSL-Signer-Zertifikat signiert. Ab dem
+Aktivierungsdatum werden die TSLs mit einem TSL-Signer-Zertifikat signiert, das
+von der neuen TSL-Signer-CA ausgestellt wurde.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(1) Tritt beim manuellen Import der Datei ein Fehler auf, wird TUC_KON_256 { 
+
+       topic = „CERT/TSL/IMPORT“;  
+       eventType = Op; 
+
+       severity = Error;  
+       parameters =
+„$Fehlerbeschreibung“;  
+       doLog = true;  
+       doDisp =
+false }  
+ausgelöst. Fehlercode 4128.  
+(1) Tritt beim periodischen Update
+der TSL beim Aufruf des TUC_PKI_001 oder eines durch ihn aufgerufenen TUCs ein
+Fehler auf, geht der Konnektor in den Betriebszustand
+EC_TSL_Update_Not_Successful. Der Konnektor geht erst in den Betriebszustand
+EC_TSL_Update_Not_Successful, wenn weder der Downloadversuch aus der TI noch
+der Downloadversuch aus dem Internet erfolgreich war. Die vorhandenen
+TSL-Vertrauensanker werden weiter verwendet. Fehlercode 4127.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle260: TAB_KON_598 Fehlercodes TUC_KON_032 „TSL aktualisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4127
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Import der TSL-Datei fehlgeschlagen
+
+</td></tr><tr><td>
+4128
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+der manuelle Import der TSL-Datei schlägt fehl
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5957,11 +38237,165 @@ aktualisieren“ umsetzen.
 
 Tabelle261: TAB_KON_618 TUC_KON_031 „BNetzA-VL aktualisieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_031 „BNetzA-VL aktualisieren”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC prüft die Aktualität der BNetzA-VL. Wenn eine neuere BNetzA-VL
+vorliegt, wird diese heruntergeladen, geprüft und im Truststore gespeichert.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+(
+
+
+
+1) Wird eine zu importierende BNetzA-VL manuell übergeben (in den
+Eingangsdaten), so wird diese statt des Downloads verwendet und an TUC_PKI_036
+{BNetzA-VL Datei} übergeben. Innerhalb der PKI TUCs findet dann kein Download
+der BNetzA-VL statt.
+
+(
+
+
+
+1) Ist MGM_LU_SAK=disabled, so wird der TUC ohne Fehler beendet.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1) Tritt beim manuellen Import der Datei ein Fehler auf, wird TUC_KON_256
+{„CERT/BNETZA_VL/IMPORT“; Op; Error; „$Fehlerbeschreibung“; doLog =
+true; doDisp = false} ausgelöst. Fehlercode 4129.
+
+(
+
+
+
+1) Tritt beim periodischen Update der BNetzA-VL beim Aufruf des TUC_PKI_036 oder
+eines durch ihn aufgerufenen TUCs ein Fehler auf, geht der Konnektor in den
+Betriebszustand EC_BNetzA_VL_Update_Not_Successful. Fehlercode 4133.
+
+In beiden Fällen wird eine vorhandene gültige BNetzA-VL weiter verwendet.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle262: TAB_KON_619 Fehlercodes TUC_KON_031 „BNetzA-VL aktualisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4129
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+der manuelle Import der BNetzA-Vertrauensliste schlägt fehl
+
+</td></tr><tr><td>
+4133
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Import der BNetzA-Vertrauensliste fehlgeschlagen
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5974,11 +38408,164 @@ umsetzen.
 
 Tabelle263: TAB_KON_767 TUC_KON_040 „CRL aktualisieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_040 „CRL aktualisieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC aktualisiert die CRL
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+ ---> OL
+
+              topic = „CERT/CRL/UPDATED“;  
+             
+eventType = Op;  
+              severity = Error;  
+        
+     parameters = „„;  
+              doLog = true; 
+
+              doDisp=false}  
+aus.
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+(
+
+
+
+1) Wird eine manuell importierte CRL übergeben, so wird diese verwendet.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1) Tritt beim manuellen Import der Datei ein Fehler auf, wird TUC_KON_256 { 
+
+        topic = „CERT/CRL/IMPORT“;  
+        eventType =
+Op;  
+        severity = Error;  
+        parameters =
+„${Fehlerbeschreibung}“;  
+        doLog = true; 
+
+        doDisp=false}  
+ausgelöst.
+
+(
+
+
+
+2) Signaturprüfung der CRL fehlgeschlagen: Fehlercode 4130
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle264: TAB_KON_599 Fehlercodes TUC_KON_040 „CRL aktualisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4130
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Signatur- oder Gültigkeitsprüfung der CRL fehlgeschlagen
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -5991,11 +38578,167 @@ prüfen” umsetzen.
 
 Tabelle265: TAB_KON_768 TUC_KON_033 „Zertifikatsablauf prüfen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_033 „Zertifikatsablauf prüfen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC prüft und meldet das zeitliche Ablaufen eines X.509-Zertifikats
+einer Karte.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1. TUC_KON_216 „LeseZertifikat“ für:
+
+ ---> OL
+
+2. Das Ablaufdatum expirationDate wird aus dem Feld validity ausgelesen.  
+3.
+Falls das Zertifikat abgelaufen ist, Systemereignis absetzen:
+
+ ---> UL
+
+4. Alternativ bei Ablauf des Zertifikats innerhalb von CERT_EXPIRATION_WARN_DAYS
+Systemereignis absetzen:
+
+ ---> UL
+
+5. expirationDate wird zurückgegeben.
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(1) Zur angegebenen CardSession keine Karte gefunden: Fehlercode 4131. 
+
+(1) Für eGK, HBA, SM-B gilt: Wenn crypt=ECC und Kartengeneration\<G2.1,
+bricht der TUC mit Warnung 4257 ab.  
+(1) Für gSMC-K gilt: Wenn crypt=ECC
+und beim Aufruf von TUC_KON_216 wird die Warnung 4256 zurückgegeben, dann wird
+der TUC nach Schritt 1 beendet und die Warnung 4257 an den Aufrufer
+zurückgegeben.  
+(2) Extraktion des Ablaufsdatums fehlgeschlagen:
+Fehlercode 4132.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle266: TAB_KON_600 Fehlercodes TUC_KON_033 „Zertifikatsablauf prüfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4131
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Zum angegebenen CardHandle keine Karte gefunden.
+
+</td></tr><tr><td>
+4132
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Extraktion des Ablaufsdatums fehlgeschlagen
+
+</td></tr><tr><td>
+4257
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+ECC-Zertifikate nicht vorhanden auf Karte: \<cardHandle\>
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6010,11 +38753,160 @@ TUC_KON_037 „Zertifikat prüfen“ umsetzen.
 
 Tabelle267: TAB_KON_769 TUC_KON_037 „Zertifikat prüfen“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_037 „Zertifikat prüfen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC beschreibt
+
+ ---> UL
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+Als Timeout wird beim Aufruf von TUC_PKI_018  der Wert von
+CERT_OCSP_TIMEOUT_NONQES bzw. beim Aufruf von TUC_PKI_030 der Wert von
+CERT_OCSP_TIMEOUT_QES übergeben (siehe auch Eingangsdaten von diesen TUCs in
+[gemSpec_PKI]).
+
+Für die QES-Zertifikatsprüfung wird das zu prüfende QES-Zertifikat an
+TUC_PKI_030 „QES-Zertifikatsprüfung“ übergeben.
+
+Wird im Aufruf der Eingangsparameter getOCSPResponses = false mit übergeben,
+wird keine OCSP-Response an den Aufrufer zurückgegeben.
+
+Als TOLERATE_OCSP_FAILURE wird beim Aufruf von TUC_PKI_018  offlineAllowNoCheck
+verwendet.
+
+Wenn der Eingangsparameter validationMode („Prüfmodus“) den Wert NONE hat,
+werden die TUC_PKI_018-Eingangsparameter
+
+ ---> UL
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+TUC_KON_037 im kritischen Betriebszustand EC_TSL_Out_Of_Date_Beyond_Grace_Period
+aufgerufen: Fehlercode 4002.
+
+-\> 2a) certificate ist nicht in der TSL enthalten
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Der Konnektor MUSS unter Einhaltung aller anderen Anforderungen an die
+Zertifikatsprüfung die Anzahl der OCSP-Abfragen minimieren. Dies MUSS durch
+Caching (unter Berücksichtigung der Grace Period) und DARF NICHT durch
+Bündelung von OCSP-Anfragen geschehen.
+
+</td></tr><tr><td>
+Zugehörige
+
+Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle268: TAB_KON_601 Fehlercodes TUC_KON_037 „Zertifikat prüfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases treten folgende
+Fehlercodes auf.
+
+</td></tr><tr><td>
+4002
+
+</td><td>
+Security
+
+</td><td>
+Fatal
+
+</td><td>
+Der Konnektor befindet sich in einem kritischen Betriebszustand
+
+</td></tr><tr><td>
+4260
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zertifikat nicht vorhanden in TSL
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6027,11 +38919,203 @@ TUC_KON_042 „CV-Zertifikat prüfen“ umsetzen.
 
 Tabelle269: TAB_KON_818 TUC_KON_042 „CV-Zertifikat prüfen“ 
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_042 „CV-Zertifikat prüfen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Die Gültigkeit eines (EndEntity-)CV-Zertifikats wird geprüft. Es werden
+folgende Prüfungen durchgeführt:
+
+Kryptographische Prüfung der Signaturen des End-Entity-CV-Zertifikats und des
+CVC-CA-Zertifikats
+
+ ---> UL
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1.  Prüfung von CV-Zertifikaten der Generation 2:
+
+   
+
+Die CVC-Prüfung setzt sich gemäß GS-A_5009, … GS-A_5012
+
+   [gemSpec_PKI#8.8] aus folgenden Schritten zusammen:
+
+        i. Prüfe die kryptographische Korrektheit der Signatur des
+
+               CA-Zertifikats caCertificate mit dem öffentlichen
+Root-
+
+               Schlüssel der ausstellenden CVC-Root-CA. Der
+benötigte
+
+              Root-Key befindet sich im Truststore des Konnektors.
+
+        ii. Prüfe die kryptographische Korrektheit der Signatur des
+
+               (EndEntity-)CV-Zertifikats certificate mit dem
+öffentlichen
+
+              Schlüssel der ausstellenden CVC-CA (aus dem CVC-CA-
+
+               Zertifikat extrahiert).
+
+       iii. Prüfe die zeitliche Gültigkeit des
+(EndEntity-)CV-Zertifikates,
+
+               des CVC-CA-Zertifikates und CVC-Root-CA-Zertifikates
+
+              nach dem Schalenmodell.
+
+   2. Der Status
+
+status
+
+der Prüfung wird zurückgegeben.
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+(
+
+
+
+i) Mathematische Korrektheitsprüfung CV-Zertifikate mit Cross-CV-Zertifikat
+(vgl. Varianten/Alternativen von TUC_KON_005)
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+i) das benötigte Cross-CV-Zertifikat ist nicht vorhanden, Fehlercode 4228
+
+(
+
+
+
+i) kryptographische (mathematische) Prüfung des CVC-CA-Zertifikats
+fehlgeschlagen, Fehlercode 4196.
+
+(
+
+
+
+ii) kryptographische Prüfung des (EndEntity-)CV-Zertifikats fehlgeschlagen,
+Fehlercode 4196.
+
+(
+
+
+
+iii) zeitliche Gültigkeit eines der CV-Zertifikate ist abgelaufen, Fehlercode
+4196.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle270: TAB_KON_819 Fehlercodes TUC_KON_042 „CV-Zertifikat prüfen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4196
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler bei der CV-Zertifikatsprüfung
+
+</td></tr><tr><td>
+4228
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+das benötigte Cross-CV-Zertifikat ist nicht vorhanden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6044,12 +39128,175 @@ Der Konnektor MUSS den technischen Use Case TUC_KON_034
 
 Tabelle271: TAB_KON_770 TUC_KON_034 „Zertifikatsinformationen extrahieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_034 „Zertifikatsinformationen extrahieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC beschreibt die Extraktion der fachlich zentralen Informationen aus
+bestimmten Zertifikaten einer gesteckten Karte eines Mandanten.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(1) Wenn im Aufrufkontext (also erreichbar durch den Mandanten) zum
+angegebenen CardHandle keine Karte gefunden werden kann, bricht der TUC mit
+Fehlercode 4146 ab.  
+(1b) Ist bei Angabe von QES=true auf der Karte keine
+QES-Identität zu finden, bricht der TUC mit Fehlercode 4147 ab. Für die
+Kombination QES=true mit einer eGK bricht der TUC mit Fehlercode 4148 ab
+(QES-Zertifikate der eGK werden noch nicht unterstützt).  
+(1) Für eGK,
+HBA, SM-B gilt: Wenn crypt=ECC und Karte vom Typ \<G2.1, bricht der TUC mit
+Warnung 4257 ab.  
+(1) Für gSMC-K gilt: Wenn crypt=ECC und TUC_KON_216
+Warnung 4256 liefert, bricht der TUC mit Warnung 4257 ab.  
+(1) Wenn aus
+anderen Gründen die Extraktion der Zertifikatsinformationen fehlschlägt,
+bricht der TUC mit Fehlercode 4148 ab.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle272: TAB_KON_602 Fehlercodes TUC_KON_034 „Zertifikatsinformationen
 extrahieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4146
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Kartenhandle existiert nicht
+
+</td></tr><tr><td>
+4147
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Zertifikat nicht vorhanden (z. B. kein QES-Zertifikat in SM-B)
+
+</td></tr><tr><td>
+4148
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Extrahieren von Zertifikatsinformationen
+
+</td></tr><tr><td>
+4257
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+ECC-Zertifikate nicht vorhanden auf Karte: \<cardHandle\>
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6062,7 +39309,74 @@ Verfügung stellen
 
 Tabelle273: TAB_KON_771 Basisanwendung Zertifikatsdienst
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+CertificateService
+
+</th></tr><tr><td>
+Version (KDV)
+
+</td><td colspan="2">
+6.0.0 (WSDL-Version), 6.0.1 (XSD-Version)  
+6.0.1 (WSDL-Version), 6.0.2
+(XSD-Version)
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td colspan="2">
+Siehe GitHub
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td colspan="2">
+CERT für Schema und CERTW für WSDL
+
+</td></tr><tr><td rowspan="4">
+Operationen
+
+</td><td>
+Name
+
+</td><td>
+Kurzbeschreibung
+
+</td></tr><tr><td>
+ReadCardCertificate
+
+</td><td>
+Zertifikat von einer Karte lesen
+
+</td></tr><tr><td>
+CheckCertificateExpiration
+
+</td><td>
+Ablaufdatum von Zertifikaten erfragen
+
+</td></tr><tr><td>
+VerifyCertificate
+
+</td><td>
+Prüfung des Status eines Zertifikats
+
+</td></tr><tr><td>
+WSDL
+
+</td><td colspan="2">
+CertificateService.wsdl (WSDL-Verion 6.0.0)  
+CertificateService_v6_0_1.wsdl
+
+</td></tr><tr><td>
+Schema
+
+</td><td colspan="2">
+CertificateService.xsd (XSD-Version 6.0.1)  
+CertificateService_v6_0_2.xsd
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6075,18 +39389,272 @@ Clientschnittstelle eine Operation CheckCertificateExpiration anbieten.
 
 Tabelle274: TAB_KON_676 Operation CheckCertificateExpiration
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+CheckCertificateExpiration
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="2">
+Gibt das Datum des Ablaufs eines bestimmten Zertifikats oder gesammelt des
+Zertifikats der gSMC-K, der gSMC-KT's sowie aller gesteckten HBAx und SM-B des
+Mandanten zurück.
+
+</td></tr><tr><td rowspan="4">
+Aufruf-parameter
+
+</td><td colspan="2">
+</td></tr><tr><td>
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td>
+Optional. Identifiziert die Karte, deren Zertifikate geprüft werden sollen.
+Wird der Parameter nicht angegeben, so werden alle für den Konnektor
+erreichbaren Karten (inkl. gSMC-K und aller gSMC-KT's), die zum Mandanten
+passen, berücksichtigt.  
+Die Operation CheckCertificateExpiration DARF das
+Lesen von Zertifikaten der eGK NICHT unterstützen.
+
+</td></tr><tr><td>
+Context
+
+</td><td>
+MandantId, CsId, WorkplaceId verpflichtend; UserId optional
+
+</td></tr><tr><td>
+Crypt
+
+</td><td>
+Optional; Default: RSA   
+Gibt den kryptopraphischen Algorithmus vor, für den
+das Zertifikat ermittelt werden soll.  
+Wertebereich: RSA, ECC
+
+ ---> UL
+
+</td></tr><tr><td rowspan="3">
+Rückgabe
+
+</td><td colspan="2">
+![Img-068][Img-068]
+
+</td></tr><tr><td>
+Status
+
+</td><td>
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+CertificateExpiration
+
+</td><td>
+Eine Liste von Tupeln aus (CtID, CardHandle, ICCSN, subject.CommonName,
+serialNumber, validity) der Zertifikate der Karten.
+
+Für die gSMC-K soll in CertificateExpiration/CtID und
+CertificateExpiration/CardHandle jeweils ein Leerstring zurückgegeben werden.
+
+</td></tr><tr><td>
+Vorbe-dingungen
+
+</td><td colspan="2">
+Keine
+
+</td></tr><tr><td>
+Nachbe-dingungen
+
+</td><td colspan="2">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation CheckCertificateExpiration ist in Tabelle TAB_KON_677
 beschrieben:
 
 Tabelle275: TAB_KON_677 Ablauf CheckCertificateExpiration
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab. Wird die
+Operation für einen nicht unterstützten Kartentypen aufgerufen, so bricht die
+Operation mit Fehler 4058 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffsberechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf  
+TUC_KON_000 {  
+    mandantId =
+$context.mandantId;  
+    clientSystemId = $context.clientsystemId; 
+
+    workplaceId  = $context.workplaceId;  
+    userId =
+$context.userId;  
+    cardHandle = $cardHandle  
+    allWorkplaces=true 
+
+}  
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode
+aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+enumerateCardHandles
+
+</td><td>
+Wenn der Parameter CardHandle übergeben wurde, wird dieser als einziges Element
+in eine Liste gepackt.  
+Wenn der Parameter CardHandle leer war, wird eine
+Liste der CardHandles aller für den Konnektor erreichbaren Karten (inkl.
+gSMC-K und gSMC-KT's), die zum Mandanten passen, erstellt.
+
+</td></tr><tr><td colspan="3">
+Für jedes CardHandle der in Schritt 3 erzeugten Liste werden folgende Schritte
+ausgeführt, für die gSMC-Ks die Schritte 5 und 6:  
+Falls Schritt 5 der
+TUC_KON_033 die Warnung 4257 zurückgibt, wird Schritt 6 nicht ausgeführt und
+die Schritte für das CardHandle der in Schritt 3 erzeugten Liste weiter
+ausgeführt. Die Warnung 4257 wird über alle CardHandle akkumuliert und
+\<komma-separierte List von cardHandle\> für den Fehlertext erzeugt.
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle CardSession über TUC_KON_026 {  
+    mandatId =MandantId; 
+
+    clientSystemId = ClientSystemId;  
+    cardHandle = CardHandle; 
+
+    userId = UserId }
+
+</td></tr><tr><td>
+5.
+
+</td><td>
+TUC_KON_033 „Zertifikatsablauf prüfen“
+
+</td><td>
+Das Gültigkeitsdatum des Zertifikats wird geprüft mit TUC_KON_033 { 
+
+    cardSession;  
+    doInformClients = false;  
+    Crypt;  
+} 
+
+bzw. TUC_KON_033 {  
+    checkSMCK = true;  
+    doInformClients =
+false;  
+    Crypt;  
+} 
+
+</td></tr><tr><td>
+6.
+
+</td><td>
+TUC_KON_034 „Zertifikatsinformationen extrahieren”
+
+</td><td>
+Beim Aufruf des TUC_KON_034 ist der Parameter qes = false zu setzen.  
+Aus den
+jeweiligen Rückgabewerten entsteht eine Liste aus Tupeln (CtID, CardHandle,
+ICCSN, subject.CommonName, serialNumber, validity). Diese wird von der
+Operation zurückgegeben.
+
+</td></tr></table>
 
 Tabelle276: TAB_KON_603 Fehlercodes „CheckCertificateExpiration“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4058
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Aufruf nicht zulässig
+
+</td></tr><tr><td>
+4257
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+ECC-Zertifikate nicht vorhanden auf Karte: \<komma-separierte List von
+cardHandle\>
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6100,18 +39668,306 @@ TAB_KON_678 Operation ReadCardCertificate beschrieben anbieten.
 
 Tabelle277: TAB_KON_678 Operation ReadCardCertificate
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+ReadCardCertificate
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Liest X.509-Zertifikate von einer Karte.
+
+</td></tr><tr><td colspan="1" rowspan="6">
+Aufruf-parameter
+
+</td><td colspan="3">
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+CardHandle
+
+</td><td colspan="2">
+Gibt die Karte an, von der das Zertifikat gelesen werden soll.  
+Es können
+Zertifikate von HBAx (HBA, HBA-VK), SM-B ausgelesen werden.  
+Die Operation
+ReadCardCertificate DARF das Lesen von Zertifikaten der eGK NICHT unterstützen.
+
+</td></tr><tr><td>
+Context
+
+</td><td colspan="2">
+Aufrufkontext (Mandant)
+
+</td></tr><tr><td>
+CertRefList
+
+</td><td colspan="2">
+Gibt an, welche(s) Zertifikat(e) gelesen werden soll. Mögliche Werte für
+CertRef sind:  
+C.AUT, C.ENC, C.SIG, C.QES
+
+</td></tr><tr><td>
+Crypt
+
+</td><td colspan="2" rowspan="1">
+Optional; Default: RSA   
+Gibt den kryptographischen Algorithmus vor, für den
+das Zertifikat ermittelt werden soll.  
+Wertebereich: RSA, ECC
+
+ ---> UL
+
+</td></tr><tr><td rowspan="7">
+Rückgabe
+
+</td><td colspan="3">
+</td></tr><tr><td>
+Status
+
+</td><td colspan="2">
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td>
+CertRef
+
+</td><td colspan="2">
+Dieses Element beinhaltet die Referenz des Zertifikats, welches bei der Anfrage
+übergeben wurde.
+
+</td></tr><tr><td>
+X509Data
+
+</td><td colspan="2">
+Inhalt des über die CertRef referenzierten Zertifikats. Ist das referenzierte
+Zertifikat nicht vorhanden, so wird dieses Element nicht vom Konnektor gefüllt.
+
+</td></tr><tr><td>
+</td><td>
+X509Issuer  
+Name
+
+</td><td>
+Enthält den Issuer-Name des Zertifikats. Bezüglich des Encodings sind die in
+[XMLDSig#4.4.4.4.1] angegebenen Regeln zu beachten (Escaping von Sonderzeichen
+etc.)
+
+</td></tr><tr><td>
+</td><td>
+X509Serial  
+Number
+
+</td><td>
+Enthält die serialNumber des Zertifikats.
+
+</td></tr><tr><td>
+</td><td>
+X509Subject  
+Name
+
+</td><td>
+Enthält das Feld subject.CommonName. Bezüglich des Encodings sind die in [XML
+DSig#4.4.4.4.1] angegebenen Regeln zu beachten (Escaping von Sonderzeichen etc.)
+
+</td></tr><tr><td>
+</td><td>
+</td><td>
+X509  
+Certificate
+
+</td><td>
+Enthält das base64-codierte Zertifikat, dessen Binärstruktur wiederum
+ASN.1-codiert (gemäß [COMMON_PKI]) vorliegt.
+
+</td></tr><tr><td>
+Vorbe-dingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbe-dingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation ReadCardCertificate ist in Tabelle TAB_KON_679 Ablauf
 ReadCardCertificate beschrieben:
 
 Tabelle278: TAB_KON_679 Ablauf ReadCardCertificate
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.  
+Wurde als
+Zielkarte eine eGK adressiert, wird Fehlercode 4090 zurückgeliefert.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs- berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf  
+TUC_KON_000 {  
+    mandantId =
+$context.mandantId;  
+    clientsystemId = $context.clientsystemId; 
+
+    workplaceId  = $context.workplaceId;  
+    userId =
+$context.userId;  
+    cardHandle = $cardHandle  
+}  
+Tritt bei der
+Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle CardSession über TUC_KON_026 {  
+    mandatId =$context.mandantId;
+ 
+    clientsystemId  = $context.clientsystemId;  
+    cardHandle =
+$context.cardHandle;  
+    userId = $context.userId }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+getEF
+
+</td><td>
+Für jedes Paar von CertRef und CardHandle wird in Abhängigkeit des Parameters
+Crypt gemäß Tabelle TAB_KON_858 das zu lesende File (EF) bestimmt:  
+Ist die
+übergebene Zertifikatsreferenz ungültig, wird Fehlercode 4149 zurückgegeben.
+ 
+Das Lesen von Zertifikaten der eGK ist aus Sicherheitsgründen für
+Clientsysteme nicht zulässig.
+
+</td></tr><tr><td>
+  
+
+</td><td>
+TUC_KON_216 „LeseZertifikat“
+
+</td><td>
+Für jedes Paar von CardHandle und EF wird nun durch Aufruf von TUC_KON_216
+„LeseZertifikat“ das Zertifikat ausgelesen.  
+Falls TUC_KON_216 die Warnung
+4256 zurückgibt, wird die Operation abgebrochen und Fehler 4258 zurückgegeben.
+
+</td></tr><tr><td>
+6.
+
+</td><td>
+Zertifikatsattribute extrahieren
+
+</td><td>
+Aus jedem Zertifikat werden die zu liefernden Attribute extrahiert. Die
+Ergebnisstruktur wird mit den erhaltenen Rückgabewerten gefüllt.
+
+</td></tr></table>
 
 Tabelle279: TAB_KON_604 Fehlercodes „ReadCardCertificate“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4149
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Ungültige Zertifikatsreferenz
+
+</td></tr><tr><td>
+4090
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Zugriff auf eGK nicht gestattet
+
+</td></tr><tr><td>
+4258
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+ECC-Zertifikate nicht vorhanden auf Karte: \<cardHandle\>
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6125,18 +39981,186 @@ Operation VerifyCertificate beschrieben anbieten.
 
 Tabelle280: TAB_KON_795 Operation VerifyCertificate
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+VerifyCertificate
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td colspan="3">
+Prüft den Status einesZertifikats.
+
+</td></tr><tr><td rowspan="5">
+Aufruf-parameter
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td>
+Name
+
+</td><td colspan="2">
+Beschreibung
+
+</td></tr><tr><td>
+CCTX:Context
+
+</td><td colspan="2">
+Aufrufkontext (Mandant)
+
+</td></tr><tr><td>
+CERTCMN:X509Certificate
+
+</td><td colspan="2">
+Zu prüfendes Zertifikat (base64 kodiert), wie in Response zur Operation
+ReadCardCertificate enthalten.
+
+</td></tr><tr><td>
+CERT:VerificationTime
+
+</td><td colspan="2">
+Der für die Prüfung zu verwendende Referenzzeitpunkt. Falls der Parameter
+nicht angegeben ist, wird als Referenzzeitpunkt die Systemzeit verwendet.
+
+</td></tr><tr><td rowspan="4">
+Rückgabe
+
+</td><td colspan="3">
+
+
+</td></tr><tr><td colspan="2">
+CONN:Status
+
+</td><td>
+Enthält den Ausführungsstatus der Operation.
+
+</td></tr><tr><td colspan="2">
+CERT:VerificationStatus
+
+</td><td>
+Enthält eines der drei möglichen Prüfungsergebnisse in CERT:VerificationResult
+
+ ---> UL
+
+sowie weiter Details zu den Zuständen „INCONCLUSIVE“und „INVALID“in
+GERROR:Error.
+
+</td></tr><tr><td colspan="2">
+CERT:RoleList
+
+</td><td>
+OIDsderim Zertifikat gespeichertenRollen.
+
+</td></tr><tr><td>
+Vorbe-dingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbe-dingungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation VerifyCertificate ist in Tabelle TAB_KON_797 Ablauf
 VerifyCertificate beschrieben:
 
 Tabelle281: TAB_KON_797 Ablauf VerifyCertificate
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Die übergebenen Werte werden auf Konsistenz und Gültigkeit überprüft. Treten
+hierbei Fehler auf, so bricht die Operation mit Fehler 4000 ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_037 „Zertifikat prüfen“
+
+</td><td>
+Die Zertifikatsprüfung erfolgt durch Aufruf von TUC_KON_037. Als Parameter des
+TUC-Aufrufs gilt für Zertifikate aus CERT_IMPORTED_CA_LIST: {certificate
+=CERTCMN:X509CertificatequalifiedCheck=not_required;baseTime=CERT:VerificationTime;offlineAllowNoCheck=true;policyList=
+keine
+Einschränkung;intendedKeyUsage=empty;intendedExtendedKeyUsage=empty;gracePeriod
+= empty;validationMode=NONE;ocspResponses(OCSP-Response/Liste von
+OCSP-        Responses = empty }für alle anderen Zertifikate gilt:
+{certifiacate
+=CERTCMN:X509CertificatequalifiedCheck=if_QC_present;baseTime=CERT:VerificationTime;offlineAllowNoCheck=true;policyList=
+alle zugelassenen
+Zertifikatstyp-OIDs;intendedKeyUsage=empty;intendedExtendedKeyUsage=empty;gracePeriod
+= empty;validationMode= OCSP;ocspResponses= empty}.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+
+
+</td><td>
+Wenn der Prüfprozess fehlerhaft war und nicht zu einem Ergebnis im Sinne eines
+VerificationResult führt, wirdeine FaultMessage erzeugt.War der Prüfprozess
+erfolgreich, wird eine VerifyCertificateResponse mitCONN:Status/CONN:Result=OK,
+demVerificationStatus(als Ergebnis der Zertifikatsprüfung)und den ermittelten
+Rollen-OIDs erzeugt.Ein Prüfergebnis „INCONCLUSIVE“ bzw. „INVALID“
+wirdin CERT:VerificationStatus/GERROR:Error mit den zugehörigen
+Fehlermeldungen detailliert(in diesem Fall kann CONN:Status/CONN:Result=OK oder
+CONN:Status/CONN:Result=Warning gesetzt sein).
+
+</td></tr></table>
 
 Tabelle282: TAB_KON_800 Fehlercodes „VerifyCertificate“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -6151,12 +40175,119 @@ TUC_KON_035 „Zertifikatsdienst initialisieren“ initialisieren.
 
 Tabelle283: TAB_KON_772 TUC_KON_035 „Zertifikatsdienst initialisieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_035 „Zertifikatsdienst initialisieren“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC beschreibt den gesamten Ablauf der Initialisierung des TrustStore im
+Rahmen der betrieblichen Prozesse: Prüfung der Aktualität, Integrität und
+Authentizität der Einträge im TrustStore.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Für den übergebenen Status der Initialisierung des TrustStore werden folgende
+Schritte durchgeführt:
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige  
+Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle284: TAB_KON_605 Fehlercodes TUC_KON_035 „Zertifikatsdienst
 initialisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können keine
+weiteren Fehlercodes auftreten.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6168,12 +40299,227 @@ Parameter ausschließlich einsehen können.
 
 Tabelle285: TAB_KON_606 Konfiguration des Zertifikatsdienstes
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+CERT_TSL_DEFAULT_  
+GRACE_PERIOD_DAYS
+
+</td><td>
+X Tage
+
+</td><td>
+Default Grace Period TSL in Tagen
+
+Gibt an, wie viele Tage der Konnektor mit einer zeitlich abgelaufenen TSL weiter
+betrieben werden kann.
+
+Der Wert MUSS zwischen 1 und 30 Tagen liegen.
+
+Default-Wert = 30 Tage
+
+Hinweis: Vor dem zeitlichen Ablauf einer TSL wird mit ausreichendem Vorlauf eine
+neue TSL verteilt. Sollte die TSL dennoch ablaufen und der Konfigurationswert
+überschritten werden, kann eine neue TSL immer noch lokal geladen werden
+(TIP1-A_4705 „TSL manuell importieren“).
+
+</td></tr><tr><td>
+CERT_OCSP_DEFAULT_  
+GRACE_PERIOD_  
+NONQES
+
+</td><td>
+X Minuten
+
+</td><td>
+Default Grace Period OCSP für nonQES in Minuten.
+
+Der Wert MUSS zwischen 0 und 20 Minuten liegen.
+
+Default-Wert = 10 Minuten
+
+</td></tr><tr><td>
+CERT_OCSP_TIMEOUT_  
+NONQES
+
+</td><td>
+X Sekunden
+
+</td><td>
+Timeout für OCSP-Abfragen bei der Prüfung von nonQES-Zertifikaten.
+
+Der Wert MUSS zwischen 1 und 120 Sekunden liegen.
+
+Default-Wert = 10 Sekunden
+
+</td></tr><tr><td>
+CERT_OCSP_TIMEOUT_  
+QES
+
+</td><td>
+X Sekunden
+
+</td><td>
+Timeout für OCSP-Abfragen bei der Prüfung von QES-Zertifikaten.
+
+Der Wert muss zwischen 1 und 120 Sekunden liegen.
+
+Default-Wert = 10 Sekunden
+
+</td></tr><tr><td>
+CERT_EXPIRATION_  
+WARN_DAYS
+
+</td><td>
+X Tag(e)
+
+</td><td>
+Warnung X Tage vor Ablauf von Zertifikaten im Managementinterface und per
+Ereignis.
+
+Der Wert muss zwischen 0 und 180 Tagen (0=keine Warnung) liegen.
+
+Default-Wert = 90 Tage
+
+</td></tr><tr><td>
+CERT_EXPIRATION_  
+CARD_CHECK_DAYS
+
+</td><td>
+X Tag(e)
+
+</td><td>
+Alle X Tage wird der Ablauf aller gesteckten Karten überprüft. Der Wert muss
+zwischen 0 und 365 liegen (0=kein Check).
+
+Default-Wert = 1 Tag
+
+</td></tr><tr><td>
+CERT_IMPORTED_  
+CA_LIST
+
+</td><td>
+Liste von manuell importierten CA-Zertifikaten
+
+</td><td>
+Der Administrator MUSS CA-Zertifikate importieren, anzeigen und löschen
+können. Der Konnektor DARF CA-Zertifikate zur Ableitung von QES-Zertifikaten
+NICHT importieren.
+
+Default-Wert = leere Liste
+
+</td></tr><tr><td>
+CERT_BNETZA_VL_  
+UPDATE_INTERVAL
+
+</td><td>
+X Stunden
+
+</td><td>
+Intervall, in dem die BNetzA VL auf Aktualität geprüft  werden muss. Der
+Wert MUSS zwischen 1 Stunde und 168 Stunden (7 Tage) liegen.
+
+Default-Wert = 24 Stunden
+
+</td></tr><tr><td>
+CERT_TSL_DOWNLOAD_ADDRESS_INTERNET_BU
+
+</td><td>
+1 URI
+
+</td><td>
+Konfigurierbare Backup Adresse der TSL im Internet
+
+</td></tr><tr><td>
+CERT_TSL_IP_ADDRESS_INTERNET_BU
+
+</td><td>
+1 URI
+
+</td><td>
+Konfigurierbare Backup Adresse der TSL im Internet (enthält IP-Adresse des
+Hosts statt FQDN).  
+Wird verwendet, falls Auflösen der FQDN mittels DNS bei
+CERT_TSL_DOWNLOAD_ADDRESS_INTERNET_BU  
+fehlschlägt.
+
+</td></tr></table>
 
 Tabelle286: TAB_KON_733 Einsehbare Konfigurationsparameter des
 Zertifikatsdienstes
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+CERT_CRL_DOWNLOAD_ADDRESS
+
+</td><td>
+2 URIs
+
+</td><td>
+Download-Adressen für die CRL
+
+</td></tr><tr><td>
+CERT_OCSP_FORWARDER_ADDRESS
+
+</td><td>
+2 FQDNs
+
+</td><td>
+Adressen der OCSP-Forwarder (HTTPS-Proxy) beim Zugangsdienstprovider
+
+Der Administrator muss in geeigneter Weise einen Test auslösen können, ob
+einer der Server per ICMP-Echo (ping) erreichbar ist und ob ein (beliebiger)
+OCSP-Request zu einer erhaltenen OCSP-Antwort führt.
+
+</td></tr><tr><td>
+CERT_OCSP_FORWARDER_PORT
+
+</td><td>
+TCP-Port
+
+</td><td>
+TCP-Port des OCSP-Forwarders (HTTPS-Proxy) beim Zugangsdienstprovider
+
+</td></tr><tr><td>
+CERT_TSL_DOWNLOAD_ADDRESS_INTERNET
+
+</td><td>
+1 URI
+
+</td><td>
+Adresse der TSL im Internet gemäß gemSpec_TSL
+
+</td></tr><tr><td>
+CERT_TSL_IP_ADDRESS_INTERNET
+
+</td><td>
+1 URI
+
+</td><td>
+Adresse der TSL im Internet gemäß gemSpec_TSL (enthält IP-Adresse des Hosts
+statt FQDN).
+
+Wird verwendet, falls Auflösen der FQDN mittels DNS bei
+CERT_TSL_DOWNLOAD_ADDRESS_INTERNET
+
+fehlschlägt.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6330,7 +40676,31 @@ protokollieren.
 Tabelle287: TAB_KON_857 - Fehlercodes beim Import des Cross-Zertifikats für
 TI-Vertrauensanker ECC
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4255
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Import des TSL-Signer-CA Cross-Zertifikats
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6474,11 +40844,265 @@ Protokolleintrag” umsetzen.
 
 Tabelle288: TAB_KON_607 – TUC_KON_271 „Schreibe Protokolleintrag“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_271 „Schreibe Protokolleintrag“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC schreibt einen Eintrag in ein Protokoll.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch Basisdienst, Fachmodul oder TUC_KON_256 „Systemereignis
+absetzen“
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Im Fall eines zu protokollierenden Ereignisses des Systeminformationsdienstes
+wird
+
+ ---> UL
+
+ ---> UL
+
+ ---> UL
+
+</td></tr><tr><td>
+Eingangs  
+anforderung
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ 1.      Wenn eventType = Sec, so wird das Ereignis in das  
+  
+Sicherheitsprotokoll geschrieben. Falls fmName angegeben ist, wird  
+     er
+dem Eintrag hinzugefügt.  
+ 2.      fmName ist angegeben (durch ein
+Fachmodul aufgerufen) und  
+    eventType = „Op“, so wird das Ereignis
+in das zugehörige  
+    Fachmodulprotokoll geschrieben.  
+ a. 
+          Gemäß den Festlegungen in den jeweiligen  
+   
+Fachmodulspezifikationen (FM_\<fmName\>_LOG_LEVEL), werden  
+    nur
+Ereignisse in das Fachmodulprotokoll geschrieben, deren  
+    severity
+mindestens dem jeweils dort festgelegten Wert entsprechen.  
+ 3.     fmName
+ist nicht angegeben (Aufruf durch ein Fachmodul) und  
+    eventType =
+„Op“, dann wird das Ereignis in das Systemprotokoll  
+    geschrieben. 
+
+ a.            Gemäß den Festlegungen in LOG_LEVEL_SYSLOG 
+
+    werden nur Ereignisse in das Systemprotokoll geschrieben, deren 
+
+    Schwere mindestens dem Wert von LOG_LEVEL_SYSLOG  
+    entsprechen. 
+
+ 4.    Wurde der TUC durch ein Fachmodul aufgerufen (fmName ist  
+   
+angegeben) und ist eventType = Perf, so wird das Ereignis in das  
+   
+zugehörige Fachmodul-Performanceprotokoll geschrieben.  
+ 5.    Wurde der
+TUC nicht durch ein Fachmodul aufgerufen (fmName  
+    ist nicht angegeben)
+und ist eventType = Perf, so wird das Ereignis  
+    in das
+Konnektor-Performanceprotokoll geschrieben.  
+     Die geschriebenen
+Protokolleinträge MÜSSEN mindestens folgende  
+    Attribute beinhalten:
+
+ ---> UL
+
+      Die Speicherung erfolgt rollierend.
+
+Übersteigt die Anzahl der Einträge im Sicherheitsprotokoll
+
+SECURITY_LOG_SIZE
+
+, so werden ältere Einträge überschrieben. Für die anderen Protokolle
+beginnt das Überschreiben, wenn der jeweilige Speicherplatz für das Protokoll
+erschöpft ist. Dabei werden die nach der Reihenfolge der Erstellung ältesten
+Einträge überschrieben, unabhängig vom Zeitstempel des Logeintrags.
+
+Ist der Zeitstempel eines überschriebenen Logeintrags jünger als LOG_DAYS bzw.
+FM_\<fmName\>_LOG_DAYS bzw. SECURITY_LOG_DAYS, so wird der Fehlerzustand
+EC_LOG_OVERFLOW ausgelöst.
+
+</td></tr><tr></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zu:  
+a)  Aufruf
+von  
+     TUC_KON_256 {  
+        topic = „LOG/ERROR“;  
+     
+   eventType = $ErrorType;  
+         severity = $Severity;  
+     
+   parameters = („Error=$Fehlercode, Bedeutung=$Fehlertext“);  
+     
+   doLog = false }  
+b)  Abbruch der Verarbeitung mit den ausgewiesenen
+Fehlercodes  
+(1)    In das Sicherheitsprotokoll kann nicht geschrieben
+werden: Fehlercode: 4152  
+(2)    In das Fachmodulprotokoll kann nicht
+geschrieben werden: Fehlercode: 4151  
+(3)    In das Systemprotokoll
+kann nicht geschrieben werden: Fehlercode: 4150  
+(4)    In das
+Fachmodul-Performanceprotokoll kann nicht geschrieben werden: Fehlercode: 4217 
+
+(5)    In das Konnektor-Performanceprotokoll kann nicht geschrieben
+werden: Fehlercode: 4216
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle289: TAB_KON_608 Fehlercodes TUC_KON_271 „Schreibe Protokolleintrag“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4150
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Fehler beim Schreiben des Systemprotokolls
+
+</td></tr><tr><td>
+4151
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Fehler beim Schreiben eines Fachmodulprotokolls
+
+</td></tr><tr><td>
+4152
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Schreiben des Sicherheitsprotokolls
+
+</td></tr><tr><td>
+4216
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Fehler beim Schreiben des Konnektor-Performanceprotokolls
+
+</td></tr><tr><td>
+4217
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Fehler beim Schreiben eines Fachmodul-Performanceprotokolls
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6526,7 +41150,133 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_609 vorzunehmen:
 Tabelle290: TAB_KON_609 Konfigurationswerte des Protokollierungsdienstes
 (Administrator)
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+LOG_LEVEL_  
+SYSLOG
+
+</td><td>
+Info, Warning, Error, Fatal
+
+</td><td>
+Der Administrator MUSS den Detaillierungsgrad des Systemprotokolls durch
+Festlegung der Mindest-Schwere zu protokollierender Einträge festlegen können.
+
+Default-Wert: Warning
+
+</td></tr><tr><td>
+FM_\<fmName\>_  
+LOG_LEVEL
+
+</td><td>
+Debug, Info, Warning, Error, Fatal
+
+</td><td>
+Der Administrator MUSS den Detaillierungsgrad des Fachmodulprotokolls durch
+Festlegung der Mindest-Schwere zu protokollierender Einträge festlegen können.
+
+Default-Wert: Warning
+
+</td></tr><tr><td>
+SECURITY_LOG_SIZE
+
+</td><td>
+X Einträge
+
+</td><td>
+Der Administrator MUSS die Größe des Sicherheitsprotokolls angeben können
+(Anzahl der Einträge im Ringbuffer). 
+
+Mindestgröße: \>= 10.000
+
+Maximalgröße: herstellerspezifisch
+
+Default-Wert: \>= 50.000
+
+</td></tr><tr><td>
+SECURITY_LOG_DAYS
+
+</td><td>
+X Tage
+
+</td><td>
+Der Administrator MUSS die erwartete Anzahl der im Sicherheitsprotokoll
+gespeicherten Tage im Bereich 10 bis 365 konfigurieren können.
+
+Default-Wert: 180
+
+</td></tr><tr><td>
+LOG_DAYS
+
+</td><td>
+X Tage
+
+</td><td>
+Der Administrator MUSS die Anzahl der gespeicherten Tage für
+
+das Systemprotokoll und das Performanceprotokoll 
+
+festlegen können.
+
+ Der Konnektor kann Protokolleinträge, die älter als LOG_DAYS sind, zyklisch
+löschen.
+
+Dabei DARF der eingestellte Wert NICHT unter der Mindestgröße von 10 Tagen
+oder über der Maximalgröße von einem Jahr (365 Tage) liegen.
+
+Default-Wert: 180
+
+</td></tr><tr><td>
+FM_\<fmName\>_  
+LOG_DAYS
+
+</td><td>
+X Tage
+
+</td><td>
+Der Administrator MUSS die Anzahl der gespeicherten Tage für die
+fachmodulspezifischen Protokolle festlegen können.
+
+Es kann je Fachmodul einen Konfigurationsparameter für LOG_DAYS geben, der
+gemeinsam für das Fachmodulprotokoll und das Fachmodul-Performanceprotokoll
+gilt.
+
+Der Konnektor kann Protokolleinträge, die älter als FM_\<fmName\>LOG_DAYS
+sind, zyklisch löschen.
+
+Dabei DARF der eingestellte Wert NICHT unter der Mindestgröße von 10 Tagen
+oder über der Maximalgröße von einem Jahr (365 Tage) liegen.
+
+Default-Wert: 180
+
+Die Definition des fachmodulspezifischen Konfigurationswertes ist Bestandteil
+der entsprechenden Fachmodulspezifikation.
+
+Ist kein fachmodulspezifischer Konfigurationsparameter spezifiziert, dann gilt
+LOG_DAYS.
+
+</td></tr><tr><td>
+LOG_SUCCESSFUL_  
+CRYPTO_OPS
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS festlegen können, ob auch erfolgreich ausgeführte
+Kryptooperationen im Sicherheitslog protokolliert werden sollen.
+
+Default-Wert: Disabled
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6540,12 +41290,221 @@ Protokollierungsdienst” umsetzen.
 Tabelle291: TAB_KON_610 – TUC_KON_272 „Initialisierung
 Protokollierungsdienst“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_272 „Initialisierung Protokollierungsdienst”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor muss zum Bootup den Protokollierungsdienst starten und die
+Existenz und Schreibbarkeit der Protokolle sicherstellen.
+
+</td></tr><tr><td>
+Eingangs  
+anforderung
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Auslöser und Vorbedingungen
+
+</td><td>
+Bootup
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Standardablaufs führen zu:
+
+a)         Aufruf von TUC_KON_256 mit folgenden Parametern {  
+  
+     topic = „LOG/ERROR“;  
+        eventType = $ErrorType;  
+   
+    severity = $Severity;  
+        parameters = („Error=$Fehlercode,
+Bedeutung=$Fehlertext“);  
+        doLog = false }
+
+b)         Abbruch der Verarbeitung mit den ausgewiesenen Fehlercodes
+
+     
+
+(
+
+
+
+1)    Zugriff nicht möglich: Fehlercode: 4153
+
+     
+
+(
+
+
+
+2)    Zugriff nicht möglich: Fehlercode: 4154
+
+     
+
+(
+
+
+
+3)    Zugriff nicht möglich: Fehlercode: 4155
+
+     
+
+(
+
+
+
+4)    Zugriff nicht möglich: Fehlercode: 4218
+
+     
+
+(
+
+
+
+5)    Zugriff nicht möglich: Fehlercode: 4219
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle292: TAB_KON_611 Fehlercodes TUC_KON_272 „Initialisiere
 Protokollierungsdienst“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4153
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Zugriff auf Sicherheitsprotokoll nicht möglich
+
+</td></tr><tr><td>
+4154
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Zugriff auf Systemprotokoll nicht möglich
+
+</td></tr><tr><td>
+4155
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Zugriff auf Fachmodulprotokolle nicht möglich
+
+</td></tr><tr><td>
+4218
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Zugriff auf Konnektor-Performanceprotokoll nicht möglich
+
+</td></tr><tr><td>
+4219
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Zugriff auf Fachmodul-Performanceprotokoll nicht möglich
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6589,12 +41548,233 @@ aufbauen" gemäß TUC_KON_110 umsetzen.
 Tabelle293: TAB_KON_773 – TUC_KON_110 „Kartenbasierte TLS-Verbindung
 aufbauen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_110 „Kartenbasierte TLS-Verbindung aufbauen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC_KON_110 „Kartenbasierte TLS-Verbindung aufbauen“ baut eine
+TLS-Verbindung zur angegebenen Zieladresse auf. Dabei kann für eine
+gegenseitige Authentisierung eine SM-B verwendet werden.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die für die Authentisierung adressierte Karte muss freigeschaltet sein
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, eHealth-Kartenterminal, Karte, Server des Fachdienstes
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor MUSS folgende Schritte durchlaufen:
+
+1.  Auflösen des FQDN im targetUri per 'TUC_KON_361 „DNS Namen  
+    
+auflösen“
+
+2.  TLS-Verbindung mit ermittelter Adresse aufbauen:
+
+ a)       Prüfe Server-Zertifikat mittels TUC_KON_037 „Zertifikat
+prüfen“  {
+
+      
+
+certificate = C.FD.TLS-S;
+
+              
+
+qualifiedCheck = not_required;
+
+             
+
+offlineAllowNoCheck = true;
+
+             
+
+policyList  = oid_fd_tls_s;
+
+             
+
+intendedKeyUsage= intendedKeyUsage(C.FD.TLS-S);  
+             
+intendedExtendedKeyUsage = id-kp-serverAuth;  
+             
+validationMode  = OCSP}
+
+       Das Server-Zertifikat MUSS C.FD.TLS-S sein
+
+ 
+
+b)       Prüfe in a) zurückgegebene Rolle
+
+ 
+
+(„
+
+e
+
+rmittelte Rolle
+
+“)
+
+==  
+      
+
+roleToMatch
+
+ 
+
+c)       Wenn cardSession übergeben: Clientauthentisierung mittels 
+
+      ID.HCI.AUT. Der Konnektor darf nur dann das ECC-Zertifikat von der
+SMC-B auswählen, wenn auch das Serverzertifikat ein ECC-Zertifikat ist.
+
+3.  tlsConnectiontId der erzeugten Verbindung zurückgeben
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu einem Abbruch der
+Verarbeitung mit den ausgewiesenen Fehlercodes
+
+(
+
+
+
+1)    Der Name der Gegenstelle kann nicht aufgelöst werden
+
+(
+
+
+
+2b)  Rollenprüfung fehlgeschlagen: Fehlercode 4220
+
+(
+
+
+
+2)    Server konnte nicht authentisiert werden: Fehlercode 4156
+
+(
+
+
+
+2)    Clientauthentisierung fehlgeschlagen: Fehlercode 4157
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle294: TAB_KON_612 Fehlercodes TUC_KON_110 „Kartenbasierte TLS-Verbindung
 aufbauen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4156
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Server konnte bei TLS-Verbindungsaufbau nicht authentisiert werden
+
+</td></tr><tr><td>
+4157
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Clientauthentisierung bei TLS-Verbindungsaufbau fehlgeschlagen
+
+</td></tr><tr><td>
+4220
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Rollenprüfung bei TLS-Verbindungsaufbau fehlgeschlagen
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6607,12 +41787,131 @@ abbauen" gemäß TUC_KON_111 umsetzen.
 
 Tabelle295: TAB_KON_774 - TUC_KON_111 „Kartenbasierte TLS-Verbindung abbauen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_111 „Kartenbasierte TLS-Verbindung abbauen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der TUC_KON_111 „Kartenbasierte TLS-Verbindung abbauen“ dient der geregelten
+Beendigung einer TLS-Verbindung, die zuvor über TUC_KON_110 aufgebaut wurde.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch ein Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Mittels TUC_KON_110 wurde eine TLS-Verbindung aufgebaut
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Server des Fachdienstes
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor MUSS folgende Schritte durchlaufen:
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/  
+Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu einem Abbruch der
+Verarbeitung mit den ausgewiesenen Fehlercodes:
+
+(
+
+
+
+1) Keine Verbindung mit angegebenem TLSConnectionIdentifier  
+        
+vorhanden: Fehlercode 4158
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle296: TAB_KON_613 Fehlercodes TUC_KON_111 „Kartenbasierte TLS-Verbindung
 abbauen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4158
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Adressierte TLS-Verbindung nicht vorhanden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6668,7 +41967,86 @@ aufbauen“ gemäß TAB_KON_805 umsetzen.
 
 Tabelle297: TAB_KON_805 - TUC_KON_290 „LDAP-Verbindung aufbauen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_290 „LDAP-Verbindung aufbauen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Initiiert durch einen Verbindungsaufbau des LDAP-Clients zum Konnektor baut der
+Konnektor eine TLS-gesicherte Verbindung zum VZD auf.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+LDAP (oder LDAPS wenn ANCL_TLS_MANDATORY=Enabled) Verbindungsaufbau von einem
+Fachmodul oder einem Clientsystem ist abgeschlossen. Bei Verwendung von LDAPS
+authentisiert sich der Konnektor beim LDAP-Client mit der Identität ID.AK.AUT.
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, VZD
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6681,7 +42059,90 @@ abfragen“ gemäß TAB_KON_815 umsetzen.
 
 Tabelle298: TAB_KON_815 – TUC_KON_291 „Verzeichnis abfragen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_291 „Verzeichnis abfragen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor leitet als LDAP-Proxy einen Search Request des LDAP-Clients an den
+VZD weiter. Vom VZD empfängt der Konnektor eine Search Response und leitet
+diese an den LDAP-Client weiter.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch einen LDAPv3 Search Request von einen Fachmodul-TUC oder einem
+Clientsystem
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, VZD
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Auftretende Fehler werden gemäß [RFC4511]# Appendix A behandelt.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6694,7 +42155,88 @@ TAB_KON_816 umsetzen.
 
 Tabelle299: TAB_KON_816 – TUC_KON_292 „LDAP-Verbindung trennen"
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_292 „LDAP-Verbindung trennen"
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor beendet die Verbindung zum VZD und zum LDAP-Client.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch einen LDAPv3 Unbind Request von einen Fachmodul-TUC oder einem
+Clientsystem
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, VZD
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Auftretende Fehler werden gemäß [RFC4511]# Appendix A behandelt.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6707,7 +42249,86 @@ abbrechen" gemäß TAB_KON_817 umsetzen.
 
 Tabelle300: TAB_KON_817 – TUC_KON_293 „Verzeichnisabfrage abbrechen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_293 „Verzeichnisabfrage abbrechen"
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor bricht einen unbeantworteten Search Request ab.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch einen LDAPv3 Abandon Request von einen Fachmodul-TUC oder einem
+Clientsystem
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, VZD
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Auftretende Fehler werden gemäß [RFC4511]# Appendix A behandelt.
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6764,7 +42385,56 @@ Authentisierung unterstützen.
 
 Tabelle301: TAB_KON_780 – Signaturverfahren Externe Authentisierung
 
- ---> TABLE
+<table><tr><th>
+Signaturformat
+
+</th><th>
+Standard
+
+</th><th>
+Dokument  
+formate
+
+</th><th>
+QES/  
+nonQES
+
+</th><th>
+Bemerkung
+
+</th></tr><tr><td>
+PKCS#1  
+(V2.1)
+
+</td><td>
+[RFC3447]
+
+</td><td>
+Binär
+
+</td><td>
+nonQES
+
+</td><td colspan="1" rowspan="2">
+Die Low-Level-Signatur von Bitstrings DARF NUR in Verbindung mit dem zur
+Authentisierung vorgesehenen Schlüssel des HBAx und des SM-B genutzt werden. 
+
+Die Nutzung ist auf Bitstrings (Hash-Werte) von maximal 512 bit Länge
+beschränkt.
+
+</td></tr><tr><td>
+ECDSA
+
+</td><td>
+[BSI-TR-03111]
+
+</td><td>
+Binär
+
+</td><td>
+nonQES
+
+</td></tr></table>
 
      **[\<=]**
 
@@ -6793,7 +42463,60 @@ anbieten.
 
 Tabelle302: TAB_KON_839 Basisdienst Authentifizierungsdienst
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+AuthSignatureService
+
+</th></tr><tr><td>
+Version (KDV)
+
+</td><td colspan="2">
+7.4.0 (WSDL-Version)  
+7.4.1 (WSDL-Version)
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td colspan="2">
+Siehe GitHub
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td colspan="2">
+SIG für Schema und SIGW für WSDL
+
+</td></tr><tr><td rowspan="2">
+Operationen
+
+</td><td>
+Name
+
+</td><td>
+Kurzbeschreibung
+
+</td></tr><tr><td>
+ExternalAuthenticate
+
+</td><td>
+Binärstring signieren (nonQES)
+
+</td></tr><tr><td>
+WSDL
+
+</td><td colspan="2">
+AuthSignatureService_V7_4_1.wsdl  
+AuthSignatureService.wsdl (WSDL-Version 7.4.0)
+
+</td></tr><tr><td>
+Schema
+
+</td><td colspan="2">
+Kein
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6806,25 +42529,381 @@ Operation ExternalAuthenticate anbieten.
 
 Tabelle303: TAB_KON_781 Operation ExternalAuthenticate
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="3">
+ExternalAuthenticate
+
+</th></tr><tr><td>
+Beschrei
+
+bung
+
+</td><td colspan="3">
+Diese Operation versieht einen Binärstring der maximalen Länge 512 Bit mit
+einer nicht-qualifizierten elektronischen Signatur (nonQES).
+
+Dazu wird das Signaturverfahren PKCS#1
+
+oder ECDSA
+
+verwendet. Das AUT-Zertifikat der SM-B und das AUT-Zertifikat des HBAx werden
+unterstützt.
+
+</td></tr><tr><td rowspan="8">
+Aufruf
+
+parameter
+
+</td><td colspan="3">
+![Img-070][Img-070]
+
+</td></tr><tr><td colspan="2">
+Name
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td colspan="2">
+CONN:
+
+CardHandle
+
+</td><td>
+Identifiziert die zu verwendende Signaturkarte.
+
+Die Operation unterstützt HBAx und SM-B.
+
+</td></tr><tr><td colspan="2">
+CCTX:
+
+Context
+
+</td><td>
+Aufrufkontext für HBAx
+
+:
+
+MandantId, ClientSystemId, WorkplaceId, UserId verpflichtend
+
+Aufrufkontext für SM-B
+
+:
+
+MandantId, ClientSystemId, WorkplaceId verpflichtend; UserId nicht ausgewertet
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Optional
+
+Inputs
+
+</td><td>
+Enthält optionale Eingangsparameter:
+
+![Img-071][Img-071]
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Binary
+
+String
+
+</td><td>
+Dieses Element enthält im Kindelement
+
+dss:Base64Data
+
+den zu signierenden Binärstring.
+
+Das XML Attribut SIG:BinaryString/dss:Base64Data/@MimeType MUSS den Wert
+"application/octet-stream" haben.
+
+Die maximale Länge des Binärstrings beträgt 512 Bit entsprechend der maximal
+zu erwartenden Hash-Größe.
+
+Aus der Länge des Binärstrings wird auf das verwendete
+
+Hashverfahren geschlossen. Es werden folgende Längen unterstützt:  
+
+ ---> UL
+
+Im Falle des Signaturverfahrens RSASSA-PKCS1-v1_5 werden SHA-256, SHA-384 und
+SHA-512 unterstützt.
+
+Im Falle des Signaturverfahrens RSASSA-PSS wird SHA-256 unterstützt.
+
+Im Falle des Signaturverfahrens ECDSA wird SHA-256 unterstützt.
+
+Für die Signaturerstellung gilt:
+
+ ---> UL
+
+</td></tr><tr><td colspan="2">
+dss:
+
+Signature
+
+Type
+
+</td><td>
+Durch dieses in [OASIS-DSS] (Abschnitt 3.5.1) beschriebene Element wird der Typ
+der zu erzeugenden Signatur bestimmt. Als Signaturtyp wird unterstützt :
+
+ ---> UL
+
+Andere
+
+SignatureType
+
+-Angaben führen zu einer Fehlermeldung 4111 (Ungültiger Signaturtyp oder
+Signaturvariante).
+
+Fehlt dieses Element, so wird ebenfalls der Signaturtyp PKCS#1-Signatur
+verwendet.
+
+</td></tr><tr><td colspan="2">
+SIG:
+
+Signature
+
+Schemes
+
+</td><td>
+Durch dieses Element wird für PKCS#1-Signaturen zwischen den folgenden
+SignatureScheme-Optionen
+
+unterschieden:
+
+ ---> UL
+
+Fehlt dieses Element, so wird als Default-SignatureScheme RSASSA-PSS gewählt.
+
+</td></tr><tr><td rowspan="3">
+Rückgabe
+
+</td><td colspan="3">
+![Img-072][Img-072]
+
+</td></tr><tr><td>
+CONN:
+
+Status
+
+</td><td colspan="2">
+Enthält den Status der ausgeführten Operation.
+
+</td></tr><tr><td>
+dss:
+
+Signature
+
+Object
+
+</td><td colspan="2">
+Enthält im Erfolgsfall die erzeugte Signatur in Form eines
+
+dss:SignatureObject
+
+-Elements gemäß [OASIS-DSS] (Abschnitt 3.2).
+
+Der Signaturwert wird im XML-Element
+
+dss:SignatureObject/dss:Base64Signature
+
+übergeben.
+
+Die Signatur wird binär gemäß [BSI-TR-03111]#5.2.2 in der ASN.1 Struktur
+ECDSA-Sig-Value zurückgegeben.
+
+Das XML-Attribut
+
+dss:SignatureObject/dss:Base64Signature/@Type
+
+kennzeichnet durch den Wert:
+
+ ---> UL
+
+bzw.
+
+ ---> UL
+
+Die XML-Elemente
+
+dss:SignatureObject/ds:Signature
+
+dss:SignatureObject/dss:Timestamp
+
+dss:SignatureObject/dss:SignaturePtr
+
+dss:SignatureObject/dss:Other
+
+werden nicht verwendet.
+
+</td></tr><tr><td>
+Vorbeding
+
+ungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr><tr><td>
+Nachbeding
+
+ungen
+
+</td><td colspan="3">
+Keine
+
+</td></tr></table>
 
 Der Ablauf der Operation ExternalAuthenticate ist in Tabelle TAB_KON_782
 beschrieben:
 
 Tabelle304: TAB_KON_782 Ablauf Operation ExternalAuthenticate
 
- ---> TABLE
+<table><tr><th>
+Nr.
+
+</th><th>
+Aufruf Technischer Use Case oder Interne Operation
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+1.
+
+</td><td>
+checkArguments
+
+</td><td>
+Alle übergebenen Parameterwerte werden auf Konsistenz und Gültigkeit
+überprüft. Treten hierbei Fehler auf, so bricht die Operation mit Fehler 4000
+ab.
+
+</td></tr><tr><td>
+2.
+
+</td><td>
+TUC_KON_000 „Prüfe Zugriffs-
+
+berechtigung“
+
+</td><td>
+Die Prüfung erfolgt durch den Aufruf
+
+TUC_KON_000 {$context.mandantId; $context.clientsystemId;
+
+$context.workplaceId; $context.userId; $cardHandle}
+
+Tritt bei der Prüfung ein Fehler auf, bricht die Operation mit Fehlercode aus
+TUC_KON_000 ab.
+
+</td></tr><tr><td>
+3.
+
+</td><td>
+TUC_KON_026 „Liefere CardSession“
+
+</td><td>
+Ermittle CardSession über TUC_KON_026 { MandantId, CsId, CardHandle, UserId }
+
+</td></tr><tr><td>
+4.
+
+</td><td>
+TUC_KON_218 „Signiere“
+
+</td><td>
+Signaturberechnung durch Aufruf des TUC_KON_218 {
+
+PinRef = PIN.CH bzw. PIN.SMC;
+
+KeyRef = PrK.HP.AUT bzw. PrK.HCI.AUT;
+
+AlgorithmusID = signPKCS1_V1_5 oder signPSS
+
+oder signECDSA;
+
+DTBS = Binärstring
+
+}
+
+</td></tr></table>
 
 Tabelle305: TAB_KON_783 Übersicht Fehler Operation ExternalAuthenticate
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen TUCs können folgende weitere Fehlercodes
+auftreten:
+
+</td></tr><tr><td>
+4000
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Syntaxfehler
+
+</td></tr><tr><td>
+4058
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Aufruf nicht zulässig
+
+</td></tr></table>
 
 Die folgende Tabelle führt die zulässigen privaten Schlüssel für die
 Operation ExternalAuthenticate auf:
 
 Tabelle306: TAB_KON_784 Privater Schlüssel je Karte für ExternalAuthenticate
 
- ---> TABLE
+<table><tr><th>
+Karte
+
+</th><th>
+Schlüssel
+
+</th></tr><tr><td>
+SM-B
+
+</td><td>
+PrK.HCI.AUT in DF.ESIGN
+
+</td></tr><tr><td>
+HBAx
+
+</td><td>
+PrK.HP.AUT in DF.ESIGN
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -6973,11 +43052,177 @@ TUC_KON_283 „Infrastruktur Konfiguration aktualisieren“aufrufen. **[\<=]**
 In Anlehnung an die in der [gemSpec_Net#2.3.3] definierten Netzwerksegmente
 werden in der Konnektorspezifikation die folgenden Bezeichner verwendet:
 
- ---> TABLE
+<table><tr><th>
+ReferenzID im  
+Konnektor
 
- ---> TABLE
+</th><th>
+Adressbereich für die TI-Produktivumgebung
 
- ---> TABLE
+</th><th>
+Adressbereich für die TI-Testumgebung
+
+</th><th>
+Adressbereich für die TI-Referenzumgebung
+
+</th></tr><tr><td>
+NET_SIS
+
+</td><td>
+TI_Dezentral_SIS  
+- Konnektoren
+
+</td><td>
+TI_Test_Dezentral_SIS  
+- Konnektoren
+
+</td><td>
+Ist durch den Testbetriebsverantwortlichen zu definieren.
+
+</td></tr><tr><td>
+NET_TI_  
+DEZENTRAL
+
+</td><td>
+TI_Dezentral  
+- Konnektoren
+
+</td><td>
+TI_Test_Dezentral  
+- Konnektoren
+
+</td><td>
+Ist durch den Testbetriebsverantwortlichen zu definieren.
+
+</td></tr><tr><td>
+NET_TI_  
+ZENTRAL
+
+</td><td>
+TI_Zentral  
+- Zentrale Dienste
+
+</td><td>
+TI_Test_Zentral  
+- Zentrale Dienste
+
+</td><td>
+Ist durch den Testbetriebsverantwortlichen zu definieren.
+
+</td></tr><tr><td>
+NET_TI_  
+OFFENE_FD
+
+</td><td>
+Anwendungsdienste  
+- Offene Fachdienste  
+- WANDA Smart  
+- WANDA Basic
+
+</td><td>
+Test_Anwendungsdienste  
+- Offene Fachdienste  
+- WANDA Smart  
+- WANDA Basic
+
+</td><td>
+Ist durch den Testbetriebsverantwortlichen zu definieren.
+
+</td></tr><tr><td>
+NET_TI_  
+GESICHERTE_  
+FD
+
+</td><td>
+Anwendungsdienste  
+- Gesicherte Fachdienste
+
+</td><td>
+Test_Anwendungsdienste  
+- Gesicherte Fachdienste
+
+</td><td>
+Ist durch den Testbetriebsverantwortlichen zu definieren.
+
+</td></tr><tr><td>
+NET_LEKTR
+
+</td><td colspan="3">
+Liste der Netzwerke die in der Einsatzumgebung über den Konnektor erreichbar
+sind. Ein Eintrag der Liste enthält die Netzwerkadresse und den Netzwerkprefix.
+
+</td></tr><tr><td>
+ANLW_  
+BESTANDS  
+NETZE
+
+</td><td colspan="3">
+Liste der an die TI angeschlossenen Bestandsnetze (u. a. das Sichere Netz der
+KVen). Ein Eintrag der Liste enthält die Netzwerkadresse und den
+Netzwerkprefix.
+
+</td></tr><tr><td>
+ANLW_  
+AKTIVE_  
+BESTANDS  
+NETZE
+
+</td><td colspan="3">
+Liste der an die TI angeschlossenen und aktivierten Bestandsnetze
+
+</td></tr></table>
+
+<table><tr><th>
+ReferenzID  
+
+</th><th>
+Bedeutung/Belegung
+
+</th></tr><tr><td>
+VPN_TI
+
+</td><td>
+Logischer Adapter des VPN-Tunnel zur TI mit dessen VPN_TUNNEL_TI_INNER_IP aus
+dem Adresssegment NET_TI_DEZENTRAL
+
+</td></tr><tr><td>
+VPN_SIS
+
+</td><td>
+Logischer Adapter des VPN-Tunnel zur SIS mit dessen VPN_TUNNEL_SIS_INNER_IP aus
+dem Addresssegment NET_SIS
+
+</td></tr></table>
+
+<table><tr><th>
+ReferenzID  
+
+</th><th>
+Bedeutung/Belegung
+
+</th></tr><tr><td>
+ANLW_LAN_IP_ADDRESS
+
+</td><td>
+Dies ist die IP-Adresse des LAN-Adapters.
+
+Aus dem Netz der Einsatzumgebung (ANLW_LAN_NETWORK_SEGMENT) die vom Konnektor
+verwendete IP-Adresse. Unter dieser Adresse werden die Dienste des Konnektor im
+lokalen Netzwerk bereitgestellt.
+
+Diese Adresse entspricht dem in Tabelle TAB_KON_683 LAN-Adapter
+
+IP-Konfiguration 
+
+definierten Parameter ANLW_LAN_IP_ADDRESS.
+
+</td></tr><tr><td>
+ANLW_WAN_IP_ADDRESS
+
+</td><td>
+Dies ist die IP-Adresse des WAN-Adapters.
+
+</td></tr></table>
 
 ### 4.2.1.1.2 Routing und Firewall
 
@@ -7364,11 +43609,166 @@ initialisieren“ umsetzen.
 
 Tabelle310: TAB_KON_614 - TUC_KON_305 „LAN-Adapter initialisieren“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_305 LAN-Adapter initialisieren
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Initialisieren der LAN-Netzwerkschnittstelle
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1) Die in „Tabelle TAB_KON_683 LAN-Adapter
+
+IP-Konfiguration
+
+„ und „Tabelle TAB_KON_684 LAN-Adapter Erweiterte
+
+Parameter
+
+„ gesetzten Werte sind zur Konfiguration des LAN-Adapter zu verwenden.
+
+2) Rufe TUC_KON_304 „Netzwerk-Routen einrichten“
+
+3) Wenn (ANLW_WAN_ADAPTER_MODUS = DISABLED)
+
+und MGM_LU_ONLINE = ENABLED:
+
+ ---> UL
+
+4) Firewall-Regeln aktualisieren und aktivieren. Tritt der Fehler 4164 auf, geht
+der Konnektor in den Betriebszustand EC_Firewall_Not_Reliable über.
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1) Fehlerhafte LAN IP-Konfiguration; 4162
+
+(
+
+
+
+4) Beim Aktualisieren oder Aktivieren der Firewall-Regeln ist es zu einem Fehler
+gekommen; 4164
+
+</td></tr><tr><td>
+Nichtfunktionale
+
+Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige
+
+Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle311: TAB_KON_615 Fehlercodes TUC_KON_305 „LAN-Adapter initialisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4162
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Es liegt eine fehlerhafte LAN IP-Konfiguration vor.
+
+</td></tr><tr><td>
+4164
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Beim Aktualisieren oder Aktivieren der Firewall-Regeln ist es zu einem Fehler
+gekommen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7381,11 +43781,156 @@ initialisieren“ umsetzen.
 
 Tabelle312: TAB_KON_616 - TUC_KON_306 „WAN-Adapter initialisieren“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_306 WAN-Adapter initialisieren
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Initialisieren der WAN-Netzwerkschnittstelle
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1) Wenn ANLW_WAN_ADAPTER_MODUS = DISABLED oder MGM_LU_ONLINE = Disabled:
+
+a) Aktive VPN-Tunnel TI oder SIS (VPN_TI oder VPN_SIS) müssen gestoppt werden,
+
+2) Wenn ANLW_WAN_ADAPTER_MODUS = ENABLED und  MGM_LU_ONLINE = ENABLED:
+
+a) Der WAN-Adapter wird abhängig von DHCP_CLIENT_WAN_STATE statisch oder
+dynamisch über DHCP konfiguriert. Die in „Tabelle TAB_KON_685 WAN-Adapter
+IP-Konfiguration„ und „Tabelle TAB_KON_686 WAN-Adapter Erweiterte
+Parameter„ gesetzten Werte sind zur Konfiguration des WAN-Adapter zu
+verwenden.
+
+b) Rufe TUC_KON_304 „Netzwerk-Routen einrichten“
+
+c) Rufe TUC_KON_321 „Verbindung zu dem VPN-Konzentrator der TI aufbauen“.
+
+d) Rufe TUC_KON_322 „Verbindung zu dem VPN-Konzentrator des SIS aufbauen“
+
+e) Firewall-Regeln aktualisieren und aktivieren. Tritt der Fehler 4164 auf, geht
+der Konnektor in den Betriebszustand EC_Firewall_Not_Reliable über.
+
+</td></tr><tr><td>
+Varianten/
+
+Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1) Fehlerhafte WAN IP-Konfiguration; 4163
+
+(
+
+
+
+2) Beim Aktualisieren oder Aktivieren der Firewall-Regeln ist es zu einem Fehler
+gekommen; 4164
+
+</td></tr><tr><td>
+Nichtfunktionale
+
+Anforderungen
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle313: TAB_KON_617 Fehlercodes TUC_KON_306 „WAN-Adapter initialisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4163
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Es liegt eine fehlerhafte WAN-IP-Konfiguration vor.
+
+</td></tr><tr><td>
+4164
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Beim Aktualisieren oder Aktivieren der Firewall-Regeln ist es zu einem Fehler
+gekommen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7398,11 +43943,284 @@ einrichten“ umsetzen.
 
 Tabelle314: TAB_KON_622 - TUC_KON_304 „Netzwerk-Routen einrichten“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_304 Netzwerk-Routen einrichten
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Anpassen der Routing-Tabelle
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablau
+
+</td><td>
+Alle bestehenden Routen MÜSSEN vollständig durch die in diesem TUC ermittelten
+Routen ersetzt werden.
+
+1) Wenn (MGM_LU_ONLINE=Enabled)
+
+Der Konnektor MUSS die nachfolgenden Routen bereitstellen
+
+a)
+
+       i.           Ziel: Lokale Netze
+
+der Einsatzumgebung
+
+           gemäß ANLW_LEKTR_INTRANET_ROUTES
+
+           
+
+Next Hop: gemäß  
+           ANLW_LEKTR_INTRANET_ROUTES
+
+b)             Wenn die VPN-Tunnel zur TI und zum SIS nicht  
+    
+aufgebaut sind:
+
+       
+
+i.        Ziel: Default Route
+
+           
+
+Next Hop: ANLW_IAG_ADDRESS
+
+c)             Wenn der VPN-Tunnel zur TI aufgebaut und der  
+   
+VPN-Tunnel zum SIS nicht aufgebaut sind:
+
+      
+
+i.        Ziel: Default Route  
+           Next Hop:
+ANLW_IAG_ADDRESS
+
+      
+
+ii.       Ziel: TI (NET_TI_OFFENE_FD,  
+          
+NET_TI_GESICHERTE_FD und NET_TI_ZENTRAL)  
+           Next Hop: Innere
+Tunnel IP-Adresse des VPN-  
+           Konzentrators TI
+
+     
+
+iii.       Ziel: ANLW_AKTIVE_BESTANDSNETZE  
+           Next
+Hop: Innere Tunnel IP-Adresse des VPN-  
+           Konzentrators TI
+
+     
+
+iv.       Ziel: VPN-Konzentrator TI  
+           Next Hop:
+ANLW_IAG_ADDRESS
+
+d)            Wenn die VPN-Tunnel zur TI und zum SIS  
+    
+aufgebaut sind:
+
+        
+
+i.       Ziel: Default Route  
+           Next Hop: Innere
+Tunnel IP-Adresse des VPN-  
+           Konzentrators SIS
+
+       
+
+ii.       Ziel: TI (NET_TI_OFFENE_FD,  
+          
+NET_TI_GESICHERTE_FD und NET_TI_ZENTRAL)  
+           Next Hop:
+Innere Tunnel IP-Adresse des VPN-  
+           Konzentrators TI
+
+      
+
+iii.      Ziel: ANLW_AKTIVE_BESTANDSNETZE  
+           Next Hop:
+Innere Tunnel IP-Adresse des VPN-  
+           Konzentrators TI
+
+      
+
+iv.      Ziel: VPN-Konzentrator TI  
+           Next Hop:
+ANLW_IAG_ADDRESS
+
+       
+
+v.       Ziel: VPN-Konzentrator SIS  
+           Next Hop:
+ANLW_IAG_ADDRESS
+
+Hinweis: Wenn der VPN-Tunnel zur TI nicht existiert, kann  
+auch kein VPN-Tunnel
+zum SIS existieren, da die Default  
+Route zum IAG zeigen muss, um einen
+VPN-Tunnel zur TI  
+aufbauen zu können.
+
+2) Wenn (MGM_LU_ONLINE=Disabled)
+
+1.          Der Konnektor MUSS die nachfolgenden Routen  
+    
+bereitstellen.
+
+     
+
+i.        Ziel: Lokale Netze
+
+der Einsatzumgebung
+
+           
+
+gemäß ANLW_LEKTR_INTRANET_ROUTES  
+           Next Hop: gemäß 
+
+           ANLW_LEKTR_INTRANET_ROUTES
+
+3) Firewall aktualisieren:
+
+Die Firewall des Konnektors MUSS die neu eingerichteten  
+Routen
+berücksichtigen und seine Regeln entsprechend aktualisieren und aktivieren.
+Tritt der Fehler 4164 auf, geht der Konnektor in den Betriebszustand
+EC_Firewall_Not_Reliable über.
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1-2) Eine oder mehrere Variablen enthalten eine ungültige oder keine IP; 4167
+
+(
+
+
+
+3) Beim Aktualisieren oder Aktivieren der Firewall-Regeln ist es zu einem Fehler
+gekommen; 4164
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle315: TAB_KON_623 Fehlercodes TUC_KON_304 „Netzwerk-Routen einrichten“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4167
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+CreateRoutes:
+
+Ein oder mehrere Adressen sind ungültig.
+
+</td></tr><tr><td>
+4164
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Beim Aktualisieren oder Aktivieren der Firewall-Regeln ist es zu einem Fehler
+gekommen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7443,14 +44261,122 @@ kann diese jedoch nicht ändern.
 
 Tabelle316: TAB_KON_683 LAN-Adapter IP-Konfiguration
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+ANLW_LAN_IP_  
+ADDRESS
+
+</td><td>
+IP-Adresse
+
+</td><td>
+Dies ist die IP-Adresse des LAN-Adapters.
+
+Nur wenn DHCP_CLIENT_LAN_STATE=Disabled MUSS der Administrator die LAN-seitige
+IP-Adresse des Konnektors setzen können.
+
+Diese IP-Adresse MUSS innerhalb des ANLW_LAN_NETWORK_SEGMENT liegen.
+
+</td></tr><tr><td>
+ANLW_LAN_  
+SUBNETMASK
+
+</td><td>
+Subnetzmaske
+
+</td><td>
+Dies ist die zu ANLW_LAN_IP_ADDRESS gehörende Subnetzmaske.
+
+Der Administrator MUSS die Subnetzmaske setzen können.
+
+Der Konnektor MUSS gewährleisten das nur eine gültige Subnetzmaske gespeichert
+werden kann.
+
+</td></tr><tr><td>
+ANLW_LAN_  
+NETWORK_  
+SEGMENT
+
+</td><td>
+IP-Adresse / Subnetzmaske
+
+</td><td>
+ANLW_LAN_NETWORK_SEGMENT ist ein Zustandswert, der sich aus den Werten von
+ANLW_LAN_IP_ADDRESS und ANLW_LAN_SUBNETMASK ergibt.
+
+Der Wert bezeichnet ein lokales Netzwerk in der Umgebung des Anwenders an das
+der LAN-Adapter des Konnektors angeschlossen ist.
+
+Der Konnektor MUSS gewährleisten, das das Netzwerksegment NICHT mit einem der
+folgenden Netzwerksegmente überlappt:
+
+1. NET_TI_DEZENTRAL
+
+2. NET_TI_ZENTRAL
+
+3. NET_TI_OFFENE_FD
+
+4. NET_TI_GESICHERTE_FD
+
+5. NET_SIS
+
+6. ANLW_BESTANDSNETZE
+
+7. ANLW_AKTIVE_BESTANDSNETZE
+
+8. ANLW_WAN_NETWORK_SEGMENT
+
+9. ANLW_LEKTR_INTRANET_ROUTES
+
+</td></tr></table>
 
 Der Administrator des Konnektor MUSS die Werte der folgenden Tabelle über die
 Managementschnittstelle setzen können.
 
 Tabelle317: TAB_KON_684 LAN-Adapter Erweiterte Parameter
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+ANLW_LAN_MTU
+
+</td><td>
+Nummer
+
+</td><td>
+Der Administrator MUSS Maximum Transmission Unit (MTU) setzen können.
+
+Der Konnektor MUSS sicherstellen, das der konfigurierte Wert in den Grenzen von
+576 bis 9000 liegt.
+
+Default-Wert: 1400
+
+</td></tr><tr><td>
+ANLW_LAN_PARAMETER
+
+</td><td>
+Liste von IP, UDP und/oder TCP Parametern
+
+</td><td>
+Der Administrator SOLL weitere Konfigurationsparameter gemäß
+[gemSpec_Net#2.2.2.1,2.5] konfigurieren können.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7470,14 +44396,122 @@ bekommen, kann diese jedoch nicht ändern.
 
 Tabelle318: TAB_KON_685 WAN-Adapter IP-Konfiguration
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+ANLW_WAN_  
+IP_ADDRESS
+
+</td><td>
+IP-Adresse
+
+</td><td>
+Dies ist die IP-Adresse des WAN-Adapters.
+
+Nur wenn DHCP_CLIENT_WAN_STATE=Disabled und ANLW_WAN_ADAPTER_MODUS=ENABLED MUSS
+der Administrator die WAN-seitige IP-Adresse des Konnektors setzen können.
+
+Diese IP-Adresse MUSS innerhalb des ANLW_WAN_NETWORK_SEGMENT liegen.
+
+</td></tr><tr><td>
+ANLW_WAN_  
+SUBNETMASK
+
+</td><td>
+Subnetzmaske
+
+</td><td>
+Dies ist die zu ANLW_WAN_IP_ADDRESS gehörende Subnetzmaske.
+
+Der Administrator MUSS die Subnetzmaske setzen können.
+
+Der Konnektor MUSS gewährleisten, dass nur eine gültige Subnetzmaske
+gespeichert werden kann.
+
+</td></tr><tr><td>
+ANLW_WAN_  
+NETWORK_  
+SEGMENT
+
+</td><td>
+IP-Adresse / Subnetzmaske
+
+</td><td>
+ANLW_WAN_NETWORK_SEGMENT ist ein Zustandswert, der sich aus den Werten von
+ANLW_WAN_IP_ADDRESS und ANLW_WAN_SUBNETMASK ergibt.
+
+Der Wert bezeichnet ein lokales Netzwerk in der Umgebung des Anwenders an das
+der WAN-Adapter des Konnektors angeschlossen ist.
+
+Der Konnektor MUSS gewährleisten, dass das Netzwerksegment nicht mit einem der
+folgenden Netzwerksegmente überlappt:
+
+1. NET_TI_DEZENTRAL
+
+2. NET_TI_ZENTRAL
+
+3. NET_TI_OFFENE_FD
+
+4. NET_TI_GESICHERTE_FD
+
+5. NET_SIS
+
+6. ANLW_ BESTANDSNETZE
+
+7. ANLW_AKTIVE_BESTANDSNETZE
+
+8. ANLW_LAN_NETWORK_SEGMENT
+
+9. ANLW_LEKTR_INTRANET_ROUTES
+
+</td></tr></table>
 
 Der Administrator des Konnektor MUSS die Werte der folgenden Tabelle über die
 Managementschnittstelle setzen können.
 
 Tabelle319: TAB_KON_686 WAN-Adapter Erweiterte Parameter
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+ANLW_WAN_MTU
+
+</td><td>
+Nummer
+
+</td><td>
+Der Administrator MUSS Maximum Transmission Unit (MTU) setzen können.
+
+Der Konnektor MUSS sicherstellen, das der konfigurierte Wert in den Grenzen von
+576 bis 9000 liegt.
+
+Default-Wert: 1400 
+
+</td></tr><tr><td>
+ANLW_WAN_PARAMETER
+
+</td><td>
+Liste von IP, UDP und/oder TCP Parametern
+
+</td><td>
+Der Administrator SOLL weitere Konfigurationsparameter gemäß
+[gemSpec_Net#2.2.2.1,2.5] konfigurieren können.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7496,7 +44530,238 @@ ablehnen.
 
 Tabelle320: TAB_KON_624 – „Konfigurationsparameter der Anbindung LAN/WAN“
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td rowspan="2">
+ANLW_
+
+ANBINDUNGS_
+
+MODUS
+
+</td><td>
+InReihe
+
+</td><td>
+Der Konnektor ist in Reihe zu dem IAG der Einsatzumgebung geschaltet.
+
+Wenn ANLW_WAN_ADAPTER_MODUS= ENABLED befindet sich der Konnektor in diesem
+Anbindungsmodus.
+
+Der Administrator MUSS diesen Wert einsehen und DARF ihn NICHT ändern können.
+
+</td></tr><tr><td>
+Parallel
+
+</td><td>
+Der Konnektor ist parallel (zu allen bestehenden Systemen) ins Netzwerk der
+Einsatzumgebung angebunden.
+
+Wenn ANLW_WAN_ADAPTER_MODUS= DISABLED befindet sich der Konnektor in diesem
+Anbindungsmodus.
+
+Der Administrator MUSS diesen Wert einsehen und DARF ihn NICHT ändern können.
+
+</td></tr><tr><td rowspan="3">
+ANLW_
+
+INTERNET_
+
+MODUS
+
+</td><td>
+SIS
+
+</td><td>
+Der (am Konnektor LAN-seitig ankommende) Internet-Traffic wird per VPN an den
+SIS geschickt.
+
+</td></tr><tr><td>
+IAG
+
+</td><td>
+Bei Anfragen ins Internet wird der Aufrufer per ICMP-Redirect (Type 5) auf die
+Route zum IAG verwiesen.
+
+Wenn (ANLW_ANBINDUNGS_MODUS = InReihe) DARF dieser Wert NICHT auswählbar sein -
+statt dessen MUSS dann der Wert SIS verwendet werden.
+
+</td></tr><tr><td>
+KEINER
+
+</td><td>
+Es wird kein Traffic ins Internet geroutet
+
+</td></tr><tr><td rowspan="2">
+ANLW_
+
+INTRANET_
+
+ROUTES_
+
+MODUS
+
+</td><td>
+REDIRECT
+
+</td><td>
+Der Konnektor MUSS sicherstellen, dass dieser Wert nur gesetzt werden kann, wenn
+der Administrator zuvor ein oder mehrere Intranet (ANLW_LEKTR_INTRANET_ROUTES)
+definiert hat.
+
+</td></tr><tr><td>
+BLOCK
+
+</td><td>
+Der Konnektor MUSS alle IP-Pakete für ein Intranet (gemäß
+ANLW_LEKTR_INTRANET_ROUTES) ablehnen.
+
+</td></tr><tr><td rowspan="2">
+ANLW_WAN_
+
+ADAPTER_
+
+MODUS
+
+</td><td>
+ENABLED
+
+</td><td>
+Dieser Parameter ändert den Interface-Status des WAN-Adapters.
+
+Der Administrator MUSS diesen Wert einsehen können.
+
+Der Administrator MUSS diesen Wert ändern können.
+
+</td></tr><tr><td>
+DISABLED
+
+</td><td>
+Dieser Parameter ändert den Interface-Status des WAN-Adapters.
+
+Der Administrator MUSS diesen Wert einsehen können.
+
+Der Administrator MUSS diesen Wert ändern können.
+
+</td></tr><tr><td>
+ANLW_
+
+LEKTR_
+
+INTRANET_
+
+ROUTES
+
+</td><td>
+Tupel aus Netzwerksegment und dazugehörigem Next-Hop
+
+</td><td>
+Der Administrator MUSS in diese Liste Einträge hinzufügen, editieren und
+löschen können.
+
+Liste von Routen zur Erreichung der Clientsysteme und Kartenterminals vom
+Konnektor; jeweils mit IP-Netzwerk dazugehörigem Next Hop.
+
+Die Netzwerksegmente DÜRFEN NICHT mit den Netzbereichen
+
+ ---> UL
+
+NET_TI_ZENTRAL
+
+ ---> UL
+
+kollidieren.
+
+</td></tr><tr><td>
+ANLW_IAG_
+
+ADDRESS
+
+</td><td>
+IP Adresse
+
+</td><td>
+ANLW_IAG_ADDRESS ist die Adresse des Default Gateways. Diese IP-Adresse MUSS
+innerhalb des ANLW_WAN_NETWORK_SEGMENT
+
+liegen.
+
+Die Adresse wird entweder über DHCP automatisch (DHCP_CLIENT_WAN_STATE=ENABLED
+oder DHCP_CLIENT_LAN_STATE=ENABLED) oder anderenfalls manuell durch den
+Administrator konfiguriert. Bei automatischer Konfiguration per DHCP MUSS der
+Administrator den Wert von ANLW_IAG_ADDRESS ausschließlich einsehen können.
+
+</td></tr><tr><td>
+ANLW_
+
+AKTIVE_
+
+BESTANDS
+
+NETZE
+
+</td><td>
+Liste von IP-Address-Segmenten
+
+</td><td>
+Der Administrator MUSS manuell aus der empfangenen Liste der zur Verfügung
+stehenden angeschlossene Netze des Gesundheitswesens mit WANDA Basic (gemäß
+TUC_KON_283 „Infrastruktur Konfiguration aktualisieren“) einzelne
+deaktivieren, bzw. nach vorheriger Deaktivierung, freischalten können. Nur die
+freigegeben Netze werden in dieser Variablen erfasst und sind aus den
+Netzwerken der Einsatzumgebung  erreichbar.
+
+Wird eine Änderung an der Liste der freigegebenen Netze vorgenommen, so MUSS
+der Konnektor für jedes dieser freigegebenen Netz in DNS_SERVERS_BESTANDSNETZE
+ein DNS-Referer-Eintrag für jede der dazugehörigen Domains mit allen
+zugehörigen DNS-Servern im Konnektor hinterlegen. Die Werte hierzu werden der
+via TUC_KON_283 aktualisierten Bestandsnetze.xml entnommen.
+
+Für hier „nicht freigegebene“ oder zwischenzeitlich gelöschte Netze DARF
+der Konnektor NICHT Referer-Einträge in DNS_SERVERS_BESTANDSNETZE enthalten.
+
+Die Einträge in DHCP_AKTIVE_BESTANDSNETZE_ROUTES sind entsprechend zu
+aktualisieren.
+
+Der Konnektor MUSS nach jeder Änderung dieser Variablen durch den Administrator
+den TUC_KON_304 „Netzwerk-Routen einrichten“ aufrufen.
+
+</td></tr><tr><td rowspan="2">
+ANLW_
+
+IA_
+
+BESTANDSNETZE
+
+</td><td>
+AN
+
+</td><td>
+Der Konnektor MUSS alle über TUC_KON_283 übermittelten
+
+angeschlossenen Netze des Gesundheitswesens mit WANDA Basic
+
+aktivieren. Eine spätere manuelle Deaktivierung über das Management-Interface
+durch den Administrator ist möglich. Dieses Verhalten ist als
+Standardverhalten zu konfigurieren.
+
+</td></tr><tr><td>
+AUS
+
+</td><td>
+Der Konnektor MUSS alle über TUC_KON_283 übermittelten angeschlossenen Netze
+des Gesundheitswesens mit WANDA Basic anbieten, diese aber nicht aktivieren.
+Eine spätere manuelle Aktivierung erfolgt über das Mangement-Interface durch
+den Administrator.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7517,7 +44782,29 @@ die Firewall neu erstellen und laden.
 
 Tabelle321: TAB_KON_625 - Konfigurationsparameter Firewall-Schnittstelle
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+ANLW_FW_SIS_  
+ADMIN_RULES
+
+</td><td>
+Firewall Regelset
+
+</td><td>
+Der Administrator MUSS Firewall-Regeln (für den einschränkenden Zugriff auf
+die SIS), auf Grundlage der Parameter Absender-IP-Adresse,
+Empfänger-IP-Adresse, Protokoll (ggf. mit Absender-Port und Empfänger-Port)
+und Verbindungsrichtung, einfügen, editieren und löschen können.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7558,7 +44845,69 @@ zur Lieferung von Netzwerkinformationen über DHCP anbieten.
 
 Tabelle322: TAB_KON_626 „Liefere Netzwerkinformationen über DHCP“
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th>
+Liefere Netzwerkinformationen über DHCP
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor MUSS anfragenden Clients per DHCP die konfigurierten
+Netwerkinformationen liefern (siehe Tabelle TAB_KON_628 und Tabelle
+TAB_KON_629).
+
+</td></tr><tr><td>
+Aufrufparameter
+
+</td><td>
+gemäß [RFC2131], [RFC2132]
+
+</td></tr><tr><td>
+Rückgabe
+
+</td><td>
+gemäß [RFC2131], [RFC2132]
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Die an den aufrufenden Client zu übergebenden Parameter ergeben sich aus
+Tabelle TAB_KON_628 und Tabelle TAB_KON_629:
+
+Falls DHCP_SERVER_STATE = Enabled:
+
+ ---> UL
+
+</td></tr><tr><td>
+Fehlercodes
+
+</td><td>
+Vgl. [RFC2131], [RFC2132]
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Der DHCP-Server des Konnektors MUSS aktiviert und konfiguriert sein.
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Der DHCP-Server MUSS die DHCP-Antwort geliefert haben. Die Statusinformationen
+(z.B. Client Lease) müssen gemäß [RFC2131] gespeichert werden.
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7579,7 +44928,25 @@ mussTUC_KON_256{"DHCP/SERVER/STATECHANGED"; Op; Info;
 
 Tabelle323: TAB_KON_627„Aktivierung des DHCP-Servers“
 
- ---> TABLE
+<table><tr><th>
+Referenz ID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+DHCP_SERVER_STATE
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der DHCP-Server MUSS durch den Administrator aktivierbar und deaktivierbar sein.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7591,12 +44958,268 @@ Managementschnittstelle zu konfigurieren.
 
 Tabelle324: TAB_KON_628 „Basiskonfiguration des DHCP-Servers“
 
- ---> TABLE
+<table><tr><th>
+Referenz ID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+DHCP_SERVER_NETWORK
+
+</td><td>
+IP-Adresse
+
+</td><td>
+IP-Netzwerk der Einsatzumgebung.
+
+</td></tr><tr><td>
+DHCP_SERVER_BROADCAST
+
+</td><td>
+IP-Adresse
+
+</td><td>
+Die Broadcast-Adresse des Konnektors am LAN-Interface
+
+</td></tr><tr><td>
+DHCP_SERVER_  
+DYNAMIC_RANGE
+
+</td><td>
+von – bis IP-Adresse
+
+</td><td>
+Adressbereich für Adressen die dynamisch vergeben werden dürfen.
+
+</td></tr><tr><td>
+DHCP_SERVER_  
+CLIENTGROUPS
+
+</td><td>
+Name der Clientgruppe;
+
+Liste an MAC-Adressen
+
+</td><td>
+Der Konnektor MUSS dem Administrator über die Managementschnittstelle die
+Möglichkeit bieten mindestens zwei Client-Gruppen zu verwalten.
+
+</td></tr><tr><td>
+DHCP_SERVER_  
+DEFAULT_CLIENTGROUP
+
+</td><td>
+Client-Gruppe
+
+</td><td>
+Standardmäßig eingestellte Client-Gruppe. Wird verwendet falls DHCP-Anfrage
+keiner anderen Client-Gruppe zugeordnet werden kann.
+
+</td></tr></table>
 
 Tabelle325: TAB_KON_629 „Client-Gruppenspezifische Konfigurationsoptionen des
 Konnektor-DHCP-Servers“
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td colspan="3">
+Die gesamte Parameterliste ist für jede Client-Gruppe getrennt konfigurierbar
+
+</td></tr><tr><td>
+DHCP_  
+OWNDNS_  
+ENABLED
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS konfigurieren können, ob der konnektoreigene DNS-Server
+als Parameter übergeben wird.  
+Default-Wert: Disabled
+
+</td></tr><tr><td>
+DHCP_DNS_  
+ADDR
+
+</td><td>
+IP-Adressen der DNS-Server
+
+</td><td>
+Falls der konnektoreigene DNS-Server nicht übergeben werden soll, müssen die
+Adressen externer aus dem Netz der Einsatzumgebung erreichbaren DNS-Server als
+Parameter übergeben werden. Der Administrator MUSS diese Adressen
+konfigurieren können.
+
+</td></tr><tr><td>
+DHCP_NTP
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS konfigurieren können, ob der Konnektor die Adresse des
+Konnektor internen NTP-Servers per DHCP an die Clients sendet.  
+Default-Wert:
+Enabled
+
+</td></tr><tr><td>
+DHCP_  
+OWNDGW_  
+ENABLED
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS konfigurieren können, ob der Konnektor beim Client als
+Default-Gateway gesetzt werden soll.  
+Default-Wert: Disabled
+
+</td></tr><tr><td>
+DHCP_DGW_  
+ADDR
+
+</td><td>
+IP-Adresse des DGW
+
+</td><td>
+Falls der Konnektor nicht als Default Gateway gesetzt werden soll, muss die
+Adresse des zu verwendenden DGW als Parameter übergeben werden. Der
+Administrator MUSS die Adresse des DGW konfigurieren können.
+
+</td></tr><tr><td>
+DHCP_IP_  
+NETMASK
+
+</td><td>
+Netzmaske
+
+</td><td>
+Der Administrator MUSS die Netmask des Clients konfigurieren können.
+
+</td></tr><tr><td>
+DHCP_  
+DOMAINNAME
+
+</td><td>
+Domainname
+
+</td><td>
+Der Administrator MUSS den Domainnamen des Clients konfigurieren können.
+
+</td></tr><tr><td>
+DHCP_  
+HOSTNAME
+
+</td><td>
+Liste von Tupel aus Hostname und Mac-Adresse
+
+</td><td>
+Der Administrator MUSS eine Liste von Hostname der Clients konfigurieren können
+(Einträge einfügen, ändern, löschen).
+
+</td></tr><tr><td>
+DHCP_  
+STATIC_LEASE
+
+</td><td>
+Liste von Tupel aus IP- und Mac-Adresse
+
+</td><td>
+Der Administrator MUSS für jede MAC-Adresse Static Lease konfigurieren können.
+
+</td></tr><tr><td>
+DHCP_  
+LEASE_TTL
+
+</td><td>
+X Minuten
+
+</td><td>
+Der Administrator MUSS Lease-Dauer der dynamischen Adressen konfigurieren
+können.
+
+</td></tr><tr><td>
+DHCP_  
+AKTIVE_  
+BESTANDS  
+NETZE_  
+ROUTES
+
+</td><td>
+Liste von Tupel: Netzwerksegment je INTRANET und Adresse für Next Hop je
+freigegebenem angeschlossenen Netze des Gesundheitswesens mit WANDA Basic
+
+</td><td>
+Der Administrator MUSS je freigegebenem angeschlossenen Netze des
+Gesundheitswesens mit WANDA Basic (aus ANLW_AKTIVE_BESTANDSNETZE) den an den
+Client zu übermittelnden Routen-Eintrag aktivieren oder deaktivieren können.
+
+</td></tr><tr><td>
+DHCP_  
+INTRANET_  
+ROUTES
+
+</td><td>
+Liste von Tupel: Netzwerksegment je INTRANET und Adresse für Next Hop in die
+definierten Intranets
+
+</td><td>
+Der Administrator MUSS je Intranet-Tupel (aus ANLW_LEKTR_INTRANET_ROUTES) den an
+den Client zu übermittelnden Routen-Eintrag aktivieren oder deaktivieren
+können.
+
+</td></tr><tr><td>
+DHCP_  
+ROUTES
+
+</td><td>
+Tupel Netzwerksegment und Adresse für Next Hop
+
+</td><td>
+Der Administrator MUSS Routen zur Verteilung an die Clients frei konfigurieren
+können. Der Konnektor MUSS sicherstellen, diese Listeneinträge keine
+Überschneidungen mit folgenden Netzsegmenten haben:  
+- dem Netzwerksegment
+ANLW_LAN_NETWORK_SEGMENT   
+- dem Netzwerksegment  
+ANLW_WAN_NETWORK_SEGMENT 
+
+- jedes Netzsegmente in  
+ANLW_BESTANDSNETZE  
+ANLW_AKTIVE_BESTANDSNETZE 
+
+ANLW_LEKTR_INTRANET_ROUTES  
+Die Routen SOLLEN über DHCP Option 121 (Windows
+Vista oder höher) bzw.  
+DHCP Option 249 (Windows XP und darunter) verteilt
+werden.
+
+</td></tr><tr><td>
+DHCP_  
+OPTIONS
+
+</td><td>
+Liste an weiteren DHCP-Optionen.
+
+</td><td>
+Vom Administrator konfigurierbare Liste an weiteren DHCP-Options gemäß
+[RFC2132].  
+Die Umsetzung dieser Konfigurationsmöglichkeit KANN entfallen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7609,11 +45232,126 @@ durchlaufen.
 
 Tabelle326: TAB_KON_630 - TUC_KON_343 „Initialisierung DHCP-Server“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_343 ”Initialisierung DHCP-Server”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Falls DHCP-Server Konfiguration aktiv ist, muss der Konnektor in der
+Bootup-Phase oder bei einer Aktivierung des Servers den DHCP-Server starten.
+
+</td></tr><tr><td>
+Anwendungsumfeld
+
+</td><td>
+Bereitstellen der Netzwerkkonfiguration für den Betrieb
+
+</td></tr><tr><td>
+Eingangsanforderung
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Auslöser und Vorbedingungen
+
+</td><td>
+Bootup oder Ereignis DHCP/SERVER/STATECHANGED
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Falls DHCP_SERVER_STATE = enabled
+
+  -               den DHCP-Server starten
+
+Falls DHCP_SERVER_STATE = disabled
+
+  -               den DHCP-Server stoppen
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+4168: DHCP-Server konnte nicht gestartet werden
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle327: TAB_KON_631 Fehlercodes TUC_KON_343 „Initialisierung DHCP-Server“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4168
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Der DHCP-Server des Konnektors konnte nicht gestartet werden.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7655,11 +45393,149 @@ beziehen“ umsetzen.
 
 Tabelle328: TAB_KON_632 – TUC_KON_341 „DHCP Informationen beziehen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_341 DHCP-Informationen beziehen
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor muss seine WAN- und/oder LAN-Schnittstelle individuell über einen
+DHCP-Server aus dem Netz
+
+der Einsatzumgebung beziehen
+
+können.
+
+</td></tr><tr><td>
+Anwendungsumfeld
+
+</td><td>
+Netzwerkkonfiguration für den Betrieb des Konnektors
+
+</td></tr><tr><td>
+Eingangsanforderung
+
+</td><td>
+Der Konnektor muss zur Netzwerk-Interface-Konfiguration DHCP nutzen sofern keine
+statischen Informationen vorhanden sind.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Bootup, Ablauf einer DHCP-Lease, manuell angestoßenes DHCP-Renew, Aktivierung
+der DHCP-Client-Funktionalität.
+
+</td></tr><tr><td>
+Vorbedingung
+
+</td><td>
+aktivierte DHCP-Client Funktion über die Variablen DHCP_CLIENT_LAN_STATE bzw.
+DHCP_CLIENT_WAN_STATE
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Netzwerk-Adapter (LAN oder WAN) für den DHCP-Informationen bezogen werden sollen
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+DHCP-Informationen vom DHCP-Server
+
+der Einsatzumgebung
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+4169: Konnektor erhält keine DHCP-Informationen
+
+4170: Konnektor besitzt identische IP-Adressen am WAN- und LAN-Interface
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle329: TAB_KON_633 Fehlercodes TUC_KON_341 „DHCP-Informationen beziehen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4169
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Konnektor erhält keine DHCP-Informationen.
+
+</td></tr><tr><td>
+4170
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Konnektor besitzt identische IP-Adressen am WAN und LAN
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7691,7 +45567,38 @@ Info;    "STATE=$DHCP_CLIENT_WAN_STATE "; doDisp = false}
 
 Tabelle330: TAB_KON_634 „Konfiguration des DHCP-Clients“
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+DHCP_CLIENT_  
+LAN_STATE
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator muss den DHCP-Client an der LAN-Schnittstelle aktivieren oder
+deaktivieren können.
+
+</td></tr><tr><td>
+DHCP_CLIENT_  
+WAN_STATE
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator muss den DHCP-Client an der WAN-Schnittstelle aktivieren oder
+deaktivieren können.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7814,12 +45721,214 @@ VPN-Konzentrator der TI aufbauen“ umsetzen.
 Tabelle331: TAB_KON_635 – TUC_KON_321 „Verbindung zu dem VPN-Konzentrator
 der TI aufbauen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_321 Verbindung zu dem VPN-Konzentrator der TI aufbauen
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es wird ein IPsec-Tunnel zum VPN-Konzentrator der TI aufgebaut werden. Über den
+erfolgreichen Aufbau wird per Event informiert.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Bootup-Phase  
+TUC_KON_305 „LAN-Adapter initialisieren“  
+TUC_KON_306
+„WAN-Adapter initialisieren“  
+Event MGM/LU_CHANGED/LU_ONLINE  
+Event
+NETWORK/VPN/CONFIG_CHANGED  
+Optional: Änderungen ANLW_AKTIVE_BESTANDSNETZE 
+
+Manueller Aufruf über Managementschnittstelle
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Der TUC_KON_304 „Netzwerk-Routen einrichten“ MUSS fehlerfrei durchgelaufen
+sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Der virtuelle Adapter VPN_TI mit der IP-Adresse VPN_TUNNEL_TI_INNER_IP des
+Konnektors wurde zur Verfügung gestellt.
+
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1) Wenn der Auslöser = Event NETWORK/VPN/CONFIG_CHANGED oder eine Änderung
+von ANLW_AKTIVE_BESTANDSNETZE ist, muss der VPN-Tunnel TI abgebaut werden.  
+2)
+Wenn der VPN-Tunnel TI noch aktiv ist, ist der Ablauf abgeschlossen.
+Anderenfalls ist mit Ablaufschritt 3) fortzufahren.  
+3) Prüfen, MGM_LU_ONLINE
+= Enabled, falls nicht ist der TUC ohne Ausgabe einer Fehlermeldung zu beenden.
+ 
+4) Prüfen, ob die im Konnektor hinterlegte CRL noch gültig ist.  
+falls
+nicht, muss der TUC_KON_040 „CRL aktualisieren“ aufgerufen werden,
+Anschließend erneut prüfen, ob die im Konnektor hinterlegte CRL nun gültig
+ist.  
+Falls die CRL nicht gültig ist, ist der TUC mit Fehler zu beenden.  
+5)
+Aufrufen von TUC_VPN-ZD_0001 „IPsec Tunnel TI aufbauen”  
+Die folgenden
+Rückgabewerte des TUC_VPN-ZD_0001 „IPsec Tunnel TI aufbauen” sind in die
+laufende Konfiguration des Konnektors zu übernehmen:
+
+ ---> UL
+
+6) Aufrufen von TUC_KON_304 „Netzwerk-Routen einrichten“  
+Sobald der Tunnel
+erfolgreich aufgebaut wurde, ist der folgende Event zu generieren: 
+
+TUC_KON_256 {"NETWORK/VPN_TI/UP"; Op; Info;IP= $VPN_TUNNEL_TI_INNER_IP}
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(4) CRL ist abgelaufen (outdated); 
+          
+          
+         
+         
+ Herstellerspezifisch kann entweder (4a) oder (4b) umgesetzt werden: 
+         
+
+          
+          (4a) Kritischer Fehlerzustand EC_CRL_Out_Of_Date wurde
+noch nicht festgestellt: 
+          4173 
+          
+          
+          (4b)
+kritischer Fehlerzustand EC_CRL_Out_Of_Date wurde bereits festgestellt: 4002  
+
+
+          (-\>4) Wenn Fehler 4173 bzw. 4002 nicht zutreffen, ist ein
+herstellerspezifischer Fehler zu verwenden.  
+(5) VPN-Tunnel konnte nicht
+aufgebaut werden; Fehlercode: 4174
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle332: TAB_KON_636 Fehlercodes TUC_KON_321 „Verbindung zu dem
 VPN-Konzentrator der TI aufbauen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4002
+
+</td><td>
+Security
+
+</td><td>
+Fatal
+
+</td><td>
+Der Konnektor befindet sich in einem kritischen Betriebszustand
+
+</td></tr><tr><td>
+4172
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Es ist keine Online-Verbindung zulässig.
+
+</td></tr><tr><td>
+4173
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Die CRL ist nicht mehr gültig (outdated).
+
+</td></tr><tr><td>
+4174
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+TI-VPN-Tunnel:  
+Verbindung konnte nicht aufgebaut werden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7833,12 +45942,214 @@ VPN-Konzentrator der SIS aufbauen“ umsetzen.
 Tabelle333: TAB_KON_637 – TUC_KON_322 „Verbindung zu dem VPN-Konzentrator
 der SIS aufbauen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_322 Verbindung zu dem VPN-Konzentrator der SIS aufbauen
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Es muss ein IPsec-Tunnel zum VPN-Konzentrator der SIS aufgebaut werden
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Bootup-Phase  
+TUC_KON_305 „LAN-Adapter initialisieren  
+TUC_KON_306
+„WAN-Adapter initialisieren  
+Event NETWORK/VPN/CONFIG_CHANGED  
+Optional:
+Event MGM/LU_CHANGED/LU_ONLINE  
+Manueller Aufruf über Managementschnittstelle
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ANLW_INTERNET_MODUS = SIS  
+Die Verbindung VPN-Konzentrator TI ist aufgebaut. 
+
+Der TUC_KON_304 „Netzwerk-Routen einrichten“ muss erfolgreich
+durchgeführt worden sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Der virtuelle Adapter VPN_SIS mit der IP-Adresse VPN_TUNNEL_SIS_INNER_IP wurde
+zur Verfügung gestellt.
+
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1) Wenn der Auslöser Event NETWORK/VPN/CONFIG_CHANGED ist, muss der VPN-Tunnel
+SIS abgebaut werden.  
+2) Wenn der VPN-Tunnel SIS noch aktiv ist, ist der
+Ablauf abgeschlossen. Anderenfalls ist mit Ablaufschritt 3) fortzufahren.  
+3)
+Prüfen, ob (MGM_LU_ONLINE=Enabled). falls nicht ist der TUC ohne Ausgabe einer
+Fehlermeldung zu beenden.  
+4) entfällt  
+5) Prüfen, ob die im Konnektor
+hinterlegte CRL noch gültig ist.  
+falls nicht, MUSS der TUC_KON_040 „CRL
+aktualisieren“ aufgerufen werden, Anschließend erneut prüfen, ob die im
+Konnektor hinterlegte CRL nun gültig ist.  
+Falls die CRL nicht gültig ist,
+ist der TUC mit Fehler zu beenden.  
+6) Aufrufen von TUC_VPN-ZD_0002 „IPsec
+Tunnel SIS aufbauen”  
+7) Aufrufen von TUC_KON_304 „Netzwerk-Routen
+einrichten“  
+Sobald der Tunnel erfolgreich aufgebaut wurde, ist der folgende
+Event zu generieren:  
+TUC_KON_256 {"NETWORK/VPN_SIS/UP"; Op; Info;IP=
+$VPN_TUNNEL_SIS_INNER_IP}
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(3) Keine Online-Verbindung zulässig; 4172  
+(5) CRL ist abgelaufen
+(outdated);  
+ 
+          
+         
+           Herstellerspezifisch kann
+entweder (5a) oder (5b) umgesetzt werden:  
+(5a) Kritischer Fehlerzustand
+EC_CRL_Out_Of_Date wurde noch nicht festgestellt: 4173 
+          
+         
+  
+        (5b) kritischer Fehlerzustand EC_CRL_Out_Of_Date wurde bereits
+festgestellt: 4002  
+ 
+         
+         
+         (-\>5) Wenn Fehler 4173
+bzw. 4002 nicht zutreffen, ist ein herstellerspezifischer Fehler zu verwenden. 
+
+ (6) VPN Tunnel konnte nicht aufgebaut werden; Fehlercode: 4176
+
+</td></tr><tr><td>
+Nichtfunktionale  
+Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige  
+Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle334: TAB_KON_638 Fehlercodes TUC_KON_322 „Verbindung zu dem
 VPN-Konzentrator der SIS aufbauen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4002
+
+</td><td>
+Security
+
+</td><td>
+Fatal
+
+</td><td>
+Der Konnektor befindet sich in einem kritischen Betriebszustand
+
+</td></tr><tr><td>
+4172
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Es ist keine Online-Verbindung zulässig.
+
+</td></tr><tr><td>
+4173
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+Die CRL ist nicht mehr gültig (outdated).
+
+</td></tr><tr><td>
+4176
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+SIS-VPN-Tunnel:  
+Verbindung konnte nicht aufgebaut werden
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7871,7 +46182,187 @@ Info;; doDisp = false}
 
 Tabelle335: TAB_KON_639 – Konfigurationsparameter VPN-Client
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+IKE_  
+KEEPALIVE_  
+MODUS
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS einstellen können, ob IKE Keep-Alive-Pakete gesendet
+werden.
+
+Ein Hinweis MUSS ausgegeben werden, dass dies bei Nutzung von
+Dial-Up-Verbindungen nicht zu empfehlen ist. Dies dient der Vermeidung von
+Kosten bei Nutzung eines Internetzugangs ohne Flatrate.
+
+Default-Wert: Enabled
+
+</td></tr><tr><td>
+IKE_  
+KEEPALIVE_  
+INTERVAL
+
+</td><td>
+X Sekunden
+
+</td><td>
+Der Administrator MUSS die Zeit in Sekunden angeben können, nach der ein neues
+IKE Keep-Alive-Paket gesendet wird.
+
+Default-Wert: 30
+
+</td></tr><tr><td>
+IKE_  
+KEEPALIVE_  
+RETRY
+
+</td><td>
+X
+
+</td><td>
+Der Administrator MUSS angeben können, nach wie vielen IKE Keep-Alive-Paketen
+ohne Acknowledge Message die Verbindung beendet wird.
+
+Default-Wert: 3
+
+</td></tr><tr><td>
+VPN_IDLE_  
+TIMEOUT_  
+MODUS
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS einstellen können, ob nach Inaktivität die
+VPN-Verbindung automatisch abgebaut werden soll.
+
+Ein Hinweis MUSS ausgegeben werden, dass dies insbesondere bei Nutzung von
+Dial-Up-Verbindungen Enabled werden sollte.
+
+Default-Wert: Disabled
+
+</td></tr><tr><td>
+VPN_IDLE_  
+TIMEOUT
+
+</td><td>
+X Sekunden
+
+</td><td>
+Der Administrator MUSS die Zeit in Sekunden angeben können, nach der eine
+inaktive VPN-Verbindung zu einem Abbau der Verbindung führt.
+
+Default-Wert: 600
+
+</td></tr><tr><td>
+NAT_  
+KEEPALIVE_  
+MODUS
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS einstellen können, ob NAT Keep-Alive-Pakete gesendet
+werden.
+
+Ein Hinweis MUSS ausgegeben werden, dass dies insbesondere bei Nutzung von
+Dial-Up-Verbindungen nicht zu empfehlen ist.
+
+Default-Wert: Enabled
+
+</td></tr><tr><td>
+NAT_  
+KEEPALIVE_  
+INTERVAL
+
+</td><td>
+X Sekunden
+
+</td><td>
+Der Administrator MUSS die Zeit in Sekunden angeben können, nach der ein neues
+NAT Keep-Alive-Paket gesendet wird.
+
+Default-Wert: 20
+
+</td></tr><tr><td>
+VPN_  
+KONZENTRATOR_  
+TI_IP_ADDRESS
+
+</td><td>
+IP-Adresse
+
+</td><td>
+IP-Adresse des VPN-Konzentrators TI im Transportnetz zu dem der IPsec-Tunnel
+VPN_TI aufgebaut wird. Der Wert kann vom Administrator nur eingesehen werden.
+
+</td></tr><tr><td>
+VPN_  
+KONZENTRATOR_  
+SIS_IP_ADDRESS
+
+</td><td>
+IP-Adresse
+
+</td><td>
+IP-Adresse des VPN-Konzentrators SIS im Transportnetz zu dem der IPsec-Tunnel
+VPN_SIS aufgebaut wird. Der Wert kann vom Administrator nur eingesehen werden.
+
+</td></tr><tr><td>
+VPN_TI_MTU
+
+</td><td>
+Paketgröße in Byte
+
+</td><td>
+Der Administrator MUSS die MTU für ESP-Pakete zur TI (excl. ESP-Header-Size) in
+den Grenzen von 576 bis 8076 konfigurieren können.
+
+Default-Wert: 1318
+
+</td></tr><tr><td>
+VPN_SIS_MTU
+
+</td><td>
+Paketgröße in Byte
+
+</td><td>
+Der Administrator MUSS die MTU für ESP Pakete zum SIS (excl. ESP-Header-Size)
+in den Grenzen von 576 bis 8076 konfigurieren können.
+
+Default-Wert: 1318
+
+</td></tr><tr><td>
+HASH_AND_URL
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS die Nutzung des hash&URL-Verfahrens zum
+Zertifikatsaustausch konfigurieren können.
+
+Wenn HASH_AND_URL = Enabled gesetzt ist, wird die URL für das
+hash&URL-Verfahren automatisch durch DNS SRV- und TXT-Anfragen mit Owner
+„_hashandurl._tcp.\<DNS_DOMAIN_VPN_ZUGD_INT\>„ ermittelt.
+
+Default-Wert: Disabled
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7933,7 +46424,51 @@ NTP-Servers. Diese Werte DÜRFEN NICHT durch den Administrator geändert werden.
 
 Tabelle336: TAB_KON_640 Zustandswerte für Konnektor NTP-Server
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Zustandswerte
+
+</th></tr><tr><td>
+NTP_WARN_PERIOD
+
+</td><td>
+30
+
+</td><td>
+Anzahl an Tagen nach der ersten erfolglosen Zeitsynchronisierung nach der eine
+Warnung an den Betreiber erfolgen soll
+
+</td></tr><tr><td>
+NTP_GRACE_PERIOD
+
+</td><td>
+50
+
+</td><td>
+Anzahl an Tagen nach der ersten erfolglosen Zeitsynchronisierung nach welcher
+der Konnektor in einen kritischen Betriebszustand übergehen muss.
+
+Dieser Parameter wirkt nur bei MGM_LU_ONLINE = Enabled.
+
+</td></tr><tr><td>
+NTP_MAX_  
+TIMEDIFFERENCE
+
+</td><td>
+3600
+
+</td><td>
+Maximale Zeitabweichung in Sekunden zwischen Systemzeit und Zeit des
+Stratum-2-Zeitservers zum Zeitpunkt der Zeitsynchronisierung.
+
+Dieser Parameter wirkt nur bei MGM_LU_ONLINE = Enabled.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7956,11 +46491,121 @@ umsetzen.
 
 Tabelle337: TAB_KON_776 TUC_KON_351 „Liefere Systemzeit“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_351 „Liefere Systemzeit”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor MUSS die Systemzeit auf Anforderung an Fachmodule liefern können.
+
+</td></tr><tr><td>
+Anwendungsumfeld
+
+</td><td>
+Den Fachanwendungen ist die Systemzeit zu liefern.
+
+</td></tr><tr><td>
+Eingangsanforderung
+
+</td><td>
+Die Echtzeituhr des Konnektors wurde gemäß den geforderten
+Synchronisationsintervallen aktualisiert (bei MGM_LU_ONLINE=Enabled) oder
+manuell gesetzt (bei MGM_LU_ONLINE=Disabled)
+
+</td></tr><tr><td>
+Auslöser und Vorbedingungen
+
+</td><td>
+Fachmodule benötigen die aktuelle Systemzeit des Konnektors.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Echtzeituhr des Konnektors
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Fachmodule
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Systemzeit des Konnektors
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Siehe [gemSpec_Net]
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+4178: Konnektor retourniert keine Systemzeit
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle338: TAB_KON_641 Fehlercodes TUC_KON_351 „Liefere Systemzeit“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4178
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Das Fachmodul konnte die aktuelle Systemzeit des Konnektors nicht abrufen
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7975,7 +46620,56 @@ sync_Time anbieten.
 
 Tabelle339: TAB_KON_642 Operation sync_Time
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th>
+I_NTP_Time_Information:sync_Time
+
+</th></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor MUSS anfragenden Clients (z.B. Ärztearbeitsplatz) per NTP-Version
+4 die Systemzeit liefern
+
+</td></tr><tr><td>
+Aufrufparameter
+
+</td><td>
+Vgl. [NTPv4]
+
+</td></tr><tr><td>
+Rückgabe
+
+</td><td>
+Vgl. [NTPv4]
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+MGM_LU_ONLINE=Enabled
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Der anfragende Client hat die korrekte Zeit geliefert bekommen.
+
+</td></tr><tr><td>
+Hinweise
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehler
+
+</td><td>
+Der Aufruf schlägt fehl (bleibt unbeantwortet), wenn MGM_LU_ONLINE=Disabled
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -7994,12 +46688,62 @@ Parameter ausschließlich einsehen können.
 
 Tabelle340: TAB_KON_643 Konfiguration des Konnektor NTP-Servers
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+NTP_TIMEZONE
+
+</td><td>
+Zeitzone
+
+</td><td>
+Der Administrator MUSS die Zeitzone des Konnektors einstellen können.
+
+Default-Wert: Central European Time/Mitteleuropäische Zeit (CET/MEZ)
+
+</td></tr><tr><td>
+NTP_TIME
+
+</td><td>
+Zeit
+
+</td><td>
+Der Administrator MUSS die Zeit des Konnektors (NTP_TIME) über die
+Managementschnittstelle manuell einstellen können.
+
+</td></tr></table>
 
 Tabelle341: TAB_KON_730 Einsehbare Konfigurationsparameter des Konnektor
 NTP-Servers
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+NTP_SERVER_  
+ADDR
+
+</td><td>
+IP-Adressen
+
+</td><td>
+Die Adressen des primären und sekundären Stratum-2-Zeitserver der zentralen
+TI-Plattform für die Synchronisation mit dem NTP-Server des Konnektors.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8020,11 +46764,129 @@ durchlaufen.
 
 Tabelle342: TAB_KON_644 – TUC_KON_352 „Initialisierung Zeitdienst“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_352 „Initialisierung Zeitdienst“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor muss zum Bootup den konnektoreigenen NTP-Server mit einem
+NTP-Server der zentralen TI-Plattform synchronisieren falls
+MGM_LU_ONLINE=Enabled.
+
+</td></tr><tr><td>
+Anwendungsumfeld
+
+</td><td>
+Synchronisierung der Systemzeit zur Startzeit
+
+</td></tr><tr><td>
+Eingangsanforderung
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Verbindung zum VPN-Konzentrator TI muss aufgebaut sein
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+NTP-Server der zentralen TI-Plattform
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Falls MGM_LU_ONLINE=Enabled:
+
+ ---> UL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+4177: Der NTP-Server des Konnektors empfängt keine Systemzeit
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle343: TAB_KON_645 Fehlercodes TUC_KON_352 „Initialisierung Zeitdienst“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td>
+4177
+
+</td><td>
+Technical
+
+</td><td>
+Warning
+
+</td><td>
+Der NTP-Server des Konnektors konnte nicht synchronisiert werden.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8063,7 +46925,111 @@ Der DNS-Server des Konnektors MUSS die folgenden DNS-Forwards durchführen:
 
 Tabelle344: TAB_KON_687 DNS-Forwards des DNS-Servers
 
- ---> TABLE
+<table><tr><th>
+Domain
+
+</th><th>
+Forwarders
+
+</th><th>
+Bemerkungen
+
+</th></tr><tr><td>
+Namensraum TI, *.DNS_TOP_  
+LEVEL_DOMAIN_TI
+
+</td><td>
+DNS_SERVERS_TI
+
+</td><td>
+DNS Forward Rule zur Auflösung aller DNS-Namen innerhalb des Namensraums der
+TI  mit der Top Level Domain telematik (für die PU) und telematik-test (für
+die RU und TU).
+
+</td></tr><tr><td>
+Namensraum TI, Top Level Domain ti-wa (PU) und ti-wa-test (RU und TU).
+
+</td><td>
+DNS_SERVERS_TI
+
+</td><td>
+DNS Forward Rule zur Auflösung aller DNS-Namen innerhalb des Namensraums der TI
+mit der Top Level Domain ti-wa (für die PU) und ti-wa-test (für die RU und
+TU).
+
+</td></tr><tr><td>
+Namensraum angeschlossene Netze des Gesundheitswesens mit WANDA Basic 
+
+(Domainnamen  
+von angeschlossenen Netzen des Gesundheitswesens mit WANDA
+Basic gemäß  
+Bestandsnetze.xml)
+
+</td><td>
+DNS_  
+SERVERS_  
+BESTANDS  
+NETZE  
+(Je Domainnamen eines angeschlossenen
+Netzes des Gesundheitswesens mit WANDA Basic alle zugehörigen DNS-Server
+IP-Adressen gemäß Bestandsnetze.xml)
+
+</td><td>
+Je angeschlossenes Netz des Gesundheitswesens mit WANDA Basic in
+ANLW_AKTIVE_BESTANDSNETZE wird eine DNS Forward Rule zur Auflösung von
+DNS-Namen innerhalb dieses Netzes verwendet.
+
+</td></tr><tr><td>
+Namensraum lokale Einsatzumgebung  
+(DNS_DOMAIN_  
+LEKTR)
+
+</td><td>
+DNS_  
+SERVERS_  
+LEKTR
+
+</td><td>
+DNS Forward Rule zur Auflösung aller DNS-Namen innerhalb der DNS-Domain
+DNS_DOMAIN_LEKTR
+
+</td></tr><tr><td>
+Namensraum  
+Internet
+
+</td><td>
+DNS_  
+SERVERS_  
+SIS
+
+</td><td>
+Wenn der VPN-Tunnel SIS aktiv ist, muss eine Forward Rule für den Namensraum
+Internet über die DNS_SERVERS_SIS existieren.
+
+</td></tr><tr><td>
+Namensraum  
+Internet
+
+</td><td>
+DNS_  
+SERVERS_  
+INT
+
+</td><td>
+Wenn der VPN-Tunnel SIS nicht aktiv ist, muss eine Forward Rule für den
+Namensraum Internet über die DNS_SERVERS_INT existieren
+
+</td></tr><tr><td>
+Lokale Zone  
+„konlan.“
+
+</td><td>
+autoritativer Nameserver des Konnektors
+
+</td><td>
+DNS Forward Rule zur Auflösung aller DNS-Namen innerhalb der Zone „konlan.“
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8101,11 +47067,146 @@ auflösen“ umsetzen.
 
 Tabelle345: TAB_KON_646 – TUC_KON_361 „DNS-Namen auflösen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_361 „DNS-Namen auflösen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Ein FQDN wird in ein oder mehrere IPs aufgelöst
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+interne Anfrage (Basisdienst oder Fachmodul)
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die vom Konnektor zu verwendenden DNS-Server (DNS_SERVERS_INT, DNS_SERVERS_TI,
+DNS_SERVERS_SIS, DNS_SERVERS_BESTANDSNETZE) müssen konfiguriert sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+FQDN (Name, für den die IP-Adressen ermittelt werden sollen)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+LIST_OF_IP_ADDRESSES
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1) Mit dem FQDN wird eine Anfrage an den Stub-Resolver des Konnektors (Typ A und
+AAAA) durchgeführt.  
+Für alle ermittelten IPv4-Adressen und IPv6-Adressen
+werden als LIST_OF_IP_ADDRESSES zurückgeliefert.  
+Da IPv6 nicht produktiv
+eingesetzt wird muss die aufrufende Instanz die IPv6-Adressen ignorieren. 
+
+Falls keine IP-Adressen ermittelt werden konnten, wird eine leere Liste
+zurückgeliefert.
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+( 1) Timeout der Anfrage; Fehlercode 4179  
+( 1) DNS-Fehler; Fehlercode
+4180
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle346: TAB_KON_647 Fehlercodes TUC_KON_361 „DNS Namen auflösen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4179
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+„DNS: Anfrage
+
+wurde wegen Timeout abgebro
+
+chen.”
+
+</td></tr><tr><td>
+4180
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+„DNS: Es ist ein Fehler bei der Namensauflösung aufgetreten“  
+Die
+Fehlerdetails sind gemäß DNS-Protokoll zu ergänzen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8116,11 +47217,152 @@ auflösen“ umsetzen.
 
 Tabelle347: TAB_KON_646 – TUC_KON_361 „DNS-Namen auflösen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_361 „DNS-Namen auflösen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Ein FQDN wird in ein oder mehrere IPs aufgelöst
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+interne Anfrage (Basisdienst oder Fachmodul)
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die vom Konnektor zu verwendenden DNS-Server (DNS_SERVERS_INT, DNS_SERVERS_TI,
+DNS_SERVERS_SIS, DNS_SERVERS_BESTANDSNETZE) müssen konfiguriert sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+FQDN (Name, für den die IP-Adressen ermittelt werden sollen)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+LIST_OF_IP_ADDRESSES
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1) Mit dem FQDN wird eine Anfrage an den Stub-Resolver des Konnektors (Typ A und
+AAAA) durchgeführt.
+
+Für alle ermittelten IPv4-Adressen und IPv6-Adressen werden als
+LIST_OF_IP_ADDRESSES zurückgeliefert.
+
+Wird IPv6 nicht produktiv eingesetzt, muss die aufrufende Instanz die
+IPv6-Adressen ignorieren.
+
+Falls keine IP-Adressen ermittelt werden konnten, wird eine leere Liste
+zurückgeliefert.
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1) Timeout der Anfrage; Fehlercode 4179
+
+(
+
+
+
+1) DNS-Fehler; Fehlercode 4180
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle348: TAB_KON_647 Fehlercodes TUC_KON_361 „DNS Namen auflösen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4179
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+„DNS: Anfrage wurde wegen Timeout abgebrochen.”
+
+</td></tr><tr><td>
+4180
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+„DNS: Es ist ein Fehler bei der Namensauflösung aufgetreten“  
+Die
+Fehlerdetails sind gemäß DNS-Protokoll zu ergänzen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8133,11 +47375,146 @@ abrufen“ umsetzen.
 
 Tabelle349: TAB_KON_648 – TUC_KON_362 „Liste der Dienste abrufen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_362 „Liste der Dienste abrufen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Ermittlung aller zu einer DNS-SD-Gruppe gehörenden DNS-Namen.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+interne Anfrage (Basisdienst oder Fachmodul)
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die vom Konnektor zu verwendenden DNS-Server müssen konfiguriert sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+FQDN des PTR Resource Records
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+LIST_OF_SRV_ENTITIES
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Mit dem FQDN wird eine Typ „PTR“ Anfrage an den Stub-Resolver des Konnektor
+gestellt.
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1) Timeout der Anfrage; Fehlercode 4179
+
+(
+
+
+
+1) DNS-Fehler; Fehlercode 4180
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle350: TAB_KON_649 Fehlercodes TUC_KON_362 „Liste der Dienste abrufen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4179
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+„DNS: Anfrage wur
+
+de wegen Timeout abgeb
+
+rochen.”
+
+</td></tr><tr><td>
+4180
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+„DNS: Es ist ein Fehler bei der Namensauflösung aufgetreten“  
+Die
+Fehlerdetails sind gemäß [gemSpec_Net] zu ergänzen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8150,11 +47527,165 @@ abrufen“ umsetzen.
 
 Tabelle351: TAB_KON_650 - TUC_KON_363 „Dienstdetails abrufen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_363 Dienstdetails abrufen
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Ermitteln aller DNS-SD-Details zu einem vollqualifizierten DNS-Namen.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+interne Anfrage (Basisdienst oder Fachmodul)
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die vom Konnektor zu verwendenden DNS-Server müssen konfiguriert sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+FQDN (der Name eines DNS-SD-Elements)
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+LIST_OF_SRV_ENTRIES
+
+LIST_OF_SRV_DETAILS
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+1) Mit dem FQDN wird eine Typ-„SRV“-Anfrage an den Stub-Resolver des
+Konnektors gestellt.
+
+Die vom DNS-Server zurück gelieferten SRV-Einträge werden als
+LIST_OF_SRV_ENTRIES (bestehend aus TTL, Priority, Weight, Port, Target)
+zurückgeliefert.
+
+Wenn kein Eintrag gefunden werden konnte, wird eine leere Liste
+LIST_OF_SRV_ENTRIES zurückgeliefert.
+
+2) Mit dem FQDN wird zusätzlich eine Typ-„TXT“-Anfrage an den Stub-Resolver
+des Konnektors gestellt.
+
+Wenn ein oder mehrere entsprechende Einträge gefunden werden konnten, werden
+diese in einer gemeinsamen Liste
+
+LIST_OF_SRV_DETAILS (bestehend aus TTL und TXT) zusammengefasst.
+
+Wenn kein Eintrag gefunden werden konnte, wird eine leere Liste
+LIST_OF_SRV_DETAILS zurückgeliefert.
+
+Falls keine FQDN ermittelt werden konnten, wird je eine leere Liste
+LIST_OF_SRV_ENTRIES und LIST_OF_SRV_DETAILS zurückgeliefert.
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1-2) Timeout der Anfrage; Fehlercode 4179
+
+(
+
+
+
+1-2) DNS Fehler; Fehlercode 4180
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle352: TAB_KON_651 Fehlercodes TUC_KON_363 „Dienstdetails abrufen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4179
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+„DNS: Anfrage wurde wegen Timeout abgebrochen.”
+
+</td></tr><tr><td>
+4180
+
+</td><td>
+Technical
+
+</td><td>
+Fatal
+
+</td><td>
+„DNS: Es ist ein Fehler bei der Namensauflösung aufgetreten“  
+Die
+Fehlerdetails sind gemäß [gemSpec_Net] zu ergänzen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8166,7 +47697,58 @@ Der Konnektor MUSS für Clients eine Basisanwendung Namensdienst anbieten.
 
 Tabelle353: TAB_KON_652 Basisanwendung Namensdienst
 
- ---> TABLE
+<table><tr><th>
+Name
+
+</th><th colspan="2">
+Namendienst
+
+</th></tr><tr><td>
+Version
+
+</td><td colspan="2">
+wird im Produktsteckbrief des Konnektors definiert
+
+</td></tr><tr><td>
+Namensraum
+
+</td><td colspan="2">
+Keiner
+
+</td></tr><tr><td>
+Namensraum-Kürzel
+
+</td><td colspan="2">
+Keiner
+
+</td></tr><tr><td rowspan="2">
+Operationen
+
+</td><td>
+Name
+
+</td><td>
+Kurzbeschreibung
+
+</td></tr><tr><td>
+GetIPAddress
+
+</td><td>
+Diese Operation ermöglicht die Auflösung von FQDNs in IP-Adressen
+
+</td></tr><tr><td>
+WSDL
+
+</td><td colspan="2">
+Keines
+
+</td></tr><tr><td>
+Schema
+
+</td><td colspan="2">
+Keines
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8179,7 +47761,58 @@ GetIPAddress anbieten.
 
 Tabelle354: TAB_KON_653 Operation GetIPAddress
 
- ---> TABLE
+<table><tr><td>
+Name
+
+</td><td>
+GetIPAddress
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Diese Operation ermöglicht die Auflösung von FQDN in IP-Adressen.
+
+(DNS-Forwarder Abfrage ohne Cache)
+
+</td></tr><tr><td>
+Aufrufparameter
+
+</td><td>
+Address (FQDN)
+
+DNSSECValidation (Boolean)
+
+</td></tr><tr><td>
+Rückgabe
+
+</td><td>
+IPAddr (IPAddress)
+
+DNSSECValidated (Boolean)
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Der DNS-Server im Konnektor muss aktiv sein.
+
+Die Forward Nameserver (DNS_SERVERS_TI, DNS_SERVERS_SIS,
+DNS_SERVERS_BESTANDSNETZE) müssen konfiguriert sein.
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Für Details zu DNS Namensauflösung wird auf [gemSpec_Net] verweisen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8204,11 +47837,142 @@ Caching-Nameserver zur Verfügung stehen.
 
 Tabelle355: TAB_KON_654 - Konfigurationsparameter Namensdienst
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+DNS_SERVERS_INT
+
+</td><td>
+Liste von IP-Adressen der DNS-Server
+
+</td><td>
+Liste von DNS-Servern für das Transportnetz.
+
+Die IP-Adressen KÖNNEN auf einen öffentlich zugänglichen Adressbereich
+eingeschränkt sein.
+
+</td></tr><tr><td>
+DNS_DOMAIN_
+
+VPN_ZUGD_INT
+
+</td><td>
+DNS Domainname
+
+</td><td>
+DNS-Domainname für die Service Discovery der VPN-Konzentratoren des
+VPN-Zugangsdienstes
+
+</td></tr><tr><td>
+DNS_SERVERS_
+
+LEKTR
+
+</td><td>
+Liste von IP-Adressen der DNS-Server
+
+</td><td>
+Liste von DNS-Servern, die zur Namensauflösung von Namensräumen in der
+Einsatzumgebung verwendet werden.
+
+Der Administrator MUSS die Liste von DNS-Servern, die die DNS_DOMAIN_LEKTR
+auflösen, bearbeiten können.
+
+Die IP-Adressen der DNS-Server KÖNNEN auf den Adressbereich der
+ANLW_LAN_IP_ADDRESS eingeschränkt sein.
+
+</td></tr><tr><td>
+DNS_DOMAIN_
+
+LEKTR
+
+</td><td>
+DNS
+
+Domainname
+
+</td><td>
+DNS Domainname, der von einem DNS-Server der Einsatzumgebung aufgelöst wird.
+Der Name DARF NICHT mit einem „.“ beginnen und nicht mit einem „.“
+enden.
+
+</td></tr><tr><td>
+DNS_TA_CONFIG
+
+</td><td>
+Ist abhängig von der gewählten Umsetzung
+
+</td><td>
+Wenn der Konnektor als Validating Resolver für den Namensraum Internet
+implementiert ist gilt:
+
+Der Administrator MUSS die aktuellen DNSSEC Trustanchor für den Namensraum
+Internet auf geeignetem Weg in den Konnektor übernehmen können.
+
+</td></tr></table>
 
 Tabelle356: TAB_KON_731 Einsehbare Konfigurationsparameter Namensdienst
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+DNS_SERVERS_TI
+
+</td><td>
+Liste von IP-Adressen der DNS-Server
+
+</td><td>
+Liste von DNS-Servern, die zur Namensauflösung des Namensraums der TI verwendet
+werden
+
+</td></tr><tr><td>
+DNS_SERVERS_SIS
+
+</td><td>
+Liste von IP-Adressen der DNS-Server
+
+</td><td>
+Liste von DNS-Servern, die zur Namensauflösung des Namensraums Internet bei
+Nutzung des SIS verwendet werden
+
+</td></tr><tr><td>
+DNS_SERVERS_
+
+BESTANDSNETZE
+
+</td><td>
+Liste von IP-Adressen der DNS-Servern je Domäne je freigegebenem
+angeschlossenen Netz des Gesundheitswesens mit WANDA Basic
+
+</td><td>
+Liste von DNS-Servern je Domain eines dieser freigegebenen Netze.
+
+</td></tr><tr><td>
+DNS_TOP_LEVEL_
+
+DOMAIN_TI
+
+</td><td>
+DNS Domainname
+
+</td><td>
+Top Level Domain des Namensraumes TI
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8386,14 +48150,88 @@ unterstützen.Den Administrator-Rollen MÜSSEN folgende Rechte zugewiesen sein:
 Tabelle357: TAB_KON_655 Konfigurationen der Benutzerverwaltung
 (Super-Administrator)
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_USER_LIST
+
+</td><td>
+Liste von Benutzernamen und deren Kontaktdaten
+
+</td><td>
+Liste von Benutzern und deren Kontaktdaten.  
+Benutzerkonten MÜSSEN angelegt,
+geändert und gelöscht werden können.  
+Das Passwort eines Benutzerkontos
+MUSS neu gesetzt werden können.
+
+</td></tr><tr><td>
+MGM_ADMIN  
+_RIGHTS
+
+</td><td>
+Liste von Zugriffsrechten eines Benutzers
+
+</td><td>
+i. Eindeutige Zuordnung eines Benutzerkontos  
+  zu einer Rolle.  
+   Die
+Benutzerverwaltung MUSS sicherstellen,  
+  dass zu jeder Zeit mindestens ein 
+
+  Benutzerkonto mit der Rolle Super-  
+   Administrator vorhanden ist.  
+ 
+Gewähren/Entziehen von Rechten für  
+   Benutzerkonten:  
+ii.
+Zugriffsrechte bezüglich der  
+    Konfigurationsbereiche.  
+iii. Recht zum
+Aufbau einer Remote-  
+    Manage
+
+ment-Session und/oder zur Konfiguration des Remote-Management gemäß TAB_KON_663
+
+(USER_INIT_REMOTESESSION).  
+iv. Recht für einen Werksreset  
+   
+(USER_RESET_PERMISSION)
+
+</td></tr></table>
 
 Die Benutzerverwaltung MUSS es jedem Benutzer ermöglichen
 Konfigurationsänderungen gemäß Tabelle TAB_KON_656 vorzunehmen:
 
 Tabelle358: TAB_KON_656 Konfigurationen der Benutzerverwaltung
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_USER_INFO
+
+</td><td>
+Kontaktdaten
+
+</td><td>
+Der angemeldete Benutzer MUSS seine Kontaktdaten ändern können. Der
+Benutzername DARF NICHT änderbar sein.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8409,7 +48247,54 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_657 vorzunehmen:
 
 Tabelle359: TAB_KON_657 Konfigurationsparameter des Konnektornamens
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_KONN_  
+HOSTNAME
+
+</td><td>
+12 Zeichen
+
+</td><td>
+Der
+
+Konnektorname MUSS folgende Anforderungen erfüllen (in Anlehnung an die
+Definition eines „Labels“ in [RFC1034]):
+
+• Verwendung der Buchstaben „A bis Z“ und „a bis z“,
+
+•
+
+Verwendung
+
+der Ziffern „0 bis 9“,
+
+• als
+
+Sonderzeichen
+
+„–“ (Minus), sowie
+
+• eine
+
+maximale
+
+Länge von 12 Zeichen,
+
+Die
+
+Verwendung weiterer Sonderzeichen sowie des Leerzeichens DARF NICHT möglich
+sein.
+
+</td></tr></table>
 
 Optional KANN ein Hersteller zusätzlich zum Konnektor- bzw. Hostnamen die
 Konfiguration eines DNS-Suffixes vorsehen. Der DNS-Suffix DARF NICHT
@@ -8592,7 +48477,44 @@ speichernde Daten:FM_\<fmName\>_\<fmDataName\>
 Tabelle360: TAB_KON_833 Bezeichner für persistente Konfigurationsdaten für
 Fachmodule
 
- ---> TABLE
+<table><tr><th>
+Bezeichner
+
+</th><th>
+Bedeutung
+
+</th></tr><tr><td>
+FM
+
+</td><td>
+fester Namensbestandteil zur Kennzeichnung von persistenten
+fachmodulspezifischen Konfigurationsdaten
+
+</td></tr><tr><td>
+_
+
+</td><td>
+Trennzeichen
+
+</td></tr><tr><td>
+\<fmName\>
+
+</td><td>
+Name des Fachmoduls (innerhalb eines Fachmoduls konstanter Bezeichner)
+
+</td></tr><tr><td>
+_
+
+</td><td>
+Trennzeichen
+
+</td></tr><tr><td>
+\<fmDataName\>
+
+</td><td>
+Name der persistent zu speichernden fachmodulspezifischen Konfigurationsdaten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8641,7 +48563,62 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_658 vorzunehmen:
 
 Tabelle361: TAB_KON_658 Aktivieren/Deaktivieren von Leistungsumfängen
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_LU_ONLINE
+
+</td><td>
+Enabled/  
+Disabled
+
+</td><td>
+Der Administrator MUSS den „Leistungsumfang Online“ aktivieren und
+deaktivieren können.
+
+Bei Veränderung MUSS TUC_KON_256 gerufen werden {  
+  topic = „MGM/
+
+LU
+
+_CHANGED/LU_ONLINE“;  
+  eventType = Op;  
+  severity = Info; 
+
+  parameters = „Active=$MGM_LU_ONLINE“}
+
+</td></tr><tr><td>
+MGM_LU_SAK
+
+</td><td>
+Enabled/  
+Disabled
+
+</td><td>
+Der Administrator MUSS den „Leistungsumfang Signaturanwendungskomponente“
+aktivieren und deaktivieren können.
+
+Default-Wert: Enabled
+
+Bei Veränderung MUSS TUC_KON_256 gerufen werden {  
+  topic = „MGM/
+
+LU
+
+_CHANGED/LU_SAK“;  
+  eventType = Op;  
+  severity = Info; 
+
+  parameters = „Active=$MGM_LU_SAK“}
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8665,7 +48642,28 @@ Konfigurationsänderungen gemäß Tabelle TAB_KON_659 vorzunehmen:
 
 Tabelle362: TAB_KON_659 Konnektor Standalone einsetzen
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_STANDALONE _KON
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS den Konnektor als alleinstehend konfigurieren
+können.Default-Wert: DisabledBei Veränderung MUSS TUC_KON_256 gerufen werden
+{  topic = „MGM/STANDALONE_CHANGED“;  eventType = Op;  severity =
+Info;  parameters = „Active=$MGM_STANDALONE_KON“}
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -8703,12 +48701,59 @@ Parameter ausschließlich einsehen können.
 
 Tabelle363: TAB_KON_661 Konfigurationsparameter der Konnektorfreischaltung
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_ZGDP_CONTRACTID
+
+</td><td>
+String
+
+</td><td>
+Der Administrator MUSS die vom Zugangsdienstprovider für die Freischaltung des
+Konnektors erhaltene ContractID eingeben können.
+
+</td></tr><tr><td>
+MGM_ZGDP_SMCB
+
+</td><td>
+ICCSN
+
+</td><td>
+Der Administrator MUSS die zur Freischaltung zu verwendende SM-B aus der Liste
+der verwalteten SM-Bs auswählen können.
+
+</td></tr></table>
 
 Tabelle364: TAB_KON_732 Einsehbare Konfigurationsparameter der
 Konnektorfreischaltung
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_ZGDP_REGSERVER
+
+</td><td>
+URI
+
+</td><td>
+URI des Registrierungsservers des Zugangsdienstproviders
+
+</td></tr></table>
 
 Den Zustand der Freischaltung verwaltet der Konnektor gemäß Tabelle
 TAB_KON_662 Zustandswerte der Konnektorfreischaltung.Im Auslieferungszustand
@@ -8716,7 +48761,27 @@ MUSS MGM_TI_ACCESS_GRANTED=Disabled belegt sein.
 
 Tabelle365: TAB_KON_662 Zustandswerte der Konnektorfreischaltung
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Zustandswerte
+
+</th></tr><tr><td>
+MGM_TI_ACCESS_GRANTED
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Status der Freischaltung des Konnektors:- Enabled: Konnektor wurde erfolgreich
+beim Zugangsdienstprovider freigeschaltet- Disabled: Freischaltung noch nicht
+erfolgt
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -8840,12 +48905,149 @@ NK-Zertifikat registrieren"umsetzen.
 Tabelle 366: TAB_KON_932 – TUC_KON_411 „Konnektor mit neuem NK-Zertifikat
 registrieren“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_411 "Konnektor mit neuem NK-Zertifikat registrieren"
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC führt eine Neuregistrierung mit einem neuen (ECC) NK-Zertifikat
+durch.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+A_
+
+22332-01, A_23150
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Die gSMC-K
+
+ist gemäß A_18928 dual-personalisiert.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, VPN-ZugD
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Manuelle Registrierung:  
+(-\>2) Der Administrator soll die zu verwendende SM-B
+auswählen können.
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+ 2
+
+) Es konnte keine freigeschaltete SM-B ausgewählt werden:  
+     
+Fail=No_Smcb  
+(-\>2,3) Im Fehlerfall  
+       TUC_KON_256 {  
+       
+    topic = „SMC_K/REGISTER/ERROR“;  
+            eventType = Op; 
+
+            severity = Error;  
+            parameters =
+„$Parameters“;  
+            doLog = true;  
+            doDisp
+= true }  
+Die Registrierung soll herstellerspezifisch erneut mehrmals versucht
+werden.  
+Bei allen Fehlerfällen, die zum Abbruch führen:  
+TUC_KON_256 { 
+
+       topic = „SMC_K/REGISTER/ERROR“;  
+       eventType =
+Op;  
+       severity = Error;  
+       parameters =
+„$Parameters“;  
+       doLog = true;  
+       doDisp = true }
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle 367: Tab_Kon_933 Fehlercodes TUC_KON_411"Konnektor mit neuem
 NK-Zertifikat registrieren"
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td colspan="4" rowspan="1">
+herstellerspezifisch
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -8962,7 +49164,100 @@ diese gemäß TIP1-A_4808 authentifizieren. **[\<=]**
 Der Konnektor DARF Remote-Administratoren Rechte gemäß TAB_KON_851 und
 TAB_KON_655 NICHT gewähren. **[\<=]**
 
- ---> TABLE
+<table><tr><th colspan="3">
+Fachliche Anbindung der Clientsysteme
+
+</th></tr><tr><td>
+TIP1-A_4517
+
+</td><td>
+Schlüssel und X.509-Zertifikate für die Authentisierung des Clientsystems
+erzeu­gen und exportieren sowie X.509-Zertifikate importieren
+
+</td><td>
+ 
+
+</td></tr><tr><td>
+TIP1-A_4518
+
+</td><td>
+Konfiguration der Anbindung Clientsysteme
+
+</td><td>
+ 
+
+</td></tr><tr><td colspan="3">
+Kartendienst
+
+</td></tr><tr><td>
+TIP1-A_5110
+
+</td><td>
+Übersicht über alle verfügbaren Karten
+
+</td><td>
+Karten vom Typ eGK und HBA DÜRFEN dem Remote-Administrator NICHT angezeigt
+werden
+
+</td></tr><tr><td>
+TIP1-A_5111
+
+</td><td>
+PIN-Management der SM-Bs für den Administrator
+
+</td><td>
+ 
+
+</td></tr><tr><td colspan="3">
+Zertifikatsdienst
+
+</td></tr><tr><td>
+TIP1-A_4704
+
+</td><td>
+Zertifikatsablauf anzeigen
+
+</td><td>
+Zertifikate von Karten vom Typ eGK und HBA DÜRFEN dem Remote-Administrator
+NICHT angezeigt werden
+
+</td></tr><tr><td colspan="3">
+Protokollierungsdienst
+
+</td></tr><tr><td>
+TIP1-A_4716
+
+</td><td>
+Einsichtnahme und Veränderung der Protokolle
+
+</td><td>
+Personenbezogene Daten DARF der Remote-Administrator NICHT einsehen und
+exportieren. Fachmodulprotokolle müssen daher entweder gesperrt, oder die
+personenbezogenen Daten aus diesen für den Remote-Administrator gefiltert
+werden.
+
+</td></tr><tr><td>
+TIP1-A_4814
+
+</td><td>
+Export- Import von Konfigurationsdaten
+
+</td><td>
+ 
+
+</td></tr><tr><td colspan="3">
+Neustart und Werksreset
+
+</td></tr><tr><td>
+TIP1-A_4820
+
+</td><td>
+Werksreset des Konnektors
+
+</td><td>
+ 
+
+</td></tr></table>
 
 ##### TIP1-A_5652
 
@@ -8973,7 +49268,51 @@ TAB_KON_663 vorzunehmen.
 
 Tabelle369: TAB_KON_663 Konfigurationen des Remote Managements
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_REMOTE_ALLOWED
+
+</td><td>
+Enabled/Disabled
+
+</td><td>
+Der Administrator MUSS einstellen können, ob derKonnektor eine
+Remote-Management-Verbindungaufbauen kann, über die Konfigurationen
+vorgenommen werden können.Enabled: Der Konnektor kann eine
+Remote-Management-Verbindung aufbauenund erlaubt Konfiguration über das
+Remote-Management System.Disabled: Der Konnektorerlaubt keine Konfiguration
+über das Remote Management-SystemDefault-Wert: Disabled
+
+</td></tr><tr><td>
+MGM_REMOTE_MONITORING_ALLOWED
+
+</td><td>
+Enabled / Disabled
+
+</td><td>
+Der Konnektor KANN Remote-Monitoring unterstützen.In diesem Fall MUSS der
+Konnektor dem Administrator die Aktivierung und Deaktivierung des
+Remote-Monitoring ermöglichen.Enabled: Der Konnektor baut eine
+Remote-Managementverbindung auf.Der Konnektor übermittelt Betriebszustände
+gemäß TAB_KON_503 an das Remote-Management-System.Disabled: Remote-Monitoring
+ist deaktiviert. Der Konnektor übermittelt keine Betriebszustände an das
+Remote-Management-System.Default-Wert: Disabled
+
+</td></tr><tr><td colspan="3">
+Der Konnektor SOLL die Konfiguration der URL des Remote-Management-Systems, der
+ Zertifikatsinformationen zur Authentisierung des Remote-Management-Systems
+und der Credentials für die Authentisierung des Konnektors beim
+Remote-Management-System ermöglichen.
+
+</td></tr></table>
 
 ​​ **[\<=]**
 
@@ -9078,14 +49417,255 @@ Der Konnektor MUSS den technischen Use Case TUC_KON_280
 Tabelle370: TAB_KON_664 – TUC_KON_280 „Konnektoraktualisierung
 durchführen“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_280 „Konnektoraktualisierung durchführen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC aktualisiert den Konnektor mit einem Update, dessen Update-Dateien
+entweder direkt übergeben oder per UpdateInformation (vom KSRS bezogen)
+referenziert werden
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+oder
+
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Konfigurationsdienst
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Der Konnektor arbeitet basierend auf der übergebenen, im Updatepaket
+enthaltenen neuen Version.
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor MUSS die zur Anwendung übergebene UpdateInformation wie folgt
+anwenden:
+
+ ---> OL
+
+Der TUC endet in jedem Fall mit:
+
+TUC_KON_256 {
+
+    topic = „KSR/UPDATE/END“;
+
+    eventType = Sec;
+
+    severity = Info;
+
+    parameters = („Target=Konnektor,
+
+                           Name=$MGM_KONN_HOSTNAME“)
+}
+
+(betroffene Fachmodule und Basisdienste reagieren und starten sich)
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Sofern direkt ein Updatepaket (mit enthaltenen FirmwareFiles) übergeben wurde
+beginnt der Ablauf ab Nummer 4 mit der Integritätsprüfung des Updatepakets
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu:
+
+a) Aufruf von TUC_KON_256 {
+
+          topic = „KSR/ERROR“;
+
+          eventType = $ErrorType;
+
+          severity = $Severity;
+
+          parameters = („Target=Konnektor,
+
+                 Name= $MGM_KONN_HOSTNAME,
+
+                 Error=$Fehlercode,
+
+                 Bedeutung=$Fehlertext“) }
+
+b) Abbruch der Verarbeitung mit den ausgewiesenen Fehlercodes
+
+(
+
+
+
+1) Integritätsprüfung UpdateInformation fehlgeschlagen, Fehlercode: 4181
+
+(
+
+
+
+2) Fehler bei der Downloaddurchführung, Fehlercode: 4182
+
+(
+
+
+
+3) Integritätsprüfung eines FirmwareFiles fehlgeschlagen, Fehlercode: 4183
+
+(
+
+
+
+4) Firmwaregruppenprüfung fehlgeschlagen, Fehlercode: 4185
+
+(
+
+
+
+5b) Interne Aktualisierung fehlgeschlagen, dann:
+
+          1. Rollback auf vorherige Version
+
+          2. Abbruch mit Fehlercode: 4184
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Der laufende Updatevorgang MUSS in der Managementschnittstelle ausgewiesen und
+der Fortschritt mindestens für die Schritte 1-5b dargestellt werden.
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Abbildung PIC_KON_105 Aktivitätsdiagramm Konnektoraktualisierung durchführen
+
+</td></tr></table>
 
 Tabelle371: TAB_KON_665 Fehlercodes TUC_KON_280 „Konnektoraktualisierung
 durchführen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
 
-![Img-022][Img-022]
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4181
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Integritätsprüfung UpdateInformation fehlgeschlagen.
+
+</td></tr><tr><td>
+4182
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Download nicht aller UpdateFiles möglich.
+
+</td></tr><tr><td>
+4183
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Integritätsprüfung UpdateFiles fehlgeschlagen.
+
+</td></tr><tr><td>
+4184
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Anwendung der UpdateFiles fehlgeschlagen (\<Details\>).
+
+</td></tr><tr><td>
+4185
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Firmware-Version liegt außerhalb der gültigen Firmware-Gruppe
+
+</td></tr></table>
+
+![Img-074][Img-074]
 
 Abbildung22: PIC_KON_105 Aktivitätsdiagramm Konnektoraktualisierung
 durchführen   **[\<=]**
@@ -9106,12 +49686,208 @@ Der Konnektor MUSS den technischen Use Case TUC_KON_281
 Tabelle372: TAB_KON_666 – TUC_KON_281 „Kartenterminalaktualisierung
 anstoßen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_281 „Kartenterminalaktualisierung anstoßen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC fordert ein Kartenterminal auf einen Update durchzuführen, dessen
+Update-Dateien entweder direkt übergeben oder per UpdateInformation (vom KSRS
+bezogen) referenziert werden
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Kartenterminal
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Das Kartenterminal arbeitet basierend auf der übergebenen, im Updatepaket
+enthaltenen neuen Version.
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor MUSS die zur Anwendung übergebene UpdateInformation wie folgt
+anwenden:
+
+ ---> OL
+
+a)         Wechsel in eine Admin-Session durch TUC_KON_050  
+    
+„Beginne Kartenterminalsitzung“{role=„Admin“; ctId}
+
+b)         Senden der SICCT Kommandos: SICCT CT Download INIT, 
+
+     SICCT CT Download DATA (Übermittlung des UpdateFiles) und  
+    
+SICCT CT Download FINISH an ctId
+
+c)         TUC_KON_256{  
+          topic =
+„KSR/UPDATE/SUCCESS”;  
+          eventType = Sec; 
+
+          severity = Info;  
+          parameters =
+(„Target=KT,  
+                 Name= $CT.HOSTNAME, CtID
+=$ctId,  
+                 NewFirmwareversion = 
+
+                          \<UpdateInformation.FirmwareVersion\>„}
+
+Der TUC endet in jedem Fall mit:
+
+ ---> UL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Sofern direkt ein Updatepaket (mit enthaltenem FirmwareFile) übergeben wurde
+beginnt der Ablauf ab Nummer 2 mit Signalisierung des Beginns des KT-Updates
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu:
+
+a)           Aufruf von TUC_KON_256 {  
+           topic =
+„KSR/ERROR”;  
+           eventType = $ErrorType; 
+
+           severity = $Severity;  
+           parameters =
+(„Target=KT, Name=$CT.HOSTNAME, 
+
+                       CtID =$ctId, Error=$Fehlercode, 
+
+                       Bedeutung=$Fehlertext“) }
+
+b)           Abbruch der Verarbeitung mit den ausgewiesenen Fehlercodes
+
+(
+
+
+
+1) Download fehlgeschlagen, Fehlercode: 4186
+
+(
+
+
+
+3b) SICCT-Download fehlgeschlagen, Fehlercode: 4187
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Die Durchführung eines KT-Updates DARF die weitere Operation des Konnektors
+NICHT behindern (weder auf Schnittstellenebene noch in der
+Managementschnittstelle).
+
+Der laufende Updatevorgang eines KT MUSS in der Managementschnittstelle
+ausgewiesen und der Fortschritt dargestellt werden.
+
+Der Konnektor MUSS mindestens 5 Kartenterminal-Updates parallel durchführen
+können.
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle373: TAB_KON_667 Fehlercodes TUC_KON_281 „Kartenterminalaktualisierung
 anstoßen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4186
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+Download nicht aller UpdateFiles möglich.
+
+</td></tr><tr><td>
+4187
+
+</td><td>
+Security
+
+</td><td>
+Error
+
+</td><td>
+KT-Update fehlgeschlagen (\<Fehlerinfo gemäß SICCT\>)
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9124,12 +49900,185 @@ beziehen“ umsetzen.
 
 Tabelle374: TAB_KON_668 – TUC_KON_282 „UpdateInformationen beziehen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_282 „UpdateInformationen beziehen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC ermittelt vom zentralen Konfigurationsdienst sowohl für den
+Konnektor als auch für alle durch ihn verwalteten Kartenterminals die
+verfügbaren UpdateInformationen
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Konfigurationsdienst
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+Der Konnektor verfügt über alle aktuellen UpdateInformationen
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor MUSS folgende Schritte durchlaufen:
+
+ ---> OL
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu:
+
+a)          Aufruf von TUC_KON_256 {  
+           topic =
+„KSR/ERROR“;  
+           eventType = $ErrorType;  
+          
+severity = $Severity;  
+           parameters =
+(„Error=$Fehlercode; Bedeutung=$Fehlertext“)}
+
+b)          Abbruch der Verarbeitung mit den ausgewiesenen Fehlercodes
+
+(
+
+
+
+1) Konfigurationsdienst nicht erreichbar, Fehlercode: 4188
+
+(
+
+
+
+1) Serverzertifikat ist nicht C.ZD.TLS_S, Fehlercode: 4189
+
+(
+
+
+
+2b) Fehler beim Beziehen der Updatelisten, Fehlercode: 4190
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Der Konnektor muss die Vorgaben aus [gemSpec_Krypt#3.3.2] für TLS-Verbindungen
+und hinsichtlich ECC-Migration die Vorgaben aus [gemSpec_Krypt#5] befolgen.
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle375: TAB_KON_669 Fehlercodes TUC_KON_282 „UpdateInformationen
 beziehen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases, sowie der
+Fehlercodes von „I_KSRS_Download::listUpdates Response“ können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4188
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Konfigurationsdienst nicht erreichbar, konfigurierte Adresse kontrollieren.
+
+</td></tr><tr><td>
+4189
+
+</td><td>
+Security
+
+</td><td>
+Fatal
+
+</td><td>
+Konfigurationsdienst liefert falsches Zertifikat
+
+</td></tr><tr><td>
+4190
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Beziehen der Updatelisten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9143,12 +50092,129 @@ Konfiguration aktualisieren“ umsetzen.
 Tabelle376: TAB_KON_799 – TUC_KON_283 „Infrastruktur Konfiguration
 aktualisieren“
 
- ---> TABLE
+<table><tr><th>
+Element
+
+</th><th>
+Beschreibung
+
+</th></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_283 Infrastruktur Konfiguration aktualisieren
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC liest die Infrastrukturdaten vom KSR ein.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Automatisch einmal täglich; BOOTUP, Administrator
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+Der TUC_KON_304 „Netzwerk-Routen einrichten“ MUSS fehlerfrei durchgelaufen
+sein.
+
+Der TUC_KON_321 „Verbindung zu dem VPN-Konzentrator der TI aufbauen“ MUSS
+fehlerfrei durchgelaufen sein.
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Konfigurationsdienst
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor MUSS folgende Schritte durchlaufen:
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1-5) Es ist ein unerwarteter Fehler aufgetreten; Fehlercode: 4198
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle377: Tab_Kon_726 Fehlercodes TUC_KON_283 „Infrastruktur Konfiguration
 aktualisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4198
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Beim Übernehmen der angeschlossenen Netze des Gesundheitswesens mit WANDA Basic
+ist ein Fehler aufgetreten.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9164,12 +50230,164 @@ für Fachmodul beziehen“ umsetzen.
 Tabelle378: TAB_KON_833 – TUC_KON_285 „UpdateInformationen für Fachmodul
 beziehen“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_285 „UpdateInformationen für Fachmodul beziehen“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC ermittelt vom zentralen Konfigurationsdienst für ein Fachmodul die
+verfügbaren UpdateInformationen eines angegebenen SW-Pakets.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+Hinweis: Definition von productVendorID, productCode, hwVersion, fwVersion
+(entspricht FWVersion) siehe [gemSpec_KSR#TIP1-A_3331]
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Konfigurationsdienst
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+Der Konnektor MUSS folgende Schritte durchlaufen:
+
+ ---> OL
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Fehler in den folgenden Schritten des Ablaufs führen zu: 
+
+(1)    Konfigurationsdienst nicht erreichbar, Fehlercode: 4188  
+(1)
+Serverzertifikat ist nicht C.ZD.TLS_S, Fehlercode: 4189  
+(3) Fehler beim
+Beziehen der Updatelisten, Fehlercode: 4190
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Der Konnektor muss die Vorgaben aus [gemSpec_Krypt#3.3.2] für TLS-Verbindungen
+und hinsichtlich ECC-Migration die Vorgaben aus [gemSpec_Krypt#5] befolgen.
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+keine
+
+</td></tr></table>
 
 Tabelle379: TAB_KON_834 Fehlercodes TUC_KON_285 „UpdateInformationen für
 Fachmodul beziehen“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases, sowie der
+Fehlercodes von „I_KSRS_Download::listUpdates Response“ können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4188
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Konfigurationsdienst nicht erreichbar, konfigurierte Adresse kontrollieren.
+
+</td></tr><tr><td>
+4189
+
+</td><td>
+Security
+
+</td><td>
+Fatal
+
+</td><td>
+Konfigurationsdienst liefert falsches Zertifikat
+
+</td></tr><tr><td>
+4190
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Fehler beim Beziehen der Updatelisten
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9182,11 +50400,189 @@ laden“ umsetzen.
 
 Tabelle380: TAB_KON_835 – TUC_KON_286 „Paket für Fachmodul laden“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_286 „Paket für Fachmodul laden“
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Dieser TUC lädt ein bestimmtes SW-Paket für ein Fachmodul vom zentralen
+Konfigurationsdienst.
+
+</td></tr><tr><td>
+Auslöser
+
+</td><td>
+Aufruf durch Fachmodul
+
+</td></tr><tr><td>
+Vorbedingungen
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor, Konfigurationsdienst
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Nachbedingungen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ ---> OL
+
+Das Server-Zertifikat C.ZD.TLS-S MUSS für den Konfigurationsdienst ausgestellt
+sein.
+
+ ---> OL
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+(
+
+
+
+1) Verbindung zum KSR konnte nicht aufgebaut werden; Fehlercode: 4188
+
+(
+
+
+
+1) Serverzertifikat ist nicht C.ZD.TLS_S, Fehlercode: 4189
+
+(
+
+
+
+2) Wenn Größe des Pakets größer als 25MB, Fehlercode: 4242
+
+(
+
+
+
+2) Sonstige Fehler beim Download: Das Paket konnte nicht geladen werden,
+Fehlercode: 4238
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle381: TAB_KON_836 Fehlercodes TUC_KON_286 „Paket für Fachmodul laden“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können folgende
+weitere Fehlercodes auftreten:
+
+</td></tr><tr><td>
+4188
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Konfigurationsdienst nicht erreichbar, konfigurierte Adresse kontrollieren.
+
+</td></tr><tr><td>
+4189
+
+</td><td>
+Security
+
+</td><td>
+Fatal
+
+</td><td>
+Konfigurationsdienst liefert falsches Zertifikat
+
+</td></tr><tr><td>
+4238
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Der Download des Pakets vom KSR ist fehlgeschlagen.
+
+</td></tr><tr><td>
+4242
+
+</td><td>
+Technical
+
+</td><td>
+Error
+
+</td><td>
+Der Download des Pakets vom KSR ist fehlgeschlagen. Das Paket ist größer als
+25MB.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9214,11 +50610,124 @@ initialisieren“ durchlaufen.
 
 Tabelle382: TAB_KON_864 – TUC_KON_284 „KSR-Client initialisieren“
 
- ---> TABLE
+<table><tr><td>
+Element
+
+</td><td>
+Beschreibung
+
+</td></tr><tr><td>
+Name
+
+</td><td>
+TUC_KON_284 ”KSR-Client initialisieren”
+
+</td></tr><tr><td>
+Beschreibung
+
+</td><td>
+Der Konnektor muss während des Bootups die Downloadpunkte für
+Konfigurationsdaten und Firmware ermitteln.
+
+</td></tr><tr><td>
+Eingangsanforderung
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Auslöser und Vorbedingungen
+
+</td><td>
+Bootup
+
+Verbindung zum VPN-Konzentrator TI muss aufgebaut sein
+
+</td></tr><tr><td>
+Eingangsdaten
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Komponenten
+
+</td><td>
+Konnektor
+
+</td></tr><tr><td>
+Ausgangsdaten
+
+</td><td>
+ ---> UL
+
+</td></tr><tr><td>
+Standardablauf
+
+</td><td>
+ -             Falls MGM_LU_ONLINE=Enabled:
+
+            -              Durch DNS-Anfragen an den
+DNS-Forwarder zur  
+                 Auflösung der SRV-RR und
+TXT-RR mit den Bezeichnern  
+               
+„_ksrkonfig._tcp.ksr.\<TOP_LEVEL_DOMAIN_TI\>„ und 
+
+               
+„_ksrfirmware._tcp.ksr.\<TOP_LEVEL_DOMAIN_TI\>„ erhält 
+
+                 der Konnektor URLs der Downloadpunkte des KSR
+für  
+                Konfigurationsdaten (MGM_KSR_KONFIG_URL)
+und für  
+                Firmware (MGM_KSR_FIRMWARE_URL).
+
+</td></tr><tr><td>
+Varianten/Alternativen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Fehlerfälle
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Nichtfunktionale Anforderungen
+
+</td><td>
+Keine
+
+</td></tr><tr><td>
+Zugehörige Diagramme
+
+</td><td>
+Keine
+
+</td></tr></table>
 
 Tabelle383: TAB_KON_822 Fehlercodes TUC_KON_284 „KSR-Client initialisieren“
 
- ---> TABLE
+<table><tr><th>
+Fehlercode
+
+</th><th>
+ErrorType
+
+</th><th>
+Severity
+
+</th><th>
+Fehlertext
+
+</th></tr><tr><td colspan="4">
+Neben den Fehlercodes der aufgerufenen technischen Use Cases können keine
+weiteren Fehlercodes auftreten.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9230,12 +50739,138 @@ Parameter ausschließlich einsehen können.
 
 Tabelle384: TAB_KON_670 Konfigurationsparameter der Software-Aktualisierung
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_KSR_
+
+AUTODOWNLOAD
+
+</td><td>
+Enabled/
+
+Disabled
+
+</td><td>
+Der Administrator MUSS den automatischen Download verfügbarer Update-Pakete
+über den Konfigurationsparameter MGM_KSR_AUTODOWNLOAD an- und abschalten
+können.
+
+Default-Wert: Enabled
+
+</td></tr><tr><td>
+MGM_KSR_SHOW_
+
+TRIAL_UPDATES
+
+</td><td>
+Enabled /
+
+Disabled
+
+</td><td>
+Der Administrator MUSS einschalten können, dass zusätzlich zur Anzeige von
+Update-Paketen für den Online-Produktivbetrieb auch die Anzeige von
+Erprobungs-Update-Paketen erfolgt.
+
+Wenn
+
+MGM_KSR_SHOW_TRIAL_UPDATES
+
+von Disabled auf Enabled gesetzt wird, muss ein Warnhinweis angezeigt werden,
+dass die Installation von Erprobungs-Update-Paketen nur für Teilnehmer der
+Erprobungen vorgesehen ist.
+
+Default-Wert: Disabled
+
+</td></tr><tr><td>
+MGM_KSR_AUTO_UPDATE
+
+</td><td>
+Enabled / Disabled
+
+</td><td>
+Der Administrator MUSS pro Gerät (Konnektor und Kartenterminals) das
+automatische Softwareupdate ein- und ausschalten können.
+
+Default-Wert: Enabled
+
+Falls
+
+MGM_KSR_AUTO_UPDATE
+
+=Enabled wird 
+
+MGM_KSR_  
+AUTODOWNLOAD=
+
+Enabled gesetzt.
+
+</td></tr><tr><td>
+MGM_KSR_AUTO_  
+UPDATE_TIME
+
+</td><td>
+Wochentag / Uhrzeit
+
+Oder
+
+täglich / Uhrzeit
+
+</td><td>
+Der Administrator MUSS den Wochentag und die Uhrzeit einstellen können, wann
+automatische Softwareupdates durchgeführt werden.
+
+Als Wochentag MUSS es neben den einzelnen Wochentagen auch einen Wert für eine
+tägliche Prüfung auf Aktualität und gegebenenfalls Durchführung von
+Softwareupdates geben.
+
+Default-Wert: Montag / 1:00 Uhr
+
+</td></tr></table>
 
 Tabelle385: TAB_KON_820 Einsehbare Konfigurationsparameter der
 Software-Aktualisierung
 
- ---> TABLE
+<table><tr><th>
+ReferenzID
+
+</th><th>
+Belegung
+
+</th><th>
+Bedeutung und Administrator-Interaktion
+
+</th></tr><tr><td>
+MGM_KSR_
+
+KONFIG_URL
+
+</td><td>
+URL
+
+</td><td>
+SOAP-Endpunkt des Konfigurationsdienstes zum Download von Konfigurationsdaten
+
+</td></tr><tr><td>
+MGM_KSR_
+
+FIRMWARE_URL
+
+</td><td>
+URL
+
+</td><td>
+SOAP-Endpunkt des Konfigurationsdienstes zum Download der Firmware
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9549,7 +51184,31 @@ erfüllen, welche unter der Annahme des normalen Einsatzortes erhoben werden.
 
 Tabelle386: TAB_KON_671 Anforderungen Klima
 
- ---> TABLE
+<table><tr><td>
+Prüfung Klima
+
+</td></tr><tr><td>
+Trockene Wärme (Dry Heat) nach DIN EN 60068-2-2 Methode Bb wird für die
+Bedingungen als obere Lagertemperatur von 55°C und einer Beanspruchungsdauer
+von 16 h geprüft und die Funktionsfähigkeit MUSS bestätigt werden.
+
+</td></tr><tr><td>
+Kälte (Cold) nach DIN EN 60068-2-1 Methode Ab wird für die Bedingungen als
+untere Lagertemperatur von -10°C und einer Beanspruchungsdauer von 16 h
+geprüft und die Funktionsfähigkeit MUSS bestätigt werden.
+
+</td></tr><tr><td>
+Nach den beiden oben genannten Belastungen durch extreme Lagertemperaturen und
+der Nachbehandlungsdauer von 1 h MUSS die Funktionsfähigkeit des Konnektors
+gewährleistet sein, was durch Funktionsprüfungen nachzuweisen ist.
+
+</td></tr><tr><td>
+Die Funktionsfähigkeit im Betrieb MUSS bei einer oberen Temperatur von 40°C
+über eine Dauer von 24 h gewährleistet sein. Dies wird für den Konnektor
+durch Prüfung nach DIN EN 60068-2-2 Methode Bb bei gleichzeitigen
+Funktionsprüfungen nachgewiesen.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9561,7 +51220,32 @@ Anforderungen aus TAB_KON_672 absolviert, geprüft und nachgewiesen werden.
 
 Tabelle387: TAB_KON_672 Anforderungen Vibration
 
- ---> TABLE
+<table><tr><td>
+Prüfung Vibration
+
+</td></tr><tr><td>
+Sinusförmige Schwingungstests (Vibration, sinusoidal) nach DIN EN 60068-2-6
+Methode Fc in drei senkrecht stehenden Achsen in einem Frequenzbereich von
+2 Hz bis 200 Hz üblicherweise 1 h je Achse MÜSSEN erfolgreich
+nachgewiesen werden. Bis zu einer Frequenz von 9 Hz wird dabei mit einer
+konstanten Amplitude von 1,5 mm belastet, darüber bis zur oberen Frequenz
+wird mit einer konstanten Beschleunigung von 5 m/s2 (0,5 g) belastet.
+
+</td></tr><tr><td>
+Es MÜSSEN mechanische Schockprüfungen (Shock) nach DIN EN 60068-2-27 Methode
+Ea in drei senkrecht stehenden Achsen (sechs Richtungen) erfolgreich
+nachgewiesen werden. Es wird dabei für jede Achse mit 3 positiven und
+3 negativen Schocks mit 150 m/s2 (15 g) Amplitude und einer Dauer von 11 ms
+belastet.
+
+</td></tr><tr><td>
+Dauerschocktests (Bump) nach DIN EN 60068-2-29 Methode Eb in drei senkrecht
+stehenden Achsen mit halbsinusförmigen Schocks MÜSSEN erfolgreich
+nachgewiesen werden. Es wird dabei für jede Achse mit 1000 positiven und 1000
+negativen Schocks mit 100 m/s2 (10 g) Amplitude und einer Dauer von 16 ms
+belastet.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9573,7 +51257,35 @@ Anforderungen aus TAB_KON_672 absolviert, geprüft und nachgewiesen werden.
 
 Tabelle388: TAB_KON_672 Anforderungen Vibration
 
- ---> TABLE
+<table><tr><td>
+Prüfung Vibration
+
+</td></tr><tr><td>
+Sinusförmige Schwingungstests (Vibration, sinusoidal) nach DIN EN 60068-2-6
+Methode Fc in drei senkrecht stehenden Achsen in einem Frequenzbereich von
+2 Hz bis 200 Hz üblicherweise 1 h je Achse MÜSSEN erfolgreich
+nachgewiesen werden. Bis zu einer Frequenz von 9 Hz wird dabei mit einer
+konstanten Amplitude von 1,5 mm belastet, darüber bis zur oberen Frequenz
+wird mit einer konstanten Beschleunigung von 5 m/s2 (0,5 g) belastet.
+
+</td></tr><tr><td>
+Es MÜSSEN mechanische Schockprüfungen (Shock) nach DIN EN 60068-2-27 Methode
+Ea in drei senkrecht stehenden Achsen (sechs Richtungen) erfolgreich
+nachgewiesen werden. Es wird dabei für jede Achse mit 3 positiven und
+3 negativen Schocks mit 150 m/s2 (15 g) Amplitude und einer Dauer von 11 ms
+belastet.
+
+</td></tr><tr><td>
+Dauerschocktests (Bump) nach DIN EN 60068-2-
+
+27
+
+Methode Eb in drei senkrecht stehenden Achsen mit halbsinusförmigen Schocks
+MÜSSEN erfolgreich nachgewiesen werden. Es wird dabei für jede Achse mit 1000
+positiven und 1000 negativen Schocks mit 100 m/s2 (10 g) Amplitude und einer
+Dauer von 16 ms belastet.
+
+</td></tr></table>
 
 **[\<=]**
 
@@ -9581,11 +51293,338 @@ Tabelle388: TAB_KON_672 Anforderungen Vibration
 
 ### 5.1 Abkürzungen
 
- ---> TABLE
+<table><tr><th>
+Kürzel
+
+</th><th>
+Erläuterung
+
+</th></tr><tr><td>
+AMTS
+
+</td><td>
+Arzneimitteltherapiesicherheit
+
+</td></tr><tr><td>
+APPL DO
+
+</td><td>
+Application Label Data Object
+
+</td></tr><tr><td>
+CC
+
+</td><td>
+Common Criteria
+
+</td></tr><tr><td>
+DHCP
+
+</td><td>
+Dynamic Host Configuration Protocol
+
+</td></tr><tr><td>
+DNS
+
+</td><td>
+Domain Name Service
+
+</td></tr><tr><td>
+DO
+
+</td><td>
+Datenobjekt
+
+</td></tr><tr><td>
+DSL
+
+</td><td>
+Digital Subscriber Line
+
+</td></tr><tr><td>
+ECC
+
+</td><td>
+Elliptic Curve Cryptography
+
+</td></tr><tr><td>
+EVG
+
+</td><td>
+Evaluierungsgegenstand
+
+</td></tr><tr><td>
+gSMC-K
+
+</td><td>
+Security Module Card Typ K (Konnektor)
+
+</td></tr><tr><td>
+gSMC-KT
+
+</td><td>
+Security Module Card Typ KT (Kartenterminal)
+
+</td></tr><tr><td>
+HBA
+
+</td><td>
+Heilberufsausweis
+
+</td></tr><tr><td>
+HSM-B
+
+</td><td>
+Hardware Security Module Typ B
+
+</td></tr><tr><td>
+IAG
+
+</td><td>
+Internet Access Gateway
+
+</td></tr><tr><td>
+ID
+
+</td><td>
+Identifier
+
+</td></tr><tr><td>
+ISP
+
+</td><td>
+Internet Service Provider
+
+</td></tr><tr><td>
+KT
+
+</td><td>
+Kartenterminal
+
+</td></tr><tr><td>
+KVK
+
+</td><td>
+Krankenversichertenkarte
+
+</td></tr><tr><td>
+LAN
+
+</td><td>
+Local Area Network
+
+</td></tr><tr><td>
+MTOM
+
+</td><td>
+Message Transmission Optimization Mechanism
+
+</td></tr><tr><td>
+NFDM
+
+</td><td>
+Notfalldatenmanagement
+
+</td></tr><tr><td>
+NK
+
+</td><td>
+Netzkonnektor
+
+</td></tr><tr><td>
+NTP
+
+</td><td>
+Netzwork Time Protokoll
+
+</td></tr><tr><td>
+OCSP
+
+</td><td>
+Online Certificate Status Protocol
+
+</td></tr><tr><td>
+OID
+
+</td><td>
+Object Identifier
+
+</td></tr><tr><td>
+PIN
+
+</td><td>
+Personal
+
+</td></tr><tr><td>
+PKI
+
+</td><td>
+Public Key Infrastructure
+
+</td></tr><tr><td>
+PP
+
+</td><td>
+Protection Profile
+
+</td></tr><tr><td>
+PU
+
+</td><td>
+Produktivumgebung
+
+</td></tr><tr><td>
+PUK
+
+</td><td>
+Personal Unblocking Key
+
+</td></tr><tr><td>
+QES
+
+</td><td>
+Qualifizierte elektronische Signatur
+
+</td></tr><tr><td>
+RU
+
+</td><td>
+Referenzumgebung
+
+</td></tr><tr><td>
+SIS
+
+</td><td>
+Secure Internet Service
+
+</td></tr><tr><td>
+SMC-B
+
+</td><td>
+Security Module Card Typ B
+
+</td></tr><tr><td>
+SMTBD DO
+
+</td><td>
+SICCT Message-To-Be-Displayed Data Object
+
+</td></tr><tr><td>
+SOAP
+
+</td><td>
+Standard für die Kommunikation innerhalb der WEB-Services
+
+</td></tr><tr><td>
+TI
+
+</td><td>
+Telematikinfrastruktur
+
+</td></tr><tr><td>
+TLS
+
+</td><td>
+Transport Layer Security
+
+</td></tr><tr><td>
+TSF
+
+</td><td>
+TOE Security Functionality
+
+</td></tr><tr><td>
+TU
+
+</td><td>
+Testumgebung
+
+</td></tr><tr><td>
+TUC
+
+</td><td>
+Technischer Use Case
+
+</td></tr><tr><td>
+URL
+
+</td><td>
+Uniform Resource Locator
+
+</td></tr><tr><td>
+VPN
+
+</td><td>
+Virtual Private Network
+
+</td></tr><tr><td>
+VSDM
+
+</td><td>
+Versichertenstammdatenmanagement
+
+</td></tr><tr><td>
+VZD
+
+</td><td>
+Verzeichnisdienst
+
+</td></tr><tr><td>
+WAN
+
+</td><td>
+Wide Area Network
+
+</td></tr><tr><td>
+WANDA Basic
+
+</td><td>
+Weitere Anwendungen für den Datenaustausch ohne Nutzung der TI oder derer
+kryptografischen Identitäten 
+
+</td></tr><tr><td>
+WANDA Smart
+
+</td><td>
+Weitere Anwendungen für den Datenaustausch mit Nutzung der TI oder
+derer kryptografischen Identitäten für eigene Anwendungszwecke
+
+</td></tr><tr><td>
+XML
+
+</td><td>
+Extensible Markup Language
+
+</td></tr><tr><td>
+ZD
+
+</td><td>
+Zertifizierungsdienst
+
+</td></tr><tr><td>
+ZOD 2.0
+
+</td><td>
+Zahnärzte Online Deutschland 2.0
+
+</td></tr></table>
 
 ### 5.2 Glossar
 
- ---> TABLE
+<table><tr><th>
+Begriff
+
+</th><th>
+Erläuterung
+
+</th></tr><tr><td>
+Funktionsmerkmal
+
+</td><td>
+Der Begriff beschreibt eine Funktion oder auch einzelne, eine logische Einheit
+bildende Teilfunktionen der TI im Rahmen der funktionalen Zerlegung des Systems.
+
+</td></tr></table>
 
 Das Glossar wird als eigenständiges Dokument, vgl. [gemGlossar] zur Verfügung
 gestellt.
@@ -9996,11 +52035,987 @@ Tabelle nicht aufgeführt. Deren zu diesem Dokument passende jeweils gültige
 Versionsnummer sind in der aktuellsten, von der gematik veröffentlichten
 Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 
- ---> TABLE
+<table><tr><th>
+[Quelle]
+
+</th><th>
+Herausgeber: Titel
+
+</th></tr><tr><td>
+[gemGlossar]
+
+</td><td>
+gematik: Glossar
+
+</td></tr><tr><td>
+[gemKPT_Arch_TIP]
+
+</td><td>
+gematik: Konzept Architektur der TI-Plattform
+
+</td></tr><tr><td>
+[gemKPT_Sich_Kon]
+
+</td><td>
+gematik: Sicherheitskonzept Konnektor
+
+</td></tr><tr><td>
+[gemKPT_Test]
+
+</td><td>
+gematik: Testkonzept
+
+</td></tr><tr><td>
+[gemSpec_COS]
+
+</td><td>
+gematik: Spezifikation des Card Operating System (COS) – Elektrische
+Schnittstelle
+
+</td></tr><tr><td>
+[gemSpec_Karten_Fach_TIP]
+
+</td><td>
+gematik: Befüllvorschriften für die Plattformanteile der Karten der TI
+
+</td></tr><tr><td>
+[gemSpec_eGK_ObjSys]
+
+</td><td>
+gematik: Spezifikation der elektronischen Gesundheitskarte eGK-Objektsystem -
+für Karten der Generation 2
+
+</td></tr><tr><td>
+[gemSpec_eGK_ObjSys_G2.1]
+
+</td><td>
+gematik: Spezifikation der elektronischen Gesundheitskarte eGK-Objektsystem -
+für Karten der Generation 2.1
+
+</td></tr><tr><td>
+[gemSpec_eGK_P1]
+
+</td><td>
+gematik: Die Spezifikation der elektronische Gesundheitskarte; Teil 1 –
+Spezifikation der elektrischen Schnittstelle
+
+- für Karten der Generation 1+
+
+</td></tr><tr><td>
+[gemSpec_eGK_P2]
+
+</td><td>
+gematik: Die Spezifikation der elektronische Gesundheitskarte; Teil 2 –
+Grundlegende Applikationen
+
+- für Karten der Generation 1+
+
+</td></tr><tr><td>
+[gemSpec_gSMC-K_ObjSys]
+
+</td><td>
+gematik: Spezifikation der gSMC-K Objektsystem
+
+</td></tr><tr><td>
+[gemSpec_gSMC-KT_ObjSys]
+
+</td><td>
+gematik: Spezifikation gSMC-KT Objektsystem
+
+</td></tr><tr><td>
+[gemSpec_HBA_ObjSys]
+
+</td><td>
+gematik: Spezifikation HBA Objektsystem
+
+</td></tr><tr><td>
+[gemSpec_Krypt]
+
+</td><td>
+gematik: Übergreifende Spezifikation Verwendung kryptographischer Algorithmen
+in der Telematikinfrastruktur
+
+</td></tr><tr><td>
+[gemSpec_KSR]
+
+</td><td>
+gematik: Spezifikation Konfigurationsdienst
+
+</td></tr><tr><td>
+[gemSpec_KT]
+
+</td><td>
+gematik: Spezifikation eHealth-Kartenterminal
+
+</td></tr><tr><td>
+[gemSpec_Net]
+
+</td><td>
+gematik: Spezifikation Netzwerk
+
+</td></tr><tr><td>
+[gemSpec_OID]
+
+</td><td>
+gematik: Spezifikation OID
+
+</td></tr><tr><td>
+[gemSpec_OM]
+
+</td><td>
+gematik: Übergreifende Spezifikation Operations und Maintenance
+
+</td></tr><tr><td>
+[gemSpec_Perf]
+
+</td><td>
+gematik: Performance und Mengengerüst TI-Plattform
+
+</td></tr><tr><td>
+[gemSpec_PKI]
+
+</td><td>
+gematik: Spezifikation PKI
+
+</td></tr><tr><td>
+[gemSpec_SMC-B_ObjSys]
+
+</td><td>
+gematik: Spezifikation SMC-B Objektsystem
+
+</td></tr><tr><td>
+[gemSpec_VPN_ZugD]
+
+</td><td>
+gematik: Spezifikation VPN-Zugangsdienst
+
+</td></tr><tr><td>
+[gemSpec_VZD]
+
+</td><td>
+gematik: Spezifikation Verzeichnisdienst
+
+</td></tr><tr><td>
+gemGitHub_tslSig]
+
+</td><td>
+https://github.com/gematik/examples-TelematikInterfaces/tree/master/tslService/detachedSignature
+
+ 
+
+</td></tr></table>
 
 ### 5.5.2 Weitere Dokumente
 
- ---> TABLE
+<table><tr><th>
+[Quelle]
+
+</th><th>
+Herausgeber (Erscheinungsdatum): Titel
+
+</th></tr><tr><td>
+[7816–4]
+
+</td><td>
+ISO/IEC 7816-4: 2005 (2nd edition) Identification cards — Integrated circuit
+cards - Part 4: Organization, security and commands for interchange
+
+</td></tr><tr><td>
+[ALGCAT]
+
+</td><td>
+SOG-IS Crypto Evaluation Scheme - Agreed Cryptographic Mechanisms, Version 1.2,
+Januar 2020.
+
+</td></tr><tr><td>
+[Basic Profile1.2]
+
+</td><td>
+Basic Profile Version 1.2
+
+http://www.ws-i.org/Profiles/BasicProfile-1.2-2010-11-09.html
+
+</td></tr><tr><td>
+[Basic Profile2.0]
+
+</td><td>
+Basic Profile Version 2.0
+
+http://www.ws-i.org/Profiles/BasicProfile-2.0-2010-11-09.html
+
+</td></tr><tr><td>
+[BSI-TR-03111]
+
+</td><td>
+Technical Guideline BSI TR-03111
+
+Elliptic Curve Cryptography, Version 2.10, Date: 2018-06-01
+
+https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_V-2-1_pdf.pdf?__blob=publicationFile&v=2
+
+ 
+
+</td></tr><tr><td>
+[BSI-TR03114]
+
+</td><td>
+BSI (22.10.2007): Technische Richtlinie – Stapelsignatur mit dem
+Heilberufsausweis; Version 2.0
+
+https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/
+Publikationen/TechnischeRichtlinien/TR03114/BSI-TR-03114.pdf?
+__blob=publicationFile&v=1
+
+     
+
+</td></tr><tr><td>
+[BSI TR-03120]
+
+</td><td>
+BSI (23.10.2007): BSI - Technische Richtlinie – Sichere
+Kartenterminalidentität (Betriebskonzept); Version 1.0
+
+https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/
+Publikationen/TechnischeRichtlinien/TR03120/BSI-TR-03120.pdf?
+__blob=publicationFile&v=1
+
+    
+
+</td></tr><tr><td>
+[CAdES]
+
+</td><td>
+ETSI: Electronic Signature Formats, Electronic Signatures and Infrastructures
+(ESI) – Technical Specification, ETSI TS 101 733 V2.2.1, via
+
+http://www.etsi.org
+
+</td></tr><tr><td>
+[Canon XML1.1]
+
+</td><td>
+Canonical XML Version 1.1
+
+http://www.w3.org/TR/2008/REC-xml-c14n11-20080502/
+
+</td></tr><tr><td>
+[CDA]
+
+</td><td>
+ISO/HL7 27932:2009 Data Exchange Standards -- HL7 Clinical Document
+Architecture, Release 2
+
+</td></tr><tr><td>
+[CDA-Sig]
+
+</td><td>
+Erstellung von XML-Signaturen für Dokumente nach Clinical Documents
+Architecture – R2, Elektronische Signatur von Arztbriefen,  Ärztekammern
+in NRW im Auftrag der Bundesärztekammer, Version 1.6 vom 19.04.2010
+
+</td></tr><tr><td>
+[COMMON_PKI]
+
+</td><td>
+Common PKI Specifications for Interoperable Applications
+
+Version 2.0, 20 January 2009
+
+http://www.t7ev.org/themen/entwickler/common-pki-v20-spezifikation.html
+
+ISIS-MTT Core Specification, 2004, Version 1.1
+
+https://www.teletrust.de/fileadmin/files/ ISIS-MTT_Profile_SigGOptions_v1.1.pdf
+
+  
+
+</td></tr><tr><td>
+[CMS]
+
+</td><td>
+Cryptographic Message Syntax (CMS), September 2009
+
+https://datatracker.ietf.org/doc/html/rfc5652
+
+ 
+
+</td></tr><tr><td>
+[DIN 66003]
+
+</td><td>
+DIN 66003:1999
+
+Informationsverarbeitung; 7-Bit-Code
+
+</td></tr><tr><td>
+[HPC-P1]
+
+</td><td>
+Spezifikation des elektronischen Heilberufsausweises
+
+Version 2.3.2, 05.08.2009, Teil I: Kommandos, Algorithmen und Funktionen der COS
+Plattform
+
+</td></tr><tr><td>
+[HPC-P2]
+
+</td><td>
+Spezifikation des elektronischen Heilberufsausweises
+
+Version 2.3.2, 05.08.2009, Teil II: HPC - Anwendungen und Funktionen
+
+</td></tr><tr><td>
+[HPC-P3]
+
+</td><td>
+Spezifikation des elektronischen Heilberufsausweises
+
+Version 2.3.2, 05.08.2009, Teil III: SMC - Anwendungen und Funktionen
+
+</td></tr><tr><td>
+[HüKo06]
+
+</td><td>
+BSI (2006):
+
+Hühnlein, Detlef/Korte, Ulrike:Grundlagen der elektronischen Signatur
+
+</td></tr><tr><td>
+[IEEE 802.3]
+
+</td><td>
+Technical Committee Computer Communications of the IEEE Computer Society, USA
+(1985):
+
+IEEE standards for local area networks: carrier sense multiple access with
+collision detection (CSMA/CD) access method and physical layer specifications
+
+ISBN: 0-7381-4253-0
+
+</td></tr><tr><td>
+[ISO 8601]
+
+</td><td>
+International Organization for Standardization (2006-09): Data elements and
+interchange formats -- Information interchange -- Representation of dates and
+times
+
+</td></tr><tr><td>
+[KVK]
+
+</td><td>
+Spitzenverbände der Krankenkassen, Kassenärztliche Bundesvereinigung und
+Kassenzahnärztlichen Bundesvereinigung (gültig ab 25. November 2009):
+
+Technische Spezifikation der Versichertenkarte Version: 2.08
+
+</td></tr><tr><td>
+[MIME]
+
+</td><td>
+RFC 2045
+
+,
+
+RFC 2046
+
+,
+
+RFC 2047
+
+,
+
+RFC 2048
+
+,
+
+RFC 2049
+
+</td></tr><tr><td>
+[NTPv4]
+
+</td><td>
+Internet Engineering Task Force (IETF) (06/2010): Network Time Protocol Version
+4: Protocol and Algorithms Specification
+
+https://datatracker.ietf.org/doc/html/rfc5905
+
+ 
+
+</td></tr><tr><td>
+[OASIS-
+
+AdES]
+
+</td><td>
+OASIS: Advanced Electronic Signature Profiles of the OASIS Digital Signature
+Service Version 1.0, OASIS Standard,
+
+http://docs.oasis-open.org/dss/v1.0/oasis-dss-profiles-AdES-spec-v1.0-os.pdf
+
+</td></tr><tr><td>
+[OASIS-DSS]
+
+</td><td>
+OASIS: Digital Signature Service Core Protocols, Elements, and Bindings, Version
+1.0, OASIS Standard, via
+
+http://docs.oasis-open.org/dss/v1.0/oasis-dss-core-spec-v1.0-os.pdf
+
+</td></tr><tr><td>
+[OASIS-SP]
+
+</td><td>
+OASIS: Signature Policy Profile of the OASIS Digital Signature Services Version
+1.0, Committee Draft 01, 18 May
+2009, http://docs.oasis-open.org/dss-x/profiles/sigpolicy/oasis-dssx-1.0-profiles-sigpolicy-cd01.pdf
+
+</td></tr><tr><td>
+[OASIS-VR]
+
+</td><td>
+OASIS: Profile for comprehensive multi-signature verification reports for OASIS
+Digital Signature Services Version 1.0, Committee Specification 01, 12 November
+2010, http://docs.oasis-open.org/dss-x/profiles/verificationreport/oasis-dssx-1.0-profiles-vr-cs01.pdf
+
+</td></tr><tr><td>
+[PAdES-1]
+
+</td><td>
+European Telecommunications Standards Institute (ETSI): Electronic Signatures
+and Infrastructures (ESI); PDF Advanced Electronic Signature Profiles; Part 1:
+PAdES Overview – a framework document for PAdES,
+
+ETSI TS 102 778-1 V1.1.1, Technical Specification, 2009
+
+</td></tr><tr><td>
+[PAdES-3]
+
+</td><td>
+European Telecommunications Standards Institute (ETSI): Electronic Signatures
+and Infrastructures (ESI); PDF Advanced Electronic Signature Profiles; Part 3:
+PAdES Enhanced – PAdES-BES and PAdES-EPES Profiles, ETSI TS 102 778-3 V1.1.2,
+Technical Specification, 2009
+
+</td></tr><tr><td>
+[PAdES-4]
+
+</td><td>
+European Telecommunications Standards Institute (ETSI): Electronic Signatures
+and Infrastructures (ESI); PDF Advanced Electronic Signature Profiles; Part 4:
+PAdES Long Term – PAdES-LTV Profile, ETSI TS 102 778-4 V1.1.2, Technical
+Specification, 2009
+
+</td></tr><tr><td>
+[ISO 19005]
+
+</td><td>
+ISO 19005 – Document management – Electronic document file format for
+long-term preservation
+
+</td></tr><tr><td>
+[PDF/A-2]
+
+</td><td>
+ISO 19005-2:2011 – Document management – Electronic document file format for
+long-term preservation – Part 2: Use of ISO 32000-1 (PDF/A-2)
+
+</td></tr><tr><td>
+[PP_NK]
+
+</td><td>
+Common  Criteria  Schutzprofil  (Protection  Profile)
+
+Schutzprofil 1: Anforderungen an den Netzkonnektor
+
+BSI-CC-PP-0097
+
+</td></tr><tr><td>
+[PP_KON]
+
+</td><td>
+Common  Criteria  Schutzprofil  (Protection  Profile)
+
+Schutzprofil 2: Anforderungen an den Konnektor:
+
+BSI-CC-PP-0098
+
+</td></tr><tr><td>
+[RFC792]
+
+</td><td>
+IETF (September 1981) INTERNET CONTROL MESSAGE PROTOCOL
+
+https://datatracker.ietf.org/doc/html/rfc792
+
+ 
+
+</td></tr><tr><td>
+[RFC1034]
+
+</td><td>
+RFC 1034 (November 1987): Domain Names – Concepts and Facilities
+
+https://datatracker.ietf.org/doc/html/rfc1034
+
+ 
+
+</td></tr><tr><td>
+[RFC1122]
+
+</td><td>
+RFC 1122 (Oktober 1989): Requirements for Internet Hosts -- Communication Layers
+
+https://datatracker.ietf.org/doc/html/rfc1122
+
+ 
+
+</td></tr><tr><td>
+[RFC1812]
+
+</td><td>
+F. Baker (ed.): Requirements for IP Version 4 Routers
+
+, IETF RFC 1812
+
+https://datatracker.ietf.org/doc/html/rfc1812
+
+ 
+
+</td></tr><tr><td>
+[RFC1918]
+
+</td><td>
+RFC1918 (Februar 1996): Address Allocation for Private Internets
+
+https://datatracker.ietf.org/doc/html/rfc1918
+
+ 
+
+</td></tr><tr><td>
+[RFC2119]
+
+</td><td>
+RFC 2119 (März 1997): Key words for use in RFCs to Indicate Requirement Levels
+S. Bradner https://datatracker.ietf.org/doc/html/rfc2119 
+
+</td></tr><tr><td>
+[RFC2131]
+
+</td><td>
+Network Working Group (03/1997): Dynamic Host Configuration Protocol
+
+https://datatracker.ietf.org/doc/html/rfc2131
+
+ 
+
+</td></tr><tr><td>
+[RFC2132]
+
+</td><td>
+Network Working Group (03/1997): DHCP Options and BOOTP Vendor Extensions
+
+https://datatracker.ietf.org/doc/html/rfc2132
+
+ 
+
+</td></tr><tr><td>
+[RFC2616]
+
+</td><td>
+Network Working Group (06/1999): Hypertext Transfer Protocol -- HTTP/1.1 
+
+https://datatracker.ietf.org/doc/html/rfc2616 
+
+</td></tr><tr><td>
+[RFC2617]
+
+</td><td>
+Network Working Group (06/1999): HTTP Authentication: Basic and Digest Access
+Authentication
+
+https://datatracker.ietf.org/doc/html/rfc2617
+
+ 
+
+</td></tr><tr><td>
+[RFC2644]
+
+</td><td>
+D. Senie:
+
+Changing the Default for Directed Broadcasts in Routers
+
+, IETF RFC 2644,  
+https://datatracker.ietf.org/doc/html/rfc2644 
+
+</td></tr><tr><td>
+[RFC2663]
+
+</td><td>
+P. Srisuresh, M. Holdrege:
+
+IP Network Address Translator (NAT) Terminology and Considerations
+
+, IETF RFC 2663, https://datatracker.ietf.org/doc/html/rfc2663 
+
+</td></tr><tr><td>
+[RFC2818]
+
+</td><td>
+Network Working Group (05/2000): HTTP Over TLS
+
+https://datatracker.ietf.org/doc/html/rfc2818
+
+ 
+
+</td></tr><tr><td>
+[RFC3022]
+
+</td><td>
+RFC 3022 (Januar 2001): Traditional IP Network Address Translator (Traditional
+NAT)
+
+https://datatracker.ietf.org/doc/html/rfc3022
+
+ 
+
+</td></tr><tr><td>
+[RFC3275]
+
+</td><td>
+D. Eastlage, J. Reagle, D. Solo:
+
+(Extensible Markup Language) XMLSignature Syntax and Processing
+
+, IETF RFC 3275, https://datatracker.ietf.org/doc/html/rfc3275 
+
+</td></tr><tr><td>
+[RFC3279]
+
+</td><td>
+W, Polk, R. Hously, L. Bassham:
+
+Algorithms and Identifiers for the Internet X.509 Public Key Infrastructure
+Certificate and Certificate Revocation List (CRL) Profile
+
+, IETF RFC 3279,
+
+https://datatracker.ietf.org/doc/html/rfc3279
+
+ 
+
+</td></tr><tr><td>
+[RFC3447]
+
+</td><td>
+B. Kaliski:_PKCS #1: RSA Encryption, Version 2.1 
+
+https://datatracker.ietf.org/doc/html/rfc3447 
+
+</td></tr><tr><td>
+[RFC3629]
+
+</td><td>
+Network Working Group (11/2003): UTF-8, a transformation format of ISO 10646
+
+https://datatracker.ietf.org/doc/html/rfc3629
+
+ 
+
+</td></tr><tr><td>
+[RFC3927]
+
+</td><td>
+Network Working Group (05/2005): Dynamic Configuration of IPv4 Link-Local
+Addresses
+
+https://datatracker.ietf.org/doc/html/rfc3927
+
+ 
+
+</td></tr><tr><td>
+[RFC3986]
+
+</td><td>
+Network Working Group (01/2005): Uniform Resource Identifier (URI): Generic
+Syntax
+
+</td></tr><tr><td>
+[RFC4122]
+
+</td><td>
+RFC 4122 (July 2005): A Universelly Unique Identifier UUID URN Namspace
+
+https://datatracker.ietf.org/doc/html/rfc4122
+
+ 
+
+</td></tr><tr><td>
+[RFC4511]
+
+</td><td>
+RFC 4511 (June 2006): Lightweight Directory Access Protocol (LDAP): The Protocol
+
+https://datatracker.ietf.org/doc/html/rfc4511
+
+ 
+
+</td></tr><tr><td>
+[RFC4632]
+
+</td><td>
+Network Working Group (08/2006): Classless Inter-domain Routing (CIDR): The
+Internet Address Assignment and Aggregation Plan
+
+https://datatracker.ietf.org/doc/html/rfc4632
+
+ 
+
+</td></tr><tr><td>
+[RFC5246]
+
+</td><td>
+RFC 5246 (August 2008): The Transport Layer Security (TLS) Protocol Version 1.2;
+
+https://datatracker.ietf.org/doc/html/rfc5246
+
+ 
+
+</td></tr><tr><td>
+[RFC5652]
+
+</td><td>
+R. Housley:
+
+Cryptographic Message Syntax (CMS), RFC 5652 (September 2009)
+
+https://datatracker.ietf.org/doc/html/rfc5652
+
+ 
+
+</td></tr><tr><td>
+[RFC 6598]
+
+</td><td>
+RFC 6598 (April 2012): IANA-Reserved IPv4 Prefix for Shared Address Space
+
+https://datatracker.ietf.org/doc/html/rfc6598
+
+ 
+
+</td></tr><tr><td>
+[RFC6931]
+
+</td><td>
+RFC 6931 (April 2013): Additional XML Security Uniform Resource Identifiers
+(URIs)
+
+https://datatracker.ietf.org/doc/html/rfc6931
+
+ 
+
+</td></tr><tr><td>
+[RFC7159]
+
+</td><td>
+RFC 7159 (March 2014): The JavaScript Object Notation (JSON) Data Interchange
+Format
+
+https://datatracker.ietf.org/doc/html/rfc7159
+
+ 
+
+</td></tr><tr><td>
+[S/MIME]
+
+</td><td>
+RFC 5751  (Januar  2010): Secure/Multipurpose Internet Mail
+Extensions  (S/MIME), Version 3.2, Message Specification
+
+https://datatracker.ietf.org/doc/html/rfc5751
+
+ 
+
+</td></tr><tr><td>
+[SOAP1.1]
+
+</td><td>
+Simple Object Access Protocol (SOAP) 1.1
+
+W3C Note (08 May 2000)
+
+https://www.w3.org/TR/2000/NOTE-SOAP-20000508/
+
+ 
+
+</td></tr><tr><td>
+[SOAP1.2]
+
+</td><td>
+SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)
+
+W3C Recommendation (27 April 2007)
+
+http://www.w3.org/TR/2007/REC-soap12-part1-20070427/
+
+</td></tr><tr><td>
+[SICCT]
+
+</td><td>
+TeleTrusT (17.12.2010): SICCT Secure Interoperable ChipCard Terminal,
+
+Version 1.21
+
+https://www.teletrust.de/fileadmin/docs/projekte/sicct/SICCT-Spezifikation-1.21.pdf
+
+ 
+
+</td></tr><tr><td>
+[TIFF6]
+
+</td><td>
+TIFF Revision 6.0 (Final, June 3, 1992)
+
+https://www.adobe.io/open/standards/TIFF/_jcr_content/
+contentbody/download/file.res/TIFF6.pdf.html
+
+ 
+
+</td></tr><tr><td>
+[WSDL1.1]
+
+</td><td>
+W3C Note (15.03.2001):
+
+Web Services Description Language (WSDL) 1.1
+
+http://www.w3.org/TR/wsdl
+
+</td></tr><tr><td>
+[XAdES]
+
+</td><td>
+European Telecommunications Standards Institute (ETSI): Technical Specication
+XML Advanced Electronic Signatures (XAdES). ETSI Technical Specication TS 101
+903, Version 1.4.2, 2010
+
+</td></tr><tr><td>
+[XMLDSig]
+
+</td><td>
+W3C Recommendation (06.2008):
+
+XML-Signature Syntax and Processing
+
+http://www.w3.org/TR/2008/REC-xmldsig-core-20080610/
+
+</td></tr><tr><td>
+[XMLEnc]
+
+</td><td>
+XML Encryption Syntax and Processing
+
+W3C Recommendation 11 April 2013
+
+http://www.w3.org/TR/xmlenc-core1/
+
+</td></tr><tr><td>
+[XPATH]
+
+</td><td>
+W3C Recommendation (14 December 2010)
+
+XML Path Language (XPath) 2.0 (Second Edition)
+
+http://www.w3.org/TR/2010/REC-xpath20-20101214/
+
+</td></tr><tr><td>
+[XSLT]
+
+</td><td>
+W3C Recommendation (23 January 2007)
+
+XSL Transformations (XSLT) Version 2.0
+
+http://www.w3.org/TR/2007/REC-xslt20-20070123/
+
+</td></tr><tr><td>
+[XAdES Baseline
+
+Profile]
+
+</td><td>
+European Telecommunications Standards Institute (ETSI): Electronic Signatures
+and Infrastructure (ESI); XAdES Baseline Profile; ETSI Technical Specification
+TS 103 171, Version 2.1.1, 2012-03
+
+</td></tr><tr><td>
+[CAdES Baseline
+
+Profile]
+
+</td><td>
+European Telecommunications Standards Institute (ETSI): Electronic Signatures
+and Infrastructure (ESI); CAdES Baseline Profile; ETSI Technical Specification
+TS 103 173, Version 2.1.1, 2013-04
+
+</td></tr><tr><td>
+[PAdES Baseline
+
+Profile]
+
+</td><td>
+European Telecommunications Standards Institute (ETSI): Electronic Signatures
+and Infrastructure (ESI); PAdES Baseline Profile; ETSI Technical Specification
+TS 103 172, Version 2.2.2, (2013-04)
+
+</td></tr><tr><td>
+[XSL]
+
+</td><td>
+W3C Recommendation (05.12.2006):
+
+Extensible Stylesheet language (XSL) Version1.1
+
+http://www.w3.org/TR/2006/REC-xsl11-20061205/
+
+</td></tr><tr><td>
+[MTOM]
+
+</td><td>
+SOAP Message Transmission Optimization Mechanism
+
+W3C Recommendation 25 January 2005
+
+http://www.w3.org/TR/2005/REC-soap12-mtom-20050125/
+
+</td></tr><tr><td>
+[MTOM-SOAP1.1]
+
+</td><td>
+W3C Member Submission 05 April 2006
+
+SOAP 1.1 Binding for MTOM 1.0
+
+https://www.w3.org/Submission/soap11mtom10/
+
+</td></tr><tr><td>
+[WS-MTOM Policy]
+
+</td><td>
+W3C Member Submission 18 November 2007
+
+MTOM Serialization Policy Assertion 1.1
+
+</td></tr><tr><td>
+[COS-G2]
+
+</td><td>
+Common Criteria Protection Profile, Card Operating System Generation 2, (PP COS
+G2), BSI-CC-PP-0082-V2
+
+</td></tr></table>
 
 ### 6 Anhang B – Profilierung der Signatur- und Verschlüsselungsformate (normativ)
 
@@ -10008,7 +53023,165 @@ Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.
 
 ### 6.2 Profilierung der Signaturformate
 
- ---> TABLE
+<table><tr><th>
+Aspekt
+
+(QES/nonQES)
+
+</th><th>
+Festlegung
+
+(XML-Signatur/CMS-Signatur/PDF-Signatur)
+
+</th></tr><tr><td>
+Zertifikatsreferenz
+
+(QES und nonQES)
+
+</td><td>
+XML-Signatur
+
+Bei der Signaturerstellung ist das XML-Element
+
+SigningCertificate
+
+gemäß den Vorgaben aus XAdES Kapitel 7.2.2 „The SigningCertificate
+element“ anzulegen.
+
+Bei der Signaturprüfung ist es gemäß XAdES Kapitel G.2.2.5 „Verification
+technical rules” [XAdES] zu prüfen. Grundsätzlich sind auch Signaturen zu
+prüfen, die keine Zertifikatsreferenz enthalten. Das Prüfergebnis muss dann
+widerspiegeln, dass diese Sicherheitsfunktion nicht enthalten war.
+
+CMS-Signatur
+
+Bei der Signaturerstellung ist das Attribut
+
+signing
+
+certificate reference
+
+gemäß CAdES Kapitel 5.7.3 „Signing Certificate Reference Attributes“
+[CAdES] anzulegen.
+
+Bei der Signaturprüfung ist es gemäß CAdES Kapitel 5.6.3 „Message signature
+verification process“ [CAdES] zu prüfen.
+
+Grundsätzlich sind auch Signaturen zu prüfen, die keine Zertifikatsreferenz
+enthalten. Das Prüfergebnis muss dann widerspiegeln, dass diese
+Sicherheitsfunktion nicht enthalten war.
+
+PDF-Signatur
+
+Bei der Signaturerstellung ist das Attribut
+
+signing
+
+certificate reference
+
+gemäß den Vorgaben aus [PAdES-3] Kapitel 4.4.3 „Signing Certificate
+Reference Attribute“ anzulegen.
+
+Bei der Signaturprüfung ist es gemäß [PAdES-3]Kapitel 4.6.1 „Signing
+Certificate Reference Validation“ zu prüfen. Grundsätzlich sind auch
+Signaturen zu prüfen, die keine Zertifikatsreferenz enthalten. Das
+Prüfergebnis muss dann widerspiegeln, dass diese Sicherheitsfunktion nicht
+enthalten war.
+
+</td></tr><tr><td>
+Signaturablage
+
+</td><td>
+PDF-Signatur
+
+Sie Signatur wird als Incremental Update gemäß [PDF/A-2] Kapitel 7.5.6 an das
+Dokument angefügt.
+
+</td></tr><tr><td>
+Parallelsignatur
+
+(QES und nonQES)
+
+</td><td>
+XML-Signatur
+
+Parallele Signaturen werden durch je ein
+
+ds:signature
+
+-Element pro Signatur abgebildet. Für die Signaturvariante „enveloping“
+werden parallele Signaturen nicht angeboten.
+
+CMS-Signatur:
+
+Parallele Signaturen werden durch je einen SignerInfo-Container pro Signatur
+realisiert.
+
+PDF-Signatur:
+
+Parallele Signaturen werden nicht angeboten.
+
+</td></tr><tr><td>
+Dokumentexkludierende Gegensignatur
+
+(QES und nonQES)
+
+</td><td>
+XML-Signatur
+
+Die Implementierung erfolgt mittels Countersignature gemäß [XAdES], Kapitel
+7.2.4. Jede vorhandene Parallel-Signatur wird gegensigniert.
+
+CMS-Signatur:
+
+Die Implementierung erfolgt mittels der Countersignature gemäß
+CMS-Spezifikation [RFC5652]. Jede vorhandene Parallel-Signatur wird
+gegensigniert.
+
+PDF-Signatur:
+
+Dokumentexkludierende Gegensignaturen werden nicht angeboten.
+
+</td></tr><tr><td colspan="1" rowspan="2">
+Referenzierung
+
+(QES und nonQES)
+
+</td><td>
+XML-Signatur
+
+Bei der Signaturerzeugung verwendet der Konnektor 
+
+in der Signatur nur ID-basierte Referenzen. Bei der Signaturprüfung reagiert
+der Konnektor bei Abweichungen hiervon mit Fehler 4208.
+
+</td></tr><tr><td>
+XML-Signatur / CMS-Signatur
+
+Bei XML-Dokumenten und XML-Signaturen kann die Referenzierung von Objekten auf
+zwei Arten erfolgen: 
+
+– Ist kein XML-Schema vorhanden, so werden die Werte des ID-Attributs des
+referenzierten Elements verwendet.
+
+– Wird ein XML-Schema übergeben, so muss dieses die ID-Attribute zur
+Referenzierung festlegen.
+
+Bei Abweichungen reagiert der Konnektor mit Fehlercode 4115.
+
+</td></tr><tr><td>
+Anzahl unterstützter Signaturen
+
+(QES und nonQES)
+
+</td><td>
+XML-Signatur / CMS-Signatur / PDF-Signatur
+
+Es müssen mindestens 20 Signaturen pro Dokument unterstützt werden. Sind mehr
+als die unterstützte Anzahl von Signaturen in einem Dokument enthalten, wird
+die Operation mit Fehler 4280 abgebrochen.
+
+</td></tr></table>
 
 ### 6.3 Profilierung VerificationReport
 
@@ -10365,13 +53538,3927 @@ Dokument mit Signatur und Gegensignatur
 
 ### 6.4 Profilierung der Dokumentenformate und Nachrichten
 
- ---> TABLE
+<table><tr><th>
+Dokument / Nachricht
 
- ---> TABLE
+</th><th>
+Mindestanforderung
+
+</th></tr><tr><td colspan="1" rowspan="8">
+XML-Dokument
+
+</td><td>
+Hierarchietiefe des Dokumentenbaums: 30 Ebenen 
+
+</td></tr><tr><td>
+Anzahl von XML-Elementen im Dokument: 30.000
+
+</td></tr><tr><td>
+Anzahl von XML-Attributen je XML-Element: 20
+
+</td></tr><tr><td>
+Anzahl von direkten Kindern eines XML-Elements: 50
+
+</td></tr><tr><td>
+Länge von XML-Bezeichnern (z. B. Elementnamen, Attributnamen,
+Namespace-Präfixes, usw.): 200
+
+</td></tr><tr><td>
+Gesamtanzahl von Transformationen im Dokument: 64
+
+</td></tr><tr><td>
+Anzahl von Transformationen pro Reference-Element: 10
+
+</td></tr><tr><td>
+Element-Größe pro Einzelknoten im Base64-codierten Dokument: 30 MB
+
+</td></tr></table>
+
+<table><tr><th>
+Dokument / Nachricht
+
+</th><th>
+Unerlaubte Inhalte
+
+</th></tr><tr><td colspan="1" rowspan="5">
+XML-Dokument
+
+</td><td>
+Es dürfen keine ENTITY-Deklarationen im XML-Dokument vorkommen.
+
+</td></tr><tr><td>
+Zu verifizierende XML-Dokumente dürfen im \<Transforms\>-Teil ihrer Referenzen
+weder XPath-Ausdrücke noch XSL-Transformationen enthalten.
+
+</td></tr><tr><td>
+Bei Referenzen (ReferenceType) darf das optionale URI-Attribut keine
+"xpointer()"-Ausdrücke enthalten.
+
+</td></tr><tr><td colspan="1" rowspan="2">
+XInclude-Mechanismen dürfen nicht verwendet werden. Elemente aus dem Namensraum
+
+http://www.w3.org/2001/XInclude
+
+ dürfen in XML-Dokumenten nicht enthalten sein.
+
+</td></tr><tr></tr></table>
 
 ### 7 Anhang F – Übersicht Events
 
- ---> TABLE
+<table><tr><th>
+Topic Ebene1
+
+/Topic Ebene2
+
+/Topic Ebene3
+
+</th><th>
+Typ
+
+</th><th>
+Schw
+
+ere
+
+</th><th>
+Pr
+
+ot
+
+</th><th>
+An
+
+Cli
+
+en
+
+ts
+
+</th><th>
+Parameter
+
+</th><th>
+Bedeutung
+
+</th><th>
+Auslöser
+
+(TUC/Op)
+
+</th></tr><tr><td colspan="8">
+Interne Mechanismen
+
+</td></tr><tr><td>
+BOOTUP
+
+/
+
+BOOTUP_COMPLETE
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+Änderung des Betriebszustandes
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_CardTerminal_Software_Out_Of_Date
+
+($ctId)
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+CtID=$ctId;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+Änderung des Betriebszustandes
+
+durch Änderung im
+
+Fehlerzustand
+
+(Änderung im
+
+Value).
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE  
+/EC_CardTerminal_gSMC-KT_Certificate_Expires_Soon($ctId)
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+CtID=$ctId;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+Änderung des Betriebszustandes
+
+durch Änderung im
+
+Fehlerzustand
+
+(Änderung im
+
+Value).
+
+</td><td>
+TUC_KON_050
+
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_Connector_Software_Out_Of_Date
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_FW_Not_Valid_Status_Blocked
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_Time_Sync_Not_Successful
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+LastSyncAttempt=
+
+$lastSyncAttempt
+
+Timestamp;
+
+LastSyncSuccess=
+
+$lastSyncSuccess
+
+Timestamp;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_TSL_Update_Not_Successful
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description;
+
+LastUpdateTSL=
+
+$lastUpdate
+
+TSLTimestamp
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_TSL_Expiring
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+NextUpdateTSL=
+
+$NextUpdate-
+
+Element der TSL;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_TSL_Trust_Anchor_Expiring
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+ExpiringDate
+
+TrustAnchor=
+
+Ablaufdatum
+
+der Vertrauens
+
+ankergültigkeit;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_LOG_OVERFLOW
+
+</td><td>
+Op
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Protokoll=$Protokoll;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+TUC_KON_271
+
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_CRL_Expiring
+
+</td><td>
+Sec
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+NextUpdateTSL=
+
+$NextUpdate-
+
+Element der TSL;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_Time_Sync_Pending_Warning
+
+</td><td>
+Sec
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+LastSyncSuccess=
+
+$lastSyncSuccess
+
+Timestamp;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_TSL_Out_Of_Date_Within_Grace_Period
+
+</td><td>
+Sec
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+NextUpdateTSL=
+
+$NextUpdate-
+
+Element der TSL;
+
+GracePeriodTSL=
+
+CERT_TSL_
+
+DEFAULT_GRACE_
+
+PERIOD_DAYS;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_CardTerminal_Not_Available($ctId)
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+CtID=$ctId;
+
+Bedeutung
+
+=$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_No_VPN_TI_Connection
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_No_VPN_SIS_Connection
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_No_Online_Connection
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_IP_Adresses_Not_Available
+
+</td><td>
+Sec
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_CRL_Out_Of_Date
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+NextUpdateCRL=
+
+$NextUpdate der CRL;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_Firewall_Not_Reliable
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_Random_Generator_Not_Reliable
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_Secure_KeyStore_Not_Available
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_Security_Log_Not_Writable
+
+</td><td>
+Op
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/EC_Software_Integrity_Check_Failed
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/EC_Time_Difference_Intolerable
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description;
+
+NtpTimedifference=
+
+Zeitabweichung;
+
+NtpMaxAllowedTime
+
+difference=
+
+NTP_MAX_TIMEDIF
+
+FERENCE;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/EC_Time_Sync_Pending_Critical
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+LastSyncSuccess=
+
+$lastSyncSuccess
+
+Timestamp;
+
+NtpGracePeriod=
+
+NTP_GRACE_PERIOD;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/EC_TSL_Trust_Anchor_Out_Of_Date
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+ExpiringDate
+
+TrustAnchor=
+
+Ablaufdatum der
+
+Vertrauensanker
+
+gültigkeit;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/EC_TSL_Out_Of_Date_Beyond_Grace_Period
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Next
+
+UpdateTSL=
+
+$NextUpdate-Element der TSL;
+
+GracePeriodTSL=
+
+CERT_TSL_ DEFAULT_
+
+GRACE_PERIOD_DAYS;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_CRYPTOPERATION_ALARM
+
+</td><td>
+Sec
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Operation=
+
+$Operationsname;
+
+Count=$Summenwert;
+
+Arbeitsplatz
+
+=$\<Liste operations-aufrufenden
+
+workplace IDs\>;
+
+Meldung=’
+
+Auffällige
+
+Häufung von
+
+Operationsaufrufen in den letzten
+
+10 Minuten’
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_OTHER_ERROR_STATE($no)
+
+</td><td>
+$Type
+
+</td><td>
+$Seve
+
+rity
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+Bedeutung=
+
+$EC.description
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_BNetzA_VL_Update_Not_Successful
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+LastUpdate
+
+BNetzAVL=
+
+$lastUpdateBNetzAVL
+
+Timestamp;
+
+Bedeutung=
+
+$EC.description;
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_BNetzA_VL_not_valid
+
+</td><td>
+Sec
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Value=true/
+
+false;
+
+NextUpdate
+
+BNetzAVL=
+
+$NextUpdate-Element der BNetzA-VL;
+
+Bedeutung=
+
+$EC.description;
+
+</td><td>
+"
+
+</td><td>
+</td></tr><tr><td>
+OPERATIONAL_STATE
+
+/
+
+EC_FW_Update_Available
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Bedeutung=  
+$EC.description
+
+</td><td>
+I_KSRS_Download::list_  
+Updates  
+liefert mindestens eine  
+UpdateInformation
+mit einer UpdateInformation/Firmware/  
+FWVersion \> aktuelle Version  
+der
+Konnektor- oder Kartenterminalsoftware
+
+</td></tr><tr><td>
+OPERATIONAL_STATE/EC_NK_Certificate_Expiring
+
+</td><td>
+Sec
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Iccsn=$Iccsn;  
+Serial=$Serialnumber;  
+Bedeutung=  
+$EC.description
+
+</td><td>
+Das C.NK.VPN-Zertifikat läuft bald ab.   
+Systemzeit t \> (Ablaufdatum
+von C.NK.VPN – 180 Tage)
+
+</td></tr><tr><td>
+OPERATIONAL_STATE  
+/EC_NK_Certificate_Expired
+
+</td><td>
+Sec
+
+</td><td>
+Fatal
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Iccsn=$Iccsn;  
+Serial=$Serialnumber;  
+Bedeutung=  
+$EC.description
+
+</td><td>
+Das C.NK.VPN-Zertifikat ist abgelaufen.  
+Systemzeit t \> Ablaufdatum
+von C.NK.VPN
+
+</td></tr><tr><td>
+OPERATIONAL_STATE  
+/EC_TLS_Client_Certificate_Security
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Bedeutung=  
+$EC.description
+
+</td><td>
+Das für die Authentifizierung gegenüber dem Clientsystem konfigurierte
+Zertifikat hat ein Sicherheitsniveau von weniger als 120bit. Zu verwenden ist
+ein RSA -Zertifikat mit mindestens 3000 bit Schlüssellänge oder ein ECC
+Zertifikat.
+
+</td></tr><tr><td colspan="8">
+Zugriffsberechtigungsdienst
+
+</td></tr><tr></tr><tr><td colspan="8">
+Dokumentvalidierungsdienst
+
+</td></tr><tr></tr><tr><td colspan="8">
+Dienstverzeichnisdienst
+
+</td></tr><tr><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td colspan="8">
+Kartenterminaldienst
+
+</td></tr><tr><td>
+CT
+
+/
+
+ERROR
+
+</td><td>
+$Error
+
+Type
+
+</td><td>
+$Seve
+
+rity
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+CtID=$CT.ID;
+
+Name=$CT.HOSTNAME;
+
+Error=$Fehlercode;
+
+Bedeutung=
+
+$Fehlertext
+
+</td><td>
+Bei der Kommunikation mitdem KT ist ein Fehler aufgetreten
+
+</td><td>
+TUC_KON_051
+
+TUC_KON_053
+
+</td></tr><tr><td>
+CT
+
+/
+
+CONNECTED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+CtID=$CT.CTID;
+
+Hostname=
+
+$CT.HOSTNAME
+
+</td><td>
+Die Verbindung zu einem Kartenterminal wurde hergestellt
+
+</td><td>
+</td></tr><tr><td>
+CT
+
+/
+
+DISCONNECTED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+CtID=$CT.CTID;
+
+Hostname=
+
+$CT.HOSTNAME
+
+</td><td>
+Die Verbindung
+
+zu einem Kartenterminal
+
+wurde unterbrochen
+
+</td><td>
+</td></tr><tr><td>
+CT
+
+/
+
+TLS_ESTABLISHMENT_FAILURE
+
+</td><td>
+$Error
+
+Type
+
+</td><td>
+$Seve
+
+rity
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+CtID = $CT.ID;
+
+Name=$CT. HOSTNAME;
+
+Error=$Fehlercode;
+
+Bedeutung=
+
+$Fehlertext
+
+</td><td>
+Im Rahmen des
+
+Verbindungsaufbaus sind Fehler aufgetreten
+
+</td><td>
+TUC_KON_050
+
+</td></tr><tr><td>
+CT
+
+/
+
+CT_ADDING_ERROR
+
+</td><td>
+$Error
+
+Type
+
+</td><td>
+$Seve
+
+rity
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+IP=$IP-Adresse;
+
+Name=$Hostname;
+
+Error=$Fehlercode;
+
+Bedeutung=
+
+$Fehlertext
+
+</td><td>
+Bei dem Versuch ein KT der Verwaltung zuzufügen ist ein Fehler aufgetreten
+
+</td><td>
+TUC_KON_054
+
+</td></tr><tr><td>
+CT
+
+/SLOT_FREE
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+CtID=$CT.CTID;
+
+SlotNo=
+
+$CT.SLOTS_USED[X]
+
+</td><td>
+Internes Event von Kartenterminaldienst
+
+--\> Kartendienst.
+
+Informiert, dass
+
+ein Slot frei wurde. Wird im Kartendienst
+
+ausgewertet und verursacht dort CARD/REMOVED
+
+</td><td>
+</td></tr><tr><td>
+CT
+
+/
+
+SLOT_IN_USE
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+CtID=$CT.CTID;
+
+SlotNo=\<FU-Nummer
+
+aus Ereignisnachricht\>
+
+</td><td>
+Internes Event
+
+von Kartenterminaldienst
+
+--\> Kartendienst.
+
+Informiert, dass
+
+ein Slot belegt wurde. Wird im
+
+Kartendienst
+
+ausgewertet und verursacht dort
+
+CARD/INSERTED
+
+</td><td>
+</td></tr><tr><td colspan="8">
+Kartendienst
+
+</td></tr><tr><td>
+CARD
+
+/
+
+INSERTED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+CardHandle=
+
+$CARD.CARDHANDLE;
+
+CardType=$CARD.TYP;
+
+CardVersion=
+
+$CARD.VER;
+
+ICCSN=$CARD.ICCSN;
+
+CtID=$CARD.CTID;
+
+SlotID=
+
+$CARD.SLOTID;
+
+InsertTime=
+
+$CARD.INSERTTIME;
+
+CardHolderName=
+
+$CARD.CARD
+
+HOLDERNAME;
+
+KVNR=$CARD.KVNR
+
+</td><td>
+Eine Karte wurde
+
+gesteckt
+
+</td><td>
+TUC_KON_001
+
+(als Reaktion auf
+
+CTM
+
+/SLOT_IN_USE)
+
+</td></tr><tr><td>
+CARD
+
+/
+
+REMOVED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+CardHandle=
+
+$CARD.CARDHANDLE;
+
+CardType=$CARD.TYP;
+
+CardVersion=
+
+$CARD.VER;
+
+ICCSN=$CARD.ICCSN;
+
+CtID=$CARD.CTID;
+
+SlotID=
+
+$CARD.SLOTID;
+
+InsertTime=
+
+$CARD.INSERTTIME;
+
+CardHolderName=
+
+$CARD.CARDHOLDER
+
+NAME;
+
+KVNR=$CARD.KVNR
+
+</td><td>
+Eine Karte wurde
+
+gezogen
+
+</td><td>
+Reaktion auf
+
+CTM/SLOT_FREE
+
+</td></tr><tr><td>
+CARD
+
+/
+
+PIN
+
+/
+
+VERIFY_STARTED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CARD
+
+/
+
+PIN
+
+/
+
+VERIFY_FINISHED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CARD
+
+/
+
+PIN
+
+/
+
+CHANGE_STARTED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CARD
+
+/
+
+PIN
+
+/
+
+CHANGE_FINISHED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td>
+CARD
+
+/
+
+PIN
+
+/
+
+ENABLE_STARTED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+CardHandle=$;
+
+CardType=$;
+
+ICCSN=$;
+
+CtID=$;
+
+SlotID=$;
+
+PinRef=$PinRef;
+
+PinInputCtID
+
+=$PinInputKT
+
+</td><td>
+PIN-Schutz
+
+anschalten beginnt
+
+</td><td>
+TUC_KON_027
+
+</td></tr><tr><td>
+CARD
+
+/
+
+PIN
+
+/
+
+ENABLE_FINISHED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+CardHandle=$;
+
+CardType=$;
+
+ICCSN=$;
+
+CtID=$;
+
+SlotID=$;
+
+PinRef=$PinRef;
+
+PinInputCtID
+
+=$PinInputKT
+
+</td><td>
+PIN-Schutz anschalten wurde beendet
+
+</td><td>
+TUC_KON_027
+
+</td></tr><tr><td>
+CARD
+
+/
+
+PIN
+
+/
+
+DISABLE_STARTED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+CardHandle=$; CardType=$;
+
+ICCSN=$;
+
+CtID=$;
+
+SlotID=$;
+
+PinRef=$PinRef;
+
+PinInputCtID
+
+=$PinInputKT
+
+</td><td>
+PIN-Schutz ausschalten beginnt
+
+</td><td>
+TUC_KON_027
+
+</td></tr><tr><td>
+CARD
+
+/
+
+PIN
+
+/
+
+DISABLE_FINISHED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+CardHandle=$; CardType=$;
+
+ICCSN=$;
+
+CtID=$;
+
+SlotID=$;
+
+PinRef=$PinRef;
+
+PinInputCtID
+
+=$PinInputKT
+
+</td><td>
+PIN-Schutz ausschalten wurde beendet
+
+</td><td>
+TUC_KON_027
+
+</td></tr><tr><td colspan="8">
+Systeminformationsdienst
+
+</td></tr><tr><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td colspan="8">
+Verschlüsselungsdienst
+
+</td></tr><tr><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td colspan="8">
+Signaturdienst
+
+</td></tr><tr><td>
+SIG
+
+/
+
+SIGNDOC
+
+/
+
+NEXT_SUCCESSFUL
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+X
+
+</td><td>
+$Jobnummer
+
+</td><td>
+Die nächste Signatur aus einem
+
+Signaturstapel wurde erfolgreich
+
+erstellt.
+
+</td><td>
+TUC_KON_166
+
+„nonQES Signaturen
+
+erstellen“
+
+TUC_KON_154
+
+„QES Signaturen erstellen“
+
+</td></tr><tr><td colspan="8">
+Zertifikatsdienst
+
+</td></tr><tr><td>
+CERT
+
+/
+
+TSL
+
+/
+
+IMPORT
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+$Fehlerbeschreibung
+
+</td><td>
+Manueller Import der
+
+TSL fehlgeschlagen
+
+</td><td>
+TUC_KON_032
+
+"TSL aktualisieren"
+
+</td></tr><tr><td>
+CERT
+
+/
+
+TSL
+
+/
+
+UPDATED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+</td><td>
+Eine neue TSL
+
+wurde erfolgreich in den TrustStore eingespielt
+
+</td><td>
+TUC_KON_032
+
+"TSL aktualisieren"
+
+</td></tr><tr><td>
+CERT
+
+/
+
+CRL
+
+/
+
+INVALID
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+</td><td>
+Prüfung der Signatur
+
+der CRL fehlgeschlagen
+
+</td><td>
+TUC_KON_040
+
+"CRL aktualisieren"
+
+</td></tr><tr><td>
+CERT
+
+/
+
+CRL
+
+/
+
+IMPORT
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+$Fehlerbeschreibung
+
+</td><td>
+Manueller Import der CRL fehlgeschlagen
+
+</td><td>
+TUC_KON_040
+
+"CRL aktualisieren"
+
+</td></tr><tr><td>
+CERT
+
+/
+
+CRL
+
+/
+
+UPDATED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+</td><td>
+Die CRL wurde
+
+erfolgreich aktualisiert
+
+</td><td>
+TUC_KON_040
+
+"CRL aktualisieren"
+
+</td></tr><tr><td>
+CERT
+
+/
+
+CARD
+
+/
+
+EXPIRATION
+
+</td><td>
+Op
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+CARD_TYPE=gSMC-K;
+
+ICCSN=$ICCSN;
+
+Konnektor=
+
+$MGM_KONN_HOSTNAME;
+
+ZertName=\<Name des Zertifikatsobjekts\>;
+
+Expiration
+
+Date=$validity
+
+</td><td>
+gSMC-K abgelaufen
+
+</td><td>
+TUC_KON_033
+
+"Zertifikatsablauf prüfen"
+
+</td></tr><tr><td>
+CERT
+
+/CARD
+
+/
+
+EXPIRATION
+
+</td><td>
+Op
+
+</td><td>
+Warning
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+CARD_TYPE=$Type;
+
+ICCSN=$ICCSN;
+
+CARD_HANDLE=
+
+$CardHandle;
+
+CardHolderName=
+
+$CardHolderName;
+
+ZertName=\<Name des Zertifikatsobjekts\>;
+
+ExpirationDate=
+
+$validity
+
+</td><td>
+Sonstige Karte abgelaufen
+
+</td><td>
+TUC_KON_033
+
+"Zertifikatsablauf prüfen"
+
+</td></tr><tr><td>
+CERT
+
+/
+
+CARD
+
+/
+
+EXPIRATION
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+CARD_TYPE=gSMC-K;
+
+ICCSN=$ICCSN;
+
+Konnektor=
+
+$MGM_KONN_HOSTNAME;
+
+ZertName=\<Name des Zertifikatsobjekts\>;
+
+ExpirationDate=
+
+$validity;
+
+DAYS_LEFT=
+
+$validity-$Today
+
+</td><td>
+gSMC-K läuft innerhalb von
+
+DAYS_LEFT Tagen ab
+
+</td><td>
+TUC_KON_033
+
+"Zertifikatsablauf prüfen"
+
+</td></tr><tr><td>
+CERT
+
+/CARD
+
+/
+
+EXPIRATION
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+CARD_TYPE=$Type;
+
+ICCSN=$ICCSN;
+
+CARD_HANDLE=
+
+$CardHandle;
+
+CardHolderName=
+
+$CardHolderName;
+
+ZertName=\<Name des Zertifikatsobjekts\>;
+
+ExpirationDate=
+
+$validity;
+
+DAYS_LEFT=
+
+$validity-$Today
+
+</td><td>
+Sonstige Karte läuft innerhalb von DAYS_LEFT Tagen ab
+
+</td><td>
+TUC_KON_033
+
+"Zertifikatsablauf prüfen"
+
+</td></tr><tr><td>
+CERT
+
+/
+
+BNETZA_VL
+
+/
+
+UPDATED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+</td><td>
+Eine neue BNetzA-VL wurde erfolgreich in den TrustStore eingespielt
+
+</td><td>
+TUC_KON_031
+
+" BNetzA-VL aktualisieren"
+
+</td></tr><tr><td>
+CERT
+
+/
+
+BNETZA_VL
+
+/
+
+IMPORT
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+$Fehlerbeschreibung
+
+</td><td>
+Manueller Import der
+
+BNetzA-VL fehlgeschlagen
+
+</td><td>
+TUC_KON_031
+
+" BNetzA-VL aktualisieren"
+
+</td></tr><tr><td colspan="8">
+Protokollierungsdienst
+
+</td></tr><tr><td>
+LOG
+
+/
+
+ERROR
+
+</td><td>
+$Error
+
+Type
+
+</td><td>
+$Seve
+
+rity
+
+</td><td>
+-
+
+</td><td>
+-
+
+</td><td>
+Error=$Fehlercode
+
+</td><td>
+Im Protokollierungsdienst auftretende Fehler werden verteilt
+
+</td><td>
+TUC_KON_271
+
+</td></tr><tr><td>
+LOG
+
+/
+
+CRYPTO_OP
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+Operation=
+
+$Operationsname;
+
+\<für alle betroffenen Schlüssel:\>
+
+Karte=$ICCSN;
+
+Keyref=\<Referenz auf den Schlüssel\>;
+
+CARD_HANDLE=
+
+$CardHandle;
+
+CardHolderName=
+
+$CardHolderName
+
+</td><td>
+</td><td>
+</td></tr><tr><td colspan="8">
+TLS-Dienst
+
+</td></tr><tr><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td colspan="8">
+Anbindung LAN/WAN
+
+</td></tr><tr><td>
+ANLW
+
+/
+
+LAN
+
+/IP_CHANGED
+
+</td><td>
+Op
+
+</td><td>
+Warning
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+IP=$dieNeueIP
+
+</td><td>
+Wenn der LAN-Adapter eine neue IP oder Netzwerk bekommen hat
+
+</td><td>
+DHCP,
+
+Management
+
+schnittstelle
+
+</td></tr><tr><td>
+ANLW
+
+/
+
+WAN
+
+/IP_CHANGED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+IP=$dieNeueIP
+
+</td><td>
+Wenn der WAN-Adapter eine neue IP oder Netzwerk bekommen hat
+
+</td><td>
+DHCP,
+
+Management
+
+schnittstelle
+
+</td></tr><tr><td colspan="8">
+DHCP-Server
+
+</td></tr><tr><td>
+DHCP
+
+/
+
+SERVER
+
+/
+
+STATECHANGED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+STATE=
+
+$DHCP_SERVER_STATE
+
+</td><td>
+</td><td>
+Administrator
+
+</td></tr><tr><td colspan="8">
+DHCP Client
+
+</td></tr><tr><td>
+DHCP
+
+/LAN_CLIENT
+
+/
+
+RENEW
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+IP_ADDRESS=
+
+\<Belegung\>
+
+</td><td>
+</td><td>
+TUC_KON_341
+
+</td></tr><tr><td>
+DHCP
+
+/
+
+WAN_CLIENT
+
+/
+
+RENEW
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+IP_ADDRESS=
+
+\<Belegung\>
+
+</td><td>
+</td><td>
+TUC_KON_341
+
+</td></tr><tr><td>
+DHCP
+
+/LAN_CLIENT
+
+/
+
+STATECHANGED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+STATE=
+
+$DHCP_CLIENT_
+
+LAN_STATE
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+DHCP
+
+/
+
+WAN_CLIENT
+
+/
+
+STATECHANGED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+STATE=
+
+$DHCP_CLIENT_
+
+WAN_STATE
+
+</td><td>
+</td><td>
+</td></tr><tr><td colspan="8">
+VPN-Client
+
+</td></tr><tr><td>
+NETWORK
+
+/VPN_TI
+
+/
+
+UP
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+Wenn der VPN-Tunnel zur TI erfolgreich aufgebaut
+
+worden ist.
+
+</td><td>
+</td></tr><tr><td>
+NETWORK
+
+/VPN_TI
+
+/
+
+DOWN
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+Wenn der VPN-Tunnel zur TI nicht mehr zur Verfügung steht.
+
+</td><td>
+AFO
+
+</td></tr><tr><td>
+NETWORK
+
+/VPN
+
+/
+
+CONFIG_CHANGED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+</td><td>
+Wenn die Konfiguration des VPN-Clients angepasst wurde.
+
+</td><td>
+Management
+
+schnittstelle
+
+</td></tr><tr><td>
+NETWORK
+
+/VPN_SIS
+
+/
+
+UP
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+Wenn der VPN-Tunnel zum
+
+SIS erfolgreich aufgebaut worden ist.
+
+</td><td>
+</td></tr><tr><td>
+NETWORK
+
+/VPN_SIS
+
+/
+
+DOWN
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+</td><td>
+Wenn der VPN-Tunnel zum SIS nicht mehr zur
+
+Verfügung steht.
+
+</td><td>
+AFO
+
+</td></tr><tr><td colspan="8">
+Zeitdienst
+
+</td></tr><tr><td>
+NTP
+
+/
+
+ENTERCRITICALSTATE
+
+</td><td>
+Op
+
+</td><td>
+FATAL
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+MESSAGE=
+
+„CRITICALTIME
+
+DEVIATION”
+
+</td><td>
+Zeitabweichung von mehr als einer Stunde entdeckt
+
+</td><td>
+</td></tr><tr><td colspan="8">
+Namensdienst und Dienstlokalisierung
+
+</td></tr><tr><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr><tr><td colspan="8">
+Leistungsumfänge und Standalone-Szenarios
+
+</td></tr><tr><td>
+MGM
+
+/
+
+ADMINCHANGES
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+User=
+
+$AdminUsername;
+
+RefID=$ReferenzID;
+
+NewVal=
+
+$NeuEingestellter
+
+Wert“
+
+</td><td>
+Änderungen die der Admin vornimmt werden protokolliert
+
+</td><td>
+</td></tr><tr><td>
+MGM
+
+/
+
+CONFIG_EXIMPORT
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+User=
+
+$AdminUsername;
+
+Mode=
+
+[Export/Import]
+
+</td><td>
+Dokumentiert (via Mode), dass die Konnektor
+
+konfiguration
+
+exportiert oder importiert wurde.
+
+</td><td>
+</td></tr><tr><td>
+MGM
+
+/
+
+FACTORYSETTINGS
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+User=
+
+$AdminUsername
+
+</td><td>
+Ein ausgelöster Werksreset wird protokolliert
+
+</td><td>
+</td></tr><tr><td>
+MGM
+
+/
+
+REMOTE_SESSION
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+InitUser=
+
+$AdminUsername;
+
+RemoteID=\<Kennung der Gegenstelle\>;
+
+Mode=
+
+[InitSuccess/
+
+InitFail/Exit]
+
+</td><td>
+Protokollierung des Versuchs, des Beginns und des Endes einer Remote-
+
+Management Session
+
+</td><td>
+</td></tr><tr><td>
+MGM
+
+/
+
+LU_CHANGED
+
+/
+
+LU_ONLINE
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Active=
+
+$MGM_LU_ONLINE
+
+</td><td>
+Leistungsumfang Online wurde aktiviert/
+
+deaktiviert
+
+</td><td>
+Administrator
+
+</td></tr><tr><td>
+MGM
+
+/
+
+LU_CHANGED
+
+/
+
+LU_SAK
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Active=
+
+$MGM_LU_SAK
+
+</td><td>
+Leistungsumfang Signatur
+
+anwendungs
+
+komponente wurde aktiviert/deaktiviert
+
+</td><td>
+Administrator
+
+</td></tr><tr><td>
+MGM
+
+/
+
+STANDALONE_CHANGED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Active=
+
+$MGM_STANDALONE_KON
+
+</td><td>
+Festlegung des Konnektors als "Alleinstehend"
+
+wurde geändert
+
+</td><td>
+Administrator
+
+</td></tr><tr><td colspan="8">
+In- und Außerbetriebnahme, Registrierung
+
+</td></tr><tr><td>
+MGM
+
+/
+
+TI_ACCESS_GRANTED
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Active=
+
+$MGM_TI_ACCESS_
+
+GRANTED
+
+</td><td>
+Der Konnektor wurde erfolgreich freigeschaltet
+
+</td><td>
+Administrator  
+TUC_KON_411
+
+</td></tr><tr><td>
+SMC_K/REGISTER/ERROR
+
+</td><td>
+Op
+
+</td><td>
+Error
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Iccsn=$Iccsn;  
+Serial=$SerialnumberNK;  
+Operation=Register | Deregister; 
+
+Fail=No_Smcb | Other
+
+</td><td>
+Fehler bei Registrierung
+
+</td><td>
+TUC_KON_411
+
+</td></tr><tr><td colspan="8">
+Software- Aktualisierungsdienst (KSR-Client)
+
+</td></tr><tr><td>
+KSR
+
+/
+
+ERROR
+
+</td><td>
+$Error
+
+Type
+
+</td><td>
+$Seve
+
+rity
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Target=Konnektor;
+
+Name=
+
+\<MGM_KONN_HOSTNAME\>;
+
+Error=$Fehlercode;
+
+Bedeutung=
+
+$Fehlertext
+
+</td><td>
+Während der Konnektor
+
+aktualisierung ist ein Fehler aufgetreten
+
+</td><td>
+TUC_KON_280
+
+</td></tr><tr><td>
+KSR
+
+/
+
+ERROR
+
+</td><td>
+$Error
+
+Type
+
+</td><td>
+$Seve
+
+rity
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Target=KT;
+
+Name=
+
+\<KT-Friendly Name\>;
+
+CtID=$ctID;
+
+Error=$Fehlercode;
+
+Bedeutung=
+
+$Fehlertext
+
+</td><td>
+Während einer Kartenterminal
+
+aktualisierung ist ein Fehler aufgetreten
+
+</td><td>
+TUC_KON_281
+
+</td></tr><tr><td>
+KSR
+
+/
+
+ERROR
+
+</td><td>
+$Error
+
+Type
+
+</td><td>
+$Seve
+
+rity
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Error=$Fehlercode;
+
+Bedeutung=
+
+$Fehlertext
+
+</td><td>
+Im KSR-Client ist ein Fehler aufgetreten
+
+</td><td>
+TUC_KON_282
+
+</td></tr><tr><td>
+KSR
+
+/
+
+UPDATE
+
+/
+
+START
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+für TUC_KON_280
+
+Target=Konnektor;
+
+Name=
+
+\<MGM_KONN_HOSTNAME\>
+
+für TUC_KON_281
+
+Target=KT;
+
+CtID=$CtID
+
+</td><td>
+Ein Updateprozess im Konnektor wird gestartet, Ziel Konnektor oder Kartenterminal
+
+</td><td>
+TUC_KON_280
+
+TUC_KON_281
+
+</td></tr><tr><td>
+KSR
+
+/
+
+UPDATE
+
+/
+
+SUCCESS
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+für TUC_KON_280
+
+Target=Konnektor;
+
+Name=
+
+\<MGM_KONN_HOSTNAME\>;
+
+NewFirmwareversion=
+
+\<UpdateInformation.
+
+FirmwareVersion\>;
+
+ConfigurationChanged
+
+=\<Ja/Nein\>;
+
+ManualInputNeeded=
+
+\<Ja/Nein\>
+
+für TUC_KON_281
+
+Target=KT;
+
+Name=
+
+\<KT-FriendlyName\>;
+
+CtID=$ctID;
+
+NewFirmwareversion=
+
+\<UpdateInformation.
+
+FirmwareVersion\>
+
+</td><td>
+Die Firmware des Konnektors/
+
+eines Kartenterminals wurde erfolgreich aktualisiert
+
+</td><td>
+TUC_KON_280
+
+TUC_KON_281
+
+</td></tr><tr><td>
+KSR
+
+/
+
+UPDATE
+
+/
+
+END
+
+</td><td>
+Sec
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+für TUC_KON_280
+
+Target=Konnektor;
+
+Name=
+
+\<MGM_KONN_HOSTNAME\>
+
+für TUC_KON_281
+
+Target=KT;
+
+CtID=$CtID
+
+</td><td>
+Ein Updateprozess im Konnektor wurde beendet
+
+</td><td>
+TUC_KON_280
+
+TUC_KON_281
+
+</td></tr><tr><td>
+KSR
+
+/
+
+UPDATE
+
+/
+
+KONNEKTOR_DOWNLOAD_END
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+x
+
+</td><td>
+Je heruntergeladenem FW-Paket:
+
+ProductVendorID=
+
+$UpdateInformation/
+
+ProductVendorID;
+
+ 
+
+ProductCode=
+
+$UpdateInformation/
+
+ProductCode;
+
+ 
+
+ProductName=
+
+$UpdateInformation/
+
+ProductName;
+
+ 
+
+FirmwareVersion=
+
+$UpdateInformation/
+
+Firmware/FWVersion;
+
+ 
+
+Deadline=
+
+$UpdateInformation/
+
+DeploymentInformation/
+
+Deadline;
+
+ 
+
+FWPriority=
+
+$UpdateInformation/
+
+Firmware/FWPriority;
+
+ 
+
+FirmwareReleaseNotes=
+
+$UpdateInformation/
+
+Firmware/
+
+FirmwareReleaseNotes
+
+</td><td>
+Download der Konnektor Firmware abgeschlossen
+
+</td><td>
+TIP1-A_6025
+
+</td></tr><tr><td>
+KSR
+
+/
+
+UPDATES_AVAILABLE
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+-
+
+</td><td>
+x
+
+</td><td>
+Je gefundenem
+
+FW-Paket:
+
+ProductVendorID=
+
+$UpdateInformation/
+
+ProductVendorID;
+
+ProductCode=
+
+$UpdateInformation/
+
+ProductCode;
+
+ProductName=
+
+$UpdateInformation/
+
+ProductName;
+
+FirmwareVersion=
+
+$UpdateInformation/
+
+FirmwareVersion;
+
+Deadline=
+
+$UpdateInformation/
+
+DeploymentInformation/
+
+Deadline;
+
+ 
+
+FWPriority=
+
+$UpdateInformation/
+
+Firmware/FWPriority;
+
+FirmwareReleaseNotes=
+
+$UpdateInformation/
+
+Firmware/
+
+FirmwareReleaseNotes
+
+</td><td>
+Ein oder mehrere Updates auf neuere Versionen sind verfügbar
+
+</td><td>
+TIP1-A_4836
+
+</td></tr><tr><td>
+KSR
+
+/UPDATE_KONFIG
+
+</td><td>
+Op
+
+</td><td>
+Info
+
+</td><td>
+x
+
+</td><td>
+-
+
+</td><td>
+AlteVersion, NeueVersion
+
+</td><td>
+Aktualisierung Bestandsnetze
+
+</td><td>
+TUC_KON_283
+
+</td></tr></table>
 
 Die Abbildungsvorschrift von Fehler- auf Event-Type lautet:
 
@@ -10379,13 +57466,1451 @@ Die Abbildungsvorschrift von Fehler- auf Event-Type lautet:
 
 ### 8 Anhang H – Mapping von „Architektur der TI-Plattform“ auf Konnektorspezifikation
 
- ---> TABLE
+<table><tr><th>
+Interface
 
- ---> TABLE
+</th><th>
+Operation
 
- ---> TABLE
+</th><th>
+
 
- ---> TABLE
+</th><th>
+Funktionsmerkmal
+
+</th><th>
+Interface
+
+</th></tr><tr><td>
+I_Cert_Verification
+
+</td><td>
+verify_Certificate
+
+</td><td>
+
+
+</td><td>
+Zertifikatsdienst
+
+</td><td>
+TUC_KON_037
+
+"Zertifikat prüfen"
+
+</td></tr><tr><td rowspan="2">
+I_Crypt_Operations
+
+</td><td>
+decrypt_Document
+
+</td><td>
+
+
+</td><td rowspan="2">
+Verschlüsselungsdienst
+
+</td><td>
+TUC_KON_071
+
+"Daten hybrid entschlüsseln"
+
+</td></tr><tr><td>
+encrypt_Document
+
+</td><td>
+
+
+</td><td>
+TUC_KON_070
+
+"Daten hybrid verschlüsseln"
+
+</td></tr><tr><td rowspan="3">
+I_DNS_Name_Information
+
+</td><td>
+get_FQDN
+
+</td><td>
+
+
+</td><td rowspan="2">
+Namensdienst und Dienstlokalisierung
+
+</td><td>
+TUC_KON_364
+
+„DNS Reverse Lookup
+
+durchführen“
+
+</td></tr><tr><td>
+get_IP_Address
+
+</td><td>
+
+
+</td><td>
+TUC_KON_361
+
+„DNS Namen auflösen“
+
+</td></tr><tr><td>
+get_Service_Information
+
+</td><td>
+
+
+</td><td>
+Namensdienst und
+
+Dienstlokalisierung
+
+</td><td>
+TUC_KON_362
+
+„Liste der Dienste abrufen“
+
+TUC_KON_363
+
+„Dienstdetails
+
+abrufen“
+
+</td></tr><tr><td>
+I_IP_Transport
+
+</td><td>
+send_Data_TI
+
+</td><td>
+
+
+</td><td>
+</td><td>
+</td></tr><tr><td>
+I_KT_Operations
+
+</td><td>
+interact_with_User
+
+</td><td>
+
+
+</td><td>
+Kartenterminaldienst
+
+</td><td>
+TUC_KON_051
+
+"Mit Anwender über
+
+Kartenterminal interagieren"
+
+</td></tr><tr><td rowspan="2">
+I_KV_Card_Handling
+
+</td><td>
+discard_Card_Usage_Reference
+
+</td><td>
+
+
+</td><td>
+---
+
+</td><td>
+--- keine Umsetzung
+
+notwendig.
+
+Erfolgt implizit
+
+</td></tr><tr><td>
+get_Card_Usage_Reference
+
+</td><td>
+
+
+</td><td>
+---
+
+</td><td>
+--- keine Umsetzung
+
+notwendig.
+
+Erfolgt implizit
+
+</td></tr><tr><td rowspan="15">
+I_KV_Card_Operations
+
+</td><td>
+decrypt_Data
+
+</td><td>
+
+
+</td><td rowspan="3">
+Kartendienst
+
+</td><td>
+TUC_KON_219
+
+"Entschlüssele"
+
+</td></tr><tr><td>
+do_Reset
+
+</td><td>
+
+
+</td><td>
+TUC_KON_024
+
+"Karte zurücksetzen"
+
+</td></tr><tr><td>
+erase_Card_Data
+
+</td><td>
+
+
+</td><td>
+TUC_KON_211
+
+„LöscheRecordInhalt“
+
+TUC_KON_204
+
+„LöscheDateiInhalt“
+
+</td></tr><tr><td>
+extract_card_data
+
+</td><td>
+
+
+</td><td>
+Zertifikatsdienst
+
+</td><td>
+TUC_KON_034
+
+"Zertifikatsinformationen
+
+extrahieren"
+
+</td></tr><tr><td>
+read_Card_Data
+
+</td><td>
+
+
+</td><td rowspan="11">
+Kartendienst
+
+</td><td>
+TUC_KON_202
+
+"LeseDatei"
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+TUC_KON_209
+
+"LeseRecord"
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+TUC_KON_215
+
+"SucheRecord"
+
+</td></tr><tr><td>
+read_KVK
+
+</td><td>
+
+
+</td><td>
+TUC_KON_202
+
+"Lese Datei"
+
+</td></tr><tr><td>
+send_APDU
+
+</td><td>
+
+
+</td><td>
+TUC_KON_200
+
+"SendeAPDU"
+
+</td></tr><tr><td>
+sign_Data
+
+</td><td>
+
+
+</td><td>
+TUC_KON_218
+
+"Signiere"
+
+</td></tr><tr><td>
+verify_eGK
+
+</td><td>
+
+
+</td><td>
+TUC_KON_018
+
+"eGK-Sperrung prüfen"
+
+</td></tr><tr><td>
+write_Card_Data
+
+</td><td>
+
+
+</td><td>
+TUC_KON_203
+
+"SchreibeDatei"
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+TUC_KON_210
+
+"SchreibeRecord"
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+TUC_KON_214
+
+"FügeHinzuRecord"
+
+</td></tr><tr><td>
+write_eGK_Protocol
+
+</td><td>
+
+
+</td><td>
+TUC_KON_006
+
+"Datenzugriffsaudit eGK schreiben"
+
+</td></tr><tr><td>
+I_KV_Card_Reservation
+
+</td><td>
+handle_Session
+
+</td><td>
+
+
+</td><td>
+Kartendienst
+
+</td><td>
+TUC_KON_023
+
+"Karte reservieren"
+
+</td></tr><tr><td rowspan="8">
+I_KV_Card_Unlocking
+
+</td><td>
+authorize_Card
+
+</td><td>
+
+
+</td><td rowspan="8">
+Kartendienst
+
+</td><td>
+TUC_KON_005
+
+"Card-to-Card authentisieren"
+
+</td></tr><tr><td>
+change_PIN
+
+</td><td>
+
+
+</td><td>
+TUC_KON_019
+
+"PIN ändern"
+
+</td></tr><tr><td>
+enable_PIN
+
+disable_PIN
+
+</td><td>
+
+
+</td><td>
+TUC_KON_027
+
+„PIN-Schutz ein-/
+
+ausschalten”
+
+</td></tr><tr><td>
+do_C2C
+
+</td><td>
+
+
+</td><td>
+TUC_KON_005
+
+"Card-to-Card
+
+authentisieren"
+
+</td></tr><tr><td>
+get_PIN_Status
+
+</td><td>
+
+
+</td><td>
+TUC_KON_022
+
+"Liefere PIN-Status"
+
+</td></tr><tr><td>
+initialize_PIN
+
+</td><td>
+
+
+</td><td>
+TUC_KON_019
+
+"PIN ändern"
+
+</td></tr><tr><td>
+unblock_PIN
+
+</td><td>
+
+
+</td><td>
+TUC_KON_021
+
+"PIN entsperren"
+
+</td></tr><tr><td>
+verify_PIN
+
+</td><td>
+
+
+</td><td>
+TUC_KON_012
+
+"PIN verifizieren"
+
+</td></tr><tr><td>
+I_Notification_From_FM
+
+</td><td>
+notify
+
+</td><td>
+
+
+</td><td>
+Systeminformationsdienst
+
+</td><td>
+TUC_KON_256
+
+"Systemereignis
+
+absetzen"
+
+</td></tr><tr><td>
+I_Local_Storage
+
+</td><td>
+write_Data
+
+read_Data
+
+erase_Data
+
+</td><td>
+
+
+</td><td>
+Konnektormanagement
+
+</td><td>
+TIP1-A_5484
+
+</td></tr><tr><td rowspan="3">
+I_Poll_System_Information
+
+</td><td>
+get_Ressource_Information
+
+</td><td>
+
+
+</td><td rowspan="3">
+Systeminformationsdienst
+
+</td><td>
+TUC_KON_254
+
+"Liefere
+
+Ressourcendetails"
+
+</td></tr><tr><td>
+get_Ressource_List
+
+</td><td>
+
+
+</td><td>
+TUC_KON_252
+
+"Liefere KT_Liste"
+
+</td></tr><tr><td>
+get_Ressource_List
+
+</td><td>
+
+
+</td><td>
+TUC_KON_253
+
+"Liefere Karten_Liste"
+
+</td></tr><tr><td>
+I_Reg_Notification
+
+</td><td>
+register_for_Notifications
+
+</td><td>
+
+
+</td><td>
+---
+
+</td><td>
+--- keine Umsetzung
+
+notwendig.
+
+Erfolgt implizit
+
+</td></tr><tr><td>
+I_Role_Information
+
+</td><td>
+get_Role
+
+</td><td>
+
+
+</td><td>
+Kartendienst
+
+</td><td>
+TUC_KON_036
+
+„LiefereFachlicheRolle“
+
+</td></tr><tr><td rowspan="2">
+I_SAK_Operations
+
+</td><td>
+sign_Document_QES
+
+</td><td>
+
+
+</td><td rowspan="2">
+Signaturdienst
+
+</td><td>
+TUC_KON_150
+
+„Dokumente QES
+
+signieren“
+
+</td></tr><tr><td>
+verify_Document_QES
+
+</td><td>
+
+
+</td><td>
+TUC_KON_151
+
+"QES Dokumentensignatur prüfen"
+
+</td></tr><tr><td rowspan="4">
+I_Sign_Operations
+
+</td><td>
+sign_Document
+
+</td><td>
+
+
+</td><td rowspan="3">
+Signaturdienst
+
+</td><td>
+TUC_KON_160
+
+„Dokumente nonQES signieren“
+
+</td></tr><tr><td>
+external_Authenticate
+
+</td><td>
+
+
+</td><td>
+TUC_KON_160
+
+„Dokumente nonQES signieren“
+
+</td></tr><tr><td>
+verify_Document
+
+</td><td>
+
+
+</td><td>
+TUC_KON_161
+
+„nonQES Dokumentsignatur prüfen“
+
+</td></tr><tr><td>
+get_Certificate
+
+</td><td>
+
+
+</td><td>
+Kartendienst
+
+</td><td>
+TUC_KON_216
+
+„LeseZertifikat“
+
+</td></tr><tr><td rowspan="2">
+I_Symm_Crypt_Operations
+
+</td><td>
+decrypt_Document_Symmetric
+
+</td><td>
+
+
+</td><td rowspan="2">
+Verschlüsselungsdienst
+
+</td><td>
+TUC_KON_073
+
+"Daten symmetrisch
+
+entschlüsseln"
+
+</td></tr><tr><td>
+encrypt_Document_Symmetric
+
+</td><td>
+
+
+</td><td>
+TUC_KON_072
+
+"Daten symmetrisch
+
+verschlüsseln"
+
+</td></tr><tr><td>
+I_Synchronised_System_Time
+
+</td><td>
+get_Time
+
+</td><td>
+
+
+</td><td>
+Zeitdienst
+
+</td><td>
+TUC_KON_351
+
+"Liefere Systemzeit"
+
+</td></tr><tr><td rowspan="3">
+I_TLS_Client
+
+</td><td>
+send_Secure
+
+</td><td>
+
+
+</td><td rowspan="2">
+TLS-Dienst
+
+</td><td>
+TUC_KON_110
+
+"Kartenbasierte
+
+TLS-Verbindung
+
+aufbauen"
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+TUC_KON_111
+
+"Kartenbasierte
+
+TLS-Verbindung
+
+abbauen"
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+Anbindung LAN/WAN
+
+</td><td>
+AFOs: Routing
+
+der IP-Pakete von
+
+Fachmodul
+
+(=Konnektor intern)
+
+--\> VPN_TI
+
+</td></tr><tr><td rowspan="4">
+I_Directory_Query
+
+</td><td>
+search_Directory
+
+</td><td>
+
+
+</td><td rowspan="4">
+LDAP-Proxy
+
+</td><td>
+TUC_KON_290
+
+„LDAP-Verbindung
+
+aufbauen“
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+TUC_KON_291
+
+„Verzeichnis abfragen“
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+TUC_KON_292
+
+„LDAP-Verbindung
+
+trennen"
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+TUC_KON_293
+
+„Verzeichnisabfrage
+
+abbrechen"
+
+</td></tr><tr><td rowspan="2">
+I_KSRC_FM_Support
+
+</td><td>
+list_available_Packages
+
+</td><td>
+
+
+</td><td rowspan="2">
+Software-Aktualisierung
+
+(KSR-Client)
+
+</td><td>
+TUC_KON_285
+
+„UpdateInformationen für Fachmodul beziehen"
+
+</td></tr><tr><td>
+load_Package
+
+</td><td>
+
+
+</td><td>
+TUC_KON_286
+
+„Paket für Fachmodul laden“
+
+</td></tr></table>
+
+<table><tr><th>
+Interface
+
+</th><th>
+Operation
+
+</th><th>
+
+
+</th><th>
+Funktionsmerkmal
+
+</th><th>
+Interface:Operation
+
+</th></tr><tr><td rowspan="2">
+I_Crypt_Operations
+
+</td><td>
+decrypt_Document
+
+</td><td>
+
+
+</td><td rowspan="2">
+Verschlüsselungsdienst
+
+</td><td>
+EncryptionService
+
+:DecryptDocument
+
+</td></tr><tr><td>
+encrypt_Document
+
+</td><td>
+
+
+</td><td>
+EncryptionService
+
+:EncryptDocument
+
+</td></tr><tr><td rowspan="2">
+I_DNS_Name_Resolution
+
+</td><td>
+get_FQDN
+
+</td><td>
+
+
+</td><td rowspan="2">
+Namensdienst und Dienstlokalisierung
+
+</td><td>
+GetFQDN
+
+</td></tr><tr><td>
+get_IP_Address
+
+</td><td>
+
+
+</td><td>
+GetIPAddress
+
+</td></tr><tr><td>
+I_IP_Transport
+
+</td><td>
+send_Data_External
+
+</td><td>
+
+
+</td><td>
+Anbindung LAN/WAN
+
+</td><td>
+AFOs:
+
+Routing der IP-Pakete von Client
+
+--\> VPN_SIS
+
+</td></tr><tr><td rowspan="2">
+I_KV_Card_Handling
+
+</td><td>
+discard_Card_Usage_Reference
+
+</td><td>
+
+
+</td><td>
+---
+
+</td><td>
+--- keine Umsetzung notwendig.
+
+Erfolgt implizit
+
+</td></tr><tr><td>
+get_Card_Usage_Reference
+
+</td><td>
+
+
+</td><td>
+---
+
+</td><td>
+--- keine Umsetzung
+
+notwendig.
+
+Erfolgt implizit
+
+</td></tr><tr><td rowspan="7">
+I_KV_Card_Unlocking
+
+</td><td>
+change_PIN
+
+</td><td>
+
+
+</td><td rowspan="7">
+Kartendienst
+
+</td><td>
+CardService
+
+:ChangePin
+
+</td></tr><tr><td>
+disable_PIN
+
+</td><td>
+
+
+</td><td>
+CardService
+
+:EnablePin
+
+</td></tr><tr><td>
+enable_PIN
+
+</td><td>
+
+
+</td><td>
+CardService
+
+:DisablePin
+
+</td></tr><tr><td>
+get_PIN_Status
+
+</td><td>
+
+
+</td><td>
+CardService
+
+:GetPinStatus
+
+</td></tr><tr><td>
+initialize_PIN
+
+</td><td>
+
+
+</td><td>
+CardService
+
+:ChangePin
+
+</td></tr><tr><td>
+unblock_PIN
+
+</td><td>
+
+
+</td><td>
+CardService
+
+:UnblockPin
+
+</td></tr><tr><td>
+verify_PIN
+
+</td><td>
+
+
+</td><td>
+CardService
+
+:VerifyPin
+
+</td></tr><tr><td rowspan="3">
+I_Poll_System_Information
+
+</td><td>
+get_Ressource_Information
+
+</td><td>
+
+
+</td><td rowspan="3">
+Systeminformationsdienst
+
+</td><td>
+EventService
+
+:GetResourceInformation
+
+</td></tr><tr><td>
+get_Ressource_List
+
+</td><td>
+
+
+</td><td>
+EventService
+
+:GetCardTerminals
+
+</td></tr><tr><td>
+get_Ressource_List
+
+</td><td>
+
+
+</td><td>
+EventService
+
+:GetCards
+
+</td></tr><tr><td rowspan="3">
+I_Reg_Notification
+
+</td><td>
+register_for_Notifications
+
+</td><td>
+
+
+</td><td rowspan="3">
+Systeminformationsdienst
+
+</td><td>
+EventService
+
+:Subscribe
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+EventService
+
+:Unsubscribe
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+EventService
+
+:GetSubscription
+
+</td></tr><tr><td rowspan="2">
+I_SAK_Operations
+
+</td><td>
+sign_Document_QES
+
+</td><td>
+
+
+</td><td rowspan="2">
+Signaturdienst
+
+</td><td>
+SignatureService
+
+:SignDocument
+
+</td></tr><tr><td>
+verify_Document_QES
+
+</td><td>
+
+
+</td><td>
+SignatureService
+
+:VerifyDocument
+
+</td></tr><tr><td rowspan="4">
+I_Sign_Operations
+
+</td><td>
+sign_Document
+
+</td><td>
+
+
+</td><td rowspan="2">
+Signaturdienst
+
+</td><td>
+SignatureService
+
+:SignDocument
+
+</td></tr><tr><td>
+verify_Document
+
+</td><td>
+
+
+</td><td>
+SignatureService
+
+:VerifyDocument
+
+</td></tr><tr><td>
+external_Authenticate
+
+</td><td>
+
+
+</td><td>
+Authentifizierungsdienst
+
+</td><td>
+AuthSignatureService
+
+:ExternalAuthenticate
+
+</td></tr><tr><td>
+get_Certificate
+
+</td><td>
+
+
+</td><td>
+Zertifikatsdienst
+
+</td><td>
+CertificateService
+
+:ReadCardCertificate
+
+</td></tr><tr><td>
+I_NTP_Time_Information
+
+</td><td>
+sync_Time
+
+</td><td>
+
+
+</td><td>
+Zeitdienst
+
+</td><td>
+I_NTP_Time_Information
+
+:sync_Time
+
+</td></tr><tr><td>
+I_Directory_Query
+
+</td><td>
+search_Directory
+
+</td><td>
+
+
+</td><td>
+LDAP-Proxy
+
+</td><td>
+LDAP-Operation
+
+(TIP1-A_5521)
+
+</td></tr></table>
+
+<table><tr><th>
+Interface
+
+</th><th>
+Operation
+
+</th><th>
+
+
+</th><th>
+Funktionsmerkmal
+
+</th><th>
+Interface:Operation
+
+</th></tr><tr><td rowspan="2">
+I_Notification
+
+</td><td>
+notify
+
+</td><td>
+
+
+</td><td>
+SICCT
+
+</td><td>
+Ereignisdienst
+
+:SICCT-Ereignisnachrichten
+
+</td></tr><tr><td>
+</td><td>
+
+
+</td><td>
+SICCT
+
+</td><td>
+Ereignisdienst
+
+:ServiceAnnouncement
+
+</td></tr></table>
+
+<table><tr><th>
+Interface
+
+</th><th>
+Operation
+
+</th><th>
+-\>
+
+</th><th>
+Funktionsmerkmal
+
+</th><th>
+Interface:Operation
+
+</th></tr><tr><td>
+I_Change_System_Time
+
+</td><td>
+set_System_Time
+
+</td><td>
+-\>
+
+</td><td>
+Zeitdienst
+
+</td><td>
+TIP1-A_4793
+
+Konfigurierbarkeit des
+
+Konnektor NTP-Servers
+
+</td></tr><tr><td rowspan="3">
+I_Facade_Access_Configuration
+
+</td><td>
+add_Clientsystem
+
+</td><td rowspan="3">
+-\>
+
+</td><td rowspan="3">
+Fachliche Anbindung der
+
+Clientsysteme
+
+</td><td rowspan="3">
+TIP1-A_4518
+
+Konfiguration der Anbindung Clientsysteme
+
+</td></tr><tr><td>
+remove_Clientsystem
+
+</td></tr><tr><td>
+set_CS_Access_Mode
+
+</td></tr><tr><td>
+I_KSRC_Local_Management
+
+</td><td>
+do_local_Update
+
+</td><td>
+-\>
+
+</td><td>
+Software-Aktualisierung
+
+(KSR-Client)
+
+</td><td>
+TUC_KON_280 "Konnektoraktualisierung
+
+durchführen"
+
+</td></tr><tr><td rowspan="3">
+I_KSRC_Management
+
+</td><td rowspan="2">
+do_Update
+
+</td><td rowspan="3">
+-\>
+
+</td><td rowspan="3">
+Software-Aktualisierung
+
+(KSR-Client)
+
+</td><td>
+TUC_KON_280 "Konnektoraktualisierung durchführen"
+
+</td></tr><tr><td>
+TUC_KON_281
+
+"Kartenterminalaktualisierung anstoßen"
+
+</td></tr><tr><td>
+list_available_Updates
+
+</td><td>
+TUC_KON_282
+
+"Update Informationen beziehen"
+
+</td></tr><tr><td rowspan="4">
+I_KTV_Management
+
+</td><td rowspan="4">
+configure_KTs
+
+</td><td rowspan="4">
+-\>
+
+</td><td rowspan="4">
+Kartenterminalverwaltung
+
+</td><td>
+Managementschnittstelle
+
+:TIP1-A_4555
+
+Manuelles Hinzufügen eines Kartenterminals
+
+</td></tr><tr><td>
+Managementschnittstelle
+
+:TIP1-A_4540
+
+Reaktion auf KT Service
+
+Announcement
+
+</td></tr><tr><td>
+Managementschnittstelle
+
+:TIP1-A_4556
+
+Pairing mit Kartenterminal
+
+durchführen
+
+</td></tr><tr><td>
+Managementschnittstelle
+
+:TIP1-A_4557
+
+Ändern der Korrelationswerte eines Kartenterminals
+
+</td></tr></table>
 
 ### 9 Anhang I – Umsetzungshinweise (informativ)
 
@@ -10903,7 +59428,67 @@ umzusetzen:
 
 ### 11 Anhang L – Datentypen von Eingangs- und Ausgangsdaten
 
- ---> TABLE
+<table><tr><th>
+Typname
+
+</th><th>
+Werteliste
+
+</th></tr><tr><td>
+[Boolean]
+
+</td><td>
+{true | false}
+
+</td></tr><tr><td>
+[EncryptionType]
+
+</td><td>
+{CMS | XMLEnc | S/MIME}
+
+</td></tr><tr><td>
+[EventType]
+
+</td><td>
+{Op | Sec | Perf}
+
+</td></tr><tr><td>
+[EventSeverity]
+
+</td><td>
+{Debug | Info | Warn | Err | Fatal}
+
+</td></tr><tr><td>
+[KtOutputMode]
+
+</td><td>
+{Input | OutputWait | OutputConfirm | OutputKeep | OutputErase}
+
+</td></tr><tr><td>
+[PinStatus]
+
+</td><td>
+{VERIFIED | VERIFYABLE | BLOCKED | TRANSPORT_PIN | EMPTY_PIN | DISABLED}
+
+</td></tr><tr><td>
+[PinResult]
+
+</td><td>
+{OK | REJECTED | BLOCKED | ERROR}
+
+</td></tr><tr><td>
+[PukResult]
+
+</td><td>
+{OK | REJECTED | BLOCKED | ERROR}
+
+</td></tr><tr><td>
+[VerificationResult]
+
+</td><td>
+{VALID | INVALID | INCONCLUSIVE}
+
+</td></tr></table>
 
 
 
@@ -11012,7 +59597,7 @@ umzusetzen:
 [4.1.5.4.3]:             #41543-tuc_kon_019-pin-ändern
 [4.1.5.4.4]:             #41544-tuc_kon_021-pin-entsperren
 [4.1.5.4.5]:             #41545-tuc_kon_022-liefere-pin-status
-[4.1.5.4.6]:             #41546-tuc_kon_027-pin-schutz-ein-/ausschalten
+[4.1.5.4.6]:             #41546-tuc_kon_027-pin-schutz-ein-ausschalten
 [4.1.5.4.7]:             #41547-tuc_kon_023-karte-reservieren
 [4.1.5.4.8]:             #41548-tuc_kon_005-card-to-card-authentisieren
 [4.1.5.4.9]:             #41549-tuc_kon_202-lesedatei
@@ -11168,7 +59753,7 @@ umzusetzen:
 [4.1.13.5]:              #41135-betriebsaspekte
 [4.1.14]:                #4114-betriebsdatenmeldedienst
 [4.2]:                   #42-netzkonnektor
-[4.2.1]:                 #421-anbindung-lan/wan
+[4.2.1]:                 #421-anbindung-lanwan
 [4.2.1.1]:               #4211-funktionsmerkmalweite-aspekte
 [4.2.1.1.1]:             #42111-netzwerksegmentierung
 [4.2.1.1.2]:             #42112-routing-und-firewall
@@ -11323,21 +59908,73 @@ umzusetzen:
 [Abbildung-5]:           gemSpec_Kon_V5.18.0.attachments/5885552658699712675.png
 [Abbildung-6]:           gemSpec_Kon_V5.18.0.attachments/2737851721132666970.emf
 [Img-007]:               gemSpec_Kon_V5.18.0.attachments/5446061706879125634.png
+[Img-008]:               gemSpec_Kon_V5.18.0.attachments/8594667462373386135.png
 [Abbildung-7]:           gemSpec_Kon_V5.18.0.attachments/8656477943409294784.emf
-[Img-009]:               gemSpec_Kon_V5.18.0.attachments/4238673678557912379.emf
+[Img-010]:               gemSpec_Kon_V5.18.0.attachments/4238673678557912379.emf
 [Abbildung-9]:           gemSpec_Kon_V5.18.0.attachments/5553279804750508008.emf
-[Img-011]:               gemSpec_Kon_V5.18.0.attachments/16835580620461563295.emf
-[Img-012]:               gemSpec_Kon_V5.18.0.attachments/560025191717672503.emf
+[Img-012]:               gemSpec_Kon_V5.18.0.attachments/15817321983279740541.png
+[Img-013]:               gemSpec_Kon_V5.18.0.attachments/10944504007001908949.png
+[Img-014]:               gemSpec_Kon_V5.18.0.attachments/5290459653915798835.png
+[Img-015]:               gemSpec_Kon_V5.18.0.attachments/3185590376804973755.png
+[Img-016]:               gemSpec_Kon_V5.18.0.attachments/16835580620461563295.emf
+[Img-017]:               gemSpec_Kon_V5.18.0.attachments/15568104110097020057.png
+[Img-018]:               gemSpec_Kon_V5.18.0.attachments/11553882221895609192.png
+[Img-019]:               gemSpec_Kon_V5.18.0.attachments/411290757942682148.emf
+[Img-020]:               gemSpec_Kon_V5.18.0.attachments/5902004378507810137.png
+[Img-021]:               gemSpec_Kon_V5.18.0.attachments/14599410951816816878.emf
+[Img-022]:               gemSpec_Kon_V5.18.0.attachments/5981443493873000510.png
+[Img-023]:               gemSpec_Kon_V5.18.0.attachments/3437061164560012453.png
+[Img-024]:               gemSpec_Kon_V5.18.0.attachments/10548240110596722538.png
+[Img-025]:               gemSpec_Kon_V5.18.0.attachments/15326354431292221822.png
+[Img-026]:               gemSpec_Kon_V5.18.0.attachments/5103545710943043162.png
+[Img-027]:               gemSpec_Kon_V5.18.0.attachments/602714301431283203.png
+[Img-028]:               gemSpec_Kon_V5.18.0.attachments/11889156230617616541.png
+[Img-029]:               gemSpec_Kon_V5.18.0.attachments/560025191717672503.emf
+[Img-030]:               gemSpec_Kon_V5.18.0.attachments/5783398479079037955.png
+[Img-031]:               gemSpec_Kon_V5.18.0.attachments/6529874083143031263.png
+[Img-032]:               gemSpec_Kon_V5.18.0.attachments/9122339233356279763.png
 [Abbildung-13]:          gemSpec_Kon_V5.18.0.attachments/293107814685344665.png
-[Img-014]:               gemSpec_Kon_V5.18.0.attachments/4935412250355692970.emf
+[Img-034]:               gemSpec_Kon_V5.18.0.attachments/4935412250355692970.emf
+[Img-035]:               gemSpec_Kon_V5.18.0.attachments/6679711316306839977.png
+[Img-036]:               gemSpec_Kon_V5.18.0.attachments/12337063454900755544.png
+[Img-037]:               gemSpec_Kon_V5.18.0.attachments/14291834559899981797.png
+[Img-038]:               gemSpec_Kon_V5.18.0.attachments/16525367396062298253.png
+[Img-039]:               gemSpec_Kon_V5.18.0.attachments/14455609935007825300.png
+[Img-040]:               gemSpec_Kon_V5.18.0.attachments/13336711737712518275.png
+[Img-041]:               gemSpec_Kon_V5.18.0.attachments/16558876940816782441.png
+[Img-042]:               gemSpec_Kon_V5.18.0.attachments/12409259012593558849.png
+[Img-043]:               gemSpec_Kon_V5.18.0.attachments/3843101436383260645.png
+[Img-044]:               gemSpec_Kon_V5.18.0.attachments/7490794391593505044.png
+[Img-045]:               gemSpec_Kon_V5.18.0.attachments/1822796370727429057.png
+[Img-046]:               gemSpec_Kon_V5.18.0.attachments/15952798123352973504.png
 [Abbildung-15]:          gemSpec_Kon_V5.18.0.attachments/1166144241643877153.png
 [Abbildung-16]:          gemSpec_Kon_V5.18.0.attachments/15903632354578786558.emf
 [Abbildung-17]:          gemSpec_Kon_V5.18.0.attachments/13571335905733562869.png
-[Img-018]:               gemSpec_Kon_V5.18.0.attachments/4615707335606718182.emf
-[Img-019]:               gemSpec_Kon_V5.18.0.attachments/1777103963067446278.emf
+[Img-050]:               gemSpec_Kon_V5.18.0.attachments/4615707335606718182.emf
+[Img-051]:               gemSpec_Kon_V5.18.0.attachments/1777103963067446278.emf
+[Img-052]:               gemSpec_Kon_V5.18.0.attachments/11331385422514879572.PNG
+[Img-053]:               gemSpec_Kon_V5.18.0.attachments/9860981445654011760.png
+[Img-054]:               gemSpec_Kon_V5.18.0.attachments/5770528265980060112.png
+[Img-055]:               gemSpec_Kon_V5.18.0.attachments/8811573663781348543.png
+[Img-056]:               gemSpec_Kon_V5.18.0.attachments/10829620091025857987.png
+[Img-057]:               gemSpec_Kon_V5.18.0.attachments/2798138632072601579.png
+[Img-058]:               gemSpec_Kon_V5.18.0.attachments/4049175659504824259.png
+[Img-059]:               gemSpec_Kon_V5.18.0.attachments/5135096985505234212.png
+[Img-060]:               gemSpec_Kon_V5.18.0.attachments/13567747219320408400.png
+[Img-061]:               gemSpec_Kon_V5.18.0.attachments/10878943948070662179.png
+[Img-062]:               gemSpec_Kon_V5.18.0.attachments/10791410257400469312.png
+[Img-063]:               gemSpec_Kon_V5.18.0.attachments/11051907521224204060.png
+[Img-064]:               gemSpec_Kon_V5.18.0.attachments/15311099311236046815.png
+[Img-065]:               gemSpec_Kon_V5.18.0.attachments/6132225471026202669.png
+[Img-066]:               gemSpec_Kon_V5.18.0.attachments/252625566752094451.png
+[Img-067]:               gemSpec_Kon_V5.18.0.attachments/13738246250475982343.png
+[Img-068]:               gemSpec_Kon_V5.18.0.attachments/2790331112089026039.png
 [Abbildung-20]:          gemSpec_Kon_V5.18.0.attachments/4679305598564690814.emf
+[Img-070]:               gemSpec_Kon_V5.18.0.attachments/16502656005582757420.png
+[Img-071]:               gemSpec_Kon_V5.18.0.attachments/15806747652529307859.png
+[Img-072]:               gemSpec_Kon_V5.18.0.attachments/8240180235197032516.png
 [Abbildung-21]:          gemSpec_Kon_V5.18.0.attachments/377569428305567874.png
-[Img-022]:               gemSpec_Kon_V5.18.0.attachments/8792316216455315176.png
+[Img-074]:               gemSpec_Kon_V5.18.0.attachments/8792316216455315176.png
 [Abbildung-23]:          gemSpec_Kon_V5.18.0.attachments/1680130296516442956.emf
 [Abbildung-24]:          gemSpec_Kon_V5.18.0.attachments/17762408187233769204.emf
 [Abbildung-25]:          gemSpec_Kon_V5.18.0.attachments/11140954224183461378.emf
@@ -11347,407 +59984,460 @@ umzusetzen:
 [Abbildung-29]:          gemSpec_Kon_V5.18.0.attachments/7972339229766263266.emf
 [Abbildung-30]:          gemSpec_Kon_V5.18.0.attachments/3336173011312695993.png
 [Abbildung-31]:          gemSpec_Kon_V5.18.0.attachments/7031299863855507289.emf
-[Tbl-001]:               #Tbl-001 (&94498804047752)
-[Tbl-002]:               #Tbl-002 (&94498804829848)
-[Tbl-003]:               #Tbl-003 (&94498804871104)
-[Tabelle-1]:             #Tabelle-1 (&94498804912760)
-[Tabelle-2]:             #Tabelle-2 (&94498804925080)
-[Tabelle-3]:             #Tabelle-3 (&94498804943144)
-[Tabelle-4]:             #Tabelle-4 (&94498794786456)
-[Tabelle-5]:             #Tabelle-5 (&94498794950256)
-[Tabelle-6]:             #Tabelle-6 (&94498805821440)
-[Tabelle-7]:             #Tabelle-7 (&94498806897120)
-[Tbl-011]:               #Tbl-011 (&94498806916968)
-[Tabelle-9]:             #Tabelle-9 (&94498806974424)
-[Tabelle-10]:            #Tabelle-10 (&94498796059840)
-[Tabelle-11]:            #Tabelle-11 (&94498796119184)
-[Tabelle-12]:            #Tabelle-12 (&94498796316816)
-[Tabelle-13]:            #Tabelle-13 (&94498796462856)
-[Tabelle-14]:            #Tabelle-14 (&94498794445560)
-[Tabelle-15]:            #Tabelle-15 (&94498794494864)
-[Tabelle-16]:            #Tabelle-16 (&94498797870608)
-[Tabelle-17]:            #Tabelle-17 (&94498798069720)
-[Tabelle-18]:            #Tabelle-18 (&94498798145280)
-[Tabelle-19]:            #Tabelle-19 (&94498798561288)
-[Tabelle-20]:            #Tabelle-20 (&94498799247120)
-[Tabelle-21]:            #Tabelle-21 (&94498799691344)
-[Tabelle-22]:            #Tabelle-22 (&94498799885896)
-[Tabelle-23]:            #Tabelle-23 (&94498799973792)
-[Tabelle-24]:            #Tabelle-24 (&94498800030016)
-[Tbl-028]:               #Tbl-028 (&94498800103944)
-[Tabelle-26]:            #Tabelle-26 (&94498800332016)
-[Tabelle-27]:            #Tabelle-27 (&94498800384464)
-[Tabelle-28]:            #Tabelle-28 (&94498800475440)
-[Tbl-032]:               #Tbl-032 (&94498800494752)
-[Tabelle-30]:            #Tabelle-30 (&94498800746832)
-[Tabelle-31]:            #Tabelle-31 (&94498801562104)
-[Tabelle-32]:            #Tabelle-32 (&94498801588344)
-[Tabelle-33]:            #Tabelle-33 (&94498801723888)
-[Tabelle-34]:            #Tabelle-34 (&94498801936872)
-[Tabelle-35]:            #Tabelle-35 (&94498802738016)
-[Tabelle-36]:            #Tabelle-36 (&94498802827936)
-[Tabelle-37]:            #Tabelle-37 (&94498802863184)
-[Tabelle-38]:            #Tabelle-38 (&94498803032712)
-[Tabelle-39]:            #Tabelle-39 (&94498803069152)
-[Tabelle-40]:            #Tabelle-40 (&94498803720400)
-[Tabelle-41]:            #Tabelle-41 (&94498803812728)
-[Tabelle-42]:            #Tabelle-42 (&94498803832128)
-[Tabelle-43]:            #Tabelle-43 (&94498807111672)
-[Tabelle-44]:            #Tabelle-44 (&94498807218792)
-[Tabelle-45]:            #Tabelle-45 (&94498807292920)
-[Tabelle-46]:            #Tabelle-46 (&94498807350712)
-[Tabelle-47]:            #Tabelle-47 (&94498807458456)
-[Tabelle-48]:            #Tabelle-48 (&94498807478072)
-[Tabelle-49]:            #Tabelle-49 (&94498807513232)
-[Tabelle-50]:            #Tabelle-50 (&94498807571848)
-[Tabelle-51]:            #Tabelle-51 (&94498807606000)
-[Tabelle-52]:            #Tabelle-52 (&94498807679680)
-[Tabelle-53]:            #Tabelle-53 (&94498807730256)
-[Tabelle-54]:            #Tabelle-54 (&94498807767064)
-[Tabelle-55]:            #Tabelle-55 (&94498807804680)
-[Tabelle-56]:            #Tabelle-56 (&94498807858624)
-[Tabelle-57]:            #Tabelle-57 (&94498807932320)
-[Tabelle-58]:            #Tabelle-58 (&94498808037064)
-[Tabelle-59]:            #Tabelle-59 (&94498808170920)
-[Tabelle-60]:            #Tabelle-60 (&94498808654808)
-[Tabelle-61]:            #Tabelle-61 (&94498809155568)
-[Tabelle-62]:            #Tabelle-62 (&94498809225328)
-[Tabelle-63]:            #Tabelle-63 (&94498809281992)
-[Tabelle-64]:            #Tabelle-64 (&94498809301016)
-[Tabelle-65]:            #Tabelle-65 (&94498809470960)
-[Tabelle-66]:            #Tabelle-66 (&94498810295720)
-[Tabelle-67]:            #Tabelle-67 (&94498810428272)
-[Tabelle-68]:            #Tabelle-68 (&94498810562872)
-[Tabelle-69]:            #Tabelle-69 (&94498810703168)
-[Tabelle-70]:            #Tabelle-70 (&94498810831344)
-[Tabelle-71]:            #Tabelle-71 (&94498810891256)
-[Tabelle-72]:            #Tabelle-72 (&94498810915512)
-[Tabelle-73]:            #Tabelle-73 (&94498811107408)
-[Tabelle-74]:            #Tabelle-74 (&94498811124984)
-[Tabelle-75]:            #Tabelle-75 (&94498811172920)
-[Tabelle-76]:            #Tabelle-76 (&94498811237184)
-[Tabelle-77]:            #Tabelle-77 (&94498811268112)
-[Tabelle-78]:            #Tabelle-78 (&94498811408064)
-[Tabelle-79]:            #Tabelle-79 (&94498811423064)
-[Tabelle-80]:            #Tabelle-80 (&94498811502560)
-[Tabelle-81]:            #Tabelle-81 (&94498811560232)
-[Tabelle-82]:            #Tabelle-82 (&94498811680848)
-[Tabelle-83]:            #Tabelle-83 (&94498811716816)
-[Tabelle-84]:            #Tabelle-84 (&94498811797896)
-[Tabelle-85]:            #Tabelle-85 (&94498811850120)
-[Tabelle-86]:            #Tabelle-86 (&94498811969928)
-[Tabelle-87]:            #Tabelle-87 (&94498812022448)
-[Tabelle-88]:            #Tabelle-88 (&94498812092472)
-[Tabelle-89]:            #Tabelle-89 (&94498812139544)
-[Tabelle-90]:            #Tabelle-90 (&94498812259456)
-[Tabelle-91]:            #Tabelle-91 (&94498812306288)
-[Tabelle-92]:            #Tabelle-92 (&94498812378200)
-[Tabelle-93]:            #Tabelle-93 (&94498812430064)
-[Tabelle-94]:            #Tabelle-94 (&94498812549416)
-[Tabelle-95]:            #Tabelle-95 (&94498812590256)
-[Tabelle-96]:            #Tabelle-96 (&94498812662920)
-[Tabelle-97]:            #Tabelle-97 (&94498812704560)
-[Tabelle-98]:            #Tabelle-98 (&94498812822552)
-[Tabelle-99]:            #Tabelle-99 (&94498812842328)
-[Tabelle-100]:           #Tabelle-100 (&94498812904504)
-[Tabelle-101]:           #Tabelle-101 (&94498812929216)
-[Tabelle-102]:           #Tabelle-102 (&94498812994416)
-[Tabelle-103]:           #Tabelle-103 (&94498813400936)
-[Tabelle-104]:           #Tabelle-104 (&94498813473360)
-[Tabelle-105]:           #Tabelle-105 (&94498813514424)
-[Tabelle-106]:           #Tabelle-106 (&94498813581376)
-[Tabelle-107]:           #Tabelle-107 (&94498813660896)
-[Tabelle-108]:           #Tabelle-108 (&94498813722024)
-[Tabelle-109]:           #Tabelle-109 (&94498813746896)
-[Tabelle-110]:           #Tabelle-110 (&94498813802512)
-[Tabelle-111]:           #Tabelle-111 (&94498813827608)
-[Tabelle-112]:           #Tabelle-112 (&94498813946496)
-[Tabelle-113]:           #Tabelle-113 (&94498813977240)
-[Tabelle-114]:           #Tabelle-114 (&94498814026808)
-[Tabelle-115]:           #Tabelle-115 (&94498814157560)
-[Tabelle-116]:           #Tabelle-116 (&94498814209704)
-[Tabelle-117]:           #Tabelle-117 (&94498814239920)
-[Tabelle-118]:           #Tabelle-118 (&94498814472096)
-[Tabelle-119]:           #Tabelle-119 (&94498814518528)
-[Tabelle-120]:           #Tabelle-120 (&94498814549608)
-[Tabelle-121]:           #Tabelle-121 (&94498814794816)
-[Tabelle-122]:           #Tabelle-122 (&94498814835680)
-[Tabelle-123]:           #Tabelle-123 (&94498814872328)
-[Tabelle-124]:           #Tabelle-124 (&94498815001072)
-[Tabelle-125]:           #Tabelle-125 (&94498815048864)
-[Tabelle-126]:           #Tabelle-126 (&94498815073576)
-[Tabelle-127]:           #Tabelle-127 (&94498815200904)
-[Tabelle-128]:           #Tabelle-128 (&94498815249816)
-[Tabelle-129]:           #Tabelle-129 (&94498815280608)
-[Tabelle-130]:           #Tabelle-130 (&94498815357776)
-[Tabelle-131]:           #Tabelle-131 (&94498815457040)
-[Tabelle-132]:           #Tabelle-132 (&94498815488208)
-[Tabelle-133]:           #Tabelle-133 (&94498815503760)
-[Tbl-137]:               #Tbl-137 (&94498815602320)
-[Tabelle-135]:           #Tabelle-135 (&94498815927024)
-[Tabelle-136]:           #Tabelle-136 (&94498816809712)
-[Tabelle-137]:           #Tabelle-137 (&94498816828792)
-[Tabelle-138]:           #Tabelle-138 (&94498816893000)
-[Tabelle-139]:           #Tabelle-139 (&94498816970832)
-[Tabelle-140]:           #Tabelle-140 (&94498816990704)
-[Tabelle-141]:           #Tabelle-141 (&94498817123144)
-[Tabelle-142]:           #Tabelle-142 (&94498817164488)
-[Tbl-146]:               #Tbl-146 (&94498817216824)
-[Tbl-147]:               #Tbl-147 (&94498817347168)
-[Tbl-148]:               #Tbl-148 (&94498817388688)
-[Tabelle-146]:           #Tabelle-146 (&94498817406936)
-[Tabelle-147]:           #Tabelle-147 (&94498817617800)
-[Tabelle-148]:           #Tabelle-148 (&94498817710544)
-[Tabelle-149]:           #Tabelle-149 (&94498817729448)
-[Tabelle-150]:           #Tabelle-150 (&94498817899848)
-[Tabelle-151]:           #Tabelle-151 (&94498817952256)
-[Tbl-155]:               #Tbl-155 (&94498817973760)
-[Tbl-156]:               #Tbl-156 (&94498818047504)
-[Tbl-157]:               #Tbl-157 (&94498818143560)
-[Tbl-158]:               #Tbl-158 (&94498818164176)
-[Tbl-159]:               #Tbl-159 (&94498818217016)
-[Tbl-160]:               #Tbl-160 (&94498818575144)
-[Tbl-161]:               #Tbl-161 (&94498818600776)
-[Tbl-162]:               #Tbl-162 (&94498818708056)
-[Tbl-163]:               #Tbl-163 (&94498818751888)
-[Tbl-164]:               #Tbl-164 (&94498818777520)
-[Tbl-165]:               #Tbl-165 (&94498818899112)
-[Tbl-166]:               #Tbl-166 (&94498818935320)
-[Tbl-167]:               #Tbl-167 (&94498818962784)
-[Tbl-168]:               #Tbl-168 (&94498819002200)
-[Tabelle-166]:           #Tabelle-166 (&94498819029504)
-[Tabelle-167]:           #Tabelle-167 (&94498819172936)
-[Tabelle-168]:           #Tabelle-168 (&94498819196216)
-[Tabelle-169]:           #Tabelle-169 (&94498819331792)
-[Tabelle-170]:           #Tabelle-170 (&94498819470392)
-[Tabelle-171]:           #Tabelle-171 (&94498819514936)
-[Tabelle-172]:           #Tabelle-172 (&94498819581392)
-[Tabelle-173]:           #Tabelle-173 (&94498820350216)
-[Tabelle-174]:           #Tabelle-174 (&94498820406200)
-[Tabelle-175]:           #Tabelle-175 (&94498820425680)
-[Tabelle-176]:           #Tabelle-176 (&94498820472560)
-[Tabelle-177]:           #Tabelle-177 (&94498820491784)
-[Tabelle-178]:           #Tabelle-178 (&94498820600200)
-[Tabelle-179]:           #Tabelle-179 (&94498820654952)
-[Tabelle-180]:           #Tabelle-180 (&94498820688920)
-[Tabelle-181]:           #Tabelle-181 (&94498820868784)
-[Tabelle-182]:           #Tabelle-182 (&94498820904736)
-[Tabelle-183]:           #Tabelle-183 (&94498820988472)
-[Tabelle-184]:           #Tabelle-184 (&94498821055056)
-[Tabelle-185]:           #Tabelle-185 (&94498821086496)
-[Tabelle-186]:           #Tabelle-186 (&94498821181360)
-[Tabelle-187]:           #Tabelle-187 (&94498821231616)
-[Tabelle-188]:           #Tabelle-188 (&94498821379320)
-[Tabelle-189]:           #Tabelle-189 (&94498821472560)
-[Tbl-193]:               #Tbl-193 (&94498821504200)
-[Tabelle-191]:           #Tabelle-191 (&94498821600248)
-[Tabelle-192]:           #Tabelle-192 (&94498821618808)
-[Tabelle-193]:           #Tabelle-193 (&94498821817808)
-[Tabelle-194]:           #Tabelle-194 (&94498822563944)
-[Tabelle-195]:           #Tabelle-195 (&94498822581696)
-[Tabelle-196]:           #Tabelle-196 (&94498822644416)
-[Tabelle-197]:           #Tabelle-197 (&94498822657840)
-[Tabelle-198]:           #Tabelle-198 (&94498822765544)
-[Tabelle-199]:           #Tabelle-199 (&94498822784800)
-[Tabelle-200]:           #Tabelle-200 (&94498822842832)
-[Tabelle-201]:           #Tabelle-201 (&94498822857520)
-[Tabelle-202]:           #Tabelle-202 (&94498822928728)
-[Tabelle-203]:           #Tabelle-203 (&94498823484328)
-[Tabelle-204]:           #Tabelle-204 (&94498823538968)
-[Tabelle-205]:           #Tabelle-205 (&94498823558960)
-[Tabelle-206]:           #Tabelle-206 (&94498823642536)
-[Tabelle-207]:           #Tabelle-207 (&94498823671784)
-[Tabelle-208]:           #Tabelle-208 (&94498823790712)
-[Tabelle-209]:           #Tabelle-209 (&94498823821056)
-[Tabelle-210]:           #Tabelle-210 (&94498823894032)
-[Tabelle-211]:           #Tabelle-211 (&94498823925912)
-[Tabelle-212]:           #Tabelle-212 (&94498824454584)
-[Tabelle-213]:           #Tabelle-213 (&94498824497856)
-[Tabelle-214]:           #Tabelle-214 (&94498824552256)
-[Tabelle-215]:           #Tabelle-215 (&94498824586560)
-[Tabelle-216]:           #Tabelle-216 (&94498824693760)
-[Tabelle-217]:           #Tabelle-217 (&94498824713328)
-[Tabelle-218]:           #Tabelle-218 (&94498824813608)
-[Tabelle-219]:           #Tabelle-219 (&94498825506496)
-[Tabelle-220]:           #Tabelle-220 (&94498825566264)
-[Tabelle-221]:           #Tabelle-221 (&94498825687424)
-[Tabelle-222]:           #Tabelle-222 (&94498825783984)
-[Tabelle-223]:           #Tabelle-223 (&94498825842992)
-[Tabelle-224]:           #Tabelle-224 (&94498825946808)
-[Tabelle-225]:           #Tabelle-225 (&94498826050040)
-[Tabelle-226]:           #Tabelle-226 (&94498826114336)
-[Tabelle-227]:           #Tabelle-227 (&94498826160144)
-[Tabelle-228]:           #Tabelle-228 (&94498826235696)
-[Tabelle-229]:           #Tabelle-229 (&94498826319552)
-[Tabelle-230]:           #Tabelle-230 (&94498826383256)
-[Tabelle-231]:           #Tabelle-231 (&94498826399384)
-[Tabelle-232]:           #Tabelle-232 (&94498826449184)
-[Tabelle-233]:           #Tabelle-233 (&94498826802816)
-[Tabelle-234]:           #Tabelle-234 (&94498826845168)
-[Tabelle-235]:           #Tabelle-235 (&94498826943616)
-[Tabelle-236]:           #Tabelle-236 (&94498827172464)
-[Tabelle-237]:           #Tabelle-237 (&94498827263736)
-[Tabelle-238]:           #Tabelle-238 (&94498827296552)
-[Tabelle-239]:           #Tabelle-239 (&94498827330984)
-[Tabelle-240]:           #Tabelle-240 (&94498827346200)
-[Tabelle-241]:           #Tabelle-241 (&94498827370248)
-[Tabelle-242]:           #Tabelle-242 (&94498827454072)
-[Tabelle-243]:           #Tabelle-243 (&94498827471160)
-[Tabelle-244]:           #Tabelle-244 (&94498827491336)
-[Tabelle-245]:           #Tabelle-245 (&94498827531208)
-[Tabelle-246]:           #Tabelle-246 (&94498827563664)
-[Tabelle-247]:           #Tabelle-247 (&94498827593152)
-[Tabelle-248]:           #Tabelle-248 (&94498827680640)
-[Tabelle-249]:           #Tabelle-249 (&94498827698712)
-[Tabelle-250]:           #Tabelle-250 (&94498827718696)
-[Tabelle-251]:           #Tabelle-251 (&94498827780128)
-[Tabelle-252]:           #Tabelle-252 (&94498827810920)
-[Tabelle-253]:           #Tabelle-253 (&94498827877992)
-[Tabelle-254]:           #Tabelle-254 (&94498827920704)
-[Tabelle-255]:           #Tabelle-255 (&94498827978656)
-[Tabelle-256]:           #Tabelle-256 (&94498828081456)
-[Tbl-260]:               #Tbl-260 (&94498828153112)
-[Tabelle-258]:           #Tabelle-258 (&94498828203792)
-[Tabelle-259]:           #Tabelle-259 (&94498828225856)
-[Tabelle-260]:           #Tabelle-260 (&94498828303896)
-[Tabelle-261]:           #Tabelle-261 (&94498828358152)
-[Tabelle-262]:           #Tabelle-262 (&94498828469512)
-[Tabelle-263]:           #Tabelle-263 (&94498828494272)
-[Tabelle-264]:           #Tabelle-264 (&94498828891176)
-[Tabelle-265]:           #Tabelle-265 (&94498828909184)
-[Tabelle-266]:           #Tabelle-266 (&94498829009968)
-[Tabelle-267]:           #Tabelle-267 (&94498829089832)
-[Tabelle-268]:           #Tabelle-268 (&94498829202632)
-[Tabelle-269]:           #Tabelle-269 (&94498829225976)
-[Tabelle-270]:           #Tabelle-270 (&94498829343016)
-[Tabelle-271]:           #Tabelle-271 (&94498829365840)
-[Tabelle-272]:           #Tabelle-272 (&94498829446288)
-[Tabelle-273]:           #Tabelle-273 (&94498829482176)
-[Tabelle-274]:           #Tabelle-274 (&94498829522432)
-[Tabelle-275]:           #Tabelle-275 (&94498829614976)
-[Tabelle-276]:           #Tabelle-276 (&94498829657664)
-[Tabelle-277]:           #Tabelle-277 (&94498829687128)
-[Tabelle-278]:           #Tabelle-278 (&94498829868672)
-[Tabelle-279]:           #Tabelle-279 (&94498829910360)
-[Tbl-283]:               #Tbl-283 (&94498829946968)
-[Tbl-284]:               #Tbl-284 (&94498830052512)
-[Tbl-285]:               #Tbl-285 (&94498830125168)
-[Tabelle-283]:           #Tabelle-283 (&94498830144168)
-[Tabelle-284]:           #Tabelle-284 (&94498830250576)
-[Tabelle-285]:           #Tabelle-285 (&94498830263704)
-[Tabelle-286]:           #Tabelle-286 (&94498830323328)
-[Tabelle-287]:           #Tabelle-287 (&94498830394488)
-[Tabelle-288]:           #Tabelle-288 (&94498830516328)
-[Tabelle-289]:           #Tabelle-289 (&94498830606024)
-[Tabelle-290]:           #Tabelle-290 (&94498831080856)
-[Tabelle-291]:           #Tabelle-291 (&94498831129728)
-[Tabelle-292]:           #Tabelle-292 (&94498831189600)
-[Tabelle-293]:           #Tabelle-293 (&94498831240296)
-[Tabelle-294]:           #Tabelle-294 (&94498831361936)
-[Tabelle-295]:           #Tabelle-295 (&94498831389984)
-[Tabelle-296]:           #Tabelle-296 (&94498831437336)
-[Tabelle-297]:           #Tabelle-297 (&94498831474264)
-[Tabelle-298]:           #Tabelle-298 (&94498831518912)
-[Tabelle-299]:           #Tabelle-299 (&94498831569264)
-[Tabelle-300]:           #Tabelle-300 (&94498831671528)
-[Tabelle-301]:           #Tabelle-301 (&94498831735448)
-[Tabelle-302]:           #Tabelle-302 (&94498831765224)
-[Tabelle-303]:           #Tabelle-303 (&94498831798832)
-[Tabelle-304]:           #Tabelle-304 (&94498831965592)
-[Tabelle-305]:           #Tabelle-305 (&94498831999432)
-[Tabelle-306]:           #Tabelle-306 (&94498832020816)
-[Tabelle-307]:           #Tabelle-307 (&94498832146752)
-[Tabelle-308]:           #Tabelle-308 (&94498832199016)
-[Tabelle-309]:           #Tabelle-309 (&94498832211280)
-[Tabelle-310]:           #Tabelle-310 (&94498832697336)
-[Tabelle-311]:           #Tabelle-311 (&94498832755400)
-[Tabelle-312]:           #Tabelle-312 (&94498832779808)
-[Tabelle-313]:           #Tabelle-313 (&94498832876928)
-[Tabelle-314]:           #Tabelle-314 (&94498832901336)
-[Tabelle-315]:           #Tabelle-315 (&94498832998032)
-[Tabelle-316]:           #Tabelle-316 (&94498833037424)
-[Tabelle-317]:           #Tabelle-317 (&94498833067712)
-[Tabelle-318]:           #Tabelle-318 (&94498833090920)
-[Tabelle-319]:           #Tabelle-319 (&94498833173752)
-[Tabelle-320]:           #Tabelle-320 (&94498833194376)
-[Tabelle-321]:           #Tabelle-321 (&94498833310232)
-[Tabelle-322]:           #Tabelle-322 (&94498833337480)
-[Tbl-326]:               #Tbl-326 (&94498833416128)
-[Tabelle-324]:           #Tabelle-324 (&94498833480608)
-[Tabelle-325]:           #Tabelle-325 (&94498833838192)
-[Tabelle-326]:           #Tabelle-326 (&94498833920736)
-[Tabelle-327]:           #Tabelle-327 (&94498833966616)
-[Tabelle-328]:           #Tabelle-328 (&94498834002920)
-[Tabelle-329]:           #Tabelle-329 (&94498834107072)
-[Tabelle-330]:           #Tabelle-330 (&94498834134568)
-[Tabelle-331]:           #Tabelle-331 (&94498834200056)
-[Tabelle-332]:           #Tabelle-332 (&94498834263416)
-[Tabelle-333]:           #Tabelle-333 (&94498834299744)
-[Tabelle-334]:           #Tabelle-334 (&94498834410616)
-[Tabelle-335]:           #Tabelle-335 (&94498834455528)
-[Tabelle-336]:           #Tabelle-336 (&94498834547504)
-[Tabelle-337]:           #Tabelle-337 (&94498834575472)
-[Tabelle-338]:           #Tabelle-338 (&94498834669152)
-[Tabelle-339]:           #Tabelle-339 (&94498834687400)
-[Tabelle-340]:           #Tabelle-340 (&94498834721288)
-[Tabelle-341]:           #Tabelle-341 (&94498834737784)
-[Tabelle-342]:           #Tabelle-342 (&94498834757336)
-[Tabelle-343]:           #Tabelle-343 (&94498834815832)
-[Tabelle-344]:           #Tabelle-344 (&94498834844808)
-[Tabelle-345]:           #Tabelle-345 (&94498834951848)
-[Tabelle-346]:           #Tabelle-346 (&94498834993008)
-[Tabelle-347]:           #Tabelle-347 (&94498835016048)
-[Tabelle-348]:           #Tabelle-348 (&94498835063088)
-[Tabelle-349]:           #Tabelle-349 (&94498835087632)
-[Tabelle-350]:           #Tabelle-350 (&94498835131968)
-[Tabelle-351]:           #Tabelle-351 (&94498835206648)
-[Tabelle-352]:           #Tabelle-352 (&94498835257160)
-[Tabelle-353]:           #Tabelle-353 (&94498835283136)
-[Tabelle-354]:           #Tabelle-354 (&94498835315488)
-[Tabelle-355]:           #Tabelle-355 (&94498835353536)
-[Tabelle-356]:           #Tabelle-356 (&94498835441024)
-[Tabelle-357]:           #Tabelle-357 (&94498835550664)
-[Tabelle-358]:           #Tabelle-358 (&94498835575016)
-[Tabelle-359]:           #Tabelle-359 (&94498835590136)
-[Tabelle-360]:           #Tabelle-360 (&94498835729424)
-[Tabelle-361]:           #Tabelle-361 (&94498835763936)
-[Tbl-365]:               #Tbl-365 (&94498835797016)
-[Tbl-366]:               #Tbl-366 (&94498835822600)
-[Tbl-367]:               #Tbl-367 (&94498835838984)
-[Tbl-368]:               #Tbl-368 (&94498835852016)
-[Tabelle -366]:          #Tabelle -366 (&94498835924912)
-[Tbl-370]:               #Tbl-370 (&94498836026208)
-[Tabelle-368]:           #Tabelle-368 (&94498836077232)
-[Tbl-372]:               #Tbl-372 (&94498836127592)
-[Tabelle-370]:           #Tabelle-370 (&94498836201016)
-[Tabelle-371]:           #Tabelle-371 (&94498836343256)
-[Tabelle-372]:           #Tabelle-372 (&94498836385424)
-[Tabelle-373]:           #Tabelle-373 (&94498836577272)
-[Tabelle-374]:           #Tabelle-374 (&94498836602160)
-[Tabelle-375]:           #Tabelle-375 (&94498836669048)
-[Tabelle-376]:           #Tabelle-376 (&94498836699248)
-[Tabelle-377]:           #Tabelle-377 (&94498836829904)
-[Tabelle-378]:           #Tabelle-378 (&94498836851104)
-[Tabelle-379]:           #Tabelle-379 (&94498836924752)
-[Tabelle-380]:           #Tabelle-380 (&94498836955000)
-[Tabelle-381]:           #Tabelle-381 (&94498837067448)
-[Tabelle-382]:           #Tabelle-382 (&94498837109096)
-[Tabelle-383]:           #Tabelle-383 (&94498837156600)
-[Tabelle-384]:           #Tabelle-384 (&94498837169424)
-[Tabelle-385]:           #Tabelle-385 (&94498837201760)
-[Tabelle-386]:           #Tabelle-386 (&94498837407872)
-[Tabelle-387]:           #Tabelle-387 (&94498837422872)
-[Tabelle-388]:           #Tabelle-388 (&94498837437480)
-[Tbl-392]:               #Tbl-392 (&94498837450200)
-[Tbl-393]:               #Tbl-393 (&94498837652176)
-[Tbl-394]:               #Tbl-394 (&94498838380096)
-[Tbl-395]:               #Tbl-395 (&94498838459984)
-[Tabelle-389]:           #Tabelle-389 (&94498838908872)
-[Tabelle-390]:           #Tabelle-390 (&94498839115760)
-[Tabelle-391]:           #Tabelle-391 (&94498839129824)
-[Tabelle-392]:           #Tabelle-392 (&94498839142112)
-[Tabelle-393]:           #Tabelle-393 (&94498841085640)
-[Tabelle-394]:           #Tabelle-394 (&94498841901232)
-[Tabelle-395]:           #Tabelle-395 (&94498842133616)
-[Tabelle-396]:           #Tabelle-396 (&94498842157080)
-[Tabelle-397]:           #Tabelle-397 (&94498846324216)
+[Tbl-001]:               #Tbl-001 (&94863987466120)
+[Tbl-002]:               #Tbl-002 (&94863990654504)
+[Tbl-003]:               #Tbl-003 (&94863990695760)
+[Tabelle-1]:             #Tabelle-1 (&94863990737416)
+[Tabelle-2]:             #Tabelle-2 (&94863990749736)
+[Tabelle-3]:             #Tabelle-3 (&94863990767800)
+[Tabelle-4]:             #Tabelle-4 (&94863977835336)
+[Tabelle-5]:             #Tabelle-5 (&94863977999136)
+[Tabelle-6]:             #Tabelle-6 (&94863990036928)
+[Tabelle-7]:             #Tabelle-7 (&94863989397712)
+[Tbl-011]:               #Tbl-011 (&94863989417560)
+[Tabelle-9]:             #Tabelle-9 (&94863989475016)
+[Tabelle-10]:            #Tabelle-10 (&94863979429040)
+[Tabelle-11]:            #Tabelle-11 (&94863979488384)
+[Tabelle-12]:            #Tabelle-12 (&94863979686016)
+[Tabelle-13]:            #Tabelle-13 (&94863979832056)
+[Tabelle-14]:            #Tabelle-14 (&94863979204472)
+[Tabelle-15]:            #Tabelle-15 (&94863979253776)
+[Tabelle-16]:            #Tabelle-16 (&94863979331872)
+[Tabelle-17]:            #Tabelle-17 (&94863981406136)
+[Tabelle-18]:            #Tabelle-18 (&94863981481696)
+[Tabelle-19]:            #Tabelle-19 (&94863981897704)
+[Tabelle-20]:            #Tabelle-20 (&94863982583536)
+[Tabelle-21]:            #Tabelle-21 (&94863983027760)
+[Tabelle-22]:            #Tabelle-22 (&94863983222312)
+[Tabelle-23]:            #Tabelle-23 (&94863983310208)
+[Tabelle-24]:            #Tabelle-24 (&94863983366432)
+[Tbl-028]:               #Tbl-028 (&94863983440360)
+[Tabelle-26]:            #Tabelle-26 (&94863983668432)
+[Tabelle-27]:            #Tabelle-27 (&94863983720880)
+[Tabelle-28]:            #Tabelle-28 (&94863983811856)
+[Tbl-032]:               #Tbl-032 (&94863983831168)
+[Tabelle-30]:            #Tabelle-30 (&94863984083248)
+[Tabelle-31]:            #Tabelle-31 (&94863984898520)
+[Tabelle-32]:            #Tabelle-32 (&94863984924760)
+[Tabelle-33]:            #Tabelle-33 (&94863985060304)
+[Tabelle-34]:            #Tabelle-34 (&94863985273288)
+[Tabelle-35]:            #Tabelle-35 (&94863986074432)
+[Tabelle-36]:            #Tabelle-36 (&94863986164352)
+[Tabelle-37]:            #Tabelle-37 (&94863986199600)
+[Tabelle-38]:            #Tabelle-38 (&94863986369128)
+[Tabelle-39]:            #Tabelle-39 (&94863986405568)
+[Tabelle-40]:            #Tabelle-40 (&94863987056816)
+[Tabelle-41]:            #Tabelle-41 (&94863987149144)
+[Tabelle-42]:            #Tabelle-42 (&94863987168544)
+[Tabelle-43]:            #Tabelle-43 (&94863987247992)
+[Tabelle-44]:            #Tabelle-44 (&94863991024200)
+[Tabelle-45]:            #Tabelle-45 (&94863991098328)
+[Tabelle-46]:            #Tabelle-46 (&94863991156120)
+[Tabelle-47]:            #Tabelle-47 (&94863991263864)
+[Tabelle-48]:            #Tabelle-48 (&94863991283480)
+[Tabelle-49]:            #Tabelle-49 (&94863991318640)
+[Tabelle-50]:            #Tabelle-50 (&94863991377256)
+[Tabelle-51]:            #Tabelle-51 (&94863991411408)
+[Tabelle-52]:            #Tabelle-52 (&94863991485088)
+[Tabelle-53]:            #Tabelle-53 (&94863991535664)
+[Tabelle-54]:            #Tabelle-54 (&94863991572472)
+[Tabelle-55]:            #Tabelle-55 (&94863991610088)
+[Tabelle-56]:            #Tabelle-56 (&94863991664032)
+[Tabelle-57]:            #Tabelle-57 (&94863991737728)
+[Tabelle-58]:            #Tabelle-58 (&94863991842472)
+[Tabelle-59]:            #Tabelle-59 (&94863991976328)
+[Tabelle-60]:            #Tabelle-60 (&94863992460216)
+[Tabelle-61]:            #Tabelle-61 (&94863992960976)
+[Tabelle-62]:            #Tabelle-62 (&94863993030736)
+[Tabelle-63]:            #Tabelle-63 (&94863993087400)
+[Tabelle-64]:            #Tabelle-64 (&94863993106424)
+[Tabelle-65]:            #Tabelle-65 (&94863993276368)
+[Tabelle-66]:            #Tabelle-66 (&94863994101128)
+[Tabelle-67]:            #Tabelle-67 (&94863994233680)
+[Tabelle-68]:            #Tabelle-68 (&94863994368280)
+[Tabelle-69]:            #Tabelle-69 (&94863994508576)
+[Tabelle-70]:            #Tabelle-70 (&94863994636752)
+[Tabelle-71]:            #Tabelle-71 (&94863994696664)
+[Tabelle-72]:            #Tabelle-72 (&94863994720920)
+[Tabelle-73]:            #Tabelle-73 (&94863994912816)
+[Tabelle-74]:            #Tabelle-74 (&94863994930392)
+[Tabelle-75]:            #Tabelle-75 (&94863994978328)
+[Tabelle-76]:            #Tabelle-76 (&94863995042592)
+[Tabelle-77]:            #Tabelle-77 (&94863995073520)
+[Tabelle-78]:            #Tabelle-78 (&94863995213472)
+[Tabelle-79]:            #Tabelle-79 (&94863995228472)
+[Tabelle-80]:            #Tabelle-80 (&94863995307968)
+[Tabelle-81]:            #Tabelle-81 (&94863995365640)
+[Tabelle-82]:            #Tabelle-82 (&94863995486256)
+[Tabelle-83]:            #Tabelle-83 (&94863995522224)
+[Tabelle-84]:            #Tabelle-84 (&94863995603304)
+[Tabelle-85]:            #Tabelle-85 (&94863995655528)
+[Tabelle-86]:            #Tabelle-86 (&94863995775336)
+[Tabelle-87]:            #Tabelle-87 (&94863995827856)
+[Tabelle-88]:            #Tabelle-88 (&94863995897880)
+[Tabelle-89]:            #Tabelle-89 (&94863995944952)
+[Tabelle-90]:            #Tabelle-90 (&94863996064864)
+[Tabelle-91]:            #Tabelle-91 (&94863996111696)
+[Tabelle-92]:            #Tabelle-92 (&94863996183608)
+[Tabelle-93]:            #Tabelle-93 (&94863996235472)
+[Tabelle-94]:            #Tabelle-94 (&94863996354824)
+[Tabelle-95]:            #Tabelle-95 (&94863996395664)
+[Tabelle-96]:            #Tabelle-96 (&94863996468328)
+[Tabelle-97]:            #Tabelle-97 (&94863996509968)
+[Tabelle-98]:            #Tabelle-98 (&94863996627960)
+[Tabelle-99]:            #Tabelle-99 (&94863996647736)
+[Tabelle-100]:           #Tabelle-100 (&94863996709912)
+[Tabelle-101]:           #Tabelle-101 (&94863996734624)
+[Tabelle-102]:           #Tabelle-102 (&94863996799824)
+[Tabelle-103]:           #Tabelle-103 (&94863997206344)
+[Tabelle-104]:           #Tabelle-104 (&94863997278768)
+[Tabelle-105]:           #Tabelle-105 (&94863997319832)
+[Tabelle-106]:           #Tabelle-106 (&94863997386784)
+[Tabelle-107]:           #Tabelle-107 (&94863997466304)
+[Tabelle-108]:           #Tabelle-108 (&94863997527432)
+[Tabelle-109]:           #Tabelle-109 (&94863997552304)
+[Tabelle-110]:           #Tabelle-110 (&94863997607920)
+[Tabelle-111]:           #Tabelle-111 (&94863997633016)
+[Tabelle-112]:           #Tabelle-112 (&94863997751904)
+[Tabelle-113]:           #Tabelle-113 (&94863997782648)
+[Tabelle-114]:           #Tabelle-114 (&94863997832216)
+[Tabelle-115]:           #Tabelle-115 (&94863997962968)
+[Tabelle-116]:           #Tabelle-116 (&94863998015112)
+[Tabelle-117]:           #Tabelle-117 (&94863998045328)
+[Tabelle-118]:           #Tabelle-118 (&94863998277504)
+[Tabelle-119]:           #Tabelle-119 (&94863998323936)
+[Tabelle-120]:           #Tabelle-120 (&94863998355016)
+[Tabelle-121]:           #Tabelle-121 (&94863998600224)
+[Tabelle-122]:           #Tabelle-122 (&94863998641088)
+[Tabelle-123]:           #Tabelle-123 (&94863998677736)
+[Tabelle-124]:           #Tabelle-124 (&94863998806480)
+[Tabelle-125]:           #Tabelle-125 (&94863998854272)
+[Tabelle-126]:           #Tabelle-126 (&94863998878984)
+[Tabelle-127]:           #Tabelle-127 (&94863999006312)
+[Tabelle-128]:           #Tabelle-128 (&94863999055224)
+[Tabelle-129]:           #Tabelle-129 (&94863999086016)
+[Tabelle-130]:           #Tabelle-130 (&94863999163184)
+[Tabelle-131]:           #Tabelle-131 (&94863999262448)
+[Tabelle-132]:           #Tabelle-132 (&94863999293616)
+[Tabelle-133]:           #Tabelle-133 (&94863999309168)
+[Tbl-137]:               #Tbl-137 (&94863999407728)
+[Tabelle-135]:           #Tabelle-135 (&94863999732432)
+[Tabelle-136]:           #Tabelle-136 (&94864000615120)
+[Tabelle-137]:           #Tabelle-137 (&94864000634200)
+[Tabelle-138]:           #Tabelle-138 (&94864000698408)
+[Tabelle-139]:           #Tabelle-139 (&94864000776240)
+[Tabelle-140]:           #Tabelle-140 (&94864000796112)
+[Tabelle-141]:           #Tabelle-141 (&94864000928552)
+[Tabelle-142]:           #Tabelle-142 (&94864000969896)
+[Tbl-146]:               #Tbl-146 (&94864001022232)
+[Tbl-147]:               #Tbl-147 (&94864001152576)
+[Tbl-148]:               #Tbl-148 (&94864001194096)
+[Tabelle-146]:           #Tabelle-146 (&94864001212344)
+[Tabelle-147]:           #Tabelle-147 (&94864001423208)
+[Tabelle-148]:           #Tabelle-148 (&94864001515952)
+[Tabelle-149]:           #Tabelle-149 (&94864001534856)
+[Tabelle-150]:           #Tabelle-150 (&94864001705256)
+[Tabelle-151]:           #Tabelle-151 (&94864001757664)
+[Tbl-155]:               #Tbl-155 (&94864001779168)
+[Tbl-156]:               #Tbl-156 (&94864001852912)
+[Tbl-157]:               #Tbl-157 (&94864001948968)
+[Tbl-158]:               #Tbl-158 (&94864001969584)
+[Tbl-159]:               #Tbl-159 (&94864002022424)
+[Tbl-160]:               #Tbl-160 (&94864002380552)
+[Tbl-161]:               #Tbl-161 (&94864002406184)
+[Tbl-162]:               #Tbl-162 (&94864002513464)
+[Tbl-163]:               #Tbl-163 (&94864002557296)
+[Tbl-164]:               #Tbl-164 (&94864002582928)
+[Tbl-165]:               #Tbl-165 (&94864002704520)
+[Tbl-166]:               #Tbl-166 (&94864002740728)
+[Tbl-167]:               #Tbl-167 (&94864002768192)
+[Tbl-168]:               #Tbl-168 (&94864002807608)
+[Tabelle-166]:           #Tabelle-166 (&94864002834912)
+[Tabelle-167]:           #Tabelle-167 (&94864002978344)
+[Tabelle-168]:           #Tabelle-168 (&94864003001624)
+[Tabelle-169]:           #Tabelle-169 (&94864003137200)
+[Tabelle-170]:           #Tabelle-170 (&94864003275800)
+[Tabelle-171]:           #Tabelle-171 (&94864003320344)
+[Tabelle-172]:           #Tabelle-172 (&94864003386800)
+[Tabelle-173]:           #Tabelle-173 (&94864004155624)
+[Tabelle-174]:           #Tabelle-174 (&94864004211608)
+[Tabelle-175]:           #Tabelle-175 (&94864004231088)
+[Tabelle-176]:           #Tabelle-176 (&94864004277968)
+[Tabelle-177]:           #Tabelle-177 (&94864004297192)
+[Tabelle-178]:           #Tabelle-178 (&94864004405608)
+[Tabelle-179]:           #Tabelle-179 (&94864004460360)
+[Tabelle-180]:           #Tabelle-180 (&94864004494328)
+[Tabelle-181]:           #Tabelle-181 (&94864004674192)
+[Tabelle-182]:           #Tabelle-182 (&94864004710144)
+[Tabelle-183]:           #Tabelle-183 (&94864004793880)
+[Tabelle-184]:           #Tabelle-184 (&94864004860464)
+[Tabelle-185]:           #Tabelle-185 (&94864004891904)
+[Tabelle-186]:           #Tabelle-186 (&94864004986768)
+[Tabelle-187]:           #Tabelle-187 (&94864005037024)
+[Tabelle-188]:           #Tabelle-188 (&94864005184728)
+[Tabelle-189]:           #Tabelle-189 (&94864005277968)
+[Tbl-193]:               #Tbl-193 (&94864005309608)
+[Tabelle-191]:           #Tabelle-191 (&94864005405656)
+[Tabelle-192]:           #Tabelle-192 (&94864005424216)
+[Tabelle-193]:           #Tabelle-193 (&94864005623216)
+[Tabelle-194]:           #Tabelle-194 (&94864006369352)
+[Tabelle-195]:           #Tabelle-195 (&94864006387104)
+[Tabelle-196]:           #Tabelle-196 (&94864006449824)
+[Tabelle-197]:           #Tabelle-197 (&94864006463248)
+[Tabelle-198]:           #Tabelle-198 (&94864006570952)
+[Tabelle-199]:           #Tabelle-199 (&94864006590208)
+[Tabelle-200]:           #Tabelle-200 (&94864006648240)
+[Tabelle-201]:           #Tabelle-201 (&94864006662928)
+[Tabelle-202]:           #Tabelle-202 (&94864006734136)
+[Tabelle-203]:           #Tabelle-203 (&94864007289736)
+[Tabelle-204]:           #Tabelle-204 (&94864007344376)
+[Tabelle-205]:           #Tabelle-205 (&94864007364368)
+[Tabelle-206]:           #Tabelle-206 (&94864007447944)
+[Tabelle-207]:           #Tabelle-207 (&94864007477192)
+[Tabelle-208]:           #Tabelle-208 (&94864007596120)
+[Tabelle-209]:           #Tabelle-209 (&94864007626464)
+[Tabelle-210]:           #Tabelle-210 (&94864007699440)
+[Tabelle-211]:           #Tabelle-211 (&94864007731320)
+[Tabelle-212]:           #Tabelle-212 (&94864008259992)
+[Tabelle-213]:           #Tabelle-213 (&94864008303264)
+[Tabelle-214]:           #Tabelle-214 (&94864008357664)
+[Tabelle-215]:           #Tabelle-215 (&94864008391968)
+[Tabelle-216]:           #Tabelle-216 (&94864008499168)
+[Tabelle-217]:           #Tabelle-217 (&94864008518736)
+[Tabelle-218]:           #Tabelle-218 (&94864008619016)
+[Tabelle-219]:           #Tabelle-219 (&94864009311904)
+[Tabelle-220]:           #Tabelle-220 (&94864009371672)
+[Tabelle-221]:           #Tabelle-221 (&94864009492832)
+[Tabelle-222]:           #Tabelle-222 (&94864009589392)
+[Tabelle-223]:           #Tabelle-223 (&94864009648400)
+[Tabelle-224]:           #Tabelle-224 (&94864009752216)
+[Tabelle-225]:           #Tabelle-225 (&94864009855448)
+[Tabelle-226]:           #Tabelle-226 (&94864009919744)
+[Tabelle-227]:           #Tabelle-227 (&94864009965552)
+[Tabelle-228]:           #Tabelle-228 (&94864010041104)
+[Tabelle-229]:           #Tabelle-229 (&94864010124960)
+[Tabelle-230]:           #Tabelle-230 (&94864010188664)
+[Tabelle-231]:           #Tabelle-231 (&94864010204792)
+[Tabelle-232]:           #Tabelle-232 (&94864010254592)
+[Tabelle-233]:           #Tabelle-233 (&94864010608224)
+[Tabelle-234]:           #Tabelle-234 (&94864010650576)
+[Tabelle-235]:           #Tabelle-235 (&94864010749024)
+[Tabelle-236]:           #Tabelle-236 (&94864010977872)
+[Tabelle-237]:           #Tabelle-237 (&94864011069144)
+[Tabelle-238]:           #Tabelle-238 (&94864011101960)
+[Tabelle-239]:           #Tabelle-239 (&94864011136392)
+[Tabelle-240]:           #Tabelle-240 (&94864011151608)
+[Tabelle-241]:           #Tabelle-241 (&94864011175656)
+[Tabelle-242]:           #Tabelle-242 (&94864011259480)
+[Tabelle-243]:           #Tabelle-243 (&94864011276568)
+[Tabelle-244]:           #Tabelle-244 (&94864011296744)
+[Tabelle-245]:           #Tabelle-245 (&94864011336616)
+[Tabelle-246]:           #Tabelle-246 (&94864011369072)
+[Tabelle-247]:           #Tabelle-247 (&94864011398560)
+[Tabelle-248]:           #Tabelle-248 (&94864011486048)
+[Tabelle-249]:           #Tabelle-249 (&94864011504120)
+[Tabelle-250]:           #Tabelle-250 (&94864011524104)
+[Tabelle-251]:           #Tabelle-251 (&94864011585536)
+[Tabelle-252]:           #Tabelle-252 (&94864011616328)
+[Tabelle-253]:           #Tabelle-253 (&94864011683400)
+[Tabelle-254]:           #Tabelle-254 (&94864011726112)
+[Tabelle-255]:           #Tabelle-255 (&94864011784064)
+[Tabelle-256]:           #Tabelle-256 (&94864011886864)
+[Tbl-260]:               #Tbl-260 (&94864011958520)
+[Tabelle-258]:           #Tabelle-258 (&94864012009200)
+[Tabelle-259]:           #Tabelle-259 (&94864012031264)
+[Tabelle-260]:           #Tabelle-260 (&94864012109304)
+[Tabelle-261]:           #Tabelle-261 (&94864012163560)
+[Tabelle-262]:           #Tabelle-262 (&94864012274920)
+[Tabelle-263]:           #Tabelle-263 (&94864012299680)
+[Tabelle-264]:           #Tabelle-264 (&94864012696584)
+[Tabelle-265]:           #Tabelle-265 (&94864012714592)
+[Tabelle-266]:           #Tabelle-266 (&94864012815376)
+[Tabelle-267]:           #Tabelle-267 (&94864012895240)
+[Tabelle-268]:           #Tabelle-268 (&94864013008040)
+[Tabelle-269]:           #Tabelle-269 (&94864013031384)
+[Tabelle-270]:           #Tabelle-270 (&94864013148424)
+[Tabelle-271]:           #Tabelle-271 (&94864013171248)
+[Tabelle-272]:           #Tabelle-272 (&94864013251696)
+[Tabelle-273]:           #Tabelle-273 (&94864013287584)
+[Tabelle-274]:           #Tabelle-274 (&94864013327840)
+[Tabelle-275]:           #Tabelle-275 (&94864013420384)
+[Tabelle-276]:           #Tabelle-276 (&94864013463072)
+[Tabelle-277]:           #Tabelle-277 (&94864013492536)
+[Tabelle-278]:           #Tabelle-278 (&94864013674080)
+[Tabelle-279]:           #Tabelle-279 (&94864013715768)
+[Tbl-283]:               #Tbl-283 (&94864013752376)
+[Tbl-284]:               #Tbl-284 (&94864013857920)
+[Tbl-285]:               #Tbl-285 (&94864013930576)
+[Tabelle-283]:           #Tabelle-283 (&94864013949576)
+[Tabelle-284]:           #Tabelle-284 (&94864014055984)
+[Tabelle-285]:           #Tabelle-285 (&94864014069112)
+[Tabelle-286]:           #Tabelle-286 (&94864014128736)
+[Tabelle-287]:           #Tabelle-287 (&94864014199896)
+[Tabelle-288]:           #Tabelle-288 (&94864014321736)
+[Tabelle-289]:           #Tabelle-289 (&94864014411432)
+[Tabelle-290]:           #Tabelle-290 (&94864014886264)
+[Tabelle-291]:           #Tabelle-291 (&94864014935136)
+[Tabelle-292]:           #Tabelle-292 (&94864014995008)
+[Tabelle-293]:           #Tabelle-293 (&94864015045704)
+[Tabelle-294]:           #Tabelle-294 (&94864015167344)
+[Tabelle-295]:           #Tabelle-295 (&94864015195392)
+[Tabelle-296]:           #Tabelle-296 (&94864015242744)
+[Tabelle-297]:           #Tabelle-297 (&94864015279672)
+[Tabelle-298]:           #Tabelle-298 (&94864015324320)
+[Tabelle-299]:           #Tabelle-299 (&94864015374672)
+[Tabelle-300]:           #Tabelle-300 (&94864015476936)
+[Tabelle-301]:           #Tabelle-301 (&94864015540856)
+[Tabelle-302]:           #Tabelle-302 (&94864015570632)
+[Tabelle-303]:           #Tabelle-303 (&94864015604240)
+[Tabelle-304]:           #Tabelle-304 (&94864015771000)
+[Tabelle-305]:           #Tabelle-305 (&94864015804840)
+[Tabelle-306]:           #Tabelle-306 (&94864015826224)
+[Tabelle-307]:           #Tabelle-307 (&94864015952160)
+[Tabelle-308]:           #Tabelle-308 (&94864016004424)
+[Tabelle-309]:           #Tabelle-309 (&94864016016688)
+[Tabelle-310]:           #Tabelle-310 (&94864016502744)
+[Tabelle-311]:           #Tabelle-311 (&94864016560808)
+[Tabelle-312]:           #Tabelle-312 (&94864016585216)
+[Tabelle-313]:           #Tabelle-313 (&94864016682336)
+[Tabelle-314]:           #Tabelle-314 (&94864016706744)
+[Tabelle-315]:           #Tabelle-315 (&94864016803440)
+[Tabelle-316]:           #Tabelle-316 (&94864016842832)
+[Tabelle-317]:           #Tabelle-317 (&94864016873120)
+[Tabelle-318]:           #Tabelle-318 (&94864016896328)
+[Tabelle-319]:           #Tabelle-319 (&94864016979160)
+[Tabelle-320]:           #Tabelle-320 (&94864016999784)
+[Tabelle-321]:           #Tabelle-321 (&94864017115640)
+[Tabelle-322]:           #Tabelle-322 (&94864017142888)
+[Tbl-326]:               #Tbl-326 (&94864017221536)
+[Tabelle-324]:           #Tabelle-324 (&94864017286016)
+[Tabelle-325]:           #Tabelle-325 (&94864017643600)
+[Tabelle-326]:           #Tabelle-326 (&94864017726144)
+[Tabelle-327]:           #Tabelle-327 (&94864017772024)
+[Tabelle-328]:           #Tabelle-328 (&94864017808328)
+[Tabelle-329]:           #Tabelle-329 (&94864017912480)
+[Tabelle-330]:           #Tabelle-330 (&94864017939976)
+[Tabelle-331]:           #Tabelle-331 (&94864018005464)
+[Tabelle-332]:           #Tabelle-332 (&94864018068824)
+[Tabelle-333]:           #Tabelle-333 (&94864018105152)
+[Tabelle-334]:           #Tabelle-334 (&94864018216024)
+[Tabelle-335]:           #Tabelle-335 (&94864018260936)
+[Tabelle-336]:           #Tabelle-336 (&94864018352912)
+[Tabelle-337]:           #Tabelle-337 (&94864018380880)
+[Tabelle-338]:           #Tabelle-338 (&94864018474560)
+[Tabelle-339]:           #Tabelle-339 (&94864018492808)
+[Tabelle-340]:           #Tabelle-340 (&94864018526696)
+[Tabelle-341]:           #Tabelle-341 (&94864018543192)
+[Tabelle-342]:           #Tabelle-342 (&94864018562744)
+[Tabelle-343]:           #Tabelle-343 (&94864018621240)
+[Tabelle-344]:           #Tabelle-344 (&94864018650216)
+[Tabelle-345]:           #Tabelle-345 (&94864018757256)
+[Tabelle-346]:           #Tabelle-346 (&94864018798416)
+[Tabelle-347]:           #Tabelle-347 (&94864018821456)
+[Tabelle-348]:           #Tabelle-348 (&94864018868496)
+[Tabelle-349]:           #Tabelle-349 (&94864018893040)
+[Tabelle-350]:           #Tabelle-350 (&94864018937376)
+[Tabelle-351]:           #Tabelle-351 (&94864019012056)
+[Tabelle-352]:           #Tabelle-352 (&94864019062568)
+[Tabelle-353]:           #Tabelle-353 (&94864019088544)
+[Tabelle-354]:           #Tabelle-354 (&94864019120896)
+[Tabelle-355]:           #Tabelle-355 (&94864019158944)
+[Tabelle-356]:           #Tabelle-356 (&94864019246432)
+[Tabelle-357]:           #Tabelle-357 (&94864019356072)
+[Tabelle-358]:           #Tabelle-358 (&94864019380424)
+[Tabelle-359]:           #Tabelle-359 (&94864019395544)
+[Tabelle-360]:           #Tabelle-360 (&94864019534832)
+[Tabelle-361]:           #Tabelle-361 (&94864019569344)
+[Tbl-365]:               #Tbl-365 (&94864019602424)
+[Tbl-366]:               #Tbl-366 (&94864019628008)
+[Tbl-367]:               #Tbl-367 (&94864019644392)
+[Tbl-368]:               #Tbl-368 (&94864019657424)
+[Tabelle -366]:          #Tabelle -366 (&94864019730320)
+[Tbl-370]:               #Tbl-370 (&94864019831616)
+[Tabelle-368]:           #Tabelle-368 (&94864019882640)
+[Tbl-372]:               #Tbl-372 (&94864019933000)
+[Tabelle-370]:           #Tabelle-370 (&94864020006424)
+[Tabelle-371]:           #Tabelle-371 (&94864020148664)
+[Tabelle-372]:           #Tabelle-372 (&94864020190832)
+[Tabelle-373]:           #Tabelle-373 (&94864020382680)
+[Tabelle-374]:           #Tabelle-374 (&94864020407568)
+[Tabelle-375]:           #Tabelle-375 (&94864020474456)
+[Tabelle-376]:           #Tabelle-376 (&94864020504656)
+[Tabelle-377]:           #Tabelle-377 (&94864020635312)
+[Tabelle-378]:           #Tabelle-378 (&94864020656512)
+[Tabelle-379]:           #Tabelle-379 (&94864020730160)
+[Tabelle-380]:           #Tabelle-380 (&94864020760408)
+[Tabelle-381]:           #Tabelle-381 (&94864020872856)
+[Tabelle-382]:           #Tabelle-382 (&94864020914504)
+[Tabelle-383]:           #Tabelle-383 (&94864020962008)
+[Tabelle-384]:           #Tabelle-384 (&94864020974832)
+[Tabelle-385]:           #Tabelle-385 (&94864021007168)
+[Tabelle-386]:           #Tabelle-386 (&94864021213280)
+[Tabelle-387]:           #Tabelle-387 (&94864021228280)
+[Tabelle-388]:           #Tabelle-388 (&94864021242888)
+[Tbl-392]:               #Tbl-392 (&94864021255608)
+[Tbl-393]:               #Tbl-393 (&94864021457584)
+[Tbl-394]:               #Tbl-394 (&94864022185504)
+[Tbl-395]:               #Tbl-395 (&94864022265392)
+[Tabelle-389]:           #Tabelle-389 (&94864022714280)
+[Tabelle-390]:           #Tabelle-390 (&94864022921168)
+[Tabelle-391]:           #Tabelle-391 (&94864022935232)
+[Tabelle-392]:           #Tabelle-392 (&94864022947520)
+[Tabelle-393]:           #Tabelle-393 (&94864024891048)
+[Tabelle-394]:           #Tabelle-394 (&94864025706640)
+[Tabelle-395]:           #Tabelle-395 (&94864025939024)
+[Tabelle-396]:           #Tabelle-396 (&94864025962488)
+[Tabelle-397]:           #Tabelle-397 (&94864030129624)
+[http://uri.etsi.org/02778/3]: http://uri.etsi.org/02778/3 (&94864010794544)
+[urn:ietf:rfc:5751]:     urn:ietf:rfc:5751 (&94864010797552)
+[https://github.com/gematik/examples-TelematikInterfaces/tree/master/tslService/detachedSignature]: https://github.com/gematik/examples-TelematikInterfaces/tree/master/tslService/detachedSignature (&94864022263360)
+[https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_V-2-1_pdf.pdf?__blob=publicationFile&v=2]: https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_V-2-1_pdf.pdf?__blob=publicationFile&v=2 (&94864022287696)
+[https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/ Publikationen/TechnischeRichtlinien/TR03114/BSI-TR-03114.pdf? __blob=publicationFile&v=1]: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03114/BSI-TR-03114.pdf?__blob=publicationFile&v=1 (&94864022292264)
+[https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/ Publikationen/TechnischeRichtlinien/TR03120/BSI-TR-03120.pdf? __blob=publicationFile&v=1]: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03120/BSI-TR-03120.pdf?__blob=publicationFile&v=1 (&94864022296832)
+[http://www.etsi.org]:   http://www.etsi.org (&94864022301096)
+[http://www.w3.org/TR/2008/REC-xml-c14n11-20080502/]: http://www.w3.org/TR/2008/REC-xml-c14n11-20080502/ (&94864022305184)
+[http://www.t7ev.org/themen/entwickler/common-pki-v20-spezifikation.html]: http://www.t7ev.org/themen/entwickler/common-pki-v20-spezifikation.html (&94864022316008)
+[https://www.teletrust.de/fileadmin/files/ ISIS-MTT_Profile_SigGOptions_v1.1.pdf]: https://www.teletrust.de/fileadmin/files/ISIS-MTT_Profile_SigGOptions_v1.1.pdf (&94864022317928)
+[https://datatracker.ietf.org/doc/html/rfc5652]: https://datatracker.ietf.org/doc/html/rfc5652 (&94864022322496)
+[RFC 2045]:              http://tools.ietf.org/html/rfc2045 (&94864022405040)
+[RFC 2046]:              http://tools.ietf.org/html/rfc2046 (&94864022406352)
+[RFC 2047]:              http://tools.ietf.org/html/rfc2047 (&94864022407664)
+[RFC 2048]:              http://tools.ietf.org/html/rfc2048 (&94864022408976)
+[RFC 2049]:              http://tools.ietf.org/html/rfc2049 (&94864022410288)
+[https://datatracker.ietf.org/doc/html/rfc5905]: https://datatracker.ietf.org/doc/html/rfc5905 (&94864022414376)
+[http://docs.oasis-open.org/dss/v1.0/oasis-dss-profiles-AdES-spec-v1.0-os.pdf]: http://docs.oasis-open.org/dss/v1.0/oasis-dss-profiles-AdES-spec-v1.0-os.pdf (&94864022419368)
+[http://docs.oasis-open.org/dss/v1.0/oasis-dss-core-spec-v1.0-os.pdf]: http://docs.oasis-open.org/dss/v1.0/oasis-dss-core-spec-v1.0-os.pdf (&94864022423456)
+[https://datatracker.ietf.org/doc/html/rfc792]: https://datatracker.ietf.org/doc/html/rfc792 (&94864022459792)
+[https://datatracker.ietf.org/doc/html/rfc1034]: https://datatracker.ietf.org/doc/html/rfc1034 (&94864022464000)
+[https://datatracker.ietf.org/doc/html/rfc1122]: https://datatracker.ietf.org/doc/html/rfc1122 (&94864022468208)
+[https://datatracker.ietf.org/doc/html/rfc1812]: https://datatracker.ietf.org/doc/html/rfc1812 (&94864022472896)
+[https://datatracker.ietf.org/doc/html/rfc1918]: https://datatracker.ietf.org/doc/html/rfc1918 (&94864022477104)
+[https://datatracker.ietf.org/doc/html/rfc2131]: https://datatracker.ietf.org/doc/html/rfc2131 (&94864022485216)
+[https://datatracker.ietf.org/doc/html/rfc2132]: https://datatracker.ietf.org/doc/html/rfc2132 (&94864022489424)
+[https://datatracker.ietf.org/doc/html/rfc2617]: https://datatracker.ietf.org/doc/html/rfc2617 (&94864022497864)
+[https://datatracker.ietf.org/doc/html/rfc2818]: https://datatracker.ietf.org/doc/html/rfc2818 (&94864022512104)
+[https://datatracker.ietf.org/doc/html/rfc3022]: https://datatracker.ietf.org/doc/html/rfc3022 (&94864022516312)
+[https://datatracker.ietf.org/doc/html/rfc3279]: https://datatracker.ietf.org/doc/html/rfc3279 (&94864022526112)
+[https://datatracker.ietf.org/doc/html/rfc3629]: https://datatracker.ietf.org/doc/html/rfc3629 (&94864022534528)
+[https://datatracker.ietf.org/doc/html/rfc3927]: https://datatracker.ietf.org/doc/html/rfc3927 (&94864022538736)
+[https://datatracker.ietf.org/doc/html/rfc4122]: https://datatracker.ietf.org/doc/html/rfc4122 (&94864022545896)
+[https://datatracker.ietf.org/doc/html/rfc4511]: https://datatracker.ietf.org/doc/html/rfc4511 (&94864022549080)
+[https://datatracker.ietf.org/doc/html/rfc4632]: https://datatracker.ietf.org/doc/html/rfc4632 (&94864022552984)
+[https://datatracker.ietf.org/doc/html/rfc5246]: https://datatracker.ietf.org/doc/html/rfc5246 (&94864022557272)
+[https://datatracker.ietf.org/doc/html/rfc5652]: https://datatracker.ietf.org/doc/html/rfc5652 (&94864022562080)
+[https://datatracker.ietf.org/doc/html/rfc6598]: https://datatracker.ietf.org/doc/html/rfc6598 (&94864022566288)
+[https://datatracker.ietf.org/doc/html/rfc6931]: https://datatracker.ietf.org/doc/html/rfc6931 (&94864022570496)
+[https://datatracker.ietf.org/doc/html/rfc7159]: https://datatracker.ietf.org/doc/html/rfc7159 (&94864022574704)
+[https://datatracker.ietf.org/doc/html/rfc5751]: https://datatracker.ietf.org/doc/html/rfc5751 (&94864022578912)
+[https://www.w3.org/TR/2000/NOTE-SOAP-20000508/]: https://www.w3.org/TR/2000/NOTE-SOAP-20000508/ (&94864022583904)
+[http://www.w3.org/TR/2007/REC-soap12-part1-20070427/]: http://www.w3.org/TR/2007/REC-soap12-part1-20070427/ (&94864022589256)
+[https://www.teletrust.de/fileadmin/docs/projekte/sicct/SICCT-Spezifikation-1.21.pdf]: https://www.teletrust.de/fileadmin/docs/projekte/sicct/SICCT-Spezifikation-1.21.pdf (&94864022594144)
+[https://www.adobe.io/open/standards/TIFF/_jcr_content/ contentbody/download/file.res/TIFF6.pdf.html]: https://www.adobe.io/open/standards/TIFF/_jcr_content/contentbody/download/file.res/TIFF6.pdf.html (&94864022598712)
+[http://www.w3.org/TR/wsdl]: http://www.w3.org/TR/wsdl (&94864022604064)
+[http://www.w3.org/TR/2008/REC-xmldsig-core-20080610/]: http://www.w3.org/TR/2008/REC-xmldsig-core-20080610/ (&94864022611888)
+[http://www.w3.org/TR/xmlenc-core1/]: http://www.w3.org/TR/xmlenc-core1/ (&94864022616760)
+[http://www.w3.org/TR/2010/REC-xpath20-20101214/]: http://www.w3.org/TR/2010/REC-xpath20-20101214/ (&94864022621632)
+[http://www.w3.org/TR/2007/REC-xslt20-20070123/]: http://www.w3.org/TR/2007/REC-xslt20-20070123/ (&94864022626576)
+[http://www.w3.org/TR/2006/REC-xsl11-20061205/]: http://www.w3.org/TR/2006/REC-xsl11-20061205/ (&94864022642656)
+[http://www.w3.org/TR/2005/REC-soap12-mtom-20050125/]: http://www.w3.org/TR/2005/REC-soap12-mtom-20050125/ (&94864022647528)
+[http://www.w3.org/2001/XInclude]: http://www.w3.org/2001/XInclude (&94864022943152)
