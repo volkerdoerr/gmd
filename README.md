@@ -27,10 +27,10 @@ Qt, Stack Overflow and others._
 
 ## Continous-Integration
 
-Das gematik Polarion Converter Tool (GPC) wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der immer dann 
+Das gematik Polarion Converter Tool (GPC, siehe weiter unter) wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der immer dann 
 automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. Die resultierenden 
 Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht. Das Log für den letzten Lauf findet sich in 
-[output/gpc.log.txt]. ٭ _The gematik polarion converter tool (GPC) is called by the continous integration job ci.yml,
+[output/gpc.log.txt]. ٭ _The gematik polarion converter tool (GPC, see below) is called by the continous integration job ci.yml,
 which is started automatically whenever changes are made in the input directory. The log of the most recent run 
 can be found in output/gpc.log.txt_
 
