@@ -11,7 +11,7 @@ wird durch die Definitionen in input/[gmd-definitions.yml] erweitert. ٭ _This r
 initial syntax definition for certification-relevant gematik documents. gMD is based on CommonMark¹ and is extended 
 by the definitions found in input/gmd-definitions.yml._
 
-Beispiele ٭ _Examples_:
+Aktuelle Beispiele ٭ _current examples_:
 
 - [output/gemKPT_Betr_V3.21.0.gmd.txt]
 - [output/gemProdT_Kon_Highspeed_PTV_1.3.0-0_V1.0.0.gmd.txt]
