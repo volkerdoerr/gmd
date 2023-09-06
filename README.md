@@ -27,12 +27,50 @@ Qt, Stack Overflow and others._
 
 ## Continous-Integration
 
-Der gematik polarion converter ([gpc]) wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der immer dann 
+Das gematik Polarion Converter Tool (GPC) wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der immer dann 
 automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. Die resultierenden 
 Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht. Das Log für den letzten Lauf findet sich in 
-[output/gpc.log.txt]. ٭ _The gematik polarion converter (gpc) tool is called by the continous integration job ci.yml,
+[output/gpc.log.txt]. ٭ _The gematik polarion converter tool (GPC) is called by the continous integration job ci.yml,
 which is started automatically whenever changes are made in the input directory. The log of the most recent run 
 can be found in output/gpc.log.txt_
+
+---
+
+## gematik Polarion Converter Tool
+
+Donwload executable: [releases/download/wip/gpc]
+
+Das GPC Tool konvertiert die von der gematik aus Polarion heraus exportierte (*.html) Dateien in saubere *.gmd, 
+*.html, *.xml, *.xlsx Dateien und eine konsolidierte Datenbank gematik.database.sql. ٭ _The GPC tool converts 
+the Polarion exported (*.html) files into clean *.gmd, *.html, *.xml, *.xlsx files and generates a consolidated 
+gematik.database.sql file.
+
+~~~
+$ gpc
+~~~
+
+~~~
+GEMATIK POLARION CONVERTER 0.8.0
+  converts Polarion exported (*.html) files
+  into clean *.gmd, *.html, *.xml, *.xlsx files
+  and generates a consolidated gematik.database.sql file.
+  ATTENTION: This is a prototype as proof of concept
+             with only a subset of features implemented!
+Copyright (c) 2023
+  Volker Dörr (volker.doerr@cascade.de).
+  All rights reserved.
+Current path:
+  /home/vol/GIT/volkerdoerr/xml2gmd/build-src-Desktop_Qt_Clang_64bit-Debug
+ERROR: commandline parameter(s) missing!
+  Usage: gpc source target
+    source -- path or URL of filelist.txt
+    target -- destination path (root of generated files)
+  Examples:
+    gpc ./input/filelist.txt ./output
+    gpc ../../gmd/input/filelist.txt ../../gmd/output
+    gpc https://gemspec.dev.ccs.gematik.solutions/docs/filelist.txt /tmp/gpc_test
+PROCESS FAILED
+~~~
 
 ---
 
@@ -57,7 +95,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [output/gemSpec_CM_KOMLE_V1.16.0.gmd.txt]: output/gemSpec_CM_KOMLE_V1.16.0.gmd.txt
 [output/gemSpec_ePA_FdV_V1.51.0.gmd.txt]: output/gemSpec_ePA_FdV_V1.51.0.gmd.txt
 [output/gpc.log.txt]: output/gpc.log.txt
-
+[releases/download/wip/gpc]: https://github.com/volkerdoerr/gmd/releases/download/wip/gpc
 
 
 
