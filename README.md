@@ -40,7 +40,7 @@ can be found in output/gpc.log.txt_
 
 Donwload executable: [releases/download/wip/gpc]
 
-Das GPC Tool konvertiert die von der gematik aus Polarion heraus exportierte (*.html) Dateien in saubere *.gmd, 
+Das GPC Tool konvertiert die von der gematik aus Polarion heraus exportierten (*.html) Dateien in saubere *.gmd, 
 *.html, *.xml, *.xlsx Dateien und eine konsolidierte Datenbank gematik.database.sql. ٭ _The GPC tool converts 
 the Polarion exported (*.html) files into clean *.gmd, *.html, *.xml, *.xlsx files and generates a consolidated 
 gematik.database.sql file.
