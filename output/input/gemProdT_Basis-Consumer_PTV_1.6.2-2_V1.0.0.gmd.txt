@@ -1,0 +1,1576 @@
+Elektronische Gesundheitskarte und Telematikinfrastruktur
+
+Produkttypsteckbrief
+
+Prüfvorschrift
+
+Basis-Consumer
+
+|------------------------------|
+|Produkttyp Version|1.6.2-2    |
+|------------------|-----------|
+|Produkttyp Status |freigegeben|
+|------------------------------|
+
+|---------------------------------------------------|
+|Version        |1.0.0                              |
+|---------------|-----------------------------------|
+|Revision       |619478                             |
+|---------------|-----------------------------------|
+|Stand          |24.04..2023                        |
+|---------------|-----------------------------------|
+|Status         |freigegeben                        |
+|---------------|-----------------------------------|
+|Klassifizierung|öffentlich                         |
+|---------------|-----------------------------------|
+|Referenzierung |gemProdT_Basis-Consumer_PTV_1.6.2-2|
+|---------------------------------------------------|
+
+## Historie Produkttypversion und Produkttypsteckbrief
+
+Historie Produkttypversion
+
+Die Produkttypversion ändert sich, wenn sich die normativen Festlegungen für den Produkttyp ändern und die Umsetzung
+durch Produktentwicklungen ebenfalls betroffen ist.
+
+|=======================================================================================================================|
+|Produkttypversion   |Beschreibung der Änderung                           |Referenz                                     |
+|====================|====================================================|=============================================|
+|1.0.0-0             |Initiale Version auf Dokumentenebene                |gemProdT_Basis-Consumer_PTV1.0.0-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.1.0-0             |Anpassung auf Releasestand 3.1.1                    |gemProdT_Basis-Consumer_PTV1.1.0-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.1.1-0             |Anpassung auf Releasestand 3.1.3                    |gemProdT_Basis-Consumer_PTV1.1.1-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.2.0-0             |Anpassung auf Releasestand 4.0.0                    |gemProdT_Basis-Consumer_PTV1.2.0-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.3.0-0             |Anpassung auf Releasestand 4.0.0 Hotfix 1           |gemProdT_Basis-Consumer_PTV1.3.0-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.3.0-1             |Anpassung für KIM-Patches 1.0.1                     |gemProdT_Basis-Consumer_PTV1.3.0-1           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.3.1-0             |Anpassung auf Releasestand 4.0.2                    |gemProdT_Basis-Consumer_PTV1.3.1-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.4.0-0             |Anpassung auf Releasestand KIM1.5.1                 |gemProdT_Basis-Consumer_PTV1.4.0-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.5.0-0             |Anpassung durch Consumer_Maintenance_21.1 und _21.3,|gemProdT_Basis-Consumer_PTV1.5.0-0           |
+|                    |KIM 1.5.1 Hotfix 3                                  |                                             |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.6.0-0             |Anpassung durch KIM 1.5.2                           |gemProdT_Basis-Consumer_PTV1.6.0-0           |
+|                    |und Consumer_Maintenance_21.4                       |                                             |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.6.1-0             |Anpassung durch Consumer_Maintenance_22.1           |gemProdT_Basis-Consumer_PTV1.6.1-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.6.2-0             |Anpassung durch KIM 1.5.2-1                         |gemProdT_Basis-Consumer_PTV1.6.2-0           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.6.2-1             |Anpassung durch KIM 1.5.2-2                         |gemProdT_Basis-Consumer_PTV1.6.2-1           |
+|--------------------|----------------------------------------------------|---------------------------------------------|
+|1.6.2-2             |Anpassung durch KIM 1.5.2-3                         |gemProdT_Basis-Consumer_PTV1.6.2-2           |
+|=======================================================================================================================|
+
+Historie Produkttypsteckbrief
+
+Die Dokumentenversion des Produkttypsteckbriefs ändert sich mit jeder inhaltlichen oder redaktionellen Änderung des
+Produkttypsteckbriefs und seinen referenzierten Dokumenten. Redaktionelle Änderungen haben keine Auswirkung auf die
+Produkttypversion.
+
+|=========================================================================================================================|
+|Version       |Stand         |Kap.     |Grund der Änderung, besondere Hinweise                        |Bearbeiter        |
+|==============|==============|=========|==============================================================|==================|
+|1.0.0         |24.04.2023    |         |freigegeben                                                   |gematik           |
+|=========================================================================================================================|
+
+## Inhaltsverzeichnis
+
+## 1 Einführung
+
+## 1.1 Zielsetzung und Einordnung des Dokumentes
+
+Dieser Produkttypsteckbrief verzeichnet verbindlich die normativen Festlegungen der gematik an Herstellung und Betrieb
+von Produkten des Produkttyps oder verweist auf Dokumente, in denen verbindliche normativen Festlegungen mit ggf.
+anderer Notation zu finden sind. Die normativen Festlegungen bilden die Grundlage für die Erteilung von Zulassungen,
+Zertifizierungen bzw. Bestätigungen durch die gematik. (Wenn im weiteren Dokument vereinfachend der Begriff „Zulassung“
+verwendet wird, so ist dies der besseren Lesbarkeit geschuldet und umfasst übergreifend neben dem Verfahren der
+Zulassung auch Zertifizierungen und Bestätigungen der gematik-Zulassungsstelle.)
+
+Die normativen Festlegungen werden über ihren Identifier, ihren Titel sowie die Dokumentenquelle referenziert. Die
+normativen Festlegungen mit ihrem vollständigen, normativen Inhalt sind dem jeweils referenzierten Dokument zu
+entnehmen.
+
+## 1.2 Zielgruppe
+
+Der Produkttypsteckbrief richtet sich an Hersteller und Anbieter des Produkttyps Basis-Consumer sowie Hersteller und
+Anbieter von Produkttypen, die hierzu eine Schnittstelle besitzen.
+
+Das Dokument ist außerdem zu verwenden von:
+
+   - der gematik im Rahmen des Zulassungsverfahrens
+   - Auditoren
+
+Bei zentralen Diensten der TI-Plattform und fachanwendungsspezifischen Diensten beziehen sich normativen Festlegungen,
+die sowohl an Anbieter als auch Hersteller gerichtet sind, jeweils auf den Anbieter als Zulassungsnehmer, bei
+dezentralen Produkten auf den Hersteller.
+
+## 1.3 Geltungsbereich
+
+Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Der
+Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungsverfahren werden durch die gematik GmbH in
+gesonderten Dokumenten (z.B. gemPTV_ATV_Festlegungen, Leistungsbeschreibung) festgelegt und bekannt gegeben.
+
+## 1.4 Abgrenzung des Dokumentes
+
+Dieses Dokument macht keine Aussagen zur Aufteilung der Produktentwicklung bzw. Produktherstellung auf verschiedene
+Hersteller und Anbieter.
+
+Dokumente zu den Zulassungsverfahren für den Anbietertyp sind nicht aufgeführt. Die geltenden Verfahren und Regelungen
+zur Beantragung und Durchführung von Zulassungsverfahren können dem Fachportal der gematik (https://fachportal.gematik.
+de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungenhttps://fachportal.gematik.
+de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen) entnommen werden.
+
+## 1.5 Methodik
+
+Die im Dokument verzeichneten normativen Festlegungen werden tabellarisch dargestellt. Die Tabellenspalten haben die
+folgende Bedeutung:
+
+ID: Identifiziert die normative Festlegung eindeutig im Gesamtbestand aller Festlegungen der gematik.
+
+Bezeichnung: Gibt den Titel einer normativen Festlegung informativ wieder, um die thematische Einordnung zu erleichtern.
+Der vollständige Inhalt der normativen Festlegung ist dem Dokument zu entnehmen, auf das die Quellenangabe verweist.
+
+Quelle (Referenz): Verweist auf das Dokument, das die normative Festlegung definiert.
+
+## 2 Dokumente
+
+Die nachfolgenden Dokumente enthalten alle für den Produkttyp normativen Festlegungen.
+
+Tabelle 1: Dokumente mit normativen Festlegungen
+
+|==========================================================================================================================|
+|Dokumentenkürzel            |Bezeichnung des Dokumentes                                                           |Version|
+|============================|=====================================================================================|=======|
+|[gemKPT_Test]gemKPT_Test    |Testkonzept der TI                                                                   |2.8.5  |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSMIME_KOMLE]            |S/MIME-Profil Kommunikation Leistungserbringer (KOM-LE)                              |1.7.0  |
+|gemSMIME_KOMLE              |                                                                                     |       |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_Basis_KTR_Consumer]|Spezifikation Basis-/KTR-Consumer                                                    |1.5.0  |
+|gemSpec_Basis_KTR_Consumer  |                                                                                     |       |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_CM_KOMLE]          |Spezifikation KOM-LE-Clientmodul                                                     |1.16.0 |
+|gemSpec_CM_KOMLE            |                                                                                     |       |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_DS_Hersteller]     |Spezifikation Datenschutz- und Sicherheitsanforderungen der TI an Hersteller         |1.3.0  |
+|gemSpec_DS_Hersteller       |                                                                                     |       |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_HSMProxy]          |Übergreifende Spezifikation HSM-Proxy                                                |1.0.0  |
+|gemSpec_HSMProxy            |                                                                                     |       |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_Krypt]gemSpec_Krypt|Übergreifende Spezifikation Verwendung kryptographischer Algorithmen in der          |2.24.0 |
+|                            |Telematikinfrastruktur                                                               |       |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_Net]gemSpec_Net    |Übergreifende Spezifikation Netzwerk                                                 |1.23.0 |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_OM]gemSpec_OM      |Übergreifende Spezifikation Operations und Maintenance                               |1.14.1 |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_PKI]gemSpec_PKI    |Übergreifende Spezifikation – Spezifikation PKI                                      |2.14.1 |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_Systemprozesse_dezT|Spezifikation Systemprozesse der dezentralen TI                                      |1.3.1  |
+|I]                          |                                                                                     |       |
+|gemSpec_Systemprozesse_dezTI|                                                                                     |       |
+|----------------------------|-------------------------------------------------------------------------------------|-------|
+|[gemSpec_TSL]gemSpec_TSL    |Spezifikation TSL-Dienst                                                             |1.19.2 |
+|==========================================================================================================================|
+
+Weiterhin sind die in folgender Tabelle aufgeführten Dokumente und Web-Inhalte normativ und gelten mit.  
+
+Tabelle 2: Mitgeltende Dokumente und Web-Inhalte
+
+|=======================================================================================================================|
+|Quelle                      |Herausgeber: Bezeichnung / URL                                            |Version <br>   |
+|                            |                                                                          |Branch / Tag   |
+|============================|==========================================================================|===============|
+|[api-telematik]             |https://github.com/gematik/api-telematik/tree/4.1.2https://github.        |OPB4 / 4.1.2   |
+|                            |com/gematik/api-telematik/tree/4.1.2                                      |               |
+|----------------------------|--------------------------------------------------------------------------|---------------|
+|[KIM-API]                   |https://github.com/gematik/api-kimhttps://github.com/gematik/api-kim      |main / 1.5.2-1 |
+|----------------------------|--------------------------------------------------------------------------|---------------|
+|[gemSpec_OID]               |Spezifikation Festlegung von OIDs                                         |3.12.2         |
+|----------------------------|--------------------------------------------------------------------------|---------------|
+|[gemRL_PruefSichEig_DS]     |gematik: Richtlinie zur Prüfung der Sicherheitseignung                    |               |
+|=======================================================================================================================|
+
+## 3 Normative Festlegungen
+
+Die folgenden Abschnitte verzeichnen alle für den Produkttypen normativen Festlegungen, die für die Herstellung und den
+Betrieb von Produkten des Produkttyps notwendig sind. Die Festlegungen sind gruppiert nach der Art der Nachweisführung
+ihrer Erfüllung als Grundlage der Zulassung, Zertifizierung bzw. Bestätigung.
+
+## 3.1 Festlegungen zur funktionalen Eignung
+
+## 3.1.1 Produkttest/Produktübergreifender Test
+
+In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an den technischen Teil des Produkttyps
+verzeichnet, deren Umsetzung im Zuge von Zulassungstests durch die gematik geprüft wird.
+
+Tabelle 3: Festlegungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test"
+
+|==========================================================================================================================|
+|ID              |Bezeichnung                                                                   |Quelle (Referenz)         |
+|================|==============================================================================|==========================|
+|[A_17298]A_17298|Synchronisation mit der Systemzeit der zentralen TI-Plattform                 |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17299-01]    |Konfigurationsparameter                                                       |gemSpec_Basis_KTR_Consumer|
+|A_17299-01      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17302]A_17302|Authentisierung gegenüber dem SMTP-Server mit Benutzernamen und Passwort      |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17337]A_17337|Abbrechen des Entschlüsseln, wenn die erforderliche SM-B nicht verfügbar ist  |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17338]A_17338|Abbrechen des Entschlüsseln, wenn Freischaltung der erforderlichen SM-B       |gemSpec_Basis_KTR_Consumer|
+|                |fehlschlägt                                                                   |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17341]A_17341|Basis- und KTR-Consumer, LDAPv3-Operationen an der Clientschnittstelle        |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17343]A_17343|Basis- und KTR-Consumer, LDAPv3 Operationen für interne Module                |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17401]A_17401|Systemprozess PL_TUC_PKI_VERIFY_CERTIFICATE                                   |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17408]A_17408|Basisdienst Zertifikatsdienst                                                 |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17429-01]    |Basis- und KTR-Consumer, Operation VerifyCertificate                          |gemSpec_Basis_KTR_Consumer|
+|A_17429-01      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17466]A_17466|Systemprozess PL_TUC_HYBRID_ENCIPHER                                          |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17467]A_17467|Systemprozess PL_TUC_HYBRID_DECIPHER                                          |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17477]A_17477|Basisdienst Verschlüsselungsdienst                                            |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17499]A_17499|DNS-Forwards des DNS-Servers                                                  |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17510-03]    |Basis- und KTR-Consumer, Operation EncryptDocument                            |gemSpec_Basis_KTR_Consumer|
+|A_17510-03      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17515-02]    |Basis- und KTR-Consumer, Operation DecryptDocument                            |gemSpec_Basis_KTR_Consumer|
+|A_17515-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17517]A_17517|Systemprozess PL_TUC_SIGN_DOCUMENT_nonQES                                     |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17518]A_17518|Systemprozess PL_TUC_SIGN_HASH_nonQES                                         |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17523]A_17523|Basisdienst Signaturdienst                                                    |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17525-02]    |Basis- und KTR-Consumer, Operation SignDocument                               |gemSpec_Basis_KTR_Consumer|
+|A_17525-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17526-02]    |Basis- und KTR-Consumer, Operation VerifyDocument                             |gemSpec_Basis_KTR_Consumer|
+|A_17526-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17577]A_17577|Systemprozess PL_TUC_VERIFY_DOCUMENT_nonQES                                   |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17578-01]    |Basis- und KTR-Consumer, Operation ExternalAuthenticate                       |gemSpec_Basis_KTR_Consumer|
+|A_17578-01      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_22664]A_22664|Basis-Consumer - Prüfung der verwendeten Clientmodul-Version beim Senden      |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17239]A_17239|ECC-Migration, Unterstützung verschiedener kryptografischer Verfahren bei der |gemSpec_CM_KOMLE          |
+|                |TLS-Verwendung                                                                |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_18783]A_18783|Import Schlüssel und Zertifikat als PKCS#12 Datei                             |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19355-01]    |Prüfen der Nachrichtengröße                                                   |gemSpec_CM_KOMLE          |
+|A_19355-01      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19356-06]    |Prüfen der Version des Empfängers                                             |gemSpec_CM_KOMLE          |
+|A_19356-06      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19357-02]    |Verarbeitung einer Client-Mail größer 15 MiB                                  |gemSpec_CM_KOMLE          |
+|A_19357-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19358-01]    |Erzeugung symmetrischer Schlüssel                                             |gemSpec_CM_KOMLE          |
+|A_19358-01      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19359-07]    |Einbetten von Informationen großer Nachrichten                                |gemSpec_CM_KOMLE          |
+|A_19359-07      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19360-02]    |Verschlüsselung der E-Mail-Daten                                              |gemSpec_CM_KOMLE          |
+|A_19360-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19361-01]    |Lokalisierung des KIM Fachdienstes                                            |gemSpec_CM_KOMLE          |
+|A_19361-01      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19362]A_19362|Client Authentifizierung                                                      |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19363-03]    |Übertragung von E-Mail-Daten                                                  |gemSpec_CM_KOMLE          |
+|A_19363-03      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19364-02]    |Freigabelink in die Mail aufnehmen                                            |gemSpec_CM_KOMLE          |
+|A_19364-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19365-02]    |Senden der KOM-LE-Nachricht                                                   |gemSpec_CM_KOMLE          |
+|A_19365-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19367]A_19367|Empfangen der Nachricht                                                       |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19368]A_19368|Client Authentifizierung                                                      |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19369-02]    |Ermittlung von Informationen der auf dem KAS abgelegten E-Mail-Daten          |gemSpec_CM_KOMLE          |
+|A_19369-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19370-04]    |Download von E-Mail-Daten                                                     |gemSpec_CM_KOMLE          |
+|A_19370-04      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19371-04]    |Entschlüsselung vom KAS abgerufener E-Mail-Daten                              |gemSpec_CM_KOMLE          |
+|A_19371-04      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19372-03]    |Prüfen der E-Mail-Daten                                                       |gemSpec_CM_KOMLE          |
+|A_19372-03      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19374-03]    |Zusammensetzen der Mail                                                       |gemSpec_CM_KOMLE          |
+|A_19374-03      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19488-02]    |E-Mail-Kategorisierung                                                        |gemSpec_CM_KOMLE          |
+|A_19488-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_19513]A_19513|Bereitstellung Zertifikate aus PKCS#12-Datei                                  |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_20628]A_20628|Beachtung des received-Header-Attributs bei der Entschlüsselung               |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_20650-05]    |Übermittlung von Fehlernachrichten                                            |gemSpec_CM_KOMLE          |
+|A_20650-05      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_21236]A_21236|Headerfeld „Return-Path“ der äußeren Nachricht                                |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_21388-01]    |Übermittlung der Clientmodul- und Produkttypversion                           |gemSpec_CM_KOMLE          |
+|A_21388-01      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_21390]A_21390|Prüfung auf eine KOM-LE-S/MIME-Nachricht                                      |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_21391-02]    |Auswertung des X-KOM-LE-Version Header Elements                               |gemSpec_CM_KOMLE          |
+|A_21391-02      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_22340]A_22340|Cachen vom KOM-LE-Versionen                                                   |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_22341]A_22341|Prüfen der Nachrichtenanhänge                                                 |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_22416]A_22416|Anfragen von technischen Konfigurationsdaten                                  |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_22417]A_22417|Einfügen des Ablaufdatums in den äußeren Mail-Header                          |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_23165]A_23165|Verhalten bei fehlgeschlagener Integritätsprüfung                             |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_23174]A_23174|Sicherstellung der Empfängeradressen                                          |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_23467]A_23467|Übermittlung der KAS-Datenmenge                                               |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_23505]A_23505|Bereitschaft zum Empfang großer Nachrichten                                   |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_23512]A_23512|Auswertung der KOM-LE-Version bei Nachrichten mit KAS-Content                 |gemSpec_CM_KOMLE          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2004- |Verarbeitung einer Client-Mail bis zu 15 MiB                                  |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |                                                                              |                          |
+|A_2004-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2008] |Initialer SMTP-Dialog                                                         |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2008   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2010] |Extrahieren von MTA-Adresse, Portnummer und Kartenaufrufkontext               |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2010   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2012] |Authentisierung gegenüber dem MTA mit Benutzernamen und Passwort              |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2012   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2013] |Unterstützung der Clientteile der Mechanismen PLAIN und LOGIN                 |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2013   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2015- |Ergebnis des Verbindungsaufbaus mit dem MTA                                   |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |                                                                              |                          |
+|A_2015-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2016] |Schließen der SMTP-Verbindung mit dem Clientsystem                            |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2016   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2017] |Schließen der SMTP-Verbindung mit dem MTA                                     |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2017   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2021] |Verhalten, wenn Nachricht nicht signiert werden kann                          |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2021   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2022] |Verschlüsseln der Nachricht mit den Verschlüsselungszertifikaten C.HCI.ENC    |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2022   |bzw. C.HP.ENC                                                                 |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2024- |Information des Absenders über Empfänger, für die nicht verschlüsselt werden  |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |kann                                                                          |                          |
+|A_2024-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2025] |Abbruch des Sendens, wenn keine Verschlüsselung möglich                       |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2025   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2028] |Entfernen von Empfängern aus dem Header der Nachricht                         |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2028   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2030] |POP3-Dialog zur Authentifizierung                                             |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2030   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2034] |Authentifizierung gegenüber POP3-Server mit Benutzernamen und Passwort        |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2034   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2037- |Antwortcodes des Verbindungsaufbaus mit dem POP3-Server                       |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |                                                                              |                          |
+|A_2037-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2038] |Schließen der POP3-Verbindung mit dem Clientsystem                            |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2038   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2039] |Schließen der POP3-Verbindung mit dem POP3-Server                             |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2039   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2042] |Entschlüsselung einer KOM-LE-SMIME-Nachricht                                  |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2042   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2046] |Aufbau der Fehlernachricht bei fehlgeschlagener Entschlüsselung               |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2046   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2047- |Fehlertexte bei fehlgeschlagener Entschlüsselung                              |gemSpec_CM_KOMLE          |
+|02]KOM-LE-      |                                                                              |                          |
+|A_2047-02       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2048- |Prüfung der Signatur und Integrität einer KOM-LE-Nachricht                    |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |                                                                              |                          |
+|A_2048-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2050- |Verhalten bei positiver Integritätsprüfung                                    |gemSpec_CM_KOMLE          |
+|05]KOM-LE-      |                                                                              |                          |
+|A_2050-05       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2057] |Abbrechen des Signierens, wenn keine SM-B verfügbar ist                       |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2057   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2058] |Abbrechen des Signierens, wenn Freischaltung der erforderlichen SM-B          |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2058   |fehlschlägt                                                                   |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2066] |Verwendung von TLS für SMTP-Verbindungen mit Clientsystemen                   |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2066   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2067] |Verwendung von TLS für POP3-Verbindungen mit Clientsystemen                   |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2067   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2074] |Verbindung zu KOM-LE-Fachdiensten immer über TLS                              |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2074   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2079] |Protokolldateien für Ablauf, Performance und Fehler                           |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2079   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2080] |Keine Protokollierung sensibler Daten                                         |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2080   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2081] |Format der Protokolldateien                                                   |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2081   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2082] |Zugriff auf Protokolldateien einschränken                                     |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2082   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2083] |Kopien der Protokolldateien                                                   |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2083   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2084] |Aktivierung und Deaktivierung der Protokollierung von Performanceinformationen|gemSpec_CM_KOMLE          |
+|KOM-LE-A_2084   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2085] |Begrenzung des Speicherplatzes für Protokolldateien                           |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2085   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2086] |Vorgangsnummer für Protokolleinträge                                          |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2086   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2087] |Felder zur Protokollierung des Ablaufs                                        |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2087   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2088] |Felder zur Protokollierung der Performance                                    |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2088   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2089] |Aktionen zur Protokollierung der Performance                                  |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2089   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2090] |Felder zur Protokollierung der Fehler                                         |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2090   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2094] |Skalierbarkeit                                                                |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2094   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2176] |Prüfen auf gültiges ENC-Zertifikat für den Empfänger im RCPT-Kommando         |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2176   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2178] |Kein Versenden an Empfänger mit unterschiedlichen Telematik-IDs in den        |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2178   |Verschlüsselungszertifikaten                                                  |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2179- |Vermerk in der Nachricht bei erfolgreicher Entschlüsselung                    |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |                                                                              |                          |
+|A_2179-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2181] |Authentifizierung von Clientsystemen gegenüber dem Clientmodul                |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2181   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2192- |Fehlernachricht bei Empfänger mit unterschiedlichen Telematik-IDs in den      |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |Verschlüsselungszertifikaten                                                  |                          |
+|A_2192-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2225] |Update-Mechanismen                                                            |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2225   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_21275-01]    |TLS-Verbindungen, zulässige Hashfunktionen bei Signaturen im TLS-Handshake    |gemSpec_Krypt             |
+|A_21275-01      |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_3934]GS-  |NTP-Client-Implementierungen, Protokoll NTPv4                                 |gemSpec_Net               |
+|A_3934          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_3937]GS-  |NTP-Client-Implementierungen, Association Mode und Polling Intervall          |gemSpec_Net               |
+|A_3937          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4759-01]  |IPv4-Adressen Produkttyp zum SZZP                                             |gemSpec_Net               |
+|GS-A_4759-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4832]GS-  |Path MTU Discovery und ICMP Response                                          |gemSpec_Net               |
+|A_4832          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_15237]A_15237|Transport Fehlermeldungen als gematik-SOAP-Fault- SOAP 1.2                    |gemSpec_OM                |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_3702]GS-  |Inhalt der Selbstauskunft von Produkten außer Karten                          |gemSpec_OM                |
+|A_3702          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_3796]GS-  |Transport Fehlermeldungen als gematik-SOAP-Fault - SOAP 1.1                   |gemSpec_OM                |
+|A_3796          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_3801]GS-  |Abbildung von Fehlern auf Transportprotokollebene                             |gemSpec_OM                |
+|A_3801          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_3856-02]  |Struktur der Fehlermeldungen                                                  |gemSpec_OM                |
+|GS-A_3856-02    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4547]GS-  |Generische Fehlermeldungen                                                    |gemSpec_OM                |
+|A_4547          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_5025]GS-  |Versionierung von Produkten auf Basis von zentralen Produkttypen der TI-      |gemSpec_OM                |
+|A_5025          |Plattform und fachanwendungsspezifischen Diensten durch die                   |                          |
+|                |Produktidentifikation                                                         |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17688]A_17688|Nutzung des ECC-RSA-Vertrauensraumes (ECC-Migration)                          |gemSpec_PKI               |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17689]A_17689|Nutzung von Cross-Zertifikaten für Vertrauensraum-Wechsel nach ECC-RSA (ECC-  |gemSpec_PKI               |
+|                |Migration)                                                                    |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17690]A_17690|Nutzung der Hash-Datei für TSL (ECC-Migration)                                |gemSpec_PKI               |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17700]A_17700|TSL-Auswertung ServiceTypeIdentifier "unspecified"                            |gemSpec_PKI               |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17820]A_17820|Nutzung von Cross-Zertifikaten für Vertrauensraum-Wechsel nach RSA (ECC-      |gemSpec_PKI               |
+|                |Migration)                                                                    |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17821]A_17821|Wechsel des Vertrauensraumes mittels Cross-Zertifikaten (ECC-Migration)       |gemSpec_PKI               |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4637]GS-  |TUCs, Durchführung Fehlerüberprüfung                                          |gemSpec_PKI               |
+|A_4637          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4642]GS-  |TUC_PKI_001: Periodische Aktualisierung TI-Vertrauensraum                     |gemSpec_PKI               |
+|A_4642          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4643]GS-  |TUC_PKI_013: Import TI-Vertrauensanker aus TSL                                |gemSpec_PKI               |
+|A_4643          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4646]GS-  |TUC_PKI_017: Lokalisierung TSL Download-Adressen                              |gemSpec_PKI               |
+|A_4646          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4647]GS-  |TUC_PKI_016: Download der TSL-Datei                                           |gemSpec_PKI               |
+|A_4647          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4648]GS-  |TUC_PKI_019: Prüfung der Aktualität der TSL                                   |gemSpec_PKI               |
+|A_4648          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4649]GS-  |TUC_PKI_020: XML-Dokument validieren                                          |gemSpec_PKI               |
+|A_4649          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4650]GS-  |TUC_PKI_011: Prüfung des TSL-Signer-Zertifikates                              |gemSpec_PKI               |
+|A_4650          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4651]GS-  |TUC_PKI_012: XML-Signatur-Prüfung                                             |gemSpec_PKI               |
+|A_4651          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4652-01]  |TUC_PKI_018: Zertifikatsprüfung in der TI                                     |gemSpec_PKI               |
+|GS-A_4652-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4653-01]  |TUC_PKI_002: Gültigkeitsprüfung des Zertifikats                               |gemSpec_PKI               |
+|GS-A_4653-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4654-01]  |TUC_PKI_003: CA-Zertifikat finden                                             |gemSpec_PKI               |
+|GS-A_4654-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4655-01]  |TUC_PKI_004: Mathematische Prüfung der Zertifikatssignatur                    |gemSpec_PKI               |
+|GS-A_4655-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4656]GS-  |TUC_PKI_005: Adresse für Status- und Sperrprüfung ermitteln                   |gemSpec_PKI               |
+|A_4656          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4657-03]  |TUC_PKI_006: OCSP-Abfrage                                                     |gemSpec_PKI               |
+|GS-A_4657-03    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4660-02]  |TUC_PKI_009: Rollenermittlung                                                 |gemSpec_PKI               |
+|GS-A_4660-02    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4661-01]  |kritische Erweiterungen in Zertifikaten                                       |gemSpec_PKI               |
+|GS-A_4661-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4662]GS-  |Bedingungen für TLS-Handshake                                                 |gemSpec_PKI               |
+|A_4662          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4663]GS-  |Zertifikats-Prüfparameter für den TLS-Handshake                               |gemSpec_PKI               |
+|A_4663          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4749-01]  |TUC_PKI_007: Prüfung Zertifikatstyp                                           |gemSpec_PKI               |
+|GS-A_4749-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4751]GS-  |Fehlercodes bei TSL- und Zertifikatsprüfung                                   |gemSpec_PKI               |
+|A_4751          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4829]GS-  |TUCs, Fehlerbehandlung                                                        |gemSpec_PKI               |
+|A_4829          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4898]GS-  |TSL-Grace-Period einer TSL                                                    |gemSpec_PKI               |
+|A_4898          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4899]GS-  |TSL Update-Prüfintervall                                                      |gemSpec_PKI               |
+|A_4899          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4943]GS-  |Alter der OCSP-Responses für eGK-Zertifikate                                  |gemSpec_PKI               |
+|A_4943          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4957-01]  |Beschränkungen OCSP-Request                                                   |gemSpec_PKI               |
+|GS-A_4957-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_5077]GS-  |FQDN-Prüfung beim TLS-Handshake                                               |gemSpec_PKI               |
+|A_5077          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_5215]GS-  |Festlegung der zeitlichen Toleranzen in einer OCSP-Response                   |gemSpec_PKI               |
+|A_5215          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_5336]GS-  |Zertifikatsprüfung nach Ablauf TSL-Graceperiod                                |gemSpec_PKI               |
+|A_5336          |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[TIP1-A_5120]   |Clients des TSL-Dienstes: HTTP-Komprimierung unterstützen                     |gemSpec_TSL               |
+|TIP1-A_5120     |                                                                              |                          |
+|==========================================================================================================================|
+
+## 3.1.2 Herstellererklärung funktionale Eignung
+
+In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an den technischen Teil des Produkttyps
+verzeichnet, deren durchgeführte bzw. geplante Umsetzung und Beachtung der Hersteller bzw. der Anbieter durch eine
+Herstellererklärung bestätigt bzw. zusagt.
+
+Tabelle 4: Festlegungen zur funktionalen Eignung "Herstellererklärung"
+
+|==========================================================================================================================|
+|ID              |Bezeichnung                                                                 |Quelle (Referenz)           |
+|================|============================================================================|============================|
+|[A_17317]A_17317|Zugang zum KTR-Consumer bzw. Basis-Consumer                                 |gemKPT_Test                 |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_20065]A_20065|Nutzung der Dokumententemplates der gematik                                 |gemKPT_Test                 |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_2162]GS-  |Kryptographisches Material in Entwicklungs- und Testumgebungen              |gemKPT_Test                 |
+|A_2162          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_2775]   |Performance in RU                                                           |gemKPT_Test                 |
+|TIP1-A_2775     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_2805]   |Zeitnahe Anpassung von Produktkonfigurationen                               |gemKPT_Test                 |
+|TIP1-A_2805     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_4191]   |Keine Echtdaten in RU und TU                                                |gemKPT_Test                 |
+|TIP1-A_4191     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6088]   |Unterstützung bei Fehlernachstellung                                        |gemKPT_Test                 |
+|TIP1-A_6088     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6518]   |Eigenverantwortlicher Test: TDI                                             |gemKPT_Test                 |
+|TIP1-A_6518     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6519]   |Eigenverantwortlicher Test: Hersteller und Anbieter                         |gemKPT_Test                 |
+|TIP1-A_6519     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6523]   |Zulassungstest: Hersteller und Anbieter                                     |gemKPT_Test                 |
+|TIP1-A_6523     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6524-01]|Testdokumentation gemäß Vorlagen                                            |gemKPT_Test                 |
+|TIP1-A_6524-01  |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6527]   |Testkarten                                                                  |gemKPT_Test                 |
+|TIP1-A_6527     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6529]   |Produkttypen: Mindestumfang der Interoperabilitätsprüfung                   |gemKPT_Test                 |
+|TIP1-A_6529     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6532]   |Zulassung eines neuen Produkts: Aufgaben der TDI                            |gemKPT_Test                 |
+|TIP1-A_6532     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6533]   |Zulassung eines neuen Produkts: Aufgaben der Hersteller und Anbieter        |gemKPT_Test                 |
+|TIP1-A_6533     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6536]   |Zulassung eines geänderten Produkts: Aufgaben der TDI                       |gemKPT_Test                 |
+|TIP1-A_6536     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6772]   |Partnerprodukte bei Interoperabilitätstests                                 |gemKPT_Test                 |
+|TIP1-A_6772     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_7330]   |Tracedaten von echten Außenschnittstellen                                   |gemKPT_Test                 |
+|TIP1-A_7330     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_7331]   |Bereitstellung von Tracedaten an Außenschnittstelle                         |gemKPT_Test                 |
+|TIP1-A_7331     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_7333]   |Parallelbetrieb von Release oder Produkttypversion                          |gemKPT_Test                 |
+|TIP1-A_7333     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_7334]   |Risikoabschätzung bezüglich der Interoperabilität                           |gemKPT_Test                 |
+|TIP1-A_7334     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_7335]   |Bereitstellung der Testdokumentation                                        |gemKPT_Test                 |
+|TIP1-A_7335     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_7358]   |Qualität des Produktmusters                                                 |gemKPT_Test                 |
+|TIP1-A_7358     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2095] |Reihenfolge Signatur und Verschlüsselung                                    |gemSMIME_KOMLE              |
+|KOM-LE-A_2095   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2096] |Signatur und Verschlüsselung entsprechend S/MIME V3.2                       |gemSMIME_KOMLE              |
+|KOM-LE-A_2096   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2097] |Verschlüsselter Body                                                        |gemSMIME_KOMLE              |
+|KOM-LE-A_2097   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2098- |Header der äußeren Nachricht                                                |gemSMIME_KOMLE              |
+|03]KOM-LE-      |                                                                            |                            |
+|A_2098-03       |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2099] |Header-Element X-KOM-LE-Version                                             |gemSMIME_KOMLE              |
+|KOM-LE-A_2099   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2100- |Wert Header-Element X-KOM-LE-Version                                        |gemSMIME_KOMLE              |
+|02]KOM-LE-      |                                                                            |                            |
+|A_2100-02       |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2101- |Neues message-id Element                                                    |gemSMIME_KOMLE              |
+|01]KOM-LE-      |                                                                            |                            |
+|A_2101-01       |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2102] |Wert subject Header-Element                                                 |gemSMIME_KOMLE              |
+|KOM-LE-A_2102   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2103] |Opak-Signatur                                                               |gemSMIME_KOMLE              |
+|KOM-LE-A_2103   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2104] |Typ S/MIME-Verschlüsselung                                                  |gemSMIME_KOMLE              |
+|KOM-LE-A_2104   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2106] |AuthenticatedEnvelopedData ohne originatorInfo                              |gemSMIME_KOMLE              |
+|KOM-LE-A_2106   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2107] |AuthenticatedEnvelopedData mit unauthAttrs                                  |gemSMIME_KOMLE              |
+|KOM-LE-A_2107   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2108] |Schlüsselverwaltungsalgorithmus                                             |gemSMIME_KOMLE              |
+|KOM-LE-A_2108   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2109] |Zertifikatsidentifizierung bei keyTransRecipientInfo                        |gemSMIME_KOMLE              |
+|KOM-LE-A_2109   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2111- |RecipientInfo Element für Sender                                            |gemSMIME_KOMLE              |
+|01]KOM-LE-      |                                                                            |                            |
+|A_2111-01       |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2112] |Inhalt von authEncryptedContentInfo                                         |gemSMIME_KOMLE              |
+|KOM-LE-A_2112   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2114- |Attribut recipient-emails                                                   |gemSMIME_KOMLE              |
+|01]KOM-LE-      |                                                                            |                            |
+|A_2114-01       |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2115- |Referenzierte Zertifikate in RecipientEmail                                 |gemSMIME_KOMLE              |
+|02]KOM-LE-      |                                                                            |                            |
+|A_2115-02       |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2116] |E-Mail-Adresse des Zertifikatsinhabers                                      |gemSMIME_KOMLE              |
+|KOM-LE-A_2116   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2117] |Zertifikatsidentifikation über Aussteller und Seriennummer                  |gemSMIME_KOMLE              |
+|KOM-LE-A_2117   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2118] |Keine crls in signed-data                                                   |gemSMIME_KOMLE              |
+|KOM-LE-A_2118   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2119] |Signed-data muss certificates enthalten                                     |gemSMIME_KOMLE              |
+|KOM-LE-A_2119   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2121] |Signierte Daten im Element eContent                                         |gemSMIME_KOMLE              |
+|KOM-LE-A_2121   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2122] |Signaturzertifikat im Element Zertifikate                                   |gemSMIME_KOMLE              |
+|KOM-LE-A_2122   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2123] |Genau ein signerInfo Element                                                |gemSMIME_KOMLE              |
+|KOM-LE-A_2123   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2124] |Inhalt Element sid aus Unterzeichnerinformationen                           |gemSMIME_KOMLE              |
+|KOM-LE-A_2124   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2125] |Aussteller und Seriennummer entsprechend Signaturzertifikat                 |gemSMIME_KOMLE              |
+|KOM-LE-A_2125   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2126] |Unterzeichnerinformationen ohne unsignedAttrs                               |gemSMIME_KOMLE              |
+|KOM-LE-A_2126   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2127] |Unterzeichnerinformationen mit signiertem Attribut recipient-emails         |gemSMIME_KOMLE              |
+|KOM-LE-A_2127   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2128] |Zertifikate für Verschlüsselung                                             |gemSMIME_KOMLE              |
+|KOM-LE-A_2128   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2129] |Signaturzertifikat                                                          |gemSMIME_KOMLE              |
+|KOM-LE-A_2129   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17300]A_17300|Initialer SMTP-Dialog                                                       |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17301]A_17301|Verbindungsaufbau mit dem SMTP-Servers                                      |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17303]A_17303|Ergebnis des Verbindungsaufbaus mit dem SMTP-Server                         |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17305]A_17305|Verwenden von PL_TUC_SIGN_DOCUMENT_nonQES und PL_TUC_HYBRID_ENCIPHER        |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17327]A_17327|Signieren der Nachricht mit dem Schlüssel Prk.HCI.OSIG                      |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17328]A_17328|POP3-Dialog zur Authentifizierung                                           |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17329]A_17329|Verbindungsaufbau mit dem POP3-Servers                                      |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17330]A_17330|Authentifizierung gegenüber POP3-Server mit Benutzernamen und Passwort      |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17331]A_17331|Ergebnis des Verbindungsaufbaus mit dem POP3-Server                         |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17333]A_17333|E-Mail-Adresse des den Abholvorgang auslösenden Nutzers                     |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17396]A_17396|Verhalten als IPv4-Router                                                   |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17397]A_17397|IP-Pakete mit Source Route Option                                           |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17405]A_17405|Nur IPv4. IPv6 nur hardwareseitig vorbereitet                               |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17423]A_17423|Firewall Restart                                                            |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17424]A_17424|Firewall-Protokollierung                                                    |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17425]A_17425|Reagiere auf LAN_IP_Changed                                                 |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17426]A_17426|Reagiere auf WAN_IP_Changed                                                 |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17430]A_17430|Netzwerk-Routen einrichten                                                  |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17474]A_17474|Anzeige IP-Routinginformationen                                             |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17485]A_17485|Maximale Zeitabweichung                                                     |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17498]A_17498|Grundlagen des Namensdienstes                                               |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17500]A_17500|DNS Stub-Resolver                                                           |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17502]A_17502|TUC_CON_362 „Liste der Dienste abrufen“                                     |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17503]A_17503|Prüfung von TLS-Server-Zertifikaten                                         |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17504]A_17504|Verwenden von PL_TUC_VERIFY_DOCUMENT_nonQES und PL_TUC_HYBRID_DECIPHER      |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17509]A_17509|Basisanwendung Namensdienst                                                 |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17512-01]    |Initialisierung „Namensdienst und Dienstlokalisierung“                      |gemSpec_Basis_KTR_Consumer  |
+|A_17512-01      |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17513]A_17513|Konfigurationsparameter Namensdienst und Dienstlokalisierung                |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17576]A_17576|KSR lokalisieren                                                            |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17598]A_17598|Qualität des HSM                                                            |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17712]A_17712|Zusätzlich alternative Schnittstellentechnologien                           |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18097]A_18097|Transportschnittstelle für Kartenkommandos                                  |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18100]A_18100|Ergänzende Standards für Transportschnittstelle                             |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18102]A_18102|PIN-Eingabe nicht speichern                                                 |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18103]A_18103|PIN-Geheimnis ausschließlich an Karte übermitteln                           |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18107]A_18107|Übergabeschnittstelle PIN/PUK-Geheimnis                                     |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18108]A_18108|Umsetzung ENV_TUC_CARD_SECRET_INPUT                                         |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18109]A_18109|Minimalprinzip Karteninteraktion                                            |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18130]A_18130|Nutzung von PL_TUC_CARD Systemprozessen                                     |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18163]A_18163|Kartenterminal für Basis-Consumer                                           |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18166]A_18166|Vertrauliche und integritätsgeschützte Kommunikation mit KT                 |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18195]A_18195|Basis-Consumer mit SMC-B                                                    |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18196]A_18196|Personalisierung des HSM beim Basis-Consumer                                |gemSpec_Basis_KTR_Consumer  |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_22348]A_22348|Caching der Prüfergebnisse der TLS-Server-Zertifikate                       |gemSpec_CM_KOMLE            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2003] |Unterstützung von E-Mail-Clients                                            |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2003   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2005] |Keine persistente Speicherung von Nachrichten                               |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2005   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2006] |Einzuhaltende Standards beim Senden und Empfangen                           |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2006   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2007] |SMTP Begrüßung                                                              |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2007   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2009] |Unterstützung der Serverteile der Mechanismen PLAIN und LOGIN               |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2009   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2014] |Authentifizierung gegenüber MTA mit anderen Mechanismen als PLAIN und LOGIN |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2014   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2018] |Weiterleitung von SMTP-Meldungen und Antwortcodes                           |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2018   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2019] |Signatur und Verschlüsselung entsprechend KOM-LE-S/MiME-Profil              |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2019   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2020] |Signieren der Nachricht mit dem Schlüssel Prk.HCI.OSIG                      |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2020   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2023] |Verschlüsselungszertifikate aus dem Verzeichnisdienst                       |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2023   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2026] |Cachen von Verschlüsselungszertifikaten                                     |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2026   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2027] |Befüllung des recipient-emails Attributs                                    |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2027   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2029] |Aufbereitung einer vom Clientsystem erhaltenen KOM-LE-S/MIME-Nachricht      |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2029   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2031] |Unterstützung der Serverteile der Mechanismen USER/PASS und SASL PLAIN      |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2031   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2035] |Unterstützung der Clientteile der Mechanismen USER/PASS und SASL PLAIN      |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2035   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2036] |Authentifizierung gegenüber POP3-Server mit anderen Mechanismen als         |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2036   |USER/PASS oder SASL PLAIN                                                   |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2040] |Übermittlung von POP3-Kommandos und -Meldungen nach erfolgreicher           |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2040   |Authentifizierung                                                           |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2041] |Setzen des Parameters <N> des TOP-Kommandos auf Null                        |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2041   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2043] |Beachtung des recipient-emails Attributs bei der Entschlüsselung            |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2043   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2044] |E-Mail-Adresse des den Abholvorgang auslösenden Nutzers                     |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2044   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2064- |Verwendung von X.509-Identitäten bei der TLS-Authentifizierung              |gemSpec_CM_KOMLE            |
+|02]KOM-LE-      |                                                                            |                            |
+|A_2064-02       |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2193] |Verpacken des verschlüsselten CMS-Objektes                                  |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2193   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[KOM-LE-A_2300] |Import des Schlüsselmaterial für TLS-Verbindungen                           |gemSpec_CM_KOMLE            |
+|KOM-LE-A_2300   |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18464]A_18464|TLS-Verbindungen, nicht Version 1.1                                         |gemSpec_Krypt               |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4385]GS-  |TLS-Verbindungen, Version 1.2                                               |gemSpec_Krypt               |
+|A_4385          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3834]GS-  |DNS-Protokoll, Nameserver-Implementierungen                                 |gemSpec_Net                 |
+|A_3834          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3842-01]  |DNS, Verwendung von iterativen queries zwischen Nameservern                 |gemSpec_Net                 |
+|GS-A_3842-01    |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4009]GS-  |Übertragungstechnologie auf OSI-Schicht LAN                                 |gemSpec_Net                 |
+|A_4009          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4010]GS-  |Standards für IPv6                                                          |gemSpec_Net                 |
+|A_4010          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4011]GS-  |Unterstützung des Dual-Stack Mode                                           |gemSpec_Net                 |
+|A_4011          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4012]GS-  |Leistungsanforderungen an den Dual-Stack Mode                               |gemSpec_Net                 |
+|A_4012          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4053]GS-  |Ingress und Egress Filtering                                                |gemSpec_Net                 |
+|A_4053          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4054]GS-  |Paketfilter Default Deny                                                    |gemSpec_Net                 |
+|A_4054          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4805]GS-  |Abstimmung angeschlossener Produkttyp mit dem Anbieter Zentrales Netz       |gemSpec_Net                 |
+|A_4805          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4831]GS-  |Standards für IPv4                                                          |gemSpec_Net                 |
+|A_4831          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4884]GS-  |Erlaubte ICMP-Types                                                         |gemSpec_Net                 |
+|A_4884          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3695]GS-  |Grundlegender Aufbau Versionsnummern                                        |gemSpec_OM                  |
+|A_3695          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3696]GS-  |Zeitpunkt der Erzeugung neuer Versionsnummern                               |gemSpec_OM                  |
+|A_3696          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3697]GS-  |Anlass der Erhöhung von Versionsnummern                                     |gemSpec_OM                  |
+|A_3697          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3805]GS-  |Loglevel zur Bezeichnung der Granularität FehlerLog                         |gemSpec_OM                  |
+|A_3805          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3806]GS-  |Loglevel in der Referenz- und Testumgebung                                  |gemSpec_OM                  |
+|A_3806          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3807]GS-  |Fehlerspeicherung ereignisgesteuerter Nachrichtenverarbeitung               |gemSpec_OM                  |
+|A_3807          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3813]GS-  |Datenschutzvorgaben Fehlermeldungen                                         |gemSpec_OM                  |
+|A_3813          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_3816]GS-  |Festlegung sicherheitsrelevanter Fehler                                     |gemSpec_OM                  |
+|A_3816          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4541]GS-  |Nutzung der Produkttypversion zur Kompatibilitätsprüfung                    |gemSpec_OM                  |
+|A_4541          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4542]GS-  |Spezifikationsgrundlage für Produkte                                        |gemSpec_OM                  |
+|A_4542          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_5018]GS-  |Sicherheitsrelevanter Fehler an organisatorischen Schnittstellen            |gemSpec_OM                  |
+|A_5018          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_5033]GS-  |Betriebsdokumentation der zentralen Produkte der TI-Plattform und           |gemSpec_OM                  |
+|A_5033          |anwendungsspezifischen Diensten                                             |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_5038]GS-  |Festlegungen zur Vergabe einer Produktversion                               |gemSpec_OM                  |
+|A_5038          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_5039]GS-  |Änderung der Produktversion bei Änderungen der Produkttypversion            |gemSpec_OM                  |
+|A_5039          |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_5054]GS-  |Versionierung von Produkten durch die Produktidentifikation erweitert um    |gemSpec_OM                  |
+|A_5054          |Klartextnamen                                                               |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[GS-A_4640]GS-  |Identifizierung/Validierung des TI-Vertrauensankers bei der initialen       |gemSpec_PKI                 |
+|A_4640          |Einbringung                                                                 |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_14970]A_14970|Leistung zum symmetrischen Verschlüsseln                                    |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_14971]A_14971|Aufrufparameter zum symmetrischen Verschlüsseln                             |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_14972]A_14972|Ablauf des symmetrischen Verschlüsseln eines Dokuments                      |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17376]A_17376|Leistung der nonQES Dokumenten-Signatur                                     |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17377]A_17377|Aufrufparameter der nonQES Dokumenten-Signatur                              |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17380]A_17380|Ergebnis der nonQES Dokumenten-Signatur                                     |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17431]A_17431|Leistung zum Verbindungsaufbau zum VZD                                      |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17432]A_17432|Leistung zur Abfrage des VZD                                                |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17445]A_17445|Aufbau der Verbindung zum VZD                                               |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17446]A_17446|Leistung zur Verbindungstrennung zum VZD                                    |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17447]A_17447|Leistung zum Abbrechen einer Verzeichnisabfrage                             |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17448]A_17448|Aufrufparameter der Verzeichnisabfrage                                      |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17449]A_17449|Ergebnis der Verzeichnisabfrage                                             |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17465]A_17465|Trennen der Verbindung zum VZD                                              |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17468]A_17468|Abbrechen einer Verzeichnisabfrage                                          |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17559]A_17559|Leistung zur Prüfung der nonQES Dokumentensignatur                          |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17561]A_17561|Aufrufparameter zur Prüfung der nonQES Dokumentensignatur                   |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_17562]A_17562|Ablauf der Prüfung der nonQES Dokumentensignatur                            |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[A_18072]A_18072|Ablauf der Zertifikatsprüfung in der TI                                     |gemSpec_Systemprozesse_dezTI|
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6898]   |Leistung zu Statusinformationen zu einer Karte                              |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6898     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6899]   |Liste verfügbarer Informationen zu einer SmartCard                          |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6899     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6903]   |Leistung zur Änderung einer PIN                                             |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6903     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6904]   |Aufrufparameter zum Ändern einer PIN                                        |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6904     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6905-01]|Ergebnis der Änderung einer PIN                                             |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6905-01  |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6906]   |Leistung zum Einschalten einer PIN                                          |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6906     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6907]   |Aufrufparameter zum Einschalten einer PIN                                   |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6907     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6908]   |Ergebnis des Einschaltens einer PIN                                         |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6908     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6909]   |Leistung zum Abschalten einer PIN                                           |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6909     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6910]   |Aufrufparameter zum Abschalten einer PIN                                    |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6910     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6911]   |Ergebnis des Abschaltens einer PIN                                          |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6911     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6915]   |Leistung zur Benutzerverifikation                                           |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6915     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6916]   |Aufrufparameter der Benutzerverifikation                                    |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6916     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6917]   |Ergebnis der Leistung zur Eingabe einer PIN                                 |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6917     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6918]   |Leistung zum Aktivieren einer Anwendung                                     |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6918     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6919]   |Aufrufparameter zum Aktivieren einer Anwendung                              |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6919     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6920]   |Ergebnis der Leistung zur Aktivieren einer Anwendung                        |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6920     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6921]   |Leistung zum Deaktivieren einer Anwendung                                   |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6921     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6922]   |Aufrufparameter zum Deaktivieren einer Anwendung                            |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6922     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6923]   |Ergebnis der Leistung zur Deaktivieren einer Anwendung                      |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6923     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6924]   |Leistung zum Auslesen einer Zufallszahl                                     |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6924     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6925]   |Aufrufparameter für das Auslesen einer Zufallszahl                          |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6925     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6926]   |Ergebnis des Auslesens einer Zufallszahl                                    |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6926     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6927]   |Leistung zum Lesen einer Datei                                              |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6927     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6928]   |Aufrufparameter für das Lesen einer Datei                                   |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6928     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6929]   |Optionale Parameter für das Lesen einer Datei                               |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6929     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6930]   |Ergebnis des Lesens des Inhalts einer Datei                                 |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6930     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6977]   |Auflösen von URI in IP-Adresse                                              |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6977     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6978]   |Synchronisierung mit Zeitdienst                                             |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6978     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6979]   |Leistung der nonQES-Signatur                                                |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6979     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6980]   |Aufrufparameter der nonQES-Signatur                                         |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6980     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6981]   |Ergebnis der nonQES-Signatur                                                |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6981     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6982]   |Leistung zum hybriden Verschlüsseln                                         |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6982     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6983-01]|Aufrufparameter zum hybriden Verschlüsseln                                  |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6983-01  |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6984-02]|Ablauf der hybriden Verschlüsselung eines Dokuments                         |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6984-02  |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6985]   |Leistung zum hybriden Entschlüsseln                                         |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6985     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6986]   |Aufrufparameter zum hybriden Entschlüsseln                                  |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6986     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6987]   |Ablauf der hybriden Entschlüsselung eines Dokuments                         |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6987     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6991]   |Leistung zur Prüfung eines Zertifikats in der TI                            |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6991     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6992-01]|Aufrufparameter der Zertifikatsprüfung in der TI                            |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6992-01  |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6993]   |Ergebnis der Zertifikatsprüfung in der TI                                   |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6993     |                                                                            |                            |
+|----------------|----------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_7020]   |Leistung zum Rücksetzen einer Karte                                         |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_7020     |                                                                            |                            |
+|==========================================================================================================================|
+
+## 3.2 Festlegungen zur sicherheitstechnischen Eignung
+
+## 3.2.1 Produktgutachten
+
+Die in diesem Abschnitt verzeichneten Festlegungen sind Gegenstand der Prüfung der Sicherheitseignung gemäß
+[gemRL_PruefSichEig_DS]. Das entsprechende Produktgutachten ist der gematik vorzulegen.
+
+Tabelle 5: Festlegungen zur sicherheitstechnischen Eignung "Produktgutachten"
+
+|==========================================================================================================================|
+|ID            |Bezeichnung                                                                   |Quelle (Referenz)           |
+|==============|==============================================================================|============================|
+|[A_17305]     |Verwenden von PL_TUC_SIGN_DOCUMENT_nonQES und PL_TUC_HYBRID_ENCIPHER          |gemSpec_Basis_KTR_Consumer  |
+|A_17305       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17306]     |Vorgehen bei Signatur und Verschlüsselung einer KOM-LE Nachricht              |gemSpec_Basis_KTR_Consumer  |
+|A_17306       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17327]     |Signieren der Nachricht mit dem Schlüssel Prk.HCI.OSIG                        |gemSpec_Basis_KTR_Consumer  |
+|A_17327       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17397]     |IP-Pakete mit Source Route Option                                             |gemSpec_Basis_KTR_Consumer  |
+|A_17397       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17400-01]  |NAT-Umsetzung                                                                 |gemSpec_Basis_KTR_Consumer  |
+|A_17400-01    |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17401]     |Systemprozess PL_TUC_PKI_VERIFY_CERTIFICATE                                   |gemSpec_Basis_KTR_Consumer  |
+|A_17401       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17405]     |Nur IPv4. IPv6 nur hardwareseitig vorbereitet                                 |gemSpec_Basis_KTR_Consumer  |
+|A_17405       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17406]     |Kein dynamisches Routing                                                      |gemSpec_Basis_KTR_Consumer  |
+|A_17406       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17411]     |Kommunikation mit NET_TI_Offene_FD                                            |gemSpec_Basis_KTR_Consumer  |
+|A_17411       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17415]     |Kommunikation mit NET_TI_ZENTRAL                                              |gemSpec_Basis_KTR_Consumer  |
+|A_17415       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17417]     |Einschränkung von nicht genehmigten Traffic                                   |gemSpec_Basis_KTR_Consumer  |
+|A_17417       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17418]     |Drop statt Reject                                                             |gemSpec_Basis_KTR_Consumer  |
+|A_17418       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17419]     |Abwehr von IP-Spoofing, DoS/DDoS-Angriffe und Martian Packets                 |gemSpec_Basis_KTR_Consumer  |
+|A_17419       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17420]     |Eingeschränkte Nutzung von „Ping“                                             |gemSpec_Basis_KTR_Consumer  |
+|A_17420       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17421]     |Einschränkungen der IP-Protokolle                                             |gemSpec_Basis_KTR_Consumer  |
+|A_17421       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17423]     |Firewall Restart                                                              |gemSpec_Basis_KTR_Consumer  |
+|A_17423       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17424]     |Firewall-Protokollierung                                                      |gemSpec_Basis_KTR_Consumer  |
+|A_17424       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17429-01]  |Basis- und KTR-Consumer, Operation VerifyCertificate                          |gemSpec_Basis_KTR_Consumer  |
+|A_17429-01    |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17466]     |Systemprozess PL_TUC_HYBRID_ENCIPHER                                          |gemSpec_Basis_KTR_Consumer  |
+|A_17466       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17467]     |Systemprozess PL_TUC_HYBRID_DECIPHER                                          |gemSpec_Basis_KTR_Consumer  |
+|A_17467       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17503]     |Prüfung von TLS-Server-Zertifikaten                                           |gemSpec_Basis_KTR_Consumer  |
+|A_17503       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17504]     |Verwenden von PL_TUC_VERIFY_DOCUMENT_nonQES und PL_TUC_HYBRID_DECIPHER        |gemSpec_Basis_KTR_Consumer  |
+|A_17504       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17510-03]  |Basis- und KTR-Consumer, Operation EncryptDocument                            |gemSpec_Basis_KTR_Consumer  |
+|A_17510-03    |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17515-02]  |Basis- und KTR-Consumer, Operation DecryptDocument                            |gemSpec_Basis_KTR_Consumer  |
+|A_17515-02    |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17517]     |Systemprozess PL_TUC_SIGN_DOCUMENT_nonQES                                     |gemSpec_Basis_KTR_Consumer  |
+|A_17517       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17518]     |Systemprozess PL_TUC_SIGN_HASH_nonQES                                         |gemSpec_Basis_KTR_Consumer  |
+|A_17518       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17525-02]  |Basis- und KTR-Consumer, Operation SignDocument                               |gemSpec_Basis_KTR_Consumer  |
+|A_17525-02    |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17526-02]  |Basis- und KTR-Consumer, Operation VerifyDocument                             |gemSpec_Basis_KTR_Consumer  |
+|A_17526-02    |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17574]     |Infrastruktur Konfiguration aktualisieren                                     |gemSpec_Basis_KTR_Consumer  |
+|A_17574       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17577]     |Systemprozess PL_TUC_VERIFY_DOCUMENT_nonQES                                   |gemSpec_Basis_KTR_Consumer  |
+|A_17577       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17578-01]  |Basis- und KTR-Consumer, Operation ExternalAuthenticate                       |gemSpec_Basis_KTR_Consumer  |
+|A_17578-01    |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17598]     |Qualität des HSM                                                              |gemSpec_Basis_KTR_Consumer  |
+|A_17598       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17712]     |Zusätzlich alternative Schnittstellentechnologien                             |gemSpec_Basis_KTR_Consumer  |
+|A_17712       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_18102]     |PIN-Eingabe nicht speichern                                                   |gemSpec_Basis_KTR_Consumer  |
+|A_18102       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_18103]     |PIN-Geheimnis ausschließlich an Karte übermitteln                             |gemSpec_Basis_KTR_Consumer  |
+|A_18103       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_18130]     |Nutzung von PL_TUC_CARD Systemprozessen                                       |gemSpec_Basis_KTR_Consumer  |
+|A_18130       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_18166]     |Vertrauliche und integritätsgeschützte Kommunikation mit KT                   |gemSpec_Basis_KTR_Consumer  |
+|A_18166       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_21998]     |Kommunikation mit NET_WANDA_Basic                                             |gemSpec_Basis_KTR_Consumer  |
+|A_21998       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17714]     |HSM-Proxy - Eindeutige Referenz der kryptografischen Identität                |gemSpec_HSMProxy            |
+|A_17714       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17715]     |HSM-Proxy - Identifikation und Authentisierung des Eigentümers des privaten   |gemSpec_HSMProxy            |
+|A_17715       |Schlüssels                                                                    |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17716]     |HSM-Proxy - Vertrauliche und integritätsgeschützte Kommunikation              |gemSpec_HSMProxy            |
+|A_17716       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_18464]     |TLS-Verbindungen, nicht Version 1.1                                           |gemSpec_Krypt               |
+|A_18464       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_18467]     |TLS-Verbindungen, Version 1.3                                                 |gemSpec_Krypt               |
+|A_18467       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_19644]     |Hashfunktion für Hashwert-Referenzen beim Fachdienst Download-Server (KAS)    |gemSpec_Krypt               |
+|A_19644       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_21275-01]  |TLS-Verbindungen, zulässige Hashfunktionen bei Signaturen im TLS-Handshake    |gemSpec_Krypt               |
+|A_21275-01    |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[GS-A_4367]GS-|Zufallszahlengenerator                                                        |gemSpec_Krypt               |
+|A_4367        |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[GS-A_4368]GS-|Schlüsselerzeugung                                                            |gemSpec_Krypt               |
+|A_4368        |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[GS-A_4385]GS-|TLS-Verbindungen, Version 1.2                                                 |gemSpec_Krypt               |
+|A_4385        |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[GS-A_4641]GS-|Initiale Einbringung TI-Vertrauensanker                                       |gemSpec_PKI                 |
+|A_4641        |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[GS-A_4748]GS-|Initiale Einbringung TSL-Datei                                                |gemSpec_PKI                 |
+|A_4748        |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_14971]     |Aufrufparameter zum symmetrischen Verschlüsseln                               |gemSpec_Systemprozesse_dezTI|
+|A_14971       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_14972]     |Ablauf des symmetrischen Verschlüsseln eines Dokuments                        |gemSpec_Systemprozesse_dezTI|
+|A_14972       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17376]     |Leistung der nonQES Dokumenten-Signatur                                       |gemSpec_Systemprozesse_dezTI|
+|A_17376       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17377]     |Aufrufparameter der nonQES Dokumenten-Signatur                                |gemSpec_Systemprozesse_dezTI|
+|A_17377       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17380]     |Ergebnis der nonQES Dokumenten-Signatur                                       |gemSpec_Systemprozesse_dezTI|
+|A_17380       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17445]     |Aufbau der Verbindung zum VZD                                                 |gemSpec_Systemprozesse_dezTI|
+|A_17445       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17561]     |Aufrufparameter zur Prüfung der nonQES Dokumentensignatur                     |gemSpec_Systemprozesse_dezTI|
+|A_17561       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_17562]     |Ablauf der Prüfung der nonQES Dokumentensignatur                              |gemSpec_Systemprozesse_dezTI|
+|A_17562       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[A_18072]     |Ablauf der Zertifikatsprüfung in der TI                                       |gemSpec_Systemprozesse_dezTI|
+|A_18072       |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6979] |Leistung der nonQES-Signatur                                                  |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6979   |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6980] |Aufrufparameter der nonQES-Signatur                                           |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6980   |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6982] |Leistung zum hybriden Verschlüsseln                                           |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6982   |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6983- |Aufrufparameter zum hybriden Verschlüsseln                                    |gemSpec_Systemprozesse_dezTI|
+|01]TIP1-      |                                                                              |                            |
+|A_6983-01     |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6984- |Ablauf der hybriden Verschlüsselung eines Dokuments                           |gemSpec_Systemprozesse_dezTI|
+|02]TIP1-      |                                                                              |                            |
+|A_6984-02     |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6986] |Aufrufparameter zum hybriden Entschlüsseln                                    |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6986   |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6987] |Ablauf der hybriden Entschlüsselung eines Dokuments                           |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6987   |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6992- |Aufrufparameter der Zertifikatsprüfung in der TI                              |gemSpec_Systemprozesse_dezTI|
+|01]TIP1-      |                                                                              |                            |
+|A_6992-01     |                                                                              |                            |
+|--------------|------------------------------------------------------------------------------|----------------------------|
+|[TIP1-A_6993] |Ergebnis der Zertifikatsprüfung in der TI                                     |gemSpec_Systemprozesse_dezTI|
+|TIP1-A_6993   |                                                                              |                            |
+|==========================================================================================================================|
+
+## 3.2.2 Herstellererklärung sicherheitstechnische Eignung
+
+Sofern in diesem Abschnitt Festlegungen verzeichnet sind, muss der Hersteller bzw. der Anbieter deren Umsetzung und
+Beachtung zum Nachweis der sicherheitstechnischen Eignung durch eine Herstellererklärung bestätigen bzw. zusagen.
+
+Tabelle 6: Festlegungen zur sicherheitstechnischen Eignung "Herstellererklärung"
+
+|==========================================================================================================================|
+|ID              |Bezeichnung                                                                   |Quelle (Referenz)         |
+|================|==============================================================================|==========================|
+|[A_17306]A_17306|Vorgehen bei Signatur und Verschlüsselung einer KOM-LE Nachricht              |gemSpec_Basis_KTR_Consumer|
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2045] |Entschlüsselung nur mit Schlüsseln des abholenden Nutzers                     |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2045   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2048- |Prüfung der Signatur und Integrität einer KOM-LE-Nachricht                    |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |                                                                              |                          |
+|A_2048-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2050- |Verhalten bei positiver Integritätsprüfung                                    |gemSpec_CM_KOMLE          |
+|05]KOM-LE-      |                                                                              |                          |
+|A_2050-05       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2065] |Schutz des Schlüsselspeichers für TLS-Verbindungen                            |gemSpec_CM_KOMLE          |
+|KOM-LE-A_2065   |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[KOM-LE-A_2182- |Verwendung des vom KOM-LE-Anbieter zur Verfügung gestellten Zertifikats für   |gemSpec_CM_KOMLE          |
+|01]KOM-LE-      |die clientseitige TLS-Authentifizierung                                       |                          |
+|A_2182-01       |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17178]A_17178|Produktentwicklung: Basisschutz gegen OWASP Top 10 Risiken                    |gemSpec_DS_Hersteller     |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[A_17179]A_17179|Auslieferung aktueller zusätzlicher Softwarekomponenten                       |gemSpec_DS_Hersteller     |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_2330-02]  |Hersteller: Schwachstellen-Management                                         |gemSpec_DS_Hersteller     |
+|GS-A_2330-02    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_2350-01]  |Produktunterstützung der Hersteller                                           |gemSpec_DS_Hersteller     |
+|GS-A_2350-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_2354-01]  |Produktunterstützung mit geeigneten Sicherheitstechnologien                   |gemSpec_DS_Hersteller     |
+|GS-A_2354-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_2525-01]  |Hersteller: Schließen von Schwachstellen                                      |gemSpec_DS_Hersteller     |
+|GS-A_2525-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4944-01]  |Produktentwicklung: Behebung von Sicherheitsmängeln                           |gemSpec_DS_Hersteller     |
+|GS-A_4944-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4945-01]  |Produktentwicklung: Qualitätssicherung                                        |gemSpec_DS_Hersteller     |
+|GS-A_4945-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4946-01]  |Produktentwicklung: sichere Programmierung                                    |gemSpec_DS_Hersteller     |
+|GS-A_4946-01    |                                                                              |                          |
+|----------------|------------------------------------------------------------------------------|--------------------------|
+|[GS-A_4947-01]  |Produktentwicklung: Schutz der Vertraulichkeit und Integrität                 |gemSpec_DS_Hersteller     |
+|GS-A_4947-01    |                                                                              |                          |
+|==========================================================================================================================|
+
+## 4 Produkttypspezifische Merkmale
+
+## 4.1 Unterstützung großer E-Mail-Anhänge (> 25MB)
+
+Die Unterstützung großer E-Mail-Anhänge ist optional. Wird diese Option nicht realisiert, entfallen die folgenden
+Festlegungen:
+
+A_19513       "Bereitstellung Zertifikate aus PKCS#12-Datei"<br>
+A_19355       "Prüfen der Nachrichtengröße"<br>
+A_19356       "Prüfen der Version des Empfängers"<br>
+A_19366       "Größe einer E-Mail-Nachricht größer 25 MB"<br>
+A_19357       "Extrahieren des Anhanges" <br>
+A_19358       "Erzeugung symmetrischer Schlüssel" <br>
+A_19364       "Freigabelink in die Mail aufnehmen" <br>
+A_19359       "Erweiterung der Headerinformationen für große Anhänge" <br>
+A_19360       "Verschlüsselung des Anhanges" <br>
+A_19361       "Lokalisierung des KAS" <br>
+A_19362       "Client Authentifizierung" <br>
+A_19363       "Übertragung von Anhängen" <br>
+A_19365       "Senden der Nachricht" <br>
+A_19367       "Empfangen der Nachricht" <br>
+A_19368       "Client Authentifizierung" <br>
+A_19369       "Ermittlung der Headerinformationen" <br>
+A_19370        "Download von Anhängen" <br>
+A_19371        "Entschlüsselung der Anhänge" <br>
+A_19372        "Prüfen des Anhanges" <br>
+A_19374         "Zusammensetzen der Mail"<br>
+A_19644         "Hashfunktion für Hashwert-Referenzen beim Fachdienst Download-Server (KAS)"<br>
+A_21387        "Prüfung der verwendeten Clientmodul-Version beim Senden"
+
+Hinweis: Die Afo-IDs der Liste gelten für jede Ausprägung einer Anforderung. D.h.: Eine Anforderung mit Afo-ID A_12345
+bezieht sich auch auf Ausprägungen A_12345-XX (Wertebereich XX = 01 - NN) in Kapitel 3
+
+## 5 Anhang – Verzeichnisse
+
+## 5.1 Abkürzungen
+
+|=======================================================================================================================|
+|Kürzel                |Erläuterung                                                                                     |
+|======================|================================================================================================|
+|ID                    |Identifikation                                                                                  |
+|=======================================================================================================================|
+
+## 5.2 Tabellenverzeichnis
+
+ML-139234
+
+### ML-139234 - gemProdT_Basis-Consumer_PTV_1.6.2-2 (nicht definiert)
+
+[<=]
+

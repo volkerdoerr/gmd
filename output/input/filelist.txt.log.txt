@@ -1,0 +1,56 @@
+Current path:
+  /home/runner/work/gmd/gmd
+Commandline parameters:
+  source: ./input/filelist.txt
+  target: ./output/input/
+Processing:
+  ./testtables.html
+      ERROR: Unknown document type
+      ERROR: No metadata table found
+  ./gemSpec_DM_ePA_V1.51.0.html
+      WARNING: Not yet fully implemented: UL within TD (&15352360)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemKPT_Betr_V3.21.0.html
+      WARNING: Unexpected table title: SPAN(&13388400)
+      WARNING: Untitled image: IMG(&54731544)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemProdT_Kon_Highspeed_PTV_1.3.0-0_V1.0.0.html
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemSpec_ePA_FdV_V1.51.0.html
+      WARNING: Not yet fully implemented: UL within TD (&47919920)
+      WARNING: Missing link: A(&12809912)
+      WARNING: Missing link title: A(&12809912)
+      ERROR: No metadata table found
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemSpec_DM_ePA_V1.51.0.html
+      WARNING: Not yet fully implemented: UL within TD (&47713192)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemProdT_Basis-Consumer_PTV_1.6.2-2_V1.0.0.html
+      WARNING: Column width difference (given in html input): 377 in column 1 will be overwritten by 459: TABLE(&18557568)/TD(&18570120)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemSpec_CM_KOMLE_V1.16.0.html
+      WARNING: Not yet fully implemented: META within P (&21817128)
+      WARNING: Not yet fully implemented: TITLE within P (&21818320)
+      WARNING: Not yet fully implemented: LXB_TAG_UNKNOWN within B (&52185264)
+      WARNING: Unexpected html TABLE element found: TABLE(&42362976)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemProdT_COS_PTV_4.4.0-0_V1.2.0.html
+      WARNING: Section id missing in: H1(&18542864)
+      WARNING: Unexpected table title: SPAN(&21603584)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemSpec_FM_ePA_V1.2.0.html
+      WARNING: Unexpected table title: SPAN(&54836296)
+      WARNING: Not yet fully implemented: META within P (&25114992)
+      WARNING: Not yet fully implemented: TITLE within P (&25116184)
+      WARNING: Not yet fully implemented: UL within TD (&21439616)
+      WARNING: Unexpected html TABLE element found: TABLE(&52148816)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemSpec_SMC-B_ObjSys_G2_1_V4.2.0.html
+      WARNING: Not yet fully implemented: UL within TD (&13499608)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+  ./gemSpec_COS_V3.12.0.html
+      WARNING: Unexpected html TABLE element found: TABLE(&24686792)
+      WARNING: Not yet fully implemented: OL within TD (&52017568)
+      WARNING: Not yet fully implemented: UL within TD (&31427168)
+      WARNING: wrong table width (colspan missmatch in input-table?) 
+PROCESS SUCCESSFULLY ENDED
