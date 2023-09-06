@@ -5,7 +5,11 @@
 
 gematik Markdown Prototyp
 
-Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den Prototyp eines freien menschen- und maschinenlesbaren Formats für die zulassungsrelevanten Dokumente der [gematik]. gMD basiert auf [CommonMark]¹ und wird durch die Definitionen in input/[gmd-definitions.yml] erweitert. ⸾ _This repository is for development of the initial syntax definition for certification-relevant gematik documents. gMD is based on CommonMark* and is extended by the definitions found in input/gmd-definitions.yml._
+Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den Prototyp eines freien menschen- und 
+maschinenlesbaren Formats für die zulassungsrelevanten Dokumente der [gematik]. gMD basiert auf [CommonMark]¹ und 
+wird durch die Definitionen in input/[gmd-definitions.yml] erweitert. ٭ _This repository is for development of the 
+initial syntax definition for certification-relevant gematik documents. gMD is based on CommonMark* and is extended 
+by the definitions found in input/gmd-definitions.yml._
 
 **ACHTUNG: Repo ist wegen Formatumstellung auf Seiten der gematik aktuell deaktiviert!**
 
@@ -13,13 +17,21 @@ Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den 
 
 ## Continous-Integration
 
-[xml2gmd] wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der immer dann automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. Die resultierenden Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht und als Html auf die [Github-Pages] (dieses Projektes) hochgeladen. ⸾ _The xml2gmd tool is called by the continous integration job ci.yml, which is started automatically whenever changes are made in the input directory. The resulting files are automatically pushed into the output directory and uploaded as html to this projects github-pages._
+Der gematik polarion converter [gpc] wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der immer dann 
+automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. Die resultierenden 
+Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht. ٭ _The gematik polarion converter gpc tool 
+is called by the continous integration job ci.yml, which is started automatically whenever changes are made in 
+the input directory._
 
-Eine Übersicht der generierten Dokumente findet sich in [output/README.md]. ⸾ _An overview of the generated documents can be found in output/README.md._
+Eine Übersicht der generierten Dokumente findet sich in [output/README.md]. ٭ _An overview of the generated 
+documents can be found in output/README.md._
 
 ---
 
-¹) Es gibt leider keinen (modernen) Markdown-Standard; CommonMark ist aber ein allgemein anerkannter Dialekt mit Unterstützung durch GitHub, GitLab, Reddit, Qt, Stack Overflow und anderen. ⸾ _Unfortunately there is no (modern) markdown standard; but CommonMark is a widely accepted dialect, supported by GitHub, GitLab, Reddit, Qt, Stack Overflow and others._
+¹) Es gibt leider keinen (modernen) Markdown-Standard; CommonMark ist aber ein allgemein anerkannter Dialekt 
+mit Unterstützung durch GitHub, GitLab, Reddit, Qt, Stack Overflow und anderen. ٭ _Unfortunately there is no 
+(modern) markdown standard; but CommonMark is a widely accepted dialect, supported by GitHub, GitLab, Reddit, 
+Qt, Stack Overflow and others._
 
 ---
 
@@ -33,7 +45,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [gematik]: https://www.gematik.de
 [commonmark]: https://commonmark.org
 [gmd-definitions.yml]: input/gmd-definitions.yml
-[xml2gmd]: https://github.com/volkerdoerr/gmd/releases/tag/wip
+[gpc]: https://github.com/volkerdoerr/gmd/releases/tag/wip
 [ci.yml]: https://github.com/volkerdoerr/gmd/actions/workflows/ci.yml
 [ci-badge]: https://github.com/volkerdoerr/gmd/actions/workflows/ci.yml/badge.svg
 [github-pages]: https://volkerdoerr.github.io/gmd/
