@@ -29,9 +29,10 @@ Qt, Stack Overflow and others._
 
 Der gematik polarion converter ([gpc]) wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der immer dann 
 automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. Die resultierenden 
-Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht. ٭ _The gematik polarion converter (gpc) tool 
-is called by the continous integration job ci.yml, which is started automatically whenever changes are made in 
-the input directory._
+Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht. Das Log für den letzten Lauf findet sich in 
+[output/gpc.log.txt]. ٭ _The gematik polarion converter (gpc) tool is called by the continous integration job ci.yml,
+which is started automatically whenever changes are made in the input directory. The log of the most recent run 
+can be found in output/gpc.log.txt_
 
 ---
 
@@ -55,7 +56,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [output/gemProdT_Kon_Highspeed_PTV_1.3.0-0_V1.0.0.gmd.txt]: output/gemProdT_Kon_Highspeed_PTV_1.3.0-0_V1.0.0.gmd.txt
 [output/gemSpec_CM_KOMLE_V1.16.0.gmd.txt]: output/gemSpec_CM_KOMLE_V1.16.0.gmd.txt
 [output/gemSpec_ePA_FdV_V1.51.0.gmd.txt]: output/gemSpec_ePA_FdV_V1.51.0.gmd.txt
-
+[output/gpc.log.txt]: output/gpc.log.txt
 
 
 
