@@ -1,0 +1,624 @@
+
+================
+DOM DEBUG OUTPUT
+================
+
+PAR Elektronische Gesundheitskarte und Telematikinfrastruktur
+PAR Produkttypsteckbrief
+PAR Prüfvorschrift
+PAR Basis-Consumer
+
+
+TABLE(rows=2,cols=0+0)->
+TR-> TD(0,0/1/1)->PAR Produkttyp Version TD(0,1/1/1)->PAR 1.6.2-2
+TR-> TD(1,0/1/1)->PAR Produkttyp Status TD(1,1/1/1)->PAR freigegeben
+
+
+
+
+TABLE(rows=6,cols=0+0)->
+TR-> TD(0,0/1/1)->PAR Version TD(0,1/1/1)->PAR 1.0.0
+TR-> TD(1,0/1/1)->PAR Revision TD(1,1/1/1)->PAR 619478
+TR-> TD(2,0/1/1)->PAR Stand TD(2,1/1/1)->PAR 24.04..2023
+TR-> TD(3,0/1/1)->PAR Status TD(3,1/1/1)->PAR freigegeben
+TR-> TD(4,0/1/1)->PAR Klassifizierung TD(4,1/1/1)->PAR öffentlich
+TR-> TD(5,0/1/1)->PAR Referenzierung TD(5,1/1/1)->PAR gemProdT_Basis-Consumer_PTV_1.6.2-2
+
+
+
+
+METADATA: 
+  Produkttyp Version: 1.6.2-2
+  Produkttyp Status: freigegeben
+
+PAR -HEADING(ids=Historie)Historie Produkttypversion und Produkttypsteckbrief
+PAR Historie Produkttypversion
+PAR Die Produkttypversion ändert sich, wenn sich die normativen Festlegungen für den Produkttyp ändern und die Umsetzung durch Produktentwicklungen ebenfalls betroffen ist.
+
+TABLE(rows=15,cols=122+320+276)->
+TR-> TH(0,0/1/1)->PAR Produkttypversion TH(0,1/1/1)->PAR Beschreibung der Änderung TH(0,2/1/1)->PAR Referenz
+TR-> TD(1,0/1/1)->PAR 1.0.0-0 TD(1,1/1/1)->PAR Initiale Version auf Dokumentenebene TD(1,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.0.0-0
+TR-> TD(2,0/1/1)->PAR 1.1.0-0 TD(2,1/1/1)->PAR Anpassung auf Releasestand 3.1.1 TD(2,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.1.0-0
+TR-> TD(3,0/1/1)->PAR 1.1.1-0 TD(3,1/1/1)->PAR Anpassung auf Releasestand 3.1.3 TD(3,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.1.1-0
+TR-> TD(4,0/1/1)->PAR 1.2.0-0 TD(4,1/1/1)->PAR Anpassung auf Releasestand 4.0.0 TD(4,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.2.0-0
+TR-> TD(5,0/1/1)->PAR 1.3.0-0 TD(5,1/1/1)->PAR Anpassung auf Releasestand 4.0.0 Hotfix 1 TD(5,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.3.0-0
+TR-> TD(6,0/1/1)->PAR 1.3.0-1 TD(6,1/1/1)->PAR Anpassung für KIM-Patches 1.0.1  TD(6,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.3.0-1
+TR-> TD(7,0/1/1)->PAR 1.3.1-0 TD(7,1/1/1)->PAR Anpassung auf Releasestand 4.0.2 TD(7,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.3.1-0
+TR-> TD(8,0/1/1)->PAR 1.4.0-0 TD(8,1/1/1)->PAR Anpassung auf Releasestand KIM1.5.1 TD(8,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.4.0-0
+TR-> TD(9,0/1/1)->PAR 1.5.0-0 TD(9,1/1/1)->PAR Anpassung durch Consumer_Maintenance_21.1 und _21.3, KIM 1.5.1 Hotfix 3 TD(9,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.5.0-0
+TR-> TD(10,0/1/1)->PAR 1.6.0-0 TD(10,1/1/1)->PAR Anpassung durch KIM 1.5.2 und Consumer_Maintenance_21.4 TD(10,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.6.0-0
+TR-> TD(11,0/1/1)->PAR 1.6.1-0 TD(11,1/1/1)->PAR Anpassung durch Consumer_Maintenance_22.1 TD(11,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.6.1-0
+TR-> TD(12,0/1/1)->PAR 1.6.2-0 TD(12,1/1/1)->PAR Anpassung durch KIM 1.5.2-1 TD(12,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.6.2-0
+TR-> TD(13,0/1/1)->PAR 1.6.2-1 TD(13,1/1/1)->PAR Anpassung durch KIM 1.5.2-2 TD(13,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.6.2-1
+TR-> TD(14,0/1/1)->PAR 1.6.2-2 TD(14,1/1/1)->PAR Anpassung durch KIM 1.5.2-3 TD(14,2/1/1)->PAR gemProdT_Basis-Consumer_PTV1.6.2-2
+PAR Historie Produkttypsteckbrief
+PAR Die Dokumentenversion des Produkttypsteckbriefs ändert sich mit jeder inhaltlichen oder redaktionellen Änderung des Produkttypsteckbriefs und seinen referenzierten Dokumenten. Redaktionelle Änderungen haben keine Auswirkung auf die Produkttypversion.
+
+TABLE(rows=2,cols=80+82+53+376+105)->
+TR-> TH(0,0/1/1)->PAR Version TH(0,1/1/1)->PAR Stand TH(0,2/1/1)->PAR Kap. TH(0,3/1/1)->PAR Grund der Änderung, besondere Hinweise TH(0,4/1/1)->PAR Bearbeiter
+TR-> TD(1,0/1/1)->PAR 1.0.0 TD(1,1/1/1)->PAR 24.04.2023 TD(1,2/1/1)-> TD(1,3/1/1)->PAR freigegeben TD(1,4/1/1)->PAR gematik
+
+PAR -HEADING(ids=Inhaltsverzeichnis)Inhaltsverzeichnis
+
+<PLACEHOLDER>
+
+
+PAR -HEADING(ids=1)1 Einführung
+PAR -HEADING(ids=1.1)1.1 Zielsetzung und Einordnung des Dokumentes
+PAR Dieser Produkttypsteckbrief verzeichnet verbindlich die normativen Festlegungen der gematik an Herstellung und Betrieb von Produkten des Produkttyps oder verweist auf Dokumente, in denen verbindliche normativen Festlegungen mit ggf. anderer Notation zu finden sind. Die normativen Festlegungen bilden die Grundlage für die Erteilung von Zulassungen, Zertifizierungen bzw. Bestätigungen durch die gematik. (Wenn im weiteren Dokument vereinfachend der Begriff „Zulassung“ verwendet wird, so ist dies der besseren Lesbarkeit geschuldet und umfasst übergreifend neben dem Verfahren der Zulassung auch Zertifizierungen und Bestätigungen der gematik-Zulassungsstelle.)
+PAR Die normativen Festlegungen werden über ihren Identifier, ihren Titel sowie die Dokumentenquelle referenziert. Die normativen Festlegungen mit ihrem vollständigen, normativen Inhalt sind dem jeweils referenzierten Dokument zu entnehmen.
+PAR -HEADING(ids=1.2)1.2 Zielgruppe
+PAR Der Produkttypsteckbrief richtet sich an Hersteller und Anbieter des Produkttyps Basis-Consumer sowie Hersteller und Anbieter von Produkttypen, die hierzu eine Schnittstelle besitzen.
+PAR Das Dokument ist außerdem zu verwenden von:
+
+LIST->
+LITEM->PAR der gematik im Rahmen des ZulassungsverfahrensLITEM->PAR Auditoren
+PAR Bei zentralen Diensten der TI-Plattform und fachanwendungsspezifischen Diensten beziehen sich normativen Festlegungen, die sowohl an Anbieter als auch Hersteller gerichtet sind, jeweils auf den Anbieter als Zulassungsnehmer, bei dezentralen Produkten auf den Hersteller.
+PAR -HEADING(ids=1.3)1.3 Geltungsbereich
+PAR Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungsverfahren werden durch die gematik GmbH in gesonderten Dokumenten (z.B. gemPTV_ATV_Festlegungen, Leistungsbeschreibung) festgelegt und bekannt gegeben.
+PAR -HEADING(ids=1.4)1.4 Abgrenzung des Dokumentes
+PAR Dieses Dokument macht keine Aussagen zur Aufteilung der Produktentwicklung bzw. Produktherstellung auf verschiedene Hersteller und Anbieter.
+PAR Dokumente zu den Zulassungsverfahren für den Anbietertyp sind nicht aufgeführt. Die geltenden Verfahren und Regelungen zur Beantragung und Durchführung von Zulassungsverfahren können dem Fachportal der gematik (https://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungenhttps://fachportal.gematik.de/downloadcenter/zulassungs-bestaetigungsantraege-verfahrensbeschreibungen) entnommen werden.
+PAR -HEADING(ids=1.5)1.5 Methodik
+PAR Die im Dokument verzeichneten normativen Festlegungen werden tabellarisch dargestellt. Die Tabellenspalten haben die folgende Bedeutung:
+PAR ID: Identifiziert die normative Festlegung eindeutig im Gesamtbestand aller Festlegungen der gematik.
+PAR Bezeichnung: Gibt den Titel einer normativen Festlegung informativ wieder, um die thematische Einordnung zu erleichtern. Der vollständige Inhalt der normativen Festlegung ist dem Dokument zu entnehmen, auf das die Quellenangabe verweist.
+PAR Quelle (Referenz): Verweist auf das Dokument, das die normative Festlegung definiert.
+
+PAR -HEADING(ids=2)2 Dokumente
+PAR Die nachfolgenden Dokumente enthalten alle für den Produkttyp normativen Festlegungen.
+PAR (ids=Tabelle-1)Tabelle 1: Dokumente mit normativen Festlegungen
+
+TABLE(rows=13,cols=0+0+0)->
+TR-> TH(0,0/1/1)->PAR Dokumentenkürzel TH(0,1/1/1)->PAR Bezeichnung des Dokumentes TH(0,2/1/1)->PAR Version
+TR-> TD(1,0/1/1)->PAR [gemKPT_Test]gemKPT_Test TD(1,1/1/1)->PAR Testkonzept der TI TD(1,2/1/1)->PAR 2.8.5
+TR-> TD(2,0/1/1)->PAR [gemSMIME_KOMLE]gemSMIME_KOMLE TD(2,1/1/1)->PAR S/MIME-Profil Kommunikation Leistungserbringer (KOM-LE) TD(2,2/1/1)->PAR 1.7.0
+TR-> TD(3,0/1/1)->PAR [gemSpec_Basis_KTR_Consumer]gemSpec_Basis_KTR_Consumer TD(3,1/1/1)->PAR Spezifikation Basis-/KTR-Consumer TD(3,2/1/1)->PAR 1.5.0
+TR-> TD(4,0/1/1)->PAR [gemSpec_CM_KOMLE]gemSpec_CM_KOMLE TD(4,1/1/1)->PAR Spezifikation KOM-LE-Clientmodul TD(4,2/1/1)->PAR 1.16.0
+TR-> TD(5,0/1/1)->PAR [gemSpec_DS_Hersteller]gemSpec_DS_Hersteller TD(5,1/1/1)->PAR Spezifikation Datenschutz- und Sicherheitsanforderungen der TI an Hersteller TD(5,2/1/1)->PAR 1.3.0
+TR-> TD(6,0/1/1)->PAR [gemSpec_HSMProxy]gemSpec_HSMProxy TD(6,1/1/1)->PAR Übergreifende Spezifikation HSM-Proxy TD(6,2/1/1)->PAR 1.0.0
+TR-> TD(7,0/1/1)->PAR [gemSpec_Krypt]gemSpec_Krypt TD(7,1/1/1)->PAR Übergreifende Spezifikation Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur TD(7,2/1/1)->PAR 2.24.0
+TR-> TD(8,0/1/1)->PAR [gemSpec_Net]gemSpec_Net TD(8,1/1/1)->PAR Übergreifende Spezifikation Netzwerk TD(8,2/1/1)->PAR 1.23.0
+TR-> TD(9,0/1/1)->PAR [gemSpec_OM]gemSpec_OM TD(9,1/1/1)->PAR Übergreifende Spezifikation Operations und Maintenance TD(9,2/1/1)->PAR 1.14.1
+TR-> TD(10,0/1/1)->PAR [gemSpec_PKI]gemSpec_PKI TD(10,1/1/1)->PAR Übergreifende Spezifikation – Spezifikation PKI TD(10,2/1/1)->PAR 2.14.1
+TR-> TD(11,0/1/1)->PAR [gemSpec_Systemprozesse_dezTI]gemSpec_Systemprozesse_dezTI TD(11,1/1/1)->PAR Spezifikation Systemprozesse der dezentralen TI TD(11,2/1/1)->PAR 1.3.1
+TR-> TD(12,0/1/1)->PAR [gemSpec_TSL]gemSpec_TSL TD(12,1/1/1)->PAR Spezifikation TSL-Dienst TD(12,2/1/1)->PAR 1.19.2
+
+
+PAR Weiterhin sind die in folgender Tabelle aufgeführten Dokumente und Web-Inhalte normativ und gelten mit.  
+PAR (ids=Tabelle-2)Tabelle 2: Mitgeltende Dokumente und Web-Inhalte
+
+TABLE(rows=5,cols=170+459+91)->
+TR-> TH(0,0/1/1)->PAR Quelle TH(0,1/1/1)->PAR Herausgeber: Bezeichnung / URL TH(0,2/1/1)->PAR Version <br>Branch / Tag
+TR-> TD(1,0/1/1)->PAR [api-telematik] TD(1,1/1/1)->PAR https://github.com/gematik/api-telematik/tree/4.1.2https://github.com/gematik/api-telematik/tree/4.1.2   TD(1,2/1/1)->PAR OPB4 / 4.1.2
+TR-> TD(2,0/1/1)->PAR [KIM-API] TD(2,1/1/1)->PAR https://github.com/gematik/api-kimhttps://github.com/gematik/api-kim TD(2,2/1/1)->PAR main / 1.5.2-1
+TR-> TD(3,0/1/1)->PAR [gemSpec_OID] TD(3,1/1/1)->PAR Spezifikation Festlegung von OIDs TD(3,2/1/1)->PAR 3.12.2
+TR-> TD(4,0/1/1)->PAR [gemRL_PruefSichEig_DS] TD(4,1/1/1)->PAR gematik: Richtlinie zur Prüfung der Sicherheitseignung TD(4,2/1/1)->
+
+PAR -HEADING(ids=3)3 Normative Festlegungen
+PAR Die folgenden Abschnitte verzeichnen alle für den Produkttypen normativen Festlegungen, die für die Herstellung und den Betrieb von Produkten des Produkttyps notwendig sind. Die Festlegungen sind gruppiert nach der Art der Nachweisführung ihrer Erfüllung als Grundlage der Zulassung, Zertifizierung bzw. Bestätigung.
+PAR -HEADING(ids=3.1)3.1 Festlegungen zur funktionalen Eignung
+PAR -HEADING(ids=3.1.1)3.1.1 Produkttest/Produktübergreifender Test
+PAR In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an den technischen Teil des Produkttyps verzeichnet, deren Umsetzung im Zuge von Zulassungstests durch die gematik geprüft wird.
+PAR (ids=Tabelle-3)Tabelle 3: Festlegungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test"
+
+TABLE(rows=157,cols=0+0+0)->
+TR-> TH(0,0/1/1)->PAR ID TH(0,1/1/1)->PAR Bezeichnung TH(0,2/1/1)->PAR Quelle (Referenz)
+TR-> TD(1,0/1/1)->PAR [A_17298]A_17298 TD(1,1/1/1)->PAR Synchronisation mit der Systemzeit der zentralen TI-Plattform TD(1,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(2,0/1/1)->PAR [A_17299-01]A_17299-01 TD(2,1/1/1)->PAR Konfigurationsparameter TD(2,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(3,0/1/1)->PAR [A_17302]A_17302 TD(3,1/1/1)->PAR Authentisierung gegenüber dem SMTP-Server mit Benutzernamen und Passwort TD(3,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(4,0/1/1)->PAR [A_17337]A_17337 TD(4,1/1/1)->PAR Abbrechen des Entschlüsseln, wenn die erforderliche SM-B nicht verfügbar ist TD(4,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(5,0/1/1)->PAR [A_17338]A_17338 TD(5,1/1/1)->PAR Abbrechen des Entschlüsseln, wenn Freischaltung der erforderlichen SM-B fehlschlägt TD(5,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(6,0/1/1)->PAR [A_17341]A_17341 TD(6,1/1/1)->PAR Basis- und KTR-Consumer, LDAPv3-Operationen an der Clientschnittstelle TD(6,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(7,0/1/1)->PAR [A_17343]A_17343 TD(7,1/1/1)->PAR Basis- und KTR-Consumer, LDAPv3 Operationen für interne Module TD(7,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(8,0/1/1)->PAR [A_17401]A_17401 TD(8,1/1/1)->PAR Systemprozess PL_TUC_PKI_VERIFY_CERTIFICATE TD(8,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(9,0/1/1)->PAR [A_17408]A_17408 TD(9,1/1/1)->PAR Basisdienst Zertifikatsdienst TD(9,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(10,0/1/1)->PAR [A_17429-01]A_17429-01 TD(10,1/1/1)->PAR Basis- und KTR-Consumer, Operation VerifyCertificate TD(10,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(11,0/1/1)->PAR [A_17466]A_17466 TD(11,1/1/1)->PAR Systemprozess PL_TUC_HYBRID_ENCIPHER TD(11,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(12,0/1/1)->PAR [A_17467]A_17467 TD(12,1/1/1)->PAR Systemprozess PL_TUC_HYBRID_DECIPHER TD(12,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(13,0/1/1)->PAR [A_17477]A_17477 TD(13,1/1/1)->PAR Basisdienst Verschlüsselungsdienst TD(13,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(14,0/1/1)->PAR [A_17499]A_17499 TD(14,1/1/1)->PAR DNS-Forwards des DNS-Servers TD(14,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(15,0/1/1)->PAR [A_17510-03]A_17510-03 TD(15,1/1/1)->PAR Basis- und KTR-Consumer, Operation EncryptDocument TD(15,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(16,0/1/1)->PAR [A_17515-02]A_17515-02 TD(16,1/1/1)->PAR Basis- und KTR-Consumer, Operation DecryptDocument TD(16,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(17,0/1/1)->PAR [A_17517]A_17517 TD(17,1/1/1)->PAR Systemprozess PL_TUC_SIGN_DOCUMENT_nonQES TD(17,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(18,0/1/1)->PAR [A_17518]A_17518 TD(18,1/1/1)->PAR Systemprozess PL_TUC_SIGN_HASH_nonQES TD(18,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(19,0/1/1)->PAR [A_17523]A_17523 TD(19,1/1/1)->PAR Basisdienst Signaturdienst TD(19,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(20,0/1/1)->PAR [A_17525-02]A_17525-02 TD(20,1/1/1)->PAR Basis- und KTR-Consumer, Operation SignDocument TD(20,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(21,0/1/1)->PAR [A_17526-02]A_17526-02 TD(21,1/1/1)->PAR Basis- und KTR-Consumer, Operation VerifyDocument TD(21,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(22,0/1/1)->PAR [A_17577]A_17577 TD(22,1/1/1)->PAR Systemprozess PL_TUC_VERIFY_DOCUMENT_nonQES TD(22,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(23,0/1/1)->PAR [A_17578-01]A_17578-01 TD(23,1/1/1)->PAR Basis- und KTR-Consumer, Operation ExternalAuthenticate TD(23,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(24,0/1/1)->PAR [A_22664]A_22664 TD(24,1/1/1)->PAR Basis-Consumer - Prüfung der verwendeten Clientmodul-Version beim Senden TD(24,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(25,0/1/1)->PAR [A_17239]A_17239 TD(25,1/1/1)->PAR ECC-Migration, Unterstützung verschiedener kryptografischer Verfahren bei der TLS-Verwendung TD(25,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(26,0/1/1)->PAR [A_18783]A_18783 TD(26,1/1/1)->PAR Import Schlüssel und Zertifikat als PKCS#12 Datei TD(26,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(27,0/1/1)->PAR [A_19355-01]A_19355-01 TD(27,1/1/1)->PAR Prüfen der Nachrichtengröße TD(27,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(28,0/1/1)->PAR [A_19356-06]A_19356-06 TD(28,1/1/1)->PAR Prüfen der Version des Empfängers TD(28,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(29,0/1/1)->PAR [A_19357-02]A_19357-02 TD(29,1/1/1)->PAR Verarbeitung einer Client-Mail größer 15 MiB TD(29,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(30,0/1/1)->PAR [A_19358-01]A_19358-01 TD(30,1/1/1)->PAR Erzeugung symmetrischer Schlüssel TD(30,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(31,0/1/1)->PAR [A_19359-07]A_19359-07 TD(31,1/1/1)->PAR Einbetten von Informationen großer Nachrichten TD(31,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(32,0/1/1)->PAR [A_19360-02]A_19360-02 TD(32,1/1/1)->PAR Verschlüsselung der E-Mail-Daten TD(32,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(33,0/1/1)->PAR [A_19361-01]A_19361-01 TD(33,1/1/1)->PAR Lokalisierung des KIM Fachdienstes TD(33,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(34,0/1/1)->PAR [A_19362]A_19362 TD(34,1/1/1)->PAR Client Authentifizierung TD(34,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(35,0/1/1)->PAR [A_19363-03]A_19363-03 TD(35,1/1/1)->PAR Übertragung von E-Mail-Daten TD(35,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(36,0/1/1)->PAR [A_19364-02]A_19364-02 TD(36,1/1/1)->PAR Freigabelink in die Mail aufnehmen TD(36,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(37,0/1/1)->PAR [A_19365-02]A_19365-02 TD(37,1/1/1)->PAR Senden der KOM-LE-Nachricht TD(37,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(38,0/1/1)->PAR [A_19367]A_19367 TD(38,1/1/1)->PAR Empfangen der Nachricht TD(38,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(39,0/1/1)->PAR [A_19368]A_19368 TD(39,1/1/1)->PAR Client Authentifizierung TD(39,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(40,0/1/1)->PAR [A_19369-02]A_19369-02 TD(40,1/1/1)->PAR Ermittlung von Informationen der auf dem KAS abgelegten E-Mail-Daten TD(40,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(41,0/1/1)->PAR [A_19370-04]A_19370-04 TD(41,1/1/1)->PAR Download von E-Mail-Daten TD(41,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(42,0/1/1)->PAR [A_19371-04]A_19371-04 TD(42,1/1/1)->PAR Entschlüsselung vom KAS abgerufener E-Mail-Daten TD(42,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(43,0/1/1)->PAR [A_19372-03]A_19372-03 TD(43,1/1/1)->PAR Prüfen der E-Mail-Daten TD(43,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(44,0/1/1)->PAR [A_19374-03]A_19374-03 TD(44,1/1/1)->PAR Zusammensetzen der Mail TD(44,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(45,0/1/1)->PAR [A_19488-02]A_19488-02 TD(45,1/1/1)->PAR E-Mail-Kategorisierung TD(45,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(46,0/1/1)->PAR [A_19513]A_19513 TD(46,1/1/1)->PAR Bereitstellung Zertifikate aus PKCS#12-Datei TD(46,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(47,0/1/1)->PAR [A_20628]A_20628 TD(47,1/1/1)->PAR Beachtung des received-Header-Attributs bei der Entschlüsselung TD(47,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(48,0/1/1)->PAR [A_20650-05]A_20650-05 TD(48,1/1/1)->PAR Übermittlung von Fehlernachrichten TD(48,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(49,0/1/1)->PAR [A_21236]A_21236 TD(49,1/1/1)->PAR Headerfeld „Return-Path“ der äußeren Nachricht TD(49,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(50,0/1/1)->PAR [A_21388-01]A_21388-01 TD(50,1/1/1)->PAR Übermittlung der Clientmodul- und Produkttypversion TD(50,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(51,0/1/1)->PAR [A_21390]A_21390 TD(51,1/1/1)->PAR Prüfung auf eine KOM-LE-S/MIME-Nachricht TD(51,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(52,0/1/1)->PAR [A_21391-02]A_21391-02 TD(52,1/1/1)->PAR Auswertung des X-KOM-LE-Version Header Elements TD(52,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(53,0/1/1)->PAR [A_22340]A_22340 TD(53,1/1/1)->PAR Cachen vom KOM-LE-Versionen TD(53,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(54,0/1/1)->PAR [A_22341]A_22341 TD(54,1/1/1)->PAR Prüfen der Nachrichtenanhänge TD(54,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(55,0/1/1)->PAR [A_22416]A_22416 TD(55,1/1/1)->PAR Anfragen von technischen Konfigurationsdaten TD(55,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(56,0/1/1)->PAR [A_22417]A_22417 TD(56,1/1/1)->PAR Einfügen des Ablaufdatums in den äußeren Mail-Header TD(56,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(57,0/1/1)->PAR [A_23165]A_23165 TD(57,1/1/1)->PAR Verhalten bei fehlgeschlagener Integritätsprüfung TD(57,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(58,0/1/1)->PAR [A_23174]A_23174 TD(58,1/1/1)->PAR Sicherstellung der Empfängeradressen TD(58,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(59,0/1/1)->PAR [A_23467]A_23467 TD(59,1/1/1)->PAR Übermittlung der KAS-Datenmenge TD(59,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(60,0/1/1)->PAR [A_23505]A_23505 TD(60,1/1/1)->PAR Bereitschaft zum Empfang großer Nachrichten TD(60,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(61,0/1/1)->PAR [A_23512]A_23512 TD(61,1/1/1)->PAR Auswertung der KOM-LE-Version bei Nachrichten mit KAS-Content TD(61,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(62,0/1/1)->PAR [KOM-LE-A_2004-01]KOM-LE-A_2004-01 TD(62,1/1/1)->PAR Verarbeitung einer Client-Mail bis zu 15 MiB TD(62,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(63,0/1/1)->PAR [KOM-LE-A_2008]KOM-LE-A_2008 TD(63,1/1/1)->PAR Initialer SMTP-Dialog TD(63,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(64,0/1/1)->PAR [KOM-LE-A_2010]KOM-LE-A_2010 TD(64,1/1/1)->PAR Extrahieren von MTA-Adresse, Portnummer und Kartenaufrufkontext TD(64,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(65,0/1/1)->PAR [KOM-LE-A_2012]KOM-LE-A_2012 TD(65,1/1/1)->PAR Authentisierung gegenüber dem MTA mit Benutzernamen und Passwort TD(65,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(66,0/1/1)->PAR [KOM-LE-A_2013]KOM-LE-A_2013 TD(66,1/1/1)->PAR Unterstützung der Clientteile der Mechanismen PLAIN und LOGIN TD(66,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(67,0/1/1)->PAR [KOM-LE-A_2015-01]KOM-LE-A_2015-01 TD(67,1/1/1)->PAR Ergebnis des Verbindungsaufbaus mit dem MTA TD(67,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(68,0/1/1)->PAR [KOM-LE-A_2016]KOM-LE-A_2016 TD(68,1/1/1)->PAR Schließen der SMTP-Verbindung mit dem Clientsystem TD(68,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(69,0/1/1)->PAR [KOM-LE-A_2017]KOM-LE-A_2017 TD(69,1/1/1)->PAR Schließen der SMTP-Verbindung mit dem MTA TD(69,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(70,0/1/1)->PAR [KOM-LE-A_2021]KOM-LE-A_2021 TD(70,1/1/1)->PAR Verhalten, wenn Nachricht nicht signiert werden kann TD(70,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(71,0/1/1)->PAR [KOM-LE-A_2022]KOM-LE-A_2022 TD(71,1/1/1)->PAR Verschlüsseln der Nachricht mit den Verschlüsselungszertifikaten C.HCI.ENC bzw. C.HP.ENC TD(71,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(72,0/1/1)->PAR [KOM-LE-A_2024-01]KOM-LE-A_2024-01 TD(72,1/1/1)->PAR Information des Absenders über Empfänger, für die nicht verschlüsselt werden kann TD(72,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(73,0/1/1)->PAR [KOM-LE-A_2025]KOM-LE-A_2025 TD(73,1/1/1)->PAR Abbruch des Sendens, wenn keine Verschlüsselung möglich TD(73,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(74,0/1/1)->PAR [KOM-LE-A_2028]KOM-LE-A_2028 TD(74,1/1/1)->PAR Entfernen von Empfängern aus dem Header der Nachricht TD(74,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(75,0/1/1)->PAR [KOM-LE-A_2030]KOM-LE-A_2030 TD(75,1/1/1)->PAR POP3-Dialog zur Authentifizierung TD(75,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(76,0/1/1)->PAR [KOM-LE-A_2034]KOM-LE-A_2034 TD(76,1/1/1)->PAR Authentifizierung gegenüber POP3-Server mit Benutzernamen und Passwort TD(76,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(77,0/1/1)->PAR [KOM-LE-A_2037-01]KOM-LE-A_2037-01 TD(77,1/1/1)->PAR Antwortcodes des Verbindungsaufbaus mit dem POP3-Server TD(77,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(78,0/1/1)->PAR [KOM-LE-A_2038]KOM-LE-A_2038 TD(78,1/1/1)->PAR Schließen der POP3-Verbindung mit dem Clientsystem TD(78,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(79,0/1/1)->PAR [KOM-LE-A_2039]KOM-LE-A_2039 TD(79,1/1/1)->PAR Schließen der POP3-Verbindung mit dem POP3-Server TD(79,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(80,0/1/1)->PAR [KOM-LE-A_2042]KOM-LE-A_2042 TD(80,1/1/1)->PAR Entschlüsselung einer KOM-LE-SMIME-Nachricht TD(80,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(81,0/1/1)->PAR [KOM-LE-A_2046]KOM-LE-A_2046 TD(81,1/1/1)->PAR Aufbau der Fehlernachricht bei fehlgeschlagener Entschlüsselung TD(81,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(82,0/1/1)->PAR [KOM-LE-A_2047-02]KOM-LE-A_2047-02 TD(82,1/1/1)->PAR Fehlertexte bei fehlgeschlagener Entschlüsselung TD(82,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(83,0/1/1)->PAR [KOM-LE-A_2048-01]KOM-LE-A_2048-01 TD(83,1/1/1)->PAR Prüfung der Signatur und Integrität einer KOM-LE-Nachricht TD(83,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(84,0/1/1)->PAR [KOM-LE-A_2050-05]KOM-LE-A_2050-05 TD(84,1/1/1)->PAR Verhalten bei positiver Integritätsprüfung TD(84,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(85,0/1/1)->PAR [KOM-LE-A_2057]KOM-LE-A_2057 TD(85,1/1/1)->PAR Abbrechen des Signierens, wenn keine SM-B verfügbar ist TD(85,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(86,0/1/1)->PAR [KOM-LE-A_2058]KOM-LE-A_2058 TD(86,1/1/1)->PAR Abbrechen des Signierens, wenn Freischaltung der erforderlichen SM-B fehlschlägt TD(86,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(87,0/1/1)->PAR [KOM-LE-A_2066]KOM-LE-A_2066 TD(87,1/1/1)->PAR Verwendung von TLS für SMTP-Verbindungen mit Clientsystemen TD(87,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(88,0/1/1)->PAR [KOM-LE-A_2067]KOM-LE-A_2067 TD(88,1/1/1)->PAR Verwendung von TLS für POP3-Verbindungen mit Clientsystemen TD(88,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(89,0/1/1)->PAR [KOM-LE-A_2074]KOM-LE-A_2074 TD(89,1/1/1)->PAR Verbindung zu KOM-LE-Fachdiensten immer über TLS TD(89,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(90,0/1/1)->PAR [KOM-LE-A_2079]KOM-LE-A_2079 TD(90,1/1/1)->PAR Protokolldateien für Ablauf, Performance und Fehler TD(90,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(91,0/1/1)->PAR [KOM-LE-A_2080]KOM-LE-A_2080 TD(91,1/1/1)->PAR Keine Protokollierung sensibler Daten TD(91,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(92,0/1/1)->PAR [KOM-LE-A_2081]KOM-LE-A_2081 TD(92,1/1/1)->PAR Format der Protokolldateien TD(92,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(93,0/1/1)->PAR [KOM-LE-A_2082]KOM-LE-A_2082 TD(93,1/1/1)->PAR Zugriff auf Protokolldateien einschränken TD(93,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(94,0/1/1)->PAR [KOM-LE-A_2083]KOM-LE-A_2083 TD(94,1/1/1)->PAR Kopien der Protokolldateien TD(94,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(95,0/1/1)->PAR [KOM-LE-A_2084]KOM-LE-A_2084 TD(95,1/1/1)->PAR Aktivierung und Deaktivierung der Protokollierung von Performanceinformationen TD(95,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(96,0/1/1)->PAR [KOM-LE-A_2085]KOM-LE-A_2085 TD(96,1/1/1)->PAR Begrenzung des Speicherplatzes für Protokolldateien TD(96,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(97,0/1/1)->PAR [KOM-LE-A_2086]KOM-LE-A_2086 TD(97,1/1/1)->PAR Vorgangsnummer für Protokolleinträge TD(97,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(98,0/1/1)->PAR [KOM-LE-A_2087]KOM-LE-A_2087 TD(98,1/1/1)->PAR Felder zur Protokollierung des Ablaufs TD(98,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(99,0/1/1)->PAR [KOM-LE-A_2088]KOM-LE-A_2088 TD(99,1/1/1)->PAR Felder zur Protokollierung der Performance TD(99,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(100,0/1/1)->PAR [KOM-LE-A_2089]KOM-LE-A_2089 TD(100,1/1/1)->PAR Aktionen zur Protokollierung der Performance TD(100,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(101,0/1/1)->PAR [KOM-LE-A_2090]KOM-LE-A_2090 TD(101,1/1/1)->PAR Felder zur Protokollierung der Fehler TD(101,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(102,0/1/1)->PAR [KOM-LE-A_2094]KOM-LE-A_2094 TD(102,1/1/1)->PAR Skalierbarkeit TD(102,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(103,0/1/1)->PAR [KOM-LE-A_2176]KOM-LE-A_2176 TD(103,1/1/1)->PAR Prüfen auf gültiges ENC-Zertifikat für den Empfänger im RCPT-Kommando TD(103,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(104,0/1/1)->PAR [KOM-LE-A_2178]KOM-LE-A_2178 TD(104,1/1/1)->PAR Kein Versenden an Empfänger mit unterschiedlichen Telematik-IDs in den Verschlüsselungszertifikaten TD(104,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(105,0/1/1)->PAR [KOM-LE-A_2179-01]KOM-LE-A_2179-01 TD(105,1/1/1)->PAR Vermerk in der Nachricht bei erfolgreicher Entschlüsselung TD(105,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(106,0/1/1)->PAR [KOM-LE-A_2181]KOM-LE-A_2181 TD(106,1/1/1)->PAR Authentifizierung von Clientsystemen gegenüber dem Clientmodul TD(106,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(107,0/1/1)->PAR [KOM-LE-A_2192-01]KOM-LE-A_2192-01 TD(107,1/1/1)->PAR Fehlernachricht bei Empfänger mit unterschiedlichen Telematik-IDs in den Verschlüsselungszertifikaten TD(107,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(108,0/1/1)->PAR [KOM-LE-A_2225]KOM-LE-A_2225 TD(108,1/1/1)->PAR Update-Mechanismen TD(108,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(109,0/1/1)->PAR [A_21275-01]A_21275-01 TD(109,1/1/1)->PAR TLS-Verbindungen, zulässige Hashfunktionen bei Signaturen im TLS-Handshake TD(109,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(110,0/1/1)->PAR [GS-A_3934]GS-A_3934 TD(110,1/1/1)->PAR NTP-Client-Implementierungen, Protokoll NTPv4 TD(110,2/1/1)->PAR gemSpec_Net
+TR-> TD(111,0/1/1)->PAR [GS-A_3937]GS-A_3937 TD(111,1/1/1)->PAR NTP-Client-Implementierungen, Association Mode und Polling Intervall TD(111,2/1/1)->PAR gemSpec_Net
+TR-> TD(112,0/1/1)->PAR [GS-A_4759-01]GS-A_4759-01 TD(112,1/1/1)->PAR IPv4-Adressen Produkttyp zum SZZP TD(112,2/1/1)->PAR gemSpec_Net
+TR-> TD(113,0/1/1)->PAR [GS-A_4832]GS-A_4832 TD(113,1/1/1)->PAR Path MTU Discovery und ICMP Response TD(113,2/1/1)->PAR gemSpec_Net
+TR-> TD(114,0/1/1)->PAR [A_15237]A_15237 TD(114,1/1/1)->PAR Transport Fehlermeldungen als gematik-SOAP-Fault- SOAP 1.2 TD(114,2/1/1)->PAR gemSpec_OM
+TR-> TD(115,0/1/1)->PAR [GS-A_3702]GS-A_3702 TD(115,1/1/1)->PAR Inhalt der Selbstauskunft von Produkten außer Karten TD(115,2/1/1)->PAR gemSpec_OM
+TR-> TD(116,0/1/1)->PAR [GS-A_3796]GS-A_3796 TD(116,1/1/1)->PAR Transport Fehlermeldungen als gematik-SOAP-Fault - SOAP 1.1 TD(116,2/1/1)->PAR gemSpec_OM
+TR-> TD(117,0/1/1)->PAR [GS-A_3801]GS-A_3801 TD(117,1/1/1)->PAR Abbildung von Fehlern auf Transportprotokollebene TD(117,2/1/1)->PAR gemSpec_OM
+TR-> TD(118,0/1/1)->PAR [GS-A_3856-02]GS-A_3856-02 TD(118,1/1/1)->PAR Struktur der Fehlermeldungen TD(118,2/1/1)->PAR gemSpec_OM
+TR-> TD(119,0/1/1)->PAR [GS-A_4547]GS-A_4547 TD(119,1/1/1)->PAR Generische Fehlermeldungen TD(119,2/1/1)->PAR gemSpec_OM
+TR-> TD(120,0/1/1)->PAR [GS-A_5025]GS-A_5025 TD(120,1/1/1)->PAR Versionierung von Produkten auf Basis von zentralen Produkttypen der TI-Plattform und fachanwendungsspezifischen Diensten durch die Produktidentifikation TD(120,2/1/1)->PAR gemSpec_OM
+TR-> TD(121,0/1/1)->PAR [A_17688]A_17688 TD(121,1/1/1)->PAR Nutzung des ECC-RSA-Vertrauensraumes (ECC-Migration) TD(121,2/1/1)->PAR gemSpec_PKI
+TR-> TD(122,0/1/1)->PAR [A_17689]A_17689 TD(122,1/1/1)->PAR Nutzung von Cross-Zertifikaten für Vertrauensraum-Wechsel nach ECC-RSA (ECC-Migration) TD(122,2/1/1)->PAR gemSpec_PKI
+TR-> TD(123,0/1/1)->PAR [A_17690]A_17690 TD(123,1/1/1)->PAR Nutzung der Hash-Datei für TSL (ECC-Migration) TD(123,2/1/1)->PAR gemSpec_PKI
+TR-> TD(124,0/1/1)->PAR [A_17700]A_17700 TD(124,1/1/1)->PAR TSL-Auswertung ServiceTypeIdentifier "unspecified" TD(124,2/1/1)->PAR gemSpec_PKI
+TR-> TD(125,0/1/1)->PAR [A_17820]A_17820 TD(125,1/1/1)->PAR Nutzung von Cross-Zertifikaten für Vertrauensraum-Wechsel nach RSA (ECC-Migration) TD(125,2/1/1)->PAR gemSpec_PKI
+TR-> TD(126,0/1/1)->PAR [A_17821]A_17821 TD(126,1/1/1)->PAR Wechsel des Vertrauensraumes mittels Cross-Zertifikaten (ECC-Migration) TD(126,2/1/1)->PAR gemSpec_PKI
+TR-> TD(127,0/1/1)->PAR [GS-A_4637]GS-A_4637 TD(127,1/1/1)->PAR TUCs, Durchführung Fehlerüberprüfung TD(127,2/1/1)->PAR gemSpec_PKI
+TR-> TD(128,0/1/1)->PAR [GS-A_4642]GS-A_4642 TD(128,1/1/1)->PAR TUC_PKI_001: Periodische Aktualisierung TI-Vertrauensraum TD(128,2/1/1)->PAR gemSpec_PKI
+TR-> TD(129,0/1/1)->PAR [GS-A_4643]GS-A_4643 TD(129,1/1/1)->PAR TUC_PKI_013: Import TI-Vertrauensanker aus TSL TD(129,2/1/1)->PAR gemSpec_PKI
+TR-> TD(130,0/1/1)->PAR [GS-A_4646]GS-A_4646 TD(130,1/1/1)->PAR TUC_PKI_017: Lokalisierung TSL Download-Adressen TD(130,2/1/1)->PAR gemSpec_PKI
+TR-> TD(131,0/1/1)->PAR [GS-A_4647]GS-A_4647 TD(131,1/1/1)->PAR TUC_PKI_016: Download der TSL-Datei TD(131,2/1/1)->PAR gemSpec_PKI
+TR-> TD(132,0/1/1)->PAR [GS-A_4648]GS-A_4648 TD(132,1/1/1)->PAR TUC_PKI_019: Prüfung der Aktualität der TSL TD(132,2/1/1)->PAR gemSpec_PKI
+TR-> TD(133,0/1/1)->PAR [GS-A_4649]GS-A_4649 TD(133,1/1/1)->PAR TUC_PKI_020: XML-Dokument validieren TD(133,2/1/1)->PAR gemSpec_PKI
+TR-> TD(134,0/1/1)->PAR [GS-A_4650]GS-A_4650 TD(134,1/1/1)->PAR TUC_PKI_011: Prüfung des TSL-Signer-Zertifikates TD(134,2/1/1)->PAR gemSpec_PKI
+TR-> TD(135,0/1/1)->PAR [GS-A_4651]GS-A_4651 TD(135,1/1/1)->PAR TUC_PKI_012: XML-Signatur-Prüfung TD(135,2/1/1)->PAR gemSpec_PKI
+TR-> TD(136,0/1/1)->PAR [GS-A_4652-01]GS-A_4652-01 TD(136,1/1/1)->PAR TUC_PKI_018: Zertifikatsprüfung in der TI TD(136,2/1/1)->PAR gemSpec_PKI
+TR-> TD(137,0/1/1)->PAR [GS-A_4653-01]GS-A_4653-01 TD(137,1/1/1)->PAR TUC_PKI_002: Gültigkeitsprüfung des Zertifikats TD(137,2/1/1)->PAR gemSpec_PKI
+TR-> TD(138,0/1/1)->PAR [GS-A_4654-01]GS-A_4654-01 TD(138,1/1/1)->PAR TUC_PKI_003: CA-Zertifikat finden TD(138,2/1/1)->PAR gemSpec_PKI
+TR-> TD(139,0/1/1)->PAR [GS-A_4655-01]GS-A_4655-01 TD(139,1/1/1)->PAR TUC_PKI_004: Mathematische Prüfung der Zertifikatssignatur TD(139,2/1/1)->PAR gemSpec_PKI
+TR-> TD(140,0/1/1)->PAR [GS-A_4656]GS-A_4656 TD(140,1/1/1)->PAR TUC_PKI_005: Adresse für Status- und Sperrprüfung ermitteln TD(140,2/1/1)->PAR gemSpec_PKI
+TR-> TD(141,0/1/1)->PAR [GS-A_4657-03]GS-A_4657-03 TD(141,1/1/1)->PAR TUC_PKI_006: OCSP-Abfrage TD(141,2/1/1)->PAR gemSpec_PKI
+TR-> TD(142,0/1/1)->PAR [GS-A_4660-02]GS-A_4660-02 TD(142,1/1/1)->PAR TUC_PKI_009: Rollenermittlung TD(142,2/1/1)->PAR gemSpec_PKI
+TR-> TD(143,0/1/1)->PAR [GS-A_4661-01]GS-A_4661-01 TD(143,1/1/1)->PAR kritische Erweiterungen in Zertifikaten TD(143,2/1/1)->PAR gemSpec_PKI
+TR-> TD(144,0/1/1)->PAR [GS-A_4662]GS-A_4662 TD(144,1/1/1)->PAR Bedingungen für TLS-Handshake TD(144,2/1/1)->PAR gemSpec_PKI
+TR-> TD(145,0/1/1)->PAR [GS-A_4663]GS-A_4663 TD(145,1/1/1)->PAR Zertifikats-Prüfparameter für den TLS-Handshake TD(145,2/1/1)->PAR gemSpec_PKI
+TR-> TD(146,0/1/1)->PAR [GS-A_4749-01]GS-A_4749-01 TD(146,1/1/1)->PAR TUC_PKI_007: Prüfung Zertifikatstyp TD(146,2/1/1)->PAR gemSpec_PKI
+TR-> TD(147,0/1/1)->PAR [GS-A_4751]GS-A_4751 TD(147,1/1/1)->PAR Fehlercodes bei TSL- und Zertifikatsprüfung TD(147,2/1/1)->PAR gemSpec_PKI
+TR-> TD(148,0/1/1)->PAR [GS-A_4829]GS-A_4829 TD(148,1/1/1)->PAR TUCs, Fehlerbehandlung TD(148,2/1/1)->PAR gemSpec_PKI
+TR-> TD(149,0/1/1)->PAR [GS-A_4898]GS-A_4898 TD(149,1/1/1)->PAR TSL-Grace-Period einer TSL TD(149,2/1/1)->PAR gemSpec_PKI
+TR-> TD(150,0/1/1)->PAR [GS-A_4899]GS-A_4899 TD(150,1/1/1)->PAR TSL Update-Prüfintervall TD(150,2/1/1)->PAR gemSpec_PKI
+TR-> TD(151,0/1/1)->PAR [GS-A_4943]GS-A_4943 TD(151,1/1/1)->PAR Alter der OCSP-Responses für eGK-Zertifikate TD(151,2/1/1)->PAR gemSpec_PKI
+TR-> TD(152,0/1/1)->PAR [GS-A_4957-01]GS-A_4957-01 TD(152,1/1/1)->PAR Beschränkungen OCSP-Request TD(152,2/1/1)->PAR gemSpec_PKI
+TR-> TD(153,0/1/1)->PAR [GS-A_5077]GS-A_5077 TD(153,1/1/1)->PAR FQDN-Prüfung beim TLS-Handshake TD(153,2/1/1)->PAR gemSpec_PKI
+TR-> TD(154,0/1/1)->PAR [GS-A_5215]GS-A_5215 TD(154,1/1/1)->PAR Festlegung der zeitlichen Toleranzen in einer OCSP-Response TD(154,2/1/1)->PAR gemSpec_PKI
+TR-> TD(155,0/1/1)->PAR [GS-A_5336]GS-A_5336 TD(155,1/1/1)->PAR Zertifikatsprüfung nach Ablauf TSL-Graceperiod TD(155,2/1/1)->PAR gemSpec_PKI
+TR-> TD(156,0/1/1)->PAR [TIP1-A_5120]TIP1-A_5120 TD(156,1/1/1)->PAR Clients des TSL-Dienstes: HTTP-Komprimierung unterstützen TD(156,2/1/1)->PAR gemSpec_TSL
+
+
+PAR -HEADING(ids=3.1.2)3.1.2 Herstellererklärung funktionale Eignung
+PAR In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Festlegungen an den technischen Teil des Produkttyps verzeichnet, deren durchgeführte bzw. geplante Umsetzung und Beachtung der Hersteller bzw. der Anbieter durch eine Herstellererklärung bestätigt bzw. zusagt.
+PAR (ids=Tabelle-4)Tabelle 4: Festlegungen zur funktionalen Eignung "Herstellererklärung"
+
+TABLE(rows=212,cols=0+0+0)->
+TR-> TH(0,0/1/1)->PAR ID TH(0,1/1/1)->PAR Bezeichnung TH(0,2/1/1)->PAR Quelle (Referenz)
+TR-> TD(1,0/1/1)->PAR [A_17317]A_17317 TD(1,1/1/1)->PAR Zugang zum KTR-Consumer bzw. Basis-Consumer TD(1,2/1/1)->PAR gemKPT_Test
+TR-> TD(2,0/1/1)->PAR [A_20065]A_20065 TD(2,1/1/1)->PAR Nutzung der Dokumententemplates der gematik TD(2,2/1/1)->PAR gemKPT_Test
+TR-> TD(3,0/1/1)->PAR [GS-A_2162]GS-A_2162 TD(3,1/1/1)->PAR Kryptographisches Material in Entwicklungs- und Testumgebungen TD(3,2/1/1)->PAR gemKPT_Test
+TR-> TD(4,0/1/1)->PAR [TIP1-A_2775]TIP1-A_2775 TD(4,1/1/1)->PAR Performance in RU TD(4,2/1/1)->PAR gemKPT_Test
+TR-> TD(5,0/1/1)->PAR [TIP1-A_2805]TIP1-A_2805 TD(5,1/1/1)->PAR Zeitnahe Anpassung von Produktkonfigurationen TD(5,2/1/1)->PAR gemKPT_Test
+TR-> TD(6,0/1/1)->PAR [TIP1-A_4191]TIP1-A_4191 TD(6,1/1/1)->PAR Keine Echtdaten in RU und TU TD(6,2/1/1)->PAR gemKPT_Test
+TR-> TD(7,0/1/1)->PAR [TIP1-A_6088]TIP1-A_6088 TD(7,1/1/1)->PAR Unterstützung bei Fehlernachstellung TD(7,2/1/1)->PAR gemKPT_Test
+TR-> TD(8,0/1/1)->PAR [TIP1-A_6518]TIP1-A_6518 TD(8,1/1/1)->PAR Eigenverantwortlicher Test: TDI TD(8,2/1/1)->PAR gemKPT_Test
+TR-> TD(9,0/1/1)->PAR [TIP1-A_6519]TIP1-A_6519 TD(9,1/1/1)->PAR Eigenverantwortlicher Test: Hersteller und Anbieter TD(9,2/1/1)->PAR gemKPT_Test
+TR-> TD(10,0/1/1)->PAR [TIP1-A_6523]TIP1-A_6523 TD(10,1/1/1)->PAR Zulassungstest: Hersteller und Anbieter TD(10,2/1/1)->PAR gemKPT_Test
+TR-> TD(11,0/1/1)->PAR [TIP1-A_6524-01]TIP1-A_6524-01 TD(11,1/1/1)->PAR Testdokumentation gemäß Vorlagen TD(11,2/1/1)->PAR gemKPT_Test
+TR-> TD(12,0/1/1)->PAR [TIP1-A_6527]TIP1-A_6527 TD(12,1/1/1)->PAR Testkarten TD(12,2/1/1)->PAR gemKPT_Test
+TR-> TD(13,0/1/1)->PAR [TIP1-A_6529]TIP1-A_6529 TD(13,1/1/1)->PAR Produkttypen: Mindestumfang der Interoperabilitätsprüfung TD(13,2/1/1)->PAR gemKPT_Test
+TR-> TD(14,0/1/1)->PAR [TIP1-A_6532]TIP1-A_6532 TD(14,1/1/1)->PAR Zulassung eines neuen Produkts: Aufgaben der TDI TD(14,2/1/1)->PAR gemKPT_Test
+TR-> TD(15,0/1/1)->PAR [TIP1-A_6533]TIP1-A_6533 TD(15,1/1/1)->PAR Zulassung eines neuen Produkts: Aufgaben der Hersteller und Anbieter TD(15,2/1/1)->PAR gemKPT_Test
+TR-> TD(16,0/1/1)->PAR [TIP1-A_6536]TIP1-A_6536 TD(16,1/1/1)->PAR Zulassung eines geänderten Produkts: Aufgaben der TDI TD(16,2/1/1)->PAR gemKPT_Test
+TR-> TD(17,0/1/1)->PAR [TIP1-A_6772]TIP1-A_6772 TD(17,1/1/1)->PAR Partnerprodukte bei Interoperabilitätstests TD(17,2/1/1)->PAR gemKPT_Test
+TR-> TD(18,0/1/1)->PAR [TIP1-A_7330]TIP1-A_7330 TD(18,1/1/1)->PAR Tracedaten von echten Außenschnittstellen TD(18,2/1/1)->PAR gemKPT_Test
+TR-> TD(19,0/1/1)->PAR [TIP1-A_7331]TIP1-A_7331 TD(19,1/1/1)->PAR Bereitstellung von Tracedaten an Außenschnittstelle TD(19,2/1/1)->PAR gemKPT_Test
+TR-> TD(20,0/1/1)->PAR [TIP1-A_7333]TIP1-A_7333 TD(20,1/1/1)->PAR Parallelbetrieb von Release oder Produkttypversion TD(20,2/1/1)->PAR gemKPT_Test
+TR-> TD(21,0/1/1)->PAR [TIP1-A_7334]TIP1-A_7334 TD(21,1/1/1)->PAR Risikoabschätzung bezüglich der Interoperabilität TD(21,2/1/1)->PAR gemKPT_Test
+TR-> TD(22,0/1/1)->PAR [TIP1-A_7335]TIP1-A_7335 TD(22,1/1/1)->PAR Bereitstellung der Testdokumentation TD(22,2/1/1)->PAR gemKPT_Test
+TR-> TD(23,0/1/1)->PAR [TIP1-A_7358]TIP1-A_7358 TD(23,1/1/1)->PAR Qualität des Produktmusters TD(23,2/1/1)->PAR gemKPT_Test
+TR-> TD(24,0/1/1)->PAR [KOM-LE-A_2095]KOM-LE-A_2095 TD(24,1/1/1)->PAR Reihenfolge Signatur und Verschlüsselung TD(24,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(25,0/1/1)->PAR [KOM-LE-A_2096]KOM-LE-A_2096 TD(25,1/1/1)->PAR Signatur und Verschlüsselung entsprechend S/MIME V3.2 TD(25,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(26,0/1/1)->PAR [KOM-LE-A_2097]KOM-LE-A_2097 TD(26,1/1/1)->PAR Verschlüsselter Body TD(26,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(27,0/1/1)->PAR [KOM-LE-A_2098-03]KOM-LE-A_2098-03 TD(27,1/1/1)->PAR Header der äußeren Nachricht TD(27,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(28,0/1/1)->PAR [KOM-LE-A_2099]KOM-LE-A_2099 TD(28,1/1/1)->PAR Header-Element X-KOM-LE-Version TD(28,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(29,0/1/1)->PAR [KOM-LE-A_2100-02]KOM-LE-A_2100-02 TD(29,1/1/1)->PAR Wert Header-Element X-KOM-LE-Version TD(29,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(30,0/1/1)->PAR [KOM-LE-A_2101-01]KOM-LE-A_2101-01 TD(30,1/1/1)->PAR Neues message-id Element TD(30,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(31,0/1/1)->PAR [KOM-LE-A_2102]KOM-LE-A_2102 TD(31,1/1/1)->PAR Wert subject Header-Element TD(31,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(32,0/1/1)->PAR [KOM-LE-A_2103]KOM-LE-A_2103 TD(32,1/1/1)->PAR Opak-Signatur TD(32,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(33,0/1/1)->PAR [KOM-LE-A_2104]KOM-LE-A_2104 TD(33,1/1/1)->PAR Typ S/MIME-Verschlüsselung TD(33,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(34,0/1/1)->PAR [KOM-LE-A_2106]KOM-LE-A_2106 TD(34,1/1/1)->PAR AuthenticatedEnvelopedData ohne originatorInfo TD(34,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(35,0/1/1)->PAR [KOM-LE-A_2107]KOM-LE-A_2107 TD(35,1/1/1)->PAR AuthenticatedEnvelopedData mit unauthAttrs TD(35,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(36,0/1/1)->PAR [KOM-LE-A_2108]KOM-LE-A_2108 TD(36,1/1/1)->PAR Schlüsselverwaltungsalgorithmus TD(36,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(37,0/1/1)->PAR [KOM-LE-A_2109]KOM-LE-A_2109 TD(37,1/1/1)->PAR Zertifikatsidentifizierung bei keyTransRecipientInfo TD(37,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(38,0/1/1)->PAR [KOM-LE-A_2111-01]KOM-LE-A_2111-01 TD(38,1/1/1)->PAR RecipientInfo Element für Sender TD(38,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(39,0/1/1)->PAR [KOM-LE-A_2112]KOM-LE-A_2112 TD(39,1/1/1)->PAR Inhalt von authEncryptedContentInfo TD(39,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(40,0/1/1)->PAR [KOM-LE-A_2114-01]KOM-LE-A_2114-01 TD(40,1/1/1)->PAR Attribut recipient-emails TD(40,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(41,0/1/1)->PAR [KOM-LE-A_2115-02]KOM-LE-A_2115-02 TD(41,1/1/1)->PAR Referenzierte Zertifikate in RecipientEmail TD(41,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(42,0/1/1)->PAR [KOM-LE-A_2116]KOM-LE-A_2116 TD(42,1/1/1)->PAR E-Mail-Adresse des Zertifikatsinhabers TD(42,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(43,0/1/1)->PAR [KOM-LE-A_2117]KOM-LE-A_2117 TD(43,1/1/1)->PAR Zertifikatsidentifikation über Aussteller und Seriennummer TD(43,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(44,0/1/1)->PAR [KOM-LE-A_2118]KOM-LE-A_2118 TD(44,1/1/1)->PAR Keine crls in signed-data TD(44,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(45,0/1/1)->PAR [KOM-LE-A_2119]KOM-LE-A_2119 TD(45,1/1/1)->PAR Signed-data muss certificates enthalten TD(45,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(46,0/1/1)->PAR [KOM-LE-A_2121]KOM-LE-A_2121 TD(46,1/1/1)->PAR Signierte Daten im Element eContent TD(46,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(47,0/1/1)->PAR [KOM-LE-A_2122]KOM-LE-A_2122 TD(47,1/1/1)->PAR Signaturzertifikat im Element Zertifikate TD(47,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(48,0/1/1)->PAR [KOM-LE-A_2123]KOM-LE-A_2123 TD(48,1/1/1)->PAR Genau ein signerInfo Element TD(48,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(49,0/1/1)->PAR [KOM-LE-A_2124]KOM-LE-A_2124 TD(49,1/1/1)->PAR Inhalt Element sid aus Unterzeichnerinformationen TD(49,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(50,0/1/1)->PAR [KOM-LE-A_2125]KOM-LE-A_2125 TD(50,1/1/1)->PAR Aussteller und Seriennummer entsprechend Signaturzertifikat TD(50,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(51,0/1/1)->PAR [KOM-LE-A_2126]KOM-LE-A_2126 TD(51,1/1/1)->PAR Unterzeichnerinformationen ohne unsignedAttrs TD(51,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(52,0/1/1)->PAR [KOM-LE-A_2127]KOM-LE-A_2127 TD(52,1/1/1)->PAR Unterzeichnerinformationen mit signiertem Attribut recipient-emails TD(52,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(53,0/1/1)->PAR [KOM-LE-A_2128]KOM-LE-A_2128 TD(53,1/1/1)->PAR Zertifikate für Verschlüsselung TD(53,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(54,0/1/1)->PAR [KOM-LE-A_2129]KOM-LE-A_2129 TD(54,1/1/1)->PAR Signaturzertifikat TD(54,2/1/1)->PAR gemSMIME_KOMLE
+TR-> TD(55,0/1/1)->PAR [A_17300]A_17300 TD(55,1/1/1)->PAR Initialer SMTP-Dialog TD(55,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(56,0/1/1)->PAR [A_17301]A_17301 TD(56,1/1/1)->PAR Verbindungsaufbau mit dem SMTP-Servers TD(56,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(57,0/1/1)->PAR [A_17303]A_17303 TD(57,1/1/1)->PAR Ergebnis des Verbindungsaufbaus mit dem SMTP-Server TD(57,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(58,0/1/1)->PAR [A_17305]A_17305 TD(58,1/1/1)->PAR Verwenden von PL_TUC_SIGN_DOCUMENT_nonQES und PL_TUC_HYBRID_ENCIPHER TD(58,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(59,0/1/1)->PAR [A_17327]A_17327 TD(59,1/1/1)->PAR Signieren der Nachricht mit dem Schlüssel Prk.HCI.OSIG TD(59,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(60,0/1/1)->PAR [A_17328]A_17328 TD(60,1/1/1)->PAR POP3-Dialog zur Authentifizierung TD(60,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(61,0/1/1)->PAR [A_17329]A_17329 TD(61,1/1/1)->PAR Verbindungsaufbau mit dem POP3-Servers TD(61,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(62,0/1/1)->PAR [A_17330]A_17330 TD(62,1/1/1)->PAR Authentifizierung gegenüber POP3-Server mit Benutzernamen und Passwort TD(62,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(63,0/1/1)->PAR [A_17331]A_17331 TD(63,1/1/1)->PAR Ergebnis des Verbindungsaufbaus mit dem POP3-Server TD(63,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(64,0/1/1)->PAR [A_17333]A_17333 TD(64,1/1/1)->PAR E-Mail-Adresse des den Abholvorgang auslösenden Nutzers TD(64,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(65,0/1/1)->PAR [A_17396]A_17396 TD(65,1/1/1)->PAR Verhalten als IPv4-Router TD(65,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(66,0/1/1)->PAR [A_17397]A_17397 TD(66,1/1/1)->PAR IP-Pakete mit Source Route Option TD(66,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(67,0/1/1)->PAR [A_17405]A_17405 TD(67,1/1/1)->PAR Nur IPv4. IPv6 nur hardwareseitig vorbereitet TD(67,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(68,0/1/1)->PAR [A_17423]A_17423 TD(68,1/1/1)->PAR Firewall Restart TD(68,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(69,0/1/1)->PAR [A_17424]A_17424 TD(69,1/1/1)->PAR Firewall-Protokollierung TD(69,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(70,0/1/1)->PAR [A_17425]A_17425 TD(70,1/1/1)->PAR Reagiere auf LAN_IP_Changed TD(70,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(71,0/1/1)->PAR [A_17426]A_17426 TD(71,1/1/1)->PAR Reagiere auf WAN_IP_Changed TD(71,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(72,0/1/1)->PAR [A_17430]A_17430 TD(72,1/1/1)->PAR Netzwerk-Routen einrichten TD(72,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(73,0/1/1)->PAR [A_17474]A_17474 TD(73,1/1/1)->PAR Anzeige IP-Routinginformationen TD(73,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(74,0/1/1)->PAR [A_17485]A_17485 TD(74,1/1/1)->PAR Maximale Zeitabweichung TD(74,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(75,0/1/1)->PAR [A_17498]A_17498 TD(75,1/1/1)->PAR Grundlagen des Namensdienstes TD(75,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(76,0/1/1)->PAR [A_17500]A_17500 TD(76,1/1/1)->PAR DNS Stub-Resolver TD(76,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(77,0/1/1)->PAR [A_17502]A_17502 TD(77,1/1/1)->PAR TUC_CON_362 „Liste der Dienste abrufen“ TD(77,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(78,0/1/1)->PAR [A_17503]A_17503 TD(78,1/1/1)->PAR Prüfung von TLS-Server-Zertifikaten TD(78,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(79,0/1/1)->PAR [A_17504]A_17504 TD(79,1/1/1)->PAR Verwenden von PL_TUC_VERIFY_DOCUMENT_nonQES und PL_TUC_HYBRID_DECIPHER TD(79,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(80,0/1/1)->PAR [A_17509]A_17509 TD(80,1/1/1)->PAR Basisanwendung Namensdienst TD(80,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(81,0/1/1)->PAR [A_17512-01]A_17512-01 TD(81,1/1/1)->PAR Initialisierung „Namensdienst und Dienstlokalisierung“ TD(81,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(82,0/1/1)->PAR [A_17513]A_17513 TD(82,1/1/1)->PAR Konfigurationsparameter Namensdienst und Dienstlokalisierung TD(82,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(83,0/1/1)->PAR [A_17576]A_17576 TD(83,1/1/1)->PAR KSR lokalisieren TD(83,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(84,0/1/1)->PAR [A_17598]A_17598 TD(84,1/1/1)->PAR Qualität des HSM TD(84,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(85,0/1/1)->PAR [A_17712]A_17712 TD(85,1/1/1)->PAR Zusätzlich alternative Schnittstellentechnologien TD(85,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(86,0/1/1)->PAR [A_18097]A_18097 TD(86,1/1/1)->PAR Transportschnittstelle für Kartenkommandos TD(86,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(87,0/1/1)->PAR [A_18100]A_18100 TD(87,1/1/1)->PAR Ergänzende Standards für Transportschnittstelle TD(87,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(88,0/1/1)->PAR [A_18102]A_18102 TD(88,1/1/1)->PAR PIN-Eingabe nicht speichern TD(88,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(89,0/1/1)->PAR [A_18103]A_18103 TD(89,1/1/1)->PAR PIN-Geheimnis ausschließlich an Karte übermitteln TD(89,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(90,0/1/1)->PAR [A_18107]A_18107 TD(90,1/1/1)->PAR Übergabeschnittstelle PIN/PUK-Geheimnis TD(90,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(91,0/1/1)->PAR [A_18108]A_18108 TD(91,1/1/1)->PAR Umsetzung ENV_TUC_CARD_SECRET_INPUT TD(91,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(92,0/1/1)->PAR [A_18109]A_18109 TD(92,1/1/1)->PAR Minimalprinzip Karteninteraktion TD(92,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(93,0/1/1)->PAR [A_18130]A_18130 TD(93,1/1/1)->PAR Nutzung von PL_TUC_CARD Systemprozessen TD(93,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(94,0/1/1)->PAR [A_18163]A_18163 TD(94,1/1/1)->PAR Kartenterminal für Basis-Consumer TD(94,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(95,0/1/1)->PAR [A_18166]A_18166 TD(95,1/1/1)->PAR Vertrauliche und integritätsgeschützte Kommunikation mit KT TD(95,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(96,0/1/1)->PAR [A_18195]A_18195 TD(96,1/1/1)->PAR Basis-Consumer mit SMC-B TD(96,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(97,0/1/1)->PAR [A_18196]A_18196 TD(97,1/1/1)->PAR Personalisierung des HSM beim Basis-Consumer TD(97,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(98,0/1/1)->PAR [A_22348]A_22348 TD(98,1/1/1)->PAR Caching der Prüfergebnisse der TLS-Server-Zertifikate TD(98,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(99,0/1/1)->PAR [KOM-LE-A_2003]KOM-LE-A_2003 TD(99,1/1/1)->PAR Unterstützung von E-Mail-Clients TD(99,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(100,0/1/1)->PAR [KOM-LE-A_2005]KOM-LE-A_2005 TD(100,1/1/1)->PAR Keine persistente Speicherung von Nachrichten TD(100,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(101,0/1/1)->PAR [KOM-LE-A_2006]KOM-LE-A_2006 TD(101,1/1/1)->PAR Einzuhaltende Standards beim Senden und Empfangen TD(101,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(102,0/1/1)->PAR [KOM-LE-A_2007]KOM-LE-A_2007 TD(102,1/1/1)->PAR SMTP Begrüßung TD(102,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(103,0/1/1)->PAR [KOM-LE-A_2009]KOM-LE-A_2009 TD(103,1/1/1)->PAR Unterstützung der Serverteile der Mechanismen PLAIN und LOGIN TD(103,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(104,0/1/1)->PAR [KOM-LE-A_2014]KOM-LE-A_2014 TD(104,1/1/1)->PAR Authentifizierung gegenüber MTA mit anderen Mechanismen als PLAIN und LOGIN TD(104,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(105,0/1/1)->PAR [KOM-LE-A_2018]KOM-LE-A_2018 TD(105,1/1/1)->PAR Weiterleitung von SMTP-Meldungen und Antwortcodes TD(105,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(106,0/1/1)->PAR [KOM-LE-A_2019]KOM-LE-A_2019 TD(106,1/1/1)->PAR Signatur und Verschlüsselung entsprechend KOM-LE-S/MiME-Profil TD(106,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(107,0/1/1)->PAR [KOM-LE-A_2020]KOM-LE-A_2020 TD(107,1/1/1)->PAR Signieren der Nachricht mit dem Schlüssel Prk.HCI.OSIG TD(107,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(108,0/1/1)->PAR [KOM-LE-A_2023]KOM-LE-A_2023 TD(108,1/1/1)->PAR Verschlüsselungszertifikate aus dem Verzeichnisdienst TD(108,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(109,0/1/1)->PAR [KOM-LE-A_2026]KOM-LE-A_2026 TD(109,1/1/1)->PAR Cachen von Verschlüsselungszertifikaten TD(109,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(110,0/1/1)->PAR [KOM-LE-A_2027]KOM-LE-A_2027 TD(110,1/1/1)->PAR Befüllung des recipient-emails Attributs TD(110,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(111,0/1/1)->PAR [KOM-LE-A_2029]KOM-LE-A_2029 TD(111,1/1/1)->PAR Aufbereitung einer vom Clientsystem erhaltenen KOM-LE-S/MIME-Nachricht TD(111,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(112,0/1/1)->PAR [KOM-LE-A_2031]KOM-LE-A_2031 TD(112,1/1/1)->PAR Unterstützung der Serverteile der Mechanismen USER/PASS und SASL PLAIN TD(112,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(113,0/1/1)->PAR [KOM-LE-A_2035]KOM-LE-A_2035 TD(113,1/1/1)->PAR Unterstützung der Clientteile der Mechanismen USER/PASS und SASL PLAIN TD(113,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(114,0/1/1)->PAR [KOM-LE-A_2036]KOM-LE-A_2036 TD(114,1/1/1)->PAR Authentifizierung gegenüber POP3-Server mit anderen Mechanismen als USER/PASS oder SASL PLAIN TD(114,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(115,0/1/1)->PAR [KOM-LE-A_2040]KOM-LE-A_2040 TD(115,1/1/1)->PAR Übermittlung von POP3-Kommandos und -Meldungen nach erfolgreicher Authentifizierung TD(115,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(116,0/1/1)->PAR [KOM-LE-A_2041]KOM-LE-A_2041 TD(116,1/1/1)->PAR Setzen des Parameters <N> des TOP-Kommandos auf Null TD(116,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(117,0/1/1)->PAR [KOM-LE-A_2043]KOM-LE-A_2043 TD(117,1/1/1)->PAR Beachtung des recipient-emails Attributs bei der Entschlüsselung TD(117,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(118,0/1/1)->PAR [KOM-LE-A_2044]KOM-LE-A_2044 TD(118,1/1/1)->PAR E-Mail-Adresse des den Abholvorgang auslösenden Nutzers TD(118,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(119,0/1/1)->PAR [KOM-LE-A_2064-02]KOM-LE-A_2064-02 TD(119,1/1/1)->PAR Verwendung von X.509-Identitäten bei der TLS-Authentifizierung TD(119,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(120,0/1/1)->PAR [KOM-LE-A_2193]KOM-LE-A_2193 TD(120,1/1/1)->PAR Verpacken des verschlüsselten CMS-Objektes TD(120,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(121,0/1/1)->PAR [KOM-LE-A_2300]KOM-LE-A_2300 TD(121,1/1/1)->PAR Import des Schlüsselmaterial für TLS-Verbindungen TD(121,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(122,0/1/1)->PAR [A_18464]A_18464 TD(122,1/1/1)->PAR TLS-Verbindungen, nicht Version 1.1 TD(122,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(123,0/1/1)->PAR [GS-A_4385]GS-A_4385 TD(123,1/1/1)->PAR TLS-Verbindungen, Version 1.2 TD(123,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(124,0/1/1)->PAR [GS-A_3834]GS-A_3834 TD(124,1/1/1)->PAR DNS-Protokoll, Nameserver-Implementierungen TD(124,2/1/1)->PAR gemSpec_Net
+TR-> TD(125,0/1/1)->PAR [GS-A_3842-01]GS-A_3842-01 TD(125,1/1/1)->PAR DNS, Verwendung von iterativen queries zwischen Nameservern TD(125,2/1/1)->PAR gemSpec_Net
+TR-> TD(126,0/1/1)->PAR [GS-A_4009]GS-A_4009 TD(126,1/1/1)->PAR Übertragungstechnologie auf OSI-Schicht LAN TD(126,2/1/1)->PAR gemSpec_Net
+TR-> TD(127,0/1/1)->PAR [GS-A_4010]GS-A_4010 TD(127,1/1/1)->PAR Standards für IPv6 TD(127,2/1/1)->PAR gemSpec_Net
+TR-> TD(128,0/1/1)->PAR [GS-A_4011]GS-A_4011 TD(128,1/1/1)->PAR Unterstützung des Dual-Stack Mode TD(128,2/1/1)->PAR gemSpec_Net
+TR-> TD(129,0/1/1)->PAR [GS-A_4012]GS-A_4012 TD(129,1/1/1)->PAR Leistungsanforderungen an den Dual-Stack Mode TD(129,2/1/1)->PAR gemSpec_Net
+TR-> TD(130,0/1/1)->PAR [GS-A_4053]GS-A_4053 TD(130,1/1/1)->PAR Ingress und Egress Filtering TD(130,2/1/1)->PAR gemSpec_Net
+TR-> TD(131,0/1/1)->PAR [GS-A_4054]GS-A_4054 TD(131,1/1/1)->PAR Paketfilter Default Deny TD(131,2/1/1)->PAR gemSpec_Net
+TR-> TD(132,0/1/1)->PAR [GS-A_4805]GS-A_4805 TD(132,1/1/1)->PAR Abstimmung angeschlossener Produkttyp mit dem Anbieter Zentrales Netz TD(132,2/1/1)->PAR gemSpec_Net
+TR-> TD(133,0/1/1)->PAR [GS-A_4831]GS-A_4831 TD(133,1/1/1)->PAR Standards für IPv4 TD(133,2/1/1)->PAR gemSpec_Net
+TR-> TD(134,0/1/1)->PAR [GS-A_4884]GS-A_4884 TD(134,1/1/1)->PAR Erlaubte ICMP-Types TD(134,2/1/1)->PAR gemSpec_Net
+TR-> TD(135,0/1/1)->PAR [GS-A_3695]GS-A_3695 TD(135,1/1/1)->PAR Grundlegender Aufbau Versionsnummern TD(135,2/1/1)->PAR gemSpec_OM
+TR-> TD(136,0/1/1)->PAR [GS-A_3696]GS-A_3696 TD(136,1/1/1)->PAR Zeitpunkt der Erzeugung neuer Versionsnummern TD(136,2/1/1)->PAR gemSpec_OM
+TR-> TD(137,0/1/1)->PAR [GS-A_3697]GS-A_3697 TD(137,1/1/1)->PAR Anlass der Erhöhung von Versionsnummern TD(137,2/1/1)->PAR gemSpec_OM
+TR-> TD(138,0/1/1)->PAR [GS-A_3805]GS-A_3805 TD(138,1/1/1)->PAR Loglevel zur Bezeichnung der Granularität FehlerLog TD(138,2/1/1)->PAR gemSpec_OM
+TR-> TD(139,0/1/1)->PAR [GS-A_3806]GS-A_3806 TD(139,1/1/1)->PAR Loglevel in der Referenz- und Testumgebung TD(139,2/1/1)->PAR gemSpec_OM
+TR-> TD(140,0/1/1)->PAR [GS-A_3807]GS-A_3807 TD(140,1/1/1)->PAR Fehlerspeicherung ereignisgesteuerter Nachrichtenverarbeitung TD(140,2/1/1)->PAR gemSpec_OM
+TR-> TD(141,0/1/1)->PAR [GS-A_3813]GS-A_3813 TD(141,1/1/1)->PAR Datenschutzvorgaben Fehlermeldungen TD(141,2/1/1)->PAR gemSpec_OM
+TR-> TD(142,0/1/1)->PAR [GS-A_3816]GS-A_3816 TD(142,1/1/1)->PAR Festlegung sicherheitsrelevanter Fehler TD(142,2/1/1)->PAR gemSpec_OM
+TR-> TD(143,0/1/1)->PAR [GS-A_4541]GS-A_4541 TD(143,1/1/1)->PAR Nutzung der Produkttypversion zur Kompatibilitätsprüfung TD(143,2/1/1)->PAR gemSpec_OM
+TR-> TD(144,0/1/1)->PAR [GS-A_4542]GS-A_4542 TD(144,1/1/1)->PAR Spezifikationsgrundlage für Produkte TD(144,2/1/1)->PAR gemSpec_OM
+TR-> TD(145,0/1/1)->PAR [GS-A_5018]GS-A_5018 TD(145,1/1/1)->PAR Sicherheitsrelevanter Fehler an organisatorischen Schnittstellen TD(145,2/1/1)->PAR gemSpec_OM
+TR-> TD(146,0/1/1)->PAR [GS-A_5033]GS-A_5033 TD(146,1/1/1)->PAR Betriebsdokumentation der zentralen Produkte der TI-Plattform und anwendungsspezifischen Diensten TD(146,2/1/1)->PAR gemSpec_OM
+TR-> TD(147,0/1/1)->PAR [GS-A_5038]GS-A_5038 TD(147,1/1/1)->PAR Festlegungen zur Vergabe einer Produktversion TD(147,2/1/1)->PAR gemSpec_OM
+TR-> TD(148,0/1/1)->PAR [GS-A_5039]GS-A_5039 TD(148,1/1/1)->PAR Änderung der Produktversion bei Änderungen der Produkttypversion TD(148,2/1/1)->PAR gemSpec_OM
+TR-> TD(149,0/1/1)->PAR [GS-A_5054]GS-A_5054 TD(149,1/1/1)->PAR Versionierung von Produkten durch die Produktidentifikation erweitert um Klartextnamen TD(149,2/1/1)->PAR gemSpec_OM
+TR-> TD(150,0/1/1)->PAR [GS-A_4640]GS-A_4640 TD(150,1/1/1)->PAR Identifizierung/Validierung des TI-Vertrauensankers bei der initialen Einbringung TD(150,2/1/1)->PAR gemSpec_PKI
+TR-> TD(151,0/1/1)->PAR [A_14970]A_14970 TD(151,1/1/1)->PAR Leistung zum symmetrischen Verschlüsseln TD(151,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(152,0/1/1)->PAR [A_14971]A_14971 TD(152,1/1/1)->PAR Aufrufparameter zum symmetrischen Verschlüsseln TD(152,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(153,0/1/1)->PAR [A_14972]A_14972 TD(153,1/1/1)->PAR Ablauf des symmetrischen Verschlüsseln eines Dokuments TD(153,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(154,0/1/1)->PAR [A_17376]A_17376 TD(154,1/1/1)->PAR Leistung der nonQES Dokumenten-Signatur TD(154,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(155,0/1/1)->PAR [A_17377]A_17377 TD(155,1/1/1)->PAR Aufrufparameter der nonQES Dokumenten-Signatur TD(155,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(156,0/1/1)->PAR [A_17380]A_17380 TD(156,1/1/1)->PAR Ergebnis der nonQES Dokumenten-Signatur TD(156,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(157,0/1/1)->PAR [A_17431]A_17431 TD(157,1/1/1)->PAR Leistung zum Verbindungsaufbau zum VZD TD(157,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(158,0/1/1)->PAR [A_17432]A_17432 TD(158,1/1/1)->PAR Leistung zur Abfrage des VZD TD(158,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(159,0/1/1)->PAR [A_17445]A_17445 TD(159,1/1/1)->PAR Aufbau der Verbindung zum VZD TD(159,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(160,0/1/1)->PAR [A_17446]A_17446 TD(160,1/1/1)->PAR Leistung zur Verbindungstrennung zum VZD TD(160,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(161,0/1/1)->PAR [A_17447]A_17447 TD(161,1/1/1)->PAR Leistung zum Abbrechen einer Verzeichnisabfrage TD(161,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(162,0/1/1)->PAR [A_17448]A_17448 TD(162,1/1/1)->PAR Aufrufparameter der Verzeichnisabfrage TD(162,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(163,0/1/1)->PAR [A_17449]A_17449 TD(163,1/1/1)->PAR Ergebnis der Verzeichnisabfrage TD(163,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(164,0/1/1)->PAR [A_17465]A_17465 TD(164,1/1/1)->PAR Trennen der Verbindung zum VZD TD(164,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(165,0/1/1)->PAR [A_17468]A_17468 TD(165,1/1/1)->PAR Abbrechen einer Verzeichnisabfrage TD(165,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(166,0/1/1)->PAR [A_17559]A_17559 TD(166,1/1/1)->PAR Leistung zur Prüfung der nonQES Dokumentensignatur TD(166,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(167,0/1/1)->PAR [A_17561]A_17561 TD(167,1/1/1)->PAR Aufrufparameter zur Prüfung der nonQES Dokumentensignatur TD(167,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(168,0/1/1)->PAR [A_17562]A_17562 TD(168,1/1/1)->PAR Ablauf der Prüfung der nonQES Dokumentensignatur TD(168,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(169,0/1/1)->PAR [A_18072]A_18072 TD(169,1/1/1)->PAR Ablauf der Zertifikatsprüfung in der TI TD(169,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(170,0/1/1)->PAR [TIP1-A_6898]TIP1-A_6898 TD(170,1/1/1)->PAR Leistung zu Statusinformationen zu einer Karte TD(170,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(171,0/1/1)->PAR [TIP1-A_6899]TIP1-A_6899 TD(171,1/1/1)->PAR Liste verfügbarer Informationen zu einer SmartCard TD(171,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(172,0/1/1)->PAR [TIP1-A_6903]TIP1-A_6903 TD(172,1/1/1)->PAR Leistung zur Änderung einer PIN TD(172,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(173,0/1/1)->PAR [TIP1-A_6904]TIP1-A_6904 TD(173,1/1/1)->PAR Aufrufparameter zum Ändern einer PIN TD(173,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(174,0/1/1)->PAR [TIP1-A_6905-01]TIP1-A_6905-01 TD(174,1/1/1)->PAR Ergebnis der Änderung einer PIN TD(174,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(175,0/1/1)->PAR [TIP1-A_6906]TIP1-A_6906 TD(175,1/1/1)->PAR Leistung zum Einschalten einer PIN TD(175,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(176,0/1/1)->PAR [TIP1-A_6907]TIP1-A_6907 TD(176,1/1/1)->PAR Aufrufparameter zum Einschalten einer PIN TD(176,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(177,0/1/1)->PAR [TIP1-A_6908]TIP1-A_6908 TD(177,1/1/1)->PAR Ergebnis des Einschaltens einer PIN TD(177,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(178,0/1/1)->PAR [TIP1-A_6909]TIP1-A_6909 TD(178,1/1/1)->PAR Leistung zum Abschalten einer PIN TD(178,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(179,0/1/1)->PAR [TIP1-A_6910]TIP1-A_6910 TD(179,1/1/1)->PAR Aufrufparameter zum Abschalten einer PIN TD(179,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(180,0/1/1)->PAR [TIP1-A_6911]TIP1-A_6911 TD(180,1/1/1)->PAR Ergebnis des Abschaltens einer PIN TD(180,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(181,0/1/1)->PAR [TIP1-A_6915]TIP1-A_6915 TD(181,1/1/1)->PAR Leistung zur Benutzerverifikation TD(181,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(182,0/1/1)->PAR [TIP1-A_6916]TIP1-A_6916 TD(182,1/1/1)->PAR Aufrufparameter der Benutzerverifikation TD(182,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(183,0/1/1)->PAR [TIP1-A_6917]TIP1-A_6917 TD(183,1/1/1)->PAR Ergebnis der Leistung zur Eingabe einer PIN TD(183,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(184,0/1/1)->PAR [TIP1-A_6918]TIP1-A_6918 TD(184,1/1/1)->PAR Leistung zum Aktivieren einer Anwendung TD(184,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(185,0/1/1)->PAR [TIP1-A_6919]TIP1-A_6919 TD(185,1/1/1)->PAR Aufrufparameter zum Aktivieren einer Anwendung TD(185,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(186,0/1/1)->PAR [TIP1-A_6920]TIP1-A_6920 TD(186,1/1/1)->PAR Ergebnis der Leistung zur Aktivieren einer Anwendung TD(186,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(187,0/1/1)->PAR [TIP1-A_6921]TIP1-A_6921 TD(187,1/1/1)->PAR Leistung zum Deaktivieren einer Anwendung TD(187,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(188,0/1/1)->PAR [TIP1-A_6922]TIP1-A_6922 TD(188,1/1/1)->PAR Aufrufparameter zum Deaktivieren einer Anwendung TD(188,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(189,0/1/1)->PAR [TIP1-A_6923]TIP1-A_6923 TD(189,1/1/1)->PAR Ergebnis der Leistung zur Deaktivieren einer Anwendung TD(189,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(190,0/1/1)->PAR [TIP1-A_6924]TIP1-A_6924 TD(190,1/1/1)->PAR Leistung zum Auslesen einer Zufallszahl TD(190,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(191,0/1/1)->PAR [TIP1-A_6925]TIP1-A_6925 TD(191,1/1/1)->PAR Aufrufparameter für das Auslesen einer Zufallszahl TD(191,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(192,0/1/1)->PAR [TIP1-A_6926]TIP1-A_6926 TD(192,1/1/1)->PAR Ergebnis des Auslesens einer Zufallszahl TD(192,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(193,0/1/1)->PAR [TIP1-A_6927]TIP1-A_6927 TD(193,1/1/1)->PAR Leistung zum Lesen einer Datei TD(193,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(194,0/1/1)->PAR [TIP1-A_6928]TIP1-A_6928 TD(194,1/1/1)->PAR Aufrufparameter für das Lesen einer Datei TD(194,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(195,0/1/1)->PAR [TIP1-A_6929]TIP1-A_6929 TD(195,1/1/1)->PAR Optionale Parameter für das Lesen einer Datei TD(195,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(196,0/1/1)->PAR [TIP1-A_6930]TIP1-A_6930 TD(196,1/1/1)->PAR Ergebnis des Lesens des Inhalts einer Datei TD(196,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(197,0/1/1)->PAR [TIP1-A_6977]TIP1-A_6977 TD(197,1/1/1)->PAR Auflösen von URI in IP-Adresse TD(197,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(198,0/1/1)->PAR [TIP1-A_6978]TIP1-A_6978 TD(198,1/1/1)->PAR Synchronisierung mit Zeitdienst TD(198,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(199,0/1/1)->PAR [TIP1-A_6979]TIP1-A_6979 TD(199,1/1/1)->PAR Leistung der nonQES-Signatur TD(199,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(200,0/1/1)->PAR [TIP1-A_6980]TIP1-A_6980 TD(200,1/1/1)->PAR Aufrufparameter der nonQES-Signatur TD(200,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(201,0/1/1)->PAR [TIP1-A_6981]TIP1-A_6981 TD(201,1/1/1)->PAR Ergebnis der nonQES-Signatur TD(201,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(202,0/1/1)->PAR [TIP1-A_6982]TIP1-A_6982 TD(202,1/1/1)->PAR Leistung zum hybriden Verschlüsseln TD(202,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(203,0/1/1)->PAR [TIP1-A_6983-01]TIP1-A_6983-01 TD(203,1/1/1)->PAR Aufrufparameter zum hybriden Verschlüsseln TD(203,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(204,0/1/1)->PAR [TIP1-A_6984-02]TIP1-A_6984-02 TD(204,1/1/1)->PAR Ablauf der hybriden Verschlüsselung eines Dokuments TD(204,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(205,0/1/1)->PAR [TIP1-A_6985]TIP1-A_6985 TD(205,1/1/1)->PAR Leistung zum hybriden Entschlüsseln TD(205,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(206,0/1/1)->PAR [TIP1-A_6986]TIP1-A_6986 TD(206,1/1/1)->PAR Aufrufparameter zum hybriden Entschlüsseln TD(206,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(207,0/1/1)->PAR [TIP1-A_6987]TIP1-A_6987 TD(207,1/1/1)->PAR Ablauf der hybriden Entschlüsselung eines Dokuments TD(207,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(208,0/1/1)->PAR [TIP1-A_6991]TIP1-A_6991 TD(208,1/1/1)->PAR Leistung zur Prüfung eines Zertifikats in der TI TD(208,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(209,0/1/1)->PAR [TIP1-A_6992-01]TIP1-A_6992-01 TD(209,1/1/1)->PAR Aufrufparameter der Zertifikatsprüfung in der TI TD(209,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(210,0/1/1)->PAR [TIP1-A_6993]TIP1-A_6993 TD(210,1/1/1)->PAR Ergebnis der Zertifikatsprüfung in der TI TD(210,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(211,0/1/1)->PAR [TIP1-A_7020]TIP1-A_7020 TD(211,1/1/1)->PAR Leistung zum Rücksetzen einer Karte TD(211,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+
+
+PAR -HEADING(ids=3.2)3.2 Festlegungen zur sicherheitstechnischen Eignung
+PAR -HEADING(ids=3.2.1)3.2.1 Produktgutachten
+PAR Die in diesem Abschnitt verzeichneten Festlegungen sind Gegenstand der Prüfung der Sicherheitseignung gemäß [gemRL_PruefSichEig_DS]. Das entsprechende Produktgutachten ist der gematik vorzulegen.
+PAR (ids=Tabelle-5)Tabelle 5: Festlegungen zur sicherheitstechnischen Eignung "Produktgutachten"
+
+TABLE(rows=69,cols=0+0+0)->
+TR-> TH(0,0/1/1)->PAR ID TH(0,1/1/1)->PAR Bezeichnung TH(0,2/1/1)->PAR Quelle (Referenz)
+TR-> TD(1,0/1/1)->PAR [A_17305]A_17305 TD(1,1/1/1)->PAR Verwenden von PL_TUC_SIGN_DOCUMENT_nonQES und PL_TUC_HYBRID_ENCIPHER TD(1,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(2,0/1/1)->PAR [A_17306]A_17306 TD(2,1/1/1)->PAR Vorgehen bei Signatur und Verschlüsselung einer KOM-LE Nachricht TD(2,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(3,0/1/1)->PAR [A_17327]A_17327 TD(3,1/1/1)->PAR Signieren der Nachricht mit dem Schlüssel Prk.HCI.OSIG TD(3,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(4,0/1/1)->PAR [A_17397]A_17397 TD(4,1/1/1)->PAR IP-Pakete mit Source Route Option TD(4,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(5,0/1/1)->PAR [A_17400-01]A_17400-01 TD(5,1/1/1)->PAR NAT-Umsetzung TD(5,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(6,0/1/1)->PAR [A_17401]A_17401 TD(6,1/1/1)->PAR Systemprozess PL_TUC_PKI_VERIFY_CERTIFICATE TD(6,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(7,0/1/1)->PAR [A_17405]A_17405 TD(7,1/1/1)->PAR Nur IPv4. IPv6 nur hardwareseitig vorbereitet TD(7,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(8,0/1/1)->PAR [A_17406]A_17406 TD(8,1/1/1)->PAR Kein dynamisches Routing TD(8,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(9,0/1/1)->PAR [A_17411]A_17411 TD(9,1/1/1)->PAR Kommunikation mit NET_TI_Offene_FD TD(9,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(10,0/1/1)->PAR [A_17415]A_17415 TD(10,1/1/1)->PAR Kommunikation mit NET_TI_ZENTRAL TD(10,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(11,0/1/1)->PAR [A_17417]A_17417 TD(11,1/1/1)->PAR Einschränkung von nicht genehmigten Traffic TD(11,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(12,0/1/1)->PAR [A_17418]A_17418 TD(12,1/1/1)->PAR Drop statt Reject TD(12,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(13,0/1/1)->PAR [A_17419]A_17419 TD(13,1/1/1)->PAR Abwehr von IP-Spoofing, DoS/DDoS-Angriffe und Martian Packets TD(13,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(14,0/1/1)->PAR [A_17420]A_17420 TD(14,1/1/1)->PAR Eingeschränkte Nutzung von „Ping“ TD(14,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(15,0/1/1)->PAR [A_17421]A_17421 TD(15,1/1/1)->PAR Einschränkungen der IP-Protokolle TD(15,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(16,0/1/1)->PAR [A_17423]A_17423 TD(16,1/1/1)->PAR Firewall Restart TD(16,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(17,0/1/1)->PAR [A_17424]A_17424 TD(17,1/1/1)->PAR Firewall-Protokollierung TD(17,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(18,0/1/1)->PAR [A_17429-01]A_17429-01 TD(18,1/1/1)->PAR Basis- und KTR-Consumer, Operation VerifyCertificate TD(18,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(19,0/1/1)->PAR [A_17466]A_17466 TD(19,1/1/1)->PAR Systemprozess PL_TUC_HYBRID_ENCIPHER TD(19,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(20,0/1/1)->PAR [A_17467]A_17467 TD(20,1/1/1)->PAR Systemprozess PL_TUC_HYBRID_DECIPHER TD(20,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(21,0/1/1)->PAR [A_17503]A_17503 TD(21,1/1/1)->PAR Prüfung von TLS-Server-Zertifikaten TD(21,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(22,0/1/1)->PAR [A_17504]A_17504 TD(22,1/1/1)->PAR Verwenden von PL_TUC_VERIFY_DOCUMENT_nonQES und PL_TUC_HYBRID_DECIPHER TD(22,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(23,0/1/1)->PAR [A_17510-03]A_17510-03 TD(23,1/1/1)->PAR Basis- und KTR-Consumer, Operation EncryptDocument TD(23,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(24,0/1/1)->PAR [A_17515-02]A_17515-02 TD(24,1/1/1)->PAR Basis- und KTR-Consumer, Operation DecryptDocument TD(24,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(25,0/1/1)->PAR [A_17517]A_17517 TD(25,1/1/1)->PAR Systemprozess PL_TUC_SIGN_DOCUMENT_nonQES TD(25,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(26,0/1/1)->PAR [A_17518]A_17518 TD(26,1/1/1)->PAR Systemprozess PL_TUC_SIGN_HASH_nonQES TD(26,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(27,0/1/1)->PAR [A_17525-02]A_17525-02 TD(27,1/1/1)->PAR Basis- und KTR-Consumer, Operation SignDocument TD(27,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(28,0/1/1)->PAR [A_17526-02]A_17526-02 TD(28,1/1/1)->PAR Basis- und KTR-Consumer, Operation VerifyDocument TD(28,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(29,0/1/1)->PAR [A_17574]A_17574 TD(29,1/1/1)->PAR Infrastruktur Konfiguration aktualisieren TD(29,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(30,0/1/1)->PAR [A_17577]A_17577 TD(30,1/1/1)->PAR Systemprozess PL_TUC_VERIFY_DOCUMENT_nonQES TD(30,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(31,0/1/1)->PAR [A_17578-01]A_17578-01 TD(31,1/1/1)->PAR Basis- und KTR-Consumer, Operation ExternalAuthenticate TD(31,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(32,0/1/1)->PAR [A_17598]A_17598 TD(32,1/1/1)->PAR Qualität des HSM TD(32,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(33,0/1/1)->PAR [A_17712]A_17712 TD(33,1/1/1)->PAR Zusätzlich alternative Schnittstellentechnologien TD(33,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(34,0/1/1)->PAR [A_18102]A_18102 TD(34,1/1/1)->PAR PIN-Eingabe nicht speichern TD(34,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(35,0/1/1)->PAR [A_18103]A_18103 TD(35,1/1/1)->PAR PIN-Geheimnis ausschließlich an Karte übermitteln TD(35,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(36,0/1/1)->PAR [A_18130]A_18130 TD(36,1/1/1)->PAR Nutzung von PL_TUC_CARD Systemprozessen TD(36,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(37,0/1/1)->PAR [A_18166]A_18166 TD(37,1/1/1)->PAR Vertrauliche und integritätsgeschützte Kommunikation mit KT TD(37,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(38,0/1/1)->PAR [A_21998]A_21998 TD(38,1/1/1)->PAR Kommunikation mit NET_WANDA_Basic TD(38,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(39,0/1/1)->PAR [A_17714]A_17714 TD(39,1/1/1)->PAR HSM-Proxy - Eindeutige Referenz der kryptografischen Identität TD(39,2/1/1)->PAR gemSpec_HSMProxy
+TR-> TD(40,0/1/1)->PAR [A_17715]A_17715 TD(40,1/1/1)->PAR HSM-Proxy - Identifikation und Authentisierung des Eigentümers des privaten Schlüssels TD(40,2/1/1)->PAR gemSpec_HSMProxy
+TR-> TD(41,0/1/1)->PAR [A_17716]A_17716 TD(41,1/1/1)->PAR HSM-Proxy - Vertrauliche und integritätsgeschützte Kommunikation TD(41,2/1/1)->PAR gemSpec_HSMProxy
+TR-> TD(42,0/1/1)->PAR [A_18464]A_18464 TD(42,1/1/1)->PAR TLS-Verbindungen, nicht Version 1.1 TD(42,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(43,0/1/1)->PAR [A_18467]A_18467 TD(43,1/1/1)->PAR TLS-Verbindungen, Version 1.3 TD(43,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(44,0/1/1)->PAR [A_19644]A_19644 TD(44,1/1/1)->PAR Hashfunktion für Hashwert-Referenzen beim Fachdienst Download-Server (KAS) TD(44,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(45,0/1/1)->PAR [A_21275-01]A_21275-01 TD(45,1/1/1)->PAR TLS-Verbindungen, zulässige Hashfunktionen bei Signaturen im TLS-Handshake TD(45,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(46,0/1/1)->PAR [GS-A_4367]GS-A_4367 TD(46,1/1/1)->PAR Zufallszahlengenerator TD(46,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(47,0/1/1)->PAR [GS-A_4368]GS-A_4368 TD(47,1/1/1)->PAR Schlüsselerzeugung TD(47,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(48,0/1/1)->PAR [GS-A_4385]GS-A_4385 TD(48,1/1/1)->PAR TLS-Verbindungen, Version 1.2 TD(48,2/1/1)->PAR gemSpec_Krypt
+TR-> TD(49,0/1/1)->PAR [GS-A_4641]GS-A_4641 TD(49,1/1/1)->PAR Initiale Einbringung TI-Vertrauensanker TD(49,2/1/1)->PAR gemSpec_PKI
+TR-> TD(50,0/1/1)->PAR [GS-A_4748]GS-A_4748 TD(50,1/1/1)->PAR Initiale Einbringung TSL-Datei TD(50,2/1/1)->PAR gemSpec_PKI
+TR-> TD(51,0/1/1)->PAR [A_14971]A_14971 TD(51,1/1/1)->PAR Aufrufparameter zum symmetrischen Verschlüsseln TD(51,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(52,0/1/1)->PAR [A_14972]A_14972 TD(52,1/1/1)->PAR Ablauf des symmetrischen Verschlüsseln eines Dokuments TD(52,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(53,0/1/1)->PAR [A_17376]A_17376 TD(53,1/1/1)->PAR Leistung der nonQES Dokumenten-Signatur TD(53,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(54,0/1/1)->PAR [A_17377]A_17377 TD(54,1/1/1)->PAR Aufrufparameter der nonQES Dokumenten-Signatur TD(54,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(55,0/1/1)->PAR [A_17380]A_17380 TD(55,1/1/1)->PAR Ergebnis der nonQES Dokumenten-Signatur TD(55,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(56,0/1/1)->PAR [A_17445]A_17445 TD(56,1/1/1)->PAR Aufbau der Verbindung zum VZD TD(56,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(57,0/1/1)->PAR [A_17561]A_17561 TD(57,1/1/1)->PAR Aufrufparameter zur Prüfung der nonQES Dokumentensignatur TD(57,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(58,0/1/1)->PAR [A_17562]A_17562 TD(58,1/1/1)->PAR Ablauf der Prüfung der nonQES Dokumentensignatur TD(58,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(59,0/1/1)->PAR [A_18072]A_18072 TD(59,1/1/1)->PAR Ablauf der Zertifikatsprüfung in der TI TD(59,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(60,0/1/1)->PAR [TIP1-A_6979]TIP1-A_6979 TD(60,1/1/1)->PAR Leistung der nonQES-Signatur TD(60,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(61,0/1/1)->PAR [TIP1-A_6980]TIP1-A_6980 TD(61,1/1/1)->PAR Aufrufparameter der nonQES-Signatur TD(61,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(62,0/1/1)->PAR [TIP1-A_6982]TIP1-A_6982 TD(62,1/1/1)->PAR Leistung zum hybriden Verschlüsseln TD(62,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(63,0/1/1)->PAR [TIP1-A_6983-01]TIP1-A_6983-01 TD(63,1/1/1)->PAR Aufrufparameter zum hybriden Verschlüsseln TD(63,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(64,0/1/1)->PAR [TIP1-A_6984-02]TIP1-A_6984-02 TD(64,1/1/1)->PAR Ablauf der hybriden Verschlüsselung eines Dokuments TD(64,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(65,0/1/1)->PAR [TIP1-A_6986]TIP1-A_6986 TD(65,1/1/1)->PAR Aufrufparameter zum hybriden Entschlüsseln TD(65,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(66,0/1/1)->PAR [TIP1-A_6987]TIP1-A_6987 TD(66,1/1/1)->PAR Ablauf der hybriden Entschlüsselung eines Dokuments TD(66,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(67,0/1/1)->PAR [TIP1-A_6992-01]TIP1-A_6992-01 TD(67,1/1/1)->PAR Aufrufparameter der Zertifikatsprüfung in der TI TD(67,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+TR-> TD(68,0/1/1)->PAR [TIP1-A_6993]TIP1-A_6993 TD(68,1/1/1)->PAR Ergebnis der Zertifikatsprüfung in der TI TD(68,2/1/1)->PAR gemSpec_Systemprozesse_dezTI
+
+
+PAR -HEADING(ids=3.2.2)3.2.2 Herstellererklärung sicherheitstechnische Eignung
+PAR Sofern in diesem Abschnitt Festlegungen verzeichnet sind, muss der Hersteller bzw. der Anbieter deren Umsetzung und Beachtung zum Nachweis der sicherheitstechnischen Eignung durch eine Herstellererklärung bestätigen bzw. zusagen.
+PAR (ids=Tabelle-6)Tabelle 6: Festlegungen zur sicherheitstechnischen Eignung "Herstellererklärung"
+
+TABLE(rows=17,cols=0+0+0)->
+TR-> TH(0,0/1/1)->PAR ID TH(0,1/1/1)->PAR Bezeichnung TH(0,2/1/1)->PAR Quelle (Referenz)
+TR-> TD(1,0/1/1)->PAR [A_17306]A_17306 TD(1,1/1/1)->PAR Vorgehen bei Signatur und Verschlüsselung einer KOM-LE Nachricht TD(1,2/1/1)->PAR gemSpec_Basis_KTR_Consumer
+TR-> TD(2,0/1/1)->PAR [KOM-LE-A_2045]KOM-LE-A_2045 TD(2,1/1/1)->PAR Entschlüsselung nur mit Schlüsseln des abholenden Nutzers TD(2,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(3,0/1/1)->PAR [KOM-LE-A_2048-01]KOM-LE-A_2048-01 TD(3,1/1/1)->PAR Prüfung der Signatur und Integrität einer KOM-LE-Nachricht TD(3,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(4,0/1/1)->PAR [KOM-LE-A_2050-05]KOM-LE-A_2050-05 TD(4,1/1/1)->PAR Verhalten bei positiver Integritätsprüfung TD(4,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(5,0/1/1)->PAR [KOM-LE-A_2065]KOM-LE-A_2065 TD(5,1/1/1)->PAR Schutz des Schlüsselspeichers für TLS-Verbindungen TD(5,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(6,0/1/1)->PAR [KOM-LE-A_2182-01]KOM-LE-A_2182-01 TD(6,1/1/1)->PAR Verwendung des vom KOM-LE-Anbieter zur Verfügung gestellten Zertifikats für die clientseitige TLS-Authentifizierung TD(6,2/1/1)->PAR gemSpec_CM_KOMLE
+TR-> TD(7,0/1/1)->PAR [A_17178]A_17178 TD(7,1/1/1)->PAR Produktentwicklung: Basisschutz gegen OWASP Top 10 Risiken TD(7,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(8,0/1/1)->PAR [A_17179]A_17179 TD(8,1/1/1)->PAR Auslieferung aktueller zusätzlicher Softwarekomponenten TD(8,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(9,0/1/1)->PAR [GS-A_2330-02]GS-A_2330-02 TD(9,1/1/1)->PAR Hersteller: Schwachstellen-Management TD(9,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(10,0/1/1)->PAR [GS-A_2350-01]GS-A_2350-01 TD(10,1/1/1)->PAR Produktunterstützung der Hersteller TD(10,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(11,0/1/1)->PAR [GS-A_2354-01]GS-A_2354-01 TD(11,1/1/1)->PAR Produktunterstützung mit geeigneten Sicherheitstechnologien TD(11,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(12,0/1/1)->PAR [GS-A_2525-01]GS-A_2525-01 TD(12,1/1/1)->PAR Hersteller: Schließen von Schwachstellen TD(12,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(13,0/1/1)->PAR [GS-A_4944-01]GS-A_4944-01 TD(13,1/1/1)->PAR Produktentwicklung: Behebung von Sicherheitsmängeln TD(13,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(14,0/1/1)->PAR [GS-A_4945-01]GS-A_4945-01 TD(14,1/1/1)->PAR Produktentwicklung: Qualitätssicherung TD(14,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(15,0/1/1)->PAR [GS-A_4946-01]GS-A_4946-01 TD(15,1/1/1)->PAR Produktentwicklung: sichere Programmierung TD(15,2/1/1)->PAR gemSpec_DS_Hersteller
+TR-> TD(16,0/1/1)->PAR [GS-A_4947-01]GS-A_4947-01 TD(16,1/1/1)->PAR Produktentwicklung: Schutz der Vertraulichkeit und Integrität TD(16,2/1/1)->PAR gemSpec_DS_Hersteller
+
+
+PAR -HEADING(ids=4)4 Produkttypspezifische Merkmale
+PAR -HEADING(ids=4.1)4.1 Unterstützung großer E-Mail-Anhänge (> 25MB)
+PAR Die Unterstützung großer E-Mail-Anhänge ist optional. Wird diese Option nicht realisiert, entfallen die folgenden Festlegungen:
+PAR A_19513       "Bereitstellung Zertifikate aus PKCS#12-Datei"<br>A_19355       "Prüfen der Nachrichtengröße"<br>A_19356       "Prüfen der Version des Empfängers"<br>A_19366       "Größe einer E-Mail-Nachricht größer 25 MB"<br>A_19357       "Extrahieren des Anhanges" <br>A_19358       "Erzeugung symmetrischer Schlüssel" <br>A_19364       "Freigabelink in die Mail aufnehmen" <br>A_19359       "Erweiterung der Headerinformationen für große Anhänge" <br>A_19360       "Verschlüsselung des Anhanges" <br>A_19361       "Lokalisierung des KAS" <br>A_19362       "Client Authentifizierung" <br>A_19363       "Übertragung von Anhängen" <br>A_19365       "Senden der Nachricht" <br>A_19367       "Empfangen der Nachricht" <br>A_19368       "Client Authentifizierung" <br>A_19369       "Ermittlung der Headerinformationen" <br>A_19370        "Download von Anhängen" <br>A_19371        "Entschlüsselung der Anhänge" <br>A_19372        "Prüfen des Anhanges" <br>A_19374         "Zusammensetzen der Mail"<br>A_19644         "Hashfunktion für Hashwert-Referenzen beim Fachdienst Download-Server (KAS)"<br>A_21387        "Prüfung der verwendeten Clientmodul-Version beim Senden"
+PAR Hinweis: Die Afo-IDs der Liste gelten für jede Ausprägung einer Anforderung. D.h.: Eine Anforderung mit Afo-ID A_12345 bezieht sich auch auf Ausprägungen A_12345-XX (Wertebereich XX = 01 - NN) in Kapitel 3
+
+PAR -HEADING(ids=5)5 Anhang – Verzeichnisse
+PAR -HEADING(ids=5.1)5.1 Abkürzungen
+
+TABLE(rows=2,cols=104+475)->
+TR-> TH(0,0/1/1)->PAR Kürzel TH(0,1/1/1)->PAR Erläuterung
+TR-> TD(1,0/1/1)->PAR ID TD(1,1/1/1)->PAR Identifikation
+PAR -HEADING(ids=5.2)5.2 Tabellenverzeichnis
+
+<PLACEHOLDER>
+
+PAR ML-139234
+REQ(ids=ML-139234)<b>ML-139234 - gemProdT_Basis-Consumer_PTV_1.6.2-2</b>
+PAR <b>[<=]</b>
+
