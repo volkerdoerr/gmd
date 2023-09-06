@@ -36,7 +36,7 @@ can be found in output/gpc.log.txt_
 
 ---
 
-## gematik Polarion Converter Tool
+## gematik Polarion Converter Tool GPC
 
 Donwload executable: [releases/download/wip/gpc]
 
