@@ -58,8 +58,7 @@ jobs:
       pages: write
       id-token: write
     steps:
-      # - uses: actions/checkout@v3
-      
+      - uses: actions/checkout@v3
       - run: gh release download wip --pattern 'gpc' 
       - run: chmod +x gpc
       - run: ./gpc 
