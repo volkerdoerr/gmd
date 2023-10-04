@@ -37,7 +37,7 @@ jobs:
   
   update-tag:
     runs-on: ubuntu-latest
-    needs: convert-files
+    needs: convert-test-files
     permissions: write-all
     steps:
       - uses: actions/checkout@v3
