@@ -18,15 +18,17 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3      
+      - uses: actions/checkout@v3      
+        
       - uses: matheusvanzan/sshpass-action@v2
         with:
           host: ${{ secrets.GEMSPEC_ONLINE_SFTP_SERVER }}
           port: ${{ secrets.GEMSPEC_ONLINE_SFTP_PORT }}
           user: ${{ secrets.GEMSPEC_ONLINE_SFTP_USERNAME }}
           pass: ${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
-          run: sftp
+          run: ls
+
+      - run: sshpass    
 
 
     
