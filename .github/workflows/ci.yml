@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v3      
       - run: echo "QUIT" >> cmd.txt
       - run: |
-          sshpass -e sftp -oBatchMode=no -b cmd.txt sftp@gemspec.online@ssh.strato.de << !
+          sshpass -e sftp -oBatchMode=no -b - sftp@gemspec.online@ssh.strato.de << !
           BYE
           !
           
