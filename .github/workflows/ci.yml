@@ -11,8 +11,6 @@ on:
   
 env:
   GH_TOKEN: ${{ github.token }}
-  SSHPASS: ${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
-  SFTP_HOST: ${{ secrets.GEMSPEC_ONLINE_SFTP_USERNAME }}@${{ secrets.GEMSPEC_ONLINE_SFTP_SERVER }}
   
 jobs:    
 
@@ -21,11 +19,11 @@ jobs:
     permissions: write-all
     steps:
       - uses: actions/checkout@v3      
-      - run: sudo apt-get install sshpass
       - run: echo ${{ env.SFTP_HOST }}
-      - run: echo "QUIT" >> cmd.txt
-      - run: export SSHPASS="${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}"
-      - run: sshpass -e sftp -oBatchMode=no -b cmd.txt sftp@gemspec.online@ssh.strato.de
+      - run: |
+          echo "QUIT" >> cmd.txt
+          export SSHPASS="573693147468"
+          sshpass -e sftp -oBatchMode=no -b cmd.txt sftp@gemspec.online@ssh.strato.de
 
       #- name: Convert polarion files
       #  run: gh release download wip --pattern 'gpc' 
