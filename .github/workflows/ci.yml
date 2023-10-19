@@ -18,12 +18,22 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-      - uses: actions/checkout@v3
-      - run: mkdir ~/.ssh
-      - run: ssh-keyscan -H ssh.strato.de >> ~/.ssh/known_hosts
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Convert polarion files
+        run: | 
+          gh release download wip --pattern 'gpc' 
+          chmod +x gpc
+          ./gpc ./input/filelist.txt ./output
+          rm gpc 
+
+      - name: Deploy generated files
       - run: |
-          sshpass -p 573693147468 sftp sftp@gemspec.online@ssh.strato.de << !
-          LS
+          mkdir ~/.ssh
+          ssh-keyscan -H ssh.strato.de >> ~/.ssh/known_hosts
+          sshpass -p ${{secrets.SFTP_PASSWORD}} sftp ${{secrets.SFTP_USERNAME}}@ssh.strato.de << !
+          PUT -R *
           BYE
           !
 
