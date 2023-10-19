@@ -11,7 +11,8 @@ on:
   
 env:
   GH_TOKEN: ${{ github.token }}
-
+  SSHPASS: ${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
+  
 jobs:    
 
   convert-and-upload:
@@ -20,8 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3      
       - run: sudo apt-get install sshpass
-      - run: sshpass    
-
+      - run: sshpass -e sftp -oBatchMode=no -b - ${{ secrets.GEMSPEC_ONLINE_SFTP_USERNAME }}@${{ secrets.GEMSPEC_ONLINE_SFTP_SERVER }} << ! quit !
 
     
       #- name: Convert polarion files
