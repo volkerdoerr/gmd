@@ -27,7 +27,7 @@ jobs:
           ./gpc ./input/filelist.txt ./output
           rm gpc 
       - name: Deploy generated files
-      - run: |
+        run: |
           mkdir ~/.ssh
           ssh-keyscan -H ssh.strato.de >> ~/.ssh/known_hosts
           sshpass -p ${{secrets.SFTP_PASSWORD}} sftp ${{secrets.SFTP_USERNAME}}@ssh.strato.de << !
