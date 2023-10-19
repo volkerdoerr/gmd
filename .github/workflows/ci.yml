@@ -20,14 +20,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
       - name: Convert polarion files
         run: | 
           gh release download wip --pattern 'gpc' 
           chmod +x gpc
           ./gpc ./input/filelist.txt ./output
           rm gpc 
-
       - name: Deploy generated files
       - run: |
           mkdir ~/.ssh
