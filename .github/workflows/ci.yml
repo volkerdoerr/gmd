@@ -19,15 +19,7 @@ jobs:
     permissions: write-all
     steps:
       - uses: actions/checkout@v3      
-        
-      - uses: matheusvanzan/sshpass-action@v2
-        with:
-          host: ${{ secrets.GEMSPEC_ONLINE_SFTP_SERVER }}
-          port: ${{ secrets.GEMSPEC_ONLINE_SFTP_PORT }}
-          user: ${{ secrets.GEMSPEC_ONLINE_SFTP_USERNAME }}
-          pass: ${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
-          run: ls
-
+      - run: apt-get install sshpass
       - run: sshpass    
 
 
