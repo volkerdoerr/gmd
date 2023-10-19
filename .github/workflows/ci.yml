@@ -19,16 +19,15 @@ jobs:
     permissions: write-all
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-      
-      - name: Run sshpass commands
-        uses: matheusvanzan/sshpass-action@v2
+        uses: actions/checkout@v3      
+      - uses: matheusvanzan/sshpass-action@v2
         with:
           host: ${{ secrets.GEMSPEC_ONLINE_SFTP_SERVER }}
           port: ${{ secrets.GEMSPEC_ONLINE_SFTP_PORT }}
           user: ${{ secrets.GEMSPEC_ONLINE_SFTP_USERNAME }}
           pass: ${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
           run: sftp
+
 
     
       #- name: Convert polarion files
