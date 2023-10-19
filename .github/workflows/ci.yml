@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Convert polarion files
+      - name: Convert polarion files from ./input directory
         run: | 
           gh release download wip --pattern 'gpc' 
           chmod +x gpc
@@ -52,6 +52,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
       - name: Convert polarion files from gemspec.dev.ccs.gematik.solutions/docs/
         run: | 
           gh release download wip --pattern 'gpc' 
