@@ -24,7 +24,7 @@ jobs:
       - run: sudo apt-get install sshpass
       - run: echo ${{ env.SFTP_HOST }}
       - run: echo "QUIT" >> cmd.txt
-      - run: export SSHPASS=${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
+      - run: export SSHPASS="${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}"
       - run: sshpass -e sftp -oBatchMode=no -b cmd.txt sftp@gemspec.online@ssh.strato.de
 
       #- name: Convert polarion files
