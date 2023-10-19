@@ -48,15 +48,15 @@ run can be found in gemspec.online/log.txt._
 
 ---
 
-## gematik Polarion Converter Tool (GPC)
+## gematik Polarion Converter (GPC)
 
-Donwload executable: [releases/download/wip/gpc]
+Donwload: [releases/download/wip/gpc]
 
-Das GPC Tool konvertiert die von der gematik aus Polarion heraus exportierten (*.html) Dateien in saubere *.gmd, 
+<!-- Das GPC Tool konvertiert die von der gematik aus Polarion heraus exportierten (*.html) Dateien in saubere *.gmd, 
 *.html, *.xml, *.xlsx Dateien und eine konsolidierte Datenbank gematik.database.sql.
 /// _The GPC tool converts 
 the Polarion exported (*.html) files into clean *.gmd, *.html, *.xml, *.xlsx files and generates a consolidated 
-gematik.database.sql file._
+gematik.database.sql file._ -->
 
 ~~~
 $ gpc
