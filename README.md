@@ -7,9 +7,9 @@ gematik Markdown Prototyp
 
 Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den Prototyp eines freien menschen- und 
 maschinenlesbaren Formats für die zulassungsrelevanten Dokumente der [gematik]. gMD basiert auf [CommonMark]¹ und 
-wird durch die Definitionen in input/[gmd-definitions.yml] erweitert. ٭ _This repository is for development of the 
-initial syntax definition for certification-relevant gematik documents. gMD is based on CommonMark¹ and is extended 
-by the definitions found in input/gmd-definitions.yml._
+wird durch die Definitionen in input/[gmd-definitions.yml] erweitert.
+/// _This repository is for development of the initial syntax definition for certification-relevant gematik documents. 
+gMD is based on CommonMark¹ and is extended by the definitions found in input/gmd-definitions.yml._
 
 Aktuelle Testbeispiele ٭ _current test examples_:
 
@@ -19,30 +19,31 @@ Aktuelle Testbeispiele ٭ _current test examples_:
 - [output/gemSpec_ePA_FdV_V1.51.0.gmd.txt]
 
 ¹) Es gibt leider keinen (modernen) Markdown-Standard; CommonMark ist aber ein allgemein anerkannter Dialekt 
-mit Unterstützung durch GitHub, GitLab, Reddit, Qt, Stack Overflow und anderen. ٭ _Unfortunately there is no 
-(modern) markdown standard; but CommonMark is a widely accepted dialect, supported by GitHub, GitLab, Reddit, 
-Qt, Stack Overflow and others._
+mit Unterstützung durch GitHub, GitLab, Reddit, Qt, Stack Overflow und anderen.
+/// _Unfortunately there is no (modern) markdown standard; but CommonMark is a widely accepted dialect, supported 
+by GitHub, GitLab, Reddit, Qt, Stack Overflow and others._
 
 ---
 
-## Continous-Integration
+## Continous-Integration ([ci.yml])
 
-Das gematik Polarion Converter Tool (GPC, siehe weiter unten) wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der 
-sowohl manuell gestartet wird, als auch automatisch, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. ٭ 
-_The gematik polarion converter tool (GPC, see below) is called by the continous integration job ci.yml,
+Das gematik Polarion Converter Tool (GPC, siehe weiter unten) wird vom Continuous-Integration Script [ci.yml] aufgerufen, der 
+sowohl manuell gestartet wird, als auch automatisch, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurde.
+/// _The gematik polarion converter tool (GPC, see below) is called by the continous integration script ci.yml,
 which is  either manually started or automatically, whenever changes are made in the input directory. 
 
-
-### test files
+### convert-test-files (job)
 
 Die resultierenden Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht. Das Log für den letzten Lauf findet sich in 
-[output/log.txt]. ٭ The resulting files are pushed automatically in the output directory, the log of the most recent run can be 
+[output/log.txt].
+/// _The resulting files are pushed automatically in the output directory, the log of the most recent run can be 
 found in output/log.txt._
 
-### production files
+### convert-production-files (job)
 
 Alle resultierenden Dateien werden automatisch nach [gemspec.online] gepusht. Das Log für den letzten Lauf findet sich in 
-[gemspec.online/log.txt]. ٭ The resulting files are pushed automatically to gemspec.online, the log of the most recent 
+[gemspec.online/log.txt].
+/// _The resulting files are pushed automatically to gemspec.online, the log of the most recent 
 run can be found in gemspec.online/log.txt._
 
 ---
@@ -52,9 +53,10 @@ run can be found in gemspec.online/log.txt._
 Donwload executable: [releases/download/wip/gpc]
 
 Das GPC Tool konvertiert die von der gematik aus Polarion heraus exportierten (*.html) Dateien in saubere *.gmd, 
-*.html, *.xml, *.xlsx Dateien und eine konsolidierte Datenbank gematik.database.sql. ٭ _The GPC tool converts 
+*.html, *.xml, *.xlsx Dateien und eine konsolidierte Datenbank gematik.database.sql.
+/// _The GPC tool converts 
 the Polarion exported (*.html) files into clean *.gmd, *.html, *.xml, *.xlsx files and generates a consolidated 
-gematik.database.sql file.
+gematik.database.sql file._
 
 ~~~
 $ gpc
