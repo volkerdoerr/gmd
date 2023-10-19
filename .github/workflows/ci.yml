@@ -33,9 +33,9 @@ jobs:
             username: ${{ secrets.GEMSPEC_ONLINE_SFTP_USERNAME }}
             password: ${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
             local_path: './output/*'
-            remote_path: '/'
+            remote_path: '/output/'
             sftp_only: true
-            delete_remote_files: true
+            # delete_remote_files: true
 
 
 
