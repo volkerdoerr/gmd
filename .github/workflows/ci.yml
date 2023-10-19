@@ -11,6 +11,7 @@ on:
   
 env:
   GH_TOKEN: ${{ github.token }}
+  SSHPASS: "573693147468"
   
 jobs:    
 
@@ -19,11 +20,8 @@ jobs:
     permissions: write-all
     steps:
       - uses: actions/checkout@v3      
-      - run: echo ${{ env.SFTP_HOST }}
-      - run: |
-          echo "QUIT" >> cmd.txt
-          export SSHPASS="573693147468"
-          sshpass -e sftp -oBatchMode=no -b cmd.txt sftp@gemspec.online@ssh.strato.de
+      - run: echo "QUIT" >> cmd.txt
+      - run: sshpass -e sftp -oBatchMode=no -b cmd.txt sftp@gemspec.online@ssh.strato.de
 
       #- name: Convert polarion files
       #  run: gh release download wip --pattern 'gpc' 
