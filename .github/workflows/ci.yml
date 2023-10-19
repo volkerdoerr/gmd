@@ -21,8 +21,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3      
       - run: echo "QUIT" >> cmd.txt
-      - run: sshpass -e sftp -oBatchMode=no -b cmd.txt sftp@gemspec.online@ssh.strato.de
-
+      - run: |
+          sshpass -e sftp -oBatchMode=no -b cmd.txt sftp@gemspec.online@ssh.strato.de << !
+          BYE
+          !
+          
       #- name: Convert polarion files
       #  run: gh release download wip --pattern 'gpc' 
       #- run: chmod +x gpc
