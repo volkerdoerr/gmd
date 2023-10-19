@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       
-      - run sshpass 
+      - run: sshpass 
         
       #- name: Convert polarion files
       #  run: gh release download wip --pattern 'gpc' 
