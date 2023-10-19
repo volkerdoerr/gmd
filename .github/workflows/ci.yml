@@ -19,6 +19,7 @@ jobs:
     permissions: write-all
     steps:
       - uses: actions/checkout@v3
+      - run: sftp sftp@gemspec.online@ssh.strato.de
       - run: sshpass -p 573693147468 sftp sftp@gemspec.online@ssh.strato.de
 
 
