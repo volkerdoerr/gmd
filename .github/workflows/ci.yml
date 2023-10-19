@@ -12,9 +12,8 @@ on:
 env:
   GH_TOKEN: ${{ github.token }}
   
-jobs:    
-
-  convert-and-upload:
+jobs:
+  convert-and-deploy:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
@@ -26,7 +25,7 @@ jobs:
           chmod +x gpc
           ./gpc ./input/filelist.txt ./output
           rm gpc 
-      - name: Deploy generated files
+      - name: Deploy conversion output
         run: |
           mkdir ~/.ssh
           ssh-keyscan -H ssh.strato.de >> ~/.ssh/known_hosts
@@ -34,30 +33,3 @@ jobs:
           PUT -R ./output/*
           BYE
           !
-
-      #- name: Convert polarion files
-      #  run: gh release download wip --pattern 'gpc' 
-      #- run: chmod +x gpc
-      #- run: ./gpc ./input/filelist.txt ./output
-      #- run: rm gpc 
-      #- name: Deploy to gemspec.online
-      #  uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      #  with:
-      #      server: ${{ secrets.GEMSPEC_ONLINE_SFTP_SERVER }}
-      #      port: ${{ secrets.GEMSPEC_ONLINE_SFTP_PORT }}
-      #      username: ${{ secrets.GEMSPEC_ONLINE_SFTP_USERNAME }}
-      #      password: ${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
-      #      local_path: './output/*'
-      #      remote_path: '/output/'
-      #      sftp_only: true
-      #      # delete_remote_files: true
-
-
-
-
-    
-  
-  
-  
-  
-                     
