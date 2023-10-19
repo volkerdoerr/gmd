@@ -21,8 +21,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       
-      - run: sshpass 
-        
+      - name: Run sshpass commands
+        uses: matheusvanzan/sshpass-action@v2
+        with:
+          host: ${{ secrets.GEMSPEC_ONLINE_SFTP_SERVER }}
+          port: ${{ secrets.GEMSPEC_ONLINE_SFTP_PORT }}
+          user: ${{ secrets.GEMSPEC_ONLINE_SFTP_USERNAME }}
+          pass: ${{ secrets.GEMSPEC_ONLINE_SFTP_PASSWORD }}
+          run: sftp
+
+    
       #- name: Convert polarion files
       #  run: gh release download wip --pattern 'gpc' 
       #- run: chmod +x gpc
