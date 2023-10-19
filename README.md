@@ -11,7 +11,7 @@ wird durch die Definitionen in input/[gmd-definitions.yml] erweitert. ٭ _This r
 initial syntax definition for certification-relevant gematik documents. gMD is based on CommonMark¹ and is extended 
 by the definitions found in input/gmd-definitions.yml._
 
-Aktuelle Beispiele ٭ _current examples_:
+Aktuelle Testbeispiele ٭ _current test examples_:
 
 - [output/gemKPT_Betr_V3.21.0.gmd.txt]
 - [output/gemProdT_Kon_Highspeed_PTV_1.3.0-0_V1.0.0.gmd.txt]
@@ -27,12 +27,23 @@ Qt, Stack Overflow and others._
 
 ## Continous-Integration
 
-Das gematik Polarion Converter Tool (GPC, siehe weiter unter) wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der immer dann 
-automatisch gestartet wird, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. Die resultierenden 
-Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht. Das Log für den letzten Lauf findet sich in 
-[output/gpc.log.txt]. ٭ _The gematik polarion converter tool (GPC, see below) is called by the continous integration job ci.yml,
-which is started automatically whenever changes are made in the input directory. The log of the most recent run 
-can be found in output/gpc.log.txt_
+Das gematik Polarion Converter Tool (GPC, siehe weiter unten) wird vom Continuous-Integration-Job [ci.yml] aufgerufen, der 
+sowohl manuell gestartet wird, als auch automatisch, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurden. ٭ 
+_The gematik polarion converter tool (GPC, see below) is called by the continous integration job ci.yml,
+which is  either manually started or automatically, whenever changes are made in the input directory. 
+
+
+### test files
+
+Die resultierenden Dateien werden automatisch in das Ausgabeverzeichnis [output] gepusht. Das Log für den letzten Lauf findet sich in 
+[output/log.txt]. ٭ The resulting files are pushed automatically in the output directory, the log of the most recent run can be 
+found in output/log.txt._
+
+### production files
+
+Alle resultierenden Dateien werden automatisch nach [gemspec.online] gepusht. Das Log für den letzten Lauf findet sich in 
+[gemspec.online/log.txt]. ٭ The resulting files are pushed automatically to gemspec.online, the log of the most recent 
+run can be found in gemspec.online/log.txt._
 
 ---
 
@@ -94,8 +105,9 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [output/gemProdT_Kon_Highspeed_PTV_1.3.0-0_V1.0.0.gmd.txt]: output/gemProdT_Kon_Highspeed_PTV_1.3.0-0_V1.0.0.gmd.txt
 [output/gemSpec_CM_KOMLE_V1.16.0.gmd.txt]: output/gemSpec_CM_KOMLE_V1.16.0.gmd.txt
 [output/gemSpec_ePA_FdV_V1.51.0.gmd.txt]: output/gemSpec_ePA_FdV_V1.51.0.gmd.txt
-[output/gpc.log.txt]: output/gpc.log.txt
+[output/log.txt]: output/log.txt
 [releases/download/wip/gpc]: https://github.com/volkerdoerr/gmd/releases/download/wip/gpc
-
+[gemspec.online/log.txt]: https://gemspec.online/log.txt
+[gemspec.online]: https://gemspec.online
 
 
