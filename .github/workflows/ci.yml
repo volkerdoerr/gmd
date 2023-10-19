@@ -19,9 +19,9 @@ jobs:
     permissions: write-all
     steps:
       - name: Checkout repository
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       - name: Convert polarion files
-      - run: gh release download wip --pattern 'gpc' 
+        run: gh release download wip --pattern 'gpc' 
       - run: chmod +x gpc
       - run: ./gpc ./input/filelist.txt ./output
       - run: rm gpc 
