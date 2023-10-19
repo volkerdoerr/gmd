@@ -20,12 +20,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3      
       - run: echo "QUIT" >> cmd.txt
-      - run: |
-          export SSHPASS="573693147468"
-          sshpass -e sftp -oBatchMode=no -b - sftp@gemspec.online@ssh.strato.de << !
-          BYE
-          !
-          
+      - run: export SSHPASS=573693147468
+      - run: sshpass -e sftp sftp@gemspec.online@ssh.strato.de
+
+
+
+      
       #- name: Convert polarion files
       #  run: gh release download wip --pattern 'gpc' 
       #- run: chmod +x gpc
