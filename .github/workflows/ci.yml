@@ -13,11 +13,12 @@ env:
   GH_TOKEN: ${{ github.token }}
   
 jobs:
-  convert-and-deploy:
+
+  convert-test-files:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
       - name: Convert polarion files
         run: | 
@@ -25,7 +26,19 @@ jobs:
           chmod +x gpc
           ./gpc ./input/filelist.txt ./output
           rm gpc 
-      - name: Deploy conversion output
+
+  convert-production-files:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Convert polarion files from gemspec.dev.ccs.gematik.solutions/docs/
+        run: | 
+          gh release download wip --pattern 'gpc' 
+          chmod +x gpc
+          mkdir -p ./output
+          ./gpc https://gemspec.dev.ccs.gematik.solutions/docs/filelist.txt ./output
+          rm gpc 
+      - name: Deploy conversion output to gemspec.online
         run: |
           mkdir ~/.ssh
           ssh-keyscan -H ssh.strato.de >> ~/.ssh/known_hosts
