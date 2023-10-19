@@ -23,6 +23,11 @@ jobs:
       - uses: actions/checkout@v3      
       - run: sudo apt-get install sshpass
       - run: echo ${{ env.SFTP_HOST }}
+      - run: cat << | 
+                    EOF
+                    Hello
+                    World
+                    EOF
       - run: sshpass -e sftp -oBatchMode=no -b - ${{ env.SFTP_HOST }} << ! 
              quit 
              !
