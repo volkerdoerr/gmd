@@ -1,0 +1,19 @@
+ RewriteEngine On                                                                                              
+ RewriteBase /                                                                                                 
+                                                                                                               
+ # if any html exists based on current path then serve it                                                      
+ RewriteCond %{REQUEST_FILENAME} !-f                                                                           
+ RewriteCond %{REQUEST_FILENAME} !-d                                                                           
+ RewriteCond %{REQUEST_FILENAME}.html -f                                                                       
+ RewriteRule ^(.*)$ $1.html [L]                                                                                
+                                                                                                               
+ # if index.html exists then serve it if filepath is empty (checked by RewriteRule ^$)                         
+ RewriteCond %{DOCUMENT_ROOT}/index.html -f                                                                    
+ RewriteRule ^$ /index.html [L]                                                                                
+                                                                                                               
+ # any thing left should go to index.php as path                                                               
+ # the RewriteCond !-f is used to avoid index.php loopback                                                     
+ # the RewriteCond !-d is NOT used so that if folder exists then it does not show directory listing            
+ # may want to use some condition to show index.html in that folder if exists                                  
+ RewriteCond %{REQUEST_FILENAME} !-f                                                                           
+ RewriteRule ^(.*)$ index.php?path=$1 [L]                                                                      
