@@ -30,7 +30,7 @@ by GitHub, GitLab, Reddit, Qt, Stack Overflow and others._
 Das gematik Polarion Converter Tool (GPC, siehe weiter unten) wird vom Continuous-Integration Script [ci.yml] aufgerufen, der 
 sowohl manuell gestartet wird, als auch automatisch, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurde.
 /// _The gematik polarion converter tool (GPC, see below) is called by the continous integration script ci.yml,
-which is  either manually started or automatically, whenever changes are made in the input directory. 
+which is  either manually started or automatically, whenever changes are made in the input directory._
 
 ### convert-test-files (job)
 
