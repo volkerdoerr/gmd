@@ -41,10 +41,24 @@ found in output/log.txt._
 
 ### convert-production-files (job)
 
-Alle resultierenden Dateien werden automatisch nach [gemspec.online] gepusht. Das Log für den letzten Lauf findet sich in 
-[gemspec.online/log.txt].
-/// _The resulting files are pushed automatically to gemspec.online, the log of the most recent 
-run can be found in gemspec.online/log.txt._
+Alle resultierenden Dateien werden automatisch nach [gemspec.online] gepusht. 
+/// _The resulting files are pushed automatically to gemspec.online._
+
+- Log: [gemspec.online/log.txt]
+
+- TI2.0: [gemspec.online/TI2.0]  
+  Anbietertypsteckbriefe: [gemspec.online/gemAnbT]  
+  Anwendungssteckbriefe: [gemspec.online/gemAnw]  
+  Featuredokumente: [gemspec.online/gemF]  
+  Implementierungsleitfäden: [gemspec.online/gemILF]  
+  übergreifende Konzepte: [gemspec.online/gemKPT]  
+  Produkttypsteckbriefe: [gemspec.online/gemProdT]  
+  Richtlinien: [gemspec.online/gemRL]  
+  S/MIME-Profile: [gemspec.online/gemSMIME]  
+  PS-Schnittstellen: [gemspec.online/gemSST]  
+  Spezifikationen: [gemspec.online/gemSpec]  
+  Verzeichnisse: [gemspec.online/gemVZ]  
+  Wartungsthemen: [gemspec.online/maintenance]
 
 ---
 
@@ -111,5 +125,22 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [releases/download/wip/gpc]: https://github.com/volkerdoerr/gmd/releases/download/wip/gpc
 [gemspec.online/log.txt]: https://gemspec.online/log.txt
 [gemspec.online]: https://gemspec.online
+[gemspec.online/log.txt]: https://gemspec.online/log.txt
+[gemspec.online/TI2.0]: https://gemspec.online/TI2.0/
+[gemspec.online/gemAnbT]: https://gemspec.online/gemAnbT/
+[gemspec.online/gemAnw]: https://gemspec.online/gemAnw/
+[gemspec.online/gemF]: https://gemspec.online/gemF/
+[gemspec.online/gemILF]: https://gemspec.online/gemILF/
+[gemspec.online/gemKPT]: https://gemspec.online/gemKPT/
+[gemspec.online/gemProdT]: https://gemspec.online/gemProdT/
+[gemspec.online/gemRL]: https://gemspec.online/gemRL/
+[gemspec.online/gemSMIME]: https://gemspec.online/gemSMIME/
+[gemspec.online/gemSST]: https://gemspec.online/gemSST/
+[gemspec.online/gemSpec]: https://gemspec.online/gemSpec/
+[gemspec.online/gemVZ]: https://gemspec.online/gemVZ/
+[gemspec.online/maintenance]: https://gemspec.online/maintenance/
+
+
+
 
 
