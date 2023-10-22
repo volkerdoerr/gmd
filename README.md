@@ -27,8 +27,8 @@ by GitHub, GitLab, Reddit, Qt, Stack Overflow and others._
 
 ## Continous-Integration ([ci.yml])
 
-Das gematik Polarion Converter Tool (GPC, siehe weiter unten) wird vom Continuous-Integration Script [ci.yml] aufgerufen, der 
-sowohl manuell gestartet wird, als auch automatisch, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurde.
+Das gematik Polarion Converter Tool (GPC, siehe weiter unten) wird vom Continuous-Integration Script [ci.yml] aufgerufen,  
+welches sowohl manuell gestartet wird, als auch automatisch, wenn Änderungen im Eingabeverzeichnis [input] vorgenommen wurde.
 /// _The gematik polarion converter tool (GPC, see below) is called by the continous integration script ci.yml,
 which is  either manually started or automatically, whenever changes are made in the input directory._
 
@@ -41,13 +41,12 @@ found in output/log.txt._
 
 ### convert-production-files (job)
 
-Alle resultierenden Dateien werden automatisch nach [gemspec.online] gepusht. 
-/// _The resulting files are pushed automatically to gemspec.online._
+Alle resultierenden Dateien werden automatisch nach [gemspec.online] gepusht. Das Log für den letzten Lauf findet sich in 
+[gemspec.online/log.txt].
+/// _The resulting files are pushed automatically to gemspec.online, the log of the most recent run can be 
+found in gemspec.online/log.txt._
 
-- Log: [gemspec.online/log.txt]
-
-- TI2.0: [gemspec.online/TI2.0]  
-  Anbietertypsteckbriefe: [gemspec.online/gemAnbT]  
+- Anbietertypsteckbriefe: [gemspec.online/gemAnbT]  
   Anwendungssteckbriefe: [gemspec.online/gemAnw]  
   Featuredokumente: [gemspec.online/gemF]  
   Implementierungsleitfäden: [gemspec.online/gemILF]  
@@ -58,7 +57,8 @@ Alle resultierenden Dateien werden automatisch nach [gemspec.online] gepusht.
   PS-Schnittstellen: [gemspec.online/gemSST]  
   Spezifikationen: [gemspec.online/gemSpec]  
   Verzeichnisse: [gemspec.online/gemVZ]  
-  Wartungsthemen: [gemspec.online/maintenance]
+  Wartungsthemen: [gemspec.online/maintenance]  
+  TI 2.0: [gemspec.online/TI2.0]
 
 ---
 
