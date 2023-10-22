@@ -1,3 +1,8 @@
+ AddDefaultCharset UTF-8                                                                                       
+                                                                                                               
+ Options +Indexes                                                                                              
+ IndexOptions FancyIndexing NameWidth=*                                                                        
+                                                                                                               
  RewriteEngine On                                                                                              
  RewriteBase /                                                                                                 
                                                                                                                
@@ -15,5 +20,5 @@
  # the RewriteCond !-f is used to avoid index.php loopback                                                     
  # the RewriteCond !-d is NOT used so that if folder exists then it does not show directory listing            
  # may want to use some condition to show index.html in that folder if exists                                  
- RewriteCond %{REQUEST_FILENAME} !-f                                                                           
- RewriteRule ^(.*)$ index.php?path=$1 [L]                                                                      
+ # RewriteCond %{REQUEST_FILENAME} !-f                                                                         
+ # RewriteRule ^(.*)$ index.php?path=$1 [L]                                                                    
