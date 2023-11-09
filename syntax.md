@@ -42,7 +42,8 @@
 
 - Image with title
 - Image without title
-- Image with hint 
+- Image with hint
+- Image scaling
 - Image from another domain
 - Horizontal and vertical Alignment
 - Image from a remote service
