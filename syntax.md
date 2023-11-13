@@ -36,6 +36,7 @@
 - Link with hint
 - Email link
 - Image link
+- Include Link
 - Link alias
 
 ## Images
