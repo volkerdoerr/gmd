@@ -1,4 +1,4 @@
-# gMD Syntax
+# gMD Syntax Documentation
 
 ## Preliminaries
 
