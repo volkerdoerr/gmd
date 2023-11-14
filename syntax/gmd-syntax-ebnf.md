@@ -1,4 +1,0 @@
-
-
-
-![Lack of integration across legacy systems](http://plantuml.com/plantuml/svg/3Sp13S8m3030LM20ndysGEB12gvh4ak97JasgDlJr_tkBaez3qxljnOnrmF0yLUgHCiz5pkP1ciKiW6VR3vGCSo1B7tnXXJobJYtsL6L7GQkk3330rvSaSxd5LJ74DEtszvvb9cZ_m40)
