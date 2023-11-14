@@ -37,13 +37,13 @@ and click "Decode URL" at it's right side._
 
 ![](http://www.plantuml.com/plantuml/svg/POzBQiGm343tEONGnXzoWn982orqamlOfZYnGWr6AR52MvZ3ZnDcDoijtfCU6gl4NMZcjNj_cpvW07JOWsGffEqh_uFGd_IUvqD0EGMH4wYWF5DTuWybaCqpUeSNGH_GcXumj2CE70wexIUdl4IXwZcM7Dj8j6REaZUs9ZHRDriVUxbT_EjHduXIXQULbYwLVhzf9slEba48Bz2DnEbyv0u0)
 
-| Link Example                         | Explanation                           |
-|:-------------------------------------|:--------------------------------------|
-| \[gematik\](https[]()://gematik.de)  | link to website                       |
-| \[gematik\]                          | link alias usage with same title      |
-| \[gematik homepage\](gematik)        | link alias usage with different title |  
-| \[gematik\]=(https[]()://gematik.de) | link alias definition                 | 
-| \[License](./license.txt)            | link to local resource                |
+| Link Example                         | Explanation                              |
+|:-------------------------------------|:-----------------------------------------|
+| \[gematik\](https[]()://gematik.de)  | link to website                          |
+| \[gematik\]                          | link alias usage with same title         |
+| \[gematik homepage\](gematik)        | link alias usage with different title    |  
+| \[gematik\]=(https[]()://gematik.de) | link alias definition (always invisible) | 
+| \[License](./license.txt)            | link to local resource                   |
 
 ## Images
 
