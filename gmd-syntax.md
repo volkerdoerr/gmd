@@ -1,10 +1,29 @@
 # gMD Syntax
 
-_produced using the PlantUML generation service https://www.plantuml.com/plantuml/uml/._
+Find the examples at the end of this document.
 
-![](https://www.plantuml.com/plantuml/svg/hLJTRjCm5BxFKnXpauG2zqn3Gzi5bJg4odQL1EIjfwqrrocEIq5rRdaZNeWduJjEpLeD2IPHAVuv_hxpS_ovPvrNpjEDdMVPul92d8gTfDR8VYHsxvLJ2wVMop3HdGzNwiOGsmV0IPRz1e0sjZEoVYIgjwHcsYucz8LCCn9Nz1NMI05rG8cyN3XIdfnedQ3F6sLgwvVAYhbsdHSweihYYDtlPv39pZgnrNvPMrgj_JTXjAMoECaEOoEdN3xbeF85HYpxO3Uh6tB9DEnwy3AEmxLFjBqBuvLQKBXiPtgkoGLvktGeLsHy292imAt4bVQ6E9dk5hkcB0IgbKqyg-GhcPVAQDNLg6MkhVQwjMN1a1oG_7ew2M_uFBh9Iqk4cXumKA3fQBiaX_eAa0if6gGIK-HSdiZH_qleGdbrFHqV9VRkSOcbhiNkbpB8aeUF-3xX-_dz1yRd_CDyoZ_CjUGhO8s1nTFOq-fUCydo21qaoe4ksNIft1svfAfTYl10b2p5slv9YqDxrPfgQmQjOS69hwBh3atl1STFmRWFINKGNOWzUSPDY4N7DmNCjDqY8Op_K9t8W0EdccuCkGcCUmxkyhor7kcoCJtK8sDopquIcsKK08k6qR3UtM_mq9E30t1rJiPyM2lR73P6XB987lw2wE53lfRDoP08_B96WSrP7-m0BUgZIEBcLFOWCWQKv9gxYsRmabDgXtWY25uEnlrnmr6xzQqKN4uY8m50Xlk1Ms3JmSkZW-mCby5_ahy0)
+![](https://www.plantuml.com/plantuml/svg/hLJ1ZjCm4BtdAmPpIKA0Ewj5YtOFLEeYL7PFJK1kEssiTPtYk2eepfK_ueVu4cQSEhlL8h58L4fipxnvVfu-vw9rqZfSc7MIRAwlu1mwWOqMVG7THsdbnifTxQUgTVv6BZHoV02S9Sa8eBA9MQ5n1SpVermfixcMzWvjLS0DVdEGvjWkvGv13zdIrCC4jW7Nvba1WPVu0nNNR2nAXnOQ2_XrBtLfN2qDh9Lj7QY0uZhUuLZT7qVUqAnQE2XNbmQtE_STj3AOPsV9YK1IBfxJfcb7G-_5AvhFGwGBSuvMNhIx9ItCVhj0Iy60YYi6nbnVaPw0flQmBcxeL9axFzdA3VhhPgNM2gqNozfI3o7X98kOCoNSAATnw1QjgZo3YlWgpf6iDoBDfLQoBUdiQsMKKut9CuQaV8RRsTI_utoWINE3I3ruL44DqIqUQhJK3zQR2QX8If38Mfw9uly9kf9Etiuc9y8-_9kms3NIbefSU97pwpCzN-ZvzUCdlL_oZyPp_j5O2lgh4pOkLV4mSRYzzzWOURflOia3itDey55qOHTtU6HYjcvf_kJTyNQKPhmUceMFTmDw6FOVJPi-yA8FFNd1JGY73XULCBFcG8Be_OJJGK8ugfdFzXhjb8B7cgg0oyOuail1UFjFWf6UIM8rsyWJB0IAOTwD2_vwZ0JtuFabQlrf9yt9PmDydaM6lo1wlhnlHNKs225UzYXXK_O74r2B-c2Ii3WNFHKIXaiYDNUNci5JbjGC-u67OSh1OtgyxC37YSKaOFmw42rXO-BrIIAvGBFYB-zl)
 
 ## Examples
+
+## Examples
+
+| Paragraph Examples                                            | Explanation                              |
+|:--------------------------------------------------------------|:-----------------------------------------|
+| The quick brown fox<br>jumps over the leazy wall.             | multiline paragraph                      |
+| &nbsp;&nbsp;The brown fox<br>&nbsp;&nbsp;over the leazy wall. | multiline paragraph with indentation     |
+| The quick brown↵ fox jumps over↵ the leazy wall.              | paragraph with manual line breaks        |
+
+| Heading Examples                                              | Explanation                              |
+|:--------------------------------------------------------------|:-----------------------------------------|
+| # Section One                                                 | heading h1 traditional form              |
+| #. Section One                                                | heading h1 with automatic numbering      |
+| # 1. Section One                                              | heading h1 with manual numbering         |
+| ## Section One One                                            | heading h2 traditional form              |
+| #.# Section One One                                           | heading h2 with automatic numbering      |
+| # 1.1 Section One One                                         | heading h2 with manual numbering         |
+| ### This Is A Really<br>Very long Heading                     | heading h3 spanning multiple lines       |
+| #.#.# This Heading Has↵ A Manual Line Break                   | heading h3 with manual line breaks       |
 
 | Link Examples                        | Explanation                              |
 |:-------------------------------------|:-----------------------------------------|
@@ -50,7 +69,9 @@ _produced using the PlantUML generation service https://www.plantuml.com/plantum
 - No overriding gMD 
 - No HTML
 
-   
+_____
+_produced using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/_ 
+
 
 
 
