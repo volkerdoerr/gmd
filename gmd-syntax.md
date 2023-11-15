@@ -2,7 +2,7 @@
 
 Find the examples at the end of this document.
 
-![](https://www.plantuml.com/plantuml/svg/hLJ1ZjCm4BtdAmPpIKA0Ewj5YtOFLEeYL7PFJK1kEssiTPtYk2eepfK_ueVu4cQSEhlL8h58L4fipxnvVfu-vw9rqZfSc7MIRAwlu1mwWOqMVG7THsdbnifTxQUgTVv6BZHoV02S9Sa8eBA9MQ5n1SpVermfixcMzWvjLS0DVdEGvjWkvGv13zdIrCC4jW7Nvba1WPVu0nNNR2nAXnOQ2_XrBtLfN2qDh9Lj7QY0uZhUuLZT7qVUqAnQE2XNbmQtE_STj3AOPsV9YK1IBfxJfcb7G-_5AvhFGwGBSuvMNhIx9ItCVhj0Iy60YYi6nbnVaPw0flQmBcxeL9axFzdA3VhhPgNM2gqNozfI3o7X98kOCoNSAATnw1QjgZo3YlWgpf6iDoBDfLQoBUdiQsMKKut9CuQaV8RRsTI_utoWINE3I3ruL44DqIqUQhJK3zQR2QX8If38Mfw9uly9kf9Etiuc9y8-_9kms3NIbefSU97pwpCzN-ZvzUCdlL_oZyPp_j5O2lgh4pOkLV4mSRYzzzWOURflOia3itDey55qOHTtU6HYjcvf_kJTyNQKPhmUceMFTmDw6FOVJPi-yA8FFNd1JGY73XULCBFcG8Be_OJJGK8ugfdFzXhjb8B7cgg0oyOuail1UFjFWf6UIM8rsyWJB0IAOTwD2_vwZ0JtuFabQlrf9yt9PmDydaM6lo1wlhnlHNKs225UzYXXK_O74r2B-c2Ii3WNFHKIXaiYDNUNci5JbjGC-u67OSh1OtgyxC37YSKaOFmw42rXO-BrIIAvGBFYB-zl)
+![](https://www.plantuml.com/plantuml/svg/bLJHRjCm57ttLnZpqeu0xqIRXZOXAgqIAjrJ2CXTlIvQcbHk9f1Yl_97_11VmZbkF2VINgYKs3xtt9FZU-rU7ZjjExDfxeNOBQ_bkUoLQMlbCzb_qLRlh3uyk9lgsBcrtjG6-438XNWc86tHR4tJPRBuRFIsQdPBRH-DBJEvDhy0XnpaHje8zSEOYqagDDLhfCnw3DwfTmhY0Ud3d6ZfrF5mXqNpjDyO2p2mueh46FFb766oOPnV3rkzUx3ABTjjTLyPYsqsZswnrplZSoaY3E9CdIcdplZwZkS7dh-__-3zbZ-Cv_nX_ARckQ0CtHVqigwwsg0CgkGAE_YW1Xy4PzpWxUh6VQmhVGnSsfmhMS91i4AbLw3zbzorxlJjQl6oh60x8SjXqPbzwiuOcNGc1aQD9dJgLEnc7tN6JVQIsP7AMevwvK9Ttx2GB9m8HmoSLVipcKeBpmAGygbjEsC7j8mkfG0LsSNggJOMNJ29STKs7JmHZ2Tu0hBXIPe-Ho95z78A9f4fvgFdb2kZEOdT9HGjTP6MdUPzMk1gZPn5Sd5bwlhhGJVfJeMy5t5MIbseCXV9tY2KID4I0Zn7o9_nG5CK_V3XL8V5kVBpZ1mAni-nbQWtfpJNdZn89p4Tm27yVFCaDnQJrKMwgf05DmRUJmBYqZHR_a7z0m00)
 
 ## Examples
 
@@ -23,14 +23,14 @@ Find the examples at the end of this document.
 | ### This Is A Really<br>Very long Heading                     | heading h3 spanning multiple lines       |
 | #.#.# This Heading Has↵ A Manual Line Break                   | heading h3 with manual line breaks       |
 
-| Link Examples                        | Explanation                              |
-|:-------------------------------------|:-----------------------------------------|
-| \[gematik\](https[]()://gematik.de)  | link to website                          |
-| \[](https[]()://gematik.de)          | link uses url as title                   |
-| \[gematik\]                          | link alias usage with same title         |
-| \[gematik homepage\](gematik)        | link alias usage with different title    |  
-| \[gematik\]:(https[]()://gematik.de) | link alias definition                    | 
-| \[License](./license.txt)            | link to local resource                   |
+| Link Examples                         | Explanation                              |
+|:--------------------------------------|:-----------------------------------------|
+| \[gematik\](https[]()://gematik.de)   | link to website                          |
+| \[](https[]()://gematik.de)           | link uses url as title                   |
+| \[gematik\]                           | link alias usage with same title         |
+| \[gematik homepage\](gematik)         | link alias usage with different title    |  
+| \[gematik\]: (https[]()://gematik.de) | link alias definition                    | 
+| \[License](./license.txt)             | link to local resource                   |
 
 | Image Examples                                       | Explanation                               |
 |:-----------------------------------------------------|:------------------------------------------|
@@ -38,7 +38,7 @@ Find the examples at the end of this document.
 | !\[\](https[]()://gematik.de/logo)                   | image without title                       |
 | !\[logo\]                                            | image alias usage with same title         |
 | !\[company logo\](logo)                              | image alias usage with different title    |
-| !\[logo\]:(https[]()://gematik.de/logo)              | image alias definition                    |
+| !\[logo\]: (https[]()://gematik.de/logo)             | image alias definition                    |
 | !\[local logo\](./logo)                              | image from local resource                 |
 | !\[local logo\](data:image/svg;base64,iVBOR..UIH==)  | image from embedded source (data_uri)     |
 |                                                      | image scaling                             |
@@ -46,8 +46,6 @@ Find the examples at the end of this document.
 
 ## Todo
 
-- Table Header
-- Table Footer
 - Background for table cells and/or rows 
 - Includes
 - Attributes
