@@ -6,8 +6,6 @@ Find the examples at the end of this document.
 
 ## Examples
 
-## Examples
-
 | Paragraph Examples                                            | Explanation                              |
 |:--------------------------------------------------------------|:-----------------------------------------|
 | The quick brown fox<br>jumps over the leazy wall.             | multiline paragraph                      |
