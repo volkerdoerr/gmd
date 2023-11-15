@@ -4,56 +4,18 @@ _The Ebnf diagrams produced using the PlantUML generation service https://www.pl
 For getting the sourcecode of any previously generated URL you simply copy it itnto the URL field 
 and click "Decode URL" at it's right side._
 
-## Preliminaries
+![](http://www.plantuml.com/plantuml/svg/dLJHRjCm57ttLroyboRBnWTKGvk6q2fD29NjAGd8MztM8hqfZikGclB81y03dm18V1LVmhbDcYgKbp4fTxRlESVdNjizhuBnmTxnLAbNnfkPDyivdL4wuedba2VqmlagN3ks2QtRLHh4CszDi9vAJ_RzoXGPXxbXcWgOt1OLHs1VbXmShqnm9Ol89Y5joq8FLQShkrrPCt4y0o6zADoC5-3BvCP-bDsufA91q15aEus_rI6r5aeBs0oLwkGaftz_-wvhn1yIVttPng-2Qmq0f8zq0kGf8eRYjrhUOo_H5GtiywuUBSpCrZg6m5jyR_1z4h7FFn4peTxFFOQ8K2UbX2NYAN8ftRXGsAQkD6D64_Cu8gaht-PJVQO7CThexj7bAcF77rpbxa0oXJDOcDYfOoTrD_qOW3Uu7L_N5vBVwaFUsabroCZO5fLzc5jluoW2ETAKm-IsA37vH2UFSphw7wVFJJ2tur7FySl7EKPRApaK-UU2NU3WTiFTHQEXsYq1sDnV6E3LuivwO4vrSup7-4vqr1vtGljhX8cY_T-Q3Xw1NFsC-tS_eOExc_5nGYS9nLJwZ1i75P2jqGsigXk3ri7ek7n0COZTWo656JAwbiPVZTlr7B3BiaXa7TXKFzDjfl_uGCxtKlrC9xlUUwx5c6WE0Iu0w3zCa5ul3SiGwNROOwEODYFguYhjcYujpeTIq2x_z5zvfSujJ-J7wGy0)
 
-- Language
-- Insecure characters
-- Backslash escapes
-- Unicode symbols
-- Line breaks
-- Tabs
-
-## Block modifiers
-
-- Paragraphs
-- Headings
-- Pre-formatted text
-- Block code
-- Syntax highlighting
-- Block quotations
-- Block Indentation
-- Block comments
-- No overriding gMD 
-- No HTML
-
-## Lists and notes
-
-![](http://www.plantuml.com/plantuml/svg/BO_1IiOm48JlVOfXJpL63rv5-17qw1C496bNAJJRqjs2KdrtD_O_BCjaC_Cn5xMy6HVvwBgNvxTNF64ohX57MxzuxDfkhpAoM1-oOPw4a_mRmqr4Btijl4NGFVrGyBdrkIC_aQu3HHX_cGjUPXS7nENxcOS-QAwCh5T0J59sGwDmLiD3ahfi35tpmEgu5jPiVXud-OG3KNSrzp5OXxpoYF8DIe7y-qb5At9X9tZHFm00)
-
-| List Examples | 
-|:--------------|
-| * Item 1<br>&nbsp;&nbsp;- Item A<br>&nbsp;&nbsp;- Item B<br>* Item 2<br>&nbsp;&nbsp;+ Item C<br>&nbsp;&nbsp;+ Item D<br> |
-| 1. xxxxx xxx xxx xxx xx<br>&nbsp;&nbsp;&nbsp;1. xxxxxx xx xxxx xxxxxx<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xxxx xxx xxxx xxxx<br>&nbsp;&nbsp;&nbsp;2. xxxxx xxxx<br>3. xxxxxxxx xxxx xxxxxx<br> |
-
-- Footnotes
-- Endnotes (auto-numbered notes)
-
-## Links 
-
-![](http://www.plantuml.com/plantuml/svg/PO_DQiCm383lUGgXYt_86un0DjXWbxo0ROOJAynWb18hj8K-V9FGMqywVDydeRvAN8L6dfllh-47Ea27BJYGB8Mq_UGx2DsazJnk0iefY9n01UMPwXGlb40Mp-WTdWHzG6iWj83XNEImGsr_EUKf2bNFiUIuZqHpvYnvOMiEM--stjRoEFdVw_v0b2gy9PwfLBh-qqhMcBqs2E43cfuu7Syy0G00)
+## Examples
 
 | Link Examples                        | Explanation                              |
 |:-------------------------------------|:-----------------------------------------|
 | \[gematik\](https[]()://gematik.de)  | link to website                          |
-| \[](https[]()://gematik.de)          | link without title                       |
+| \[](https[]()://gematik.de)          | link uses url as title                   |
 | \[gematik\]                          | link alias usage with same title         |
 | \[gematik homepage\](gematik)        | link alias usage with different title    |  
 | \[gematik\]=(https[]()://gematik.de) | link alias definition (always invisible) | 
 | \[License](./license.txt)            | link to local resource                   |
-
-## Images
-
-![](http://www.plantuml.com/plantuml/svg/PO_DIaD138NtVOgOpVpGDv125HJSz0LcXf9sKXmOKfd9HONxyCQBEpV98by-pZbEfQ5yaTlkvVdq2WV01zm39Xi9j6bd7v_a6vI_T9_biYYuv82aWYik2yyhVN05lMV1d72xO2uO0nGJbKsKy80-labjLrAUMQWtibNvrgHfkqiClxGtsY-ZhvMKpijewmQU_uAScEk4Vx-Mea_-VEV1CGJJ18Jo2BiZ6sJLVW00)
 
 | Image Examples                                       | Explanation                               |
 |:-----------------------------------------------------|:------------------------------------------|
@@ -67,24 +29,30 @@ and click "Decode URL" at it's right side._
 |                                                      | image scaling                             |
 |                                                      | image horizontal and vertical alignment   |
 
-## Tables
+## Todo
 
-- Header
-- Footer
-- Spanning rows and columns
-- Vertical alignments within a table cell
-- Horizontal alignments within a table cell
+- Table Header
+- Table Footer
 - Background for table cells and/or rows 
-
-## Includes
-
-## Attributes
-
-- Alignment
-- Indentation
+- Includes
+- Attributes
 - Spans
 - CSS styles
 - Class and ID attributes
+- Language
+- Insecure characters
+- Backslash escapes
+- Unicode symbols
+- Line breaks
+- Tabs
+- Pre-formatted text
+- Block code
+- Syntax highlighting
+- Block quotations
+- Block comments
+- No overriding gMD 
+- No HTML
+
    
 
 
