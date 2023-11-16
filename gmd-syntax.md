@@ -1,8 +1,12 @@
 # gMD Syntax
 
-Find the examples at the end of this document.
+see also: [Examples](#examples) [Definition](#definition) [Todo](#todo)
 
-![](https://www.plantuml.com/plantuml/svg/bLJHRjCm57ttLnZpqeu0xqIRXZOXAgqIAjrJ2CXTlIvQcbHk9f1Yl_97_11VmZbkF2VINgYKs3xtt9FZU-rU7ZjjExDfxeNOBQ_bkUoLQMlbCzb_qLRlh3uyk9lgsBcrtjG6-438XNWc86tHR4tJPRBuRFIsQdPBRH-DBJEvDhy0XnpaHje8zSEOYqagDDLhfCnw3DwfTmhY0Ud3d6ZfrF5mXqNpjDyO2p2mueh46FFb766oOPnV3rkzUx3ABTjjTLyPYsqsZswnrplZSoaY3E9CdIcdplZwZkS7dh-__-3zbZ-Cv_nX_ARckQ0CtHVqigwwsg0CgkGAE_YW1Xy4PzpWxUh6VQmhVGnSsfmhMS91i4AbLw3zbzorxlJjQl6oh60x8SjXqPbzwiuOcNGc1aQD9dJgLEnc7tN6JVQIsP7AMevwvK9Ttx2GB9m8HmoSLVipcKeBpmAGygbjEsC7j8mkfG0LsSNggJOMNJ29STKs7JmHZ2Tu0hBXIPe-Ho95z78A9f4fvgFdb2kZEOdT9HGjTP6MdUPzMk1gZPn5Sd5bwlhhGJVfJeMy5t5MIbseCXV9tY2KID4I0Zn7o9_nG5CK_V3XL8V5kVBpZ1mAni-nbQWtfpJNdZn89p4Tm27yVFCaDnQJrKMwgf05DmRUJmBYqZHR_a7z0m00)
+## Diagram
+
+![](https://www.plantuml.com/plantuml/svg/bLJHRjCm57ttLnZpaeu0xrITXZOXAgqIAjrJCCYbNXOjTIRN5KYnN_aZVeWluLmdned40rHAR9zxxl69xtMlJavPf_Vcdh5wSyDNl1UwQqKeUVz1MLLRzVJWRvkJypkrRpNmaR1ax0y1QMjpqCQLl7glrQ4nzKRPHsrboNVwE-2OWzn4cw1X79TibWfDyHmfHOyXUF4AyoeYVPmJAhqv7_VQOXN3moenXbMG2rYb_UB7VNsmmc-wGtFVQ8iFCuz-VLIr3alE4WnY8Iw45nVq-epd2vvVFtxY_P9-65Vqm_X9G9vao6z5VgjTurejuKcI9vX-8sXLKF1kU-lVjeqwHT82y49moJqlCkf1eeY4D6VH7Oa_G_u_xd2ZdBhRhlzp9qPbnauqh9q-vghDa6d5Kc3I00GD5KnLxfFEjFY1KtQYqebFIkdZwR-WunPKlTXwu6oxRzaK5jbF5IdlkivfEw8okUGCL6HNstEhBMgbC-EwCmwU24oTFGEfBR8q-Po8LCdB49oBP2mappcN9tCSNvTHLDadMZdC-xp0bKlE9kJgMhVjnoTbybsBUN_5wQJ4fP1BDjhBGfcKB24mTbP1RK-Yg4U8lHyNAn4M9N58C6r7fSHvqvJCTH6alXkd0CSmNSmH90-N-GP33fmKU3qBi2jj3lI7zHi0)
+
+_produced using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/_ 
 
 ## Examples
 
@@ -26,8 +30,8 @@ Find the examples at the end of this document.
 | Link Examples                         | Explanation                              |
 |:--------------------------------------|:-----------------------------------------|
 | \[gematik\](https[]()://gematik.de)   | link to website                          |
-| \[](https[]()://gematik.de)           | link uses url as title                   |
-| \[gematik\]                           | link alias usage with same title         |
+| \[https[]()://gematik.de]             | link with direct url                     |
+| \[gematik\]                           | link alias usage                         |
 | \[gematik homepage\](gematik)         | link alias usage with different title    |  
 | \[gematik\]: (https[]()://gematik.de) | link alias definition                    | 
 | \[License](./license.txt)             | link to local resource                   |
@@ -35,14 +39,45 @@ Find the examples at the end of this document.
 | Image Examples                                       | Explanation                               |
 |:-----------------------------------------------------|:------------------------------------------|
 | !\[gematik logo\](https[]()://gematik.de/logo)       | image from website                        |
-| !\[\](https[]()://gematik.de/logo)                   | image without title                       |
-| !\[logo\]                                            | image alias usage with same title         |
+| !\[https[]()://gematik.de/logo\]                     | image with direct url                     |
+| !\[logo\]                                            | image alias usage                         |
 | !\[company logo\](logo)                              | image alias usage with different title    |
 | !\[logo\]: (https[]()://gematik.de/logo)             | image alias definition                    |
 | !\[local logo\](./logo)                              | image from local resource                 |
 | !\[local logo\](data:image/svg;base64,iVBOR..UIH==)  | image from embedded source (data_uri)     |
 |                                                      | image scaling                             |
 |                                                      | image horizontal and vertical alignment   |
+
+## Definition
+
+```
+gMD = {"eol"}, {Paragraph|List|Table}, {"eol"};
+
+Paragraph = Indent, [HeadingMarker], Text, "eol", {Indent, Text, "eol"}, "eol";
+HeadingMarker = "#", ({"#"}|".", ["#", {".", "#"}]|number, ".", [number, {".", number}]);
+
+Text = {"chr"|Modifier|Link|Image}; 
+Modifier = ("*"|"**"|"^"|"_"|"↵"|"-----"|"====="|"\");
+Link = "[", ([Title], "]", [ [":"], "(", (URL|AliasTitle), ")" ] | (AliasTitle|URL), "]"); 
+Image = "!", "[", ([Title], "]", [ [":"], "(", (URL|DataURI|AliasTitle), ")" ] | (AliasTitle|URL), "]"); 
+
+List = ListItem, "eol", {ListItem, "eol"}, "eol";
+ListItem = Indent, ListMarker, Text, { "eol", Indent, Text} ;
+ListMarker = (number, "."|"*"|"+"|"-");
+
+Table = Row, "eol", {Row, "eol"}, [TableFooter, "eol"], "eol"; 
+Row = [RulerLine, "eol"], ContentLine, {"eol", ContentLine}; 
+TableFooter = RulerLine, [ "eol", FooterLine, {"eol", FooterLine}, "eol", RulerLine ], "eol" ;
+
+RulerLine = "|", Ruler, "|", {Ruler, "|"};
+ContentLine = "|", [CellSpan], Text, "|", {[CellSpan], Text, "|"}, [">"];
+FooterLine = "|", Text, "|";
+
+Ruler = [":"], ("---", {"-"}|"===", {"="}), [":"];
+CellSpan = (RowSpan, [ColSpan] | ColSpan, [RowSpan]);
+ColSpan = ">", [number];
+RowSpan = "/", [number];
+```
 
 ## Todo
 
@@ -65,8 +100,7 @@ Find the examples at the end of this document.
 - No overriding gMD 
 - No HTML
 
-_____
-_produced using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/_ 
+
 
 
 
