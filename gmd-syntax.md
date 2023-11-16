@@ -5,15 +5,15 @@ Contents: [Definition](#definition) [Graphs](#graphs) [Examples](#examples) [Tod
 ## Definition
 
 ```
-gMD = {"eol"}, {Paragraph|List|Table}, {"eol"};
+gMD = {"eol"}, {List|Table|Paragraph}, {"eol"};
 
 Paragraph = Indent, [HeadingMarker], Text, "eol", {Indent, Text, "eol"}, "eol";
 HeadingMarker = "#", ({"#"}|".", ["#", {".", "#"}]|number, ".", [number, {".", number}]);
-
-Text = {Link|Image|Tag|HorRuler|NewLine|"\", "chr"|"chr"};
+Text = {Link|Image|Tag|Modifier|HorRuler|NewLine|"\", "chr"|"chr"};
 Link = "[", (Title, "]", [":"], "<", (URL|AliasTitle), ">" | (AliasTitle|URL), "]"); 
 Image = "!", "[", (Title, "]", [":"], "<", (URL|DataURI|AliasTitle), ">" | (AliasTitle|URL), "]"); 
 Tag = "<", (Attribute|Style|UserTag|Comment), ">"; 
+Modifier = ("*"|"~"|"^"|"_");
 HorRuler = ("-----"|"=====");
 NewLine = "↵";
 
@@ -24,11 +24,9 @@ ListMarker = (number, "."|"*"|"+"|"-");
 Table = Row, "eol", {Row, "eol"}, [TableFooter, "eol"], "eol"; 
 Row = [RulerLine, "eol"], ContentLine, {"eol", ContentLine}; 
 TableFooter = RulerLine, [ "eol", FooterLine, {"eol", FooterLine}, "eol", RulerLine ], "eol" ;
-
 RulerLine = "|", Ruler, "|", {Ruler, "|"};
 ContentLine = "|", [CellSpan], Text, "|", {[CellSpan], Text, "|"}, [">"];
 FooterLine = "|", {chr}, "|";
-
 Ruler = [":"], ("---", {"-"}|"===", {"="}), [":"];
 CellSpan = (RowSpan, [ColSpan] | ColSpan, [RowSpan]);
 ColSpan = ">", [number];
@@ -37,7 +35,7 @@ RowSpan = "/", [number];
 
 ## Graphs
 
-![](https://www.plantuml.com/plantuml/svg/bLHDRnCn4BtxLnXpoK8ATqAgLgbG8wK8fUbfsOD3JBhgVbIEeuBMllAF-4Fy4jxO3Du83X1fk_QRzyRFCxEzE3XjdTbsduNOtrp9kHoKwHiLfdBueAtUM_ruxrVrmVcDtZQ6y4IO2V6R0DcosvdEJMLvRVIkxlOtsZuOMqtbndm173NGCcs4Xb_lcJYH8gTw3ibam2juzGhhCY93N1DQ-UxORet5BeRJZXbf5we2LkaykjogxXxyijLxW_li_NLlryV6MF_UF25alFf8gJ_TM-NfBrsJ96Ic93ERsZK6Z2gwUQCghDzIu6wzyfTDhG-HKG0-LzBBISOyA4MK5ZCfeWTA-mpgVyXzfPs-Mo__wmpS42Ua79VEsNfxTCRVkgz4F1XB5LZqROkEf6JGS4KWdAWp-g4IS_eXfKXbYhv_VFkkK5WQ3MpfjNIcpPrcv8ykSs0qD0IbhlDa39ndF311afgfv73KVgzUu7c9vuoSYZYkuApxfsmAc-odZ9HtVU-G8g4LkvG2LAZBM0owSsOi-ix1KmA7Y9w00UfHQlAGavJi9GLFasGiiEUibMnEudOPHIiyqwPfFUGDvfUTZSZbmZJDxQFkylSPTN_5gLAOZMecs5vEDE0R2P75dX19ivl6XpXeI8Wp53Tp5OeqtyZ8vr4lKN1Qahi-cS1ifoM152Qme1knI9tdpnxfmE70wvE0k33TZlxB_GG0)
+![](https://www.plantuml.com/plantuml/svg/bLJ1RXCn5BpxAuov9932dT2gA1Lgf0QXD3qj2tB8QxhgPhTo71MqDaV-Y1_YIvXdh_56S818cxNdpJoFdN7EzrORI-lcLeZjuaAUoavHMoi_aTrLjRTkfTSrkVVQwAtH3tV0Uy9KYDyePFDcGusToEAIzAPgjWjjxicK4xcYBu231jf46w2-Vq_5aHGzrLD8HXrUtgaN61S1wSAOqT8rXzsQ36QXd6QH4MU-74y5BuU6s59px-OxlILiREiMxQQwhSYuozOi3pK6x-WH77Bg0o_n-Suenz-yNTQogO9DhIfR4nXbSFLAbHY_viBDyigzgIkz3umnu3CbdHnbp84o3jBnL8fWXji-WVeVUbzegs-My_zQ0rl52jm376jDjJvOSjVsAnFtP51titQteyR6Pj2aeu5mf9xX5BxX-OZd4rgAT5wXUi8VL4xvmzN-47dDdzz_A2I5euGfl-QMTZaF2VaZ2wamY1P3CHifFrtgCuoLbwnEL7Ou28aBUtcEvuITYX1lS9RjOpQ5IVPJ1ChRjhLaUhHCBgK05UeY70RlEJDcRMFXYS5qPuv03_MWDReCcXJ9IomUDycOJvwpLYPpE8KCufTmYJM9uovF4Ew1iKGkPbJNrm-woPSuwFwAyq4XEELKP7UfKOSBv0EhjuH2p7KC3rFmS_YGe30vLNuSiu-6QJceHZXk7hAvDdf0xliXmBxCDxu7sSDP_cj0Et1IuULHGPnJi-5_mby0)
 
 _produced using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/_ 
 
