@@ -1,8 +1,39 @@
 # gMD Syntax
 
-see also: [Examples](#examples) [Definition](#definition) [Todo](#todo)
+Contents: [Definition](#definition) [Graphs](#graphs) [Examples](#examples) [Todo](#todo)
 
-## Diagram
+## Definition
+
+```
+gMD = {"eol"}, {Paragraph|List|Table}, {"eol"};
+
+Paragraph = Indent, [HeadingMarker], Text, "eol", {Indent, Text, "eol"}, "eol";
+HeadingMarker = "#", ({"#"}|".", ["#", {".", "#"}]|number, ".", [number, {".", number}]);
+
+Text = {"chr"|Modifier|Link|Image}; 
+Modifier = ("*"|"**"|"^"|"_"|"↵"|"-----"|"====="|"\");
+Link = "[", (Title, "]", [":"], "(", (URL|AliasTitle), ")" | (AliasTitle|URL), "]"); 
+Image = "!", "[", (Title, "]", [":"], "(", (URL|DataURI|AliasTitle), ")" | (AliasTitle|URL), "]"); 
+
+List = ListItem, "eol", {ListItem, "eol"}, "eol";
+ListItem = Indent, ListMarker, Text, { "eol", Indent, Text} ;
+ListMarker = (number, "."|"*"|"+"|"-");
+
+Table = Row, "eol", {Row, "eol"}, [TableFooter, "eol"], "eol"; 
+Row = [RulerLine, "eol"], ContentLine, {"eol", ContentLine}; 
+TableFooter = RulerLine, [ "eol", FooterLine, {"eol", FooterLine}, "eol", RulerLine ], "eol" ;
+
+RulerLine = "|", Ruler, "|", {Ruler, "|"};
+ContentLine = "|", [CellSpan], Text, "|", {[CellSpan], Text, "|"}, [">"];
+FooterLine = "|", Text, "|";
+
+Ruler = [":"], ("---", {"-"}|"===", {"="}), [":"];
+CellSpan = (RowSpan, [ColSpan] | ColSpan, [RowSpan]);
+ColSpan = ">", [number];
+RowSpan = "/", [number];
+```
+
+## Graphs
 
 ![](https://www.plantuml.com/plantuml/svg/bLJHRjCm57ttLnZpaeu0xqITXZOXAgqIAjrJ2CYbNXSjJIRN4qYnN_aZVeWluLod5xk21rOfiNtkkSSdljUzE3XjdTdqjqBibbToBaTbXaw5KeuVjDKxgn_k_7LxS7wjDvqXV29KGlmX86tHRqtlIbc_DthRzhkbjlV6DgLSc--0OmvocPQXuJXMuYGLckevKeeHG_3g5UPrHCOu9xJn_UD-OonMCSohYJ6jGZE3LTelVjpNEwlySjYsjwsn-B3-tY_sUcT29GN381RgJ7brHg_FUBxW-VNZ9zulwOTnJZ-CdnJaIORyrkHttRhEm54J3RzH3UO51MvMr_vjr-f3PCm0pvJqiaYO1uNm1g9IH5ya-qoL_wDzfPs-MIsUj8UWqc8F6XREx5Eb6FchIXp8YaxGL3MkxCWwUS63h4IYqYbdvVFnn5_G4IkgM6mtS5R3jsGgBU2dZfHtm-2CFQ8DkvG2L6JNgyVEMDJ79CRbq3ju8f2xEGTZAsJIv269rEnb2kOYEHROSygLR0wd81AA-dgcbTDyJ8jG2NQMaUjBqtKV7tIVxbVC-oTE9wNELLC9jiT26OajoJdtLK6jJgAeHuZz7XTp5MQnzqYGjwDIuhnfIkQ6oOFqagOJU0pJPJo2vE4ytLh8WSE1roS1SM7wBVr9_GO0)
 
@@ -47,37 +78,6 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
 | !\[local logo\](data:image/svg;base64,iVBOR..UIH==)  | image from embedded source (data_uri)     |
 |                                                      | image scaling                             |
 |                                                      | image horizontal and vertical alignment   |
-
-## Definition
-
-```
-gMD = {"eol"}, {Paragraph|List|Table}, {"eol"};
-
-Paragraph = Indent, [HeadingMarker], Text, "eol", {Indent, Text, "eol"}, "eol";
-HeadingMarker = "#", ({"#"}|".", ["#", {".", "#"}]|number, ".", [number, {".", number}]);
-
-Text = {"chr"|Modifier|Link|Image}; 
-Modifier = ("*"|"**"|"^"|"_"|"↵"|"-----"|"====="|"\");
-Link = "[", (Title, "]", [":"], "(", (URL|AliasTitle), ")" | (AliasTitle|URL), "]"); 
-Image = "!", "[", (Title, "]", [":"], "(", (URL|DataURI|AliasTitle), ")" | (AliasTitle|URL), "]"); 
-
-List = ListItem, "eol", {ListItem, "eol"}, "eol";
-ListItem = Indent, ListMarker, Text, { "eol", Indent, Text} ;
-ListMarker = (number, "."|"*"|"+"|"-");
-
-Table = Row, "eol", {Row, "eol"}, [TableFooter, "eol"], "eol"; 
-Row = [RulerLine, "eol"], ContentLine, {"eol", ContentLine}; 
-TableFooter = RulerLine, [ "eol", FooterLine, {"eol", FooterLine}, "eol", RulerLine ], "eol" ;
-
-RulerLine = "|", Ruler, "|", {Ruler, "|"};
-ContentLine = "|", [CellSpan], Text, "|", {[CellSpan], Text, "|"}, [">"];
-FooterLine = "|", Text, "|";
-
-Ruler = [":"], ("---", {"-"}|"===", {"="}), [":"];
-CellSpan = (RowSpan, [ColSpan] | ColSpan, [RowSpan]);
-ColSpan = ">", [number];
-RowSpan = "/", [number];
-```
 
 ## Todo
 
