@@ -58,24 +58,24 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
 | ### This Is A Really<br>Very long Heading                     | heading h3 spanning multiple lines       |
 | #.#.# This Heading Has↵ A Manual Line Break                   | heading h3 with manual line breaks       |
 
-| Link Examples                         | Explanation                              |
-|:--------------------------------------|:-----------------------------------------|
-| \[gematik\](https[]()://gematik.de)   | link to website                          |
-| \[https[]()://gematik.de]             | link with direct url                     |
-| \[gematik\]                           | link alias usage                         |
-| \[gematik homepage\](gematik)         | link alias usage with different title    |  
-| \[gematik\]: (https[]()://gematik.de) | link alias definition                    | 
-| \[License](./license.txt)             | link to local resource                   |
+| Link Examples                           | Explanation                              |
+|:----------------------------------------|:-----------------------------------------|
+| \[gematik\] \<https[]()://gematik.de\>  | link to website                          |
+| \[https[]()://gematik.de]               | link with direct url                     |
+| \[gematik\]                             | link alias usage                         |
+| \[gematik homepage\] \<gematik\>        | link alias usage with different title    |  
+| \[gematik\]: \<https[]()://gematik.de\> | link alias definition                    | 
+| \[License] \<./license.txt\>            | link to local resource                   |
 
 | Image Examples                                       | Explanation                               |
 |:-----------------------------------------------------|:------------------------------------------|
-| !\[gematik logo\](https[]()://gematik.de/logo)       | image from website                        |
+| !\[gematik logo\] \<https[]()://gematik.de/logo\>    | image from website                        |
 | !\[https[]()://gematik.de/logo\]                     | image with direct url                     |
 | !\[logo\]                                            | image alias usage                         |
-| !\[company logo\](logo)                              | image alias usage with different title    |
-| !\[logo\]: (https[]()://gematik.de/logo)             | image alias definition                    |
-| !\[local logo\](./logo)                              | image from local resource                 |
-| !\[local logo\](data:image/svg;base64,iVBOR..UIH==)  | image from embedded source (data_uri)     |
+| !\[company logo\] \<logo\>                           | image alias usage with different title    |
+| !\[logo\]: \<https[]()://gematik.de/logo\>           | image alias definition                    |
+| !\[local logo\] \<./logo\>                           | image from local resource                 |
+| !\[local logo\] \<data:image/svg;base64,IVBORUIH\>   | image from embedded source (data_uri)     |
 |                                                      | image scaling                             |
 |                                                      | image horizontal and vertical alignment   |
 
