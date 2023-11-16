@@ -82,24 +82,24 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
 ## Todo
 
 - Attributes
-  - <green>xxx xxx</> 
+  - \<green\>xxx xxx\</\>
   - undefined attributes are not allowed
   - attributes are defined by gMD
   - short form finishes at next whitespace:
-    <bgred/>red not red 
+    \<bgred/\>red not red 
 - Styles
   - styles are combinations of attributes and can be used like attributes
   - styles are defined inside the document or included
-  - gMD has predefined styles
+  - gMD has predefined and reserved styles
   - short form finishes at next whitespace:
-    <default_text/>default not more 
+    \<default_text/>default not more 
 - Tagging
-  - <id>xxxx xxx</> 
+  - \<id\>xxxx xxx\</\> 
   - undefined tags are not allowed
   - tags are defined inside the document or included
-  - gMD has predefined styles
+  - gMD has predefined and reserved tags
   - short form finishes at next whitespace:
-    <id/>A_12345 the following is not part of the id 
+    \<id/\>A_12345 the following is not part of the id 
 - Includes
   - ?
 - Language
