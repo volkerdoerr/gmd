@@ -81,24 +81,47 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
 
 ## Todo
 
-- Background for table cells and/or rows 
-- Includes
 - Attributes
-- Spans
-- CSS styles
-- Class and ID attributes
+  - <green>xxx xxx</> 
+  - undefined attributes are not allowed
+  - attributes are defined by gMD
+  - short form finishes at next whitespace:
+    <bgred/>red not red 
+- Styles
+  - styles are combinations of attributes and can be used like attributes
+  - styles are defined inside the document or included
+  - gMD has predefined styles
+  - short form finishes at next whitespace:
+    <default_text/>default not more 
+- Tagging
+  - <id>xxxx xxx</> 
+  - undefined tags are not allowed
+  - tags are defined inside the document or included
+  - gMD has predefined styles
+  - short form finishes at next whitespace:
+    <id/>A_12345 the following is not part of the id 
+- Includes
+  - ?
 - Language
-- Insecure characters
+  - languages denominators are predefined attributes 
 - Backslash escapes
-- Unicode symbols
+  - Insecure characters
+  - Characters that would be interpreted 
+- Unicode
+  - nearly all unicode characters and symbols are allowed. it is the resonsibility of the authors to not create messy documents
 - Tabs
+  - a tab is interpreted as the equivalent of 4 spaces
 - Pre-formatted text
-- Block code
-- Syntax highlighting
-- Block quotations
-- Block comments
-- No overriding gMD 
+  - Block code
+  - Syntax highlighting
+  - Block quotations
+- Comments
+  - The syntax is not yet clear
+  - comments can be inserted everywhere,
+  - they are invisible if the document is rendered 
 - No HTML
+  - html-elements cannot be used in a gMD document
+  - due to the possibilities given by attributes, styles and tagging this not neccessary
 
 
 
