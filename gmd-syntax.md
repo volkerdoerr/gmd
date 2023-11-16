@@ -4,7 +4,7 @@ see also: [Examples](#examples) [Definition](#definition) [Todo](#todo)
 
 ## Diagram
 
-![](https://www.plantuml.com/plantuml/svg/bLJHRjCm57ttLnZpaeu0xrITXZOXAgqIAjrJCCYbNXOjTIRN5KYnN_aZVeWluLmdned40rHAR9zxxl69xtMlJavPf_Vcdh5wSyDNl1UwQqKeUVz1MLLRzVJWRvkJypkrRpNmaR1ax0y1QMjpqCQLl7glrQ4nzKRPHsrboNVwE-2OWzn4cw1X79TibWfDyHmfHOyXUF4AyoeYVPmJAhqv7_VQOXN3moenXbMG2rYb_UB7VNsmmc-wGtFVQ8iFCuz-VLIr3alE4WnY8Iw45nVq-epd2vvVFtxY_P9-65Vqm_X9G9vao6z5VgjTurejuKcI9vX-8sXLKF1kU-lVjeqwHT82y49moJqlCkf1eeY4D6VH7Oa_G_u_xd2ZdBhRhlzp9qPbnauqh9q-vghDa6d5Kc3I00GD5KnLxfFEjFY1KtQYqebFIkdZwR-WunPKlTXwu6oxRzaK5jbF5IdlkivfEw8okUGCL6HNstEhBMgbC-EwCmwU24oTFGEfBR8q-Po8LCdB49oBP2mappcN9tCSNvTHLDadMZdC-xp0bKlE9kJgMhVjnoTbybsBUN_5wQJ4fP1BDjhBGfcKB24mTbP1RK-Yg4U8lHyNAn4M9N58C6r7fSHvqvJCTH6alXkd0CSmNSmH90-N-GP33fmKU3qBi2jj3lI7zHi0)
+![](https://www.plantuml.com/plantuml/svg/bLJHRjCm57ttLnZpaeu0xqITXZOXAgqIAjrJ2CYbNXSjJIRN4qYnN_aZVeWluLod5xk21rOfiNtkkSSdljUzE3XjdTdqjqBibbToBaTbXaw5KeuVjDKxgn_k_7LxS7wjDvqXV29KGlmX86tHRqtlIbc_DthRzhkbjlV6DgLSc--0OmvocPQXuJXMuYGLckevKeeHG_3g5UPrHCOu9xJn_UD-OonMCSohYJ6jGZE3LTelVjpNEwlySjYsjwsn-B3-tY_sUcT29GN381RgJ7brHg_FUBxW-VNZ9zulwOTnJZ-CdnJaIORyrkHttRhEm54J3RzH3UO51MvMr_vjr-f3PCm0pvJqiaYO1uNm1g9IH5ya-qoL_wDzfPs-MIsUj8UWqc8F6XREx5Eb6FchIXp8YaxGL3MkxCWwUS63h4IYqYbdvVFnn5_G4IkgM6mtS5R3jsGgBU2dZfHtm-2CFQ8DkvG2L6JNgyVEMDJ79CRbq3ju8f2xEGTZAsJIv269rEnb2kOYEHROSygLR0wd81AA-dgcbTDyJ8jG2NQMaUjBqtKV7tIVxbVC-oTE9wNELLC9jiT26OajoJdtLK6jJgAeHuZz7XTp5MQnzqYGjwDIuhnfIkQ6oOFqagOJU0pJPJo2vE4ytLh8WSE1roS1SM7wBVr9_GO0)
 
 _produced using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/_ 
 
@@ -58,8 +58,8 @@ HeadingMarker = "#", ({"#"}|".", ["#", {".", "#"}]|number, ".", [number, {".", n
 
 Text = {"chr"|Modifier|Link|Image}; 
 Modifier = ("*"|"**"|"^"|"_"|"↵"|"-----"|"====="|"\");
-Link = "[", ([Title], "]", [ [":"], "(", (URL|AliasTitle), ")" ] | (AliasTitle|URL), "]"); 
-Image = "!", "[", ([Title], "]", [ [":"], "(", (URL|DataURI|AliasTitle), ")" ] | (AliasTitle|URL), "]"); 
+Link = "[", (Title, "]", [":"], "(", (URL|AliasTitle), ")" | (AliasTitle|URL), "]"); 
+Image = "!", "[", (Title, "]", [":"], "(", (URL|DataURI|AliasTitle), ")" | (AliasTitle|URL), "]"); 
 
 List = ListItem, "eol", {ListItem, "eol"}, "eol";
 ListItem = Indent, ListMarker, Text, { "eol", Indent, Text} ;
