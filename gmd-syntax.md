@@ -89,6 +89,7 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
     \<bgred/\>red not red 
 - Styles
   - styles are combinations of attributes and can be used like attributes
+  - undefined styles are not allowed
   - styles are defined inside the document or included
   - gMD has predefined and reserved styles
   - short form finishes at next whitespace:
@@ -116,7 +117,8 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
   - Syntax highlighting
   - Block quotations
 - Comments
-  - The syntax is not yet clear
+  - comments are written in between a "\<-" "-\>" sequence
+  - xxxx xxxxxx \<- this is a comment -\> xxxx xx
   - comments can be inserted everywhere,
   - they are invisible if the document is rendered 
 - No HTML
