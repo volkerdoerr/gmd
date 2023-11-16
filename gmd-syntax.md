@@ -12,8 +12,8 @@ HeadingMarker = "#", ({"#"}|".", ["#", {".", "#"}]|number, ".", [number, {".", n
 
 Text = {"chr"|Modifier|Link|Image}; 
 Modifier = ("*"|"**"|"^"|"_"|"↵"|"-----"|"====="|"\");
-Link = "[", (Title, "]", [":"], "(", (URL|AliasTitle), ")" | (AliasTitle|URL), "]"); 
-Image = "!", "[", (Title, "]", [":"], "(", (URL|DataURI|AliasTitle), ")" | (AliasTitle|URL), "]"); 
+Link = "[", (Title, "]", [":"], "<", (URL|AliasTitle), ">" | (AliasTitle|URL), "]"); 
+Image = "!", "[", (Title, "]", [":"], "<", (URL|DataURI|AliasTitle), ">" | (AliasTitle|URL), "]"); 
 
 List = ListItem, "eol", {ListItem, "eol"}, "eol";
 ListItem = Indent, ListMarker, Text, { "eol", Indent, Text} ;
@@ -35,7 +35,7 @@ RowSpan = "/", [number];
 
 ## Graphs
 
-![](https://www.plantuml.com/plantuml/svg/bLJHRjCm57ttLnZpaeu0xqITXZOXAgqIAjrJ2CYbNXSjJIRN4qYnN_aZVeWluLod5xk21rOfiNtkkSSdljUzE3XjdTdqjqBibbToBaTbXaw5KeuVjDKxgn_k_7LxS7wjDvqXV29KGlmX86tHRqtlIbc_DthRzhkbjlV6DgLSc--0OmvocPQXuJXMuYGLckevKeeHG_3g5UPrHCOu9xJn_UD-OonMCSohYJ6jGZE3LTelVjpNEwlySjYsjwsn-B3-tY_sUcT29GN381RgJ7brHg_FUBxW-VNZ9zulwOTnJZ-CdnJaIORyrkHttRhEm54J3RzH3UO51MvMr_vjr-f3PCm0pvJqiaYO1uNm1g9IH5ya-qoL_wDzfPs-MIsUj8UWqc8F6XREx5Eb6FchIXp8YaxGL3MkxCWwUS63h4IYqYbdvVFnn5_G4IkgM6mtS5R3jsGgBU2dZfHtm-2CFQ8DkvG2L6JNgyVEMDJ79CRbq3ju8f2xEGTZAsJIv269rEnb2kOYEHROSygLR0wd81AA-dgcbTDyJ8jG2NQMaUjBqtKV7tIVxbVC-oTE9wNELLC9jiT26OajoJdtLK6jJgAeHuZz7XTp5MQnzqYGjwDIuhnfIkQ6oOFqagOJU0pJPJo2vE4ytLh8WSE1roS1SM7wBVr9_GO0)
+![](https://www.plantuml.com/plantuml/svg/bLJHRjCm57ttLnZpqeu2xvHEGviGbLO9bUuf1EHIBukMEfFh2QJOh_mHFyINSAwJYnE91rOfiNtkkSSdljUzE7djlDdRMo6gpPLSoKwPjb5n8RkFskdAwOUxS5sVVDZfVME03uIb47y9I5lRWx5-8OiFHXzgMssqkpUkNCYT-G4uvI2NQICq3kDIJ5AXgPuZPTPXY46zmhn8I9VcX9R1FXxtnc6Lmhpg6VqgbdDOfVtIntsxSofisaDzMnk73xFtONtKbObBAHW6SQREL51dzFg2vokUtpz_uVsIVXXNzCFuMK6UPCXlGNvtjMyC79N9y1jLOlwM0ZVRw_2kgVKfCUQ0pvKCSfQn00hX9KIbIBv8zXco_qFxIdjzirq_QGz1fSKUDAozEUPAJP5HbJWmAZf1VTMuiXthZ0iU9MKpbKvvLBwGJlm57R5A5QDs0sVRVi-ciCX-YaHvtxRUk04jsQKKe2Axs3usng4-9ZCkM-lXYK3kvWb8hP2boUT8f60lVJ2BJB78ddEkP7Cu1P5Hr3SmRT7Fkxp0DHivOt9nQPhcquEs-Nwbl7_YT5BeWd8fihr1A9FO4W93NyserKaKzOYftzDYfU8yzHu9ydPKIfmtJSbSstj0tmrJW4EOBkC0aeVpV6iX1mu7Nay2uiBO0_r9_G40)
 
 _produced using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/_ 
 
