@@ -6,36 +6,30 @@ Contents: [Definition](#definition) [Graphs](#graphs) [Examples](#examples) [Tod
 
 ```
 gMD = {"eol"}, {List|Table|Paragraph}, {"eol"};
-
 Paragraph = Indent, [HeadingMarker], Text, "eol", {Indent, Text, "eol"}, "eol";
-HeadingMarker = "#", ({"#"}|".", ["#", {".", "#"}]|number, ".", [number, {".", number}]);
-Text = {Link|Image|Tag|Modifier|HorRuler|NewLine|"\", "chr"|"chr"};
+HeadingMarker = "#", ({"#"} |number, ".", [number, {".", number}] |"$", ".", ["$", {".", "$"}]);
+Text = {Link|Image|HorRuler|NewLine|"<", Tag, ">"|TagDefinition|Modifier|"\", "chr"|"chr"};
 Link = "[", (Title, "]", [":"], "<", (URL|AliasTitle), ">" | (AliasTitle|URL), "]"); 
 Image = "!", "[", (Title, "]", [":"], "<", (URL|DataURI|AliasTitle), ">" | (AliasTitle|URL), "]"); 
-Tag = "<", (Attribute|Style|UserTag|Comment), ">"; 
 Modifier = ("*"|"~"|"^"|"_");
 HorRuler = ("-----"|"=====");
 NewLine = "↵";
-
 List = ListItem, "eol", {ListItem, "eol"}, "eol";
-ListItem = Indent, ListMarker, Text, { "eol", Indent, Text} ;
-ListMarker = (number, "."|"*"|"+"|"-");
-
+ListItem = Indent, ListMarker, Text, { "eol", Indent, Text};
+ListMarker = (number, "."|letter, ")"|"$", ("."|")")|"*"|"-");
 Table = Row, "eol", {Row, "eol"}, [TableFooter, "eol"], "eol"; 
-Row = [RulerLine, "eol"], ContentLine, {"eol", ContentLine}; 
+Row = [RulerLine, "eol"], ContentLine, {">", "eol", ContentLine}; 
 TableFooter = RulerLine, [ "eol", FooterLine, {"eol", FooterLine}, "eol", RulerLine ], "eol" ;
-RulerLine = "|", Ruler, "|", {Ruler, "|"};
-ContentLine = "|", [CellSpan], Text, "|", {[CellSpan], Text, "|"}, [">"];
+RulerLine = "|", CellRuler, "|", {CellRuler, "|"};
+ContentLine = "|", [CellSpan], Text, "|", {[CellSpan], Text, "|"};
 FooterLine = "|", {chr}, "|";
-Ruler = [":"], ("---", {"-"}|"===", {"="}), [":"];
-CellSpan = (RowSpan, [ColSpan] | ColSpan, [RowSpan]);
-ColSpan = ">", [number];
-RowSpan = "/", [number];
+CellRuler = (":"|"="|"-"), ("="|"-"), {"="|"-"}, (":"|"="|"-");
+CellSpan = ("/", [number], [ ">", [number]] | ">", [number] );
 ```
 
 ## Graphs
 
-![](https://www.plantuml.com/plantuml/svg/bLJ1RXCn5BpxAuov9932dT2gA1Lgf0QXD3qj2tB8QxhgPhTo71MqDaV-Y1_YIvXdh_56S818cxNdpJoFdN7EzrORI-lcLeZjuaAUoavHMoi_aTrLjRTkfTSrkVVQwAtH3tV0Uy9KYDyePFDcGusToEAIzAPgjWjjxicK4xcYBu231jf46w2-Vq_5aHGzrLD8HXrUtgaN61S1wSAOqT8rXzsQ36QXd6QH4MU-74y5BuU6s59px-OxlILiREiMxQQwhSYuozOi3pK6x-WH77Bg0o_n-Suenz-yNTQogO9DhIfR4nXbSFLAbHY_viBDyigzgIkz3umnu3CbdHnbp84o3jBnL8fWXji-WVeVUbzegs-My_zQ0rl52jm376jDjJvOSjVsAnFtP51titQteyR6Pj2aeu5mf9xX5BxX-OZd4rgAT5wXUi8VL4xvmzN-47dDdzz_A2I5euGfl-QMTZaF2VaZ2wamY1P3CHifFrtgCuoLbwnEL7Ou28aBUtcEvuITYX1lS9RjOpQ5IVPJ1ChRjhLaUhHCBgK05UeY70RlEJDcRMFXYS5qPuv03_MWDReCcXJ9IomUDycOJvwpLYPpE8KCufTmYJM9uovF4Ew1iKGkPbJNrm-woPSuwFwAyq4XEELKP7UfKOSBv0EhjuH2p7KC3rFmS_YGe30vLNuSiu-6QJceHZXk7hAvDdf0xliXmBxCDxu7sSDP_cj0Et1IuULHGPnJi-5_mby0)
+![](https://www.plantuml.com/plantuml/svg/bLTVRzis47_tfxXf0se5SO8-x2LfWmuhXWPeXo5hdzoqeAMpHPGYFPAgOrZkuxxHlj0-oUv8qP8CDsi3k9Bkpztl_joHVU6yi1uNUZcPJCzc8FGM7FxLe2xm77mbF9G67MZZeHQ-g8Y6uBRQYuTPYKkffPT6WtJWBGgF9GW7nfPI2xi5Zm_-0YPaD-eKNXP2gIqKnbeio3XwB5WhEOMwSHw4ScRe3skXIHLiez2TWo6YtKY78FsZhibpq4rkfKwElLWv49OihBInM5wSvPF9wirBU0wx38tAzkUmUosTRz-AXSBs3s75oefrnVGeS1rJLfYwHkqTX5J2HleAicUpZ79P0j8lKcOtaL883Gia90ujOyRF50g5Wm71mGtXkDKbsJs7-IiK5DJgZR2VqDwVmrjy8780GM2Is82wxvuTGXaaOcON63CgQeIbiK1f0INrgQocp0036s4WSDcFv7kweyT-0gV-MjtK2xI4v88av-bh5pxZr_x-AwhPJrdIezUaHAzVqyYxI4NZJIsuKw87GWoBBJIENoWyjW55HKccfhDS14znWLa2DKaZLAVcGYqueHGfTO7-rDxMOeNjAsFlg0Lj-pjkY8njzYoZp8iLeRl9MdfvUPY9zeqfvLAISFQUqHULpThmR-gSnf5DTjxeC4fOnhQKOTwuD6Q39JSnDsOb7Amj9adk9OlKH9yxDPOB9UGlw6VJfPRRMEazQevQbh4DIbCqtBnWE1c5QaeoDXthiwV4x2O_mDkY1xV6WcCiSt8-05TteSSH8nwwGgonx7FlO4ho1I9vv18zUVyaP-6JippG4c6WbEA0yA53lBIcJj245chhf0jTowNZPfrpixwLNY4LuZxqrLL6anJADtrtzxhzHKdXWaGUQWajJ7jQIo9vKCsluQXuWgN0inXeYYSIXWb4vJ2CEALndFOf4GXyBC02AvhKqRwbaFCGI6W_ZkG70lmDuRmKNhoxk_s-i5B3afzfTaRD-eL-7-ZtCKi3riyE2N2ZBXcuKJH3-j8ibsJi_PS3GthAHT6pFXmuhk4nAwnS-vxzSSWUCSCyfk4By6RyHz2Uyzy1dgSCXdLs1LaGuDvZU8aOf8d6LL2eLrM_5l610eEV1yt6Jhj1vzJ_-_S_l57vKA1FVjnwhFj5t5EEbt3Y39Owa-8oJPjxbmmD5pglYbwK8n-irLQXz-4zp-BEd3ALll8sr6-M4ZDURqZpJ6YkuedbmW7LiIZxl7N2JB8BFhoJib3hIYmmdAKd332OOmDvCD2lvSS0K037tgzvxrYCnokNh5iPlCqbPvgdJ3Gg75TFnwwEuVwlk_pxt8dWRj4eYXiKbUZ8_1ctMIbSXUKfzYmBSysN2swkExFf6ua--XwQ1v7VZA7aTjJxxiapIxAaFW-3mOtQY_ngjAT88d57iz-nHfnzMcSrXILdF2LWpIRkxRLnJf9pJW-deo0zIQt0Isqss0Hyi_510dKuJ0MBieimTl42CGY3u-tnpXEio4nuZsdx1B_NXPG8e2xlgJIgBKU9IWNYUVpUZGayMOD49AqvI_sv5hg_PmNba_HqaACeAYX8W8_QuJsG4w4SQLroKkavE1R2JkFunh1tHMNtmVfXfo4iOzv2UQJhpttUbSl6DnQXSSW66MQ_9QzuGyP5GCkXVzrrh-He9DIv563PH8o1U8ET60F0C1ynPB4mdv6Fwmf5YJOGBoR7HcRVQ4GRMmjrsWWX7MaA9LUQfpNTP8EQWmNILCEqeMvLKN2zHlAjYt1WCqLJ2OzCv-nFuTBFWjsho1vFxHKLoCfLTIH3RJ-KA0WIsfDcX2x7qkoqbWzOzXSAJZZ9SSwEhuAfmjo8eS2N_TtwFepIpO1m3-sOaEx9gIkFTjBDU2Dodg8YeoALfjQKU0EiUasu4hT6GOod70gr-Gd3buyP9fL7hNBCBoXd_9_K_m00)
 
 _produced using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/_ 
 
@@ -63,8 +57,8 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
 | \[gematik\] \<https[]()://gematik.de\>  | link to website                          |
 | \[https[]()://gematik.de]               | link with direct url                     |
 | \[gematik\]                             | link alias usage                         |
-| \[gematik homepage\] \<gematik\>        | link alias usage with different title    |  
-| \[gematik\]: \<https[]()://gematik.de\> | link alias definition                    | 
+| \[gematik homepage\] \<gematik\>        | link alias usage with different title    |
+| \[gematik\]: \<https[]()://gematik.de\> | link alias definition                    |
 | \[License] \<./license.txt\>            | link to local resource                   |
 
 | Image Examples                                       | Explanation                               |
