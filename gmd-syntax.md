@@ -3,10 +3,10 @@
 - [Definition](#definition) 
 - [Graphs](#graphs)
 - [Examples](#examples) 
-  - [Paragraph Examples](#paragraph_examples)
-  - [Heading Examples](#heading_examples)
-  - [Link Examples](#link_examples)
-  - [Image Examples](#image_examples)
+  - [Paragraph Examples](#paragraph-examples)
+  - [Heading Examples](#heading-examples)
+  - [Link Examples](#link-examples)
+  - [Image Examples](#image-examples)
 - [Todo](#todo)
 
 ## Definition
