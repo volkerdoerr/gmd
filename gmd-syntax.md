@@ -75,49 +75,25 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
 
 ## Todo
 
-- Attributes
-  - \<green\>xxx xxx\</\>
-  - undefined attributes are not allowed
-  - attributes are defined by gMD
-  - short form finishes at next whitespace:
-    \<bgred/\>red not red 
-- Styles
-  - styles are combinations of attributes and can be used like attributes
-  - undefined styles are not allowed
-  - styles are defined inside the document or included
-  - gMD has predefined and reserved styles
-  - short form finishes at next whitespace:
-    \<default_text/>default not more 
-- Tagging
-  - \<id\>xxxx xxx\</\> 
-  - undefined tags are not allowed
-  - tags are defined inside the document or included
-  - gMD has predefined and reserved tags
-  - short form finishes at next whitespace:
-    \<id/\>A_12345 the following is not part of the id 
+- Tags
+  - Syntax and semantics: tag definition
+  - Syntax and semantics: combination of tags 
+  - Semantics: opening tags must be closed by \</\> tag,  or defined as  short form
+  - Semantics: Short forms finish at next whitespace.
+  - Examples: like \<green\>xxx xxx\</\>, short form <id/\> or combination \<ita;14pt;green\>xxxx xxxx\</\>
 - Includes
-  - ?
-- Language
-  - languages denominators are predefined attributes 
-- Backslash escapes
-  - Insecure characters
-  - Characters that would be interpreted 
+  
+  - Syntax and semantics: missing
 - Unicode
-  - nearly all unicode characters and symbols are allowed. it is the resonsibility of the authors to not create messy documents
-- Tabs
-  - a tab is interpreted as the equivalent of 4 spaces
+  
+  - Semantics: nearly all unicode characters and symbols are allowed. it is the resonsibility of the authors to not create messy documents
+  
+  - Syntax and semantics: a tab is interpreted as the equivalent of 4 spaces
 - Pre-formatted text
-  - Block code
-  - Syntax highlighting
-  - Block quotations
-- Comments
-  - comments are written in between a "\<-" "-\>" sequence
-  - xxxx xxxxxx \<- this is a comment -\> xxxx xx
-  - comments can be inserted everywhere,
-  - they are invisible if the document is rendered 
-- No HTML
-  - html-elements cannot be used in a gMD document
-  - due to the possibilities given by attributes, styles and tagging this not neccessary
+  - Syntax and semantics: code block
+  - Syntax and semantics: syntax highlighting
+  - Syntax and semantics: quotation block
+- Semantics explanation: Html-elements cannot be used in a gMD document
 
 
 
