@@ -5,10 +5,10 @@
 
 gematik Markdown Prototyp
 
-Dieses Repository dient der Entwicklung der initialen Syntaxdefinition für den Prototyp eines freien menschen- und 
+Dieses Repository dient der Entwicklung der initialen Syntaxdefinition (siehe: [gmd-syntax.md](gmd-syntax.md)) für den Prototyp eines freien menschen- und 
 maschinenlesbaren Formats für die zulassungsrelevanten Dokumente der [gematik]. gMD basiert auf [CommonMark]¹ und 
 wird durch die Definitionen in input/[gmd-definitions.yml] erweitert.
-/// _This repository is for development of the initial syntax definition for certification-relevant gematik documents. 
+/// _This repository is for development of the initial syntax definition (see: gmd-syntax.md)for certification-relevant gematik documents. 
 gMD is based on CommonMark¹ and is extended by the definitions found in input/gmd-definitions.yml._
 
 Aktuelle Testbeispiele ٭ _current test examples_:
