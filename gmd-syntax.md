@@ -1,6 +1,13 @@
 # gMD Syntax
 
-Contents: [Definition](#definition) [Graphs](#graphs) [Examples](#examples) [Todo](#todo)
+- [Definition](#definition) 
+- [Graphs](#graphs)
+- [Examples](#examples) 
+  - [Paragraph Examples](#paragraph_examples)
+  - [Heading Examples](#heading_examples)
+  - [Link Examples](#link_examples)
+  - [Image Examples](#image_examples)
+- [Todo](#todo)
 
 ## Definition
 
@@ -35,43 +42,51 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
 
 ## Examples
 
-| Paragraph Examples                                            | Explanation                              |
-|:--------------------------------------------------------------|:-----------------------------------------|
-| The quick brown fox<br>jumps over the leazy wall.             | multiline paragraph                      |
-| &nbsp;&nbsp;The brown fox<br>&nbsp;&nbsp;over the leazy wall. | multiline paragraph with indentation     |
-| The quick brown↵ fox jumps over↵ the leazy wall.              | paragraph with manual line breaks        |
+### Paragraph Examples
 
-| Heading Examples                                              | Explanation                              |
-|:--------------------------------------------------------------|:-----------------------------------------|
-| # Section One                                                 | heading h1 traditional form              |
-| #. Section One                                                | heading h1 with automatic numbering      |
-| # 1. Section One                                              | heading h1 with manual numbering         |
-| ## Section One One                                            | heading h2 traditional form              |
-| #.# Section One One                                           | heading h2 with automatic numbering      |
-| # 1.1 Section One One                                         | heading h2 with manual numbering         |
-| ### This Is A Really<br>Very long Heading                     | heading h3 spanning multiple lines       |
-| #.#.# This Heading Has↵ A Manual Line Break                   | heading h3 with manual line breaks       |
+|                                                              | Explanation                          |
+| :----------------------------------------------------------- | :----------------------------------- |
+| The quick brown fox<br>jumps over the leazy wall.            | multiline paragraph                  |
+| &nbsp;&nbsp;The brown fox<br>&nbsp;&nbsp;over the leazy wall. | multiline paragraph with indentation |
+| The quick brown↵ fox jumps over↵ the leazy wall.             | paragraph with manual line breaks    |
 
-| Link Examples                           | Explanation                              |
-|:----------------------------------------|:-----------------------------------------|
-| \[gematik\] \<https[]()://gematik.de\>  | link to website                          |
-| \[https[]()://gematik.de]               | link with direct url                     |
-| \[gematik\]                             | link alias usage                         |
-| \[gematik homepage\] \<gematik\>        | link alias usage with different title    |
-| \[gematik\]: \<https[]()://gematik.de\> | link alias definition                    |
-| \[License] \<./license.txt\>            | link to local resource                   |
+### Heading Examples
 
-| Image Examples                                       | Explanation                               |
-|:-----------------------------------------------------|:------------------------------------------|
-| !\[gematik logo\] \<https[]()://gematik.de/logo\>    | image from website                        |
-| !\[https[]()://gematik.de/logo\]                     | image with direct url                     |
-| !\[logo\]                                            | image alias usage                         |
-| !\[company logo\] \<logo\>                           | image alias usage with different title    |
-| !\[logo\]: \<https[]()://gematik.de/logo\>           | image alias definition                    |
-| !\[local logo\] \<./logo\>                           | image from local resource                 |
-| !\[local logo\] \<data:image/svg;base64,IVBORUIH\>   | image from embedded source (data_uri)     |
-|                                                      | image scaling                             |
-|                                                      | image horizontal and vertical alignment   |
+|                                             | Explanation                         |
+| :------------------------------------------ | :---------------------------------- |
+| # Section One                               | heading h1 traditional form         |
+| #. Section One                              | heading h1 with automatic numbering |
+| # 1. Section One                            | heading h1 with manual numbering    |
+| ## Section One One                          | heading h2 traditional form         |
+| #.# Section One One                         | heading h2 with automatic numbering |
+| # 1.1 Section One One                       | heading h2 with manual numbering    |
+| ### This Is A Really<br>Very long Heading   | heading h3 spanning multiple lines  |
+| #.#.# This Heading Has↵ A Manual Line Break | heading h3 with manual line breaks  |
+
+### Link Examples
+
+|                                         | Explanation                           |
+| :-------------------------------------- | :------------------------------------ |
+| \[gematik\] \<https[]()://gematik.de\>  | link to website                       |
+| \[https[]()://gematik.de]               | link with direct url                  |
+| \[gematik\]                             | link alias usage                      |
+| \[gematik homepage\] \<gematik\>        | link alias usage with different title |
+| \[gematik\]: \<https[]()://gematik.de\> | link alias definition                 |
+| \[License] \<./license.txt\>            | link to local resource                |
+
+### Image Examples
+
+|                                                    | Explanation                             |
+| :------------------------------------------------- | :-------------------------------------- |
+| !\[gematik logo\] \<https[]()://gematik.de/logo\>  | image from website                      |
+| !\[https[]()://gematik.de/logo\]                   | image with direct url                   |
+| !\[logo\]                                          | image alias usage                       |
+| !\[company logo\] \<logo\>                         | image alias usage with different title  |
+| !\[logo\]: \<https[]()://gematik.de/logo\>         | image alias definition                  |
+| !\[local logo\] \<./logo\>                         | image from local resource               |
+| !\[local logo\] \<data:image/svg;base64,IVBORUIH\> | image from embedded source (data_uri)   |
+|                                                    | image scaling                           |
+|                                                    | image horizontal and vertical alignment |
 
 ## Todo
 
