@@ -58,7 +58,6 @@ _produced using the PlantUML generation service at https://www.plantuml.com/plan
 | # $. Section One                              | heading h1 with automatic numbering |
 | # 1. Section One                              | heading h1 with manual numbering    |
 | ## Section One One                            | heading h2 traditional form         |
-| # $.$ Section One One                         | heading h2 with automatic numbering |
 | # 1.1 Section One One                         | heading h2 with manual numbering    |
 | ### This Is A Really<br>Very long Heading     | heading h3 spanning multiple lines  |
 | # $.$.$ This Heading Has↵ A Manual Line Break | heading h3 with manual line break   |
