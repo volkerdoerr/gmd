@@ -1,16 +1,6 @@
 # gMD Syntax
 
-- [Graphs](#graphs)
-- [Examples](#examples) 
-  - [Paragraph Examples](#paragraph-examples)
-  - [Heading Examples](#heading-examples)
-  - [Link Examples](#link-examples)
-  - [Image Examples](#image-examples)
-- [Todo](#todo)
-
-## Graphs
-
-Generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf) using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/.
+generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf)
 
 ![](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf)
 
