@@ -12,7 +12,7 @@
 
 Generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf) using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/.
 
-![](https://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf)
+![](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf)
 
 ## Examples
 
