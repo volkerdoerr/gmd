@@ -1,7 +1,7 @@
 @startebnf
 
-(*- any sequence that does not match the syntax-definition is treated as ordinary text. 
-- semantically incorrect tags are treated as syntactically incorrect.*)
+(*- any syntactically incorrect sequence is treated as ordinary text. 
+- any semantically incorrect sequence is treated as ordinary text. *)
 
 gMD = {"eol"}, {List|Table|Paragraph}, {"eol"};
 
