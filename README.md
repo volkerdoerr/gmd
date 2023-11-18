@@ -1,9 +1,9 @@
-<a href="gmd-syntax.md#graphs"><img src="gmd-table-syntax.svg" align="right" width="40%" style="border: solid;"></a>
-
 [![CC BY 4.0][cc-by-shield]][cc-by]
 [![][ci-badge]][ci.yml]
 
 # gMD
+
+<a href="gmd-syntax.md#graphs"><img src="gmd-syntax.svg" align="right" width="33%" style="border: solid;"></a>
 
 gematik Markdown Prototyp
 
@@ -47,19 +47,21 @@ Alle resultierenden Dateien werden automatisch nach [gemspec.online] gepusht. Da
 /// _The resulting files are pushed automatically to gemspec.online, the log of the most recent run can be 
 found in gemspec.online/log.txt._
 
-- Anbietertypsteckbriefe: [gemspec.online/gemAnbT]  
-  Anwendungssteckbriefe: [gemspec.online/gemAnw]  
-  Featuredokumente: [gemspec.online/gemF]  
-  Implementierungsleitfäden: [gemspec.online/gemILF]  
-  übergreifende Konzepte: [gemspec.online/gemKPT]  
-  Produkttypsteckbriefe: [gemspec.online/gemProdT]  
-  Richtlinien: [gemspec.online/gemRL]  
-  S/MIME-Profile: [gemspec.online/gemSMIME]  
-  PS-Schnittstellen: [gemspec.online/gemSST]  
-  Spezifikationen: [gemspec.online/gemSpec]  
-  Verzeichnisse: [gemspec.online/gemVZ]  
-  Wartungsthemen: [gemspec.online/maintenance]  
-  TI 2.0: [gemspec.online/TI2.0]
+| Type                      | Directory    Link            |
+|---------------------------|------------------------------|
+| Anbietertypsteckbriefe    | [gemspec.online/gemAnbT]     | 
+| Anwendungssteckbriefe     | [gemspec.online/gemAnw]      | 
+| Featuredokumente          | [gemspec.online/gemF]        | 
+| Implementierungsleitfäden | [gemspec.online/gemILF]      | 
+| übergreifende Konzepte    | [gemspec.online/gemKPT]      | 
+| Produkttypsteckbriefe     | [gemspec.online/gemProdT]    |  
+| Richtlinien               | [gemspec.online/gemRL]       | 
+| S/MIME-Profile            | [gemspec.online/gemSMIME]    | 
+| PS-Schnittstellen         | [gemspec.online/gemSST]      | 
+| Spezifikationen           | [gemspec.online/gemSpec]     | 
+| Verzeichnisse             | [gemspec.online/gemVZ]       | 
+| Wartungsthemen            | [gemspec.online/maintenance] | 
+| TI 2.0                    | [gemspec.online/TI2.0]       | 
 
 ---
 
