@@ -1,7 +1,6 @@
 @startebnf
 
-(*- any syntactically incorrect sequence is treated as ordinary text. 
-- any semantically incorrect sequence is treated as ordinary text. *)
+(*- any syntactically or semantically incorrect sequence is treated as ordinary text.*)
 
 gMD = {"eol"}, {List|Table|Paragraph}, {"eol"};
 
