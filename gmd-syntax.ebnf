@@ -1,0 +1,88 @@
+@startebnf
+
+(*- any sequence that does not match the syntax-definition is treated as ordinary text. 
+- a syntactically correct detected sequence must also match the semantic rules, otherwise it is treated as ordinary text.
+- semantically incorrect tags are treated as syntactically incorrect.*)
+
+gMD = {"eol"}, {List|Table|Paragraph}, {"eol"};
+
+(*- comments start with "<-" and end with "->" and can be inserted everwhere.*)
+
+Paragraph = Indent, [HeadingMarker], Text, "eol", {Indent, Text, "eol"}, "eol";
+
+(*- indent must be the same for all lines, otherwise it is ignored. *)
+
+HeadingMarker = "#", ({"#"}|number, ".", [number, {".", number}]|"$", ".", ["$", {".", "$"}]);
+
+(*- automatic numbering by using the "$" character instead of manual numbers.*)
+
+Text = {Link|Image|HorRuler|NewLine|"<", Tag, ">"|TagDefinition|Modifier|"\", "chr"|"chr"};
+
+(*- usage of undefined tags is not allowed.
+- gMD has predefined and reserved tags.
+- other tag definitions can be written inside the document or included (tag definition and include syntax not yet specified)
+- escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
+
+Link = "[", (Title, "]", [":"], "<", (URL|AliasTitle), ">" | (AliasTitle|URL), "]"); 
+
+(*- usage of alias title need alias definition elsewhere in the document (in front or behind does not matter) *)
+
+Image = "!", "[", (Title, "]", [":"], "<", (URL|DataURI|AliasTitle), ">" | (AliasTitle|URL), "]"); 
+
+Modifier = ("**"|"~~"|"^^"|"__");
+
+(*- the sequence "**" is for bold on/off, "\~\~" is for italic on/off, "^^" is for suberscript on/off, "__" is for subscript on/off.*)
+
+HorRuler = ("-----"|"=====");
+
+(*- thin line: using "-" 
+- thick line: using "="
+- the lenght must be exact 5 characters*)
+
+NewLine = "↵";
+
+List = ListItem, "eol", {ListItem, "eol"}, "eol";
+
+ListItem = Indent, ListMarker, Text, { "eol", Indent, Text};
+
+ListMarker = (number, "."|letter, ")"|"$", ("."|")")|"*"|"-");
+
+(*- manual numbered item: starts with number followed by ".". 
+- manual alphabetical item: starts with letter followed by ")". 
+- automatic numbered item: starts with "$" followed by "."; increments the preceeding item, default is 1. 
+- automatic alphabetical item: starts with "$" followed by ")"; increments the preceeding item, default is a. 
+- bullet list: starts with "*"
+- dashed list: starts with "-" *)
+
+Table = Row, "eol", {Row, "eol"}, [TableFooter, "eol"], "eol"; 
+
+Row = [RulerLine, "eol"], ContentLine, {">", "eol", ContentLine}; 
+
+(*- multi-line rows are possible by the continuation-character ">" at the end of a content line. *)
+
+TableFooter = RulerLine, [ "eol", FooterLine, {"eol", FooterLine}, "eol", RulerLine ], "eol" ;
+
+RulerLine = "|", CellRuler, "|", {CellRuler, "|"};
+
+ContentLine = "|", [CellSpan], Text, "|", {[CellSpan], Text, "|"};
+
+(*- each cell can start with a colspan/rowspan definition.*)
+
+FooterLine = "|", {chr}, "|";
+
+(*- the footer line is reserved for future use*)
+
+CellRuler = (":"|"="|"-"), ("="|"-"), {"="|"-"}, (":"|"="|"-");
+
+(*- a ruler with "=" characters defines the cell above as header cell.
+- a ruler with "-" characters defines the cell above as normal cell.
+- a ruler with ":" defines the alignment for all cells below (until the appearance of the next ruler with ":").
+- left-align: ruler starts with ":", right-align: ruler ends with ":", center-align: ruler starts and ends with ":".
+- mixed usage of "=" and "-" is not allowed.*)
+
+CellSpan = ("/", [number], [ ">", [number]] | ">", [number] );
+
+(*- colspan: starts with ">" followed by the number of columns to span; no number means 1.
+- rowspan: starts with "/" followed by the number of rows to span; no number means 1.*)
+
+@endebnf
