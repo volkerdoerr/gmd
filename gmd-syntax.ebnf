@@ -107,7 +107,8 @@ CellRuler = ( ":"
 - left-align: ruler starts with ":", right-align: ruler ends with ":", center-align: ruler starts and ends with ":".
 - mixed usage of "=" and "-" is not allowed.*)
 
-CellSpan = ( "/", [ number ], [ ">", [ number ] ] | ">", [ number ] );
+CellSpan = ( "/", [ number ], [ ">", [ number ] ] 
+           | ">", [ number ] );
 
 (*- colspan: starts with ">" followed by the number of columns to span; no number means 1.
 - rowspan: starts with "/" followed by the number of rows to span; no number means 1.*)
