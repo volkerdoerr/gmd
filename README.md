@@ -3,7 +3,7 @@
 
 # gMD
 
-<a href="gmd-syntax.md#graphs"><img src="https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf" align="right" width="33%" style="border: solid;"></a>
+<a href="gmd-syntax.md#graphs"><img src="https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf" align="right" width="40%" style="border: solid;"></a>
 
 g<sub>ema</sub>TI<sup>k</sup> Markdown Prototype
 
