@@ -1,4 +1,4 @@
-<a href="gmd-syntax.md#graphs"><img src="gmd-table-syntax.svg" align="right" width="45%" style="border: solid;"></a>
+<a href="gmd-syntax.md#graphs"><img src="gmd-table-syntax.svg" align="right" width="40%" style="border: solid;"></a>
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 [![][ci-badge]][ci.yml]
