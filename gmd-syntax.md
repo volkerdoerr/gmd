@@ -35,9 +35,10 @@ CellSpan = ("/", [number], [ ">", [number]] | ">", [number] );
 ```
 
 ## Graphs
-![](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf&fmt=svg)
 
-_produced using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/_ 
+Generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf) using the PlantUML generation service at https://www.plantuml.com/plantuml/uml/.
+
+![](https://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf)
 
 ## Examples
 
