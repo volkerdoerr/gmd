@@ -17,8 +17,7 @@ Aktuelle Testbeispiele ٭ _current test examples_:
 
 [output/gemKPT_Betr_V3.21.0.gmd.txt]  
 [output/gemSpec_CM_KOMLE_V1.16.0.gmd.txt]  
-[output/gemSpec_ePA_FdV_V1.51.0.gmd.txt]  
-[output/gemProdT_Kon_Highspeed_PTV_1.3.0-0_V1.0.0.gmd.txt]
+[output/gemSpec_ePA_FdV_V1.51.0.gmd.txt]
 
 ¹) Es gibt leider keinen (modernen) Markdown-Standard; CommonMark ist aber ein allgemein anerkannter Dialekt 
 mit Unterstützung durch GitHub, GitLab, Reddit, Qt, Stack Overflow und anderen.
