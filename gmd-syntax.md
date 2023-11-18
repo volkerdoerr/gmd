@@ -1,6 +1,5 @@
 # gMD Syntax
 
-- [Definition](#definition) 
 - [Graphs](#graphs)
 - [Examples](#examples) 
   - [Paragraph Examples](#paragraph-examples)
@@ -8,31 +7,6 @@
   - [Link Examples](#link-examples)
   - [Image Examples](#image-examples)
 - [Todo](#todo)
-
-## Definition
-
-```
-gMD = {"eol"}, {List|Table|Paragraph}, {"eol"};
-Paragraph = Indent, [HeadingMarker], Text, "eol", {Indent, Text, "eol"}, "eol";
-HeadingMarker = "#", ({"#"} |number, ".", [number, {".", number}] |"$", ".", ["$", {".", "$"}]);
-Text = {Link|Image|HorRuler|NewLine|"<", Tag, ">"|TagDefinition|Modifier|"\", "chr"|"chr"};
-Link = "[", (Title, "]", [":"], "<", (URL|AliasTitle), ">" | (AliasTitle|URL), "]"); 
-Image = "!", "[", (Title, "]", [":"], "<", (URL|DataURI|AliasTitle), ">" | (AliasTitle|URL), "]"); 
-Modifier = ("**"|"~~"|"^^"|"__");
-HorRuler = ("-----"|"=====");
-NewLine = "↵";
-List = ListItem, "eol", {ListItem, "eol"}, "eol";
-ListItem = Indent, ListMarker, Text, { "eol", Indent, Text};
-ListMarker = (number, "."|letter, ")"|"$", ("."|")")|"*"|"-");
-Table = Row, "eol", {Row, "eol"}, [TableFooter, "eol"], "eol"; 
-Row = [RulerLine, "eol"], ContentLine, {">", "eol", ContentLine}; 
-TableFooter = RulerLine, [ "eol", FooterLine, {"eol", FooterLine}, "eol", RulerLine ], "eol" ;
-RulerLine = "|", CellRuler, "|", {CellRuler, "|"};
-ContentLine = "|", [CellSpan], Text, "|", {[CellSpan], Text, "|"};
-FooterLine = "|", {chr}, "|";
-CellRuler = (":"|"="|"-"), ("="|"-"), {"="|"-"}, (":"|"="|"-");
-CellSpan = ("/", [number], [ ">", [number]] | ">", [number] );
-```
 
 ## Graphs
 
