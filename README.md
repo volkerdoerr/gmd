@@ -3,9 +3,7 @@
 
 # gMD
 
-<a href="gmd-syntax.md#graphs"><img src="gmd-syntax.svg" align="right" width="33%" style="border: solid;"></a>
-
-<!-- http://www.plantuml.com/plantuml/proxy?idx=1&cache=no&fmt=svg&src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt -->
+<a href="gmd-syntax.md#graphs"><img src="[gmd-syntax.svg](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf&fmt=svg)" align="right" width="33%" style="border: solid;"></a>
 
 g<sub>ema</sub>TI<sup>k</sup> Markdown Prototype
 
