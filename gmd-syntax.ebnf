@@ -2,32 +2,56 @@
 
 (*- any syntactically or semantically incorrect sequence is treated as ordinary text.*)
 
-gMD = {"eol"}, {List|Table|Paragraph}, {"eol"};
+gMD = {"eol"}, { List
+               | Table
+               | Paragraph }, {"eol"};
 
 (*- comments start with "<-" and end with "->" and can be inserted everwhere.*)
 
-Paragraph = Indent, [HeadingMarker], Text, "eol", {Indent, Text, "eol"}, "eol";
+Paragraph = Indent, [HeadingMarker], Text, "eol", { Indent, 
+                                                    Text, 
+                                                    "eol" }, "eol";
 
 (*- indent must be the same for all lines, otherwise it is ignored. *)
 
-HeadingMarker = "#", ({"#"}|number, ".", [number, {".", number}]|"$", ".", ["$", {".", "$"}]);
+HeadingMarker = "#", ( {"#"} 
+                     | number, ".", [number, {".", number}]
+                     | "$", ".", ["$", {".", "$"}] );
 
 (*- automatic numbering by using the "$" character instead of manual numbers.*)
 
-Text = {Link|Image|HorRuler|NewLine|"<", Tag, ">"|TagDefinition|Modifier|"\", "chr"|"chr"};
+Text = { Link
+       | Image
+       | HorRuler
+       | NewLine
+       | "<", Tag, ">"
+       | TagDefinition
+       | Modifier
+       | "\", "chr"
+       |"chr" };
 
 (*- usage of undefined tags is not allowed.
 - gMD has predefined and reserved tags.
 - other tag definitions can be written inside the document or included (tag definition and include syntax not yet specified)
 - escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
-Link = "[", (Title, "]", [":"], "<", (URL|AliasTitle), ">" | (AliasTitle|URL), "]"); 
+Link = "[", ( Title, "]", [":"], "<", ( URL 
+                                      | AliasTitle), ">" 
+            | ( AliasTitle 
+              | URL ), "]"; 
 
 (*- usage of alias title need alias definition elsewhere in the document (in front or behind does not matter) *)
 
-Image = "!", "[", (Title, "]", [":"], "<", (URL|DataURI|AliasTitle), ">" | (AliasTitle|URL), "]"); 
+Image = "!", "[", ( Title, "]", [":"], "<", ( URL 
+                                            | DataURI 
+                                            | AliasTitle ), ">" 
+                  | ( AliasTitle 
+                    | URL), "]"; 
 
-Modifier = ("**"|"~~"|"^^"|"__");
+Modifier = ( "**"
+           | "~~"
+           | "^^"
+           |"__" );
 
 (*- the sequence "**" is for bold on/off, "\~\~" is for italic on/off, "^^" is for suberscript on/off, "__" is for subscript on/off.*)
 
