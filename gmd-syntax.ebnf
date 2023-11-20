@@ -32,11 +32,18 @@ Text = { Tag
 (*
 - escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
-Tag = "<", TagName, {("+"|"-"), TagName }, ">";
+Tag = StartTag | EndTag;
 
 (*- usage of undefined tag(name)s is not allowed.
 - gMD has predefined and reserved tag(name)s.
 - new tag(name)s are defined using tag definition pragma elsewhere in the document*)
+
+StartTag = "<", TagName, {("+"|"-"), TagName }, ">", Text, "<", "/", ">";
+
+(*- start tags without "/>" need a closing end-tag.  
+- start tags ending with "/>" are considered start-end-tags and do not need an end-tag. *)
+
+EndTag = "<", "/", ">";
 
 Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
