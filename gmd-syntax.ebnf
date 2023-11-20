@@ -1,12 +1,12 @@
 @startebnf
 
-skinparam  DefaultFontName  Courier 10 Pitch
+skinparam  DefaultFontName  Liberation Mono
 skinparam TitleFontStyle italic
 
 
 (* TEST 
 
-Y  Y  Y  x  x  x  x
+X  X  Y  x  x  x  x
          x  x     x
 *)
 
