@@ -35,20 +35,20 @@ Text = { Link
 - other tag definitions can be written inside the document or included (tag definition and include syntax not yet specified)
 - escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
-Link = "[", ( Title, "]", "<", ( URL | LinkAlias ), ">" 
+Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
 
-(*- usage of link alias needs link alias definition elsewhere in the document (in front or behind does not matter) *)
+(*- link alias usage requires an alias definition pragma elsewhere in the document *)
 
-Image = "!", "[", ( Title, "]", "<", ( URL | DataURI ), ">" 
+Image = "!", "[", ( Title, "]", ":", "<", ( URL | DataURI ), ">" 
                   | ( URL | ImageAlias ), "]");
 
-(*- usage of image alias needs image alias definition elsewhere in the document (in front or behind does not matter) *)
+(*- image alias usage requires an alias definition pragma elsewhere in the document *)
 
-Crypt = "§", "[", ( Title, "]", "<", Base64Encrypted, ",", Base64PubKey, ">" 
+Crypt = "§", "[", ( Title, "]", ":", "<", Base64Encrypted, ",", Base64PubKey, ">" 
                   | CryptAlias, "]" ); 
 
-(*- usage of crypt alias needs crypt alias definition elsewhere in the document (in front or behind does not matter) *)
+(*- crypt alias usage requires an alias definition pragma elsewhere in the document *)
 
 Modifier = ( "**"
            | "~~"
@@ -119,5 +119,18 @@ CellSpan = ( "/", [ number ], [ ">", [ number ] ]
 
 (*- colspan: starts with ">" followed by the number of columns to span; no number means 1.
 - rowspan: starts with "/" followed by the number of rows to span; no number means 1.*)
+
+Pragma = Indent, "$", ( LinkAliasDefinition
+                      | ImageAliasDefinition
+                      | CryptAliasDefinition ), "eol";
+
+(*- pragmas are tokens that may occur anywhere in a comment
+- only one pragma per line is allowed, nothing else *)
+
+LinkAliasDefinition = "[", LinkAlias, "]", ":", "<", ( URL | LinkAlias ), ">";
+
+ImageAliasDefinition = "!", "[", ImageAlias, "]", ":", "<", ( URL | DataURI ), ">";
+
+CryptAliasDefinition = "§", "[", CryptAlias, "]", ":", "<", Base64Encrypted, ",", Base64PubKey, ">" ;
 
 @endebnf
