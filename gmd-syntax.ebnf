@@ -2,7 +2,11 @@
 skinparam  DefaultFontName  ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace
 skinparam TitleFontStyle italic
 
-(* TEST *)
+(* TEST 
+
+x  x  x  x  x  x  x
+         x  x     x
+*)
 
 (*- any syntactically or semantically incorrect sequence is treated as ordinary text.*)
 
