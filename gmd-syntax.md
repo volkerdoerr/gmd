@@ -28,28 +28,28 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 
 ### Link Examples
 
-|                                         | Explanation                           |
-| :-------------------------------------- | :------------------------------------ |
-| \[gematik\] \<https[]()://gematik.de\>  | link to website                       |
-| \[https[]()://gematik.de]               | link with direct url                  |
-| \[gematik\]                             | link alias usage                      |
-| \[gematik homepage\] \<gematik\>        | link alias usage with different title |
-| \[gematik\]: \<https[]()://gematik.de\> | link alias definition                 |
-| \[License] \<./license.txt\>            | link to local resource                |
+|                                                   | Explanation                           |
+| :------------------------------------------------ | :------------------------------------ |
+| \[gematik\]: \<https[]()://gematik.de\>           | link to website                       |
+| \[https[]()://gematik.de]                         | link with direct url                  |
+| \[gematik\]                                       | link alias usage                      |
+| \[gematik homepage\]: \<gematik\>                 | link alias usage with different title |
+| \<- $ \[gematik\]: \<https[]()://gematik.de\> -\> | link alias definition                 |
+| \[License]: \<./license.txt\>                     | link to local resource                |
 
 ### Image Examples
 
-|                                                    | Explanation                             |
-| :------------------------------------------------- | :-------------------------------------- |
-| !\[gematik logo\] \<https[]()://gematik.de/logo\>  | image from website                      |
-| !\[https[]()://gematik.de/logo\]                   | image with direct url                   |
-| !\[logo\]                                          | image alias usage                       |
-| !\[company logo\] \<logo\>                         | image alias usage with different title  |
-| !\[logo\]: \<https[]()://gematik.de/logo\>         | image alias definition                  |
-| !\[local logo\] \<./logo\>                         | image from local resource               |
-| !\[local logo\] \<data:image/svg;base64,IVBORUIH\> | image from embedded source (data_uri)   |
-|                                                    | image scaling                           |
-|                                                    | image horizontal and vertical alignment |
+|                                                                | Explanation                             |
+| :------------------------------------------------------------- | :-------------------------------------- |
+| !\[gematik logo\] \<https[]()://gematik.de/logo\>              | image from website                      |
+| !\[https[]()://gematik.de/logo\]                               | image with direct url                   |
+| !\[logo\]                                                      | image alias usage                       |
+| !\[company logo\] \<logo\>                                     | image alias usage with different title  |
+| \<- alias:<br>$ !\[logo\]: \<https[]()://gematik.de/logo\> -\> | image alias definition                  |
+| !\[local logo\] \<./logo\>                                     | image from local resource               |
+| !\[local logo\] \<data:image/svg;base64,IVBORUIH\>             | image from embedded source (data_uri)   |
+|                                                                | image scaling                           |
+|                                                                | image horizontal and vertical alignment |
 
 ## Todo
 
@@ -65,15 +65,8 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
   - preprocessing directive: tha means that a document is processed after the includes have been loaded.
   - dealining with dependencies beween includes is author's responsibility
   
-- Encryption
-  - Text can be stored in encrypted form
-  - syntax: §[Title]<PubKeyBase64 or PubKeyAlias, EncryptedTextBase64> 
-  - usage of public key alias needs alias definition somewhere (in front or behing) in the document
-
 - Alias Definition and usage
-  - alias definition: $[AliasName]: <AliasValue>
   - an aliasname must be unique in the scope of the whole document
-  - alias definitions are allowed in comments only (and are therefore not redered)
   
 - Unicode  
   - Semantics: nearly all unicode characters and symbols are allowed. it is the resonsibility of the authors to not create messy documents  
