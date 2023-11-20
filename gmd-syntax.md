@@ -64,9 +64,14 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
   - Syntax and semantics: missing
   - preprocessing directive: tha means that a document is processed after the includes have been loaded.
   - dealining with dependencies beween includes is author's responsibility
-  
-- Alias Definition and usage
-  - an aliasname must be unique in the scope of the whole document
+
+- Calculated Contents
+  - =[Expression]
+  - pure functions only
+  - every expression produces a value
+  - no sideeffects at all
+  - gMD has predefined functions
+  - additional functions can be defined using pragmas 
   
 - Unicode  
   - Semantics: nearly all unicode characters and symbols are allowed. it is the resonsibility of the authors to not create messy documents  
