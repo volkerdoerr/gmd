@@ -128,7 +128,7 @@ Pragma = Indent, "$", ( TagDefinition
 - overriding of predefined or reserved tags is forbidden.
 - any tag or alias must be unique for the whole document. *)
 
-TagDefinition = TagName, [":=", "(", TagName, {("+"|"-"), TagName }, ")" ], ["--", Description];
+TagDefinition = TagName, [":=", "<", TagName, {("+"|"-"), TagName }, ">" ], ["--", Description];
 
 LinkAliasDefinition = "[", LinkAlias, "]", ":=", "<", ( URL | LinkAlias ), ">";
 
