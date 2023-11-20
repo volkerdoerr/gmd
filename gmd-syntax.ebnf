@@ -1,5 +1,8 @@
 @startebnf
 skinparam  DefaultFontName  ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace
+skinparam TitleFontStyle italic
+
+(* TEST *)
 
 (*- any syntactically or semantically incorrect sequence is treated as ordinary text.*)
 
