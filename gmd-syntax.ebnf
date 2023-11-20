@@ -1,5 +1,5 @@
 @startebnf
-skinparam  DefaultFontName  Courier
+skinparam  DefaultFontName  ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace
 
 (*- any syntactically or semantically incorrect sequence is treated as ordinary text.*)
 
