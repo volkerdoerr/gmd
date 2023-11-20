@@ -8,11 +8,11 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 
 ### Paragraph Examples
 
-|                                                              | Explanation                          |
-| :----------------------------------------------------------- | :----------------------------------- |
-| The quick brown fox<br>jumps over the leazy wall.            | multiline paragraph                  |
+|                                                               | Explanation                          |
+| :------------------------------------------------------------ | :----------------------------------- |
+| The quick brown fox<br>jumps over the leazy wall.             | multiline paragraph                  |
 | &nbsp;&nbsp;The brown fox<br>&nbsp;&nbsp;over the leazy wall. | multiline paragraph with indentation |
-| The quick brown↵ fox jumps over↵ the leazy wall.             | paragraph with manual line breaks    |
+| The quick brown↵ fox jumps over↵ the leazy wall.              | paragraph with manual line breaks    |
 
 ### Heading Examples
 
@@ -54,8 +54,6 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 ## Todo
 
 - Tags
-  - Syntax and semantics: tag definition
-  - Syntax and semantics: combination of tags 
   - Semantics: opening tags must be closed by \</\> tag,  or defined as  short form
   - Semantics: Short forms finish at next whitespace.
   - Examples: like \<green\>xxx xxx\</\>, short form <id/\> or combination \<ita;14pt;green\>xxxx xxxx\</\>
