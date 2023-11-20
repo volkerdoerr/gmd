@@ -20,18 +20,23 @@ HeadingMarker = "#", ( { "#" }
 
 (*- automatic numbering by using the "$" character instead of manual numbers.*)
 
-Text = { Link
+Text = { Tag
+       | Link
        | Image
        | HorRuler
        | NewLine
-       | "<", Tag, ">"
        | Modifier
        | "\", "chr"
        |"chr" };
 
-(*- usage of undefined tags is not allowed.
-- gMD has predefined and reserved tags.
+(*
 - escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
+
+Tag = "<", TagName, {("+"|"-"), TagName }, ">";
+
+(*- usage of undefined tag(name)s is not allowed.
+- gMD has predefined and reserved tag(name)s.
+- new tag(name)s are defined using tag definition pragma elsewhere in the document*)
 
 Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
@@ -124,16 +129,25 @@ Pragma = Indent, "$", ( TagDefinition
                       | CryptAliasDefinition ), "eol";
 
 (*- pragmas are tokens that may occur anywhere in a comment.
-- only one pragma per comment-line is allowed. 
-- overriding of predefined or reserved tags is forbidden.
-- any tag or alias must be unique for the whole document. *)
+- only one pragma per comment-line is allowed.*)
 
-TagDefinition = TagName, [":=", "<", TagName, {("+"|"-"), TagName }, ">" ], ["--", Description];
+TagDefinition = "<", NewTagName, ">", [":=", "<", NewTagName, {("+"|"-"), TagName }, ">" ];
 
-LinkAliasDefinition = "[", LinkAlias, "]", ":=", "<", ( URL | LinkAlias ), ">";
+(*- gMD has predefined and reserved tag(names)s.
+- overriding of already defined or reserved tag(name)s is forbidden.
+- new tag name must be repeated before adding or subtracting other tag(name)s.
+- tag names to be added or subtracted must be defined elsewhere in the document*)
 
-ImageAliasDefinition = "!", "[", ImageAlias, "]", ":=", "<", ( URL | DataURI ), ">";
+LinkAliasDefinition = "[", NewLinkAlias, "]", ":=", "<", ( URL | LinkAlias ), ">";
 
-CryptAliasDefinition = "§", "[", CryptAlias, "]", ":=", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" ;
+(*- overriding of already defined link alias is forbidden.*)
+
+ImageAliasDefinition = "!", "[", NewImageAlias, "]", ":=", "<", ( URL | DataURI ), ">";
+
+(*- overriding of already defined image alias is forbidden.*)
+
+CryptAliasDefinition = "§", "[", NewCryptAlias, "]", ":=", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" ;
+
+(*- overriding of already defined crypt alias is forbidden.*)
 
 @endebnf
