@@ -45,7 +45,7 @@ Image = "!", "[", ( Title, "]", ":", "<", ( URL | DataURI ), ">"
 
 (*- image alias usage requires an alias definition pragma elsewhere in the document *)
 
-Crypt = "§", "[", ( Title, "]", ":", "<", Base64Encrypted, ",", Base64PubKey, ">" 
+Crypt = "§", "[", ( Title, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
                   | CryptAlias, "]" ); 
 
 (*- crypt alias usage requires an alias definition pragma elsewhere in the document *)
@@ -124,13 +124,14 @@ Pragma = Indent, "$", ( LinkAliasDefinition
                       | ImageAliasDefinition
                       | CryptAliasDefinition ), "eol";
 
-(*- pragmas are tokens that may occur anywhere in a comment
-- only one pragma per line is allowed, nothing else *)
+(*- pragmas are tokens that may occur anywhere in a comment.
+- only one pragma per comment-line. 
+- any alias must be unique for the whole document. *)
 
 LinkAliasDefinition = "[", LinkAlias, "]", ":", "<", ( URL | LinkAlias ), ">";
 
 ImageAliasDefinition = "!", "[", ImageAlias, "]", ":", "<", ( URL | DataURI ), ">";
 
-CryptAliasDefinition = "§", "[", CryptAlias, "]", ":", "<", Base64Encrypted, ",", Base64PubKey, ">" ;
+CryptAliasDefinition = "§", "[", CryptAlias, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" ;
 
 @endebnf
