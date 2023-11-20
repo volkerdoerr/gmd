@@ -25,14 +25,12 @@ Text = { Link
        | HorRuler
        | NewLine
        | "<", Tag, ">"
-       | TagDefinition
        | Modifier
        | "\", "chr"
        |"chr" };
 
 (*- usage of undefined tags is not allowed.
 - gMD has predefined and reserved tags.
-- other tag definitions can be written inside the document or included (tag definition and include syntax not yet specified)
 - escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
 Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">" 
@@ -120,18 +118,22 @@ CellSpan = ( "/", [ number ], [ ">", [ number ] ]
 (*- colspan: starts with ">" followed by the number of columns to span; no number means 1.
 - rowspan: starts with "/" followed by the number of rows to span; no number means 1.*)
 
-Pragma = Indent, "$", ( LinkAliasDefinition
+Pragma = Indent, "$", ( TagDefinition 
+                      | LinkAliasDefinition
                       | ImageAliasDefinition
                       | CryptAliasDefinition ), "eol";
 
 (*- pragmas are tokens that may occur anywhere in a comment.
-- only one pragma per comment-line. 
-- any alias must be unique for the whole document. *)
+- only one pragma per comment-line is allowed. 
+- overriding of predefined or reserved tags is forbidden.
+- any tag or alias must be unique for the whole document. *)
 
-LinkAliasDefinition = "[", LinkAlias, "]", ":", "<", ( URL | LinkAlias ), ">";
+TagDefinition = TagName, [":=", "(", TagName, {("+"|"-"), TagName }, ")" ], ["--", Description];
 
-ImageAliasDefinition = "!", "[", ImageAlias, "]", ":", "<", ( URL | DataURI ), ">";
+LinkAliasDefinition = "[", LinkAlias, "]", ":=", "<", ( URL | LinkAlias ), ">";
 
-CryptAliasDefinition = "§", "[", CryptAlias, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" ;
+ImageAliasDefinition = "!", "[", ImageAlias, "]", ":=", "<", ( URL | DataURI ), ">";
+
+CryptAliasDefinition = "§", "[", CryptAlias, "]", ":=", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" ;
 
 @endebnf
