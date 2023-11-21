@@ -2,11 +2,12 @@
 
 (*- any syntactically or semantically incorrect sequence is treated as ordinary text.*)
 
-gMD = { "eol" }, { List
+gMD = { "eol" }, { Paragraph
+                 | List
                  | Table
-                 | Paragraph }, { "eol" };
+                 | Pragma }, { "eol" };
 
-(*- comments start with "<-" and end with "->" and can be inserted everwhere.*)
+(*- comments start with "<-" and end with "->" anywhere in the document and are not rendered.*)
 
 Paragraph = Indent, [ HeadingMarker ], Text, "eol", { Indent, 
                                                       Text, 
@@ -38,12 +39,15 @@ Tag = StartTag | EndTag;
 - gMD has predefined and reserved tag(name)s.
 - new tag(name)s are defined using tag definition pragma elsewhere in the document*)
 
-StartTag = "<", TagName, {("+"|"-"), TagName }, ">", Text, "<", "/", ">";
+StartTag = "<", TagName, [":", TagValue], ["/"], ">";
 
-(*- start tags without "/>" need a closing end-tag.  
-- start tags ending with "/>" are considered start-end-tags and do not need an end-tag. *)
+(*- tags without "/" must have an end-tag. 
+- tags with "/" are considered auto-closing and must have no end-tag. 
+- auto-closing tags are treated as having the closing tag at the next whitespace after the first following text.*)
 
-EndTag = "<", "/", ">";
+EndTag = "<", "/", {TagName}, ">";
+
+(* if given, tag name must be the same as in the opening tag. *)
 
 Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
@@ -130,30 +134,28 @@ CellSpan = ( "/", [ number ], [ ">", [ number ] ]
 (*- colspan: starts with ">" followed by the number of columns to span; no number means 1.
 - rowspan: starts with "/" followed by the number of rows to span; no number means 1.*)
 
-Pragma = Indent, "$", ( TagDefinition 
-                      | LinkAliasDefinition
-                      | ImageAliasDefinition
-                      | CryptAliasDefinition ), "eol";
+Pragma = "$", ( TagDefinition 
+              | LinkAliasDefinition
+              | ImageAliasDefinition
+              | CryptAliasDefinition ), ";";
 
-(*- pragmas are tokens that may occur anywhere in a comment.
-- only one pragma per comment-line is allowed.*)
+(*- pragmas are not rendered.*)
 
-TagDefinition = "<", NewTagName, ">", [":=", "<", NewTagName, {("+"|"-"), TagName }, ">" ];
+TagDefinition = "<", NewTagName, ">", ":", DefaultValue;
 
-(*- gMD has predefined and reserved tag(names)s.
-- overriding of already defined or reserved tag(name)s is forbidden.
-- new tag name must be repeated before adding or subtracting other tag(name)s.
-- tag names to be added or subtracted must be defined elsewhere in the document*)
+(*- overriding of already defined or reserved tag(name)s is forbidden.
+- gMD has predefined and reserved tag(names)s.
+- DefaultValue is used in case no value is given.*)
 
-LinkAliasDefinition = "[", NewLinkAlias, "]", ":=", "<", ( URL | LinkAlias ), ">";
+LinkAliasDefinition = "[", NewLinkAlias, "]", ":", URL;
 
 (*- overriding of already defined link alias is forbidden.*)
 
-ImageAliasDefinition = "!", "[", NewImageAlias, "]", ":=", "<", ( URL | DataURI ), ">";
+ImageAliasDefinition = "!", "[", NewImageAlias, "]", ":", ( URL | DataURI );
 
 (*- overriding of already defined image alias is forbidden.*)
 
-CryptAliasDefinition = "§", "[", NewCryptAlias, "]", ":=", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" ;
+CryptAliasDefinition = "§", "[", NewCryptAlias, "]", ":", Base64EncryptedText, ",", Base64KeyFingerprint;
 
 (*- overriding of already defined crypt alias is forbidden.*)
 
