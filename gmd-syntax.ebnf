@@ -111,9 +111,9 @@ ContentLine = "|", [ CellSpan ], Text, "|", { [ CellSpan ], Text, "|" };
 
 (*- each cell can start with a colspan/rowspan definition.*)
 
-FooterLine = "|", { chr }, "|";
+FooterLine = "|", Text, "|";
 
-(*- the footer line is reserved for future use*)
+(*- the footer line is reserved for future use and not allowed yet.*)
 
 CellRuler = ( ":"
             | "="
@@ -134,12 +134,20 @@ CellSpan = ( "/", [ number ], [ ">", [ number ] ]
 (*- colspan: starts with ">" followed by the number of columns to span; no number means 1.
 - rowspan: starts with "/" followed by the number of rows to span; no number means 1.*)
 
-Pragma = "$", ( TagDefinition 
+Pragma = "$", ( IncludeDirective
+              | TagDefinition 
               | LinkAliasDefinition
               | ImageAliasDefinition
               | CryptAliasDefinition ), ";";
 
 (*- pragmas are not rendered.*)
+
+IncludeDirective = "include", URL, [ "between", StartDelimValue, [ "and", EndDelimValue ] ];
+
+(*- the document is processed after all includes have been loaded.
+- the included file(s) are rendered as normal contents of the document.
+- if start (and also end) delimiters are given, only the protion behind start (and also before end) is loaded.
+- dealing with dependencies beween includes is author's responsibility.*)
 
 TagDefinition = "<", NewTagName, ">", ":", DefaultValue;
 
