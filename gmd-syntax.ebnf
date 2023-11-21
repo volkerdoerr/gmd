@@ -23,9 +23,10 @@ HeadingMarker = "#", ( { "#" }
 Text = { Tag
        | Link
        | Image
+       | Crypt
        | HorRuler
-       | NewLine
        | Modifier
+       | NewLine
        | "\", "chr"
        |"chr" };
 
@@ -60,14 +61,9 @@ Image = "!", "[", ( Title, "]", ":", "<", ( URL | DataURI ), ">"
 Crypt = "§", "[", ( Title, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
                   | CryptAlias, "]" ); 
 
-(*- crypt alias usage requires an alias definition pragma elsewhere in the document *)
-
-Modifier = ( "**"
-           | "~~"
-           | "^^"
-           | "__" );
-
-(*- the sequence "**" is for bold on/off, "\~\~" is for italic on/off, "^^" is for suberscript on/off, "__" is for subscript on/off.*)
+(*- the crypt is rendered as Title if the crypt key is not available to the renderer.
+- the crypt is rendered as Text if the crypt key is available to the renderer.
+- crypt alias usage requires an alias definition pragma elsewhere in the document *)
 
 HorRuler = ( "-----"
            | "=====" );
@@ -75,6 +71,13 @@ HorRuler = ( "-----"
 (*- thin line: using "-" 
 - thick line: using "="
 - the lenght must be exact 5 characters*)
+
+Modifier = ( "**"
+           | "~~"
+           | "^^"
+           | "__" );
+
+(*- the sequence "**" is for bold on/off, "\~\~" is for italic on/off, "^^" is for suberscript on/off, "__" is for subscript on/off.*)
 
 NewLine = "↵";
 
@@ -134,7 +137,7 @@ CellSpan = ( "/", [ number ], [ ">", [ number ] ]
 (*- colspan: starts with ">" followed by the number of columns to span; no number means 1.
 - rowspan: starts with "/" followed by the number of rows to span; no number means 1.*)
 
-Pragma = "$", ( IncludeDirective
+Pragma = "$", ( IncludeStatement
               | TagDefinition 
               | LinkAliasDefinition
               | ImageAliasDefinition
@@ -142,9 +145,9 @@ Pragma = "$", ( IncludeDirective
 
 (*- pragmas are not rendered.*)
 
-IncludeDirective = "include", URL, [ "between", StartDelimValue, [ "and", EndDelimValue ] ];
+IncludeStatement = "include", URL, [ "between", StartDelimValue, [ "and", EndDelimValue ] ];
 
-(*- the document is processed after all includes have been loaded.
+(*- preprocessing directive: the document is processed after all includes have been loaded.
 - the included file(s) are rendered as normal contents of the document.
 - if start (and also end) delimiters are given, only the protion behind start (and also before end) is loaded.
 - dealing with dependencies beween includes is author's responsibility.*)
