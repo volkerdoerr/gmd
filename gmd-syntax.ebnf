@@ -1,13 +1,12 @@
 @startebnf
 
-(*- any syntactically or semantically incorrect sequence is treated as ordinary text.*)
-
 gMD = { "eol" }, { Paragraph
                  | List
                  | Table
                  | Pragma }, { "eol" };
 
-(*- comments start with "<--" and end with "-->" anywhere in the document and are not rendered.*)
+(*- any syntactically or semantically incorrect sequence is treated as ordinary text.
+- comments go from "//" to end of line and are not rendered.*)
 
 Paragraph = Indent, [ HeadingMarker ], Text, "eol", { Indent, 
                                                       Text, 
@@ -30,8 +29,7 @@ Text = { Tag
        | "\", "chr"
        |"chr" };
 
-(*
-- escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
+(*- escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
 Tag = StartTag | EndTag;
 
@@ -47,7 +45,7 @@ StartTag = "<", TagName, [":", TagValue], ["/"], ">";
 
 EndTag = "<", "/", {TagName}, ">";
 
-(* if given, tag name must be the same as in the opening tag. *)
+(*- if given, tag name must be the same as in the opening tag. *)
 
 Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
@@ -79,6 +77,8 @@ HorRuler = ( "-----"
 - the lenght must be exact 5 characters*)
 
 NewLine = "↵";
+
+(*- unicode "downwards arrow with corner leftwards" (U+21B5). *)
 
 List = ListItem, "eol", { ListItem, "eol" }, "eol";
 
