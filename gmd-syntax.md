@@ -58,15 +58,11 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
   - Semantics: Short forms finish at next whitespace.
   - Examples: like \<green\>xxx xxx\</\>, short form <id/\> or combination \<ita;14pt;green\>xxxx xxxx\</\>
   
-- Includes  
-  - Syntax and semantics: missing
-  - preprocessing directive: tha means that a document is processed after the includes have been loaded.
-  - dealining with dependencies beween includes is author's responsibility
-
 - Calculated Contents
-  - =[Expression]
+  - [=Expression]
   - pure functions only
   - every expression produces a value
+  - references to other "cells" can be used as values
   - no sideeffects at all
   - gMD has predefined functions
   - additional functions can be defined using pragmas 
@@ -74,11 +70,6 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 - Unicode  
   - Semantics: nearly all unicode characters and symbols are allowed. it is the resonsibility of the authors to not create messy documents  
   - Syntax and semantics: a tab is interpreted as the equivalent of 4 spaces
-
-- Pre-formatted text
-  - Syntax and semantics: code block
-  - Syntax and semantics: syntax highlighting
-  - Syntax and semantics: quotation block
 
 - Semantics explanation: Html-elements cannot be used in a gMD document
 
