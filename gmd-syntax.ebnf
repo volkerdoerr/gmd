@@ -12,26 +12,70 @@ Paragraph = Indent, [ HeadingMarker ], Text, "eol", { Indent,
                                                       Text, 
                                                       "eol" }, "eol";
 
-(*- indent must be the same for all lines, otherwise it is ignored. *)
+(*- the indentation of the leftmost character defines the indentation of the whole paragraph.
+- the indentation over multiple lines defines the horizontal alignment of the whole paragraph.*)
+
+(* 
+Test Examples:
+
+""  The quick brown fox jumps over the leazy wall.""
+
+""  The↵quick brown fox↵jumps over the leazy wall.""
+
+""  The quick brown fox ""
+""  jumps over the leazy wall.""
+""  will be left aligned.""
+
+""    The quick brown fox ""
+""    jumps over the leazy wall.""
+
+""      The   quick    brown   fox ""
+""      jumps over the leazy wall.""
+""      will         be justified.""
+
+""             The quick brown fox ""
+""      jumps over the leazy wall.""
+""          will be right aligned.""
+
+""               The  ""
+""         quick brown fox ""
+""    jumps over the leazy wall.""
+""         will be centered.""
+
+""            The↵  ""
+""          quick brown fox↵ ""
+""  jumps over the leazy wall.""
+""    will be centered too.""
+*)
 
 HeadingMarker = "#", ( { "#" } 
                      | number, ".", [ number, { ".", number }, ["."] ]
                      | "$", ".", [ "$", { ".", "$" }, ["."] ] );
 
-(*- automatic numbering by using the "$" character instead of manual numbers.*)
+(*- automatic numbering is obtained by using the "$" character instead of manual numbers.*)
 
-(*~# Section One                 -- heading h1 traditional form
-~# $. Section One             -- heading h1 with automatic numbering
-~# 1. Section One             -- heading h1 with manual numbering
-~## Section One One       -- heading h2 traditional form
-~# 1.1 Section One One    -- heading h2 with manual numbering
-~# 1.1. Section One One   -- heading h2 with manual numbering
-~### This Is Not A           -- heading h3 spanning two lines
-     Very long Heading
-~# $.$.$ Line1↵Line2        -- heading with manual line break
-~# $.$.$. Line1↵Line2       -- heading with manual line break*)
+(* 
+Test Examples:
 
+""  ~# heading h1 traditional form""
 
+""  ~# $. heading h1 with automatic numbering ""
+
+""  ~# 1. heading h1 with manual numbering ""
+
+""  ~## heading h2 traditional form""
+
+""  ~# $.$ heading h2 with automatic numbering""
+
+""  ~# 1.1 heading h2 with manual numbering""
+
+""  ~# 1.1. same as above with additional decimal point""
+
+""  ~### heading h3""
+""      spanning two lines""
+
+""  ~# $.$.$ heading with↵manual line break""
+*)
 
 Text = { Tag
        | Calc
@@ -43,6 +87,7 @@ Text = { Tag
        | Modifier
        | "\", "chr"
        |"chr" };
+
 
 (*- escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
@@ -80,13 +125,19 @@ Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">"
 
 Image = "!", "[", ( URL | DataURI | ImageAlias ), "]";
 
-(* - image alias usage requires an image alias definition pragma elsewhere in the document*)
+(* - image alias usage requires an image alias definition pragma elsewhere in the document.*)
 
-(* Local image: ![./logo].
-Remote image: ![https://gematik.de/logo].
-Embedded image: ![data:image/svg+xml;base64,IVUGB...ORUIH]
-Image alias definition: $ image LOGO: https://gematik.de/logo;
-Image alias usage: ![LOGO]*)
+(* 
+Test Examples:
+ 
+""  Local image: ![./logo.png].""
+
+""  Remote image: ![https://gematik.de/logo.svg].""
+
+""  Embedded image: ![data:image/svg+xml;base64,IVUGB...ORUIH]""
+
+""  Image alias usage: ![LOGO]""
+*)
 
 Secret = "§", "[", ( Title, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
                    | SecretAlias, "]" ); 
