@@ -15,8 +15,8 @@ Paragraph = Indent, [ HeadingMarker ], Text, "eol", { Indent,
 (*- indent must be the same for all lines, otherwise it is ignored. *)
 
 HeadingMarker = "#", ( { "#" } 
-                     | number, ".", [ number, { ".", number } ]
-                     | "$", ".", [ "$", { ".", "$" } ] );
+                     | number, ".", [ number, { ".", number }, ["."] ]
+                     | "$", ".", [ "$", { ".", "$" }, ["."] ] );
 
 (*- automatic numbering by using the "$" character instead of manual numbers.*)
 
@@ -24,6 +24,7 @@ Text = { Tag
        | Calc
        | Link
        | Image
+       | Secret
        | HorRuler
        | NewLine
        | Modifier
@@ -62,17 +63,17 @@ Calc = "=", "[", [ Title, ":" ], Expression, "]", [ ":", "<", ActualValue, ">" ]
 Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
 
-(*- link alias usage requires an alias definition pragma elsewhere in the document *)
+(*- link alias usage requires a link alias definition pragma elsewhere in the document *)
 
 Image = "!", "[", ( Title, "]", ":", "<", ( URL | DataURI ), ">" 
                   | ( URL | ImageAlias ), "]");
 
-(*- image alias usage requires an alias definition pragma elsewhere in the document *)
+(*- image alias usage requires an image alias definition pragma elsewhere in the document *)
 
-Crypt = "§", "[", ( Title, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
-                  | CryptAlias, "]" ); 
+Secret = "§", "[", ( Title, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
+                   | SecretAlias, "]" ); 
 
-(*- crypt alias usage requires an alias definition pragma elsewhere in the document *)
+(*- secret alias usage requires a secret alias definition pragma elsewhere in the document *)
 
 Modifier = ( "**"
            | "~~"
@@ -150,7 +151,7 @@ Pragma = "$", ( IncludeDirective
               | TagDefinition 
               | LinkAliasDefinition
               | ImageAliasDefinition
-              | CryptAliasDefinition
+              | SecretAliasDefinition
               | FunctionDefinition ), ";";
 
 (*- pragmas are not rendered.*)
@@ -176,9 +177,9 @@ ImageAliasDefinition = "image", Identifier, "=", ( URL | DataURI );
 
 (*- overriding of already defined image alias is forbidden.*)
 
-CryptAliasDefinition = "crypt", Identifier, "=", Base64KeyFingerprint, ",", Base64EncryptedText;
+SecretAliasDefinition = "secret", Identifier, "=", Base64KeyFingerprint, ",", Base64EncryptedText;
 
-(*- overriding of already defined crypt alias is forbidden.*)
+(*- overriding of already defined secret alias is forbidden.*)
 
 FunctionDefinition = "function", Identifier, "(", [ FormalParameters ], ")", ":", "{", { Statement, ";" }, "}";
 
