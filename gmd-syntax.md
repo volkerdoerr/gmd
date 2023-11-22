@@ -6,14 +6,6 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 
 ## Todo
 
-### Paragraph Examples
-
-|                                                               | Explanation                          |
-| :------------------------------------------------------------ | :----------------------------------- |
-| The quick brown fox<br>jumps over the leazy wall.             | multiline paragraph                  |
-| &nbsp;&nbsp;The brown fox<br>&nbsp;&nbsp;over the leazy wall. | multiline paragraph with indentation |
-| The quick brown↵ fox jumps over↵ the leazy wall.              | paragraph with manual line breaks    |
-
 ### Link Examples
 
 |                                                   | Explanation                           |
