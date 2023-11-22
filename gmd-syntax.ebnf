@@ -65,10 +65,15 @@ Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">"
 
 (*- link alias usage requires a link alias definition pragma elsewhere in the document *)
 
-Image = "!", "[", ( Title, "]", ":", "<", ( URL | DataURI ), ">" 
-                  | ( URL | ImageAlias ), "]");
+Image = "!", "[", ( URL | DataURI | ImageAlias ), "]";
 
-(*- image alias usage requires an image alias definition pragma elsewhere in the document *)
+(* - image alias usage requires an image alias definition pragma elsewhere in the document*)
+
+(* Local image: ![./logo].
+Remote image: ![https://gematik.de/logo].
+Embedded image: ![data:image/svg+xml;base64,IVUGB...ORUIH]
+Image alias definition: $ image LOGO: https://gematik.de/logo;
+Image alias usage: ![LOGO]*)
 
 Secret = "§", "[", ( Title, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
                    | SecretAlias, "]" ); 
