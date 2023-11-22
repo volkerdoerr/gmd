@@ -9,27 +9,33 @@ Paragraph Test Examples
   The quick brown fox 
   jumps over the leazy wall.
   will be left aligned.
+  indent 2.
 
     The quick brown fox 
     jumps over the leazy wall.
+    indent 4.
 
       The   quick    brown   fox 
       jumps over the leazy wall.
       will         be justified.
+      indent 6.
 
              The quick brown fox
       jumps over the leazy wall.
           will be right aligned.
+                       indent 6.
 
                The  
          quick brown fox 
     jumps over the leazy wall.
          will be centered.
+             indent 4.
 
             The↵  
           quick brown fox↵ 
   jumps over the leazy wall.
     will be centered too.
+      indent 2.
 
 
 
