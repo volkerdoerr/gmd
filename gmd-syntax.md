@@ -14,18 +14,6 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 | &nbsp;&nbsp;The brown fox<br>&nbsp;&nbsp;over the leazy wall. | multiline paragraph with indentation |
 | The quick brown↵ fox jumps over↵ the leazy wall.              | paragraph with manual line breaks    |
 
-### Heading Examples
-
-|                                               | Explanation                         |
-| :-------------------------------------------- | :---------------------------------- |
-| # Section One                                 | heading h1 traditional form         |
-| # $. Section One                              | heading h1 with automatic numbering |
-| # 1. Section One                              | heading h1 with manual numbering    |
-| ## Section One One                            | heading h2 traditional form         |
-| # 1.1 Section One One                         | heading h2 with manual numbering    |
-| ### This Is A Really<br>Very long Heading     | heading h3 spanning multiple lines  |
-| # $.$.$ This Heading Has↵ A Manual Line Break | heading h3 with manual line break   |
-
 ### Link Examples
 
 |                                                   | Explanation                           |
