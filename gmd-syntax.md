@@ -6,17 +6,6 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 
 ## Todo
 
-### Link Examples
-
-|                                                   | Explanation                           |
-| :------------------------------------------------ | :------------------------------------ |
-| \[gematik\]: \<https[]()://gematik.de\>           | link to website                       |
-| \[https[]()://gematik.de]                         | link with direct url                  |
-| \[gematik\]                                       | link alias usage                      |
-| \[gematik homepage\]: \<gematik\>                 | link alias usage with different title |
-| \<- $ \[gematik\]: \<https[]()://gematik.de\> -\> | link alias definition                 |
-| \[License]: \<./license.txt\>                     | link to local resource                |
-
 - Change "Alias" to "Name/Identifier"
 
 - Tags
