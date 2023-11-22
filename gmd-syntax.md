@@ -59,13 +59,8 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
   - Examples: like \<green\>xxx xxx\</\>, short form <id/\> or combination \<ita;14pt;green\>xxxx xxxx\</\>
   
 - Calculated Contents
-  - [=Expression]
-  - pure functions only
-  - every expression produces a value
-  - references to other "cells" can be used as values
-  - no sideeffects at all
-  - gMD has predefined functions
-  - additional functions can be defined using pragmas 
+  - references to identifiers 
+  - absolute/relative references to table cells
   
 - Unicode  
   - Semantics: nearly all unicode characters and symbols are allowed. it is the resonsibility of the authors to not create messy documents  
