@@ -15,67 +15,11 @@ Paragraph = Indent, [ HeadingMarker ], Text, "eol", { Indent,
 (*- the indentation of the leftmost character defines the indentation of the whole paragraph.
 - the indentation over multiple lines defines the horizontal alignment of the whole paragraph.*)
 
-(* 
-Test Examples:
-
-""  The quick brown fox jumps over the leazy wall.""
-
-""  The↵quick brown fox↵jumps over the leazy wall.""
-
-""  The quick brown fox ""
-""  jumps over the leazy wall.""
-""  will be left aligned.""
-
-""    The quick brown fox ""
-""    jumps over the leazy wall.""
-
-""      The   quick    brown   fox ""
-""      jumps over the leazy wall.""
-""      will         be justified.""
-
-""             The quick brown fox ""
-""      jumps over the leazy wall.""
-""          will be right aligned.""
-
-""               The  ""
-""         quick brown fox ""
-""    jumps over the leazy wall.""
-""         will be centered.""
-
-""            The↵  ""
-""          quick brown fox↵ ""
-""  jumps over the leazy wall.""
-""    will be centered too.""
-*)
-
 HeadingMarker = "#", ( { "#" } 
                      | number, ".", [ number, { ".", number }, ["."] ]
                      | "$", ".", [ "$", { ".", "$" }, ["."] ] );
 
 (*- automatic numbering is obtained by using the "$" character instead of manual numbers.*)
-
-(* 
-Test Examples:
-
-""  ~# heading h1 traditional form""
-
-""  ~# $. heading h1 with automatic numbering ""
-
-""  ~# 1. heading h1 with manual numbering ""
-
-""  ~## heading h2 traditional form""
-
-""  ~# $.$ heading h2 with automatic numbering""
-
-""  ~# 1.1 heading h2 with manual numbering""
-
-""  ~# 1.1. same as above with additional decimal point""
-
-""  ~### heading h3""
-""      spanning two lines""
-
-""  ~# $.$.$ heading with↵manual line break""
-*)
 
 Text = { Tag
        | Calc
@@ -87,7 +31,6 @@ Text = { Tag
        | Modifier
        | "\", "chr"
        |"chr" };
-
 
 (*- escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
@@ -103,21 +46,19 @@ StartTag = "<", TagName, [ ":", TagValue ], [ "/", [ ClosingPosition] ], ">";
 - tags with "/" are considered auto-closing and must have no end-tag. 
 - auto-closing tags are treated as having the closing tag at the indicated position.*)
 
-ClosingPosition = (wrd|par|li|lst|col|row|tbl|doc);
+ClosingPosition = ("w"|"s"|"p"|"i"|"l"|"c"|"r"|"t"|"d");
 
-(*
-the closing tag is treated as
-  - wrd: behind the next whitespace after the first following text (default value).
-  - par: behind the end of the current paragraph.
-  - itm: behind the end of the current list item.
-  - lst: behind the end of the current list.
-  - row: behind the end of the current table column.
-  - row: behind the end of the current table row.
-  - tbl: behind the end of the current table.
-  - doc: at the end of the document.
-*)
+(*- w: behind the next whitespace after the first following text (default value).
+- s: behind the end of the current sentence.
+- p: behind the end of the current paragraph.
+- i: behind the end of the current list item.
+- l: behind the end of the current list.
+- c: behind the end of the current table column.
+- r: behind the end of the current table row.
+- t: behind the end of the current table.
+- d: at the end of the document.*)
 
-EndTag = "<", "/", {TagName}, ">";
+EndTag = "<", "/", [ TagName ], ">";
 
 (*- if given, tag name must be the same as in the opening tag. *)
 
@@ -135,37 +76,9 @@ Calc = "=", "[", [ Title, ":" ], Expression, "]", [ "<", ActualValue, ">" ];
 Link = "[", ( Title, "]", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
 
-(*- link alias usage requires a link alias definition pragma elsewhere in the document *)
-
-(* 
-Test Examples:
- 
-""  [gematik]<https://gematik.de>   ""
-
-""  [https://gematik.de]  ""
-
-""  [License]<./assets/license.txt>  ""
-
-""  [GEMATIK]  ""
-
-""  [gematik homepage]<GEMATIK>  ""
-*)
-
 Image = "!", "[", ( URL | DataURI | ImageAlias ), "]";
 
 (* - image alias usage requires an image alias definition pragma elsewhere in the document.*)
-
-(* 
-Test Examples:
- 
-""  Local image: ![./logo.png].""
-
-""  Remote image: ![https://gematik.de/logo.svg].""
-
-""  Embedded image: ![data:image/svg+xml;base64,IVUGB...ORUIH]""
-
-""  Image alias usage: ![LOGO]""
-*)
 
 Secret = "§", "[", ( Title, "]", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
                    | SecretAlias, "]" ); 
