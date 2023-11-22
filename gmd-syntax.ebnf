@@ -97,11 +97,25 @@ Tag = StartTag | EndTag;
 - gMD has predefined and reserved tag(name)s.
 - new tag(name)s are defined using tag definition pragma elsewhere in the document*)
 
-StartTag = "<", TagName, [":", TagValue], ["/"], ">";
+StartTag = "<", TagName, [ ":", TagValue ], [ "/", [ ClosingPosition] ], ">";
 
 (*- tags without "/" must have an end-tag. 
 - tags with "/" are considered auto-closing and must have no end-tag. 
-- auto-closing tags are treated as having the closing tag at the next whitespace after the first following text.*)
+- auto-closing tags are treated as having the closing tag at the indicated position.*)
+
+ClosingPosition = (wrd|par|li|lst|col|row|tbl|doc);
+
+(*
+the closing tag is treated as
+  - wrd: behind the next whitespace after the first following text (default value).
+  - par: behind the end of the current paragraph.
+  - itm: behind the end of the current list item.
+  - lst: behind the end of the current list.
+  - row: behind the end of the current table column.
+  - row: behind the end of the current table row.
+  - tbl: behind the end of the current table.
+  - doc: at the end of the document.
+*)
 
 EndTag = "<", "/", {TagName}, ">";
 
