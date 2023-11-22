@@ -15,67 +15,11 @@ Paragraph = Indent, [ HeadingMarker ], Text, "eol", { Indent,
 (*- the indentation of the leftmost character defines the indentation of the whole paragraph.
 - the indentation over multiple lines defines the horizontal alignment of the whole paragraph.*)
 
-(* 
-Test Examples:
-
-""  The quick brown fox jumps over the leazy wall.""
-
-""  The↵quick brown fox↵jumps over the leazy wall.""
-
-""  The quick brown fox ""
-""  jumps over the leazy wall.""
-""  will be left aligned.""
-
-""    The quick brown fox ""
-""    jumps over the leazy wall.""
-
-""      The   quick    brown   fox ""
-""      jumps over the leazy wall.""
-""      will         be justified.""
-
-""             The quick brown fox ""
-""      jumps over the leazy wall.""
-""          will be right aligned.""
-
-""               The  ""
-""         quick brown fox ""
-""    jumps over the leazy wall.""
-""         will be centered.""
-
-""            The↵  ""
-""          quick brown fox↵ ""
-""  jumps over the leazy wall.""
-""    will be centered too.""
-*)
-
 HeadingMarker = "#", ( { "#" } 
                      | number, ".", [ number, { ".", number }, ["."] ]
                      | "$", ".", [ "$", { ".", "$" }, ["."] ] );
 
 (*- automatic numbering is obtained by using the "$" character instead of manual numbers.*)
-
-(* 
-Test Examples:
-
-""  ~# heading h1 traditional form""
-
-""  ~# $. heading h1 with automatic numbering ""
-
-""  ~# 1. heading h1 with manual numbering ""
-
-""  ~## heading h2 traditional form""
-
-""  ~# $.$ heading h2 with automatic numbering""
-
-""  ~# 1.1 heading h2 with manual numbering""
-
-""  ~# 1.1. same as above with additional decimal point""
-
-""  ~### heading h3""
-""      spanning two lines""
-
-""  ~# $.$.$ heading with↵manual line break""
-*)
 
 Text = { Tag
        | Calc
@@ -87,7 +31,6 @@ Text = { Tag
        | Modifier
        | "\", "chr"
        |"chr" };
-
 
 (*- escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
@@ -103,15 +46,6 @@ StartTag = "<", TagName, [ ":", TagValue ], [ "/", [ ClosingPosition] ], ">";
 - tags with "/" are considered auto-closing and must have no end-tag. 
 - auto-closing tags are treated as having the closing tag at the indicated position.*)
 
-(* 
-Test Examples:
-
-""  <id>A_123</id> will become a linkable anchor  ""
-""  <pre:c++> bool qs_check_embedded_images = true; </> is preformatted with C++ syntax.  ""
-""  <font-size:50%/s> This sentence has a small font.  ""
-""  <bg:blue> <yellow> yellow text</> on blue background. </bg> ""
-*)
-
 ClosingPosition = ("w"|"s"|"p"|"i"|"l"|"c"|"r"|"t"|"d");
 
 (*- w: behind the next whitespace after the first following text (default value).
@@ -123,14 +57,6 @@ ClosingPosition = ("w"|"s"|"p"|"i"|"l"|"c"|"r"|"t"|"d");
 - r: behind the end of the current table row.
 - t: behind the end of the current table.
 - d: at the end of the document.*)
-
-(* 
-Test Examples:
-
-""  <id/>A_123 will become a linkable anchor.  ""
-""  <green/> OK The first OK is green, the rest of this sentencs is black.  ""
-""  <red/s> This sentence is red. But this sentence is black.  ""
-*)
 
 EndTag = "<", "/", [ TagName ], ">";
 
@@ -150,37 +76,9 @@ Calc = "=", "[", [ Title, ":" ], Expression, "]", [ "<", ActualValue, ">" ];
 Link = "[", ( Title, "]", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
 
-(*- link alias usage requires a link alias definition pragma elsewhere in the document *)
-
-(* 
-Test Examples:
- 
-""  [gematik]<https://gematik.de>   ""
-
-""  [https://gematik.de]  ""
-
-""  [License]<./assets/license.txt>  ""
-
-""  [GEMATIK]  ""
-
-""  [gematik homepage]<GEMATIK>  ""
-*)
-
 Image = "!", "[", ( URL | DataURI | ImageAlias ), "]";
 
 (* - image alias usage requires an image alias definition pragma elsewhere in the document.*)
-
-(* 
-Test Examples:
- 
-""  Local image: ![./logo.png].""
-
-""  Remote image: ![https://gematik.de/logo.svg].""
-
-""  Embedded image: ![data:image/svg+xml;base64,IVUGB...ORUIH]""
-
-""  Image alias usage: ![LOGO]""
-*)
 
 Secret = "§", "[", ( Title, "]", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
                    | SecretAlias, "]" ); 
