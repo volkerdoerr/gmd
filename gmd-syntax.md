@@ -4,7 +4,7 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 
 ![](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/volkerdoerr/gmd/main/gmd-syntax.ebnf)
 
-## Examples
+## Todo
 
 ### Paragraph Examples
 
@@ -36,22 +36,6 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 | \[gematik homepage\]: \<gematik\>                 | link alias usage with different title |
 | \<- $ \[gematik\]: \<https[]()://gematik.de\> -\> | link alias definition                 |
 | \[License]: \<./license.txt\>                     | link to local resource                |
-
-### Image Examples
-
-|                                                                | Explanation                             |
-| :------------------------------------------------------------- | :-------------------------------------- |
-| !\[gematik logo\] \<https[]()://gematik.de/logo\>              | image from website                      |
-| !\[https[]()://gematik.de/logo\]                               | image with direct url                   |
-| !\[logo\]                                                      | image alias usage                       |
-| !\[company logo\] \<logo\>                                     | image alias usage with different title  |
-| \<- alias:<br>$ !\[logo\]: \<https[]()://gematik.de/logo\> -\> | image alias definition                  |
-| !\[local logo\] \<./logo\>                                     | image from local resource               |
-| !\[local logo\] \<data:image/svg;base64,IVBORUIH\>             | image from embedded source (data_uri)   |
-|                                                                | image scaling                           |
-|                                                                | image horizontal and vertical alignment |
-
-## Todo
 
 - Change "Alias" to "Name/Identifier"
 
