@@ -121,7 +121,7 @@ EndTag = "<", "/", {TagName}, ">";
 
 (*- if given, tag name must be the same as in the opening tag. *)
 
-Calc = "=", "[", [ Title, ":" ], Expression, "]", [ ":", "<", ActualValue, ">" ];
+Calc = "=", "[", [ Title, ":" ], Expression, "]", [ "<", ActualValue, ">" ];
 
 (*- every expression produces a value
 - no state and no sideeffects at all
@@ -132,10 +132,24 @@ Calc = "=", "[", [ Title, ":" ], Expression, "]", [ ":", "<", ActualValue, ">" ]
 - the actual values are calculated at store-time, not at load-time!
 - dealing with cyclic dependencies is author's responsibility.*)
 
-Link = "[", ( Title, "]", ":", "<", ( URL | LinkAlias ), ">" 
+Link = "[", ( Title, "]", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
 
 (*- link alias usage requires a link alias definition pragma elsewhere in the document *)
+
+(* 
+Test Examples:
+ 
+""  [gematik]<https://gematik.de>   ""
+
+""  [https://gematik.de]  ""
+
+""  [License]<./assets/license.txt>  ""
+
+""  [GEMATIK]  ""
+
+""  [gematik homepage]<GEMATIK>  ""
+*)
 
 Image = "!", "[", ( URL | DataURI | ImageAlias ), "]";
 
@@ -153,7 +167,7 @@ Test Examples:
 ""  Image alias usage: ![LOGO]""
 *)
 
-Secret = "§", "[", ( Title, "]", ":", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
+Secret = "§", "[", ( Title, "]", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
                    | SecretAlias, "]" ); 
 
 (*- secret alias usage requires a secret alias definition pragma elsewhere in the document *)
