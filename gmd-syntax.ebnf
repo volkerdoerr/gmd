@@ -103,21 +103,36 @@ StartTag = "<", TagName, [ ":", TagValue ], [ "/", [ ClosingPosition] ], ">";
 - tags with "/" are considered auto-closing and must have no end-tag. 
 - auto-closing tags are treated as having the closing tag at the indicated position.*)
 
-ClosingPosition = (wrd|par|li|lst|col|row|tbl|doc);
+(* 
+Test Examples:
 
-(*
-the closing tag is treated as
-  - wrd: behind the next whitespace after the first following text (default value).
-  - par: behind the end of the current paragraph.
-  - itm: behind the end of the current list item.
-  - lst: behind the end of the current list.
-  - row: behind the end of the current table column.
-  - row: behind the end of the current table row.
-  - tbl: behind the end of the current table.
-  - doc: at the end of the document.
+""  <id>A_123</id> will become a linkable anchor  ""
+""  <pre:c++> bool qs_check_embedded_images = true; </> is preformatted with C++ syntax.  ""
+""  <font-size:50%/s> This sentence has a small font.  ""
+""  <bg:blue> <yellow> yellow text</> on blue background. </bg> ""
 *)
 
-EndTag = "<", "/", {TagName}, ">";
+ClosingPosition = ("w"|"s"|"p"|"i"|l|c|r|t|d);
+
+(*- w: behind the next whitespace after the first following text (default value).
+- s: behind the end of the current sentence.
+- p: behind the end of the current paragraph.
+- i: behind the end of the current list item.
+- l: behind the end of the current list.
+- c: behind the end of the current table column.
+- r: behind the end of the current table row.
+- t: behind the end of the current table.
+- d: at the end of the document.*)
+
+(* 
+Test Examples:
+
+""  <id/>A_123 will become a linkable anchor.  ""
+""  <green/> OK The first OK is green, the rest of this sentencs is black.  ""
+""  <red/s> This sentence is red. But this sentence is black.  ""
+*)
+
+EndTag = "<", "/", [ TagName ], ">";
 
 (*- if given, tag name must be the same as in the opening tag. *)
 
