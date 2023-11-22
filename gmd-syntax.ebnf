@@ -20,6 +20,19 @@ HeadingMarker = "#", ( { "#" }
 
 (*- automatic numbering by using the "$" character instead of manual numbers.*)
 
+(*~# Section One                 -- heading h1 traditional form
+~# $. Section One             -- heading h1 with automatic numbering
+~# 1. Section One             -- heading h1 with manual numbering
+~## Section One One       -- heading h2 traditional form
+~# 1.1 Section One One    -- heading h2 with manual numbering
+~# 1.1. Section One One   -- heading h2 with manual numbering
+~### This Is Not A           -- heading h3 spanning two lines
+     Very long Heading
+~# $.$.$ Line1↵Line2        -- heading with manual line break
+~# $.$.$. Line1↵Line2       -- heading with manual line break*)
+
+
+
 Text = { Tag
        | Calc
        | Link
