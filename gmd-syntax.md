@@ -53,6 +53,8 @@ generated from [./gmd-syntax.ebnf](./gmd-syntax.ebnf), the semantic rules are ye
 
 ## Todo
 
+- Change "Alias" to "Name/Identifier"
+
 - Tags
   - Semantics: opening tags must be closed by \</\> tag,  or defined as  short form
   - Semantics: Short forms finish at next whitespace.
