@@ -112,7 +112,7 @@ Test Examples:
 ""  <bg:blue> <yellow> yellow text</> on blue background. </bg> ""
 *)
 
-ClosingPosition = ("w"|"s"|"p"|"i"|l|c|r|t|d);
+ClosingPosition = ("w"|"s"|"p"|"i"|"l"|"c"|"r"|"t"|"d");
 
 (*- w: behind the next whitespace after the first following text (default value).
 - s: behind the end of the current sentence.
