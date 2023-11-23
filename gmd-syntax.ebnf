@@ -6,7 +6,8 @@ gMD = { "eol" }, { Paragraph
                  | Pragma }, { "eol" };
 
 (*- any syntactically or semantically incorrect sequence is treated as ordinary text.
-- comments go from "//" to end of line and are not rendered.*)
+- comments go from "//" to end of line and are not rendered.
+- gmd documents are exclusively ecoded with UTF-8, -16 or -32.*)
 
 Paragraph = Indent, [ HeadingMarker ], Text, "eol", { Indent, 
                                                       Text, 
@@ -29,34 +30,25 @@ Text = { Tag
        | HorRuler
        | NewLine
        | Modifier
-       | "\", "chr"
-       |"chr" };
+       | EscapedChar
+       | "chr" };
 
-(*- escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
+(*- only control characters (with the exception of eol and tab) are not allowed.
+- it is the resonsibility of the authors to not create messy documents using weird unicode characters.
+- a tab is always interpreted as the equivalent of 4 spaces
+*)
 
 Tag = StartTag | EndTag;
 
 (*- usage of undefined tag(name)s is not allowed.
 - gMD has predefined and reserved tag(name)s.
-- new tag(name)s are defined using tag definition pragma elsewhere in the document*)
+- new tag(name)s are defined using tag definition pragma elsewhere in the document.
+- html tags are not allowed. *)
 
-StartTag = "<", TagName, [ ":", TagValue ], [ "/", [ ClosingPosition] ], ">";
+StartTag = "<", TagName, [ ":", TagValue ], [ "/" ], ">";
 
 (*- tags without "/" must have an end-tag. 
-- tags with "/" are considered auto-closing and must have no end-tag. 
-- auto-closing tags are treated as having the closing tag at the indicated position.*)
-
-ClosingPosition = ("w"|"s"|"p"|"i"|"l"|"c"|"r"|"t"|"d");
-
-(*- w: behind the next whitespace after the first following text (default value).
-- s: behind the end of the current sentence.
-- p: behind the end of the current paragraph.
-- i: behind the end of the current list item.
-- l: behind the end of the current list.
-- c: behind the end of the current table column.
-- r: behind the end of the current table row.
-- t: behind the end of the current table.
-- d: at the end of the document.*)
+- tags with "/" are considered auto-closing and must have no end-tag.*)
 
 EndTag = "<", "/", [ TagName ], ">";
 
@@ -104,6 +96,10 @@ HorRuler = ( "-----"
 NewLine = "↵";
 
 (*- unicode "downwards arrow with corner leftwards" (U+21B5). *)
+
+EscapedChar = "\", "chr";
+
+(*- escaped characters (preceeded by '\') are treated as ordinary characters and will be excluded from syntax analysis *)
 
 List = ListItem, "eol", { ListItem, "eol" }, "eol";
 
@@ -175,11 +171,17 @@ IncludeDirective = "include", URL, [ "between", StartDelimValue, [ "and", EndDel
 - if start (and also end) delimiters are given, only the protion behind start (and also before end) is loaded.
 - dealing with dependencies beween includes is author's responsibility.*)
 
-TagDefinition = "tag", Identifier, [ "=", DefaultValue ];
+TagDefinition = "tag", Identifier, ( [ "=", DefaultValue ] | ":", TagComposition);
 
 (*- overriding of already defined or reserved tag(name)s is forbidden.
 - gMD has predefined and reserved tag(names)s.
 - DefaultValue is used in case no value is given.*)
+
+TagComposition = TagName, [ "=", ActualValue ], { "+", TagName, [ "=", ActualValue ] };
+
+(*- composed tags are made by one or more already defined tags.
+- composed tags can be used only by ńame without assigning individual actual values.
+- if not given, the actual value is becoming the default value for this tag.*)
 
 NamedLinkDefinition = "link", Identifier, "=", URL;
 
