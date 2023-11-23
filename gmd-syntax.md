@@ -7,7 +7,6 @@ test examples in [gmd-test-examples.txt](./gmd-test-examples.txt).
 
 ## Todo
 
-- Change "Alias" to "Name/Identifier"
 - Semantics: nearly all unicode characters and symbols are allowed. it is the resonsibility of the authors to not create messy documents
 - Syntax and semantics: a tab is interpreted as the equivalent of 4 spaces
 - Semantics explanation: Html-elements cannot be used in a gMD document
