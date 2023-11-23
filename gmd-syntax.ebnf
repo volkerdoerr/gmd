@@ -73,19 +73,19 @@ Calc = "=", "[", [ Title, ":" ], Expression, "]", [ "<", ActualValue, ">" ];
 - the actual values are calculated at store-time, not at load-time!
 - dealing with cyclic dependencies is author's responsibility.*)
 
-Link = "[", ( Title, "]", "<", ( URL | LinkAlias ), ">" 
-            | ( URL | LinkAlias ), "]" ); 
+Link = "[", ( Title, "]", "<", ( URL | LinkName ), ">" 
+            | ( URL | LinkName ), "]" ); 
 
-(* - link alias usage requires a link alias definition pragma elsewhere in the document.*)
+(* - link name usage requires a named link definition (pragma) elsewhere in the document.*)
 
-Image = "!", "[", ( URL | DataURI | ImageAlias ), "]";
+Image = "!", "[", ( URL | DataURI | ImageName ), "]";
 
-(* - image alias usage requires an image alias definition pragma elsewhere in the document.*)
+(* - image name usage requires a named image definition (pragma) elsewhere in the document.*)
 
 Secret = "§", "[", ( Title, "]", "<", Base64EncryptedText, ",", Base64KeyFingerprint, ">" 
-                   | SecretAlias, "]" ); 
+                   | SecretName, "]" ); 
 
-(*- secret alias usage requires a secret alias definition pragma elsewhere in the document *)
+(*- secret name usage requires a named secret definition (pragma) elsewhere in the document *)
 
 Modifier = ( "**"
            | "~~"
@@ -161,9 +161,9 @@ CellSpan = ( "/", [ number ], [ ">", [ number ] ]
 
 Pragma = "$", ( IncludeDirective
               | TagDefinition 
-              | LinkAliasDefinition
-              | ImageAliasDefinition
-              | SecretAliasDefinition
+              | NamedLinkDefinition
+              | NamedImageDefinition
+              | NamedSecretDefinition
               | FunctionDefinition ), ";";
 
 (*- pragmas are not rendered.*)
@@ -181,17 +181,17 @@ TagDefinition = "tag", Identifier, [ "=", DefaultValue ];
 - gMD has predefined and reserved tag(names)s.
 - DefaultValue is used in case no value is given.*)
 
-LinkAliasDefinition = "link", Identifier, "=", URL;
+NamedLinkDefinition = "link", Identifier, "=", URL;
 
-(*- overriding of already defined link alias is forbidden.*)
+(*- overriding of already defined link name is forbidden.*)
 
-ImageAliasDefinition = "image", Identifier, "=", ( URL | DataURI );
+NamedImageDefinition = "image", Identifier, "=", ( URL | DataURI );
 
-(*- overriding of already defined image alias is forbidden.*)
+(*- overriding of already defined image name is forbidden.*)
 
-SecretAliasDefinition = "secret", Identifier, "=", Base64KeyFingerprint, ",", Base64EncryptedText;
+NamedSecretDefinition = "secret", Identifier, "=", Base64KeyFingerprint, ",", Base64EncryptedText;
 
-(*- overriding of already defined secret alias is forbidden.*)
+(*- overriding of already defined secret name is forbidden.*)
 
 FunctionDefinition = "function", Identifier, "(", [ FormalParameters ], ")", ":", "{", { Statement, ";" }, "}";
 
