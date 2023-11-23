@@ -76,6 +76,8 @@ Calc = "=", "[", [ Title, ":" ], Expression, "]", [ "<", ActualValue, ">" ];
 Link = "[", ( Title, "]", "<", ( URL | LinkAlias ), ">" 
             | ( URL | LinkAlias ), "]" ); 
 
+(* - link alias usage requires a link alias definition pragma elsewhere in the document.*)
+
 Image = "!", "[", ( URL | DataURI | ImageAlias ), "]";
 
 (* - image alias usage requires an image alias definition pragma elsewhere in the document.*)
