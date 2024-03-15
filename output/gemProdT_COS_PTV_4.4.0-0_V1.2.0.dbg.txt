@@ -21,2855 +21,2855 @@ DEBUG OUTPUT: TABLE OF CONTENTS
 
 <empty>
 #document
-  HTML (&94005618983208)
-    HEAD (&94005618983392)
+  HTML (&103486891671656)
+    HEAD (&103486891671840)
       text "\n  "
-      STYLE (&94005618983696)
+      STYLE (&103486891672144)
         text "\n\n#toc_container {\n    background: #f9f9f9 none repeat scroll 0 0;\n    border: 1px solid #aaa;\n    display: table;\n    font-size: 95%;\n    margin-bottom: 1em;\n    padding: 20px;\n    width: 100%;\n}\n\n.toc_title {\n    font-weight: 700;\n    text-align: center;\n}\n\n#toc_container li, #toc_container ul, #toc_container ul li{\n    list-style: outside none none !important;\n}\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 14px;\n}\n\n.polarion-table {\n  width: 100%;\n  margin-left:  auto;\n  margin-right: auto;\n  border: 1px solid #CCCCCC;\n  empty-cells: show;\n  border-collapse: collapse;  \n}\n\n.polarion-table-header {\n   font-weight: bold;\n   background-color: #F0F0F0;\n   text-align: left;\n   vertical-align: top;\n   width: 134px;\n   height: 18.4444px;\n   border: 1px solid #CCCCCC;\n   padding: 5px;\n}\n\n.polarion-table-span {\n    font-size: 10pt;\n    line-height: 1.5;\n}\n\n.polarion-table-data {\nfont-family: Arial, Helvetica, sans-serif;\n    font-size: 14px;\n    text-align: left;\n    vertical-align: top;\n    width: 134px;\n    height: 18.4444px;\n    border: 1px solid #CCCCCC;\n    border-top: 1px solid #CCCCCC;\n    border-bottom: 1px solid #CCCCCC;\n    border-right: 1px solid #CCCCCC;\n    border-left: 1px solid #CCCCCC;\n    padding: 5px;\n}\n\n/* ol {\n  list-style-type: none;\n  Remove default numbering\n}\n\nol > li:before {\n  counter-increment: mycounter;\n  content: counter(mycounter) ". ";\n}\n\nol:first-of-type {\n  counter-reset: mycounter;\n} */\n\n@media print { h1, h2 { break-before: page; } }\n\n"
       text "\n  "
-      META (&94005618984128)
+      META (&103486891672576)
         attr charset "utf-8"
       text "\n "
     text "\n "
-    BODY (&94005618984728)
+    BODY (&103486891673176)
       text "\n  "
-      P (&94005618985032)
+      P (&103486891673480)
         attr id "polarion_17"
         text " "
-        BR (&94005618985512)
+        BR (&103486891673960)
         text " "
       text "\n  "
-      P (&94005618985936)
+      P (&103486891674384)
         attr id "polarion_25"
         text " "
-        BR (&94005618986416)
+        BR (&103486891674864)
         text " "
       text "\n  "
-      P (&94005618986840)
+      P (&103486891675288)
         attr id "polarion_29"
         text " "
-        SPAN (&94005618987320)
+        SPAN (&103486891675768)
           attr style "font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;"
           text "Elektronische Gesundheitskarte und Telematikinfrastruktur"
         text " "
       text "\n  "
-      P (&94005618988040)
+      P (&103486891676488)
         attr id "polarion_42"
         text " "
-        BR (&94005618988520)
+        BR (&103486891676968)
         text " "
-        BR (&94005618988824)
+        BR (&103486891677272)
         text " "
-        BR (&94005618989128)
+        BR (&103486891677576)
         text " "
       text "\n  "
-      P (&94005618989552)
+      P (&103486891678000)
         attr id "polarion_48"
         text " "
-        BR (&94005618990032)
+        BR (&103486891678480)
         text " "
       text "\n  "
-      P (&94005618990456)
+      P (&103486891678904)
         attr id "polarion_50"
         text " "
-        BR (&94005618990936)
+        BR (&103486891679384)
         text " "
       text "\n  "
-      P (&94005618991360)
+      P (&103486891679808)
         attr id "polarion_54"
         attr style "text-align: center;"
         text " "
-        SPAN (&94005618992016)
+        SPAN (&103486891680464)
           attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
           text "Produkttypsteckbrief"
         text " "
       text "\n  "
-      P (&94005618992736)
+      P (&103486891681184)
         attr id "polarion_60"
         attr style "text-align: center;"
         text " "
-        SPAN (&94005618993392)
+        SPAN (&103486891681840)
           attr style "font-weight: bold;font-style: italic;font-size: 16pt;line-height: 1.2;"
           text "Prüfvorschrift"
         text " "
       text "\n  "
-      P (&94005618994112)
+      P (&103486891682560)
         attr id "polarion_71"
         attr style "text-align: center;"
         text " "
-        SPAN (&94005618994768)
+        SPAN (&103486891683216)
           attr style "font-weight: bold;font-size: 28pt;line-height: 1.2;"
           text "Zulassungsobjekt COS"
         text " "
       text "\n  "
-      P (&94005618995488)
+      P (&103486891683936)
         attr id "polarion_72"
         text " "
-        BR (&94005618995968)
+        BR (&103486891684416)
         text " "
       text "\n  "
-      P (&94005618996392)
+      P (&103486891684840)
         attr id "polarion_73"
         text " "
-        BR (&94005618996872)
+        BR (&103486891685320)
         text " "
       text "\n  "
-      DIV (&94005618997296)
+      DIV (&103486891685744)
         attr id "polarion_editor_html_block74"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005618997952)
+        DIV (&103486891686400)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text "\n   "
-        PRE (&94005618998608)
+        PRE (&103486891687056)
           attr id "polarion_editor_html_block_source"
           attr class "polarion-dle-wiki-block-source"
           attr contenteditable "false"
           text "    "
-          TABLE (&94005618999440)
+          TABLE (&103486891687888)
             text "\n     "
-            TBODY (&94005618999744)
-              TR (&94005618999928)
+            TBODY (&103486891688192)
+              TR (&103486891688376)
                 text "\n      "
-                TD (&94005619000232)
+                TD (&103486891688680)
                   text "Produkttyp Version"
                 text "\n      "
-                TD (&94005619000656)
+                TD (&103486891689104)
                   text "4.4.0-0"
                 text "\n     "
               text "\n     "
-              TR (&94005619001200)
+              TR (&103486891689648)
                 text "\n      "
-                TD (&94005619001504)
+                TD (&103486891689952)
                   text "Produkttyp Status"
                 text "\n      "
-                TD (&94005619001928)
+                TD (&103486891690376)
                   text "freigegeben"
                 text "\n     "
               text "\n    "
         text " \n  "
       text "\n  "
-      P (&94005619002712)
+      P (&103486891691160)
         attr id "polarion_77"
         text " "
-        BR (&94005619003192)
+        BR (&103486891691640)
         text " "
       text "\n  "
-      P (&94005619003616)
+      P (&103486891692064)
         attr id "polarion_78"
       text "\n  "
-      DIV (&94005619004096)
+      DIV (&103486891692544)
         attr id "polarion_editor_html_block79"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005619004752)
+        DIV (&103486891693200)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text "\n   "
-        PRE (&94005619005408)
+        PRE (&103486891693856)
           attr id "polarion_editor_html_block_source"
           attr class "polarion-dle-wiki-block-source"
           attr contenteditable "false"
           text "    "
-          TABLE (&94005619006240)
+          TABLE (&103486891694688)
             text "\n     "
-            TBODY (&94005619006544)
-              TR (&94005619006728)
+            TBODY (&103486891694992)
+              TR (&103486891695176)
                 text "\n      "
-                TD (&94005619007032)
+                TD (&103486891695480)
                   text "Version"
                 text "\n      "
-                TD (&94005619007456)
+                TD (&103486891695904)
                   text "1.2.0"
                 text "\n     "
               text "\n     "
-              TR (&94005619008000)
+              TR (&103486891696448)
                 text "\n      "
-                TD (&94005619008304)
+                TD (&103486891696752)
                   text "Revision"
                 text "\n      "
-                TD (&94005619008728)
+                TD (&103486891697176)
                   text "668046"
                 text "\n     "
               text "\n     "
-              TR (&94005619009272)
+              TR (&103486891697720)
                 text "\n      "
-                TD (&94005619009576)
+                TD (&103486891698024)
                   text "Stand"
                 text "\n      "
-                TD (&94005619010000)
+                TD (&103486891698448)
                   text "18.12.2018"
                 text "\n     "
               text "\n     "
-              TR (&94005619010544)
+              TR (&103486891698992)
                 text "\n      "
-                TD (&94005619010848)
+                TD (&103486891699296)
                   text "Status"
                 text "\n      "
-                TD (&94005619011272)
+                TD (&103486891699720)
                   text "freigegeben"
                 text "\n     "
               text "\n     "
-              TR (&94005619011816)
+              TR (&103486891700264)
                 text "\n      "
-                TD (&94005619012120)
+                TD (&103486891700568)
                   text "Klassifizierung"
                 text "\n      "
-                TD (&94005619012544)
+                TD (&103486891700992)
                   text "öffentlich"
                 text "\n     "
               text "\n     "
-              TR (&94005619013088)
+              TR (&103486891701536)
                 text "\n      "
-                TD (&94005619013392)
+                TD (&103486891701840)
                   text "Referenzierung"
                 text "\n      "
-                TD (&94005619013816)
+                TD (&103486891702264)
                   text "gemProdT_COS_PTV_4.4.0-0"
                 text "\n     "
               text "\n    "
         text " \n  "
       text "\n  "
-      H1 (&94005619014600)
+      H1 (&103486891703048)
         attr id "polarion_wiki macro name=module-workitem;params=id=OPB300-12073"
         text "Historie Produkttypversion und Produkttypsteckbrief"
       text "\n  "
-      P (&94005619015200)
+      P (&103486891703648)
         attr id "polarion_81"
         text " "
-        BR (&94005619015680)
+        BR (&103486891704128)
         text " "
       text "\n  "
-      P (&94005623481008)
+      P (&103486879757104)
         attr id "polarion_84"
         text " "
-        SPAN (&94005623481488)
+        SPAN (&103486879757584)
           attr style "font-weight: bold;"
           text "Historie Produkttypversion"
         text " "
       text "\n  "
-      P (&94005623482208)
+      P (&103486879758304)
         attr id "polarion_85"
         text " Die Produkttypversion ändert sich, wenn sich die Anforderungslage für den Produkttyp ändert und die Umsetzung durch Produktentwicklungen ebenfalls betroffen ist."
-        BR (&94005623482688)
+        BR (&103486879758784)
         text " "
       text "\n  "
-      TABLE (&94005623483112)
+      TABLE (&103486879759208)
         attr id "polarion_wiki macro name=table;params=uid=89"
         attr class "polarion-Document-table"
         attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;"
         text " \n   "
-        TBODY (&94005623483944)
+        TBODY (&103486879760040)
           text " \n    "
-          TR (&94005623484248)
+          TR (&103486879760344)
             text " \n     "
-            TH (&94005623484552)
+            TH (&103486879760648)
               attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623484912)
+              SPAN (&103486879761008)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " Produkttypversion "
-                BR (&94005623485392)
+                BR (&103486879761488)
                 text " "
             text " \n     "
-            TH (&94005623485816)
+            TH (&103486879761912)
               attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623486176)
+              SPAN (&103486879762272)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Beschreibung der Änderung"
-                BR (&94005623486656)
+                BR (&103486879762752)
                 text " "
             text " \n     "
-            TH (&94005623487080)
+            TH (&103486879763176)
               attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623487440)
+              SPAN (&103486879763536)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Referenz"
-                BR (&94005623487920)
+                BR (&103486879764016)
                 text " "
             text " \n    "
           text " \n    "
-          TR (&94005623488464)
+          TR (&103486879764560)
             text " \n     "
-            TD (&94005623488768)
+            TD (&103486879764864)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623489128)
+              SPAN (&103486879765224)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 2.0.0 "
             text " \n     "
-            TD (&94005623489728)
+            TD (&103486879765824)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623490088)
+              SPAN (&103486879766184)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Initiale Version G2-Karten für Vergabeverfahren "
             text " \n     "
-            TD (&94005623490688)
+            TD (&103486879766784)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623491048)
+              SPAN (&103486879767144)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_Anhang_COS_PTV2.0.0] "
             text " \n    "
           text " \n    "
-          TR (&94005623491768)
+          TR (&103486879767864)
             text " \n     "
-            TD (&94005623492072)
+            TD (&103486879768168)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623492432)
+              SPAN (&103486879768528)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 2.0.1 "
             text " \n     "
-            TD (&94005623493032)
+            TD (&103486879769128)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623493392)
+              SPAN (&103486879769488)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Anpassung Produkttypversion auf Stand ORS1 vom 22.04.13 "
             text " \n     "
-            TD (&94005623493992)
+            TD (&103486879770088)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623494352)
+              SPAN (&103486879770448)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_Anhang_COS_PTV2.0.1] "
             text " \n    "
           text " \n    "
-          TR (&94005623495072)
+          TR (&103486879771168)
             text " \n     "
-            TD (&94005623495376)
+            TD (&103486879771472)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623495736)
+              SPAN (&103486879771832)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 4.0.0 "
             text " \n     "
-            TD (&94005623496336)
+            TD (&103486879772432)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623496696)
+              SPAN (&103486879772792)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Änderungen COS-Spezifikation aus Iteration 1 und Iteration 2 des G2-Projektes "
             text " \n     "
-            TD (&94005623497296)
+            TD (&103486879773392)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623497656)
+              SPAN (&103486879773752)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_COS_PTV4.0.0] "
             text " \n    "
           text " \n    "
-          TR (&94005623498376)
+          TR (&103486879774472)
             text " \n     "
-            TD (&94005623498680)
+            TD (&103486879774776)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623499040)
+              SPAN (&103486879775136)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 4.0.1 "
             text " \n     "
-            TD (&94005623499640)
+            TD (&103486879775736)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623500000)
+              SPAN (&103486879776096)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Änderungen COS-Spezifikation aus Iteration 2b des G2-Projektes "
             text " \n     "
-            TD (&94005623500600)
+            TD (&103486879776696)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623500960)
+              SPAN (&103486879777056)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_COS_PTV4.0.1] "
             text " \n    "
           text " \n    "
-          TR (&94005623501680)
+          TR (&103486879777776)
             text " \n     "
-            TD (&94005623501984)
+            TD (&103486879778080)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623502344)
+              SPAN (&103486879778440)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 4.1.0 "
             text " \n     "
-            TD (&94005623502944)
+            TD (&103486879779040)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623503304)
+              SPAN (&103486879779400)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Änderungen COS-Spezifikation aus Iteration 3 des G2-Projektes "
             text " \n     "
-            TD (&94005623503904)
+            TD (&103486879780000)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623504264)
+              SPAN (&103486879780360)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_COS_PTV4.1.0] "
             text " \n    "
           text " \n    "
-          TR (&94005623504984)
+          TR (&103486879781080)
             text " \n     "
-            TD (&94005623505288)
+            TD (&103486879781384)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623505648)
+              SPAN (&103486879781744)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 4.2.0 "
             text " \n     "
-            TD (&94005623506248)
+            TD (&103486879782344)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623506608)
+              SPAN (&103486879782704)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Änderungen COS-Spezifikation aus Iteration 4 des G2-Projektes "
             text " \n     "
-            TD (&94005623507208)
+            TD (&103486879783304)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623507568)
+              SPAN (&103486879783664)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_COS_PTV4.2.0] "
             text " \n    "
           text " \n    "
-          TR (&94005623508288)
+          TR (&103486879784384)
             text " \n     "
-            TD (&94005623508592)
+            TD (&103486879784688)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623508952)
+              SPAN (&103486879785048)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 4.3.0 "
             text " \n     "
-            TD (&94005623509552)
+            TD (&103486879785648)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623509912)
+              SPAN (&103486879786008)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Einarbeitung der Errata R1.4.1 bis R1.4.6 "
             text " \n     "
-            TD (&94005623510512)
+            TD (&103486879786608)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623510872)
+              SPAN (&103486879786968)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_COS_PTV4.3.0] "
             text " \n    "
           text " \n    "
-          TR (&94005623511592)
+          TR (&103486879787688)
             text " \n     "
-            TD (&94005623511896)
+            TD (&103486879787992)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623512256)
+              SPAN (&103486879788352)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 4.3.0-1 "
             text " \n     "
-            TD (&94005623512856)
+            TD (&103486879788952)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005623513216)
+              SPAN (&103486879789312)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Anpassung auf Releasestand 1.6.3 "
             text " \n     "
-            TD (&94005638669320)
+            TD (&103486883761224)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638669656)
+              SPAN (&103486883761560)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_COS_PTV4.3.0-1] "
             text " \n    "
           text " \n    "
-          TR (&94005638670376)
+          TR (&103486883762280)
             text " \n     "
-            TD (&94005638670680)
+            TD (&103486883762584)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638671040)
+              SPAN (&103486883762944)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " 4.3.1-0 "
             text " \n     "
-            TD (&94005638671640)
+            TD (&103486883763544)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638672000)
+              SPAN (&103486883763904)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Anpassung auf Releasestand 1.6.4 "
             text " \n     "
-            TD (&94005638672600)
+            TD (&103486883764504)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638672960)
+              SPAN (&103486883764864)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_COS_PTV4.3.1-0] "
             text " \n    "
           text " \n    "
-          TR (&94005638673680)
+          TR (&103486883765584)
             text " \n     "
-            TD (&94005638673984)
+            TD (&103486883765888)
               attr style "width: 60pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638674344)
+              SPAN (&103486883766248)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "4.4.0-0 "
             text " \n     "
-            TD (&94005638674944)
+            TD (&103486883766848)
               attr style "width: 241pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638675304)
+              SPAN (&103486883767208)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "Anpassung auf Releasestand 2.1.2"
             text " \n     "
-            TD (&94005638675904)
+            TD (&103486883767808)
               attr style "width: 143pt;height: auto;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638676264)
+              SPAN (&103486883768168)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text "[gemProdT_COS_PTV4.4.0-0] "
             text " \n    "
           text " \n   "
         text " \n  "
       text "\n  "
-      P (&94005638677224)
+      P (&103486883769128)
         attr id "polarion_92"
       text "\n  "
-      P (&94005638677704)
+      P (&103486883769608)
         attr id "polarion_2"
         text " "
-        SPAN (&94005638678184)
+        SPAN (&103486883770088)
           attr style "font-weight: bold;"
           text "Historie Produkttypsteckbrief"
         text " "
       text "\n  "
-      P (&94005638678904)
+      P (&103486883770808)
         attr id "polarion_93"
         text " Die Dokumentenversion des Produkttypsteckbriefs ändert sich mit jeder inhaltlichen oder redaktionellen Änderung des Produkttypsteckbriefs und seinen referenzierten Dokumenten. Redaktionelle Änderungen haben keine Auswirkung auf die Produkttypversion."
-        BR (&94005638679384)
+        BR (&103486883771288)
         text " "
       text "\n  "
-      TABLE (&94005638679808)
+      TABLE (&103486883771712)
         attr id "polarion_wiki macro name=table;params=noPageBreak=yes|uid=96"
         attr class "polarion-Document-table"
         attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;"
         text " \n   "
-        TBODY (&94005638680640)
+        TBODY (&103486883772544)
           text " \n    "
-          TR (&94005638680944)
+          TR (&103486883772848)
             text " \n     "
-            TH (&94005638681248)
+            TH (&103486883773152)
               attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 55px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638681608)
+              SPAN (&103486883773512)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " \n       "
-                DIV (&94005638682088)
+                DIV (&103486883773992)
                   attr style "text-align: center;"
                   text " \n        "
-                  SPAN (&94005638682568)
+                  SPAN (&103486883774472)
                     attr style "font-family: Arial, Helvetica, sans-serif;"
                     text "Version"
                   text " \n       "
                 text " "
             text " \n     "
-            TH (&94005638683408)
+            TH (&103486883775312)
               attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 65px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638683768)
+              SPAN (&103486883775672)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " \n       "
-                DIV (&94005638684248)
+                DIV (&103486883776152)
                   attr style "text-align: center;"
                   text " \n        "
-                  SPAN (&94005638684728)
+                  SPAN (&103486883776632)
                     attr style "font-family: Arial, Helvetica, sans-serif;"
                     text "Stand"
                   text " \n       "
                 text " "
             text " \n     "
-            TH (&94005638685568)
+            TH (&103486883777472)
               attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 36px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638685928)
+              SPAN (&103486883777832)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " \n       "
-                DIV (&94005638686408)
+                DIV (&103486883778312)
                   attr style "text-align: center;"
                   text " \n        "
-                  SPAN (&94005638686888)
+                  SPAN (&103486883778792)
                     attr style "font-family: Arial, Helvetica, sans-serif;"
                     text "Kap."
                   text " \n       "
                 text " "
             text " \n     "
-            TH (&94005638687728)
+            TH (&103486883779632)
               attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 315px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638688088)
+              SPAN (&103486883779992)
                 attr style "font-size: 10pt;line-height: 1.5;"
-                SPAN (&94005638688448)
+                SPAN (&103486883780352)
                   attr style "font-family: Arial, Helvetica, sans-serif;"
                   text "Grund der Änderung, besondere Hinweise"
-                BR (&94005638688928)
+                BR (&103486883780832)
                 text " "
             text " \n     "
-            TH (&94005638689352)
+            TH (&103486883781256)
               attr style "background-color: #F0F0F0;text-align: left;vertical-align: top;width: 76px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638689712)
+              SPAN (&103486883781616)
                 attr style "font-size: 10pt;line-height: 1.5;"
-                SPAN (&94005638690072)
+                SPAN (&103486883781976)
                   attr style "font-family: Arial, Helvetica, sans-serif;"
                   text "Bearbeiter"
-                BR (&94005638690552)
+                BR (&103486883782456)
                 text " "
             text " \n    "
           text " \n    "
-          TR (&94005638691096)
+          TR (&103486883783000)
             text " \n     "
-            TD (&94005638691400)
+            TD (&103486883783304)
               attr style "width: 55px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638691760)
+              SPAN (&103486883783664)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " \n       "
-                DIV (&94005638692240)
+                DIV (&103486883784144)
                   attr style "text-align: center;"
                   text " \n        "
-                  SPAN (&94005638692720)
+                  SPAN (&103486883784624)
                     attr style "font-family: Arial, Helvetica, sans-serif;"
                     text "1.0.0"
                   text " \n       "
                 text " "
             text " \n     "
-            TD (&94005638693560)
+            TD (&103486883785464)
               attr style "width: 65px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638693920)
+              SPAN (&103486883785824)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " \n       "
-                DIV (&94005638694400)
+                DIV (&103486883786304)
                   attr style "text-align: center;"
                   text " \n        "
-                  SPAN (&94005638694880)
+                  SPAN (&103486883786784)
                     attr style "font-family: Arial, Helvetica, sans-serif;"
                     text "14.05.18"
                   text " \n       "
                 text " "
             text " \n     "
-            TD (&94005638695720)
+            TD (&103486883787624)
               attr style "width: 36px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638696080)
+              SPAN (&103486883787984)
                 attr style "font-size: 10pt;line-height: 1.5;"
                 text " \n       "
-                DIV (&94005638696560)
+                DIV (&103486883788464)
                   attr style "text-align: center;"
                   text " \n       "
                 text " "
             text " \n     "
-            TD (&94005638697280)
+            TD (&103486883789184)
               attr style "width: 315px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638697640)
+              SPAN (&103486883789544)
                 attr style "font-size: 10pt;line-height: 1.5;"
-                SPAN (&94005638698000)
+                SPAN (&103486883789904)
                   attr style "font-family: Arial, Helvetica, sans-serif;"
                   text "freigegeben"
                 text " "
             text " \n     "
-            TD (&94005638698720)
+            TD (&103486883790624)
               attr style "width: 76px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005638699080)
+              SPAN (&103486883790984)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
                 text "gematik"
             text " \n    "
           text " \n    "
-          TR (&94005638699800)
+          TR (&103486883791704)
             text " \n     "
-            TD (&94005638700104)
+            TD (&103486883792008)
               attr style "width: 55px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "1.1.0"
             text " \n     "
-            TD (&94005638700704)
+            TD (&103486883792608)
               attr style "width: 65px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "26.10.18"
             text " \n     "
-            TD (&94005638701304)
+            TD (&103486883793208)
               attr style "width: 36px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "2"
             text " \n     "
-            TD (&94005632357280)
+            TD (&103486884072976)
               attr style "width: 315px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "Aktualisierung Versionen"
             text " \n     "
-            TD (&94005632357856)
+            TD (&103486884073552)
               attr style "width: 76px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "gematik"
             text " \n    "
           text " \n    "
-          TR (&94005632358576)
+          TR (&103486884074272)
             text " \n     "
-            TD (&94005632358880)
+            TD (&103486884074576)
               attr style "width: 55px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "1.2.0"
             text " \n     "
-            TD (&94005632359480)
+            TD (&103486884075176)
               attr style "width: 65px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "18.12.18"
             text " \n     "
-            TD (&94005632360080)
+            TD (&103486884075776)
               attr style "width: 36px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "2"
             text " \n     "
-            TD (&94005632360680)
+            TD (&103486884076376)
               attr style "width: 315px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "Aktualisierung Versionen"
             text " \n     "
-            TD (&94005632361280)
+            TD (&103486884076976)
               attr style "width: 76px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"
               text "gematik"
             text " \n    "
           text " \n   "
         text " \n  "
       text "\n  "
-      H1 (&94005632362240)
+      H1 (&103486884077936)
         attr id "polarion_wiki macro name=module-workitem;params=id=OPB300-12074"
       text "\n  "
-      P (&94005632362720)
+      P (&103486884078416)
         attr id "polarion_1"
         text "Inhaltsverzeichnis"
       text "\n  "
-      DIV (&94005632363320)
+      DIV (&103486884079016)
         attr id "polarion_wiki macro name=toc"
       text "\n  "
-      DIV (&94005632363800)
+      DIV (&103486884079496)
         attr id "toc_container"
         text "\n   "
-        P (&94005632364280)
+        P (&103486884079976)
           attr class "toc_title"
-        H1 (&94005632364640)
-        P (&94005632364824)
+        H1 (&103486884080336)
+        P (&103486884080520)
         text "\n   "
-        UL (&94005632365128)
+        UL (&103486884080824)
           text "\n    "
-          LI (&94005632365432)
+          LI (&103486884081128)
             text "\n     "
-            DIV (&94005632365736)
+            DIV (&103486884081432)
               attr style "text-indent:10px;"
               text "\n      "
-              A (&94005632366216)
+              A (&103486884081912)
                 attr href "#polarion_wiki macro name=module-workitem;params=id=OPB300-12073"
                 text "Historie Produkttypversion und Produkttypsteckbrief"
               text "\n     "
           text "\n    "
-          LI (&94005632366936)
+          LI (&103486884082632)
             text "\n     "
-            DIV (&94005632367240)
+            DIV (&103486884082936)
               attr style "text-indent:10px;"
               text "\n      "
-              A (&94005632367720)
+              A (&103486884083416)
                 attr href "#polarion_wiki macro name=module-workitem;params=id=OPB300-12074"
               text "\n     "
           text "\n    "
-          LI (&94005632368320)
+          LI (&103486884084016)
             text "\n     "
-            DIV (&94005632368624)
+            DIV (&103486884084320)
               attr style "text-indent:20px;"
               text "\n      "
-              A (&94005632369104)
+              A (&103486884084800)
                 attr href "#1"
                 text "1 Einführung"
               text "\n     "
           text "\n    "
-          LI (&94005632369824)
+          LI (&103486884085520)
             text "\n     "
-            DIV (&94005632370128)
+            DIV (&103486884085824)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005632370608)
+              A (&103486884086304)
                 attr href "#1.1"
                 text "1.1 Zielsetzung und Einordnung des Dokumentes"
               text "\n     "
           text "\n    "
-          LI (&94005632371328)
+          LI (&103486884087024)
             text "\n     "
-            DIV (&94005632371632)
+            DIV (&103486884087328)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005632372112)
+              A (&103486884087808)
                 attr href "#1.2"
                 text "1.2 Zielgruppe"
               text "\n     "
           text "\n    "
-          LI (&94005632372832)
+          LI (&103486884088528)
             text "\n     "
-            DIV (&94005632373136)
+            DIV (&103486884088832)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005632373616)
+              A (&103486884089312)
                 attr href "#1.3"
                 text "1.3 Geltungsbereich"
               text "\n     "
           text "\n    "
-          LI (&94005632374336)
+          LI (&103486884090032)
             text "\n     "
-            DIV (&94005632374640)
+            DIV (&103486884090336)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005632375120)
+              A (&103486884090816)
                 attr href "#1.4"
                 text "1.4 Abgrenzung des Dokumentes"
               text "\n     "
           text "\n    "
-          LI (&94005632375840)
+          LI (&103486884091536)
             text "\n     "
-            DIV (&94005632376144)
+            DIV (&103486884091840)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005632376624)
+              A (&103486884092320)
                 attr href "#1.5"
                 text "1.5 Methodik"
               text "\n     "
           text "\n    "
-          LI (&94005632377344)
+          LI (&103486884093040)
             text "\n     "
-            DIV (&94005632377648)
+            DIV (&103486884093344)
               attr style "text-indent:20px;"
               text "\n      "
-              A (&94005632378128)
+              A (&103486884093824)
                 attr href "#2"
                 text "2 Dokumente"
               text "\n     "
           text "\n    "
-          LI (&94005632378848)
+          LI (&103486884094544)
             text "\n     "
-            DIV (&94005632379152)
+            DIV (&103486884094848)
               attr style "text-indent:20px;"
               text "\n      "
-              A (&94005632379632)
+              A (&103486884095328)
                 attr href "#3"
                 text "3 Blattanforderungen"
               text "\n     "
           text "\n    "
-          LI (&94005632380352)
+          LI (&103486884096048)
             text "\n     "
-            DIV (&94005632380656)
+            DIV (&103486884096352)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005632381136)
+              A (&103486884096832)
                 attr href "#3.1"
                 text "3.1 Anforderungen zur funktionalen Eignung"
               text "\n     "
           text "\n    "
-          LI (&94005632381856)
+          LI (&103486884097552)
             text "\n     "
-            DIV (&94005632382160)
+            DIV (&103486884097856)
               attr style "text-indent:40px;"
               text "\n      "
-              A (&94005632382640)
+              A (&103486884098336)
                 attr href "#3.1.1"
                 text "3.1.1 Produkttest/Produktübergreifender Test"
               text "\n     "
           text "\n    "
-          LI (&94005632383360)
+          LI (&103486884099056)
             text "\n     "
-            DIV (&94005632383664)
+            DIV (&103486884099360)
               attr style "text-indent:40px;"
               text "\n      "
-              A (&94005632384144)
+              A (&103486884099840)
                 attr href "#3.1.2"
                 text "3.1.2 Herstellererklärung funktionale Eignung"
               text "\n     "
           text "\n    "
-          LI (&94005632384864)
+          LI (&103486884100560)
             text "\n     "
-            DIV (&94005632385168)
+            DIV (&103486884100864)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005632385648)
+              A (&103486884101344)
                 attr href "#3.2"
                 text "3.2 Anforderungen zur sicherheitstechnischen Eignung"
               text "\n     "
           text "\n    "
-          LI (&94005632386368)
+          LI (&103486884102064)
             text "\n     "
-            DIV (&94005632386672)
+            DIV (&103486884102368)
               attr style "text-indent:40px;"
               text "\n      "
-              A (&94005632387152)
+              A (&103486884102848)
                 attr href "#3.2.1"
                 text "3.2.1 CC-Evaluierung"
               text "\n     "
           text "\n    "
-          LI (&94005632387872)
+          LI (&103486884103568)
             text "\n     "
-            DIV (&94005632388176)
+            DIV (&103486884103872)
               attr style "text-indent:40px;"
               text "\n      "
-              A (&94005632388656)
+              A (&103486884104352)
                 attr href "#3.2.2"
                 text "3.2.2 Herstellererklärung sicherheitstechnische Eignung"
               text "\n     "
           text "\n    "
-          LI (&94005632389376)
+          LI (&103486884105072)
             text "\n     "
-            DIV (&94005632389680)
+            DIV (&103486884105376)
               attr style "text-indent:40px;"
               text "\n      "
-              A (&94005637021336)
+              A (&103486884024568)
                 attr href "#3.2.3"
                 text "3.2.3 Zertifizierung nach Technischer Richtlinie"
               text "\n     "
           text "\n    "
-          LI (&94005637022056)
+          LI (&103486884025288)
             text "\n     "
-            DIV (&94005637022360)
+            DIV (&103486884025592)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005637022840)
+              A (&103486884026072)
                 attr href "#3.3"
                 text "3.3 Anforderungen zur elektrischen, mechanischen und physikalischen Eignung"
               text "\n     "
           text "\n    "
-          LI (&94005637023560)
+          LI (&103486884026792)
             text "\n     "
-            DIV (&94005637023864)
+            DIV (&103486884027096)
               attr style "text-indent:20px;"
               text "\n      "
-              A (&94005637024344)
+              A (&103486884027576)
                 attr href "#4"
                 text "4 spezifische Merkmale des Zulassungsobjektes"
               text "\n     "
           text "\n    "
-          LI (&94005637025064)
+          LI (&103486884028296)
             text "\n     "
-            DIV (&94005637025368)
+            DIV (&103486884028600)
               attr style "text-indent:20px;"
               text "\n      "
-              A (&94005637025848)
+              A (&103486884029080)
                 attr href "#5"
                 text "5 Anhang A – Verzeichnisse"
               text "\n     "
           text "\n    "
-          LI (&94005637026568)
+          LI (&103486884029800)
             text "\n     "
-            DIV (&94005637026872)
+            DIV (&103486884030104)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005637027352)
+              A (&103486884030584)
                 attr href "#5.1"
                 text "5.1 Abkürzungen"
               text "\n     "
           text "\n    "
-          LI (&94005637028072)
+          LI (&103486884031304)
             text "\n     "
-            DIV (&94005637028376)
+            DIV (&103486884031608)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005637028856)
+              A (&103486884032088)
                 attr href "#5.2"
                 text "5.2 Tabellenverzeichnis"
               text "\n     "
           text "\n    "
-          LI (&94005637029576)
+          LI (&103486884032808)
             text "\n     "
-            DIV (&94005637029880)
+            DIV (&103486884033112)
               attr style "text-indent:30px;"
               text "\n      "
-              A (&94005637030360)
+              A (&103486884033592)
                 attr href "#5.3"
                 text "5.3 Referenzierte Dokumente"
               text "\n     "
           text "\n   "
         text "\n  "
       text "\n  "
-      H2 (&94005637031320)
+      H2 (&103486884034552)
         attr id "1"
         text "1 Einführung"
       text "\n  "
-      H3 (&94005637031920)
+      H3 (&103486884035152)
         attr id "1.1"
         text "1.1 Zielsetzung und Einordnung des Dokumentes"
       text "\n  "
-      P (&94005637032520)
+      P (&103486884035752)
         attr id "polarion_31"
         text " "
-        SPAN (&94005637033000)
+        SPAN (&103486884036232)
           attr style "color: #000000;"
           text "Dieser Produkttypsteckbrief verzeichnet verbindlich die Anforderungen der gematik an Herstellung und Betrieb des Zulassungsobjekts COS oder verweist auf Dokumente, in denen verbindliche Anforderungen mit ggf. anderer Notation zu finden sind. Die Anforderungen bilden die Grundlage für die Erteilung von Zulassungen, Zertifizierungen bzw. Bestätigungen"
         text " "
-        SPAN (&94005637033600)
+        SPAN (&103486884036832)
           attr style "color: #000000;"
           text " durch die gematik (Wenn im weiteren Dokument vereinfachend der Begriff „Zulassung“ verwendet wird, so ist dies der besseren Lesbarkeit geschuldet und umfasst übergreifend neben dem Verfahren der Zulassung auch Zertifizierungen und Bestätigungen der gematik-Zulassungsstelle.)."
         text " "
       text "\n  "
-      P (&94005637034320)
+      P (&103486884037552)
         attr id "polarion_32"
         text " "
-        SPAN (&94005637034800)
+        SPAN (&103486884038032)
           attr style "color: #000000;"
           text "Die Anforderungen werden über ihren Identifier, ihren Titel sowie die Dokumentenquelle referenziert. Die Anforderungen mit ihrem vollständigen normativen Inhalt sind dem jeweils referenzierten Dokument zu entnehmen."
         text " "
       text "\n  "
-      H3 (&94005637035520)
+      H3 (&103486884038752)
         attr id "1.2"
         text "1.2 Zielgruppe"
       text "\n  "
-      P (&94005637036120)
+      P (&103486884039352)
         attr id "polarion_33"
         text " "
-        SPAN (&94005637036600)
+        SPAN (&103486884039832)
           attr style "color: #000000;"
           text "Der Produkttypsteckbrief richtet sich an COS-Hersteller und -Anbieter sowie Hersteller und Anbieter von Produkttypen, die hierzu eine Schnittstelle besitzen."
         text " "
       text "\n  "
-      H3 (&94005637037320)
+      H3 (&103486884040552)
         attr id "1.3"
         text "1.3 Geltungsbereich"
       text "\n  "
-      P (&94005637037920)
+      P (&103486884041152)
         attr id "polarion_34"
         text " "
-        SPAN (&94005637038400)
+        SPAN (&103486884041632)
           attr style "color: #000000;"
           text "Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungsverfahren werden durch die gematik GmbH in gesonderten Dokumenten (z.B. Dokumentenlandkarte, Leistungsbeschreibung) festgelegt und bekannt gegeben."
         text " "
       text "\n  "
-      H3 (&94005637039120)
+      H3 (&103486884042352)
         attr id "1.4"
         text "1.4 Abgrenzung des Dokumentes"
       text "\n  "
-      P (&94005637039720)
+      P (&103486884042952)
         attr id "polarion_35"
         text " "
-        SPAN (&94005637040200)
+        SPAN (&103486884043432)
           attr style "color: #000000;"
           text "Dieses Dokument macht keine Aussagen zur Aufteilung der Produktentwicklung bzw. Produktherstellung auf verschiedene Hersteller und Anbieter. "
         text " "
       text "\n  "
-      P (&94005637040920)
+      P (&103486884044152)
         attr id "polarion_36"
         text " "
-        SPAN (&94005637041400)
+        SPAN (&103486884044632)
           attr style "color: #000000;"
           text "Dokumente zu den Zulassungsverfahren für das Zulassungsobjekt COS sind nicht aufgeführt. Die geltenden Verfahren und Regelungen zur Beantragung und Durchführung von Zulassungsverfahren können der Homepage der gematik entnommen werden."
         text " "
       text "\n  "
-      H3 (&94005637042120)
+      H3 (&103486884045352)
         attr id "1.5"
         text "1.5 Methodik"
       text "\n  "
-      P (&94005637042720)
+      P (&103486884045952)
         attr id "polarion_37"
         text " "
-        SPAN (&94005637043200)
+        SPAN (&103486884046432)
           attr style "color: #000000;"
           text "Die im Dokument verzeichneten Anforderungen werden tabellarisch dargestellt. Die Tabellenspalten haben die folgende Bedeutung:"
         text " "
       text "\n  "
-      P (&94005637043920)
+      P (&103486884047152)
         attr id "polarion_38"
         attr style "margin-left: 40px;"
         text " "
-        SPAN (&94005637044576)
+        SPAN (&103486884047808)
           attr style "font-weight: bold;color: #000000;"
           text "Afo-ID:"
-        SPAN (&94005637045056)
+        SPAN (&103486884048288)
           attr style "color: #000000;"
           text " Identifiziert die Anforderung eindeutig im Gesamtbestand aller Festlegungen der gematik."
         text " "
       text "\n  "
-      P (&94005637045776)
+      P (&103486884049008)
         attr id "polarion_39"
         attr style "margin-left: 40px;"
         text " "
-        SPAN (&94005637046432)
+        SPAN (&103486884049664)
           attr style "font-weight: bold;color: #000000;"
           text "Afo-Bezeichnung:"
-        SPAN (&94005637046912)
+        SPAN (&103486884050144)
           attr style "color: #000000;"
           text " Gibt den Titel einer Anforderung informativ wieder, um die thematische Einordnung zu erleichtern. Der vollständige Inhalt der Anforderung ist dem Dokument zu entnehmen, auf das die Quellenangabe verweist."
         text " "
       text "\n  "
-      P (&94005637047632)
+      P (&103486884050864)
         attr id "polarion_40"
         attr style "margin-left: 40px;"
         text " "
-        SPAN (&94005637048288)
+        SPAN (&103486884051520)
           attr style "font-weight: bold;color: #000000;"
           text "Quelle (Referenz):"
-        SPAN (&94005637048768)
+        SPAN (&103486884052000)
           attr style "color: #000000;"
           text " Verweist auf das Dokument, das die Anforderung definiert."
         text " "
       text "\n  "
-      P (&94005637049488)
+      P (&103486884052720)
         attr id "polarion_41"
       text "\n  "
-      H2 (&94005637049968)
+      H2 (&103486884053200)
         attr id "2"
         text "2 Dokumente"
       text "\n  "
-      P (&94005637050568)
+      P (&103486884053800)
         attr id "polarion_43"
         text " "
-        SPAN (&94005637051048)
+        SPAN (&103486884054280)
           attr style "color: #000000;"
           text "Für das Betriebssystem (COS) definiert [gemSpec_COS] die Anforderungen an die Funktionalität einer Betriebssystemplattform (COS/COS-Plattform) für elektronische Karten im Gesundheitswesen (eGK, HBA, …), die internationalen Standards entsprechen und die internationale sowie europäische Interoperabilität sicherstellen."
         text " "
       text "\n  "
-      P (&94005637051768)
+      P (&103486884055000)
         attr id "polarion_44"
         text " "
-        SPAN (&94005637052248)
+        SPAN (&103486884055480)
           attr style "color: #000000;"
           text "Die nachfolgenden Dokumente enthalten alle für das COS normativen Anforderungen der gematik, die für eine Zulassung des Betriebssystems berücksichtigt werden müssen. "
         text " "
       text "\n  "
-      P (&94005637052968)
+      P (&103486884056200)
         attr id "polarion_45"
         attr class "polarion-rte-caption-paragraph"
       text "\n  "
-      P (&94005637053624)
+      P (&103486884056856)
         attr id "polarion_46"
         attr class "polarion-rte-caption-paragraph"
         text " Tabelle "
-        SPAN (&94005618672664)
+        SPAN (&103486880553192)
           attr data-sequence "Tabelle"
           attr class "polarion-rte-caption"
           text "1"
         text ": Dokumente mit Anforderungen zu der Produkttypversion "
       text "\n  "
-      TABLE (&94005618673560)
+      TABLE (&103486880554088)
         attr class "polarion-table"
         text "\n   "
-        TBODY (&94005618674040)
-          TR (&94005618674224)
+        TBODY (&103486880554568)
+          TR (&103486880554752)
             text "\n    "
-            TH (&94005618674528)
+            TH (&103486880555056)
               attr class "polarion-table-header"
-              SPAN (&94005618674888)
+              SPAN (&103486880555416)
                 attr class "polarion-table-span"
                 text "Dokumentenkürzel"
             text "\n    "
-            TH (&94005618675488)
+            TH (&103486880556016)
               attr class "polarion-table-header"
-              SPAN (&94005618675848)
+              SPAN (&103486880556376)
                 attr class "polarion-table-span"
                 text "Bezeichnung des Dokumentes"
             text "\n    "
-            TH (&94005618676448)
+            TH (&103486880556976)
               attr class "polarion-table-header"
-              SPAN (&94005618676808)
+              SPAN (&103486880557336)
                 attr class "polarion-table-span"
                 text "Version"
             text "\n   "
           text "\n   "
-          TR (&94005618677528)
+          TR (&103486880558056)
             text "\n    "
-            TD (&94005618677832)
+            TD (&103486880558360)
               attr class "polarion-table-data"
-              A (&94005618678192)
+              A (&103486880558720)
                 attr href "../../../gemKPT/gemKPT_Test/gemKPT_Test_V2.2.0/"
                 text "gemKPT_Test"
             text "\n    "
-            TD (&94005618678792)
+            TD (&103486880559320)
               attr class "polarion-table-data"
               text "Testkonzept der TI"
             text "\n    "
-            TD (&94005618679392)
+            TD (&103486880559920)
               attr class "polarion-table-data"
               text "2.2.0"
             text "\n   "
           text "\n   "
-          TR (&94005618680112)
+          TR (&103486880560640)
             text "\n    "
-            TD (&94005618680416)
+            TD (&103486880560944)
               attr class "polarion-table-data"
-              A (&94005618680776)
+              A (&103486880561304)
                 attr href "../../../gemSpec/gemSpec_COS/gemSpec_COS_V3.10.0/"
                 text "gemSpec_COS"
             text "\n    "
-            TD (&94005618681376)
+            TD (&103486880561904)
               attr class "polarion-table-data"
               text "Spezifikation des Card Operating System (COS)"
             text "\n    "
-            TD (&94005618681976)
+            TD (&103486880562504)
               attr class "polarion-table-data"
               text "3.10.0"
             text "\n   "
           text "\n   "
-          TR (&94005618682696)
+          TR (&103486880563224)
             text "\n    "
-            TD (&94005618683000)
+            TD (&103486880563528)
               attr class "polarion-table-data"
-              A (&94005618683360)
+              A (&103486880563888)
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/"
                 text "gemSpec_DS_Hersteller"
             text "\n    "
-            TD (&94005618683960)
+            TD (&103486880564488)
               attr class "polarion-table-data"
               text "Spezifikation Datenschutz- und Sicherheitsanforderungen der TI an Hersteller"
             text "\n    "
-            TD (&94005618684560)
+            TD (&103486880565088)
               attr class "polarion-table-data"
               text "1.0.0"
             text "\n   "
           text "\n   "
-          TR (&94005618685280)
+          TR (&103486880565808)
             text "\n    "
-            TD (&94005618685584)
+            TD (&103486880566112)
               attr class "polarion-table-data"
-              A (&94005618685944)
+              A (&103486880566472)
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/"
                 text "gemSpec_Krypt"
             text "\n    "
-            TD (&94005618686544)
+            TD (&103486880567072)
               attr class "polarion-table-data"
               text "Übergreifende Spezifikation Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur"
             text "\n    "
-            TD (&94005618687144)
+            TD (&103486880567672)
               attr class "polarion-table-data"
               text "2.12.0"
             text "\n   "
           text "\n   "
-          TR (&94005618687864)
+          TR (&103486880568392)
             text "\n    "
-            TD (&94005618688168)
+            TD (&103486880568696)
               attr class "polarion-table-data"
-              A (&94005618688528)
+              A (&103486880569056)
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/"
                 text "gemSpec_OM"
             text "\n    "
-            TD (&94005618689128)
+            TD (&103486880569656)
               attr class "polarion-table-data"
               text "Übergreifende Spezifikation Operations und Maintenance"
             text "\n    "
-            TD (&94005618689728)
+            TD (&103486880570256)
               attr class "polarion-table-data"
               text "1.11.0"
             text "\n   "
           text "\n   "
-          TR (&94005618690448)
+          TR (&103486880570976)
             text "\n    "
-            TD (&94005618690752)
+            TD (&103486880571280)
               attr class "polarion-table-data"
-              A (&94005618691112)
+              A (&103486880571640)
                 attr href "../../../gemSpec/gemSpec_PKI/gemSpec_PKI_V2.4.0/"
                 text "gemSpec_PKI"
             text "\n    "
-            TD (&94005618691712)
+            TD (&103486880572240)
               attr class "polarion-table-data"
               text "Übergreifende Spezifikation – Spezifikation PKI"
             text "\n    "
-            TD (&94005618692312)
+            TD (&103486880572840)
               attr class "polarion-table-data"
               text "2.4.0"
             text "\n   "
           text "\n  "
       text "\n  "
-      DIV (&94005618693152)
+      DIV (&103486880573680)
         attr id "polarion_editor_html_block4"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005618693808)
+        DIV (&103486880574336)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text " \n  "
       text "\n  "
-      P (&94005618694584)
+      P (&103486880575112)
         attr id "polarion_14"
         text " "
-        BR (&94005618695064)
+        BR (&103486880575592)
         text " "
       text "\n  "
-      P (&94005618695488)
+      P (&103486880576016)
         attr id "polarion_49"
         attr class "polarion-rte-caption-paragraph"
         text " Tabelle "
-        SPAN (&94005618696144)
+        SPAN (&103486880576672)
           attr data-sequence "Tabelle"
           attr class "polarion-rte-caption"
           text "2"
         text ": Mitgeltende Dokumente "
       text "\n  "
-      TABLE (&94005618697040)
+      TABLE (&103486880577568)
         attr class "polarion-table"
         text "\n   "
-        TBODY (&94005618697520)
-          TR (&94005618697704)
+        TBODY (&103486880578048)
+          TR (&103486880578232)
             text "\n    "
-            TH (&94005618698008)
+            TH (&103486880578536)
               attr class "polarion-table-header"
-              SPAN (&94005618698368)
+              SPAN (&103486880578896)
                 attr class "polarion-table-span"
                 text "ID"
             text "\n    "
-            TH (&94005618698968)
+            TH (&103486880579496)
               attr class "polarion-table-header"
-              SPAN (&94005618699328)
+              SPAN (&103486880579856)
                 attr class "polarion-table-span"
                 text "Bezeichnung"
             text "\n    "
-            TH (&94005618699928)
+            TH (&103486880580456)
               attr class "polarion-table-header"
-              SPAN (&94005618700288)
+              SPAN (&103486880580816)
                 attr class "polarion-table-span"
                 text "Quelle (Referenz)"
             text "\n   "
           text "\n   "
-          TR (&94005618701008)
+          TR (&103486880581536)
             text "\n    "
-            TD (&94005618701312)
+            TD (&103486880581840)
               attr class "polarion-table-data"
-              A (&94005618701672)
+              A (&103486880582200)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_COS/gemSpec_COS_V3.10.0/#G2_N000.300"
                 text "G2_N000.300"
             text "\n    "
-            TD (&94005618702624)
+            TD (&103486880583152)
               attr class "polarion-table-data"
               text "(N000.300) K_COS"
             text "\n    "
-            TD (&94005618703224)
+            TD (&103486880583752)
               attr class "polarion-table-data"
               text "gemSpec_COS"
             text "\n   "
           text "\n   "
-          TR (&94005618703944)
+          TR (&103486880584472)
             text "\n    "
-            TD (&94005618704248)
+            TD (&103486880584776)
               attr class "polarion-table-data"
-              A (&94005618704608)
+              A (&103486880585136)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4362"
                 text "GS-A_4362"
             text "\n    "
-            TD (&94005636973280)
+            TD (&103486891530016)
               attr class "polarion-table-data"
               text "X.509-Identitäten für Verschlüsselungszertifikate"
             text "\n    "
-            TD (&94005636973880)
+            TD (&103486891530616)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636974600)
+          TR (&103486891531336)
             text "\n    "
-            TD (&94005636974904)
+            TD (&103486891531640)
               attr class "polarion-table-data"
-              A (&94005636975264)
+              A (&103486891532000)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4363"
                 text "GS-A_4363"
             text "\n    "
-            TD (&94005636976216)
+            TD (&103486891532952)
               attr class "polarion-table-data"
               text "CV-Zertifikate G1"
             text "\n    "
-            TD (&94005636976816)
+            TD (&103486891533552)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636977536)
+          TR (&103486891534272)
             text "\n    "
-            TD (&94005636977840)
+            TD (&103486891534576)
               attr class "polarion-table-data"
-              A (&94005636978200)
+              A (&103486891534936)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4364"
                 text "GS-A_4364"
             text "\n    "
-            TD (&94005636979152)
+            TD (&103486891535888)
               attr class "polarion-table-data"
               text "CV-CA-Zertifikate G1"
             text "\n    "
-            TD (&94005636979752)
+            TD (&103486891536488)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636980472)
+          TR (&103486891537208)
             text "\n    "
-            TD (&94005636980776)
+            TD (&103486891537512)
               attr class "polarion-table-data"
-              A (&94005636981136)
+              A (&103486891537872)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4365"
                 text "GS-A_4365"
             text "\n    "
-            TD (&94005636982088)
+            TD (&103486891538824)
               attr class "polarion-table-data"
               text "CV-Zertifikate G2"
             text "\n    "
-            TD (&94005636982688)
+            TD (&103486891539424)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636983408)
+          TR (&103486891540144)
             text "\n    "
-            TD (&94005636983712)
+            TD (&103486891540448)
               attr class "polarion-table-data"
-              A (&94005636984072)
+              A (&103486891540808)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4366"
                 text "GS-A_4366"
             text "\n    "
-            TD (&94005636985024)
+            TD (&103486891541760)
               attr class "polarion-table-data"
               text "CV-CA-Zertifikate G2"
             text "\n    "
-            TD (&94005636985624)
+            TD (&103486891542360)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636986344)
+          TR (&103486891543080)
             text "\n    "
-            TD (&94005636986648)
+            TD (&103486891543384)
               attr class "polarion-table-data"
-              A (&94005636987008)
+              A (&103486891543744)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4377"
                 text "GS-A_4377"
             text "\n    "
-            TD (&94005636987960)
+            TD (&103486891544696)
               attr class "polarion-table-data"
               text "Card-to-Card-Authentisierung G1"
             text "\n    "
-            TD (&94005636988560)
+            TD (&103486891545296)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636989280)
+          TR (&103486891546016)
             text "\n    "
-            TD (&94005636989584)
+            TD (&103486891546320)
               attr class "polarion-table-data"
-              A (&94005636989944)
+              A (&103486891546680)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4378"
                 text "GS-A_4378"
             text "\n    "
-            TD (&94005636990896)
+            TD (&103486891547632)
               attr class "polarion-table-data"
               text "Card-to-Server (C2S) Authentisierung und Trusted Channel G1"
             text "\n    "
-            TD (&94005636991496)
+            TD (&103486891548232)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636992216)
+          TR (&103486891548952)
             text "\n    "
-            TD (&94005636992520)
+            TD (&103486891549256)
               attr class "polarion-table-data"
-              A (&94005636992880)
+              A (&103486891549616)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4379"
                 text "GS-A_4379"
             text "\n    "
-            TD (&94005636993832)
+            TD (&103486891550568)
               attr class "polarion-table-data"
               text "Card-to-Card-Authentisierung G2"
             text "\n    "
-            TD (&94005636994432)
+            TD (&103486891551168)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636995152)
+          TR (&103486891551888)
             text "\n    "
-            TD (&94005636995456)
+            TD (&103486891552192)
               attr class "polarion-table-data"
-              A (&94005636995816)
+              A (&103486891552552)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4380"
                 text "GS-A_4380"
             text "\n    "
-            TD (&94005636996768)
+            TD (&103486891553504)
               attr class "polarion-table-data"
               text "Card-to-Server (C2S) Authentisierung und Trusted Channel G2"
             text "\n    "
-            TD (&94005636997368)
+            TD (&103486891554104)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005636998088)
+          TR (&103486891554824)
             text "\n    "
-            TD (&94005636998392)
+            TD (&103486891555128)
               attr class "polarion-table-data"
-              A (&94005636998752)
+              A (&103486891555488)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4381"
                 text "GS-A_4381"
             text "\n    "
-            TD (&94005636999704)
+            TD (&103486891556440)
               attr class "polarion-table-data"
               text "Schlüssellängen Algorithmus AES"
             text "\n    "
-            TD (&94005637000304)
+            TD (&103486891557040)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005637001024)
+          TR (&103486891557760)
             text "\n    "
-            TD (&94005637001328)
+            TD (&103486891558064)
               attr class "polarion-table-data"
-              A (&94005637001688)
+              A (&103486891558424)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_3695"
                 text "GS-A_3695"
             text "\n    "
-            TD (&94005637002640)
+            TD (&103486891559376)
               attr class "polarion-table-data"
               text "Grundlegender Aufbau Versionsnummern"
             text "\n    "
-            TD (&94005637003240)
+            TD (&103486891559976)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n   "
-          TR (&94005637003960)
+          TR (&103486891560696)
             text "\n    "
-            TD (&94005637004264)
+            TD (&103486891561000)
               attr class "polarion-table-data"
-              A (&94005637004624)
+              A (&103486891561360)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_3700"
                 text "GS-A_3700"
             text "\n    "
-            TD (&94005619024048)
+            TD (&103486891472848)
               attr class "polarion-table-data"
               text "Versionierung von Produkten auf Basis von dezentralen Produkttypen der TI-Plattform durch die Produktidentifikation"
             text "\n    "
-            TD (&94005619024624)
+            TD (&103486891473424)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n   "
-          TR (&94005619025344)
+          TR (&103486891474144)
             text "\n    "
-            TD (&94005619025648)
+            TD (&103486891474448)
               attr class "polarion-table-data"
-              A (&94005619026008)
+              A (&103486891474808)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_5026"
                 text "GS-A_5026"
             text "\n    "
-            TD (&94005619026960)
+            TD (&103486891475760)
               attr class "polarion-table-data"
               text "Versionierung von Karten durch die Produktidentifikation"
             text "\n    "
-            TD (&94005619027560)
+            TD (&103486891476360)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n   "
-          TR (&94005619028280)
+          TR (&103486891477080)
             text "\n    "
-            TD (&94005619028584)
+            TD (&103486891477384)
               attr class "polarion-table-data"
-              A (&94005619028944)
+              A (&103486891477744)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_5140"
                 text "GS-A_5140"
             text "\n    "
-            TD (&94005619029896)
+            TD (&103486891478696)
               attr class "polarion-table-data"
               text "Inhalt der Selbstauskunft von Karten"
             text "\n    "
-            TD (&94005619030496)
+            TD (&103486891479296)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n   "
-          TR (&94005619031216)
+          TR (&103486891480016)
             text "\n    "
-            TD (&94005619031520)
+            TD (&103486891480320)
               attr class "polarion-table-data"
-              A (&94005619031880)
+              A (&103486891480680)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_PKI/gemSpec_PKI_V2.4.0/#GS-A_4668"
                 text "GS-A_4668"
             text "\n    "
-            TD (&94005619032832)
+            TD (&103486891481632)
               attr class "polarion-table-data"
               text "Prüfung der mathematischen Korrektheit bei CV-Zertifikaten der Generation G1"
             text "\n    "
-            TD (&94005619033432)
+            TD (&103486891482232)
               attr class "polarion-table-data"
               text "gemSpec_PKI"
             text "\n   "
           text "\n   "
-          TR (&94005619034152)
+          TR (&103486891482952)
             text "\n    "
-            TD (&94005619034456)
+            TD (&103486891483256)
               attr class "polarion-table-data"
-              A (&94005619034816)
+              A (&103486891483616)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_PKI/gemSpec_PKI_V2.4.0/#GS-A_5009"
                 text "GS-A_5009"
             text "\n    "
-            TD (&94005619035768)
+            TD (&103486891484568)
               attr class "polarion-table-data"
               text "Prüfung der mathematischen Korrektheit von CV-Zertifikate der Generation 2"
             text "\n    "
-            TD (&94005619036368)
+            TD (&103486891485168)
               attr class "polarion-table-data"
               text "gemSpec_PKI"
             text "\n   "
           text "\n   "
-          TR (&94005619037088)
+          TR (&103486891485888)
             text "\n    "
-            TD (&94005619037392)
+            TD (&103486891486192)
               attr class "polarion-table-data"
-              A (&94005619037752)
+              A (&103486891486552)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_PKI/gemSpec_PKI_V2.4.0/#GS-A_5010"
                 text "GS-A_5010"
             text "\n    "
-            TD (&94005619038704)
+            TD (&103486891487504)
               attr class "polarion-table-data"
               text "Prüfung der Signatur eines CV-Zertifikats der Generation 2 mit Hilfe des CV-Zertifikats des Herausgebers"
             text "\n    "
-            TD (&94005619039304)
+            TD (&103486891488104)
               attr class "polarion-table-data"
               text "gemSpec_PKI"
             text "\n   "
           text "\n   "
-          TR (&94005619040024)
+          TR (&103486891488824)
             text "\n    "
-            TD (&94005619040328)
+            TD (&103486891489128)
               attr class "polarion-table-data"
-              A (&94005619040688)
+              A (&103486891489488)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_PKI/gemSpec_PKI_V2.4.0/#GS-A_5011"
                 text "GS-A_5011"
             text "\n    "
-            TD (&94005619041640)
+            TD (&103486891490440)
               attr class "polarion-table-data"
               text "Prüfung der Gültigkeit von CV-Zertifikaten der Generation G2"
             text "\n    "
-            TD (&94005619042240)
+            TD (&103486891491040)
               attr class "polarion-table-data"
               text "gemSpec_PKI"
             text "\n   "
           text "\n   "
-          TR (&94005619042960)
+          TR (&103486891491760)
             text "\n    "
-            TD (&94005619043264)
+            TD (&103486891492064)
               attr class "polarion-table-data"
-              A (&94005619043624)
+              A (&103486891492424)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_PKI/gemSpec_PKI_V2.4.0/#GS-A_5012"
                 text "GS-A_5012"
             text "\n    "
-            TD (&94005619044576)
+            TD (&103486891493376)
               attr class "polarion-table-data"
               text "Prüfung von CV-Zertifikaten der Generation 2"
             text "\n    "
-            TD (&94005619045176)
+            TD (&103486891493976)
               attr class "polarion-table-data"
               text "gemSpec_PKI"
             text "\n   "
           text "\n  "
       text "\n  "
-      TABLE (&94005619046016)
+      TABLE (&103486891494816)
         attr id "polarion_wiki macro name=table;params=uid=5"
         attr class "polarion-Document-table"
         attr style "width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
         text " \n   "
-        TBODY (&94005619046848)
+        TBODY (&103486891495648)
           text " \n    "
-          TR (&94005619047152)
+          TR (&103486891495952)
             text " \n     "
-            TH (&94005619047456)
+            TH (&103486891496256)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 172px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005619047816)
+              SPAN (&103486891496616)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Dokumentenkürzel"
-              BR (&94005619048296)
+              BR (&103486891497096)
               text " "
             text " \n     "
-            TH (&94005619048720)
+            TH (&103486891497520)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 346px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005619049080)
+              SPAN (&103486891497880)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Bezeichnung des Dokuments"
-              BR (&94005619049560)
+              BR (&103486891498360)
               text " "
             text " \n     "
-            TH (&94005619049984)
+            TH (&103486891498784)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 54px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005619050344)
+              SPAN (&103486891499144)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Version"
-              BR (&94005619050824)
+              BR (&103486891499624)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005619051368)
+          TR (&103486891500168)
             text " \n     "
-            TD (&94005619051672)
+            TD (&103486891500472)
               attr style "text-align: left;vertical-align: top;width: 172px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005619052032)
+              SPAN (&103486891500832)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
                 text "gemSpec_TLK_COS_G2"
-              BR (&94005619052512)
+              BR (&103486891501312)
               text " "
             text " \n     "
-            TD (&94005619052936)
+            TD (&103486891501736)
               attr style "text-align: left;vertical-align: top;width: 346px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005619053296)
+              SPAN (&103486891502096)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
                 text "gematik: Spezifikation COS/Objektsysteme"
-              BR (&94005619053776)
+              BR (&103486891502576)
               text " "
             text " \n     "
-            TD (&94005619054200)
+            TD (&103486891503000)
               attr style "text-align: left;vertical-align: top;width: 54px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005619054560)
+              SPAN (&103486891503360)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
                 text "1.6.0"
-              BR (&94005619055040)
+              BR (&103486891503840)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005619055584)
+          TR (&103486891504384)
             text " \n     "
-            TD (&94005619055888)
+            TD (&103486891504688)
               attr style "text-align: left;vertical-align: top;width: 172px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005619056248)
+              SPAN (&103486891505048)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
                 text "BSI-CC-PP-0082"
-              BR (&94005639465056)
+              BR (&103486879355760)
               text " "
             text " \n     "
-            TD (&94005639465480)
+            TD (&103486879356184)
               attr style "text-align: left;vertical-align: top;width: 346px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005639465816)
+              SPAN (&103486879356520)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
                 text "BSI: Protection Profile – COS BSI-CC-PP-0082"
-              BR (&94005639466296)
+              BR (&103486879357000)
               text " "
             text " \n     "
-            TD (&94005639466720)
+            TD (&103486879357424)
               attr style "text-align: left;vertical-align: top;width: 54px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005639467080)
+              SPAN (&103486879357784)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
                 text "2.0"
-              BR (&94005639467560)
+              BR (&103486879358264)
               text " "
             text " \n    "
           text " \n   "
         text " \n  "
       text "\n  "
-      P (&94005639468344)
+      P (&103486879359048)
         attr id "polarion_51"
       text "\n  "
-      P (&94005639468824)
+      P (&103486879359528)
         attr id "polarion_52"
         text " "
-        SPAN (&94005639469304)
+        SPAN (&103486879360008)
           attr style "font-weight: bold;color: #000000;"
           text "Errata"
         text " "
       text "\n  "
-      P (&94005639470024)
+      P (&103486879360728)
         attr id "polarion_53"
         text " "
-        SPAN (&94005639470504)
+        SPAN (&103486879361208)
           attr style "color: #000000;"
           text "Neben den vorgenannten Dokumenten werden auf der Internetseite der gematik bei Bedarf Errata-Dokumente mit normativen Ergänzungen bzw. Korrekturen zu den Spezifikationsdokumenten veröffentlicht. Sofern in den Errata der vorliegende Produkttyp benannt wird, sind diese bei der Umsetzung des Produkttyps entsprechend der Vorgabe in der Dokumentenlandkarte zu berücksichtigen. Dabei kann eine abweichende Produkttypversion festgelegt werden."
         text " "
       text "\n  "
-      H2 (&94005639471224)
+      H2 (&103486879361928)
         attr id "3"
         text "3 Blattanforderungen"
       text "\n  "
-      P (&94005639471824)
+      P (&103486879362528)
         attr id "polarion_55"
         text " "
-        SPAN (&94005639472304)
+        SPAN (&103486879363008)
           attr style "color: #000000;"
           text "Die folgenden Abschnitte verzeichnen die für das Zulassungsobjekt COS normativen Anforderungen, die für die Herstellung des Zulassungsobjektes COS notwendig sind (Blattanforderungen). Die Anforderungen sind gruppiert nach der Art der Nachweisführung ihrer Erfüllung als Grundlage der Zulassung, Zertifizierung bzw. Bestätigung."
         text " "
       text "\n  "
-      H3 (&94005639473024)
+      H3 (&103486879363728)
         attr id "3.1"
         text "3.1 Anforderungen zur funktionalen Eignung"
       text "\n  "
-      H4 (&94005639473624)
+      H4 (&103486879364328)
         attr id "3.1.1"
         text "3.1.1 Produkttest/Produktübergreifender Test"
       text "\n  "
-      P (&94005639474224)
+      P (&103486879364928)
         attr id "polarion_56"
         text " "
-        SPAN (&94005639474704)
+        SPAN (&103486879365408)
           attr style "color: #000000;"
           text "Die normativen Anforderungen an das COS sind in [gemSpec_COS] festgelegt"
         text " "
       text "\n  "
-      P (&94005639475424)
+      P (&103486879366128)
         attr id "polarion_57"
         text " "
-        SPAN (&94005639475904)
+        SPAN (&103486879366608)
           attr style "color: #000000;"
           text "Nachfolgend sind weitere funktionale Anforderungen an den technischen Teil des Zulassungsobjektes COS verzeichnet, deren Umsetzung im Zuge von Zulassungstests durch die gematik geprüft wird."
         text " "
       text "\n  "
-      P (&94005639476624)
+      P (&103486879367328)
         attr id "polarion_58"
         attr class "polarion-rte-caption-paragraph"
         text " Tabelle "
-        SPAN (&94005639477280)
+        SPAN (&103486879367984)
           attr data-sequence "Tabelle"
           attr class "polarion-rte-caption"
           text "3"
         text ": Anforderungen zur funktionalen Eignung "
-        BR (&94005639478056)
+        BR (&103486879368760)
         text " "Produkttest/Produktübergreifender Test" "
       text "\n  "
-      DIV (&94005639478480)
+      DIV (&103486879369184)
         attr id "polarion_editor_html_block3"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005639479136)
+        DIV (&103486879369840)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text " \n  "
       text "\n  "
-      P (&94005639479912)
+      P (&103486879370616)
         attr id "polarion_18"
       text "\n  "
-      H4 (&94005639480392)
+      H4 (&103486879371096)
         attr id "3.1.2"
         text "3.1.2 Herstellererklärung funktionale Eignung"
       text "\n  "
-      P (&94005639480992)
+      P (&103486879371696)
         attr id "polarion_61"
         text " "
-        SPAN (&94005639481472)
+        SPAN (&103486879372176)
           attr style "color: #000000;"
           text "In diesem Abschnitt sind alle funktionalen und nichtfunktionalen Anforderungen an den technischen Teil des Zulassungsobjektes COS verzeichnet, deren durchgeführte bzw. geplante Umsetzung und Beachtung der Hersteller bzw. der Anbieter durch eine Herstellererklärung bestätigt bzw. zusagt."
         text " "
       text "\n  "
-      P (&94005639482192)
+      P (&103486879372896)
         attr id "polarion_62"
       text "\n  "
-      P (&94005639482672)
+      P (&103486879373376)
         attr id "polarion_63"
         attr class "polarion-rte-caption-paragraph"
         text " Tabelle "
-        SPAN (&94005639483328)
+        SPAN (&103486879374032)
           attr data-sequence "Tabelle"
           attr class "polarion-rte-caption"
           text "4"
         text ": Anforderungen zur funktionalen Eignung "Herstellererklärung" "
       text "\n  "
-      TABLE (&94005639484224)
+      TABLE (&103486879374928)
         attr class "polarion-table"
         text "\n   "
-        TBODY (&94005639484704)
-          TR (&94005639484888)
+        TBODY (&103486879375408)
+          TR (&103486879375592)
             text "\n    "
-            TH (&94005639485192)
+            TH (&103486879375896)
               attr class "polarion-table-header"
-              SPAN (&94005639485552)
+              SPAN (&103486879376256)
                 attr class "polarion-table-span"
                 text "ID"
             text "\n    "
-            TH (&94005639486152)
+            TH (&103486879376856)
               attr class "polarion-table-header"
-              SPAN (&94005639486512)
+              SPAN (&103486879377216)
                 attr class "polarion-table-span"
                 text "Bezeichnung"
             text "\n    "
-            TH (&94005639487112)
+            TH (&103486879377816)
               attr class "polarion-table-header"
-              SPAN (&94005639487472)
+              SPAN (&103486879378176)
                 attr class "polarion-table-span"
                 text "Quelle (Referenz)"
             text "\n   "
           text "\n   "
-          TR (&94005639488192)
+          TR (&103486879378896)
             text "\n    "
-            TD (&94005639488496)
+            TD (&103486879379200)
               attr class "polarion-table-data"
-              A (&94005639488856)
+              A (&103486879379560)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemKPT/gemKPT_Test/gemKPT_Test_V2.2.0/#GS-A_2162"
                 text "GS-A_2162"
             text "\n    "
-            TD (&94005639489808)
+            TD (&103486879380512)
               attr class "polarion-table-data"
               text "Kryptographisches Material in Entwicklungs- und Testumgebungen"
             text "\n    "
-            TD (&94005639490408)
+            TD (&103486879381112)
               attr class "polarion-table-data"
               text "gemKPT_Test"
             text "\n   "
           text "\n   "
-          TR (&94005639491128)
+          TR (&103486879381832)
             text "\n    "
-            TD (&94005639491432)
+            TD (&103486879382136)
               attr class "polarion-table-data"
-              A (&94005639491792)
+              A (&103486879382496)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemKPT/gemKPT_Test/gemKPT_Test_V2.2.0/#TIP1-A_4191"
                 text "TIP1-A_4191"
             text "\n    "
-            TD (&94005639492744)
+            TD (&103486879383448)
               attr class "polarion-table-data"
               text "Keine Echtdaten in RU und TU"
             text "\n    "
-            TD (&94005639493344)
+            TD (&103486879384048)
               attr class "polarion-table-data"
               text "gemKPT_Test"
             text "\n   "
           text "\n   "
-          TR (&94005639494064)
+          TR (&103486879384768)
             text "\n    "
-            TD (&94005639494368)
+            TD (&103486879385072)
               attr class "polarion-table-data"
-              A (&94005639494728)
+              A (&103486879385432)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_3696"
                 text "GS-A_3696"
             text "\n    "
-            TD (&94005639495680)
+            TD (&103486879386384)
               attr class "polarion-table-data"
               text "Zeitpunkt der Erzeugung neuer Versionsnummern"
             text "\n    "
-            TD (&94005639496280)
+            TD (&103486879386984)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n   "
-          TR (&94005639497000)
+          TR (&103486879387704)
             text "\n    "
-            TD (&94005639497304)
+            TD (&103486879388008)
               attr class "polarion-table-data"
-              A (&94005636917320)
+              A (&103486884118792)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_3697"
                 text "GS-A_3697"
             text "\n    "
-            TD (&94005636918248)
+            TD (&103486884119720)
               attr class "polarion-table-data"
               text "Anlass der Erhöhung von Versionsnummern"
             text "\n    "
-            TD (&94005636918848)
+            TD (&103486884120320)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n   "
-          TR (&94005636919568)
+          TR (&103486884121040)
             text "\n    "
-            TD (&94005636919872)
+            TD (&103486884121344)
               attr class "polarion-table-data"
-              A (&94005636920232)
+              A (&103486884121704)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_4542"
                 text "GS-A_4542"
             text "\n    "
-            TD (&94005636921184)
+            TD (&103486884122656)
               attr class "polarion-table-data"
               text "Spezifikationsgrundlage für Produkte"
             text "\n    "
-            TD (&94005636921784)
+            TD (&103486884123256)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n   "
-          TR (&94005636922504)
+          TR (&103486884123976)
             text "\n    "
-            TD (&94005636922808)
+            TD (&103486884124280)
               attr class "polarion-table-data"
-              A (&94005636923168)
+              A (&103486884124640)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_5038"
                 text "GS-A_5038"
             text "\n    "
-            TD (&94005636924120)
+            TD (&103486884125592)
               attr class "polarion-table-data"
               text "Festlegungen zur Vergabe einer Produktversion"
             text "\n    "
-            TD (&94005636924720)
+            TD (&103486884126192)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n   "
-          TR (&94005636925440)
+          TR (&103486884126912)
             text "\n    "
-            TD (&94005636925744)
+            TD (&103486884127216)
               attr class "polarion-table-data"
-              A (&94005636926104)
+              A (&103486884127576)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_5039"
                 text "GS-A_5039"
             text "\n    "
-            TD (&94005636927056)
+            TD (&103486884128528)
               attr class "polarion-table-data"
               text "Änderung der Produktversion bei Änderungen der Produkttypversion"
             text "\n    "
-            TD (&94005636927656)
+            TD (&103486884129128)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n  "
       text "\n  "
-      DIV (&94005636928496)
+      DIV (&103486884129968)
         attr id "polarion_editor_html_block5"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005636929152)
+        DIV (&103486884130624)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text " \n  "
       text "\n  "
-      P (&94005636929928)
+      P (&103486884131400)
         attr id "polarion_47"
       text "\n  "
-      TABLE (&94005636930408)
+      TABLE (&103486884131880)
         attr id "polarion_wiki macro name=table;params=width=100%|uid=1"
         attr class "polarion-Document-table"
         attr style "width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
         text " \n   "
-        TBODY (&94005636931240)
+        TBODY (&103486884132712)
           text " \n    "
-          TR (&94005636931544)
+          TR (&103486884133016)
             text " \n     "
-            TH (&94005636931848)
+            TH (&103486884133320)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 98.4896px;height: 19.6745px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636932208)
+              SPAN (&103486884133680)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Afo-ID"
-              BR (&94005636932688)
+              BR (&103486884134160)
               text " "
             text " \n     "
-            TH (&94005636933112)
+            TH (&103486884134584)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 341.094px;height: 19.6745px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636933472)
+              SPAN (&103486884134944)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Afo-Bezeichnung"
-              BR (&94005636933952)
+              BR (&103486884135424)
               text " "
             text " \n     "
-            TH (&94005636934376)
+            TH (&103486884135848)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 141.81px;height: 19.6745px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636934736)
+              SPAN (&103486884136208)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Quelle (Referenz)"
-              BR (&94005636935216)
+              BR (&103486884136688)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005636935760)
+          TR (&103486884137232)
             text " \n     "
-            TD (&94005636936064)
+            TD (&103486884137536)
               attr style "text-align: left;vertical-align: top;width: 98.4896px;height: 20.5078px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636936424)
+              SPAN (&103486884137896)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "GS-A_3697"
-              BR (&94005636936904)
+              BR (&103486884138376)
               text " "
             text " \n     "
-            TD (&94005636937328)
+            TD (&103486884138800)
               attr style "text-align: left;vertical-align: top;width: 341.094px;height: 20.5078px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636937688)
+              SPAN (&103486884139160)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Anlass der Erhöhung von Versionsnummern"
-              BR (&94005636938168)
+              BR (&103486884139640)
               text " "
             text " \n     "
-            TD (&94005636938592)
+            TD (&103486884140064)
               attr style "text-align: left;vertical-align: top;width: 141.81px;height: 20.5078px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636938952)
+              SPAN (&103486884140424)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "gemSpec_OM"
-              BR (&94005636939432)
+              BR (&103486884140904)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005636939976)
+          TR (&103486884141448)
             text " \n     "
-            TD (&94005636940280)
+            TD (&103486884141752)
               attr style "text-align: left;vertical-align: top;width: 98.4896px;height: 20.5078px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636940640)
+              SPAN (&103486884142112)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "GS-A_4542"
-              BR (&94005636941120)
+              BR (&103486884142592)
               text " "
             text " \n     "
-            TD (&94005636941544)
+            TD (&103486884143016)
               attr style "text-align: left;vertical-align: top;width: 341.094px;height: 20.5078px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636941904)
+              SPAN (&103486884143376)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Spezifikationsgrundlage für Produkte"
-              BR (&94005636942384)
+              BR (&103486884143856)
               text " "
             text " \n     "
-            TD (&94005636942808)
+            TD (&103486884144280)
               attr style "text-align: left;vertical-align: top;width: 141.81px;height: 20.5078px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636943168)
+              SPAN (&103486884144640)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "gemSpec_OM"
-              BR (&94005636943648)
+              BR (&103486884145120)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005636944192)
+          TR (&103486884145664)
             text " \n     "
-            TD (&94005636944496)
+            TD (&103486884145968)
               attr style "text-align: left;vertical-align: top;width: 98.4896px;height: 41.0156px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636944856)
+              SPAN (&103486884146328)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "GS-A_5039"
-              BR (&94005636945336)
+              BR (&103486884146808)
               text " "
             text " \n     "
-            TD (&94005636945760)
+            TD (&103486884147232)
               attr style "text-align: left;vertical-align: top;width: 341.094px;height: 41.0156px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636946120)
+              SPAN (&103486884147592)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Änderung der Produktversion bei Änderungen der Produkttypversion"
-              BR (&94005636946600)
+              BR (&103486884148072)
               text " "
             text " \n     "
-            TD (&94005636947024)
+            TD (&103486884148496)
               attr style "text-align: left;vertical-align: top;width: 141.81px;height: 41.0156px;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636947384)
+              SPAN (&103486884148856)
                 attr style "font-size: 9pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "gemSpec_OM"
-              BR (&94005636947864)
+              BR (&103486884149336)
               text " "
             text " \n    "
           text " \n   "
         text " \n  "
       text "\n  "
-      P (&94005636948648)
+      P (&103486884150120)
         attr id "polarion_65"
       text "\n  "
-      H3 (&94005636949128)
+      H3 (&103486884150600)
         attr id "3.2"
         text "3.2 Anforderungen zur sicherheitstechnischen Eignung"
       text "\n  "
-      H4 (&94005636949728)
+      H4 (&103486884151200)
         attr id "3.2.1"
         text "3.2.1 CC-Evaluierung"
       text "\n  "
-      P (&94005644131064)
+      P (&103486883807016)
         attr id "polarion_66"
         text " "
-        SPAN (&94005644131544)
+        SPAN (&103486883807496)
           attr style "color: #000000;"
           text "Der Produkttyp erfordert eine Zertifizierung nach Common Criteria [CC] auf der Grundlage des Protection Profiles ["
-        SPAN (&94005644132024)
+        SPAN (&103486883807976)
           attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
           text "CC-PP-0082]."
         text " "
       text "\n  "
-      P (&94005644132744)
+      P (&103486883808696)
         attr id "polarion_67"
         text " "
-        SPAN (&94005644133224)
+        SPAN (&103486883809176)
           attr style "color: #000000;"
           text "Für die Evaluierung sind die Inhalte der Schutzprofile normativ führend. Der Nachweis der im Folgenden aufgeführten Anforderungen erfolgt implizit durch die Vorlage des IT-Sicherheitszertifikats bei der gematik."
         text " "
       text "\n  "
-      P (&94005644133944)
+      P (&103486883809896)
         attr id "polarion_68"
       text "\n  "
-      P (&94005644134424)
+      P (&103486883810376)
         attr id "polarion_69"
         attr class "polarion-rte-caption-paragraph"
         text " Tabelle "
-        SPAN (&94005644135080)
+        SPAN (&103486883811032)
           attr data-sequence "Tabelle"
           attr class "polarion-rte-caption"
           text "5"
         text ": Anforderungen zur sicherheitstechnischen Eignung "CC-Evaluierung" "
       text "\n  "
-      TABLE (&94005644135976)
+      TABLE (&103486883811928)
         attr class "polarion-table"
         text "\n   "
-        TBODY (&94005644136456)
-          TR (&94005644136640)
+        TBODY (&103486883812408)
+          TR (&103486883812592)
             text "\n    "
-            TH (&94005644136944)
+            TH (&103486883812896)
               attr class "polarion-table-header"
-              SPAN (&94005644137304)
+              SPAN (&103486883813256)
                 attr class "polarion-table-span"
                 text "ID"
             text "\n    "
-            TH (&94005644137904)
+            TH (&103486883813856)
               attr class "polarion-table-header"
-              SPAN (&94005644138264)
+              SPAN (&103486883814216)
                 attr class "polarion-table-span"
                 text "Bezeichnung"
             text "\n    "
-            TH (&94005644138864)
+            TH (&103486883814816)
               attr class "polarion-table-header"
-              SPAN (&94005644139224)
+              SPAN (&103486883815176)
                 attr class "polarion-table-span"
                 text "Quelle (Referenz)"
             text "\n   "
           text "\n   "
-          TR (&94005644139944)
+          TR (&103486883815896)
             text "\n    "
-            TD (&94005644140248)
+            TD (&103486883816200)
               attr class "polarion-table-data"
-              A (&94005644140608)
+              A (&103486883816560)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4367"
                 text "GS-A_4367"
             text "\n    "
-            TD (&94005644141560)
+            TD (&103486883817512)
               attr class "polarion-table-data"
               text "Zufallszahlengenerator"
             text "\n    "
-            TD (&94005644142160)
+            TD (&103486883818112)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n   "
-          TR (&94005644142880)
+          TR (&103486883818832)
             text "\n    "
-            TD (&94005644143184)
+            TD (&103486883819136)
               attr class "polarion-table-data"
-              A (&94005644143544)
+              A (&103486883819496)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_Krypt/gemSpec_Krypt_V2.12.0/#GS-A_4368"
                 text "GS-A_4368"
             text "\n    "
-            TD (&94005644144496)
+            TD (&103486883820448)
               attr class "polarion-table-data"
               text "Schlüsselerzeugung"
             text "\n    "
-            TD (&94005644145096)
+            TD (&103486883821048)
               attr class "polarion-table-data"
               text "gemSpec_Krypt"
             text "\n   "
           text "\n  "
       text "\n  "
-      DIV (&94005644145936)
+      DIV (&103486883821888)
         attr id "polarion_editor_html_block6"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005644146592)
+        DIV (&103486883822544)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text " \n  "
       text "\n  "
-      P (&94005644147368)
+      P (&103486883823320)
         attr id "polarion_59"
       text "\n  "
-      H4 (&94005644147848)
+      H4 (&103486883823800)
         attr id "3.2.2"
         text "3.2.2 Herstellererklärung sicherheitstechnische Eignung"
       text "\n  "
-      P (&94005644148448)
+      P (&103486883824400)
         attr id "polarion_75"
         text " "
-        SPAN (&94005644148928)
+        SPAN (&103486883824880)
           attr style "color: #000000;"
           text "Sofern in diesem Abschnitt Anforderungen verzeichnet sind, muss der Hersteller bzw. der Anbieter deren Umsetzung und Beachtung zum Nachweis der sicherheitstechnischen Eignung durch eine Herstellererklärung bestätigen bzw. zusagen."
         text " "
       text "\n  "
-      P (&94005644149648)
+      P (&103486883825600)
         attr id "polarion_76"
         attr class "polarion-rte-caption-paragraph"
         text " Tabelle "
-        SPAN (&94005644150304)
+        SPAN (&103486883826256)
           attr data-sequence "Tabelle"
           attr class "polarion-rte-caption"
           text "6"
         text ": Anforderungen zur sicherheitstechnischen Eignung "Herstellererklärung" "
       text "\n  "
-      TABLE (&94005644151200)
+      TABLE (&103486883827152)
         attr class "polarion-table"
         text "\n   "
-        TBODY (&94005644151680)
-          TR (&94005644151864)
+        TBODY (&103486883827632)
+          TR (&103486883827816)
             text "\n    "
-            TH (&94005644152168)
+            TH (&103486883828120)
               attr class "polarion-table-header"
-              SPAN (&94005644152528)
+              SPAN (&103486883828480)
                 attr class "polarion-table-span"
                 text "ID"
             text "\n    "
-            TH (&94005644153128)
+            TH (&103486883829080)
               attr class "polarion-table-header"
-              SPAN (&94005644153488)
+              SPAN (&103486883829440)
                 attr class "polarion-table-span"
                 text "Bezeichnung"
             text "\n    "
-            TH (&94005644154088)
+            TH (&103486883830040)
               attr class "polarion-table-header"
-              SPAN (&94005644154448)
+              SPAN (&103486883830400)
                 attr class "polarion-table-span"
                 text "Quelle (Referenz)"
             text "\n   "
           text "\n   "
-          TR (&94005644155168)
+          TR (&103486883831120)
             text "\n    "
-            TD (&94005644155472)
+            TD (&103486883831424)
               attr class "polarion-table-data"
-              A (&94005644155832)
+              A (&103486883831784)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_2330-02"
                 text "GS-A_2330-02"
             text "\n    "
-            TD (&94005644156784)
+            TD (&103486883832736)
               attr class "polarion-table-data"
               text "Hersteller: Schwachstellen-Management"
             text "\n    "
-            TD (&94005644157384)
+            TD (&103486883833336)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n   "
-          TR (&94005644158104)
+          TR (&103486883834056)
             text "\n    "
-            TD (&94005644158408)
+            TD (&103486883834360)
               attr class "polarion-table-data"
-              A (&94005644158768)
+              A (&103486883834720)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_2350-01"
                 text "GS-A_2350-01"
             text "\n    "
-            TD (&94005644159720)
+            TD (&103486883835672)
               attr class "polarion-table-data"
               text "Produktunterstützung der Hersteller"
             text "\n    "
-            TD (&94005644160320)
+            TD (&103486883836272)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n   "
-          TR (&94005644161040)
+          TR (&103486883836992)
             text "\n    "
-            TD (&94005644161344)
+            TD (&103486883837296)
               attr class "polarion-table-data"
-              A (&94005644161704)
+              A (&103486883837656)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_2354-01"
                 text "GS-A_2354-01"
             text "\n    "
-            TD (&94005644162656)
+            TD (&103486883838608)
               attr class "polarion-table-data"
               text "Produktunterstützung mit geeigneten Sicherheitstechnologien"
             text "\n    "
-            TD (&94005644163256)
+            TD (&103486883839208)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n   "
-          TR (&94005644073128)
+          TR (&103486883839944)
             text "\n    "
-            TD (&94005644073432)
+            TD (&103486883840248)
               attr class "polarion-table-data"
-              A (&94005644073792)
+              A (&103486883840608)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_2524-01"
                 text "GS-A_2524-01"
             text "\n    "
-            TD (&94005644074744)
+            TD (&103486883841560)
               attr class "polarion-table-data"
               text "Produktunterstützung: Nutzung des Problem-Management-Prozesses"
             text "\n    "
-            TD (&94005644075344)
+            TD (&103486883842160)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n   "
-          TR (&94005644076064)
+          TR (&103486883842880)
             text "\n    "
-            TD (&94005644076368)
+            TD (&103486883843184)
               attr class "polarion-table-data"
-              A (&94005644076728)
+              A (&103486883843544)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_2525-01"
                 text "GS-A_2525-01"
             text "\n    "
-            TD (&94005644077680)
+            TD (&103486883844496)
               attr class "polarion-table-data"
               text "Hersteller: Schließen von Schwachstellen"
             text "\n    "
-            TD (&94005644078280)
+            TD (&103486883845096)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n   "
-          TR (&94005644079000)
+          TR (&103486883845816)
             text "\n    "
-            TD (&94005644079304)
+            TD (&103486883846120)
               attr class "polarion-table-data"
-              A (&94005644079664)
+              A (&103486883846480)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_4944-01"
                 text "GS-A_4944-01"
             text "\n    "
-            TD (&94005644080616)
+            TD (&103486883847432)
               attr class "polarion-table-data"
               text "Produktentwicklung: Behebung von Sicherheitsmängeln"
             text "\n    "
-            TD (&94005644081216)
+            TD (&103486883848032)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n   "
-          TR (&94005644081936)
+          TR (&103486883848752)
             text "\n    "
-            TD (&94005644082240)
+            TD (&103486883849056)
               attr class "polarion-table-data"
-              A (&94005644082600)
+              A (&103486883849416)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_4945-01"
                 text "GS-A_4945-01"
             text "\n    "
-            TD (&94005644083552)
+            TD (&103486883850368)
               attr class "polarion-table-data"
               text "Produktentwicklung: Qualitätssicherung"
             text "\n    "
-            TD (&94005644084152)
+            TD (&103486883850968)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n   "
-          TR (&94005644084872)
+          TR (&103486883851688)
             text "\n    "
-            TD (&94005644085176)
+            TD (&103486883851992)
               attr class "polarion-table-data"
-              A (&94005644085536)
+              A (&103486883852352)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_4946-01"
                 text "GS-A_4946-01"
             text "\n    "
-            TD (&94005644086488)
+            TD (&103486883853304)
               attr class "polarion-table-data"
               text "Produktentwicklung: sichere Programmierung"
             text "\n    "
-            TD (&94005644087088)
+            TD (&103486883853904)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n   "
-          TR (&94005644087808)
+          TR (&103486883854624)
             text "\n    "
-            TD (&94005644088112)
+            TD (&103486883854928)
               attr class "polarion-table-data"
-              A (&94005644088472)
+              A (&103486883855288)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_DS_Hersteller/gemSpec_DS_Hersteller_V1.0.0/#GS-A_4947-01"
                 text "GS-A_4947-01"
             text "\n    "
-            TD (&94005644089424)
+            TD (&103486883856240)
               attr class "polarion-table-data"
               text "Produktentwicklung: Schutz der Vertraulichkeit und Integrität"
             text "\n    "
-            TD (&94005644090024)
+            TD (&103486883856840)
               attr class "polarion-table-data"
               text "gemSpec_DS_Hersteller"
             text "\n   "
           text "\n  "
       text "\n  "
-      DIV (&94005644090864)
+      DIV (&103486883857680)
         attr id "polarion_editor_html_block7"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005644091520)
+        DIV (&103486883858336)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text " \n  "
       text "\n  "
-      P (&94005644092296)
+      P (&103486883859112)
         attr id "polarion_90"
       text "\n  "
-      H4 (&94005644092776)
+      H4 (&103486883859592)
         attr id "3.2.3"
         text "3.2.3 Zertifizierung nach Technischer Richtlinie"
       text "\n  "
-      P (&94005644093376)
+      P (&103486883860192)
         attr id "polarion_79"
       text "\n  "
-      P (&94005644093856)
+      P (&103486883860672)
         attr id "polarion_80"
         attr class "polarion-rte-caption-paragraph"
         text " Tabelle "
-        SPAN (&94005644094512)
+        SPAN (&103486883861328)
           attr data-sequence "Tabelle"
           attr class "polarion-rte-caption"
           text "7"
         text ": Anforderungen zur sicherheitstechnischen Eignung "Zertifizierung nach Technischer Richtlinie" "
       text "\n  "
-      TABLE (&94005644095408)
+      TABLE (&103486883862224)
         attr class "polarion-table"
         text "\n   "
-        TBODY (&94005644095888)
-          TR (&94005644096072)
+        TBODY (&103486883862704)
+          TR (&103486883862888)
             text "\n    "
-            TH (&94005644096376)
+            TH (&103486883863192)
               attr class "polarion-table-header"
-              SPAN (&94005644096736)
+              SPAN (&103486883863552)
                 attr class "polarion-table-span"
                 text "ID"
             text "\n    "
-            TH (&94005644097336)
+            TH (&103486883864152)
               attr class "polarion-table-header"
-              SPAN (&94005644097696)
+              SPAN (&103486883864512)
                 attr class "polarion-table-span"
                 text "Bezeichnung"
             text "\n    "
-            TH (&94005644098296)
+            TH (&103486883865112)
               attr class "polarion-table-header"
-              SPAN (&94005644098656)
+              SPAN (&103486883865472)
                 attr class "polarion-table-span"
                 text "Quelle (Referenz)"
             text "\n   "
           text "\n   "
-          TR (&94005644099376)
+          TR (&103486883866192)
             text "\n    "
-            TD (&94005644099680)
+            TD (&103486883866496)
               attr class "polarion-table-data"
-              A (&94005644100040)
+              A (&103486883866856)
                 attr severity "MUSS"
                 attr title "Verbindlichkeit: MUSS"
                 attr href "../../../gemSpec/gemSpec_OM/gemSpec_OM_V1.11.0/#GS-A_5140"
                 text "GS-A_5140"
             text "\n    "
-            TD (&94005644100992)
+            TD (&103486883867808)
               attr class "polarion-table-data"
               text "Inhalt der Selbstauskunft von Karten"
             text "\n    "
-            TD (&94005644101592)
+            TD (&103486883868408)
               attr class "polarion-table-data"
               text "gemSpec_OM"
             text "\n   "
           text "\n  "
       text "\n  "
-      DIV (&94005644102432)
+      DIV (&103486883869248)
         attr id "polarion_editor_html_block8"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005644103088)
+        DIV (&103486883869904)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text " \n  "
       text "\n  "
-      P (&94005644103864)
+      P (&103486883870680)
         attr id "polarion_70"
       text "\n  "
-      H3 (&94005644104344)
+      H3 (&103486883871160)
         attr id "3.3"
         text "3.3 Anforderungen zur elektrischen, mechanischen und physikalischen Eignung"
       text "\n  "
-      P (&94005644104944)
+      P (&103486883871760)
         attr id "polarion_82"
         text " "
-        SPAN (&94005636731912)
+        SPAN (&103486882710984)
           attr style "color: #000000;"
           text "Der Nachweis der elektrischen, mechanischen und physikalischen Eignung ist nur dann notwendig, wenn ein COS in einem Kartenkörper zugelassen werden soll. Sofern dabei spezifische Anforderungen der gematik zu beachten sind, werden diese nachfolgend aufgeführt. Der Nachweis erfolgt durch die Vorlage des Prüfberichts."
         text " "
       text "\n  "
-      P (&94005636732608)
+      P (&103486882711680)
         attr id "polarion_83"
         attr class "polarion-rte-caption-paragraph"
         text " Tabelle "
-        SPAN (&94005636733264)
+        SPAN (&103486882712336)
           attr data-sequence "Tabelle"
           attr class "polarion-rte-caption"
           text "8"
         text ": Anforderungen zur elektrischen, mechanischen und physikalischen Eignung "
       text "\n  "
-      TABLE (&94005636734160)
+      TABLE (&103486882713232)
         attr class "polarion-table"
         text "\n   "
-        TBODY (&94005636734640)
-          TR (&94005636734824)
+        TBODY (&103486882713712)
+          TR (&103486882713896)
             text "\n    "
-            TH (&94005636735128)
+            TH (&103486882714200)
               attr class "polarion-table-header"
-              SPAN (&94005636735488)
+              SPAN (&103486882714560)
                 attr class "polarion-table-span"
                 text "ID"
             text "\n    "
-            TH (&94005636736088)
+            TH (&103486882715160)
               attr class "polarion-table-header"
-              SPAN (&94005636736448)
+              SPAN (&103486882715520)
                 attr class "polarion-table-span"
                 text "Bezeichnung"
             text "\n    "
-            TH (&94005636737048)
+            TH (&103486882716120)
               attr class "polarion-table-header"
-              SPAN (&94005636737408)
+              SPAN (&103486882716480)
                 attr class "polarion-table-span"
                 text "Quelle (Referenz)"
             text "\n   "
           text "\n  "
       text "\n  "
-      DIV (&94005636738248)
+      DIV (&103486882717320)
         attr id "polarion_editor_html_block9"
         attr class "polarion-dle-wiki-block"
         text " \n   "
-        DIV (&94005636738904)
+        DIV (&103486882717976)
           attr id "polarion_editor_html_block_content"
           attr contenteditable "false"
         text " \n  "
       text "\n  "
-      H2 (&94005636739680)
+      H2 (&103486882718752)
         attr id "4"
         text "4 spezifische Merkmale des Zulassungsobjektes"
       text "\n  "
-      P (&94005636740280)
+      P (&103486882719352)
         attr id "polarion_86"
         text " "
-        SPAN (&94005636740760)
+        SPAN (&103486882719832)
           attr style "color: #000000;"
           text "Die Spezifikation COS [gemSpec_COS] lässt folgende Optionen zu:"
         text " "
       text "\n  "
-      UL (&94005636741480)
+      UL (&103486882720552)
         attr id "polarion_87"
         text " \n   "
-        LI (&94005636741960)
-          SPAN (&94005636742144)
+        LI (&103486882721032)
+          SPAN (&103486882721216)
             attr style "color: #000000;"
             text "Bereitstellung logischer Kanäle gemäß [gemSpec_COS#2]"
         text " \n   "
-        LI (&94005636742744)
-          SPAN (&94005636742928)
+        LI (&103486882721816)
+          SPAN (&103486882722000)
             attr style "color: #000000;"
             text "Bereitstellung der Funktion Kryptobox gemäß [gemSpec_COS#2]"
         text " \n   "
-        LI (&94005636743528)
-          SPAN (&94005636743712)
+        LI (&103486882722600)
+          SPAN (&103486882722784)
             attr style "color: #000000;"
             text "Bereitstellung einer kontaktlosen Schnittstelle gemäß [gemSpec_COS#2]"
         text " \n   "
-        LI (&94005636744312)
-          SPAN (&94005636744496)
+        LI (&103486882723384)
+          SPAN (&103486882723568)
             attr style "color: #000000;"
             text "Bereitstellung der Option_PACE_PCD gemäß [gemSpec_COS#2]"
         text " \n   "
-        LI (&94005636745096)
-          SPAN (&94005636745280)
+        LI (&103486882724168)
+          SPAN (&103486882724352)
             attr style "color: #000000;"
             text "Bereitstellung einer USB-Schnittstelle gemäß [gemSpec_COS#2]"
-          BR (&94005636745760)
+          BR (&103486882724832)
           text " "
         text " \n  "
       text "\n  "
-      H2 (&94005636746304)
+      H2 (&103486882725376)
         attr id "5"
         text "5 Anhang A – Verzeichnisse"
       text "\n  "
-      H3 (&94005636746904)
+      H3 (&103486882725976)
         attr id "5.1"
         text "5.1 Abkürzungen"
       text "\n  "
-      TABLE (&94005636747504)
+      TABLE (&103486882726576)
         attr id "polarion_wiki macro name=table;params=uid=3"
         attr class "polarion-Document-table"
         attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
         text " \n   "
-        TBODY (&94005636748336)
+        TBODY (&103486882727408)
           text " \n    "
-          TR (&94005636748640)
+          TR (&103486882727712)
             text " \n     "
-            TH (&94005636748944)
+            TH (&103486882728016)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 80pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636749304)
+              SPAN (&103486882728376)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Kürzel"
-              BR (&94005636749784)
+              BR (&103486882728856)
               text " "
             text " \n     "
-            TH (&94005636750208)
+            TH (&103486882729280)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 361pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636750568)
+              SPAN (&103486882729640)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Erläuterung"
-              BR (&94005636751048)
+              BR (&103486882730120)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005636751592)
+          TR (&103486882730664)
             text " \n     "
-            TD (&94005636751896)
+            TD (&103486882730968)
               attr style "text-align: left;vertical-align: top;width: 80pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636752256)
+              SPAN (&103486882731328)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Afo-ID"
-              BR (&94005636752736)
+              BR (&103486882731808)
               text " "
             text " \n     "
-            TD (&94005636753160)
+            TD (&103486882732232)
               attr style "text-align: left;vertical-align: top;width: 361pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636753520)
+              SPAN (&103486882732592)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Anforderungs-Identifikation"
-              BR (&94005636754000)
+              BR (&103486882733072)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005636754544)
+          TR (&103486882733616)
             text " \n     "
-            TD (&94005636754848)
+            TD (&103486882733920)
               attr style "text-align: left;vertical-align: top;width: 80pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636755208)
+              SPAN (&103486882734280)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "CC"
-              BR (&94005636755688)
+              BR (&103486882734760)
               text " "
             text " \n     "
-            TD (&94005636756112)
+            TD (&103486882735184)
               attr style "text-align: left;vertical-align: top;width: 361pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005636756472)
+              SPAN (&103486882735544)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Common Criteria"
-              BR (&94005636756952)
+              BR (&103486882736024)
               text " "
             text " \n    "
           text " \n   "
         text " \n  "
       text "\n  "
-      H3 (&94005636757736)
+      H3 (&103486882736808)
         attr id "5.2"
         text "5.2 Tabellenverzeichnis"
       text "\n  "
-      DIV (&94005636758336)
+      DIV (&103486882737408)
         attr data-sequence "Tabelle"
         attr id "polarion_wiki macro name=tof;params=uid=1"
       text "\n  "
-      DIV (&94005636758992)
+      DIV (&103486882738064)
         attr id "toc_container"
         text "\n   "
-        P (&94005636759472)
+        P (&103486882738544)
           attr class "toc_title"
-        H1 (&94005636759832)
-        P (&94005636760016)
+        H1 (&103486882738904)
+        P (&103486882739088)
         text "\n   "
-        UL (&94005636760320)
+        UL (&103486882739392)
           text "\n    "
-          LI (&94005636760624)
-            A (&94005636760808)
+          LI (&103486882739696)
+            A (&103486882739880)
               attr href "#polarion_46"
               text "Tabelle 1: Dokumente mit Anforderungen zu der Produkttypversion"
           text "\n    "
-          LI (&94005636761408)
-            A (&94005636761592)
+          LI (&103486882740480)
+            A (&103486882740664)
               attr href "#polarion_49"
               text "Tabelle 2: Mitgeltende Dokumente"
           text "\n    "
-          LI (&94005636762192)
-            A (&94005636762376)
+          LI (&103486882741264)
+            A (&103486882741448)
               attr href "#polarion_58"
               text "Tabelle 3: Anforderungen zur funktionalen Eignung "Produkttest/Produktübergreifender Test""
           text "\n    "
-          LI (&94005636762976)
-            A (&94005636763160)
+          LI (&103486882742048)
+            A (&103486882742232)
               attr href "#polarion_63"
               text "Tabelle 4: Anforderungen zur funktionalen Eignung "Herstellererklärung""
           text "\n    "
-          LI (&94005636763760)
-            A (&94005636763944)
+          LI (&103486882742832)
+            A (&103486882743016)
               attr href "#polarion_69"
               text "Tabelle 5: Anforderungen zur sicherheitstechnischen Eignung "CC-Evaluierung""
           text "\n    "
-          LI (&94005621116744)
-            A (&94005621116928)
+          LI (&103486882743768)
+            A (&103486882743952)
               attr href "#polarion_76"
               text "Tabelle 6: Anforderungen zur sicherheitstechnischen Eignung "Herstellererklärung""
           text "\n    "
-          LI (&94005621117504)
-            A (&94005621117688)
+          LI (&103486882744528)
+            A (&103486882744712)
               attr href "#polarion_80"
               text "Tabelle 7: Anforderungen zur sicherheitstechnischen Eignung "Zertifizierung nach Technischer Richtlinie""
           text "\n    "
-          LI (&94005621118288)
-            A (&94005621118472)
+          LI (&103486882745312)
+            A (&103486882745496)
               attr href "#polarion_83"
               text "Tabelle 8: Anforderungen zur elektrischen, mechanischen und physikalischen Eignung"
           text "\n   "
         text "\n  "
       text "\n  "
-      H3 (&94005621119312)
+      H3 (&103486882746336)
         attr id "5.3"
         text "5.3 Referenzierte Dokumente"
       text "\n  "
-      P (&94005621119912)
+      P (&103486882746936)
         attr id "polarion_91"
         text " "
-        SPAN (&94005621120392)
+        SPAN (&103486882747416)
           attr style "color: #000000;"
           text "Neben den in Kapitel 2 angeführten Dokumenten werden referenziert: "
-        BR (&94005621120872)
+        BR (&103486882747896)
         text " "
       text "\n  "
-      TABLE (&94005621121296)
+      TABLE (&103486882748320)
         attr id "polarion_wiki macro name=table;params=uid=4"
         attr class "polarion-Document-table"
         attr style "width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"
         text " \n   "
-        TBODY (&94005621122128)
+        TBODY (&103486882749152)
           text " \n    "
-          TR (&94005621122432)
+          TR (&103486882749456)
             text " \n     "
-            TH (&94005621122736)
+            TH (&103486882749760)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 118pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005621123096)
+              SPAN (&103486882750120)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "[Quelle]"
-              BR (&94005621123576)
+              BR (&103486882750600)
               text " "
             text " \n     "
-            TH (&94005621124000)
+            TH (&103486882751024)
               attr style "font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 325pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005621124360)
+              SPAN (&103486882751384)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "Herausgeber: Titel, Version"
-              BR (&94005621124840)
+              BR (&103486882751864)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005621125384)
+          TR (&103486882752408)
             text " \n     "
-            TD (&94005621125688)
+            TD (&103486882752712)
               attr style "text-align: left;vertical-align: top;width: 118pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005621126048)
+              SPAN (&103486882753072)
                 attr style "color: #000000;"
                 text "["
-              SPAN (&94005621126528)
+              SPAN (&103486882753552)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"
                 text "CC-PP-0082]"
             text " \n     "
-            TD (&94005621127128)
+            TD (&103486882754152)
               attr style "text-align: left;vertical-align: top;width: 325pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
               text "BSI (21.11.2014): Common Criteria Protection Profile Card Operating System Generation 2 (COS), Version 3.1 R4, BSI-CC-PP-0082"
             text " \n    "
           text " \n    "
-          TR (&94005621127848)
+          TR (&103486882754872)
             text " \n     "
-            TD (&94005621128152)
+            TD (&103486882755176)
               attr style "text-align: left;vertical-align: top;width: 118pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
               text "[CC]"
-              BR (&94005621128632)
+              BR (&103486882755656)
               text " "
             text " \n     "
-            TD (&94005621129056)
+            TD (&103486882756080)
               attr style "text-align: left;vertical-align: top;width: 325pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
               text "Internationaler Standard: Common Criteria for Information Technology Security Evaluation"
-              BR (&94005621129536)
+              BR (&103486882756560)
               text " "
-              A (&94005621129840)
+              A (&103486882756864)
                 attr href "https://www.commoncriteriaportal.org/cc/"
                 attr target "_top"
                 attr class "descriptionLink"
@@ -2877,67 +2877,67 @@ DEBUG OUTPUT: TABLE OF CONTENTS
               text "  "
             text " \n    "
           text " \n    "
-          TR (&94005621131032)
+          TR (&103486882758056)
             text " \n     "
-            TD (&94005621131336)
+            TD (&103486882758360)
               attr style "text-align: left;vertical-align: top;width: 118pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005621131696)
+              SPAN (&103486882758720)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "[gemSpec_COS]"
-              BR (&94005621132176)
+              BR (&103486882759200)
               text " "
             text " \n     "
-            TD (&94005621132600)
+            TD (&103486882759624)
               attr style "text-align: left;vertical-align: top;width: 325pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005621132960)
+              SPAN (&103486882759984)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "gematik: Spezifikation des Card Operating System (COS) Elektrische Schnittstelle"
-              BR (&94005621133440)
+              BR (&103486882760464)
               text " "
             text " \n    "
           text " \n    "
-          TR (&94005621133984)
+          TR (&103486882761008)
             text " \n     "
-            TD (&94005621134288)
+            TD (&103486882761312)
               attr style "text-align: left;vertical-align: top;width: 118pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005621134648)
+              SPAN (&103486882761672)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "[gemRL_PruefSichEig]."
-              BR (&94005621135128)
+              BR (&103486882762152)
               text " "
             text " \n     "
-            TD (&94005621135552)
+            TD (&103486882762576)
               attr style "text-align: left;vertical-align: top;width: 325pt;height: auto;border: 1px solid #CCCCCC;padding: 5px;"
-              SPAN (&94005621135912)
+              SPAN (&103486882762936)
                 attr style "font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;"
                 text "gematik: Richtlinie zur Prüfung der Sicherheitseignung"
-              BR (&94005621136392)
+              BR (&103486882763416)
               text " "
             text " \n    "
           text " \n   "
         text " \n  "
       text "\n  "
-      P (&94005621137176)
+      P (&103486882764200)
         attr id "polarion_3"
       text "\n  "
-      DIV (&94005621137656)
+      DIV (&103486882764680)
         attr id "ML-119471"
         attr severity "nicht definiert"
         text "\n   "
-        P (&94005621138312)
-          B (&94005621138496)
+        P (&103486882765336)
+          B (&103486882765520)
             text "ML-119471 - gemProdT_COS_PTV_4.4.0-0"
         text "\n   "
-        P (&94005621138920)
+        P (&103486882765944)
           text " "
-          B (&94005621139224)
+          B (&103486882766248)
             text "[<=]"
         text "\n  "
       text "\n  "
-      P (&94005621139768)
+      P (&103486882766792)
         attr id "polarion_94"
         text " "
-        BR (&94005621140248)
+        BR (&103486882767272)
         text " "
       text "\n \n"
 
@@ -3079,41 +3079,41 @@ zur Prüfung der Sicherheitseignung<br>ML-119471 - gemProdT_COS_PTV_4.4.0-0 [<=]
 03. CHAPTERS
 ========================================================================================================================
 
-Historie Produkttypversion und Produkttypsteckbrief (&94005619014600)
- (&94005632362240)
-1 Einführung (&94005637031320)
-1.1 Zielsetzung und Einordnung des Dokumentes (&94005637031920)
-1.2 Zielgruppe (&94005637035520)
-1.3 Geltungsbereich (&94005637037320)
-1.4 Abgrenzung des Dokumentes (&94005637039120)
-1.5 Methodik (&94005637042120)
-2 Dokumente (&94005637049968)
-3 Blattanforderungen (&94005639471224)
-3.1 Anforderungen zur funktionalen Eignung (&94005639473024)
-3.1.1 Produkttest/Produktübergreifender Test (&94005639473624)
-3.1.2 Herstellererklärung funktionale Eignung (&94005639480392)
-3.2 Anforderungen zur sicherheitstechnischen Eignung (&94005636949128)
-3.2.1 CC-Evaluierung (&94005636949728)
-3.2.2 Herstellererklärung sicherheitstechnische Eignung (&94005644147848)
-3.2.3 Zertifizierung nach Technischer Richtlinie (&94005644092776)
-3.3 Anforderungen zur elektrischen, mechanischen und physikalischen Eignung (&94005644104344)
-4 spezifische Merkmale des Zulassungsobjektes (&94005636739680)
-5 Anhang A – Verzeichnisse (&94005636746304)
-5.1 Abkürzungen (&94005636746904)
-5.2 Tabellenverzeichnis (&94005636757736)
-5.3 Referenzierte Dokumente (&94005621119312)
+Historie Produkttypversion und Produkttypsteckbrief (&103486891703048)
+ (&103486884077936)
+1 Einführung (&103486884034552)
+1.1 Zielsetzung und Einordnung des Dokumentes (&103486884035152)
+1.2 Zielgruppe (&103486884038752)
+1.3 Geltungsbereich (&103486884040552)
+1.4 Abgrenzung des Dokumentes (&103486884042352)
+1.5 Methodik (&103486884045352)
+2 Dokumente (&103486884053200)
+3 Blattanforderungen (&103486879361928)
+3.1 Anforderungen zur funktionalen Eignung (&103486879363728)
+3.1.1 Produkttest/Produktübergreifender Test (&103486879364328)
+3.1.2 Herstellererklärung funktionale Eignung (&103486879371096)
+3.2 Anforderungen zur sicherheitstechnischen Eignung (&103486884150600)
+3.2.1 CC-Evaluierung (&103486884151200)
+3.2.2 Herstellererklärung sicherheitstechnische Eignung (&103486883823800)
+3.2.3 Zertifizierung nach Technischer Richtlinie (&103486883859592)
+3.3 Anforderungen zur elektrischen, mechanischen und physikalischen Eignung (&103486883871160)
+4 spezifische Merkmale des Zulassungsobjektes (&103486882718752)
+5 Anhang A – Verzeichnisse (&103486882725376)
+5.1 Abkürzungen (&103486882725976)
+5.2 Tabellenverzeichnis (&103486882736808)
+5.3 Referenzierte Dokumente (&103486882746336)
 
 
 ========================================================================================================================
 04. TABLE COMPOSITION DETAILS
 ========================================================================================================================
 
-TABLE WITH NO TITLE (&94005618999440)
+TABLE WITH NO TITLE (&103486891687888)
         _______
   ROW: |___|___|
   ROW: |___|___|
 
-TABLE WITH NO TITLE (&94005619006240)
+TABLE WITH NO TITLE (&103486891694688)
         _______
   ROW: |___|___|
   ROW: |___|___|
@@ -3122,7 +3122,7 @@ TABLE WITH NO TITLE (&94005619006240)
   ROW: |___|___|
   ROW: |___|___|
 
-TABLE WITH NO TITLE (&94005623483112)
+TABLE WITH NO TITLE (&103486879759208)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
@@ -3136,14 +3136,14 @@ TABLE WITH NO TITLE (&94005623483112)
   ROW: |___|___|___|
   ROW: |___|___|___|
 
-TABLE WITH NO TITLE (&94005638679808)
+TABLE WITH NO TITLE (&103486883771712)
         ___________________
   ROW: |___|___|___|___|___|
   ROW: |___|___|___|___|___|
   ROW: |___|___|___|___|___|
   ROW: |___|___|___|___|___|
 
- Tabelle 1: Dokumente mit Anforderungen zu der Produkttypversion  (&94005618673560)
+ Tabelle 1: Dokumente mit Anforderungen zu der Produkttypversion  (&103486880554088)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
@@ -3153,7 +3153,7 @@ TABLE WITH NO TITLE (&94005638679808)
   ROW: |___|___|___|
   ROW: |___|___|___|
 
- Tabelle 2: Mitgeltende Dokumente  (&94005618697040)
+ Tabelle 2: Mitgeltende Dokumente  (&103486880577568)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
@@ -3177,7 +3177,7 @@ TABLE WITH NO TITLE (&94005638679808)
   ROW: |___|___|___|
   ROW: |___|___|___|
 
-TABLE WITH NO TITLE (&94005619046016)
+TABLE WITH NO TITLE (&103486891494816)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
@@ -3186,7 +3186,7 @@ TABLE WITH NO TITLE (&94005619046016)
  Tabelle 3: Anforderungen zur funktionalen Eignung  "Produkttest/Produktübergreifender Test"  
   <NO TABLE FOUND!>
 
- Tabelle 4: Anforderungen zur funktionalen Eignung "Herstellererklärung"  (&94005639484224)
+ Tabelle 4: Anforderungen zur funktionalen Eignung "Herstellererklärung"  (&103486879374928)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
@@ -3197,20 +3197,20 @@ TABLE WITH NO TITLE (&94005619046016)
   ROW: |___|___|___|
   ROW: |___|___|___|
 
-TABLE WITH NO TITLE (&94005636930408)
+TABLE WITH NO TITLE (&103486884131880)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
   ROW: |___|___|___|
   ROW: |___|___|___|
 
- Tabelle 5: Anforderungen zur sicherheitstechnischen Eignung "CC-Evaluierung"  (&94005644135976)
+ Tabelle 5: Anforderungen zur sicherheitstechnischen Eignung "CC-Evaluierung"  (&103486883811928)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
   ROW: |___|___|___|
 
- Tabelle 6: Anforderungen zur sicherheitstechnischen Eignung "Herstellererklärung"  (&94005644151200)
+ Tabelle 6: Anforderungen zur sicherheitstechnischen Eignung "Herstellererklärung"  (&103486883827152)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
@@ -3223,22 +3223,22 @@ TABLE WITH NO TITLE (&94005636930408)
   ROW: |___|___|___|
   ROW: |___|___|___|
 
- Tabelle 7: Anforderungen zur sicherheitstechnischen Eignung "Zertifizierung nach Technischer Richtlinie"  (&94005644095408)
+ Tabelle 7: Anforderungen zur sicherheitstechnischen Eignung "Zertifizierung nach Technischer Richtlinie"  (&103486883862224)
         ___________
   ROW: |___|___|___|
   ROW: |___|___|___|
 
- Tabelle 8: Anforderungen zur elektrischen, mechanischen und physikalischen Eignung  (&94005636734160)
+ Tabelle 8: Anforderungen zur elektrischen, mechanischen und physikalischen Eignung  (&103486882713232)
         ___________
   ROW: |___|___|___|
 
-TABLE WITH NO TITLE (&94005636747504)
+TABLE WITH NO TITLE (&103486882726576)
         _______
   ROW: |___|___|
   ROW: |___|___|
   ROW: |___|___|
 
-TABLE WITH NO TITLE (&94005621121296)
+TABLE WITH NO TITLE (&103486882748320)
         _______
   ROW: |___|___|
   ROW: |___|___|
@@ -3496,68 +3496,68 @@ title: Verbindlichkeit: MUSS
 07. MODEL TABLES
 ========================================================================================================================
 
-(&00000000)(&94005618999440) 
-(&00000000)(&94005619006240) 
-(&00000000)(&94005623483112) 
-(&00000000)(&94005638679808) 
-(&94005637053624)(&94005618673560)  Tabelle 1: Dokumente mit Anforderungen zu der Produkttypversion 
-(&94005618695488)(&94005618697040)  Tabelle 2: Mitgeltende Dokumente 
-(&00000000)(&94005619046016) 
-(&94005639476624)(&00000000)  Tabelle 3: Anforderungen zur funktionalen Eignung  "Produkttest/Produktübergreifender Test" 
-(&94005639482672)(&94005639484224)  Tabelle 4: Anforderungen zur funktionalen Eignung "Herstellererklärung" 
-(&00000000)(&94005636930408) 
-(&94005644134424)(&94005644135976)  Tabelle 5: Anforderungen zur sicherheitstechnischen Eignung "CC-Evaluierung" 
-(&94005644149648)(&94005644151200)  Tabelle 6: Anforderungen zur sicherheitstechnischen Eignung "Herstellererklärung" 
-(&94005644093856)(&94005644095408)  Tabelle 7: Anforderungen zur sicherheitstechnischen Eignung "Zertifizierung nach Technischer Richtlinie" 
-(&94005636732608)(&94005636734160)  Tabelle 8: Anforderungen zur elektrischen, mechanischen und physikalischen Eignung 
-(&00000000)(&94005636747504) 
-(&00000000)(&94005621121296) 
+(&00000000)(&103486891687888) 
+(&00000000)(&103486891694688) 
+(&00000000)(&103486879759208) 
+(&00000000)(&103486883771712) 
+(&103486884056856)(&103486880554088)  Tabelle 1: Dokumente mit Anforderungen zu der Produkttypversion 
+(&103486880576016)(&103486880577568)  Tabelle 2: Mitgeltende Dokumente 
+(&00000000)(&103486891494816) 
+(&103486879367328)(&00000000)  Tabelle 3: Anforderungen zur funktionalen Eignung  "Produkttest/Produktübergreifender Test" 
+(&103486879373376)(&103486879374928)  Tabelle 4: Anforderungen zur funktionalen Eignung "Herstellererklärung" 
+(&00000000)(&103486884131880) 
+(&103486883810376)(&103486883811928)  Tabelle 5: Anforderungen zur sicherheitstechnischen Eignung "CC-Evaluierung" 
+(&103486883825600)(&103486883827152)  Tabelle 6: Anforderungen zur sicherheitstechnischen Eignung "Herstellererklärung" 
+(&103486883860672)(&103486883862224)  Tabelle 7: Anforderungen zur sicherheitstechnischen Eignung "Zertifizierung nach Technischer Richtlinie" 
+(&103486882711680)(&103486882713232)  Tabelle 8: Anforderungen zur elektrischen, mechanischen und physikalischen Eignung 
+(&00000000)(&103486882726576) 
+(&00000000)(&103486882748320) 
 
 
 ========================================================================================================================
 08. MODEL REQUIREMENTS
 ========================================================================================================================
 
-(&94005618701672)(&00000000) G2_N000.300
-(&94005618704608)(&00000000) GS-A_4362
-(&94005636975264)(&00000000) GS-A_4363
-(&94005636978200)(&00000000) GS-A_4364
-(&94005636981136)(&00000000) GS-A_4365
-(&94005636984072)(&00000000) GS-A_4366
-(&94005636987008)(&00000000) GS-A_4377
-(&94005636989944)(&00000000) GS-A_4378
-(&94005636992880)(&00000000) GS-A_4379
-(&94005636995816)(&00000000) GS-A_4380
-(&94005636998752)(&00000000) GS-A_4381
-(&94005637001688)(&00000000) GS-A_3695
-(&94005637004624)(&00000000) GS-A_3700
-(&94005619026008)(&00000000) GS-A_5026
-(&94005619028944)(&00000000) GS-A_5140
-(&94005619031880)(&00000000) GS-A_4668
-(&94005619034816)(&00000000) GS-A_5009
-(&94005619037752)(&00000000) GS-A_5010
-(&94005619040688)(&00000000) GS-A_5011
-(&94005619043624)(&00000000) GS-A_5012
-(&94005639488856)(&00000000) GS-A_2162
-(&94005639491792)(&00000000) TIP1-A_4191
-(&94005639494728)(&00000000) GS-A_3696
-(&94005636917320)(&00000000) GS-A_3697
-(&94005636920232)(&00000000) GS-A_4542
-(&94005636923168)(&00000000) GS-A_5038
-(&94005636926104)(&00000000) GS-A_5039
-(&94005644140608)(&00000000) GS-A_4367
-(&94005644143544)(&00000000) GS-A_4368
-(&94005644155832)(&00000000) GS-A_2330-02
-(&94005644158768)(&00000000) GS-A_2350-01
-(&94005644161704)(&00000000) GS-A_2354-01
-(&94005644073792)(&00000000) GS-A_2524-01
-(&94005644076728)(&00000000) GS-A_2525-01
-(&94005644079664)(&00000000) GS-A_4944-01
-(&94005644082600)(&00000000) GS-A_4945-01
-(&94005644085536)(&00000000) GS-A_4946-01
-(&94005644088472)(&00000000) GS-A_4947-01
-(&94005644100040)(&00000000) GS-A_5140
-(&94005621137656)(&94005621139224) ML-119471
+(&103486880582200)(&00000000) G2_N000.300
+(&103486880585136)(&00000000) GS-A_4362
+(&103486891532000)(&00000000) GS-A_4363
+(&103486891534936)(&00000000) GS-A_4364
+(&103486891537872)(&00000000) GS-A_4365
+(&103486891540808)(&00000000) GS-A_4366
+(&103486891543744)(&00000000) GS-A_4377
+(&103486891546680)(&00000000) GS-A_4378
+(&103486891549616)(&00000000) GS-A_4379
+(&103486891552552)(&00000000) GS-A_4380
+(&103486891555488)(&00000000) GS-A_4381
+(&103486891558424)(&00000000) GS-A_3695
+(&103486891561360)(&00000000) GS-A_3700
+(&103486891474808)(&00000000) GS-A_5026
+(&103486891477744)(&00000000) GS-A_5140
+(&103486891480680)(&00000000) GS-A_4668
+(&103486891483616)(&00000000) GS-A_5009
+(&103486891486552)(&00000000) GS-A_5010
+(&103486891489488)(&00000000) GS-A_5011
+(&103486891492424)(&00000000) GS-A_5012
+(&103486879379560)(&00000000) GS-A_2162
+(&103486879382496)(&00000000) TIP1-A_4191
+(&103486879385432)(&00000000) GS-A_3696
+(&103486884118792)(&00000000) GS-A_3697
+(&103486884121704)(&00000000) GS-A_4542
+(&103486884124640)(&00000000) GS-A_5038
+(&103486884127576)(&00000000) GS-A_5039
+(&103486883816560)(&00000000) GS-A_4367
+(&103486883819496)(&00000000) GS-A_4368
+(&103486883831784)(&00000000) GS-A_2330-02
+(&103486883834720)(&00000000) GS-A_2350-01
+(&103486883837656)(&00000000) GS-A_2354-01
+(&103486883840608)(&00000000) GS-A_2524-01
+(&103486883843544)(&00000000) GS-A_2525-01
+(&103486883846480)(&00000000) GS-A_4944-01
+(&103486883849416)(&00000000) GS-A_4945-01
+(&103486883852352)(&00000000) GS-A_4946-01
+(&103486883855288)(&00000000) GS-A_4947-01
+(&103486883866856)(&00000000) GS-A_5140
+(&103486882764680)(&103486882766248) ML-119471
 
 
 ========================================================================================================================
@@ -3615,8 +3615,8 @@ title: Verbindlichkeit: MUSS
 10. MODEL PLACEHOLDERS
 ========================================================================================================================
 
-Table of contents: (&94005632362240)
-List of tables: (&94005636757736)
+Table of contents: (&103486884077936)
+List of tables: (&103486882736808)
 List of images: empty
 
 
@@ -3645,6 +3645,6 @@ Produkttypsteckbrief
 13. ERRORS AND WARNINGS
 ========================================================================================================================
 
-WARNING: Table not found!  Tabelle 3: Anforderungen zur funktionalen Eignung  "Produkttest/Produktübergreifender Test" (&94005639476624)
+WARNING: Table not found!  Tabelle 3: Anforderungen zur funktionalen Eignung  "Produkttest/Produktübergreifender Test" (&103486879367328)
 
 
