@@ -23,6 +23,22 @@ mit Unterstützung durch GitHub, GitLab, Reddit, Qt, Stack Overflow und anderen.
 /// _Unfortunately there is no (modern) markdown standard; but CommonMark is a widely accepted dialect, supported 
 by GitHub, GitLab, Reddit, Qt, Stack Overflow and others._
 
+**gMD-Syntax** ist somit eine Erweiterung von konventionellem Markdown, um zusätzliche Funktionen. Im Vergleich zu traditionellem Markdown, das auf einfache Textformatierung und grundlegende Elemente wie Überschriften, Listen, Links und Bilder beschränkt ist, bietet gMD erweiterte Funktionen wie:
+
+- **Automatische Nummerierung in Überschriften und Listen**: Im Gegensatz zu herkömmlichem Markdown, das nur statische Nummern oder Bullets für Listen und Überschriften unterstützt, ermöglicht gMD automatische Nummerierungen.
+
+- **Komplexere Tabellenfunktionen**: Erweiterte Optionen für Zellspannen (sowohl horizontal als auch vertikal) und spezifische Formatierungen.
+
+- **Einbettung von Berechnungen (Calc)**: Ermöglicht das Einbetten von mathematischen Ausdrücken und deren Berechnung, was im Standard-Markdown nicht vorhanden ist.
+
+- **Erweiterte Bild- und Link-Definitionen**: Über spezielle Pragmas können Bilder und Links vordefiniert und im Text wiederverwendet werden.
+
+- **Verschlüsselte Inhalte (Secret)**: Ein Feature, das es ermöglicht, verschlüsselten Text in Dokumente einzubetten, was in Standard-Markdown nicht verfügbar ist.
+
+- **Erweiterte Tag-Definitionen und Pragmas**: Ermöglicht die Definition neuer Tags und spezieller Anweisungen, die über die Fähigkeiten von Standard-Markdown hinausgehen.
+
+- **Funktionsdefinitionen für interaktive Elemente**: Die Möglichkeit, Funktionen zu definieren und zu verwenden, ist eine signifikante Erweiterung gegenüber dem Standard-Markdown.
+
 ---
 
 ## Continous-Integration ([ci.yml])
