@@ -8,9 +8,9 @@ g<sub>ema</sub>TI<sup>k</sup> Markdown Prototype
 
 Dieses Repository dient der Entwicklung der initialen Syntaxdefinition (siehe: [gmd-syntax.md](gmd-syntax.md)) für den Prototyp eines freien menschen- und 
 maschinenlesbaren Formats für die zulassungsrelevanten Dokumente der [gematik]. gMD basiert auf [CommonMark]¹ und 
-wird durch die Definitionen in input/[gmd-definitions.yml] erweitert.
+wird durch die Definitionen in input/[gmd-definitions.yml] erweitert. Für eine Einführung in Mardown, siehe: [markdownguide].
 /// _This repository is for development of the initial syntax definition (see: gmd-syntax.md)for certification-relevant gematik documents. 
-gMD is based on CommonMark¹ and is extended by the definitions found in input/gmd-definitions.yml._
+gMD is based on CommonMark¹ and is extended by the definitions found in input/gmd-definitions.yml. For an Introduction to Markdown please refer to markdownguide_
 
 Aktuelle Testbeispiele ٭ _current test examples_:
 
@@ -111,6 +111,7 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 [output]: output
 [gematik]: https://www.gematik.de
 [commonmark]: https://commonmark.org
+[markdownguide]: https://www.markdownguide.org
 [gmd-definitions.yml]: input/gmd-definitions.yml
 [gpc]: https://github.com/volkerdoerr/gmd/releases/tag/wip
 [ci.yml]: https://github.com/volkerdoerr/gmd/actions/workflows/ci.yml
